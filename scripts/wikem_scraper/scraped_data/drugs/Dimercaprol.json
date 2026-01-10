@@ -1,0 +1,147 @@
+{
+  "drug_name": "Dimercaprol",
+  "url": "https://wikem.org/wiki/Dimercaprol",
+  "scraped_at": "2026-01-10T07:51:55.621418",
+  "sections": {
+    "Administration": {
+      "text": "Type: Chelator,\nAntidote\nDosage Forms:\nRoutes of Administration: IM\nCommon Trade Names: British antilewisite (BAL)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Arsenic\nor gold toxicity, mild: 2.5 mg/kg IM 4 times per day x 2 days, BID on day 3, then daily x 10 days\nArsenic or gold toxicity, severe: 3 mg/kg IM q4 hours x 2 days, 4 times on day 3, then BID x 10 days\nMercury toxicity\n: 5mg/kg IM on day 1, then 2.5 mg/kg 1-2 times daily x 10 days\nLead poisoning\n, mild: 4 mg/kg IM for initial dose, then 3 mg/kg q4 hourr for 2-7 days  in combination with edetate calcium disodium (\nEDTA\n)\nLead poisoning, severe: 4 mg/kg IM every 4 hr for 2-7 days in combination with edetate calcium disodium (\nEDTA\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Lead poisoning",
+          "url": "https://wikem.org/wiki/Lead_poisoning"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Same as above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: use at reduced dose and with caution\nHepatic dosing: contraindicated in hepatic insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHepatic insufficiency (unless due to arsenic)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Tachycardia, hypertension\nFever",
+          "tables": []
+        },
+        "Common": {
+          "text": "Fever\nBronchospasm, chest tightness\nHeadache, paresthesias, tremor\nBlepharospasm, conjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Tachycardia, hypertension\nFever",
+      "subsections": {
+        "Common": {
+          "text": "Fever\nBronchospasm, chest tightness\nHeadache, paresthesias, tremor\nBlepharospasm, conjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Fever\nBronchospasm, chest tightness\nHeadache, paresthesias, tremor\nBlepharospasm, conjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds thiol group on heavy metals, preventing those groups from binding/inhibiting enzymes and allowing urinary excretion of metals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)\nHeavy metals\nAntidotes\nArsenic\nLead toxicity\nMercury toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        }
+      ]
+    }
+  }
+}

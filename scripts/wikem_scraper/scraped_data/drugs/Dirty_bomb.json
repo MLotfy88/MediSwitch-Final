@@ -1,0 +1,142 @@
+{
+  "drug_name": "Dirty_bomb",
+  "url": "https://wikem.org/wiki/Dirty_bomb",
+  "scraped_at": "2026-01-10T07:51:59.291935",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"Radiological Dispersal Device\"\n[1]\nConsists of radioactive material packaged into non-nuclear (conventional) bomb\n[1]\nNo nuclear fusion/fission occurs\nDetonation causes injuries from conventional explosion and also spreads radioactive material, causing radiation injuries and cancer\nRadioactive material spread locally via blast, and carried more distantly via aerosolized or particulate \"plumes\"\nMultiple radioisotopes from various sources (e.g. nuclear fuel waste, medical radiography, etc) could be employed\nMost injuries and deaths will be caused by blast injuries, not radiation injury\n[2]\nTriage of patients by radiation dose received is important and should be coordinated with disaster response officials.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "See\nBlast injury\nand\nAcute radiation syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blast injury",
+          "url": "https://wikem.org/wiki/Blast_injury"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Determined by injuries\nIf\nAcute radiation syndrome\nsuspected, establishing baseline with CBC and CMP is appropriate.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Priority is treatment of blast injuries and burns\nED treatment of\nAcute radiation syndrome\nis primarily supportive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most patients require admission.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Disaster medicine\nAcute radiation syndrome\nRadiation exposure (disaster)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Disaster medicine",
+          "url": "https://wikem.org/wiki/Disaster_medicine"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        },
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        }
+      ]
+    }
+  }
+}

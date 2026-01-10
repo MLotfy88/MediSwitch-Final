@@ -1,0 +1,339 @@
+{
+  "drug_name": "Dilated_cardiomyopathy",
+  "url": "https://wikem.org/wiki/Dilated_cardiomyopathy",
+  "scraped_at": "2026-01-10T07:52:01.339087",
+  "sections": {
+    "Background": {
+      "text": "Heart is dilated with poor contraction and EF",
+      "subsections": {
+        "Causes": {
+          "text": "Idiopathic (25% of\nCHF\n)\nViral/chronic myocarditis (most common identifiable cause)\nOther causes\nIschemic\nOther infectious -\nHIV\n,\nLyme\n,\nChagas\nFamilial dilated cardiomyopathy\nHypertensive dilated cardiomyopathy\nToxic (\nETOH\n/\nberiberi\n,\ncocaine\n,\nmethamphetamine\n, chemo,\nheavy metals\n)\nHyperthyroidism\nSarcoidosis\nPeripartum cardiomyopathy\nKawasaki disease\nAutoimmune,\nSLE\nConnective tissue disease\nInfiltrative disease\nMitochondrial disease\nTachycardia\n-mediated\nESRD\nEosinophilic (\nChurg-Strauss syndrome\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Idiopathic (25% of\nCHF\n)\nViral/chronic myocarditis (most common identifiable cause)\nOther causes\nIschemic\nOther infectious -\nHIV\n,\nLyme\n,\nChagas\nFamilial dilated cardiomyopathy\nHypertensive dilated cardiomyopathy\nToxic (\nETOH\n/\nberiberi\n,\ncocaine\n,\nmethamphetamine\n, chemo,\nheavy metals\n)\nHyperthyroidism\nSarcoidosis\nPeripartum cardiomyopathy\nKawasaki disease\nAutoimmune,\nSLE\nConnective tissue disease\nInfiltrative disease\nMitochondrial disease\nTachycardia\n-mediated\nESRD\nEosinophilic (\nChurg-Strauss syndrome\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "CHF\nsymptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiomyopathy": {
+          "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "Cardiomyopathy": {
+      "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CXR\nCardiomegaly, pulmonary venous htn\nECG\nLV hypertrophy, poor R wave progression\nUltrasound\nBedside\n(for gross function)\nTTE/TEE for EF",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically on cardiac ultrasound (\necho\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Bedside",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echo"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CXR\nCardiomegaly, pulmonary venous htn\nECG\nLV hypertrophy, poor R wave progression\nUltrasound\nBedside\n(for gross function)\nTTE/TEE for EF",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically on cardiac ultrasound (\necho\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Bedside",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echo"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically on cardiac ultrasound (\necho\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echo"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat the underlying disease\nSimilar to\nCHF\nexacerbation\nEnsure exacerbation not due to ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for new diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cardiomyopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiomyopathy (Main)",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(Main)"
+        }
+      ]
+    }
+  }
+}

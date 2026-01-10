@@ -1,0 +1,495 @@
+{
+  "drug_name": "Diphtheria",
+  "url": "https://wikem.org/wiki/Diphtheria",
+  "scraped_at": "2026-01-10T07:52:04.057582",
+  "sections": {
+    "Background": {
+      "text": "An upper respiratory tract illness caused by Corynebacterium diphtheriae, an anerobic\nGram positive bacteria\nChildren are usually vaccinated with the DPT vaccine\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram positive bacteria",
+          "url": "https://wikem.org/wiki/Gram_positive_bacteria"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms usually begin 5-7 days post initial infection and are often nonspecific mailaise and fatigue\nFever of 38°C (100.4°F)\nCyanosis in severe disease\nSore throat ± difficulty swallowing\nHoarseness, cough\nLymphadenopathy\n\"Bull neck\" in laryngeal diphtheria\n[2]\nDense, grey pseudomembrane covering the posterior aspect of the pharynx\n[2]\nCroup\n-like cough",
+      "subsections": {
+        "Systemic_Manifestations": {
+          "text": "Diphtheria toxin can lead to toxin damage of the heart (myocarditis), nervous system, and kidneys\nMyocarditis\nOccurs in 10 to 25% of patients\nTypically occurs 7 to 14 days after onset of respiratory symptoms\nHeart block\n,\narrhythmias\n,\nheart failure\n, circulatory collapse.\nNeurologic toxicity\nOccurs in 5% of patients\nLocal\nneuropathies\nare followed by cranial neuropathies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "Systemic_Manifestations": {
+      "text": "Diphtheria toxin can lead to toxin damage of the heart (myocarditis), nervous system, and kidneys\nMyocarditis\nOccurs in 10 to 25% of patients\nTypically occurs 7 to 14 days after onset of respiratory symptoms\nHeart block\n,\narrhythmias\n,\nheart failure\n, circulatory collapse.\nNeurologic toxicity\nOccurs in 5% of patients\nLocal\nneuropathies\nare followed by cranial neuropathies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[3]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        }
+      ]
+    },
+    "Acute_Sore_Throat": {
+      "text": "",
+      "subsections": {
+        "Bacterial_infections": {
+          "text": "Streptococcal pharyngitis\n(Strep Throat)\nNeisseria gonorrhoeae\nDiphtheria\n(C. diptheriae)\nBacterial Tracheitis",
+          "tables": []
+        },
+        "Viral_infections": {
+          "text": "Infectious mononucleosis\n(EBV)\nPatients with peritonsillar abscess have a 20% incidence of mononucleosis\n[3]\nLaryngitis\nAcute Bronchitis\nRhinovirus\nCoronavirus\nAdenovirus\nHerpesvirus\nInfluenza\nvirus\nCoxsackie virus\nHerpangina\nHand-foot-and-mouth disease\nHIV\n(Acute Retroviral Syndrome)",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "Stevens-Johnson Syndrome\nPemphigus\nAngioedema",
+          "tables": []
+        },
+        "Other": {
+          "text": "Deep neck space infection\nRetropharyngeal abscess\nLudwig's angina\nParapharyngeal space infection\nPeritonsillar Abscess (PTA)\nEpiglottitis\nKawasaki disease\nPenetrating injury\nCaustic ingestion\nLemierre's syndrome\nPeritonsillar cellulitis\nLymphoma\nInternal carotid artery aneurysm\nOral Thrush\nParotitis\nPost-tonsillectomy hemorrhage\nVincent's angina\nAcute necrotizing ulcerative gingivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Streptococcal pharyngitis",
+          "url": "https://wikem.org/wiki/Streptococcal_pharyngitis"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Bacterial Tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_Tracheitis"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Acute Bronchitis",
+          "url": "https://wikem.org/wiki/Acute_Bronchitis"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Herpesvirus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Pemphigus",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Peritonsillar Abscess (PTA)",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess_(PTA)"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Penetrating injury",
+          "url": "https://wikem.org/wiki/Neck_trauma"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Peritonsillar cellulitis",
+          "url": "https://wikem.org/wiki/Peritonsillar_cellulitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oral Thrush",
+          "url": "https://wikem.org/wiki/Oral_Thrush"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Post-tonsillectomy hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tonsillectomy_hemorrhage"
+        },
+        {
+          "text": "Vincent's angina",
+          "url": "https://wikem.org/wiki/Vincent%27s_angina"
+        },
+        {
+          "text": "Acute necrotizing ulcerative gingivitis",
+          "url": "https://wikem.org/wiki/Acute_necrotizing_ulcerative_gingivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Throat culture will provide definitive diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Throat culture will provide definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Airborne\nisolation\nSevere disease with respiratory compromise may require intubation\nDiphtheria antitoxin is not recommended in prophylaxis but can be used to treat confirmed disease\n[4]\nAntitoxin will not neutralize toxin that is already fixed to tissues, but it will neutralize circulating (unbound) toxin and will prevent progression of disease\nAdministration should be with an ID specialist at the CDC Emergency Operations Center at (US phone: 770-488-7100)",
+      "subsections": {
+        "Treatment_Antibiotics": {
+          "text": "Options\nErythromycin\n40mg/kg/day maximum, 2 gm/day\nProcaine penicillin\nG daily, IM (300,000 U/day for those weighing 10 kg or less, and 600,000 U/day for those weighing more than 10 kg) for 14 days.",
+          "tables": []
+        },
+        "Post-Exposure_Prophylaxis": {
+          "text": "Given to close contacts, especially household contacts\nDiphtheria booster\n[4]\nAntibiotics (one of the following):\nBenzathine Penicillin G\n600,000 units for persons younger than 6 years old\n1,200,000 units for those 6 years old and older\nErythromycin\n40mg/kg/day for children and 1 g/day for adults x 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Airborne",
+          "url": "https://wikem.org/wiki/Isolation_Precautions"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Procaine penicillin",
+          "url": "https://wikem.org/wiki/Procaine_penicillin"
+        },
+        {
+          "text": "Benzathine Penicillin G",
+          "url": "https://wikem.org/wiki/Benzathine_Penicillin_G"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Treatment_Antibiotics": {
+      "text": "Options\nErythromycin\n40mg/kg/day maximum, 2 gm/day\nProcaine penicillin\nG daily, IM (300,000 U/day for those weighing 10 kg or less, and 600,000 U/day for those weighing more than 10 kg) for 14 days.",
+      "subsections": {
+        "Post-Exposure_Prophylaxis": {
+          "text": "Given to close contacts, especially household contacts\nDiphtheria booster\n[4]\nAntibiotics (one of the following):\nBenzathine Penicillin G\n600,000 units for persons younger than 6 years old\n1,200,000 units for those 6 years old and older\nErythromycin\n40mg/kg/day for children and 1 g/day for adults x 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Procaine penicillin",
+          "url": "https://wikem.org/wiki/Procaine_penicillin"
+        },
+        {
+          "text": "Benzathine Penicillin G",
+          "url": "https://wikem.org/wiki/Benzathine_Penicillin_G"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Post-Exposure_Prophylaxis": {
+      "text": "Given to close contacts, especially household contacts\nDiphtheria booster\n[4]\nAntibiotics (one of the following):\nBenzathine Penicillin G\n600,000 units for persons younger than 6 years old\n1,200,000 units for those 6 years old and older\nErythromycin\n40mg/kg/day for children and 1 g/day for adults x 10 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzathine Penicillin G",
+          "url": "https://wikem.org/wiki/Benzathine_Penicillin_G"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission for disease with moderate to severe respiratory symptoms or while awaiting cultures due to high disease suspicion in an unvaccinated host",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

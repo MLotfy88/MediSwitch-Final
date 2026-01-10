@@ -1,0 +1,38 @@
+{
+  "drug_name": "Dizziness",
+  "url": "https://wikem.org/wiki/Dizziness",
+  "scraped_at": "2026-01-10T07:52:04.259779",
+  "sections": {
+    "Evaluation": {
+      "text": "<24 hours (transient episodes)\nDiagnose by \"triggers\"\nSee\nVertigo\nSee\nSyncope\n24hrs - 72 hrs (Acute Vestibular Syndrome)\nSee\nHINTS Exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "HINTS Exam",
+          "url": "https://wikem.org/wiki/Vertigo#HINTS_Exam"
+        }
+      ]
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id= G8rYqrQFCLk}}\n{{#widget:YouTube|id= ymzYaCmepd0}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Tarnutzer AA, et al. \"Does my dizzy patient have a stroke? A systematic review\nof bedside diagnosis in acute vestibular syndrome\" CMAJ 2011",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

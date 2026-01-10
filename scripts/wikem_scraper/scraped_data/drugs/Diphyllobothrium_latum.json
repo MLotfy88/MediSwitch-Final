@@ -1,0 +1,355 @@
+{
+  "drug_name": "Diphyllobothrium_latum",
+  "url": "https://wikem.org/wiki/Diphyllobothrium_latum",
+  "scraped_at": "2026-01-10T07:52:00.960009",
+  "sections": {
+    "Background": {
+      "text": "A type of\ntapeworm\ninfection\nD. latum\nand\nD. nihonkaiense\nare most common pathogens\n[1]\n15-45 day latency period\nFound mostly in cold waters Palaearctic region and North America\n[1]\nGenerally due to eating raw or undercooked fish.\nIn US, Great Lakes and Alaska are most common locations.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tapeworm",
+          "url": "https://wikem.org/wiki/Tapeworm"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Usually asymptomatic or mild GI symptoms\n[1]\n20% of cases report diarrhea, abdominal pain or discomfort\nRarely, migrating proglottids can cause cholangitis, cholecystitis, or intestinal obstruction\nCompetes for absorption of vitamin B12 → can cause\npernicious anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pernicious anemia",
+          "url": "https://wikem.org/wiki/Pernicious_anemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Helminth_infections": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Stool sample - morphologic identification of eggs\n[1]\nMolecular (PCR) diagnosis also possible, but less used",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Praziquantel\n25mg/kg x1 dose\n[1]\nOR\nNiclosamide 2 grams x1 dose\nReplace\nvitamin B12\nif patient has megaloblastic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        },
+        {
+          "text": "vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Helminth infections\nParasitic diseases\nTravel medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        },
+        {
+          "text": "Travel medicine",
+          "url": "https://wikem.org/wiki/Travel_medicine"
+        }
+      ]
+    }
+  }
+}

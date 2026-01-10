@@ -1,0 +1,181 @@
+{
+  "drug_name": "Diphenoxylate/atropine",
+  "url": "https://wikem.org/wiki/Diphenoxylate/atropine",
+  "scraped_at": "2026-01-10T07:52:01.081276",
+  "sections": {
+    "Administration": {
+      "text": "Type: Anti\ndiarrheal\n,\nopioid\nanalog/\nanticholinergic\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names: Lomotil",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrheal",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "5 mg diphenoxylate/0.05 mg atropine PO q6hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "<2y: Safety/efficacy not established\n2-13y: 0.3-0.4 mg diphenoxylate/kg/day in 4 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "\"Exercise caution when drug is administered to nursing woman, since physicochemical characteristics of major metabolite, diphenoxylic acid, are such that it may be excreted in breast milk and since it is known that atropine is excreted in breast milk\"\n[1]",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use caution; may precipitate hepatic coma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "\"Exercise caution when drug is administered to nursing woman, since physicochemical characteristics of major metabolite, diphenoxylic acid, are such that it may be excreted in breast milk and since it is known that atropine is excreted in breast milk\"\n[1]",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use caution; may precipitate hepatic coma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "\"Exercise caution when drug is administered to nursing woman, since physicochemical characteristics of major metabolite, diphenoxylic acid, are such that it may be excreted in breast milk and since it is known that atropine is excreted in breast milk\"\n[1]",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Use caution",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Use caution; may precipitate hepatic coma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Use caution",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Use caution; may precipitate hepatic coma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Use caution; may precipitate hepatic coma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nObstructive jaundice\nDiarrhea due to pseudomembranous enterocolitis or infectious enterotoxin-producing bacteria (e.g. c. diff)\nTablets only: children age <6y (risk of respiratory/CNS depression)\nConcomitant MAOI therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Severe respiratory depression\nComa\nExacerbation of dehydration and electrolyte imbalances due to intestinal fluid retention secondary to inhibition of peristalsis\nBacterial overgrowth, release of bacterial endotoxins, sepsis\nToxic megacolon\nAnticholinergic toxicity (hyperthermia, tachycardia, urinary retention, flushing, dry skin/mucous membranes), particularly in pediatric patients with Down's syndrome\nPancreatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting, abdominal discomfort\nBlurred vision\nSedation\nDry skin or mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Severe respiratory depression\nComa\nExacerbation of dehydration and electrolyte imbalances due to intestinal fluid retention secondary to inhibition of peristalsis\nBacterial overgrowth, release of bacterial endotoxins, sepsis\nToxic megacolon\nAnticholinergic toxicity (hyperthermia, tachycardia, urinary retention, flushing, dry skin/mucous membranes), particularly in pediatric patients with Down's syndrome\nPancreatitis",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting, abdominal discomfort\nBlurred vision\nSedation\nDry skin or mouth",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea/vomiting, abdominal discomfort\nBlurred vision\nSedation\nDry skin or mouth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5-14h\nMetabolism: Hepatic\nExcretion: Urine/feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Diphenoxylate:  opioid analog of meperidine, inhibits GI motility and excessive GI propulsion\nAtropine: Subtherapeutic quantity added to discourage deliberate overdose of diphenoxylate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Lomotil toxicity\nDiarrhea\nOpioids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    }
+  }
+}

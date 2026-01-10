@@ -1,0 +1,340 @@
+{
+  "drug_name": "Distal_phalanx_(finger)_fracture",
+  "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture",
+  "scraped_at": "2026-01-10T07:52:04.316727",
+  "sections": {
+    "Background": {
+      "text": "Fracture of distal portion of distal phalanx is also known as a \"Tuft fracture\"\nHand: finger slammed in door\nFoot: stubbed toe or dropped a heavy object",
+      "subsections": {
+        "Finger_(phalanx)_fracture_types": {
+          "text": "Proximal Phalanx (Finger) Fracture\nMiddle Phalanx (Finger) Fracture\nDistal Phalanx (Finger) Fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Proximal Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Proximal_Phalanx_(Finger)_Fracture"
+        },
+        {
+          "text": "Middle Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Middle_Phalanx_(Finger)_Fracture"
+        },
+        {
+          "text": "Distal Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Distal_Phalanx_(Finger)_Fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain and/or swelling of the digit\nSensation usually intact\nPain on palpation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Mallet finger",
+      "subsections": {
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        },
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip avulsion",
+          "url": "https://wikem.org/wiki/Fingertip_avulsion"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "Hand and/or finger x-rays",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Comminuted tuft fracture\nStable\nLongitudinal fracture\nUsually non-displaced and stable\nTransverse fracture\nEvaluate for angulation/displacement\nIntraarticular fracture\nEvaluate additionally for:\nTendon damage\nSecond fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Hand and/or finger x-rays",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Comminuted tuft fracture\nStable\nLongitudinal fracture\nUsually non-displaced and stable\nTransverse fracture\nEvaluate for angulation/displacement\nIntraarticular fracture\nEvaluate additionally for:\nTendon damage\nSecond fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Comminuted tuft fracture\nStable\nLongitudinal fracture\nUsually non-displaced and stable\nTransverse fracture\nEvaluate for angulation/displacement\nIntraarticular fracture\nEvaluate additionally for:\nTendon damage\nSecond fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures (excluding distal phalanx fractures) require immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Nonoperative\nNondisplaced: Splint with the DIP joint in extension (splint should extend past the tip of the distal phalanx\nMost cases\nEval nail bed\nIs a\nNailbed laceration\nunderneath possible?\nDigital blocks\ncan be helpful for evaluation and management\nDo not attempt to reduce comminuted tuft fracture\nCall Hand or Ortho (institution dependent) for complex finger injuries\nNailbed laceration\nwith distal phalanx fractures can be complicated and result in an\nopen fracture",
+          "tables": []
+        },
+        "Prophylactic_Antibiotics": {
+          "text": "Controversial but in general, prophylactic antibiotics are indicated for grossly contaminated open wounds, and can be considered in high risk patients (ex. diabetics, peripheral artery disease). Otherwise, NOT indicated in open distal phalanx fracture (aka tuft fracture) as long as:\nFracture is at distal phalanx (i.e. tuft fracture)\nIntact digital arteries\nClean wound",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Digital blocks",
+          "url": "https://wikem.org/wiki/Digital_block"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures (excluding distal phalanx fractures) require immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Nonoperative\nNondisplaced: Splint with the DIP joint in extension (splint should extend past the tip of the distal phalanx\nMost cases\nEval nail bed\nIs a\nNailbed laceration\nunderneath possible?\nDigital blocks\ncan be helpful for evaluation and management\nDo not attempt to reduce comminuted tuft fracture\nCall Hand or Ortho (institution dependent) for complex finger injuries\nNailbed laceration\nwith distal phalanx fractures can be complicated and result in an\nopen fracture",
+          "tables": []
+        },
+        "Prophylactic_Antibiotics": {
+          "text": "Controversial but in general, prophylactic antibiotics are indicated for grossly contaminated open wounds, and can be considered in high risk patients (ex. diabetics, peripheral artery disease). Otherwise, NOT indicated in open distal phalanx fracture (aka tuft fracture) as long as:\nFracture is at distal phalanx (i.e. tuft fracture)\nIntact digital arteries\nClean wound",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Digital blocks",
+          "url": "https://wikem.org/wiki/Digital_block"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Nonoperative\nNondisplaced: Splint with the DIP joint in extension (splint should extend past the tip of the distal phalanx\nMost cases\nEval nail bed\nIs a\nNailbed laceration\nunderneath possible?\nDigital blocks\ncan be helpful for evaluation and management\nDo not attempt to reduce comminuted tuft fracture\nCall Hand or Ortho (institution dependent) for complex finger injuries\nNailbed laceration\nwith distal phalanx fractures can be complicated and result in an\nopen fracture",
+      "subsections": {
+        "Prophylactic_Antibiotics": {
+          "text": "Controversial but in general, prophylactic antibiotics are indicated for grossly contaminated open wounds, and can be considered in high risk patients (ex. diabetics, peripheral artery disease). Otherwise, NOT indicated in open distal phalanx fracture (aka tuft fracture) as long as:\nFracture is at distal phalanx (i.e. tuft fracture)\nIntact digital arteries\nClean wound",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Digital blocks",
+          "url": "https://wikem.org/wiki/Digital_block"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "Prophylactic_Antibiotics": {
+      "text": "Controversial but in general, prophylactic antibiotics are indicated for grossly contaminated open wounds, and can be considered in high risk patients (ex. diabetics, peripheral artery disease). Otherwise, NOT indicated in open distal phalanx fracture (aka tuft fracture) as long as:\nFracture is at distal phalanx (i.e. tuft fracture)\nIntact digital arteries\nClean wound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Refer for:\nTendon dysfunction\nNerve dysfunction\nDisplacement or angulation\nIntraarticular fracture\nComplex involving\nNailbed laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Finger (Phalanx) Fracture\nHand Diagnoses (Main)\nNailbed laceration\nSubungual hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Hand Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Hand_Diagnoses_(Main)"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        }
+      ]
+    }
+  }
+}

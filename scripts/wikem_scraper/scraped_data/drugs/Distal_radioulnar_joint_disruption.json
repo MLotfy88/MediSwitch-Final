@@ -1,0 +1,236 @@
+{
+  "drug_name": "Distal_radioulnar_joint_disruption",
+  "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption",
+  "scraped_at": "2026-01-10T07:52:02.760621",
+  "sections": {
+    "Background": {
+      "text": "Seen with intra-articular or\ndistal radial shaft fractures\nor\nboth bone fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "distal radial shaft fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "both bone fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Easy to miss due to concomitant injuries\nPainful pronation or supination of wrist/forearm, possible crepitus\nProminent or displaced ulnar styloid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_radius_fractures": {
+          "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+          "tables": []
+        },
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        }
+      ]
+    },
+    "Distal_radius_fractures": {
+      "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+      "subsections": {
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        }
+      ]
+    },
+    "Distal_radius_fracture_eponyms": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Eponyms": "Barton's",
+            "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+          },
+          {
+            "Eponyms": "Chauffer's",
+            "Description": "Fracture of radial styloid"
+          },
+          {
+            "Eponyms": "Colles'",
+            "Description": "Dorsally displaced, extra-articular fracture"
+          },
+          {
+            "Eponyms": "Die-punch",
+            "Description": "Depressed fracture of the lunate fossa (articular surface)"
+          },
+          {
+            "Eponyms": "Smith's",
+            "Description": "Volar displaced, extra-articular fracture"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "PA\nNarrowing and overlap of distal radioulnar joint\nLateral\nVolar or dorsal displacement of ulna (which is usually centered/overlapping the radius)\nRequires a true lateral to avoid a false positive result\nConsider forearm radiographs to evaluate for\nGaleazzi fracture-dislocation\nand\nEssex Lopresti",
+          "tables": []
+        },
+        "Radiographic_signs_of_instability": {
+          "text": "Radial shortening\nFracture of the sigmoid notch of radius\nFracture of ulnar styloid base with >2mm displacement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Essex Lopresti",
+          "url": "https://wikem.org/wiki/Essex_Lopresti"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "PA\nNarrowing and overlap of distal radioulnar joint\nLateral\nVolar or dorsal displacement of ulna (which is usually centered/overlapping the radius)\nRequires a true lateral to avoid a false positive result\nConsider forearm radiographs to evaluate for\nGaleazzi fracture-dislocation\nand\nEssex Lopresti",
+      "subsections": {
+        "Radiographic_signs_of_instability": {
+          "text": "Radial shortening\nFracture of the sigmoid notch of radius\nFracture of ulnar styloid base with >2mm displacement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Essex Lopresti",
+          "url": "https://wikem.org/wiki/Essex_Lopresti"
+        }
+      ]
+    },
+    "Radiographic_signs_of_instability": {
+      "text": "Radial shortening\nFracture of the sigmoid notch of radius\nFracture of ulnar styloid base with >2mm displacement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Dorsal dislocation\nImmobilize wrist in supination\nVolar dislocation\nImmobilize wrist in pronation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient with ortho followup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Distal radius fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        }
+      ]
+    }
+  }
+}

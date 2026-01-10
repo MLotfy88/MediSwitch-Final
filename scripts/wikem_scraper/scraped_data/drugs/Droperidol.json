@@ -1,0 +1,260 @@
+{
+  "drug_name": "Droperidol",
+  "url": "https://wikem.org/wiki/Droperidol",
+  "scraped_at": "2026-01-10T07:52:12.582097",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nantipsychotic\n,\nantiemetics\nDosage Forms: 5mg/2mL\nRoutes of Administration: IV/IM\nCommon Trade Names: Inapsine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antipsychotic",
+          "url": "https://wikem.org/wiki/Antipsychotic"
+        },
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Combative_patient": {
+          "text": "5-10mg IV\n10mg IM",
+          "tables": []
+        },
+        "Nausea/vomiting": {
+          "text": "0.625-2.5mg IV",
+          "tables": []
+        },
+        "Headache": {
+          "text": "2.5mg IV or 2.5-5mg IM",
+          "tables": []
+        },
+        "Pain_(with_or_without_opiate_tolerance)": {
+          "text": "0.625-5mg or higher IV/IM\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Combative_patient": {
+      "text": "5-10mg IV\n10mg IM",
+      "subsections": {
+        "Nausea/vomiting": {
+          "text": "0.625-2.5mg IV",
+          "tables": []
+        },
+        "Headache": {
+          "text": "2.5mg IV or 2.5-5mg IM",
+          "tables": []
+        },
+        "Pain_(with_or_without_opiate_tolerance)": {
+          "text": "0.625-5mg or higher IV/IM\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nausea/vomiting": {
+      "text": "0.625-2.5mg IV",
+      "subsections": {
+        "Headache": {
+          "text": "2.5mg IV or 2.5-5mg IM",
+          "tables": []
+        },
+        "Pain_(with_or_without_opiate_tolerance)": {
+          "text": "0.625-5mg or higher IV/IM\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Headache": {
+      "text": "2.5mg IV or 2.5-5mg IM",
+      "subsections": {
+        "Pain_(with_or_without_opiate_tolerance)": {
+          "text": "0.625-5mg or higher IV/IM\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Nausea/vomiting_2": {
+          "text": "2-12yo: 0.015-0.1mg/kg IV/IM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nausea/vomiting_2": {
+      "text": "2-12yo: 0.015-0.1mg/kg IV/IM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing: Administer with caution\nHepatic dosing: Administer with caution",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nKnown or suspected prolonged QT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Prolonged QT\n,\ntorsades\n,\nventricular tachycardia\n,\ncardiac arrest\nNote: effect on QT interval is dose-dependent\nIn 2001, FDA gave black box warning for risk of\ntorsades de pointes\n, however there was little evidence to support this\nLarge cohort of patients in ED showed safety of its administration\n[3]\nNeuroleptic malignant syndrome\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Somnolence, dysphoria, anxiety\nAkathisia\nHypotension\nTachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Akathisia",
+          "url": "https://wikem.org/wiki/Akathisia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Prolonged QT\n,\ntorsades\n,\nventricular tachycardia\n,\ncardiac arrest\nNote: effect on QT interval is dose-dependent\nIn 2001, FDA gave black box warning for risk of\ntorsades de pointes\n, however there was little evidence to support this\nLarge cohort of patients in ED showed safety of its administration\n[3]\nNeuroleptic malignant syndrome\nAnaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Somnolence, dysphoria, anxiety\nAkathisia\nHypotension\nTachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Akathisia",
+          "url": "https://wikem.org/wiki/Akathisia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Somnolence, dysphoria, anxiety\nAkathisia\nHypotension\nTachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Akathisia",
+          "url": "https://wikem.org/wiki/Akathisia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 123-147m (adults), 75-127m (children)\nMetabolism: hepatic\nExcretion: mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Dopamine (D2) antagonist. Some serotonergic, histaminergic, and α-adrenergic effect",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antipsychotics\nCombative patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Combative patient",
+          "url": "https://wikem.org/wiki/Combative_patient"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDOCs: Droperidol Use in the Emergency Department – What’s Old is New Again\nACEP: Oldie but a Goodie: 10 Pearls of Droperidol",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

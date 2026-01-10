@@ -1,0 +1,209 @@
+{
+  "drug_name": "Distal_interphalangeal_dislocation_(finger)",
+  "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)",
+  "scraped_at": "2026-01-10T07:52:02.329244",
+  "sections": {
+    "Background": {
+      "text": "Uncommon due to firm attachment of skin and subcutaneous tissue to underlying bone\nUsually dorsal dislocation",
+      "subsections": {
+        "Hand_Anatomy": {
+          "text": "Volar = anterior = palmar\nDorsal = posterior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand_Anatomy": {
+      "text": "Volar = anterior = palmar\nDorsal = posterior",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Finger pain/deformity at DIP joint",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        },
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip avulsion",
+          "url": "https://wikem.org/wiki/Fingertip_avulsion"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Hand_and_finger_dislocations": {
+      "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Finger x-ray (PA and lateral)\nTrue lateral of only the finger instead of hand will help detect subtle avulsion fractures\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider\ndigital block\nfor pain control",
+      "subsections": {
+        "Dorsal/Posterior": {
+          "text": "Flex wrist, then hyperextend the joint\nApply longitudinal traction followed by dorsal pressure to phalanx base\nIrreducible dislocation likely due to entrapment of avulsion fracture, profundus tendor or volar plate\nWithout initial hyperextension, can be difficult to disengage from any trapped soft tissue\nPost reduction, look for central slip rupture, which may lead to\nBoutonniere deformity",
+          "tables": []
+        },
+        "Volar/Anterior": {
+          "text": "Flex wrist then hyperflex the affected joint\nApply gentle traction then extend the joint\nOften need open reduction due to volar plate entrapment",
+          "tables": []
+        },
+        "Splinting": {
+          "text": "Alumifoam splint on side of dislocation\n10-20 degrees of flexion for dorsal dislocation, joint in extension for volar dislocation\nSplint should not extend onto the palm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "digital block",
+          "url": "https://wikem.org/wiki/Digital_block"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Dorsal/Posterior": {
+      "text": "Flex wrist, then hyperextend the joint\nApply longitudinal traction followed by dorsal pressure to phalanx base\nIrreducible dislocation likely due to entrapment of avulsion fracture, profundus tendor or volar plate\nWithout initial hyperextension, can be difficult to disengage from any trapped soft tissue\nPost reduction, look for central slip rupture, which may lead to\nBoutonniere deformity",
+      "subsections": {
+        "Volar/Anterior": {
+          "text": "Flex wrist then hyperflex the affected joint\nApply gentle traction then extend the joint\nOften need open reduction due to volar plate entrapment",
+          "tables": []
+        },
+        "Splinting": {
+          "text": "Alumifoam splint on side of dislocation\n10-20 degrees of flexion for dorsal dislocation, joint in extension for volar dislocation\nSplint should not extend onto the palm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Volar/Anterior": {
+      "text": "Flex wrist then hyperflex the affected joint\nApply gentle traction then extend the joint\nOften need open reduction due to volar plate entrapment",
+      "subsections": {
+        "Splinting": {
+          "text": "Alumifoam splint on side of dislocation\n10-20 degrees of flexion for dorsal dislocation, joint in extension for volar dislocation\nSplint should not extend onto the palm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splinting": {
+      "text": "Alumifoam splint on side of dislocation\n10-20 degrees of flexion for dorsal dislocation, joint in extension for volar dislocation\nSplint should not extend onto the palm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "If closed dislocation and successfully reduced → Discharge with hand surgery follow-up\nIf open or unable to be reduced in ED → hand surgery consult, likely admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger dislocations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,869 @@
+{
+  "drug_name": "Diplopia",
+  "url": "https://wikem.org/wiki/Diplopia",
+  "scraped_at": "2026-01-10T07:52:03.311499",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Monocular_Diplopia": {
+          "text": "Double vision that persists when one eye is closed\nRelated to intrinsic eye problem\n[1]",
+          "tables": []
+        },
+        "Binocular_Diplopia": {
+          "text": "Double vision that resolves when the other eye is closed\nRelated to a problem with visual axis alignment\n[2]",
+          "tables": []
+        },
+        "3_Main_Causes_Binocular_Diplopia": {
+          "text": "Eye musculature dysfunction\nCranial nerve dysfunction\nBrainstem or intracranial process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cranial nerve dysfunction",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        }
+      ]
+    },
+    "Monocular_Diplopia": {
+      "text": "Double vision that persists when one eye is closed\nRelated to intrinsic eye problem\n[1]",
+      "subsections": {
+        "Binocular_Diplopia": {
+          "text": "Double vision that resolves when the other eye is closed\nRelated to a problem with visual axis alignment\n[2]",
+          "tables": []
+        },
+        "3_Main_Causes_Binocular_Diplopia": {
+          "text": "Eye musculature dysfunction\nCranial nerve dysfunction\nBrainstem or intracranial process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cranial nerve dysfunction",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        }
+      ]
+    },
+    "Binocular_Diplopia": {
+      "text": "Double vision that resolves when the other eye is closed\nRelated to a problem with visual axis alignment\n[2]",
+      "subsections": {
+        "3_Main_Causes_Binocular_Diplopia": {
+          "text": "Eye musculature dysfunction\nCranial nerve dysfunction\nBrainstem or intracranial process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cranial nerve dysfunction",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        }
+      ]
+    },
+    "3_Main_Causes_Binocular_Diplopia": {
+      "text": "Eye musculature dysfunction\nCranial nerve dysfunction\nBrainstem or intracranial process",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cranial nerve dysfunction",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Exam": {
+          "text": "Determine monocular vs binocular\nEvaluate for\nvisual field defects\nEvaluate\nvisual acuity\nAssess\ncranial nerves\nMultiple\ncranial nerve involvement\nsuggests an intracranial process or cavernous sinus involvement\nCheck extraocular muscle function\nEntrapment will show extraocular muscle restriction with extremes of gaze\nSudden\npainful\nor non painful onset suggest a vascular cause such as thrombosis, dissection, ischemia, or vasculitis\nOther neuro deficits should raise suspicion for a\nCVA\nor\nMS\nSystemic illness is more likely with\nmeningitis\ninvolving the brainstem\nBilateral symptoms are more likely with neuromuscular problems such as\nMiller Fischer syndrome\n,\nbotulism\n, or\nmyasthenia gravis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "visual field defects",
+          "url": "https://wikem.org/wiki/Visual_field_defects"
+        },
+        {
+          "text": "visual acuity",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "cranial nerves",
+          "url": "https://wikem.org/wiki/Cranial_nerves"
+        },
+        {
+          "text": "cranial nerve involvement",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "painful",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Miller Fischer syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Exam": {
+      "text": "Determine monocular vs binocular\nEvaluate for\nvisual field defects\nEvaluate\nvisual acuity\nAssess\ncranial nerves\nMultiple\ncranial nerve involvement\nsuggests an intracranial process or cavernous sinus involvement\nCheck extraocular muscle function\nEntrapment will show extraocular muscle restriction with extremes of gaze\nSudden\npainful\nor non painful onset suggest a vascular cause such as thrombosis, dissection, ischemia, or vasculitis\nOther neuro deficits should raise suspicion for a\nCVA\nor\nMS\nSystemic illness is more likely with\nmeningitis\ninvolving the brainstem\nBilateral symptoms are more likely with neuromuscular problems such as\nMiller Fischer syndrome\n,\nbotulism\n, or\nmyasthenia gravis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "visual field defects",
+          "url": "https://wikem.org/wiki/Visual_field_defects"
+        },
+        {
+          "text": "visual acuity",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "cranial nerves",
+          "url": "https://wikem.org/wiki/Cranial_nerves"
+        },
+        {
+          "text": "cranial nerve involvement",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "painful",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Miller Fischer syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Monocular_Diplopia_2": {
+          "text": "Cataract\nLens dislocation\nMacular disruption",
+          "tables": []
+        },
+        "Binocular_Diplopia_2": {
+          "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[3]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[4]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior communicating artery (PCOM) aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        }
+      ]
+    },
+    "Monocular_Diplopia_2": {
+      "text": "Cataract\nLens dislocation\nMacular disruption",
+      "subsections": {
+        "Binocular_Diplopia_2": {
+          "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[3]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[4]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior communicating artery (PCOM) aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        }
+      ]
+    },
+    "Binocular_Diplopia_2": {
+      "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[3]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[4]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior communicating artery (PCOM) aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Monocular": {
+          "text": "Slit Lamp Exam\nAssess for Cataract\nLens symmetry\nPosterior orbital mass\nMacular dysruption\nConsider ophthalmology consult\nConsider\nocular ultrasound",
+          "tables": []
+        },
+        "Binocular": {
+          "text": "Third nerve palsy\n: eye is down and out\nAlways needs\nCTH\n/CTA to rule out [[Posterior Communicating Artery (PCOM) Aneurysm|aneurysm given that nerve runs under PCA\nFourth nerve palsy\n: head tilt down and away from side of lesion\nThese are tough to catch and can be referred to ophtho outpatient for prisms\nNo imaging needed unless other deficits present\nSixth nerve palsy\n: eye can't track laterally\nChildren need imaging to r/o tumor\nIn > 50, m/l ischemic and can get MRI outpt or just watch, assuming no papilledema as it can cause isolated CN VI palsy\nIf other nerves/deficits noted, consider MRI and further wu\nOther potential studies also include:\nCTH\nwith and without contrast ± CTA neck to rule out dissection and intracranial mass\nMRV or CTV to eval for\ncavernous sinus thrombosis\nCT orbits w/ contrast to eval for orbital apex syndrome (like CST above, but with CN II involvement)\nMRI\n+ DWI to if concern for\nCVA\nMRI\n± MRA if unable to classify intracranial process on initial contrast CT with contrast\nMRI\nif concerned for\nMS\nLP\nif concern for\nmeningitis\nMetabolic workup to rule out diabetes or cause of mononeuropathy",
+          "tables": []
+        },
+        "Imaging_Guide": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Situation": "Diplopia & cerebellar signs and symptoms",
+                "Suspected Diagnosis": "Brainstem pathology",
+                "Imaging Study": "MRI brain"
+              },
+              {
+                "Clinical Situation": "6th CN palsy & papilledema",
+                "Suspected Diagnosis": "IIH or CVT",
+                "Imaging Study": "CT/CTV brain"
+              },
+              {
+                "Clinical Situation": "3rd CN palsy",
+                "Suspected Diagnosis": "PCA or ICA aneurysmCompressive lesion",
+                "Imaging Study": "CT/CTA brain"
+              },
+              {
+                "Clinical Situation": "Diplopia & thyroid disease & decreased visual acuity",
+                "Suspected Diagnosis": "Optic nerve compression",
+                "Imaging Study": "CT orbits"
+              },
+              {
+                "Clinical Situation": "Intranuclear ophthalmoplegia",
+                "Suspected Diagnosis": "Multiple sclerosis",
+                "Imaging Study": "MRI brain"
+              },
+              {
+                "Clinical Situation": "Diplopia &  trauma",
+                "Suspected Diagnosis": "Fracture causing CN disruption",
+                "Imaging Study": "CT head without contrast"
+              },
+              {
+                "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Unilateral, decreased visual acuity)",
+                "Suspected Diagnosis": "Orbital apex pathology",
+                "Imaging Study": "CT orbits with contrast"
+              },
+              {
+                "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Uni- or bilateral, normal visual acuity)",
+                "Suspected Diagnosis": "Cavernous sinus thrombosis",
+                "Imaging Study": "CT/CTV brain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Slit Lamp Exam",
+          "url": "https://wikem.org/wiki/Slit_Lamp_Exam"
+        },
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/CN_III_palsy"
+        },
+        {
+          "text": "CTH",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Fourth nerve palsy",
+          "url": "https://wikem.org/wiki/Trochlear_nerve_palsy"
+        },
+        {
+          "text": "Sixth nerve palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "CTH",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Monocular": {
+      "text": "Slit Lamp Exam\nAssess for Cataract\nLens symmetry\nPosterior orbital mass\nMacular dysruption\nConsider ophthalmology consult\nConsider\nocular ultrasound",
+      "subsections": {
+        "Binocular": {
+          "text": "Third nerve palsy\n: eye is down and out\nAlways needs\nCTH\n/CTA to rule out [[Posterior Communicating Artery (PCOM) Aneurysm|aneurysm given that nerve runs under PCA\nFourth nerve palsy\n: head tilt down and away from side of lesion\nThese are tough to catch and can be referred to ophtho outpatient for prisms\nNo imaging needed unless other deficits present\nSixth nerve palsy\n: eye can't track laterally\nChildren need imaging to r/o tumor\nIn > 50, m/l ischemic and can get MRI outpt or just watch, assuming no papilledema as it can cause isolated CN VI palsy\nIf other nerves/deficits noted, consider MRI and further wu\nOther potential studies also include:\nCTH\nwith and without contrast ± CTA neck to rule out dissection and intracranial mass\nMRV or CTV to eval for\ncavernous sinus thrombosis\nCT orbits w/ contrast to eval for orbital apex syndrome (like CST above, but with CN II involvement)\nMRI\n+ DWI to if concern for\nCVA\nMRI\n± MRA if unable to classify intracranial process on initial contrast CT with contrast\nMRI\nif concerned for\nMS\nLP\nif concern for\nmeningitis\nMetabolic workup to rule out diabetes or cause of mononeuropathy",
+          "tables": []
+        },
+        "Imaging_Guide": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Situation": "Diplopia & cerebellar signs and symptoms",
+                "Suspected Diagnosis": "Brainstem pathology",
+                "Imaging Study": "MRI brain"
+              },
+              {
+                "Clinical Situation": "6th CN palsy & papilledema",
+                "Suspected Diagnosis": "IIH or CVT",
+                "Imaging Study": "CT/CTV brain"
+              },
+              {
+                "Clinical Situation": "3rd CN palsy",
+                "Suspected Diagnosis": "PCA or ICA aneurysmCompressive lesion",
+                "Imaging Study": "CT/CTA brain"
+              },
+              {
+                "Clinical Situation": "Diplopia & thyroid disease & decreased visual acuity",
+                "Suspected Diagnosis": "Optic nerve compression",
+                "Imaging Study": "CT orbits"
+              },
+              {
+                "Clinical Situation": "Intranuclear ophthalmoplegia",
+                "Suspected Diagnosis": "Multiple sclerosis",
+                "Imaging Study": "MRI brain"
+              },
+              {
+                "Clinical Situation": "Diplopia &  trauma",
+                "Suspected Diagnosis": "Fracture causing CN disruption",
+                "Imaging Study": "CT head without contrast"
+              },
+              {
+                "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Unilateral, decreased visual acuity)",
+                "Suspected Diagnosis": "Orbital apex pathology",
+                "Imaging Study": "CT orbits with contrast"
+              },
+              {
+                "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Uni- or bilateral, normal visual acuity)",
+                "Suspected Diagnosis": "Cavernous sinus thrombosis",
+                "Imaging Study": "CT/CTV brain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Slit Lamp Exam",
+          "url": "https://wikem.org/wiki/Slit_Lamp_Exam"
+        },
+        {
+          "text": "ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/CN_III_palsy"
+        },
+        {
+          "text": "CTH",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Fourth nerve palsy",
+          "url": "https://wikem.org/wiki/Trochlear_nerve_palsy"
+        },
+        {
+          "text": "Sixth nerve palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "CTH",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Binocular": {
+      "text": "Third nerve palsy\n: eye is down and out\nAlways needs\nCTH\n/CTA to rule out [[Posterior Communicating Artery (PCOM) Aneurysm|aneurysm given that nerve runs under PCA\nFourth nerve palsy\n: head tilt down and away from side of lesion\nThese are tough to catch and can be referred to ophtho outpatient for prisms\nNo imaging needed unless other deficits present\nSixth nerve palsy\n: eye can't track laterally\nChildren need imaging to r/o tumor\nIn > 50, m/l ischemic and can get MRI outpt or just watch, assuming no papilledema as it can cause isolated CN VI palsy\nIf other nerves/deficits noted, consider MRI and further wu\nOther potential studies also include:\nCTH\nwith and without contrast ± CTA neck to rule out dissection and intracranial mass\nMRV or CTV to eval for\ncavernous sinus thrombosis\nCT orbits w/ contrast to eval for orbital apex syndrome (like CST above, but with CN II involvement)\nMRI\n+ DWI to if concern for\nCVA\nMRI\n± MRA if unable to classify intracranial process on initial contrast CT with contrast\nMRI\nif concerned for\nMS\nLP\nif concern for\nmeningitis\nMetabolic workup to rule out diabetes or cause of mononeuropathy",
+      "subsections": {
+        "Imaging_Guide": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Clinical Situation": "Diplopia & cerebellar signs and symptoms",
+                "Suspected Diagnosis": "Brainstem pathology",
+                "Imaging Study": "MRI brain"
+              },
+              {
+                "Clinical Situation": "6th CN palsy & papilledema",
+                "Suspected Diagnosis": "IIH or CVT",
+                "Imaging Study": "CT/CTV brain"
+              },
+              {
+                "Clinical Situation": "3rd CN palsy",
+                "Suspected Diagnosis": "PCA or ICA aneurysmCompressive lesion",
+                "Imaging Study": "CT/CTA brain"
+              },
+              {
+                "Clinical Situation": "Diplopia & thyroid disease & decreased visual acuity",
+                "Suspected Diagnosis": "Optic nerve compression",
+                "Imaging Study": "CT orbits"
+              },
+              {
+                "Clinical Situation": "Intranuclear ophthalmoplegia",
+                "Suspected Diagnosis": "Multiple sclerosis",
+                "Imaging Study": "MRI brain"
+              },
+              {
+                "Clinical Situation": "Diplopia &  trauma",
+                "Suspected Diagnosis": "Fracture causing CN disruption",
+                "Imaging Study": "CT head without contrast"
+              },
+              {
+                "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Unilateral, decreased visual acuity)",
+                "Suspected Diagnosis": "Orbital apex pathology",
+                "Imaging Study": "CT orbits with contrast"
+              },
+              {
+                "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Uni- or bilateral, normal visual acuity)",
+                "Suspected Diagnosis": "Cavernous sinus thrombosis",
+                "Imaging Study": "CT/CTV brain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Third nerve palsy",
+          "url": "https://wikem.org/wiki/CN_III_palsy"
+        },
+        {
+          "text": "CTH",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "Fourth nerve palsy",
+          "url": "https://wikem.org/wiki/Trochlear_nerve_palsy"
+        },
+        {
+          "text": "Sixth nerve palsy",
+          "url": "https://wikem.org/wiki/Abducens_nerve_palsy"
+        },
+        {
+          "text": "CTH",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Imaging_Guide": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Clinical Situation": "Diplopia & cerebellar signs and symptoms",
+            "Suspected Diagnosis": "Brainstem pathology",
+            "Imaging Study": "MRI brain"
+          },
+          {
+            "Clinical Situation": "6th CN palsy & papilledema",
+            "Suspected Diagnosis": "IIH or CVT",
+            "Imaging Study": "CT/CTV brain"
+          },
+          {
+            "Clinical Situation": "3rd CN palsy",
+            "Suspected Diagnosis": "PCA or ICA aneurysmCompressive lesion",
+            "Imaging Study": "CT/CTA brain"
+          },
+          {
+            "Clinical Situation": "Diplopia & thyroid disease & decreased visual acuity",
+            "Suspected Diagnosis": "Optic nerve compression",
+            "Imaging Study": "CT orbits"
+          },
+          {
+            "Clinical Situation": "Intranuclear ophthalmoplegia",
+            "Suspected Diagnosis": "Multiple sclerosis",
+            "Imaging Study": "MRI brain"
+          },
+          {
+            "Clinical Situation": "Diplopia &  trauma",
+            "Suspected Diagnosis": "Fracture causing CN disruption",
+            "Imaging Study": "CT head without contrast"
+          },
+          {
+            "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Unilateral, decreased visual acuity)",
+            "Suspected Diagnosis": "Orbital apex pathology",
+            "Imaging Study": "CT orbits with contrast"
+          },
+          {
+            "Clinical Situation": "Diplopia & multiple CN involvement & numbness over CN5 (Uni- or bilateral, normal visual acuity)",
+            "Suspected Diagnosis": "Cavernous sinus thrombosis",
+            "Imaging Study": "CT/CTV brain"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause\nNeurology or neurosurgical consult is warranted if evidence of an\nICH\n,\naneurysm\nor\nCVA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends greatly on the cause of the diplopia\nAdmit if:\nCVA\nGuillain-Barre\nBotulism\nICH\nMeningitis\nIntracranial Mass  with edema or shift\nAneurysm\ncausing compression\nMultiple cranial nerve involvement\nIsolated\nCranial Nerve III\nand VI palsy can be discharge if close neurology follow-up and cause due to\ndiabetes\n, microvascular ischemia and intracranial process ruled out\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Cranial Nerve III",
+          "url": "https://wikem.org/wiki/Third_Nerve_Palsy"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Third Nerve Palsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Third Nerve Palsy",
+          "url": "https://wikem.org/wiki/Third_Nerve_Palsy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Diplopia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "drug_name": "Double_simultaneous_external_defibrillation",
+  "url": "https://wikem.org/wiki/Double_simultaneous_external_defibrillation",
+  "scraped_at": "2026-01-10T07:52:05.796258",
+  "sections": {
+    "Background": {
+      "text": "In patients suffering from non-traumatic cardiac arrest who exhibit ventricular fibrillation refractory to standard defibrillation, two simultaneous shocks may be considered.  This is termed double sequential external defibrillation (DSED) and has been shown to have some effect in terminating VF\n[1]\n[2]\n, though existing data on neurologic outcomes conflict.  Several large EMS systems currently use DSED in their standing medical orders\n[3]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Cardiac arrest\nRefractory ventricular fibrillation\n(rVF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Refractory ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Adult_pulseless_arrest#Refractory_Ventricular_Fibrillation"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Spontaneous circulation\nInability to apply two sets of defibrillation pads without overlapping",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Two monitors capable of manual defibrillation (both biphasic or both monophasic)\nPre-hospital or hospital provider credentialed to perform defibrillation\nTwo sets of defibrillation pads",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Apply second set of defibrillation pads (configurations vary). Generally pads are applied in the same configuration as the existing pads but in adjacent placement. Pads should not be applied on top of one another\nCharge both monitors to maximum energy level (200J for biphasic, 360J for monophasic)\nAfter ensuring providers are not in contact with the patient, charge and simultaneously activate the defibrillation/shock button on each monitor\nResume chest compressions\nMay consider esmolol bolus (0.5 mg/kg) followed by infusion (0.1 mg/kg) for subsequent DSED attempts\n[4]\nor hold epinephrine dosing for a round of CPR to limit cardiac excitation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Generally none",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cardiac arrest\nVentricular fibrillation\nDefibrillation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "Defibrillation",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        }
+      ]
+    }
+  }
+}

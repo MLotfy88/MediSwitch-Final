@@ -1,0 +1,467 @@
+{
+  "drug_name": "Discitis",
+  "url": "https://wikem.org/wiki/Discitis",
+  "scraped_at": "2026-01-10T07:51:59.308817",
+  "sections": {
+    "Background": {
+      "text": "Infection in the intervertebral disc space\noccurs post surgically in approximately 1-2% of patients after spinal surgery.\nInfection of nucleus pulposus due to infection of vertebral body end-plate cartilage\nRisk Factors: pediatric patients (age < 8yo), post-op, immunocompromised",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": ">90% present with unremitting neck or\nback pain\nwhich awakens them at night\nMay have radicular symptoms\nFever (60-70%)\nNeuro deficits (10-50%)\nESR elevation (>90%)\nLeukocytosis (<50%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Spinal_infection": {
+          "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+          "tables": []
+        },
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Spinal_infection": {
+      "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nESR elevated\nImaging\nPlain films are rarely positive\nMRI is gold standard",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "IV_Antibiotics": {
+          "text": "Treatment targets\nS. aureus\n,\nStreptococcus\n,\nPseudomonas\n,\nE. coli",
+          "tables": []
+        },
+        "Inpatient_Therapy": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID\nPLUS\nany of the following:\nCeftriaxone\n2g  IV daily\nCefepime\n2g IV IV three times daily\nCeftazidime\n2g IV three times daily\nCiprofloxacin\n400mg IV three times daily\nUse\ncefepime\nor\nciprofloxacin\nif targeting Pseudomonas spp",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "IV_Antibiotics": {
+      "text": "Treatment targets\nS. aureus\n,\nStreptococcus\n,\nPseudomonas\n,\nE. coli",
+      "subsections": {
+        "Inpatient_Therapy": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID\nPLUS\nany of the following:\nCeftriaxone\n2g  IV daily\nCefepime\n2g IV IV three times daily\nCeftazidime\n2g IV three times daily\nCiprofloxacin\n400mg IV three times daily\nUse\ncefepime\nor\nciprofloxacin\nif targeting Pseudomonas spp",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

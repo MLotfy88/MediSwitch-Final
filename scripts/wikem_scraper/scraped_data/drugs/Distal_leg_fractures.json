@@ -1,0 +1,374 @@
+{
+  "drug_name": "Distal_leg_fractures",
+  "url": "https://wikem.org/wiki/Distal_leg_fractures",
+  "scraped_at": "2026-01-10T07:52:06.426299",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of trauma\nPain over fracture site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Calf_pain": {
+      "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "XR tib/fib (distal leg) 2 view\nConsider need for dedicated knee films and/or CT\nConsider need for more proximal or distal plain films",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Ankle fracture\nMaisonneuve fracture\nPilon fracture\nTibial plateau fracture\nToddler's fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "XR tib/fib (distal leg) 2 view\nConsider need for dedicated knee films and/or CT\nConsider need for more proximal or distal plain films",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Ankle fracture\nMaisonneuve fracture\nPilon fracture\nTibial plateau fracture\nToddler's fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Ankle fracture\nMaisonneuve fracture\nPilon fracture\nTibial plateau fracture\nToddler's fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        }
+      ]
+    },
+    "Management_&_Disposition": {
+      "text": "",
+      "subsections": {
+        "Distal_Leg_Fractures_Management_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Fracture": "Tibial plateau fracture",
+                "Splint": "Knee immobilizer",
+                "Disposition": "Ortho referral in 2-7d"
+              },
+              {
+                "Fracture": "Tibial shaft fracture",
+                "Splint": "Long leg posterior splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Pilon Fracture",
+                "Splint": "Long leg posterior splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Maisonneuve Fracture",
+                "Splint": "Long leg posterior splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Ankle fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Distal_Leg_Fractures_Management_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Fracture": "Tibial plateau fracture",
+            "Splint": "Knee immobilizer",
+            "Disposition": "Ortho referral in 2-7d"
+          },
+          {
+            "Fracture": "Tibial shaft fracture",
+            "Splint": "Long leg posterior splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Pilon Fracture",
+            "Splint": "Long leg posterior splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Maisonneuve Fracture",
+            "Splint": "Long leg posterior splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Ankle fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures (main)\nFoot and toe fractures\nSplinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (main)",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

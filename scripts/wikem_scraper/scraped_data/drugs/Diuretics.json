@@ -1,0 +1,309 @@
+{
+  "drug_name": "Diuretics",
+  "url": "https://wikem.org/wiki/Diuretics",
+  "scraped_at": "2026-01-10T07:52:03.677925",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "High_ceiling/loop_diuretic": {
+          "text": "Inhibit Na+/K+/2Cl symporter in ascending limb of loop of Henle, preventing reabsorption and thereby increasing urinary excretion of sodium, chloride, and potassium\nFurosemide\nEthacrynic acid\nTorsemide\nBumetanide\n40mg furosemide = 20 mg torsemide = 1mg bumetanide = 50 mg ethacrynic acid",
+          "tables": []
+        },
+        "Thiazides": {
+          "text": "Act on the distal convoluted tubule and inhibit the sodium-chloride symporter\nHydrochlorothiazide",
+          "tables": []
+        },
+        "Carbonic_anhydrase_inhibitors": {
+          "text": "Inhibit the enzyme carbonic anhydrase in the proximal convoluted tubule\nacetazolamide\nmethazolamide",
+          "tables": []
+        },
+        "Potassium-sparing_diuretics": {
+          "text": "Aldosterone antagonists\nSpironolactone\nEpithelial sodium channel blockers:\nAmiloride\nTriamterene",
+          "tables": []
+        },
+        "Osmotic_diuretics": {
+          "text": "Increase osmolality and work primarily by expanding extracellular fluid and plasma volume, therefore increasing blood flow to the kidneys\nMannitol\nGlucose (e.g. during\nhyperglycemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "methazolamide",
+          "url": "https://wikem.org/wiki/Methazolamide"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Triamterene",
+          "url": "https://wikem.org/wiki/Triamterene"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "High_ceiling/loop_diuretic": {
+      "text": "Inhibit Na+/K+/2Cl symporter in ascending limb of loop of Henle, preventing reabsorption and thereby increasing urinary excretion of sodium, chloride, and potassium\nFurosemide\nEthacrynic acid\nTorsemide\nBumetanide\n40mg furosemide = 20 mg torsemide = 1mg bumetanide = 50 mg ethacrynic acid",
+      "subsections": {
+        "Thiazides": {
+          "text": "Act on the distal convoluted tubule and inhibit the sodium-chloride symporter\nHydrochlorothiazide",
+          "tables": []
+        },
+        "Carbonic_anhydrase_inhibitors": {
+          "text": "Inhibit the enzyme carbonic anhydrase in the proximal convoluted tubule\nacetazolamide\nmethazolamide",
+          "tables": []
+        },
+        "Potassium-sparing_diuretics": {
+          "text": "Aldosterone antagonists\nSpironolactone\nEpithelial sodium channel blockers:\nAmiloride\nTriamterene",
+          "tables": []
+        },
+        "Osmotic_diuretics": {
+          "text": "Increase osmolality and work primarily by expanding extracellular fluid and plasma volume, therefore increasing blood flow to the kidneys\nMannitol\nGlucose (e.g. during\nhyperglycemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "methazolamide",
+          "url": "https://wikem.org/wiki/Methazolamide"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Triamterene",
+          "url": "https://wikem.org/wiki/Triamterene"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Thiazides": {
+      "text": "Act on the distal convoluted tubule and inhibit the sodium-chloride symporter\nHydrochlorothiazide",
+      "subsections": {
+        "Carbonic_anhydrase_inhibitors": {
+          "text": "Inhibit the enzyme carbonic anhydrase in the proximal convoluted tubule\nacetazolamide\nmethazolamide",
+          "tables": []
+        },
+        "Potassium-sparing_diuretics": {
+          "text": "Aldosterone antagonists\nSpironolactone\nEpithelial sodium channel blockers:\nAmiloride\nTriamterene",
+          "tables": []
+        },
+        "Osmotic_diuretics": {
+          "text": "Increase osmolality and work primarily by expanding extracellular fluid and plasma volume, therefore increasing blood flow to the kidneys\nMannitol\nGlucose (e.g. during\nhyperglycemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "methazolamide",
+          "url": "https://wikem.org/wiki/Methazolamide"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Triamterene",
+          "url": "https://wikem.org/wiki/Triamterene"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Carbonic_anhydrase_inhibitors": {
+      "text": "Inhibit the enzyme carbonic anhydrase in the proximal convoluted tubule\nacetazolamide\nmethazolamide",
+      "subsections": {
+        "Potassium-sparing_diuretics": {
+          "text": "Aldosterone antagonists\nSpironolactone\nEpithelial sodium channel blockers:\nAmiloride\nTriamterene",
+          "tables": []
+        },
+        "Osmotic_diuretics": {
+          "text": "Increase osmolality and work primarily by expanding extracellular fluid and plasma volume, therefore increasing blood flow to the kidneys\nMannitol\nGlucose (e.g. during\nhyperglycemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "methazolamide",
+          "url": "https://wikem.org/wiki/Methazolamide"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Triamterene",
+          "url": "https://wikem.org/wiki/Triamterene"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Potassium-sparing_diuretics": {
+      "text": "Aldosterone antagonists\nSpironolactone\nEpithelial sodium channel blockers:\nAmiloride\nTriamterene",
+      "subsections": {
+        "Osmotic_diuretics": {
+          "text": "Increase osmolality and work primarily by expanding extracellular fluid and plasma volume, therefore increasing blood flow to the kidneys\nMannitol\nGlucose (e.g. during\nhyperglycemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Triamterene",
+          "url": "https://wikem.org/wiki/Triamterene"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Osmotic_diuretics": {
+      "text": "Increase osmolality and work primarily by expanding extracellular fluid and plasma volume, therefore increasing blood flow to the kidneys\nMannitol\nGlucose (e.g. during\nhyperglycemia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Antihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    }
+  }
+}

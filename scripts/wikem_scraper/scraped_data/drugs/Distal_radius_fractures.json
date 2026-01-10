@@ -1,0 +1,533 @@
+{
+  "drug_name": "Distal_radius_fractures",
+  "url": "https://wikem.org/wiki/Distal_radius_fractures",
+  "scraped_at": "2026-01-10T07:52:07.828249",
+  "sections": {
+    "Background": {
+      "text": "Definition: Fracture at the metaphysis or the articulation of the distal radius\nOne of the most common fractures seen in the ED (1/6th of all fractures treated)",
+      "subsections": {
+        "Distal_radius_fractures": {
+          "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+          "tables": []
+        },
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fractures": {
+      "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+      "subsections": {
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fracture_eponyms": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Eponyms": "Barton's",
+            "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+          },
+          {
+            "Eponyms": "Chauffer's",
+            "Description": "Fracture of radial styloid"
+          },
+          {
+            "Eponyms": "Colles'",
+            "Description": "Dorsally displaced, extra-articular fracture"
+          },
+          {
+            "Eponyms": "Die-punch",
+            "Description": "Depressed fracture of the lunate fossa (articular surface)"
+          },
+          {
+            "Eponyms": "Smith's",
+            "Description": "Volar displaced, extra-articular fracture"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Commonly from a fall on an outstretched wrist that is dorsiflexed\nWrist/forearm trauma and pain\nPossible forearm deformity",
+      "subsections": {
+        "Exam_Pearls": {
+          "text": "Perform full neurovascular assessment of the hand (including median, ulnar, and radial nerves\nExamine ipsilateral elbow, shoulder, and hand",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exam_Pearls": {
+      "text": "Perform full neurovascular assessment of the hand (including median, ulnar, and radial nerves\nExamine ipsilateral elbow, shoulder, and hand",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Forearm_Fracture_Types": {
+          "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        }
+      ]
+    },
+    "Forearm_Fracture_Types": {
+      "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Forearm x-ray AP and lateral",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically from plain forearm x-rays",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Forearm x-ray AP and lateral",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically from plain forearm x-rays",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically from plain forearm x-rays",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Acute_Reduction": {
+          "text": "Indications:\nMost angulated and/or displaced distal radius requires closed reduction and placement of a sugar-tong splint\nConsider even if operative management is expected (to reduce pain and swelling)\nSteps:\nAdequate analgesia (e.g.\nmorphine\nand/or\nhematoma block\n)\nhighly consider\nprocedural sedation\nAxial traction: Manual or finger traps with hanging weights, if available\nRecreate, then reverse, mechanism of injury\nAlthough recreating the injury briefly exaggerates the existing deformity, this maneuver \"unlocks\" any periosteal sleeve folded into the fracture site (which can be critical in achieving reduction)\nContinue to maintain axial traction throughout manuver\nFor example with a fracture with dorsally angulated fragments, establish axial traction, then slightly bending the dorsal fragment even more dorsally while maintain traction, then reverse pressure to reduce the distal fragment volarly and back out to length, all while maintaining traction.\nSplint\nRe-image\nGoal:\nAlways target optimal (anatomic) fracture reduction\nOperative fixation is recommended for fractures with post-reduction\n[1]\n:\nRadial shortening > 3mm\nDorsal tilt > 10°, or\nIntra-articular displacement or step-off > 2mm",
+          "tables": []
+        },
+        "Splinting": {
+          "text": "Reduction performed\nSugar tong splint\nReduction not attempted or failed\nVolar short arm splint\nIf severe pain with pronation/supination, then\nsugar tong splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Splint",
+          "url": "https://wikem.org/wiki/Splint"
+        },
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Volar short arm splint",
+          "url": "https://wikem.org/wiki/Volar_short_arm_splint"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Acute_Reduction": {
+          "text": "Indications:\nMost angulated and/or displaced distal radius requires closed reduction and placement of a sugar-tong splint\nConsider even if operative management is expected (to reduce pain and swelling)\nSteps:\nAdequate analgesia (e.g.\nmorphine\nand/or\nhematoma block\n)\nhighly consider\nprocedural sedation\nAxial traction: Manual or finger traps with hanging weights, if available\nRecreate, then reverse, mechanism of injury\nAlthough recreating the injury briefly exaggerates the existing deformity, this maneuver \"unlocks\" any periosteal sleeve folded into the fracture site (which can be critical in achieving reduction)\nContinue to maintain axial traction throughout manuver\nFor example with a fracture with dorsally angulated fragments, establish axial traction, then slightly bending the dorsal fragment even more dorsally while maintain traction, then reverse pressure to reduce the distal fragment volarly and back out to length, all while maintaining traction.\nSplint\nRe-image\nGoal:\nAlways target optimal (anatomic) fracture reduction\nOperative fixation is recommended for fractures with post-reduction\n[1]\n:\nRadial shortening > 3mm\nDorsal tilt > 10°, or\nIntra-articular displacement or step-off > 2mm",
+          "tables": []
+        },
+        "Splinting": {
+          "text": "Reduction performed\nSugar tong splint\nReduction not attempted or failed\nVolar short arm splint\nIf severe pain with pronation/supination, then\nsugar tong splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Splint",
+          "url": "https://wikem.org/wiki/Splint"
+        },
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Volar short arm splint",
+          "url": "https://wikem.org/wiki/Volar_short_arm_splint"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "Acute_Reduction": {
+      "text": "Indications:\nMost angulated and/or displaced distal radius requires closed reduction and placement of a sugar-tong splint\nConsider even if operative management is expected (to reduce pain and swelling)\nSteps:\nAdequate analgesia (e.g.\nmorphine\nand/or\nhematoma block\n)\nhighly consider\nprocedural sedation\nAxial traction: Manual or finger traps with hanging weights, if available\nRecreate, then reverse, mechanism of injury\nAlthough recreating the injury briefly exaggerates the existing deformity, this maneuver \"unlocks\" any periosteal sleeve folded into the fracture site (which can be critical in achieving reduction)\nContinue to maintain axial traction throughout manuver\nFor example with a fracture with dorsally angulated fragments, establish axial traction, then slightly bending the dorsal fragment even more dorsally while maintain traction, then reverse pressure to reduce the distal fragment volarly and back out to length, all while maintaining traction.\nSplint\nRe-image\nGoal:\nAlways target optimal (anatomic) fracture reduction\nOperative fixation is recommended for fractures with post-reduction\n[1]\n:\nRadial shortening > 3mm\nDorsal tilt > 10°, or\nIntra-articular displacement or step-off > 2mm",
+      "subsections": {
+        "Splinting": {
+          "text": "Reduction performed\nSugar tong splint\nReduction not attempted or failed\nVolar short arm splint\nIf severe pain with pronation/supination, then\nsugar tong splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Splint",
+          "url": "https://wikem.org/wiki/Splint"
+        },
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Volar short arm splint",
+          "url": "https://wikem.org/wiki/Volar_short_arm_splint"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "Splinting": {
+      "text": "Reduction performed\nSugar tong splint\nReduction not attempted or failed\nVolar short arm splint\nIf severe pain with pronation/supination, then\nsugar tong splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        },
+        {
+          "text": "Volar short arm splint",
+          "url": "https://wikem.org/wiki/Volar_short_arm_splint"
+        },
+        {
+          "text": "sugar tong splint",
+          "url": "https://wikem.org/wiki/Sugar_tong_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most can be treated with orthopedic follow up within 1 week",
+      "subsections": {
+        "Admit": {
+          "text": "Open fracture\nNeuro-vascular compromise\nRisk or concern for\ncompartment syndrome\nPatient is unable to function at home (e.g. uses walker with that arm)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "Open fracture\nNeuro-vascular compromise\nRisk or concern for\ncompartment syndrome\nPatient is unable to function at home (e.g. uses walker with that arm)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Forearm fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm fractures",
+          "url": "https://wikem.org/wiki/Forearm_fractures"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.orthobullets.com/trauma/1027/distal-radius-fractures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

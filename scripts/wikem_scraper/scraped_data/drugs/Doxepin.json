@@ -1,0 +1,171 @@
+{
+  "drug_name": "Doxepin",
+  "url": "https://wikem.org/wiki/Doxepin",
+  "scraped_at": "2026-01-10T07:52:11.626342",
+  "sections": {
+    "Administration": {
+      "text": "Type: Insomnia;\nTricyclic antidepressant\n(TCAs)\nDosage Forms: 10, 25, 50, 75, 100, 150; 10/mL\nRoutes of Administration: PO\nCommon Trade Names: Silenor, Zonalon, Prudoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tricyclic antidepressant",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Depression": {
+          "text": "150-300mg PO QHS\nstart 25-75mg PO QHS; max 300mg/day\ntaper gradually to discontinue",
+          "tables": []
+        },
+        "Anxiety": {
+          "text": "150-300mg PO QHS\nstart 25-75mg PO QHS; max 300mg/day\ntaper gradually to discontinue",
+          "tables": []
+        },
+        "Insomnia": {
+          "text": "10-50mg PO QHS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Depression": {
+      "text": "150-300mg PO QHS\nstart 25-75mg PO QHS; max 300mg/day\ntaper gradually to discontinue",
+      "subsections": {
+        "Anxiety": {
+          "text": "150-300mg PO QHS\nstart 25-75mg PO QHS; max 300mg/day\ntaper gradually to discontinue",
+          "tables": []
+        },
+        "Insomnia": {
+          "text": "10-50mg PO QHS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anxiety": {
+      "text": "150-300mg PO QHS\nstart 25-75mg PO QHS; max 300mg/day\ntaper gradually to discontinue",
+      "subsections": {
+        "Insomnia": {
+          "text": "10-50mg PO QHS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Insomnia": {
+      "text": "10-50mg PO QHS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Depression_2": {
+          "text": "PO:\nNot recommended as first line medication; however some studies indicate it might be beneficial for patients with comorbid conditions.\nChildren 7 to 11 years: Limited data available; efficacy results variable: 1 to 3 mg/kg/day in single or divided doses.\nChildren ≥12 years and Adolescents: Initial: 25 to 75 mg/day at bedtime or in 2 to 3 divided doses; begin at the low end of range and gradually titrate; select patients may respond to 25 to 50 mg/day; maximum single dose: 150 mg; maximum daily dose: 300 mg/day.\nNote: Controlled clinical trials have not shown TCAs to be superior to placebo for the treatment of depression in children and adolescents",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Depression_2": {
+      "text": "PO:\nNot recommended as first line medication; however some studies indicate it might be beneficial for patients with comorbid conditions.\nChildren 7 to 11 years: Limited data available; efficacy results variable: 1 to 3 mg/kg/day in single or divided doses.\nChildren ≥12 years and Adolescents: Initial: 25 to 75 mg/day at bedtime or in 2 to 3 divided doses; begin at the low end of range and gradually titrate; select patients may respond to 25 to 50 mg/day; maximum single dose: 150 mg; maximum daily dose: 300 mg/day.\nNote: Controlled clinical trials have not shown TCAs to be superior to placebo for the treatment of depression in children and adolescents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: unsafe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: no adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: not defined, caution advised",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: no adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: not defined, caution advised",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: not defined, caution advised",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMI, acute recovery\nglaucoma, increased IOP\nurinary retention, prostatic hypertrophy, GI/GU obstruction\navoid abrupt withdrawal\ncaution if:\nage <25 years, elderly\ncardiovascular disease\nseizure disorder, parkinsons\nthyroid disease, diabetes\nasthma\nhepatic impairment\nschizophrenia, bipolar disorder, alcohol abuse, electroconvulsive therapy, suicide risk\nhigh environmental temperature",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "syncope, orthostatic hypotension\nventricular arrhythmias, AV block, QT prolongation, torsades de pointes\nseizures\nMI, HTN\nstroke\nextrapyramidal symptoms, tardive dyskinesia\nataxia\nparalytic ileus\nIOP elevation\nagranulocytosis, leukopenia, thrombocytopenia\nhallucinations, psychosis, worsening depression, hypomania/mania, suicidality\nSIADH\nhepatitis\nangioedema\nhyperthermia, heat stroke\nwithdrawal symptoms if abruptly discontinued",
+          "tables": []
+        },
+        "Common": {
+          "text": "drowsiness, dizziness, confusion, weakness, tremor, paresthesias\nnausea/vomiting, constipation, xerostomia\nblurred vision\npalpitations, tachycardia, diaphoresis, restlessness, insomnia, anxiety\nurinary frequency, incontinence, retention\nincreased appetite, weight gain\nlibido changes, impotence, gynecomastia,  galactorrhea\nhypo/hyperglycemia\nrash/urticarial, pruritus, photosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "syncope, orthostatic hypotension\nventricular arrhythmias, AV block, QT prolongation, torsades de pointes\nseizures\nMI, HTN\nstroke\nextrapyramidal symptoms, tardive dyskinesia\nataxia\nparalytic ileus\nIOP elevation\nagranulocytosis, leukopenia, thrombocytopenia\nhallucinations, psychosis, worsening depression, hypomania/mania, suicidality\nSIADH\nhepatitis\nangioedema\nhyperthermia, heat stroke\nwithdrawal symptoms if abruptly discontinued",
+      "subsections": {
+        "Common": {
+          "text": "drowsiness, dizziness, confusion, weakness, tremor, paresthesias\nnausea/vomiting, constipation, xerostomia\nblurred vision\npalpitations, tachycardia, diaphoresis, restlessness, insomnia, anxiety\nurinary frequency, incontinence, retention\nincreased appetite, weight gain\nlibido changes, impotence, gynecomastia,  galactorrhea\nhypo/hyperglycemia\nrash/urticarial, pruritus, photosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "drowsiness, dizziness, confusion, weakness, tremor, paresthesias\nnausea/vomiting, constipation, xerostomia\nblurred vision\npalpitations, tachycardia, diaphoresis, restlessness, insomnia, anxiety\nurinary frequency, incontinence, retention\nincreased appetite, weight gain\nlibido changes, impotence, gynecomastia,  galactorrhea\nhypo/hyperglycemia\nrash/urticarial, pruritus, photosensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 15.3 hours (doxepin); 31 hours (metabolite)\nMetabolism: liver; CYP450 (1A2, 2C9/19, 2D6 substrate)\nExcretion: urine\nMechanism of Action: exact MOA unknown; inhibits norepinephrine and serotonin reuptake; antagonizes central H1 receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

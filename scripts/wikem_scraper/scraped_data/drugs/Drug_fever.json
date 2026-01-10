@@ -1,0 +1,516 @@
+{
+  "drug_name": "Drug_fever",
+  "url": "https://wikem.org/wiki/Drug_fever",
+  "scraped_at": "2026-01-10T07:52:11.022530",
+  "sections": {
+    "Background": {
+      "text": "Also known as drug-induced hyperthermia\nAn adverse reaction to a drug in which the recipient of the drug develops a fever\nMost common drug classes are antimicrobials, anticonvulsants, antidysrhythmics, and other cardiac agents\n[1]",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Possible mechanisms:\nHyper-metabolic state\nDirect tissue damage and tissue necrosis\nInterference with peripheral vasodilation\nActivation of the cellular or humoral immune responses\nActing as an endogenous pyrogen.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Possible mechanisms:\nHyper-metabolic state\nDirect tissue damage and tissue necrosis\nInterference with peripheral vasodilation\nActivation of the cellular or humoral immune responses\nActing as an endogenous pyrogen.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Can occur at any point during therapy but most often occurs 7-10 days after initiation of drug\n[2]\nMay appear \"inappropriately well\" for the degree of fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Fever": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Thorough history and physical exam including review of medications",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Thorough history and physical exam including review of medications",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis of exclusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Withdrawal of offending agent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

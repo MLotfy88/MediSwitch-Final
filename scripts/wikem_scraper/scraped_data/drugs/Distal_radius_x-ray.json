@@ -1,0 +1,75 @@
+{
+  "drug_name": "Distal_radius_x-ray",
+  "url": "https://wikem.org/wiki/Distal_radius_x-ray",
+  "scraped_at": "2026-01-10T07:52:05.118378",
+  "sections": {
+    "Checklist": {
+      "text": "Is there loss of normal anatomy (e.g. fracture displacement or angulation, loss of radial height)\nIs there involvement of the radiocarpal or distal radioulnar joint?\nIs there discontinuity of the articular surface or diastasis (separation) of the articular fragments?\nAre high-risk features present (severe comminution, articular step-off >2 mm, fracture-dislocation)?",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Specific_Views": {
+      "text": "",
+      "subsections": {
+        "PA": {
+          "text": "Radial inclination (angle between line perpendicular to long axis of radius and line between radial styloid and ulnar corner of lunate fossa)\nNormal = 15-25 degrees\nOften smaller with fracture\nRadial height (Distance between distal tip of radial styloid and articular surface of the radius)\nNormal ~ 10-17mm\nOften smaller with comminuted or impacted fracture\nUlnar variance (Distance between ulnar-side articular surface of radius and the ulnar carpal surface)\nNormally 1-2mm",
+          "tables": []
+        },
+        "Lateral": {
+          "text": "Palmar Tilt (angle between line perpendicular to long axis of radial shaft and line through the apices of the palmar and dorsal rims of the radius\nNormally 10o-25o\nOften smaller with fracture",
+          "tables": []
+        },
+        "Oblique": {
+          "text": "May reveal intra-articular involvement not seen on other views",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "PA": {
+      "text": "Radial inclination (angle between line perpendicular to long axis of radius and line between radial styloid and ulnar corner of lunate fossa)\nNormal = 15-25 degrees\nOften smaller with fracture\nRadial height (Distance between distal tip of radial styloid and articular surface of the radius)\nNormal ~ 10-17mm\nOften smaller with comminuted or impacted fracture\nUlnar variance (Distance between ulnar-side articular surface of radius and the ulnar carpal surface)\nNormally 1-2mm",
+      "subsections": {
+        "Lateral": {
+          "text": "Palmar Tilt (angle between line perpendicular to long axis of radial shaft and line through the apices of the palmar and dorsal rims of the radius\nNormally 10o-25o\nOften smaller with fracture",
+          "tables": []
+        },
+        "Oblique": {
+          "text": "May reveal intra-articular involvement not seen on other views",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lateral": {
+      "text": "Palmar Tilt (angle between line perpendicular to long axis of radial shaft and line through the apices of the palmar and dorsal rims of the radius\nNormally 10o-25o\nOften smaller with fracture",
+      "subsections": {
+        "Oblique": {
+          "text": "May reveal intra-articular involvement not seen on other views",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Oblique": {
+      "text": "May reveal intra-articular involvement not seen on other views",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Forearm fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm fractures",
+          "url": "https://wikem.org/wiki/Forearm_fractures"
+        }
+      ]
+    }
+  }
+}

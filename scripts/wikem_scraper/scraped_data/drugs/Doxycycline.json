@@ -1,0 +1,2117 @@
+{
+  "drug_name": "Doxycycline",
+  "url": "https://wikem.org/wiki/Doxycycline",
+  "scraped_at": "2026-01-10T07:52:12.285775",
+  "sections": {
+    "General": {
+      "text": "Type:\nTetracyclines\nDosage Forms: PO and IV (20mg, 50mg, 75mg, 100mg, 150mg, 25mg/5 mL)\nCommon Trade Names: Adoxa, Avidoxy, Doryx, Monodox, Oracea, Periostat, Vibramycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetracyclines",
+          "url": "https://wikem.org/wiki/Tetracyclines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_Infections": {
+          "text": "100mg PO/IV QD or q12h depending on severity\nVariable duration",
+          "tables": []
+        },
+        "Severe_Acne_Vulgaris": {
+          "text": "100mg PO QD\nStart 100mg PO q12h x 1 day",
+          "tables": []
+        },
+        "Periodontitis": {
+          "text": "200mg PO q12h",
+          "tables": []
+        },
+        "Acute_Bacterial_Sinusitis": {
+          "text": "200mg/day PO q12-24h x 5-7 days",
+          "tables": []
+        },
+        "Chlamydia": {
+          "text": "100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea": {
+          "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "General_Infections": {
+      "text": "100mg PO/IV QD or q12h depending on severity\nVariable duration",
+      "subsections": {
+        "Severe_Acne_Vulgaris": {
+          "text": "100mg PO QD\nStart 100mg PO q12h x 1 day",
+          "tables": []
+        },
+        "Periodontitis": {
+          "text": "200mg PO q12h",
+          "tables": []
+        },
+        "Acute_Bacterial_Sinusitis": {
+          "text": "200mg/day PO q12-24h x 5-7 days",
+          "tables": []
+        },
+        "Chlamydia": {
+          "text": "100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea": {
+          "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Severe_Acne_Vulgaris": {
+      "text": "100mg PO QD\nStart 100mg PO q12h x 1 day",
+      "subsections": {
+        "Periodontitis": {
+          "text": "200mg PO q12h",
+          "tables": []
+        },
+        "Acute_Bacterial_Sinusitis": {
+          "text": "200mg/day PO q12-24h x 5-7 days",
+          "tables": []
+        },
+        "Chlamydia": {
+          "text": "100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea": {
+          "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Periodontitis": {
+      "text": "200mg PO q12h",
+      "subsections": {
+        "Acute_Bacterial_Sinusitis": {
+          "text": "200mg/day PO q12-24h x 5-7 days",
+          "tables": []
+        },
+        "Chlamydia": {
+          "text": "100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea": {
+          "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Acute_Bacterial_Sinusitis": {
+      "text": "200mg/day PO q12-24h x 5-7 days",
+      "subsections": {
+        "Chlamydia": {
+          "text": "100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea": {
+          "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Chlamydia": {
+      "text": "100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+      "subsections": {
+        "Gonorrhea": {
+          "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Gonorrhea": {
+      "text": "100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+      "subsections": {
+        "PID": {
+          "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+          "tables": []
+        },
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "PID": {
+      "text": "Outpatient\n100mg PO q12h x 14 days\nInpatient\n100mg IV q12h x 14 days\nSwitch to PO when able and complete course",
+      "subsections": {
+        "Cervicitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cervicitis": {
+      "text": "100mg PO q12h x 7 days",
+      "subsections": {
+        "Syphilis": {
+          "text": "If hypersensitivity to Penicillin",
+          "tables": []
+        },
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Syphilis": {
+      "text": "If hypersensitivity to Penicillin",
+      "subsections": {
+        "Primary/Secondary/Latent<1_year": {
+          "text": "100mg PO q12h x 14 days",
+          "tables": []
+        },
+        "Latent_>1_year/unknown": {
+          "text": "100mg PO q12h x 28 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lymphogranuloma_Venereum": {
+      "text": "100mg PO q12h x 21 days",
+      "subsections": {
+        "Urethritis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Urethritis": {
+      "text": "100mg PO q12h x 7 days",
+      "subsections": {
+        "Epididymitis": {
+          "text": "100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epididymitis": {
+      "text": "100mg PO q12h x 10 days",
+      "subsections": {
+        "Proctitis": {
+          "text": "100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Proctitis": {
+      "text": "100mg PO q12h x 7 days",
+      "subsections": {
+        "Lyme_Disease": {
+          "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lyme_Disease": {
+      "text": "100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+      "subsections": {
+        "Anthrax": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anthrax": {
+      "text": "First line agent in pregnancy",
+      "subsections": {
+        "Inhalational,_GI,_Oropharyngeal": {
+          "text": "100mg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous": {
+          "text": "100mg PO q12h x 7-10 days\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis": {
+          "text": "100mg PO QD x 60 days or until anthrax exposure excluded",
+          "tables": []
+        },
+        "Malaria_prophylaxis": {
+          "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Malaria_prophylaxis": {
+      "text": "100mg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_Infections_2": {
+          "text": ">8 years old\n2.2mg/kg PO/IV QD\nStart: 2.2mg/kg PO/IV q12h x 1 day\nMax 100mg/kg/dose\nFrequency for severe infections is q12h",
+          "tables": []
+        },
+        "Severe_Acne_Vulgaris_2": {
+          "text": ">8 years old\n2.2mg/kg PO/IV QD\nStart: 2.2mg/kg PO/IV q12h x 1 day\nMax 100mg/kg/dose",
+          "tables": []
+        },
+        "Atypical_CAP": {
+          "text": ">8 years old\n2-4mg/kg/day PO divided q12h x7-10 days",
+          "tables": []
+        },
+        "Chlamydia_2": {
+          "text": ">8 years old\n100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea_2": {
+          "text": ">8 years old/>45 kg\n100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID_2": {
+          "text": "Same as adult dosing",
+          "tables": []
+        },
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "General_Infections_2": {
+      "text": ">8 years old\n2.2mg/kg PO/IV QD\nStart: 2.2mg/kg PO/IV q12h x 1 day\nMax 100mg/kg/dose\nFrequency for severe infections is q12h",
+      "subsections": {
+        "Severe_Acne_Vulgaris_2": {
+          "text": ">8 years old\n2.2mg/kg PO/IV QD\nStart: 2.2mg/kg PO/IV q12h x 1 day\nMax 100mg/kg/dose",
+          "tables": []
+        },
+        "Atypical_CAP": {
+          "text": ">8 years old\n2-4mg/kg/day PO divided q12h x7-10 days",
+          "tables": []
+        },
+        "Chlamydia_2": {
+          "text": ">8 years old\n100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea_2": {
+          "text": ">8 years old/>45 kg\n100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID_2": {
+          "text": "Same as adult dosing",
+          "tables": []
+        },
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Severe_Acne_Vulgaris_2": {
+      "text": ">8 years old\n2.2mg/kg PO/IV QD\nStart: 2.2mg/kg PO/IV q12h x 1 day\nMax 100mg/kg/dose",
+      "subsections": {
+        "Atypical_CAP": {
+          "text": ">8 years old\n2-4mg/kg/day PO divided q12h x7-10 days",
+          "tables": []
+        },
+        "Chlamydia_2": {
+          "text": ">8 years old\n100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea_2": {
+          "text": ">8 years old/>45 kg\n100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID_2": {
+          "text": "Same as adult dosing",
+          "tables": []
+        },
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Atypical_CAP": {
+      "text": ">8 years old\n2-4mg/kg/day PO divided q12h x7-10 days",
+      "subsections": {
+        "Chlamydia_2": {
+          "text": ">8 years old\n100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+          "tables": []
+        },
+        "Gonorrhea_2": {
+          "text": ">8 years old/>45 kg\n100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID_2": {
+          "text": "Same as adult dosing",
+          "tables": []
+        },
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Chlamydia_2": {
+      "text": ">8 years old\n100mg PO q12h x 7 days\nAlso prophylaxis for sexual assault victims",
+      "subsections": {
+        "Gonorrhea_2": {
+          "text": ">8 years old/>45 kg\n100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+          "tables": []
+        },
+        "PID_2": {
+          "text": "Same as adult dosing",
+          "tables": []
+        },
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Gonorrhea_2": {
+      "text": ">8 years old/>45 kg\n100mg PO q12h x 7 days\nNot first line- use with\nceftriaxone",
+      "subsections": {
+        "PID_2": {
+          "text": "Same as adult dosing",
+          "tables": []
+        },
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "PID_2": {
+      "text": "Same as adult dosing",
+      "subsections": {
+        "Cervicitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cervicitis_2": {
+      "text": "Adolescents\n100mg PO q12h x 7 days",
+      "subsections": {
+        "Lymphogranuloma_Venereum_2": {
+          "text": "Adolescents\n100mg PO q12h x 21 days",
+          "tables": []
+        },
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lymphogranuloma_Venereum_2": {
+      "text": "Adolescents\n100mg PO q12h x 21 days",
+      "subsections": {
+        "Urethritis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Urethritis_2": {
+      "text": "Adolescents\n100mg PO q12h x 7 days",
+      "subsections": {
+        "Epididymitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 10 days",
+          "tables": []
+        },
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epididymitis_2": {
+      "text": "Adolescents\n100mg PO q12h x 10 days",
+      "subsections": {
+        "Proctitis_2": {
+          "text": "Adolescents\n100mg PO q12h x 7 days",
+          "tables": []
+        },
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Proctitis_2": {
+      "text": "Adolescents\n100mg PO q12h x 7 days",
+      "subsections": {
+        "Lyme_Disease_2": {
+          "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+          "tables": []
+        },
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lyme_Disease_2": {
+      "text": ">8 years old\n100mg PO q12h x14-21 days\nTreat for 28 days if Lyme arthritis",
+      "subsections": {
+        "Anthrax_2": {
+          "text": "First line agent in pregnancy",
+          "tables": []
+        },
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anthrax_2": {
+      "text": "First line agent in pregnancy",
+      "subsections": {
+        "Inhalational,_GI,_Oropharyngeal_2": {
+          "text": "2.2mg/kg PO q12h x 60 days",
+          "tables": []
+        },
+        "Cutaneous_2": {
+          "text": "2.2mg/kg PO q12h x 7-10 days\nMax 100mg/dose\n60 day regimen if bioterrorism suspected",
+          "tables": []
+        },
+        "Post_exposure_prophylaxis_2": {
+          "text": "2.2mg/kg PO QD x 60 days or until anthrax exposure excluded\nMax 100mg/dose",
+          "tables": []
+        },
+        "Malaria_prophylaxis_2": {
+          "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Malaria_prophylaxis_2": {
+      "text": "> 8 years old\n2.2mg/kg PO QD\nStart 1-2 days prior to exposure\nContinue 4 weeks after exposure\nMax 100mg/dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: D\nLactation: Possibly Unsafe; consider alternatives\nRenal Dosing Adult and Pediatric\nNo adjustment\nHepatic Dosing Adult and Pediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy\nAge <8 years\nDoxycycline is less likely to cause dental staining, especially short course\nAAP now permits Doxycyline use if less than 21 days treatment duration\n[1]\nCaution:\nLupus\nChild bearing potential\nHepatic impairment\nCandidiasis\nRecent colitis due to antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Tooth discoloration children <8 years old\n(Controversial)\n[2]\nPhotosensitivity\nC. Diff diarrhea\nHypersensitivity reaction\nSkin reaction\nVasculitis\nPericarditis\nAutoimmune hepatitis\nHepatotoxicity\nNephrotoxicity\nEsophagitis/ulcer\nPancreatitis\nThrombocytopenia\nNeutropenia\nHemolytic anemia\nPseudotumor cerebri\nBulging fontanelles\nJarisch-Herxheimer reaction\nFetal harm",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nNausea\nDyspepsia\nArthralgia\nDiarrhea\nRash\nDysmenorrhea\nPhotosensitivity\nVulvovaginal candidiasis\nSkin discoloration\nElevated BUN",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Tooth discoloration children <8 years old\n(Controversial)\n[2]\nPhotosensitivity\nC. Diff diarrhea\nHypersensitivity reaction\nSkin reaction\nVasculitis\nPericarditis\nAutoimmune hepatitis\nHepatotoxicity\nNephrotoxicity\nEsophagitis/ulcer\nPancreatitis\nThrombocytopenia\nNeutropenia\nHemolytic anemia\nPseudotumor cerebri\nBulging fontanelles\nJarisch-Herxheimer reaction\nFetal harm",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nNausea\nDyspepsia\nArthralgia\nDiarrhea\nRash\nDysmenorrhea\nPhotosensitivity\nVulvovaginal candidiasis\nSkin discoloration\nElevated BUN",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\nNausea\nDyspepsia\nArthralgia\nDiarrhea\nRash\nDysmenorrhea\nPhotosensitivity\nVulvovaginal candidiasis\nSkin discoloration\nElevated BUN",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 18 hours\nMetabolism: Unknown and minimal liver/CYP450\nExcretion: Feces and urine\nMechanism of Action: Bacteriostatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "S+'"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

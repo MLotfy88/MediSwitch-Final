@@ -1,0 +1,148 @@
+{
+  "drug_name": "Displaced_G-tube",
+  "url": "https://wikem.org/wiki/Displaced_G-tube",
+  "scraped_at": "2026-01-10T07:52:01.121656",
+  "sections": {
+    "Background": {
+      "text": "The percutaneous gastrostomy tube (PEG) is commonly indicated in:\nPatients with impaired ability to tolerate PO for caloric supplementation, hydration, frequent enteral medication dosing\nOropharyngeal or esophageal obstruction\nMajor facial trauma\nPassive gastric decompression\nMechanical apposition of the stomach to the abdominal wall to prevent hiatal herniation\nMost PEGs are 18F to 28F and may be used for 12-24mo\nDisplacement is estimated to occur in 1.6-20% of patients with PEG tubes",
+      "subsections": {
+        "Anatomy": {
+          "text": "The G-tube creates a connection via a hollow tube, from the gastric lumen, through the gastric wall and peritoneum, and through the abdominal wall",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anatomy": {
+      "text": "The G-tube creates a connection via a hollow tube, from the gastric lumen, through the gastric wall and peritoneum, and through the abdominal wall",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "G-tube fully removed or partially removed with deflated balloon exposed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "G-tube_complications": {
+          "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clogged G-tube",
+          "url": "https://wikem.org/wiki/Clogged_G-tube"
+        },
+        {
+          "text": "Infected G-tube",
+          "url": "https://wikem.org/wiki/Infected_G-tube"
+        },
+        {
+          "text": "Leaking G-tube",
+          "url": "https://wikem.org/wiki/Leaking_G-tube"
+        }
+      ]
+    },
+    "G-tube_complications": {
+      "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clogged G-tube",
+          "url": "https://wikem.org/wiki/Clogged_G-tube"
+        },
+        {
+          "text": "Infected G-tube",
+          "url": "https://wikem.org/wiki/Infected_G-tube"
+        },
+        {
+          "text": "Leaking G-tube",
+          "url": "https://wikem.org/wiki/Leaking_G-tube"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Within_2-4_Weeks_of_Insertion": {
+          "text": "Do not attempt to replace the tube\nMay not represent sufficient time for full epithelialization of the percutaneous tract\nEfforts at replacement may result in intra-peritoneal tube\nUrgent general surgical, gastroenterology, or radiology consult is recommended\nAdmit for IV antibiotics and monitor for peritonitis",
+          "tables": []
+        },
+        "More_Than_2-4_Weeks": {
+          "text": "Reinsertion should be attempted as soon as possible\nMature stomas close rapidly (within minutes to hours)\nReplacement tubes should be of the same size as the initial tube\nIf the original size is unknown, a 16 or 18 French G tube or a Foley catheter may generally be used",
+          "tables": []
+        },
+        "Replacing_a_G-Tube": {
+          "text": "Deflate the balloon\nLubricate the tube with lidocaine jelly\nPosition the patient reclined in bed to decrease abdominal pressure and relax abdominal wall musculature\nReinsert the tube along the tract\nNever force the tube\nForcing the tube may separate the stomach from the abdominal wall and result in intraperitoneal placement of the G tube\nIf unable to replace g-tube, attempt one size smaller or a foley catheter\nInflate the balloon with NS (amount written in milliliters on the port)\nApply gentle traction to position the balloon against the gastric wall\nAdjust the external bolster against the skin with approximately 1cm of mobility and secure with tape and gauze\nNot recommended to place gauze between external bolster and skin\nConfirm positioning. Options include:\nInject 20-30mL of water-soluble contrast [Gastrografin], then obtain an upright abdominal XR\nInject of 10cc NS through the tube under direct ultrasound visualization of the stomach\nCheck tube fluid: gastric fluid pH is normally <4",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Within_2-4_Weeks_of_Insertion": {
+      "text": "Do not attempt to replace the tube\nMay not represent sufficient time for full epithelialization of the percutaneous tract\nEfforts at replacement may result in intra-peritoneal tube\nUrgent general surgical, gastroenterology, or radiology consult is recommended\nAdmit for IV antibiotics and monitor for peritonitis",
+      "subsections": {
+        "More_Than_2-4_Weeks": {
+          "text": "Reinsertion should be attempted as soon as possible\nMature stomas close rapidly (within minutes to hours)\nReplacement tubes should be of the same size as the initial tube\nIf the original size is unknown, a 16 or 18 French G tube or a Foley catheter may generally be used",
+          "tables": []
+        },
+        "Replacing_a_G-Tube": {
+          "text": "Deflate the balloon\nLubricate the tube with lidocaine jelly\nPosition the patient reclined in bed to decrease abdominal pressure and relax abdominal wall musculature\nReinsert the tube along the tract\nNever force the tube\nForcing the tube may separate the stomach from the abdominal wall and result in intraperitoneal placement of the G tube\nIf unable to replace g-tube, attempt one size smaller or a foley catheter\nInflate the balloon with NS (amount written in milliliters on the port)\nApply gentle traction to position the balloon against the gastric wall\nAdjust the external bolster against the skin with approximately 1cm of mobility and secure with tape and gauze\nNot recommended to place gauze between external bolster and skin\nConfirm positioning. Options include:\nInject 20-30mL of water-soluble contrast [Gastrografin], then obtain an upright abdominal XR\nInject of 10cc NS through the tube under direct ultrasound visualization of the stomach\nCheck tube fluid: gastric fluid pH is normally <4",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "More_Than_2-4_Weeks": {
+      "text": "Reinsertion should be attempted as soon as possible\nMature stomas close rapidly (within minutes to hours)\nReplacement tubes should be of the same size as the initial tube\nIf the original size is unknown, a 16 or 18 French G tube or a Foley catheter may generally be used",
+      "subsections": {
+        "Replacing_a_G-Tube": {
+          "text": "Deflate the balloon\nLubricate the tube with lidocaine jelly\nPosition the patient reclined in bed to decrease abdominal pressure and relax abdominal wall musculature\nReinsert the tube along the tract\nNever force the tube\nForcing the tube may separate the stomach from the abdominal wall and result in intraperitoneal placement of the G tube\nIf unable to replace g-tube, attempt one size smaller or a foley catheter\nInflate the balloon with NS (amount written in milliliters on the port)\nApply gentle traction to position the balloon against the gastric wall\nAdjust the external bolster against the skin with approximately 1cm of mobility and secure with tape and gauze\nNot recommended to place gauze between external bolster and skin\nConfirm positioning. Options include:\nInject 20-30mL of water-soluble contrast [Gastrografin], then obtain an upright abdominal XR\nInject of 10cc NS through the tube under direct ultrasound visualization of the stomach\nCheck tube fluid: gastric fluid pH is normally <4",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Replacing_a_G-Tube": {
+      "text": "Deflate the balloon\nLubricate the tube with lidocaine jelly\nPosition the patient reclined in bed to decrease abdominal pressure and relax abdominal wall musculature\nReinsert the tube along the tract\nNever force the tube\nForcing the tube may separate the stomach from the abdominal wall and result in intraperitoneal placement of the G tube\nIf unable to replace g-tube, attempt one size smaller or a foley catheter\nInflate the balloon with NS (amount written in milliliters on the port)\nApply gentle traction to position the balloon against the gastric wall\nAdjust the external bolster against the skin with approximately 1cm of mobility and secure with tape and gauze\nNot recommended to place gauze between external bolster and skin\nConfirm positioning. Options include:\nInject 20-30mL of water-soluble contrast [Gastrografin], then obtain an upright abdominal XR\nInject of 10cc NS through the tube under direct ultrasound visualization of the stomach\nCheck tube fluid: gastric fluid pH is normally <4",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Tubes in place less than 2-4 weeks need urgent surgical, gastroenterology, or radiology consult\nOtherwise, tubes may be reinserted as described above, with urgent surgical, gastroenterology, or radiology consult if the tube is not replaced easily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "YouTube - Gtube Replacement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "G-tube complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

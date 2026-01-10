@@ -1,0 +1,469 @@
+{
+  "drug_name": "Dressler%27s_syndrome",
+  "url": "https://wikem.org/wiki/Dressler%27s_syndrome",
+  "scraped_at": "2026-01-10T07:52:12.821646",
+  "sections": {
+    "Background": {
+      "text": "Also known as late post-MI pericarditis\nPericarditis\nthat occurs one week to several months after a myocardial infarction\nThought to be immunologic and is less commonly seen after\nPE\n,\npericardial trauma\n, or pericardiectomy.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "pericardial trauma",
+          "url": "https://wikem.org/wiki/Cardiac_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Signs_and_Symptoms": {
+          "text": "Pleuritic\nchest pain\nFever\nMalaise\nPericardial friction rub",
+          "tables": []
+        },
+        "Findings": {
+          "text": "EKG\nfindings characteristic of\npericarditis\nPericardial effusion\nPleural effusion\nLeukocytosis, elevated ESR or CRP\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        }
+      ]
+    },
+    "Signs_and_Symptoms": {
+      "text": "Pleuritic\nchest pain\nFever\nMalaise\nPericardial friction rub",
+      "subsections": {
+        "Findings": {
+          "text": "EKG\nfindings characteristic of\npericarditis\nPericardial effusion\nPleural effusion\nLeukocytosis, elevated ESR or CRP\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        }
+      ]
+    },
+    "Findings": {
+      "text": "EKG\nfindings characteristic of\npericarditis\nPericardial effusion\nPleural effusion\nLeukocytosis, elevated ESR or CRP\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "CHF\nPE\nPneumonia\nPneumothorax\nAortic dissection\nPneumomediastinum\nPleuritis",
+      "subsections": {
+        "ST_Elevation": {
+          "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "ST_Elevation": {
+      "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "EKG\nLabs\nCBC\nCRP/ESR\nTroponin\n: to rule out concurrent\nmyocarditis\nImaging\nCXR\nEchocardiogram",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiogram",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Need 2 of the following diagnostic criteria for acute pericarditis\n[3]\nChest pain (typically sharp and pleuritic, improved by sitting up and leaning forward)\nPericardial friction rub\nNew or worsening pericardial effusion\nSuggestive ECG changes\nAND\nAppropriate time-frame: 1 week to approximately 3 months after cardiac injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "NSAIDs\n: There is no evidence that a specific NSAID has increased efficacy, so NSAID choice is typically based on whether there are other indications for an NSAID or likelihood of side effects.\nAspirin\n: 750-1000 mg q6-8h, with gradual tapering of the total daily dose by 650-800 mg weekly for a treatment period of three to four weeks\nIbuprofen\n:  600-800 mg q6-8h, with gradual tapering of the total daily dose by 400-800 mg every week for a treatment period of three to four weeks\n[4]\nColchicine\n: may be used in conjunction with NSAIDs\n[5]\nGlucocorticoids\n: can be used for refractory Dressler's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "Glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission not typically necessary, but should be considered in patients with:\nMyopericarditis\nCardiac tamponade\nHemodynamic instability\nPatients should follow up as an outpatient for repeat inflammatory markers in approximately one month.\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Myocardial infarction\nAcute coronary syndrome\nPericarditis\nMyocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        }
+      ]
+    }
+  }
+}

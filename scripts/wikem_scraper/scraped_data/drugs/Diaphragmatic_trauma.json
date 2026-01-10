@@ -1,0 +1,507 @@
+{
+  "drug_name": "Diaphragmatic_trauma",
+  "url": "https://wikem.org/wiki/Diaphragmatic_trauma",
+  "scraped_at": "2026-01-10T07:51:55.673110",
+  "sections": {
+    "Background": {
+      "text": "Associated with penetrating or blunt trauma to lower\nchest\n/\nupper abdomen\n~65% from penetrating, 35% from blunt\n[1]\nIf missed, can lead to herniation of viscera and tension enterothorax\nMost commonly left sided\nMajority will have other injuries which can mask symptoms of diaphragm injury\n75% of the time occurs on the left side; the liver is protective on the right side\nPresentation can be delayed months to years after the initial trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        },
+        {
+          "text": "upper abdomen",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Upper abdominal\n/\nlower chest pain\nShortness of breath\nDiminished breath sounds on side of rupture\nKehr Sign: shoulder pain from referred diaphragm pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "lower chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nmay show visceral herniation\nPoorly sensitive\nCT chest/abdomen/pelvis with contrast may better detect smaller herniations (roughly 82% sensitive and 88% specific)\n[2]\n\"Collar sign\"\nwaist-like constriction of abdominal viscera\nMRI better evaluates the diaphragm itself in stable patients in whom the diagnosis is unclear\nSurgical exploration is ultimately the best diagnostic modality (thoracoscopy vs laparoscopy vs ex-lap depending on concurrent injuries)\nThoracoscopy\nLaparoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "NG tube\ndecompression\nSurgery is required to fix the defect",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NG tube",
+          "url": "https://wikem.org/wiki/NG_tube"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracic Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic Trauma",
+          "url": "https://wikem.org/wiki/Thoracic_Trauma"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "drug_name": "Diverticulosis",
+  "url": "https://wikem.org/wiki/Diverticulosis",
+  "scraped_at": "2026-01-10T07:52:08.068135",
+  "sections": {
+    "Background": {
+      "text": "Outpouchings in colonic wall due to erosion of diverticular wall by inspissated fecal material, which can lead to microperforation\nIf microperfs become infected/inflamed, can lead to\ndiverticulitis\nPrevalence of diverticulosis 30% by age 60, >70% by age 85\n70% of patients with diverticulosis remain asymptomatic\nDiverticular disease is almost exclusively left-sided colon (USA) or right-sided (Asia)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Typically asymptomatic OR\nLower GI bleeding\n, painless",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Undifferentiated_lower_gastrointestinal_bleeding": {
+          "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Undifferentiated_lower_gastrointestinal_bleeding": {
+      "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nChemistries\nBUN may be elevated if bleeding occurs from site high in GI tract\nCoags\nLFTs\nType and screen\nFibrinogen\nECG\n(if concern for silent ischemia in patients likely to have CAD)\nCTA\nRequires brisk bleeding rate (0.5 cc/min) for detection\n[\ncitation needed\n]\nTagged red blood cell scan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "citation needed",
+          "url": "https://wikem.org/wiki/WikEM:Citation_needed"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Categorize as stable versus unstable using shock index (HR/SBP), SI <1 stable, >1 unstable or suspect active bleeding\nUnstable patients resuscitate, CT angiogram, if CTA does not identify source of bleeding, upper endoscopy if hemodynamic instability\n[2]\nStable calculate risk score\nOakland score\nGlasgow-Blatchford score\nIVF\nConsider transfusing\npRBCs\n/\nplatelets\nfor unstable patients or with very low hemoglobin (<7).  with cardiovascular disease use trigger of 8 and target of 10 hemoglobin.\nConsider NGT - high possibility for surgery to request\nEmergent sigmoidoscopy/colonoscopy (next 24 hours)\nSurgery if endoscopy fails or not available",
+      "subsections": {
+        "Major_Bleed_and_Supratherapeutic_INR": {
+          "text": "Correct coagulopathy\nVitamin K\n10mg IV (best bioavailability in critical patient)\nPCC\nor\nFFP",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Major_Bleed_and_Supratherapeutic_INR": {
+      "text": "Correct coagulopathy\nVitamin K\n10mg IV (best bioavailability in critical patient)\nPCC\nor\nFFP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on severity of bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Lower GI bleeding\nDiverticulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

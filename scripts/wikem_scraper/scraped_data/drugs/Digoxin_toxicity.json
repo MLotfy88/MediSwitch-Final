@@ -1,0 +1,1520 @@
+{
+  "drug_name": "Digoxin_toxicity",
+  "url": "https://wikem.org/wiki/Digoxin_toxicity",
+  "scraped_at": "2026-01-10T07:51:58.070581",
+  "sections": {
+    "Background": {
+      "text": "Cardioactive glycoside, a subset of cardioactive steroids, that comes from the foxglove plant,\nDigitalis lanata",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Inhibits Na+/K+ ATPase in the myocardium\n[1]\nCauses increase in intracellular sodium levels\nResults in reversal of sodium-calcium exchanger\nNormally imports three extracellular sodium ions into the cardiac myocyte in exchange for one intracellular calcium being exported\nSodium accumulates intracellularly and is exchanged for Calcium.\nCauses an increase in the intracellular calcium concentration increasing contractility\nAlso a lengthening of phase 4 and phase 0 of the cardiac action potential which ultimately decreases heart rate\nSummary\nInhibits NaK pump\nPositive inotropy\nNegative chronotropy/dromotropy\nIndirect vagal stimulator",
+          "tables": []
+        },
+        "Adverse_Effects": {
+          "text": "Increases vagal tone\nAt toxic levels, digoxin can block the SA node's intrinsic impulses along with blocking AV nodal conductions\nCan lead to bradyarrhythmias (esp in young)\nIncreases automaticity\nDigoxin acts on the Purkinje fibers by decreasing the resting potential, shortening the action potential duration, and causing enhanced automaticity leading to ventricular dysrhythmias (esp in elderly)",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Recent dose increase\nElectrolyte Imbalance\nHypokalemia\n,\nHyperkalemia\n,\nHypomagnesemia\n,\nHypercalcemia\nHypovolemia\nRenal insufficiency\nDigoxin is renally cleared thus any injury to the kidney can lead to accumulation\nCardiac Ischemia\nHypothyroidism\nMeds\nCalcium-Channel Blockers\n,\nAmiodarone",
+          "tables": []
+        },
+        "Environmental_Exposures": {
+          "text": "Plants that contain cardiac glycosides:\nOleander\nFoxglove\nLily of the valley\nMilkweed",
+          "tables": []
+        },
+        "Acute_vs._Chronic": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Mortality",
+                "Acute": "Lower",
+                "Chronic": "Higher"
+              },
+              {
+                "Category": "Arrythmias",
+                "Acute": "Bradycardia / AV block more common",
+                "Chronic": "Ventricular dysrhythmias more common"
+              },
+              {
+                "Category": "Age",
+                "Acute": "Younger",
+                "Chronic": "Older"
+              },
+              {
+                "Category": "Therapy",
+                "Acute": "Often do not need Fab",
+                "Chronic": "Often need Fab therapy"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Calcium-Channel Blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits Na+/K+ ATPase in the myocardium\n[1]\nCauses increase in intracellular sodium levels\nResults in reversal of sodium-calcium exchanger\nNormally imports three extracellular sodium ions into the cardiac myocyte in exchange for one intracellular calcium being exported\nSodium accumulates intracellularly and is exchanged for Calcium.\nCauses an increase in the intracellular calcium concentration increasing contractility\nAlso a lengthening of phase 4 and phase 0 of the cardiac action potential which ultimately decreases heart rate\nSummary\nInhibits NaK pump\nPositive inotropy\nNegative chronotropy/dromotropy\nIndirect vagal stimulator",
+      "subsections": {
+        "Adverse_Effects": {
+          "text": "Increases vagal tone\nAt toxic levels, digoxin can block the SA node's intrinsic impulses along with blocking AV nodal conductions\nCan lead to bradyarrhythmias (esp in young)\nIncreases automaticity\nDigoxin acts on the Purkinje fibers by decreasing the resting potential, shortening the action potential duration, and causing enhanced automaticity leading to ventricular dysrhythmias (esp in elderly)",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Recent dose increase\nElectrolyte Imbalance\nHypokalemia\n,\nHyperkalemia\n,\nHypomagnesemia\n,\nHypercalcemia\nHypovolemia\nRenal insufficiency\nDigoxin is renally cleared thus any injury to the kidney can lead to accumulation\nCardiac Ischemia\nHypothyroidism\nMeds\nCalcium-Channel Blockers\n,\nAmiodarone",
+          "tables": []
+        },
+        "Environmental_Exposures": {
+          "text": "Plants that contain cardiac glycosides:\nOleander\nFoxglove\nLily of the valley\nMilkweed",
+          "tables": []
+        },
+        "Acute_vs._Chronic": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Mortality",
+                "Acute": "Lower",
+                "Chronic": "Higher"
+              },
+              {
+                "Category": "Arrythmias",
+                "Acute": "Bradycardia / AV block more common",
+                "Chronic": "Ventricular dysrhythmias more common"
+              },
+              {
+                "Category": "Age",
+                "Acute": "Younger",
+                "Chronic": "Older"
+              },
+              {
+                "Category": "Therapy",
+                "Acute": "Often do not need Fab",
+                "Chronic": "Often need Fab therapy"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Calcium-Channel Blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        }
+      ]
+    },
+    "Adverse_Effects": {
+      "text": "Increases vagal tone\nAt toxic levels, digoxin can block the SA node's intrinsic impulses along with blocking AV nodal conductions\nCan lead to bradyarrhythmias (esp in young)\nIncreases automaticity\nDigoxin acts on the Purkinje fibers by decreasing the resting potential, shortening the action potential duration, and causing enhanced automaticity leading to ventricular dysrhythmias (esp in elderly)",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Recent dose increase\nElectrolyte Imbalance\nHypokalemia\n,\nHyperkalemia\n,\nHypomagnesemia\n,\nHypercalcemia\nHypovolemia\nRenal insufficiency\nDigoxin is renally cleared thus any injury to the kidney can lead to accumulation\nCardiac Ischemia\nHypothyroidism\nMeds\nCalcium-Channel Blockers\n,\nAmiodarone",
+          "tables": []
+        },
+        "Environmental_Exposures": {
+          "text": "Plants that contain cardiac glycosides:\nOleander\nFoxglove\nLily of the valley\nMilkweed",
+          "tables": []
+        },
+        "Acute_vs._Chronic": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Mortality",
+                "Acute": "Lower",
+                "Chronic": "Higher"
+              },
+              {
+                "Category": "Arrythmias",
+                "Acute": "Bradycardia / AV block more common",
+                "Chronic": "Ventricular dysrhythmias more common"
+              },
+              {
+                "Category": "Age",
+                "Acute": "Younger",
+                "Chronic": "Older"
+              },
+              {
+                "Category": "Therapy",
+                "Acute": "Often do not need Fab",
+                "Chronic": "Often need Fab therapy"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Calcium-Channel Blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Recent dose increase\nElectrolyte Imbalance\nHypokalemia\n,\nHyperkalemia\n,\nHypomagnesemia\n,\nHypercalcemia\nHypovolemia\nRenal insufficiency\nDigoxin is renally cleared thus any injury to the kidney can lead to accumulation\nCardiac Ischemia\nHypothyroidism\nMeds\nCalcium-Channel Blockers\n,\nAmiodarone",
+      "subsections": {
+        "Environmental_Exposures": {
+          "text": "Plants that contain cardiac glycosides:\nOleander\nFoxglove\nLily of the valley\nMilkweed",
+          "tables": []
+        },
+        "Acute_vs._Chronic": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Mortality",
+                "Acute": "Lower",
+                "Chronic": "Higher"
+              },
+              {
+                "Category": "Arrythmias",
+                "Acute": "Bradycardia / AV block more common",
+                "Chronic": "Ventricular dysrhythmias more common"
+              },
+              {
+                "Category": "Age",
+                "Acute": "Younger",
+                "Chronic": "Older"
+              },
+              {
+                "Category": "Therapy",
+                "Acute": "Often do not need Fab",
+                "Chronic": "Often need Fab therapy"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Calcium-Channel Blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        }
+      ]
+    },
+    "Environmental_Exposures": {
+      "text": "Plants that contain cardiac glycosides:\nOleander\nFoxglove\nLily of the valley\nMilkweed",
+      "subsections": {
+        "Acute_vs._Chronic": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Mortality",
+                "Acute": "Lower",
+                "Chronic": "Higher"
+              },
+              {
+                "Category": "Arrythmias",
+                "Acute": "Bradycardia / AV block more common",
+                "Chronic": "Ventricular dysrhythmias more common"
+              },
+              {
+                "Category": "Age",
+                "Acute": "Younger",
+                "Chronic": "Older"
+              },
+              {
+                "Category": "Therapy",
+                "Acute": "Often do not need Fab",
+                "Chronic": "Often need Fab therapy"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_vs._Chronic": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Mortality",
+            "Acute": "Lower",
+            "Chronic": "Higher"
+          },
+          {
+            "Category": "Arrythmias",
+            "Acute": "Bradycardia / AV block more common",
+            "Chronic": "Ventricular dysrhythmias more common"
+          },
+          {
+            "Category": "Age",
+            "Acute": "Younger",
+            "Chronic": "Older"
+          },
+          {
+            "Category": "Therapy",
+            "Acute": "Often do not need Fab",
+            "Chronic": "Often need Fab therapy"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Cardiac": {
+          "text": "Syncope\nDysrhythmias\nPVCs\n(most common)\nBradycardia\nSVT\nwith AV block\nJunctional escape\nIncreased Automaticity:\natrial tachycardia\n, regularized\natrial fibrillation\nRegularized AF is atrial fibrillation with 3rd degree AV block and a junctional escape rhythm\nAtrial fibrillation with an underlying regular ventricular rate is suspicious (but not pathognomonic) for Digoxin toxicity\nVentricular dysrhythmias\n, including bidirectional V-tach (esp in chronic toxicity)\nBidirectional\nvtach\nis pathognomonic for digoxin toxicity\nDigitalis Effect\n(seen with therapeutic levels; not indicative of toxicity)\nT wave changes (flattening or inversion)\nQT interval shortening\nScooped ST segments with depression in lateral leads\nSometimes referred to as the 'Salvador Dali mustache'\nIncreased U-wave amplitude",
+          "tables": []
+        },
+        "GI": {
+          "text": "Often the earliest manifestation of toxicity\nNausea/vomiting\nAbdominal Pain",
+          "tables": []
+        },
+        "Neuro": {
+          "text": "Confusion\nWeakness\nVisual disturbances\nYellow halos\nScotomas\nDelirium",
+          "tables": []
+        },
+        "Metabolic": {
+          "text": "Hyperkalemia\n(acute poisoning)\nHypokalemia\nHypomagnesemia\nWorsens toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "Digitalis Effect",
+          "url": "https://wikem.org/wiki/Digitalis_Effect"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Cardiac": {
+      "text": "Syncope\nDysrhythmias\nPVCs\n(most common)\nBradycardia\nSVT\nwith AV block\nJunctional escape\nIncreased Automaticity:\natrial tachycardia\n, regularized\natrial fibrillation\nRegularized AF is atrial fibrillation with 3rd degree AV block and a junctional escape rhythm\nAtrial fibrillation with an underlying regular ventricular rate is suspicious (but not pathognomonic) for Digoxin toxicity\nVentricular dysrhythmias\n, including bidirectional V-tach (esp in chronic toxicity)\nBidirectional\nvtach\nis pathognomonic for digoxin toxicity\nDigitalis Effect\n(seen with therapeutic levels; not indicative of toxicity)\nT wave changes (flattening or inversion)\nQT interval shortening\nScooped ST segments with depression in lateral leads\nSometimes referred to as the 'Salvador Dali mustache'\nIncreased U-wave amplitude",
+      "subsections": {
+        "GI": {
+          "text": "Often the earliest manifestation of toxicity\nNausea/vomiting\nAbdominal Pain",
+          "tables": []
+        },
+        "Neuro": {
+          "text": "Confusion\nWeakness\nVisual disturbances\nYellow halos\nScotomas\nDelirium",
+          "tables": []
+        },
+        "Metabolic": {
+          "text": "Hyperkalemia\n(acute poisoning)\nHypokalemia\nHypomagnesemia\nWorsens toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "Digitalis Effect",
+          "url": "https://wikem.org/wiki/Digitalis_Effect"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "GI": {
+      "text": "Often the earliest manifestation of toxicity\nNausea/vomiting\nAbdominal Pain",
+      "subsections": {
+        "Neuro": {
+          "text": "Confusion\nWeakness\nVisual disturbances\nYellow halos\nScotomas\nDelirium",
+          "tables": []
+        },
+        "Metabolic": {
+          "text": "Hyperkalemia\n(acute poisoning)\nHypokalemia\nHypomagnesemia\nWorsens toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Neuro": {
+      "text": "Confusion\nWeakness\nVisual disturbances\nYellow halos\nScotomas\nDelirium",
+      "subsections": {
+        "Metabolic": {
+          "text": "Hyperkalemia\n(acute poisoning)\nHypokalemia\nHypomagnesemia\nWorsens toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Metabolic": {
+      "text": "Hyperkalemia\n(acute poisoning)\nHypokalemia\nHypomagnesemia\nWorsens toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Symptomatic_bradycardia": {
+          "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+          "tables": []
+        },
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Symptomatic_bradycardia": {
+      "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Ca-channel blocker",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Digoxin level\nOnly useful prior to administration of\nFab\n(otherwise becomes falsely elevated)\nChemistry\nUrine output\nECG\n(serial)\nPVCs most common arrhythmia\nMay see \"regularized AF\" on ECG where junctional escape rhythm takes over secondary to complete AV block\nAtach/Aflutter with slow conduction",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Must use H&P and labs in combination; no single element excludes or confirms the diagnosis\nDigoxin level\nNormal = 0.5-2 ng/mL (ideal = 0.7-1.1)\nMay have toxicity even with \"therapeutic\" levels (especially with chronic toxicity)\nMeasure at least 6hr after acute ingestion (if stable); immediately for chronic ingestion\nSteady state level (6-8 hours after ingestion) and not peak level is used to guide therapy\nIf measure before this may be falsely elevated due to incomplete drug distribution\nNot practical to wait 6-8 hours for intervention so clinical picture should guide decision making\nPotassium level\nAcute toxicity: Degree of\nHyperkalemia\ncorrelates with degree of toxicity\nHistorical studies show K+ >5.5 mEq/L 100% mortality; K+ < 5 mEq/L 100% Survival\n[2]\nChronic toxicity: K+ may be normal/low (concomitant diuretic use), or high (renal failure)\nHypokalemia sensitizes myocardium to digoxin\n[3]\nMagnesium level\nhypomagnesemia can enhance digoxin's effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Digoxin level\nOnly useful prior to administration of\nFab\n(otherwise becomes falsely elevated)\nChemistry\nUrine output\nECG\n(serial)\nPVCs most common arrhythmia\nMay see \"regularized AF\" on ECG where junctional escape rhythm takes over secondary to complete AV block\nAtach/Aflutter with slow conduction",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Must use H&P and labs in combination; no single element excludes or confirms the diagnosis\nDigoxin level\nNormal = 0.5-2 ng/mL (ideal = 0.7-1.1)\nMay have toxicity even with \"therapeutic\" levels (especially with chronic toxicity)\nMeasure at least 6hr after acute ingestion (if stable); immediately for chronic ingestion\nSteady state level (6-8 hours after ingestion) and not peak level is used to guide therapy\nIf measure before this may be falsely elevated due to incomplete drug distribution\nNot practical to wait 6-8 hours for intervention so clinical picture should guide decision making\nPotassium level\nAcute toxicity: Degree of\nHyperkalemia\ncorrelates with degree of toxicity\nHistorical studies show K+ >5.5 mEq/L 100% mortality; K+ < 5 mEq/L 100% Survival\n[2]\nChronic toxicity: K+ may be normal/low (concomitant diuretic use), or high (renal failure)\nHypokalemia sensitizes myocardium to digoxin\n[3]\nMagnesium level\nhypomagnesemia can enhance digoxin's effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Must use H&P and labs in combination; no single element excludes or confirms the diagnosis\nDigoxin level\nNormal = 0.5-2 ng/mL (ideal = 0.7-1.1)\nMay have toxicity even with \"therapeutic\" levels (especially with chronic toxicity)\nMeasure at least 6hr after acute ingestion (if stable); immediately for chronic ingestion\nSteady state level (6-8 hours after ingestion) and not peak level is used to guide therapy\nIf measure before this may be falsely elevated due to incomplete drug distribution\nNot practical to wait 6-8 hours for intervention so clinical picture should guide decision making\nPotassium level\nAcute toxicity: Degree of\nHyperkalemia\ncorrelates with degree of toxicity\nHistorical studies show K+ >5.5 mEq/L 100% mortality; K+ < 5 mEq/L 100% Survival\n[2]\nChronic toxicity: K+ may be normal/low (concomitant diuretic use), or high (renal failure)\nHypokalemia sensitizes myocardium to digoxin\n[3]\nMagnesium level\nhypomagnesemia can enhance digoxin's effects",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nStone Heart\nfor controversy regarding administration of calcium in digoxin toxicity\nDigoxin Immune Fab\nIndications\nVentricular dysrhythmias: PVCs most common, Bidirectional\nVTach\nis rare (but pathognomonic for digoxin toxicity)\nSymptomatic bradycardias unresponsive to atropine\nHyperkalemia >5.0 mEq/L secondary to digitalis intoxication\nCoingestions of cardiotoxic drugs (beta-blockers, cyclic antidepressants)\nAcute digoxin ingestion of greater than 10 mg in adults or greater than 4 mg in children\nAcute digoxin ingestion with post distribution digoxin >10 ng/mL (by 6 hours post ingestion)\nChronic digoxin ingestion leading to steady state serum digoxin concentrations of >4 ng/ml\nActivated Charcoal\nQuestionable efficacy\nOnly an adjunctive treatment; NOT an alternative to fab fragment therapy\nConsider only if present within 1 hr of ingestion\n1 g/kg (max 50 g)\nDigoxin has high volume of distribution so not readily removed by dialysis",
+      "subsections": {
+        "Dysrhythmias": {
+          "text": "Digoxin Immune Fab\nis the agent of choice for all dysrhythmias!\nCardioversion\nshould only be used as a last resort (may precipitate V-Fib)\nConsider lower energy settings (25-50J)\nBradyarrhythmias (symptomatic)\nAtropine\n0.5 mg IV\nPacing\nAvoid transvenous if possible as myocardium is irritated\nVentricular dysrhythmias\nPhenytoin\nEnhances AV conduction\nPhenytoin: 15-20 mg/kg at 50 mg/min\nFosphenytoin: 15-20 mg PE/kg at 100-150 mg/min\nLidocaine\nDecreases ventricular automaticity\n1-3 mg/kg over several minutes; follow by 1-4 mg/min\nMagnesium\nMany patients have\nHypomagnesemia\nand labs can be unreliable\n2-4 g IV over 20-60 mins",
+          "tables": []
+        },
+        "Hyperkalemia": {
+          "text": "The most important predictor of outcome in the setting of digoxin toxicity\nTreat with\nFab\n, not with usual meds\nOnce Fab is given hyperkalemia will rapidly correct\nIf\nFab\nunavailable and hyperkalemia is life-threatening then treat with:\nDextrose\n-\ninsulin\nSodium bicarb\nKayexylate\nDialysis\nCalcium\n(controversial: some say dangerous, others say not)\nTheoretical concern for inducing \"\nstone heart\n\"; Ca channels open and may lead to cardiac muscle tetany\nChronic digoxin toxic patients likely have hyperkalemia from\nrenal failure\n, and calcium administration is likely safe in these patients\n[4]\nAcutely toxic patients will not benefit from calcium, and priority must be placed on administering DigiFab",
+          "tables": []
+        },
+        "Hypokalemia": {
+          "text": "Chronic intoxication\nRaise level to 3.5-4\nAcute intoxication\nDo not treat (likely that potassium level is rapidly rising)",
+          "tables": []
+        },
+        "Hypomagnesemia": {
+          "text": "Treat with 1-2g over 10-20 min\nMonitor for respiratory depression\nAvoid in patients with:\nRenal failure\nBradydysrhythmias/conduction blocks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stone Heart",
+          "url": "https://wikem.org/wiki/Stone_Heart"
+        },
+        {
+          "text": "Digoxin Immune Fab",
+          "url": "https://wikem.org/wiki/Digoxin_Immune_Fab"
+        },
+        {
+          "text": "VTach",
+          "url": "https://wikem.org/wiki/VTach"
+        },
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "Digoxin Immune Fab",
+          "url": "https://wikem.org/wiki/Digoxin_Immune_Fab"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Pacing",
+          "url": "https://wikem.org/wiki/Pacing"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Dilantin_Load"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "Dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Kayexylate",
+          "url": "https://wikem.org/wiki/Kayexylate"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "stone heart",
+          "url": "https://wikem.org/wiki/Stone_heart"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Dysrhythmias": {
+      "text": "Digoxin Immune Fab\nis the agent of choice for all dysrhythmias!\nCardioversion\nshould only be used as a last resort (may precipitate V-Fib)\nConsider lower energy settings (25-50J)\nBradyarrhythmias (symptomatic)\nAtropine\n0.5 mg IV\nPacing\nAvoid transvenous if possible as myocardium is irritated\nVentricular dysrhythmias\nPhenytoin\nEnhances AV conduction\nPhenytoin: 15-20 mg/kg at 50 mg/min\nFosphenytoin: 15-20 mg PE/kg at 100-150 mg/min\nLidocaine\nDecreases ventricular automaticity\n1-3 mg/kg over several minutes; follow by 1-4 mg/min\nMagnesium\nMany patients have\nHypomagnesemia\nand labs can be unreliable\n2-4 g IV over 20-60 mins",
+      "subsections": {
+        "Hyperkalemia": {
+          "text": "The most important predictor of outcome in the setting of digoxin toxicity\nTreat with\nFab\n, not with usual meds\nOnce Fab is given hyperkalemia will rapidly correct\nIf\nFab\nunavailable and hyperkalemia is life-threatening then treat with:\nDextrose\n-\ninsulin\nSodium bicarb\nKayexylate\nDialysis\nCalcium\n(controversial: some say dangerous, others say not)\nTheoretical concern for inducing \"\nstone heart\n\"; Ca channels open and may lead to cardiac muscle tetany\nChronic digoxin toxic patients likely have hyperkalemia from\nrenal failure\n, and calcium administration is likely safe in these patients\n[4]\nAcutely toxic patients will not benefit from calcium, and priority must be placed on administering DigiFab",
+          "tables": []
+        },
+        "Hypokalemia": {
+          "text": "Chronic intoxication\nRaise level to 3.5-4\nAcute intoxication\nDo not treat (likely that potassium level is rapidly rising)",
+          "tables": []
+        },
+        "Hypomagnesemia": {
+          "text": "Treat with 1-2g over 10-20 min\nMonitor for respiratory depression\nAvoid in patients with:\nRenal failure\nBradydysrhythmias/conduction blocks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Digoxin Immune Fab",
+          "url": "https://wikem.org/wiki/Digoxin_Immune_Fab"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Pacing",
+          "url": "https://wikem.org/wiki/Pacing"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Dilantin_Load"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "Dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Kayexylate",
+          "url": "https://wikem.org/wiki/Kayexylate"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "stone heart",
+          "url": "https://wikem.org/wiki/Stone_heart"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Hyperkalemia": {
+      "text": "The most important predictor of outcome in the setting of digoxin toxicity\nTreat with\nFab\n, not with usual meds\nOnce Fab is given hyperkalemia will rapidly correct\nIf\nFab\nunavailable and hyperkalemia is life-threatening then treat with:\nDextrose\n-\ninsulin\nSodium bicarb\nKayexylate\nDialysis\nCalcium\n(controversial: some say dangerous, others say not)\nTheoretical concern for inducing \"\nstone heart\n\"; Ca channels open and may lead to cardiac muscle tetany\nChronic digoxin toxic patients likely have hyperkalemia from\nrenal failure\n, and calcium administration is likely safe in these patients\n[4]\nAcutely toxic patients will not benefit from calcium, and priority must be placed on administering DigiFab",
+      "subsections": {
+        "Hypokalemia": {
+          "text": "Chronic intoxication\nRaise level to 3.5-4\nAcute intoxication\nDo not treat (likely that potassium level is rapidly rising)",
+          "tables": []
+        },
+        "Hypomagnesemia": {
+          "text": "Treat with 1-2g over 10-20 min\nMonitor for respiratory depression\nAvoid in patients with:\nRenal failure\nBradydysrhythmias/conduction blocks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        },
+        {
+          "text": "Dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Kayexylate",
+          "url": "https://wikem.org/wiki/Kayexylate"
+        },
+        {
+          "text": "Dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "stone heart",
+          "url": "https://wikem.org/wiki/Stone_heart"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Hypokalemia": {
+      "text": "Chronic intoxication\nRaise level to 3.5-4\nAcute intoxication\nDo not treat (likely that potassium level is rapidly rising)",
+      "subsections": {
+        "Hypomagnesemia": {
+          "text": "Treat with 1-2g over 10-20 min\nMonitor for respiratory depression\nAvoid in patients with:\nRenal failure\nBradydysrhythmias/conduction blocks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypomagnesemia": {
+      "text": "Treat with 1-2g over 10-20 min\nMonitor for respiratory depression\nAvoid in patients with:\nRenal failure\nBradydysrhythmias/conduction blocks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for signs of toxicity or history of large ingested dose; admit to ICU if\nFab\ngiven\nDischarge after 12hr observation if asymptomatic after accidental overdose\nOf note\n[5]\n:\nNo routine role for hemodialysis\nRechecking digoxin levels after Digifab is given is clinically useless, as both free and bound levels are measured",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fab",
+          "url": "https://wikem.org/wiki/Fab"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Digoxin Immune Fab\nToxidromes\nDigoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Digoxin Immune Fab",
+          "url": "https://wikem.org/wiki/Digoxin_Immune_Fab"
+        },
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Corrected QT Interval\nTox and Hound – To Bind or Not To Bind",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

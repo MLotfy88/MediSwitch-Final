@@ -1,0 +1,141 @@
+{
+  "drug_name": "Dobutamine",
+  "url": "https://wikem.org/wiki/Dobutamine",
+  "scraped_at": "2026-01-10T07:52:08.915400",
+  "sections": {
+    "General": {
+      "text": "Type:\nVasopressors\nTechnically an inotrope as beta 2 stimulation causes vasodilation\nShould use in combination with a\nvasopressor\n(eg\nnorepinephrine\n) to avoid hypotension\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "vasopressor",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Dosing": {
+          "text": "2-20mcg/kg/min\n10mcg works for most\nMay use in peripheral IV",
+          "tables": []
+        },
+        "Rate_of_Titration": {
+          "text": "Q2-5 min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dosing": {
+      "text": "2-20mcg/kg/min\n10mcg works for most\nMay use in peripheral IV",
+      "subsections": {
+        "Rate_of_Titration": {
+          "text": "Q2-5 min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rate_of_Titration": {
+      "text": "Q2-5 min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation:\nUnknown if Dobutamine passes into breast milk\nRenal Dosing\nAdult\nNot defined\nPediatric\nNot defined\nHepatic Dosing\nAdult\nNot defined\nPediatric\nNot defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Tachyarrhythmias\nMyocardial ischemia\nHypotension\nas β\n2\neffect may result in vasodilation\nCaution if SBP <90",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life:\n2 minutes\nMetabolism:\nIn tissues and hepatically\nExcretion:\nUrine as metabolites\nMechanism of Action:β\n1\nstimulation with variable BP effects",
+      "subsections": {
+        "Primary_Receptor": {
+          "text": "β\n1\nβ\n2",
+          "tables": []
+        },
+        "Relative_Effects": {
+          "text": "↑↑↑SV\n↑↑HR → increases oxygen demand of heart → can worsen ischemia\n↓SVR (transient, from β\n2\nagonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Primary_Receptor": {
+      "text": "β\n1\nβ\n2",
+      "subsections": {
+        "Relative_Effects": {
+          "text": "↑↑↑SV\n↑↑HR → increases oxygen demand of heart → can worsen ischemia\n↓SVR (transient, from β\n2\nagonism)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative_Effects": {
+      "text": "↑↑↑SV\n↑↑HR → increases oxygen demand of heart → can worsen ischemia\n↓SVR (transient, from β\n2\nagonism)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Notes": {
+      "text": "",
+      "subsections": {
+        "Indications": {
+          "text": "Cardiogenic shock\ninitial agent in low-output heart failure without requiring BP support\nTricyclic overdose\nseptic shock with low cardiac output to improve blood flow",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Cardiogenic shock\ninitial agent in low-output heart failure without requiring BP support\nTricyclic overdose\nseptic shock with low cardiac output to improve blood flow",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "http://www.atsjournals.org/doi/abs/10.1164/rccm.201006-0972CI?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed#readcube-epdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

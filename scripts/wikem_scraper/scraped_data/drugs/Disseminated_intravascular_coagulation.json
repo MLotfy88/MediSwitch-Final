@@ -1,0 +1,1405 @@
+{
+  "drug_name": "Disseminated_intravascular_coagulation",
+  "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation",
+  "scraped_at": "2026-01-10T07:52:02.645768",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation = DIC\nWidespread and inappropriate activation of the coagulation and fibrinolytic systems\nExposure of blood to procoagulants such as tissue factor and cancer procoagulant\nFormation of fibrin within the circulation\nFibrinolysis\nDepletion of clotting factors\nEnd-organ damage\nChronic DIC occurs when hepatic/bone marrow production balances coag factor consumption",
+      "subsections": {
+        "Causes": {
+          "text": "Sepsis\n(most common cause)\nCarcinoma\nLeukemia\nTrauma\nPancreatitis\nBrain injury,\ncrush injury\n,\nburns\n,\nrhabdomyolysis\n,\nfat embolism\nLiver disease\nPregnancy\n-related\nPlacental Abruption\n,\nAmniotic Fluid Embolus\n,\nseptic abortion\n,\nHELLP Syndrome\n,\nacute fatty liver of pregnancy\nSnake bite\nARDS\nTransfusion reaction\nTransplant rejection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "fat embolism",
+          "url": "https://wikem.org/wiki/Fat_embolism"
+        },
+        {
+          "text": "Liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Placental Abruption",
+          "url": "https://wikem.org/wiki/Placental_Abruption"
+        },
+        {
+          "text": "Amniotic Fluid Embolus",
+          "url": "https://wikem.org/wiki/Amniotic_Fluid_Embolus"
+        },
+        {
+          "text": "septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Snake bite",
+          "url": "https://wikem.org/wiki/Snake_bite"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Sepsis\n(most common cause)\nCarcinoma\nLeukemia\nTrauma\nPancreatitis\nBrain injury,\ncrush injury\n,\nburns\n,\nrhabdomyolysis\n,\nfat embolism\nLiver disease\nPregnancy\n-related\nPlacental Abruption\n,\nAmniotic Fluid Embolus\n,\nseptic abortion\n,\nHELLP Syndrome\n,\nacute fatty liver of pregnancy\nSnake bite\nARDS\nTransfusion reaction\nTransplant rejection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "fat embolism",
+          "url": "https://wikem.org/wiki/Fat_embolism"
+        },
+        {
+          "text": "Liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Placental Abruption",
+          "url": "https://wikem.org/wiki/Placental_Abruption"
+        },
+        {
+          "text": "Amniotic Fluid Embolus",
+          "url": "https://wikem.org/wiki/Amniotic_Fluid_Embolus"
+        },
+        {
+          "text": "septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Snake bite",
+          "url": "https://wikem.org/wiki/Snake_bite"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Bleeding\nor\nthrombosis\ncan predominate (bleeding is more common ~65%)\nShock\n(15%)\nAcute renal failure\n(25-40%)\nHepatic dysfunction\n(19%)\nRespiratory dysfunction (16%)\nThromboembolism\n(7%)\nCNS involvement (2%)\nPurpura fulminans\n(widespread arterial and venous thromboses)\nAssociated with significant\nbacteremia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "thrombosis",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "Hepatic dysfunction",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_(MAHA)": {
+          "text": "Disseminated Intravascular Coagulation (DIC)\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nHELLP syndrome\nHeparin-Induced Thrombocytopenia (HIT)\nHereditary spherocytosis\nParoxysmal nocturnal hemoglobinuria\n(PNH)\nMalignant hypertension\nScleroderma\nAntiphospholipid Syndrome (APS)\nOther medical causes: malignancy, renal allograft rejection, vasculitides like\npolyarteritis nodosa\nand\nWegener's granulomatosis\nDrugs: chemotherapy;\nClopidogrel\n(Plavix) associated with\nTTP\nNonvascular causes: prosthetic valve (more common with mechanical, more common at aortic valve),\nLVAD\n,\nTIPS\n, coil embolization, patched AV shunt,\nAVM",
+          "tables": []
+        },
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        },
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        },
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Heparin-Induced Thrombocytopenia (HIT)",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "LVAD",
+          "url": "https://wikem.org/wiki/LVAD"
+        },
+        {
+          "text": "TIPS",
+          "url": "https://wikem.org/wiki/TIPS"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Thrombocytopenia": {
+      "text": "",
+      "subsections": {
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        },
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        },
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        },
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Vesiculobullous_rashes": {
+      "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Platelets\n[1]\nLow\n(or dropping) in 98% of DIC patients\nSn, not Sp\nRepeat platelets may be necessary if first level normal or if need to trend\nPT and PTT\nProlonged\nMay be normal in as many as 50% of DIC patients\n[2]\nSerial coagulation testing may be necessary\nPT, not INR, is used for monitoring\n[3]\nFibrinogen\nLow\n<100 correlates with severe DIC\nMay be normal (acute phase reactant), up to 57% in  DIC patients\n[4]\nFDP\nElevated\nD-dimer\nElevated\nSn but not Sp: may also see in patients with chronic liver or renal disease\nCombination of elevated FDP and d-dimer may increase sensitivity and specificity\nRBCs\nFragmented (not specific)",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "FDP: Elevated\nD-dimer\n: Elevated\nPlatelet: Variable\nFibrinogen: Normal-elevated\nPT: Normal\nPTT: Normal\nRBCs\nFragmented",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Low",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Prolonged",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Platelets\n[1]\nLow\n(or dropping) in 98% of DIC patients\nSn, not Sp\nRepeat platelets may be necessary if first level normal or if need to trend\nPT and PTT\nProlonged\nMay be normal in as many as 50% of DIC patients\n[2]\nSerial coagulation testing may be necessary\nPT, not INR, is used for monitoring\n[3]\nFibrinogen\nLow\n<100 correlates with severe DIC\nMay be normal (acute phase reactant), up to 57% in  DIC patients\n[4]\nFDP\nElevated\nD-dimer\nElevated\nSn but not Sp: may also see in patients with chronic liver or renal disease\nCombination of elevated FDP and d-dimer may increase sensitivity and specificity\nRBCs\nFragmented (not specific)",
+      "subsections": {
+        "Chronic": {
+          "text": "FDP: Elevated\nD-dimer\n: Elevated\nPlatelet: Variable\nFibrinogen: Normal-elevated\nPT: Normal\nPTT: Normal\nRBCs\nFragmented",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Low",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Prolonged",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "FDP: Elevated\nD-dimer\n: Elevated\nPlatelet: Variable\nFibrinogen: Normal-elevated\nPT: Normal\nPTT: Normal\nRBCs\nFragmented",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying illness\nReplacement treatment\nOnly indicated in with documented DIC + bleeding or impending procedure\nFibrinogen\nConsider repletion with\ncryoprecipitate\nto raise level to 100-150\nPlatelets\nConsider repletion if <50K with bleeding or <20K without bleeding\nFFP\nConsider repletion to goal of PT and PTT < 1.5 times the normal limit\nVitamin K\nFolate\nHeparin\nConsider only if thromboembolic are predominant symptoms from chronic DIC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        }
+      ]
+    }
+  }
+}

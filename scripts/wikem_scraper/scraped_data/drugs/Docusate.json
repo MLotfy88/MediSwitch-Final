@@ -1,0 +1,113 @@
+{
+  "drug_name": "Docusate",
+  "url": "https://wikem.org/wiki/Docusate",
+  "scraped_at": "2026-01-10T07:52:06.524710",
+  "sections": {
+    "Administration": {
+      "text": "Type: stool softener;\nlaxitive\nDosage Forms:\nRoutes of Administration: Oral, rectal\nCommon Trade Names: Colace",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "50 to 200mg daily or in 2-4 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "<3y: 10 to 40mg/day in 1-4 divided doses\n3-6y: 20 to 60mg/day in 1-4 divided doses\n6-12y: 40 to 120mg/day in 1-4 divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: A\nLactation risk\n: Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAcute obstruction\nAcute abdominal pain, vomiting\nconcurrent use of mineral oil",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity (Rare)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\n, nausea, cramping",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hepatotoxicity (Rare)",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\n, nausea, cramping",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Diarrhea\n, nausea, cramping",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Draws water into stool",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation\nLactulose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,974 @@
+{
+  "drug_name": "Dinitrophenol_toxicity",
+  "url": "https://wikem.org/wiki/Dinitrophenol_toxicity",
+  "scraped_at": "2026-01-10T07:51:55.400386",
+  "sections": {
+    "Background": {
+      "text": "Used in the manufacture of munitions, as a dye, a wood preserver, herbicide and photograph developer\nCan lead to unintentional exposures\nDiscovered as a weight loss drug in 1930's but banned by FDA soon afterwards due to side effects\nNow banned in US and UK as weight loss drug, labeled \"not fit for human consumption\"\nAble to purchase DNP online in mass quantities\n[1]\nTypically used by body builders for weight loss\nSuicidal intentional ingestion\nIncrease in number of deaths in recent years\nCase reports indicate that 20–50mg per kilogram of body weight in humans can be lethal\n[2]",
+      "subsections": {
+        "Pharmacology": {
+          "text": "Uncouples oxidative phosphorylation\nAllows increase in basal leak of protons (H+) accross the mitochondrial membrane which is dissipated as heat and leads to hyperthermia\nStimulation of glycolysis in small doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Uncouples oxidative phosphorylation\nAllows increase in basal leak of protons (H+) accross the mitochondrial membrane which is dissipated as heat and leads to hyperthermia\nStimulation of glycolysis in small doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Very narrow therapeutic window",
+      "subsections": {
+        "\"Theraputic_dose\"": {
+          "text": "Pruritic rash\nYellow discoloration of skin, eyes, and urine (appears similar to\njaundice\n)\nPeripheral neuropathy\nanorexia\nconfusion\ncataracts\ndeafness\ncoma",
+          "tables": []
+        },
+        "Acute_toxicity": {
+          "text": "Profuse diaphoresis\nHyperthermia\nTachypnia\nTachycardia\nIrregular pulse\nAgitation\nHeadaches\nDizziness\nBlurry vision\nConfusion\nRestlessness\nDehydration\nThirst\nFlushed skin\nCyanosis\nAbdominal pain\nNausea\nVomiting\nDiarrhea\nMuscular spasms\nMayalgia\nPulmonary edema\nTrismus\nCytotoxic cerebral edema\nAcute congestion of the liver\nConvulsions\nComa\nShock/cardiovascular collapse\nPEA/death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        }
+      ]
+    },
+    "\"Theraputic_dose\"": {
+      "text": "Pruritic rash\nYellow discoloration of skin, eyes, and urine (appears similar to\njaundice\n)\nPeripheral neuropathy\nanorexia\nconfusion\ncataracts\ndeafness\ncoma",
+      "subsections": {
+        "Acute_toxicity": {
+          "text": "Profuse diaphoresis\nHyperthermia\nTachypnia\nTachycardia\nIrregular pulse\nAgitation\nHeadaches\nDizziness\nBlurry vision\nConfusion\nRestlessness\nDehydration\nThirst\nFlushed skin\nCyanosis\nAbdominal pain\nNausea\nVomiting\nDiarrhea\nMuscular spasms\nMayalgia\nPulmonary edema\nTrismus\nCytotoxic cerebral edema\nAcute congestion of the liver\nConvulsions\nComa\nShock/cardiovascular collapse\nPEA/death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Peripheral_neuropathy"
+        }
+      ]
+    },
+    "Acute_toxicity": {
+      "text": "Profuse diaphoresis\nHyperthermia\nTachypnia\nTachycardia\nIrregular pulse\nAgitation\nHeadaches\nDizziness\nBlurry vision\nConfusion\nRestlessness\nDehydration\nThirst\nFlushed skin\nCyanosis\nAbdominal pain\nNausea\nVomiting\nDiarrhea\nMuscular spasms\nMayalgia\nPulmonary edema\nTrismus\nCytotoxic cerebral edema\nAcute congestion of the liver\nConvulsions\nComa\nShock/cardiovascular collapse\nPEA/death",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        },
+        "Toxicologic_causes_of_Hyperthermia": {
+          "text": "Serotonin syndrome\nNeuroleptic malignant syndrome\nExcited delirium syndrome\nSympathomimetic toxicity\nAnticholinergic toxicity\nAlcohol withdrawal\n/\nDelirium tremens\nLithium toxicity\nSalicylate toxicity\nTCA toxicity\nLaundry detergent pod ingestion\nMalignant hyperthermia\nDinitrophenol toxicity",
+          "tables": []
+        },
+        "Endocrine_causes_of_Hyperthermia": {
+          "text": "Thyroid storm\nMalignant hyperthermia\nPheochromocytoma",
+          "tables": []
+        },
+        "Neurologic_causes_of_Hyperthermia": {
+          "text": "Anti-NMDA receptor encephalitis\nCVA\nStatus epilepticus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Excited delirium syndrome",
+          "url": "https://wikem.org/wiki/Excited_delirium_syndrome"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Laundry detergent pod ingestion",
+          "url": "https://wikem.org/wiki/Laundry_detergent_pod_ingestion"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Fever": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        },
+        "Toxicologic_causes_of_Hyperthermia": {
+          "text": "Serotonin syndrome\nNeuroleptic malignant syndrome\nExcited delirium syndrome\nSympathomimetic toxicity\nAnticholinergic toxicity\nAlcohol withdrawal\n/\nDelirium tremens\nLithium toxicity\nSalicylate toxicity\nTCA toxicity\nLaundry detergent pod ingestion\nMalignant hyperthermia\nDinitrophenol toxicity",
+          "tables": []
+        },
+        "Endocrine_causes_of_Hyperthermia": {
+          "text": "Thyroid storm\nMalignant hyperthermia\nPheochromocytoma",
+          "tables": []
+        },
+        "Neurologic_causes_of_Hyperthermia": {
+          "text": "Anti-NMDA receptor encephalitis\nCVA\nStatus epilepticus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Excited delirium syndrome",
+          "url": "https://wikem.org/wiki/Excited_delirium_syndrome"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Laundry detergent pod ingestion",
+          "url": "https://wikem.org/wiki/Laundry_detergent_pod_ingestion"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Toxicologic_causes_of_Hyperthermia": {
+      "text": "Serotonin syndrome\nNeuroleptic malignant syndrome\nExcited delirium syndrome\nSympathomimetic toxicity\nAnticholinergic toxicity\nAlcohol withdrawal\n/\nDelirium tremens\nLithium toxicity\nSalicylate toxicity\nTCA toxicity\nLaundry detergent pod ingestion\nMalignant hyperthermia\nDinitrophenol toxicity",
+      "subsections": {
+        "Endocrine_causes_of_Hyperthermia": {
+          "text": "Thyroid storm\nMalignant hyperthermia\nPheochromocytoma",
+          "tables": []
+        },
+        "Neurologic_causes_of_Hyperthermia": {
+          "text": "Anti-NMDA receptor encephalitis\nCVA\nStatus epilepticus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Excited delirium syndrome",
+          "url": "https://wikem.org/wiki/Excited_delirium_syndrome"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Laundry detergent pod ingestion",
+          "url": "https://wikem.org/wiki/Laundry_detergent_pod_ingestion"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Endocrine_causes_of_Hyperthermia": {
+      "text": "Thyroid storm\nMalignant hyperthermia\nPheochromocytoma",
+      "subsections": {
+        "Neurologic_causes_of_Hyperthermia": {
+          "text": "Anti-NMDA receptor encephalitis\nCVA\nStatus epilepticus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Neurologic_causes_of_Hyperthermia": {
+      "text": "Anti-NMDA receptor encephalitis\nCVA\nStatus epilepticus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "High clinical suspicion needed\"\nBlood glucose\nCBC\nChemistry\nArterial blood gas or Venous blood gas\nCo-oximetry to evaluate for\nmethemoglobinemia\nLactate\nCoagulation studies\nCreatine phosphokinase\nUrine analysis\nECG\nChest x-ray\nCT brain\nand/or\nLP\nas needed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Urine analysis",
+          "url": "https://wikem.org/wiki/Urine_analysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        },
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Decontamination with removal of clothing and irrigation as needed\nConstant body temperature monitoring, cardiac monitor, IV access, and code cart to bedside\nActivated charcoal\nif within 1 hour of ingestion\nNo evidence for or against multiple doses of charcoal or whole bowel irrigation\nAggressive\nIVF\nadministration (cooled if possible)\nVasopressors with cardiovascular collapse non-responsive to IVF\nTreat\nmethemoglobinemia\nas needed",
+      "subsections": {
+        "Hyperthermia": {
+          "text": "External cooling with blankets, ice, and cooling devices\nCool IVF\nControl agitation (adds to hyperthermia)",
+          "tables": []
+        },
+        "Agitation": {
+          "text": "Benzodiazepines\nshould be administered as needed\nParalyze and intubate if not controlled, but maintain continuous and aggressive sedation\nDantrolene\nhas been used to manage DNP hyperthermia\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Hyperthermia": {
+      "text": "External cooling with blankets, ice, and cooling devices\nCool IVF\nControl agitation (adds to hyperthermia)",
+      "subsections": {
+        "Agitation": {
+          "text": "Benzodiazepines\nshould be administered as needed\nParalyze and intubate if not controlled, but maintain continuous and aggressive sedation\nDantrolene\nhas been used to manage DNP hyperthermia\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Agitation": {
+      "text": "Benzodiazepines\nshould be administered as needed\nParalyze and intubate if not controlled, but maintain continuous and aggressive sedation\nDantrolene\nhas been used to manage DNP hyperthermia\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission for most patients\nObservation if stable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyperthermia\nClenbuterol toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Clenbuterol toxicity",
+          "url": "https://wikem.org/wiki/Clenbuterol_toxicity"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Public Health England - DNP (2,4 dinitrophenol) toxicity\nDHHS - Toxicological Profile for Dinitrophenols\nAAPCC - National Poison Data System Annual Reports",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

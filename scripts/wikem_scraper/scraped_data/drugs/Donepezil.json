@@ -1,0 +1,310 @@
+{
+  "drug_name": "Donepezil",
+  "url": "https://wikem.org/wiki/Donepezil",
+  "scraped_at": "2026-01-10T07:52:04.852535",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAcetylcholinesterase inhibitor\nDosage Forms: Tab: 5 mg, 10 mg, 23 mg; ODT: 5 mg, 10 mg\nRoutes of Administration: Oral\nCommon Trade Names: Aricept",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetylcholinesterase inhibitor",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitor"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Alzheimer_dementia,_mild-moderate": {
+          "text": "5 mg PO qhs x4-6wk\nIncrease to 10 mg PO qhs",
+          "tables": []
+        },
+        "Alzheimer_dementia,_moderate-severe": {
+          "text": "5 mg PO qhs x4-6wk\nIncrease to 10mg PO qhs x3mo, then increase to 23mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Alzheimer_dementia,_mild-moderate": {
+      "text": "5 mg PO qhs x4-6wk\nIncrease to 10 mg PO qhs",
+      "subsections": {
+        "Alzheimer_dementia,_moderate-severe": {
+          "text": "5 mg PO qhs x4-6wk\nIncrease to 10mg PO qhs x3mo, then increase to 23mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Alzheimer_dementia,_moderate-severe": {
+      "text": "5 mg PO qhs x4-6wk\nIncrease to 10mg PO qhs x3mo, then increase to 23mg PO qhs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: N/A",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "AV block\n,\nBradycardia\nSyncope\nSeizures\nGI Bleeding\nHemolytic anemia\nUrinary obstruction\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\n,\nVomiting\nDiarrhea\nHeadache\n,\nDizziness\nInsomnia, abnormal dreams,\nfatigue\nMuscle Cramps\nAnorexia, weight loss\nEcchymosis\nDepression\nSyncope\nArthritis\nUrinary frequency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "AV block\n,\nBradycardia\nSyncope\nSeizures\nGI Bleeding\nHemolytic anemia\nUrinary obstruction\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\n,\nVomiting\nDiarrhea\nHeadache\n,\nDizziness\nInsomnia, abnormal dreams,\nfatigue\nMuscle Cramps\nAnorexia, weight loss\nEcchymosis\nDepression\nSyncope\nArthritis\nUrinary frequency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\n,\nVomiting\nDiarrhea\nHeadache\n,\nDizziness\nInsomnia, abnormal dreams,\nfatigue\nMuscle Cramps\nAnorexia, weight loss\nEcchymosis\nDepression\nSyncope\nArthritis\nUrinary frequency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 70h\nMetabolism: Liver; CYP450: 2D6, 3A4\nExcretion: Urine, Feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Reversibly binds to and inactivates acetylcholinesterase",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

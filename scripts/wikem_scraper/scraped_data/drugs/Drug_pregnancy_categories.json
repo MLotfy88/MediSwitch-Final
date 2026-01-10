@@ -1,0 +1,3290 @@
+{
+  "drug_name": "Drug_pregnancy_categories",
+  "url": "https://wikem.org/wiki/Drug_pregnancy_categories",
+  "scraped_at": "2026-01-10T07:52:12.642832",
+  "sections": {
+    "Intro": {
+      "text": "This categorization system has been superseded by the 2015 FDA\nPregnancy and Lactation Labeling Rule\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "The FDA previously assigned letter categories to medications based on their potential for risk to the fetus\nNew drugs approved after the 2015 PLLR will not be assigned a pregnancy category.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "A",
+            "Interpretation": "Human studies show no risk",
+            "Details": "Adequate, well-controlled studies in pregnant women have not shown an increased risk of fetal abnormalities to the fetus in any trimester of pregnancy"
+          },
+          {
+            "Category": "B",
+            "Interpretation": "No evidence of risk in studies",
+            "Details": "Animal studies have revealed no evidence of harm to the fetus, however, there are no adequate and well-controlled studies in pregnant women. OR Animal studies have shown an adverse effect, but adequate and well-controlled studies in pregnant women have failed to demonstrate a risk to the fetus in any trimester."
+          },
+          {
+            "Category": "C",
+            "Interpretation": "Risk cannot be ruled out",
+            "Details": "Animal studies have shown an adverse effect and there are no adequate and well-controlled studies in pregnant women. OR No animal studies have been conducted and there are no adequate and well-controlled studies in pregnant women."
+          },
+          {
+            "Category": "D",
+            "Interpretation": "Positive evidence of risk",
+            "Details": "Adequate well-controlled or observational studies in pregnant women have demonstrated a risk to the fetus.  However, the benefits of therapy may outweigh the potential risk. For example, the drug may be acceptable if needed in a life-threatening situation or serious disease for which safer drugs cannot be used or are ineffective."
+          },
+          {
+            "Category": "X",
+            "Interpretation": "Contraindicated in pregnancy",
+            "Details": "Adequate well-controlled or observational studies in animals or pregnant women have demonstrated positive evidence of fetal abnormalities or risks.  The use of the product is contraindicated in women who are or may become pregnant."
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Category_A_Drugs": {
+      "text": "Thiamine\n,\nPyridoxine\n,\nFolic acid\nDocusate\n,\nSenna\n,\nBisacodyl\nDextromethorphan\nDoxylamine\nLevothyroxine\nIsoniazid",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Pyridoxine",
+          "url": "https://wikem.org/wiki/Pyridoxine"
+        },
+        {
+          "text": "Folic acid",
+          "url": "https://wikem.org/wiki/Folic_acid"
+        },
+        {
+          "text": "Docusate",
+          "url": "https://wikem.org/wiki/Docusate"
+        },
+        {
+          "text": "Senna",
+          "url": "https://wikem.org/wiki/Senna"
+        },
+        {
+          "text": "Bisacodyl",
+          "url": "https://wikem.org/wiki/Bisacodyl"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Doxylamine",
+          "url": "https://wikem.org/wiki/Doxylamine"
+        },
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        }
+      ]
+    },
+    "Category_B_Drugs": {
+      "text": "",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Penicillin V\n,\nPenicillin G Benzathine\n,\nAmoxicillin\n,\nAmoxicillin/Clavulanate\n,\nOxacillin\n,\nAmpicillin\n,\nAmpicillin/Sulbactam\n,\nTicarcillin/Clavulanate\n,\nDicloxacillin\n,\nCloxacillin\n,\nNafcillin\nCeftriaxone\n,\nCephalexin\n,\nCefazolin\n,\nCefepime\n,\nCefuroxime\n,\nCeftaroline fosamil\n,\nCefdinir\n,\nCefadroxil\n,\nCefpodoxime\n,\nCefprozil\n,\nCeftolozane/tazobactam\n,\nCefditoren\nClindamycin\n,\nAzithromycin\n,\nErythromycin\n,\nFidaxomicin\n,\nSpiramycin\nMetronidazole\nDaptomycin\nNitrofurantoin\n,\nFosfomycin\nAztreonam\n,\nMeropenem\n,\nErtapenem\n,\nDoripenem\nMupirocin\nQuinupristin/dalfopristin",
+          "tables": []
+        },
+        "Other_Antimicrobials": {
+          "text": "Acyclovir\n,\nFamciclovir\nValacyclovir\nAmphotericin B\nClotrimazole\n(topical, vulvovaginal)\nTerbinafine\nMefloquine\nPermethrin\nEmtricitabine/tenofovir\n(Truvada)\nNitazoxanide\nPraziquantel\nRaxibacumab",
+          "tables": []
+        },
+        "Antiemetics_and_other_GI_medications": {
+          "text": "Metoclopramide\nOndansetron\nDimenhydrinate\nFamotidine\nLansoprazole\n,\nPantoprazole\nLactulose\n,\nPsyllium\nLoperamide\nDicyclomine\nUrsodiol\nSucralfate",
+          "tables": []
+        },
+        "Analgesics_and_other_neuro/psych_meds": {
+          "text": "Acetaminophen\nKetamine\nMeperidine\nCyclobenzaprine\nIndomethacin\nMeclizine\nClozapine\nBenztropine\nBuspirone\nMethylphenidate",
+          "tables": []
+        },
+        "Cardiovascular_Medications": {
+          "text": "Hydrochlorothiazide\nFenoldopam\nTorsemide\n,\nEthacrynic acid\n,\nAmiloride\nEpoprostenol (prostacyclin)\nSildenafil\nDobutamine\nSotalol",
+          "tables": []
+        },
+        "Antiplatelet_and_Anticoagulants": {
+          "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cloxacillin",
+          "url": "https://wikem.org/wiki/Cloxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Ceftaroline fosamil",
+          "url": "https://wikem.org/wiki/Ceftaroline_fosamil"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefadroxil",
+          "url": "https://wikem.org/wiki/Cefadroxil"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Ceftolozane/tazobactam",
+          "url": "https://wikem.org/wiki/Ceftolozane/tazobactam"
+        },
+        {
+          "text": "Cefditoren",
+          "url": "https://wikem.org/wiki/Cefditoren"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Spiramycin",
+          "url": "https://wikem.org/wiki/Spiramycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Fosfomycin",
+          "url": "https://wikem.org/wiki/Fosfomycin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Doripenem",
+          "url": "https://wikem.org/wiki/Doripenem"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Quinupristin/dalfopristin",
+          "url": "https://wikem.org/wiki/Quinupristin/dalfopristin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Mefloquine",
+          "url": "https://wikem.org/wiki/Mefloquine"
+        },
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Nitazoxanide",
+          "url": "https://wikem.org/wiki/Nitazoxanide"
+        },
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        },
+        {
+          "text": "Raxibacumab",
+          "url": "https://wikem.org/wiki/Raxibacumab"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Dimenhydrinate",
+          "url": "https://wikem.org/wiki/Dimenhydrinate"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Lansoprazole",
+          "url": "https://wikem.org/wiki/Lansoprazole"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Lactulose",
+          "url": "https://wikem.org/wiki/Lactulose"
+        },
+        {
+          "text": "Psyllium",
+          "url": "https://wikem.org/wiki/Psyllium"
+        },
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Dicyclomine",
+          "url": "https://wikem.org/wiki/Dicyclomine"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        },
+        {
+          "text": "Sucralfate",
+          "url": "https://wikem.org/wiki/Sucralfate"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "Methylphenidate",
+          "url": "https://wikem.org/wiki/Methylphenidate"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Penicillin V\n,\nPenicillin G Benzathine\n,\nAmoxicillin\n,\nAmoxicillin/Clavulanate\n,\nOxacillin\n,\nAmpicillin\n,\nAmpicillin/Sulbactam\n,\nTicarcillin/Clavulanate\n,\nDicloxacillin\n,\nCloxacillin\n,\nNafcillin\nCeftriaxone\n,\nCephalexin\n,\nCefazolin\n,\nCefepime\n,\nCefuroxime\n,\nCeftaroline fosamil\n,\nCefdinir\n,\nCefadroxil\n,\nCefpodoxime\n,\nCefprozil\n,\nCeftolozane/tazobactam\n,\nCefditoren\nClindamycin\n,\nAzithromycin\n,\nErythromycin\n,\nFidaxomicin\n,\nSpiramycin\nMetronidazole\nDaptomycin\nNitrofurantoin\n,\nFosfomycin\nAztreonam\n,\nMeropenem\n,\nErtapenem\n,\nDoripenem\nMupirocin\nQuinupristin/dalfopristin",
+      "subsections": {
+        "Other_Antimicrobials": {
+          "text": "Acyclovir\n,\nFamciclovir\nValacyclovir\nAmphotericin B\nClotrimazole\n(topical, vulvovaginal)\nTerbinafine\nMefloquine\nPermethrin\nEmtricitabine/tenofovir\n(Truvada)\nNitazoxanide\nPraziquantel\nRaxibacumab",
+          "tables": []
+        },
+        "Antiemetics_and_other_GI_medications": {
+          "text": "Metoclopramide\nOndansetron\nDimenhydrinate\nFamotidine\nLansoprazole\n,\nPantoprazole\nLactulose\n,\nPsyllium\nLoperamide\nDicyclomine\nUrsodiol\nSucralfate",
+          "tables": []
+        },
+        "Analgesics_and_other_neuro/psych_meds": {
+          "text": "Acetaminophen\nKetamine\nMeperidine\nCyclobenzaprine\nIndomethacin\nMeclizine\nClozapine\nBenztropine\nBuspirone\nMethylphenidate",
+          "tables": []
+        },
+        "Cardiovascular_Medications": {
+          "text": "Hydrochlorothiazide\nFenoldopam\nTorsemide\n,\nEthacrynic acid\n,\nAmiloride\nEpoprostenol (prostacyclin)\nSildenafil\nDobutamine\nSotalol",
+          "tables": []
+        },
+        "Antiplatelet_and_Anticoagulants": {
+          "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin V",
+          "url": "https://wikem.org/wiki/Penicillin_V"
+        },
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Dicloxacillin",
+          "url": "https://wikem.org/wiki/Dicloxacillin"
+        },
+        {
+          "text": "Cloxacillin",
+          "url": "https://wikem.org/wiki/Cloxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "Ceftaroline fosamil",
+          "url": "https://wikem.org/wiki/Ceftaroline_fosamil"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefadroxil",
+          "url": "https://wikem.org/wiki/Cefadroxil"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefprozil",
+          "url": "https://wikem.org/wiki/Cefprozil"
+        },
+        {
+          "text": "Ceftolozane/tazobactam",
+          "url": "https://wikem.org/wiki/Ceftolozane/tazobactam"
+        },
+        {
+          "text": "Cefditoren",
+          "url": "https://wikem.org/wiki/Cefditoren"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Spiramycin",
+          "url": "https://wikem.org/wiki/Spiramycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Fosfomycin",
+          "url": "https://wikem.org/wiki/Fosfomycin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Doripenem",
+          "url": "https://wikem.org/wiki/Doripenem"
+        },
+        {
+          "text": "Mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "Quinupristin/dalfopristin",
+          "url": "https://wikem.org/wiki/Quinupristin/dalfopristin"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Mefloquine",
+          "url": "https://wikem.org/wiki/Mefloquine"
+        },
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Nitazoxanide",
+          "url": "https://wikem.org/wiki/Nitazoxanide"
+        },
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        },
+        {
+          "text": "Raxibacumab",
+          "url": "https://wikem.org/wiki/Raxibacumab"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Dimenhydrinate",
+          "url": "https://wikem.org/wiki/Dimenhydrinate"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Lansoprazole",
+          "url": "https://wikem.org/wiki/Lansoprazole"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Lactulose",
+          "url": "https://wikem.org/wiki/Lactulose"
+        },
+        {
+          "text": "Psyllium",
+          "url": "https://wikem.org/wiki/Psyllium"
+        },
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Dicyclomine",
+          "url": "https://wikem.org/wiki/Dicyclomine"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        },
+        {
+          "text": "Sucralfate",
+          "url": "https://wikem.org/wiki/Sucralfate"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "Methylphenidate",
+          "url": "https://wikem.org/wiki/Methylphenidate"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Other_Antimicrobials": {
+      "text": "Acyclovir\n,\nFamciclovir\nValacyclovir\nAmphotericin B\nClotrimazole\n(topical, vulvovaginal)\nTerbinafine\nMefloquine\nPermethrin\nEmtricitabine/tenofovir\n(Truvada)\nNitazoxanide\nPraziquantel\nRaxibacumab",
+      "subsections": {
+        "Antiemetics_and_other_GI_medications": {
+          "text": "Metoclopramide\nOndansetron\nDimenhydrinate\nFamotidine\nLansoprazole\n,\nPantoprazole\nLactulose\n,\nPsyllium\nLoperamide\nDicyclomine\nUrsodiol\nSucralfate",
+          "tables": []
+        },
+        "Analgesics_and_other_neuro/psych_meds": {
+          "text": "Acetaminophen\nKetamine\nMeperidine\nCyclobenzaprine\nIndomethacin\nMeclizine\nClozapine\nBenztropine\nBuspirone\nMethylphenidate",
+          "tables": []
+        },
+        "Cardiovascular_Medications": {
+          "text": "Hydrochlorothiazide\nFenoldopam\nTorsemide\n,\nEthacrynic acid\n,\nAmiloride\nEpoprostenol (prostacyclin)\nSildenafil\nDobutamine\nSotalol",
+          "tables": []
+        },
+        "Antiplatelet_and_Anticoagulants": {
+          "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Terbinafine",
+          "url": "https://wikem.org/wiki/Terbinafine"
+        },
+        {
+          "text": "Mefloquine",
+          "url": "https://wikem.org/wiki/Mefloquine"
+        },
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        },
+        {
+          "text": "Emtricitabine/tenofovir",
+          "url": "https://wikem.org/wiki/Emtricitabine/tenofovir"
+        },
+        {
+          "text": "Nitazoxanide",
+          "url": "https://wikem.org/wiki/Nitazoxanide"
+        },
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        },
+        {
+          "text": "Raxibacumab",
+          "url": "https://wikem.org/wiki/Raxibacumab"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Dimenhydrinate",
+          "url": "https://wikem.org/wiki/Dimenhydrinate"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Lansoprazole",
+          "url": "https://wikem.org/wiki/Lansoprazole"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Lactulose",
+          "url": "https://wikem.org/wiki/Lactulose"
+        },
+        {
+          "text": "Psyllium",
+          "url": "https://wikem.org/wiki/Psyllium"
+        },
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Dicyclomine",
+          "url": "https://wikem.org/wiki/Dicyclomine"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        },
+        {
+          "text": "Sucralfate",
+          "url": "https://wikem.org/wiki/Sucralfate"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "Methylphenidate",
+          "url": "https://wikem.org/wiki/Methylphenidate"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Antiemetics_and_other_GI_medications": {
+      "text": "Metoclopramide\nOndansetron\nDimenhydrinate\nFamotidine\nLansoprazole\n,\nPantoprazole\nLactulose\n,\nPsyllium\nLoperamide\nDicyclomine\nUrsodiol\nSucralfate",
+      "subsections": {
+        "Analgesics_and_other_neuro/psych_meds": {
+          "text": "Acetaminophen\nKetamine\nMeperidine\nCyclobenzaprine\nIndomethacin\nMeclizine\nClozapine\nBenztropine\nBuspirone\nMethylphenidate",
+          "tables": []
+        },
+        "Cardiovascular_Medications": {
+          "text": "Hydrochlorothiazide\nFenoldopam\nTorsemide\n,\nEthacrynic acid\n,\nAmiloride\nEpoprostenol (prostacyclin)\nSildenafil\nDobutamine\nSotalol",
+          "tables": []
+        },
+        "Antiplatelet_and_Anticoagulants": {
+          "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Dimenhydrinate",
+          "url": "https://wikem.org/wiki/Dimenhydrinate"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Lansoprazole",
+          "url": "https://wikem.org/wiki/Lansoprazole"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        },
+        {
+          "text": "Lactulose",
+          "url": "https://wikem.org/wiki/Lactulose"
+        },
+        {
+          "text": "Psyllium",
+          "url": "https://wikem.org/wiki/Psyllium"
+        },
+        {
+          "text": "Loperamide",
+          "url": "https://wikem.org/wiki/Loperamide"
+        },
+        {
+          "text": "Dicyclomine",
+          "url": "https://wikem.org/wiki/Dicyclomine"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        },
+        {
+          "text": "Sucralfate",
+          "url": "https://wikem.org/wiki/Sucralfate"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "Methylphenidate",
+          "url": "https://wikem.org/wiki/Methylphenidate"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Analgesics_and_other_neuro/psych_meds": {
+      "text": "Acetaminophen\nKetamine\nMeperidine\nCyclobenzaprine\nIndomethacin\nMeclizine\nClozapine\nBenztropine\nBuspirone\nMethylphenidate",
+      "subsections": {
+        "Cardiovascular_Medications": {
+          "text": "Hydrochlorothiazide\nFenoldopam\nTorsemide\n,\nEthacrynic acid\n,\nAmiloride\nEpoprostenol (prostacyclin)\nSildenafil\nDobutamine\nSotalol",
+          "tables": []
+        },
+        "Antiplatelet_and_Anticoagulants": {
+          "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Cyclobenzaprine",
+          "url": "https://wikem.org/wiki/Cyclobenzaprine"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Meclizine",
+          "url": "https://wikem.org/wiki/Meclizine"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Buspirone",
+          "url": "https://wikem.org/wiki/Buspirone"
+        },
+        {
+          "text": "Methylphenidate",
+          "url": "https://wikem.org/wiki/Methylphenidate"
+        },
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Cardiovascular_Medications": {
+      "text": "Hydrochlorothiazide\nFenoldopam\nTorsemide\n,\nEthacrynic acid\n,\nAmiloride\nEpoprostenol (prostacyclin)\nSildenafil\nDobutamine\nSotalol",
+      "subsections": {
+        "Antiplatelet_and_Anticoagulants": {
+          "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+          "tables": []
+        },
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "Fenoldopam",
+          "url": "https://wikem.org/wiki/Fenoldopam"
+        },
+        {
+          "text": "Torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "Ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Amiloride",
+          "url": "https://wikem.org/wiki/Amiloride"
+        },
+        {
+          "text": "Epoprostenol (prostacyclin)",
+          "url": "https://wikem.org/wiki/Epoprostenol_(prostacyclin)"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Antiplatelet_and_Anticoagulants": {
+      "text": "Clopidogrel\n,\nPrasugrel\nEptifibatide\nTiclopidine\nTirofiban\nApixaban\nArgatroban\n,\nBivalirudin\nFondaparinux\nEnoxaparin",
+      "subsections": {
+        "Antidotes": {
+          "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "Tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "Apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "Argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Antidotes": {
+      "text": "EDTA\nLevocarnitine\nCyproheptadine\nIdarucizumab\nN-acetylcysteine",
+      "subsections": {
+        "Miscellaneous": {
+          "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        },
+        {
+          "text": "Levocarnitine",
+          "url": "https://wikem.org/wiki/Levocarnitine"
+        },
+        {
+          "text": "Cyproheptadine",
+          "url": "https://wikem.org/wiki/Cyproheptadine"
+        },
+        {
+          "text": "Idarucizumab",
+          "url": "https://wikem.org/wiki/Idarucizumab"
+        },
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        },
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Miscellaneous": {
+      "text": "Ipratropium\n,\nBudesonide\nRanitidine\n,\nCimetidine\nMetformin\nOxybutynin\n,\nTamsulosin\n,\nPhenazopyridine\nBromocriptine\nGlycopyrrolate\nMontelukast\nDesmopressin\nGlucagon\nPrilocaine\nPropofol\nSodium polystyrene sulfonate\nSulfasalazine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        },
+        {
+          "text": "Budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Oxybutynin",
+          "url": "https://wikem.org/wiki/Oxybutynin"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "Montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "Prilocaine",
+          "url": "https://wikem.org/wiki/Prilocaine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sodium polystyrene sulfonate",
+          "url": "https://wikem.org/wiki/Sodium_polystyrene_sulfonate"
+        },
+        {
+          "text": "Sulfasalazine",
+          "url": "https://wikem.org/wiki/Sulfasalazine"
+        }
+      ]
+    },
+    "Category_C_Drugs": {
+      "text": "Includes most medications not listed elsewhere here",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Category_D_Drugs": {
+      "text": "",
+      "subsections": {
+        "Antimicrobials": {
+          "text": "Gentamicin\n,\nNeomycin\n,\nAmikacin\n,\nStreptomycin\n,\nKanamycin\nTrimethoprim-sulfamethoxazole\nDoxycycline\n,\nMinocycline\n,\nTetracycline\n,\nTigecycline\nFluconazole\n,\nVoriconazole\nPrimaquine\n,\nHydroxychloroquine",
+          "tables": []
+        },
+        "AEDs_and_other_neuro/psych_meds": {
+          "text": "Phenytoin\n,\nFosphenytoin\nCarbamazepine\nMidazolam\n,\nAlprazolam\n,\nClonazepam\n,\nDiazepam\nPhenobarbital\nMagnesium sulfate\n(despite being drug-of-choice for eclampsia!)\nLithium\nTopiramate\nPentobarbital",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Amiodarone\nAtenolol\nLisinopril\n,\nCaptopril\n,\nEnalapril\n,\nBenazepril\nLosartan\n,\nValsartan\nAspirin\n(3rd trimester)\nEdoxaban\nWarfarin",
+          "tables": []
+        },
+        "Miscellaneous_2": {
+          "text": "Cortisone\n,\nFlunisolide\nMycophenolate mofetil\nPenicillamine\nMethimazole\n,\nPropylthiouracil\n,\nPotassium iodide\nHydroxyurea\nZoledronate\nBismuth subsalicylate\n(3rd trimester only)\nCyclophosphamide\nIbuprofen\n(3rd trimester only, otherwise category C)\nMeloxicam\n(if >30wks, otherwise category C)\nTamoxifen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Neomycin",
+          "url": "https://wikem.org/wiki/Neomycin"
+        },
+        {
+          "text": "Amikacin",
+          "url": "https://wikem.org/wiki/Amikacin"
+        },
+        {
+          "text": "Streptomycin",
+          "url": "https://wikem.org/wiki/Streptomycin"
+        },
+        {
+          "text": "Kanamycin",
+          "url": "https://wikem.org/wiki/Kanamycin"
+        },
+        {
+          "text": "Trimethoprim-sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Tigecycline",
+          "url": "https://wikem.org/wiki/Tigecycline"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Primaquine",
+          "url": "https://wikem.org/wiki/Primaquine"
+        },
+        {
+          "text": "Hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Alprazolam",
+          "url": "https://wikem.org/wiki/Alprazolam"
+        },
+        {
+          "text": "Clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "Bismuth subsalicylate",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        },
+        {
+          "text": "Tamoxifen",
+          "url": "https://wikem.org/wiki/Tamoxifen"
+        }
+      ]
+    },
+    "Antimicrobials": {
+      "text": "Gentamicin\n,\nNeomycin\n,\nAmikacin\n,\nStreptomycin\n,\nKanamycin\nTrimethoprim-sulfamethoxazole\nDoxycycline\n,\nMinocycline\n,\nTetracycline\n,\nTigecycline\nFluconazole\n,\nVoriconazole\nPrimaquine\n,\nHydroxychloroquine",
+      "subsections": {
+        "AEDs_and_other_neuro/psych_meds": {
+          "text": "Phenytoin\n,\nFosphenytoin\nCarbamazepine\nMidazolam\n,\nAlprazolam\n,\nClonazepam\n,\nDiazepam\nPhenobarbital\nMagnesium sulfate\n(despite being drug-of-choice for eclampsia!)\nLithium\nTopiramate\nPentobarbital",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Amiodarone\nAtenolol\nLisinopril\n,\nCaptopril\n,\nEnalapril\n,\nBenazepril\nLosartan\n,\nValsartan\nAspirin\n(3rd trimester)\nEdoxaban\nWarfarin",
+          "tables": []
+        },
+        "Miscellaneous_2": {
+          "text": "Cortisone\n,\nFlunisolide\nMycophenolate mofetil\nPenicillamine\nMethimazole\n,\nPropylthiouracil\n,\nPotassium iodide\nHydroxyurea\nZoledronate\nBismuth subsalicylate\n(3rd trimester only)\nCyclophosphamide\nIbuprofen\n(3rd trimester only, otherwise category C)\nMeloxicam\n(if >30wks, otherwise category C)\nTamoxifen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Neomycin",
+          "url": "https://wikem.org/wiki/Neomycin"
+        },
+        {
+          "text": "Amikacin",
+          "url": "https://wikem.org/wiki/Amikacin"
+        },
+        {
+          "text": "Streptomycin",
+          "url": "https://wikem.org/wiki/Streptomycin"
+        },
+        {
+          "text": "Kanamycin",
+          "url": "https://wikem.org/wiki/Kanamycin"
+        },
+        {
+          "text": "Trimethoprim-sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Tigecycline",
+          "url": "https://wikem.org/wiki/Tigecycline"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Primaquine",
+          "url": "https://wikem.org/wiki/Primaquine"
+        },
+        {
+          "text": "Hydroxychloroquine",
+          "url": "https://wikem.org/wiki/Hydroxychloroquine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Alprazolam",
+          "url": "https://wikem.org/wiki/Alprazolam"
+        },
+        {
+          "text": "Clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "Bismuth subsalicylate",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        },
+        {
+          "text": "Tamoxifen",
+          "url": "https://wikem.org/wiki/Tamoxifen"
+        }
+      ]
+    },
+    "AEDs_and_other_neuro/psych_meds": {
+      "text": "Phenytoin\n,\nFosphenytoin\nCarbamazepine\nMidazolam\n,\nAlprazolam\n,\nClonazepam\n,\nDiazepam\nPhenobarbital\nMagnesium sulfate\n(despite being drug-of-choice for eclampsia!)\nLithium\nTopiramate\nPentobarbital",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Amiodarone\nAtenolol\nLisinopril\n,\nCaptopril\n,\nEnalapril\n,\nBenazepril\nLosartan\n,\nValsartan\nAspirin\n(3rd trimester)\nEdoxaban\nWarfarin",
+          "tables": []
+        },
+        "Miscellaneous_2": {
+          "text": "Cortisone\n,\nFlunisolide\nMycophenolate mofetil\nPenicillamine\nMethimazole\n,\nPropylthiouracil\n,\nPotassium iodide\nHydroxyurea\nZoledronate\nBismuth subsalicylate\n(3rd trimester only)\nCyclophosphamide\nIbuprofen\n(3rd trimester only, otherwise category C)\nMeloxicam\n(if >30wks, otherwise category C)\nTamoxifen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Alprazolam",
+          "url": "https://wikem.org/wiki/Alprazolam"
+        },
+        {
+          "text": "Clonazepam",
+          "url": "https://wikem.org/wiki/Clonazepam"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Topiramate",
+          "url": "https://wikem.org/wiki/Topiramate"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "Bismuth subsalicylate",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        },
+        {
+          "text": "Tamoxifen",
+          "url": "https://wikem.org/wiki/Tamoxifen"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Amiodarone\nAtenolol\nLisinopril\n,\nCaptopril\n,\nEnalapril\n,\nBenazepril\nLosartan\n,\nValsartan\nAspirin\n(3rd trimester)\nEdoxaban\nWarfarin",
+      "subsections": {
+        "Miscellaneous_2": {
+          "text": "Cortisone\n,\nFlunisolide\nMycophenolate mofetil\nPenicillamine\nMethimazole\n,\nPropylthiouracil\n,\nPotassium iodide\nHydroxyurea\nZoledronate\nBismuth subsalicylate\n(3rd trimester only)\nCyclophosphamide\nIbuprofen\n(3rd trimester only, otherwise category C)\nMeloxicam\n(if >30wks, otherwise category C)\nTamoxifen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Atenolol",
+          "url": "https://wikem.org/wiki/Atenolol"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "Benazepril",
+          "url": "https://wikem.org/wiki/Benazepril"
+        },
+        {
+          "text": "Losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        },
+        {
+          "text": "Valsartan",
+          "url": "https://wikem.org/wiki/Valsartan"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "Bismuth subsalicylate",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        },
+        {
+          "text": "Tamoxifen",
+          "url": "https://wikem.org/wiki/Tamoxifen"
+        }
+      ]
+    },
+    "Miscellaneous_2": {
+      "text": "Cortisone\n,\nFlunisolide\nMycophenolate mofetil\nPenicillamine\nMethimazole\n,\nPropylthiouracil\n,\nPotassium iodide\nHydroxyurea\nZoledronate\nBismuth subsalicylate\n(3rd trimester only)\nCyclophosphamide\nIbuprofen\n(3rd trimester only, otherwise category C)\nMeloxicam\n(if >30wks, otherwise category C)\nTamoxifen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cortisone",
+          "url": "https://wikem.org/wiki/Cortisone"
+        },
+        {
+          "text": "Flunisolide",
+          "url": "https://wikem.org/wiki/Flunisolide"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Propylthiouracil",
+          "url": "https://wikem.org/wiki/Propylthiouracil"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "Zoledronate",
+          "url": "https://wikem.org/wiki/Zoledronate"
+        },
+        {
+          "text": "Bismuth subsalicylate",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        },
+        {
+          "text": "Tamoxifen",
+          "url": "https://wikem.org/wiki/Tamoxifen"
+        }
+      ]
+    },
+    "Category_X_Drugs": {
+      "text": "Valproate\nMethotrexate\nRibavirin\nTriazolam\nBosentan\nAliskiren\nEmergency contraception:\nLevonorgestrel\n,\nUlipristal\nGriseofulvin\nMethylene blue\nOxytocin\nRiociguat\nIsotretinoin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Ribavirin",
+          "url": "https://wikem.org/wiki/Ribavirin"
+        },
+        {
+          "text": "Triazolam",
+          "url": "https://wikem.org/wiki/Triazolam"
+        },
+        {
+          "text": "Bosentan",
+          "url": "https://wikem.org/wiki/Bosentan"
+        },
+        {
+          "text": "Aliskiren",
+          "url": "https://wikem.org/wiki/Aliskiren"
+        },
+        {
+          "text": "Levonorgestrel",
+          "url": "https://wikem.org/wiki/Levonorgestrel"
+        },
+        {
+          "text": "Ulipristal",
+          "url": "https://wikem.org/wiki/Ulipristal"
+        },
+        {
+          "text": "Griseofulvin",
+          "url": "https://wikem.org/wiki/Griseofulvin"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "Riociguat",
+          "url": "https://wikem.org/wiki/Riociguat"
+        },
+        {
+          "text": "Isotretinoin",
+          "url": "https://wikem.org/wiki/Isotretinoin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pregnancy and lactation drug labeling",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy and lactation drug labeling",
+          "url": "https://wikem.org/wiki/Pregnancy_and_lactation_drug_labeling"
+        }
+      ]
+    }
+  }
+}

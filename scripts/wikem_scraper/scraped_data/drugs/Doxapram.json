@@ -1,0 +1,307 @@
+{
+  "drug_name": "Doxapram",
+  "url": "https://wikem.org/wiki/Doxapram",
+  "scraped_at": "2026-01-10T07:52:06.680617",
+  "sections": {
+    "Administration": {
+      "text": "Type: Respiratory Stimulator\nDosage Forms: INJ\nRoutes of Administration: IV\nCommon Trade Names: Dopram",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Respiratory_depression,_postanesthesia": {
+          "text": "Intermittent Injection\n0.5-1 mg/kg IV q5min prn\nMax: 1.5 mg/kg/single dose, 2 mg/kg/total dose, 3g/24h\nIntermittent infusion\n0.5-1 mg/kg IV\nMax: 4 mg/kg/dose, 3 g/24h",
+          "tables": []
+        },
+        "CNS_depression,_drug-induced": {
+          "text": "Intermittent Injection\n1-2 mg/kg IV q1-2h prn\nIntermittent infusion\n1-3 mg/kg/h IV up to 2h",
+          "tables": []
+        },
+        "Acute_hypercapnia,_COPD-assoc.": {
+          "text": "1-3 mg/min IV up to 2h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Respiratory_depression,_postanesthesia": {
+      "text": "Intermittent Injection\n0.5-1 mg/kg IV q5min prn\nMax: 1.5 mg/kg/single dose, 2 mg/kg/total dose, 3g/24h\nIntermittent infusion\n0.5-1 mg/kg IV\nMax: 4 mg/kg/dose, 3 g/24h",
+      "subsections": {
+        "CNS_depression,_drug-induced": {
+          "text": "Intermittent Injection\n1-2 mg/kg IV q1-2h prn\nIntermittent infusion\n1-3 mg/kg/h IV up to 2h",
+          "tables": []
+        },
+        "Acute_hypercapnia,_COPD-assoc.": {
+          "text": "1-3 mg/min IV up to 2h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CNS_depression,_drug-induced": {
+      "text": "Intermittent Injection\n1-2 mg/kg IV q1-2h prn\nIntermittent infusion\n1-3 mg/kg/h IV up to 2h",
+      "subsections": {
+        "Acute_hypercapnia,_COPD-assoc.": {
+          "text": "1-3 mg/min IV up to 2h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_hypercapnia,_COPD-assoc.": {
+      "text": "1-3 mg/min IV up to 2h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Respiratory_depression,_postanesthesia_2": {
+          "text": "Intermittent Injection\n0.5-1 mg/kg IV q5min prn\nMax: 1.5 mg/kg/single dose, 2 mg/kg/total dose, 3g/24h\nIntermittent infusion\n0.5-1 mg/kg IV\nMax: 4 mg/kg/dose, 3 g/24h",
+          "tables": []
+        },
+        "CNS_depression,_drug-induced_2": {
+          "text": "Intermittent Injection\n1-2 mg/kg IV q1-2h prn\nIntermittent infusion\n1-3 mg/kg/h IV up to 2h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Respiratory_depression,_postanesthesia_2": {
+      "text": "Intermittent Injection\n0.5-1 mg/kg IV q5min prn\nMax: 1.5 mg/kg/single dose, 2 mg/kg/total dose, 3g/24h\nIntermittent infusion\n0.5-1 mg/kg IV\nMax: 4 mg/kg/dose, 3 g/24h",
+      "subsections": {
+        "CNS_depression,_drug-induced_2": {
+          "text": "Intermittent Injection\n1-2 mg/kg IV q1-2h prn\nIntermittent infusion\n1-3 mg/kg/h IV up to 2h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CNS_depression,_drug-induced_2": {
+      "text": "Intermittent Injection\n1-2 mg/kg IV q1-2h prn\nIntermittent infusion\n1-3 mg/kg/h IV up to 2h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: No current data to asses risk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Caution advised in significant impairment\nPediatric: Caution advised in significant impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised in significant impairment\nPediatric: Caution advised in significant impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Caution advised in significant impairment\nPediatric: Caution advised in significant impairment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised in significant impairment\nPediatric: Caution advised in significant impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Caution advised in significant impairment\nPediatric: Caution advised in significant impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcurrent mechanical ventilation\nMechanical disorders of ventilation\nSeizure\ndisorder\nPulmonary embolism\nHead injury\nStroke\nCerebral edema\nCardiovascular impairment, Heart failure, HTN",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchospasm\n, laryngospasm\nArrhythmia\nHTN\nSeizure\nHallucinations\nHemolysis with rapid infusion",
+          "tables": []
+        },
+        "Common": {
+          "text": "Fever\n, flushing, diaphoresis\nPruritis, parasthesia\nMydriasis\nHallucination\nHeadache\n,\ndizziness\nHyperactivity, involuntary movements, muscle spasms\nSeizure\nDyspnea\n, cough, hyperventilation,\ntachypnea\nPhlebitis\nDiarrhea\n, Urinary incontinence, urinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bronchospasm\n, laryngospasm\nArrhythmia\nHTN\nSeizure\nHallucinations\nHemolysis with rapid infusion",
+      "subsections": {
+        "Common": {
+          "text": "Fever\n, flushing, diaphoresis\nPruritis, parasthesia\nMydriasis\nHallucination\nHeadache\n,\ndizziness\nHyperactivity, involuntary movements, muscle spasms\nSeizure\nDyspnea\n, cough, hyperventilation,\ntachypnea\nPhlebitis\nDiarrhea\n, Urinary incontinence, urinary retention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Fever\n, flushing, diaphoresis\nPruritis, parasthesia\nMydriasis\nHallucination\nHeadache\n,\ndizziness\nHyperactivity, involuntary movements, muscle spasms\nSeizure\nDyspnea\n, cough, hyperventilation,\ntachypnea\nPhlebitis\nDiarrhea\n, Urinary incontinence, urinary retention",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3.4h\nMetabolism: Liver\nExcretion: Urine (<5% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts on peripheral carotid chemoreceptors to stimulate respiration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

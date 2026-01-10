@@ -1,0 +1,93 @@
+{
+  "drug_name": "Drug_levels",
+  "url": "https://wikem.org/wiki/Drug_levels",
+  "scraped_at": "2026-01-10T07:52:10.117762",
+  "sections": {
+    "Serum_Drug_Levels": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "DRUG": "Carbamazepine(Tegretol)",
+            "THERAPEUTIC": "4-12 ug/mL",
+            "TOXIC": ">12 ug/mL"
+          },
+          {
+            "DRUG": "Digoxin",
+            "THERAPEUTIC": "0.8-2.0 ng/mL",
+            "TOXIC": ">2 ng/mL"
+          },
+          {
+            "DRUG": "Ethosuximide",
+            "THERAPEUTIC": "40-100 ug/mL",
+            "TOXIC": ">150 ug/mL"
+          },
+          {
+            "DRUG": "Lidocaine(Xylocaine)",
+            "THERAPEUTIC": "1.5-6 ug/mL",
+            "TOXIC": ">6 ug/mL"
+          },
+          {
+            "DRUG": "Lithium(Eskalith)",
+            "THERAPEUTIC": "0.6-1.2 mEq/L",
+            "TOXIC": ">1.5mEq/L"
+          },
+          {
+            "DRUG": "NAPA (N-acetyl procainamide)",
+            "THERAPEUTIC": "5-30 ug/mL",
+            "TOXIC": ">40 ug/mL"
+          },
+          {
+            "DRUG": "Phenobarbital",
+            "THERAPEUTIC": "15-40 ug/mL",
+            "TOXIC": ">35 ugmL"
+          },
+          {
+            "DRUG": "Phenytoin(Dilantin)",
+            "THERAPEUTIC": "10-20 ug/mL",
+            "TOXIC": ">20 ug/mL"
+          },
+          {
+            "DRUG": "Procainamide(Procan)",
+            "THERAPEUTIC": "3-10 ug/mL",
+            "TOXIC": ">10 ug/mL"
+          },
+          {
+            "DRUG": "Quinidine(Quinaglute)",
+            "THERAPEUTIC": "1.5-5 ug/mL",
+            "TOXIC": ">5 ug/mL"
+          },
+          {
+            "DRUG": "Theophylline(Theo-Dur)",
+            "THERAPEUTIC": "10-20 ug/mL",
+            "TOXIC": ">20 ug/mL"
+          },
+          {
+            "DRUG": "Valproic acid(Depakene)",
+            "THERAPEUTIC": "50-100 ug/mL",
+            "TOXIC": ">100 ug/mL"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure Levels and Reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure Levels and Reloading",
+          "url": "https://wikem.org/wiki/Seizure_Levels_and_Reloading"
+        }
+      ]
+    },
+    "References": {
+      "text": "Maxwell Quick Medical Reference",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

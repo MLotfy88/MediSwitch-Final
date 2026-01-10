@@ -1,0 +1,417 @@
+{
+  "drug_name": "Diverticulitis",
+  "url": "https://wikem.org/wiki/Diverticulitis",
+  "scraped_at": "2026-01-10T07:52:10.101288",
+  "sections": {
+    "Background": {
+      "text": "Prevalence of\ndiverticulosis\n30% by age 60, >70% by age 85\n70% of patients with diverticulosis remain asymptomatic\n13% of diverticulitis is found in patients <40 yrs of age\n[2]\nDiverticular disease is almost exclusively left-sided colon (USA) or right-sided (Japan)\n[3]\nPathogenesis\nErosion of diverticular wall by inspissated fecal material leads to microperforation\nMost common pathogens are anaerobes, as well as gram-negative rods\nDiverticular bleeding (painless\nlower gastrointestinal bleeding\n) is NOT associated with diverticulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "LLQ abdominal pain\nAsian patients may complain of RLQ or suprapubic pain\nFever\nLeukocytosis\nChange in bowel habits:\ndiarrhea\n(30%) or\nconstipation\n(50%)\nNausea/vomiting\nAnorexia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "LLQ_Pain": {
+          "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "LLQ_Pain": {
+      "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Labs\nCBC\nChemistry\nLFTs\nLipase\nUrinalysis\nImaging\nCT with IV and PO contrast (Sn 97%, Sp 100%)\nPericolic stranding\nBowel wall thickening\nWall enhancement (inner and outer high attenuation layers)\nPerforation - extravasation of air/fluid\nAbscess in 30% with fluid and/or gas\nBladder fistula\nUltrasound (Sn >90%)\n[4]\nHighly operator-dependent\nCan identify diverticula, bowel wall thickening, inflammation, or abscess formation\nMRI (Sn 98%, Sp 70-78%)\n[5]\nDifficult to obtain quickly in ED",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Stable patient with history of confirmed diverticulitis does not require further diagnostic evaluation\n1st time episode or current episode different from previous requires diagnostic imaging",
+          "tables": []
+        },
+        "Modified_Hinchey_Classification": {
+          "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Labs\nCBC\nChemistry\nLFTs\nLipase\nUrinalysis\nImaging\nCT with IV and PO contrast (Sn 97%, Sp 100%)\nPericolic stranding\nBowel wall thickening\nWall enhancement (inner and outer high attenuation layers)\nPerforation - extravasation of air/fluid\nAbscess in 30% with fluid and/or gas\nBladder fistula\nUltrasound (Sn >90%)\n[4]\nHighly operator-dependent\nCan identify diverticula, bowel wall thickening, inflammation, or abscess formation\nMRI (Sn 98%, Sp 70-78%)\n[5]\nDifficult to obtain quickly in ED",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Stable patient with history of confirmed diverticulitis does not require further diagnostic evaluation\n1st time episode or current episode different from previous requires diagnostic imaging",
+          "tables": []
+        },
+        "Modified_Hinchey_Classification": {
+          "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Stable patient with history of confirmed diverticulitis does not require further diagnostic evaluation\n1st time episode or current episode different from previous requires diagnostic imaging",
+      "subsections": {
+        "Modified_Hinchey_Classification": {
+          "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Modified_Hinchey_Classification": {
+      "text": "0\tMild clinical diverticulitis\nIa\tConfined pericolic inflammation or phlegmon\nIb\tPericolic or mesocolic abscess\nII\tPelvic, distant intraabdominal, or retroperitoneal abscess\nIII\tGeneralized purulent peritonitis\nIV\tGeneralized fecal peritonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotics should be used only for select patients and not routinely in acute uncomplicated diverticulitis\n[7]\nAntibiotics are aimed at treating\nGram Negative\norganisms and\nAnaerobes\n(Enterobacteriaceae,\nBacteriodes sp.\n, and Enterococci)\n[8]",
+      "subsections": {
+        "Uncomplicated": {
+          "text": "Current research suggests that antibiotics\nmay not be necessary in uncomplicated diverticulitis\nif patient receives sufficient bowel rest in coordination with medicine observation and close follow up. Antibiotics do not shorten time to recovery or decrease rate of recurrence. At the very least, shorter durations (5 days) of antibiotics should be prefered compared to historic 10-14day courses\n[9]\n[10]\nModified\nHinchey\nClass 0\nLiquid diet and bowel rest (low fiber foods) are most important\nAntibiotic\nOptions:\nMetronidazole\n500mg PO Q8hrs AND\nCiprofloxacin\n500mg PO BID x5days\nAmoxicillin/Clavulanate\n875/125 PO Q8hrs x5days (or\nAugmentin\nXR 2 tablets BID [each tablet 1gm\namoxicillin\n62.5mg clavulanate])\n[11]\n[12]\nTrimethoprim/Sulfamethoxazole\n, one double-strength tablet bid, and\nMetronidazole\n500 mg Q8h\nMoxifloxacin\n400mg PO QDaily\n[13]",
+          "tables": []
+        },
+        "Complicated": {
+          "text": "Defined as having a  phlegmon, abscess, stricture, obstruction, fistula, or perforation (i.e.\nHinchey\nStages I-IV; see Evaluation section)\nAntibiotic choice\n[14]\n:\nCeftriaxone\nPLUS\nmetronidazole\nOR\npiperacillin/tazobactam\nBowel rest in coordination with antibiotics\nSurgical consult for drainage of\nabscess\nor further surgical intervention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Trimethoprim/Sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/Sulfamethoxazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        }
+      ]
+    },
+    "Uncomplicated": {
+      "text": "Current research suggests that antibiotics\nmay not be necessary in uncomplicated diverticulitis\nif patient receives sufficient bowel rest in coordination with medicine observation and close follow up. Antibiotics do not shorten time to recovery or decrease rate of recurrence. At the very least, shorter durations (5 days) of antibiotics should be prefered compared to historic 10-14day courses\n[9]\n[10]\nModified\nHinchey\nClass 0\nLiquid diet and bowel rest (low fiber foods) are most important\nAntibiotic\nOptions:\nMetronidazole\n500mg PO Q8hrs AND\nCiprofloxacin\n500mg PO BID x5days\nAmoxicillin/Clavulanate\n875/125 PO Q8hrs x5days (or\nAugmentin\nXR 2 tablets BID [each tablet 1gm\namoxicillin\n62.5mg clavulanate])\n[11]\n[12]\nTrimethoprim/Sulfamethoxazole\n, one double-strength tablet bid, and\nMetronidazole\n500 mg Q8h\nMoxifloxacin\n400mg PO QDaily\n[13]",
+      "subsections": {
+        "Complicated": {
+          "text": "Defined as having a  phlegmon, abscess, stricture, obstruction, fistula, or perforation (i.e.\nHinchey\nStages I-IV; see Evaluation section)\nAntibiotic choice\n[14]\n:\nCeftriaxone\nPLUS\nmetronidazole\nOR\npiperacillin/tazobactam\nBowel rest in coordination with antibiotics\nSurgical consult for drainage of\nabscess\nor further surgical intervention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Trimethoprim/Sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/Sulfamethoxazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        }
+      ]
+    },
+    "Complicated": {
+      "text": "Defined as having a  phlegmon, abscess, stricture, obstruction, fistula, or perforation (i.e.\nHinchey\nStages I-IV; see Evaluation section)\nAntibiotic choice\n[14]\n:\nCeftriaxone\nPLUS\nmetronidazole\nOR\npiperacillin/tazobactam\nBowel rest in coordination with antibiotics\nSurgical consult for drainage of\nabscess\nor further surgical intervention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "All complicated diverticulitis\nIntractable\nnausea/vomiting\nComborbid disease\nHigh WBC, high fever, elderly, immunocompromised\nFailed outpatient therapy (worsening symptoms or CT findings within 6 weeks of initial episode)\nLarge\nabscess\n> 3-4cm requiring percutaneous drainage with CT or US\n[15]",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Patients may be treated as outpatients if:\n[16]\nCan tolerate PO\nNo significant comorbidities\nAble to obtain outpatient antibiotics\nHave adequate pain control\nHave uncomplicated disease\nRefer all newly-diagnosed patients for follow up colonoscopy in 6 weeks (CT cannot rule out carcinoma)\nSurgical referral should be made for all patients with 3rd episode of diverticulitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "All complicated diverticulitis\nIntractable\nnausea/vomiting\nComborbid disease\nHigh WBC, high fever, elderly, immunocompromised\nFailed outpatient therapy (worsening symptoms or CT findings within 6 weeks of initial episode)\nLarge\nabscess\n> 3-4cm requiring percutaneous drainage with CT or US\n[15]",
+      "subsections": {
+        "Discharge": {
+          "text": "Patients may be treated as outpatients if:\n[16]\nCan tolerate PO\nNo significant comorbidities\nAble to obtain outpatient antibiotics\nHave adequate pain control\nHave uncomplicated disease\nRefer all newly-diagnosed patients for follow up colonoscopy in 6 weeks (CT cannot rule out carcinoma)\nSurgical referral should be made for all patients with 3rd episode of diverticulitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Patients may be treated as outpatients if:\n[16]\nCan tolerate PO\nNo significant comorbidities\nAble to obtain outpatient antibiotics\nHave adequate pain control\nHave uncomplicated disease\nRefer all newly-diagnosed patients for follow up colonoscopy in 6 weeks (CT cannot rule out carcinoma)\nSurgical referral should be made for all patients with 3rd episode of diverticulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hinchey classification for diverticulitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

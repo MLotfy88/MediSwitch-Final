@@ -1,0 +1,431 @@
+{
+  "drug_name": "Down_syndrome",
+  "url": "https://wikem.org/wiki/Down_syndrome",
+  "scraped_at": "2026-01-10T07:52:10.585682",
+  "sections": {
+    "Background": {
+      "text": "Caused by trisomy 21, the most common chromosomal disorder in humans\nPatients are at increased risk for injuries and diseases related to issues caused by their genetic condition.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "All patients have intellectual disability. Patients may also have some or all of the following abnormalities:\nMental impairment\nAbnormal teeth\nStunted growth\nSlanted eyes\nUmbilical hernia\nShortened hands\nIncreased skin at the back of the neck\nShort neck\nHypotonia\nObstructive sleep apnea\nLigamentous laxity\nSingle transverse palmar crease (Simian crease)\nLarge tongue\nCongenital heart disease\nFlattened nose\nStrabismus\nUndescended testicles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pathology_by_System": {
+      "text": "Patients with Down syndrome may have some or all of the following EM-relevant pathologies",
+      "subsections": {
+        "Airway/Respiratory": {
+          "text": "Macroglossia and a relatively small mouth\nTracheal stenosis\nObstructive sleep apnea\nPulmonary hypertension",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\n(usually\nASD\nor\nVSD\n) in ~40%",
+          "tables": []
+        },
+        "Endocrine": {
+          "text": "Thyroid disease\nis common",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Increased risk of\nintestinal atresia\nand\nHirschsprung's disease\nFunctional\nileus\nand\nconstipation\nare common",
+          "tables": []
+        },
+        "HEENT": {
+          "text": "Increased incidence of cataracts, hearing loss\nSmall ear canals with increased rates of\notitis media\nEarly onset\nhearing loss\n.",
+          "tables": []
+        },
+        "Orthopedic": {
+          "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "intestinal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "Airway/Respiratory": {
+      "text": "Macroglossia and a relatively small mouth\nTracheal stenosis\nObstructive sleep apnea\nPulmonary hypertension",
+      "subsections": {
+        "Cardiac": {
+          "text": "Congenital heart disease\n(usually\nASD\nor\nVSD\n) in ~40%",
+          "tables": []
+        },
+        "Endocrine": {
+          "text": "Thyroid disease\nis common",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Increased risk of\nintestinal atresia\nand\nHirschsprung's disease\nFunctional\nileus\nand\nconstipation\nare common",
+          "tables": []
+        },
+        "HEENT": {
+          "text": "Increased incidence of cataracts, hearing loss\nSmall ear canals with increased rates of\notitis media\nEarly onset\nhearing loss\n.",
+          "tables": []
+        },
+        "Orthopedic": {
+          "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "intestinal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "Cardiac": {
+      "text": "Congenital heart disease\n(usually\nASD\nor\nVSD\n) in ~40%",
+      "subsections": {
+        "Endocrine": {
+          "text": "Thyroid disease\nis common",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Increased risk of\nintestinal atresia\nand\nHirschsprung's disease\nFunctional\nileus\nand\nconstipation\nare common",
+          "tables": []
+        },
+        "HEENT": {
+          "text": "Increased incidence of cataracts, hearing loss\nSmall ear canals with increased rates of\notitis media\nEarly onset\nhearing loss\n.",
+          "tables": []
+        },
+        "Orthopedic": {
+          "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "intestinal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "Endocrine": {
+      "text": "Thyroid disease\nis common",
+      "subsections": {
+        "Gastrointestinal": {
+          "text": "Increased risk of\nintestinal atresia\nand\nHirschsprung's disease\nFunctional\nileus\nand\nconstipation\nare common",
+          "tables": []
+        },
+        "HEENT": {
+          "text": "Increased incidence of cataracts, hearing loss\nSmall ear canals with increased rates of\notitis media\nEarly onset\nhearing loss\n.",
+          "tables": []
+        },
+        "Orthopedic": {
+          "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "intestinal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "Gastrointestinal": {
+      "text": "Increased risk of\nintestinal atresia\nand\nHirschsprung's disease\nFunctional\nileus\nand\nconstipation\nare common",
+      "subsections": {
+        "HEENT": {
+          "text": "Increased incidence of cataracts, hearing loss\nSmall ear canals with increased rates of\notitis media\nEarly onset\nhearing loss\n.",
+          "tables": []
+        },
+        "Orthopedic": {
+          "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intestinal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Hirschsprung's disease",
+          "url": "https://wikem.org/wiki/Hirschsprung%27s_disease"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "HEENT": {
+      "text": "Increased incidence of cataracts, hearing loss\nSmall ear canals with increased rates of\notitis media\nEarly onset\nhearing loss\n.",
+      "subsections": {
+        "Orthopedic": {
+          "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "Orthopedic": {
+      "text": "Cervical spine - increased risk of\natlanto-occipital dissociation\nLigamentous laxity increases the risk of\ndislocation\nor subluxation at any joint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluation and management should focus on the patient's complaint or anatomic area of of concern while taking into consideration the above disease specific pathologies.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Based on diagnosis and specific underlying problem",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Based on specific underlying problem",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cervical injury (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        }
+      ]
+    }
+  }
+}
