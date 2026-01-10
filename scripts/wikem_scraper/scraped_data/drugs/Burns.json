@@ -1,0 +1,1118 @@
+{
+  "drug_name": "Burns",
+  "url": "https://wikem.org/wiki/Burns",
+  "scraped_at": "2026-01-10T07:49:32.921364",
+  "sections": {
+    "Background": {
+      "text": "Any burns involving the dermis, superficial partial-thickness, or deeper allow for significant transdermal fluid losses\nBurns >60% BSA often associated with cardiac output depression unresponsive to fluids\nInhalation injury is main cause of mortality\nHalf of patients admitted to burn centers develop\nARDS",
+      "subsections": {
+        "Jackson’s_Burn_Wound_Model": {
+          "text": "Explains the dynamic nature of burn injuries and how assessment of size and depth at the time of injury can be different compared to 48 hours later",
+          "tables": [
+            [
+              {
+                "Zone Name": "Coagulation",
+                "Location": "Inner",
+                "Tissue Damage": "Dead",
+                "Change with Treatment": "Not changed"
+              },
+              {
+                "Zone Name": "Stasis",
+                "Location": "Middle",
+                "Tissue Damage": "Dynamic penumbra",
+                "Change with Treatment": "Target of burn care: good first aid and wound management can significantly reduce the need for skin grafting (otherwise it can turn into zone of coagulation, if not properly treated)"
+              },
+              {
+                "Zone Name": "Hyperemia",
+                "Location": "Outer",
+                "Tissue Damage": "Reactive inflammation",
+                "Change with Treatment": "Will return to normal within hours of the injury regardless of care"
+              }
+            ]
+          ]
+        },
+        "Pre-Hospital_Care": {
+          "text": "Cold running water for 20 minutes\nMost effective if done within 3 hours.\n[1]\nNo direct ice to wound\nDo not apply creams or ointments\nRemove all burned/burning clothing, jewelry\nAlso remove rings or jewelry distal to injury due to anticipated swelling\nAssess for signs of inhalational injury\nHoarse voice, soot in nose or mouth, stridor, wheezing\nStart humidified\nO2\nIntubate\nif necessary (see below)\nIntravenous fluid\n(see below)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        },
+        {
+          "text": "Intravenous fluid",
+          "url": "https://wikem.org/wiki/Intravenous_fluid"
+        }
+      ]
+    },
+    "Jackson’s_Burn_Wound_Model": {
+      "text": "Explains the dynamic nature of burn injuries and how assessment of size and depth at the time of injury can be different compared to 48 hours later",
+      "subsections": {
+        "Pre-Hospital_Care": {
+          "text": "Cold running water for 20 minutes\nMost effective if done within 3 hours.\n[1]\nNo direct ice to wound\nDo not apply creams or ointments\nRemove all burned/burning clothing, jewelry\nAlso remove rings or jewelry distal to injury due to anticipated swelling\nAssess for signs of inhalational injury\nHoarse voice, soot in nose or mouth, stridor, wheezing\nStart humidified\nO2\nIntubate\nif necessary (see below)\nIntravenous fluid\n(see below)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Zone Name": "Coagulation",
+            "Location": "Inner",
+            "Tissue Damage": "Dead",
+            "Change with Treatment": "Not changed"
+          },
+          {
+            "Zone Name": "Stasis",
+            "Location": "Middle",
+            "Tissue Damage": "Dynamic penumbra",
+            "Change with Treatment": "Target of burn care: good first aid and wound management can significantly reduce the need for skin grafting (otherwise it can turn into zone of coagulation, if not properly treated)"
+          },
+          {
+            "Zone Name": "Hyperemia",
+            "Location": "Outer",
+            "Tissue Damage": "Reactive inflammation",
+            "Change with Treatment": "Will return to normal within hours of the injury regardless of care"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        },
+        {
+          "text": "Intravenous fluid",
+          "url": "https://wikem.org/wiki/Intravenous_fluid"
+        }
+      ]
+    },
+    "Pre-Hospital_Care": {
+      "text": "Cold running water for 20 minutes\nMost effective if done within 3 hours.\n[1]\nNo direct ice to wound\nDo not apply creams or ointments\nRemove all burned/burning clothing, jewelry\nAlso remove rings or jewelry distal to injury due to anticipated swelling\nAssess for signs of inhalational injury\nHoarse voice, soot in nose or mouth, stridor, wheezing\nStart humidified\nO2\nIntubate\nif necessary (see below)\nIntravenous fluid\n(see below)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        },
+        {
+          "text": "Intravenous fluid",
+          "url": "https://wikem.org/wiki/Intravenous_fluid"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Burn_Thickness_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Thickness": "Superficial (first-degree)",
+            "Deepest Skin Structure Involved": "Epidermis",
+            "Pain & Sensation": "Painful",
+            "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+            "Expected Course": "Heals without scarring, 5-10 days",
+            "Image": ""
+          },
+          {
+            "Thickness": "Superficial Partial (second-degree)",
+            "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+            "Pain & Sensation": "Painful",
+            "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+            "Expected Course": "Heals without scarring, <3 weeks",
+            "Image": ""
+          },
+          {
+            "Thickness": "Deep Partial (second-degree)",
+            "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+            "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+            "Image": ""
+          },
+          {
+            "Thickness": "Full (third-degree)",
+            "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+            "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+            "Image": ""
+          },
+          {
+            "Thickness": "Fourth-degree",
+            "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+            "Expected Course": "Does not healFrequently requires amputation",
+            "Image": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        },
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Vesiculobullous_rashes": {
+      "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Carboxyhemoglobin level\nCarbon monoxide\nand\ncyanide\nlevels\nVBG\n, CBC, chem, total CK\nCXR\nECG\nUrinalysis\n(assess for myoglobinuria)\nCoagulation studies\n(severe burn patients can suffer from coagulopathies such as DIC)\nLactate\n(higher lactate levels suggest increase mortality rate and inadequate resuscitation)\nSerial assessments for compartment syndrome",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Normally a clinical diagnosis\nSee\nestimating body surface area",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Coagulation studies",
+          "url": "https://wikem.org/wiki/Coagulation_studies"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "estimating body surface area",
+          "url": "https://wikem.org/wiki/Estimating_body_surface_area"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Carboxyhemoglobin level\nCarbon monoxide\nand\ncyanide\nlevels\nVBG\n, CBC, chem, total CK\nCXR\nECG\nUrinalysis\n(assess for myoglobinuria)\nCoagulation studies\n(severe burn patients can suffer from coagulopathies such as DIC)\nLactate\n(higher lactate levels suggest increase mortality rate and inadequate resuscitation)\nSerial assessments for compartment syndrome",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Normally a clinical diagnosis\nSee\nestimating body surface area",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Coagulation studies",
+          "url": "https://wikem.org/wiki/Coagulation_studies"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "estimating body surface area",
+          "url": "https://wikem.org/wiki/Estimating_body_surface_area"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Normally a clinical diagnosis\nSee\nestimating body surface area",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "estimating body surface area",
+          "url": "https://wikem.org/wiki/Estimating_body_surface_area"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consider empirically treating for\ncyanide toxicity\nespecially if fire was in an enclosed place",
+      "subsections": {
+        "Not_Severe_(Outpatient)": {
+          "text": "Cold running water for 20 minutes if within 3 hours.\n[3]\nCleanse burn with mild soap and water or dilute antiseptic solution\nDebride wound as needed\nConsider a topical antimicrobial:\nBacitracin\n,\nneomycin\n, or\nmupirocin\nAVOID Silver Sulfadiazine as it may interfere with partial thickness healing and offers no healing advantage (inhibits keratinocytes)\n[4]\n[5]\nConsider use of synthetic occlusive dressings (see\nburn dressings\n)\nBlisters\nLeave blisters intact unless they cross a joint or if a large blisters precludes application of a dressing\nAspiration is preferred to deroofing\n[6]\nTetanus vaccine\n(if 2nd degree or higher)",
+          "tables": []
+        },
+        "Severe_(Inpatient)": {
+          "text": "IVF (see below)\nAnalgesia\nRemove all rings, watches, jewelry, belts\nLocal burn care (\nburn dressing\n)\nContact burn center BEFORE applying any antiseptic dressings\nSmall wound: moist saline-soaked dressing\nLarge wound: sterile drape\nAntibiotics\nAdminister in coordination with burn physician\nProphylactic antibiotics have been abandoned - debridement is paramount to prevent infection\nMaintain glucose control to prevent infection\n[7]\nCore temperature is usually \"reset\" to 38-39°C, so fever in the absence of other symptoms of sepsis does not indicate infection\n[8]\nIf\nseptic\n, start broad spectrum antimicrobials - be sure to assess for need for antifungals in addition to antibiotics\nNasogastric Tube\nConsider if partial-thickness burn >20% BSA (\nileus\nfrequently occurs)\n[9]\nDefinite NG tubes in burns > 30% in adults and 25% in children\nEarly GI prophylaxis (\nPPI\n/\nH2 blocker\n)\nevidence of stress ulceration even within hours after major burns\n[10]\nTetanus vaccine",
+          "tables": []
+        },
+        "General": {
+          "text": "The Parkland formula (4mL*kg × % TBSA of burns, not including superficial burns) and modified Brooke formula (2ml/kg/%\nTBSA\n) are the two most widely used resuscitation formulas.\n[11]\nThere is general agreement that there is an increasing tendency to over-resuscitate during burn shock.\n[12]\nResuscitation recommendations are only a guide; must titrate to patient's urine output, clear sensorium, and HR less than 110\nGive\nleast\namount of fluid necessary to sustain organ perfusion (avoid \"fluid creep\")\nPatients with inhalation injury and/or multi-system trauma may require more fluid.\nGoal directed therapy with Swan-Ganz catheters, inotropes, and fluid support have shown no superiority to standard clinical parameters, and have increased over-resuscitation and incidence of abdominal compartment syndrome (see below)\n[13]",
+          "tables": []
+        },
+        "Indications_based_on_Total_Body_Surface_Area_(TBSA)_of_Burn": {
+          "text": "Definite IV: Adults > 20%, Peds > 15%\nPerhaps IV: Adults 15-20%, Peds 10-15%\nOral adequate: Adults < 15%, Peds < 10%\nMany burn centers prefer lactated ringers unless shock liver or hepatic failure suspected\nColloids generally not used unless burns > 40%\nTBSA\nDo not use dextrose in adults (false UOP), but children should receive small amounts due to small glycogen stores\n2-4mL x weight (kg) x %\nTBSA\n(\n2nd and 3rd degree only\n) = mL NS (or LR) over 24hr\nGive 1/2 in first 8hr, remainder in next 16hr\nGive Parkland + maintenance fluid (2-4cc/kg x %BSA) if age < 5 yrs old\nGive 1/2 in first 8 hr, remainder in next 16 hr\nCan consider giving D5 1/2 NS if patient < 20 kg to prevent hypoglycemia",
+          "tables": []
+        },
+        "Goal_UOP": {
+          "text": "If UOP is greater than expected, consider glycosuria and reactive\nhyperglycemia\nas cause.\nMaintain urine output of\n0.5-1 mL/kg/hr'\nurine in adults and\n1-2 mL/kg/hr in children\nweighing < 30 kg\n[14]\nIf myoglobinuria seen, double expected UOP until urine grossly clears (consider mannitol diuresis)",
+          "tables": []
+        },
+        "Intubation_Guidelines": {
+          "text": "Full-thickness burns of the face or perioral region\nCircumferential neck burns\nAcute\nrespiratory distress\nProgressive hoarseness or air hunger\nRespiratory depression\nAltered mental status\nSupraglottic edema and inflammation on bronchoscopy",
+          "tables": []
+        },
+        "Escharotomy_Burn_Indications": {
+          "text": "Circumferential eschar with one of the following:\nCircumferential torso - restricted ventilation\nCircumferential extremities - vascular compromise\nImmediate escharotomy if compartment pressure > 30 mmHg\nElevate limb and optimize fluid status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        },
+        {
+          "text": "neomycin",
+          "url": "https://wikem.org/wiki/Neomycin"
+        },
+        {
+          "text": "mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        },
+        {
+          "text": "burn dressings",
+          "url": "https://wikem.org/wiki/Burn_dressings"
+        },
+        {
+          "text": "Tetanus vaccine",
+          "url": "https://wikem.org/wiki/Tetanus_vaccine"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "burn dressing",
+          "url": "https://wikem.org/wiki/Burn_dressing"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "septic",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Nasogastric Tube",
+          "url": "https://wikem.org/wiki/Nasogastric_Tube"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "Tetanus vaccine",
+          "url": "https://wikem.org/wiki/Tetanus_vaccine"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Fluid_Resuscitation": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "The Parkland formula (4mL*kg × % TBSA of burns, not including superficial burns) and modified Brooke formula (2ml/kg/%\nTBSA\n) are the two most widely used resuscitation formulas.\n[11]\nThere is general agreement that there is an increasing tendency to over-resuscitate during burn shock.\n[12]\nResuscitation recommendations are only a guide; must titrate to patient's urine output, clear sensorium, and HR less than 110\nGive\nleast\namount of fluid necessary to sustain organ perfusion (avoid \"fluid creep\")\nPatients with inhalation injury and/or multi-system trauma may require more fluid.\nGoal directed therapy with Swan-Ganz catheters, inotropes, and fluid support have shown no superiority to standard clinical parameters, and have increased over-resuscitation and incidence of abdominal compartment syndrome (see below)\n[13]",
+          "tables": []
+        },
+        "Indications_based_on_Total_Body_Surface_Area_(TBSA)_of_Burn": {
+          "text": "Definite IV: Adults > 20%, Peds > 15%\nPerhaps IV: Adults 15-20%, Peds 10-15%\nOral adequate: Adults < 15%, Peds < 10%\nMany burn centers prefer lactated ringers unless shock liver or hepatic failure suspected\nColloids generally not used unless burns > 40%\nTBSA\nDo not use dextrose in adults (false UOP), but children should receive small amounts due to small glycogen stores\n2-4mL x weight (kg) x %\nTBSA\n(\n2nd and 3rd degree only\n) = mL NS (or LR) over 24hr\nGive 1/2 in first 8hr, remainder in next 16hr\nGive Parkland + maintenance fluid (2-4cc/kg x %BSA) if age < 5 yrs old\nGive 1/2 in first 8 hr, remainder in next 16 hr\nCan consider giving D5 1/2 NS if patient < 20 kg to prevent hypoglycemia",
+          "tables": []
+        },
+        "Goal_UOP": {
+          "text": "If UOP is greater than expected, consider glycosuria and reactive\nhyperglycemia\nas cause.\nMaintain urine output of\n0.5-1 mL/kg/hr'\nurine in adults and\n1-2 mL/kg/hr in children\nweighing < 30 kg\n[14]\nIf myoglobinuria seen, double expected UOP until urine grossly clears (consider mannitol diuresis)",
+          "tables": []
+        },
+        "Intubation_Guidelines": {
+          "text": "Full-thickness burns of the face or perioral region\nCircumferential neck burns\nAcute\nrespiratory distress\nProgressive hoarseness or air hunger\nRespiratory depression\nAltered mental status\nSupraglottic edema and inflammation on bronchoscopy",
+          "tables": []
+        },
+        "Escharotomy_Burn_Indications": {
+          "text": "Circumferential eschar with one of the following:\nCircumferential torso - restricted ventilation\nCircumferential extremities - vascular compromise\nImmediate escharotomy if compartment pressure > 30 mmHg\nElevate limb and optimize fluid status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Intubation_Guidelines": {
+      "text": "Full-thickness burns of the face or perioral region\nCircumferential neck burns\nAcute\nrespiratory distress\nProgressive hoarseness or air hunger\nRespiratory depression\nAltered mental status\nSupraglottic edema and inflammation on bronchoscopy",
+      "subsections": {
+        "Escharotomy_Burn_Indications": {
+          "text": "Circumferential eschar with one of the following:\nCircumferential torso - restricted ventilation\nCircumferential extremities - vascular compromise\nImmediate escharotomy if compartment pressure > 30 mmHg\nElevate limb and optimize fluid status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Escharotomy_Burn_Indications": {
+      "text": "Circumferential eschar with one of the following:\nCircumferential torso - restricted ventilation\nCircumferential extremities - vascular compromise\nImmediate escharotomy if compartment pressure > 30 mmHg\nElevate limb and optimize fluid status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Cases": {
+      "text": "In burns > 40% in adults and > 30% in children < 5 yo, consider colloids which reduce abdominal compartment syndrome\n[15]\n[16]\nConsider replacing 25% of IVF with\nFFP\n, so that total IV rate is unaltered through the 24 hrs post-burn\nIn children, give 1/2 of total volume as FFP and 1/2 as LR throughout 24 hrs\nFor infants < 2 yrs with > 30%, use 5% dextrose in LRs with the FFP\nBurns > 50% or SEVERE\nmetabolic acidosis\nmay require 44 mEq of bicarb to each 1 L of LR in first 24 hrs, maintain bicarb > 18\nVitamin C to reduce fluid volume requirements and prevent capillary leak\n[17]\nConsider infusion of 66 mg/kg/hr for 24 hours of Vitamin C infusion for > 30%\nTBSA\nTo be started within 6 hours of burn injury",
+      "subsections": {
+        "Beyond_24_hrs": {
+          "text": "24-48 hrs - patients require ~1/2 total volume given in first 24 hrs; change LRs to D5,1/2NS; give FFP 2 units for every liter of crystalloid\n48-72 hrs - no formula; take into account\nTBSA\n/depth of burns (open partial thickness loss > full thickness with thick eschar), re-mobilization of 3rd space fluid beginning at this time",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Beyond_24_hrs": {
+      "text": "24-48 hrs - patients require ~1/2 total volume given in first 24 hrs; change LRs to D5,1/2NS; give FFP 2 units for every liter of crystalloid\n48-72 hrs - no formula; take into account\nTBSA\n/depth of burns (open partial thickness loss > full thickness with thick eschar), re-mobilization of 3rd space fluid beginning at this time",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Outpatient_Treatment": {
+          "text": "24-48hr follow-up\nPartial thickness <10% BSA, age 10–50y\nPartial thickness <5% BSA, age <10y or >50y\nFull thickness <2% in anyone\nNo major burn characteristics present",
+          "tables": []
+        },
+        "Hospital_admission": {
+          "text": "Partial thickness 10-20% BSA 10-50 yrs old\nPartial thickness 5-10% BSA in <10 or > 50 yrs old\nFull thickness burns 2-5% BSA in anyone\nHigh voltage injury\nCircumferential burns of an extremity\nBurns complicated by suspected inhalation injury\nsignificant comorbidities\nNo major burn characteristics present",
+          "tables": []
+        },
+        "Burn_Center_Transfer_Criteria": {
+          "text": "Partial thickness >20% BSA (10-50 years old)\nPartial thickness >10% BSA (<10 or > 50 yrs old)\nFull thickness >5% BSA (any age)\nBurns involving face, eyes, ears, genitalia, joints, hands, feet\nBurns with\ninhalation injury\nHigh voltage electrical burn\nChemical burns\nBurns complicated by\nfracture\nor other trauma (in which burn is main cause of morbidity)\nBurns in high-risk patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        }
+      ]
+    },
+    "Outpatient_Treatment": {
+      "text": "24-48hr follow-up\nPartial thickness <10% BSA, age 10–50y\nPartial thickness <5% BSA, age <10y or >50y\nFull thickness <2% in anyone\nNo major burn characteristics present",
+      "subsections": {
+        "Hospital_admission": {
+          "text": "Partial thickness 10-20% BSA 10-50 yrs old\nPartial thickness 5-10% BSA in <10 or > 50 yrs old\nFull thickness burns 2-5% BSA in anyone\nHigh voltage injury\nCircumferential burns of an extremity\nBurns complicated by suspected inhalation injury\nsignificant comorbidities\nNo major burn characteristics present",
+          "tables": []
+        },
+        "Burn_Center_Transfer_Criteria": {
+          "text": "Partial thickness >20% BSA (10-50 years old)\nPartial thickness >10% BSA (<10 or > 50 yrs old)\nFull thickness >5% BSA (any age)\nBurns involving face, eyes, ears, genitalia, joints, hands, feet\nBurns with\ninhalation injury\nHigh voltage electrical burn\nChemical burns\nBurns complicated by\nfracture\nor other trauma (in which burn is main cause of morbidity)\nBurns in high-risk patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        }
+      ]
+    },
+    "Hospital_admission": {
+      "text": "Partial thickness 10-20% BSA 10-50 yrs old\nPartial thickness 5-10% BSA in <10 or > 50 yrs old\nFull thickness burns 2-5% BSA in anyone\nHigh voltage injury\nCircumferential burns of an extremity\nBurns complicated by suspected inhalation injury\nsignificant comorbidities\nNo major burn characteristics present",
+      "subsections": {
+        "Burn_Center_Transfer_Criteria": {
+          "text": "Partial thickness >20% BSA (10-50 years old)\nPartial thickness >10% BSA (<10 or > 50 yrs old)\nFull thickness >5% BSA (any age)\nBurns involving face, eyes, ears, genitalia, joints, hands, feet\nBurns with\ninhalation injury\nHigh voltage electrical burn\nChemical burns\nBurns complicated by\nfracture\nor other trauma (in which burn is main cause of morbidity)\nBurns in high-risk patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        }
+      ]
+    },
+    "Burn_Center_Transfer_Criteria": {
+      "text": "Partial thickness >20% BSA (10-50 years old)\nPartial thickness >10% BSA (<10 or > 50 yrs old)\nFull thickness >5% BSA (any age)\nBurns involving face, eyes, ears, genitalia, joints, hands, feet\nBurns with\ninhalation injury\nHigh voltage electrical burn\nChemical burns\nBurns complicated by\nfracture\nor other trauma (in which burn is main cause of morbidity)\nBurns in high-risk patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Caustic burns\nElectrical Injuries\nLightning Injuries\nBurn dressings\nEstimating body surface area\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity\nEscharotomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Electrical Injuries",
+          "url": "https://wikem.org/wiki/Electrical_Injuries"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Burn dressings",
+          "url": "https://wikem.org/wiki/Burn_dressings"
+        },
+        {
+          "text": "Estimating body surface area",
+          "url": "https://wikem.org/wiki/Estimating_body_surface_area"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        },
+        {
+          "text": "Escharotomy",
+          "url": "https://wikem.org/wiki/Escharotomy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.racgp.org.au/afp/2017/march/burns-dressings/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

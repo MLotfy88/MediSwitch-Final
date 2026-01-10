@@ -1,0 +1,608 @@
+{
+  "drug_name": "CMV_neurologic_disease",
+  "url": "https://wikem.org/wiki/CMV_neurologic_disease",
+  "scraped_at": "2026-01-10T07:49:28.979094",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Typically presents in immunocompromised hosts (e.g.\nAIDS\n) with history of prior CMV illness (e.g.\nCMV retinitis\nUsually\nencephalitis\n, presenting as a acute, rapid onset, progressive\nencephalopathy\nbut can also manifest as polyradiculitis\nEncephalitis:\nMemory impairment with\ndementia\n-like presentation\nMotor deficits\n,\nnumbness\n,\ncranial nerve palsies\nAtaxia\n,\nnystagmus\nMass lesion\nwith focal deficits or evidence of mass effect\n+/-\nFever\nPolyradiculitis\nBack pain\n/sciatica\nParesthesia\n, distal\nsensory loss\nUrinary retention\nAscending\nparalysis\n, similar to\nGuillain-Barre",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "cranial nerve palsies",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Mass lesion",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "sensory loss",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        },
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Neuroimaging (\nMRI\nmore helpful than\nCT\n)\nCMV PCR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antivirals": {
+          "text": "Ganciclovir\n5mg/kg IV q12hrs daily x 21 days FOLLOWED BY 5mg/kg IV q24hrs +\nFoscarnet\n90mg/kg IV q12hrs x 21 days THEN 90-120mg/kg IV q24hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Ganciclovir\n5mg/kg IV q12hrs daily x 21 days FOLLOWED BY 5mg/kg IV q24hrs +\nFoscarnet\n90mg/kg IV q12hrs x 21 days THEN 90-120mg/kg IV q24hrs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cytomegalovirus (CMV) infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cytomegalovirus (CMV) infection",
+          "url": "https://wikem.org/wiki/Cytomegalovirus_(CMV)_infection"
+        }
+      ]
+    }
+  }
+}

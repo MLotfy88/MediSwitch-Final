@@ -1,0 +1,382 @@
+{
+  "drug_name": "Cadmium_toxicity",
+  "url": "https://wikem.org/wiki/Cadmium_toxicity",
+  "scraped_at": "2026-01-10T07:49:34.154764",
+  "sections": {
+    "Background": {
+      "text": "Used in electroplating, soldering, pigments, and plastics\nOnce absorbed, cadmium distributes to most major organs, however it has a predilection for the liver and kidneys",
+      "subsections": {
+        "Routes_of_exposure": {
+          "text": "Inahlation (up to 25%)\nCigarette smoking, occupational exposure\nParticle size influences the amount absorbed\nSmaller particles are more likely to penetrate the alveolar-capillary membrane\nGastrointestinal (1-10%)\nCadmium is ubiquitous in food systems\nTotal daily amount ingested is influenced by a variety of factors\nReduced total body iron stores leads to upregulation of the gene that encodes for DMT1, a heavy metal transporter located on the luminal side of enterocytes. Consequently, more cadmium is absorbed from the gastrointestinal tract.\n[1]\nIn certain parts of Japan, consumption of cadmium ranges from 59 to 113 mcg per day, which is more than twice the daily average of individuals in Europe. This is in large part due to rice irrigated with cadmium-contaminated water.\n[2]\nDermal (less than 1%)",
+          "tables": []
+        },
+        "Mechanism_of_Toxicity": {
+          "text": "Inhaled form is 60 times more toxic than ingested form\nChemical pneumonitis\nPulmonary edema/hemorrhage\nGI irritation\nRenal tubule damage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Routes_of_exposure": {
+      "text": "Inahlation (up to 25%)\nCigarette smoking, occupational exposure\nParticle size influences the amount absorbed\nSmaller particles are more likely to penetrate the alveolar-capillary membrane\nGastrointestinal (1-10%)\nCadmium is ubiquitous in food systems\nTotal daily amount ingested is influenced by a variety of factors\nReduced total body iron stores leads to upregulation of the gene that encodes for DMT1, a heavy metal transporter located on the luminal side of enterocytes. Consequently, more cadmium is absorbed from the gastrointestinal tract.\n[1]\nIn certain parts of Japan, consumption of cadmium ranges from 59 to 113 mcg per day, which is more than twice the daily average of individuals in Europe. This is in large part due to rice irrigated with cadmium-contaminated water.\n[2]\nDermal (less than 1%)",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Inhaled form is 60 times more toxic than ingested form\nChemical pneumonitis\nPulmonary edema/hemorrhage\nGI irritation\nRenal tubule damage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Inhaled form is 60 times more toxic than ingested form\nChemical pneumonitis\nPulmonary edema/hemorrhage\nGI irritation\nRenal tubule damage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Local skin and eye irritation\nCough, wheezing,\npulmonary edema\nNausea\n,\nvomiting\n,\ndiarrhea\nChronic exposure can lead to bone deposition and \"itai-itai\" disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "History of exposure and respiratory / gastrointestinal complaints",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_2": {
+      "text": "",
+      "subsections": {
+        "Inhalation": {
+          "text": "Supplemental oxygen\nMonitor\nABG\n, check\nCXR\nTreat wheezing and\npulmonary edema",
+          "tables": []
+        },
+        "Ingestion": {
+          "text": "Activated charcoal\nor\ngastric lavage\nVolume resuscitation\nto counter fluid losses\nNo role for\nhemodialysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Volume resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Inhalation": {
+      "text": "Supplemental oxygen\nMonitor\nABG\n, check\nCXR\nTreat wheezing and\npulmonary edema",
+      "subsections": {
+        "Ingestion": {
+          "text": "Activated charcoal\nor\ngastric lavage\nVolume resuscitation\nto counter fluid losses\nNo role for\nhemodialysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Volume resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "Ingestion": {
+      "text": "Activated charcoal\nor\ngastric lavage\nVolume resuscitation\nto counter fluid losses\nNo role for\nhemodialysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Volume resuscitation",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        }
+      ]
+    },
+    "See_Also_2": {
+      "text": "Toxicology (main)\nHeavy Metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

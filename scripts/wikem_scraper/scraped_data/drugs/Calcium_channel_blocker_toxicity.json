@@ -1,0 +1,930 @@
+{
+  "drug_name": "Calcium_channel_blocker_toxicity",
+  "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity",
+  "scraped_at": "2026-01-10T07:49:35.927412",
+  "sections": {
+    "Background": {
+      "text": "Hemodialysis\nis ineffective\nPrecipitous deterioration is common (esp with verapamil)\nNifedipine\ncan kill a child with a single pill\nOnset of toxicity after overdose is usually seen within the first one to six hours for most CCBs, however verapamil is often more delayed",
+      "subsections": {
+        "Dihydropyridines": {
+          "text": "Nifedipine\n,\nAmlodipine\n,\nNicardipine\nSystemic vasodilation, mild effect on heart\nToxicity =\nHypotension\n, reflex\ntachycardia\nWith higher doses of toxicity peripheral selectivity is lost\nI.e. may see decreased inotropy,\nbradycardia",
+          "tables": []
+        },
+        "Non-dihydropyridines": {
+          "text": "Verapamil\n,\nDiltiazem\nStronger effect on heart, weak vasodilators\nToxicity =\nBradycardia\n, decreased inotropy,\nhypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "2_Classes": {
+      "text": "",
+      "subsections": {
+        "Dihydropyridines": {
+          "text": "Nifedipine\n,\nAmlodipine\n,\nNicardipine\nSystemic vasodilation, mild effect on heart\nToxicity =\nHypotension\n, reflex\ntachycardia\nWith higher doses of toxicity peripheral selectivity is lost\nI.e. may see decreased inotropy,\nbradycardia",
+          "tables": []
+        },
+        "Non-dihydropyridines": {
+          "text": "Verapamil\n,\nDiltiazem\nStronger effect on heart, weak vasodilators\nToxicity =\nBradycardia\n, decreased inotropy,\nhypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cardiovascular\nHypotension\n(any CCB overdose)\nBradycardia\n(usually only seen with\nverapamil\n/\ndiltiazem\n)\nAV/sinus block\nCHF\nPulmonary\nRespiratory depression\nPulmonary edema\nGI\nNausea/vomiting\nNeurologic\nLethargy\n,\nconfusion\n,\ncoma\nMetabolic\nHyperglycemia\nCCB inhibits insulin release from pancreatic islet cells leading to decreased glucose uptake in the myocardium\nHelps to differentiate from\nBeta-Blocker Toxicity\nCorrelates with severity of overdose and poor outcomes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "AV/sinus block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Respiratory depression",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Beta-Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Beta-Blocker_Toxicity"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Symptomatic_bradycardia": {
+          "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        }
+      ]
+    },
+    "Symptomatic_bradycardia": {
+      "text": "Cardiac\nInferior\nMI\n(involving RCA)\nSick sinus syndrome\nNeurocardiogenic/reflex-mediated\nIncreased ICP\nVasovagal reflex\nHypersensitive carotid sinus syndrome\nIntra-abdominal hemorrhage (i.e. ruptured\nectopic\n)\nMetabolic/endocrine/environmental\nHyperkalemia\nHypothermia\n(Osborn waves on ECG)\nHypothyroidism\nMyxedema coma\nHypoglycemia\n(neonates)\nToxicologic\nB-blocker\nCa-channel blocker\nClonidine\nDigoxin toxicity\nEthanol\nOpioids\nOrganophosphates\nXylazine toxicity\nInfectious/Postinfectious\nChagas disease\nLyme disease\nSyphilis\nOther\nBrash syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        },
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Brash syndrome",
+          "url": "https://wikem.org/wiki/Brash_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serial\nECG\nPR prolongation (varying degrees of AV block)\nAV block\noccurs more commonly with verapamil\nBradyarrhythmia\nLess common presentations include ventricular dysrhythmias and QRS widening, which are more commonly seen in toxicity of membrane-stabilizing beta-blockers (i.e. propranolol)\nGlucose\nhyperglycemia\n, may help distinguish\nβ-blocker toxicity\nChemistry\nSerum calcium is often normal\nIt is the effect on intracellular calcium in the myocardium and smooth muscle that leads to the toxicity of CCBs\nContinuous cardiac monitoring",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Bradyarrhythmia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "β-blocker toxicity",
+          "url": "https://wikem.org/wiki/%CE%92-blocker_toxicity"
+        }
+      ]
+    },
+    "Management": {
+      "text": "The majority of literature on calcium channel blocker overdose management is low-quality evidence and high-dose insulin and extracorporeal life support have the best evidence; other therapies include calcium, dopamine, norepinephrine, and lipid emulsion therapy may be beneficial but are poorly studied\n[1]\nMonotherapy only successful for trivial overdoses",
+      "subsections": {
+        "GI_decontamination": {
+          "text": "Charcoal\n1g/kg (max 50g) x1\nConsider if present within 1-2hr with delayed-release preparation\nConsider\nwhole bowel irrigation\nif sustained or extended-release, esp if the drug is verapamil or diltiazem",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "Initial 20cc/kg bolus especially if source of hypotension is undifferentiated and also possibly hypovolemic or due to\nSepsis",
+          "tables": []
+        },
+        "High-dose_insulin_and_glucose": {
+          "text": "Mechanism of Action: Insulin has a positive inotropic effect on the heart by improving metabolic support of cardiac tissues during hypotensive shock (cardiac tissues preferentially utilize fatty acid as an energy source during normal condition; under stressed conditions, cardiac tissues rely on glucose metabolism as their primary energy source). Some studies have also demonstrated that high doses of insulin can induce endothelial nitric oxide synthase activity and improve microvascular dysfunction by a vasodila- tory effect in cardiac and pulmonary vasculature\nTakes 30-60min for effect\nGlucose\n:\nAdult: 50mL of D50W\nPed: 2.5mL/kg of D10\nInsulin\nbolus 1 unit/kg given with 1amp of D50, then 0.5 – 1 unit/kg/hr continuous infusion\nTitrate infusion until hypotension is corrected or max 2u/kg/hr\nTitrate dextrose drip to avoid hypoglycemia\ninitial glucose checks q15 minutes until blood sugar stability established\nPotassium\nIf <3 administer 20mEq IV",
+          "tables": []
+        },
+        "Intravenous_lipid_emulsion": {
+          "text": "1.5mL/kg bolus of 20% lipid followed by 0.25mL/kg/minute",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Norepinephrine\nis agent of choice\nStart at 2mcg/min, uptitrate rapidly, goal MAP 65mmHg",
+          "tables": []
+        },
+        "Atropine": {
+          "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "whole bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole_bowel_irrigation"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Potassium",
+          "url": "https://wikem.org/wiki/Potassium"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "GI_decontamination": {
+      "text": "Charcoal\n1g/kg (max 50g) x1\nConsider if present within 1-2hr with delayed-release preparation\nConsider\nwhole bowel irrigation\nif sustained or extended-release, esp if the drug is verapamil or diltiazem",
+      "subsections": {
+        "IV_fluids": {
+          "text": "Initial 20cc/kg bolus especially if source of hypotension is undifferentiated and also possibly hypovolemic or due to\nSepsis",
+          "tables": []
+        },
+        "High-dose_insulin_and_glucose": {
+          "text": "Mechanism of Action: Insulin has a positive inotropic effect on the heart by improving metabolic support of cardiac tissues during hypotensive shock (cardiac tissues preferentially utilize fatty acid as an energy source during normal condition; under stressed conditions, cardiac tissues rely on glucose metabolism as their primary energy source). Some studies have also demonstrated that high doses of insulin can induce endothelial nitric oxide synthase activity and improve microvascular dysfunction by a vasodila- tory effect in cardiac and pulmonary vasculature\nTakes 30-60min for effect\nGlucose\n:\nAdult: 50mL of D50W\nPed: 2.5mL/kg of D10\nInsulin\nbolus 1 unit/kg given with 1amp of D50, then 0.5 – 1 unit/kg/hr continuous infusion\nTitrate infusion until hypotension is corrected or max 2u/kg/hr\nTitrate dextrose drip to avoid hypoglycemia\ninitial glucose checks q15 minutes until blood sugar stability established\nPotassium\nIf <3 administer 20mEq IV",
+          "tables": []
+        },
+        "Intravenous_lipid_emulsion": {
+          "text": "1.5mL/kg bolus of 20% lipid followed by 0.25mL/kg/minute",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Norepinephrine\nis agent of choice\nStart at 2mcg/min, uptitrate rapidly, goal MAP 65mmHg",
+          "tables": []
+        },
+        "Atropine": {
+          "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "whole bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole_bowel_irrigation"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Potassium",
+          "url": "https://wikem.org/wiki/Potassium"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "IV_fluids": {
+      "text": "Initial 20cc/kg bolus especially if source of hypotension is undifferentiated and also possibly hypovolemic or due to\nSepsis",
+      "subsections": {
+        "High-dose_insulin_and_glucose": {
+          "text": "Mechanism of Action: Insulin has a positive inotropic effect on the heart by improving metabolic support of cardiac tissues during hypotensive shock (cardiac tissues preferentially utilize fatty acid as an energy source during normal condition; under stressed conditions, cardiac tissues rely on glucose metabolism as their primary energy source). Some studies have also demonstrated that high doses of insulin can induce endothelial nitric oxide synthase activity and improve microvascular dysfunction by a vasodila- tory effect in cardiac and pulmonary vasculature\nTakes 30-60min for effect\nGlucose\n:\nAdult: 50mL of D50W\nPed: 2.5mL/kg of D10\nInsulin\nbolus 1 unit/kg given with 1amp of D50, then 0.5 – 1 unit/kg/hr continuous infusion\nTitrate infusion until hypotension is corrected or max 2u/kg/hr\nTitrate dextrose drip to avoid hypoglycemia\ninitial glucose checks q15 minutes until blood sugar stability established\nPotassium\nIf <3 administer 20mEq IV",
+          "tables": []
+        },
+        "Intravenous_lipid_emulsion": {
+          "text": "1.5mL/kg bolus of 20% lipid followed by 0.25mL/kg/minute",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Norepinephrine\nis agent of choice\nStart at 2mcg/min, uptitrate rapidly, goal MAP 65mmHg",
+          "tables": []
+        },
+        "Atropine": {
+          "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Potassium",
+          "url": "https://wikem.org/wiki/Potassium"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "High-dose_insulin_and_glucose": {
+      "text": "Mechanism of Action: Insulin has a positive inotropic effect on the heart by improving metabolic support of cardiac tissues during hypotensive shock (cardiac tissues preferentially utilize fatty acid as an energy source during normal condition; under stressed conditions, cardiac tissues rely on glucose metabolism as their primary energy source). Some studies have also demonstrated that high doses of insulin can induce endothelial nitric oxide synthase activity and improve microvascular dysfunction by a vasodila- tory effect in cardiac and pulmonary vasculature\nTakes 30-60min for effect\nGlucose\n:\nAdult: 50mL of D50W\nPed: 2.5mL/kg of D10\nInsulin\nbolus 1 unit/kg given with 1amp of D50, then 0.5 – 1 unit/kg/hr continuous infusion\nTitrate infusion until hypotension is corrected or max 2u/kg/hr\nTitrate dextrose drip to avoid hypoglycemia\ninitial glucose checks q15 minutes until blood sugar stability established\nPotassium\nIf <3 administer 20mEq IV",
+      "subsections": {
+        "Intravenous_lipid_emulsion": {
+          "text": "1.5mL/kg bolus of 20% lipid followed by 0.25mL/kg/minute",
+          "tables": []
+        },
+        "Vasopressors": {
+          "text": "Norepinephrine\nis agent of choice\nStart at 2mcg/min, uptitrate rapidly, goal MAP 65mmHg",
+          "tables": []
+        },
+        "Atropine": {
+          "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Potassium",
+          "url": "https://wikem.org/wiki/Potassium"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "Intravenous_lipid_emulsion": {
+      "text": "1.5mL/kg bolus of 20% lipid followed by 0.25mL/kg/minute",
+      "subsections": {
+        "Vasopressors": {
+          "text": "Norepinephrine\nis agent of choice\nStart at 2mcg/min, uptitrate rapidly, goal MAP 65mmHg",
+          "tables": []
+        },
+        "Atropine": {
+          "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "Vasopressors": {
+      "text": "Norepinephrine\nis agent of choice\nStart at 2mcg/min, uptitrate rapidly, goal MAP 65mmHg",
+      "subsections": {
+        "Atropine": {
+          "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+          "tables": []
+        },
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "Atropine": {
+      "text": "Adult: 0.5-1mg IV q2-3min to max of 3g\nPed: 0.02mg/kg (minimum is 0.1mg)\nAdminister to anyone with symptomatic\nbradycardia",
+      "subsections": {
+        "Calcium": {
+          "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+          "tables": []
+        },
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "Calcium": {
+      "text": "Avoid if\ndigoxin toxicity\nis possible\nCalcium gluconate\n3g (30-60mL of 10% soln)\nCalcium chloride\n1-3g IV bolus (10-20mL of 10% soln (requires large IV/central line)\nPreferred over calcium gluconate because it provides triple the amount of calcium on a weight-to-weight basis\n[2]\nGive Calcium 1g Q5min to titrate to BP effect\nIf effect in BP is seen can give as a drip at 10-50mg/kg/hr\ncan safely push serum Calcium levels to 15-18 or even low 20s if patient tolerates (double normal)",
+      "subsections": {
+        "Glucagon": {
+          "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "Glucagon": {
+      "text": "5mg IV bolus q10min x 2\nwill often cause severe\nnausea/vomiting\n, give\nZofran\nprior",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Zofran",
+          "url": "https://wikem.org/wiki/Zofran"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all symptomatic patients\nAdmit all sustained-release ingestions\nDischarge if asymptomatic x 6-8hrs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Calcium Channel Blockers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium Channel Blockers",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blockers"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Calcium Channel Blocker Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "drug_name": "COVID-19_in_pregnancy",
+  "url": "https://wikem.org/wiki/COVID-19_in_pregnancy",
+  "scraped_at": "2026-01-10T07:49:33.177934",
+  "sections": {
+    "Intro": {
+      "text": "See\nCOVID-19\nfor main article. For transmission precautions see:\nPrevention of COVID-19 transmission in the healthcare setting\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Reported data and outcomes for pregnant patients similar to non-pregnant patients\nPhysiologic and immunologic changes in pregnancy may make them more susceptible to contracting  viral respiratory illness but symptoms and outcomes demonstrate no significant differences from non-pregnant COVID19",
+      "subsections": {
+        "Epidemiology": {
+          "text": "34 pregnant women reported with COVID; 0  deaths reported.\nMedian age: 30 years (mostly 2nd and 3rd trimester -- median gestation 36 weeks)\nSymptom onset within 13 days prior to, and 3 days after, delivery\nInfants of affected mothers all tested negative\nNo maternal/pregnant deaths reported from COVID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "34 pregnant women reported with COVID; 0  deaths reported.\nMedian age: 30 years (mostly 2nd and 3rd trimester -- median gestation 36 weeks)\nSymptom onset within 13 days prior to, and 3 days after, delivery\nInfants of affected mothers all tested negative\nNo maternal/pregnant deaths reported from COVID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Infection_Prevention": {
+          "text": "Applies to broader infection prevention\nIsolation of pregnant patients with COVID19 and PUIs\nPre-hospital (for confirmed COVID19 or PUI):\nNotify OB unit prior to arrival\nEMS: driver should contact receiving unit to follow local protocols\nHospitalization: usual hospital protocols for isolation\nInfants born to mothers with COVID should be considered PUI\nPrevention of mother-to-child transmission (PMTCT): may temporarily separate mother from baby until mother’s transmission based isolation precautions are discontinued (due to respiratory secretions)\nNo data on vertical transmission\nThought to spread mostly by close contact with respiratory droplet\nVery limited data on routes of transmission other than contact with respiratory droplet - however small cohorts tested didn’t demonstrate transmission via these others routes (note amniotic fluid and other sources were not tested)\nDiscontinuation of isolation made on local ID guidance and case-by-case\nDiscontinuation criteria same as for other COVID19\nResolution of fever without anti-pyretic, resolution of symptoms, and negative COVID19 testing\nFace mask, hand hygiene before each feeding\nDedicated breast pump if nursing\nEntire pump should be entirely disinfected per manufacturer recommendations between each feed",
+          "tables": []
+        },
+        "Q&A_Scenarios": {
+          "text": "Are pregnant women at increased risk of adverse pregnancy outcomes?\nNo data exists on this (regarding pregnancy loss, misscarriage, etc)\nHigh fevers in early pregnancy previously demonstrated (in SARS and MERS) to increase risk of birth defects. May be possible here. But no data.\nLactation\nNo evidence of virus found in breastmilk. (but no good data on this). Most transmission noted to be due to close respiratory droplet contact during feeding\nShould pregnant patients not be out and about in the community?\nPrenatal care still encouraged\nUsual precautions encouraged (as with general population)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infection_Prevention": {
+      "text": "Applies to broader infection prevention\nIsolation of pregnant patients with COVID19 and PUIs\nPre-hospital (for confirmed COVID19 or PUI):\nNotify OB unit prior to arrival\nEMS: driver should contact receiving unit to follow local protocols\nHospitalization: usual hospital protocols for isolation\nInfants born to mothers with COVID should be considered PUI\nPrevention of mother-to-child transmission (PMTCT): may temporarily separate mother from baby until mother’s transmission based isolation precautions are discontinued (due to respiratory secretions)\nNo data on vertical transmission\nThought to spread mostly by close contact with respiratory droplet\nVery limited data on routes of transmission other than contact with respiratory droplet - however small cohorts tested didn’t demonstrate transmission via these others routes (note amniotic fluid and other sources were not tested)\nDiscontinuation of isolation made on local ID guidance and case-by-case\nDiscontinuation criteria same as for other COVID19\nResolution of fever without anti-pyretic, resolution of symptoms, and negative COVID19 testing\nFace mask, hand hygiene before each feeding\nDedicated breast pump if nursing\nEntire pump should be entirely disinfected per manufacturer recommendations between each feed",
+      "subsections": {
+        "Q&A_Scenarios": {
+          "text": "Are pregnant women at increased risk of adverse pregnancy outcomes?\nNo data exists on this (regarding pregnancy loss, misscarriage, etc)\nHigh fevers in early pregnancy previously demonstrated (in SARS and MERS) to increase risk of birth defects. May be possible here. But no data.\nLactation\nNo evidence of virus found in breastmilk. (but no good data on this). Most transmission noted to be due to close respiratory droplet contact during feeding\nShould pregnant patients not be out and about in the community?\nPrenatal care still encouraged\nUsual precautions encouraged (as with general population)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Q&A_Scenarios": {
+      "text": "Are pregnant women at increased risk of adverse pregnancy outcomes?\nNo data exists on this (regarding pregnancy loss, misscarriage, etc)\nHigh fevers in early pregnancy previously demonstrated (in SARS and MERS) to increase risk of birth defects. May be possible here. But no data.\nLactation\nNo evidence of virus found in breastmilk. (but no good data on this). Most transmission noted to be due to close respiratory droplet contact during feeding\nShould pregnant patients not be out and about in the community?\nPrenatal care still encouraged\nUsual precautions encouraged (as with general population)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

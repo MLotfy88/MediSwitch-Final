@@ -1,0 +1,114 @@
+{
+  "drug_name": "CHF_medications",
+  "url": "https://wikem.org/wiki/CHF_medications",
+  "scraped_at": "2026-01-10T07:49:26.574403",
+  "sections": {
+    "Intro": {
+      "text": "Carvedilol\n: decreases mortality 67%\nDigoxin\n: decrease syx/hospitaliz\nAldactone in Class IV decrease mortality\nIsordil\n: cor. VD; +BP if ischemia\nISDN/HYDRA. decreased mortality in CHF\nACEI GREAT mortality benefit\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Isordil60",
+            "RA": "-",
+            "RCW": "-",
+            "SVR": "(-)",
+            "BP": "-",
+            "CO": "-/+"
+          },
+          {
+            "Agent": "Hydralazine100",
+            "RA": "~",
+            "RCW": "~",
+            "SVR": "-",
+            "BP": "+/-",
+            "CO": "++"
+          },
+          {
+            "Agent": "hy (MR/AI)",
+            "RA": "-",
+            "RCW": "--",
+            "SVR": "++",
+            "BP": "-/+",
+            "CO": "+/-"
+          },
+          {
+            "Agent": "ACEI",
+            "RA": "-",
+            "RCW": "-",
+            "SVR": "-",
+            "BP": "+/-",
+            "CO": "+"
+          },
+          {
+            "Agent": "Minoxidil",
+            "RA": "~",
+            "RCW": "~",
+            "SVR": "--",
+            "BP": "+/-",
+            "CO": "++"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Target_Doses": {
+      "text": "Hydralazine\n: 100 TID start 25\nIsordil: 60-80 TID\nCaptopril\n: 100 TID start 12.5\nLisinopril\n/\nenalapril\n: 10 BID class II/III\n20 BID class IV\nCarvedilol\n25 BID; 50 BID if >80kg\nDigoxin\n: varies\nSpironolactone\n25-50 QD\nEnalapril\n1.25mg IV\nNitroglycerin\n(Initial dose 5-10ug/min, increased every 3-5 minute to dose range 10-200ug/min)\nNitroprusside\n(Initial dose 5-10ug/min, increased every 3-5 minute to dose range 5-400ug/min)\n^Consider when need afterload reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydralazine",
+          "url": "https://wikem.org/wiki/Hydralazine"
+        },
+        {
+          "text": "Captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "Carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        },
+        {
+          "text": "Enalapril",
+          "url": "https://wikem.org/wiki/Enalapril"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Congestive Heart Failure (CHF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congestive Heart Failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(CHF)"
+        }
+      ]
+    }
+  }
+}

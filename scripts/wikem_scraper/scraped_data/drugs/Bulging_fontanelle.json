@@ -1,0 +1,141 @@
+{
+  "drug_name": "Bulging_fontanelle",
+  "url": "https://wikem.org/wiki/Bulging_fontanelle",
+  "scraped_at": "2026-01-10T07:49:22.018714",
+  "sections": {
+    "Background": {
+      "text": "Fontanelles are fibrous, membrane-covered gaps between cranial bones.\nA newborn has six fontanelles: anterior, posterior, two mastoid, and two sphenoid.\nAnterior and posterior are the most prominent\nThe posterior fontanelle usually closes by 1-2 months of age.\nThe anterior fontanelle usually closes between 7-19 months of age.\nA bulging fontanelle represents\nincreased intracranial pressure\n, which may be transient and either benign or malignant.\nMeticulous history and physical is essential to guide management of these infants.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "increased intracranial pressure",
+          "url": "https://wikem.org/wiki/Management_of_Elevated_Intracranial_Pressure"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Bulging fontanelle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Meningitis\nEncephalitis\nMeningoencephalitis\nCongestive Heart Failure\nSpace-occupying lesions\nThyroid\ndisorders\nIntracranial Hemorrhage\nParathyroid disorders\nBrain Abscess\nDiabetic Ketoacidosis\nHypervitaminosis A\nAnemia\nLead encephalopathy\nLeukemia\nInborn errors of metabolism\nUremia\nTrauma\nRoseola Infantum\nVaccinations\nShigella\nIdiopathic Intracranial Hypertension (Pseudotumor Cerebri)\nDural sinus thrombosis\nViral syndromes\nHydrocephalus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Congestive Heart Failure",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure"
+        },
+        {
+          "text": "Space-occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(Main)"
+        },
+        {
+          "text": "Brain Abscess",
+          "url": "https://wikem.org/wiki/Brain_Abscess"
+        },
+        {
+          "text": "Diabetic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_Ketoacidosis"
+        },
+        {
+          "text": "Hypervitaminosis A",
+          "url": "https://wikem.org/wiki/Vitamin_A_toxicity"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Lead encephalopathy",
+          "url": "https://wikem.org/wiki/Lead_Toxicity"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(Peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(peds)"
+        },
+        {
+          "text": "Roseola Infantum",
+          "url": "https://wikem.org/wiki/Roseola_Infantum"
+        },
+        {
+          "text": "Vaccinations",
+          "url": "https://wikem.org/wiki/Vaccination_Schedule"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Idiopathic Intracranial Hypertension (Pseudotumor Cerebri)",
+          "url": "https://wikem.org/wiki/Idiopathic_Intracranial_Hypertension"
+        },
+        {
+          "text": "Viral syndromes",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nEvaluate for underlying etiology\nStandard approach:\nHead CT\nLP\n(if not contraindicated by CT findings) with opening and closing pressures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying pathology\nSee\nelevated ICP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        }
+      ]
+    }
+  }
+}

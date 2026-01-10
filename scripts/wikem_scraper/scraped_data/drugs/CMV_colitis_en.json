@@ -1,0 +1,285 @@
+{
+  "drug_name": "CMV_colitis/en",
+  "url": "https://wikem.org/wiki/CMV_colitis/en",
+  "scraped_at": "2026-01-10T07:49:29.869416",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "CMV is part of the Herpesviridae family\n50-80% of the world's population is seropositive for CMV\nCauses a mild or undetectable infection in immunocompetent hosts\nSevere systemic illness is found in immunosuppressed hosts",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\nAnorexia\nMalaise\nAbdominal pain\n, Abdominal distention,\nconstipation\nNausea/vomiting\nChronic watery\ndiarrhea\nBloody diarrhea\nWorsening symptoms of\ninflammatory bowel disease\nWeight loss\nDehydration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Colitis": {
+          "text": "Viral gastroenteritis\nBacterial gastroenteritis\nCampylobacter\ninfections\nClostridium difficile\ncolitis\nColon cancer\nCrohn disease\nCryptosporidiosis\nMycobacterium Avium-Intracellulare\nToxic megacolon\nUlcerative colitis\nIschemic bowel disease (e.g.\nmesenteric ischemia\n, strangulated\nhernia\n)\nPseudomembranous enterocolitis\nLymphoma\nIleocecal\namebiasis\nSarcoidosis\nYersinia\nCampylobacter",
+          "tables": []
+        },
+        "CMV_Diseases": {
+          "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral gastroenteritis",
+          "url": "https://wikem.org/wiki/Viral_gastroenteritis"
+        },
+        {
+          "text": "Bacterial gastroenteritis",
+          "url": "https://wikem.org/wiki/Bacterial_gastroenteritis"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Crohn disease",
+          "url": "https://wikem.org/wiki/Crohn_disease"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Mycobacterium Avium-Intracellulare",
+          "url": "https://wikem.org/wiki/Mycobacterium_Avium-Intracellulare"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Pseudomembranous enterocolitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "CMV esophagitis",
+          "url": "https://wikem.org/wiki/CMV_esophagitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "Colitis": {
+      "text": "Viral gastroenteritis\nBacterial gastroenteritis\nCampylobacter\ninfections\nClostridium difficile\ncolitis\nColon cancer\nCrohn disease\nCryptosporidiosis\nMycobacterium Avium-Intracellulare\nToxic megacolon\nUlcerative colitis\nIschemic bowel disease (e.g.\nmesenteric ischemia\n, strangulated\nhernia\n)\nPseudomembranous enterocolitis\nLymphoma\nIleocecal\namebiasis\nSarcoidosis\nYersinia\nCampylobacter",
+      "subsections": {
+        "CMV_Diseases": {
+          "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral gastroenteritis",
+          "url": "https://wikem.org/wiki/Viral_gastroenteritis"
+        },
+        {
+          "text": "Bacterial gastroenteritis",
+          "url": "https://wikem.org/wiki/Bacterial_gastroenteritis"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Crohn disease",
+          "url": "https://wikem.org/wiki/Crohn_disease"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Mycobacterium Avium-Intracellulare",
+          "url": "https://wikem.org/wiki/Mycobacterium_Avium-Intracellulare"
+        },
+        {
+          "text": "Toxic megacolon",
+          "url": "https://wikem.org/wiki/Toxic_megacolon"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Pseudomembranous enterocolitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Yersinia",
+          "url": "https://wikem.org/wiki/Yersinia"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "CMV esophagitis",
+          "url": "https://wikem.org/wiki/CMV_esophagitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "CMV_Diseases": {
+      "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV esophagitis",
+          "url": "https://wikem.org/wiki/CMV_esophagitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Ganciclovir\n5mg/kg IV q12hrs x 21 days (or until resolution of symptoms)\nFoscarnet\n90mg/kg IV q12hrs daily x 21 days (or until resolution of symptoms)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cytomegalovirus (CMV) infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

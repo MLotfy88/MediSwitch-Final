@@ -1,0 +1,235 @@
+{
+  "drug_name": "Buruli_ulcer",
+  "url": "https://wikem.org/wiki/Buruli_ulcer",
+  "scraped_at": "2026-01-10T07:49:26.112153",
+  "sections": {
+    "Background": {
+      "text": "Skin infection caused by Mycobacterium ulcerans\nNamed for Buruli district in Uganda\nBegins as a localized lesion and progresses to extensive ulceration",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Most frequent in humid, rural, tropical regions with limited access to medical care",
+          "tables": []
+        },
+        "Transmission": {
+          "text": "Mode of transmission is not fully understood, but linked to contaminated water\n[1]\nHuman to human transmission is rare",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Caused by Mycobacterium ulcerans, a slow growing mycobacterium that can be cultured in vitro at 29-33C\nMycobacterium ulcerans is capable of producing mycolactone, a cytotoxin that induces necrosis and ulceration\nEffect of mylactone includes cell structural deformation and apoptosis of several cell types, including immune cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "Most frequent in humid, rural, tropical regions with limited access to medical care",
+      "subsections": {
+        "Transmission": {
+          "text": "Mode of transmission is not fully understood, but linked to contaminated water\n[1]\nHuman to human transmission is rare",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Caused by Mycobacterium ulcerans, a slow growing mycobacterium that can be cultured in vitro at 29-33C\nMycobacterium ulcerans is capable of producing mycolactone, a cytotoxin that induces necrosis and ulceration\nEffect of mylactone includes cell structural deformation and apoptosis of several cell types, including immune cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transmission": {
+      "text": "Mode of transmission is not fully understood, but linked to contaminated water\n[1]\nHuman to human transmission is rare",
+      "subsections": {
+        "Microbiology": {
+          "text": "Caused by Mycobacterium ulcerans, a slow growing mycobacterium that can be cultured in vitro at 29-33C\nMycobacterium ulcerans is capable of producing mycolactone, a cytotoxin that induces necrosis and ulceration\nEffect of mylactone includes cell structural deformation and apoptosis of several cell types, including immune cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Microbiology": {
+      "text": "Caused by Mycobacterium ulcerans, a slow growing mycobacterium that can be cultured in vitro at 29-33C\nMycobacterium ulcerans is capable of producing mycolactone, a cytotoxin that induces necrosis and ulceration\nEffect of mylactone includes cell structural deformation and apoptosis of several cell types, including immune cells",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usually begins as a painless nodule <5cm in diameter, but also may initially present as papules, plaques, or edematous lesions\nLimbs are most frequently involved, although it may also affect the head, neck, trunk, and genitals\nInitial lesion usually breaks down after days to weeks, forming an ulcer with characteristic undermined edges\nUlceration tends to progress slowly and painlessly, usually systemic symptoms are not present unless there is secondary bacterial infection\nHowever, some individuals may present with an initial edematous lesion that will have relatively rapid progression leading to ulceration within a few days, these patients also often have pain and a low grade fever\nSuperficial lesions can progress to deeper tissues (i.e. tendons, bones)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Eumycetoma\nPyoderma gangrenosum\nVenous stasis ulcer\nDiabetic skin ulceration\nSquamous cell carcinoma",
+      "subsections": {
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eumycetoma",
+          "url": "https://wikem.org/wiki/Eumycetoma"
+        },
+        {
+          "text": "Pyoderma gangrenosum",
+          "url": "https://wikem.org/wiki/Pyoderma_gangrenosum"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Travel-related_skin_conditions": {
+      "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "There are several options for laboratory evaluation, but in endemic regions diagnosis is often made by clinical diagnosis due to limited resources",
+      "subsections": {
+        "Laboratory_Testing[2]_": {
+          "text": "Acid fast staining – does not rule out other related infections such as mycobacterium tuberculosis, sensitivity is approximately 40%\nCulture – mycobacterium ulcerans grows slowly in laboratory (positive results require 6 weeks or more), sensitivity is approximately 60%\nHistology – sensitivity up to 82%\nPCR – sensitivity 70-80%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotic therapy\nGuided by severity of lesions\nMost commonly 8 weeks of\nrifampin\nand\nclarithromycin\n[4]\nMost cases will heal with antibiotics alone, but healing is often incomplete until after antibiotic therapy\nSurgical debridement can be considered to remove necrotic tissue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

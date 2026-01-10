@@ -1,0 +1,303 @@
+{
+  "drug_name": "CVC_catheter_problems",
+  "url": "https://wikem.org/wiki/CVC_catheter_problems",
+  "scraped_at": "2026-01-10T07:49:31.682739",
+  "sections": {
+    "Background": {
+      "text": "Central venous catheter\ncomplications vary by site. Subclavian lines are more commonly associated with pneumothorax and have a higher risk of bleeding because the site is noncompressible, whereas femoral and internal jugular lines have a higher risk of infection.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheter",
+          "url": "https://wikem.org/wiki/Central_venous_catheter"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Mechanical": {
+          "text": "Arterial puncture\nHematoma formation\nAir embolus\nPneumothorax\n/Hemothorax\nPericardial tamponade\nCatheter embolus\nDysrhythmias\nCatheter malposition",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Bacteremia\nSepsis\nCellulitis\nat insertion site",
+          "tables": []
+        },
+        "Thrombotic": {
+          "text": "Pulmonary embolism\nVenous thrombosis",
+          "tables": []
+        },
+        "Site-Specific": {
+          "text": "SV and IJ\nPneumothorax\nHemothorax\nHydrothorax\nChylothorax\nNeck hematoma/tracheal obstruction\nEndotracheal cuff perforation\nTracheal perforation\nPhrenic nerve injury\nBrachial plexus injury\nCerebral infarct\nFemoral\nBowel perforation\nPsoas abscess\nBladder perforation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Venous thrombosis",
+          "url": "https://wikem.org/wiki/Venous_thrombosis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Hydrothorax",
+          "url": "https://wikem.org/wiki/Hydrothorax"
+        },
+        {
+          "text": "Chylothorax",
+          "url": "https://wikem.org/wiki/Chylothorax"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        }
+      ]
+    },
+    "Mechanical": {
+      "text": "Arterial puncture\nHematoma formation\nAir embolus\nPneumothorax\n/Hemothorax\nPericardial tamponade\nCatheter embolus\nDysrhythmias\nCatheter malposition",
+      "subsections": {
+        "Infectious": {
+          "text": "Bacteremia\nSepsis\nCellulitis\nat insertion site",
+          "tables": []
+        },
+        "Thrombotic": {
+          "text": "Pulmonary embolism\nVenous thrombosis",
+          "tables": []
+        },
+        "Site-Specific": {
+          "text": "SV and IJ\nPneumothorax\nHemothorax\nHydrothorax\nChylothorax\nNeck hematoma/tracheal obstruction\nEndotracheal cuff perforation\nTracheal perforation\nPhrenic nerve injury\nBrachial plexus injury\nCerebral infarct\nFemoral\nBowel perforation\nPsoas abscess\nBladder perforation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Air embolus",
+          "url": "https://wikem.org/wiki/Air_embolus"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Venous thrombosis",
+          "url": "https://wikem.org/wiki/Venous_thrombosis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Hydrothorax",
+          "url": "https://wikem.org/wiki/Hydrothorax"
+        },
+        {
+          "text": "Chylothorax",
+          "url": "https://wikem.org/wiki/Chylothorax"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        }
+      ]
+    },
+    "Infectious": {
+      "text": "Bacteremia\nSepsis\nCellulitis\nat insertion site",
+      "subsections": {
+        "Thrombotic": {
+          "text": "Pulmonary embolism\nVenous thrombosis",
+          "tables": []
+        },
+        "Site-Specific": {
+          "text": "SV and IJ\nPneumothorax\nHemothorax\nHydrothorax\nChylothorax\nNeck hematoma/tracheal obstruction\nEndotracheal cuff perforation\nTracheal perforation\nPhrenic nerve injury\nBrachial plexus injury\nCerebral infarct\nFemoral\nBowel perforation\nPsoas abscess\nBladder perforation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Venous thrombosis",
+          "url": "https://wikem.org/wiki/Venous_thrombosis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Hydrothorax",
+          "url": "https://wikem.org/wiki/Hydrothorax"
+        },
+        {
+          "text": "Chylothorax",
+          "url": "https://wikem.org/wiki/Chylothorax"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        }
+      ]
+    },
+    "Thrombotic": {
+      "text": "Pulmonary embolism\nVenous thrombosis",
+      "subsections": {
+        "Site-Specific": {
+          "text": "SV and IJ\nPneumothorax\nHemothorax\nHydrothorax\nChylothorax\nNeck hematoma/tracheal obstruction\nEndotracheal cuff perforation\nTracheal perforation\nPhrenic nerve injury\nBrachial plexus injury\nCerebral infarct\nFemoral\nBowel perforation\nPsoas abscess\nBladder perforation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Venous thrombosis",
+          "url": "https://wikem.org/wiki/Venous_thrombosis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Hydrothorax",
+          "url": "https://wikem.org/wiki/Hydrothorax"
+        },
+        {
+          "text": "Chylothorax",
+          "url": "https://wikem.org/wiki/Chylothorax"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        }
+      ]
+    },
+    "Site-Specific": {
+      "text": "SV and IJ\nPneumothorax\nHemothorax\nHydrothorax\nChylothorax\nNeck hematoma/tracheal obstruction\nEndotracheal cuff perforation\nTracheal perforation\nPhrenic nerve injury\nBrachial plexus injury\nCerebral infarct\nFemoral\nBowel perforation\nPsoas abscess\nBladder perforation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Hydrothorax",
+          "url": "https://wikem.org/wiki/Hydrothorax"
+        },
+        {
+          "text": "Chylothorax",
+          "url": "https://wikem.org/wiki/Chylothorax"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "3SITES Trial\nEMCrit: CVC Microskills",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

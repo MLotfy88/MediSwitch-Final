@@ -1,0 +1,234 @@
+{
+  "drug_name": "Caffeine_toxicity",
+  "url": "https://wikem.org/wiki/Caffeine_toxicity",
+  "scraped_at": "2026-01-10T07:49:34.745620",
+  "sections": {
+    "Background": {
+      "text": "Overdose is more common in young children\nCaffeine overdoses in adults are rare and typically require ingestion in excess of 5 g\n[1]\nToxic levels are considered to be  150-200mg/kg\n[2]",
+      "subsections": {
+        "Common_Dosages_by_Type": {
+          "text": "^Average caffeine content can vary\n[3]\n[4]",
+          "tables": [
+            [
+              {
+                "Type": "Coffee, brewed",
+                "Amount": "1 cup",
+                "Caffeine^": "100mg"
+              },
+              {
+                "Type": "Coffee, instant",
+                "Amount": "1 cup",
+                "Caffeine^": "75mg"
+              },
+              {
+                "Type": "Tea",
+                "Amount": "1 cup",
+                "Caffeine^": "50mg"
+              },
+              {
+                "Type": "Red Bull",
+                "Amount": "1 can",
+                "Caffeine^": "80mg"
+              },
+              {
+                "Type": "Rockstar",
+                "Amount": "1 can",
+                "Caffeine^": "160mg"
+              },
+              {
+                "Type": "Excedrin Migraine",
+                "Amount": "2 tabs",
+                "Caffeine^": "130mg"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common_Dosages_by_Type": {
+      "text": "^Average caffeine content can vary\n[3]\n[4]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Coffee, brewed",
+            "Amount": "1 cup",
+            "Caffeine^": "100mg"
+          },
+          {
+            "Type": "Coffee, instant",
+            "Amount": "1 cup",
+            "Caffeine^": "75mg"
+          },
+          {
+            "Type": "Tea",
+            "Amount": "1 cup",
+            "Caffeine^": "50mg"
+          },
+          {
+            "Type": "Red Bull",
+            "Amount": "1 can",
+            "Caffeine^": "80mg"
+          },
+          {
+            "Type": "Rockstar",
+            "Amount": "1 can",
+            "Caffeine^": "160mg"
+          },
+          {
+            "Type": "Excedrin Migraine",
+            "Amount": "2 tabs",
+            "Caffeine^": "130mg"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sympathomimetic\n[5]\nDelusions\nParanoia\nTachycardia\nHypertension\nHyperpyrexia,\nDiaphoresis\nPiloerection\nMydriasis\nHyper-reflexia\nSeizures\nHypotension\nDysrhythmias\nAdditional symptoms\n[6]\nNeuro: Agitation, anxiety, excitement, or restlessness; confusion or delirium; seizures\nCV: Tachycardia and palpitations\nHEENT: Tinnitus, “zig-zag” flashes of light\nGI: Abdominal pain, nausea/vomiting\nRenal: Dehydration,\nMSK: Muscle trembling or twitching\nNewborns: Whole-body tremors, painful, swollen abdomen with nausea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Sympathomimetics": {
+      "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "With clear history, no further work up is indicated\nWith altered mental status or ambiguous presentation consider:\nUrinalysis\n, CBC, BMP, LFTs\nCT head\ntox workup\ninfectious work up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment varies by severity of presentation\n[7]\nAirway\nIntubation is needed for altered mental status or seizures\nBreathing\nSupplemental O2\nVentilation\nCirculation\nIVF\nVasopressors for refractory hypotension (\nNorepi\nvs\nphenylephrine\n)\nBB or CCB for tachycardia (Esmolol or Propranolol)\nIf Vtach, initiate code protocol\nBenzodiazepines\nfor agitation\nTreat\nhypokalemia\nif K<3  and\nrhabdo\n(potassium depletion is due to intracellular shift rather than body depletion)\nAntiemetics as needed\nHD\ncan be used in severe cases\nConsult Poison Control",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Norepi",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "HD",
+          "url": "https://wikem.org/wiki/Dialyzable_Drugs"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all clinically unstable patients, suicide attempts, or those with ambiguous diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Caffeine\nCaffeine withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Caffeine withdrawal",
+          "url": "https://wikem.org/wiki/Caffeine_withdrawal"
+        }
+      ]
+    }
+  }
+}

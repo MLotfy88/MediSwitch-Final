@@ -1,0 +1,123 @@
+{
+  "drug_name": "CT_contrast_media_extravasation",
+  "url": "https://wikem.org/wiki/CT_contrast_media_extravasation",
+  "scraped_at": "2026-01-10T07:49:33.598693",
+  "sections": {
+    "Background": {
+      "text": "Complication of contrast-enhanced CT scanning\nMay also occur from MRI, but rare given low volume used\nUltrasound-guided IVs\nare at higher risk\n[1]",
+      "subsections": {
+        "Epidemiology": {
+          "text": "~0.5% (range 0.13-0.68%) of cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound-guided IVs",
+          "url": "https://wikem.org/wiki/Ultrasound-assisted_peripheral_line_placement"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "~0.5% (range 0.13-0.68%) of cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Swelling and/or blistering at injection site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Contrast_induced_complications": {
+          "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Contrast_induced_complications": {
+      "text": "Contrast induced allergic reaction\nContrast-induced nephropathy\nCT contrast media extravasation\nNephrogenic systemic fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Contrast-induced nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-induced_nephropathy"
+        },
+        {
+          "text": "Nephrogenic systemic fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_systemic_fibrosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical (if no complication)\nConsider plain films and/or CT, if concern for significant complication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stop infusion immediately\nRemove IV canula\nIce pack to affected area\nElevate\nConsider hyaluronidase for iodinated contrast extravasation\n[2]\nGive subcutaneously around the extravasation site using a 27-gauge needle (e.g. in a circle around original IV)\n[3]\nMonitor for signs of\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "May discharge after 2 hours with precautions, if no signs of complications.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "97% have minimal or no injury\n79% have localized swelling after extravasation\n24% had pain\nLarge volumes (> 50 mL) of high-osmolar contrast media = highest risk\nSkin ulceration\nSoft-tissue necrosis\nCompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Iatrogenic intra-arterial injection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Iatrogenic intra-arterial injection",
+          "url": "https://wikem.org/wiki/Iatrogenic_intra-arterial_injection"
+        }
+      ]
+    }
+  }
+}

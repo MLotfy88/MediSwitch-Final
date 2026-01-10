@@ -1,0 +1,122 @@
+{
+  "drug_name": "Calcium_channel_blockers",
+  "url": "https://wikem.org/wiki/Calcium_channel_blockers",
+  "scraped_at": "2026-01-10T07:49:35.547264",
+  "sections": {
+    "Intro": {
+      "text": "CF = coronary flow, ION = ionotropy, SA/AV = nodes\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Ca Blocker": "Nifedipine",
+            "BP/SVR": "+++",
+            "HR": "+",
+            "SA/AV": "-",
+            "CF": "+",
+            "ION": "-"
+          },
+          {
+            "Ca Blocker": "Diltiazem",
+            "BP/SVR": "++",
+            "HR": "-",
+            "SA/AV": "+",
+            "CF": "+",
+            "ION": "-"
+          },
+          {
+            "Ca Blocker": "Verapamil",
+            "BP/SVR": "+",
+            "HR": "--",
+            "SA/AV": "++",
+            "CF": "+",
+            "ION": "-"
+          },
+          {
+            "Ca Blocker": "Bepiridil",
+            "BP/SVR": "+++",
+            "HR": "(-)",
+            "SA/AV": "min.",
+            "CF": "+++",
+            "ION": "-"
+          },
+          {
+            "Ca Blocker": "Amlodipine",
+            "BP/SVR": "+++",
+            "HR": "+",
+            "SA/AV": "+",
+            "CF": "",
+            "ION": ""
+          },
+          {
+            "Ca Blocker": "Felodipine",
+            "BP/SVR": "",
+            "HR": "+",
+            "SA/AV": "+",
+            "CF": "",
+            "ION": ""
+          },
+          {
+            "Ca Blocker": "Nicardipine",
+            "BP/SVR": "",
+            "HR": "",
+            "SA/AV": "",
+            "CF": "",
+            "ION": ""
+          },
+          {
+            "Ca Blocker": "Clevidipine",
+            "BP/SVR": "",
+            "HR": "",
+            "SA/AV": "",
+            "CF": "",
+            "ION": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Doses:": {
+      "text": "Nifedipine\n10-30mg tid (Adalat CC: 30-90mg qD)\nDiltiazem\n60-120 TID (CD: 180-360mg qD)\nVerapamil\n: 80- 120mg TID\nBepiridil\n: 200-400mg QD\nAmlodipine\n: 2.5- 20mg (10) qD\nNicardipine\nPO: 20-40mg q8hr, or 30-60mg (extended release) q12hr\nIV: 5mg/hr by slow infusion (50ml/hr), titrate to maximum of 30mg/hr, then maintenance of 2.0 - 15.5mg/hr\nClevidipine\n: 1-2 mg IV per hour",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Clevidipine",
+          "url": "https://wikem.org/wiki/Clevidipine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Calcium Channel Blocker Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium Channel Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "drug_name": "Brown_recluse_spider_bite",
+  "url": "https://wikem.org/wiki/Brown_recluse_spider_bite",
+  "scraped_at": "2026-01-10T07:49:22.392400",
+  "sections": {
+    "Background": {
+      "text": "Brown violin shape on cephalothorax (fiddleback)\nIn Southern midwestern US\nLoxosceles\nfamily",
+      "subsections": {
+        "Mechanism": {
+          "text": "Venom contains variety of cytotoxic enzymes, principally Hyaluronidase and Sphingomyelinase-D, which cause a necrotic wound\nHyaluronidase: facilitates the penetration of the venom into tissue but does not induce lesion development\nSphingomyelinase-D:  causes necrosis and lesion formation by initiating the release of pro-inflammatory mediators (thromboxanes, leukotrienes, prostaglandins, and neutrophils)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism": {
+      "text": "Venom contains variety of cytotoxic enzymes, principally Hyaluronidase and Sphingomyelinase-D, which cause a necrotic wound\nHyaluronidase: facilitates the penetration of the venom into tissue but does not induce lesion development\nSphingomyelinase-D:  causes necrosis and lesion formation by initiating the release of pro-inflammatory mediators (thromboxanes, leukotrienes, prostaglandins, and neutrophils)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Bite is initially painless\nMild reaction (most common)\nMild erythematous lesion that later becomes firm and heals without scar\nSevere reaction\nBegins with mild-severe pain several hours after bite accompanied by erythema and swelling\nHemorrhagic blister then forms surrounded by vasoconstriction-induced blanched skin\nBy day 3 or 4, hemorrhagic area may become ecchymotic\nLeads to \"red, white, and blue\" sign (erythema, blanching, ecchymosis)\nBy end of first week, ecchymotic area may become necrotic with eschar formation\nSystemic effects (rare)\nOccur predominantly in children 24-72hr after the bite\nNausea/vomiting\nFever\n,\narthralgia\nDIC\nRhabdo\nRenal failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Rhabdo",
+          "url": "https://wikem.org/wiki/Rhabdo"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Envenomations,_bites_and_stings": {
+          "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Envenomations,_bites_and_stings": {
+      "text": "Hymenoptera stings\n(bees, wasps, ants)\nMammalian bites\nClosed fist infection\n(Fight bite)\nDog bite\nMarine toxins and envenomations\nToxins (\nciguatera\n,\nneurotoxic shellfish poisoning\n,\nparalytic shellfish poisoning\n,\nscombroid\n,\ntetrodotoxin\nStingers (\nstingray injury\n)\nVenomous fish (catfish, zebrafish, scorpion fish, stonefish,\ncone shells\n,\nlionfish\n,\nsea urchins\n)\nNematocysts\n(\ncoral reef\n,\nfire coral\n,\nbox jellyfish\n,\nsea wasp\n,\nportuguese man-of-war\n,\nsea anemones\n)\nPhylum porifera\n(sponges)\nBites (\nalligator/crocodile\n,\noctopus\n,\nshark\n)\nScorpion envenomation\nReptile envenomation\nSnake bites\nCrotaline (Pit Vipers)\nElapidae (Coral Snakes)\nLizard bites\nSpider bites\nBlack widow\nBrown recluse\nTarantula\nFunnel-web spider bite\nArmed spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Dog bite",
+          "url": "https://wikem.org/wiki/Dog_bite"
+        },
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        },
+        {
+          "text": "ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "cone shells",
+          "url": "https://wikem.org/wiki/Cone_shells"
+        },
+        {
+          "text": "lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "coral reef",
+          "url": "https://wikem.org/wiki/Coral_reef"
+        },
+        {
+          "text": "fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral_contact"
+        },
+        {
+          "text": "box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "portuguese man-of-war",
+          "url": "https://wikem.org/wiki/Portuguese_man-of-war"
+        },
+        {
+          "text": "sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "alligator/crocodile",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "octopus",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "shark",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        },
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        },
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Lizard bites",
+          "url": "https://wikem.org/wiki/Lizard_bites"
+        },
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        },
+        {
+          "text": "Black widow",
+          "url": "https://wikem.org/wiki/Black_widow_spider_bite"
+        },
+        {
+          "text": "Tarantula",
+          "url": "https://wikem.org/wiki/Tarantula_spider_bite"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        },
+        {
+          "text": "Armed spider bite",
+          "url": "https://wikem.org/wiki/Armed_spider_bite"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Deﬁnitive diagnosis is achieved only when the biting spider is positively identiﬁed\nLabs\nMay be remarkable for\nhemolysis\n, hemoglobinuria, and\nhematuria\nCoagulopathy\nmay be present (elevated ﬁbrin split products, decreased fibrinogen concentrations, and a positive\nD-dimer\n)\nIncreased PT and PTT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Local wound care and\ntetanus prophylaxis\nAntibiotics\nare indicated only if signs of infection exist; secondary infections are uncommon\nAlthough some texts recommend\ndapsone\n, it has been shown to be of limited benefit and is associated with hemolysis (in G6PD patients) and\nmethemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically discharge home",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spider bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spider bites",
+          "url": "https://wikem.org/wiki/Spider_bites"
+        }
+      ]
+    }
+  }
+}

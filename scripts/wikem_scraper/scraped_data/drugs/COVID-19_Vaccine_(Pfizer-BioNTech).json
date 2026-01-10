@@ -1,0 +1,120 @@
+{
+  "drug_name": "COVID-19_Vaccine_(Pfizer-BioNTech)",
+  "url": "https://wikem.org/wiki/COVID-19_Vaccine_(Pfizer-BioNTech)",
+  "scraped_at": "2026-01-10T07:49:29.983355",
+  "sections": {
+    "Background": {
+      "text": "The Pfizer-BioNTech COVID-19 vaccine is an mRNA based vaccine which is approved in the United States to prevent symptomatic\nCOVID-19\ninfection. The Pfizer-BioNTech was the first COVID-19 vaccine to be approved for distribution in the United States, and it was granted Emergency Use Authorization by the United States Food and Drug Administration (FDA) on 11 December 2020.\nThe approved vaccine dosing regimen is an intramuscular injection given as two doses, 30 μg each, administered 21 days apart. The vaccine is approved for individuals 16 years of age and older.\nThe vaccine is intended to prevent the COVID-19 illness, which is caused by  the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The Pfizer-BioNTech vaccine targets the SARS-CoV-2 spike glycoprotein (S).\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Type: SARS-CoV-2 spike glycoprotein (S) antigen encoded by RNA and formulated in lipid nanoparticles (LNPs).\nDosage Forms: 2 doses of 30 μg each, administered 21 days apart.\nRoutes of Administration: Intramuscular\nCommon Trade Names: Pfizer-BioNTech COVID-19 Vaccine, Pfizer Vaccine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "The adult dosing of the vaccine is 2 doses of 30 μg each, administered 21 days apart.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "The Pfizer-BioNTech COVID-19 vaccines has only been approved for individuals aged 16+. However, the dosing in individuals aged 16 and 17 is the same as the adult dosing of the vaccines.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "It is unclear as to the effect of the vaccine in pregnant women, as Pregnancy was an exclusion criteria from the phase 3 clinical trial for this vaccine.\n[2]",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "It is unclear as to the effect of the vaccine in pregnant women, as Pregnancy was an exclusion criteria from the phase 3 clinical trial for this vaccine.\n[2]",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Vaccines and Related Biological Products Advisory Committee December 10, 2020 Meeting Briefing Document- FDA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "drug_name": "Butorphanol",
+  "url": "https://wikem.org/wiki/Butorphanol",
+  "scraped_at": "2026-01-10T07:49:25.855699",
+  "sections": {
+    "Administration": {
+      "text": "Type: synthetic mixed agonist-antagonist\nopioid\nDosage Forms:\nRoutes of Administration: IV, IN\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "0.5-2mg IV, IM, or IN q3h prn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Reduce dose (0.5-1mg)",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Reduce dose (0.5-1mg)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Reduce dose (0.5-1mg)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSignificant respiratory depression\nAcute or severe asthma if unmonitored setting\nKnown or suspected\nSBO\nor\nileus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory depression",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\nSedation/somnolence,\nDizziness\n, insomnia\nNasal congestion (long term use of IN)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Respiratory depression",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\nSedation/somnolence,\nDizziness\n, insomnia\nNasal congestion (long term use of IN)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\nSedation/somnolence,\nDizziness\n, insomnia\nNasal congestion (long term use of IN)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-6h in healthy patients, 10-17h inhepatic or renal impairment\nMetabolism: Hepatic\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Mixed agonist-antagonist analgesic, kappa-opioid receptor agonist, low intrinsic activity at mu-opioid receptor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioids\nOpioid toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        }
+      ]
+    }
+  }
+}

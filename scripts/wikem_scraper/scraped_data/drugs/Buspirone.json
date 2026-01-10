@@ -1,0 +1,160 @@
+{
+  "drug_name": "Buspirone",
+  "url": "https://wikem.org/wiki/Buspirone",
+  "scraped_at": "2026-01-10T07:49:25.686027",
+  "sections": {
+    "Administration": {
+      "text": "Type: Anxiolytic\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names: Buspar",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "10-60mg/day divided q8-12h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Preadolescent: 2.5-5 mg PO daily\nAdolescent: as adult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Excretion in milk unknown/not recommended",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not recommended in severe renal impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not recommended in severe hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Excretion in milk unknown/not recommended",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Not recommended in severe renal impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not recommended in severe hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Excretion in milk unknown/not recommended",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Not recommended in severe renal impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not recommended in severe hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Not recommended in severe renal impairment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Not recommended in severe hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Not recommended in severe hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nConcomitant MAOI use\nSevere renal/hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Allergic reaction\nHeart failure\nSuicidal ideation\nIncreased ocular pressure\nDystonia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness, weakness\nHeadache\nDrowsiness, confusion, insomnia, nervousness, dream disturbance, akathisia\nBlurred vision, visual disturbances, photophobia\nNumbness, paresthesia\nTremor\nTinnitus\nNausea, diarrhea, anorexia\nMyalgia\nRash\nNasal congestion, sore throat\nNonspecific chest pain\nBruising\nGalactorrhea, menstrual irregularity, alopecia\nSyncope\nEosinophilia\nEdema\nEnuresis\nRectal bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Allergic reaction\nHeart failure\nSuicidal ideation\nIncreased ocular pressure\nDystonia",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness, weakness\nHeadache\nDrowsiness, confusion, insomnia, nervousness, dream disturbance, akathisia\nBlurred vision, visual disturbances, photophobia\nNumbness, paresthesia\nTremor\nTinnitus\nNausea, diarrhea, anorexia\nMyalgia\nRash\nNasal congestion, sore throat\nNonspecific chest pain\nBruising\nGalactorrhea, menstrual irregularity, alopecia\nSyncope\nEosinophilia\nEdema\nEnuresis\nRectal bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Dizziness, weakness\nHeadache\nDrowsiness, confusion, insomnia, nervousness, dream disturbance, akathisia\nBlurred vision, visual disturbances, photophobia\nNumbness, paresthesia\nTremor\nTinnitus\nNausea, diarrhea, anorexia\nMyalgia\nRash\nNasal congestion, sore throat\nNonspecific chest pain\nBruising\nGalactorrhea, menstrual irregularity, alopecia\nSyncope\nEosinophilia\nEdema\nEnuresis\nRectal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3h\nMetabolism: Hepatic\nExcretion: Urinary and in feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Unclear exact mechanism; high affinity for serotonin 5HT1A and 5HT2 receptors and moderate affinity for dopamine D2 receptors. No effect on benzodiazepine GABA receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anxiety",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    }
+  }
+}

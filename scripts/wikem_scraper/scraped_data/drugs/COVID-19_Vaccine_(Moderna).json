@@ -1,0 +1,93 @@
+{
+  "drug_name": "COVID-19_Vaccine_(Moderna)",
+  "url": "https://wikem.org/wiki/COVID-19_Vaccine_(Moderna)",
+  "scraped_at": "2026-01-10T07:49:32.248996",
+  "sections": {
+    "Background": {
+      "text": "The Moderna COVID-19 vaccine is an mRNA based vaccine which is approved in the United States to prevent symptomatic COVID-19 infection. The Moderna vaccine was the second COVID-19 vaccine to be approved for distribution in the United States, and it was granted Emergency Use Authorization by the United States Food and Drug Administration (FDA) on 18 December 2020.\nThe approved dosing regimen is two doses, 100 μg each, administered 28 days apart. The vaccine is approved for individuals 18 years of age and older.\nThe vaccine is intended to prevent the COVID-19 illness, which is caused by the severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The Moderna vaccine targets the SARS-CoV-2 spike glycoprotein (S).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Type: SARS-CoV-2 spike glycoprotein (S) antigen encoded by RNA and formulated in lipid nanoparticles (LNPs).\nDosage Forms: 2 doses of 100 μg each, administered 28 days apart.\nRoutes of Administration: Intramuscular\nCommon Trade Names: Moderna COVID-19 Vaccine, Moderna Vaccine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

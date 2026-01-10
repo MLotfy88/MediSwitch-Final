@@ -1,0 +1,231 @@
+{
+  "drug_name": "COVID-19_(peds)",
+  "url": "https://wikem.org/wiki/COVID-19_(peds)",
+  "scraped_at": "2026-01-10T07:49:32.144943",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nCOVID-19\n. For transmission precautions see:\nPrevention of COVID-19 transmission in the healthcare setting\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "No data currently exists to determine if children with underlying medical conditions (asthma, or special healthcare needs) at increased risk",
+      "subsections": {
+        "Epidemiology_among_Children": {
+          "text": "2% of cases amongst < 2 years of age (NOTE: 13% in only one major city in China)\nMostly because of household exposures (from adults)\nVast majority of cases in US are in adults\nTransmission in pediatrics\nShedding for longer than adults (up to 22 days, some up to 30 days)\nMostly goes from adults to children (not the other way around)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology_among_Children": {
+      "text": "2% of cases amongst < 2 years of age (NOTE: 13% in only one major city in China)\nMostly because of household exposures (from adults)\nVast majority of cases in US are in adults\nTransmission in pediatrics\nShedding for longer than adults (up to 22 days, some up to 30 days)\nMostly goes from adults to children (not the other way around)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute_Pediatric_Presentation": {
+          "text": "Fever (50-80%), cough, congestion, rhinorrhea, sore throat\nGI in some cases (at least one case with GI sx first then respiratory symptoms after)\n50% of peds cases with fever, 30% with cough",
+          "tables": []
+        },
+        "Pediatric_Disease_Course": {
+          "text": "Mostly mild (for unclear reasons) except for only 2 cases:\n13 month developed ARDS and ICU care\n3 year old needed ICU\nNo deaths in children under 10 (from china so far)\nRadiographic: same as adults (bilateral, pulmonary lesions, GGO; some with unilateral).\nCan rarely develop Multisystem inflammatory syndrome(\nMIS-C\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/Multisystem_inflammatory_syndrome_in_children"
+        }
+      ]
+    },
+    "Acute_Pediatric_Presentation": {
+      "text": "Fever (50-80%), cough, congestion, rhinorrhea, sore throat\nGI in some cases (at least one case with GI sx first then respiratory symptoms after)\n50% of peds cases with fever, 30% with cough",
+      "subsections": {
+        "Pediatric_Disease_Course": {
+          "text": "Mostly mild (for unclear reasons) except for only 2 cases:\n13 month developed ARDS and ICU care\n3 year old needed ICU\nNo deaths in children under 10 (from china so far)\nRadiographic: same as adults (bilateral, pulmonary lesions, GGO; some with unilateral).\nCan rarely develop Multisystem inflammatory syndrome(\nMIS-C\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/Multisystem_inflammatory_syndrome_in_children"
+        }
+      ]
+    },
+    "Pediatric_Disease_Course": {
+      "text": "Mostly mild (for unclear reasons) except for only 2 cases:\n13 month developed ARDS and ICU care\n3 year old needed ICU\nNo deaths in children under 10 (from china so far)\nRadiographic: same as adults (bilateral, pulmonary lesions, GGO; some with unilateral).\nCan rarely develop Multisystem inflammatory syndrome(\nMIS-C\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/Multisystem_inflammatory_syndrome_in_children"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnostic_Findings": {
+          "text": "Mild CRP or AST elevations\nNo consistency on WBC (mild leukocytosis, leukopenia)\nFew coinfections have been reported (with RSV, Influenza, mycoplasma).\nCoinfection unlikely (but possible) at this time",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Diagnostic_Findings": {
+          "text": "Mild CRP or AST elevations\nNo consistency on WBC (mild leukocytosis, leukopenia)\nFew coinfections have been reported (with RSV, Influenza, mycoplasma).\nCoinfection unlikely (but possible) at this time",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnostic_Findings": {
+      "text": "Mild CRP or AST elevations\nNo consistency on WBC (mild leukocytosis, leukopenia)\nFew coinfections have been reported (with RSV, Influenza, mycoplasma).\nCoinfection unlikely (but possible) at this time",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "See\nprevention of COVID-19 transmission in the healthcare setting\nfor PPE recommendations\nSupportive care, isolation at home best unless needing hospitalisation\nInfection prevention and support!!! handwashing and PPE\nNo\nremdesavir\ntrials in children",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "prevention of COVID-19 transmission in the healthcare setting",
+          "url": "https://wikem.org/wiki/Prevention_of_COVID-19_transmission_in_the_healthcare_setting"
+        }
+      ]
+    }
+  }
+}

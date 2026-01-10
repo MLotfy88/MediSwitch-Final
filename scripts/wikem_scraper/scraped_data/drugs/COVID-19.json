@@ -1,0 +1,1915 @@
+{
+  "drug_name": "COVID-19",
+  "url": "https://wikem.org/wiki/COVID-19",
+  "scraped_at": "2026-01-10T07:49:35.055054",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nCOVID-19 (peds)\n. For pregnant patients see\nCOVID-19 in pregnancy\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2)\nSee\nCOVID-19: Epidemiology and pathophysiology",
+      "subsections": {
+        "Specific_Coronavirus_Sub-Types_of_Clinical_Importance": {
+          "text": "MERS\n-CoV\nSARS\n-CoV\nSARS-CoV-2 (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19: Epidemiology and pathophysiology",
+          "url": "https://wikem.org/wiki/COVID-19:_Epidemiology_and_pathophysiology"
+        },
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        }
+      ]
+    },
+    "Specific_Coronavirus_Sub-Types_of_Clinical_Importance": {
+      "text": "MERS\n-CoV\nSARS\n-CoV\nSARS-CoV-2 (\nCOVID-19\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Initial_Presentation": {
+          "text": "Many patients are asymptomatic\nAt onset of symptoms:\nfever\n, dry\ncough\n, myalgias, fatigue,\nshortness of breath\nFever and cough start early,\nshortness of breath\nnoted about 9 days into illness\nFever not present in all adults\nOnly 1/2 of patients may have fever at time of admission\n[1]\nless common in vulnerable populations\nLess common: cough with sputum, sore throat, headache, congestion, GI symptoms, anosmia, altered mental status\nSudden onset anosmia has a high specificity for COVID-19 infection",
+          "tables": [
+            [
+              {
+                "Symptom[2]": "Fever",
+                "%": "87.9"
+              },
+              {
+                "Symptom[2]": "Drycough",
+                "%": "67.7"
+              },
+              {
+                "Symptom[2]": "Fatigue",
+                "%": "38.1"
+              },
+              {
+                "Symptom[2]": "Sputum production",
+                "%": "33.4"
+              },
+              {
+                "Symptom[2]": "Shortness of breath",
+                "%": "18.6"
+              },
+              {
+                "Symptom[2]": "Myalgia or arthralgia",
+                "%": "14.8"
+              },
+              {
+                "Symptom[2]": "Sore throat",
+                "%": "13.9"
+              },
+              {
+                "Symptom[2]": "Headache",
+                "%": "13.6"
+              },
+              {
+                "Symptom[2]": "Chills",
+                "%": "11.4"
+              },
+              {
+                "Symptom[2]": "Nausea or vomiting",
+                "%": "5.0"
+              },
+              {
+                "Symptom[2]": "Nasal congestion",
+                "%": "4.8"
+              },
+              {
+                "Symptom[2]": "Diarrhea",
+                "%": "3.7"
+              },
+              {
+                "Symptom[2]": "Hemoptysis",
+                "%": "0.9"
+              },
+              {
+                "Symptom[2]": "Conjunctivitis",
+                "%": "0.8"
+              }
+            ]
+          ]
+        },
+        "Common_Complications": {
+          "text": "The initial presentation can be followed by delayed and serious complications\nPulmonary\nMost common complications:\npneumonia\n,\nARDS\n(average 8 days from onset, 20% of patients in China)\n\"Happy Hypoxemia\": many of these patients will be hypoxic without dyspnea\nDecompensation risk occurs during 2nd week of illness leading to\nrespiratory failure\nCardiac Complications\n[3]\nMyocarditis,Acute Myocardial infarction, Dysrhythmias, cardiomyopathy, venous thromboembolism.\nVasodilatory shock reported in 67% of ICU admissions\nCardiomyopathy reported in 33% of ICU admissions\nMortality reported 67% of ICU admissions\nNeurological Complications- thought to be related to the increased levels of interleukin (IL)-6, IL-12, IL-15, and tumor necrosis factor alpha (TNF-α)\n[4]\nacute CVA, encephalitis, Guillain-Barré syndrome, acute necrotizing hemorrhagic encephalopathy, and hemophagocytic lymphohistiocytosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Initial_Presentation": {
+      "text": "Many patients are asymptomatic\nAt onset of symptoms:\nfever\n, dry\ncough\n, myalgias, fatigue,\nshortness of breath\nFever and cough start early,\nshortness of breath\nnoted about 9 days into illness\nFever not present in all adults\nOnly 1/2 of patients may have fever at time of admission\n[1]\nless common in vulnerable populations\nLess common: cough with sputum, sore throat, headache, congestion, GI symptoms, anosmia, altered mental status\nSudden onset anosmia has a high specificity for COVID-19 infection",
+      "subsections": {
+        "Common_Complications": {
+          "text": "The initial presentation can be followed by delayed and serious complications\nPulmonary\nMost common complications:\npneumonia\n,\nARDS\n(average 8 days from onset, 20% of patients in China)\n\"Happy Hypoxemia\": many of these patients will be hypoxic without dyspnea\nDecompensation risk occurs during 2nd week of illness leading to\nrespiratory failure\nCardiac Complications\n[3]\nMyocarditis,Acute Myocardial infarction, Dysrhythmias, cardiomyopathy, venous thromboembolism.\nVasodilatory shock reported in 67% of ICU admissions\nCardiomyopathy reported in 33% of ICU admissions\nMortality reported 67% of ICU admissions\nNeurological Complications- thought to be related to the increased levels of interleukin (IL)-6, IL-12, IL-15, and tumor necrosis factor alpha (TNF-α)\n[4]\nacute CVA, encephalitis, Guillain-Barré syndrome, acute necrotizing hemorrhagic encephalopathy, and hemophagocytic lymphohistiocytosis",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Symptom[2]": "Fever",
+            "%": "87.9"
+          },
+          {
+            "Symptom[2]": "Drycough",
+            "%": "67.7"
+          },
+          {
+            "Symptom[2]": "Fatigue",
+            "%": "38.1"
+          },
+          {
+            "Symptom[2]": "Sputum production",
+            "%": "33.4"
+          },
+          {
+            "Symptom[2]": "Shortness of breath",
+            "%": "18.6"
+          },
+          {
+            "Symptom[2]": "Myalgia or arthralgia",
+            "%": "14.8"
+          },
+          {
+            "Symptom[2]": "Sore throat",
+            "%": "13.9"
+          },
+          {
+            "Symptom[2]": "Headache",
+            "%": "13.6"
+          },
+          {
+            "Symptom[2]": "Chills",
+            "%": "11.4"
+          },
+          {
+            "Symptom[2]": "Nausea or vomiting",
+            "%": "5.0"
+          },
+          {
+            "Symptom[2]": "Nasal congestion",
+            "%": "4.8"
+          },
+          {
+            "Symptom[2]": "Diarrhea",
+            "%": "3.7"
+          },
+          {
+            "Symptom[2]": "Hemoptysis",
+            "%": "0.9"
+          },
+          {
+            "Symptom[2]": "Conjunctivitis",
+            "%": "0.8"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Common_Complications": {
+      "text": "The initial presentation can be followed by delayed and serious complications\nPulmonary\nMost common complications:\npneumonia\n,\nARDS\n(average 8 days from onset, 20% of patients in China)\n\"Happy Hypoxemia\": many of these patients will be hypoxic without dyspnea\nDecompensation risk occurs during 2nd week of illness leading to\nrespiratory failure\nCardiac Complications\n[3]\nMyocarditis,Acute Myocardial infarction, Dysrhythmias, cardiomyopathy, venous thromboembolism.\nVasodilatory shock reported in 67% of ICU admissions\nCardiomyopathy reported in 33% of ICU admissions\nMortality reported 67% of ICU admissions\nNeurological Complications- thought to be related to the increased levels of interleukin (IL)-6, IL-12, IL-15, and tumor necrosis factor alpha (TNF-α)\n[4]\nacute CVA, encephalitis, Guillain-Barré syndrome, acute necrotizing hemorrhagic encephalopathy, and hemophagocytic lymphohistiocytosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        },
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Causes_of_Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider minimal to no workup in well-appearing patients with mild disease",
+          "tables": []
+        },
+        "Viral_Testing": {
+          "text": "Testing+Surveillance: COVID\nRT-PCR (reverse transcriptase polymerase chain reaction) is most commonly used test for confirming cases\nSensitivity may be only 75%, but highly specific\nTurnaround time may be several hours to days\nReal time RT-PCR e.g. Cepheid\nRapid test with results in <1hr\nSerologic testing for IgM/IgG is not widely available, but likely more sensitive\nThe presence of IgG with a negative RT-PCR likely confirms past exposure and some immunity\nTest kit availability varies widely by region and institution",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Consider in sicker patients (likely requiring admission):\nChemistry\nCBC w/diff\nLymphopenia - common (80%)\n[5]\nThrombocytopenia - common but mild\n<100 poor prognostic sign\n[6]\nCoagulation studies\nPT/PTT/INR - DIC possible\nD-dimer, fibrinogen - markers of severity\nLFTs - mild elevation of ALT/AST\nInflammatory Markers\nCRP - Indicates disease severity\n[7]\n,\n[8]\nNegative points to non-infectious cause (CHF/ESRD)\nProcalcitonin - normal/mild increased on admission. Normal procalcitonin makes bacterial superinfection less likely.\nFerritin\nLDH\nTroponin\n[9]\n- myocarditis\nSepsis labs\nLactate\nBlood culture x2\nSwabs - Co-infection has been reported as high as 7-20%\nFlu swab\nRespiratory viral panel\nNote that BIOFIRE Respiratory Panel Corona Virus assay does NOT detect this COVID-19 subtype\nUrine pregnancy test in reproductive-age women\nOther labs to consider in patients that will be admitted:\nHBV serologies, HCV antibody\nConsider (as clinically indicated):\nPCP DFA, beta-d-glucan, urine legionella Ag, IL-6",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Portable\nCXR\npreferred in PUI to prevent spread of infection\nMay be normal in early disease\nTypical pattern is peripheral patchy ground glass opacities (GGO)\nMore opacities correlates with worse disease\nGGOs may coalesce and appear as infiltrates\nNot every PUI needs a chest X-ray. Patients who are more likely to need one include any moderate or high acuity patient, elderly, concerning chronic conditions, BMI > 40, high risk socioeconomic situations.\nMany have normal imaging early on (CDC does\nnot\nrecommend CT for diagnostic purposes)\nCT (86%) more sensitive than CXR (59%) for detecting GGOs\nGenerally, the findings on chest imaging are not specific and overlap with other infections, including influenza, H1N1, SARS and MERS.\n[10]\nUncertain role in diagnosis at this time\nMay reveal B lines, consolidation, or \"ragged\" appearance of pleural line\nUseful in evaluating undifferentiated Dyspnea\nUltrasound: Cardiac\nUltrasound: Lungs\nIVC ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically confirmed by viral testing (see above)",
+          "tables": []
+        },
+        "Disease_Severity": {
+          "text": "Some define moderate and severe acuity as follows\nLow: SaO2 > 93% on RA, RR < 20, and HR < 110\nModerate: SaO2 = 91-93% on RA, RR 20-24, HR 110-124 with wheezing, rales, or an otherwise abnormal lung exam.\nHigh: SaO2 < 91%, RR > 24, HR > 124.\n^ If febrile, treat with\nacetaminophen\nand reassess acuity.",
+          "tables": []
+        },
+        "Prediction_of_Need_for_Intubation": {
+          "text": "ROX Index for intubation after high-flow nasal cannula (HFNC}\nPredicts HFNC failure/need for intubation\nhttps://www.mdcalc.com/rox-index-intubation-hfnc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Testing+Surveillance: COVID",
+          "url": "https://wikem.org/wiki/Testing%2BSurveillance:_COVID"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound: Cardiac",
+          "url": "https://wikem.org/wiki/Ultrasound:_Cardiac"
+        },
+        {
+          "text": "Ultrasound: Lungs",
+          "url": "https://wikem.org/wiki/Ultrasound:_Lungs"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider minimal to no workup in well-appearing patients with mild disease",
+      "subsections": {
+        "Viral_Testing": {
+          "text": "Testing+Surveillance: COVID\nRT-PCR (reverse transcriptase polymerase chain reaction) is most commonly used test for confirming cases\nSensitivity may be only 75%, but highly specific\nTurnaround time may be several hours to days\nReal time RT-PCR e.g. Cepheid\nRapid test with results in <1hr\nSerologic testing for IgM/IgG is not widely available, but likely more sensitive\nThe presence of IgG with a negative RT-PCR likely confirms past exposure and some immunity\nTest kit availability varies widely by region and institution",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Consider in sicker patients (likely requiring admission):\nChemistry\nCBC w/diff\nLymphopenia - common (80%)\n[5]\nThrombocytopenia - common but mild\n<100 poor prognostic sign\n[6]\nCoagulation studies\nPT/PTT/INR - DIC possible\nD-dimer, fibrinogen - markers of severity\nLFTs - mild elevation of ALT/AST\nInflammatory Markers\nCRP - Indicates disease severity\n[7]\n,\n[8]\nNegative points to non-infectious cause (CHF/ESRD)\nProcalcitonin - normal/mild increased on admission. Normal procalcitonin makes bacterial superinfection less likely.\nFerritin\nLDH\nTroponin\n[9]\n- myocarditis\nSepsis labs\nLactate\nBlood culture x2\nSwabs - Co-infection has been reported as high as 7-20%\nFlu swab\nRespiratory viral panel\nNote that BIOFIRE Respiratory Panel Corona Virus assay does NOT detect this COVID-19 subtype\nUrine pregnancy test in reproductive-age women\nOther labs to consider in patients that will be admitted:\nHBV serologies, HCV antibody\nConsider (as clinically indicated):\nPCP DFA, beta-d-glucan, urine legionella Ag, IL-6",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Portable\nCXR\npreferred in PUI to prevent spread of infection\nMay be normal in early disease\nTypical pattern is peripheral patchy ground glass opacities (GGO)\nMore opacities correlates with worse disease\nGGOs may coalesce and appear as infiltrates\nNot every PUI needs a chest X-ray. Patients who are more likely to need one include any moderate or high acuity patient, elderly, concerning chronic conditions, BMI > 40, high risk socioeconomic situations.\nMany have normal imaging early on (CDC does\nnot\nrecommend CT for diagnostic purposes)\nCT (86%) more sensitive than CXR (59%) for detecting GGOs\nGenerally, the findings on chest imaging are not specific and overlap with other infections, including influenza, H1N1, SARS and MERS.\n[10]\nUncertain role in diagnosis at this time\nMay reveal B lines, consolidation, or \"ragged\" appearance of pleural line\nUseful in evaluating undifferentiated Dyspnea\nUltrasound: Cardiac\nUltrasound: Lungs\nIVC ultrasound",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically confirmed by viral testing (see above)",
+          "tables": []
+        },
+        "Disease_Severity": {
+          "text": "Some define moderate and severe acuity as follows\nLow: SaO2 > 93% on RA, RR < 20, and HR < 110\nModerate: SaO2 = 91-93% on RA, RR 20-24, HR 110-124 with wheezing, rales, or an otherwise abnormal lung exam.\nHigh: SaO2 < 91%, RR > 24, HR > 124.\n^ If febrile, treat with\nacetaminophen\nand reassess acuity.",
+          "tables": []
+        },
+        "Prediction_of_Need_for_Intubation": {
+          "text": "ROX Index for intubation after high-flow nasal cannula (HFNC}\nPredicts HFNC failure/need for intubation\nhttps://www.mdcalc.com/rox-index-intubation-hfnc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Testing+Surveillance: COVID",
+          "url": "https://wikem.org/wiki/Testing%2BSurveillance:_COVID"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound: Cardiac",
+          "url": "https://wikem.org/wiki/Ultrasound:_Cardiac"
+        },
+        {
+          "text": "Ultrasound: Lungs",
+          "url": "https://wikem.org/wiki/Ultrasound:_Lungs"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically confirmed by viral testing (see above)",
+      "subsections": {
+        "Disease_Severity": {
+          "text": "Some define moderate and severe acuity as follows\nLow: SaO2 > 93% on RA, RR < 20, and HR < 110\nModerate: SaO2 = 91-93% on RA, RR 20-24, HR 110-124 with wheezing, rales, or an otherwise abnormal lung exam.\nHigh: SaO2 < 91%, RR > 24, HR > 124.\n^ If febrile, treat with\nacetaminophen\nand reassess acuity.",
+          "tables": []
+        },
+        "Prediction_of_Need_for_Intubation": {
+          "text": "ROX Index for intubation after high-flow nasal cannula (HFNC}\nPredicts HFNC failure/need for intubation\nhttps://www.mdcalc.com/rox-index-intubation-hfnc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Prediction_of_Need_for_Intubation": {
+      "text": "ROX Index for intubation after high-flow nasal cannula (HFNC}\nPredicts HFNC failure/need for intubation\nhttps://www.mdcalc.com/rox-index-intubation-hfnc",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "COVID-19_PPE_Summary_Table": {
+          "text": "See\nprevention of COVID-19 transmission in the healthcare setting\nfor full PPE recommendations",
+          "tables": [
+            [
+              {
+                "Contact Category": "General (all persons)",
+                "Precations": "Social distancing; meticulous hygiene; basic mask",
+                "Room Type": "NA"
+              },
+              {
+                "Contact Category": "Undifferentiated patients at risk (e.g. prior to evaluation or testing)",
+                "Precations": "Contact anddropletprecautions, including eye protection",
+                "Room Type": "Negative-pressure NOT required"
+              },
+              {
+                "Contact Category": "Persons Under Investigation",
+                "Precations": "Contact anddropletprecautions, including eye protection",
+                "Room Type": "Negative-pressure NOT required"
+              },
+              {
+                "Contact Category": "Aerosol-Generating Procedures",
+                "Precations": "Contact andairborneprecautions, including eye protection",
+                "Room Type": "Negative-pressure required"
+              }
+            ]
+          ]
+        },
+        "Pulmonary_": {
+          "text": "Supplemental\noxygen therapy\nif Sat<90%\nTarget SPO2 92%-96%\nHigh-flow Nasal Cannula\nSome guidelines recommend HFNC over BIPAP/CPAP, in those that fail low-flow O2.\n[12]\nRequires patient to be on airborne isolation.\nNon-Invasive Ventilation\nif no HFNC\nConsider awake proning to improve oxygenation\nBronchodilators if bronchospasm present\nUse metered-dose inhaler (avoid nebulizers due to aerosolization)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Infectious disease\nAcetaminophen\nfor fever\nConsider antibiotics for bacterial\npneumonia\ncoverage\nCardiovascular\n[13]\nMost patients without hemodynamic compromise\nMaintain euvolemia - hypervolemia may contribute to ARDS\nHypoperfusion - cautious fluid resuscitation\nVasopressors\n1st line -\nNorepinepherine\n(alternative:\nepinephrine\n)\n2nd line -\nVasopressin\nVascular\nConsider\nanticoagulation",
+          "tables": []
+        },
+        "Outpatients_Not_Requiring_Admission": {
+          "text": "High risk patients (one of the following, if available):\nRitonavir-boosted nirmatrelvir (\nPaxlovid\n)\nSotrovimab\nRemdesivir\nMolnupiravir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Outpatients_Requiring_Home_Oxygen_(New_or_Increased)": {
+          "text": "Dexamethasone\n6mg PO daily x the duration of supplemental oxygen (not to exceed 10 days)\nConsider\nRemdesivir",
+          "tables": []
+        },
+        "Hospitalized_Not_Requiring_Oxygen": {
+          "text": "Consider\nRemdesivir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Hospitalized_Requiring_Oxygen": {
+          "text": "Dexamethasone\n6mg PO daily x 10 days\nRemdesivir\n200 mg IV once, then 100 mg IV once daily for 4 days or until hospital discharge (whichever comes first).\nIf requiring High-Flow or NIV, add\nbaricitinib\nor IV\ntocilizumab\nIf not available, IV\nsarilumab\ncan be used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prevention of COVID-19 transmission in the healthcare setting",
+          "url": "https://wikem.org/wiki/Prevention_of_COVID-19_transmission_in_the_healthcare_setting"
+        },
+        {
+          "text": "oxygen therapy",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        },
+        {
+          "text": "Non-Invasive Ventilation",
+          "url": "https://wikem.org/wiki/Non-Invasive_Ventilation"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Norepinepherine",
+          "url": "https://wikem.org/wiki/Norepinepherine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/COVID-19:_Medication_therapy#Anticoagulation"
+        },
+        {
+          "text": "Paxlovid",
+          "url": "https://wikem.org/wiki/Paxlovid"
+        },
+        {
+          "text": "Sotrovimab",
+          "url": "https://wikem.org/wiki/Sotrovimab"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Molnupiravir",
+          "url": "https://wikem.org/wiki/Molnupiravir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "baricitinib",
+          "url": "https://wikem.org/wiki/Baricitinib"
+        },
+        {
+          "text": "tocilizumab",
+          "url": "https://wikem.org/wiki/Tocilizumab"
+        },
+        {
+          "text": "sarilumab",
+          "url": "https://wikem.org/wiki/Sarilumab"
+        }
+      ]
+    },
+    "COVID-19_PPE_Summary_Table": {
+      "text": "See\nprevention of COVID-19 transmission in the healthcare setting\nfor full PPE recommendations",
+      "subsections": {
+        "Pulmonary_": {
+          "text": "Supplemental\noxygen therapy\nif Sat<90%\nTarget SPO2 92%-96%\nHigh-flow Nasal Cannula\nSome guidelines recommend HFNC over BIPAP/CPAP, in those that fail low-flow O2.\n[12]\nRequires patient to be on airborne isolation.\nNon-Invasive Ventilation\nif no HFNC\nConsider awake proning to improve oxygenation\nBronchodilators if bronchospasm present\nUse metered-dose inhaler (avoid nebulizers due to aerosolization)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Infectious disease\nAcetaminophen\nfor fever\nConsider antibiotics for bacterial\npneumonia\ncoverage\nCardiovascular\n[13]\nMost patients without hemodynamic compromise\nMaintain euvolemia - hypervolemia may contribute to ARDS\nHypoperfusion - cautious fluid resuscitation\nVasopressors\n1st line -\nNorepinepherine\n(alternative:\nepinephrine\n)\n2nd line -\nVasopressin\nVascular\nConsider\nanticoagulation",
+          "tables": []
+        },
+        "Outpatients_Not_Requiring_Admission": {
+          "text": "High risk patients (one of the following, if available):\nRitonavir-boosted nirmatrelvir (\nPaxlovid\n)\nSotrovimab\nRemdesivir\nMolnupiravir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Outpatients_Requiring_Home_Oxygen_(New_or_Increased)": {
+          "text": "Dexamethasone\n6mg PO daily x the duration of supplemental oxygen (not to exceed 10 days)\nConsider\nRemdesivir",
+          "tables": []
+        },
+        "Hospitalized_Not_Requiring_Oxygen": {
+          "text": "Consider\nRemdesivir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Hospitalized_Requiring_Oxygen": {
+          "text": "Dexamethasone\n6mg PO daily x 10 days\nRemdesivir\n200 mg IV once, then 100 mg IV once daily for 4 days or until hospital discharge (whichever comes first).\nIf requiring High-Flow or NIV, add\nbaricitinib\nor IV\ntocilizumab\nIf not available, IV\nsarilumab\ncan be used",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Contact Category": "General (all persons)",
+            "Precations": "Social distancing; meticulous hygiene; basic mask",
+            "Room Type": "NA"
+          },
+          {
+            "Contact Category": "Undifferentiated patients at risk (e.g. prior to evaluation or testing)",
+            "Precations": "Contact anddropletprecautions, including eye protection",
+            "Room Type": "Negative-pressure NOT required"
+          },
+          {
+            "Contact Category": "Persons Under Investigation",
+            "Precations": "Contact anddropletprecautions, including eye protection",
+            "Room Type": "Negative-pressure NOT required"
+          },
+          {
+            "Contact Category": "Aerosol-Generating Procedures",
+            "Precations": "Contact andairborneprecautions, including eye protection",
+            "Room Type": "Negative-pressure required"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "prevention of COVID-19 transmission in the healthcare setting",
+          "url": "https://wikem.org/wiki/Prevention_of_COVID-19_transmission_in_the_healthcare_setting"
+        },
+        {
+          "text": "oxygen therapy",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        },
+        {
+          "text": "Non-Invasive Ventilation",
+          "url": "https://wikem.org/wiki/Non-Invasive_Ventilation"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Norepinepherine",
+          "url": "https://wikem.org/wiki/Norepinepherine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/COVID-19:_Medication_therapy#Anticoagulation"
+        },
+        {
+          "text": "Paxlovid",
+          "url": "https://wikem.org/wiki/Paxlovid"
+        },
+        {
+          "text": "Sotrovimab",
+          "url": "https://wikem.org/wiki/Sotrovimab"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Molnupiravir",
+          "url": "https://wikem.org/wiki/Molnupiravir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "baricitinib",
+          "url": "https://wikem.org/wiki/Baricitinib"
+        },
+        {
+          "text": "tocilizumab",
+          "url": "https://wikem.org/wiki/Tocilizumab"
+        },
+        {
+          "text": "sarilumab",
+          "url": "https://wikem.org/wiki/Sarilumab"
+        }
+      ]
+    },
+    "General_Supportive_Care": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_": {
+          "text": "Supplemental\noxygen therapy\nif Sat<90%\nTarget SPO2 92%-96%\nHigh-flow Nasal Cannula\nSome guidelines recommend HFNC over BIPAP/CPAP, in those that fail low-flow O2.\n[12]\nRequires patient to be on airborne isolation.\nNon-Invasive Ventilation\nif no HFNC\nConsider awake proning to improve oxygenation\nBronchodilators if bronchospasm present\nUse metered-dose inhaler (avoid nebulizers due to aerosolization)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Infectious disease\nAcetaminophen\nfor fever\nConsider antibiotics for bacterial\npneumonia\ncoverage\nCardiovascular\n[13]\nMost patients without hemodynamic compromise\nMaintain euvolemia - hypervolemia may contribute to ARDS\nHypoperfusion - cautious fluid resuscitation\nVasopressors\n1st line -\nNorepinepherine\n(alternative:\nepinephrine\n)\n2nd line -\nVasopressin\nVascular\nConsider\nanticoagulation",
+          "tables": []
+        },
+        "Outpatients_Not_Requiring_Admission": {
+          "text": "High risk patients (one of the following, if available):\nRitonavir-boosted nirmatrelvir (\nPaxlovid\n)\nSotrovimab\nRemdesivir\nMolnupiravir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Outpatients_Requiring_Home_Oxygen_(New_or_Increased)": {
+          "text": "Dexamethasone\n6mg PO daily x the duration of supplemental oxygen (not to exceed 10 days)\nConsider\nRemdesivir",
+          "tables": []
+        },
+        "Hospitalized_Not_Requiring_Oxygen": {
+          "text": "Consider\nRemdesivir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Hospitalized_Requiring_Oxygen": {
+          "text": "Dexamethasone\n6mg PO daily x 10 days\nRemdesivir\n200 mg IV once, then 100 mg IV once daily for 4 days or until hospital discharge (whichever comes first).\nIf requiring High-Flow or NIV, add\nbaricitinib\nor IV\ntocilizumab\nIf not available, IV\nsarilumab\ncan be used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen therapy",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        },
+        {
+          "text": "Non-Invasive Ventilation",
+          "url": "https://wikem.org/wiki/Non-Invasive_Ventilation"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Norepinepherine",
+          "url": "https://wikem.org/wiki/Norepinepherine"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/COVID-19:_Medication_therapy#Anticoagulation"
+        },
+        {
+          "text": "Paxlovid",
+          "url": "https://wikem.org/wiki/Paxlovid"
+        },
+        {
+          "text": "Sotrovimab",
+          "url": "https://wikem.org/wiki/Sotrovimab"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Molnupiravir",
+          "url": "https://wikem.org/wiki/Molnupiravir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "baricitinib",
+          "url": "https://wikem.org/wiki/Baricitinib"
+        },
+        {
+          "text": "tocilizumab",
+          "url": "https://wikem.org/wiki/Tocilizumab"
+        },
+        {
+          "text": "sarilumab",
+          "url": "https://wikem.org/wiki/Sarilumab"
+        }
+      ]
+    },
+    "Medications_by_Patient_Category": {
+      "text": "",
+      "subsections": {
+        "Outpatients_Not_Requiring_Admission": {
+          "text": "High risk patients (one of the following, if available):\nRitonavir-boosted nirmatrelvir (\nPaxlovid\n)\nSotrovimab\nRemdesivir\nMolnupiravir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Outpatients_Requiring_Home_Oxygen_(New_or_Increased)": {
+          "text": "Dexamethasone\n6mg PO daily x the duration of supplemental oxygen (not to exceed 10 days)\nConsider\nRemdesivir",
+          "tables": []
+        },
+        "Hospitalized_Not_Requiring_Oxygen": {
+          "text": "Consider\nRemdesivir\nDexamethasone\nhas\nnot\ndemonstrated benefit in this patient category and may be potentially harmful",
+          "tables": []
+        },
+        "Hospitalized_Requiring_Oxygen": {
+          "text": "Dexamethasone\n6mg PO daily x 10 days\nRemdesivir\n200 mg IV once, then 100 mg IV once daily for 4 days or until hospital discharge (whichever comes first).\nIf requiring High-Flow or NIV, add\nbaricitinib\nor IV\ntocilizumab\nIf not available, IV\nsarilumab\ncan be used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Paxlovid",
+          "url": "https://wikem.org/wiki/Paxlovid"
+        },
+        {
+          "text": "Sotrovimab",
+          "url": "https://wikem.org/wiki/Sotrovimab"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Molnupiravir",
+          "url": "https://wikem.org/wiki/Molnupiravir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "Remdesivir",
+          "url": "https://wikem.org/wiki/Remdesivir"
+        },
+        {
+          "text": "baricitinib",
+          "url": "https://wikem.org/wiki/Baricitinib"
+        },
+        {
+          "text": "tocilizumab",
+          "url": "https://wikem.org/wiki/Tocilizumab"
+        },
+        {
+          "text": "sarilumab",
+          "url": "https://wikem.org/wiki/Sarilumab"
+        }
+      ]
+    },
+    "Respiratory_failure": {
+      "text": "",
+      "subsections": {
+        "Intubation_of_Potential_COVID-19_Patients": {
+          "text": "Aerosol-generating procedure: see this link for PPE recommendations and related precautions\nUse checklist if available (see example:\nFile:Harbor COVID Airway Management v3-16-20.pdf\n)\nUse\nBVM\nwith viral filter or avoid BVM altogether, if possible\nUse\nRSI\nto prevent coughing gagging; consider higher dosing of paralytics.\nUse video laryngoscopy to keep provider face further away from patient (afterwards, clean with grey wipes, observe 3 min wet time)",
+          "tables": []
+        },
+        "Lung_Protective_Mechanical_Ventilation": {
+          "text": "Lung Protective Ventilator Settings\n[18]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[19]\n[20]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[21]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg\nSee also\ndeterioration after intubation",
+          "tables": []
+        },
+        "COVID_Lung_Phenotypes_and_Their_Management": {
+          "text": "Hypoxemic patients can be divided into two general phenotypes\n[22]",
+          "tables": []
+        },
+        "COVID_L_Lung_Phenotype": {
+          "text": "Characterized by Low elastance (i.e., high compliance), Low ventilation to perfusion ratio, Low lung weight and Low recruitability\nOften referred to as the “happy hypoxemic”\nNormal lung volumes and low lung recruitability.\nHypoxemia may be due to loss of regulation of perfusion and loss of hypoxic vasoconstriction.\nThese patients can be damaged iatrogenically if you respond to their pulse ox with standard vent modes\nDo poorly with low tidal volume (TV) and high PEEPs\nBest managed with high FiO2 which allows you to limit the PEEP\nRecommended initial vent settings:\n8 ml/kg TV, 100% FiO2\nIncrease the PEEP only if the patient is desaturating on a high FiO2.\nCan turn into COVID H patients on the vent.",
+          "tables": []
+        },
+        "COVID_H_Lung_Phenotype": {
+          "text": "Characterized by High elastance, High right-to-left shunt, High lung weight and High recruitability.\nIncreased permeability of the lung leads to edema, atelectasis, decreased gas volume, and decreased TV for a given inspiratory pressure.\nHigh degree of lung recruitability.\n20 – 30% of patients fit ARDS criteria:\nHypoxemia\nBilateral infiltrates\nDecreased the respiratory system compliance\nIncreased lung weight and potential for recruitment\nThe\nARDS\nladder applies only to this subset of COVID patients.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aerosol-generating procedure: see this link for PPE recommendations and related precautions",
+          "url": "https://wikem.org/wiki/Prevention_of_COVID-19_transmission_in_the_healthcare_setting#Aerosol-Generating_Procedures"
+        },
+        {
+          "text": "File:Harbor COVID Airway Management v3-16-20.pdf",
+          "url": "https://wikem.org/wiki/File:Harbor_COVID_Airway_Management_v3-16-20.pdf"
+        },
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Intubation_of_Potential_COVID-19_Patients": {
+      "text": "Aerosol-generating procedure: see this link for PPE recommendations and related precautions\nUse checklist if available (see example:\nFile:Harbor COVID Airway Management v3-16-20.pdf\n)\nUse\nBVM\nwith viral filter or avoid BVM altogether, if possible\nUse\nRSI\nto prevent coughing gagging; consider higher dosing of paralytics.\nUse video laryngoscopy to keep provider face further away from patient (afterwards, clean with grey wipes, observe 3 min wet time)",
+      "subsections": {
+        "Lung_Protective_Mechanical_Ventilation": {
+          "text": "Lung Protective Ventilator Settings\n[18]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[19]\n[20]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[21]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg\nSee also\ndeterioration after intubation",
+          "tables": []
+        },
+        "COVID_Lung_Phenotypes_and_Their_Management": {
+          "text": "Hypoxemic patients can be divided into two general phenotypes\n[22]",
+          "tables": []
+        },
+        "COVID_L_Lung_Phenotype": {
+          "text": "Characterized by Low elastance (i.e., high compliance), Low ventilation to perfusion ratio, Low lung weight and Low recruitability\nOften referred to as the “happy hypoxemic”\nNormal lung volumes and low lung recruitability.\nHypoxemia may be due to loss of regulation of perfusion and loss of hypoxic vasoconstriction.\nThese patients can be damaged iatrogenically if you respond to their pulse ox with standard vent modes\nDo poorly with low tidal volume (TV) and high PEEPs\nBest managed with high FiO2 which allows you to limit the PEEP\nRecommended initial vent settings:\n8 ml/kg TV, 100% FiO2\nIncrease the PEEP only if the patient is desaturating on a high FiO2.\nCan turn into COVID H patients on the vent.",
+          "tables": []
+        },
+        "COVID_H_Lung_Phenotype": {
+          "text": "Characterized by High elastance, High right-to-left shunt, High lung weight and High recruitability.\nIncreased permeability of the lung leads to edema, atelectasis, decreased gas volume, and decreased TV for a given inspiratory pressure.\nHigh degree of lung recruitability.\n20 – 30% of patients fit ARDS criteria:\nHypoxemia\nBilateral infiltrates\nDecreased the respiratory system compliance\nIncreased lung weight and potential for recruitment\nThe\nARDS\nladder applies only to this subset of COVID patients.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aerosol-generating procedure: see this link for PPE recommendations and related precautions",
+          "url": "https://wikem.org/wiki/Prevention_of_COVID-19_transmission_in_the_healthcare_setting#Aerosol-Generating_Procedures"
+        },
+        {
+          "text": "File:Harbor COVID Airway Management v3-16-20.pdf",
+          "url": "https://wikem.org/wiki/File:Harbor_COVID_Airway_Management_v3-16-20.pdf"
+        },
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Lung_Protective_Mechanical_Ventilation": {
+      "text": "Lung Protective Ventilator Settings\n[18]\nshould be the default for all intubated patients, unless contraindicated. It has demonstrated mortality benefit for\nARDS\n-like pulmonary conditions; limits barotrauma and decreases complications of high FiO2\n[19]\n[20]\nMode\nVolume-assist control\nTidal Volume\nStart 6-8cc/kg\npredicted body weight\n[21]\nPredicted/\"ideal\" body weight is used because a person's lung parenchyma does not increase in size as the person gains more weight.\nTitrate down if plateau pressure >30 mmHg\nInspiratory Flow Rate (comfort)\nMore comfortable if higher rather than lower\nStart at 60-80 LPM\nRespiratory Rate (titrate for ventilation)\nAverage patient on ventilator requires 120mL/kg/min for eucapnia\nStart 16-18 breaths/min\nMaintain pH = 7.30-7.45\nFiO2/PEEP (titrate for oxygenation)\nMove in tandem to achieve:\nSpO2 BETWEEN 88-95%\nPaO2 BETWEEN 55-80mmHg\nSee also\ndeterioration after intubation",
+      "subsections": {
+        "COVID_Lung_Phenotypes_and_Their_Management": {
+          "text": "Hypoxemic patients can be divided into two general phenotypes\n[22]",
+          "tables": []
+        },
+        "COVID_L_Lung_Phenotype": {
+          "text": "Characterized by Low elastance (i.e., high compliance), Low ventilation to perfusion ratio, Low lung weight and Low recruitability\nOften referred to as the “happy hypoxemic”\nNormal lung volumes and low lung recruitability.\nHypoxemia may be due to loss of regulation of perfusion and loss of hypoxic vasoconstriction.\nThese patients can be damaged iatrogenically if you respond to their pulse ox with standard vent modes\nDo poorly with low tidal volume (TV) and high PEEPs\nBest managed with high FiO2 which allows you to limit the PEEP\nRecommended initial vent settings:\n8 ml/kg TV, 100% FiO2\nIncrease the PEEP only if the patient is desaturating on a high FiO2.\nCan turn into COVID H patients on the vent.",
+          "tables": []
+        },
+        "COVID_H_Lung_Phenotype": {
+          "text": "Characterized by High elastance, High right-to-left shunt, High lung weight and High recruitability.\nIncreased permeability of the lung leads to edema, atelectasis, decreased gas volume, and decreased TV for a given inspiratory pressure.\nHigh degree of lung recruitability.\n20 – 30% of patients fit ARDS criteria:\nHypoxemia\nBilateral infiltrates\nDecreased the respiratory system compliance\nIncreased lung weight and potential for recruitment\nThe\nARDS\nladder applies only to this subset of COVID patients.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lung Protective Ventilator Settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings#Lung_Protective_Strategy"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "predicted body weight",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        },
+        {
+          "text": "deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "COVID_Lung_Phenotypes_and_Their_Management": {
+      "text": "Hypoxemic patients can be divided into two general phenotypes\n[22]",
+      "subsections": {
+        "COVID_L_Lung_Phenotype": {
+          "text": "Characterized by Low elastance (i.e., high compliance), Low ventilation to perfusion ratio, Low lung weight and Low recruitability\nOften referred to as the “happy hypoxemic”\nNormal lung volumes and low lung recruitability.\nHypoxemia may be due to loss of regulation of perfusion and loss of hypoxic vasoconstriction.\nThese patients can be damaged iatrogenically if you respond to their pulse ox with standard vent modes\nDo poorly with low tidal volume (TV) and high PEEPs\nBest managed with high FiO2 which allows you to limit the PEEP\nRecommended initial vent settings:\n8 ml/kg TV, 100% FiO2\nIncrease the PEEP only if the patient is desaturating on a high FiO2.\nCan turn into COVID H patients on the vent.",
+          "tables": []
+        },
+        "COVID_H_Lung_Phenotype": {
+          "text": "Characterized by High elastance, High right-to-left shunt, High lung weight and High recruitability.\nIncreased permeability of the lung leads to edema, atelectasis, decreased gas volume, and decreased TV for a given inspiratory pressure.\nHigh degree of lung recruitability.\n20 – 30% of patients fit ARDS criteria:\nHypoxemia\nBilateral infiltrates\nDecreased the respiratory system compliance\nIncreased lung weight and potential for recruitment\nThe\nARDS\nladder applies only to this subset of COVID patients.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Contraindicated_Therapies": {
+      "text": "NSAIDS\nThere is anecdotal evidence to suggest that NSAIDs could potentially harm patients infected with COVID-19.\n[23]\nSome experts suggest avoiding NSAIDs altogether while recommending the use of paracetamol/acetaminophen instead.\n[24]\nIt is important to note that there is no strong evidence to suggest NSAIDs should be avoided in general in COVID-19 patients\n[25]\nACEi\n/\nARBs\nThere is an increase in mortality in patients with both hypertension and COVID-19 infection.\n[26]\nACEi and ARBs, used in the treatment of hypertension, has been postulated to contribute to the increased mortality by upregulating membrane-bound angiotensin-converting enzyme 2 (ACE2) which allows COVID-19 entry into human cells.\n[27]\nCurrently, however, there is insufficient evidence to recommend against using ACEi and ARBs in patients with COVID-19.\n[28]\nNebulizers\nAvoid nebulizers as they are generally ineffective and may aerosolize virus\nAlbuterol\nwith spacer is safer, though probably ineffective unless co-occuring reactive airway disease\nMDI equivalents:\nAlbuterol\nor\nipratropium\n<20 kg or 5yrs old: 4-5 puffs with a spacer every 20 minutes. 4 breaths between puffs.\n>20 kg or 5yrs old: 8-10 puffs with a spacer every 20 minutes. 4 breaths between puffs.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "ARBs",
+          "url": "https://wikem.org/wiki/ARBs"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "ipratropium",
+          "url": "https://wikem.org/wiki/Ipratropium"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "80% of patients do not require hospital admission\nMild cases for persons under investigation for Covid-19 awaiting a positive test result can self quarantine at home in conjunction with the local Public Health Dept\n\"Silent hypoxemia\" is now reported in patients with oxygen saturations ranging in the 80s-90s without respiratory distress. Hypoxia is not recommended as an absolute indication for emergent intubation.\nNote: symptoms may worsen over 2nd week of illness",
+      "subsections": {
+        "Admission": {
+          "text": "Hospitalize: Respiratory distress/failure, multi-organ failure, rapid disease progression requiring escalating supportive care. Meets criteria for high acuity above. Moderate acuity with extra risk factors (pneumonia, immunosuppressed, elderly, comorbidities), complicated social situation, worsening symptoms > 10 days out.\nPSI/PORT, MuLBSTA, and CURB65 scores have all been proposed criteria for admission and predicting outcomes.\nThese scores are not externally validated. Use with caution.\nhttps://www.mdcalc.com/covid-19#calcs\nMay consider discontinuation of hospital isolation when:\nResolution of fever without anti-pyretic, resolution of symptoms, and negative COVID19 testing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Hospitalize: Respiratory distress/failure, multi-organ failure, rapid disease progression requiring escalating supportive care. Meets criteria for high acuity above. Moderate acuity with extra risk factors (pneumonia, immunosuppressed, elderly, comorbidities), complicated social situation, worsening symptoms > 10 days out.\nPSI/PORT, MuLBSTA, and CURB65 scores have all been proposed criteria for admission and predicting outcomes.\nThese scores are not externally validated. Use with caution.\nhttps://www.mdcalc.com/covid-19#calcs\nMay consider discontinuation of hospital isolation when:\nResolution of fever without anti-pyretic, resolution of symptoms, and negative COVID19 testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Situations": {
+      "text": "For pregnant patients see:\nCOVID-19 in pregnancy\nFor pediatric patients see:\nCOVID-19 in pediatrics",
+      "subsections": {
+        "COVID-19_and_STEMI": {
+          "text": "According to ACC consensus statement \"During the\nCOVID-19\npandemic, PCI remains the standard of care for STEMI patients\"\nIf\nthrombolytics\nare indicated options include:\nAdminister 10u\nRetavase\n(reteplase) IV bolus followed by a second bolus at 30 minute rather than PCI.  OR\nTenecteplase\n(TNKase) 30 mg IV bolus\nIf\nTenecteplase\nis not available, it is acceptable to administer a lower dose of\nalteplase\n(tPA) at 50 mg (8 mg bolus, followed by 42 mg infusion over 90 minutes).\nFollow\nthrombolytics\nby 40u/kg\nheparin\n(max dose 4,000 units) IV and 600mg\nclopidogrel\nPO and\nASA\n325 mg PO",
+          "tables": []
+        },
+        "COVID-19_and_CPR": {
+          "text": "Interim AHA Guidance\nDon all PPE prior to initiating CPR. CPR is aerosol generating.\nIntubate early, video laryngoscopy preferred\nPause chest compressions during intubation\nIf patient is on ventilator at time of arrest consider leaving patient on ventilator\nAdjust ventilator to allow for asynchronous ventilation\nIf using BVM then attach high efficiency particulate air (HEPA) filter\nUse of mechanical compression device (e.g. LUCAS) is encouraged\nUse auto CPR device if available",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19 in pregnancy",
+          "url": "https://wikem.org/wiki/COVID-19_in_pregnancy"
+        },
+        {
+          "text": "COVID-19 in pediatrics",
+          "url": "https://wikem.org/wiki/COVID-19_in_pediatrics"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "Retavase",
+          "url": "https://wikem.org/wiki/Retavase"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        },
+        {
+          "text": "alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "COVID-19_and_STEMI": {
+      "text": "According to ACC consensus statement \"During the\nCOVID-19\npandemic, PCI remains the standard of care for STEMI patients\"\nIf\nthrombolytics\nare indicated options include:\nAdminister 10u\nRetavase\n(reteplase) IV bolus followed by a second bolus at 30 minute rather than PCI.  OR\nTenecteplase\n(TNKase) 30 mg IV bolus\nIf\nTenecteplase\nis not available, it is acceptable to administer a lower dose of\nalteplase\n(tPA) at 50 mg (8 mg bolus, followed by 42 mg infusion over 90 minutes).\nFollow\nthrombolytics\nby 40u/kg\nheparin\n(max dose 4,000 units) IV and 600mg\nclopidogrel\nPO and\nASA\n325 mg PO",
+      "subsections": {
+        "COVID-19_and_CPR": {
+          "text": "Interim AHA Guidance\nDon all PPE prior to initiating CPR. CPR is aerosol generating.\nIntubate early, video laryngoscopy preferred\nPause chest compressions during intubation\nIf patient is on ventilator at time of arrest consider leaving patient on ventilator\nAdjust ventilator to allow for asynchronous ventilation\nIf using BVM then attach high efficiency particulate air (HEPA) filter\nUse of mechanical compression device (e.g. LUCAS) is encouraged\nUse auto CPR device if available",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "Retavase",
+          "url": "https://wikem.org/wiki/Retavase"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        },
+        {
+          "text": "alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "COVID-19_and_CPR": {
+      "text": "Interim AHA Guidance\nDon all PPE prior to initiating CPR. CPR is aerosol generating.\nIntubate early, video laryngoscopy preferred\nPause chest compressions during intubation\nIf patient is on ventilator at time of arrest consider leaving patient on ventilator\nAdjust ventilator to allow for asynchronous ventilation\nIf using BVM then attach high efficiency particulate air (HEPA) filter\nUse of mechanical compression device (e.g. LUCAS) is encouraged\nUse auto CPR device if available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "COVID-19_Risk_Factors_for_Severe_Disease_": {
+          "text": "See\nVACO calculator",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "COVID-19_Risk_Factors_for_Severe_Disease_": {
+      "text": "See\nVACO calculator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "https://www.covid19treatmentguidelines.nih.gov/management/clinical-management/hospitalized-adults--therapeutic-management/\nWHO COVID-19 Situation Dashboard (Live):\nhttps://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd\nCDC Main Healthcare Page\nEMCrit Covid Airway Management\nJohns Hopkins COVID Case Map (Live):\nhttps://coronavirus.jhu.edu/map.html\nCalifornia Emergency Medical Services Authority Resource Portal\nhttps://emsa.ca.gov/covid19/\nOxford Journal of Travel Medicine COVID19 Resources\nhttps://academic.oup.com/journals/pages/coronavirus?cc=gb&lang=en&\nEM:RAP Corependium COVID-19 (open access)\nhttps://www.emrap.org/corependium/chapter/rec906m1mD6SRH9np/Novel-Coronavirus-2019-COVID-19?MainSearch=%22covid%22&SearchType=%22text%22\nMedRxiv Covid-19 SARS\nAdditional DPH Guidance:\nhttp://publichealth.lacounty.gov/acd/nCorona2019.htm\nSeattle ICU doctor's one page info on mgmt of COVID from ACEP website\nFile:COVID19 seattle one pager.pdf\nHarbor DEM COVID airway management guide\nFile:Harbor COVID Airway Management v3-16-20.pdf\nProper donning and doffing from CDC\nFile:Doffing PPE CDC.pdf\nRadiopaedia COVID-19 Resources (\nhttps://radiopaedia.org/articles/covid-19\n)\nLiterature review\nhttps://reacting.inserm.fr/literature-review/\nCOVID related trials:\nhttps://covid.inato.com/analysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "File:COVID19 seattle one pager.pdf",
+          "url": "https://wikem.org/wiki/File:COVID19_seattle_one_pager.pdf"
+        },
+        {
+          "text": "File:Harbor COVID Airway Management v3-16-20.pdf",
+          "url": "https://wikem.org/wiki/File:Harbor_COVID_Airway_Management_v3-16-20.pdf"
+        },
+        {
+          "text": "File:Doffing PPE CDC.pdf",
+          "url": "https://wikem.org/wiki/File:Doffing_PPE_CDC.pdf"
+        }
+      ]
+    }
+  }
+}

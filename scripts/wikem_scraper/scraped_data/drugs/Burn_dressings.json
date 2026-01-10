@@ -1,0 +1,113 @@
+{
+  "drug_name": "Burn_dressings",
+  "url": "https://wikem.org/wiki/Burn_dressings",
+  "scraped_at": "2026-01-10T07:49:21.803746",
+  "sections": {
+    "Background": {
+      "text": "For facial burns that are superficial partial thickness, consider bactroban if concern for impetigo or infection; otherwise glucanpro (oat beta glucan) works for clean wounds\nUse\nbacitracin\nophthalmic around eyes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacitracin",
+          "url": "https://wikem.org/wiki/Bacitracin"
+        }
+      ]
+    },
+    "Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Dressing[1]": "Biobrane",
+            "Indications": "Partial thickness burns at time of admission; clean, fresh scald burns or donors; must be pink, moist, sensate, blanching",
+            "Special considerations": "Apply shiny side out; secure with benzoin steristrips; no antimicrobial activity; wrap with Kerlix and Ace, to be examined in 24 hrs; fluid accumulations may be aspirated with tuberculin syringe"
+          },
+          {
+            "Dressing[1]": "Xeroform",
+            "Indications": "Clean partial thickness wounds or donor sites",
+            "Special considerations": "Promotes epithelial migration on clean, well vascularized wounds. Minimal antimicrobial activity; use with bacitracin or bactroban"
+          },
+          {
+            "Dressing[1]": "Bacitracin",
+            "Indications": "Partial thickness burns, anti-Staph agent; also topical agent for superficial facial burns",
+            "Special considerations": "No penetrating ability; good to remove tar and asphalt (especially around eye). Combine with NS wet-to-dry to increase debriding; do not use on eschar"
+          },
+          {
+            "Dressing[1]": "Santyl (Collagenase)",
+            "Indications": "Deep partial thickness wounds with eschar",
+            "Special considerations": "Layer needs to be \"nickel\" thick; Use with bacitracin and xeroform (BX)"
+          },
+          {
+            "Dressing[1]": "Bactroban (mupirocin)",
+            "Indications": "Staph infections, impetigo, facial burns",
+            "Special considerations": "Apply thin layer and use with Xeroform"
+          },
+          {
+            "Dressing[1]": "Mepilex (Ag)",
+            "Indications": "Partial thickness wounds/donors; low to moderate exuding wounds that need to be covered for extended time",
+            "Special considerations": "May be left intact without dressing change for 3-7 days. Has increased antimicrobial activity as compared to Polymem"
+          },
+          {
+            "Dressing[1]": "Polymem",
+            "Indications": "Partial thickness wounds; cleanses, fills, absorbs, moistens",
+            "Special considerations": "May be left intact up to 7 days"
+          },
+          {
+            "Dressing[1]": "Sloppy (5% Mafenide acetate)",
+            "Indications": "Used for new grafts",
+            "Special considerations": "With fine mesh gauze covered with sloppy moistened burn pads; wet downs as needed"
+          },
+          {
+            "Dressing[1]": "Burows (Domboros, Aluminum acetate)",
+            "Indications": "Gram-negative bacilli (pseudomonas)",
+            "Special considerations": "Creates acidic, drying environment due to its hyperosmolar features; Somewhat toxic to tissues, but more important for skin grafts to take. Fine mesh gauze are covered with Burows moistened burn pads; 2 packets dissolved in 1 L sterile water"
+          },
+          {
+            "Dressing[1]": "Silvadene (silver sulfadiazine)",
+            "Indications": "Full thickness burns. Post traumatic wound infection or cellulitis.",
+            "Special considerations": "Nonpainful with antibacterial spectrum similiar to Sulfamylon. Does not penetrate dry, leathery eschar. Some gram-negative resistant Enterobacter. Neutropenia may occur within 24-48 hrs. CONTRAINDICATED: 1) Partial thickness which may heal (Silvadene inhibits keratinocytes), 2) Sulfa allergy, 3) Causes kernicterus - pregnant women approaching term, premature infants, newbborns during first 2 months of life[2]"
+          },
+          {
+            "Dressing[1]": "Sulfamylon (Mafenide)",
+            "Indications": "Full thickness burns with eschar (including leathery eschar); deep cartilage burns (ears, nose); alternate to Silvadene in marked leukopenia; sulfamylon liquid (5% soln) for wetting heavily contaminated meshed skin grafts or excised but not grafted areas (not for eschar)",
+            "Special considerations": "Penetrates eschar, significantly reduces pseudomonas. Painful 20 minutes after application. NOT a sulfa drug, ok in sulfa allergy. May cause metabolic acidosis. CONTRAINDICATIONS: 1) Hypersensitivity reaction, 2) Near the eyes, 3) Large burns in children - causes hyperpnea via inhibition of carbonic anhydrase"
+          },
+          {
+            "Dressing[1]": "Dakins and glycerin (half-and-half, D&G)",
+            "Indications": "Rarely used now. Wetting agent similar to Sulfamylon liquid.",
+            "Special considerations": "0.5% Chloramine-T (similar to bleach) and 50% glycerin. Must be stored in the dark. Oxidized form has no bacteriocidal activity - must smeel strongly of bleach. CONTRAINDICATIONS: 1) Eschar, 2) Invasive infection"
+          },
+          {
+            "Dressing[1]": "Scarlet red",
+            "Indications": "Rarely used now. Barrier dressing to prevent desiccation of underlying wound",
+            "Special considerations": "Must be clean wound since it has no antibacterial activity (as opposed to Xeroform)"
+          },
+          {
+            "Dressing[1]": "Xenograft (pigskin)",
+            "Indications": "Biologic dressing that protects wounds free of eschar, wounds awaiting epithelial migration for closure, or wounds needing application of autograft",
+            "Special considerations": "Examine daily and removed if evidence of fluid accumulation or purulent material underneath; may be changed q48-72 hrs. Generally patients develop antibodies to graft after 7-10 days"
+          },
+          {
+            "Dressing[1]": "Allograft (cadaver)",
+            "Indications": "Temporary closure of wounds free of eschar, awaiting autograft; May be used to cover fragile autograft",
+            "Special considerations": "Viable for up to 5 days after harvesting; must be stored in biologic refrigerator at 4 degrees C"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    }
+  }
+}

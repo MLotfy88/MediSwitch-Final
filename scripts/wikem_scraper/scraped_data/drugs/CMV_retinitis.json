@@ -1,0 +1,488 @@
+{
+  "drug_name": "CMV_retinitis",
+  "url": "https://wikem.org/wiki/CMV_retinitis",
+  "scraped_at": "2026-01-10T07:49:31.148065",
+  "sections": {
+    "Background": {
+      "text": "Most frequent and serious ocular opportunistic infection\nLeading cause of blindness in\nAIDS\npatients\nTypically occurs with CD4 less than 50",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Variable, but may include:\nChange in visual acuity,\nvisual loss\nVisual field cuts\n(Scotomas, loss of central vision)\nFloaters\n, flashing lights\nPhotophobia\nFundoscopy\n:\nFluffy white perivascular lesions\nDirty white granular retinal necrosis\nAdjacent hemorrhage - \"Pizza pie\" appearance\nEye pain\n/\nredness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "Visual field cuts",
+          "url": "https://wikem.org/wiki/Visual_field_defects"
+        },
+        {
+          "text": "Floaters",
+          "url": "https://wikem.org/wiki/Floaters"
+        },
+        {
+          "text": "Fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        },
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "redness",
+          "url": "https://wikem.org/wiki/Red_eye"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        },
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Acute_onset_flashers_and_floaters": {
+      "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CD4 typically < 50 cells/mm³",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Severe_Vision_Threatening": {
+          "text": "Ganciclovir intraocular implant for 8 months AND\nValganciclovir 900mg PO q12hrs x 14 days FOLLOWED BY 900mg PO q24hrs x 7 days",
+          "tables": []
+        },
+        "Peripheral_lesions": {
+          "text": "Valganciclovir 900mg PO q12hrs x 21 days FOLLOWED BY 900mg PO q24hrs x 7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antivirals": {
+      "text": "",
+      "subsections": {
+        "Severe_Vision_Threatening": {
+          "text": "Ganciclovir intraocular implant for 8 months AND\nValganciclovir 900mg PO q12hrs x 14 days FOLLOWED BY 900mg PO q24hrs x 7 days",
+          "tables": []
+        },
+        "Peripheral_lesions": {
+          "text": "Valganciclovir 900mg PO q12hrs x 21 days FOLLOWED BY 900mg PO q24hrs x 7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Retinal detachment\nComplete\nvision loss\nDespite treatment, 10% lose vision\nCMV Immune Recovery Uveitis (IRU)\nPatients with retinitis who develop blurry vision after starting HAART need ophtho eval to assess for CMV progression, relapse, or IRU\nPossible cause -  T-cell mediated immune reconstitution to latent CMV intraocular antigens\nSymptoms - Floaters, photophobia, blurred vision\nOccurs median 20 weeks after starting HAART\nUrgent ophtho eval",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "vision loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "HIV - AIDS (Main)\nCytomegalovirus (CMV) infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV - AIDS (Main)",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        },
+        {
+          "text": "Cytomegalovirus (CMV) infection",
+          "url": "https://wikem.org/wiki/Cytomegalovirus_(CMV)_infection"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rothmans RE, Marco CA, Yang S. Human immunodeficiency virus infection and acquired immunodeficiency syndrome, in Tintinalli JE, Stapczynski JS, Ma OJ, et al (eds): Tintinalli’s Emergency Medicine, ed 7. New York, The McGraw-Hill Companies Inc., 2011.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

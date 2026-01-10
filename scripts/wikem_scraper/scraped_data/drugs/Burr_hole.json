@@ -1,0 +1,95 @@
+{
+  "drug_name": "Burr_hole",
+  "url": "https://wikem.org/wiki/Burr_hole",
+  "scraped_at": "2026-01-10T07:49:27.574641",
+  "sections": {
+    "Overview": {
+      "text": "Expanding intracranial hematoma is rapidly fatal and requires early therapeutic intervention. Morbidity/mortality significantly increases if treatment delayed more than 1.9 hours.\n[1]\nOther studies have indicated poor prognosis if treatment delayed beyond 70 minutes.\n[2]\nThis procedure is rarely performed by emergency physicians, and every effort should be made to discuss the patient and plan for procedure with a neurosurgeon prior to intervention.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Epidural\nor\nsubdural\nhematoma with midline shift on imaging and unequal pupils on exam.\n[3]\nGCS <8\nAnticipated extended time to assessment/treatment by neurosurgeon.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "GCS >8\nNeurosurgery available in reasonable timeframe\nLack of imaging-confirmed epidural or subdural hematoma\nIn absence of imaging (e.g. in rural/wilderness area at facility without CT availability), very high clinical suspicion may be enough.\n[3]\ne.g. evidence of severe head trauma and unequal pupils, patient presents awake and talking but rapidly deteriorates in setting of head trauma and unequal pupils, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Considerations": {
+      "text": "Unilateral transtentorial herniation (more common) usually causes ipsilateral fixed and dilated pupil if it localizes\nBilateral transtentorial herniation (less common) due to extensive mass effect or severe trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Cranial access kit\nRazor\nScalpel\nSelf-retaining retractors\nDrill (manual or air/electric powered)\nShould have both sharp (penetrator) and dull drill bits\nor\na drill bit with appropriate \"clutch\" mechanism (preferred)\nBlunt and sharp hooks\nHemostats and forceps\nSterile PPE\nChlorhexidine or betadine\nSterile saline\nElectrocautery (Bovie), if available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Provide\nceftriaxone\nIV for antibiotic prophylaxis after procedure\nTransfer immediately to facility with appropriate ICU and neurosurgical capability",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Bleeding\nInfection\nDamage to brain parenchyma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epidural hemorrhage\nSubdural hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=QeDQZoeg0RA}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=QeDQZoeg0RA}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

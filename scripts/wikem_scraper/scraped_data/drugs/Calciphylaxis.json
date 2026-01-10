@@ -1,0 +1,223 @@
+{
+  "drug_name": "Calciphylaxis",
+  "url": "https://wikem.org/wiki/Calciphylaxis",
+  "scraped_at": "2026-01-10T07:49:37.741878",
+  "sections": {
+    "Background": {
+      "text": "Most commonly seen in\nESRD\npatients on\nhemodialysis\n(~1%)\nSeen almost exclusively in patients with Stage 5 chronic kidney disease\nNo available data in general population (non-uremic calciphylaxis)\nCalcium\nand\nphosphate\nlevels rise beyond solubility and precipitate in arteries\nMay be increasing due to widespread IV vitamin D\nMortality as high as 60-80%;\nsepsis\nfrom necrotic skin lesions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Calcium",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "phosphate",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Very painful\nlesions\ndevelop suddenly and progress rapidly\nDermatologic appearances:\nLivedo reticularis\nStellate purpura\nUsually lower extremities, hands, or torso",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lesions",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Brown recluse spider bite\nBullous pemphigoid\nCellulitis\n,\nnecrotizing fasciitis\nErythema nodosum\nVasculitis\nVenous ulcers\nHypercalcemia\nHyperphosphatemia",
+      "subsections": {
+        "ESRD_Associated_Skin_Conditions": {
+          "text": "Calciphylaxis\nNephrogenic Systemic Fibrosis\n(gadolinium MRI)",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Cardiac tamponade\nPericarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Brown recluse spider bite",
+          "url": "https://wikem.org/wiki/Brown_recluse_spider_bite"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Erythema nodosum",
+          "url": "https://wikem.org/wiki/Erythema_nodosum"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "Nephrogenic Systemic Fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_Systemic_Fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "ESRD_Associated_Skin_Conditions": {
+      "text": "Calciphylaxis\nNephrogenic Systemic Fibrosis\n(gadolinium MRI)",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Cardiac tamponade\nPericarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrogenic Systemic Fibrosis",
+          "url": "https://wikem.org/wiki/Nephrogenic_Systemic_Fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Cardiac tamponade\nPericarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Serum PTH level\nCBC, CMP, phosphate, coags\nInpatient - hepatitis panel, cryofibrinogen level, lipase, ESR, CRP, ANA, ANCA",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Plain radiographs - arborization of vascular calcification within dermis and subQ tissues\nUltrasound may aid in examining for vascular calcification\n[1]",
+          "tables": []
+        },
+        "Biopsy": {
+          "text": "Definitive means of diagnosis\nPunch biopsy from lesion margin by dermatologist or wound surgeon\nCaution in non-ulcerated/necrotic lesions as biopsy site has high likelihood of not healing in true calciphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Labs": {
+      "text": "Serum PTH level\nCBC, CMP, phosphate, coags\nInpatient - hepatitis panel, cryofibrinogen level, lipase, ESR, CRP, ANA, ANCA",
+      "subsections": {
+        "Imaging": {
+          "text": "Plain radiographs - arborization of vascular calcification within dermis and subQ tissues\nUltrasound may aid in examining for vascular calcification\n[1]",
+          "tables": []
+        },
+        "Biopsy": {
+          "text": "Definitive means of diagnosis\nPunch biopsy from lesion margin by dermatologist or wound surgeon\nCaution in non-ulcerated/necrotic lesions as biopsy site has high likelihood of not healing in true calciphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Plain radiographs - arborization of vascular calcification within dermis and subQ tissues\nUltrasound may aid in examining for vascular calcification\n[1]",
+      "subsections": {
+        "Biopsy": {
+          "text": "Definitive means of diagnosis\nPunch biopsy from lesion margin by dermatologist or wound surgeon\nCaution in non-ulcerated/necrotic lesions as biopsy site has high likelihood of not healing in true calciphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Biopsy": {
+      "text": "Definitive means of diagnosis\nPunch biopsy from lesion margin by dermatologist or wound surgeon\nCaution in non-ulcerated/necrotic lesions as biopsy site has high likelihood of not healing in true calciphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Rigorous and continuous control of phosphate and calcium balance\nMedical\nDiscontinue calcium increasing interventions\nIncrease dialysis frequency\nCalcimimetics in hyperparathyroidism\nBisphosphonates\nSodium thiosulfate\n- off-label, increases solubility of calcium deposits\nFix hypercoagulability\nSurgical\nAggressive wound care and debridement of necrotic tissues\nWound VAC\nTotal or subtotal parathyroidectomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sodium thiosulfate",
+          "url": "https://wikem.org/wiki/Sodium_thiosulfate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "drug_name": "Calcitonin",
+  "url": "https://wikem.org/wiki/Calcitonin",
+  "scraped_at": "2026-01-10T07:49:35.920348",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration: SC/IM, nasal\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Hypercalcemia\n: 4 IU/kg SC/IM q12hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "C",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Malignancy risk increased in longterm use",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rhinitis, epistaxis (intranasal)\nArthralgia, back pain\nInjection site reaction\nNausea, abdominal pain, decreased appetite\nHeadache\nFlushing\nAllergic reaction\nEdema of feet\nEye pain\nSubjective fever\nNocturia\nSalty taste",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Malignancy risk increased in longterm use",
+      "subsections": {
+        "Common": {
+          "text": "Rhinitis, epistaxis (intranasal)\nArthralgia, back pain\nInjection site reaction\nNausea, abdominal pain, decreased appetite\nHeadache\nFlushing\nAllergic reaction\nEdema of feet\nEye pain\nSubjective fever\nNocturia\nSalty taste",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Rhinitis, epistaxis (intranasal)\nArthralgia, back pain\nInjection site reaction\nNausea, abdominal pain, decreased appetite\nHeadache\nFlushing\nAllergic reaction\nEdema of feet\nEye pain\nSubjective fever\nNocturia\nSalty taste",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 43min\n[1]\nMetabolism: Renal\nExcretion: Urinary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits osteoclastic bone resorption, decreases serum calcium, and increases renal excretion of phosphate, calcium, sodium magnesium and potassium by decreasing tubular reabsorption\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypercalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        }
+      ]
+    }
+  }
+}

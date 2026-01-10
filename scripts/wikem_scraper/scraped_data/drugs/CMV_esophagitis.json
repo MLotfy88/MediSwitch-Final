@@ -1,0 +1,216 @@
+{
+  "drug_name": "CMV_esophagitis",
+  "url": "https://wikem.org/wiki/CMV_esophagitis",
+  "scraped_at": "2026-01-10T07:49:27.637024",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Cytomegalovirus\n(CMV) gastrointestinal disease is an uncommon but serious complication of\nAIDS\n.\nThe diagnosis of CMV gastrointestinal disease should be suspected in patients with CD4 cell counts <50 cells/microL who present with symptoms of esophagitis, gastritis, enteritis, or colitis.\nThe incidence of CMV gastrointestinal disease has decreased substantially since antiretroviral therapy (ART) became available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Odynophagia\nDysphagia\nFever\nNausea\nSubsternal\nburning pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Esophagitis_Types": {
+          "text": "Inflammatory\nGERD\nAllergic (eosinophilic)\nInfectious\nMainly seen in patients w/ immunosuppression (\nHIV\n/AIDS, cancer,\nsteroids\n)\nEsophageal candidiasis\n: often an\nAIDS\ndefining lesion\nHSV\nCMV esophagitis\naphthous ulceration\nMedication-induced (i.e. \"pill\") esophagitis, common culprits:\nDoxycycline\nTetracycline\nClindamycin\nNSAIDs\nASA\nBisphosphonates\nFerrous sulfate\nPotassium chloride\nAscorbic acid",
+          "tables": []
+        },
+        "CMV_Diseases": {
+          "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "aphthous ulceration",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "Esophagitis_Types": {
+      "text": "Inflammatory\nGERD\nAllergic (eosinophilic)\nInfectious\nMainly seen in patients w/ immunosuppression (\nHIV\n/AIDS, cancer,\nsteroids\n)\nEsophageal candidiasis\n: often an\nAIDS\ndefining lesion\nHSV\nCMV esophagitis\naphthous ulceration\nMedication-induced (i.e. \"pill\") esophagitis, common culprits:\nDoxycycline\nTetracycline\nClindamycin\nNSAIDs\nASA\nBisphosphonates\nFerrous sulfate\nPotassium chloride\nAscorbic acid",
+      "subsections": {
+        "CMV_Diseases": {
+          "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "aphthous ulceration",
+          "url": "https://wikem.org/wiki/Aphthous_stomatitis"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "CMV_Diseases": {
+      "text": "CMV esophagitis\nCMV colitis\nCMV pneumonia\nCMV retinitis\nCMV neurologic disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "CMV neurologic disease",
+          "url": "https://wikem.org/wiki/CMV_neurologic_disease"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Ganciclovir\n: 5mg/kg/dose IV q12h\nFoscarnet\n: 60mg/kg/dose q8h or 90mg/kg/dose q12h\nValganciclovir\n: 900mg PO twice daily\nMay be used for induction therapy, in place of intravenous\nganciclovir\n, in patients who can tolerate and absorb oral medications\nThe recommended duration of therapy for CMV gastrointestinal disease in patients with AIDS is 3-6 weeks\nChronic maintenance therapy is not recommended for CMV gastrointestinal disease unless there is concurrent retinitis or recurrent gastrointestinal disease after induction therapy has been discontinued.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cytomegalovirus (CMV) infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

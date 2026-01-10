@@ -1,0 +1,312 @@
+{
+  "drug_name": "Calcaneal_bursitis",
+  "url": "https://wikem.org/wiki/Calcaneal_bursitis",
+  "scraped_at": "2026-01-10T07:49:35.196269",
+  "sections": {
+    "Background": {
+      "text": "Can be subdivided into two separate entities:  Retrocalcaneal and Retroachilles bursitis\nRetrocalcaneal bursitis\n- Inflammation of the bursa located posterior to the calacaneal bone, anterior to the achilles tendon\nRetroachilles bursitis\n- Inflammation of the bursa located between the achilles tendon and posterior skin, adjacent to the insertion of the achilles tendon on the calcaneous",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_features": {
+      "text": "Pain localized anterior and 2-3cm proximal to insertion of achilles tendon\nPain with dorsiflexion\nTenderness and fullness medial and lateral to tendon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Retrocalcaneal bursitis\nRetroachilles bursitis\nSeptic bursitis\nSeptic arthritis\nCalcaneus fracture\nFriction blister",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        },
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        },
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        },
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        },
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Calf_pain": {
+      "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Achilles tendon rupture",
+          "url": "https://wikem.org/wiki/Achilles_tendon_rupture"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Conservative management is first-line\nRest, Ice, Compression, Elevation\nAchilles padding in shoe wear\nPhysical therapy → achilles stretching\nNSAIDs\nBursa aspiration\nAvoid steroid injections secondary to risk of achilles rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically discharge home",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Septic bursitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Orthobullets - Achilles Tendonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

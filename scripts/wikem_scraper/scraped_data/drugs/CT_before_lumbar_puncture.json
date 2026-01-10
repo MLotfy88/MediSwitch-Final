@@ -1,0 +1,24 @@
+{
+  "drug_name": "CT_before_lumbar_puncture",
+  "url": "https://wikem.org/wiki/CT_before_lumbar_puncture",
+  "scraped_at": "2026-01-10T07:49:31.327876",
+  "sections": {
+    "Intro": {
+      "text": "LP without CT is likely safe if:\n[1]\nHistory\nAge < 60\nNot immunocompromised\nNo history of CNS disease\nNo\nseizure\nwithin 1 week of presentation\nPhysical Exam\nNo\naltered level of consciousness\nAbility to answer two consecutive questions successfully\nAbility to follow two consecutive commands successfully\nNormal\nneurologic exam\nAge < 60\nNot immunocompromised\nNo history of CNS disease\nNo\nseizure\nwithin 1 week of presentation\nNo\naltered level of consciousness\nAbility to answer two consecutive questions successfully\nAbility to follow two consecutive commands successfully\nNormal\nneurologic exam\nAbility to answer two consecutive questions successfully\nAbility to follow two consecutive commands successfully\nIf none of the above, chance of normal ct is 97%; none of the patients herniated\nCT findings that prohibit LP:\n[2]\nMidline shift\nUnequal pressures between the 3 cerebral compartments (left/right supretentorial compartments, posterior fossa)\nIntracerebral masses not causing midline shift\nObstructive\nHydrocephalus\nEnlargement of ventricles prox to lesions and normal ventricles distal (especially 4th ventricle)\nBasilar cisterns compressed\nLateral/3rd ventricles may be small due to diffuse cerebral edema or enlarged due to obstr. hydroceph. +/- shift\nPosterior fossa mass\nDisplacement/compression of 4th ventricle\nUnequal pressures between the 3 cerebral compartments (left/right supretentorial compartments, posterior fossa)\nIntracerebral masses not causing midline shift\nEnlargement of ventricles prox to lesions and normal ventricles distal (especially 4th ventricle)\nLateral/3rd ventricles may be small due to diffuse cerebral edema or enlarged due to obstr. hydroceph. +/- shift\nDisplacement/compression of 4th ventricle\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Lumbar Puncture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        }
+      ]
+    }
+  }
+}

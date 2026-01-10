@@ -1,0 +1,104 @@
+{
+  "drug_name": "C1_inhibitor",
+  "url": "https://wikem.org/wiki/C1_inhibitor",
+  "scraped_at": "2026-01-10T07:49:27.021888",
+  "sections": {
+    "Administration": {
+      "text": "Type: human C1 inhibitor (plasma product)\nDosage Forms: 20 iU/kg\nRoutes of Administration: IV/SQ\nCommon Trade Names: Cinryze, Berinert",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Angioedema": {
+          "text": "1000 units if ≤50kg\n1500 units if >50-75kg\n2000 units if >75-100kg\n2500 units if >100kg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Angioedema": {
+      "text": "1000 units if ≤50kg\n1500 units if >50-75kg\n2000 units if >75-100kg\n2500 units if >100kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

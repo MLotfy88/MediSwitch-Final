@@ -1,0 +1,80 @@
+{
+  "drug_name": "CMV_pneumonia",
+  "url": "https://wikem.org/wiki/CMV_pneumonia",
+  "scraped_at": "2026-01-10T07:49:31.114600",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Immunocompetent: mild, if any, symptoms consisting of\nviral syndrome\n,\ncough\nImmunocompromised (e.g.\nAIDS\n,\nbone marrow transplant\n, etc.): can have severe\nrespiratory distress\n,\nsepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "bone marrow transplant",
+          "url": "https://wikem.org/wiki/Bone_marrow_transplant"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Antivirals": {
+          "text": "Ganciclovir\n5mg/kg IV q12hrs x 3 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        }
+      ]
+    },
+    "Antivirals": {
+      "text": "Ganciclovir\n5mg/kg IV q12hrs x 3 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cytomegalovirus (CMV) infection\nPneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cytomegalovirus (CMV) infection",
+          "url": "https://wikem.org/wiki/Cytomegalovirus_(CMV)_infection"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    }
+  }
+}
