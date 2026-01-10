@@ -1,0 +1,497 @@
+{
+  "drug_name": "Ischemic_colitis",
+  "url": "https://wikem.org/wiki/Ischemic_colitis",
+  "scraped_at": "2026-01-10T07:55:49.247226",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Intestinal_Ischemic_Disorder_Types": {
+          "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Constipation\n(increased intraluminal pressure compresses vessels)\nIBS\nVascular risk factors\nCOPD\n(risk doubles)\n[2]\nFemales > Males",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Intestinal_Ischemic_Disorder_Types": {
+      "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Constipation\n(increased intraluminal pressure compresses vessels)\nIBS\nVascular risk factors\nCOPD\n(risk doubles)\n[2]\nFemales > Males",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Constipation\n(increased intraluminal pressure compresses vessels)\nIBS\nVascular risk factors\nCOPD\n(risk doubles)\n[2]\nFemales > Males",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "*Consider in all patients patients ≥50 years old with acute-onset abdominal pain and cardiovascular morbidities.\n[3]\nTypically presents with:\nBloody diarrhea\nDiffuse\nabdominal pain",
+      "subsections": {
+        "Precipitants": {
+          "text": "Can be precipitated by any illness that decreases flow to the colon.\nHypovolemia\nBlood loss\nDialysis\nAnaphylaxis\nPancreatitis\nDrugs\n:\nNSAIDs\nCocaine\nAnti-hypertensives\nDiuretics\nDigitalis\nCarboplatin-paclitaxel\nVasopressors\nPseudoephedrine\nTriptans\nInterferon-\nRibavirin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Precipitants": {
+      "text": "Can be precipitated by any illness that decreases flow to the colon.\nHypovolemia\nBlood loss\nDialysis\nAnaphylaxis\nPancreatitis\nDrugs\n:\nNSAIDs\nCocaine\nAnti-hypertensives\nDiuretics\nDigitalis\nCarboplatin-paclitaxel\nVasopressors\nPseudoephedrine\nTriptans\nInterferon-\nRibavirin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Colitis": {
+          "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+          "tables": []
+        },
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Colitis": {
+      "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC to evaluate for quantity of blood loss\nCMP to evaluate for acute renal injury\nCT Abdomen and Pelvis with Contrast to evaluate for intestinal inflammation.\nMay consider CTA to rule out mesenteric ischemia, but will rarely show large vessel occlusion.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is typically determined on abdominopelvic CT\nIschemic colitis most likely when found in splenic flexure or sigmoid colon.  Ischemic colitis unlikely for colitis that localizes to other areas",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC to evaluate for quantity of blood loss\nCMP to evaluate for acute renal injury\nCT Abdomen and Pelvis with Contrast to evaluate for intestinal inflammation.\nMay consider CTA to rule out mesenteric ischemia, but will rarely show large vessel occlusion.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is typically determined on abdominopelvic CT\nIschemic colitis most likely when found in splenic flexure or sigmoid colon.  Ischemic colitis unlikely for colitis that localizes to other areas",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is typically determined on abdominopelvic CT\nIschemic colitis most likely when found in splenic flexure or sigmoid colon.  Ischemic colitis unlikely for colitis that localizes to other areas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotics\n, if the patient has any of the factors associated with severe disease.\n[4]\nEmergent surgical consultation for:\n[5]\nPeritoneal signs\nPneumatosis coli\nPortal venous gas\nPan-colonic distribution, or\nIsolated right-colon ischemia on imaging\nImproved hydration\nAvoid\nNSAIDs\nBowel rest with clear liquid diet",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit patient with more severe symptoms.  Pain uncontrolled, large volume blood loss, unable to tolerate PO.\n[6]\nMost patients can be discharged\nNeed follow up colonoscopy in months to ensure no underlying etiology.\nEnsure future workup for younger patients\nMore likely to have underlying vasculitis or other cause.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Colitis\nMesenteric ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Shannon Thompson. Ischemic Colitis: ED Presentations, Evaluation, and Management emDOCs.net",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

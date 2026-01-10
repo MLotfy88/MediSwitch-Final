@@ -1,0 +1,50 @@
+{
+  "drug_name": "Intestinal_ischemia",
+  "url": "https://wikem.org/wiki/Intestinal_ischemia",
+  "scraped_at": "2026-01-10T07:55:39.784357",
+  "sections": {
+    "Background": {
+      "text": "Defined as a reduction of blood to the small and/or large intestines. May be acute or chronic.",
+      "subsections": {
+        "Intestinal_Ischemic_Disorder_Types": {
+          "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Intestinal_Ischemic_Disorder_Types": {
+      "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    }
+  }
+}

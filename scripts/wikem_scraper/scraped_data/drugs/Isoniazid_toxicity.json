@@ -1,0 +1,287 @@
+{
+  "drug_name": "Isoniazid_toxicity",
+  "url": "https://wikem.org/wiki/Isoniazid_toxicity",
+  "scraped_at": "2026-01-10T07:55:55.239196",
+  "sections": {
+    "Background": {
+      "text": "Isoniazid\n(INH) used for latent and active\nTB\ntreatment",
+      "subsections": {
+        "Toxicology": {
+          "text": "Isoniazid’s metabolites restrict the conversion of pyridoxine to pyrodoxal-5’-phosphate and binds to pyridoxine, facilitating its excretion in the urine\nLoss of pyridoxine leads to decreased GABA synthesis due to the decreased function of glutamic acid decarboxylase (GAD)\nAnion gap acidosis\nlikely results from lactic acid buildup as a consequence of persistent seizure activity\nFinally come due to decreased catecholamine synthesis secondary to pyridoxine depletion",
+          "tables": []
+        },
+        "Toxic_Dose": {
+          "text": "2-3g ingested can lead to symptoms, 10-15g can lead to death\n[1]",
+          "tables": []
+        },
+        "Pharmacology": {
+          "text": "Absorbed via GI tract (small intestine), peak concentrations at 1-2 hours after ingestion\nVolume of Distribution: 0.6L/kg",
+          "tables": []
+        },
+        "Metabolism": {
+          "text": "Clearance of 46mL/min, metabolized by acetylation.\nT\n1/2\nfor fast acetylators = 70 minutes\nT\n1/2\nfor slow acetylators = 3 hours",
+          "tables": []
+        },
+        "Excretion": {
+          "text": "Via kidneys with levels successfully measured in urine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Toxicology": {
+      "text": "Isoniazid’s metabolites restrict the conversion of pyridoxine to pyrodoxal-5’-phosphate and binds to pyridoxine, facilitating its excretion in the urine\nLoss of pyridoxine leads to decreased GABA synthesis due to the decreased function of glutamic acid decarboxylase (GAD)\nAnion gap acidosis\nlikely results from lactic acid buildup as a consequence of persistent seizure activity\nFinally come due to decreased catecholamine synthesis secondary to pyridoxine depletion",
+      "subsections": {
+        "Toxic_Dose": {
+          "text": "2-3g ingested can lead to symptoms, 10-15g can lead to death\n[1]",
+          "tables": []
+        },
+        "Pharmacology": {
+          "text": "Absorbed via GI tract (small intestine), peak concentrations at 1-2 hours after ingestion\nVolume of Distribution: 0.6L/kg",
+          "tables": []
+        },
+        "Metabolism": {
+          "text": "Clearance of 46mL/min, metabolized by acetylation.\nT\n1/2\nfor fast acetylators = 70 minutes\nT\n1/2\nfor slow acetylators = 3 hours",
+          "tables": []
+        },
+        "Excretion": {
+          "text": "Via kidneys with levels successfully measured in urine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        }
+      ]
+    },
+    "Toxic_Dose": {
+      "text": "2-3g ingested can lead to symptoms, 10-15g can lead to death\n[1]",
+      "subsections": {
+        "Pharmacology": {
+          "text": "Absorbed via GI tract (small intestine), peak concentrations at 1-2 hours after ingestion\nVolume of Distribution: 0.6L/kg",
+          "tables": []
+        },
+        "Metabolism": {
+          "text": "Clearance of 46mL/min, metabolized by acetylation.\nT\n1/2\nfor fast acetylators = 70 minutes\nT\n1/2\nfor slow acetylators = 3 hours",
+          "tables": []
+        },
+        "Excretion": {
+          "text": "Via kidneys with levels successfully measured in urine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Absorbed via GI tract (small intestine), peak concentrations at 1-2 hours after ingestion\nVolume of Distribution: 0.6L/kg",
+      "subsections": {
+        "Metabolism": {
+          "text": "Clearance of 46mL/min, metabolized by acetylation.\nT\n1/2\nfor fast acetylators = 70 minutes\nT\n1/2\nfor slow acetylators = 3 hours",
+          "tables": []
+        },
+        "Excretion": {
+          "text": "Via kidneys with levels successfully measured in urine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Metabolism": {
+      "text": "Clearance of 46mL/min, metabolized by acetylation.\nT\n1/2\nfor fast acetylators = 70 minutes\nT\n1/2\nfor slow acetylators = 3 hours",
+      "subsections": {
+        "Excretion": {
+          "text": "Via kidneys with levels successfully measured in urine\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Excretion": {
+      "text": "Via kidneys with levels successfully measured in urine\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Signs_and_Symptoms": {
+          "text": "Seizure\nMetabolic Acidosis\nComa\nSigns and symptoms can appear 30 minutes after ingestion, with more severe symptoms including persistent seizures, metabolic acidosis, and coma\nHepatotoxicity\nMost common side effect and more frequent with  slow acetylators, the elderly, and those with preexisting liver disease\nApproximately 20% of patients on isoniazid therapy can have elevated liver enzymes\nTreatment is stopped when levels reach three times the upper limit of normal with symptoms or five times the limit of normal without\n[1]\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Metabolic Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        }
+      ]
+    },
+    "Signs_and_Symptoms": {
+      "text": "Seizure\nMetabolic Acidosis\nComa\nSigns and symptoms can appear 30 minutes after ingestion, with more severe symptoms including persistent seizures, metabolic acidosis, and coma\nHepatotoxicity\nMost common side effect and more frequent with  slow acetylators, the elderly, and those with preexisting liver disease\nApproximately 20% of patients on isoniazid therapy can have elevated liver enzymes\nTreatment is stopped when levels reach three times the upper limit of normal with symptoms or five times the limit of normal without\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Metabolic Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Seizures refractory to conventional treatment are hallmarks of isoniazid toxicity\nClinical history is extremely important in evaluating for isoniazid toxicity (i.e. dosing history, duration of treatment, estimated dose taken)\nElevated anion-gap metabolic acidosis with elevated lactate in the appropriate clinical setting AND refractory seizures should raise suspicion\nINH levels can be measured but results may not immediately be available\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Focus on aggressive supportive care and hemodynamic stabilization with early pyridoxine administration\nPyridoxine does not reverse hepatic injury that can result from chronic toxicity.\n[3]",
+      "subsections": {
+        "Activated_Charcoal": {
+          "text": "If ingestion occurred within an hour of presentation, activated charcoal with cathartics may be necessary to restrict absorption and to facilitate excretion via the GI tract",
+          "tables": []
+        },
+        "Benzos": {
+          "text": "May not be effective but will activate the GABA receptors and halt seizure activity",
+          "tables": []
+        },
+        "Pyridoxine": {
+          "text": "Known INH quantity\ningested - treat with with a\n1:1 ingested isoniazid:administered pyridoxine\ndose ratio\nUnknown INH quantity\ningested - treat with empiric 5g of pyridoxine\nChildren\n- start 70mg/kg (max 5 gm)\n[4]\nIV infusion rate is 1 g/min until the seizures stop or the maximum dose is reached. Remainder of dose infused over 4 to 6 hours\nPyridoxine administration may temporarily worsen the metabolic acidosis\nIf seizures persist repeat dosing is encouraged based on initial dosing.\nOral tablets may be only form of pyridoxine available at many hospitals. The tablets can be crushed and administered with fluids via a nasogastric tube while arranging for transfer.\n[5]",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Can clear lactate and isoniazid from the bloodstream effectively and can be used as a final measure to increase clearance if needed.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Activated_Charcoal": {
+      "text": "If ingestion occurred within an hour of presentation, activated charcoal with cathartics may be necessary to restrict absorption and to facilitate excretion via the GI tract",
+      "subsections": {
+        "Benzos": {
+          "text": "May not be effective but will activate the GABA receptors and halt seizure activity",
+          "tables": []
+        },
+        "Pyridoxine": {
+          "text": "Known INH quantity\ningested - treat with with a\n1:1 ingested isoniazid:administered pyridoxine\ndose ratio\nUnknown INH quantity\ningested - treat with empiric 5g of pyridoxine\nChildren\n- start 70mg/kg (max 5 gm)\n[4]\nIV infusion rate is 1 g/min until the seizures stop or the maximum dose is reached. Remainder of dose infused over 4 to 6 hours\nPyridoxine administration may temporarily worsen the metabolic acidosis\nIf seizures persist repeat dosing is encouraged based on initial dosing.\nOral tablets may be only form of pyridoxine available at many hospitals. The tablets can be crushed and administered with fluids via a nasogastric tube while arranging for transfer.\n[5]",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Can clear lactate and isoniazid from the bloodstream effectively and can be used as a final measure to increase clearance if needed.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Benzos": {
+      "text": "May not be effective but will activate the GABA receptors and halt seizure activity",
+      "subsections": {
+        "Pyridoxine": {
+          "text": "Known INH quantity\ningested - treat with with a\n1:1 ingested isoniazid:administered pyridoxine\ndose ratio\nUnknown INH quantity\ningested - treat with empiric 5g of pyridoxine\nChildren\n- start 70mg/kg (max 5 gm)\n[4]\nIV infusion rate is 1 g/min until the seizures stop or the maximum dose is reached. Remainder of dose infused over 4 to 6 hours\nPyridoxine administration may temporarily worsen the metabolic acidosis\nIf seizures persist repeat dosing is encouraged based on initial dosing.\nOral tablets may be only form of pyridoxine available at many hospitals. The tablets can be crushed and administered with fluids via a nasogastric tube while arranging for transfer.\n[5]",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Can clear lactate and isoniazid from the bloodstream effectively and can be used as a final measure to increase clearance if needed.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pyridoxine": {
+      "text": "Known INH quantity\ningested - treat with with a\n1:1 ingested isoniazid:administered pyridoxine\ndose ratio\nUnknown INH quantity\ningested - treat with empiric 5g of pyridoxine\nChildren\n- start 70mg/kg (max 5 gm)\n[4]\nIV infusion rate is 1 g/min until the seizures stop or the maximum dose is reached. Remainder of dose infused over 4 to 6 hours\nPyridoxine administration may temporarily worsen the metabolic acidosis\nIf seizures persist repeat dosing is encouraged based on initial dosing.\nOral tablets may be only form of pyridoxine available at many hospitals. The tablets can be crushed and administered with fluids via a nasogastric tube while arranging for transfer.\n[5]",
+      "subsections": {
+        "Hemodialysis": {
+          "text": "Can clear lactate and isoniazid from the bloodstream effectively and can be used as a final measure to increase clearance if needed.\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hemodialysis": {
+      "text": "Can clear lactate and isoniazid from the bloodstream effectively and can be used as a final measure to increase clearance if needed.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patient will likely require admission and potentially ICU care for continued monitoring and evaluation\nIf the patient has active\nTB\nalso keep in respiratory isolation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Seizure (Peds)\nSeizures\nAntidotes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure (Peds)",
+          "url": "https://wikem.org/wiki/Seizure_(Peds)"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        }
+      ]
+    }
+  }
+}

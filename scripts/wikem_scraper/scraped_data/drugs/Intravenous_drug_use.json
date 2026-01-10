@@ -1,0 +1,705 @@
+{
+  "drug_name": "Intravenous_drug_use",
+  "url": "https://wikem.org/wiki/Intravenous_drug_use",
+  "scraped_at": "2026-01-10T07:55:42.151461",
+  "sections": {
+    "Background": {
+      "text": "Complications of intravenous drug use span all organ systems (in addition to the\nToxidromes\nrelated to the specific chemical used).",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        }
+      ]
+    },
+    "Complications_by_System": {
+      "text": "",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Endocarditis\nACS\nAortic Dissection\nPseudo aneurysm",
+          "tables": []
+        },
+        "Soft_Tissue_Infections": {
+          "text": "Necrotizing fasciitis\nPyomyositis\nSubcutaneous abscess",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "PE\nTalcosis (trash lung)\nPulmonary hypertension\nPneumothorax\n(usually due to injecting in neck vessels)",
+          "tables": []
+        },
+        "Skeletal": {
+          "text": "Osteomyelitis\nDiskitis\nEpidural Abscess (Spinal)\nVertebral Osteomyelitis\nSternal joint osteomyelitis\nDVT",
+          "tables": []
+        },
+        "Central_Nervous_System": {
+          "text": "Endocarditis\nSAH\n- especially with sympathomimetics such as methamphetamine and cocaine\nBrain abscess\nSubdural empyema\nBotulism\n- especially with \"skin popping\" of black tar heroine\nCVA",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Fungal endophthalmitis\nAmaurosis fugax",
+          "tables": []
+        },
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diskitis",
+          "url": "https://wikem.org/wiki/Diskitis"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral Osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_Osteomyelitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Endocarditis\nACS\nAortic Dissection\nPseudo aneurysm",
+      "subsections": {
+        "Soft_Tissue_Infections": {
+          "text": "Necrotizing fasciitis\nPyomyositis\nSubcutaneous abscess",
+          "tables": []
+        },
+        "Pulmonary": {
+          "text": "PE\nTalcosis (trash lung)\nPulmonary hypertension\nPneumothorax\n(usually due to injecting in neck vessels)",
+          "tables": []
+        },
+        "Skeletal": {
+          "text": "Osteomyelitis\nDiskitis\nEpidural Abscess (Spinal)\nVertebral Osteomyelitis\nSternal joint osteomyelitis\nDVT",
+          "tables": []
+        },
+        "Central_Nervous_System": {
+          "text": "Endocarditis\nSAH\n- especially with sympathomimetics such as methamphetamine and cocaine\nBrain abscess\nSubdural empyema\nBotulism\n- especially with \"skin popping\" of black tar heroine\nCVA",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Fungal endophthalmitis\nAmaurosis fugax",
+          "tables": []
+        },
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diskitis",
+          "url": "https://wikem.org/wiki/Diskitis"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral Osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_Osteomyelitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Soft_Tissue_Infections": {
+      "text": "Necrotizing fasciitis\nPyomyositis\nSubcutaneous abscess",
+      "subsections": {
+        "Pulmonary": {
+          "text": "PE\nTalcosis (trash lung)\nPulmonary hypertension\nPneumothorax\n(usually due to injecting in neck vessels)",
+          "tables": []
+        },
+        "Skeletal": {
+          "text": "Osteomyelitis\nDiskitis\nEpidural Abscess (Spinal)\nVertebral Osteomyelitis\nSternal joint osteomyelitis\nDVT",
+          "tables": []
+        },
+        "Central_Nervous_System": {
+          "text": "Endocarditis\nSAH\n- especially with sympathomimetics such as methamphetamine and cocaine\nBrain abscess\nSubdural empyema\nBotulism\n- especially with \"skin popping\" of black tar heroine\nCVA",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Fungal endophthalmitis\nAmaurosis fugax",
+          "tables": []
+        },
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diskitis",
+          "url": "https://wikem.org/wiki/Diskitis"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral Osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_Osteomyelitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Pulmonary": {
+      "text": "PE\nTalcosis (trash lung)\nPulmonary hypertension\nPneumothorax\n(usually due to injecting in neck vessels)",
+      "subsections": {
+        "Skeletal": {
+          "text": "Osteomyelitis\nDiskitis\nEpidural Abscess (Spinal)\nVertebral Osteomyelitis\nSternal joint osteomyelitis\nDVT",
+          "tables": []
+        },
+        "Central_Nervous_System": {
+          "text": "Endocarditis\nSAH\n- especially with sympathomimetics such as methamphetamine and cocaine\nBrain abscess\nSubdural empyema\nBotulism\n- especially with \"skin popping\" of black tar heroine\nCVA",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Fungal endophthalmitis\nAmaurosis fugax",
+          "tables": []
+        },
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diskitis",
+          "url": "https://wikem.org/wiki/Diskitis"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral Osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_Osteomyelitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Skeletal": {
+      "text": "Osteomyelitis\nDiskitis\nEpidural Abscess (Spinal)\nVertebral Osteomyelitis\nSternal joint osteomyelitis\nDVT",
+      "subsections": {
+        "Central_Nervous_System": {
+          "text": "Endocarditis\nSAH\n- especially with sympathomimetics such as methamphetamine and cocaine\nBrain abscess\nSubdural empyema\nBotulism\n- especially with \"skin popping\" of black tar heroine\nCVA",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Fungal endophthalmitis\nAmaurosis fugax",
+          "tables": []
+        },
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diskitis",
+          "url": "https://wikem.org/wiki/Diskitis"
+        },
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Vertebral Osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_Osteomyelitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Central_Nervous_System": {
+      "text": "Endocarditis\nSAH\n- especially with sympathomimetics such as methamphetamine and cocaine\nBrain abscess\nSubdural empyema\nBotulism\n- especially with \"skin popping\" of black tar heroine\nCVA",
+      "subsections": {
+        "Ocular": {
+          "text": "Fungal endophthalmitis\nAmaurosis fugax",
+          "tables": []
+        },
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Ocular": {
+      "text": "Fungal endophthalmitis\nAmaurosis fugax",
+      "subsections": {
+        "Hematogenous": {
+          "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+          "tables": []
+        },
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Hematogenous": {
+      "text": "Sepsis\nNeutropenic Fever\nNeutropenia (esp. if using cocaine mixed with levimasole\n[1]\n)",
+      "subsections": {
+        "Infectious_Disease": {
+          "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Infectious_Disease": {
+      "text": "Cotton fever\nOccurs when cotton is used to filter drugs like heroin and due to the exotoxin from Pantoea agglomerans which colonizes cotton plants\n[2]\nHIV\nrelated\nToxoplasmosis\nLymphoma\nTB",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    }
+  }
+}

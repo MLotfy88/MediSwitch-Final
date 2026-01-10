@@ -1,0 +1,587 @@
+{
+  "drug_name": "Internal_hemorrhoid",
+  "url": "https://wikem.org/wiki/Internal_hemorrhoid",
+  "scraped_at": "2026-01-10T07:55:44.388998",
+  "sections": {
+    "Background": {
+      "text": "Pathologic state cccurs when internal or external hemorrhoid plexus become engorged, prolapsed, or thrombosed\nBleeding is usually limited (surface of stool, on toilet tissue, at end of defecation)\nPassage of blood clots requires evaluation for colon lesions",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Constipation\nand straining at stool\nFrequent\ndiarrhea\nOlder age\nIBD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Constipation\nand straining at stool\nFrequent\ndiarrhea\nOlder age\nIBD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Occur proximal to dentate line\nConstant in their location: 2-, 5-, and 9-o'clock positions (when patient viewed prone)\nNot readily palpable; best visualized through\nanoscope\nMay be palpable when prolapsed or thrombosed\nPainless\nbleeding\nOnly painful when nonreducible, strangulation of prolapsed hemorrhoid, or thrombosis (these can lead to infection/necrosis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Undifferentiated_lower_gastrointestinal_bleeding": {
+          "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        },
+        "Undifferentiated_lower_gastrointestinal_bleeding": {
+          "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Undifferentiated_lower_gastrointestinal_bleeding": {
+      "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Internal_hemorrhoid_chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Description": "Luminal protrusion above dentate lineNo prolapsePainless bleeding",
+                "Diagram": "",
+                "Picture": ""
+              },
+              {
+                "Grade": "II",
+                "Description": "Prolapse with spontaneous reductionProlapse during straining",
+                "Diagram": "",
+                "Picture": ""
+              },
+              {
+                "Grade": "III",
+                "Description": "Prolapse requires manual reductionProlapse during straining",
+                "Diagram": "",
+                "Picture": ""
+              },
+              {
+                "Grade": "IV",
+                "Description": "Prolapse—nonreducibleCan result in edema and strangulation",
+                "Diagram": "",
+                "Picture": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Internal_hemorrhoid_chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade": "I",
+            "Description": "Luminal protrusion above dentate lineNo prolapsePainless bleeding",
+            "Diagram": "",
+            "Picture": ""
+          },
+          {
+            "Grade": "II",
+            "Description": "Prolapse with spontaneous reductionProlapse during straining",
+            "Diagram": "",
+            "Picture": ""
+          },
+          {
+            "Grade": "III",
+            "Description": "Prolapse requires manual reductionProlapse during straining",
+            "Diagram": "",
+            "Picture": ""
+          },
+          {
+            "Grade": "IV",
+            "Description": "Prolapse—nonreducibleCan result in edema and strangulation",
+            "Diagram": "",
+            "Picture": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Conservative treatment\nIndicated for mild to moderate symptomatic patients with grade 1 to grade 3 hemorrhoids\nStool softeners (\npsyllium\n), high-fiber diet, topical analgesics\nAvoid\nlaxatives\ncausing liquid stool (can lead to\ncryptitis\nand anal\nsepsis\n)\nSitz bath 15min TID and after each bowel movement (decreases sphincter pressure)\nOutpatient surgical referral\nProlapsed hemorrhoid in patient with minimal symptoms can be manually reduced\nEmergent surgical consultation and intervention is indicated for:\nContinued and severe bleeding\nIncarceration and/or strangulation (grade 4 hemorrhoids)\nIntractable pain",
+      "subsections": {
+        "Prolapse": {
+          "text": "When prolapse occurs may develop mucous discharge and pruritus ani\nIf prolapse cannot be reduced progressive edema and strangulation may result\nOther complications: severe bleeding, thrombosis, infarction, gangrene, sepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prolapse": {
+      "text": "When prolapse occurs may develop mucous discharge and pruritus ani\nIf prolapse cannot be reduced progressive edema and strangulation may result\nOther complications: severe bleeding, thrombosis, infarction, gangrene, sepsis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally may be discharged (unless need for surgical intervention)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal Disorders\nHemorrhoids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

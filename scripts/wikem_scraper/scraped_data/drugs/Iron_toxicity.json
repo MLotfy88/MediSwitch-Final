@@ -1,0 +1,999 @@
+{
+  "drug_name": "Iron_toxicity",
+  "url": "https://wikem.org/wiki/Iron_toxicity",
+  "scraped_at": "2026-01-10T07:55:47.071952",
+  "sections": {
+    "Background": {
+      "text": "Iron is the 4th most abundant atomic element in the earth's crust\nBiologically a component of hemoglobin, myoglobin, catalase, xanthine oxidase, etc\nUptake highly regulated\nAmount of elemental iron ingested determines the risk, not the amount of iron salt\n[1]",
+      "subsections": {
+        "Elemental_Iron_Percentages": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Iron Preparation": "Ferrous Fumarate",
+                "% of Elemental Iron": "33%"
+              },
+              {
+                "Iron Preparation": "Ferrous Sulfate",
+                "% of Elemental Iron": "20%"
+              },
+              {
+                "Iron Preparation": "Ferrous Gluconate",
+                "% of Elemental Iron": "12%"
+              },
+              {
+                "Iron Preparation": "Ferric pyrophosphate",
+                "% of Elemental Iron": "30%"
+              },
+              {
+                "Iron Preparation": "Ferroglycine sulfate",
+                "% of Elemental Iron": "16%"
+              },
+              {
+                "Iron Preparation": "Ferrous carbonate (anhydrous)",
+                "% of Elemental Iron": "38%"
+              }
+            ]
+          ]
+        },
+        "Toxicity": {
+          "text": "Toxicity determined by mg/kg of elemental iron ingested\n[2]\n^Total amount of elemental iron ingested calculated by multiplying estimated number of tablets by the percentages of iron in the tablet preparation (see above)",
+          "tables": [
+            [
+              {
+                "Severity": "Mild",
+                "Elemental Iron Dose (mg/kg)^": "10-20"
+              },
+              {
+                "Severity": "Moderate",
+                "Elemental Iron Dose (mg/kg)^": "20-60"
+              },
+              {
+                "Severity": "Severe",
+                "Elemental Iron Dose (mg/kg)^": ">60"
+              }
+            ]
+          ]
+        },
+        "Pathophysiology": {
+          "text": "Direct caustic injury to gastric mucosa\n[3]\nOccurs early, usually within several hours\nCausing vomiting, diarrhea, abdominal pain, and GI bleeding\nUsually affects, the stomach, duodenum, colon rarely affected\nCan lead to formation of gastric strictures 2-8 weeks post-ingestion\nImpaired cellular metabolism\nInhibiting the electron transport chain causes lactic acidosis\nDirect hepatic, CNS, and cardiac toxicity (decreased CO and myocardial contractility)\nCell membrane injury from lipid peroxidation\n[4]\nIncreased capillary permeability\nHypotension\nVenodilation\nHypovolemic shock\nPortal vein iron delivery to liver\nOverwhelm storage capacity of Ferritin\nHepatotoxicity (cloudy swelling, periportal hepatic necrosis, elevated transaminases)\nDestroys hepatic mitochondria, disrupts oxidative phosphorylation → worsening metabolic acidosis\nThrombin formation inhibition\nCoagulopathy - direct effect on vitamin K clotting factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elemental_Iron_Percentages": {
+      "text": "",
+      "subsections": {
+        "Toxicity": {
+          "text": "Toxicity determined by mg/kg of elemental iron ingested\n[2]\n^Total amount of elemental iron ingested calculated by multiplying estimated number of tablets by the percentages of iron in the tablet preparation (see above)",
+          "tables": [
+            [
+              {
+                "Severity": "Mild",
+                "Elemental Iron Dose (mg/kg)^": "10-20"
+              },
+              {
+                "Severity": "Moderate",
+                "Elemental Iron Dose (mg/kg)^": "20-60"
+              },
+              {
+                "Severity": "Severe",
+                "Elemental Iron Dose (mg/kg)^": ">60"
+              }
+            ]
+          ]
+        },
+        "Pathophysiology": {
+          "text": "Direct caustic injury to gastric mucosa\n[3]\nOccurs early, usually within several hours\nCausing vomiting, diarrhea, abdominal pain, and GI bleeding\nUsually affects, the stomach, duodenum, colon rarely affected\nCan lead to formation of gastric strictures 2-8 weeks post-ingestion\nImpaired cellular metabolism\nInhibiting the electron transport chain causes lactic acidosis\nDirect hepatic, CNS, and cardiac toxicity (decreased CO and myocardial contractility)\nCell membrane injury from lipid peroxidation\n[4]\nIncreased capillary permeability\nHypotension\nVenodilation\nHypovolemic shock\nPortal vein iron delivery to liver\nOverwhelm storage capacity of Ferritin\nHepatotoxicity (cloudy swelling, periportal hepatic necrosis, elevated transaminases)\nDestroys hepatic mitochondria, disrupts oxidative phosphorylation → worsening metabolic acidosis\nThrombin formation inhibition\nCoagulopathy - direct effect on vitamin K clotting factors",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Iron Preparation": "Ferrous Fumarate",
+            "% of Elemental Iron": "33%"
+          },
+          {
+            "Iron Preparation": "Ferrous Sulfate",
+            "% of Elemental Iron": "20%"
+          },
+          {
+            "Iron Preparation": "Ferrous Gluconate",
+            "% of Elemental Iron": "12%"
+          },
+          {
+            "Iron Preparation": "Ferric pyrophosphate",
+            "% of Elemental Iron": "30%"
+          },
+          {
+            "Iron Preparation": "Ferroglycine sulfate",
+            "% of Elemental Iron": "16%"
+          },
+          {
+            "Iron Preparation": "Ferrous carbonate (anhydrous)",
+            "% of Elemental Iron": "38%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Toxicity": {
+      "text": "Toxicity determined by mg/kg of elemental iron ingested\n[2]\n^Total amount of elemental iron ingested calculated by multiplying estimated number of tablets by the percentages of iron in the tablet preparation (see above)",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Direct caustic injury to gastric mucosa\n[3]\nOccurs early, usually within several hours\nCausing vomiting, diarrhea, abdominal pain, and GI bleeding\nUsually affects, the stomach, duodenum, colon rarely affected\nCan lead to formation of gastric strictures 2-8 weeks post-ingestion\nImpaired cellular metabolism\nInhibiting the electron transport chain causes lactic acidosis\nDirect hepatic, CNS, and cardiac toxicity (decreased CO and myocardial contractility)\nCell membrane injury from lipid peroxidation\n[4]\nIncreased capillary permeability\nHypotension\nVenodilation\nHypovolemic shock\nPortal vein iron delivery to liver\nOverwhelm storage capacity of Ferritin\nHepatotoxicity (cloudy swelling, periportal hepatic necrosis, elevated transaminases)\nDestroys hepatic mitochondria, disrupts oxidative phosphorylation → worsening metabolic acidosis\nThrombin formation inhibition\nCoagulopathy - direct effect on vitamin K clotting factors",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Severity": "Mild",
+            "Elemental Iron Dose (mg/kg)^": "10-20"
+          },
+          {
+            "Severity": "Moderate",
+            "Elemental Iron Dose (mg/kg)^": "20-60"
+          },
+          {
+            "Severity": "Severe",
+            "Elemental Iron Dose (mg/kg)^": ">60"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Direct caustic injury to gastric mucosa\n[3]\nOccurs early, usually within several hours\nCausing vomiting, diarrhea, abdominal pain, and GI bleeding\nUsually affects, the stomach, duodenum, colon rarely affected\nCan lead to formation of gastric strictures 2-8 weeks post-ingestion\nImpaired cellular metabolism\nInhibiting the electron transport chain causes lactic acidosis\nDirect hepatic, CNS, and cardiac toxicity (decreased CO and myocardial contractility)\nCell membrane injury from lipid peroxidation\n[4]\nIncreased capillary permeability\nHypotension\nVenodilation\nHypovolemic shock\nPortal vein iron delivery to liver\nOverwhelm storage capacity of Ferritin\nHepatotoxicity (cloudy swelling, periportal hepatic necrosis, elevated transaminases)\nDestroys hepatic mitochondria, disrupts oxidative phosphorylation → worsening metabolic acidosis\nThrombin formation inhibition\nCoagulopathy - direct effect on vitamin K clotting factors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Absence of GI symptoms within 6hr of ingestion excludes significant iron ingestion (exception: enteric coated tablets)\nSignificant iron toxicity can result in a severe\nlactic acidosis\nfrom hypoperfusion due to volume loss, vasodilation and negative inotropin effects.\nStage I: GI toxicity: nausea, vomiting, diarrhea, GI bleeding from local corrosive effects of iron on the gastric and intestinal mucosa\nStage II: Quiescent phase with resolution of GI symptoms and apparent clinical improvement\ncontroversy between toxicologists whether this stage exists in significant poisonings\nStage III: Systemic toxicity: shock and hypoperfusion\nPrimarily hypovolemic shock and acidosis, myocardial dysfunction also contributes\nGI fluid losses, increase capillary permeability, decreased venous tone\nSevere anion gap acidosis\nFree radical damage to mitochondria disrupt oxidative phosphorylation which leads to lactic acidosis\nHepatotoxicity from iron delivery via portal blood flow\nStage IV: Clinical recovery, resolution of shock and acidosis usually by days 3-4\nStage V: Late onset of gastric and pyloric strictures (2-8 week later)\n[5]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Staging": "Stage 1",
+            "Clinical Effect": "GI irritation: Nausea, vomiting, diarrhea, abdominal pain, hematemesis, hematochezia",
+            "Time Frame": "30 mins-6 hours"
+          },
+          {
+            "Staging": "Stage 2: Latent",
+            "Clinical Effect": "GI symptoms may improve or resolve",
+            "Time Frame": "6-24 hours"
+          },
+          {
+            "Staging": "Stage 3: Shock and metabolic acidosis",
+            "Clinical Effect": "Metabolic acidosis, lactic acidosis, dehydration",
+            "Time Frame": "6-72 hours"
+          },
+          {
+            "Staging": "Stage 4: Hepatotoxicity/Hepatic necrosis",
+            "Clinical Effect": "Hepatic failure with jaundice",
+            "Time Frame": "12-96 hours"
+          },
+          {
+            "Staging": "Stage 5: Bowel obstruction",
+            "Clinical Effect": "GI mucosa healing leads to scarring",
+            "Time Frame": "2-8 weeks"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {
+        "CAT_MUDPILERS": {
+          "text": "C-\nCyanide\nA-\nASA\n,\nAlcohol\nT-\nToluene\nM-\nMethanol\n,\nMetformin\nU-\nUremia\nD-\nDKA\nP-Paraldehyde, Post-ictal\nlactic acidosis\n(transient, 60-90 min), Phenformin (withdrawn in 1970s)\nI-\nIron\n,\nINH\n, Inhalants, Inborn Errors\nL-\nLactic Acidosis\nE-\nEthylene glycol\n,\nEthanol\nR-\nRhabdomyolysis\nS-\nSalicylates\n, Solvents, Starvation",
+          "tables": []
+        },
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Toluene",
+          "url": "https://wikem.org/wiki/Toluene_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "CAT_MUDPILERS": {
+      "text": "C-\nCyanide\nA-\nASA\n,\nAlcohol\nT-\nToluene\nM-\nMethanol\n,\nMetformin\nU-\nUremia\nD-\nDKA\nP-Paraldehyde, Post-ictal\nlactic acidosis\n(transient, 60-90 min), Phenformin (withdrawn in 1970s)\nI-\nIron\n,\nINH\n, Inhalants, Inborn Errors\nL-\nLactic Acidosis\nE-\nEthylene glycol\n,\nEthanol\nR-\nRhabdomyolysis\nS-\nSalicylates\n, Solvents, Starvation",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Toluene",
+          "url": "https://wikem.org/wiki/Toluene_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Poisoning"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Nonketotic hyperglycemia",
+          "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Two large-bore peripheral IVs\nCBC\nChemistry -\nnotice that this can appear like\nDKA\nAnion gap metabolic acidosis\nHyperglycemia\nCoags\nLFTs\nIron levels\nUrinalysis\nUsed to follow efficacy of Fe chelation\nUrine changes from rusty colored vin rose to clear\nUrine pregnancy test\nType and Screen\nXR KUB\nIn ambiguous cases consider abdominal xray as most Fe tabletss are radioopaque\n[6]\nHowever, a normal XR KUB does not rule out significant ingestion, particularly if liquid iron or chewable vitamins with iron were ingested\n[7]\nEKG\nA serum glucose > 150mg/dL and leukocyte count above 15,000 is 100% Sp and 50% Sn in predicting Fe levels > 300mcg/mL, but the absence cannot exclude iron toxicity\n[8]",
+          "tables": []
+        },
+        "Diagnosis_2": {
+          "text": "Serum iron concentration can guide treatment, but is not absolute in predicting or excluding toxicity.\n^usually around 4hrs post ingestion although very high doses may lead to delayed peak",
+          "tables": [
+            [
+              {
+                "Peak Serum Iron Level (mcg/dL)^": "<300",
+                "Category": "Nontoxic or mild"
+              },
+              {
+                "Peak Serum Iron Level (mcg/dL)^": "300-500",
+                "Category": "Significant GI symptoms and potential for systemic toxicity"
+              },
+              {
+                "Peak Serum Iron Level (mcg/dL)^": ">500",
+                "Category": "Moderate to severe systemic toxicity"
+              },
+              {
+                "Peak Serum Iron Level (mcg/dL)^": ">1000",
+                "Category": "Severe systemic toxicity and increased morbidity"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Two large-bore peripheral IVs\nCBC\nChemistry -\nnotice that this can appear like\nDKA\nAnion gap metabolic acidosis\nHyperglycemia\nCoags\nLFTs\nIron levels\nUrinalysis\nUsed to follow efficacy of Fe chelation\nUrine changes from rusty colored vin rose to clear\nUrine pregnancy test\nType and Screen\nXR KUB\nIn ambiguous cases consider abdominal xray as most Fe tabletss are radioopaque\n[6]\nHowever, a normal XR KUB does not rule out significant ingestion, particularly if liquid iron or chewable vitamins with iron were ingested\n[7]\nEKG\nA serum glucose > 150mg/dL and leukocyte count above 15,000 is 100% Sp and 50% Sn in predicting Fe levels > 300mcg/mL, but the absence cannot exclude iron toxicity\n[8]",
+      "subsections": {
+        "Diagnosis_2": {
+          "text": "Serum iron concentration can guide treatment, but is not absolute in predicting or excluding toxicity.\n^usually around 4hrs post ingestion although very high doses may lead to delayed peak",
+          "tables": [
+            [
+              {
+                "Peak Serum Iron Level (mcg/dL)^": "<300",
+                "Category": "Nontoxic or mild"
+              },
+              {
+                "Peak Serum Iron Level (mcg/dL)^": "300-500",
+                "Category": "Significant GI symptoms and potential for systemic toxicity"
+              },
+              {
+                "Peak Serum Iron Level (mcg/dL)^": ">500",
+                "Category": "Moderate to severe systemic toxicity"
+              },
+              {
+                "Peak Serum Iron Level (mcg/dL)^": ">1000",
+                "Category": "Severe systemic toxicity and increased morbidity"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Diagnosis_2": {
+      "text": "Serum iron concentration can guide treatment, but is not absolute in predicting or excluding toxicity.\n^usually around 4hrs post ingestion although very high doses may lead to delayed peak",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Peak Serum Iron Level (mcg/dL)^": "<300",
+            "Category": "Nontoxic or mild"
+          },
+          {
+            "Peak Serum Iron Level (mcg/dL)^": "300-500",
+            "Category": "Significant GI symptoms and potential for systemic toxicity"
+          },
+          {
+            "Peak Serum Iron Level (mcg/dL)^": ">500",
+            "Category": "Moderate to severe systemic toxicity"
+          },
+          {
+            "Peak Serum Iron Level (mcg/dL)^": ">1000",
+            "Category": "Severe systemic toxicity and increased morbidity"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management_2": {
+      "text": "",
+      "subsections": {
+        "Observation": {
+          "text": "Patients with asymptomatic ingestion of < 20mg/kg of elemental iron may only require observation for 6 hours\nVolume resuscitation",
+          "tables": []
+        },
+        "Orogastric_Lavage": {
+          "text": "Unclear benefit. Risk of aspiration, perforation, laryngospasm\nIntubate prior to procedure if patient not protecting airway\nIndication: Normal saline via large orogastric tube for moderate to severe iron poisoning if there are still many iron tablets (20-30) in abdominal radiograph may be beneficial",
+          "tables": []
+        },
+        "Whole_bowel_irrigation": {
+          "text": "Indicated for large ingestion\nAdminister polyethylene glycol solution at 2 L/hr in adults and 250-500 mL/hr in children\nDo not base only on radioopaque evidence of iron pills as not all formulations are readily visible on XR\nOrogastric lavage only is not likely to be successful after iron tablets have moved past the pylorus\nSupported by case reports and uncontrolled case series, but rationale behind it makes it largely supported by toxicologists\n[9]\nPromotes increased gastric emptying and avoids large bezoar formation\n[10]",
+          "tables": []
+        },
+        "Deferoxamine": {
+          "text": "Indications\nPregnancy\nSystemic toxicity and iron level > 350 mcg/dL\nIron level >500mcg/dL\nMetabolic acidosis\nAltered Mental Status\nProgressive symptoms, including shock, coma, seizures, refractory GI symptoms\nLarge number of pills on KUB\nEstimated dose > 60mg/kg Fe2+\nAdministered IV due to poor oral absorption\nOne mole of Deferoxamine (100mg) binds one mole of iron (9mg) to form ferrioxamine\nResults in vin-rose urine (ferrioxamine is a reddish compound)\nDose\n5-15 mg/kg/hr, max of 35 mg/kg/hr or 6g total per day\nStart slower at 5-8 mg/kg/hr if hypotensive and uptitrate as tolerated\nTitrate up for worsening metabolic acidosis, progressive organ failure, persistent vin rosé urine (ongoing choleation)\nCan give 90 mg/kg IM if unable to obtain IV, but must establish IV ASAP given patient will need fluid resuscitation\nAdverse reactions\nHypotension\nMay cause flushing (anaphylactoid reaction)\nRarely causes ARDS - associated with prolonged use\nSafe in pregnancy (give if obvious signs of shock/toxicity)",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Not effective in removing iron due to large volumes of distribution\nDialysis can removes deferoxamine-iron complex in renal failure patients",
+          "tables": []
+        },
+        "Exchange_transfusion": {
+          "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+          "tables": []
+        },
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Observation": {
+      "text": "Patients with asymptomatic ingestion of < 20mg/kg of elemental iron may only require observation for 6 hours\nVolume resuscitation",
+      "subsections": {
+        "Orogastric_Lavage": {
+          "text": "Unclear benefit. Risk of aspiration, perforation, laryngospasm\nIntubate prior to procedure if patient not protecting airway\nIndication: Normal saline via large orogastric tube for moderate to severe iron poisoning if there are still many iron tablets (20-30) in abdominal radiograph may be beneficial",
+          "tables": []
+        },
+        "Whole_bowel_irrigation": {
+          "text": "Indicated for large ingestion\nAdminister polyethylene glycol solution at 2 L/hr in adults and 250-500 mL/hr in children\nDo not base only on radioopaque evidence of iron pills as not all formulations are readily visible on XR\nOrogastric lavage only is not likely to be successful after iron tablets have moved past the pylorus\nSupported by case reports and uncontrolled case series, but rationale behind it makes it largely supported by toxicologists\n[9]\nPromotes increased gastric emptying and avoids large bezoar formation\n[10]",
+          "tables": []
+        },
+        "Deferoxamine": {
+          "text": "Indications\nPregnancy\nSystemic toxicity and iron level > 350 mcg/dL\nIron level >500mcg/dL\nMetabolic acidosis\nAltered Mental Status\nProgressive symptoms, including shock, coma, seizures, refractory GI symptoms\nLarge number of pills on KUB\nEstimated dose > 60mg/kg Fe2+\nAdministered IV due to poor oral absorption\nOne mole of Deferoxamine (100mg) binds one mole of iron (9mg) to form ferrioxamine\nResults in vin-rose urine (ferrioxamine is a reddish compound)\nDose\n5-15 mg/kg/hr, max of 35 mg/kg/hr or 6g total per day\nStart slower at 5-8 mg/kg/hr if hypotensive and uptitrate as tolerated\nTitrate up for worsening metabolic acidosis, progressive organ failure, persistent vin rosé urine (ongoing choleation)\nCan give 90 mg/kg IM if unable to obtain IV, but must establish IV ASAP given patient will need fluid resuscitation\nAdverse reactions\nHypotension\nMay cause flushing (anaphylactoid reaction)\nRarely causes ARDS - associated with prolonged use\nSafe in pregnancy (give if obvious signs of shock/toxicity)",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Not effective in removing iron due to large volumes of distribution\nDialysis can removes deferoxamine-iron complex in renal failure patients",
+          "tables": []
+        },
+        "Exchange_transfusion": {
+          "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+          "tables": []
+        },
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Orogastric_Lavage": {
+      "text": "Unclear benefit. Risk of aspiration, perforation, laryngospasm\nIntubate prior to procedure if patient not protecting airway\nIndication: Normal saline via large orogastric tube for moderate to severe iron poisoning if there are still many iron tablets (20-30) in abdominal radiograph may be beneficial",
+      "subsections": {
+        "Whole_bowel_irrigation": {
+          "text": "Indicated for large ingestion\nAdminister polyethylene glycol solution at 2 L/hr in adults and 250-500 mL/hr in children\nDo not base only on radioopaque evidence of iron pills as not all formulations are readily visible on XR\nOrogastric lavage only is not likely to be successful after iron tablets have moved past the pylorus\nSupported by case reports and uncontrolled case series, but rationale behind it makes it largely supported by toxicologists\n[9]\nPromotes increased gastric emptying and avoids large bezoar formation\n[10]",
+          "tables": []
+        },
+        "Deferoxamine": {
+          "text": "Indications\nPregnancy\nSystemic toxicity and iron level > 350 mcg/dL\nIron level >500mcg/dL\nMetabolic acidosis\nAltered Mental Status\nProgressive symptoms, including shock, coma, seizures, refractory GI symptoms\nLarge number of pills on KUB\nEstimated dose > 60mg/kg Fe2+\nAdministered IV due to poor oral absorption\nOne mole of Deferoxamine (100mg) binds one mole of iron (9mg) to form ferrioxamine\nResults in vin-rose urine (ferrioxamine is a reddish compound)\nDose\n5-15 mg/kg/hr, max of 35 mg/kg/hr or 6g total per day\nStart slower at 5-8 mg/kg/hr if hypotensive and uptitrate as tolerated\nTitrate up for worsening metabolic acidosis, progressive organ failure, persistent vin rosé urine (ongoing choleation)\nCan give 90 mg/kg IM if unable to obtain IV, but must establish IV ASAP given patient will need fluid resuscitation\nAdverse reactions\nHypotension\nMay cause flushing (anaphylactoid reaction)\nRarely causes ARDS - associated with prolonged use\nSafe in pregnancy (give if obvious signs of shock/toxicity)",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Not effective in removing iron due to large volumes of distribution\nDialysis can removes deferoxamine-iron complex in renal failure patients",
+          "tables": []
+        },
+        "Exchange_transfusion": {
+          "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+          "tables": []
+        },
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Whole_bowel_irrigation": {
+      "text": "Indicated for large ingestion\nAdminister polyethylene glycol solution at 2 L/hr in adults and 250-500 mL/hr in children\nDo not base only on radioopaque evidence of iron pills as not all formulations are readily visible on XR\nOrogastric lavage only is not likely to be successful after iron tablets have moved past the pylorus\nSupported by case reports and uncontrolled case series, but rationale behind it makes it largely supported by toxicologists\n[9]\nPromotes increased gastric emptying and avoids large bezoar formation\n[10]",
+      "subsections": {
+        "Deferoxamine": {
+          "text": "Indications\nPregnancy\nSystemic toxicity and iron level > 350 mcg/dL\nIron level >500mcg/dL\nMetabolic acidosis\nAltered Mental Status\nProgressive symptoms, including shock, coma, seizures, refractory GI symptoms\nLarge number of pills on KUB\nEstimated dose > 60mg/kg Fe2+\nAdministered IV due to poor oral absorption\nOne mole of Deferoxamine (100mg) binds one mole of iron (9mg) to form ferrioxamine\nResults in vin-rose urine (ferrioxamine is a reddish compound)\nDose\n5-15 mg/kg/hr, max of 35 mg/kg/hr or 6g total per day\nStart slower at 5-8 mg/kg/hr if hypotensive and uptitrate as tolerated\nTitrate up for worsening metabolic acidosis, progressive organ failure, persistent vin rosé urine (ongoing choleation)\nCan give 90 mg/kg IM if unable to obtain IV, but must establish IV ASAP given patient will need fluid resuscitation\nAdverse reactions\nHypotension\nMay cause flushing (anaphylactoid reaction)\nRarely causes ARDS - associated with prolonged use\nSafe in pregnancy (give if obvious signs of shock/toxicity)",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Not effective in removing iron due to large volumes of distribution\nDialysis can removes deferoxamine-iron complex in renal failure patients",
+          "tables": []
+        },
+        "Exchange_transfusion": {
+          "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+          "tables": []
+        },
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Deferoxamine": {
+      "text": "Indications\nPregnancy\nSystemic toxicity and iron level > 350 mcg/dL\nIron level >500mcg/dL\nMetabolic acidosis\nAltered Mental Status\nProgressive symptoms, including shock, coma, seizures, refractory GI symptoms\nLarge number of pills on KUB\nEstimated dose > 60mg/kg Fe2+\nAdministered IV due to poor oral absorption\nOne mole of Deferoxamine (100mg) binds one mole of iron (9mg) to form ferrioxamine\nResults in vin-rose urine (ferrioxamine is a reddish compound)\nDose\n5-15 mg/kg/hr, max of 35 mg/kg/hr or 6g total per day\nStart slower at 5-8 mg/kg/hr if hypotensive and uptitrate as tolerated\nTitrate up for worsening metabolic acidosis, progressive organ failure, persistent vin rosé urine (ongoing choleation)\nCan give 90 mg/kg IM if unable to obtain IV, but must establish IV ASAP given patient will need fluid resuscitation\nAdverse reactions\nHypotension\nMay cause flushing (anaphylactoid reaction)\nRarely causes ARDS - associated with prolonged use\nSafe in pregnancy (give if obvious signs of shock/toxicity)",
+      "subsections": {
+        "Hemodialysis": {
+          "text": "Not effective in removing iron due to large volumes of distribution\nDialysis can removes deferoxamine-iron complex in renal failure patients",
+          "tables": []
+        },
+        "Exchange_transfusion": {
+          "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+          "tables": []
+        },
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hemodialysis": {
+      "text": "Not effective in removing iron due to large volumes of distribution\nDialysis can removes deferoxamine-iron complex in renal failure patients",
+      "subsections": {
+        "Exchange_transfusion": {
+          "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+          "tables": []
+        },
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exchange_transfusion": {
+      "text": "Minimal evidence but has been described in larger overdoses\n[11]",
+      "subsections": {
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Not_Indicated": {
+      "text": "",
+      "subsections": {
+        "Activated_charcoal": {
+          "text": "Does not absorb significant amounts if iron and is not recommended",
+          "tables": []
+        },
+        "Poison_Control": {
+          "text": "1-800-222-1222 (United States)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Poison_Control": {
+      "text": "1-800-222-1222 (United States)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition_2": {
+      "text": "Discharge after 6hr observation for asymptomatic (or only vomited 1-2x) AND ingestion <20mg/kg\nAdmit to ICU if\ndeferoxamine\nrequired\nPsychiatric evaluation if intentional ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "deferoxamine",
+          "url": "https://wikem.org/wiki/Deferoxamine"
+        }
+      ]
+    },
+    "See_Also_2": {
+      "text": "Toxidromes\nHemochromatosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Example clinical practice guideline:\nhttps://www.rch.org.au/clinicalguide/guideline_index/Iron_poisoning/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

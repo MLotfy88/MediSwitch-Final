@@ -1,0 +1,71 @@
+{
+  "drug_name": "Irritable_bowel_syndrome",
+  "url": "https://wikem.org/wiki/Irritable_bowel_syndrome",
+  "scraped_at": "2026-01-10T07:55:48.821446",
+  "sections": {
+    "Background": {
+      "text": "psychosocial factors\naltered gut motility\nhypersensitive intestinal pain perception",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Criteria": {
+          "text": "Three months of\nabdominal pain\n:\nrelieved by defecation\nassociated with change of stool freq\nrelated to a change in stool consistency\nAND, 2 or more of the following symptoms 25% of the time\n>3 bm per day or < 3 bm per week\naltered stool form\naltered stool passage\npassage of mucous\nbloating",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Criteria": {
+      "text": "Three months of\nabdominal pain\n:\nrelieved by defecation\nassociated with change of stool freq\nrelated to a change in stool consistency\nAND, 2 or more of the following symptoms 25% of the time\n>3 bm per day or < 3 bm per week\naltered stool form\naltered stool passage\npassage of mucous\nbloating",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Diagnosis of exclusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Post-infectious irritable bowel syndrome\nSee\nabdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider prescribing\nondansetron\nup to 24 mg/d for IBS-D\n[1]\nTypical bowel regimen treatments for IBS-C\nMay consider low-dose\nTCA\nif appropriate follow up with PCP will occur",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain\nPostinfectious irritable bowel syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Patient_Information": {
+          "text": "Irritable Bowel Syndrome\n(National Digestive Diseases Information Clearinghouse)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Patient_Information": {
+      "text": "Irritable Bowel Syndrome\n(National Digestive Diseases Information Clearinghouse)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

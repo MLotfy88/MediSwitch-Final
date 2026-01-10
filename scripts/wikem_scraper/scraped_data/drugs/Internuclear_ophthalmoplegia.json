@@ -1,0 +1,79 @@
+{
+  "drug_name": "Internuclear_ophthalmoplegia",
+  "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia",
+  "scraped_at": "2026-01-10T07:55:39.892617",
+  "sections": {
+    "Background": {
+      "text": "Focal neuro deficit\ncaused by injury or dysfunction of medial longitudinal fasciculus\nParamedian Pontine Reticular Formation (PPRF) is the conjugate gaze center for horizontal eye movements. Innervates ipsilateral Abducens (CN VI) nucleus. Abducens nucleus signals ipsilateral lateral rectus to contract and sends a second via MLF to contralateral oculomotor (CN III) nucleus, causing contraction on the contralateral medial rectus.\nAssociated with one and one-half syndrome (lesion involving the PPRF and ipsilateral MLF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Focal neuro deficit",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficit"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Impaired adduction when attempted to gaze contralaterally to affected eye\nContralateral eye abducts with\nnystagmus\nDivergence of eyes results in horizontal\ndiplopia\nwhen looking contralateral (to affected eye)\nConvergence remains intact (differentiates CN III palsy from INO)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Multiple sclerosis\n(most common cause in young patients)\nStroke\nMalignancy\nlocated in brainstem and 4th ventricle\nCN III palsy\nwould show additional deficit including weakness of elevation, ptosis, pupil dilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Malignancy",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "CN III palsy",
+          "url": "https://wikem.org/wiki/Third_nerve_palsy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for underlying cause based on clinical presentation\nThe use of optokinetic tape is highly sensitive for testing for INO\nMRI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying condition\nSymptoms will often resolve on their own. Patients with cerebrovascular disease are less likely to have recovery.\nPatching of eye can aid in relief of diplopia\nDiframpadine, potassium channel blocker, has been used in patients with demyelinating disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Ropper A, Klein J, Samuels M. Adams and Victor's Principles of Neurology 10th Edition. McGraw-Hill Education / Medical; 2014.\nSerra A, Skelly MM, Jacobs JB, et al. Improvement of internuclear ophthalmoparesis in multiple sclerosis with dalfampridine. Neurology 2014; 83:192.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

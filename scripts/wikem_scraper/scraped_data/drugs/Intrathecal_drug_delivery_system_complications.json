@@ -1,0 +1,107 @@
+{
+  "drug_name": "Intrathecal_drug_delivery_system_complications",
+  "url": "https://wikem.org/wiki/Intrathecal_drug_delivery_system_complications",
+  "scraped_at": "2026-01-10T07:55:39.339125",
+  "sections": {
+    "Background": {
+      "text": "Used for delivery of short or long acting pain or anti-spasmodic medications into the thecal space\nAllows for smaller doses and fewer systemic side effects\nMost common Intrathecal medications\nClonidine\nBupivacaine\nMorphine\nHydromorphone\nFentanyl\nBaclofen\nZiconotide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "Bupivacaine",
+          "url": "https://wikem.org/wiki/Bupivacaine"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Baclofen",
+          "url": "https://wikem.org/wiki/Baclofen"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Complications:\nOverdose of medication, see:\nOpioid toxicity\nClonidine toxicity\nLocal anesthetic systemic toxicity\nBaclofen toxicity\nRespiratory depression\nis feared effect of most\nInfection\nLocal\ncellulitis\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid toxicity",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Clonidine toxicity",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Local anesthetic systemic toxicity",
+          "url": "https://wikem.org/wiki/Local_anesthetic_systemic_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Respiratory depression",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "The device is not removed in an overdose but should be turned off.\nInsertion of a 22-guage needle into the pump reservoir can remove all medication in case device cannot be turned off\nConsider\nnaloxone\nto reverse opioid effects taking into account patients chronicity of treatment if they withdrawal\nTreat infection aggressively with\nantibiotics\nMay be treated without device removal with combination of IV and intrathecal antibiotics\n[1]\n, but consult ID and/or anesthesia/appropriate surgical specialty as device may need to be removed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Medical device complications\nBaclofen toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        }
+      ]
+    }
+  }
+}

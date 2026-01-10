@@ -1,0 +1,170 @@
+{
+  "drug_name": "Isotretinoin",
+  "url": "https://wikem.org/wiki/Isotretinoin",
+  "scraped_at": "2026-01-10T07:55:53.475307",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration: IV, PO\nCommon Trade Names: Accutane",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Acne: 0.25 mg/kg twice daily x 1 month, then 0.5 mg/kg twice daily as tolerated; continue until a total cumulative dose of 120 to 150 mg/kg is reached\nCutaneous T cell lymphoma/other cancers IV doses vary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Used for acne, neuroblastoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "X",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "X",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hearing impairment\nBone mineral density loss leading to fractures/delayed fracture healing, skeletal hyperostosis/premature epiphyseal closure\nErythema multiforme, SJS, TEN\nAgranulocytosis, neutropenia\nHepatitis\nHypersensitivity reactions (anaphylaxis, allergic vasculitis)\nIBD, ileitis\nRhabdomyolysis\nVisual impairment, corneal opacities\nPancreatitis\nPseudotumor cerebri\nPsychiatric effects (depressed mood/suicidal ideation, psychosis)\nATRA syndrome",
+          "tables": []
+        },
+        "Common": {
+          "text": "Increased triglycerides, decreased HDL, increased CPK\nIncreased LFTs\nArthralgia, back pain\nDecreased bone mineral density\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATRA syndrome",
+          "url": "https://wikem.org/wiki/ATRA_syndrome"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hearing impairment\nBone mineral density loss leading to fractures/delayed fracture healing, skeletal hyperostosis/premature epiphyseal closure\nErythema multiforme, SJS, TEN\nAgranulocytosis, neutropenia\nHepatitis\nHypersensitivity reactions (anaphylaxis, allergic vasculitis)\nIBD, ileitis\nRhabdomyolysis\nVisual impairment, corneal opacities\nPancreatitis\nPseudotumor cerebri\nPsychiatric effects (depressed mood/suicidal ideation, psychosis)\nATRA syndrome",
+      "subsections": {
+        "Common": {
+          "text": "Increased triglycerides, decreased HDL, increased CPK\nIncreased LFTs\nArthralgia, back pain\nDecreased bone mineral density\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATRA syndrome",
+          "url": "https://wikem.org/wiki/ATRA_syndrome"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Increased triglycerides, decreased HDL, increased CPK\nIncreased LFTs\nArthralgia, back pain\nDecreased bone mineral density\nPhotosensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-38h\nMetabolism: Hepatic via CYP2B6, 2C8, 2C9, 3A4\nExcretion: Urine and feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Induces apoptosis in certain cells, including those of the sebaceous glands",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acne\nVitamin A toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A toxicity",
+          "url": "https://wikem.org/wiki/Vitamin_A_toxicity"
+        }
+      ]
+    }
+  }
+}

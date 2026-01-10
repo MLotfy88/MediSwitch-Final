@@ -1,0 +1,57 @@
+{
+  "drug_name": "Intrauterine_fetal_demise",
+  "url": "https://wikem.org/wiki/Intrauterine_fetal_demise",
+  "scraped_at": "2026-01-10T07:55:44.118566",
+  "sections": {
+    "Background": {
+      "text": "Defined as fetal death after 20 WGA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        }
+      ]
+    }
+  }
+}

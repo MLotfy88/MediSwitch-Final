@@ -1,0 +1,932 @@
+{
+  "drug_name": "Intracranial_hemorrhage_(main)",
+  "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)",
+  "scraped_at": "2026-01-10T07:55:43.747592",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Intracranial_Hemorrhage_Types": {
+          "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+          "tables": []
+        },
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_Aneurysmal_SAH_BP_Guidelines": {
+          "text": "No well-controlled studies exist that answer whether BP control influences rebleeding\nBP should be controlled to balance the risk of stroke, hypertension-related rebleeding, and maintenance of cerebral perfusion pressure (Class I,\nLevel of Evidence B\n).\nNicardipine, labetalol, and esmolol are appropriate choices for BP control (Sodium nitroprusside may raise intracranial pressure and cause toxicity with prolonged infusion and should be avoided)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Level of Evidence B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Intracranial_Hemorrhage_Types": {
+      "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+      "subsections": {
+        "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+          "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+          "tables": []
+        },
+        "AHA_Aneurysmal_SAH_BP_Guidelines": {
+          "text": "No well-controlled studies exist that answer whether BP control influences rebleeding\nBP should be controlled to balance the risk of stroke, hypertension-related rebleeding, and maintenance of cerebral perfusion pressure (Class I,\nLevel of Evidence B\n).\nNicardipine, labetalol, and esmolol are appropriate choices for BP control (Sodium nitroprusside may raise intracranial pressure and cause toxicity with prolonged infusion and should be avoided)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Level of Evidence B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "AHA_Spontaneous_ICH_BP_Guidelines_2015": {
+      "text": "If SBP is 150-220mmHg without contraindication to BP lowering, it is safe to acutely lower BP to 140mmHg and can be effective for improving functional outcome. (Class I Level A)\nFor ICH patients presenting with SBP >220 mm Hg, it may be reasonable to consider aggressive reduction of BP with a continuous intravenous infusion and frequent BP monitoring (Class IIb; Level of Evidence C)",
+      "subsections": {
+        "AHA_Aneurysmal_SAH_BP_Guidelines": {
+          "text": "No well-controlled studies exist that answer whether BP control influences rebleeding\nBP should be controlled to balance the risk of stroke, hypertension-related rebleeding, and maintenance of cerebral perfusion pressure (Class I,\nLevel of Evidence B\n).\nNicardipine, labetalol, and esmolol are appropriate choices for BP control (Sodium nitroprusside may raise intracranial pressure and cause toxicity with prolonged infusion and should be avoided)",
+          "tables": []
+        },
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level of Evidence B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "AHA_Aneurysmal_SAH_BP_Guidelines": {
+      "text": "No well-controlled studies exist that answer whether BP control influences rebleeding\nBP should be controlled to balance the risk of stroke, hypertension-related rebleeding, and maintenance of cerebral perfusion pressure (Class I,\nLevel of Evidence B\n).\nNicardipine, labetalol, and esmolol are appropriate choices for BP control (Sodium nitroprusside may raise intracranial pressure and cause toxicity with prolonged infusion and should be avoided)",
+      "subsections": {
+        "AHA_ICH_Coagulopathy_Guidelines_2015": {
+          "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level of Evidence B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "AHA_ICH_Coagulopathy_Guidelines_2015": {
+      "text": "Patients with a severe coagulation factor deficiency or severe thrombocytopenia should receive appropriate factor replacement therapy or platelets, respectively (Class I; Level of Evidence C). (Unchanged from the previous guideline)\nPatients with ICH whose INR is elevated because of VKA should have their VKA withheld, receive therapy to replace vitamin K–dependent factors and correct the INR, and receive intravenous vitamin K (Class I; Level of Evidence C). PCCs may have fewer complications and correct the INR more rapidly than FFP and might be considered over FFP (Class IIb; Level of Evidence B). rFVIIa does not replace all clotting factors, and although the INR may be lowered, clotting may not be restored in vivo; therefore, rFVIIa is not recommended for VKA reversal in ICH (Class III; Level of Evidence C). (Revised from the previous guideline)\nFor patients with ICH who are taking dabigatran, rivaroxaban, or apixaban, treatment with FEIBA, other PCCs, or rFVIIa might be considered on an individual basis. Activated charcoal might be used if the most recent dose of dabigatran, apixaban, or rivaroxaban was taken <2 hours earlier. Hemodialysis might be considered for dabigatran (Class IIb; Level of Evidence C). (New recommendation)\nProtamine sulfate may be considered to reverse heparin in patients with acute ICH (Class IIb; Level of Evidence C). (New recommendation)\nThe usefulness of platelet transfusions in ICH patients with a history of antiplatelet use is uncertain (Class IIb; Level of Evidence C). (Revised from the previous guideline)\nAlthough rFVIIa can limit the extent of hematoma expansion in noncoagulopathic ICH patients, there is an increase in thromboembolic risk with rFVIIa and no clear clinical benefit in unselected patients. Thus, rFVIIa is not recommended (Class III; Level of Evidence A). (Unchanged from the previous guideline)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "A history of hypertension, trauma, illicit drug abuse, or a bleeding diathesis may be elicited.\nAcute onset, with rapid clinical deterioration (within minutes-hours)\nAlteration in level of consciousness (approximately 50%)\nNausea and vomiting (approximately 40-50%): but rarely at the onset\nHeadache (approximately 40%)\nSeizures (approximately 6-7%)\nAnisocoria\nFocal neurological deficits\nWith the progression of hematoma, development of intracranial hypertension (See also\nbrain herniation syndromes\n):\nComa\nRespiratory failure\nHypertension, bradicardia, TWI (T Waves inversion)\nCentral hyperthermia",
+      "subsections": {
+        "Focal_neurological_deficits": {
+          "text": "Related to the area involved\nPutamen\nContralateral hemiplegia\nContralateral sensory loss\nAphasia\nDysphagia\nHead and gaze deviation towards \"healthy limbs\"\nHomolateral mydriasis\nHomonymous hemianopia\nNeglect or apraxia\nCaudate nucleus\nContralateral hemiparesis\nContralateral conjugate gaze paresis\nConfusion\nHydrocephalus (intraventricular extension of haemorrhage)\nThalamus\nContralateral sensory loss, with or without contralateral hemiparesis\nVertical gaze paresis\nConfusion, aphasia\nHomonymous hemianopia\nPossible hydrocephalus\nBrain stem\nOnset with coma, quadriparesis, gaze paresis and autonomic instability\nOcular bobbing, miosis\nCranial nerves deficit\nCerebellum\n: Close monitoring!\nAtaxia, usually beginning in the trunk\nDizziness\nHomolateral dysmetria\nDysphagia, dysartria\nIpsilateral facial weakness, sensory loss\nGaze paresis, skew deviation, miosis, or decreased level of consciousness\nLobar\n: Exclude cerebral AVM.\nContralateral hemiparesis or sensory loss\nContralateral conjugate gaze paresis\nHomonymous hemianopia\nAbulia, aphasia, neglect, or apraxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "brain herniation syndromes",
+          "url": "https://wikem.org/wiki/Brain_herniation_syndromes"
+        }
+      ]
+    },
+    "Focal_neurological_deficits": {
+      "text": "Related to the area involved\nPutamen\nContralateral hemiplegia\nContralateral sensory loss\nAphasia\nDysphagia\nHead and gaze deviation towards \"healthy limbs\"\nHomolateral mydriasis\nHomonymous hemianopia\nNeglect or apraxia\nCaudate nucleus\nContralateral hemiparesis\nContralateral conjugate gaze paresis\nConfusion\nHydrocephalus (intraventricular extension of haemorrhage)\nThalamus\nContralateral sensory loss, with or without contralateral hemiparesis\nVertical gaze paresis\nConfusion, aphasia\nHomonymous hemianopia\nPossible hydrocephalus\nBrain stem\nOnset with coma, quadriparesis, gaze paresis and autonomic instability\nOcular bobbing, miosis\nCranial nerves deficit\nCerebellum\n: Close monitoring!\nAtaxia, usually beginning in the trunk\nDizziness\nHomolateral dysmetria\nDysphagia, dysartria\nIpsilateral facial weakness, sensory loss\nGaze paresis, skew deviation, miosis, or decreased level of consciousness\nLobar\n: Exclude cerebral AVM.\nContralateral hemiparesis or sensory loss\nContralateral conjugate gaze paresis\nHomonymous hemianopia\nAbulia, aphasia, neglect, or apraxia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Intracranial_Mass": {
+          "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+          "tables": []
+        },
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Intracranial_Mass": {
+      "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        },
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[4]\nConsider cervical and/or facial CT\nDiagnostic approach for ICH\n[5]\nA baseline severity score should be performed as part of the initial evaluation of patients with ICH (Class I; Level of Evidence B)\nRapid neuroimaging with CT or MRI is recommended to distinguish ischemic stroke from ICH (Class I; Level of Evidence A)\nCTA and contrast-enhanced CT may be considered to help identify patients at risk for hematoma expansion (Class IIb; Level of Evidence B), and CTA, CT venography, contrast-enhanced CT, contrastenhanced MRI, magnetic resonance angiography and magnetic resonance venography, and catheter angiography can be useful to evaluate for underlying structural lesions including vascular malformations and tumors when there is clinical or radiological suspicion (Class IIa; Level of Evidence B).\nHemorrhagic stroke\n(spontaneous intracranial hemorrhage)\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nECG role\n(\nelevated intracranial pressure\n)\n[6]\nDiffuse T-wave inversions\nProlonged QT\nBradycardia (the Cushing reflex – indicates imminent brainstem herniation)\nOther possible ECG changes that may be seen:\nST segment elevation / depression — this may mimic myocardial ischaemia or pericarditis.\nIncreased U wave amplitude.\nOther rhythm disturbances: sinus tachycardia, junctional rhythms, premature ventricular contractions, atrial fibrillation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[4]\nConsider cervical and/or facial CT\nDiagnostic approach for ICH\n[5]\nA baseline severity score should be performed as part of the initial evaluation of patients with ICH (Class I; Level of Evidence B)\nRapid neuroimaging with CT or MRI is recommended to distinguish ischemic stroke from ICH (Class I; Level of Evidence A)\nCTA and contrast-enhanced CT may be considered to help identify patients at risk for hematoma expansion (Class IIb; Level of Evidence B), and CTA, CT venography, contrast-enhanced CT, contrastenhanced MRI, magnetic resonance angiography and magnetic resonance venography, and catheter angiography can be useful to evaluate for underlying structural lesions including vascular malformations and tumors when there is clinical or radiological suspicion (Class IIa; Level of Evidence B).\nHemorrhagic stroke\n(spontaneous intracranial hemorrhage)\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nECG role\n(\nelevated intracranial pressure\n)\n[6]\nDiffuse T-wave inversions\nProlonged QT\nBradycardia (the Cushing reflex – indicates imminent brainstem herniation)\nOther possible ECG changes that may be seen:\nST segment elevation / depression — this may mimic myocardial ischaemia or pericarditis.\nIncreased U wave amplitude.\nOther rhythm disturbances: sinus tachycardia, junctional rhythms, premature ventricular contractions, atrial fibrillation.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Elevating_head_of_bed": {
+          "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[7]",
+          "tables": []
+        },
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[8]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[9]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[10]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[11]\n, but more recent work has found no difference between SBP <140 and <180\n[12]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[13]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[14]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        }
+      ]
+    },
+    "Elevating_head_of_bed": {
+      "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[7]",
+      "subsections": {
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[8]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[9]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[10]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[11]\n, but more recent work has found no difference between SBP <140 and <180\n[12]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[13]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[14]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        }
+      ]
+    },
+    "Seizure_Prophylaxis_and_Treatment": {
+      "text": "Prophylactic antiepileptics\nnot\nrecommended\n[8]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[9]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[10]",
+      "subsections": {
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[11]\n, but more recent work has found no difference between SBP <140 and <180\n[12]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[13]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[14]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        }
+      ]
+    },
+    "Blood_Pressure": {
+      "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[11]\n, but more recent work has found no difference between SBP <140 and <180\n[12]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+      "subsections": {
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[13]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[14]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        }
+      ]
+    },
+    "Reverse_coagulopathy": {
+      "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[13]",
+      "subsections": {
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[14]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "MDCalc: ICH Score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Altered Mental Status\nHead trauma (main)\nBrain herniation syndromes\nEBQ:Platelet transfusion versus standard care after acute stroke due to spontaneous cerebral haemorrhage associated with antiplatelet therapy (PATCH): a randomized, open-label, phase 3 trial\nEBQ:INTERACT-2",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Brain herniation syndromes",
+          "url": "https://wikem.org/wiki/Brain_herniation_syndromes"
+        },
+        {
+          "text": "EBQ:Platelet transfusion versus standard care after acute stroke due to spontaneous cerebral haemorrhage associated with antiplatelet therapy (PATCH): a randomized, open-label, phase 3 trial",
+          "url": "https://wikem.org/wiki/EBQ:Platelet_transfusion_versus_standard_care_after_acute_stroke_due_to_spontaneous_cerebral_haemorrhage_associated_with_antiplatelet_therapy_(PATCH):_a_randomized,_open-label,_phase_3_trial"
+        },
+        {
+          "text": "EBQ:INTERACT-2",
+          "url": "https://wikem.org/wiki/EBQ:INTERACT-2"
+        }
+      ]
+    }
+  }
+}

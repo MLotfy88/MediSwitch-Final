@@ -1,0 +1,108 @@
+{
+  "drug_name": "Isoproterenol",
+  "url": "https://wikem.org/wiki/Isoproterenol",
+  "scraped_at": "2026-01-10T07:55:53.081806",
+  "sections": {
+    "General": {
+      "text": "Type: Beta agonist;\nAntiarrhythmics\nDosage Forms: IV or IM injection\nCommon Trade Names: Isoprenaline, Isuprel",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Loading dose: 0.02-0.06 mg IV, followed by infusion\n[1]\n[2]\n2-20 mcg/min IV infusion\nTitrate to HR and BP\nAlternatively, bolus 0.02-0.06 mg IV, then 0.01-0.2 mg IV PRN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "No well controlled studies for appropriate dosing\nAHA recommends initial infusion of 0.1 mcg/kg/min, with titrated range usually 0.1-1 mcg/kg/min\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Unknown\nRenal Dosing - undefined\nHepatic Dosing - undefined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Refractory\ntorsades\nRefractory symptomatic\nbradycardia\nRefractory\nelectrical storm\nBrugada syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Dramatic increase in O2 demand\nV-tach (use lowest dose possible)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-10 min\n[4]\nMetabolism: liver, CYP450\nExcretion: urine primarily\nMechanism of Action: Beta adrenergic agonist",
+      "subsections": {
+        "Kinetics": {
+          "text": "Onset of action = 1-5 min\nDuration of action = 1-2 hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Kinetics": {
+      "text": "Onset of action = 1-5 min\nDuration of action = 1-2 hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiarrhythmics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "drug_name": "Invasive_candidiasis",
+  "url": "https://wikem.org/wiki/Invasive_candidiasis",
+  "scraped_at": "2026-01-10T07:55:46.875881",
+  "sections": {
+    "Background": {
+      "text": "Candida is an important nosocomial infection that requires evaluation to identify a source: central line cathether, intravenous catheter, indwelling foley catheter, recent abdominal surgery with anastamotic leak\nAssociated with candidemia with further hematogenous spread to visceral organs (heart, kidney, liver, spleen, eye, brain, skin, joints etc)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "presence of biofilms on catheter\nfever and chills unresponsive to antibiotics\nchorioretinitis\nmuscle abscesses\nskin lesions with satellite pustules",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "positive blood culture\npositive culture of blood, tissue, urine from normally sterile sites\nbiopsy of skin lesions for gram staining\nbeta-D-glutan assay can be a diagnostic adjunct to blood cultures and identify systemic fungal infections weeks before positive blood cultures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Vascular catheter removal\n1st line: IV Echinocandins\nCaspofungin\n70mg IV day 1, 50mg IV Qdaily x 14 days following the last positive blood culture\nAnidulafungin\n200mg IV day 1, 100mg IV Qdaily x 14 days following the last positive blood culture\nMicafungin\n100mg IV Qdaily x 15 days\nStep down therapy: as early as 5 days, can step down to oral if blood stream is clear and patient can tolerate oral regime\n2nd line:\nFluconazole\n800mg IV loading dose, 400mg (6mg/kg) IV Qdaily for 14 days following first negative blood culture\nVoriconazole\n400mg (6mg/kg) IV Q12 hours x 2 doses (loading dose), 200mg (3mg/kg) IV Q12 x 14 days following first negative blood culture (maintenance dose)\nAlternative:\nAmphotericin B\nis acceptable but carries a higher toxicity and side-effect profile\n1mg/kg/day IV x 14 days following first negative blood culture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Micafungin",
+          "url": "https://wikem.org/wiki/Micafungin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Candidiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    }
+  }
+}

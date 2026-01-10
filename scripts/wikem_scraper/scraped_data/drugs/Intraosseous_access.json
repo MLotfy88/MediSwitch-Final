@@ -1,0 +1,285 @@
+{
+  "drug_name": "Intraosseous_access",
+  "url": "https://wikem.org/wiki/Intraosseous_access",
+  "scraped_at": "2026-01-10T07:55:40.889449",
+  "sections": {
+    "Indications": {
+      "text": "Immediate vascular access required for administration of drugs/fluids\nCardiac arrest, resuscitation when no other IV in place",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Osteoporosis\nOsteomyelitis\nOsteogenesis imperfecta\nFractured bone\nExtravasation of fluid can lead to\ncompartment syndrome\nRecent IO infusion in same bone\nCellulitis\n, infection, or\nburn\n, at insertion site",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Osteogenesis imperfecta",
+          "url": "https://wikem.org/wiki/Osteogenesis_imperfecta"
+        },
+        {
+          "text": "Fractured bone",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        }
+      ]
+    },
+    "Equipment": {
+      "text": "EZ-IO drill (other products/brands available)\nAppropriate IO needle with extension set\nChloraprep or alcohol swabs\nSaline Flush\nLidocaine\n(2% lidocaine without epi)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        }
+      ]
+    },
+    "Site_Selection": {
+      "text": "Proximal Tibia- 2 finger breadths below tibial tuberosity (1-3 cm) on medial, flat aspect of tibia\nDistal Tibia- medial surface at junction of medial malleolus and shaft of tibia, posterior to to greater saphenous vein\nProximal humerus (adults only, use yellow needle)\n[1]\nkeep arm adducted and internally rotated (hand on bellybutton)\nslide fingers up humerus until you feel a notch (surgical neck)\ninsert IO 1cm above surgical neck into the greater tubercle\nimmobilize arm or IO will displace (no abduction at shoulder)\nDistal Femur (generally only in infants and children)\nPelvic ASIS\nSternum (Has highest flow rate of any location)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Identify landmarks\nClean skin\nPlace appropriate needle on drill and remove safety cap\nADVANCE needle through skin to bone\n5 mm of the catheter (at least one black line) must be visible outside the skin\nDRILL needle perpendicular into bone at site with gentle, constant pressure\nWhen needle tip contacts bone there should be 5mm of catheter visible outside of skin (if not you may need a longer needle)\nContinue drilling through bone until \"give\" or \"pop\" occurs and needle tip enters medullary space\nRemove stylet (\ncaution: stylet is extremely sharp\n- place in sharps container)\nAttach the manuacturer's extension set (helpful if this is pre-flushed with saline and/or lidocaine)\nAspirate blood/marrow to confirm placement\nIf patient is awake, slowly infuse 2% lidocaine (cardiac lidocaine) 2-3mL through the IO line (IO infusion is painful as the marrow cavity expands)\nFlush saline through extension set to expand marrow cavity (helps ensure adequate flow rates)\nApply dressing",
+      "subsections": {
+        "Removal": {
+          "text": "Detach extension tubing. Gently and slowly apply in-line traction (i.e. pull straight out - do not rock back and forth). May rotate clockwise while applying in-line traction.\nCan attach syringe via luer lock to act as handle\nApply dressing.\n(IO's should not be left in more than 72-96 h and ideally removed after initial resuscitation once more secured access is achieved\n[2]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Removal": {
+      "text": "Detach extension tubing. Gently and slowly apply in-line traction (i.e. pull straight out - do not rock back and forth). May rotate clockwise while applying in-line traction.\nCan attach syringe via luer lock to act as handle\nApply dressing.\n(IO's should not be left in more than 72-96 h and ideally removed after initial resuscitation once more secured access is achieved\n[2]\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Compartment syndrome\nIncomplete penetration of cortex\nPenetration of posterior cortex\nInfection (\ncellulitis\n,\nosteomyelitis\n)\nFracture\nGrowth plate damage\nFat embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Fat embolism",
+          "url": "https://wikem.org/wiki/Fat_embolism"
+        }
+      ]
+    },
+    "Labs_drawn_via_IO": {
+      "text": "Blood drawn from an IO can be used for type and cross, chemistry, blood gas.\nThere is not good correlation with Sodium, Potassium, CO\n2\n, and calcium levels.\n[3]\nPotassium is often elevated due to hemolysis\nCANNOT use IO blood for CBC\nWBCs are higher and platelet counts are lower\n[3]\nOnly need to discard 2mL of blood prior to sending to lab",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "IO_Medications": {
+      "text": "Any medication that can be given in peripheral IV can be given through IO\nEpinephrine\ninfused via the intraosseous humeral site has the identical peak serum concentration as if it were instilled via a subclavian central line\n[4]\nRSI\nmedications can be given through IO with the same efficacy\n[5]\nSame doses as IV meds\nFollow with flush\nDrips or IV fluids should be given with pressure bag or infusion pump",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        }
+      ]
+    },
+    "IO_and_CT_contrast": {
+      "text": "Overall safe and effective\nCase reports with successful venous opacification in a trauma patient\n[6]\nSuccessful CTA\nPE\nprotocol reported\n[7]\nConnect power injector straight to IO needle. Do not use IO extension tubing (cannot withstand pressure)\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vascular_access_types": {
+          "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Teleflex EZ-IO\nMerk Manual - How To Do Intraosseous Cannulation",
+      "subsections": {
+        "Videos": {
+          "text": "EMRAP (3:12)\nhttps://www.youtube.com/watch?v=KHXSfh2ZRDM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "EMRAP (3:12)\nhttps://www.youtube.com/watch?v=KHXSfh2ZRDM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

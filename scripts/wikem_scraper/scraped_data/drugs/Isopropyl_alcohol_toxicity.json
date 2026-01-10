@@ -1,0 +1,490 @@
+{
+  "drug_name": "Isopropyl_alcohol_toxicity",
+  "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity",
+  "scraped_at": "2026-01-10T07:55:52.565315",
+  "sections": {
+    "Background": {
+      "text": "Main component of rubbing alcohol\nHallmark is osmolar gap, ketosis, that is without acidosis\nMetabolized to acetone, not to an acid\nTakes 30-60 min for acetone to appear in blood; 3 hr to appear in urine\nLethal Dose: 4-8 g/kg or 250 mL in average adult (calculated using volume of pure isopropyl alcohol)\nTypical store bought rubbing alcohol is 70% isopropyl alcohol by volume, so lethal dose is ~ 350 mL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Unlike other toxic alcohols (methanol, ethylene glycol), toxic effects caused by parent agent (IA) rather than metabolite (acetone)\nMetabolized to acetone by alcohol dehydrogenase\nMaximal distribution in ≤ 2 hours\nLethal dose > 200 mg/dL, although variable literature",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "CNS depression\nSimilar to ETOH intoxication, but longer-lasting\nUsually peaks in first hour of ingestion\nGI\nNausea/vomiting\n/\nabdominal pain\n/ hemorrhagic gastritis\nRespiratory depression\nFruity breath from acetone\nHypotension\n,\nhypothermia\nfrom peripheral vasodilation\nHypoglycemia\n(in malnourished patients)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Starvation ketoacidosis\nDiabetic Ketoacidosis\nInborn errors of metabolism\nSalicylate Toxicity\nAcetone ingestion",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Starvation ketoacidosis",
+          "url": "https://wikem.org/wiki/Starvation_ketoacidosis"
+        },
+        {
+          "text": "Diabetic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_Ketoacidosis"
+        },
+        {
+          "text": "Salicylate Toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_Toxicity"
+        },
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Fingerstick glucose\nComplete metabolic panel\nSerum ketones\nSerum Osmolality\nUrinalysis\nVBG\nAspirin/Tylenol levels\nECG\nSerum isopropyl alcohol level (if available)\nTotal CK",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Osmolal gap > 10; see\nOsmolal or Osmolar Gap\nAbsence of anion gap\nAbsence of metabolic acidosis\nAbsence of serum beta hydroxybutyrate\nPresence of serum and urine ketones\nConsider other diagnosis if absent 2hr after ingestion\nCreatinine may be falsely elevated due to acetone interference with laboratory measurement of Cr",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Osmolal or Osmolar Gap",
+          "url": "https://wikem.org/wiki/Osmolal_or_Osmolar_Gap"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Fingerstick glucose\nComplete metabolic panel\nSerum ketones\nSerum Osmolality\nUrinalysis\nVBG\nAspirin/Tylenol levels\nECG\nSerum isopropyl alcohol level (if available)\nTotal CK",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Osmolal gap > 10; see\nOsmolal or Osmolar Gap\nAbsence of anion gap\nAbsence of metabolic acidosis\nAbsence of serum beta hydroxybutyrate\nPresence of serum and urine ketones\nConsider other diagnosis if absent 2hr after ingestion\nCreatinine may be falsely elevated due to acetone interference with laboratory measurement of Cr",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Osmolal or Osmolar Gap",
+          "url": "https://wikem.org/wiki/Osmolal_or_Osmolar_Gap"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Osmolal gap > 10; see\nOsmolal or Osmolar Gap\nAbsence of anion gap\nAbsence of metabolic acidosis\nAbsence of serum beta hydroxybutyrate\nPresence of serum and urine ketones\nConsider other diagnosis if absent 2hr after ingestion\nCreatinine may be falsely elevated due to acetone interference with laboratory measurement of Cr",
+      "subsections": {
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Osmolal or Osmolar Gap",
+          "url": "https://wikem.org/wiki/Osmolal_or_Osmolar_Gap"
+        }
+      ]
+    },
+    "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (if ketoacidosis)",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "+",
+            "Reduced vision": "-",
+            "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+ (early on, then disappears)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "-",
+            "Anion gap": "-",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+ (initially)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (converted to lactate)",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "-",
+            "Management": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment is supportive.\nNo role for fomepizole or ethanol\nBlockade of alcohol dehydrogenase (ADH) will prolong intoxication\nHemodialysis indications:\nHypotension\nComatose\nConsider if IA serum level >200mg/dL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally may be discharged once clinically sober.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxic alcohols\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

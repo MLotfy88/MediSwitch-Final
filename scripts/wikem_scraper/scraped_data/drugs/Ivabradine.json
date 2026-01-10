@@ -1,0 +1,157 @@
+{
+  "drug_name": "Ivabradine",
+  "url": "https://wikem.org/wiki/Ivabradine",
+  "scraped_at": "2026-01-10T07:55:54.138150",
+  "sections": {
+    "Administration": {
+      "text": "Type: Miscellaneous Cardiovascular Agents\nDosage Forms: Oral solution (5mg/mL) and Tablet (5 mg, 7.5 mg)\nRoutes of Administration: PO\nCommon Trade Names: Corlanor, Procoralan",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "2.5mg to 7.5mg twice daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Greater than 40kg: 2.5mg to 7.5mg twice daily\nLess than 40kg: Starting dose is 0.05 mg/kg twice daily\n6 months to 1 year maximum dose - 0.2mg/kg twice daily\n1< year maximum dose - 0.3mg/kg up to 7.5mg twice daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Benefit should outweigh risk; monitor for congestive heart failure destabilization, especially during the first trimester; monitor for preterm birth during the third trimester in pregnant women with chronic heart failure",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Use is not recommended. The effects in the nursing infant are unknown.",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "No dosage adjustment is required for patients with creatinine clearance 15 to 60 mL/min. No data are available for patients with creatinine clearance below 15 mL/min.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No dose adjustment is required in patients with mild or moderate hepatic impairment. Corlanor is\ncontraindicated in patients with severe hepatic impairment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Benefit should outweigh risk; monitor for congestive heart failure destabilization, especially during the first trimester; monitor for preterm birth during the third trimester in pregnant women with chronic heart failure",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Use is not recommended. The effects in the nursing infant are unknown.",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "No dosage adjustment is required for patients with creatinine clearance 15 to 60 mL/min. No data are available for patients with creatinine clearance below 15 mL/min.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No dose adjustment is required in patients with mild or moderate hepatic impairment. Corlanor is\ncontraindicated in patients with severe hepatic impairment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Use is not recommended. The effects in the nursing infant are unknown.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No dosage adjustment is required for patients with creatinine clearance 15 to 60 mL/min. No data are available for patients with creatinine clearance below 15 mL/min.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No dose adjustment is required in patients with mild or moderate hepatic impairment. Corlanor is\ncontraindicated in patients with severe hepatic impairment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No dosage adjustment is required for patients with creatinine clearance 15 to 60 mL/min. No data are available for patients with creatinine clearance below 15 mL/min.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No dose adjustment is required in patients with mild or moderate hepatic impairment. Corlanor is\ncontraindicated in patients with severe hepatic impairment.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No dose adjustment is required in patients with mild or moderate hepatic impairment. Corlanor is\ncontraindicated in patients with severe hepatic impairment.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Reduction of angina and risk of hospitalization for patients with:\nStable symptomatic chronic heart failure with reduced left ventricular ejection fraction\nStable symptomatic heart failure due to dilated cardiomyopathy in pediatric patients ages 6 months and older",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAcute decompensated heart failure\nClinically significant hypotension\nSick sinus syndrome, sinoatrial block or 3rd degree AV block, unless a functioning demand pacemaker is present\nSevere hepatic impairment\nHeart rate maintained exclusively by the pacemaker\nIn combination with strong cytochrome CYP3A4 inhibitors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Bradycardia\nHypertension\nAtrial fibrillation\nLuminous phenomena",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Bradycardia\nHypertension\nAtrial fibrillation\nLuminous phenomena",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6 hours\nMetabolism: Liver extensively; CYP3A4\nExcretion: ~50% Urine (~4% oral dose unchanged); ~50% Feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Hyperpolarization-activated cyclic nucleotide-gated (HCN) channel blocker; Pacemaker current I(f) inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congestive heart failure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        }
+      ]
+    },
+    "References": {
+      "text": "FDA Corlanor Prescribing Information,\nhttps://www.accessdata.fda.gov/drugsatfda_docs/label/2019/209964lbl.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "drug_name": "Iron",
+  "url": "https://wikem.org/wiki/Iron",
+  "scraped_at": "2026-01-10T07:55:48.092577",
+  "sections": {
+    "Intro": {
+      "text": "Iron Supplementation\nIron Toxicity\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Heavy Metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    }
+  }
+}

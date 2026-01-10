@@ -1,0 +1,252 @@
+{
+  "drug_name": "Intranasal_sedation",
+  "url": "https://wikem.org/wiki/Intranasal_sedation",
+  "scraped_at": "2026-01-10T07:55:41.507451",
+  "sections": {
+    "General_Instructions": {
+      "text": "",
+      "subsections": {
+        "Indications": {
+          "text": "Need for pain control when IV or PO routes are unavailable or inappropriate\nAlternative to IM route",
+          "tables": []
+        },
+        "Materials": {
+          "text": "Syringes (1mL or 3mL)\nBlunt fill needle\nAtomizer\nMedication",
+          "tables": []
+        },
+        "Procedure": {
+          "text": "Load the appropriate volume/dose of medication into the syringe\nRemove needle and attach atomizer device to syringe\nUsing your free hand to hold the crown of the head stable, place the tip of the atomizer snugly against the nostril aiming slightly up and outward (towards the top of the ipsilateral ear)\nBriskly depress the syringe plunger to deliver the medication into the nostril\nMay repeat on opposite nostril if dose volume is too large for one nostril",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Need for pain control when IV or PO routes are unavailable or inappropriate\nAlternative to IM route",
+      "subsections": {
+        "Materials": {
+          "text": "Syringes (1mL or 3mL)\nBlunt fill needle\nAtomizer\nMedication",
+          "tables": []
+        },
+        "Procedure": {
+          "text": "Load the appropriate volume/dose of medication into the syringe\nRemove needle and attach atomizer device to syringe\nUsing your free hand to hold the crown of the head stable, place the tip of the atomizer snugly against the nostril aiming slightly up and outward (towards the top of the ipsilateral ear)\nBriskly depress the syringe plunger to deliver the medication into the nostril\nMay repeat on opposite nostril if dose volume is too large for one nostril",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Materials": {
+      "text": "Syringes (1mL or 3mL)\nBlunt fill needle\nAtomizer\nMedication",
+      "subsections": {
+        "Procedure": {
+          "text": "Load the appropriate volume/dose of medication into the syringe\nRemove needle and attach atomizer device to syringe\nUsing your free hand to hold the crown of the head stable, place the tip of the atomizer snugly against the nostril aiming slightly up and outward (towards the top of the ipsilateral ear)\nBriskly depress the syringe plunger to deliver the medication into the nostril\nMay repeat on opposite nostril if dose volume is too large for one nostril",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Load the appropriate volume/dose of medication into the syringe\nRemove needle and attach atomizer device to syringe\nUsing your free hand to hold the crown of the head stable, place the tip of the atomizer snugly against the nostril aiming slightly up and outward (towards the top of the ipsilateral ear)\nBriskly depress the syringe plunger to deliver the medication into the nostril\nMay repeat on opposite nostril if dose volume is too large for one nostril",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Delivery_Method": {
+      "text": "⅓ to ½ml per nostril is ideal, but can deliver up to 1ml per nostril (expect some fluid to run off). If you need more than 2ml total, consider titration with second dose in 5 minutes\nConsider administering an oral pain medication at the same time as the nasal medication or after about 15 minutes. As the effect of the nasal drug wanes, the oral medication takes effect\nThe single biggest reason for failure of intranasal opioids is inappropriate dosing (usually underdosing)\nMedications get absorbed in the nasal mucosa so inhalation is not needed and my cause deposit in the nasal pharynx",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Intranasal_Medications": {
+      "text": "",
+      "subsections": {
+        "Intranasal_Fentanyl": {
+          "text": "Fentanyl\n: 1-2 mcg/kg (comes in 50 ug/ml) (best for children)\n[1]\nBe wary of respiratory depression\nMonitor patients with pulse oximetry and close observation\nTitration to pain is often necessary\nRepeat dosing (1/2 to full dose) every 15 minutes until desired effect is achieved\nBe aware of dead space in delivery device\nFailure to account for the device dead space may lead to under-dosing of these highly concentrated drugs.",
+          "tables": []
+        },
+        "Intranasal_Benzodiazepines": {
+          "text": "Midazolam\n0.3 to 0.5mg/kg (maximum = 10mg)\n[2]\n[3]\nUse the lower dose for minor, non-painful procedures such as radiographic imaging\nUse the higher dose for better sedation prior to procedures such as laceration repair\nResults in mild somnolence with resultant reduction in anxiety and probably amnesia\nBe aware that midazolam causes some nasal burning benzyl alcohol preservative) for 30-45 seconds when administered.\nIn small children; lidocaine 2% or 4%: 0.2ml per nostril 5 minutes prior to the midazolam to stop the burning\nUse only concentrated midazolam (5mg/ml) formulation",
+          "tables": []
+        },
+        "Intranasal_Ketamine": {
+          "text": "Ketamine\n3 to 9mg/kg (no routine recommendation yet)\nKetamine\nmay result in deeper sedation and is dose dependent, utilize the initial dose at 6mg/kg and repeated doses at 3mg/kg until desired sedation is achieved.\nBe aware that ketamine causes a bitter taste (lyophilized) when administered\nBehavioral changes (nightmares, enuresis nocturna, and irritability) in children less than five (unable to understand reasons for experience)\nUse only concentrated ketamine (100mg/ml) formulation\nIdeal volume is 0.3 to 0.5 ml per nostril, maximum is 1ml per nostril, and more will just run out nose. If you need more – titrate to effect\nKetamine\n1mg/kg may be used for pain control (not procedural sedation)\n[4]\nGood adjunct to opioids or as an opioid-sparing agent",
+          "tables": []
+        },
+        "Intranasal_Dexmedetomidine": {
+          "text": "Dexmedetomidine\n1-2 μg/kg\nProvides procedural analgesia and anxiolysis\nCurrently unavailable in most EDs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Intranasal_Fentanyl": {
+      "text": "Fentanyl\n: 1-2 mcg/kg (comes in 50 ug/ml) (best for children)\n[1]\nBe wary of respiratory depression\nMonitor patients with pulse oximetry and close observation\nTitration to pain is often necessary\nRepeat dosing (1/2 to full dose) every 15 minutes until desired effect is achieved\nBe aware of dead space in delivery device\nFailure to account for the device dead space may lead to under-dosing of these highly concentrated drugs.",
+      "subsections": {
+        "Intranasal_Benzodiazepines": {
+          "text": "Midazolam\n0.3 to 0.5mg/kg (maximum = 10mg)\n[2]\n[3]\nUse the lower dose for minor, non-painful procedures such as radiographic imaging\nUse the higher dose for better sedation prior to procedures such as laceration repair\nResults in mild somnolence with resultant reduction in anxiety and probably amnesia\nBe aware that midazolam causes some nasal burning benzyl alcohol preservative) for 30-45 seconds when administered.\nIn small children; lidocaine 2% or 4%: 0.2ml per nostril 5 minutes prior to the midazolam to stop the burning\nUse only concentrated midazolam (5mg/ml) formulation",
+          "tables": []
+        },
+        "Intranasal_Ketamine": {
+          "text": "Ketamine\n3 to 9mg/kg (no routine recommendation yet)\nKetamine\nmay result in deeper sedation and is dose dependent, utilize the initial dose at 6mg/kg and repeated doses at 3mg/kg until desired sedation is achieved.\nBe aware that ketamine causes a bitter taste (lyophilized) when administered\nBehavioral changes (nightmares, enuresis nocturna, and irritability) in children less than five (unable to understand reasons for experience)\nUse only concentrated ketamine (100mg/ml) formulation\nIdeal volume is 0.3 to 0.5 ml per nostril, maximum is 1ml per nostril, and more will just run out nose. If you need more – titrate to effect\nKetamine\n1mg/kg may be used for pain control (not procedural sedation)\n[4]\nGood adjunct to opioids or as an opioid-sparing agent",
+          "tables": []
+        },
+        "Intranasal_Dexmedetomidine": {
+          "text": "Dexmedetomidine\n1-2 μg/kg\nProvides procedural analgesia and anxiolysis\nCurrently unavailable in most EDs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Intranasal_Benzodiazepines": {
+      "text": "Midazolam\n0.3 to 0.5mg/kg (maximum = 10mg)\n[2]\n[3]\nUse the lower dose for minor, non-painful procedures such as radiographic imaging\nUse the higher dose for better sedation prior to procedures such as laceration repair\nResults in mild somnolence with resultant reduction in anxiety and probably amnesia\nBe aware that midazolam causes some nasal burning benzyl alcohol preservative) for 30-45 seconds when administered.\nIn small children; lidocaine 2% or 4%: 0.2ml per nostril 5 minutes prior to the midazolam to stop the burning\nUse only concentrated midazolam (5mg/ml) formulation",
+      "subsections": {
+        "Intranasal_Ketamine": {
+          "text": "Ketamine\n3 to 9mg/kg (no routine recommendation yet)\nKetamine\nmay result in deeper sedation and is dose dependent, utilize the initial dose at 6mg/kg and repeated doses at 3mg/kg until desired sedation is achieved.\nBe aware that ketamine causes a bitter taste (lyophilized) when administered\nBehavioral changes (nightmares, enuresis nocturna, and irritability) in children less than five (unable to understand reasons for experience)\nUse only concentrated ketamine (100mg/ml) formulation\nIdeal volume is 0.3 to 0.5 ml per nostril, maximum is 1ml per nostril, and more will just run out nose. If you need more – titrate to effect\nKetamine\n1mg/kg may be used for pain control (not procedural sedation)\n[4]\nGood adjunct to opioids or as an opioid-sparing agent",
+          "tables": []
+        },
+        "Intranasal_Dexmedetomidine": {
+          "text": "Dexmedetomidine\n1-2 μg/kg\nProvides procedural analgesia and anxiolysis\nCurrently unavailable in most EDs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Intranasal_Ketamine": {
+      "text": "Ketamine\n3 to 9mg/kg (no routine recommendation yet)\nKetamine\nmay result in deeper sedation and is dose dependent, utilize the initial dose at 6mg/kg and repeated doses at 3mg/kg until desired sedation is achieved.\nBe aware that ketamine causes a bitter taste (lyophilized) when administered\nBehavioral changes (nightmares, enuresis nocturna, and irritability) in children less than five (unable to understand reasons for experience)\nUse only concentrated ketamine (100mg/ml) formulation\nIdeal volume is 0.3 to 0.5 ml per nostril, maximum is 1ml per nostril, and more will just run out nose. If you need more – titrate to effect\nKetamine\n1mg/kg may be used for pain control (not procedural sedation)\n[4]\nGood adjunct to opioids or as an opioid-sparing agent",
+      "subsections": {
+        "Intranasal_Dexmedetomidine": {
+          "text": "Dexmedetomidine\n1-2 μg/kg\nProvides procedural analgesia and anxiolysis\nCurrently unavailable in most EDs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "Intranasal_Dexmedetomidine": {
+      "text": "Dexmedetomidine\n1-2 μg/kg\nProvides procedural analgesia and anxiolysis\nCurrently unavailable in most EDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sedation (main)\nProcedural sedation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation (main)",
+          "url": "https://wikem.org/wiki/Sedation_(main)"
+        },
+        {
+          "text": "Procedural sedation (peds)",
+          "url": "https://wikem.org/wiki/Procedural_sedation_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Intranasal Medications and You\nIntranasal Medications and You (mp3 only)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

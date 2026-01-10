@@ -1,0 +1,2547 @@
+{
+  "drug_name": "Isolation_precautions",
+  "url": "https://wikem.org/wiki/Isolation_precautions",
+  "scraped_at": "2026-01-10T07:55:53.113737",
+  "sections": {
+    "CDC_Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Legend": "Isolation Types & Duration"
+          },
+          {
+            "Legend": "CDC"
+          },
+          {
+            "Legend": "Types"
+          },
+          {
+            "Legend": "Standard isolation is also applied to all other isolation types"
+          },
+          {
+            "Legend": "Airborne Precautions"
+          },
+          {
+            "Legend": "Contact"
+          },
+          {
+            "Legend": "Droplet"
+          },
+          {
+            "Legend": "Standard"
+          },
+          {
+            "Legend": "Duration of Isolation"
+          },
+          {
+            "Legend": "CN"
+          },
+          {
+            "Legend": "DI"
+          },
+          {
+            "Legend": "DE"
+          },
+          {
+            "Legend": "U"
+          },
+          {
+            "Legend": "Unknown"
+          }
+        ],
+        [
+          {
+            "Infection/Condition": "Abscess",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "No dressing or containment of drainage; until drainage stops or can be contained by dressing"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Dressing covers and contains drainage"
+          },
+          {
+            "Infection/Condition": "Acquired human immunodeficiency syndrome (HIV)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Post-exposure chemoprophylaxis for some blood exposures 866."
+          },
+          {
+            "Infection/Condition": "Actinomycosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Adenovirus infection ( see agent-specific guidance under gastroenteritis, conjuctivitis, pneumonia)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Amebiasis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Person to person transmission is rare. Transmission in settings for the mentally challenged and in a family group has been reported 1045. Use care when handling diapered infants and mentally challenged persons 1046."
+          },
+          {
+            "Infection/Condition": "Anthrax",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Infected patients do not generally pose a transmission risk."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmission through non-intact skin contact with draining lesions possible, therefore use Contact Precautions if large amount of uncontained drainage. Handwashing with soap and water preferable to use of waterless alcohol based antiseptics since alcohol does not have sporicidal activity 983."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "DE",
+            "Precautions/Comments": "Until decontamination of environment complete [203]. Wear respirator (N95 mask or PAPRs), protective clothing; decontaminate persons with powder on them (Notice to Readers: Occupational Health Guidelines for Remediation Workers at Bacillus anthracis-Contaminated Sites — United States, 2001–2002 )"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Hand hygiene: Handwashing for 30-60 seconds with soap and water or 2% chlorhexidene gluconate after spore contact (alcohol handrubs inactive against spores [983]."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Post-exposure prophylaxis following environmental exposure: 60 days of antimicrobials (either doxycycline, ciprofloxacin, or levofloxacin) and post-exposure vaccine under IND"
+          },
+          {
+            "Infection/Condition": "Antibiotic-associated colitis (seeClostridium difficile)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Arthropod-borne viral encephalitides (eastern, western, Venezuelan equine encephalomyelitis; St Louis, California encephalitis; West Nile Virus) and viral fevers (dengue, yellow fever, Colorado tick fever)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except rarely by transfusion, and for West Nile virus by organ transplant, breastmilk or transplacentally [530, 1047]. Install screens in windows and doors in endemic areas"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Use DEET-containing mosquito repellants and clothing to cover extremities"
+          },
+          {
+            "Infection/Condition": "Ascariasis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Aspergillosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Contact Precautions and Airborne Precautions if massive soft tissue infection with copious drainage and repeated irrigations required [154]."
+          },
+          {
+            "Infection/Condition": "Avian influenza (see influenza, avian below)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Babesiosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except rarely by transfusion,"
+          },
+          {
+            "Infection/Condition": "Blastomycosis, North American, cutaneous or pulmonary",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Botulism",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Bronchiolitis(see respiratory infections in infants and young children)",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Use mask according to Standard Precautions."
+          },
+          {
+            "Infection/Condition": "Brucellosis(undulant, Malta, Mediterranean fever)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except rarely via banked spermatozoa and sexual contact [1048, 1049]. Provid antimicrobial prophylaxis following laboratory exposure [1050]."
+          },
+          {
+            "Infection/Condition": "Campylobacter gastroenteritis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Candidiasis, all forms including mucocutaneous",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Cat-scratch fever (benign inoculation lymphoreticulosis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Cellulitis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Chancroid (soft chancre) (H. ducreyi)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmitted sexually from person to person"
+          },
+          {
+            "Infection/Condition": "Chickenpox (see varicella)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Chlamydia trachomatis",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Chlamydia pneumoniae",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Outbreaks in institutionalized populations reported, rarely [1051, 1052]."
+          },
+          {
+            "Infection/Condition": "Cholera (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Closed-cavity infection",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Contact Precautions if there is copious uncontained drainage"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Clostridium",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmission from person to person rare; one outbreak in a surgical setting reported [1053]. Use Contact Precautions if wound drainage is extensive."
+          },
+          {
+            "Infection/Condition": "Coccidioidomycosis (valley fever)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except under extraordinary circumstances because the infectious arthroconidial form of Coccidioides immitis is not produced in humans [1054]."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except under extraordinary circumstances, (e.g., inhalation of aerosolized tissue phase endospores during necropsy, transplantation of infected lung) because the infectious arthroconidial form of Coccidioides immitis is not produced in humans [1054, 1055]."
+          },
+          {
+            "Infection/Condition": "Colorado tick fever",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Congenital rubella",
+            "'": "",
+            "Type": "C",
+            "Duration": "Until 1 yr of age",
+            "Precautions/Comments": "Standard Precautions if nasopharyngeal and urine cultures repeatedly neg. after 3 mos. of age"
+          },
+          {
+            "Infection/Condition": "Conjunctivitis",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Adenovirus most common; enterovirus 70 1056, Coxsackie virus A24 1057) also associated with community outbreaks. Highly contagious; outbreaks in eye clinics, pediatric and neonatal settings, institutional settings reported. Eye clinics should follow Standard Precautions when handling patients with conjunctivitis. Routine use of infection control measures in the handling of instruments and equipment will prevent the occurrence of outbreaks in this and other settings. 460, 814, 1058, 1059 461, 1060."
+          },
+          {
+            "Infection/Condition": "Corona virus associated with SARS (SARS-CoV) (see severe acute respiratory syndrome)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Coxsackie virus disease (see enteroviral infection)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Creutzfeldt-Jakob disease",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use disposable instruments or special sterilization/disinfection for surfaces, objects contaminated with neural tissue if CJD or vCJD suspected and has not been R/O; No special burial procedures"
+          },
+          {
+            "Infection/Condition": "CJD, vCJD",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "1061"
+          },
+          {
+            "Infection/Condition": "Croup (see respiratory infections in infants and young children)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Crimean-Congo Fever (see Viral Hemorrhagic Fever)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Cryptococcosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person, except rarely via tissue and corneal transplant 1062, 1063"
+          },
+          {
+            "Infection/Condition": "Cryptosporidiosis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Cysticercosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Cytomegalovirus infection, including in neonates and immunosuppressed patients",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "No additional precautions for pregnant HCWs"
+          },
+          {
+            "Infection/Condition": "Decubitus ulcer (see Pressure ulcer)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Dengue fever",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Diarrhea, acute-infective etiology suspected (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Diphtheria",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "CN",
+            "Precautions/Comments": "Until 2 cultures taken 24 hrs. apart negative"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "CN",
+            "Precautions/Comments": "Until 2 cultures taken 24 hrs. apart negative"
+          },
+          {
+            "Infection/Condition": "Ebola virus (see viral hemorrhagic fevers)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Echinococcosis (hydatidosis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Echovirus (see enteroviral infection)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Encephalitis or encephalomyelitis (see specific etiologic agents)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Endometritis (endomyometritis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Enterobiasis (pinworm disease, oxyuriasis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Enterococcus species (see multidrug-resistant organisms if",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "epidemiologically significant orvancomycinresistant)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Enterocolitis, C. difficile (see C. difficile, gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Enteroviral infections (i.e., Group A and B Coxsackie viruses and Echo viruses) (excludes polio virus)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent children for duration of illness and to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "Epiglottitis, due to Haemophilus influenzae type b",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "See specific disease agents for epiglottitis due to other etiologies)"
+          },
+          {
+            "Infection/Condition": "Epstein-Barr virus infection, including infectious mononucleosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Erythema infectiosum (also see Parvovirus B19)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Escherichia coli gastroenteritis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Food poisoning",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Furunculosis, staphylococcal",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Contact if drainage not controlled. Follow institutional policies if MRSA"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Gangrene (gas gangrene)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Gastroenteritis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks for gastroenteritis caused by all of the agents below"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Discontinue antibiotics if appropriate. Do not share electronic thermometers 853, 854; ensure consistent environmental cleaning and disinfection. Hypochlorite solutions may be required for cleaning if transmission continues 847. Handwashing with soap and water preferred because of the absence of sporicidal activity of alcohol in waterless antiseptic handrubs 983."
+          },
+          {
+            "Infection/Condition": "Cryptosporidium species",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "E. coli",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "Giardia lamblia",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "Noroviruses",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks. Persons who clean areas heavily contaminated with feces or vomitus may benefit from wearing masks since virus can be aerosolized from these body substances 142, 147 148; ensure consistent environmental cleaning and disinfection with focus on restrooms even when apparently unsoiled 273, 1064). Hypochlorite solutions may be required when there is continued transmission 290-292. Alcohol is less active, but there is no evidence that alcohol antiseptic handrubs are not effective for hand decontamination 294. Cohorting of affected patients to separate airspaces and toilet facilities may help interrupt transmission during outbreaks."
+          },
+          {
+            "Infection/Condition": "Rotavirus",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Ensure consistent environmental cleaning and disinfection and frequent removal of soiled diapers. Prolonged shedding may occur in both immunocompetent and immunocompromised children and the elderly 932, 933."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent persons for the duration of illness or to control institutional outbreaks"
+          },
+          {
+            "Infection/Condition": "German measles (see rubella; see congenital rubella)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Giardiasis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Gonococcal ophthalmia neonatorum (gonorrheal ophthalmia, acute conjunctivitis of newborn)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Gonorrhea",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Granuloma inguinale (Donovanosis, granuloma venereum)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Guillain-Barré' syndrome",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not an infectious condition"
+          },
+          {
+            "Infection/Condition": "Haemophilus influenzae (see disease-specific recommendations)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Hand, foot, and mouth disease (see enteroviral infection)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Hansen's Disease (see Leprosy)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Hantavirus pulmonary syndrome",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Helicobacter pylori",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Hepatitis, viral",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Provide hepatitis A vaccine post-exposure as recommended 1065"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Diapered or incontinent patients",
+            "Type": "C",
+            "Duration": "",
+            "Precautions/Comments": "Maintain Contact Precautions in infants and children <3 years of age for duration of hospitalization; for children 3-14 yrs. of age for 2 weeks after onset of symptoms; >14 yrs. of age for 1 week after onset of symptoms 833, 1066, 1067."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Type B-HBsAg positive; acute or chronic",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "See specific recommendations for care of patients in hemodialysis centers 778"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Type C and other unspecified non-A, non-B",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "See specific recommendations for care of patients in hemodialysis centers 778"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Type D (seen only with hepatitis B)",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Type E",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent individuals for the duration of illness 1068"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Type G",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Herpangina (see enteroviral infection)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Hookworm",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Herpes simplex (Herpesvirus hominis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "Until lesions dry and crusted",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "Until lesions dry and crusted",
+            "Precautions/Comments": "Also, for asymptomatic, exposed infants delivered vaginally or by C-section and if mother has active infection and membranes have been ruptured for more than 4 to 6 hrs until infant surface cultures obtained at 24-36 hrs. of age negative after 48 hrs incubation 1069, 1070"
+          },
+          {
+            "Infection/Condition": "Herpes zoster (varicella-zoster) (shingles)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "A, C",
+            "Duration": "DI",
+            "Precautions/Comments": "Susceptible HCWs should not enter room if immune caregivers are available; no recommendation for protection of immune HCWs; no recommendation for type of protection, i.e. surgical mask or respirator; for susceptible HCWs."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "DI",
+            "Precautions/Comments": "Susceptible HCWs should not provide direct patient care when other immune caregivers are available."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Histoplasmosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Human immunodeficiency virus (HIV)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Post-exposure chemoprophylaxis for some blood exposures 866."
+          },
+          {
+            "Infection/Condition": "Human metapneumovirus",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "HAI reported 1071, but route of transmission not established 823. Assumed to be Contact transmission as for RSV since the viruses are closely related and have similar clinical manifestations and epidemiology. Wear masks according to Standard Precautions.."
+          },
+          {
+            "Infection/Condition": "Impetigo",
+            "'": "",
+            "Type": "C",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Infectious mononucleosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Influenza",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Seehttp://www.cdc.gov/flu/professionals/infectioncontrol/healthcaresettings.htmfor current seasonal influenza guidance."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "See www.cdc.gov/flu/avian/professional/infect-control.htm for current avian influenza guidance."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "5 days from onset of symptoms",
+            "Precautions/Comments": "Seehttp://www.pandemicflu.govfor current pandemic influenza guidance."
+          },
+          {
+            "Infection/Condition": "Kawasaki syndrome",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not an infectious condition"
+          },
+          {
+            "Infection/Condition": "Lassa fever (see viral hemorrhagic fevers)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Legionnaires' disease",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Leprosy",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Leptospirosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Lice",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Seehttp://www.cdc.gov/ncidod/dpd/parasites/lice/default.htm"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmitted person to person through infested clothing. Wear gown and gloves when removing clothing; bag and wash clothes according to CDC guidance above"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmitted person to person through sexual contact"
+          },
+          {
+            "Infection/Condition": "Listeriosis (listeria monocytogenes)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Person-to-person transmission rare; cross-transmission in neonatal settings reported 1072, 1073 1074, 1075"
+          },
+          {
+            "Infection/Condition": "Lyme disease",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Lymphocytic choriomeningitis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Lymphogranuloma venereum",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Malaria",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except through transfusion rarely and through a failure to follow Standard Precautions during patient care 1076-1079. Install screens in windows and doors in endemic areas. Use DEET-containing mosquito repellants and clothing to cover extremities"
+          },
+          {
+            "Infection/Condition": "Marburg virus disease (see viral hemorrhagic fevers)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Measles (rubeola)",
+            "'": "",
+            "Type": "A",
+            "Duration": "4 days after onset of rash; DI in immune",
+            "Precautions/Comments": "Susceptible HCWs should not enter room if immune care providers are available; no recommendation for face protection for immune HCW; no recommendation for type of face protection for susceptible HCWs, i.e., mask or respirator 1027, 1028. For exposed susceptibles, post-exposure vaccine within 72 hrs. or immune globulin within 6 days when available 17, 1032, 1034. Place exposed susceptible patients on Airborne Precautions and exclude susceptible healthcare personnel from duty from day 5 after first exposure to day 21 after last exposure, regardless of post-exposure vaccine 17."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "compromised",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Melioidosis, all forms",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Meningitis",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Contact for infants and young children"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "See meningococcal disease below"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Concurrent, active pulmonary disease or draining cutaneous lesions may necessitate addition of Contact and/or Airborne Precautions;"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "For children, airborne precautions until active tuberculosis ruled out in visiting family members (see tuberculosis below) 42"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Meningococcal disease: sepsis, pneumonia, meningitis",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "Postexposure chemoprophylaxis for household contacts, HCWs exposed to respiratory secretions; postexposure vaccine only to control outbreaks 15, 17."
+          },
+          {
+            "Infection/Condition": "Molluscum contagiosum",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Monkeypox",
+            "'": "",
+            "Type": "A, C",
+            "Duration": "A-Until monkeypox confirmed and smallpox excluded",
+            "Precautions/Comments": "Use See www.cdc.gov/ncidod/monkeypox for most current recommendations. Transmission in hospital settings unlikely 269. Pre- and post-exposure smallpox vaccine recommended for exposed HCWs"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "C-Until lesions crusted",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Mucormycosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Multidrug-resistant organisms (MDROs), infection or colonization (e.g., MRSA, VRE, VISA/VRSA, ESBLs, resistant S. pneumoniae)",
+            "'": "",
+            "Type": "S/C",
+            "Duration": "",
+            "Precautions/Comments": "MDROs judged by the infection control program, based on local, state, regional, or national recommendations, to be of clinical and epidemiologic significance. Contact Precautions recommended in settings with evidence of ongoing transmission, acute care settings with increased risk for transmission or wounds that cannot be contained by dressings. See recommendations for management options in Management of Multidrug-Resistant Organisms In Healthcare Settings, 2006 870. Contact state health department for guidance regarding new or emerging MDRO."
+          },
+          {
+            "Infection/Condition": "Mumps (infectious parotitis)",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 9 days",
+            "Precautions/Comments": "After onset of swelling; susceptible HCWs should not provide care if immune caregivers are available."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Note: (Recent assessment of outbreaks in healthy 18-24 year olds has indicated that salivary viral shedding occurred early in the course of illness and that 5 days of isolation after onset of parotitis may be appropriate in community settings; however the implications for healthcare personnel and high-risk patient populations remain to be clarified.)"
+          },
+          {
+            "Infection/Condition": "Mycobacteria, nontuberculosis (atypical)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted person-to-person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Mycoplasma pneumonia",
+            "'": "",
+            "Type": "D",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Necrotizing enterocolitis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Contact Precautions when cases clustered temporally 1080-1083 ."
+          },
+          {
+            "Infection/Condition": "Nocardiosis, draining lesions, or other presentations",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted person-to-person"
+          },
+          {
+            "Infection/Condition": "Norovirus (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Norwalk agent gastroenteritis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Orf",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Parainfluenza virus infection, respiratory in infants and young children",
+            "'": "",
+            "Type": "",
+            "Duration": "DI",
+            "Precautions/Comments": "Viral shedding may be prolonged in immunosuppressed patients 1009, 1010. Reliability of antigentesting to determine when to remove patients with prolonged hospitalizations from Contact Precautions uncertain."
+          },
+          {
+            "Infection/Condition": "Parvovirus B19 (Erythema infectiosum)",
+            "'": "",
+            "Type": "D",
+            "Duration": "",
+            "Precautions/Comments": "Maintain precautions for duration of hospitalization when chronic disease occurs in an immunocompromised patient. For patients with transient aplastic crisis or red-cell crisis, maintain precautions for 7 days. Duration of precautions for immunosuppressed patients with persistently positive PCR not defined, but transmission has occurred 929."
+          },
+          {
+            "Infection/Condition": "Pediculosis (lice)",
+            "'": "",
+            "Type": "C",
+            "Duration": "U 24 hrs after treatment",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Pertussis (whooping cough)",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 5 days",
+            "Precautions/Comments": "Single patient room preferred. Cohorting an option. Post-exposure chemoprophylaxis for household contacts and HCWs with prolonged exposure to respiratory secretions 863. Recommendations for Tdap vaccine in adults under development."
+          },
+          {
+            "Infection/Condition": "Pinworm infection (Enterobiasis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Plague (Yersinia pestis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 48 hrs",
+            "Precautions/Comments": "Antimicrobial prophylaxis for exposed HCW 207."
+          },
+          {
+            "Infection/Condition": "Pneumonia",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D, C",
+            "Duration": "DI",
+            "Precautions/Comments": "Outbreaks in pediatric and institutional settings reported 376, 1084-1086. In immunocompromised hosts, extend duration of Droplet and Contact Precautions due to prolonged shedding of virus 931"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "Unknown",
+            "Precautions/Comments": "Avoid exposure to other persons with CF; private room preferred. Criteria for D/C precautions not established. See CF Foundation guideline 20"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Adults",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Infants and children",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "See meningococcal disease above"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "DI",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Droplet Precautions if evidence of transmission within a patient care unit or facility 196-198, 1087"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Avoid placement in the same room with an immunocompromised patient."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "For MRSA, see MDROs"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Adults",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "See streptococcal disease (group A streptococcus) below"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Contact precautions if skin lesions present"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Infants and young children",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "Contact Precautions if skin lesions present"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Adults",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Infants and young children (see respiratory infectious disease, acute, or specific viral agent)",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Poliomyelitis",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Pressure ulcer (decubitus ulcer, pressure sore) infected",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "If no dressing or containment of drainage; until drainage stops or can be contained by dressing"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "If dressing covers and contains drainage"
+          },
+          {
+            "Infection/Condition": "Prion disease (See Creutzfeld-Jacob Disease)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Psittacosis (ornithosis) (Chlamydia psittaci)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Q fever",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Rabies",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Person to person transmission rare; transmission via corneal, tissue and organ transplants has been reported 539, 1088. If patient has bitten another individual or saliva has contaminated an open wound or mucous membrane, wash exposed area thoroughly and administer postexposure prophylaxis. 1089"
+          },
+          {
+            "Infection/Condition": "Rat-bite fever (Streptobacillus moniliformis disease, Spirillum minus disease)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Relapsing fever",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Resistant bacterial infection or colonization (see multidrug-resistant organisms)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Respiratory infectious disease, acute (if not covered elsewhere)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Also see syndromes or conditions listed in Table 2"
+          },
+          {
+            "Infection/Condition": "Respiratory syncytial virus infection, in infants, young children and immunocompromised adults",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Wear mask according to Standard Precautions 24 CB 116, 117. In immunocompromised patients, extend the duration of Contact Precautions due to prolonged shedding 928). Reliability of antigen testing to determine when to remove patients with prolonged hospitalizations from Contact Precautions uncertain."
+          },
+          {
+            "Infection/Condition": "Reye's syndrome",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not an infectious condition"
+          },
+          {
+            "Infection/Condition": "Rheumatic fever",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not an infectious condition"
+          },
+          {
+            "Infection/Condition": "Rhinovirus",
+            "'": "",
+            "Type": "D",
+            "Duration": "DI",
+            "Precautions/Comments": "Droplet most important route of transmission 104 1090. Outbreaks have occurred in NICUs and LTCFs 413, 1091, 1092. Add Contact Precautions if copious moist secretions and close contact likely to occur (e.g., young infants) 111, 833."
+          },
+          {
+            "Infection/Condition": "Rickettsial fevers, tickborne (Rocky Mountain spotted fever, tickborne typhus fever)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person except through transfusion, rarely"
+          },
+          {
+            "Infection/Condition": "Rickettsialpox (vesicular rickettsiosis; Rickettsia akari)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person; Spread to humans by mites living on the surface of mice; initial painless, red, firm nodule becomes fluid filled vesicle that scabs over to form eschar; may have nonspecific prodrome appearing like viral syndrome; self limited disease, but treatment with doxycycline 100mg BID 5-7 days speeds recovery; should respond to Antibiotics within 48 hrs of treatment"
+          },
+          {
+            "Infection/Condition": "Ringworm (dermatophytosis, dermatomycosis, tinea)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Rarely, outbreaks have occurred in healthcare settings, (e.g., NICU 1093, rehabilitation hospital 1094. Use Contact Precautions for outbreak."
+          },
+          {
+            "Infection/Condition": "Ritter's disease (staphylococcal scalded skin syndrome)",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "See staphylococcal disease, scalded skin syndrome below"
+          },
+          {
+            "Infection/Condition": "Rocky Mountain spotted fever",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Roseola infantum (exanthem subitum; caused by HHV-6)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Rotavirus infection (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Rubella (German measles) ( also see congenital rubella)",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 7 days after onset of rash",
+            "Precautions/Comments": "Susceptible HCWs should not enter room if immune caregivers are available. No recommendation for wearing face protection (e.g., a surgical mask) if immune. Pregnant women who are not immune should not care for these patients 17, 33. Administer vaccine within three days of exposure to non-pregnant susceptible individuals. Place exposed susceptible patients on Droplet Precautions; exclude susceptible healthcare personnel from duty from day 5 after first exposure to day 21 after last exposure, regardless of post-exposure vaccine."
+          },
+          {
+            "Infection/Condition": "Rubeola (see measles)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Salmonellosis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Scabies",
+            "'": "",
+            "Type": "C",
+            "Duration": "U 24",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Scalded skin syndrome, staphylococcal",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "See staphylococcal disease, scalded skin syndrome below)"
+          },
+          {
+            "Infection/Condition": "Schistosomiasis (bilharziasis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Severe acute respiratory syndrome (SARS)",
+            "'": "",
+            "Type": "A, D,C",
+            "Duration": "DI plus 10 days after resolution offever, provided respiratory symptoms are absent or improving",
+            "Precautions/Comments": "Airborne Precautions preferred; D if AIIR unavailable. N95 or higher respiratory protection; surgical mask if N95 unavailable; eye protection (goggles, face shield); aerosol-generating procedures and \"supershedders\" highest risk for transmission via small droplet nuclei and large droplets 93, 94, 96.Vigilant environmental disinfection (see www.cdc.gov/ncidod/sars)"
+          },
+          {
+            "Infection/Condition": "Shigellosis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Smallpox (variola; see vaccinia for management of vaccinated persons)",
+            "'": "",
+            "Type": "A, C",
+            "Duration": "DI",
+            "Precautions/Comments": "Until all scabs have crusted and separated (3-4 weeks). Non-vaccinated HCWs should not provide care when immune HCWs are available; N95 or higher respiratory protection for susceptible and successfully vaccinated individuals; postexposure vaccine within 4 days of exposure protective 108, 129, 1038-1040."
+          },
+          {
+            "Infection/Condition": "Sporotrichosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Spirillum minor disease (rat-bite fever)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Staphylococcal disease (S aureus)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Major",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "No dressing or dressing does not contain drainage adequately"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Minor or limited",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Dressing covers and contains drainage adequately"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions for diapered or incontinent children for duration of illness"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "Consider healthcare personnel as potential source of nursery, NICU outbreak 1095."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Streptobacillus moniliformis disease (rat-bite fever)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Streptococcal disease (group A streptococcus)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Major",
+            "Type": "C, D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "No dressing or dressing does not contain drainage adequately"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Minor or limited",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Dressing covers and contains drainage adequately"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "D",
+            "Duration": "U 24 hrs",
+            "Precautions/Comments": "Outbreaks of serious invasive disease have occurred secondary to transmission among patients and healthcare personnel 162, 972, 1096-1098"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Contact Precautions for draining wound as above; follow rec. for antimicrobial prophylaxis in selected conditions 160."
+          },
+          {
+            "Infection/Condition": "Streptococcal disease (group B streptococcus), neonatal",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Streptococcal disease (not group A or B) unless covered elsewhere",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Strongyloidiasis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Syphilis",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Tapeworm disease",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Tetanus",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Tinea (e.g., dermatophytosis, dermatomycosis, ringworm)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Rare episodes of person-to-person transmission"
+          },
+          {
+            "Infection/Condition": "Toxoplasmosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmission from person to person is rare; vertical transmission from mother to child, transmission through organs and blood transfusion rare"
+          },
+          {
+            "Infection/Condition": "Toxic shock syndrome (staphylococcal disease, streptococcal disease)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Droplet Precautions for the first 24 hours after implementation of antibiotic therapy if Group A streptococcus is a likely etiology"
+          },
+          {
+            "Infection/Condition": "Trachoma, acute",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Transmissible spongiform encephalopathy (see Creutzfeld-Jacob disease, CJD, vCJD)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Trench mouth (Vincent's angina)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Trichinosis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Trichomoniasis",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Trichuriasis (whipworm disease)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Tuberculosis (M. tuberculosis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "A, C",
+            "Duration": "",
+            "Precautions/Comments": "Discontinue precautions only when patient is improving clinically, and drainage has ceased or there are three consecutive negative cultures of continued drainage 1025, 1026. Examine for evidence of active pulmonary tuberculosis."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Examine for evidence of pulmonary tuberculosis. For infants and children, use Airborne Precautions until active pulmonary tuberculosis in visiting family members ruled out 42"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "A",
+            "Duration": "",
+            "Precautions/Comments": "Discontinue precautions only when patient on effective therapy is improving clinically and has three consecutive sputum smears negative for acid-fast bacilli collected on separate days (MMWR 2005; 54: RR-17www.cdc.gov/mmwr/preview/mmwrhtml/rr5417a1.htm?s_cid=rr5417a1_e) 12."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "A",
+            "Duration": "",
+            "Precautions/Comments": "Discontinue precautions only when the likelihood of infectious TB disease is deemed negligible, and either 1) there is another diagnosis that explains the clinical syndrome or 2) the results of three sputum smears for AFB are negative. Each of the three sputum specimens should be collected 8-24 hours apart, and at least one should be an early morning specimen"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Tularemia",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Typhoid (Salmonella typhi) fever (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Typhus",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Transmitted from person to person through close personal or clothing contact"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted from person to person"
+          },
+          {
+            "Infection/Condition": "Urinary tract infection (including pyelonephritis), with or without urinary cathete",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Vaccinia (vaccination site, adverse events following vaccination) *",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": "Only vaccinated HCWs have contact with active vaccination sites and care for persons with adverse vaccinia events; if unvaccinated, only HCWs without contraindications to vaccine may provide care."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Vaccination site care (including autoinoculated areas)",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Vaccination recommended for vaccinators; for newly vaccinated HCWs: semi-permeable dressing over gauze until scab separates, with dressing change as fluid accumulates, ~3-5 days; gloves, hand hygiene for dressing change; vaccinated HCW or HCW without contraindication to vaccine for dressing changes 205, 221, 225."
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Eczema vaccinatum",
+            "Type": "C",
+            "Duration": "Until lesions dry and crusted, scabs separated",
+            "Precautions/Comments": "For contact with virus-containing lesions and exudative material"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Fetal vaccinia",
+            "Type": "C",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Generalized vaccinia",
+            "Type": "C",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Progressive vaccinia",
+            "Type": "C",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Postvaccinia encephalitis",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Blepharitis or conjunctivitis",
+            "Type": "S/C",
+            "Duration": "",
+            "Precautions/Comments": "Use Contact Precautions if there is copious drainage"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Iritis or keratitis",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Vaccinia-associated erythema multiforme (Stevens Johnson",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not an infectious condition"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Syndrome)",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S/C",
+            "Duration": "",
+            "Precautions/Comments": "Follow organism-specific (strep, staph most frequent) recommendations and consider magnitude of drainage"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Varicella Zoster",
+            "'": "",
+            "Type": "A, C",
+            "Duration": "Until lesions dry and crusted",
+            "Precautions/Comments": "Susceptible HCWs should not enter room if immune caregivers are available; no recommendation for face protection of immune HCWs; no recommendation for type of protection, i.e. surgical mask or respirator for susceptible HCWs. In immunocompromised host with varicella pneumonia, prolong duration of precautions for duration of illness. Post-exposure prophylaxis: provide post-exposure vaccine ASAP but within 120 hours; for susceptible exposed persons for whom vaccine is contraindicated (immunocompromised persons, pregnant women, newborns whose mother's varicella onset is <5days before delivery or within 48 hrs after delivery) provide VZIG, when available, within 96 hours; if unavailable, use IVIG, Use Airborne Precautions for exposed susceptible persons and exclude exposed susceptible healthcare workers beginning 8 days after first exposure until 21 days after last exposure or 28 if received VZIG, regardless of postexposure vaccination. 1036."
+          },
+          {
+            "Infection/Condition": "Variola (see smallpox)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Vibrio parahaemolyticus (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Vincent's angina (trench mouth)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Viral hemorrhagic fevers due to Lassa, Ebola, Marburg, Crimean-Congo fever viruses",
+            "'": "",
+            "Type": "S, D, C",
+            "Duration": "DI",
+            "Precautions/Comments": "Single-patient room preferred. Emphasize: 1) use of sharps safety devices and safe work practices, 2) hand hygiene; 3) barrier protection against blood and body fluids upon entry into room (single gloves and fluid-resistant or impermeable gown, face/eye protection with masks, goggles or face shields); and 4) appropriate waste handling. Use N95 or higher respirators when performing aerosol-generating procedures. Largest viral load in final stages of illness when hemorrhage may occur; additional PPE, including double gloves, leg and shoe coverings may be used, especially in resource-limited settings where options for cleaning and laundry are limited. Notify public health officials immediately if Ebola is suspected 212, 314, 740, 772Also see Table 3 for Ebola as a bioterrorism agent"
+          },
+          {
+            "Infection/Condition": "Viral respiratory diseases (not covered elsewhere)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Adults",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "Infants and young children (see respiratory infectious disease,",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "acute)",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Whooping cough (see pertussis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Wound infections",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "C",
+            "Duration": "DI",
+            "Precautions/Comments": "No dressing or dressing does not contain drainage adequately"
+          },
+          {
+            "Infection/Condition": "",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Dressing covers and contains drainage adequately"
+          },
+          {
+            "Infection/Condition": "Yersinia enterocolitica gastroenteritis (see gastroenteritis)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Zoster (varicella-zoster) (see herpes zoster)",
+            "'": "",
+            "Type": "",
+            "Duration": "",
+            "Precautions/Comments": ""
+          },
+          {
+            "Infection/Condition": "Zygomycosis (phycomycosis, mucormycosis)",
+            "'": "",
+            "Type": "S",
+            "Duration": "",
+            "Precautions/Comments": "Not transmitted person-to-person"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "Precaution Type:\nA: Airborne\nC: Contact\nD: Droplet\nS: Standard\nwhen A, C, and D are specified, also use S\nDuration:\nCN: until off antimicrobial treatment and culture-negative\nDI: duration of illness (with wound lesions, DI means until wounds stop draining)\nDE: until environment completely decontaminated\nU: until time specified in hours (hrs) after initiation of effective therapy\nUnknown: criteria for establishing eradication of pathogen has not been determined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Microbiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "PPE Sequence from CDC\nEmergency Medicine Cases\nPreparation for Emergency Infectious Outbreak in your ED – Coronavirus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

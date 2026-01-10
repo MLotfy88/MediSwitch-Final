@@ -1,0 +1,383 @@
+{
+  "drug_name": "Intrauterine_device_complications",
+  "url": "https://wikem.org/wiki/Intrauterine_device_complications",
+  "scraped_at": "2026-01-10T07:55:42.443089",
+  "sections": {
+    "Background": {
+      "text": "Intrauterine devices (IUDs) are one of the most effective contraceptive methods\nT-shaped device inserted through cervix, can be used for up to 3-12 years\nSerious complications are rare, <1% of women with IUDs\nCopper IUD (Paraguard):\nlasts up to 12 years, no hormones, usually cheaper\ntend to cause more side effects (heavy/irregular menses,\npelvic pain\n)\nalso extremely effective as\nemergency contraception\nif inserted within 120 hours of unprotected sex\nHormonal IUDs (Mirena, Liletta, Mirena, Skyla, Kyleena): secrete small amount of progestin (\nlevonorgestrel\n)\nMIrena effective up to 6 years, the others for 3-5 years\nMenses tend to get significantly lighter or disappear altogether after the first few months\nVery little progestin absorbed systemically, so women tend\nNOT\nto have the hormonal side effects or increased\nDVT\n/\nPE\nrisk associated with oral contraceptives\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "emergency contraception",
+          "url": "https://wikem.org/wiki/Emergency_contraception"
+        },
+        {
+          "text": "levonorgestrel",
+          "url": "https://wikem.org/wiki/Levonorgestrel"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Complications_and_Management": {
+      "text": "",
+      "subsections": {
+        "\"Lost\"_IUD": {
+          "text": "Most common IUD-related reason for ED presentation\nSmall removal strings are left protruding from cervix on insertion\nWomen are instructed to feel for string with finger, if strings seem shorter or cannot be felt, may indicate malposition or complication\nManagement:\nAttempt to visualize strings\nIf cannot, IUD position can be confirmed on\nultrasound\nor (for copper IUDs) abdominal x-ray\nIf extrauterine, needs surgical removal",
+          "tables": []
+        },
+        "Uterine_perforation": {
+          "text": "Extremely rare\nSuspect in patient with IUD and symptoms of\nendometritis\n, salpingitis, and/or peritonitis\nDiagnosed by imaging: IUD may be imbedded in uterine wall or free in peritoneum\nRequires emergent Ob/gyn consult for surgical removal/repair",
+          "tables": []
+        },
+        "Pregnancy_with_IUD_in_place": {
+          "text": "Extremely rare, as IUDs are >99% effective in preventing pregnancy\n[2]\nIncreased risk of\nectopic pregnancy\nif hCG positive and IUD still in place\nConsult OB/Gyn for urgent evaluation/management",
+          "tables": []
+        },
+        "PID": {
+          "text": "IUD use associated with increased rate of PID, particularly in first 21 days after insertion\nRelated to preexisting\nSTDs\nrather than the IUD itself\nScreening at time of insertion greatly reduces PID risk\nManagement of PID with IUD in place\nCDC does\nNOT\nrecommend empirically removing IUD, as it is not the source of infection\n[3]\nNo change in usual antibiotic treatment (\nceftriaxone\n+\nazithromycin\nor\ndoxycycline\n+/-\nmetronidazole\nIf patient has had IUD for <3 weeks, consider referring to OB/Gyn for possible removal",
+          "tables": []
+        },
+        "Other_Adverse_Effects": {
+          "text": "More common with copper IUD\nIrregular menses\nHeavy\nvaginal bleeding\nPelvic pain",
+          "tables": []
+        },
+        "IUD_Removal": {
+          "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "\"Lost\"_IUD": {
+      "text": "Most common IUD-related reason for ED presentation\nSmall removal strings are left protruding from cervix on insertion\nWomen are instructed to feel for string with finger, if strings seem shorter or cannot be felt, may indicate malposition or complication\nManagement:\nAttempt to visualize strings\nIf cannot, IUD position can be confirmed on\nultrasound\nor (for copper IUDs) abdominal x-ray\nIf extrauterine, needs surgical removal",
+      "subsections": {
+        "Uterine_perforation": {
+          "text": "Extremely rare\nSuspect in patient with IUD and symptoms of\nendometritis\n, salpingitis, and/or peritonitis\nDiagnosed by imaging: IUD may be imbedded in uterine wall or free in peritoneum\nRequires emergent Ob/gyn consult for surgical removal/repair",
+          "tables": []
+        },
+        "Pregnancy_with_IUD_in_place": {
+          "text": "Extremely rare, as IUDs are >99% effective in preventing pregnancy\n[2]\nIncreased risk of\nectopic pregnancy\nif hCG positive and IUD still in place\nConsult OB/Gyn for urgent evaluation/management",
+          "tables": []
+        },
+        "PID": {
+          "text": "IUD use associated with increased rate of PID, particularly in first 21 days after insertion\nRelated to preexisting\nSTDs\nrather than the IUD itself\nScreening at time of insertion greatly reduces PID risk\nManagement of PID with IUD in place\nCDC does\nNOT\nrecommend empirically removing IUD, as it is not the source of infection\n[3]\nNo change in usual antibiotic treatment (\nceftriaxone\n+\nazithromycin\nor\ndoxycycline\n+/-\nmetronidazole\nIf patient has had IUD for <3 weeks, consider referring to OB/Gyn for possible removal",
+          "tables": []
+        },
+        "Other_Adverse_Effects": {
+          "text": "More common with copper IUD\nIrregular menses\nHeavy\nvaginal bleeding\nPelvic pain",
+          "tables": []
+        },
+        "IUD_Removal": {
+          "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "Uterine_perforation": {
+      "text": "Extremely rare\nSuspect in patient with IUD and symptoms of\nendometritis\n, salpingitis, and/or peritonitis\nDiagnosed by imaging: IUD may be imbedded in uterine wall or free in peritoneum\nRequires emergent Ob/gyn consult for surgical removal/repair",
+      "subsections": {
+        "Pregnancy_with_IUD_in_place": {
+          "text": "Extremely rare, as IUDs are >99% effective in preventing pregnancy\n[2]\nIncreased risk of\nectopic pregnancy\nif hCG positive and IUD still in place\nConsult OB/Gyn for urgent evaluation/management",
+          "tables": []
+        },
+        "PID": {
+          "text": "IUD use associated with increased rate of PID, particularly in first 21 days after insertion\nRelated to preexisting\nSTDs\nrather than the IUD itself\nScreening at time of insertion greatly reduces PID risk\nManagement of PID with IUD in place\nCDC does\nNOT\nrecommend empirically removing IUD, as it is not the source of infection\n[3]\nNo change in usual antibiotic treatment (\nceftriaxone\n+\nazithromycin\nor\ndoxycycline\n+/-\nmetronidazole\nIf patient has had IUD for <3 weeks, consider referring to OB/Gyn for possible removal",
+          "tables": []
+        },
+        "Other_Adverse_Effects": {
+          "text": "More common with copper IUD\nIrregular menses\nHeavy\nvaginal bleeding\nPelvic pain",
+          "tables": []
+        },
+        "IUD_Removal": {
+          "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "Pregnancy_with_IUD_in_place": {
+      "text": "Extremely rare, as IUDs are >99% effective in preventing pregnancy\n[2]\nIncreased risk of\nectopic pregnancy\nif hCG positive and IUD still in place\nConsult OB/Gyn for urgent evaluation/management",
+      "subsections": {
+        "PID": {
+          "text": "IUD use associated with increased rate of PID, particularly in first 21 days after insertion\nRelated to preexisting\nSTDs\nrather than the IUD itself\nScreening at time of insertion greatly reduces PID risk\nManagement of PID with IUD in place\nCDC does\nNOT\nrecommend empirically removing IUD, as it is not the source of infection\n[3]\nNo change in usual antibiotic treatment (\nceftriaxone\n+\nazithromycin\nor\ndoxycycline\n+/-\nmetronidazole\nIf patient has had IUD for <3 weeks, consider referring to OB/Gyn for possible removal",
+          "tables": []
+        },
+        "Other_Adverse_Effects": {
+          "text": "More common with copper IUD\nIrregular menses\nHeavy\nvaginal bleeding\nPelvic pain",
+          "tables": []
+        },
+        "IUD_Removal": {
+          "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "PID": {
+      "text": "IUD use associated with increased rate of PID, particularly in first 21 days after insertion\nRelated to preexisting\nSTDs\nrather than the IUD itself\nScreening at time of insertion greatly reduces PID risk\nManagement of PID with IUD in place\nCDC does\nNOT\nrecommend empirically removing IUD, as it is not the source of infection\n[3]\nNo change in usual antibiotic treatment (\nceftriaxone\n+\nazithromycin\nor\ndoxycycline\n+/-\nmetronidazole\nIf patient has had IUD for <3 weeks, consider referring to OB/Gyn for possible removal",
+      "subsections": {
+        "Other_Adverse_Effects": {
+          "text": "More common with copper IUD\nIrregular menses\nHeavy\nvaginal bleeding\nPelvic pain",
+          "tables": []
+        },
+        "IUD_Removal": {
+          "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "Other_Adverse_Effects": {
+      "text": "More common with copper IUD\nIrregular menses\nHeavy\nvaginal bleeding\nPelvic pain",
+      "subsections": {
+        "IUD_Removal": {
+          "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Non-Pregnant)"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        }
+      ]
+    },
+    "IUD_Removal": {
+      "text": "No real indication for removal in the emergency department\nHowever, if patient desires removal and outpatient referral is unfeasible, can be safely removed in the ED:\nVisualize string(s) protruding from cervix\nGrasp string with Kelly clamp or long forceps\nPull with steady, gentle force until device emerges\nDo NOT jerk string, as this may detatch string from device, making removal much more difficult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pelvic pain\nVaginal bleeding\nEctopic pregnancy\nPID\nMedical device complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        }
+      ]
+    }
+  }
+}

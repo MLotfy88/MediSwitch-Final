@@ -1,0 +1,163 @@
+{
+  "drug_name": "Jimson_weed",
+  "url": "https://wikem.org/wiki/Jimson_weed",
+  "scraped_at": "2026-01-10T07:55:56.117191",
+  "sections": {
+    "Background": {
+      "text": "Contains up to 28 different anticholinergic alkaloids\n[1]\nAtropine\n,\nhyoscyamine\n, and\nscopolamine\nAll parts of the plant are toxic but the highest concentration is in the seeds\n50-100 seeds in each pod\n100 seeds is the equivalent of about 6mg atropine\nEstimated lethal doses of atropine in adults ≥10mg\n[2]",
+      "subsections": {
+        "Administration": {
+          "text": "Inhalation (smoking dried leaves or other plant parts)\nIngestion (eating plant parts or foods containing extracts)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "hyoscyamine",
+          "url": "https://wikem.org/wiki/Hyoscyamine"
+        },
+        {
+          "text": "scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Inhalation (smoking dried leaves or other plant parts)\nIngestion (eating plant parts or foods containing extracts)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "History of plant ingestion/smoking\nAnticholinergic toxidrome\nSymptoms can last for days if seeds were ingested",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxidrome",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Sympathomimetic toxicity\nRed, dry skin and absent bowel sounds favors anticholinergic toxicity\nEncephalitis\nHead trauma\nETOH/sedative withdrawal\nNeuroleptic Malignant Syndrome (NMS)\nAcute psychotic disorder",
+      "subsections": {
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[3]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuroleptic Malignant Syndrome (NMS)",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome_(NMS)"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Anticholinergic_toxicity_Causes": {
+      "text": "Medications\n[3]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis with history and physical exam\nRed as a beet\n: cutaneous vasodilation\nBlind as a bat\n: nonreactive mydriasis (often delayed 12-24hr)\nMad as a hatter\n: delirium; attention deficit; hallucinations; dysarthria; lethargy\nFull as a flask\n: urinary retention\nHot as a hare\n: anhydrotic hyperthermia (may become severe w/ agitation)\nDry as a bone\n: anhidrosis (esp axillae, mouth)\nAnd the heart runs alone\n: Tachycardia (HR 120-160) and decreased/absent bowel sounds",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care and patient reassurance\nSedation as needed with benzos\nIn severe cases,\nphysostigmine\n0.5–2.0 mg IV at a rate of no more than 1mg/min (adult dosing)\nA second dose may be administered if necessary\nChildren should receive 0.02 mg/kg intravenously and the rate should not exceed 0.5 mg/min\nNote that\npyridostigmine\ndoes not cross the blood brain barrier, and is a poor agent for agitation, CNS features",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anticholinergic toxicity\nToxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    }
+  }
+}

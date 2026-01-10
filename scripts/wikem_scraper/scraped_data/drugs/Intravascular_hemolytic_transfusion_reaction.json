@@ -1,0 +1,374 @@
+{
+  "drug_name": "Intravascular_hemolytic_transfusion_reaction",
+  "url": "https://wikem.org/wiki/Intravascular_hemolytic_transfusion_reaction",
+  "scraped_at": "2026-01-10T07:55:42.003647",
+  "sections": {
+    "Background": {
+      "text": "Occurs due to ABO incompatibility\nHigh mortality. 1:30 may die.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "High grade\nfever\n,\nback\n/\nflank pain\n,\nheadache\n,\nhypotension\n,\ndyspnea\n,\npulmonary edema\n,\nbleeding\n,\nrenal failure\n,\nhematuria\nSick and\nshocky",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "back",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "shocky",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        },
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Transfusion_Reaction_Types": {
+      "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs consistent with\nhemolysis\nSend off coombs test/direct antiglobin test\nCoomb's reagent binds RBCs with Ab on them",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Stop transfusion\nReplace all tubing\nRisk of death is proportional to amount of incompatible blood received\nMaintain urine output with IVF (1-2 mL/kg/hr),\nmannitol\n, and\nfurosemide\nas needed\nTreat shock with volume and\nvasopressors\nTreat coagulopathy with\nFFP\nConsider IV\nmethylprednisolone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission\nMost frequently to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    }
+  }
+}

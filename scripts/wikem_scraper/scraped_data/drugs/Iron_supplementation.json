@@ -1,0 +1,194 @@
+{
+  "drug_name": "Iron_supplementation",
+  "url": "https://wikem.org/wiki/Iron_supplementation",
+  "scraped_at": "2026-01-10T07:55:49.024680",
+  "sections": {
+    "Background": {
+      "text": "Multiple types of oral and intravenous therapy available\nIV therapy is usually reserved for patients undergoing epoetin therapy or severely anemic\nJehovah's Witness patients\nShould be cautiously administered due to the risk of\nanaphylaxis\nwith some preparations.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Jehovah's Witness patients",
+          "url": "https://wikem.org/wiki/Jehovah%27s_Witness_patients"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Oral_Preparations": {
+      "text": "Recommended oral daily dose for the treatment of iron deficiency in adults is in the range of 150 to 200mg/day of elemental iron\nFerrous Sulfate\nFerrous fumarate\nFerrous gluconate\nFerrous succinate",
+      "subsections": {
+        "Elemental_Iron_Percentages_2": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Iron Preparation": "Ferrous Fumarate",
+                "% of Elemental Iron": "33%"
+              },
+              {
+                "Iron Preparation": "Ferrous Sulfate",
+                "% of Elemental Iron": "20%"
+              },
+              {
+                "Iron Preparation": "Ferrous Gluconate",
+                "% of Elemental Iron": "12%"
+              },
+              {
+                "Iron Preparation": "Ferric pyrophosphate",
+                "% of Elemental Iron": "30%"
+              },
+              {
+                "Iron Preparation": "Ferroglycine sulfate",
+                "% of Elemental Iron": "16%"
+              },
+              {
+                "Iron Preparation": "Ferrous carbonate (anhydrous)",
+                "% of Elemental Iron": "38%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elemental_Iron_Percentages": {
+      "text": "",
+      "subsections": {
+        "Elemental_Iron_Percentages_2": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Iron Preparation": "Ferrous Fumarate",
+                "% of Elemental Iron": "33%"
+              },
+              {
+                "Iron Preparation": "Ferrous Sulfate",
+                "% of Elemental Iron": "20%"
+              },
+              {
+                "Iron Preparation": "Ferrous Gluconate",
+                "% of Elemental Iron": "12%"
+              },
+              {
+                "Iron Preparation": "Ferric pyrophosphate",
+                "% of Elemental Iron": "30%"
+              },
+              {
+                "Iron Preparation": "Ferroglycine sulfate",
+                "% of Elemental Iron": "16%"
+              },
+              {
+                "Iron Preparation": "Ferrous carbonate (anhydrous)",
+                "% of Elemental Iron": "38%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elemental_Iron_Percentages_2": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Iron Preparation": "Ferrous Fumarate",
+            "% of Elemental Iron": "33%"
+          },
+          {
+            "Iron Preparation": "Ferrous Sulfate",
+            "% of Elemental Iron": "20%"
+          },
+          {
+            "Iron Preparation": "Ferrous Gluconate",
+            "% of Elemental Iron": "12%"
+          },
+          {
+            "Iron Preparation": "Ferric pyrophosphate",
+            "% of Elemental Iron": "30%"
+          },
+          {
+            "Iron Preparation": "Ferroglycine sulfate",
+            "% of Elemental Iron": "16%"
+          },
+          {
+            "Iron Preparation": "Ferrous carbonate (anhydrous)",
+            "% of Elemental Iron": "38%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Intravenous_Preparations": {
+      "text": "Occasionally used by nephrologists and patients receiving epoitin. IV iron can increase hemoglobin concentrations by 1-2 g/dL\nIron dextran\nIron dextrin\nIron sodium gluconate\nIron hyroxysaccharate",
+      "subsections": {
+        "Low_dose": {
+          "text": "20–60mg every dialysis session\n[1]\nHemodialysis patients only\nAny of iron preparations suitable\nMay be given as IV push",
+          "tables": []
+        },
+        "Medium_dose": {
+          "text": "100–400mg as IV infusion\nAll iron preparations (maximum dose of iron sodium gluconate is 62.5–125mg)",
+          "tables": []
+        },
+        "High_dose": {
+          "text": "500–1000mg\nMust be given as IV infusion\nOnly iron dextran suitable\nOnly for patients with large iron deficit and resistance to all other treatment regemins",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IV_iron_Regimens": {
+      "text": "",
+      "subsections": {
+        "Low_dose": {
+          "text": "20–60mg every dialysis session\n[1]\nHemodialysis patients only\nAny of iron preparations suitable\nMay be given as IV push",
+          "tables": []
+        },
+        "Medium_dose": {
+          "text": "100–400mg as IV infusion\nAll iron preparations (maximum dose of iron sodium gluconate is 62.5–125mg)",
+          "tables": []
+        },
+        "High_dose": {
+          "text": "500–1000mg\nMust be given as IV infusion\nOnly iron dextran suitable\nOnly for patients with large iron deficit and resistance to all other treatment regemins",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intramuscular_preparations": {
+      "text": "Rarely if ever used\nIron sorbitol citrate is only possible formulation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anemia\nIron toxicity\nJehovah's Witness patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Jehovah's Witness patients",
+          "url": "https://wikem.org/wiki/Jehovah%27s_Witness_patients"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "drug_name": "Jet_Propulsion_Fuel_8_toxicity",
+  "url": "https://wikem.org/wiki/Jet_Propulsion_Fuel_8_toxicity",
+  "scraped_at": "2026-01-10T07:55:54.936836",
+  "sections": {
+    "Background": {
+      "text": "Jet Propulsion Fuel 8 (JP-8) used by US military (aircraft, tanks, other military vehicles)\nReplaced JP-4 in 1992 as single fuel which was safer and reduced risk of fire/explosion\nKerosene 99.8% by weight (benzene <0.05%)\nHigh flash point\nLow volatility\nAdditives include anti-icing, anti-static, anti-oxidation, anti-corrosive\nJP-8 mainly consists of\nhydrocarbon\nchains from C9-C12",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hydrocarbon",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        }
+      ]
+    },
+    "Toxicology": {
+      "text": "",
+      "subsections": {
+        "Routes_of_Exposure": {
+          "text": "Inhalation - principal route of exposure for workers included in aircraft refueling activities\nOral - minor route of exposure usually because of eating or drinking contaminated water\nDermal - minor route of exposure if soil/water contaminated. Potentially significant route of exposure for workers not using adequate protective clothing",
+          "tables": []
+        },
+        "Minimal_Risk_Levels": {
+          "text": "No acute-duration inhalation MRL established\nMRL of 3 mg/kg/day has been derived for acute oral exposure",
+          "tables": []
+        },
+        "Health_Effects": {
+          "text": "Studies have shown exposure can affect nervous system\nTarget organs include lungs, liver, skin, immune and nervous systems\nCarcinogenicity not classified by EPA or US Department of Health and Human Services",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Routes_of_Exposure": {
+      "text": "Inhalation - principal route of exposure for workers included in aircraft refueling activities\nOral - minor route of exposure usually because of eating or drinking contaminated water\nDermal - minor route of exposure if soil/water contaminated. Potentially significant route of exposure for workers not using adequate protective clothing",
+      "subsections": {
+        "Minimal_Risk_Levels": {
+          "text": "No acute-duration inhalation MRL established\nMRL of 3 mg/kg/day has been derived for acute oral exposure",
+          "tables": []
+        },
+        "Health_Effects": {
+          "text": "Studies have shown exposure can affect nervous system\nTarget organs include lungs, liver, skin, immune and nervous systems\nCarcinogenicity not classified by EPA or US Department of Health and Human Services",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Minimal_Risk_Levels": {
+      "text": "No acute-duration inhalation MRL established\nMRL of 3 mg/kg/day has been derived for acute oral exposure",
+      "subsections": {
+        "Health_Effects": {
+          "text": "Studies have shown exposure can affect nervous system\nTarget organs include lungs, liver, skin, immune and nervous systems\nCarcinogenicity not classified by EPA or US Department of Health and Human Services",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Health_Effects": {
+      "text": "Studies have shown exposure can affect nervous system\nTarget organs include lungs, liver, skin, immune and nervous systems\nCarcinogenicity not classified by EPA or US Department of Health and Human Services",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Short term exposure:\nSkin irritation/\nrash\nHeadache\n,\nfatigue\n,\ndizziness\n, difficulty concentrating,\nataxia\nLiver dysfunction\nRespiratory symptoms, including pleuritic\nchest pain\n,\nSOB\n, feeling of suffocation\nLong term:\nAbove, plus pulmonary and\nrenal damage\nTaste and odor complaints related to tenacity of JP-8",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Liver dysfunction",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "renal damage",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, history and physical findings direct workup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Inhalation": {
+          "text": "Move to fresh air\nMonitor for respiratory distress\nSecure airway if needed",
+          "tables": []
+        },
+        "Dermal": {
+          "text": "Remove contaminated clothing\nWash exposed areas with soap and water for 10 to 15 minutes\nTreat dermal irritation with\ntopical corticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "topical corticosteroids",
+          "url": "https://wikem.org/wiki/Topical_corticosteroids"
+        }
+      ]
+    },
+    "Inhalation": {
+      "text": "Move to fresh air\nMonitor for respiratory distress\nSecure airway if needed",
+      "subsections": {
+        "Dermal": {
+          "text": "Remove contaminated clothing\nWash exposed areas with soap and water for 10 to 15 minutes\nTreat dermal irritation with\ntopical corticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "topical corticosteroids",
+          "url": "https://wikem.org/wiki/Topical_corticosteroids"
+        }
+      ]
+    },
+    "Dermal": {
+      "text": "Remove contaminated clothing\nWash exposed areas with soap and water for 10 to 15 minutes\nTreat dermal irritation with\ntopical corticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "topical corticosteroids",
+          "url": "https://wikem.org/wiki/Topical_corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge home if asymptomatic after observation period 6-8 hours with normal vital signs and normal respiratory examination\nAdmit if clinical evidence of severe toxicity or respiratory distress",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hydrocarbons",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        }
+      ]
+    }
+  }
+}

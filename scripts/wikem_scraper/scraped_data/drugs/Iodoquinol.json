@@ -1,0 +1,124 @@
+{
+  "drug_name": "Iodoquinol",
+  "url": "https://wikem.org/wiki/Iodoquinol",
+  "scraped_at": "2026-01-10T07:55:44.718843",
+  "sections": {
+    "Administration": {
+      "text": "Type: Amebicide\nRoutes of Administration: Oral\nCommon Trade Names: Aloquin; Yodoxin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "650mg 3 times daily after meals for 20 days\nNot to exceed 1.95 g daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Children: 30-40mg/kg daily (maximum: 650mg per dose) in 3 divided doses for 20 days\nNot to exceed 1.95 g daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Limited data on use during pregnancy",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No adjustments noted by manufacturer",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustments noted by manufacturer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No adjustments noted by manufacturer",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No adjustments noted by manufacturer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No adjustments noted by manufacturer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug, hypersensitivity to iodine and/or 8-hydroxyquinolones\nConcerns with optic neuritis\nConcerns with peripheral neuropathy\nHepatic impairment\nRenal impairment\nChronic diarrhea, especially in children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Peripheral neuropathy, Long-term (high-dose)\nOptic atrophy, Long-term (high-dose)\nOptic neuritis, Long-term (high-dose)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting, diarrhea, cramps\nFever/chills\nPruritus, urticaria\nHeadache, dizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Peripheral neuropathy, Long-term (high-dose)\nOptic atrophy, Long-term (high-dose)\nOptic neuritis, Long-term (high-dose)",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting, diarrhea, cramps\nFever/chills\nPruritus, urticaria\nHeadache, dizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea/vomiting, diarrhea, cramps\nFever/chills\nPruritus, urticaria\nHeadache, dizziness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism: Liver\nExcretion: Feces, urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Contact amebicide that works in the lumen of the intestine (unknown mechanism)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        }
+      ]
+    },
+    "References": {
+      "text": "<UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

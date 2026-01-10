@@ -1,0 +1,1064 @@
+{
+  "drug_name": "Intubation_(peds)",
+  "url": "https://wikem.org/wiki/Intubation_(peds)",
+  "scraped_at": "2026-01-10T07:55:44.334600",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nintubation\n.\nSee\ncritical care quick reference\nfor pre-calculated airway sizes by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Airway_Adjuncts": {
+      "text": "LMA size\n= Wt(kg)/20 + 1",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Airway": "Nasopharyngeal",
+            "Placement": "Tip of nose to tragus"
+          },
+          {
+            "Airway": "Oropharyngeal",
+            "Placement": "From lip/teeth to angle of jaw"
+          },
+          {
+            "Airway": "Bag valve mask",
+            "Placement": "10cc/kg"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Pediatric_Airway_Equipment_Sizes": {
+      "text": "",
+      "subsections": {
+        "Los_Angeles_Airway_Card": {
+          "text": "Blade Size Estimate\nETT Size:  (Age/4) + 4 for uncuffed, (Age/4) + 3.5 for cuffed\nPreemie <1.4kg: 00\nNewborn: 0\nNeonate/infant: 1\n2 blade starting at 2 yo\n3 blade in 3rd grade (8-9 yo)\nEndotracheal Cuffed Tube Estimate\n1 yr, 10kg, size 4\n5 yr, 20kg, size 5\n10 yr, 30 kg, size 6\nCuffed and uncuffed ETT are acceptable outside neonatal age\nDepth of Tube Placement: 3 x uncuffed ETT size (cm)\nNeonate: Nasal septum to tragus in cm + 1 cm\nAtropine\nWhile atropine is not routinely recommended for pretreatment before RSI, it has been frequently used for infants younger than one year due to their predilection for bradycardia during RSI. However, rare cases of ventricular tachycardia and fibrillation have been seen in pretreatment of children, hence it is not recommended for this age group.\n[2]\n[3]\n[4]",
+          "tables": [
+            [
+              {
+                "Age": "Preterm",
+                "Weight (kg)": "<1",
+                "Cuffless": "2.5",
+                "Cuffed": "-",
+                "Depth (cm)": "6 - 7",
+                "Miller": "Miller 00 or 0",
+                "Macintosh": "-",
+                "LMA Size": "1"
+              },
+              {
+                "Age": "Preterm",
+                "Weight (kg)": "1 - 2.5",
+                "Cuffless": "3.0",
+                "Cuffed": "-",
+                "Depth (cm)": "7 - 9",
+                "Miller": "Miller 0",
+                "Macintosh": "-",
+                "LMA Size": "1"
+              },
+              {
+                "Age": "Neonate",
+                "Weight (kg)": "2.5 - 4",
+                "Cuffless": "3.0",
+                "Cuffed": "-",
+                "Depth (cm)": "10",
+                "Miller": "Miller 0",
+                "Macintosh": "-",
+                "LMA Size": "1"
+              },
+              {
+                "Age": "6mo",
+                "Weight (kg)": "6 - 7.5",
+                "Cuffless": "3.5",
+                "Cuffed": "3.0",
+                "Depth (cm)": "10 - 11",
+                "Miller": "1",
+                "Macintosh": "-",
+                "LMA Size": "1.5"
+              },
+              {
+                "Age": "1 year",
+                "Weight (kg)": "10",
+                "Cuffless": "4.0",
+                "Cuffed": "3.5",
+                "Depth (cm)": "12",
+                "Miller": "1",
+                "Macintosh": "-",
+                "LMA Size": "1.5"
+              },
+              {
+                "Age": "2 - 3 y",
+                "Weight (kg)": "12 - 14",
+                "Cuffless": "4.5 - 5.0",
+                "Cuffed": "4.0 - 4.5",
+                "Depth (cm)": "13 - 14",
+                "Miller": "1.5",
+                "Macintosh": "-",
+                "LMA Size": "2"
+              },
+              {
+                "Age": "4 - 6 y",
+                "Weight (kg)": "16 - 20",
+                "Cuffless": "5.0 - 5.5",
+                "Cuffed": "4.5 - 5.0",
+                "Depth (cm)": "15 - 16",
+                "Miller": "2",
+                "Macintosh": "2",
+                "LMA Size": "2"
+              },
+              {
+                "Age": "7 - 9 y",
+                "Weight (kg)": "22 - 26",
+                "Cuffless": "5.5 - 6.0",
+                "Cuffed": "5.0 - 5.5",
+                "Depth (cm)": "16 - 18",
+                "Miller": "2",
+                "Macintosh": "2",
+                "LMA Size": "2.5"
+              },
+              {
+                "Age": "10 - 12 y",
+                "Weight (kg)": "28 - 32",
+                "Cuffless": "-",
+                "Cuffed": "6.0 - 6.5",
+                "Depth (cm)": "18 - 19",
+                "Miller": "2",
+                "Macintosh": "3",
+                "LMA Size": "2.5 - 3"
+              },
+              {
+                "Age": "13 - 15 y",
+                "Weight (kg)": "34 - 38",
+                "Cuffless": "-",
+                "Cuffed": "6.5 - 7.0",
+                "Depth (cm)": "19 - 20",
+                "Miller": "2",
+                "Macintosh": "3",
+                "LMA Size": "3"
+              },
+              {
+                "Age": "16 - 18 y",
+                "Weight (kg)": ">40",
+                "Cuffless": "-",
+                "Cuffed": "7.0 - 8.0",
+                "Depth (cm)": "21 - 24",
+                "Miller": "2",
+                "Macintosh": "3",
+                "LMA Size": "3.5 - 4"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "Los_Angeles_Airway_Card": {
+      "text": "Blade Size Estimate\nETT Size:  (Age/4) + 4 for uncuffed, (Age/4) + 3.5 for cuffed\nPreemie <1.4kg: 00\nNewborn: 0\nNeonate/infant: 1\n2 blade starting at 2 yo\n3 blade in 3rd grade (8-9 yo)\nEndotracheal Cuffed Tube Estimate\n1 yr, 10kg, size 4\n5 yr, 20kg, size 5\n10 yr, 30 kg, size 6\nCuffed and uncuffed ETT are acceptable outside neonatal age\nDepth of Tube Placement: 3 x uncuffed ETT size (cm)\nNeonate: Nasal septum to tragus in cm + 1 cm\nAtropine\nWhile atropine is not routinely recommended for pretreatment before RSI, it has been frequently used for infants younger than one year due to their predilection for bradycardia during RSI. However, rare cases of ventricular tachycardia and fibrillation have been seen in pretreatment of children, hence it is not recommended for this age group.\n[2]\n[3]\n[4]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Preterm",
+            "Weight (kg)": "<1",
+            "Cuffless": "2.5",
+            "Cuffed": "-",
+            "Depth (cm)": "6 - 7",
+            "Miller": "Miller 00 or 0",
+            "Macintosh": "-",
+            "LMA Size": "1"
+          },
+          {
+            "Age": "Preterm",
+            "Weight (kg)": "1 - 2.5",
+            "Cuffless": "3.0",
+            "Cuffed": "-",
+            "Depth (cm)": "7 - 9",
+            "Miller": "Miller 0",
+            "Macintosh": "-",
+            "LMA Size": "1"
+          },
+          {
+            "Age": "Neonate",
+            "Weight (kg)": "2.5 - 4",
+            "Cuffless": "3.0",
+            "Cuffed": "-",
+            "Depth (cm)": "10",
+            "Miller": "Miller 0",
+            "Macintosh": "-",
+            "LMA Size": "1"
+          },
+          {
+            "Age": "6mo",
+            "Weight (kg)": "6 - 7.5",
+            "Cuffless": "3.5",
+            "Cuffed": "3.0",
+            "Depth (cm)": "10 - 11",
+            "Miller": "1",
+            "Macintosh": "-",
+            "LMA Size": "1.5"
+          },
+          {
+            "Age": "1 year",
+            "Weight (kg)": "10",
+            "Cuffless": "4.0",
+            "Cuffed": "3.5",
+            "Depth (cm)": "12",
+            "Miller": "1",
+            "Macintosh": "-",
+            "LMA Size": "1.5"
+          },
+          {
+            "Age": "2 - 3 y",
+            "Weight (kg)": "12 - 14",
+            "Cuffless": "4.5 - 5.0",
+            "Cuffed": "4.0 - 4.5",
+            "Depth (cm)": "13 - 14",
+            "Miller": "1.5",
+            "Macintosh": "-",
+            "LMA Size": "2"
+          },
+          {
+            "Age": "4 - 6 y",
+            "Weight (kg)": "16 - 20",
+            "Cuffless": "5.0 - 5.5",
+            "Cuffed": "4.5 - 5.0",
+            "Depth (cm)": "15 - 16",
+            "Miller": "2",
+            "Macintosh": "2",
+            "LMA Size": "2"
+          },
+          {
+            "Age": "7 - 9 y",
+            "Weight (kg)": "22 - 26",
+            "Cuffless": "5.5 - 6.0",
+            "Cuffed": "5.0 - 5.5",
+            "Depth (cm)": "16 - 18",
+            "Miller": "2",
+            "Macintosh": "2",
+            "LMA Size": "2.5"
+          },
+          {
+            "Age": "10 - 12 y",
+            "Weight (kg)": "28 - 32",
+            "Cuffless": "-",
+            "Cuffed": "6.0 - 6.5",
+            "Depth (cm)": "18 - 19",
+            "Miller": "2",
+            "Macintosh": "3",
+            "LMA Size": "2.5 - 3"
+          },
+          {
+            "Age": "13 - 15 y",
+            "Weight (kg)": "34 - 38",
+            "Cuffless": "-",
+            "Cuffed": "6.5 - 7.0",
+            "Depth (cm)": "19 - 20",
+            "Miller": "2",
+            "Macintosh": "3",
+            "LMA Size": "3"
+          },
+          {
+            "Age": "16 - 18 y",
+            "Weight (kg)": ">40",
+            "Cuffless": "-",
+            "Cuffed": "7.0 - 8.0",
+            "Depth (cm)": "21 - 24",
+            "Miller": "2",
+            "Macintosh": "3",
+            "LMA Size": "3.5 - 4"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "Relation_to_Other_Tubes": {
+      "text": "NG, OG, foley = 2 x ETT\nChest Tube (max) = 4 x ETT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Apneic_oxygenation": {
+      "text": "Infant: 5L/min\nChild: 10 L/min\nAdolescent/adult: 15 L/min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Endotracheal_Drug_Delivery": {
+      "text": "Endotracheal Drug Delivery: 1:1000 solution at 0.1mg/kg = 0.1ml/kg\nNewborn: 1:10,000 solution at 0.03mg/kg = 0.3mL/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Neonatal_Considerations": {
+      "text": "Anatomical differences of neonates (compared to adults/big kids):\nLarge occiput--> may need shoulder roll to get ear to sternal notch aligned\nRelatively larger tongue, small mouth\nMore anterior and superior larynx\n[5]\nGlottic opening at level of C1 in infants\nTransitions to C3/4 by age 7 years\nAt C5 by adulthood\nNarrowest portion of airway is at cricoid cartilage (as opposed to vocal cords in adults)\nLarger/floppier epiglottis\nShort trachea--> easy to mainstem tube, easy for accidental tube dislodgement\nCuffed vs uncuffed ETT: controversial\n[6]\nbut cuffed tubes now genearlly considered acceptable\n[7]\nNumbered list item",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Neonatal_Intubation": {
+      "text": "ETT depth\nNewborn/neonate: uncuffed ETT x 3 (cm at lip)\nPreemie: weight in kg +1 (cm at lip)\nLMA size\nWeight in kg/20 + 1\nApneic O2 by NC for newborn/neonate: 5L/m\nRoutine vent settings\nFiO2 100%--> wean\nPEEP 4-5\nTV 8-10cc/kg\nRR 25-35\nI-time 0.5s",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Preterm",
+            "Weight (kg)": "<1",
+            "Cuffless": "2.5",
+            "Cuffed": "-",
+            "Depth (cm)": "6-7",
+            "Blade": "Miller 00 or 0"
+          },
+          {
+            "Age": "Preterm",
+            "Weight (kg)": "1-2.5",
+            "Cuffless": "3.0",
+            "Cuffed": "-",
+            "Depth (cm)": "7-9",
+            "Blade": "Miller 0"
+          },
+          {
+            "Age": "Neonate",
+            "Weight (kg)": "2.5-4",
+            "Cuffless": "3.0",
+            "Cuffed": "-",
+            "Depth (cm)": "10",
+            "Blade": "Miller 0"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Drugs": {
+      "text": "Atropine\npremedication\nControversial\nNeonates VERY prone to\nbradycardia\nwith myriad stimuli, including the vagal stimulation of laryngoscopy\nMay not be needed routinely but should at least have handy in case of bradycardia\n[8]\n0.01-0.03 mg/kg IV/IO\nSedation\nKetamine\nnot\napproved for <3mo\n[9]\nFentanyl\n1mcg/kg\nEtomidate\n0.3mg/kg\nParalytic\n(Consider doubling dose in shock)\nRocuronium\n1.2mg/kg\nPreferred as may not yet be aware of preexisting conditions that would make sux contraindicated\nSuccinylcholine\n1.5mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/PALS:_Bradycardia"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "Paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        },
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Critical_Care": {
+          "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+          "tables": []
+        },
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        },
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Pediatric_Critical_Care": {
+      "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        },
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Practical pediatric RSI/vent algorithm:\nhttp://pemsource.org/wp-content/uploads/2016/11/RSI-and-Ventilator-Settings-Algorithm.pdf\nAdventures in RSI from Pediatric Emergency Playbook (with preferred agents in different patients)\nhttp://pemplaybook.org/podcast/adventures-in-rsi/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "drug_name": "Ipratropium",
+  "url": "https://wikem.org/wiki/Ipratropium",
+  "scraped_at": "2026-01-10T07:55:44.912540",
+  "sections": {
+    "General": {
+      "text": "Type: Anticholinergic Agent\nDosage Forms: Oral inhalation\nCommon Trade Names: Atrovent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Asthma\n: 0.5mg Nebulized q20min, up to 3 doses\nCOPD\n: 0.5mg Nebulized q20mins, up to 3 doses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Asthma\nChildren ≤5 years: 0.25mg Neb q20mins, up to 3 doses\nChildren ≤12 years: 0.25-0.5mg Neb q20mins, up to 3 doses\nChildren >12 years: Refer to adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk categories\n: L3\nRenal Dosing - none\nHepatic Dosing - none",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk categories",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to anticholenergics (Atropine, Ipatropium)\nNot to be used as sole rescue agent in acute exacerbation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Death",
+          "tables": []
+        },
+        "Common": {
+          "text": "Urinary retention\nIncreased intraocular pressure\nBitter taste in mouth\nDry throat/Cough\nNasal dryness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Death",
+      "subsections": {
+        "Common": {
+          "text": "Urinary retention\nIncreased intraocular pressure\nBitter taste in mouth\nDry throat/Cough\nNasal dryness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Urinary retention\nIncreased intraocular pressure\nBitter taste in mouth\nDry throat/Cough\nNasal dryness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-5hrs\nMetabolism: Possible ester hydrolysis\nExcretion: Fecal and Renal\nMechanism of Action: Cholinergic antagonist of acetylcholine at the cholinergic receptors, causing dilatation of bronchial smooth muscle and decreased serous and seromucous glands secretion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

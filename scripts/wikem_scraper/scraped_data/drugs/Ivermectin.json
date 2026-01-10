@@ -1,0 +1,343 @@
+{
+  "drug_name": "Ivermectin",
+  "url": "https://wikem.org/wiki/Ivermectin",
+  "scraped_at": "2026-01-10T07:55:54.688512",
+  "sections": {
+    "General": {
+      "text": "Type:\nantiparasitic\nDosage Forms: Tablet, 3mg\nCommon Trade Names: Stromectol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antiparasitic",
+          "url": "https://wikem.org/wiki/Antiparasitic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Strongyloidiasis": {
+          "text": "0.2mg/kg PO x1",
+          "tables": []
+        },
+        "Onchocerciasis": {
+          "text": "0.15mg/kg PO x1",
+          "tables": []
+        },
+        "Scabies,_non-crusted": {
+          "text": "0.2mg/kg PO x1",
+          "tables": []
+        },
+        "Scabies,_crusted": {
+          "text": "0.2mg/kg PO x1 on days 1,2,8,9,15",
+          "tables": []
+        },
+        "Pediculosis_capitis": {
+          "text": "0.2mg/kg pO q10 days x2 doses",
+          "tables": []
+        },
+        "Pediculosis_corporis": {
+          "text": "12mg PO q7 days x3 doses",
+          "tables": []
+        },
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Strongyloidiasis": {
+      "text": "0.2mg/kg PO x1",
+      "subsections": {
+        "Onchocerciasis": {
+          "text": "0.15mg/kg PO x1",
+          "tables": []
+        },
+        "Scabies,_non-crusted": {
+          "text": "0.2mg/kg PO x1",
+          "tables": []
+        },
+        "Scabies,_crusted": {
+          "text": "0.2mg/kg PO x1 on days 1,2,8,9,15",
+          "tables": []
+        },
+        "Pediculosis_capitis": {
+          "text": "0.2mg/kg pO q10 days x2 doses",
+          "tables": []
+        },
+        "Pediculosis_corporis": {
+          "text": "12mg PO q7 days x3 doses",
+          "tables": []
+        },
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Onchocerciasis": {
+      "text": "0.15mg/kg PO x1",
+      "subsections": {
+        "Scabies,_non-crusted": {
+          "text": "0.2mg/kg PO x1",
+          "tables": []
+        },
+        "Scabies,_crusted": {
+          "text": "0.2mg/kg PO x1 on days 1,2,8,9,15",
+          "tables": []
+        },
+        "Pediculosis_capitis": {
+          "text": "0.2mg/kg pO q10 days x2 doses",
+          "tables": []
+        },
+        "Pediculosis_corporis": {
+          "text": "12mg PO q7 days x3 doses",
+          "tables": []
+        },
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Scabies,_non-crusted": {
+      "text": "0.2mg/kg PO x1",
+      "subsections": {
+        "Scabies,_crusted": {
+          "text": "0.2mg/kg PO x1 on days 1,2,8,9,15",
+          "tables": []
+        },
+        "Pediculosis_capitis": {
+          "text": "0.2mg/kg pO q10 days x2 doses",
+          "tables": []
+        },
+        "Pediculosis_corporis": {
+          "text": "12mg PO q7 days x3 doses",
+          "tables": []
+        },
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Scabies,_crusted": {
+      "text": "0.2mg/kg PO x1 on days 1,2,8,9,15",
+      "subsections": {
+        "Pediculosis_capitis": {
+          "text": "0.2mg/kg pO q10 days x2 doses",
+          "tables": []
+        },
+        "Pediculosis_corporis": {
+          "text": "12mg PO q7 days x3 doses",
+          "tables": []
+        },
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediculosis_capitis": {
+      "text": "0.2mg/kg pO q10 days x2 doses",
+      "subsections": {
+        "Pediculosis_corporis": {
+          "text": "12mg PO q7 days x3 doses",
+          "tables": []
+        },
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediculosis_corporis": {
+      "text": "12mg PO q7 days x3 doses",
+      "subsections": {
+        "Pediculosis_pubis": {
+          "text": "0.25mg/kg PO q2wk x2 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediculosis_pubis": {
+      "text": "0.25mg/kg PO q2wk x2 doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Safety Unknown\nRenal Dosing- not defined\nHepatic Dosing- not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "hypotension, orthostatic\ntachycardia\nseizures\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nasthma\nexacerbation\nvision loss\nconjunctival hemorrhage\nhepatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "pruritus\nrash\nfever\nedema\nlymphadenopathy\nheadache\nmyalgia\ndizziness\ntachycardia\nabnormal eye sensation\nlimbitis\nconjunctivitis\nocular inflammation\nhypotension, orthostatic\nALT, AST elevated\neosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "hypotension, orthostatic\ntachycardia\nseizures\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nasthma\nexacerbation\nvision loss\nconjunctival hemorrhage\nhepatitis",
+      "subsections": {
+        "Common": {
+          "text": "pruritus\nrash\nfever\nedema\nlymphadenopathy\nheadache\nmyalgia\ndizziness\ntachycardia\nabnormal eye sensation\nlimbitis\nconjunctivitis\nocular inflammation\nhypotension, orthostatic\nALT, AST elevated\neosinophilia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "pruritus\nrash\nfever\nedema\nlymphadenopathy\nheadache\nmyalgia\ndizziness\ntachycardia\nabnormal eye sensation\nlimbitis\nconjunctivitis\nocular inflammation\nhypotension, orthostatic\nALT, AST elevated\neosinophilia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 18h\nMetabolism: liver, CYP450: unknown\nExcretion: feces primarily, urine < 1%\nMechanism of Action: increases invertebrate nerve and muscle cell membrane permeability by binding to chloride ion channels, resulting in paralysis and death of parasite",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

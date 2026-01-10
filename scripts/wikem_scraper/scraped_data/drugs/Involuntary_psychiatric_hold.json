@@ -1,0 +1,112 @@
+{
+  "drug_name": "Involuntary_psychiatric_hold",
+  "url": "https://wikem.org/wiki/Involuntary_psychiatric_hold",
+  "scraped_at": "2026-01-10T07:55:47.568998",
+  "sections": {
+    "Background": {
+      "text": "Involuntary hospitalization of patient threatening/attempting to leave the ED for purposes of evaluating patient's risk of harm to self/others and/or ability to safely care for self.\nExact criteria and process vary by jurisdiction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "\"Clinical factors related to admission and release decisions in psychiatric emergency services\"\n[1]\n[2]\nin declining order of importance:\nlevel of danger to self\nseverity of psychosis\nability for self care\nimpulse control\nseverity of depression (\nSIGECAPS\n,\nSAD PERSONS\n)\nCrisis Triage Rating Scale\n[3]\n3 is worst, 15 is best\nhas not been validated for ED use\n[4]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Element": "Dangerousness(from most severe to least severe)",
+            "Components": "1. Acute SI/HI, current serious SI/HI attempt, unpredictable"
+          },
+          {
+            "Element": "",
+            "Components": "2. History of violent/impulsive behavior but no current signs"
+          },
+          {
+            "Element": "",
+            "Components": "3. AmbivalentSI/HI but ineffective gestures"
+          },
+          {
+            "Element": "",
+            "Components": "4. SI/HI but desire to control behavior"
+          },
+          {
+            "Element": "",
+            "Components": "5. No SI/HI and no history of violent/impulsive behavior"
+          },
+          {
+            "Element": "Support System(from worst to best)",
+            "Components": "1. None"
+          },
+          {
+            "Element": "",
+            "Components": "2. Some but limited effectiveness"
+          },
+          {
+            "Element": "",
+            "Components": "3. Some but not easy to mobilize"
+          },
+          {
+            "Element": "",
+            "Components": "4. Yes but limited"
+          },
+          {
+            "Element": "",
+            "Components": "5. Yes and good support"
+          },
+          {
+            "Element": "Cooperation(from worst to best)",
+            "Components": "1. Not able or refuses"
+          },
+          {
+            "Element": "",
+            "Components": "2. Little interest in cooperating"
+          },
+          {
+            "Element": "",
+            "Components": "3. Passive acceptance of help"
+          },
+          {
+            "Element": "",
+            "Components": "4. Wants help but desire limited"
+          },
+          {
+            "Element": "",
+            "Components": "5. Strong desire for help and will cooperate"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "SIGECAPS",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "SAD PERSONS",
+          "url": "https://wikem.org/wiki/SAD_PERSONS_score"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "General psychiatric approach\nSAD PERSONS score",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General psychiatric approach",
+          "url": "https://wikem.org/wiki/General_psychiatric_approach"
+        },
+        {
+          "text": "SAD PERSONS score",
+          "url": "https://wikem.org/wiki/SAD_PERSONS_score"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Substance Abuse and Mental Health Services Administration (SAMHSA)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
