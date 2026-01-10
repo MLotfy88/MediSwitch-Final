@@ -1,0 +1,412 @@
+{
+  "drug_name": "Renal_infarction",
+  "url": "https://wikem.org/wiki/Renal_infarction",
+  "scraped_at": "2026-01-10T08:01:17.109711",
+  "sections": {
+    "Background": {
+      "text": "Low ED incidence, approximately 1 per 90 to 100, 000 visits a year\nDiagnosis frequently missed due to mimicking symptoms similar to other more frequent complaints such as\npyelonephritis\nand\nnephrolithiasis\nCaused by interruption of blood supply to kidney",
+      "subsections": {
+        "Major_causes": {
+          "text": "Cardioembolic disease\nRenal artery injury\nHypercoagulable state\nDissection\nVasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Hypercoagulable state",
+          "url": "https://wikem.org/wiki/Hypercoagulable_state"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Major_causes": {
+      "text": "Cardioembolic disease\nRenal artery injury\nHypercoagulable state\nDissection\nVasculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypercoagulable state",
+          "url": "https://wikem.org/wiki/Hypercoagulable_state"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Flank pain\nNausea\n,\nvomiting\nSudden onset",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Flank_Pain": {
+          "text": "Vascular\nAbdominal aortic aneurysm\nRenal artery embolism\nRenal vein thrombosis\nAortic dissection\nMesenteric ischemia\nRenal\nPyelonephritis\nPerinephric abscess\nPerinephric hematoma\nPapillary necrosis\nRenal cell carcinoma\nObstructive uropathy\nMay or may not be due to\nnephrolithiasis\nRenal infarction\nRenal hemorrhage\nUreter\nNephrolithiasis\nBlood clot\nStricture\nTumor (primary or metastatic)\nBladder\nTumor\nVaricose vein\nCystitis\nGI\nBiliary colic\nPancreatitis\nPerforated\npeptic ulcer\nAppendicitis\n(appendix may be pushed to\nRUQ\nin pregnancy)\nInguinal Hernia\nDiverticulitis\nCancer\nBowel obstruction\nGynecologic\nEctopic Pregnancy\nPID\n/\nTOA\nOvarian cyst\nOvarian torsion\nEndometriosis\nMittelschmerz\nor benign ovulatory pain\nGU\nTesticular torsion\nEpididymitis\nOther\nShingles\nLower lobe\npneumonia\nRetroperitoneal hematoma\n, abscess, or tumor\nEpidural abscess\nEpidural hematoma\nRib contusion/fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "peptic ulcer",
+          "url": "https://wikem.org/wiki/Peptic_ulcer"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Inguinal Hernia",
+          "url": "https://wikem.org/wiki/Inguinal_Hernia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        }
+      ]
+    },
+    "Flank_Pain": {
+      "text": "Vascular\nAbdominal aortic aneurysm\nRenal artery embolism\nRenal vein thrombosis\nAortic dissection\nMesenteric ischemia\nRenal\nPyelonephritis\nPerinephric abscess\nPerinephric hematoma\nPapillary necrosis\nRenal cell carcinoma\nObstructive uropathy\nMay or may not be due to\nnephrolithiasis\nRenal infarction\nRenal hemorrhage\nUreter\nNephrolithiasis\nBlood clot\nStricture\nTumor (primary or metastatic)\nBladder\nTumor\nVaricose vein\nCystitis\nGI\nBiliary colic\nPancreatitis\nPerforated\npeptic ulcer\nAppendicitis\n(appendix may be pushed to\nRUQ\nin pregnancy)\nInguinal Hernia\nDiverticulitis\nCancer\nBowel obstruction\nGynecologic\nEctopic Pregnancy\nPID\n/\nTOA\nOvarian cyst\nOvarian torsion\nEndometriosis\nMittelschmerz\nor benign ovulatory pain\nGU\nTesticular torsion\nEpididymitis\nOther\nShingles\nLower lobe\npneumonia\nRetroperitoneal hematoma\n, abscess, or tumor\nEpidural abscess\nEpidural hematoma\nRib contusion/fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "peptic ulcer",
+          "url": "https://wikem.org/wiki/Peptic_ulcer"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "RUQ",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "Inguinal Hernia",
+          "url": "https://wikem.org/wiki/Inguinal_Hernia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "TOA",
+          "url": "https://wikem.org/wiki/TOA"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Retroperitoneal hematoma",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hematoma"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Laboratory": {
+          "text": "CBC with differential, CMP, LDH, urinalysis, urine culture\nEKG\n- to evaluate for arrhythmia",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "CT with IV contrast (preferred study)\nRenal ultrasound\n- less senstive\nMRI with gadolinium (contraindicated with severe renal impairment due to risk of nephrogenic systemic fibrosis)\nRadioisotope scan - not commonly used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Laboratory": {
+      "text": "CBC with differential, CMP, LDH, urinalysis, urine culture\nEKG\n- to evaluate for arrhythmia",
+      "subsections": {
+        "Imaging": {
+          "text": "CT with IV contrast (preferred study)\nRenal ultrasound\n- less senstive\nMRI with gadolinium (contraindicated with severe renal impairment due to risk of nephrogenic systemic fibrosis)\nRadioisotope scan - not commonly used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "CT with IV contrast (preferred study)\nRenal ultrasound\n- less senstive\nMRI with gadolinium (contraindicated with severe renal impairment due to risk of nephrogenic systemic fibrosis)\nRadioisotope scan - not commonly used",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "No clinical guidelines available, but mainstays of therapies include anticoagulation and endovascular therapy\nEndovascular therapy (thrombolysis/thrombectomy/angioplasty)\nIndicated if acute occlusion involving main renal artery or segmental branches\nGreatest likelihood of benefit if performed early\nAnticoagulation:\nIV\nHeparin\nfollowed by oral\nCoumadin\nIndicated in patients with renal infarction in the setting of Atrial fibrillation, LV thrombus, and hyper coagulable state",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

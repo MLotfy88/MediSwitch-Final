@@ -1,0 +1,273 @@
+{
+  "drug_name": "Raxibacumab",
+  "url": "https://wikem.org/wiki/Raxibacumab",
+  "scraped_at": "2026-01-10T08:01:13.981623",
+  "sections": {
+    "Administration": {
+      "text": "Type: Monoclonal antibody\nDosage Forms: INJ\nRoutes of Administration: IV\nCommon Trade Names: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Distributed directly to CDC",
+      "subsections": {
+        "Inhalational_anthrax_treatment": {
+          "text": "40 mg/kg IV x1\nPremedicate with\nantihistamine",
+          "tables": []
+        },
+        "Inhalational_anthrax_prophylaxis,_post-exposure": {
+          "text": "40 mg/kg IV x1\nPremedicate with\nantihistamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Inhalational_anthrax_treatment": {
+      "text": "40 mg/kg IV x1\nPremedicate with\nantihistamine",
+      "subsections": {
+        "Inhalational_anthrax_prophylaxis,_post-exposure": {
+          "text": "40 mg/kg IV x1\nPremedicate with\nantihistamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Inhalational_anthrax_prophylaxis,_post-exposure": {
+      "text": "40 mg/kg IV x1\nPremedicate with\nantihistamine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Inhalational_anthrax_treatment_2": {
+          "text": "<10 kg\n80 mg/kg IV x1\n10-40 kg\n60 mg/kg IV x1\n>40 kg\n40 mg/kg IV x1\nPremedicate with\nantihistamine",
+          "tables": []
+        },
+        "Inhalational_anthrax_prophylaxis,_post-exposure_2": {
+          "text": "<10 kg\n80 mg/kg IV x1\n10-40 kg\n60 mg/kg IV x1\n>40 kg\n40 mg/kg IV x1\nPremedicate with\nantihistamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Inhalational_anthrax_treatment_2": {
+      "text": "<10 kg\n80 mg/kg IV x1\n10-40 kg\n60 mg/kg IV x1\n>40 kg\n40 mg/kg IV x1\nPremedicate with\nantihistamine",
+      "subsections": {
+        "Inhalational_anthrax_prophylaxis,_post-exposure_2": {
+          "text": "<10 kg\n80 mg/kg IV x1\n10-40 kg\n60 mg/kg IV x1\n>40 kg\n40 mg/kg IV x1\nPremedicate with\nantihistamine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        },
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Inhalational_anthrax_prophylaxis,_post-exposure_2": {
+      "text": "<10 kg\n80 mg/kg IV x1\n10-40 kg\n60 mg/kg IV x1\n>40 kg\n40 mg/kg IV x1\nPremedicate with\nantihistamine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antihistamine",
+          "url": "https://wikem.org/wiki/Antihistamine"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B: benefits outweigh risks during pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Benefits outweigh risks while breast feeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B: benefits outweigh risks during pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Benefits outweigh risks while breast feeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Benefits outweigh risks while breast feeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Infusion reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rash\n, pruritus\nExtremity pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Infusion reaction",
+      "subsections": {
+        "Common": {
+          "text": "Rash\n, pruritus\nExtremity pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Rash\n, pruritus\nExtremity pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 22 days\nMetabolism: Unknown\nExcretion: Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to anthrax toxin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bioterrorism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        }
+      ]
+    }
+  }
+}

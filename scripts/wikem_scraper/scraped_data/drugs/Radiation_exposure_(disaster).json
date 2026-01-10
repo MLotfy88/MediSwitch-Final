@@ -1,0 +1,578 @@
+{
+  "drug_name": "Radiation_exposure_(disaster)",
+  "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)",
+  "scraped_at": "2026-01-10T08:01:07.480507",
+  "sections": {
+    "Background": {
+      "text": "“Ionizing” radiation is electromagnetic or particulate which can create charged particles or ions\n\"Non-ionizing radiation\" ( e.g., light, microwaves, and radiowaves) does not have sufficient energy to eject an electron from another atom\nIonization of biologically important molecules, e.g., DNA, can cause cellular death\nIonizing radiation at higher doses can cause damage to actively dividing and undifferentiated cell types, e.g., stem and progenitor cells in the bone marrow, gastrointestinal system, and skin",
+      "subsections": {
+        "Radiological_and_Nuclear_Scenarios_of_Concerns": {
+          "text": "Radiological exposure devices\nRadiological dispersal devices\nNuclear power plant incidents/accidents\nImprovised nuclear devices",
+          "tables": []
+        },
+        "Radiological_Exposure_Devices_(RED)": {
+          "text": "A RED is a device that can cause exposure to ionizing radiation without the knowledge of the person being exposed\nSurreptitious placement of a RED could delay discovery and notification of the healthcare community\nInjury is based on the radiation dose received, whether accidental or intentional in nature\nA concealed RED scenario could result in serious injuries",
+          "tables": []
+        },
+        "Radiological_Dispersal_Devices_(RDD)": {
+          "text": "Any device used to spread radioactive material; more commonly thought of as an explosive device or “dirty bomb\"\nDo\nnot\nnecessarily need to explode in order to spread radiological material into the environment\nNon-explosive RDD could cause environmental contamination that could lead to human contamination (e.g. use in facility ventilation systems, fumigation systems, etc.)\nExplosion of an improvised explosive devices (IED) with radioactive material could cause additional injury, internal contamination, and panic\nPersons near the epicenter of an explosion of a dirty bomb will sustain physical trauma, thermal burns, and embedded foreign bodies including radioactive shrapnel.\nAmount of physical damage from RDD would depend on amount and type of explosives used; additional radiological consequences would depend on source and physical properties as well as explosive device\nRemoval of foreign bodies would require healthcare providers wear PPE and have access to radiation monitoring equiment (e.g. ring dosimeters)\nManagement of internal contamination via inhalation or wounds might be required for some patients",
+          "tables": []
+        },
+        "Nuclear_Power_Plant_(NPP)_Incident/Accident": {
+          "text": "The Fukushima Japan nuclear power plant disaster in March of 2011 was highly unusual and the first time that such a serious situation at a nuclear power plant resulted from an environmental disaster.\nNuclear power plants use the energy created by the fissioning of atomic nuclei (\"splitting\" of the atom) to generate electricity. *Heat generated during fission process converts water to steam, which then is used to drive electricity-generating turbines\nLoss of power to coolant pumps can allow reactor core to overheat, which can then cause the radioactive core to \"melt-down\".",
+          "tables": []
+        },
+        "Nuclear_Device_Detonation": {
+          "text": "3 forms of energy released by nuclear detonation\n[1]\nHeat (35% of total)\nShock or bomb blast (50%)\nRadiation (15%)\nThe detonation of any kind or size of nuclear weapon would be expected to cause massive physical damage to a community and untold psychological devastation to its population. In 2009, the National Security Staff released the first edition of Planning Guidance for the Response to a Nuclear Detonation10  In this document, planners categorized the devastation, types of physical damage, and types of human injuries based upon distance from the detonation epicenter in zones. The second edition of this document, released in June 2010, updated recommendations and guidance based on intensive modeling efforts to try to further quantify the effects of a nuclear detonation in an urban American city. Part of the updates to the guidance includes further refinement of the proposed damage zones. The document’s authors called the area closest to the epicenter the Severe Damage (SD) zone; the adjacent area the Moderate Damage (MD) zone; and the affected area furthest away from the epicenter, the Light Damage (LD) zone. In addition, a dangerous fallout (DF) radiation zone, which is determined by the scattering of radiological material, is also defined3. The presumed “safe” and “dangerous” distances away from the epicenter vary from scenario to scenario in modeling efforts and would be made after-the-fact by the incident commander based upon types of damage found on the ground.  Zone determinations would depend upon:\nThe yield of the weapon\nWhether the detonation was  at a height or at ground level, and\nThe topographical features of the terrain and its structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Radiological_and_Nuclear_Scenarios_of_Concerns": {
+      "text": "Radiological exposure devices\nRadiological dispersal devices\nNuclear power plant incidents/accidents\nImprovised nuclear devices",
+      "subsections": {
+        "Radiological_Exposure_Devices_(RED)": {
+          "text": "A RED is a device that can cause exposure to ionizing radiation without the knowledge of the person being exposed\nSurreptitious placement of a RED could delay discovery and notification of the healthcare community\nInjury is based on the radiation dose received, whether accidental or intentional in nature\nA concealed RED scenario could result in serious injuries",
+          "tables": []
+        },
+        "Radiological_Dispersal_Devices_(RDD)": {
+          "text": "Any device used to spread radioactive material; more commonly thought of as an explosive device or “dirty bomb\"\nDo\nnot\nnecessarily need to explode in order to spread radiological material into the environment\nNon-explosive RDD could cause environmental contamination that could lead to human contamination (e.g. use in facility ventilation systems, fumigation systems, etc.)\nExplosion of an improvised explosive devices (IED) with radioactive material could cause additional injury, internal contamination, and panic\nPersons near the epicenter of an explosion of a dirty bomb will sustain physical trauma, thermal burns, and embedded foreign bodies including radioactive shrapnel.\nAmount of physical damage from RDD would depend on amount and type of explosives used; additional radiological consequences would depend on source and physical properties as well as explosive device\nRemoval of foreign bodies would require healthcare providers wear PPE and have access to radiation monitoring equiment (e.g. ring dosimeters)\nManagement of internal contamination via inhalation or wounds might be required for some patients",
+          "tables": []
+        },
+        "Nuclear_Power_Plant_(NPP)_Incident/Accident": {
+          "text": "The Fukushima Japan nuclear power plant disaster in March of 2011 was highly unusual and the first time that such a serious situation at a nuclear power plant resulted from an environmental disaster.\nNuclear power plants use the energy created by the fissioning of atomic nuclei (\"splitting\" of the atom) to generate electricity. *Heat generated during fission process converts water to steam, which then is used to drive electricity-generating turbines\nLoss of power to coolant pumps can allow reactor core to overheat, which can then cause the radioactive core to \"melt-down\".",
+          "tables": []
+        },
+        "Nuclear_Device_Detonation": {
+          "text": "3 forms of energy released by nuclear detonation\n[1]\nHeat (35% of total)\nShock or bomb blast (50%)\nRadiation (15%)\nThe detonation of any kind or size of nuclear weapon would be expected to cause massive physical damage to a community and untold psychological devastation to its population. In 2009, the National Security Staff released the first edition of Planning Guidance for the Response to a Nuclear Detonation10  In this document, planners categorized the devastation, types of physical damage, and types of human injuries based upon distance from the detonation epicenter in zones. The second edition of this document, released in June 2010, updated recommendations and guidance based on intensive modeling efforts to try to further quantify the effects of a nuclear detonation in an urban American city. Part of the updates to the guidance includes further refinement of the proposed damage zones. The document’s authors called the area closest to the epicenter the Severe Damage (SD) zone; the adjacent area the Moderate Damage (MD) zone; and the affected area furthest away from the epicenter, the Light Damage (LD) zone. In addition, a dangerous fallout (DF) radiation zone, which is determined by the scattering of radiological material, is also defined3. The presumed “safe” and “dangerous” distances away from the epicenter vary from scenario to scenario in modeling efforts and would be made after-the-fact by the incident commander based upon types of damage found on the ground.  Zone determinations would depend upon:\nThe yield of the weapon\nWhether the detonation was  at a height or at ground level, and\nThe topographical features of the terrain and its structures.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Basic_Principles": {
+      "text": "",
+      "subsections": {
+        "Physical_Properties": {
+          "text": "Radiation Types\nGamma and xrays - deep penetration\nAlpha - hazard only if ingested/ inoculated since penetration only ~0.1mm\nBeta/electrons - penetrate only a few centimeters\nDose\nRads - dose absorbed by specific tissue.\nGray (Gy) - international unit for absorbed dose. (1 Gy = 100 rads)\nREM - \"Effective Dose\" (100 rem = 1 sievert = 1 Gy)\nPrinciples of exposure\nDifferent radioactive particles have diff effects at same absorbed dose- so use effective dose for comparison\nEffect of radiation based on time of exp, distance and shielding\nDose decreases rapidly with square of distance and decreases on 1/9th if triple distance\nLead is an effective shield\nRadiation decays with time\nIodine isotopes are short lived\nCesium, stontium, cobalt are longer-lived\nRate of decay also effects dose of exposure and may effect management decisions",
+          "tables": []
+        },
+        "Biological_Principles": {
+          "text": "Some cells may die but if cells role not critical for survival, may not see effect\nRapidly dividing cells (e.g. GI and bone marrow) are most vulnerable\nDose ~1Gy, cells survive but get cancer later\nRadiation-induced cancer dose related\nLeukemia\nwithin 2 yrs, solid tumors 5-10 or more yrs\nBeta rays from fallout only burn exposed skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Physical_Properties": {
+      "text": "Radiation Types\nGamma and xrays - deep penetration\nAlpha - hazard only if ingested/ inoculated since penetration only ~0.1mm\nBeta/electrons - penetrate only a few centimeters\nDose\nRads - dose absorbed by specific tissue.\nGray (Gy) - international unit for absorbed dose. (1 Gy = 100 rads)\nREM - \"Effective Dose\" (100 rem = 1 sievert = 1 Gy)\nPrinciples of exposure\nDifferent radioactive particles have diff effects at same absorbed dose- so use effective dose for comparison\nEffect of radiation based on time of exp, distance and shielding\nDose decreases rapidly with square of distance and decreases on 1/9th if triple distance\nLead is an effective shield\nRadiation decays with time\nIodine isotopes are short lived\nCesium, stontium, cobalt are longer-lived\nRate of decay also effects dose of exposure and may effect management decisions",
+      "subsections": {
+        "Biological_Principles": {
+          "text": "Some cells may die but if cells role not critical for survival, may not see effect\nRapidly dividing cells (e.g. GI and bone marrow) are most vulnerable\nDose ~1Gy, cells survive but get cancer later\nRadiation-induced cancer dose related\nLeukemia\nwithin 2 yrs, solid tumors 5-10 or more yrs\nBeta rays from fallout only burn exposed skin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Biological_Principles": {
+      "text": "Some cells may die but if cells role not critical for survival, may not see effect\nRapidly dividing cells (e.g. GI and bone marrow) are most vulnerable\nDose ~1Gy, cells survive but get cancer later\nRadiation-induced cancer dose related\nLeukemia\nwithin 2 yrs, solid tumors 5-10 or more yrs\nBeta rays from fallout only burn exposed skin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Presentation dependant on nature of exposure\nSee\nacute radiation syndrome\n,\nblast injuries\nMay be asymptomatic\nRadiation burn like thermal\nburn\nbut signs can occur after a few days, vascular insufficiency after several months and causing necrosis of previously healed skin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        },
+        {
+          "text": "blast injuries",
+          "url": "https://wikem.org/wiki/Blast_injuries"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate and stabilize any life threatening physical injuries (ABC's)\nDecontaminate after stabilized\nCheck for external contamination\ndocument location, dose rate and/or count measurements initial and after decontamination, and description of decontamination methods/agents used\nCheck for internal contamination\nswab both nostrils\n24-hour stool and 24-hour urine samples\nIdentify radionuclide (chemical form), solubility and particle character\nDocument suspected route of contamination.\nExternal exposure to ionizing radiation\ndocument location and position of patient relative to source of radiation at time of exposure, as well as time and duration of exposure (including dosimeter information if applicable)\nCBC q6-8h x 2-3 days\nAmylase; baseline and at 24h post exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Can be localized or whole body, internal or external deposition and contamination\nMostly not emergency, just treatment symptoms and supportive care\nConsider contacting health physicist and/or radiation safety officer for help",
+      "subsections": {
+        "Localized_Exposure": {
+          "text": "Treat wounds symptomatically\nClose wounds within 35-48 hours\nBy direct handling. patient survives even though dose high since exposure drops rapidly with distance\nTreat\nburns\nwith\npain control\n, prophylactic\nantibiotics\n, vasodilator treatment, surgery, skin graft,\nExtent of penetration important factor in outcome",
+          "tables": []
+        },
+        "Whole_Body_Exposure": {
+          "text": "Acute Radiation Syndrome\nThose persons who receive a significant exposure from radiation may experience acute radiation syndrome (ARS),  a systemic illness caused by exposure to a level of ionizing radiation sufficient to cause damage to the hematopoietic, gastrointestinal, cardiovascular or central nervous system\nWithin 12hr,\nnausea/vomiting\nfor 48hr\nDose >30 gy: cardiovascular and CNS effects -\nhypotension\n, cerebral edema,\nseizure\n,\nnausea/vomiting\n/\ndiarrhea\n,\nataxia\n,\ndeath\nDose 10-30 gy: GI syndrome:\nnausea and vomiting\n/\ndiarrhea\n, then latent for 1 week, then recurrent nausea and vomiting/diarrhea this time with\nsepsis\nand death\nHematopoietic symptoms- dose 2gy or higher-\nlymphocyte reduction\nwithin 48 hrs is indicator for rad exposure. get leukopenia and\nthrombocytopenia\n- bleeding and infection- may enhance recovery by hematopoietic factors\nCutaneous symptoms- damaged skin may interact with other organ damage\nAmifostine- prophylactic radiation drug- causes hypotension as side effect\nAndrostenediol- boosts immune system\nBone marrow transplant not helpful\nEven if treatment and survive hematopoetic symptoms, still die from radiation pneumonitis, denuded GI tract, hepatic and renal dysfunction",
+          "tables": [
+            [
+              {
+                "Dose": "",
+                "SubSyndrome": "N/A",
+                "Potential Signs and Symptoms": "Subclinical"
+              },
+              {
+                "Dose": "1 GY (100 rad)",
+                "SubSyndrome": "Hematopoietic",
+                "Potential Signs and Symptoms": "Lymphocytopenia – 24-48 hours(worsens with increasing dose)Thrombocytopenia,Anemia- weeks"
+              },
+              {
+                "Dose": "6 Gy (600 rad)",
+                "SubSyndrome": "Gastrointestinal",
+                "Potential Signs and Symptoms": "Nausea/vomiting,diarrheawith resultinghypovolemiaand electrolyte shifts,"
+              },
+              {
+                "Dose": "10 Gy (1000 rad)",
+                "SubSyndrome": "Neurovascular",
+                "Potential Signs and Symptoms": "Nausea,headache, lethargy,ataxia,confusion,seizures"
+              }
+            ]
+          ]
+        },
+        "Internal_Contamination": {
+          "text": "May enter thru burns, wounds, inhale, ingest\nNeed to know type of radionuclide and chemical form\nNeed to treatment quickly to be effective\nReduce absorption, dilute, blockage, displacement by nonradioactive materials, mobilization, chelation\nPotassium iodine for nuc weapon detonation or reactor breach- prevents radioiodine from accumulating in thyroid. take shortly after exp to be effective- if give too much get iodism\nDose- 130mg adults, 65mg 3- 18ys, 32mg 1mo- 3yr, 16mg for age< 1mo\nChelators- calcium, zinc, only for plutonium or americium",
+          "tables": []
+        },
+        "External_Contamination": {
+          "text": "Clothes and exp skin- just clean up and prevent spread\nClean with soap and water\nIf extremis- stabilize first, then decontam\nDo not abraid skin while cleaning",
+          "tables": []
+        },
+        "Contaminated_Burns_and_Wounds": {
+          "text": "Irrigate\nExcise only if long acting radionuclides\nIf whole body dose >1gy, close wound asap to prevent portal of infc\nIn burns, radioactivity comes off with eschar and exudate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "pain control",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Acute Radiation Syndrome",
+          "url": "https://wikem.org/wiki/Acute_Radiation_Syndrome"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "lymphocyte reduction",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Localized_Exposure": {
+      "text": "Treat wounds symptomatically\nClose wounds within 35-48 hours\nBy direct handling. patient survives even though dose high since exposure drops rapidly with distance\nTreat\nburns\nwith\npain control\n, prophylactic\nantibiotics\n, vasodilator treatment, surgery, skin graft,\nExtent of penetration important factor in outcome",
+      "subsections": {
+        "Whole_Body_Exposure": {
+          "text": "Acute Radiation Syndrome\nThose persons who receive a significant exposure from radiation may experience acute radiation syndrome (ARS),  a systemic illness caused by exposure to a level of ionizing radiation sufficient to cause damage to the hematopoietic, gastrointestinal, cardiovascular or central nervous system\nWithin 12hr,\nnausea/vomiting\nfor 48hr\nDose >30 gy: cardiovascular and CNS effects -\nhypotension\n, cerebral edema,\nseizure\n,\nnausea/vomiting\n/\ndiarrhea\n,\nataxia\n,\ndeath\nDose 10-30 gy: GI syndrome:\nnausea and vomiting\n/\ndiarrhea\n, then latent for 1 week, then recurrent nausea and vomiting/diarrhea this time with\nsepsis\nand death\nHematopoietic symptoms- dose 2gy or higher-\nlymphocyte reduction\nwithin 48 hrs is indicator for rad exposure. get leukopenia and\nthrombocytopenia\n- bleeding and infection- may enhance recovery by hematopoietic factors\nCutaneous symptoms- damaged skin may interact with other organ damage\nAmifostine- prophylactic radiation drug- causes hypotension as side effect\nAndrostenediol- boosts immune system\nBone marrow transplant not helpful\nEven if treatment and survive hematopoetic symptoms, still die from radiation pneumonitis, denuded GI tract, hepatic and renal dysfunction",
+          "tables": [
+            [
+              {
+                "Dose": "",
+                "SubSyndrome": "N/A",
+                "Potential Signs and Symptoms": "Subclinical"
+              },
+              {
+                "Dose": "1 GY (100 rad)",
+                "SubSyndrome": "Hematopoietic",
+                "Potential Signs and Symptoms": "Lymphocytopenia – 24-48 hours(worsens with increasing dose)Thrombocytopenia,Anemia- weeks"
+              },
+              {
+                "Dose": "6 Gy (600 rad)",
+                "SubSyndrome": "Gastrointestinal",
+                "Potential Signs and Symptoms": "Nausea/vomiting,diarrheawith resultinghypovolemiaand electrolyte shifts,"
+              },
+              {
+                "Dose": "10 Gy (1000 rad)",
+                "SubSyndrome": "Neurovascular",
+                "Potential Signs and Symptoms": "Nausea,headache, lethargy,ataxia,confusion,seizures"
+              }
+            ]
+          ]
+        },
+        "Internal_Contamination": {
+          "text": "May enter thru burns, wounds, inhale, ingest\nNeed to know type of radionuclide and chemical form\nNeed to treatment quickly to be effective\nReduce absorption, dilute, blockage, displacement by nonradioactive materials, mobilization, chelation\nPotassium iodine for nuc weapon detonation or reactor breach- prevents radioiodine from accumulating in thyroid. take shortly after exp to be effective- if give too much get iodism\nDose- 130mg adults, 65mg 3- 18ys, 32mg 1mo- 3yr, 16mg for age< 1mo\nChelators- calcium, zinc, only for plutonium or americium",
+          "tables": []
+        },
+        "External_Contamination": {
+          "text": "Clothes and exp skin- just clean up and prevent spread\nClean with soap and water\nIf extremis- stabilize first, then decontam\nDo not abraid skin while cleaning",
+          "tables": []
+        },
+        "Contaminated_Burns_and_Wounds": {
+          "text": "Irrigate\nExcise only if long acting radionuclides\nIf whole body dose >1gy, close wound asap to prevent portal of infc\nIn burns, radioactivity comes off with eschar and exudate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "pain control",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Acute Radiation Syndrome",
+          "url": "https://wikem.org/wiki/Acute_Radiation_Syndrome"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "lymphocyte reduction",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Whole_Body_Exposure": {
+      "text": "Acute Radiation Syndrome\nThose persons who receive a significant exposure from radiation may experience acute radiation syndrome (ARS),  a systemic illness caused by exposure to a level of ionizing radiation sufficient to cause damage to the hematopoietic, gastrointestinal, cardiovascular or central nervous system\nWithin 12hr,\nnausea/vomiting\nfor 48hr\nDose >30 gy: cardiovascular and CNS effects -\nhypotension\n, cerebral edema,\nseizure\n,\nnausea/vomiting\n/\ndiarrhea\n,\nataxia\n,\ndeath\nDose 10-30 gy: GI syndrome:\nnausea and vomiting\n/\ndiarrhea\n, then latent for 1 week, then recurrent nausea and vomiting/diarrhea this time with\nsepsis\nand death\nHematopoietic symptoms- dose 2gy or higher-\nlymphocyte reduction\nwithin 48 hrs is indicator for rad exposure. get leukopenia and\nthrombocytopenia\n- bleeding and infection- may enhance recovery by hematopoietic factors\nCutaneous symptoms- damaged skin may interact with other organ damage\nAmifostine- prophylactic radiation drug- causes hypotension as side effect\nAndrostenediol- boosts immune system\nBone marrow transplant not helpful\nEven if treatment and survive hematopoetic symptoms, still die from radiation pneumonitis, denuded GI tract, hepatic and renal dysfunction",
+      "subsections": {
+        "Internal_Contamination": {
+          "text": "May enter thru burns, wounds, inhale, ingest\nNeed to know type of radionuclide and chemical form\nNeed to treatment quickly to be effective\nReduce absorption, dilute, blockage, displacement by nonradioactive materials, mobilization, chelation\nPotassium iodine for nuc weapon detonation or reactor breach- prevents radioiodine from accumulating in thyroid. take shortly after exp to be effective- if give too much get iodism\nDose- 130mg adults, 65mg 3- 18ys, 32mg 1mo- 3yr, 16mg for age< 1mo\nChelators- calcium, zinc, only for plutonium or americium",
+          "tables": []
+        },
+        "External_Contamination": {
+          "text": "Clothes and exp skin- just clean up and prevent spread\nClean with soap and water\nIf extremis- stabilize first, then decontam\nDo not abraid skin while cleaning",
+          "tables": []
+        },
+        "Contaminated_Burns_and_Wounds": {
+          "text": "Irrigate\nExcise only if long acting radionuclides\nIf whole body dose >1gy, close wound asap to prevent portal of infc\nIn burns, radioactivity comes off with eschar and exudate",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Dose": "",
+            "SubSyndrome": "N/A",
+            "Potential Signs and Symptoms": "Subclinical"
+          },
+          {
+            "Dose": "1 GY (100 rad)",
+            "SubSyndrome": "Hematopoietic",
+            "Potential Signs and Symptoms": "Lymphocytopenia – 24-48 hours(worsens with increasing dose)Thrombocytopenia,Anemia- weeks"
+          },
+          {
+            "Dose": "6 Gy (600 rad)",
+            "SubSyndrome": "Gastrointestinal",
+            "Potential Signs and Symptoms": "Nausea/vomiting,diarrheawith resultinghypovolemiaand electrolyte shifts,"
+          },
+          {
+            "Dose": "10 Gy (1000 rad)",
+            "SubSyndrome": "Neurovascular",
+            "Potential Signs and Symptoms": "Nausea,headache, lethargy,ataxia,confusion,seizures"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Acute Radiation Syndrome",
+          "url": "https://wikem.org/wiki/Acute_Radiation_Syndrome"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "death",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "lymphocyte reduction",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Internal_Contamination": {
+      "text": "May enter thru burns, wounds, inhale, ingest\nNeed to know type of radionuclide and chemical form\nNeed to treatment quickly to be effective\nReduce absorption, dilute, blockage, displacement by nonradioactive materials, mobilization, chelation\nPotassium iodine for nuc weapon detonation or reactor breach- prevents radioiodine from accumulating in thyroid. take shortly after exp to be effective- if give too much get iodism\nDose- 130mg adults, 65mg 3- 18ys, 32mg 1mo- 3yr, 16mg for age< 1mo\nChelators- calcium, zinc, only for plutonium or americium",
+      "subsections": {
+        "External_Contamination": {
+          "text": "Clothes and exp skin- just clean up and prevent spread\nClean with soap and water\nIf extremis- stabilize first, then decontam\nDo not abraid skin while cleaning",
+          "tables": []
+        },
+        "Contaminated_Burns_and_Wounds": {
+          "text": "Irrigate\nExcise only if long acting radionuclides\nIf whole body dose >1gy, close wound asap to prevent portal of infc\nIn burns, radioactivity comes off with eschar and exudate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "External_Contamination": {
+      "text": "Clothes and exp skin- just clean up and prevent spread\nClean with soap and water\nIf extremis- stabilize first, then decontam\nDo not abraid skin while cleaning",
+      "subsections": {
+        "Contaminated_Burns_and_Wounds": {
+          "text": "Irrigate\nExcise only if long acting radionuclides\nIf whole body dose >1gy, close wound asap to prevent portal of infc\nIn burns, radioactivity comes off with eschar and exudate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contaminated_Burns_and_Wounds": {
+      "text": "Irrigate\nExcise only if long acting radionuclides\nIf whole body dose >1gy, close wound asap to prevent portal of infc\nIn burns, radioactivity comes off with eschar and exudate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disaster_Management": {
+      "text": "Preparation, crisis management, consequences\nFBI is lead agency in terrorist incident\nDuring consequence management, FEMA fed emerg management agency takes over\nIntervention- action to reduce exposure and dose of radiation\nIf dose 1 rem- stay in doors up to 2 days- evacuate for 1 wk if dose of 5 rem or more\nTemperature relocation if dose 3 rem in first month or 1 rem in subsequent month\nPermanent resettlement if lifetime dose 100 rem\nPotassium iodine only if thyroid dose 100mgy or more\nEMS occupational dose of 5 rem per yr dose not apply- allowable dose goes up for lifesaving event\nAt dose of 0.1 gy/hr- ems may go in for short time but dose may be life threatening",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dirty bomb\nDisaster medicine\nRadiation exposure (clinical)\nAcute Radiation Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Disaster medicine",
+          "url": "https://wikem.org/wiki/Disaster_medicine"
+        },
+        {
+          "text": "Radiation exposure (clinical)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(clinical)"
+        },
+        {
+          "text": "Acute Radiation Syndrome",
+          "url": "https://wikem.org/wiki/Acute_Radiation_Syndrome"
+        }
+      ]
+    }
+  }
+}

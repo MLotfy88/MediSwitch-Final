@@ -1,0 +1,298 @@
+{
+  "drug_name": "Quadriceps_tendon_rupture",
+  "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture",
+  "scraped_at": "2026-01-10T08:01:03.892831",
+  "sections": {
+    "Background": {
+      "text": "Occurs via forceful contraction of quadriceps muscle or falling on flexed knee\nTypically occur 2cm from insertion on patella",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sudden \"pop\" or tearing\nDiffuse swelling\nDefect may be palpable above the patella\nPartial tears lead to difficulty extending the knee\nComplete tears lead to absent straight leg raise while supine or extension of the knee again",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Knee_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ultrasound\nSeparation of the tendon can be visualized\nX-ray\nPatella baja/infera (low-riding patella)",
+      "subsections": {
+        "Patellar_vs_Quadriceps_tendon_rupture": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finding": "Location",
+                "Patellar tendon rupture": "Distal to patella",
+                "Quadriceps tendon rupture": "Proximal to patella"
+              },
+              {
+                "Finding": "Typical group",
+                "Patellar tendon rupture": "Patients <40yr with history of tendinitis or steroid injections",
+                "Quadriceps tendon rupture": "Patients >40yr"
+              },
+              {
+                "Finding": "X-ray",
+                "Patellar tendon rupture": "Patella alta (high-riding patella)",
+                "Quadriceps tendon rupture": "Patella baja/infera (low-riding patella)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Tendons"
+        }
+      ]
+    },
+    "Patellar_vs_Quadriceps_tendon_rupture": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Location",
+            "Patellar tendon rupture": "Distal to patella",
+            "Quadriceps tendon rupture": "Proximal to patella"
+          },
+          {
+            "Finding": "Typical group",
+            "Patellar tendon rupture": "Patients <40yr with history of tendinitis or steroid injections",
+            "Quadriceps tendon rupture": "Patients >40yr"
+          },
+          {
+            "Finding": "X-ray",
+            "Patellar tendon rupture": "Patella alta (high-riding patella)",
+            "Quadriceps tendon rupture": "Patella baja/infera (low-riding patella)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Ortho consult in the ED\nKnee immobilizer, can be weight bearing\nOperative repair advised within 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Patellar tendon rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        }
+      ]
+    },
+    "References": {
+      "text": "Wheeless' Textbook of Orthopaedics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

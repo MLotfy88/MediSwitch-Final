@@ -1,0 +1,104 @@
+{
+  "drug_name": "Red_Man_Syndrome",
+  "url": "https://wikem.org/wiki/Red_Man_Syndrome",
+  "scraped_at": "2026-01-10T08:01:15.821999",
+  "sections": {
+    "Background": {
+      "text": "Red man syndrome\n(RMS) is an adverse reaction associated with the rapid intravenous (IV) infusion of\nvancomycin\n, a\nglycopeptide\n. It is characterized by flushing, erythema (redness), and pruritus (itching) primarily affecting the upper body, often the face, neck, and torso—hence the name. RMS is not a true allergic reaction but rather an anaphylactoid response mediated by histamine release from mast cells. It typically occurs during or shortly after infusion and resolves quickly once the infusion is slowed or stopped. Similar reactions can occur with other glycopeptides like\nteicoplanin\n, though less commonly.",
+      "subsections": {
+        "Epidemiology": {
+          "text": "RMS occurs in up to 50% of patients receiving rapid vancomycin infusions, but the incidence drops to <5% with proper slow administration. It is more common in adults than children and does not correlate with vancomycin serum levels.\n[1]",
+          "tables": []
+        },
+        "History": {
+          "text": "The syndrome was first described in the 1950s following the introduction of vancomycin. Initially termed \"red neck syndrome,\" it was linked to impurities in early vancomycin batches. Advances in purification have reduced its frequency, but it remains a notable adverse effect.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "glycopeptide",
+          "url": "https://wikem.org/wiki/Glycopeptide"
+        },
+        {
+          "text": "teicoplanin",
+          "url": "https://wikem.org/wiki/Teicoplanin"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "RMS occurs in up to 50% of patients receiving rapid vancomycin infusions, but the incidence drops to <5% with proper slow administration. It is more common in adults than children and does not correlate with vancomycin serum levels.\n[1]",
+      "subsections": {
+        "History": {
+          "text": "The syndrome was first described in the 1950s following the introduction of vancomycin. Initially termed \"red neck syndrome,\" it was linked to impurities in early vancomycin batches. Advances in purification have reduced its frequency, but it remains a notable adverse effect.\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "The syndrome was first described in the 1950s following the introduction of vancomycin. Initially termed \"red neck syndrome,\" it was linked to impurities in early vancomycin batches. Advances in purification have reduced its frequency, but it remains a notable adverse effect.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Signs_and_symptoms": {
+      "text": "The hallmark symptoms of red man syndrome include:\nIntense flushing and erythema of the face, neck, upper chest, and arms (resembling a severe sunburn).\nPruritus (itching), which can be widespread.\nHypotension (low blood pressure), which may lead to dizziness or fainting.\nTachycardia (rapid heart rate) and, in severe cases, chest pain or dyspnea (shortness of breath).\nRarely, more severe manifestations like angioedema or bronchospasm.\nSymptoms usually begin within 4-10 minutes of starting the infusion and can last from 20 minutes to several hours, depending on the infusion rate and dose.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Red man syndrome is primarily caused by the rapid IV administration of vancomycin. The reaction is dose- and rate-dependent:\nHigher doses (e.g., >500 mg) or rapid infusion (e.g., over less than 60 minutes) increase the risk.\nIt may also occur with other drugs that trigger mast cell degranulation, such as certain opioids (e.g., morphine) or contrast media.\nRisk factors include a history of previous RMS episodes, atopic conditions, or concurrent use of drugs that enhance histamine release.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism": {
+      "text": "RMS results from non-immunologic mast cell degranulation, leading to the release of histamine and other vasoactive mediators. Vancomycin directly stimulates mast cells and basophils, causing histamine release without involving IgE antibodies. This distinguishes it from true anaphylaxis. The reaction is more pronounced with impure or older formulations of vancomycin, though modern preparations have reduced incidence.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is primarily clinical, based on the timing and symptoms during vancomycin infusion. It is differentiated from true vancomycin allergy (which involves IgE-mediated hypersensitivity) by:\nLack of urticaria or systemic involvement in mild cases.\nResolution upon slowing the infusion, without need for epinephrine.\nNegative skin testing for allergy.\nMonitoring vital signs during infusion can aid in early detection.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Treatment": {
+      "text": "Management is supportive and focuses on alleviating symptoms:\nImmediately slow or stop the vancomycin infusion.\nAdminister antihistamines (e.g.,\ndiphenhydramine\n25-50 mg IV) to block histamine effects.\n[5]\nFor hypotension, provide IV fluids and, if severe, vasopressors.\nIn rare severe cases, corticosteroids or epinephrine may be used, though this is uncommon.\nMost episodes resolve without long-term sequelae.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Preventive measures include:\nInfusing vancomycin slowly: At least 60 minutes for 1 g, or longer for higher doses (e.g., 2 hours for 2 g).\nPremedication with antihistamines (e.g., diphenhydramine) and/or H2 blockers (e.g., ranitidine) for patients with prior RMS.\nUsing alternative antibiotics if repeated reactions occur, though desensitization protocols exist for necessary vancomycin use.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_also": {
+      "text": "Vancomycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    }
+  }
+}

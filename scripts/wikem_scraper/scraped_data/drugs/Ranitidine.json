@@ -1,0 +1,95 @@
+{
+  "drug_name": "Ranitidine",
+  "url": "https://wikem.org/wiki/Ranitidine",
+  "scraped_at": "2026-01-10T08:01:11.843086",
+  "sections": {
+    "General": {
+      "text": "Type:\nH2 blocker\nDosage Forms: 75mg, 150mg, 300mg\nCommon Trade Names: Zantac",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "GERD: 150mg PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "GERD: 5-10mg/kg/day PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Probably Safe\nRenal Dosing\nAdult: CrCl < 50: 150mg Qday; CrCl < 10: 75 -150mg Qday; HD: give dose after dialysis\nPediatric: CrCl < 10-50: decrease dose 50%; CrCl< 10: decrease dose 75%; HD: Give dose after dialysis\nHepatic Dosing\nAdult: Not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPorphyria\nCaution if impairment of liver or kidneys\nCaution in chronic pulmonary disease\nCaution if diabetes mellitus\nCaution if immunocompromised",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Thrombocytopenia\nHepatotoxicity\nPneumonia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting/diarrhea\nFatigue\nHeadache\nRash\nMyalgia\nXerostomia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Thrombocytopenia\nHepatotoxicity\nPneumonia",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting/diarrhea\nFatigue\nHeadache\nRash\nMyalgia\nXerostomia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting/diarrhea\nFatigue\nHeadache\nRash\nMyalgia\nXerostomia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3 hr, Renal impairment: 5 hr\nMetabolism: Liver\nExcretion: Urine, Feces\nMechanism of Action: H2 blocker",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

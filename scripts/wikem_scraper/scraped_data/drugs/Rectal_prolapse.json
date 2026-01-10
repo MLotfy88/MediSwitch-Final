@@ -1,0 +1,303 @@
+{
+  "drug_name": "Rectal_prolapse",
+  "url": "https://wikem.org/wiki/Rectal_prolapse",
+  "scraped_at": "2026-01-10T08:01:18.303834",
+  "sections": {
+    "Background": {
+      "text": "Circumferential protrusion of part or all layers of the rectum through the anal canal\nComplications are rare and include bleeding and ulceration",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Extremes of age\nChronic\nconstipation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Extremes of age\nChronic\nconstipation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most frequent complaint at the time of clinical presentation:\n[1]\nSensation of a protruding rectal mass (98.7%)\nPainful defecation (36%)\nFecal incontinence (38.7%)\nRectal bleeding\n(25.3%)\nConstipation\n(25.3%)\nRectal ulcer (8%)\nPatients may mistake prolapsed mucosa for hemorrhoids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Types": {
+          "text": "Prolapse involving the rectal mucosa only\nRarely protrudes more than 2 to 3 cm beyond the anal verge\nAnal edges appear everted\nRadially directed folds\nNo sulcus between extruded mucosa and anus\nFrequently associated with 3rd and 4th degree hemorrhoids\nProlapse involving all layers of the rectum\nMay protrude up to 15 cm\nAnus appears normal\nProlapse appears as red, ball-like mass with concentric folds\nSulcus may be palpated between the extruded bowel and anus\nIntussusception of upper rectum into and through the lower rectum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Prolapse involving the rectal mucosa only\nRarely protrudes more than 2 to 3 cm beyond the anal verge\nAnal edges appear everted\nRadially directed folds\nNo sulcus between extruded mucosa and anus\nFrequently associated with 3rd and 4th degree hemorrhoids\nProlapse involving all layers of the rectum\nMay protrude up to 15 cm\nAnus appears normal\nProlapse appears as red, ball-like mass with concentric folds\nSulcus may be palpated between the extruded bowel and anus\nIntussusception of upper rectum into and through the lower rectum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Children": {
+          "text": "Reduce via slow steady pressure applied to prolapsed segment\nPrevent constipation\nRefer for evaluation of underlying condition (\nCF\n, pelvic floor weakness,\ndiarrhea\n)",
+          "tables": []
+        },
+        "Adults": {
+          "text": "Reduction\nThumbs over luminal surfaces medially and fingers grasp outer walls laterally\nApply continuous pressure first with thumbs followed by internal rolling of fingers\nAfter reduction perform digital rectal exam to evaluate for rectal mass/polyp\nDifficult reduction\nProlonged prolapse may lead to rectal wall edema\nAdequate\nsedation\nand\nanalgesia\nis key to successful reduction\nCan incorporate a\nperianal block\nin certain cases\nCan place granulated sugar (not synthetic sweeteners) over prolapsed rectum\nWait 15 min for edema to subside and re-attempt\nFailed reduction\nObtain emergent surgical consultation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Children": {
+      "text": "Reduce via slow steady pressure applied to prolapsed segment\nPrevent constipation\nRefer for evaluation of underlying condition (\nCF\n, pelvic floor weakness,\ndiarrhea\n)",
+      "subsections": {
+        "Adults": {
+          "text": "Reduction\nThumbs over luminal surfaces medially and fingers grasp outer walls laterally\nApply continuous pressure first with thumbs followed by internal rolling of fingers\nAfter reduction perform digital rectal exam to evaluate for rectal mass/polyp\nDifficult reduction\nProlonged prolapse may lead to rectal wall edema\nAdequate\nsedation\nand\nanalgesia\nis key to successful reduction\nCan incorporate a\nperianal block\nin certain cases\nCan place granulated sugar (not synthetic sweeteners) over prolapsed rectum\nWait 15 min for edema to subside and re-attempt\nFailed reduction\nObtain emergent surgical consultation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adults": {
+      "text": "Reduction\nThumbs over luminal surfaces medially and fingers grasp outer walls laterally\nApply continuous pressure first with thumbs followed by internal rolling of fingers\nAfter reduction perform digital rectal exam to evaluate for rectal mass/polyp\nDifficult reduction\nProlonged prolapse may lead to rectal wall edema\nAdequate\nsedation\nand\nanalgesia\nis key to successful reduction\nCan incorporate a\nperianal block\nin certain cases\nCan place granulated sugar (not synthetic sweeteners) over prolapsed rectum\nWait 15 min for edema to subside and re-attempt\nFailed reduction\nObtain emergent surgical consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge\nRefer all patients for colonoscopy and surgeon for consideration of repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

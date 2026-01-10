@@ -1,0 +1,101 @@
+{
+  "drug_name": "Rasburicase",
+  "url": "https://wikem.org/wiki/Rasburicase",
+  "scraped_at": "2026-01-10T08:01:13.884351",
+  "sections": {
+    "Administration": {
+      "text": "Type: Enzyme\nDosage Forms: Solution; 1.5mg & 7.5mg\nRoutes of Administration: IV\nCommon Trade Names: Elitek",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Hyperuricemia due to tumor lysis syndrome: 0.2 mg/kg IV over 30 minutes daily for up to 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "0.2 mg/kg IV over 30 minutes daily for up to 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nG6PD deficiency\nHistory of hemolytic reaction to rasburicase or any excipients\nHistory of methemoglobinemia reaction to rasburicase or any excipients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Dysrhythmia, MI, heart failure, cardiac arrest\nBowel obstruction\nSevere diarrhea, dehydration\nMethemoglobinemia\nNeutropenia, hemolysis, thrombocytopenia, pancytopenia\nHemorrhage, thrombosis\nSepsis\nStroke\nRenal failure\nPulmonary edema, pulmonary hypertension, pneumonia, respiratory distress\nFever (severe), rigors",
+          "tables": []
+        },
+        "Common": {
+          "text": "Peripheral Edema\nFever\nRash\nDiarrhea, nausea/vomiting, constipation, abdominal pain\nMucous membrane inflammation\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Dysrhythmia, MI, heart failure, cardiac arrest\nBowel obstruction\nSevere diarrhea, dehydration\nMethemoglobinemia\nNeutropenia, hemolysis, thrombocytopenia, pancytopenia\nHemorrhage, thrombosis\nSepsis\nStroke\nRenal failure\nPulmonary edema, pulmonary hypertension, pneumonia, respiratory distress\nFever (severe), rigors",
+      "subsections": {
+        "Common": {
+          "text": "Peripheral Edema\nFever\nRash\nDiarrhea, nausea/vomiting, constipation, abdominal pain\nMucous membrane inflammation\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Peripheral Edema\nFever\nRash\nDiarrhea, nausea/vomiting, constipation, abdominal pain\nMucous membrane inflammation\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 18h\nMetabolism: liver\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Enzyme catalyzes oxidation of uric acid into inactive and soluble metabolite",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tumor lysis syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        }
+      ]
+    }
+  }
+}

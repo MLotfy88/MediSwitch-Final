@@ -1,0 +1,98 @@
+{
+  "drug_name": "Respiratory_acidosis",
+  "url": "https://wikem.org/wiki/Respiratory_acidosis",
+  "scraped_at": "2026-01-10T08:01:17.446842",
+  "sections": {
+    "Intro": {
+      "text": "see also\nhypercapnia\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Acidemia\n= pH < 7.35\nRespiratory acidosis = PaCO2 > 42\nAcute respiratory acidosis: Change in pH = 0.008 X (40 - PaCO2)\nFor every 10 mmHg increase in PaCO2, HCO3- should increase by 1 mEq/L\nChronic respiratory acidosis: Change in pH = 0.003 X (40 - PaCO2)\nFor every 10 mmHg increase in PaCO2, HCO3- should increase by 4 mEq/L\nDetermine if another primary acid/base disturbance is occurring\nCalculate AG\nif HCO3- < 24 + (pCO2-40)/10 x 3(+/-1) then there is a superimposed primary metabolic acidosis\nfor every 10mm increase in pCO2 >40, HCO3expected increases by 2-4mEq (2 if acute/limited time for metabolic compensation, 4 if chronic i.e. COPD)\nif HCO3- > 24 + (pCO2-40)/10 x 3(+/-1) then suspect primary metabolic alkalosis",
+      "subsections": {
+        "Etiology": {
+          "text": "Hypoventilation - acute vs chronic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acidemia",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Hypoventilation - acute vs chronic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Respiratory disorders\nCOPD\nPneumonia\nARDS\nPulmonary edema\nPulmonary fibrosis\nTrauma\nCentral respiratory depression\nCentral sleep apnea\nDrug overdose (opiates, benzodiazepines)\nTrauma\nStroke\nStatus epilepticus\nAirway obstruction\nObstruction sleep apnea\nForeign body aspiration\nTumor\nBronchospasm\nNeuromuscular dysfunction\nGuillain-Barre syndrome\nMyasthenia gravis\nBrainstem or spinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Obtain ABG or VBG to determine severity as well as if acute or chronic\nRe-evaluate 20-30 minutes after airway intervention (placement on BiPAP, intubation, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Improve alveolar ventilation\nBronchodilators\nCPAP\nIntubation\n(esp of pH < 7.25)\nDo not reduce pH too quickly (>5Hg/h)\nCan lead to abrupt\nHypocalcemia\n/\nHypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acid-base disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acid-base disorders",
+          "url": "https://wikem.org/wiki/Acid-base_disorders"
+        }
+      ]
+    }
+  }
+}

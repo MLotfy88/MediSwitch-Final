@@ -1,0 +1,53 @@
+{
+  "drug_name": "Rapid_infusion_systems",
+  "url": "https://wikem.org/wiki/Rapid_infusion_systems",
+  "scraped_at": "2026-01-10T08:01:10.552346",
+  "sections": {
+    "Overview": {
+      "text": "Rapid infusion of fluids and blood products can be a life-saving intervention in patients dealing with hypotension and hemorrhagic shock.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Sepsis\nTrauma\nHypotension\n/\nshock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Rapid_Infusion_Methods": {
+      "text": "Infusion Pumps: Commonly used in acute care. Maximum flow rate of 1000 mL/h.\nGravity: Fluid flow is determined by multiple factors, including luminal flow, length of the tube and where it is positioned.\nPressure Bag: Applying a form of pressure to the bag can increase flow rate, but often not substantially.\n\"Push- pull technique\": Manual syringe infusion typically used in pediatric patients using a syringe and three-way stopcock.\nTraditional Rapid Infuser:\nLifeFlow PLUS: A hand-operated rapid infuser.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rapid infusion catheter",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        }
+      ]
+    }
+  }
+}

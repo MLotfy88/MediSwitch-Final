@@ -1,0 +1,125 @@
+{
+  "drug_name": "Radiograph-negative_ankle_injury_(peds)",
+  "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)",
+  "scraped_at": "2026-01-10T08:01:11.934583",
+  "sections": {
+    "Background": {
+      "text": "Pediatric ankle injuries are common (>2 million ED visits in North America per year)\n[1]\nHistorically, there has been concern about missing a potential growth plate fracture (\nSalter-Harris\nType 1), which can rarely result in growth arrest\n[1]\nIt was previously taught that the weaker physis would fail before the stronger ligamentous complex.\n[2]\nThis was commonly treated with immobilization (casting), follow-up imaging, and orthopedic referral (as opposed to adult\nankle sprain\n)\nRecent studies have questioned the need for this practice\n[3]\n[4]\nThere was no measurable difference in functional recovery for children with or without\nSalter Harris\nType 1 distal fibula fractures at 1 and 3 months\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris",
+          "url": "https://wikem.org/wiki/Salter-Harris"
+        },
+        {
+          "text": "ankle sprain",
+          "url": "https://wikem.org/wiki/Ankle_sprain"
+        },
+        {
+          "text": "Salter Harris",
+          "url": "https://wikem.org/wiki/Salter_Harris"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Lateral ankle pain (tenderness and/or swelling) after inversion injury in a pediatric patient\nStudies to date have not addressed medial ankle pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Ankle fracture\nSalter-Harris\nfracture\nLigimentous injury\nContusion of bone or soft tissue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Salter-Harris",
+          "url": "https://wikem.org/wiki/Salter-Harris"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider ankle x-rays",
+      "subsections": {
+        "Ottawa_ankle_rule": {
+          "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+          "tables": []
+        },
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_ankle_rule": {
+      "text": "Ankle x-ray needed if:\nPain near the maleoli\nAND\nInability to bear weight immediately and in the ED (4 steps)\nOR\nTenderness at posterior edge or tip of lateral malleolus\nOR\nTenderness at posterior edge or tip of medial malleolus",
+      "subsections": {
+        "Ottawa_foot_rules": {
+          "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ottawa_foot_rules": {
+      "text": "Foot x-ray series needed if:\nPain in the midfoot\nAND\nInability to bear weight both immediately and in the ED (4 steps)\nOR\nTenderness at the navicular\nOR\nTenderness at the base of the 5th metatarsal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Removable ankle brace\nReturn to activities as tolerated by pain",
+      "subsections": {
+        "Patients_do_NOT_need": {
+          "text": "Full immobilization (cast or non-removable splint)\nReferral to orthopedics\nRepeat x-ray films (or MRI)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Patients_do_NOT_need": {
+      "text": "Full immobilization (cast or non-removable splint)\nReferral to orthopedics\nRepeat x-ray films (or MRI)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with PCP follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Salter-Harris fractures\nAnkle diagnoses\nAnkle fracture\nAnkle fracture (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        },
+        {
+          "text": "Ankle diagnoses",
+          "url": "https://wikem.org/wiki/Ankle_diagnoses"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        }
+      ]
+    }
+  }
+}

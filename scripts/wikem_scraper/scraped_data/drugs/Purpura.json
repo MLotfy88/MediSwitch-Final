@@ -1,0 +1,298 @@
+{
+  "drug_name": "Purpura",
+  "url": "https://wikem.org/wiki/Purpura",
+  "scraped_at": "2026-01-10T08:01:01.927158",
+  "sections": {
+    "Background": {
+      "text": "Palpable\npetechiae\nand purpura are a result of either perivascular inflammation (vasculitis) or infection.\nNon-palpable petechiae usually occur in low platelet states such as\nITP\nand\nDIC",
+      "subsections": {
+        "Rash_Red_Flags": {
+          "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        }
+      ]
+    },
+    "Rash_Red_Flags": {
+      "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Both petechia and purpura do not blanch\nPurpura subdivided into:\n<2mm of hemorrhage: petechiae\n>2mm of hemorrhage: ecchymoses",
+      "subsections": {
+        "Purpural_Rash": {
+          "text": "Petechiae\nRocky mountain spotted fever\nHenoch-Schonlein purpura\nHenoch-schonlein purpura\n(Palpable purpura)\nNeonatal\npurpura fulminans\nPurpura fulminans\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Purpural_Rash": {
+      "text": "Petechiae\nRocky mountain spotted fever\nHenoch-Schonlein purpura\nHenoch-schonlein purpura\n(Palpable purpura)\nNeonatal\npurpura fulminans\nPurpura fulminans\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Petechiae/Purpura_(by_cause)": {
+          "text": "Abnormal\nplatelet count\nand/or\ncoagulation\nSepticemia\nIdiopathic thrombocytopenic purpura\n(ITP)\nHemolytic uremic syndrome\nLeukemia\nCoagulopathies\n(e.g.\nhemophilia\n)\nHenoch-Schonlein Purpura (HSP)\nAcute hemorrhagic edema of infancy (AHEI)\nHypersensitivity\nvasculitis\nPrimary\nvasculitides\nWegener\n's\nMicroscopic polyangiitis\nEosinophilic granulomatosis with polyangiitis (\nChurg-Strauss syndrome\n)\nSecondary\nvasculitides\nHenoch-Schonlein purpura\nConnective tissue disorder\nSystemic lupus erythematosus\nScurvy\nInfectious disease\nHepatitis B\nHepatitis C\nTrauma",
+          "tables": []
+        },
+        "Petechiae/Purpura_(by_findings)": {
+          "text": "Febrile, toxic\nPalpable\nMeningococcemia\nDisseminated\ngonococcal\ninfection\nEndocarditis\nRocky mountain spotted fever\nHSP\nNon-palpable\nPurpura fulminans\nDIC\nTTP\nAfebrile, nontoxic\nPalpable\nAutoimmune\nvasculitis\nNon-palpable\nITP",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "platelet count",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "coagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Septicemia"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Hemolytic uremic syndrome",
+          "url": "https://wikem.org/wiki/Hemolytic_uremic_syndrome"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathies"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Henoch-Schonlein Purpura (HSP)",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_Purpura_(HSP)"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Wegener",
+          "url": "https://wikem.org/wiki/Wegener%27s_Granulomatosis"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "vasculitides",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Henoch-Schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Schonlein_purpura"
+        },
+        {
+          "text": "Connective tissue disorder",
+          "url": "https://wikem.org/wiki/Connective_tissue_disorder"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "For children with fever and petechiae/purpura consider using the Barts Health NHS Trust guideline for workup. This guideline performed well head to head vs other guidelines in Petechiae in Children (PiC) study.\n[2]\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Management directed by underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "General approach to rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General approach to rashes",
+          "url": "https://wikem.org/wiki/General_approach_to_rashes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "drug_name": "Quinidine",
+  "url": "https://wikem.org/wiki/Quinidine",
+  "scraped_at": "2026-01-10T08:01:05.156609",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntimalarial\n,\nAntiarrhythmic\n(Class I)\nRoutes of Administration: IV (discontinued in America), oral\nCommon Trade Names:\nQuinaglute\nQuinidex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        },
+        {
+          "text": "Antiarrhythmic",
+          "url": "https://wikem.org/wiki/Antiarrhythmic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Ventricular_dysrhythmias": {
+          "text": "Quinidine gluconate IV 0.25 mg/kg/min over 20-40 min, max 10 mg/kg per conversion attempt\nPO alternative: 648 mg PO q8 x3-4 doses",
+          "tables": []
+        },
+        "Severe_malaria": {
+          "text": "Load 10 mg/kg IV over 2hrs, then 0.02 mg/kg/min IV/PO x3 days, in conjunction with\ndoxycycline\nOR\nLoad 24 mg/kg IV infused over 4 hours, then 12 mg/kg IV infused over 4h q8h starting 8h after initial loading dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Ventricular_dysrhythmias": {
+      "text": "Quinidine gluconate IV 0.25 mg/kg/min over 20-40 min, max 10 mg/kg per conversion attempt\nPO alternative: 648 mg PO q8 x3-4 doses",
+      "subsections": {
+        "Severe_malaria": {
+          "text": "Load 10 mg/kg IV over 2hrs, then 0.02 mg/kg/min IV/PO x3 days, in conjunction with\ndoxycycline\nOR\nLoad 24 mg/kg IV infused over 4 hours, then 12 mg/kg IV infused over 4h q8h starting 8h after initial loading dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Severe_malaria": {
+      "text": "Load 10 mg/kg IV over 2hrs, then 0.02 mg/kg/min IV/PO x3 days, in conjunction with\ndoxycycline\nOR\nLoad 24 mg/kg IV infused over 4 hours, then 12 mg/kg IV infused over 4h q8h starting 8h after initial loading dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Malaria: same weight-based dosing as above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal\nRenal dosing: No adjustment\nHepatic dosing: May lengthen half-life",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "An effective treatment and prevention strategy for\n[2]\n:\nBrugada syndrome\narrhythmic\nelectrical storm\nIdiopathic ventricular fibrillation\nEarly repolarization syndrome (though NOT benign, see\nbenign early repolarization\n)\nCongenital\nshort QT syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "electrical storm",
+          "url": "https://wikem.org/wiki/Electrical_storm"
+        },
+        {
+          "text": "benign early repolarization",
+          "url": "https://wikem.org/wiki/Benign_early_repolarization"
+        },
+        {
+          "text": "short QT syndrome",
+          "url": "https://wikem.org/wiki/Short_QT_syndrome"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCardiac rhythm dependent upon junctional or idioventricular pacemaker (in absence of artificial pacemaker)\nMyasthenia gravis\nHistory of ITP or TTP associated with quinine or quinidine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Prolonged QT, torsades de points, ventricular arrythmia\nHepatotoxicity\nKidney disease",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea, nausea/vomiting\nHeadache, lightheadedness\nPalpitations\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Prolonged QT, torsades de points, ventricular arrythmia\nHepatotoxicity\nKidney disease",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea, nausea/vomiting\nHeadache, lightheadedness\nPalpitations\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Diarrhea, nausea/vomiting\nHeadache, lightheadedness\nPalpitations\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-8h\nMetabolism: Hepatic\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Class IA antiarrhythmic: inhibits depolarizing sodium channels in cardiac muscle and purkinje fibers\nAntimalarial action: intraerythrocytic schizonticide to p. vivax and p. malariae, acts against asexual erythrocytic phase of p. falciparum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Inexpensive with restricted indications, causing it to be inaccessible in many areas globally\nMain manufacturer halted production in 2010\n[3]\nDiscontinue quinidine infusion if\n[4]\n:\nSinus rhythym restored\nQRS complex widens > 130% of pre-treatment QRS duration\nQTc widens > 130% of pre-treatment duration\nOR\n> 500 ms\nDisappearance of T-waves\nDevelopment of significant tachycardia, symptomatic bradycardia, hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antimalarial medications\nAntiarrhythmics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antimalarial medications",
+          "url": "https://wikem.org/wiki/Antimalarial_medications"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    }
+  }
+}

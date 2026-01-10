@@ -1,0 +1,277 @@
+{
+  "drug_name": "Radial_styloid_fracture",
+  "url": "https://wikem.org/wiki/Radial_styloid_fracture",
+  "scraped_at": "2026-01-10T08:01:09.375415",
+  "sections": {
+    "Background": {
+      "text": "Also referred to as a Hutchinson or Chauffeur's fracture\nOften accompanied by\nlunate dislocation\nOften associated with carpal instability (carpal ligaments insert on the radial styloid)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lunate dislocation",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Wrist pain\nCommon mechanisms include direct blow to or fall onto radial aspect of wrist\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_radius_fractures": {
+          "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+          "tables": []
+        },
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fractures": {
+      "text": "Colles' fracture\nSmith's fracture\nBarton's fracture\nRadial styloid fracture\nDistal radioulnar joint disruption",
+      "subsections": {
+        "Distal_radius_fracture_eponyms": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Eponyms": "Barton's",
+                "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+              },
+              {
+                "Eponyms": "Chauffer's",
+                "Description": "Fracture of radial styloid"
+              },
+              {
+                "Eponyms": "Colles'",
+                "Description": "Dorsally displaced, extra-articular fracture"
+              },
+              {
+                "Eponyms": "Die-punch",
+                "Description": "Depressed fracture of the lunate fossa (articular surface)"
+              },
+              {
+                "Eponyms": "Smith's",
+                "Description": "Volar displaced, extra-articular fracture"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith's fracture",
+          "url": "https://wikem.org/wiki/Smith%27s_fracture"
+        },
+        {
+          "text": "Barton's fracture",
+          "url": "https://wikem.org/wiki/Barton%27s_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        }
+      ]
+    },
+    "Distal_radius_fracture_eponyms": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Eponyms": "Barton's",
+            "Description": "Fracture-dislocation of radiocarpal joint (with intra-articular fracture involving the volar or dorsal lip)"
+          },
+          {
+            "Eponyms": "Chauffer's",
+            "Description": "Fracture of radial styloid"
+          },
+          {
+            "Eponyms": "Colles'",
+            "Description": "Dorsally displaced, extra-articular fracture"
+          },
+          {
+            "Eponyms": "Die-punch",
+            "Description": "Depressed fracture of the lunate fossa (articular surface)"
+          },
+          {
+            "Eponyms": "Smith's",
+            "Description": "Volar displaced, extra-articular fracture"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "PA and lateral views of the wrist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Acute_Reduction": {
+          "text": "Reduce displaced fractures to align attachments at the radial styloid process\n[1]",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Short arm\nsplint\n; position wrist in mild flexion and ulnar deviation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "splint",
+          "url": "https://wikem.org/wiki/Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Acute_Reduction": {
+          "text": "Reduce displaced fractures to align attachments at the radial styloid process\n[1]",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Short arm\nsplint\n; position wrist in mild flexion and ulnar deviation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "splint",
+          "url": "https://wikem.org/wiki/Splint"
+        }
+      ]
+    },
+    "Acute_Reduction": {
+      "text": "Reduce displaced fractures to align attachments at the radial styloid process\n[1]",
+      "subsections": {
+        "Immobilization": {
+          "text": "Short arm\nsplint\n; position wrist in mild flexion and ulnar deviation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "splint",
+          "url": "https://wikem.org/wiki/Splint"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "Short arm\nsplint\n; position wrist in mild flexion and ulnar deviation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "splint",
+          "url": "https://wikem.org/wiki/Splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Distal radius fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        }
+      ]
+    }
+  }
+}

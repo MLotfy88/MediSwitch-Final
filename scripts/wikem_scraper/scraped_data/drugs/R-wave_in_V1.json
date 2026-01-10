@@ -1,0 +1,57 @@
+{
+  "drug_name": "R-wave_in_V1",
+  "url": "https://wikem.org/wiki/R-wave_in_V1",
+  "scraped_at": "2026-01-10T08:01:06.386405",
+  "sections": {
+    "Background": {
+      "text": "Early R wave transition (V1 or V2)\nAlso known as early precordial transition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Posterior\nMI\nRBBB\nWPW\nRVH\nHypertrophic cardiomyopathy\nAcute RV dilation\nLV ectopy\nProgressive muscular dystrophy\nDextrocardia\nMisplaced precordial leads\nNormal variant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Mattu, Brady, et al. Prominent R Wave in Lead V1: Electrocardiographic Differential Diagnosis; Am J Emerg Med 2001;19:504-513.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

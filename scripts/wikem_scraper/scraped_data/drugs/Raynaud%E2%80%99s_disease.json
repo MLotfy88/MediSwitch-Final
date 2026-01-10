@@ -1,0 +1,76 @@
+{
+  "drug_name": "Raynaud%E2%80%99s_disease",
+  "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease",
+  "scraped_at": "2026-01-10T08:01:13.711395",
+  "sections": {
+    "Background": {
+      "text": "Exaggerated vascular response to cold or emotional stress",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Sharp demarcated color changes of the skin of the digits\nPain, loss of sensation, and if recurrent ischemia may cause ulcers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Primary (Raynaud disease or idiopathic Raynaud Phenomenon)\nSymptoms without an associated disorder\nSecondary (associated with another illness, i.e.\nSLE\nor\nScleroderma\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess for digital ischemia\nConsider evaluation for underlying disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Improve quality of life and prevent ischemic tissue injury\nPatient education on trigger avoidance\nSevere cases/Ischemia\nPharmacologic\nOral vasodilators\nNifedipine\n30 to 180 mg/day\nAmlodipine\n5 to 20 mg/day\nTopical nitrates\nPhosphodiesterase 5 inhibitors\nSurgical sympathetic blockade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Patient with digital ischemia not responsive to oral or topical vasodilators may need anticoagulants, IV prostanoids, and sympathectomy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "SLE\nScleroderma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    }
+  }
+}

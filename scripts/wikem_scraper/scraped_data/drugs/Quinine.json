@@ -1,0 +1,504 @@
+{
+  "drug_name": "Quinine",
+  "url": "https://wikem.org/wiki/Quinine",
+  "scraped_at": "2026-01-10T08:01:03.361963",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntimalarial\nDosage Forms: PO 324 (IM and IV formulations available outside US)\nCommon Trade Names: Qualaquin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antimalarial",
+          "url": "https://wikem.org/wiki/Antimalarial"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Malaria": {
+          "text": "648mg PO Q8h x 7 days\nSee\nCDC Recommendations\nfor full treatment recommendations",
+          "tables": []
+        },
+        "Babesiosis": {
+          "text": "648mg PO q6-8h x7-10 days\nUse with\nClindamycin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Malaria": {
+      "text": "648mg PO Q8h x 7 days\nSee\nCDC Recommendations\nfor full treatment recommendations",
+      "subsections": {
+        "Babesiosis": {
+          "text": "648mg PO q6-8h x7-10 days\nUse with\nClindamycin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Babesiosis": {
+      "text": "648mg PO q6-8h x7-10 days\nUse with\nClindamycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Malaria_2": {
+          "text": "30mg/kg/day PO q8h x 3-7 days\nMax: 648mg/dose\nSee\nCDC Recommendations\nfor full treatment recommendations",
+          "tables": []
+        },
+        "Babesiosis_2": {
+          "text": "8mg/kg PO q8h x 7-10 days\nMax: 648mg/dose\nUse with\nClindamycin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Malaria_2": {
+      "text": "30mg/kg/day PO q8h x 3-7 days\nMax: 648mg/dose\nSee\nCDC Recommendations\nfor full treatment recommendations",
+      "subsections": {
+        "Babesiosis_2": {
+          "text": "8mg/kg PO q8h x 7-10 days\nMax: 648mg/dose\nUse with\nClindamycin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Babesiosis_2": {
+      "text": "8mg/kg PO q8h x 7-10 days\nMax: 648mg/dose\nUse with\nClindamycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Probably safe\nRenal Dosing\nAdult\nSevere chronic renal failure: 648mg PO x 1 then 324mg PO q12h\nIf on HD give after dialysis\nPediatric\nNot defined\nHepatic Dosing\nAdult and Pediatric\nNo adjustment for Child-Pugh Class A or B\nAvoid in Child-Pugh Class C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Black_Box_Warnings": {
+          "text": "Hematologic Toxicity with use for nocturnal leg cramps\nThrombocytopenia\nHUS\n/\nTTP",
+          "tables": []
+        },
+        "General_2": {
+          "text": "Allergy to class/drug\nAllergy to mefloquine or quinidine\nBlack water fever\nITP/\nTTP\n/\nHUS\nThrombocytopenia\nGlucose-6-Phosphate Deficiency (G6PD)\nMyasthenia gravis\nOptic neuritis\nQT prolongation/Congenital long QT syndrome\nElectrolyte abnormalities\nBradycardia\nVentricular arrhythmias\nCHF\nRecent MI",
+          "tables": []
+        },
+        "Caution": {
+          "text": "Torsades de pointes\nAtrial fibrillation\n/\nAtrial flutter\nPregnancy\nHepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Glucose-6-Phosphate Deficiency (G6PD)",
+          "url": "https://wikem.org/wiki/Glucose-6-Phosphate_Deficiency_(G6PD)"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        }
+      ]
+    },
+    "Black_Box_Warnings": {
+      "text": "Hematologic Toxicity with use for nocturnal leg cramps\nThrombocytopenia\nHUS\n/\nTTP",
+      "subsections": {
+        "General_2": {
+          "text": "Allergy to class/drug\nAllergy to mefloquine or quinidine\nBlack water fever\nITP/\nTTP\n/\nHUS\nThrombocytopenia\nGlucose-6-Phosphate Deficiency (G6PD)\nMyasthenia gravis\nOptic neuritis\nQT prolongation/Congenital long QT syndrome\nElectrolyte abnormalities\nBradycardia\nVentricular arrhythmias\nCHF\nRecent MI",
+          "tables": []
+        },
+        "Caution": {
+          "text": "Torsades de pointes\nAtrial fibrillation\n/\nAtrial flutter\nPregnancy\nHepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Glucose-6-Phosphate Deficiency (G6PD)",
+          "url": "https://wikem.org/wiki/Glucose-6-Phosphate_Deficiency_(G6PD)"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "Allergy to class/drug\nAllergy to mefloquine or quinidine\nBlack water fever\nITP/\nTTP\n/\nHUS\nThrombocytopenia\nGlucose-6-Phosphate Deficiency (G6PD)\nMyasthenia gravis\nOptic neuritis\nQT prolongation/Congenital long QT syndrome\nElectrolyte abnormalities\nBradycardia\nVentricular arrhythmias\nCHF\nRecent MI",
+      "subsections": {
+        "Caution": {
+          "text": "Torsades de pointes\nAtrial fibrillation\n/\nAtrial flutter\nPregnancy\nHepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Glucose-6-Phosphate Deficiency (G6PD)",
+          "url": "https://wikem.org/wiki/Glucose-6-Phosphate_Deficiency_(G6PD)"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        }
+      ]
+    },
+    "Caution": {
+      "text": "Torsades de pointes\nAtrial fibrillation\n/\nAtrial flutter\nPregnancy\nHepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Cinchonism\nQT prolongation\nTorsades de pointes\nAnaphylaxis\nAngioedema\nBronchospasm\nThrombocytopenia\nTTP\n/\nHUS\nHemolytic anemia\nBlack water fever\nStevens-Johnson syndrome and toxic epidermal necrolysis\nIntestinal nephritis\nRenal impairment\nHepatitis\nLeukopenia\nNeutropenia\nDIC\nHypoglycemia\nMyasthenia gravis\nexacerbation\nLupus\nOptic neuritis\nBlindness\nDeafness",
+          "tables": []
+        },
+        "Common": {
+          "text": "Cinchonism\nHeadache\nVasodilation\nDiaphoresis\nNausea/Vomiting\nTinnitus\nImpaired hearing\nVertigo\nVisual impairment\nFever\nFlushing\nasthenia\nRash\nPruritus\nUrticaria\nDiarrhea\nAbdominal pain\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Stevens-Johnson syndrome and toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Cinchonism\nQT prolongation\nTorsades de pointes\nAnaphylaxis\nAngioedema\nBronchospasm\nThrombocytopenia\nTTP\n/\nHUS\nHemolytic anemia\nBlack water fever\nStevens-Johnson syndrome and toxic epidermal necrolysis\nIntestinal nephritis\nRenal impairment\nHepatitis\nLeukopenia\nNeutropenia\nDIC\nHypoglycemia\nMyasthenia gravis\nexacerbation\nLupus\nOptic neuritis\nBlindness\nDeafness",
+      "subsections": {
+        "Common": {
+          "text": "Cinchonism\nHeadache\nVasodilation\nDiaphoresis\nNausea/Vomiting\nTinnitus\nImpaired hearing\nVertigo\nVisual impairment\nFever\nFlushing\nasthenia\nRash\nPruritus\nUrticaria\nDiarrhea\nAbdominal pain\nPhotosensitivity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Stevens-Johnson syndrome and toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome_and_toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Cinchonism\nHeadache\nVasodilation\nDiaphoresis\nNausea/Vomiting\nTinnitus\nImpaired hearing\nVertigo\nVisual impairment\nFever\nFlushing\nasthenia\nRash\nPruritus\nUrticaria\nDiarrhea\nAbdominal pain\nPhotosensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 9-12 hours\nMetabolism: Liver 80%, CYP450\nExcretion: Urine\nMechanism of Action:  Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Give with food",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Toxicity": {
+      "text": "Mild\nNausea\nVomiting\nTinnitus\nVertigo\nDeafness\nSevere\nAtaxia\nConvulsions\nComa\nQRS/QT prolongation\nArrhythmia\nRetinal Toxicity\nBlurry vision\nImpaired visual fields\nBlindness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Malaria\nBabesiosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

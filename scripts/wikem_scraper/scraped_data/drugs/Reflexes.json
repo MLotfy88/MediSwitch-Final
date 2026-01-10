@@ -1,0 +1,107 @@
+{
+  "drug_name": "Reflexes",
+  "url": "https://wikem.org/wiki/Reflexes",
+  "scraped_at": "2026-01-10T08:01:16.755987",
+  "sections": {
+    "Deep_Tendon_Reflexes": {
+      "text": "Jaw jerk reflex CN V\nBiceps reflex C5/C6\nBrachioradialis reflex C6\nExtensor digitorum reflex C6/C7\nTriceps reflex C7/C8\nPatellar jerk reflex L2-L4\nAnkle jerk reflex S1/S2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Cranial_Nerve_Reflexes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Name": "Pupillary light reflex",
+            "Sensory": "II",
+            "Motor": "III"
+          },
+          {
+            "Name": "Accommodation reflex",
+            "Sensory": "II",
+            "Motor": "III"
+          },
+          {
+            "Name": "Jaw jerk reflex",
+            "Sensory": "V",
+            "Motor": "V"
+          },
+          {
+            "Name": "Corneal reflex, also known as the blink reflex",
+            "Sensory": "V",
+            "Motor": "VII"
+          },
+          {
+            "Name": "Glabellar reflex",
+            "Sensory": "V",
+            "Motor": "VII"
+          },
+          {
+            "Name": "Vestibulo-ocular reflex",
+            "Sensory": "VIII",
+            "Motor": "III, IV, VI  +"
+          },
+          {
+            "Name": "Gag reflex",
+            "Sensory": "IX",
+            "Motor": "X"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Grading_Reflexes": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Grade": "0",
+            "Response": "no response",
+            "Significance": "always abnormal"
+          },
+          {
+            "Grade": "1+",
+            "Response": "slight but definitely present response",
+            "Significance": "may or may not be normal"
+          },
+          {
+            "Grade": "2+",
+            "Response": "brisk response",
+            "Significance": "normal"
+          },
+          {
+            "Grade": "3+",
+            "Response": "very brisk response",
+            "Significance": "may or may not be normal"
+          },
+          {
+            "Grade": "4+",
+            "Response": "hyperactive with clonus",
+            "Significance": "always abnormal"
+          },
+          {
+            "Grade": "5+",
+            "Response": "sustained clonus",
+            "Significance": "always abnormal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neurologic exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neurologic exam",
+          "url": "https://wikem.org/wiki/Neurologic_exam"
+        }
+      ]
+    }
+  }
+}

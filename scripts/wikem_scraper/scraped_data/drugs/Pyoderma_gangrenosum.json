@@ -1,0 +1,150 @@
+{
+  "drug_name": "Pyoderma_gangrenosum",
+  "url": "https://wikem.org/wiki/Pyoderma_gangrenosum",
+  "scraped_at": "2026-01-10T08:01:01.712249",
+  "sections": {
+    "Background": {
+      "text": "1/100,000 people per year in US, primarily 40s-50s year of age\nDysfunction of activated neutrophils\n>50% associated with systemic disease:\nIBD\nPolyarthritis\n, sero-negative and -positive\nLeukemia\nLess commonly\npsoriatic arthritis\n,\nosteoarthritis\n,\nRA\n, spondyloarthopathy,\nhepatitis\n, primary biliary\ncirrhosis\n,\nmultiple myeloma\n,\nSLE\n,\nSjögren Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Polyarthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        },
+        {
+          "text": "osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Extracutaneous manifestations (due to sterile neutrophilic infiltrates):\nCulture-negative pulmonary infiltrates most common\ncardiovascular, CNS, GI, eyes, liver, spleen, bones, lymph nodes\nInitial lesion: bite-like, small, red papule or pustule (many patients attribute spider bite)\nChanges into larger, ulcerative lesion\nTwo primary variants:\nClassic ulcerative form - usually on legs, deep ulceration,\nviolaceous\nborder along ulcer bed\nSuperficial, atypical form - hands/forearms/face, vesiculopustular\nLess common variants: 1) Peristomal pyoderma, 2) Genital pyoderma (must differentiate from STI), 3) Pyostomatitis vegetans (intraoral)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Systemic diseases\nNeutrophilic dermatoses (Sweet,\nBehcet's disease\n, etc.)\nCalciphylaxis\n- very important to differentiate due to treatment\nArterial/venous insufficiency\nBlastomycosis\nHidradenitis suppurative\nTB\ngumma, mycobacterial infections\nMalignancy (squamous cell)\nVasculitis\nEcthyma gangrenosum (pseudomonas)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Behcet's disease",
+          "url": "https://wikem.org/wiki/Behcet%27s_disease"
+        },
+        {
+          "text": "Calciphylaxis",
+          "url": "https://wikem.org/wiki/Calciphylaxis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis of exclusion\nNo specific criteria\nCBC, CMP, UA, hepatitis profile, coags, VDRL\nAutoimmune labs: ANCA, antiphospholipid antibody\nTissue cultures (comprehensive, all organisms)\nCoags\nAnti-phospholipid antibody\nReferral for heme malignancy workup\nReferral for IBD workup\nCXR\nif systemic disease suspected",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Nonsurgical management\nNecrotic tissue should be gently removed\nWide surgical debridement results in enlargement of ulcer\nMedical management\nSmall ulcers\nTopical steroids\nand/or steroid injections, silvadene compression dressings\nDapsone\nor\nminocycline\nPO\nSevere ulcers\nCorticosteroids\nImmunologic treatment/biologics\nIVIG\n,\nplasmapheresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Usually discharge with derm and/or surgery follow-up and referral for IBD and malignancy workup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Travel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

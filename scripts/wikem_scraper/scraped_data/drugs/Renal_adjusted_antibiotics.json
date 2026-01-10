@@ -1,0 +1,82 @@
+{
+  "drug_name": "Renal_adjusted_antibiotics",
+  "url": "https://wikem.org/wiki/Renal_adjusted_antibiotics",
+  "scraped_at": "2026-01-10T08:01:16.068567",
+  "sections": {
+    "Antibiotics_Requiring_Renal_Dosing": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Antibiotic": "Vancomycin",
+            "Class": "Glycopeptide",
+            "Normal Dose (CrCl >60 mL/min)": "15-20 mg/kg IV every 8-12 hours (target trough 10-20 mcg/mL for serious infections)",
+            "Renal Adjustment Examples": "- CrCl 30-60: 10-15 mg/kg every 12-24 hours- CrCl 10-30: 10 mg/kg every 24-48 hours- CrCl <10: 10 mg/kg every 48-72 hours or based on levelsMonitor trough levels closely to avoid nephrotoxicity."
+          },
+          {
+            "Antibiotic": "Gentamicin",
+            "Class": "Aminoglycoside",
+            "Normal Dose (CrCl >60 mL/min)": "5-7 mg/kg IV once daily (extended-interval) or 1-2 mg/kg every 8 hours (traditional)",
+            "Renal Adjustment Examples": "- CrCl 40-60: 3-5 mg/kg every 24-36 hours- CrCl 20-40: 2-3 mg/kg every 36-48 hours- CrCl <20: Load 2 mg/kg, then based on levels (trough <1 mcg/mL)Peak/trough monitoring essential."
+          },
+          {
+            "Antibiotic": "Tobramycin",
+            "Class": "Aminoglycoside",
+            "Normal Dose (CrCl >60 mL/min)": "Similar to gentamicin: 5-7 mg/kg IV once daily",
+            "Renal Adjustment Examples": "- CrCl 40-60: 4-5 mg/kg every 24-36 hours- CrCl 20-40: 3-4 mg/kg every 36-48 hours- CrCl <20: Load 2 mg/kg, then per levelsAdjust for cystic fibrosis or other indications."
+          },
+          {
+            "Antibiotic": "Amikacin",
+            "Class": "Aminoglycoside",
+            "Normal Dose (CrCl >60 mL/min)": "15 mg/kg IV once daily",
+            "Renal Adjustment Examples": "- CrCl 40-60: 10-12 mg/kg every 24-36 hours- CrCl 20-40: 7.5-10 mg/kg every 36-48 hours- CrCl <20: Load 7.5 mg/kg, then based on levels (trough <4-8 mcg/mL)Higher risk of ototoxicity; monitor closely."
+          },
+          {
+            "Antibiotic": "Ciprofloxacin",
+            "Class": "Fluoroquinolone",
+            "Normal Dose (CrCl >60 mL/min)": "400 mg IV every 12 hours or 500-750 mg PO every 12 hours",
+            "Renal Adjustment Examples": "- CrCl 30-50: No change or extend to every 18-24 hours- CrCl <30: 400 mg IV every 24 hours or 250-500 mg PO every 24 hoursNot dialyzable; adjust for UTI vs. systemic use."
+          },
+          {
+            "Antibiotic": "Levofloxacin",
+            "Class": "Fluoroquinolone",
+            "Normal Dose (CrCl >60 mL/min)": "500-750 mg IV/PO once daily",
+            "Renal Adjustment Examples": "- CrCl 20-50: 500-750 mg every 48 hours (or half dose daily)- CrCl <20: 250-500 mg every 48 hours (load with full dose)Monitor for QT prolongation in renal impairment."
+          },
+          {
+            "Antibiotic": "Cefepime",
+            "Class": "Cephalosporin(4th gen)",
+            "Normal Dose (CrCl >60 mL/min)": "1-2 g IV every 8-12 hours",
+            "Renal Adjustment Examples": "- CrCl 30-60: 1-2 g every 12 hours- CrCl 11-29: 1-2 g every 24 hours- CrCl <11: 0.5-1 g every 24 hoursIncrease for Pseudomonas infections."
+          },
+          {
+            "Antibiotic": "Ceftazidime",
+            "Class": "Cephalosporin(3rd gen)",
+            "Normal Dose (CrCl >60 mL/min)": "1-2 g IV every 8 hours",
+            "Renal Adjustment Examples": "- CrCl 31-50: 1-2 g every 12 hours- CrCl 16-30: 1 g every 24 hours- CrCl <15: 0.5 g every 24 hoursUsed for gram-negative coverage."
+          },
+          {
+            "Antibiotic": "Piperacillin-Tazobactam",
+            "Class": "Penicillin/Beta-lactamase inhibitor",
+            "Normal Dose (CrCl >60 mL/min)": "3.375-4.5 g IV every 6 hours",
+            "Renal Adjustment Examples": "- CrCl 20-40: 3.375 g every 8 hours- CrCl <20: 2.25 g every 8 hours (or every 12 hours for severe impairment)Extended infusion may be used for optimization."
+          },
+          {
+            "Antibiotic": "Meropenem",
+            "Class": "Carbapenem",
+            "Normal Dose (CrCl >60 mL/min)": "1 g IV every 8 hours",
+            "Renal Adjustment Examples": "- CrCl 26-50: 1 g every 12 hours- CrCl 10-25: 0.5 g every 12 hours- CrCl <10: 0.5 g every 24 hoursShort half-life; adjust for CNS infections."
+          },
+          {
+            "Antibiotic": "Acyclovir(antiviral)",
+            "Class": "nucleoside analog",
+            "Normal Dose (CrCl >60 mL/min)": "5-10 mg/kg IV every 8 hours",
+            "Renal Adjustment Examples": "- CrCl 25-50: Every 12 hours- CrCl 10-25: Every 24 hours (half dose)- CrCl <10: 2.5-5 mg/kg every 24 hoursPO doses also adjusted; hydrate to prevent crystalluria."
+          }
+        ]
+      ],
+      "links": []
+    }
+  }
+}

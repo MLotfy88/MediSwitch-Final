@@ -1,0 +1,95 @@
+{
+  "drug_name": "Radiation_proctocolitis",
+  "url": "https://wikem.org/wiki/Radiation_proctocolitis",
+  "scraped_at": "2026-01-10T08:01:11.727004",
+  "sections": {
+    "Background": {
+      "text": "Injury to the colon following radiation therapy most commonly affecting the sigmoid colon and rectum.\nAcute ( up to three months), Chronic ( 3 months to years later)\nResults in majority from radiation to the lower abdomen and pelvis as in the cases of cancers of the rectum, colon, gonads, uterus, bladder, and prostate.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Uncomplicated": {
+          "text": "Diarrhea\nUrgency\nMucus discharge\nTenesmus\nGI bleeding\nis more common in chronic radiation proctitis than acute radiation proctitis",
+          "tables": []
+        },
+        "Complicated": {
+          "text": "Radiation injury extending to genitourinary system\nurethral stenosis\nCystitis\nUreteral scarring\nRadiation injury extending to small bowel\nSmall bowel obstruction\nSmall intestine bacterial overgrowth\nFistulae",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uncomplicated": {
+      "text": "Diarrhea\nUrgency\nMucus discharge\nTenesmus\nGI bleeding\nis more common in chronic radiation proctitis than acute radiation proctitis",
+      "subsections": {
+        "Complicated": {
+          "text": "Radiation injury extending to genitourinary system\nurethral stenosis\nCystitis\nUreteral scarring\nRadiation injury extending to small bowel\nSmall bowel obstruction\nSmall intestine bacterial overgrowth\nFistulae",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complicated": {
+      "text": "Radiation injury extending to genitourinary system\nurethral stenosis\nCystitis\nUreteral scarring\nRadiation injury extending to small bowel\nSmall bowel obstruction\nSmall intestine bacterial overgrowth\nFistulae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Inflammatory bowel disease\nInfectious colitis\nDiversion colitis\nIschemic colitis\nDiverticulitis\nChronic\ngraft-versus-host disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Labs\nStool C.diff toxin along with routine stool cultures\nSpecific testing for E.coli 0157:H7\nOva and Parasite assay including giardia\nCBC, electrolytes, albumin, ESR, CRP\nEndoscopy and biopsy\nNonspecific findings\nPallor, friability, ulcerations, bleeding\nTelangiectatic with bleeding\nAvoid biopsy unless malignancy is suspected as facilitate fistula/non healing wound formation\nImaging\nCT if obstructive symptoms are present\nMRI if suspicion is high for radiation-induced fistulae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Generally self-limited\napproximately 20% of patients will need to lengthen time intervals between radiation therapy to recover\nHydration,\nsteroids\n, +/- 5-aminosalicylate enema, bowel regimen.",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Non-invasive\nAnti-inflammatories\nSucralfate enema\nshort-chain fatty acids\nHyperbaric O2\nAntioxidants: Vitamin A, E, C.\nInvasive\n[1]\nEndoscopic treatment with ablation therapy : Topical formalin, Laser, Argon plasma coagulation\nSurgical resection last resort",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute": {
+      "text": "Generally self-limited\napproximately 20% of patients will need to lengthen time intervals between radiation therapy to recover\nHydration,\nsteroids\n, +/- 5-aminosalicylate enema, bowel regimen.",
+      "subsections": {
+        "Chronic": {
+          "text": "Non-invasive\nAnti-inflammatories\nSucralfate enema\nshort-chain fatty acids\nHyperbaric O2\nAntioxidants: Vitamin A, E, C.\nInvasive\n[1]\nEndoscopic treatment with ablation therapy : Topical formalin, Laser, Argon plasma coagulation\nSurgical resection last resort",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic": {
+      "text": "Non-invasive\nAnti-inflammatories\nSucralfate enema\nshort-chain fatty acids\nHyperbaric O2\nAntioxidants: Vitamin A, E, C.\nInvasive\n[1]\nEndoscopic treatment with ablation therapy : Topical formalin, Laser, Argon plasma coagulation\nSurgical resection last resort",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Treat outpatient\nSevere cases that are candidates for surgery should be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "drug_name": "Rat_bite_fever",
+  "url": "https://wikem.org/wiki/Rat_bite_fever",
+  "scraped_at": "2026-01-10T08:01:12.007565",
+  "sections": {
+    "Background": {
+      "text": "Bacteria:\nStreptobacillus moniliformis\n- gram negative rod\nPart of the normal respiratory flora of rodents.\n[1]\nSpread via a rat bite, scratch, or saliva\n[2]\n3-21 days post exposure\nMisdiagnosed or left untreated: 13% mortality rate.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\nFatigue\nHeadache\nPharyngitis\nNausea and vomiting\nRash: maculopapular, though can be petechial or purpuric\nMost prominent on the extremities, palms, and soles\nPolyarticular and asymmetric arthralgias in up to 50% of patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Viral Infections\nPalms/soles rash:\nMeningococcemia\n/\nNeisseria meningitidis\nRocky mountain spotted fever\nHand-foot-and-mouth disease\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "url": "https://wikem.org/wiki/Neisseria_meningitidis"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "CBC\nElectrolytes\nCRP\nLFTs\nBlood Cultures\nNotify the lab: requires enriched trypticase soy agar or broth, and request that the cultures be held for up to two weeks, as the bacteria grow very slowly.\n[4]\nConsider Infectious cultures:\nSyphilis\nConsider Isolation:\nNeisseria meningitidis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "url": "https://wikem.org/wiki/Neisseria_meningitidis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Difficulty to confirm the diagnosis by culture: empiric antibiotic treatment should be started immediately due to the high complication and fatality rate.\nAdults\nIV penicillin G: 200,000 units q4 hours for 5–7 days (can be switched to PO once patient shows clinical improvement)\nPO penicillin V: 500mg QID, to complete a 14-day treatment course\nDoxycycline (for PCN-allergic patients): IV or PO 100mg BID for 14 days\nPediatrics\nIV penicillin G: 100,000–150,000 units/kg/day, divided in 4 doses, up to maximum 8 million units/day, for 5–7 days (can be switched to PO once patient shows clinical improvement)\nPO penicillin V: 25–50mg/kg/day, divided in 4 doses, up to maximum 2g/day, to complete a 14-day treatment course\nDoxycycline (for PCN-allergic patients): 2–4mg/kg/day IV or PO, divided in 2 doses, for 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Case_Reports": {
+      "text": "Ojukwu IC1, Christy C. Rat-bite fever in children: case report and review. Scand J Infect Dis. 2002;34(6):474-7.\nSean P. Elliott et al. Rat Bite Fever and Streptobacillus moniliformis Clin Microbiol Rev. 2007 Jan; 20(1): 13–22. doi:  10.1128/CMR.00016-06 PMCID: PMC1797630",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tick borne illnesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick borne illnesses",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1089 @@
+{
+  "drug_name": "Rapid_sequence_intubation",
+  "url": "https://wikem.org/wiki/Rapid_sequence_intubation",
+  "scraped_at": "2026-01-10T08:01:10.463378",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor pre-calculated medication dosages by age and weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Rapid sequence intubation (RSI) is an airway management technique that produces immediate anesthesia via an induction agent as well as rapid paralysis via a neuromuscular blocking agent.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Premedication": {
+      "text": "",
+      "subsections": {
+        "Atropine": {
+          "text": "There is no evidence to support the routine use of atropine as a premedication to prevent bradycardia in emergency pediatric intubations\n[1]\nDosing:\n0.02mg/kg, no minimum dose (prior minimum 0.1mg no longer recommended)\n[2]\nMay prevent bradycardia\nRelative indications:\nIntubation in child < 1 yr old\nPrior to a second dose of succinylcholine",
+          "tables": []
+        },
+        "Lidocaine": {
+          "text": "1.5mg/kg\nMay lower ICP, but need 5-10 minutes prior to RSI",
+          "tables": []
+        },
+        "Fentanyl": {
+          "text": "3 mcg/kg\nBlunts sympathetic response to intubation (pretreat if concern for increased ICP/BP, i.e. ICH, aortic dissection)\nShould be the last agent given",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Atropine": {
+      "text": "There is no evidence to support the routine use of atropine as a premedication to prevent bradycardia in emergency pediatric intubations\n[1]\nDosing:\n0.02mg/kg, no minimum dose (prior minimum 0.1mg no longer recommended)\n[2]\nMay prevent bradycardia\nRelative indications:\nIntubation in child < 1 yr old\nPrior to a second dose of succinylcholine",
+      "subsections": {
+        "Lidocaine": {
+          "text": "1.5mg/kg\nMay lower ICP, but need 5-10 minutes prior to RSI",
+          "tables": []
+        },
+        "Fentanyl": {
+          "text": "3 mcg/kg\nBlunts sympathetic response to intubation (pretreat if concern for increased ICP/BP, i.e. ICH, aortic dissection)\nShould be the last agent given",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lidocaine": {
+      "text": "1.5mg/kg\nMay lower ICP, but need 5-10 minutes prior to RSI",
+      "subsections": {
+        "Fentanyl": {
+          "text": "3 mcg/kg\nBlunts sympathetic response to intubation (pretreat if concern for increased ICP/BP, i.e. ICH, aortic dissection)\nShould be the last agent given",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fentanyl": {
+      "text": "3 mcg/kg\nBlunts sympathetic response to intubation (pretreat if concern for increased ICP/BP, i.e. ICH, aortic dissection)\nShould be the last agent given",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Induction": {
+      "text": "",
+      "subsections": {
+        "Etomidate": {
+          "text": "Dosing:\n0.2-0.4mg/kg\nOnset - 1 min\nDuration - 3–8 min\nSpecial Considerations:\nThere is concern for adrenal suppression exists regarding etomidate dosing although clinically significant outcomes from transient depression has not been demonstrated. Effects may be greater for pediatric patients\n[3]\n[4]\n[5]",
+          "tables": []
+        },
+        "Versed": {
+          "text": "Dose: 0.2-0.3mg/kg\nOnset - 1 to 2 min\nDuration - 30-60 min",
+          "tables": []
+        },
+        "Propofol": {
+          "text": "Dose: 1-3mg/kg\nDuration - 10-15 min",
+          "tables": []
+        },
+        "Ketamine": {
+          "text": "Dose: 1-2mg/kg IV or 3-4mg/kg IM\nDuration - 30 min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Etomidate": {
+      "text": "Dosing:\n0.2-0.4mg/kg\nOnset - 1 min\nDuration - 3–8 min\nSpecial Considerations:\nThere is concern for adrenal suppression exists regarding etomidate dosing although clinically significant outcomes from transient depression has not been demonstrated. Effects may be greater for pediatric patients\n[3]\n[4]\n[5]",
+      "subsections": {
+        "Versed": {
+          "text": "Dose: 0.2-0.3mg/kg\nOnset - 1 to 2 min\nDuration - 30-60 min",
+          "tables": []
+        },
+        "Propofol": {
+          "text": "Dose: 1-3mg/kg\nDuration - 10-15 min",
+          "tables": []
+        },
+        "Ketamine": {
+          "text": "Dose: 1-2mg/kg IV or 3-4mg/kg IM\nDuration - 30 min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Versed": {
+      "text": "Dose: 0.2-0.3mg/kg\nOnset - 1 to 2 min\nDuration - 30-60 min",
+      "subsections": {
+        "Propofol": {
+          "text": "Dose: 1-3mg/kg\nDuration - 10-15 min",
+          "tables": []
+        },
+        "Ketamine": {
+          "text": "Dose: 1-2mg/kg IV or 3-4mg/kg IM\nDuration - 30 min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Propofol": {
+      "text": "Dose: 1-3mg/kg\nDuration - 10-15 min",
+      "subsections": {
+        "Ketamine": {
+          "text": "Dose: 1-2mg/kg IV or 3-4mg/kg IM\nDuration - 30 min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ketamine": {
+      "text": "Dose: 1-2mg/kg IV or 3-4mg/kg IM\nDuration - 30 min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Paralytics": {
+      "text": "",
+      "subsections": {
+        "Succinylcholine": {
+          "text": "Dosing:\n1.5mg/kg IV (>10 y/o)\n2.0mg/kg IV (<10 y/o)\n4mg/kg IM\nOnset: IV- 45s, IM - 2-3 min\nDuration: IV - 4-6min,  IM - 10-30min",
+          "tables": []
+        },
+        "Rocuronium": {
+          "text": "Dosing:\n1.2mg/kg (intubation RSI dose)\n0.6mg/kg (for repeat paralysis)\nOnset - 60s\nDuration- 25-60 min",
+          "tables": []
+        },
+        "Vecuronium": {
+          "text": "Dose:\n0.1mg/kg\nOnset - 60-90 seconds\nDuration - 65 minutes (95% complete recovery)\nagent of choice for prolonged paralysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Succinylcholine": {
+      "text": "Dosing:\n1.5mg/kg IV (>10 y/o)\n2.0mg/kg IV (<10 y/o)\n4mg/kg IM\nOnset: IV- 45s, IM - 2-3 min\nDuration: IV - 4-6min,  IM - 10-30min",
+      "subsections": {
+        "Rocuronium": {
+          "text": "Dosing:\n1.2mg/kg (intubation RSI dose)\n0.6mg/kg (for repeat paralysis)\nOnset - 60s\nDuration- 25-60 min",
+          "tables": []
+        },
+        "Vecuronium": {
+          "text": "Dose:\n0.1mg/kg\nOnset - 60-90 seconds\nDuration - 65 minutes (95% complete recovery)\nagent of choice for prolonged paralysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rocuronium": {
+      "text": "Dosing:\n1.2mg/kg (intubation RSI dose)\n0.6mg/kg (for repeat paralysis)\nOnset - 60s\nDuration- 25-60 min",
+      "subsections": {
+        "Vecuronium": {
+          "text": "Dose:\n0.1mg/kg\nOnset - 60-90 seconds\nDuration - 65 minutes (95% complete recovery)\nagent of choice for prolonged paralysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vecuronium": {
+      "text": "Dose:\n0.1mg/kg\nOnset - 60-90 seconds\nDuration - 65 minutes (95% complete recovery)\nagent of choice for prolonged paralysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Trauma_RSI": {
+      "text": "Consider decreasing induction agent dosage for hemodynamic compromise\nParalytic dosage stays the same\nFentanyl with ketamine and rocuronium may blunt hypertensive response to tracheal manipulation as compared to traditional etomidate and succinylcholine RSI\n[6]\nEtomidate does not have analgesic properties\nHowever, etomidate and succinylcholine produces less hypotension\nHemodynamically stable, normotensive, well perfusing\nOption 1: 0.3 mg/kg etomidate PLUS 1.5 mg/kg succinylcholine\nOption 2: 2 mcg/kg fentanyl PLUS 2 mg/kg ketamine PLUS 1 mg/kg rocuronium\nHypotensive or poorly perfusing\nOption 1: 0.15 mg/kg etomidate PLUS 1.5 mg/kg succinylcholine\nOption 2: 1 mcg/kg fentanyl PLUS 1 mg/kg ketamine PLUS 1 mg/kg rocuronium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "7_Ps": {
+      "text": "",
+      "subsections": {
+        "Preparation": {
+          "text": "SOAPME: (Suction, oxygen, airway, pharmacology, monitoring, equipment)",
+          "tables": []
+        },
+        "Preoxygenation": {
+          "text": "Nitrogen wash-out\n100% NRB for 3-5min or 8 VC breaths (BVM) with high-flow O2\nApneic oxygenation\nwith NC at 6L/min while setting up and increase to 15L/min once patient is sedated",
+          "tables": []
+        },
+        "Pretreatment": {
+          "text": "Ischemic heart disease/dissection: Fentanyl 3-5mcg/kg\nIncreased ICP: Fentanyl 3-5mcg/kg (+/- lidocaine 1.5mg/kg (some think drop in MAP not worth it))\nReactive Airway disease:\nLidocaine\n1.5mg/kg (suppresses cough reflex)\nPeds (age <1): Atropine 0.01-.02mg/kg (min 0.1mg, max 0.5mg)\nControversial",
+          "tables": []
+        },
+        "Paralysis_with_induction": {
+          "text": "INDUCTION\nEtomidate (0.3mg/kg)\nEspecially good for hypotensive/trauma patients\nHemodynamically neutral, lowers ICP\nLowers seizure threshold in patients with known seizure disorder\nDoes NOT blunt sympathetic reaction to intubation (no analgesic effect)\nAdrenal suppression is likely irrelevant with one-time dose\nKetamine\n(1-4mg/kg)\nAgent of choice for asthmatics as it has bronchodilator effects. Also consider with hypotension (i.e.: septic shock)\nAvailable in IM form\nSympathomimetic\nAvoid in patient with significant HTN\nEvidence for clinically significant rise in ICP equivocal at best. Consider use in head injured patients with increased ICP AND low or normal BP\nMidazolam (0.2mg/kg)\nConsider in patient with CHF (nitro-life effect → decrease ventilator filling pressure)\nConsider in patient in status epilepticus (anti-seizure effect)\nMay decrease MAP, especially if patient hypovolemic\nPropofol\n(1.5 to 3mg/kg)\nConsider in patient with bronchospasm\nDecreases MAP, CPP\nPARALYSIS\nSuccinylcholine\n1.5mg/kg - better to overdose than to underdose\n2mg/kg - neonates/infants\nContraindications\nStroke <6 months old, MS, muscular dystrophies\nECG\nchanges consistent with hyperkalemia\nOK to use in crush injury, acute stroke as long as within 3 days of occurrence\nRocuronium\n1-1.2mg/kg\nConsider not paralyzing in these situations\nExpanding neck hematoma, to keep integrity of strap muscles\nUnable to BVM due to facial hair, micrognathia\nUnable to move to\ncricothyroidotomy\n(angioedema, goiter, anterior neck mass)",
+          "tables": []
+        },
+        "Protection_and_positioning": {
+          "text": "Sniffing position\nin cervical spine immobilization, use bimanual laryngoscopy and consider adjuncts such as\nbougie\nor\nvideo laryngoscopy\nif minimal blood in oropharynx",
+          "tables": []
+        },
+        "Pass_Tube": {
+          "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+          "tables": []
+        },
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "video laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Preparation": {
+      "text": "SOAPME: (Suction, oxygen, airway, pharmacology, monitoring, equipment)",
+      "subsections": {
+        "Preoxygenation": {
+          "text": "Nitrogen wash-out\n100% NRB for 3-5min or 8 VC breaths (BVM) with high-flow O2\nApneic oxygenation\nwith NC at 6L/min while setting up and increase to 15L/min once patient is sedated",
+          "tables": []
+        },
+        "Pretreatment": {
+          "text": "Ischemic heart disease/dissection: Fentanyl 3-5mcg/kg\nIncreased ICP: Fentanyl 3-5mcg/kg (+/- lidocaine 1.5mg/kg (some think drop in MAP not worth it))\nReactive Airway disease:\nLidocaine\n1.5mg/kg (suppresses cough reflex)\nPeds (age <1): Atropine 0.01-.02mg/kg (min 0.1mg, max 0.5mg)\nControversial",
+          "tables": []
+        },
+        "Paralysis_with_induction": {
+          "text": "INDUCTION\nEtomidate (0.3mg/kg)\nEspecially good for hypotensive/trauma patients\nHemodynamically neutral, lowers ICP\nLowers seizure threshold in patients with known seizure disorder\nDoes NOT blunt sympathetic reaction to intubation (no analgesic effect)\nAdrenal suppression is likely irrelevant with one-time dose\nKetamine\n(1-4mg/kg)\nAgent of choice for asthmatics as it has bronchodilator effects. Also consider with hypotension (i.e.: septic shock)\nAvailable in IM form\nSympathomimetic\nAvoid in patient with significant HTN\nEvidence for clinically significant rise in ICP equivocal at best. Consider use in head injured patients with increased ICP AND low or normal BP\nMidazolam (0.2mg/kg)\nConsider in patient with CHF (nitro-life effect → decrease ventilator filling pressure)\nConsider in patient in status epilepticus (anti-seizure effect)\nMay decrease MAP, especially if patient hypovolemic\nPropofol\n(1.5 to 3mg/kg)\nConsider in patient with bronchospasm\nDecreases MAP, CPP\nPARALYSIS\nSuccinylcholine\n1.5mg/kg - better to overdose than to underdose\n2mg/kg - neonates/infants\nContraindications\nStroke <6 months old, MS, muscular dystrophies\nECG\nchanges consistent with hyperkalemia\nOK to use in crush injury, acute stroke as long as within 3 days of occurrence\nRocuronium\n1-1.2mg/kg\nConsider not paralyzing in these situations\nExpanding neck hematoma, to keep integrity of strap muscles\nUnable to BVM due to facial hair, micrognathia\nUnable to move to\ncricothyroidotomy\n(angioedema, goiter, anterior neck mass)",
+          "tables": []
+        },
+        "Protection_and_positioning": {
+          "text": "Sniffing position\nin cervical spine immobilization, use bimanual laryngoscopy and consider adjuncts such as\nbougie\nor\nvideo laryngoscopy\nif minimal blood in oropharynx",
+          "tables": []
+        },
+        "Pass_Tube": {
+          "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+          "tables": []
+        },
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "video laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Preoxygenation": {
+      "text": "Nitrogen wash-out\n100% NRB for 3-5min or 8 VC breaths (BVM) with high-flow O2\nApneic oxygenation\nwith NC at 6L/min while setting up and increase to 15L/min once patient is sedated",
+      "subsections": {
+        "Pretreatment": {
+          "text": "Ischemic heart disease/dissection: Fentanyl 3-5mcg/kg\nIncreased ICP: Fentanyl 3-5mcg/kg (+/- lidocaine 1.5mg/kg (some think drop in MAP not worth it))\nReactive Airway disease:\nLidocaine\n1.5mg/kg (suppresses cough reflex)\nPeds (age <1): Atropine 0.01-.02mg/kg (min 0.1mg, max 0.5mg)\nControversial",
+          "tables": []
+        },
+        "Paralysis_with_induction": {
+          "text": "INDUCTION\nEtomidate (0.3mg/kg)\nEspecially good for hypotensive/trauma patients\nHemodynamically neutral, lowers ICP\nLowers seizure threshold in patients with known seizure disorder\nDoes NOT blunt sympathetic reaction to intubation (no analgesic effect)\nAdrenal suppression is likely irrelevant with one-time dose\nKetamine\n(1-4mg/kg)\nAgent of choice for asthmatics as it has bronchodilator effects. Also consider with hypotension (i.e.: septic shock)\nAvailable in IM form\nSympathomimetic\nAvoid in patient with significant HTN\nEvidence for clinically significant rise in ICP equivocal at best. Consider use in head injured patients with increased ICP AND low or normal BP\nMidazolam (0.2mg/kg)\nConsider in patient with CHF (nitro-life effect → decrease ventilator filling pressure)\nConsider in patient in status epilepticus (anti-seizure effect)\nMay decrease MAP, especially if patient hypovolemic\nPropofol\n(1.5 to 3mg/kg)\nConsider in patient with bronchospasm\nDecreases MAP, CPP\nPARALYSIS\nSuccinylcholine\n1.5mg/kg - better to overdose than to underdose\n2mg/kg - neonates/infants\nContraindications\nStroke <6 months old, MS, muscular dystrophies\nECG\nchanges consistent with hyperkalemia\nOK to use in crush injury, acute stroke as long as within 3 days of occurrence\nRocuronium\n1-1.2mg/kg\nConsider not paralyzing in these situations\nExpanding neck hematoma, to keep integrity of strap muscles\nUnable to BVM due to facial hair, micrognathia\nUnable to move to\ncricothyroidotomy\n(angioedema, goiter, anterior neck mass)",
+          "tables": []
+        },
+        "Protection_and_positioning": {
+          "text": "Sniffing position\nin cervical spine immobilization, use bimanual laryngoscopy and consider adjuncts such as\nbougie\nor\nvideo laryngoscopy\nif minimal blood in oropharynx",
+          "tables": []
+        },
+        "Pass_Tube": {
+          "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+          "tables": []
+        },
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "video laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Pretreatment": {
+      "text": "Ischemic heart disease/dissection: Fentanyl 3-5mcg/kg\nIncreased ICP: Fentanyl 3-5mcg/kg (+/- lidocaine 1.5mg/kg (some think drop in MAP not worth it))\nReactive Airway disease:\nLidocaine\n1.5mg/kg (suppresses cough reflex)\nPeds (age <1): Atropine 0.01-.02mg/kg (min 0.1mg, max 0.5mg)\nControversial",
+      "subsections": {
+        "Paralysis_with_induction": {
+          "text": "INDUCTION\nEtomidate (0.3mg/kg)\nEspecially good for hypotensive/trauma patients\nHemodynamically neutral, lowers ICP\nLowers seizure threshold in patients with known seizure disorder\nDoes NOT blunt sympathetic reaction to intubation (no analgesic effect)\nAdrenal suppression is likely irrelevant with one-time dose\nKetamine\n(1-4mg/kg)\nAgent of choice for asthmatics as it has bronchodilator effects. Also consider with hypotension (i.e.: septic shock)\nAvailable in IM form\nSympathomimetic\nAvoid in patient with significant HTN\nEvidence for clinically significant rise in ICP equivocal at best. Consider use in head injured patients with increased ICP AND low or normal BP\nMidazolam (0.2mg/kg)\nConsider in patient with CHF (nitro-life effect → decrease ventilator filling pressure)\nConsider in patient in status epilepticus (anti-seizure effect)\nMay decrease MAP, especially if patient hypovolemic\nPropofol\n(1.5 to 3mg/kg)\nConsider in patient with bronchospasm\nDecreases MAP, CPP\nPARALYSIS\nSuccinylcholine\n1.5mg/kg - better to overdose than to underdose\n2mg/kg - neonates/infants\nContraindications\nStroke <6 months old, MS, muscular dystrophies\nECG\nchanges consistent with hyperkalemia\nOK to use in crush injury, acute stroke as long as within 3 days of occurrence\nRocuronium\n1-1.2mg/kg\nConsider not paralyzing in these situations\nExpanding neck hematoma, to keep integrity of strap muscles\nUnable to BVM due to facial hair, micrognathia\nUnable to move to\ncricothyroidotomy\n(angioedema, goiter, anterior neck mass)",
+          "tables": []
+        },
+        "Protection_and_positioning": {
+          "text": "Sniffing position\nin cervical spine immobilization, use bimanual laryngoscopy and consider adjuncts such as\nbougie\nor\nvideo laryngoscopy\nif minimal blood in oropharynx",
+          "tables": []
+        },
+        "Pass_Tube": {
+          "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+          "tables": []
+        },
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "video laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Paralysis_with_induction": {
+      "text": "INDUCTION\nEtomidate (0.3mg/kg)\nEspecially good for hypotensive/trauma patients\nHemodynamically neutral, lowers ICP\nLowers seizure threshold in patients with known seizure disorder\nDoes NOT blunt sympathetic reaction to intubation (no analgesic effect)\nAdrenal suppression is likely irrelevant with one-time dose\nKetamine\n(1-4mg/kg)\nAgent of choice for asthmatics as it has bronchodilator effects. Also consider with hypotension (i.e.: septic shock)\nAvailable in IM form\nSympathomimetic\nAvoid in patient with significant HTN\nEvidence for clinically significant rise in ICP equivocal at best. Consider use in head injured patients with increased ICP AND low or normal BP\nMidazolam (0.2mg/kg)\nConsider in patient with CHF (nitro-life effect → decrease ventilator filling pressure)\nConsider in patient in status epilepticus (anti-seizure effect)\nMay decrease MAP, especially if patient hypovolemic\nPropofol\n(1.5 to 3mg/kg)\nConsider in patient with bronchospasm\nDecreases MAP, CPP\nPARALYSIS\nSuccinylcholine\n1.5mg/kg - better to overdose than to underdose\n2mg/kg - neonates/infants\nContraindications\nStroke <6 months old, MS, muscular dystrophies\nECG\nchanges consistent with hyperkalemia\nOK to use in crush injury, acute stroke as long as within 3 days of occurrence\nRocuronium\n1-1.2mg/kg\nConsider not paralyzing in these situations\nExpanding neck hematoma, to keep integrity of strap muscles\nUnable to BVM due to facial hair, micrognathia\nUnable to move to\ncricothyroidotomy\n(angioedema, goiter, anterior neck mass)",
+      "subsections": {
+        "Protection_and_positioning": {
+          "text": "Sniffing position\nin cervical spine immobilization, use bimanual laryngoscopy and consider adjuncts such as\nbougie\nor\nvideo laryngoscopy\nif minimal blood in oropharynx",
+          "tables": []
+        },
+        "Pass_Tube": {
+          "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+          "tables": []
+        },
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Succinylcholine",
+          "url": "https://wikem.org/wiki/Succinylcholine"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        },
+        {
+          "text": "cricothyroidotomy",
+          "url": "https://wikem.org/wiki/Cricothyroidotomy"
+        },
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "video laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Protection_and_positioning": {
+      "text": "Sniffing position\nin cervical spine immobilization, use bimanual laryngoscopy and consider adjuncts such as\nbougie\nor\nvideo laryngoscopy\nif minimal blood in oropharynx",
+      "subsections": {
+        "Pass_Tube": {
+          "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+          "tables": []
+        },
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "video laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Pass_Tube": {
+      "text": "Intubation\nEnd-tidal CO2 detection is primary means of ETT placement confirmation\nCola-complication: need CO2 detection for at least 6 ventilations",
+      "subsections": {
+        "Postintubation_management": {
+          "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "Postintubation_management": {
+      "text": "CXR\nNon-violent restraints\nHead of bed to 30° elevation\nCheck ABG 30 minutes post-intubation\nSedation\nBenzos\nLorazepam\n1-4mg bolus; then 0.01-0.1mg/kg/hr (titrate q1hr)\nMidazolam\n1-5mg bolus; then 0.04-0.2mg/kg/hr (titrate q1hr)\nPropofol\n5-80mcg/kg/min (titrate q10min)\nAnalgesia\nFentanyl\n1-2mcg/kg bolus; then 25-250mcg/hr (titrate q20min)\nParalysis (if needed)\nVecuronium\n10mg, then 7mg/hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Vecuronium",
+          "url": "https://wikem.org/wiki/Vecuronium"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Critical care quick reference\nEBQ:Comparison of Succinylcholine and Rocuronium for RSI",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "EBQ:Comparison of Succinylcholine and Rocuronium for RSI",
+          "url": "https://wikem.org/wiki/EBQ:Comparison_of_Succinylcholine_and_Rocuronium_for_RSI"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Adventures in RSI - Pediatric Emergency Playbook\nMerk Manual - Drugs to Aid Intubation\nEMCrit - Rapid Sequence Intubation and Procedurization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

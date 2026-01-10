@@ -1,0 +1,353 @@
+{
+  "drug_name": "Q_fever",
+  "url": "https://wikem.org/wiki/Q_fever",
+  "scraped_at": "2026-01-10T08:01:04.680275",
+  "sections": {
+    "Background": {
+      "text": "Described in 1937: occupational disease of abattoir workers (manage animals before and after slaughtering process) and dairy farmers\nCaused by Coxiella burnetii\nObligate intracellular bacteria morphologically similar to Rickettsia\nReservoirs include cattle, goat, sheep, and ticks (Dermacentor andersoni)\nCDC: category B biologic warfare agent due to its inhaled infectivity\nWorldwide disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms usually develop within 2-3 weeks, although up to half of those infected may not show symptoms\nhigh\nfevers\n(up to 104-105°F)\nsevere\nheadache\ngeneral malaise\nmyalgias\nchills/sweats\nnon-productive cough\nnausea/vomiting\ndiarrhea\nabdominal pain\nchest pain\nComplications include\npneumonia\n, granulomatous hepatitis (inflammation of the liver),\nmyocarditis\n(inflammation of the heart tissue), and central nervous system complications.\nEndocarditis\nis the major form of chronic disease\nInfection in pregnancy is more likely to be asymptomatic, but often results in chronic Q fever and obstetrical complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fevers",
+          "url": "https://wikem.org/wiki/Fevers"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        },
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        }
+      ]
+    },
+    "Lower_Respiratory_Zoonotic_Infections": {
+      "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC, Complete Metabolic Panel – Liver enzymes usually elevated 2-10 times normal\nBlood cultures\nCXR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Doxycycline\nAdults: 100mg BID\nChildren < 45 kg: 2.2mg/kg BID\nPatients should be treated for at least 3 days after the fever subsides and until there is evidence of clinical improvement. Standard duration of treatment is 2-3 weeks.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most patients require admission for further workup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "http://www.cdc.gov/qfever/\nhttp://www.ncbi.nlm.nih.gov/pubmed/16168313",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

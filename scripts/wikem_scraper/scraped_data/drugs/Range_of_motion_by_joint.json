@@ -1,0 +1,165 @@
+{
+  "drug_name": "Range_of_motion_by_joint",
+  "url": "https://wikem.org/wiki/Range_of_motion_by_joint",
+  "scraped_at": "2026-01-10T08:01:12.752471",
+  "sections": {
+    "Range_of_Motion_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Joint/Segment": "Elbow",
+            "Movement": "Flexion",
+            "Degrees": "140"
+          },
+          {
+            "Joint/Segment": "Hyperextension",
+            "Movement": "0"
+          },
+          {
+            "Joint/Segment": "Forearm",
+            "Movement": "Pronation",
+            "Degrees": "80"
+          },
+          {
+            "Joint/Segment": "Supination",
+            "Movement": "80"
+          },
+          {
+            "Joint/Segment": "Wrist",
+            "Movement": "Extension (Dorsiflexion)",
+            "Degrees": "60"
+          },
+          {
+            "Joint/Segment": "Flexion (Palmar flexion)",
+            "Movement": "60"
+          },
+          {
+            "Joint/Segment": "Radial Deviation",
+            "Movement": "20"
+          },
+          {
+            "Joint/Segment": "Ulnar Deviation",
+            "Movement": "30"
+          },
+          {
+            "Joint/Segment": "Shoulder",
+            "Movement": "Flexion",
+            "Degrees": "180"
+          },
+          {
+            "Joint/Segment": "Hyperextension",
+            "Movement": "50"
+          },
+          {
+            "Joint/Segment": "Abduction",
+            "Movement": "180"
+          },
+          {
+            "Joint/Segment": "Adduction",
+            "Movement": "50"
+          },
+          {
+            "Joint/Segment": "Shoulderwith Abducted Arm",
+            "Movement": "Internal Rotation",
+            "Degrees": "90"
+          },
+          {
+            "Joint/Segment": "External Rotation",
+            "Movement": "90"
+          },
+          {
+            "Joint/Segment": "Horizontal Adduction",
+            "Movement": "-"
+          },
+          {
+            "Joint/Segment": "Horizontal Adduction",
+            "Movement": "-"
+          },
+          {
+            "Joint/Segment": "Hip",
+            "Movement": "Flexion",
+            "Degrees": "100"
+          },
+          {
+            "Joint/Segment": "Hyperextension",
+            "Movement": "30"
+          },
+          {
+            "Joint/Segment": "Abduction",
+            "Movement": "40"
+          },
+          {
+            "Joint/Segment": "Adduction",
+            "Movement": "20"
+          },
+          {
+            "Joint/Segment": "Extended Hip",
+            "Movement": "Internal Rotation",
+            "Degrees": "40"
+          },
+          {
+            "Joint/Segment": "External Rotation",
+            "Movement": "50"
+          },
+          {
+            "Joint/Segment": "Knee",
+            "Movement": "Flexion",
+            "Degrees": "150"
+          },
+          {
+            "Joint/Segment": "Ankle",
+            "Movement": "Plantar flexion",
+            "Degrees": "20"
+          },
+          {
+            "Joint/Segment": "Dorsiflexion",
+            "Movement": "30"
+          },
+          {
+            "Joint/Segment": "Cervical Spine",
+            "Movement": "Flexion",
+            "Degrees": "60"
+          },
+          {
+            "Joint/Segment": "Hyperextension",
+            "Movement": "75"
+          },
+          {
+            "Joint/Segment": "Lateral Flexion",
+            "Movement": "45"
+          },
+          {
+            "Joint/Segment": "Rotation",
+            "Movement": "80"
+          },
+          {
+            "Joint/Segment": "Lumbar-thoracic Spine",
+            "Movement": "Flexion",
+            "Degrees": "45-50"
+          },
+          {
+            "Joint/Segment": "Hyperextension",
+            "Movement": "25"
+          },
+          {
+            "Joint/Segment": "Lateral Flexion",
+            "Movement": "25"
+          },
+          {
+            "Joint/Segment": "Rotation",
+            "Movement": "30"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "References": {
+      "text": "Luttgens & Hamilton, 1997",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

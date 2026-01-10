@@ -1,0 +1,50 @@
+{
+  "drug_name": "Quick_Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(qSOFA)",
+  "url": "https://wikem.org/wiki/Quick_Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(qSOFA)",
+  "scraped_at": "2026-01-10T08:01:07.442222",
+  "sections": {
+    "Background": {
+      "text": "The quick Sequential (Sepsis Related) Organ Failure Assessment Score (qSOFA) is used at the bedside to help identify and risk stratify patients with sepsis\n[1]\nA score ≥2 indicates high risk of poor outcome and the need for further evaluation\nThe more complex\nSOFA\nscore was similar as SIRS when used in the ED [(AUROC = 0.79; 95% CI, 0.78-0.80) vs. (AUROC = 0.76; 95% CI, 0.75-0.77)].\nqSOFA has not yet been externally validated",
+      "subsections": {
+        "qSOFA_Score": {
+          "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score\nRespiratory rate of 22/min or greater (\n+1 Point\n)\nAltered mentation (\n+1 Point\n)\nSystolic blood pressure of 100 mm Hg or less (\n+1 Point\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SOFA",
+          "url": "https://wikem.org/wiki/SOFA"
+        }
+      ]
+    },
+    "qSOFA_Score": {
+      "text": "Quick Sequential (Sepsis Related) Organ Failure Assessment Score\nRespiratory rate of 22/min or greater (\n+1 Point\n)\nAltered mentation (\n+1 Point\n)\nSystolic blood pressure of 100 mm Hg or less (\n+1 Point\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sepsis\nSequential (Sepsis Related) Organ Failure Assessment Score (SOFA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Sequential (Sepsis Related) Organ Failure Assessment Score (SOFA)",
+          "url": "https://wikem.org/wiki/Sequential_(Sepsis_Related)_Organ_Failure_Assessment_Score_(SOFA)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc qSOFA Score for Sepsis Identification",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

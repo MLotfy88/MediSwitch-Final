@@ -1,0 +1,258 @@
+{
+  "drug_name": "Rabies",
+  "url": "https://wikem.org/wiki/Rabies",
+  "scraped_at": "2026-01-10T08:01:04.840088",
+  "sections": {
+    "Background": {
+      "text": "Almost always fatal (diagnosis frequently made postmortem)\nIndication for prophylaxis:\nBite or salivary exposure from bat, or mammalian carnivore\nClose proximity with unknown salivary exposure (e.g. live/dead bat in room)\nProphylaxis not needed if non-salivary exposure, or if bird, reptile, or rodent (rare cases)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical rabies is incredibly rare.\nIncubation period = ~20-90 days, but may be shorter or longer",
+      "subsections": {
+        "Encephalitic_form": {
+          "text": "Hyperexcitability, disorientation, bizarre behavior,\nhallucinations\nAutonomic dysfunction (e.g. hypersalivation)",
+          "tables": []
+        },
+        "Paralytic_form": {
+          "text": "Paresis in bitten extremity → quadriparesis, bilateral facial weakness → coma, organ failure\nHydrophobia (50%) --> spasms of larynx, pharynx, diaphragm\nAerophobia (9%) --> spasms of larynx, pharynx, diaphragm in response to drafts of air (pathognomonic)\n[1]\nDeath from various complications: pituitary complications, respiratory dysfunction, cardiac dysfunction, autonomic dysfunction.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        }
+      ]
+    },
+    "Encephalitic_form": {
+      "text": "Hyperexcitability, disorientation, bizarre behavior,\nhallucinations\nAutonomic dysfunction (e.g. hypersalivation)",
+      "subsections": {
+        "Paralytic_form": {
+          "text": "Paresis in bitten extremity → quadriparesis, bilateral facial weakness → coma, organ failure\nHydrophobia (50%) --> spasms of larynx, pharynx, diaphragm\nAerophobia (9%) --> spasms of larynx, pharynx, diaphragm in response to drafts of air (pathognomonic)\n[1]\nDeath from various complications: pituitary complications, respiratory dysfunction, cardiac dysfunction, autonomic dysfunction.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        }
+      ]
+    },
+    "Paralytic_form": {
+      "text": "Paresis in bitten extremity → quadriparesis, bilateral facial weakness → coma, organ failure\nHydrophobia (50%) --> spasms of larynx, pharynx, diaphragm\nAerophobia (9%) --> spasms of larynx, pharynx, diaphragm in response to drafts of air (pathognomonic)\n[1]\nDeath from various complications: pituitary complications, respiratory dysfunction, cardiac dysfunction, autonomic dysfunction.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Jaw_Spasms": {
+          "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Jaw_Spasms": {
+      "text": "Acute tetanus\nAkathisia\nConversion disorder\nDrug toxicity\n(anticholinergic, phenytoin, valproate, carbamazepine)\nDystonic reaction\nElectrolyte abnormality\nHypocalcemic tetany\nMagnesium\nMandible dislocation\nMeningitis\nPeritonsillar abscess\nRabies\nSeizure\nStrychnine\npoisoning\nStroke\nTemporomandibular disorder\nTorticollis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Hypocalcemic tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Mandible dislocation",
+          "url": "https://wikem.org/wiki/Mandible_dislocation"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke_(main)"
+        },
+        {
+          "text": "Temporomandibular disorder",
+          "url": "https://wikem.org/wiki/Temporomandibular_disorder"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Algorithm_for_Prophylaxis": {
+          "text": "Is animal dog or cat?\nYes: Observe 10 days, if abnormal, euthanize animal and treat patient with the vaccine and RIG. Treatment can be discontinued if the animal pathology is negative for rabies\nNo: Euthanize animal and treat patient with vaccine and RIG. Discontinue if animal pathology is negative for rabies\nIs animal dog or cat?\nYes: Give vaccine and RIG only if rabies risk for species in area\nNo: Treat with full course vaccine and RIG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Algorithm_for_Prophylaxis": {
+      "text": "Is animal dog or cat?\nYes: Observe 10 days, if abnormal, euthanize animal and treat patient with the vaccine and RIG. Treatment can be discontinued if the animal pathology is negative for rabies\nNo: Euthanize animal and treat patient with vaccine and RIG. Discontinue if animal pathology is negative for rabies\nIs animal dog or cat?\nYes: Give vaccine and RIG only if rabies risk for species in area\nNo: Treat with full course vaccine and RIG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Immunocompetent_+_NOT_Vaccinated": {
+          "text": "Clean the wound (e.g. copious irrigation)\nRabies vaccine (human diploid cell vaccine)\n1mL IM on days: 0, 3, 7, 14\n[2]\nGive in deltoid (not buttock), since Ab not created in fat cells\nAND, Rabies immune globulin\n20 IU/kg subcutaneous\nInfiltrate around wound if possible\nPlace remainder opposite arm of vaccine\nCan administer up to 7 days after the first vaccine dose",
+          "tables": []
+        },
+        "Immunocompetent_+_Vaccinated": {
+          "text": "Clean the wound (e.g. copious irrigation)\nRabies vaccine (human diploid cell vaccine)\n1mL IM on days: 0 and 3\nGive in deltoid (not buttock), since Ab not created in fat cells\nNO rabies immune globulin",
+          "tables": []
+        },
+        "Immuno-compromised": {
+          "text": "Clean the wound (e.g. copious irrigation)\nRabies vaccine (human diploid cell vaccine)\n1mL IM on days: 0, 3, 7, 14, and 28\n[2]\nGive in deltoid (not buttock), since Ab not created in fat cells\nAND, Rabies immune globulin\n20 IU/kg subcutaneous\nInfiltrate around wound if possible, except for digits and the penis\nPlace remainder opposite arm of vaccine\nCan administer up to 7 days after the first vaccine dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prophylaxis": {
+      "text": "",
+      "subsections": {
+        "Immunocompetent_+_NOT_Vaccinated": {
+          "text": "Clean the wound (e.g. copious irrigation)\nRabies vaccine (human diploid cell vaccine)\n1mL IM on days: 0, 3, 7, 14\n[2]\nGive in deltoid (not buttock), since Ab not created in fat cells\nAND, Rabies immune globulin\n20 IU/kg subcutaneous\nInfiltrate around wound if possible\nPlace remainder opposite arm of vaccine\nCan administer up to 7 days after the first vaccine dose",
+          "tables": []
+        },
+        "Immunocompetent_+_Vaccinated": {
+          "text": "Clean the wound (e.g. copious irrigation)\nRabies vaccine (human diploid cell vaccine)\n1mL IM on days: 0 and 3\nGive in deltoid (not buttock), since Ab not created in fat cells\nNO rabies immune globulin",
+          "tables": []
+        },
+        "Immuno-compromised": {
+          "text": "Clean the wound (e.g. copious irrigation)\nRabies vaccine (human diploid cell vaccine)\n1mL IM on days: 0, 3, 7, 14, and 28\n[2]\nGive in deltoid (not buttock), since Ab not created in fat cells\nAND, Rabies immune globulin\n20 IU/kg subcutaneous\nInfiltrate around wound if possible, except for digits and the penis\nPlace remainder opposite arm of vaccine\nCan administer up to 7 days after the first vaccine dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patient needing prophylaxis: outpatient\nClinical rabies: admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Mammalian bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mammalian bites",
+          "url": "https://wikem.org/wiki/Mammalian_bites"
+        }
+      ]
+    }
+  }
+}

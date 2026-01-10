@@ -1,0 +1,1350 @@
+{
+  "drug_name": "QT_prolongation",
+  "url": "https://wikem.org/wiki/QT_prolongation",
+  "scraped_at": "2026-01-10T08:01:04.482826",
+  "sections": {
+    "Background": {
+      "text": "Prolonged ventricular repolarization → increased risk of ventricular arrhythmias\nMales >440-450 ms\nFemales >500 ms\nRule of thumb: Normal QT interval is less than half of preceding RR interval\nQT interval is from the beginning of the Q wave to the end of the T wave\nRate dependent and should become proportionately shorter with increasing heart rate",
+      "subsections": {
+        "List_of_Drugs_Causing_QT_Prolongation": {
+          "text": "Antiarrhythmics\nAmiodarone\n, disopyramide, dofetilide,\nflecainide\n, ibutilide, mexiletine,\nprocainamide\n,\nquinidine\n,\nsotalol\nAntibiotics\nMacrolide\nAzithromycin\n,\nerythromycin\n,\nclarithromycin\nFluoroquinolone\nCiprofloxacin\n, gatifloxacin (most common),\ngemifloxacin\n,\nlevofloxacin\n,\nmoxifloxacin\n,\nofloxacin\nOther\nPentamidine\n, telithromycin,\ntrimethoprim-sulfamethoxazole\nAntidepressants\nAmitriptyline\n, citalopram,\ndoxepin\n,\nfluoxetine\n,\nnortriptyline\n, paroxetine, sertraline,\nvenlafaxine\nAntiemetics\nDolasetron,\ndroperidol\n, granisetron,\nondansetron\nAntifungals\nFluconazole\n,\nitraconazole\n,\nketoconazole\n,\nvoriconazole\nAntihypertensives\nNicardipine\nAntineoplastics\nLapatinib, nilotinib, sunitinib, tamoxifen\nAntimalarials\nChloroquine\n, halofantrine\nAntipsychotics\nChlorpromazine\n,\nclozapine\n, galantamine,\nhaloperidol\n,\nlithium\n, paliperidone, pimozide,\nquetiapine\n,\nrisperidone\n, thioridazine,\nziprasidone\nAntivirals\nAmantadine\n, atazanavir,\nfoscarnet\nDiuretics\nIndapamide\nImmune suppressants\nTacrolimus\nOpiates\nMethadone\nPhosphodiesterase inhibitors\nSildenafil\n,\nVardenafil\nSkeletal muscle relaxants\nTizanidine\nUrinary antispasmodics\nSolifenacin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "flecainide",
+          "url": "https://wikem.org/wiki/Flecainide"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        },
+        {
+          "text": "trimethoprim-sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "fluoxetine",
+          "url": "https://wikem.org/wiki/Fluoxetine"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Antihypertensives",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Antimalarials",
+          "url": "https://wikem.org/wiki/Antimalarials"
+        },
+        {
+          "text": "Chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "quetiapine",
+          "url": "https://wikem.org/wiki/Quetiapine"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Antivirals",
+          "url": "https://wikem.org/wiki/Antivirals"
+        },
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Opiates",
+          "url": "https://wikem.org/wiki/Opiates"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Tizanidine",
+          "url": "https://wikem.org/wiki/Tizanidine"
+        }
+      ]
+    },
+    "List_of_Drugs_Causing_QT_Prolongation": {
+      "text": "Antiarrhythmics\nAmiodarone\n, disopyramide, dofetilide,\nflecainide\n, ibutilide, mexiletine,\nprocainamide\n,\nquinidine\n,\nsotalol\nAntibiotics\nMacrolide\nAzithromycin\n,\nerythromycin\n,\nclarithromycin\nFluoroquinolone\nCiprofloxacin\n, gatifloxacin (most common),\ngemifloxacin\n,\nlevofloxacin\n,\nmoxifloxacin\n,\nofloxacin\nOther\nPentamidine\n, telithromycin,\ntrimethoprim-sulfamethoxazole\nAntidepressants\nAmitriptyline\n, citalopram,\ndoxepin\n,\nfluoxetine\n,\nnortriptyline\n, paroxetine, sertraline,\nvenlafaxine\nAntiemetics\nDolasetron,\ndroperidol\n, granisetron,\nondansetron\nAntifungals\nFluconazole\n,\nitraconazole\n,\nketoconazole\n,\nvoriconazole\nAntihypertensives\nNicardipine\nAntineoplastics\nLapatinib, nilotinib, sunitinib, tamoxifen\nAntimalarials\nChloroquine\n, halofantrine\nAntipsychotics\nChlorpromazine\n,\nclozapine\n, galantamine,\nhaloperidol\n,\nlithium\n, paliperidone, pimozide,\nquetiapine\n,\nrisperidone\n, thioridazine,\nziprasidone\nAntivirals\nAmantadine\n, atazanavir,\nfoscarnet\nDiuretics\nIndapamide\nImmune suppressants\nTacrolimus\nOpiates\nMethadone\nPhosphodiesterase inhibitors\nSildenafil\n,\nVardenafil\nSkeletal muscle relaxants\nTizanidine\nUrinary antispasmodics\nSolifenacin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "flecainide",
+          "url": "https://wikem.org/wiki/Flecainide"
+        },
+        {
+          "text": "procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "sotalol",
+          "url": "https://wikem.org/wiki/Sotalol"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Pentamidine",
+          "url": "https://wikem.org/wiki/Pentamidine"
+        },
+        {
+          "text": "trimethoprim-sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim-sulfamethoxazole"
+        },
+        {
+          "text": "Amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "fluoxetine",
+          "url": "https://wikem.org/wiki/Fluoxetine"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "Antihypertensives",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Antimalarials",
+          "url": "https://wikem.org/wiki/Antimalarials"
+        },
+        {
+          "text": "Chloroquine",
+          "url": "https://wikem.org/wiki/Chloroquine"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "quetiapine",
+          "url": "https://wikem.org/wiki/Quetiapine"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "Antivirals",
+          "url": "https://wikem.org/wiki/Antivirals"
+        },
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        },
+        {
+          "text": "foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Opiates",
+          "url": "https://wikem.org/wiki/Opiates"
+        },
+        {
+          "text": "Methadone",
+          "url": "https://wikem.org/wiki/Methadone"
+        },
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Tizanidine",
+          "url": "https://wikem.org/wiki/Tizanidine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Most are asymptomatic\nHistory may include:\nSyncope\nCardiac arrest\nFamily history of long QT or sudden death\nMedication history may include QT prolonging medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Syncope_Causes": {
+          "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        }
+      ]
+    },
+    "Syncope_Causes": {
+      "text": "Cardiovascular-mediated syncope\nDysrhythmias\n:\nWPW\n(pre-excitation)\nLong QT Syndrome\n/\nQT prolongation\nBrugada Syndrome\nCatecholaminergic polymorphic ventricular tachycardia\n2nd/3rd AV Block\nAfib\n/aflutter\nVtach\n/\ntorsades\nSick sinus syndrome\nArrhythmogenic right ventricular dysplasia\nShort QT\nsyndrome\nCardiovascular disease\nValvular Disease\n(AS, MS, tricuspid stenosis)\nAortic Dissection\nMyocardial Infarction\nCHF\nHypertrophic Cardiomyopathy\nPE\nPericardial Tamponade\nMyxoma\nPulmonary Hypertension\nPacemaker malfunction\nNeurally mediated syncope\nVasovagal:\nFear, pain, emotion, valsalva,\nbreath-holding spell\nSituational (associated with):\nCoughing\n, micturition, defecation,\nvomiting\n, swallowing, postexercise\nCarotid sinus stimulation\nOrthostatic hypotension-mediated syncope:\nVolume depletion:\nDehydration\n(\nvomiting\n,\ndiarrhea\n)\nHemorrhage\n, (\nEctopic Pregnancy\n,\nUpper GI Bleed\n/\nLower GI Bleeding\n,\nAbdominal Aortic Aneurysm\n)\nSepsis\nAutonomic Dysreflexia\nAutonomic failure due to meds\nOther serious causes\nStroke\nSAH\nTIA\nVertebrobasilar Insufficiency\nSubclavian steal\nHeat syncope\nHypoglycemia\nHyperventilation\nAsphyxiation\nSeizure\nNarcolepsy\nPsychogenic (\nanxiety\n,\nconversion disorder\n,\nsomatic symptom disorder\n)\nToxic (drugs,\ncarbon monoxide\n, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Long QT Syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_Syndrome"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Catecholaminergic polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Catecholaminergic_polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "2nd/3rd AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "Vtach",
+          "url": "https://wikem.org/wiki/Vtach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        },
+        {
+          "text": "Short QT",
+          "url": "https://wikem.org/wiki/Short_QT"
+        },
+        {
+          "text": "Valvular Disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Aortic Dissection",
+          "url": "https://wikem.org/wiki/Aortic_Dissection"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pericardial Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Tamponade"
+        },
+        {
+          "text": "Myxoma",
+          "url": "https://wikem.org/wiki/Myxoma"
+        },
+        {
+          "text": "Pulmonary Hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_Hypertension"
+        },
+        {
+          "text": "Pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        },
+        {
+          "text": "breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Coughing",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        },
+        {
+          "text": "Upper GI Bleed",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleed"
+        },
+        {
+          "text": "Lower GI Bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_Bleeding"
+        },
+        {
+          "text": "Abdominal Aortic Aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Autonomic Dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_Dysreflexia"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Vertebrobasilar Insufficiency",
+          "url": "https://wikem.org/wiki/Vertebrobasilar_insufficiency"
+        },
+        {
+          "text": "Subclavian steal",
+          "url": "https://wikem.org/wiki/Subclavian_steal"
+        },
+        {
+          "text": "Heat syncope",
+          "url": "https://wikem.org/wiki/Heat_syncope"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nCBC\nChem 10",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "ECG\nOn visual inspection, QT takes up more than half the R-R distance\nMeasure QT interval in lead II or V5-6\nQTc = QT /√R-R",
+          "tables": []
+        },
+        "Determining_Cause": {
+          "text": "Pause Dependent (Acquired)\nDrug induced (see drug list above)\nAntiarrhythmics\nPhenothiazines\nTCAs\nOrganophosphates\nAntihistamines\nElectrolyte Abnormalities\n(\nhypoKalemia\n,\nhypoMag\n,\nhypoCa\n)\nHypokalemia\ntriad\nLong QT, ST depressions, PVCs\nHypothermia\nDiet related (starvation, low protein)\nSevere Bradycardia\n/\nAV Block\nHypothyroid\nContrast injection\nCVA\n(intraparenchymal)\nElevated intracranial pressure\nand\nIntracranial hemorrhage\nMI\nAdrenergic Dependent\nCongenital\nJarvel/Lange-Nielsen\n(+deafness; AR)\nRomano-Ward syndrome\n(normal hearing; AD)\nSporadic\nMitral valve prolapse\nAcquired\nCVA\n(subarachnoid)\nAutonomic surgery (catechol excess: neck dissection, carotid endarterectomy, truncal vagotomy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypoKalemia",
+          "url": "https://wikem.org/wiki/HypoKalemia"
+        },
+        {
+          "text": "hypoMag",
+          "url": "https://wikem.org/wiki/HypoMag"
+        },
+        {
+          "text": "hypoCa",
+          "url": "https://wikem.org/wiki/HypoCa"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Severe Bradycardia",
+          "url": "https://wikem.org/wiki/Severe_Bradycardia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Hypothyroid",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nCBC\nChem 10",
+      "subsections": {
+        "Diagnosis": {
+          "text": "ECG\nOn visual inspection, QT takes up more than half the R-R distance\nMeasure QT interval in lead II or V5-6\nQTc = QT /√R-R",
+          "tables": []
+        },
+        "Determining_Cause": {
+          "text": "Pause Dependent (Acquired)\nDrug induced (see drug list above)\nAntiarrhythmics\nPhenothiazines\nTCAs\nOrganophosphates\nAntihistamines\nElectrolyte Abnormalities\n(\nhypoKalemia\n,\nhypoMag\n,\nhypoCa\n)\nHypokalemia\ntriad\nLong QT, ST depressions, PVCs\nHypothermia\nDiet related (starvation, low protein)\nSevere Bradycardia\n/\nAV Block\nHypothyroid\nContrast injection\nCVA\n(intraparenchymal)\nElevated intracranial pressure\nand\nIntracranial hemorrhage\nMI\nAdrenergic Dependent\nCongenital\nJarvel/Lange-Nielsen\n(+deafness; AR)\nRomano-Ward syndrome\n(normal hearing; AD)\nSporadic\nMitral valve prolapse\nAcquired\nCVA\n(subarachnoid)\nAutonomic surgery (catechol excess: neck dissection, carotid endarterectomy, truncal vagotomy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypoKalemia",
+          "url": "https://wikem.org/wiki/HypoKalemia"
+        },
+        {
+          "text": "hypoMag",
+          "url": "https://wikem.org/wiki/HypoMag"
+        },
+        {
+          "text": "hypoCa",
+          "url": "https://wikem.org/wiki/HypoCa"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Severe Bradycardia",
+          "url": "https://wikem.org/wiki/Severe_Bradycardia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Hypothyroid",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "ECG\nOn visual inspection, QT takes up more than half the R-R distance\nMeasure QT interval in lead II or V5-6\nQTc = QT /√R-R",
+      "subsections": {
+        "Determining_Cause": {
+          "text": "Pause Dependent (Acquired)\nDrug induced (see drug list above)\nAntiarrhythmics\nPhenothiazines\nTCAs\nOrganophosphates\nAntihistamines\nElectrolyte Abnormalities\n(\nhypoKalemia\n,\nhypoMag\n,\nhypoCa\n)\nHypokalemia\ntriad\nLong QT, ST depressions, PVCs\nHypothermia\nDiet related (starvation, low protein)\nSevere Bradycardia\n/\nAV Block\nHypothyroid\nContrast injection\nCVA\n(intraparenchymal)\nElevated intracranial pressure\nand\nIntracranial hemorrhage\nMI\nAdrenergic Dependent\nCongenital\nJarvel/Lange-Nielsen\n(+deafness; AR)\nRomano-Ward syndrome\n(normal hearing; AD)\nSporadic\nMitral valve prolapse\nAcquired\nCVA\n(subarachnoid)\nAutonomic surgery (catechol excess: neck dissection, carotid endarterectomy, truncal vagotomy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypoKalemia",
+          "url": "https://wikem.org/wiki/HypoKalemia"
+        },
+        {
+          "text": "hypoMag",
+          "url": "https://wikem.org/wiki/HypoMag"
+        },
+        {
+          "text": "hypoCa",
+          "url": "https://wikem.org/wiki/HypoCa"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Severe Bradycardia",
+          "url": "https://wikem.org/wiki/Severe_Bradycardia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Hypothyroid",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Determining_Cause": {
+      "text": "Pause Dependent (Acquired)\nDrug induced (see drug list above)\nAntiarrhythmics\nPhenothiazines\nTCAs\nOrganophosphates\nAntihistamines\nElectrolyte Abnormalities\n(\nhypoKalemia\n,\nhypoMag\n,\nhypoCa\n)\nHypokalemia\ntriad\nLong QT, ST depressions, PVCs\nHypothermia\nDiet related (starvation, low protein)\nSevere Bradycardia\n/\nAV Block\nHypothyroid\nContrast injection\nCVA\n(intraparenchymal)\nElevated intracranial pressure\nand\nIntracranial hemorrhage\nMI\nAdrenergic Dependent\nCongenital\nJarvel/Lange-Nielsen\n(+deafness; AR)\nRomano-Ward syndrome\n(normal hearing; AD)\nSporadic\nMitral valve prolapse\nAcquired\nCVA\n(subarachnoid)\nAutonomic surgery (catechol excess: neck dissection, carotid endarterectomy, truncal vagotomy)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypoKalemia",
+          "url": "https://wikem.org/wiki/HypoKalemia"
+        },
+        {
+          "text": "hypoMag",
+          "url": "https://wikem.org/wiki/HypoMag"
+        },
+        {
+          "text": "hypoCa",
+          "url": "https://wikem.org/wiki/HypoCa"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Severe Bradycardia",
+          "url": "https://wikem.org/wiki/Severe_Bradycardia"
+        },
+        {
+          "text": "AV Block",
+          "url": "https://wikem.org/wiki/AV_Block"
+        },
+        {
+          "text": "Hypothyroid",
+          "url": "https://wikem.org/wiki/Hypothyroid"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Pause_Dependent_(precipitated_by_bradycardia)": {
+          "text": "Unstable/sustained\ntorsades\n→\ndefibrilation\n(unsynchronized)\nStable\nTreat underlying etiology\nIncrease HR >80 (\nisoproterenol\nor\noverdrive pacing\n)\nMagnesium sulfate\nIV\nConsider\nlidocaine\n,\ntransvenous pacing\n[1]",
+          "tables": []
+        },
+        "Adrenergic_Dependent_(precipited_by_tachycardia)": {
+          "text": "Unstable/sustained\ntorsades\n→\ndefibrilation\n(unsynchronized)\nStable\nSlow HR (\nbeta-blockers\n)\nMay consider\nmagnesium sulfate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "defibrilation",
+          "url": "https://wikem.org/wiki/Defibrilation"
+        },
+        {
+          "text": "isoproterenol",
+          "url": "https://wikem.org/wiki/Isoproterenol"
+        },
+        {
+          "text": "overdrive pacing",
+          "url": "https://wikem.org/wiki/Overdrive_pacing"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "transvenous pacing",
+          "url": "https://wikem.org/wiki/Transvenous_pacing"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "defibrilation",
+          "url": "https://wikem.org/wiki/Defibrilation"
+        },
+        {
+          "text": "beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider admission, especially for QT >500 or if symptomatic\nMay require consultation for discontinuation of QT prolonging medications\nAvoid prescribing medications that may contribute to prolonged QT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ECG (Main)\nTorsades de Pointes\nHypomagnesemia\nHypermagnesemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        },
+        {
+          "text": "Torsades de Pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_Pointes"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Amal Mattu's Case of the Week (5/20/2012)\nAmal Mattu's Case of the Week (10/13/2014)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

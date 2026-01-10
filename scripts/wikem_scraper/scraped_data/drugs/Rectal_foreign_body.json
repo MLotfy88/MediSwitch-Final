@@ -1,0 +1,414 @@
+{
+  "drug_name": "Rectal_foreign_body",
+  "url": "https://wikem.org/wiki/Rectal_foreign_body",
+  "scraped_at": "2026-01-10T08:01:16.411272",
+  "sections": {
+    "Background": {
+      "text": "Injuries may consist of hematoma, lacerations, bowel perforation\nPatients often do not present immediately; prolonged retention increases the chances of complication\nMake sure that object is not sharp before exam",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rectal pain and/or fullness\nRectal bleeding\nHistory of rectal foreign body placement\nMost are in the rectal ampulla and therefore palpable on digital examination",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Abdominal xray\nDemonstrate position, shape, and number of foreign bodies\nDemonstrates possible presence of free air (perforation of rectum or colon)\nPerforation of rectum below peritoneal reflection shows extraperitoneal air along psoas\nPerforation above peritoneal reflection reveals intraperitoneal free air under diaphragm\nCT\nUseful when foreign body is radiolucent and for detection of small amounts of free air",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "ED_removal": {
+          "text": "Suitable for non-sharp objects that are in the distal rectum\nConsider IV\nsedation\nand\nanalgesia\nfor larger foreign bodies\nPerianal block\nmay be useful to help relax anal sphincter\nIn lithotomy position, suprapubic pressure with DRE and valsalva may deliver object without instrumentation.\nMay also attempt removal in prone knee-to-chest position with the patient bearing down\nAnoscope\nutilization and direct lighting will often improve visualization of the object if low lying\nIf obstetric forceps needed, patient should bear down as object is extracted.\nLarge bulbar objects can create a vacuum-like effect\nBreak vacuum by passing foley behind object, inject air and pull foley out (balloon up)\nCan introduce multiple foley catheters from different angles beyond the object, inflate the balloons, and slowly retract the foleys - using the force to help extract the object.",
+          "tables": []
+        },
+        "OR_Removal": {
+          "text": "Consult surgery for OR removal if:\nSize, shape, or location of object has potential to injure anal sphincter during removal\nAttempts at removal in ED fail\nRisk of ischemia, perforation, or if excess manipulation required (risk of bacteremia)",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Consider GI consult for sigmoidoscopy after removal for:\n[2]\nProlonged retention\nObject with sharp corner(s)\nToxic appearing patient",
+          "tables": []
+        },
+        "Body_Stuffing": {
+          "text": "Ingestion of illicit drugs while pursued by law enforcement; usually small quantity\nConsider activated charcoal\nConsider whole bowel irrigation if develop toxicity\nConsider discharge if do not develop toxicity after 4hr obs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ED_removal": {
+      "text": "Suitable for non-sharp objects that are in the distal rectum\nConsider IV\nsedation\nand\nanalgesia\nfor larger foreign bodies\nPerianal block\nmay be useful to help relax anal sphincter\nIn lithotomy position, suprapubic pressure with DRE and valsalva may deliver object without instrumentation.\nMay also attempt removal in prone knee-to-chest position with the patient bearing down\nAnoscope\nutilization and direct lighting will often improve visualization of the object if low lying\nIf obstetric forceps needed, patient should bear down as object is extracted.\nLarge bulbar objects can create a vacuum-like effect\nBreak vacuum by passing foley behind object, inject air and pull foley out (balloon up)\nCan introduce multiple foley catheters from different angles beyond the object, inflate the balloons, and slowly retract the foleys - using the force to help extract the object.",
+      "subsections": {
+        "OR_Removal": {
+          "text": "Consult surgery for OR removal if:\nSize, shape, or location of object has potential to injure anal sphincter during removal\nAttempts at removal in ED fail\nRisk of ischemia, perforation, or if excess manipulation required (risk of bacteremia)",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "Consider GI consult for sigmoidoscopy after removal for:\n[2]\nProlonged retention\nObject with sharp corner(s)\nToxic appearing patient",
+          "tables": []
+        },
+        "Body_Stuffing": {
+          "text": "Ingestion of illicit drugs while pursued by law enforcement; usually small quantity\nConsider activated charcoal\nConsider whole bowel irrigation if develop toxicity\nConsider discharge if do not develop toxicity after 4hr obs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "OR_Removal": {
+      "text": "Consult surgery for OR removal if:\nSize, shape, or location of object has potential to injure anal sphincter during removal\nAttempts at removal in ED fail\nRisk of ischemia, perforation, or if excess manipulation required (risk of bacteremia)",
+      "subsections": {
+        "Other_Considerations": {
+          "text": "Consider GI consult for sigmoidoscopy after removal for:\n[2]\nProlonged retention\nObject with sharp corner(s)\nToxic appearing patient",
+          "tables": []
+        },
+        "Body_Stuffing": {
+          "text": "Ingestion of illicit drugs while pursued by law enforcement; usually small quantity\nConsider activated charcoal\nConsider whole bowel irrigation if develop toxicity\nConsider discharge if do not develop toxicity after 4hr obs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Other_Considerations": {
+      "text": "Consider GI consult for sigmoidoscopy after removal for:\n[2]\nProlonged retention\nObject with sharp corner(s)\nToxic appearing patient",
+      "subsections": {
+        "Body_Stuffing": {
+          "text": "Ingestion of illicit drugs while pursued by law enforcement; usually small quantity\nConsider activated charcoal\nConsider whole bowel irrigation if develop toxicity\nConsider discharge if do not develop toxicity after 4hr obs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Body_Stuffing": {
+      "text": "Ingestion of illicit drugs while pursued by law enforcement; usually small quantity\nConsider activated charcoal\nConsider whole bowel irrigation if develop toxicity\nConsider discharge if do not develop toxicity after 4hr obs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider observation for at least 12hr if concern for rectal perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal disorders\nForeign bodies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Merk Manual - Rectal Foreign Bodies\nemDocs - Rectal Foreign Bodies: Not always a simple ED diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "drug_name": "Ranula",
+  "url": "https://wikem.org/wiki/Ranula",
+  "scraped_at": "2026-01-10T08:01:10.938867",
+  "sections": {
+    "Background": {
+      "text": "A type of mucocele of the sublingual gland",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Mostly seen in young children and adolescents\nSwelling in floor of mouth to side of frenulum (typically unilateral)\nColor is pale blue with semi transparent appearance\nSurface is smooth and mucous membrane is mobile over the swelling\nSize varies from 1 – 5 cm in diameter\nTenderness is absent\nPositive fluctuation and transillumination (if performed)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_Swelling": {
+          "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Facial_Swelling": {
+      "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "None required",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "None required",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Does not typically require ED treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient follow up with ENT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

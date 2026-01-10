@@ -1,0 +1,62 @@
+{
+  "drug_name": "Radial_gutter_splint",
+  "url": "https://wikem.org/wiki/Radial_gutter_splint",
+  "scraped_at": "2026-01-10T08:01:05.251370",
+  "sections": {
+    "Background": {
+      "text": "Prevents flexion/extension of the 2nd/3rd DIP, PIP, MCP, and wrist joints",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Phalangeal and metacarpal fracture or and soft tissue injuries of the 2nd and 3rd digits.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\n[1]\nFrom mid radial forearm\nAlong radial aspect of forearm\nTo beyond DIP of index finger, with thumb free\nKey anatomic positions\n[1]\nForearm in neutral position\nWrist slight extension (approximately 20°)\nMCP flexed 50-70 degrees\nDIP and PIP in slight flexion (5°–10°)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nSplint course:\n[1]\nFrom mid radial forearm\nAlong radial aspect of forearm\nTo beyond DIP of index finger, with thumb free\nKey anatomic positions\n[1]\nForearm in neutral position\nWrist slight extension (approximately 20°)\nMCP flexed 50-70 degrees\nDIP and PIP in slight flexion (5°–10°)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure\nSplint course:\n[1]\nFrom mid radial forearm\nAlong radial aspect of forearm\nTo beyond DIP of index finger, with thumb free\nKey anatomic positions\n[1]\nForearm in neutral position\nWrist slight extension (approximately 20°)\nMCP flexed 50-70 degrees\nDIP and PIP in slight flexion (5°–10°)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

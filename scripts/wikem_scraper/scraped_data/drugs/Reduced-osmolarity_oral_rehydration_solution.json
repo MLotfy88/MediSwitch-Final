@@ -1,0 +1,123 @@
+{
+  "drug_name": "Reduced-osmolarity_oral_rehydration_solution",
+  "url": "https://wikem.org/wiki/Reduced-osmolarity_oral_rehydration_solution",
+  "scraped_at": "2026-01-10T08:01:17.927716",
+  "sections": {
+    "Background": {
+      "text": "This is the current ORS solution recommended for oral re-hydration of children and adults\nIn 2003, WHO and UNICEF recommended that the osmolarity of ORS be reduced from 311 to 245 mOsm/L .\n[1]\nNeed for unscheduled supplemental IV therapy in children given this solution was reduced by 33%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contents": {
+      "text": "Components:\n[2]\n2.6g NaCl\n2.9g Trisodium citrate\n1.5 g KCl\n13.5 g glucose\nper 1L of water\nSodium = 75 mEq/L\nGlucose = 75 mmol/L\nTotal osmolarity = 245 mOsm/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Preparations": {
+      "text": "",
+      "subsections": {
+        "Commercially_Available": {
+          "text": "Pedialyte\nRehydralyte\nInfalyte",
+          "tables": []
+        },
+        "Reduced-Osmolarity_ORS_Homemade_Solution": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Component": "Sugar",
+                "Amount": "6 level teaspoons",
+                "Grams": "25.2"
+              },
+              {
+                "Component": "Salt (NaCl)",
+                "Amount": "0.5 teaspoons",
+                "Grams": "2.1"
+              },
+              {
+                "Component": "Water",
+                "Amount": "1 liter",
+                "Grams": "1,000"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Commercially_Available": {
+      "text": "Pedialyte\nRehydralyte\nInfalyte",
+      "subsections": {
+        "Reduced-Osmolarity_ORS_Homemade_Solution": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Component": "Sugar",
+                "Amount": "6 level teaspoons",
+                "Grams": "25.2"
+              },
+              {
+                "Component": "Salt (NaCl)",
+                "Amount": "0.5 teaspoons",
+                "Grams": "2.1"
+              },
+              {
+                "Component": "Water",
+                "Amount": "1 liter",
+                "Grams": "1,000"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reduced-Osmolarity_ORS_Homemade_Solution": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Component": "Sugar",
+            "Amount": "6 level teaspoons",
+            "Grams": "25.2"
+          },
+          {
+            "Component": "Salt (NaCl)",
+            "Amount": "0.5 teaspoons",
+            "Grams": "2.1"
+          },
+          {
+            "Component": "Water",
+            "Amount": "1 liter",
+            "Grams": "1,000"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Directions": {
+      "text": "Should be encouraged to drink frequent, small sips\nEven patients who are vomiting can often be treated orally if they take small frequent sips\nVomiting frequently subsides acidosis is corrected",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Dehydration (peds)\nDiarrhea\nCholera",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "http://rehydrate.org/ors/low-osmolarity-ors.htm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
