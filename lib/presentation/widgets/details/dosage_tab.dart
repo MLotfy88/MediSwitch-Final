@@ -71,6 +71,33 @@ class DosageTab extends StatelessWidget {
           return Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              // --- DEBUG BANNER (REMOVE AFTER FIX) ---
+              Container(
+                padding: const EdgeInsets.all(8),
+                color: Colors.red[100],
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      "DEBUG INFO:",
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.red,
+                      ),
+                    ),
+                    Text("Drug ID: ${drug.id}"),
+                    Text("Guidelines Found: ${guidelines.length}"),
+                    Text("Primary Guideline ID: ${primary?.id}"),
+                    Text(
+                      "Has Structured Data: ${primary?.structuredDosage != null ? 'YES (${primary!.structuredDosage!.length} bytes)' : 'NO'}",
+                    ),
+                    Text(
+                      "Instruction Snippet: ${primary?.instructions?.substring(0, 20)}...",
+                    ),
+                  ],
+                ),
+              ),
+
               _StandardDoseCard(
                 guideline: primary,
                 drugForm: drug.dosageForm,
