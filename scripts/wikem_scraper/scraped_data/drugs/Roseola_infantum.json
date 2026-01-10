@@ -1,0 +1,385 @@
+{
+  "drug_name": "Roseola_infantum",
+  "url": "https://wikem.org/wiki/Roseola_infantum",
+  "scraped_at": "2026-01-10T08:01:38.238752",
+  "sections": {
+    "Background": {
+      "text": "Also known as Exanthem Subitum\nLikely caused by HHV-6",
+      "subsections": {
+        "Herpes_Virus_Types": {
+          "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Herpes_Virus_Types": {
+      "text": "HHV-1:\nHerpes Simplex Virus-1\nNeonatal HSV\nHHV-2:\nHerpes Simplex Virus-2\nNeonatal HSV\nHerpes B virus\nVaricella zoster virus\nVaricella\n(Chickenpox)\nHerpes zoster\n(Shingles)\nHerpes zoster ophthalmicus\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi’s sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "3-5d prodrome of high\nfever\n→ then defervescence → then rash for 1-2d\nRash\n- erythematous macular eruption of discrete, pink lesions\nMostly on neck, trunk, buttocks\nNo mucus membrane involvement\nLymphadenopathy\noften present\nOften erythematous tympanic membranes\nMay have sterile pyuria",
+      "subsections": {
+        "Complications": {
+          "text": "Seizures\nSeizure can occur in a small number of infants and children during the febrile phase\n[1]\nAseptic\nmeningitis\nEncephalitis\nThrombocytopenic\npurpura",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Thrombocytopenic",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Seizures\nSeizure can occur in a small number of infants and children during the febrile phase\n[1]\nAseptic\nmeningitis\nEncephalitis\nThrombocytopenic\npurpura",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Thrombocytopenic",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Pediatric_Rash": {
+      "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric Rashes",
+          "url": "https://wikem.org/wiki/Pediatric_Rashes"
+        }
+      ]
+    }
+  }
+}

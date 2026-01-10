@@ -1,0 +1,216 @@
+{
+  "drug_name": "Salivary_gland_diagnoses",
+  "url": "https://wikem.org/wiki/Salivary_gland_diagnoses",
+  "scraped_at": "2026-01-10T08:01:45.087313",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Salivary_gland_diagnoses": {
+          "text": "Parotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        }
+      ]
+    },
+    "Salivary_gland_diagnoses": {
+      "text": "Parotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_Swelling": {
+          "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Facial_Swelling": {
+      "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Oropharynx and Jaw Diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oropharynx and Jaw Diagnoses",
+          "url": "https://wikem.org/wiki/Oropharynx_and_Jaw_Diagnoses"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "drug_name": "STEMI_mimics",
+  "url": "https://wikem.org/wiki/STEMI_mimics",
+  "scraped_at": "2026-01-10T08:01:43.719428",
+  "sections": {
+    "Background": {
+      "text": "ST segment elevation is myocardial injury until proven otherwise\n1mm in two contiguous leads or Left Bundle Branch Block (LBBB) configuration meeting Sgarbossa criteria\nWhen STEMI is unlikely based on symptoms and demographics, consider other etiologies of ST elevation\nSerial EKGs helpful in observing evolution of STEMI pattern\nOnly 72% of patients with STEMI receive diagnosis in first 1.5h\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mnemonic": {
+      "text": "The mnemonic “ELEVATION”, can help you remember STEMI mimics\nE\nlectrolytes (\nHyperkalemia\n)\nL\neft Bundle Branch Block\nE\narly Repolarization\nV\nentricular Hypertrophy\n(Left)\nA\nneurysm (Ventricular)\nT\nhailand (\nBrugada Syndrome\n)\nI\nnflammation (\nPericarditis\n)\nO\nsborne (J) Waves (\nhypothermia\n)\nN\non-Ischemic Vasospasm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Left Bundle Branch Block",
+          "url": "https://wikem.org/wiki/LBBB"
+        },
+        {
+          "text": "Early Repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Ventricular Hypertrophy",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Aneurysm (Ventricular)",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Non-Ischemic Vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        }
+      ]
+    },
+    "ELEVATION": {
+      "text": "",
+      "subsections": {
+        "Electrolytes_(Hyperkalemia)": {
+          "text": "T waves are peaked without any concave-down (tombstone) ST elevation\nT waves of hyperkalemia should be tall, symmetrical, pointed, and narrow\nUntreated hyperkalemia will progress to a\nsinuventricular\nrhythm or a sine wave",
+          "tables": []
+        },
+        "Left_Bundle_Branch_Block": {
+          "text": "LBBB as well as any LBBB configuration (ex: RV pacing) can result in ST segment elevation, usually < 5mm\nUse\nSgarbossa Criteria\nto determine if there is a concurrent infarct\nIn addition, may look for\nCabrera’s sign\nor\nChapman’s sign\nif infarct is suspected, though both are specific but poorly sensitive\nRBBB does not typically give ST elevation, therefore in cases of RBBB, the usual STEMI rules apply",
+          "tables": []
+        },
+        "Early_Repolarization": {
+          "text": "Normal variant often seen in young athletes\nSynonymous with J-point elevation (though not to be confused with a J-wave) i.e. elevation of the point where the QRS usually meets the isoelectric line\nSome studies suggest an increased risk of VF in these patients, though the lifetime risk remains unclear\nElevation in this case should be concave and greatest in precordial leads",
+          "tables": []
+        },
+        "Ventricular_Hypertrophy_(Left_Ventricular_Hypertrophy)": {
+          "text": "LVH typically with ‘strain’ pattern\nST elevation should be:\nIn V1 - V3 only\nConcave\nDiscordant with deep S wave\nNot more than 2 mm elevated",
+          "tables": []
+        },
+        "Aneurysm_(Ventricular_Aneurysm)": {
+          "text": "After MI, walls of ventricles can become aneurysmal\nManifests as persistent ST elevation in territory of old infarct\nQ waves should be present in the leads with persistent ST elevation\nEcho is required for the final confirmation\nTakotsubo cardiomyopathy\n(broken heart syndrome) presents similarly",
+          "tables": []
+        },
+        "Thailand_(Brugada_Syndrome)": {
+          "text": "Cardiac sodium channel mutation (usually SCN5A) first described in Thailand in 1992\nMay be responsible for 4-5% of all sudden cardiac deaths\n3 described ECG types:\nTypes 1 and 2 more commonly give ST elevation\nType 3 has “saddle back” appearance without ST elevation\nCan be pharmacologically unveiled (ex: antiarrhythmics such as sodium channel blockers), precipitated by illness or fever, or be intermittent (will commonly see an incomplete RBBB pattern)",
+          "tables": []
+        },
+        "Inflammation_(Pericarditis)": {
+          "text": "Diffuse ST elevation\nIn acute presentation, there may be PR elevation and ST depression in aVR only, but this is poorly sensitive\nPR depression classically taught as EKG sign of pericarditis but may only occur in viral pericarditis\nConsider the diagnosis of STEMI in favor of pericarditis when: there is ST depression anywhere (except for V1, aVR), ST elevation height in III>II, there is a convex/horizontal ST elevation morphology, or when there are new Q waves\nIf predominantly inferior elevation, depression in aVL is very sensitive for STEMI\n[2]",
+          "tables": []
+        },
+        "Osborn_(J)_wave": {
+          "text": "Hypothermia, usually <30 C is associated with the presence of Osborn J waves\nPositive deflections at the J point.\nBradycardia (including AV block) and atrial fibrillation are also common in moderate and severe hypothermia\nHypothermic patients are at risk for VF",
+          "tables": []
+        },
+        "Non-Ischemic_Vasospasm": {
+          "text": "True ST elevation, in the sense that the ST elevation pattern is that of an injury current, but has a different mechanism and a different management\nCocaine-induced ST elevation secondary to vasospasm should be treated with benzodiazepines and nitrates as needed\nWhile it is possible to have a STEMI from a ruptured plaque and subsequent clot formation in a patient with cocaine toxicity, it is helpful to risk stratify patients with a suspected STEMI by age, risk-factors, etc\nIt may be impossible to tell by surface ECG (and therefore without a left heart catheterization) if the ST elevation is due to cocaine toxicity or due to plaque rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sgarbossa Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa_Criteria"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        }
+      ]
+    },
+    "Left_Bundle_Branch_Block": {
+      "text": "LBBB as well as any LBBB configuration (ex: RV pacing) can result in ST segment elevation, usually < 5mm\nUse\nSgarbossa Criteria\nto determine if there is a concurrent infarct\nIn addition, may look for\nCabrera’s sign\nor\nChapman’s sign\nif infarct is suspected, though both are specific but poorly sensitive\nRBBB does not typically give ST elevation, therefore in cases of RBBB, the usual STEMI rules apply",
+      "subsections": {
+        "Early_Repolarization": {
+          "text": "Normal variant often seen in young athletes\nSynonymous with J-point elevation (though not to be confused with a J-wave) i.e. elevation of the point where the QRS usually meets the isoelectric line\nSome studies suggest an increased risk of VF in these patients, though the lifetime risk remains unclear\nElevation in this case should be concave and greatest in precordial leads",
+          "tables": []
+        },
+        "Ventricular_Hypertrophy_(Left_Ventricular_Hypertrophy)": {
+          "text": "LVH typically with ‘strain’ pattern\nST elevation should be:\nIn V1 - V3 only\nConcave\nDiscordant with deep S wave\nNot more than 2 mm elevated",
+          "tables": []
+        },
+        "Aneurysm_(Ventricular_Aneurysm)": {
+          "text": "After MI, walls of ventricles can become aneurysmal\nManifests as persistent ST elevation in territory of old infarct\nQ waves should be present in the leads with persistent ST elevation\nEcho is required for the final confirmation\nTakotsubo cardiomyopathy\n(broken heart syndrome) presents similarly",
+          "tables": []
+        },
+        "Thailand_(Brugada_Syndrome)": {
+          "text": "Cardiac sodium channel mutation (usually SCN5A) first described in Thailand in 1992\nMay be responsible for 4-5% of all sudden cardiac deaths\n3 described ECG types:\nTypes 1 and 2 more commonly give ST elevation\nType 3 has “saddle back” appearance without ST elevation\nCan be pharmacologically unveiled (ex: antiarrhythmics such as sodium channel blockers), precipitated by illness or fever, or be intermittent (will commonly see an incomplete RBBB pattern)",
+          "tables": []
+        },
+        "Inflammation_(Pericarditis)": {
+          "text": "Diffuse ST elevation\nIn acute presentation, there may be PR elevation and ST depression in aVR only, but this is poorly sensitive\nPR depression classically taught as EKG sign of pericarditis but may only occur in viral pericarditis\nConsider the diagnosis of STEMI in favor of pericarditis when: there is ST depression anywhere (except for V1, aVR), ST elevation height in III>II, there is a convex/horizontal ST elevation morphology, or when there are new Q waves\nIf predominantly inferior elevation, depression in aVL is very sensitive for STEMI\n[2]",
+          "tables": []
+        },
+        "Osborn_(J)_wave": {
+          "text": "Hypothermia, usually <30 C is associated with the presence of Osborn J waves\nPositive deflections at the J point.\nBradycardia (including AV block) and atrial fibrillation are also common in moderate and severe hypothermia\nHypothermic patients are at risk for VF",
+          "tables": []
+        },
+        "Non-Ischemic_Vasospasm": {
+          "text": "True ST elevation, in the sense that the ST elevation pattern is that of an injury current, but has a different mechanism and a different management\nCocaine-induced ST elevation secondary to vasospasm should be treated with benzodiazepines and nitrates as needed\nWhile it is possible to have a STEMI from a ruptured plaque and subsequent clot formation in a patient with cocaine toxicity, it is helpful to risk stratify patients with a suspected STEMI by age, risk-factors, etc\nIt may be impossible to tell by surface ECG (and therefore without a left heart catheterization) if the ST elevation is due to cocaine toxicity or due to plaque rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sgarbossa Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa_Criteria"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        }
+      ]
+    },
+    "Early_Repolarization": {
+      "text": "Normal variant often seen in young athletes\nSynonymous with J-point elevation (though not to be confused with a J-wave) i.e. elevation of the point where the QRS usually meets the isoelectric line\nSome studies suggest an increased risk of VF in these patients, though the lifetime risk remains unclear\nElevation in this case should be concave and greatest in precordial leads",
+      "subsections": {
+        "Ventricular_Hypertrophy_(Left_Ventricular_Hypertrophy)": {
+          "text": "LVH typically with ‘strain’ pattern\nST elevation should be:\nIn V1 - V3 only\nConcave\nDiscordant with deep S wave\nNot more than 2 mm elevated",
+          "tables": []
+        },
+        "Aneurysm_(Ventricular_Aneurysm)": {
+          "text": "After MI, walls of ventricles can become aneurysmal\nManifests as persistent ST elevation in territory of old infarct\nQ waves should be present in the leads with persistent ST elevation\nEcho is required for the final confirmation\nTakotsubo cardiomyopathy\n(broken heart syndrome) presents similarly",
+          "tables": []
+        },
+        "Thailand_(Brugada_Syndrome)": {
+          "text": "Cardiac sodium channel mutation (usually SCN5A) first described in Thailand in 1992\nMay be responsible for 4-5% of all sudden cardiac deaths\n3 described ECG types:\nTypes 1 and 2 more commonly give ST elevation\nType 3 has “saddle back” appearance without ST elevation\nCan be pharmacologically unveiled (ex: antiarrhythmics such as sodium channel blockers), precipitated by illness or fever, or be intermittent (will commonly see an incomplete RBBB pattern)",
+          "tables": []
+        },
+        "Inflammation_(Pericarditis)": {
+          "text": "Diffuse ST elevation\nIn acute presentation, there may be PR elevation and ST depression in aVR only, but this is poorly sensitive\nPR depression classically taught as EKG sign of pericarditis but may only occur in viral pericarditis\nConsider the diagnosis of STEMI in favor of pericarditis when: there is ST depression anywhere (except for V1, aVR), ST elevation height in III>II, there is a convex/horizontal ST elevation morphology, or when there are new Q waves\nIf predominantly inferior elevation, depression in aVL is very sensitive for STEMI\n[2]",
+          "tables": []
+        },
+        "Osborn_(J)_wave": {
+          "text": "Hypothermia, usually <30 C is associated with the presence of Osborn J waves\nPositive deflections at the J point.\nBradycardia (including AV block) and atrial fibrillation are also common in moderate and severe hypothermia\nHypothermic patients are at risk for VF",
+          "tables": []
+        },
+        "Non-Ischemic_Vasospasm": {
+          "text": "True ST elevation, in the sense that the ST elevation pattern is that of an injury current, but has a different mechanism and a different management\nCocaine-induced ST elevation secondary to vasospasm should be treated with benzodiazepines and nitrates as needed\nWhile it is possible to have a STEMI from a ruptured plaque and subsequent clot formation in a patient with cocaine toxicity, it is helpful to risk stratify patients with a suspected STEMI by age, risk-factors, etc\nIt may be impossible to tell by surface ECG (and therefore without a left heart catheterization) if the ST elevation is due to cocaine toxicity or due to plaque rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        }
+      ]
+    },
+    "Non-Ischemic_Vasospasm": {
+      "text": "True ST elevation, in the sense that the ST elevation pattern is that of an injury current, but has a different mechanism and a different management\nCocaine-induced ST elevation secondary to vasospasm should be treated with benzodiazepines and nitrates as needed\nWhile it is possible to have a STEMI from a ruptured plaque and subsequent clot formation in a patient with cocaine toxicity, it is helpful to risk stratify patients with a suspected STEMI by age, risk-factors, etc\nIt may be impossible to tell by surface ECG (and therefore without a left heart catheterization) if the ST elevation is due to cocaine toxicity or due to plaque rupture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ST-Elevation Myocardial Infarction (STEMI)\nST segment elevation\nSTEMI equivalents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-Elevation Myocardial Infarction (STEMI)",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "ST segment elevation",
+          "url": "https://wikem.org/wiki/ST_segment_elevation"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        }
+      ]
+    }
+  }
+}

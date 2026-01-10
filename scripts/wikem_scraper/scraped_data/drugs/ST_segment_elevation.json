@@ -1,0 +1,555 @@
+{
+  "drug_name": "ST_segment_elevation",
+  "url": "https://wikem.org/wiki/ST_segment_elevation",
+  "scraped_at": "2026-01-10T08:01:43.345229",
+  "sections": {
+    "Background": {
+      "text": "Its presence must be explained (there is no \"nonspecific ST elevation\")\nNot specific only to\nSTEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Depends on underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "ST_Elevation": {
+          "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "ST_Elevation": {
+      "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Early_Repolarization_versus_STEMI": {
+          "text": "Early Repolarization suggested by:\nST elevation <4mm\nNotched J point\nConcave or saddle-back ST morphology\nNo reciprocal changes\nConsistent over short term\nYoung patient without risk factors",
+          "tables": []
+        },
+        "LVH_versus_STEMI": {
+          "text": "Difficult to exclude MI in patient with LVH (patients with LVH are already at risk for MI)\nBest aid is prior ECG or serial ECGs",
+          "tables": []
+        },
+        "LBBB_versus_STEMI": {
+          "text": "See\nSgarbossa's Criteria",
+          "tables": []
+        },
+        "STEMI": {
+          "text": "ST elevation in those leads that reflect the distribution of a single coronary artery\nRCA: II, III, aVF (inferior)\nLAD: V1-V4 (antero-septal)\nCircumflex: V5-V6, I, aVL (lateral)\nDominant left circulation: infero-lateral\nST morphology\nConcave up versus convex\nConvex has Sp 97%, Sn 77%\nLook for reciprocal ST depression\n35% of anterior STEMI have ST depression in inferior leads\n80% of inferior STEMI have ST depression in anterior leads\nHowever, may represent reciprocal changes\nOR\nposterior STEMI",
+          "tables": []
+        },
+        "Reciprocal_Changes": {
+          "text": "Anterior STEMI\nReciprocal ST-segment depression in at least one of leads II, III, aVF\nOccurs in 40-70% of cases\nInferior STEMI\nReciprocal ST-segment depression usually present in I, aVL; often in V1-V3\nOccurs in 56% of cases\nPosterior STEMI\nReciprocal ST-segment depression in V1-V4\nDifferentiate from inf STEMI reciprocal depression based on upright T waves, posterior leads showing STEMI\nOften associated with ST-segment elevation in II, III, aVF (inferior involvement)",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa%27s_Criteria"
+        }
+      ]
+    },
+    "Early_Repolarization_versus_STEMI": {
+      "text": "Early Repolarization suggested by:\nST elevation <4mm\nNotched J point\nConcave or saddle-back ST morphology\nNo reciprocal changes\nConsistent over short term\nYoung patient without risk factors",
+      "subsections": {
+        "LVH_versus_STEMI": {
+          "text": "Difficult to exclude MI in patient with LVH (patients with LVH are already at risk for MI)\nBest aid is prior ECG or serial ECGs",
+          "tables": []
+        },
+        "LBBB_versus_STEMI": {
+          "text": "See\nSgarbossa's Criteria",
+          "tables": []
+        },
+        "STEMI": {
+          "text": "ST elevation in those leads that reflect the distribution of a single coronary artery\nRCA: II, III, aVF (inferior)\nLAD: V1-V4 (antero-septal)\nCircumflex: V5-V6, I, aVL (lateral)\nDominant left circulation: infero-lateral\nST morphology\nConcave up versus convex\nConvex has Sp 97%, Sn 77%\nLook for reciprocal ST depression\n35% of anterior STEMI have ST depression in inferior leads\n80% of inferior STEMI have ST depression in anterior leads\nHowever, may represent reciprocal changes\nOR\nposterior STEMI",
+          "tables": []
+        },
+        "Reciprocal_Changes": {
+          "text": "Anterior STEMI\nReciprocal ST-segment depression in at least one of leads II, III, aVF\nOccurs in 40-70% of cases\nInferior STEMI\nReciprocal ST-segment depression usually present in I, aVL; often in V1-V3\nOccurs in 56% of cases\nPosterior STEMI\nReciprocal ST-segment depression in V1-V4\nDifferentiate from inf STEMI reciprocal depression based on upright T waves, posterior leads showing STEMI\nOften associated with ST-segment elevation in II, III, aVF (inferior involvement)",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa%27s_Criteria"
+        }
+      ]
+    },
+    "LVH_versus_STEMI": {
+      "text": "Difficult to exclude MI in patient with LVH (patients with LVH are already at risk for MI)\nBest aid is prior ECG or serial ECGs",
+      "subsections": {
+        "LBBB_versus_STEMI": {
+          "text": "See\nSgarbossa's Criteria",
+          "tables": []
+        },
+        "STEMI": {
+          "text": "ST elevation in those leads that reflect the distribution of a single coronary artery\nRCA: II, III, aVF (inferior)\nLAD: V1-V4 (antero-septal)\nCircumflex: V5-V6, I, aVL (lateral)\nDominant left circulation: infero-lateral\nST morphology\nConcave up versus convex\nConvex has Sp 97%, Sn 77%\nLook for reciprocal ST depression\n35% of anterior STEMI have ST depression in inferior leads\n80% of inferior STEMI have ST depression in anterior leads\nHowever, may represent reciprocal changes\nOR\nposterior STEMI",
+          "tables": []
+        },
+        "Reciprocal_Changes": {
+          "text": "Anterior STEMI\nReciprocal ST-segment depression in at least one of leads II, III, aVF\nOccurs in 40-70% of cases\nInferior STEMI\nReciprocal ST-segment depression usually present in I, aVL; often in V1-V3\nOccurs in 56% of cases\nPosterior STEMI\nReciprocal ST-segment depression in V1-V4\nDifferentiate from inf STEMI reciprocal depression based on upright T waves, posterior leads showing STEMI\nOften associated with ST-segment elevation in II, III, aVF (inferior involvement)",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa%27s_Criteria"
+        }
+      ]
+    },
+    "LBBB_versus_STEMI": {
+      "text": "See\nSgarbossa's Criteria",
+      "subsections": {
+        "STEMI": {
+          "text": "ST elevation in those leads that reflect the distribution of a single coronary artery\nRCA: II, III, aVF (inferior)\nLAD: V1-V4 (antero-septal)\nCircumflex: V5-V6, I, aVL (lateral)\nDominant left circulation: infero-lateral\nST morphology\nConcave up versus convex\nConvex has Sp 97%, Sn 77%\nLook for reciprocal ST depression\n35% of anterior STEMI have ST depression in inferior leads\n80% of inferior STEMI have ST depression in anterior leads\nHowever, may represent reciprocal changes\nOR\nposterior STEMI",
+          "tables": []
+        },
+        "Reciprocal_Changes": {
+          "text": "Anterior STEMI\nReciprocal ST-segment depression in at least one of leads II, III, aVF\nOccurs in 40-70% of cases\nInferior STEMI\nReciprocal ST-segment depression usually present in I, aVL; often in V1-V3\nOccurs in 56% of cases\nPosterior STEMI\nReciprocal ST-segment depression in V1-V4\nDifferentiate from inf STEMI reciprocal depression based on upright T waves, posterior leads showing STEMI\nOften associated with ST-segment elevation in II, III, aVF (inferior involvement)",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa%27s_Criteria"
+        }
+      ]
+    },
+    "STEMI": {
+      "text": "ST elevation in those leads that reflect the distribution of a single coronary artery\nRCA: II, III, aVF (inferior)\nLAD: V1-V4 (antero-septal)\nCircumflex: V5-V6, I, aVL (lateral)\nDominant left circulation: infero-lateral\nST morphology\nConcave up versus convex\nConvex has Sp 97%, Sn 77%\nLook for reciprocal ST depression\n35% of anterior STEMI have ST depression in inferior leads\n80% of inferior STEMI have ST depression in anterior leads\nHowever, may represent reciprocal changes\nOR\nposterior STEMI",
+      "subsections": {
+        "Reciprocal_Changes": {
+          "text": "Anterior STEMI\nReciprocal ST-segment depression in at least one of leads II, III, aVF\nOccurs in 40-70% of cases\nInferior STEMI\nReciprocal ST-segment depression usually present in I, aVL; often in V1-V3\nOccurs in 56% of cases\nPosterior STEMI\nReciprocal ST-segment depression in V1-V4\nDifferentiate from inf STEMI reciprocal depression based on upright T waves, posterior leads showing STEMI\nOften associated with ST-segment elevation in II, III, aVF (inferior involvement)",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "STEMI_Stages_of_Development": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Stage": "1",
+            "Duration": "",
+            "Timing": "30min - hours",
+            "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+            "ECG": "Normalizes in days, weeks, or months"
+          },
+          {
+            "Stage": "2",
+            "Duration": "",
+            "Timing": "Minutes - hours",
+            "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+            "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+          },
+          {
+            "Stage": "3",
+            "Duration": "",
+            "Timing": "Within 1hr; completed within 8-12hr",
+            "Finding": "Q waves",
+            "ECG": "Persist indefinitely in 70% of cases"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ECG (Main)\nSTEMI equivalents\nSTEMI mimics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        },
+        {
+          "text": "STEMI mimics",
+          "url": "https://wikem.org/wiki/STEMI_mimics"
+        }
+      ]
+    }
+  }
+}

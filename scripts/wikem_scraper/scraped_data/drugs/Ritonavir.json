@@ -1,0 +1,303 @@
+{
+  "drug_name": "Ritonavir",
+  "url": "https://wikem.org/wiki/Ritonavir",
+  "scraped_at": "2026-01-10T08:01:37.355709",
+  "sections": {
+    "Background": {
+      "text": "Ritonavir is usually given in combination with\nlopinavir\nfor both treatment of\nHIV\nand\nHIV post-exposure prophylaxis\n. It is currently being studied in the use of\nCOVID-19\nas well.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lopinavir",
+          "url": "https://wikem.org/wiki/Lopinavir"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Type:\nAntiviral\nDosage Forms: 100 mg\nRoutes of Administration: PO\nCommon Trade Names: Norvir",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "HIV Treatment\nProtease inhibitor boosting\n100-400 mg/day QD-BID\nSole protease inhibitor\n600 mg PO BID\nStart with 300 mg PO BID, increased by 200 mg/day every 2-3 days\nHIV post-exposure prophylaxis\n100 mg PO QID\nPart of multi-drug regimen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "HIV Treatment\nCan be given in >1 month old, dosing varies based on other concominant treatments\nHIV post-exposure prophylaxis\nCan be given in >3 years old,  dosing varies based on other concominant treatments",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "HIV: Benefits outweight risk during pregnancy. Avoid oral solution due to alcohol content.",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined, but likely no adjustment as in adults",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined\nPediatric:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "HIV: Benefits outweight risk during pregnancy. Avoid oral solution due to alcohol content.",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined, but likely no adjustment as in adults",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined\nPediatric:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Avoid breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined, but likely no adjustment as in adults",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined\nPediatric:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Not defined, but likely no adjustment as in adults",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined\nPediatric:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined\nPediatric:\nMild-moderate impairment: no adjustment\nSevere impairment: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nPancreatitis\nGI bleed\nHypersensitivity reaction\nAnaphylaxis\nToxic epidermal necrolysis\nStevens-Johnson syndrome\nPR prolongation/AV block\nHypercholesterolemia/hypertriglyceridemia\nDiabetes mellitus\n/hyperglycemia\nImmune reconstitution syndrome\nAutoimmune disorders\nHypertension\nSyncope\nOrthostatic hypotension\nMyopathy\nThrombocytopenia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\nDiarrhea\nParesthesia\nFatigue\nRash\nAbdominal pain\nCough\nDysgeusia\nOropharyngeal pain\nDizziness\nAST, ALT, CK elevation\nEdema\nAcne\nLipodystrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Immune reconstitution syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nPancreatitis\nGI bleed\nHypersensitivity reaction\nAnaphylaxis\nToxic epidermal necrolysis\nStevens-Johnson syndrome\nPR prolongation/AV block\nHypercholesterolemia/hypertriglyceridemia\nDiabetes mellitus\n/hyperglycemia\nImmune reconstitution syndrome\nAutoimmune disorders\nHypertension\nSyncope\nOrthostatic hypotension\nMyopathy\nThrombocytopenia",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\nDiarrhea\nParesthesia\nFatigue\nRash\nAbdominal pain\nCough\nDysgeusia\nOropharyngeal pain\nDizziness\nAST, ALT, CK elevation\nEdema\nAcne\nLipodystrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Immune reconstitution syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_syndrome"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\nDiarrhea\nParesthesia\nFatigue\nRash\nAbdominal pain\nCough\nDysgeusia\nOropharyngeal pain\nDizziness\nAST, ALT, CK elevation\nEdema\nAcne\nLipodystrophy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-5 hours\nMetabolism: Liver (CYP450)\nExcretion: Fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to active site of HIV protease, preventing maturation of the virus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "A trial of\nlopinavir\n/\nritonavir\nis currently being done to study use in\nCOVID-19\n. So far, studies have not shown significant benefit in time to clinical improvement. Mortality at 28 days is lower but not statistically significant.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lopinavir",
+          "url": "https://wikem.org/wiki/Lopinavir"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Lopinavir\nHIV\nHIV post-exposure prophylaxis\nCoronavirus\nCOVID-19",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lopinavir",
+          "url": "https://wikem.org/wiki/Lopinavir"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HIV post-exposure prophylaxis",
+          "url": "https://wikem.org/wiki/HIV_post-exposure_prophylaxis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    }
+  }
+}

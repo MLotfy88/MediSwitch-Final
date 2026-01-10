@@ -1,0 +1,190 @@
+{
+  "drug_name": "STEMI_equivalents",
+  "url": "https://wikem.org/wiki/STEMI_equivalents",
+  "scraped_at": "2026-01-10T08:01:45.171904",
+  "sections": {
+    "Background": {
+      "text": "STEMI typically defined by\n[1]\n:\n≥1 mm (0.1 mV) ST segment elevation in limb leads\n≥ 2 mm ST segment elevation in precordial leads\nFindings present in at least 2 anatomically contiguous leads\nSeveral variations from the classic STEMI ECG changes are similarly concerning and considered 'STEMI equivalent'",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "STEMI_Equivalents": {
+      "text": "",
+      "subsections": {
+        "Posterior_MI": {
+          "text": "RCA (90%), LCA (10%)\n12-Lead ECG findings\n[2]\nST-segment depression (horizontal >> downsloping/upsloping)\nProminent and broad R wave (>30ms)\nRelative tall R waves in precordial leads (may find R = S amplitude in V1)\nR/S wave ratio >1.0 in lead V2\nProminent, upright T wave\nCombination of horizontal ST-segment depression with upright T wave\nPosterior ECG or 15-lead ECG may be helpful\nV7: Left posterior axillary line along the 5th ICS\nV8: Tip of the left scapula line along the 5th ICS\nV9: Left paraspinal area line along the 5th ICS\nPosterior ECG findings\n≥0.5 mm ST-segment elevation",
+          "tables": []
+        },
+        "LMCA_Occlusion": {
+          "text": "Seen with left main artery lesion\n[3]\nAlso reported in proximal LAD lesions and severe multivessel coronary artery disease\n12-Lead ECG findings\nST elevation in aVR ≥ 1mm\nST elevation in aVR ≥ V1\nST depression typically seen in lateral",
+          "tables": []
+        },
+        "De_Winter’s_T_Waves": {
+          "text": "Suggests proximal LAD lesion\n12-Lead ECG findings\n[4]\nPrecordial ST-segment depression at the J-point\nTall, peaked, symmetric T waves in the precordial leads\nLead aVR shows slight ST-segment elevation in most cases",
+          "tables": []
+        },
+        "Sgarbossa's_Criteria": {
+          "text": "Used to identify STEMI in the setting of LBBB or pacemaker\nOriginal Criteria\n[5]\n≥3 points = 98% probability of STEMI\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nSmith's modification\n[6]\nChanges the 3rd rule of original Sgarbossa's Criteria to be ST depression\nOR\nelevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%[",
+          "tables": []
+        },
+        "Wellens’_Syndrome": {
+          "text": "ECG\nfindings in absence of chest pain, but with recent cardiac chest pain symptoms\nRepresents critical stenosis of the LAD\nRequires PCI in the next 24-48hr (may evolve more rapidly - observe with serial ECGs)\n12-Lead ECG findings\n[7]\nDeeply-inverted or biphasic T waves in V2-3\nIsoelectric or minimally-elevated ST segment (<1 mm)\nAbsent precordial Q waves with preserved R waves\nTwo T wave characteristics:\nType A: Biphasic pattern - 25% - Biphasic T-waves\nType B: Inversion pattern - 75% - Deeply inverted and symmetric T-waves",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Posterior_MI": {
+      "text": "RCA (90%), LCA (10%)\n12-Lead ECG findings\n[2]\nST-segment depression (horizontal >> downsloping/upsloping)\nProminent and broad R wave (>30ms)\nRelative tall R waves in precordial leads (may find R = S amplitude in V1)\nR/S wave ratio >1.0 in lead V2\nProminent, upright T wave\nCombination of horizontal ST-segment depression with upright T wave\nPosterior ECG or 15-lead ECG may be helpful\nV7: Left posterior axillary line along the 5th ICS\nV8: Tip of the left scapula line along the 5th ICS\nV9: Left paraspinal area line along the 5th ICS\nPosterior ECG findings\n≥0.5 mm ST-segment elevation",
+      "subsections": {
+        "LMCA_Occlusion": {
+          "text": "Seen with left main artery lesion\n[3]\nAlso reported in proximal LAD lesions and severe multivessel coronary artery disease\n12-Lead ECG findings\nST elevation in aVR ≥ 1mm\nST elevation in aVR ≥ V1\nST depression typically seen in lateral",
+          "tables": []
+        },
+        "De_Winter’s_T_Waves": {
+          "text": "Suggests proximal LAD lesion\n12-Lead ECG findings\n[4]\nPrecordial ST-segment depression at the J-point\nTall, peaked, symmetric T waves in the precordial leads\nLead aVR shows slight ST-segment elevation in most cases",
+          "tables": []
+        },
+        "Sgarbossa's_Criteria": {
+          "text": "Used to identify STEMI in the setting of LBBB or pacemaker\nOriginal Criteria\n[5]\n≥3 points = 98% probability of STEMI\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nSmith's modification\n[6]\nChanges the 3rd rule of original Sgarbossa's Criteria to be ST depression\nOR\nelevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%[",
+          "tables": []
+        },
+        "Wellens’_Syndrome": {
+          "text": "ECG\nfindings in absence of chest pain, but with recent cardiac chest pain symptoms\nRepresents critical stenosis of the LAD\nRequires PCI in the next 24-48hr (may evolve more rapidly - observe with serial ECGs)\n12-Lead ECG findings\n[7]\nDeeply-inverted or biphasic T waves in V2-3\nIsoelectric or minimally-elevated ST segment (<1 mm)\nAbsent precordial Q waves with preserved R waves\nTwo T wave characteristics:\nType A: Biphasic pattern - 25% - Biphasic T-waves\nType B: Inversion pattern - 75% - Deeply inverted and symmetric T-waves",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "LMCA_Occlusion": {
+      "text": "Seen with left main artery lesion\n[3]\nAlso reported in proximal LAD lesions and severe multivessel coronary artery disease\n12-Lead ECG findings\nST elevation in aVR ≥ 1mm\nST elevation in aVR ≥ V1\nST depression typically seen in lateral",
+      "subsections": {
+        "De_Winter’s_T_Waves": {
+          "text": "Suggests proximal LAD lesion\n12-Lead ECG findings\n[4]\nPrecordial ST-segment depression at the J-point\nTall, peaked, symmetric T waves in the precordial leads\nLead aVR shows slight ST-segment elevation in most cases",
+          "tables": []
+        },
+        "Sgarbossa's_Criteria": {
+          "text": "Used to identify STEMI in the setting of LBBB or pacemaker\nOriginal Criteria\n[5]\n≥3 points = 98% probability of STEMI\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nSmith's modification\n[6]\nChanges the 3rd rule of original Sgarbossa's Criteria to be ST depression\nOR\nelevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%[",
+          "tables": []
+        },
+        "Wellens’_Syndrome": {
+          "text": "ECG\nfindings in absence of chest pain, but with recent cardiac chest pain symptoms\nRepresents critical stenosis of the LAD\nRequires PCI in the next 24-48hr (may evolve more rapidly - observe with serial ECGs)\n12-Lead ECG findings\n[7]\nDeeply-inverted or biphasic T waves in V2-3\nIsoelectric or minimally-elevated ST segment (<1 mm)\nAbsent precordial Q waves with preserved R waves\nTwo T wave characteristics:\nType A: Biphasic pattern - 25% - Biphasic T-waves\nType B: Inversion pattern - 75% - Deeply inverted and symmetric T-waves",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "De_Winter’s_T_Waves": {
+      "text": "Suggests proximal LAD lesion\n12-Lead ECG findings\n[4]\nPrecordial ST-segment depression at the J-point\nTall, peaked, symmetric T waves in the precordial leads\nLead aVR shows slight ST-segment elevation in most cases",
+      "subsections": {
+        "Sgarbossa's_Criteria": {
+          "text": "Used to identify STEMI in the setting of LBBB or pacemaker\nOriginal Criteria\n[5]\n≥3 points = 98% probability of STEMI\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nSmith's modification\n[6]\nChanges the 3rd rule of original Sgarbossa's Criteria to be ST depression\nOR\nelevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%[",
+          "tables": []
+        },
+        "Wellens’_Syndrome": {
+          "text": "ECG\nfindings in absence of chest pain, but with recent cardiac chest pain symptoms\nRepresents critical stenosis of the LAD\nRequires PCI in the next 24-48hr (may evolve more rapidly - observe with serial ECGs)\n12-Lead ECG findings\n[7]\nDeeply-inverted or biphasic T waves in V2-3\nIsoelectric or minimally-elevated ST segment (<1 mm)\nAbsent precordial Q waves with preserved R waves\nTwo T wave characteristics:\nType A: Biphasic pattern - 25% - Biphasic T-waves\nType B: Inversion pattern - 75% - Deeply inverted and symmetric T-waves",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Sgarbossa's_Criteria": {
+      "text": "Used to identify STEMI in the setting of LBBB or pacemaker\nOriginal Criteria\n[5]\n≥3 points = 98% probability of STEMI\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nSmith's modification\n[6]\nChanges the 3rd rule of original Sgarbossa's Criteria to be ST depression\nOR\nelevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%[",
+      "subsections": {
+        "Wellens’_Syndrome": {
+          "text": "ECG\nfindings in absence of chest pain, but with recent cardiac chest pain symptoms\nRepresents critical stenosis of the LAD\nRequires PCI in the next 24-48hr (may evolve more rapidly - observe with serial ECGs)\n12-Lead ECG findings\n[7]\nDeeply-inverted or biphasic T waves in V2-3\nIsoelectric or minimally-elevated ST segment (<1 mm)\nAbsent precordial Q waves with preserved R waves\nTwo T wave characteristics:\nType A: Biphasic pattern - 25% - Biphasic T-waves\nType B: Inversion pattern - 75% - Deeply inverted and symmetric T-waves",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Wellens’_Syndrome": {
+      "text": "ECG\nfindings in absence of chest pain, but with recent cardiac chest pain symptoms\nRepresents critical stenosis of the LAD\nRequires PCI in the next 24-48hr (may evolve more rapidly - observe with serial ECGs)\n12-Lead ECG findings\n[7]\nDeeply-inverted or biphasic T waves in V2-3\nIsoelectric or minimally-elevated ST segment (<1 mm)\nAbsent precordial Q waves with preserved R waves\nTwo T wave characteristics:\nType A: Biphasic pattern - 25% - Biphasic T-waves\nType B: Inversion pattern - 75% - Deeply inverted and symmetric T-waves",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "No_Longer_STEMI_Equivalents": {
+      "text": "",
+      "subsections": {
+        "New_LBBB": {
+          "text": "New LBBB alone is no longer a reason to activate the cath lab\n[8]\nHowever, careful workup for ACS should be taken for symptomatic patients with LBBB\n12-Lead ECG findings\nQRS > 0.12 in limb leads\nLeads\nLarge and wide R waves — leads I, aVL, V5, and V6\nSmall R wave followed by deep S wave —leads II, III, aVF, V1–V3",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "New_LBBB": {
+      "text": "New LBBB alone is no longer a reason to activate the cath lab\n[8]\nHowever, careful workup for ACS should be taken for symptomatic patients with LBBB\n12-Lead ECG findings\nQRS > 0.12 in limb leads\nLeads\nLarge and wide R waves — leads I, aVL, V5, and V6\nSmall R wave followed by deep S wave —leads II, III, aVF, V1–V3",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Amal Mattu ECG Case: April 29 2012",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ST-segment elevation myocardial infarction\nAcute Coronary Syndrome (Main)\nChest pain\nECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    }
+  }
+}

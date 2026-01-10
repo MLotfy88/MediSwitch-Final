@@ -1,0 +1,130 @@
+{
+  "drug_name": "SNRI_Toxicity",
+  "url": "https://wikem.org/wiki/SNRI_Toxicity",
+  "scraped_at": "2026-01-10T08:01:39.026520",
+  "sections": {
+    "Background": {
+      "text": "Inhibits reuptake of serotonin, norepinephrine and small effect on dopamine\nExamples:\nvenlafaxine\n,\nduloxetine\nAdverse effects similar to\nSSRIs\n, but more dangerous\nVenlafaxine\n(Effexor)\nCan produce mild to moderate hypertension\nDuloxetine\n(Cymbalta)\nNausea, vomiting, dizziness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        },
+        {
+          "text": "SSRIs",
+          "url": "https://wikem.org/wiki/SSRIs"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sympathomimetic: tachycardia, hypertension, diaphoresis, tremor, mydriasis\nSecondary to inhibition of norepinephrine reuptake\nSedation\nSeizures\nMore common than with\nSSRI toxicity\nAlso common with\nvenlafaxine\nand\nbupropion\nRhabdomyolysis\n25% occur without seizures\nECG\nMost common abnormality: sinus tachycardia\nMay see QRS widening, QT prolongation and ventricular dysrhythmias\nSerotonin syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "SSRI toxicity",
+          "url": "https://wikem.org/wiki/SSRI_toxicity"
+        },
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Suggestive history with appropriate clinical features\nECG\nAssess for\nrhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive Care\nCardiac monitoring\nSodium bicarbonate\nif widened QRS\nIV fluids for hypotension (\nnorepinephrine\nif refractory)\nBenzodiapazines\nfor seizures\nGI Decontamination\nA single dose of\nactivated charcoal\n, 1 g/kg (typical adult dose is 50 g), may be given to a patient who presents within one to two hours of ingestion.\nAC should not be given to patients at risk for aspiration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Benzodiapazines",
+          "url": "https://wikem.org/wiki/Benzodiapazines"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all symptomatic patients to a monitored bed\nMonitor for 6 hours, longer for extended-release preparations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "SSRI Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SSRI Toxicity",
+          "url": "https://wikem.org/wiki/SSRI_Toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Mills K. Atypical Antidepressants, Serotonin Reuptake Inhibitors, and Serotonin Syndrome In: Tintinalli's Emergency Medicine. 7th ed. McGraw Hill. 2011:1198-2002",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "drug_name": "Sarilumab",
+  "url": "https://wikem.org/wiki/Sarilumab",
+  "scraped_at": "2026-01-10T08:01:43.548005",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "COVID": {
+          "text": "Use the single-dose, prefilled syringe (not the prefilled pen) for SQ injection\n[1]\nReconstitute sarilumab 400 mg in 100 cc 0.9% NaCl and administer as an IV infusion over 1 hour\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "COVID": {
+      "text": "Use the single-dose, prefilled syringe (not the prefilled pen) for SQ injection\n[1]\nReconstitute sarilumab 400 mg in 100 cc 0.9% NaCl and administer as an IV infusion over 1 hour\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Use as an alternative immunomodulatory drug if tocilizumab is not available or not feasible to use (BIIa).\nIn the United States, the currently approved route of administration for sarilumab is SQ injection. In the REMAP-CAP trial, the SQ formulation was used to prepare the IV infusion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

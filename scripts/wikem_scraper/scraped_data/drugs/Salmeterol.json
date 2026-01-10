@@ -1,0 +1,106 @@
+{
+  "drug_name": "Salmeterol",
+  "url": "https://wikem.org/wiki/Salmeterol",
+  "scraped_at": "2026-01-10T08:01:46.767614",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nBeta-2 agonist\n, bronchodilator\nDosage Forms:\nRoutes of Administration: Inhalation\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-2 agonist",
+          "url": "https://wikem.org/wiki/Beta-2_agonist"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1 oral inhalation (50mcg) q12h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">4yo: 1 oral inhalation (50mcg) q12h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Severe asthma exacerbation, asthma-related death\nProlonged QT interval",
+          "tables": []
+        },
+        "Common": {
+          "text": "Musculoskeletal pain\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Severe asthma exacerbation, asthma-related death\nProlonged QT interval",
+      "subsections": {
+        "Common": {
+          "text": "Musculoskeletal pain\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Musculoskeletal pain\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5.5h\nMetabolism: Hepatic\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Long-acting beta-2 agonist, stimulates adenyl cyclase→ increased levels of cyclic AMP→ bronchial smooth muscle relaxation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta-2 agonist",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-2 agonist",
+          "url": "https://wikem.org/wiki/Beta-2_agonist"
+        }
+      ]
+    }
+  }
+}

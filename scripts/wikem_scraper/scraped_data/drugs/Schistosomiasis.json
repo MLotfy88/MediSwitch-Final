@@ -1,0 +1,271 @@
+{
+  "drug_name": "Schistosomiasis",
+  "url": "https://wikem.org/wiki/Schistosomiasis",
+  "scraped_at": "2026-01-10T08:01:50.542245",
+  "sections": {
+    "Background": {
+      "text": "Caused by parasitic trematodes of the species Schistosoma\nReservoir is freshwater snails\nEndemic in areas of Africa and Southern Asia\nThe Cercariae (the stage of trematode released by the snail) can infect by direct penetration through the skin\nInfects >200million people worldwide with 10% suffering severe consequences",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Cutaneous\nrash\n/\npruritus\nfrom cercariae penetration (immediate)\nKatayama fever\nFever\n,\nabdominal pain\n,\nfatigue\n,\ncough\n,\ndiarrhea\n,\neosinophilia\nLasts 4-8 weeks",
+          "tables": []
+        },
+        "Chronic_(mostly_a_chronic_condition)": {
+          "text": "Second most common cause of\nesophageal varices\nworldwide\nGreatly elevated bladder cancer rates in endemic areas\nCan cause\nrenal failure\n,\nliver failure\n,\npulmonary hypertension\n,\nGI bleeds\nand rarely CNS symptoms\nMostly through fibrosis of affected organs\nGenitourinary schistosomiasis\nCaused by sores in the genital tract\nMay persist even after treatment\nGreatly increases risk of\nHIV\ninfection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "GI bleeds",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Cutaneous\nrash\n/\npruritus\nfrom cercariae penetration (immediate)\nKatayama fever\nFever\n,\nabdominal pain\n,\nfatigue\n,\ncough\n,\ndiarrhea\n,\neosinophilia\nLasts 4-8 weeks",
+      "subsections": {
+        "Chronic_(mostly_a_chronic_condition)": {
+          "text": "Second most common cause of\nesophageal varices\nworldwide\nGreatly elevated bladder cancer rates in endemic areas\nCan cause\nrenal failure\n,\nliver failure\n,\npulmonary hypertension\n,\nGI bleeds\nand rarely CNS symptoms\nMostly through fibrosis of affected organs\nGenitourinary schistosomiasis\nCaused by sores in the genital tract\nMay persist even after treatment\nGreatly increases risk of\nHIV\ninfection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "GI bleeds",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "UTI\nSTD\nIntestinal\nparasites\nTraveler's diarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "STD",
+          "url": "https://wikem.org/wiki/STD"
+        },
+        {
+          "text": "parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        },
+        {
+          "text": "Traveler's diarrhea",
+          "url": "https://wikem.org/wiki/Traveler%27s_diarrhea"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "ELISA\nPCR from stool or urine\nStool and Urine for ova/parasites\nbiopsy may be needed for those who do not show ova/parasites in stool/urine\nCBC,\nLFTs\n, BMP, blood cultures\nConsider\nultrasound\nfor hepatosplenic (periportal fibrosis) or urinary disease (hydro)\nEchocardiography\nand\nCXR\nfor pulmonary hypertension and/or cor pulmonale\nConsider\nCT\nor\nMRI\nfor CNS disease or further workup of periportal fibrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "ELISA\nPCR from stool or urine\nStool and Urine for ova/parasites\nbiopsy may be needed for those who do not show ova/parasites in stool/urine\nCBC,\nLFTs\n, BMP, blood cultures\nConsider\nultrasound\nfor hepatosplenic (periportal fibrosis) or urinary disease (hydro)\nEchocardiography\nand\nCXR\nfor pulmonary hypertension and/or cor pulmonale\nConsider\nCT\nor\nMRI\nfor CNS disease or further workup of periportal fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Praziquantel\n20mg/kg PO for two doses in 1 day\n[1]\nS.japnonicum requires 3 doses in 1 day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged\nAdmit if concern for CNS infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        }
+      ]
+    }
+  }
+}

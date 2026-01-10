@@ -1,0 +1,462 @@
+{
+  "drug_name": "Seabather%27s_eruption",
+  "url": "https://wikem.org/wiki/Seabather%27s_eruption",
+  "scraped_at": "2026-01-10T08:01:53.215873",
+  "sections": {
+    "Background": {
+      "text": "Cnidaria larvae get trapped, release toxin\nNematocysts\nof the larval forms of sea anemones: Edwardsiella lineata\nThimble jellyfish: Linuche unguiculata\nNot be confused with\ncercarial dermatitis\n, which is caused by freshwater schistosomes or coastal water clam diggers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rash\ngenerally\nunder\nthe garments worn by bathers and swimmers (where the organisms are trapped after the person leaves the water)\nVersus\nCercarial dermatitis\n, which is occurs on the exposed skin\noutside\nof close-fitting garments",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Marine_toxins,_envenomations,_and_bites": {
+          "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+          "tables": []
+        },
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Marine_toxins,_envenomations,_and_bites": {
+      "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+      "subsections": {
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Tetrodotoxin",
+          "url": "https://wikem.org/wiki/Tetrodotoxin"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Travel-related_skin_conditions": {
+      "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Thoroughly wash and dry bathing clothes.\nConsider oral\ndiphenhydramine\nfor pruritis.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge home\nReturn precautions for signs of bacterial superinfection of the lesions.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic Diseases\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

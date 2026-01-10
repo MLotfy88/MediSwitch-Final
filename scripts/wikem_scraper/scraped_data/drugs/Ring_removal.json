@@ -1,0 +1,78 @@
+{
+  "drug_name": "Ring_removal",
+  "url": "https://wikem.org/wiki/Ring_removal",
+  "scraped_at": "2026-01-10T08:01:38.837899",
+  "sections": {
+    "Overview": {
+      "text": "Rings can pose a significant threat to body parts after an injury. When body parts with rings begin to swell, the ring acts as a tourniquet and prevents blood and lymph from returning to circulation.\nWith severe swelling, the restriction of the ring can lead to necrosis and amputation of the affected tissues.\nTypically on fingers, but may occasionally be on other body parts (e.g., penile ring)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Should be preemptively removed in the ED for patients with any significant limb injury, infection, or need for\nIVF\nOther indications for ring removal include:\nSwelling\nCyanosis\nNeed for proximate evaluation\nNumbness or pain\nDifficulty removing the ring\nRequired imaging where the ring will cause interference (MRI, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Dependent on technique (see below)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Typically the first attempt, unless already attempted by patient\nSuitable lubricants: mild soap and water, lubricating jelly (e.g., K-Y jelly), safe oils\nApply between ring and underlying skin\nOnce lubricated, attempt to remove the ring\nConsider pre-lubrication (see above)\nPossible equipment to use: large diameter nylon suture (with needle cut off), other thin string, venous tourniquet\nDescribed Procedure 1:\nInsert string under ring with majority of string left on distal side of ring\nWrap the string around the finger ensuring little-to-no space between each time around (should provide maximal constriction of the finger without causing injury)\nUsing the proximate end of the sting (proximate to the ring), slowly unwrap the sting\nThis should provide a cork-screw-type mechanism that moves the ring distally while compressing the tissues underneath\nDescribed Procedure 2:\nPlace one or more strings underneath the ring\nUse as traction to pull and remove ring from body-part\nUse a manual or electric ring cutter\nIf using an electric ring cutter, stop frequently to check for heat buildup to prevent burns\nWarn patient this is a destructive procedure for the ring\nPlace the guard between the ring and the skin\nNormally supplied with and frequently connected to the cutting device\nUse the circular blade to cut, ensuring the guard is in place and will prevent tissue injury if/when the device fully cuts through the ring\nMake one or two (if ring is hard to bend) cuts, as necessary\nMay consider using plyers or similar to bend ring after one cut, if helpful\nRemove ring\nHeightened risk for injury to underlying tissues\nThis is for rarer cases, where the ring cutter blade is not sufficient to cut through the ring material\nFor example, high-strength materials such as tungsten and titanium rings\nConsider other resources (e.g., from fire EMS or facilities management, depending on local protocols)\nFor example, hydraulic cutting tools or more power (e.g., Dremel with diamond crusted blade)\nMay need to fashion makeshift guard for between ring and body-part\nIf using an automatic rotating blade, stop frequently to check for heat buildup to prevent burns",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Laceration\nand abrasion of underlying tissues\nJoint dislocations\nNerve and vascular damage\nAccidental\namputation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "amputation",
+          "url": "https://wikem.org/wiki/Amputation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hand and finger diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger diagnoses",
+          "url": "https://wikem.org/wiki/Hand_and_finger_diagnoses"
+        }
+      ]
+    },
+    "References": {
+      "text": "Reichman, Eric F. Emergency Medicine Procedures. McGraw-Hill, 2013.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

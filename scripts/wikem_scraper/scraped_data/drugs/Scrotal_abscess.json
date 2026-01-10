@@ -1,0 +1,578 @@
+{
+  "drug_name": "Scrotal_abscess",
+  "url": "https://wikem.org/wiki/Scrotal_abscess",
+  "scraped_at": "2026-01-10T08:01:51.922685",
+  "sections": {
+    "Background": {
+      "text": "Must differentiate scrotal wall\nabscess\nversus intrascrotal organ involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        },
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Fournier gangrene",
+          "url": "https://wikem.org/wiki/Fournier_gangrene"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Facial cellulitis",
+          "url": "https://wikem.org/wiki/Facial_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Simple hair follicle scrotal wall abscess\nI+D\nBe sure to palpate for the spermatic cord, urethra, and ipsilateral testicle. If possible, sweep these structures out of the way\nIf you feel unable to isolate the above structures from the abscess site, it may be safest to consult urology\nAntibiotics\nrarely needed (unless signs of\ncellulitis\n, systemic involvement and/or immunosuppressed)\nIntrascrotal organ involvement\nUrology consult",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "I+D",
+          "url": "https://wikem.org/wiki/I%2BD"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Testicular Diagnoses\nAbscess\nIncision and drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular Diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_Diagnoses"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Incision and drainage",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        }
+      ]
+    }
+  }
+}

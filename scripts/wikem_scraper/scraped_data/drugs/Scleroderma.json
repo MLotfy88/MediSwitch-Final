@@ -1,0 +1,847 @@
+{
+  "drug_name": "Scleroderma",
+  "url": "https://wikem.org/wiki/Scleroderma",
+  "scraped_at": "2026-01-10T08:01:51.268256",
+  "sections": {
+    "Background": {
+      "text": "Autoimmune\ncollagen vascular disease\n, aka\nSystemic Sclerosis\nInappropriate and excessive accumulation of collagen and matrix in various tissues\nWidespread vascular lesions\nEndothelial dysfunction\nVascular spasm\nVascular wall thickening\nNarrowed lumen\nTwo types:\nDiffuse Systemic Sclerosis: skin changes, which can progress to internal organ involvement\nLimited Cutaneous Systemic Sclerosis, aka \"CREST Syndrome\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Systemic complaints (\nfever\n, malaise,\nfatigue\n, weight loss, myalgias)\nDiffuse Systemic Sclerosis\nhypo- or hyper- pigmentation of skin, extending from fingers and toes proximally, also involving chest and abdominal wall\nPigment is perserved around hair follicles leading to\nsalt and pepper\nappearance\nHypopigmentation in Diffuse Scleroderma, courtesy of\nRegional Derm website\nSymmetric hand edema and\nRaynaud's\nphenomenon\nAbrupt disease presentation; worse in first 18 months, then either improvement or worsening to involve internal organs\nCREST Syndrome\nLongstanding\nRaynaud's\nSkin thickening and fibrosis distal to elbows and knees, and on face\nSubcutaneous calcinosis\nEsophageal dysmotility\nSclerodactyly\nTelangiectasia\nIndolent course",
+      "subsections": {
+        "Emergencies": {
+          "text": "Renal crisis\nCauses are vessel narrowing and subsequent ischemic kidney disease\nLeads to\nhypertensive emergency\n,\nacute renal failure\n, and\nmicroangiopathic hemolytic anemia\nOccurs during first 5 years of the disease\nWas the most common cause of death prior to ACEi usage\n[1]\nSevere renal crisis is\nlife threatening\nwith incidence of 8-10% in Limited and 10-20% in diffuse\nSimilar to\nTTP\n/\nHUS\nwith microangiography\nPoor prognosis with sudden onset of\nhypertension\n,\nencephalopathy\n,\nCVA\n, retinopathy\nRisk factors are rapidly progressing diffuse scleroderma, high dose\nglucocorticoid\nuse,\ncyclosporine\ntherapy, presence of anti-RNA-polymerase antibodies.\n[2]\nPulmonary\nRespiratory failure\nInterstitial lung disease\n, leading to pulmonary fibrosis\nFound in dorsal portion of both lower lobes, but can extend to upper lobes in severe diease\nPoor prognosis with severe pulmonary impairment.  42% die within 10 years of disease onset\n[3]\nARDS\nAspiration pneumonitis\nPulmonary hypertension\nGradually progressive exercise breathlessness\nFatigue\nHoarseness\nfrom nerve palsy caused by dilated pulmonary artery stem\nAlveolar hemorrhage\nHemoptysis\n, infiltrates on CXR, anemia.\nCardiac\nAcute\nheart failure\nCan be from diastolic dysfunction,\nmalignant hypertension\nduring renal crisis, and decompensated\npulmonary hypertension\nCardiopulmonary\ncomplications are the most common causes of scleroderma-related death\n[4]\n, with cardiac causes\n[5]\nand pulmonary fibrosis\n[6]\nbeing the most common.\nAnginal\npain\nfrom right ventricle ischemia and low cardiac output",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Raynaud's",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Raynaud's",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "microangiopathic hemolytic anemia",
+          "url": "https://wikem.org/wiki/Microangiopathic_hemolytic_anemia"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "glucocorticoid",
+          "url": "https://wikem.org/wiki/Glucocorticoid"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Aspiration pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonitis"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Emergencies": {
+      "text": "Renal crisis\nCauses are vessel narrowing and subsequent ischemic kidney disease\nLeads to\nhypertensive emergency\n,\nacute renal failure\n, and\nmicroangiopathic hemolytic anemia\nOccurs during first 5 years of the disease\nWas the most common cause of death prior to ACEi usage\n[1]\nSevere renal crisis is\nlife threatening\nwith incidence of 8-10% in Limited and 10-20% in diffuse\nSimilar to\nTTP\n/\nHUS\nwith microangiography\nPoor prognosis with sudden onset of\nhypertension\n,\nencephalopathy\n,\nCVA\n, retinopathy\nRisk factors are rapidly progressing diffuse scleroderma, high dose\nglucocorticoid\nuse,\ncyclosporine\ntherapy, presence of anti-RNA-polymerase antibodies.\n[2]\nPulmonary\nRespiratory failure\nInterstitial lung disease\n, leading to pulmonary fibrosis\nFound in dorsal portion of both lower lobes, but can extend to upper lobes in severe diease\nPoor prognosis with severe pulmonary impairment.  42% die within 10 years of disease onset\n[3]\nARDS\nAspiration pneumonitis\nPulmonary hypertension\nGradually progressive exercise breathlessness\nFatigue\nHoarseness\nfrom nerve palsy caused by dilated pulmonary artery stem\nAlveolar hemorrhage\nHemoptysis\n, infiltrates on CXR, anemia.\nCardiac\nAcute\nheart failure\nCan be from diastolic dysfunction,\nmalignant hypertension\nduring renal crisis, and decompensated\npulmonary hypertension\nCardiopulmonary\ncomplications are the most common causes of scleroderma-related death\n[4]\n, with cardiac causes\n[5]\nand pulmonary fibrosis\n[6]\nbeing the most common.\nAnginal\npain\nfrom right ventricle ischemia and low cardiac output",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "microangiopathic hemolytic anemia",
+          "url": "https://wikem.org/wiki/Microangiopathic_hemolytic_anemia"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "glucocorticoid",
+          "url": "https://wikem.org/wiki/Glucocorticoid"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Aspiration pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonitis"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Hoarseness",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Systemic Lupus Erythematosus\nSjögren syndrome",
+      "subsections": {
+        "Blue_Digit": {
+          "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Systemic Lupus Erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        }
+      ]
+    },
+    "Blue_Digit": {
+      "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Frequent blood pressure checks\nSerologic markers for each subset\nUA\nfor\nproteinuria\nor\nhematuria\nBMP\nCXR\n, CT chest\n+/- echo, right heart cath, lung biopsy\nCREST syndrome\nMay need endoscopy and Hemoccult test to evaluate for blood loss from mucosal telangiectasias (gastric antral vascular ectasia, described as \"watermelon stomach.\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Renal_crisis": {
+          "text": "Rapid control of blood pressure\nACEI\ndrug of choice, e.g.\ncaptopril\n6.25 to 12.5mg PO, TID.\nAvoid\ndiuretics\nConsult renal, as 50% of patients will require\ndialysis\n.",
+          "tables": []
+        },
+        "Pulmonary_hypertension": {
+          "text": "Chronic management may include prostaglandin derivatives (e.g.\nepoprostenol\n), PDE-5 inhibitors (e.g.\nsildenafil\n), and/or endothelin receptor antagonists (e.g.\nbosentan\n)\nAcute decompensation:\nOptimize (usually reduce) RV preload:\nUsually euvolemic or hypervolemic, rarely need IV fluids so\ndiuretics\ncan benefit and treat the RV failure\n[7]\nFurosemide\n20-40mg IV or drip at 5-20 mg/hr\nIf suspect\nsepsis\nor\nhypovolemia\n, small (250-500cc) NS challenge to assess fluid responsiveness.  If not responsive to IVF challenge, start\nnorepinephrine\n(MAP > 65 mmHg).\nIncrease cardiac output\nOnce MAP >65 mmHg, start low dose\ndobutamine\n(5-10mcg/kg/min)\nImproves inotropic support and theoretically decreases pulmonary vascular resistance\nReduce RV afterload\nAvoid\nhypoxia\n, maintain O2 sat >90% (increases pulmonary vasoconstriction)\nAvoid hypercapnia (increases pulmonary vascular resistance)\nAvoid\nacidosis\nTreat arrhythmias:\nAvoid\ncalcium channel blockers and β-blockers\nOptimize oxygenation\nIntubated patients should be optimized to increased O2 delivery and minimize hypercapnia, maintain low tidal volumes and low PEEP as tolerated",
+          "tables": []
+        },
+        "Interstitial_lung_disease": {
+          "text": "Steroids\nCyclophosphamide\nVentilatory support prn",
+          "tables": []
+        },
+        "Alveolar_hemorrhage": {
+          "text": "Airway stabilization if large volume\nhemoptysis\nor problems with oxygenation/ventilation (>8.0 ETT preferable)\nIV corticosteroids - high dose\nMethylprednisolone\nQ6H\n[8]\nor\ncyclophosphamide\nBronchoscopy for vessel localization\nVessel embolization if localizable\nManagement of Hemoptysis\nHemoptysis\n, infiltrates on CXR, anemia.\nEmergent bronchoscopy\nHigh dose\ncorticosteroids\n,\ncyclophosphamide\n, local vessel embolization or\nplasma exchange",
+          "tables": []
+        },
+        "CREST_Syndrome": {
+          "text": "Empiric treatment with a\nPPI\nto prevent reflux and stricture formation\nTransfuse as needed for anemia due to mucosal telangiectasias\nUrsodiol\ntreatment  if concomitant primary biliary cirrhosis to prevent progression to secondary cirrhosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "epoprostenol",
+          "url": "https://wikem.org/wiki/Epoprostenol"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "bosentan",
+          "url": "https://wikem.org/wiki/Bosentan"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Management of Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        }
+      ]
+    },
+    "Renal_crisis": {
+      "text": "Rapid control of blood pressure\nACEI\ndrug of choice, e.g.\ncaptopril\n6.25 to 12.5mg PO, TID.\nAvoid\ndiuretics\nConsult renal, as 50% of patients will require\ndialysis\n.",
+      "subsections": {
+        "Pulmonary_hypertension": {
+          "text": "Chronic management may include prostaglandin derivatives (e.g.\nepoprostenol\n), PDE-5 inhibitors (e.g.\nsildenafil\n), and/or endothelin receptor antagonists (e.g.\nbosentan\n)\nAcute decompensation:\nOptimize (usually reduce) RV preload:\nUsually euvolemic or hypervolemic, rarely need IV fluids so\ndiuretics\ncan benefit and treat the RV failure\n[7]\nFurosemide\n20-40mg IV or drip at 5-20 mg/hr\nIf suspect\nsepsis\nor\nhypovolemia\n, small (250-500cc) NS challenge to assess fluid responsiveness.  If not responsive to IVF challenge, start\nnorepinephrine\n(MAP > 65 mmHg).\nIncrease cardiac output\nOnce MAP >65 mmHg, start low dose\ndobutamine\n(5-10mcg/kg/min)\nImproves inotropic support and theoretically decreases pulmonary vascular resistance\nReduce RV afterload\nAvoid\nhypoxia\n, maintain O2 sat >90% (increases pulmonary vasoconstriction)\nAvoid hypercapnia (increases pulmonary vascular resistance)\nAvoid\nacidosis\nTreat arrhythmias:\nAvoid\ncalcium channel blockers and β-blockers\nOptimize oxygenation\nIntubated patients should be optimized to increased O2 delivery and minimize hypercapnia, maintain low tidal volumes and low PEEP as tolerated",
+          "tables": []
+        },
+        "Interstitial_lung_disease": {
+          "text": "Steroids\nCyclophosphamide\nVentilatory support prn",
+          "tables": []
+        },
+        "Alveolar_hemorrhage": {
+          "text": "Airway stabilization if large volume\nhemoptysis\nor problems with oxygenation/ventilation (>8.0 ETT preferable)\nIV corticosteroids - high dose\nMethylprednisolone\nQ6H\n[8]\nor\ncyclophosphamide\nBronchoscopy for vessel localization\nVessel embolization if localizable\nManagement of Hemoptysis\nHemoptysis\n, infiltrates on CXR, anemia.\nEmergent bronchoscopy\nHigh dose\ncorticosteroids\n,\ncyclophosphamide\n, local vessel embolization or\nplasma exchange",
+          "tables": []
+        },
+        "CREST_Syndrome": {
+          "text": "Empiric treatment with a\nPPI\nto prevent reflux and stricture formation\nTransfuse as needed for anemia due to mucosal telangiectasias\nUrsodiol\ntreatment  if concomitant primary biliary cirrhosis to prevent progression to secondary cirrhosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "dialysis",
+          "url": "https://wikem.org/wiki/Dialysis"
+        },
+        {
+          "text": "epoprostenol",
+          "url": "https://wikem.org/wiki/Epoprostenol"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "bosentan",
+          "url": "https://wikem.org/wiki/Bosentan"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Management of Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        }
+      ]
+    },
+    "Pulmonary_hypertension": {
+      "text": "Chronic management may include prostaglandin derivatives (e.g.\nepoprostenol\n), PDE-5 inhibitors (e.g.\nsildenafil\n), and/or endothelin receptor antagonists (e.g.\nbosentan\n)\nAcute decompensation:\nOptimize (usually reduce) RV preload:\nUsually euvolemic or hypervolemic, rarely need IV fluids so\ndiuretics\ncan benefit and treat the RV failure\n[7]\nFurosemide\n20-40mg IV or drip at 5-20 mg/hr\nIf suspect\nsepsis\nor\nhypovolemia\n, small (250-500cc) NS challenge to assess fluid responsiveness.  If not responsive to IVF challenge, start\nnorepinephrine\n(MAP > 65 mmHg).\nIncrease cardiac output\nOnce MAP >65 mmHg, start low dose\ndobutamine\n(5-10mcg/kg/min)\nImproves inotropic support and theoretically decreases pulmonary vascular resistance\nReduce RV afterload\nAvoid\nhypoxia\n, maintain O2 sat >90% (increases pulmonary vasoconstriction)\nAvoid hypercapnia (increases pulmonary vascular resistance)\nAvoid\nacidosis\nTreat arrhythmias:\nAvoid\ncalcium channel blockers and β-blockers\nOptimize oxygenation\nIntubated patients should be optimized to increased O2 delivery and minimize hypercapnia, maintain low tidal volumes and low PEEP as tolerated",
+      "subsections": {
+        "Interstitial_lung_disease": {
+          "text": "Steroids\nCyclophosphamide\nVentilatory support prn",
+          "tables": []
+        },
+        "Alveolar_hemorrhage": {
+          "text": "Airway stabilization if large volume\nhemoptysis\nor problems with oxygenation/ventilation (>8.0 ETT preferable)\nIV corticosteroids - high dose\nMethylprednisolone\nQ6H\n[8]\nor\ncyclophosphamide\nBronchoscopy for vessel localization\nVessel embolization if localizable\nManagement of Hemoptysis\nHemoptysis\n, infiltrates on CXR, anemia.\nEmergent bronchoscopy\nHigh dose\ncorticosteroids\n,\ncyclophosphamide\n, local vessel embolization or\nplasma exchange",
+          "tables": []
+        },
+        "CREST_Syndrome": {
+          "text": "Empiric treatment with a\nPPI\nto prevent reflux and stricture formation\nTransfuse as needed for anemia due to mucosal telangiectasias\nUrsodiol\ntreatment  if concomitant primary biliary cirrhosis to prevent progression to secondary cirrhosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epoprostenol",
+          "url": "https://wikem.org/wiki/Epoprostenol"
+        },
+        {
+          "text": "sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "bosentan",
+          "url": "https://wikem.org/wiki/Bosentan"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Management of Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        }
+      ]
+    },
+    "Interstitial_lung_disease": {
+      "text": "Steroids\nCyclophosphamide\nVentilatory support prn",
+      "subsections": {
+        "Alveolar_hemorrhage": {
+          "text": "Airway stabilization if large volume\nhemoptysis\nor problems with oxygenation/ventilation (>8.0 ETT preferable)\nIV corticosteroids - high dose\nMethylprednisolone\nQ6H\n[8]\nor\ncyclophosphamide\nBronchoscopy for vessel localization\nVessel embolization if localizable\nManagement of Hemoptysis\nHemoptysis\n, infiltrates on CXR, anemia.\nEmergent bronchoscopy\nHigh dose\ncorticosteroids\n,\ncyclophosphamide\n, local vessel embolization or\nplasma exchange",
+          "tables": []
+        },
+        "CREST_Syndrome": {
+          "text": "Empiric treatment with a\nPPI\nto prevent reflux and stricture formation\nTransfuse as needed for anemia due to mucosal telangiectasias\nUrsodiol\ntreatment  if concomitant primary biliary cirrhosis to prevent progression to secondary cirrhosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Management of Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        }
+      ]
+    },
+    "Alveolar_hemorrhage": {
+      "text": "Airway stabilization if large volume\nhemoptysis\nor problems with oxygenation/ventilation (>8.0 ETT preferable)\nIV corticosteroids - high dose\nMethylprednisolone\nQ6H\n[8]\nor\ncyclophosphamide\nBronchoscopy for vessel localization\nVessel embolization if localizable\nManagement of Hemoptysis\nHemoptysis\n, infiltrates on CXR, anemia.\nEmergent bronchoscopy\nHigh dose\ncorticosteroids\n,\ncyclophosphamide\n, local vessel embolization or\nplasma exchange",
+      "subsections": {
+        "CREST_Syndrome": {
+          "text": "Empiric treatment with a\nPPI\nto prevent reflux and stricture formation\nTransfuse as needed for anemia due to mucosal telangiectasias\nUrsodiol\ntreatment  if concomitant primary biliary cirrhosis to prevent progression to secondary cirrhosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "Management of Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        }
+      ]
+    },
+    "CREST_Syndrome": {
+      "text": "Empiric treatment with a\nPPI\nto prevent reflux and stricture formation\nTransfuse as needed for anemia due to mucosal telangiectasias\nUrsodiol\ntreatment  if concomitant primary biliary cirrhosis to prevent progression to secondary cirrhosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Ursodiol",
+          "url": "https://wikem.org/wiki/Ursodiol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Hospitalization for any elevation in blood pressure, difficulty breathing, evidence of heart strain or pulmonary edema.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Collagen vascular disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1639 @@
+{
+  "drug_name": "ST-segment_elevation_myocardial_infarction",
+  "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction",
+  "scraped_at": "2026-01-10T08:01:43.710782",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: STEMI\nRV infarction accompanies ~25% of inferior STEMIs\nHemodynamically significant only 10% of the time\nDo NOT reduce preload (caution with NTG)\nOptimise preload (ensure volume replete)\nPosterior (aka inferolateral) infarction is rarely isolated (~3-8% of all AMIs)\nTreat as STEMI\nLook for reciprocal changes, except in aVR and V1\nApply V7, V8, V9 leads and repeat ECG looking for ST elevation\nUsually will see changes in V6 OR II, III, aVF",
+      "subsections": {
+        "Clinical_ACS_Categories": {
+          "text": "ST-segment elevation myocardial infarction\n(30%)\nNon-ST-elevation myocardial infarction\n(25%)\nUnstable Angina\n(UA) (38%)\nThe new title, “Non-ST-Elevation Acute Coronary Syndromes,” emphasizes the continuum between UA and NSTEMI\n[1]\nNSTEMI myocardium is damaged enough to increase biomarkers, UA is not.",
+          "tables": []
+        },
+        "Fourth_Universal_Definition_of_STEMI": {
+          "text": "Any of the following:\n[2]\n1 mm of ST elevation in any two contiguous leads except V2 and V3.\nThe acceptable degree of ST elevation in V2 and V3 changes based on age and gender.\nIn women: 1.5mm elevation in V2 and V3\nIn men under 40: 2.5mm elevation in V2 and V3\nIn men 40 and older: 2mm elevation in V2 and V3",
+          "tables": []
+        },
+        "ACS_Anatomical_Correlation_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Ischemic Changes": "STE V1-V3, TWIQ waves in V1-V3 over time",
+                "Location": "Septal",
+                "Coronary Artery": "Septal branch"
+              },
+              {
+                "Ischemic Changes": "STE V2-V4",
+                "Location": "Anterior",
+                "Coronary Artery": "LAD"
+              },
+              {
+                "Ischemic Changes": "STE I, aVL, V5, V6STD inf leads",
+                "Location": "Lateral",
+                "Coronary Artery": "Circumflex"
+              },
+              {
+                "Ischemic Changes": "STE I, aVL, V2-6",
+                "Location": "Anterolateral",
+                "Coronary Artery": "LAD + circumflex = Left main or 2 critical lesions"
+              },
+              {
+                "Ischemic Changes": "STE II, III, aVFSTD in aVL (most common lead to see reciprocal change)",
+                "Location": "Inferior",
+                "Coronary Artery": "RCA"
+              },
+              {
+                "Ischemic Changes": "STE V1 (only lead looking at RV)STE III > II (III more R facing)STE V1 > V2, STE V1 + STD V2",
+                "Location": "Right ventricle",
+                "Coronary Artery": "RCA"
+              },
+              {
+                "Ischemic Changes": "STD in V1, V2, V3;R>S in V1Tall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs",
+                "Location": "Posterior aka Inferolateral",
+                "Coronary Artery": "RCA (90%), LCA (10%)"
+              },
+              {
+                "Ischemic Changes": "STE avR>V1Doesn't apply in SVT",
+                "Location": "Anterolateral",
+                "Coronary Artery": "Left Main"
+              }
+            ]
+          ]
+        },
+        "Prehospital": {
+          "text": "Hyperoxia may increase myocardial injury\nAvoid supplemental oxygen unless hypoxic\n[3]\nActivate cath lab for patients with STEMI on prehospital ECG even if ST elevation has resolved by time of arrival at hospital\n[4]",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-ST-elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/Non-ST-elevation_myocardial_infarction"
+        },
+        {
+          "text": "Unstable Angina",
+          "url": "https://wikem.org/wiki/Unstable_Angina"
+        }
+      ]
+    },
+    "Clinical_ACS_Categories": {
+      "text": "ST-segment elevation myocardial infarction\n(30%)\nNon-ST-elevation myocardial infarction\n(25%)\nUnstable Angina\n(UA) (38%)\nThe new title, “Non-ST-Elevation Acute Coronary Syndromes,” emphasizes the continuum between UA and NSTEMI\n[1]\nNSTEMI myocardium is damaged enough to increase biomarkers, UA is not.",
+      "subsections": {
+        "Fourth_Universal_Definition_of_STEMI": {
+          "text": "Any of the following:\n[2]\n1 mm of ST elevation in any two contiguous leads except V2 and V3.\nThe acceptable degree of ST elevation in V2 and V3 changes based on age and gender.\nIn women: 1.5mm elevation in V2 and V3\nIn men under 40: 2.5mm elevation in V2 and V3\nIn men 40 and older: 2mm elevation in V2 and V3",
+          "tables": []
+        },
+        "ACS_Anatomical_Correlation_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Ischemic Changes": "STE V1-V3, TWIQ waves in V1-V3 over time",
+                "Location": "Septal",
+                "Coronary Artery": "Septal branch"
+              },
+              {
+                "Ischemic Changes": "STE V2-V4",
+                "Location": "Anterior",
+                "Coronary Artery": "LAD"
+              },
+              {
+                "Ischemic Changes": "STE I, aVL, V5, V6STD inf leads",
+                "Location": "Lateral",
+                "Coronary Artery": "Circumflex"
+              },
+              {
+                "Ischemic Changes": "STE I, aVL, V2-6",
+                "Location": "Anterolateral",
+                "Coronary Artery": "LAD + circumflex = Left main or 2 critical lesions"
+              },
+              {
+                "Ischemic Changes": "STE II, III, aVFSTD in aVL (most common lead to see reciprocal change)",
+                "Location": "Inferior",
+                "Coronary Artery": "RCA"
+              },
+              {
+                "Ischemic Changes": "STE V1 (only lead looking at RV)STE III > II (III more R facing)STE V1 > V2, STE V1 + STD V2",
+                "Location": "Right ventricle",
+                "Coronary Artery": "RCA"
+              },
+              {
+                "Ischemic Changes": "STD in V1, V2, V3;R>S in V1Tall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs",
+                "Location": "Posterior aka Inferolateral",
+                "Coronary Artery": "RCA (90%), LCA (10%)"
+              },
+              {
+                "Ischemic Changes": "STE avR>V1Doesn't apply in SVT",
+                "Location": "Anterolateral",
+                "Coronary Artery": "Left Main"
+              }
+            ]
+          ]
+        },
+        "Prehospital": {
+          "text": "Hyperoxia may increase myocardial injury\nAvoid supplemental oxygen unless hypoxic\n[3]\nActivate cath lab for patients with STEMI on prehospital ECG even if ST elevation has resolved by time of arrival at hospital\n[4]",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-ST-elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/Non-ST-elevation_myocardial_infarction"
+        },
+        {
+          "text": "Unstable Angina",
+          "url": "https://wikem.org/wiki/Unstable_Angina"
+        }
+      ]
+    },
+    "Fourth_Universal_Definition_of_STEMI": {
+      "text": "Any of the following:\n[2]\n1 mm of ST elevation in any two contiguous leads except V2 and V3.\nThe acceptable degree of ST elevation in V2 and V3 changes based on age and gender.\nIn women: 1.5mm elevation in V2 and V3\nIn men under 40: 2.5mm elevation in V2 and V3\nIn men 40 and older: 2mm elevation in V2 and V3",
+      "subsections": {
+        "ACS_Anatomical_Correlation_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Ischemic Changes": "STE V1-V3, TWIQ waves in V1-V3 over time",
+                "Location": "Septal",
+                "Coronary Artery": "Septal branch"
+              },
+              {
+                "Ischemic Changes": "STE V2-V4",
+                "Location": "Anterior",
+                "Coronary Artery": "LAD"
+              },
+              {
+                "Ischemic Changes": "STE I, aVL, V5, V6STD inf leads",
+                "Location": "Lateral",
+                "Coronary Artery": "Circumflex"
+              },
+              {
+                "Ischemic Changes": "STE I, aVL, V2-6",
+                "Location": "Anterolateral",
+                "Coronary Artery": "LAD + circumflex = Left main or 2 critical lesions"
+              },
+              {
+                "Ischemic Changes": "STE II, III, aVFSTD in aVL (most common lead to see reciprocal change)",
+                "Location": "Inferior",
+                "Coronary Artery": "RCA"
+              },
+              {
+                "Ischemic Changes": "STE V1 (only lead looking at RV)STE III > II (III more R facing)STE V1 > V2, STE V1 + STD V2",
+                "Location": "Right ventricle",
+                "Coronary Artery": "RCA"
+              },
+              {
+                "Ischemic Changes": "STD in V1, V2, V3;R>S in V1Tall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs",
+                "Location": "Posterior aka Inferolateral",
+                "Coronary Artery": "RCA (90%), LCA (10%)"
+              },
+              {
+                "Ischemic Changes": "STE avR>V1Doesn't apply in SVT",
+                "Location": "Anterolateral",
+                "Coronary Artery": "Left Main"
+              }
+            ]
+          ]
+        },
+        "Prehospital": {
+          "text": "Hyperoxia may increase myocardial injury\nAvoid supplemental oxygen unless hypoxic\n[3]\nActivate cath lab for patients with STEMI on prehospital ECG even if ST elevation has resolved by time of arrival at hospital\n[4]",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ACS_Anatomical_Correlation_Chart": {
+      "text": "",
+      "subsections": {
+        "Prehospital": {
+          "text": "Hyperoxia may increase myocardial injury\nAvoid supplemental oxygen unless hypoxic\n[3]\nActivate cath lab for patients with STEMI on prehospital ECG even if ST elevation has resolved by time of arrival at hospital\n[4]",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Ischemic Changes": "STE V1-V3, TWIQ waves in V1-V3 over time",
+            "Location": "Septal",
+            "Coronary Artery": "Septal branch"
+          },
+          {
+            "Ischemic Changes": "STE V2-V4",
+            "Location": "Anterior",
+            "Coronary Artery": "LAD"
+          },
+          {
+            "Ischemic Changes": "STE I, aVL, V5, V6STD inf leads",
+            "Location": "Lateral",
+            "Coronary Artery": "Circumflex"
+          },
+          {
+            "Ischemic Changes": "STE I, aVL, V2-6",
+            "Location": "Anterolateral",
+            "Coronary Artery": "LAD + circumflex = Left main or 2 critical lesions"
+          },
+          {
+            "Ischemic Changes": "STE II, III, aVFSTD in aVL (most common lead to see reciprocal change)",
+            "Location": "Inferior",
+            "Coronary Artery": "RCA"
+          },
+          {
+            "Ischemic Changes": "STE V1 (only lead looking at RV)STE III > II (III more R facing)STE V1 > V2, STE V1 + STD V2",
+            "Location": "Right ventricle",
+            "Coronary Artery": "RCA"
+          },
+          {
+            "Ischemic Changes": "STD in V1, V2, V3;R>S in V1Tall R waves in V1-V3 (Q waves on back of heart) w/ upright TWs",
+            "Location": "Posterior aka Inferolateral",
+            "Coronary Artery": "RCA (90%), LCA (10%)"
+          },
+          {
+            "Ischemic Changes": "STE avR>V1Doesn't apply in SVT",
+            "Location": "Anterolateral",
+            "Coronary Artery": "Left Main"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Prehospital": {
+      "text": "Hyperoxia may increase myocardial injury\nAvoid supplemental oxygen unless hypoxic\n[3]\nActivate cath lab for patients with STEMI on prehospital ECG even if ST elevation has resolved by time of arrival at hospital\n[4]",
+      "subsections": {
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "STEMI_Stages_of_Development": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Stage": "1",
+            "Duration": "",
+            "Timing": "30min - hours",
+            "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+            "ECG": "Normalizes in days, weeks, or months"
+          },
+          {
+            "Stage": "2",
+            "Duration": "",
+            "Timing": "Minutes - hours",
+            "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+            "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+          },
+          {
+            "Stage": "3",
+            "Duration": "",
+            "Timing": "Within 1hr; completed within 8-12hr",
+            "Finding": "Q waves",
+            "ECG": "Persist indefinitely in 70% of cases"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Risk_of_Acute_Coronary_Syndrome": {
+          "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[5]\n[6]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[7]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[8]\nLess likely to undergo cardiac catheterization\n[8]\nLess likely to receive timely reperfusion therapy\n[8]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[8]\nalthough some studies have found fewer differences in presentation\n[9]\nMore likely to delay presentation\n[8]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[8]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+          "tables": []
+        },
+        "Additional_features": {
+          "text": "Signs/symptoms may include\nChest pain\nSOB\nDizziness\n/lightheadedness,\nsyncope\n/presyncope\nNausea/vomiting\nDiaphoresis\nAnxiety\n, sense of impending doom\nPalpitations\nDysrhythmias\nCardiac arrest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Risk_of_Acute_Coronary_Syndrome": {
+      "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[5]\n[6]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[7]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[8]\nLess likely to undergo cardiac catheterization\n[8]\nLess likely to receive timely reperfusion therapy\n[8]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[8]\nalthough some studies have found fewer differences in presentation\n[9]\nMore likely to delay presentation\n[8]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[8]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+      "subsections": {
+        "Additional_features": {
+          "text": "Signs/symptoms may include\nChest pain\nSOB\nDizziness\n/lightheadedness,\nsyncope\n/presyncope\nNausea/vomiting\nDiaphoresis\nAnxiety\n, sense of impending doom\nPalpitations\nDysrhythmias\nCardiac arrest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Additional_features": {
+      "text": "Signs/symptoms may include\nChest pain\nSOB\nDizziness\n/lightheadedness,\nsyncope\n/presyncope\nNausea/vomiting\nDiaphoresis\nAnxiety\n, sense of impending doom\nPalpitations\nDysrhythmias\nCardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "ST_Elevation": {
+          "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+          "tables": []
+        },
+        "STEMI_vs_Pericarditis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Disease": "Pain",
+                "STEMI": "Constant",
+                "Pericarditis": "Varies with motion"
+              },
+              {
+                "Disease": "Fever",
+                "STEMI": "No",
+                "Pericarditis": "Yes"
+              },
+              {
+                "Disease": "ST changes",
+                "STEMI": "focal",
+                "Pericarditis": "Diffuse elevation"
+              },
+              {
+                "Disease": "Reciprocal changes",
+                "STEMI": "Yes",
+                "Pericarditis": "No"
+              },
+              {
+                "Disease": "Q waves",
+                "STEMI": "Yes",
+                "Pericarditis": "No"
+              },
+              {
+                "Disease": "Pulmonary edema",
+                "STEMI": "Sometimes",
+                "Pericarditis": "No"
+              },
+              {
+                "Disease": "Wall motion",
+                "STEMI": "Abnormal",
+                "Pericarditis": "Normal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "ST_Elevation": {
+      "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+      "subsections": {
+        "STEMI_vs_Pericarditis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Disease": "Pain",
+                "STEMI": "Constant",
+                "Pericarditis": "Varies with motion"
+              },
+              {
+                "Disease": "Fever",
+                "STEMI": "No",
+                "Pericarditis": "Yes"
+              },
+              {
+                "Disease": "ST changes",
+                "STEMI": "focal",
+                "Pericarditis": "Diffuse elevation"
+              },
+              {
+                "Disease": "Reciprocal changes",
+                "STEMI": "Yes",
+                "Pericarditis": "No"
+              },
+              {
+                "Disease": "Q waves",
+                "STEMI": "Yes",
+                "Pericarditis": "No"
+              },
+              {
+                "Disease": "Pulmonary edema",
+                "STEMI": "Sometimes",
+                "Pericarditis": "No"
+              },
+              {
+                "Disease": "Wall motion",
+                "STEMI": "Abnormal",
+                "Pericarditis": "Normal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "STEMI_vs_Pericarditis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Disease": "Pain",
+            "STEMI": "Constant",
+            "Pericarditis": "Varies with motion"
+          },
+          {
+            "Disease": "Fever",
+            "STEMI": "No",
+            "Pericarditis": "Yes"
+          },
+          {
+            "Disease": "ST changes",
+            "STEMI": "focal",
+            "Pericarditis": "Diffuse elevation"
+          },
+          {
+            "Disease": "Reciprocal changes",
+            "STEMI": "Yes",
+            "Pericarditis": "No"
+          },
+          {
+            "Disease": "Q waves",
+            "STEMI": "Yes",
+            "Pericarditis": "No"
+          },
+          {
+            "Disease": "Pulmonary edema",
+            "STEMI": "Sometimes",
+            "Pericarditis": "No"
+          },
+          {
+            "Disease": "Wall motion",
+            "STEMI": "Abnormal",
+            "Pericarditis": "Normal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nUse the J-point for measurement in 2 contiguous leads\n[10]\nJ point is the junction between the end of the QRS complex and the beginning of the ST segment\nWhen possible, compare to old ECGs\nRepeating ECGs will increase sensitivity\nCBC\nChem 7\nTroponin\nPT/PTT\nConsider\nCXR",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Look for ST segment elevation, reciprocal ST depression, and hyperacute T waves",
+          "tables": []
+        },
+        "Classic_STEMI": {
+          "text": "Men\nIn males  ≥ 40 years old 2mm in V2-V3 and 1mm in all other leads\n[11]\nIn males  < 40 years old  2.5mm in V2-V3 and 1mm in all other leads\n[11]\nWomen\n≥1.5 mm in V2-V3 and 1 mm (0.1mV) in all other leads\n[11]",
+          "tables": []
+        },
+        "Posterior_STEMI": {
+          "text": "Up to 10% of STEMIs; usually associated with inferior MI\n≥0.5 mm STE is diagnostic\nLook at V1-V3\n[12]\n[13]\nLarge R waves (posterior Q waves)\nSTD\nUpright T waves",
+          "tables": []
+        },
+        "Post-arrest_STEMI/NSTEMI": {
+          "text": "Get immediate ECG after arrest\nSTEMI: go to cath lab immediately (AHA/ACCF Class IB)\n[14]\nNSTEMI: go to cath within 2 hrs if VT/VF, intractable ischemic pain, ADCHF (AHA/ACC Class IA)\n[15]",
+          "tables": []
+        },
+        "LBBB_with_Sgarbossa's_criteria": {
+          "text": "New LBBB alone is no longer STEMI criteria for cath lab as of 2013 per ACC/AHA guidelines\n[16]\nHemodynamically unstable or new HF pts with new LBBB should be discussed with a cardiologist for PCI or fibrinolytics\n≥3 points = 98% probability of\nSTEMI\n[17]\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nLeast specific of criteria, see Smith's modification\nChanges the 3rd rule of original\nSgarbossa's Criteria\nto be ST depression OR elevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%\n[18]",
+          "tables": []
+        },
+        "STEMI_equivalents": {
+          "text": "Pacemakers\nin AMI\nSgarbossa criteria can be applied to paced rhythms\n[19]\n[20]\nLow sensitivity but high specificity\nDeWinter T-waves\n[21]\nHigh risk of ACUTE (vs subacute in\nWellen's\n) anterior MI (proximal LAD occlusions)\n[22]\nLook for 1-3 mm STD at J-point in mid precordial leads with tall symmetric T waves\n[23]\nST elevation in aVR\n[24]\nReflects subendocardial ischemia in LV (L main vs multi vessal disease)\n[25]\nLook for STE >1-1.5 mm in aVR\nCan also bee seen in hemorrhage, type A\nDissection\n,\nmassive PE\nAslanger criteria\n[26]\nAslanger pattern is a reliable sign of acute inferior MI, indicating occlusion of the RCA or left circumflex artery\nDefined by a pattern consists of 3 criteria:\nST elevation in leads III and aVRbut not in any other inferior lead\nST depression in any of leads V4to V6but not in V2, AND\nST in lead V1 higher than ST in lead V2.\nLeads III and aVR are contiguous in anatomical position; therefore, they should be recognized as contiguous leads on ECG.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/EBQ:Sgarbossa_Criteria_Study"
+        },
+        {
+          "text": "Pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "DeWinter T-waves",
+          "url": "https://wikem.org/wiki/DeWinter_T-waves"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "massive PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nUse the J-point for measurement in 2 contiguous leads\n[10]\nJ point is the junction between the end of the QRS complex and the beginning of the ST segment\nWhen possible, compare to old ECGs\nRepeating ECGs will increase sensitivity\nCBC\nChem 7\nTroponin\nPT/PTT\nConsider\nCXR",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Look for ST segment elevation, reciprocal ST depression, and hyperacute T waves",
+          "tables": []
+        },
+        "Classic_STEMI": {
+          "text": "Men\nIn males  ≥ 40 years old 2mm in V2-V3 and 1mm in all other leads\n[11]\nIn males  < 40 years old  2.5mm in V2-V3 and 1mm in all other leads\n[11]\nWomen\n≥1.5 mm in V2-V3 and 1 mm (0.1mV) in all other leads\n[11]",
+          "tables": []
+        },
+        "Posterior_STEMI": {
+          "text": "Up to 10% of STEMIs; usually associated with inferior MI\n≥0.5 mm STE is diagnostic\nLook at V1-V3\n[12]\n[13]\nLarge R waves (posterior Q waves)\nSTD\nUpright T waves",
+          "tables": []
+        },
+        "Post-arrest_STEMI/NSTEMI": {
+          "text": "Get immediate ECG after arrest\nSTEMI: go to cath lab immediately (AHA/ACCF Class IB)\n[14]\nNSTEMI: go to cath within 2 hrs if VT/VF, intractable ischemic pain, ADCHF (AHA/ACC Class IA)\n[15]",
+          "tables": []
+        },
+        "LBBB_with_Sgarbossa's_criteria": {
+          "text": "New LBBB alone is no longer STEMI criteria for cath lab as of 2013 per ACC/AHA guidelines\n[16]\nHemodynamically unstable or new HF pts with new LBBB should be discussed with a cardiologist for PCI or fibrinolytics\n≥3 points = 98% probability of\nSTEMI\n[17]\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nLeast specific of criteria, see Smith's modification\nChanges the 3rd rule of original\nSgarbossa's Criteria\nto be ST depression OR elevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%\n[18]",
+          "tables": []
+        },
+        "STEMI_equivalents": {
+          "text": "Pacemakers\nin AMI\nSgarbossa criteria can be applied to paced rhythms\n[19]\n[20]\nLow sensitivity but high specificity\nDeWinter T-waves\n[21]\nHigh risk of ACUTE (vs subacute in\nWellen's\n) anterior MI (proximal LAD occlusions)\n[22]\nLook for 1-3 mm STD at J-point in mid precordial leads with tall symmetric T waves\n[23]\nST elevation in aVR\n[24]\nReflects subendocardial ischemia in LV (L main vs multi vessal disease)\n[25]\nLook for STE >1-1.5 mm in aVR\nCan also bee seen in hemorrhage, type A\nDissection\n,\nmassive PE\nAslanger criteria\n[26]\nAslanger pattern is a reliable sign of acute inferior MI, indicating occlusion of the RCA or left circumflex artery\nDefined by a pattern consists of 3 criteria:\nST elevation in leads III and aVRbut not in any other inferior lead\nST depression in any of leads V4to V6but not in V2, AND\nST in lead V1 higher than ST in lead V2.\nLeads III and aVR are contiguous in anatomical position; therefore, they should be recognized as contiguous leads on ECG.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/EBQ:Sgarbossa_Criteria_Study"
+        },
+        {
+          "text": "Pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "DeWinter T-waves",
+          "url": "https://wikem.org/wiki/DeWinter_T-waves"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "massive PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Look for ST segment elevation, reciprocal ST depression, and hyperacute T waves",
+      "subsections": {
+        "Classic_STEMI": {
+          "text": "Men\nIn males  ≥ 40 years old 2mm in V2-V3 and 1mm in all other leads\n[11]\nIn males  < 40 years old  2.5mm in V2-V3 and 1mm in all other leads\n[11]\nWomen\n≥1.5 mm in V2-V3 and 1 mm (0.1mV) in all other leads\n[11]",
+          "tables": []
+        },
+        "Posterior_STEMI": {
+          "text": "Up to 10% of STEMIs; usually associated with inferior MI\n≥0.5 mm STE is diagnostic\nLook at V1-V3\n[12]\n[13]\nLarge R waves (posterior Q waves)\nSTD\nUpright T waves",
+          "tables": []
+        },
+        "Post-arrest_STEMI/NSTEMI": {
+          "text": "Get immediate ECG after arrest\nSTEMI: go to cath lab immediately (AHA/ACCF Class IB)\n[14]\nNSTEMI: go to cath within 2 hrs if VT/VF, intractable ischemic pain, ADCHF (AHA/ACC Class IA)\n[15]",
+          "tables": []
+        },
+        "LBBB_with_Sgarbossa's_criteria": {
+          "text": "New LBBB alone is no longer STEMI criteria for cath lab as of 2013 per ACC/AHA guidelines\n[16]\nHemodynamically unstable or new HF pts with new LBBB should be discussed with a cardiologist for PCI or fibrinolytics\n≥3 points = 98% probability of\nSTEMI\n[17]\nST elevation ≥1 mm in a lead with upward (concordant) QRS complex - 5 points\nST depression ≥1 mm in lead V1, V2, or V3 - 3 points\nST elevation ≥5 mm in a lead with downward (discordant) QRS complex - 2 points\nLeast specific of criteria, see Smith's modification\nChanges the 3rd rule of original\nSgarbossa's Criteria\nto be ST depression OR elevation discordant with the QRS complex and with a magnitude of at least 25% of the QRS increases Sn from 52% to 91% at the expense of reducing Sp from 98% to 90%\n[18]",
+          "tables": []
+        },
+        "STEMI_equivalents": {
+          "text": "Pacemakers\nin AMI\nSgarbossa criteria can be applied to paced rhythms\n[19]\n[20]\nLow sensitivity but high specificity\nDeWinter T-waves\n[21]\nHigh risk of ACUTE (vs subacute in\nWellen's\n) anterior MI (proximal LAD occlusions)\n[22]\nLook for 1-3 mm STD at J-point in mid precordial leads with tall symmetric T waves\n[23]\nST elevation in aVR\n[24]\nReflects subendocardial ischemia in LV (L main vs multi vessal disease)\n[25]\nLook for STE >1-1.5 mm in aVR\nCan also bee seen in hemorrhage, type A\nDissection\n,\nmassive PE\nAslanger criteria\n[26]\nAslanger pattern is a reliable sign of acute inferior MI, indicating occlusion of the RCA or left circumflex artery\nDefined by a pattern consists of 3 criteria:\nST elevation in leads III and aVRbut not in any other inferior lead\nST depression in any of leads V4to V6but not in V2, AND\nST in lead V1 higher than ST in lead V2.\nLeads III and aVR are contiguous in anatomical position; therefore, they should be recognized as contiguous leads on ECG.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/EBQ:Sgarbossa_Criteria_Study"
+        },
+        {
+          "text": "Pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "DeWinter T-waves",
+          "url": "https://wikem.org/wiki/DeWinter_T-waves"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "massive PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "STEMI_equivalents": {
+      "text": "Pacemakers\nin AMI\nSgarbossa criteria can be applied to paced rhythms\n[19]\n[20]\nLow sensitivity but high specificity\nDeWinter T-waves\n[21]\nHigh risk of ACUTE (vs subacute in\nWellen's\n) anterior MI (proximal LAD occlusions)\n[22]\nLook for 1-3 mm STD at J-point in mid precordial leads with tall symmetric T waves\n[23]\nST elevation in aVR\n[24]\nReflects subendocardial ischemia in LV (L main vs multi vessal disease)\n[25]\nLook for STE >1-1.5 mm in aVR\nCan also bee seen in hemorrhage, type A\nDissection\n,\nmassive PE\nAslanger criteria\n[26]\nAslanger pattern is a reliable sign of acute inferior MI, indicating occlusion of the RCA or left circumflex artery\nDefined by a pattern consists of 3 criteria:\nST elevation in leads III and aVRbut not in any other inferior lead\nST depression in any of leads V4to V6but not in V2, AND\nST in lead V1 higher than ST in lead V2.\nLeads III and aVR are contiguous in anatomical position; therefore, they should be recognized as contiguous leads on ECG.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pacemakers",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "DeWinter T-waves",
+          "url": "https://wikem.org/wiki/DeWinter_T-waves"
+        },
+        {
+          "text": "Wellen's",
+          "url": "https://wikem.org/wiki/Wellen%27s"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "massive PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Thrombolytics_vs_PCI": {
+          "text": "Primary treatment is centered on PCI within 90 min (if available) or thrombolysis if treatment delay is greater than 120min.\nPercutaneous coronary intervention (preferred option)\nGoal: PCI should be attempted if the procedure can be started within 120 minutes (faster than 90 minutes is the goal, the faster the better)\nIf the PCI cannot be commenced within 120 minutes then fibrinolysis should be given to suitable candidates\nFibrinolytics\nGoal: if it is determined that PCI cannot be performed within 120 minutes then fibrinolytics should be given, and they should be given within 30 minutes",
+          "tables": []
+        },
+        "Adjunctive_Therapies": {
+          "text": "Aspirin\n325mg PO or 600mg PR\nNitroglycerin\nShould be avoided if concern for MI with RV extension or in patients with aortic stenosis\nDo not give if patient has used phosphodiesterase inhibitors (Viagra) in the past 24 hours\nO2\nFor SpO2 <90%\nAvoid hypoxia but supplemental O2 without hypoxia can increase infarct size\n[3]\nAVOID trial\n[27]\n(2015) indicated larger infarct size, more recurrence and arrhythmia for STEMI patients without hypoxia who were treated with O2\nAntiplatelet Options\nClopidogrel\nSee drug link for specific age, indication related dosages\nGenerally, loading dose of 600 mg if PCI anticipated (otherwise give 300 mg)\nTicagrelor\nMay significantly reduce mortality as compared to clopidogrel\n[28]\n180mg loading dose, followed by 90mg BID\nTicagrelor\noffers no added benefit in STEMI when given pre-hospital vs. in-hospital (ambulance vs. cath lab)\n[29]\nGPIIB/IIIa Inhibitors\nAbciximab\n,\nEptifibatide\nDefer to cardiologist for administration\nGiven right before PCI depending on specific institutional protocols\nMorphine\nShould be avoided if possible\nMay interfere with the anti-platelet effect of P2Y12 receptor blockers (Aspirin)\nIf pain is poorly controlled, consider 2-4mg IV with repeat dosing of 2-8mg ever 5-15 minutes\nBeta blockers\n[30]\nPer AHA guidelines, IV beta blockers should\nnot\nbe given to patients with STEMI routinely, but may be considered for hypertension treatment barring contraindications as below:\nLow output state, signs of\nHF\nIncreased risk of\ncardiogenic shock\n(age > 70, sinus\ntachycardia\n> 110 bpm or HR < 60 bpm, SBP < 120 mmHg)\nIncreased time since onset of STEMI\nRelative contraindications --\nasthma\n,\nCOPD\n, PR interval > 0.24 sec,\nAV block\nPO beta blockers should be initiated within 24 hours of STEMI\nACE inhibitor\nor\nARB\n[31]\n[32]\nGive within 24 hours in stable patients,\ntypically not given in ED\nCareful initial dosing, starting at 2.5 mg/day of\nlisinopril\n, increasing slowly up to 10 mg/day\nStatin in STEMI patients going to cath lab may have less 30-days MACEs and reinfarction post-PCI in SECURE-PCI trial in 2018\n[33]\n80 mg\natorvastatin\nimmediately before cath lab and 24 hours after PCI\nPerform in conjunction with your cardiologist\nNo cases of rhabdomyolysis or liver failure reported in the atorvastatin group",
+          "tables": []
+        },
+        "Anticoagulation": {
+          "text": "Heparin is required after thrombolysis to prevent re-thrombosis since all thrombolytics are short acting. Any patient receiving PCI requires heparinzation to prevent thrombosis during the procedure. There is minimal to no benefit for heparin in NSTEMI patients who are not receiving immediate PCI.\n[34]\nHeparin\n(UFH)\nBolus 60U/kg (max: 4000U) followed by 12U/kg/h (max: 1000U/h)\nTitrate to PTT 1.5-2.5 x control\nLMWH\n<75yo with serum creatinine < 2.5mg/dL (men) or < 2.0mg/dL (women):\n30mg IV bolus followed by 1mg/kg SC q12h\n≥ 75yo\n0.75mg/kg SC q12h\nCrCl < 30 mL/min\n1mg/kg SC QD\nFondaparinux\ncreatinine < 3.0mg/dL:\n2.5mg IV bolus then 2.5mg SC QD started 24hr after bolus\nMonitor anti-Xa levels\nBivalirudin\n0.75mg/kg IV bolus followed by 1.75mg/kg/h\nCrCl < 30 mL/min\n0.75mg/kg IV bolus followed by 1.0mg/kg/h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibrinolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_STEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "HF",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "atorvastatin",
+          "url": "https://wikem.org/wiki/Atorvastatin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        }
+      ]
+    },
+    "Thrombolytics_vs_PCI": {
+      "text": "Primary treatment is centered on PCI within 90 min (if available) or thrombolysis if treatment delay is greater than 120min.\nPercutaneous coronary intervention (preferred option)\nGoal: PCI should be attempted if the procedure can be started within 120 minutes (faster than 90 minutes is the goal, the faster the better)\nIf the PCI cannot be commenced within 120 minutes then fibrinolysis should be given to suitable candidates\nFibrinolytics\nGoal: if it is determined that PCI cannot be performed within 120 minutes then fibrinolytics should be given, and they should be given within 30 minutes",
+      "subsections": {
+        "Adjunctive_Therapies": {
+          "text": "Aspirin\n325mg PO or 600mg PR\nNitroglycerin\nShould be avoided if concern for MI with RV extension or in patients with aortic stenosis\nDo not give if patient has used phosphodiesterase inhibitors (Viagra) in the past 24 hours\nO2\nFor SpO2 <90%\nAvoid hypoxia but supplemental O2 without hypoxia can increase infarct size\n[3]\nAVOID trial\n[27]\n(2015) indicated larger infarct size, more recurrence and arrhythmia for STEMI patients without hypoxia who were treated with O2\nAntiplatelet Options\nClopidogrel\nSee drug link for specific age, indication related dosages\nGenerally, loading dose of 600 mg if PCI anticipated (otherwise give 300 mg)\nTicagrelor\nMay significantly reduce mortality as compared to clopidogrel\n[28]\n180mg loading dose, followed by 90mg BID\nTicagrelor\noffers no added benefit in STEMI when given pre-hospital vs. in-hospital (ambulance vs. cath lab)\n[29]\nGPIIB/IIIa Inhibitors\nAbciximab\n,\nEptifibatide\nDefer to cardiologist for administration\nGiven right before PCI depending on specific institutional protocols\nMorphine\nShould be avoided if possible\nMay interfere with the anti-platelet effect of P2Y12 receptor blockers (Aspirin)\nIf pain is poorly controlled, consider 2-4mg IV with repeat dosing of 2-8mg ever 5-15 minutes\nBeta blockers\n[30]\nPer AHA guidelines, IV beta blockers should\nnot\nbe given to patients with STEMI routinely, but may be considered for hypertension treatment barring contraindications as below:\nLow output state, signs of\nHF\nIncreased risk of\ncardiogenic shock\n(age > 70, sinus\ntachycardia\n> 110 bpm or HR < 60 bpm, SBP < 120 mmHg)\nIncreased time since onset of STEMI\nRelative contraindications --\nasthma\n,\nCOPD\n, PR interval > 0.24 sec,\nAV block\nPO beta blockers should be initiated within 24 hours of STEMI\nACE inhibitor\nor\nARB\n[31]\n[32]\nGive within 24 hours in stable patients,\ntypically not given in ED\nCareful initial dosing, starting at 2.5 mg/day of\nlisinopril\n, increasing slowly up to 10 mg/day\nStatin in STEMI patients going to cath lab may have less 30-days MACEs and reinfarction post-PCI in SECURE-PCI trial in 2018\n[33]\n80 mg\natorvastatin\nimmediately before cath lab and 24 hours after PCI\nPerform in conjunction with your cardiologist\nNo cases of rhabdomyolysis or liver failure reported in the atorvastatin group",
+          "tables": []
+        },
+        "Anticoagulation": {
+          "text": "Heparin is required after thrombolysis to prevent re-thrombosis since all thrombolytics are short acting. Any patient receiving PCI requires heparinzation to prevent thrombosis during the procedure. There is minimal to no benefit for heparin in NSTEMI patients who are not receiving immediate PCI.\n[34]\nHeparin\n(UFH)\nBolus 60U/kg (max: 4000U) followed by 12U/kg/h (max: 1000U/h)\nTitrate to PTT 1.5-2.5 x control\nLMWH\n<75yo with serum creatinine < 2.5mg/dL (men) or < 2.0mg/dL (women):\n30mg IV bolus followed by 1mg/kg SC q12h\n≥ 75yo\n0.75mg/kg SC q12h\nCrCl < 30 mL/min\n1mg/kg SC QD\nFondaparinux\ncreatinine < 3.0mg/dL:\n2.5mg IV bolus then 2.5mg SC QD started 24hr after bolus\nMonitor anti-Xa levels\nBivalirudin\n0.75mg/kg IV bolus followed by 1.75mg/kg/h\nCrCl < 30 mL/min\n0.75mg/kg IV bolus followed by 1.0mg/kg/h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibrinolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_STEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "HF",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "atorvastatin",
+          "url": "https://wikem.org/wiki/Atorvastatin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        }
+      ]
+    },
+    "Adjunctive_Therapies": {
+      "text": "Aspirin\n325mg PO or 600mg PR\nNitroglycerin\nShould be avoided if concern for MI with RV extension or in patients with aortic stenosis\nDo not give if patient has used phosphodiesterase inhibitors (Viagra) in the past 24 hours\nO2\nFor SpO2 <90%\nAvoid hypoxia but supplemental O2 without hypoxia can increase infarct size\n[3]\nAVOID trial\n[27]\n(2015) indicated larger infarct size, more recurrence and arrhythmia for STEMI patients without hypoxia who were treated with O2\nAntiplatelet Options\nClopidogrel\nSee drug link for specific age, indication related dosages\nGenerally, loading dose of 600 mg if PCI anticipated (otherwise give 300 mg)\nTicagrelor\nMay significantly reduce mortality as compared to clopidogrel\n[28]\n180mg loading dose, followed by 90mg BID\nTicagrelor\noffers no added benefit in STEMI when given pre-hospital vs. in-hospital (ambulance vs. cath lab)\n[29]\nGPIIB/IIIa Inhibitors\nAbciximab\n,\nEptifibatide\nDefer to cardiologist for administration\nGiven right before PCI depending on specific institutional protocols\nMorphine\nShould be avoided if possible\nMay interfere with the anti-platelet effect of P2Y12 receptor blockers (Aspirin)\nIf pain is poorly controlled, consider 2-4mg IV with repeat dosing of 2-8mg ever 5-15 minutes\nBeta blockers\n[30]\nPer AHA guidelines, IV beta blockers should\nnot\nbe given to patients with STEMI routinely, but may be considered for hypertension treatment barring contraindications as below:\nLow output state, signs of\nHF\nIncreased risk of\ncardiogenic shock\n(age > 70, sinus\ntachycardia\n> 110 bpm or HR < 60 bpm, SBP < 120 mmHg)\nIncreased time since onset of STEMI\nRelative contraindications --\nasthma\n,\nCOPD\n, PR interval > 0.24 sec,\nAV block\nPO beta blockers should be initiated within 24 hours of STEMI\nACE inhibitor\nor\nARB\n[31]\n[32]\nGive within 24 hours in stable patients,\ntypically not given in ED\nCareful initial dosing, starting at 2.5 mg/day of\nlisinopril\n, increasing slowly up to 10 mg/day\nStatin in STEMI patients going to cath lab may have less 30-days MACEs and reinfarction post-PCI in SECURE-PCI trial in 2018\n[33]\n80 mg\natorvastatin\nimmediately before cath lab and 24 hours after PCI\nPerform in conjunction with your cardiologist\nNo cases of rhabdomyolysis or liver failure reported in the atorvastatin group",
+      "subsections": {
+        "Anticoagulation": {
+          "text": "Heparin is required after thrombolysis to prevent re-thrombosis since all thrombolytics are short acting. Any patient receiving PCI requires heparinzation to prevent thrombosis during the procedure. There is minimal to no benefit for heparin in NSTEMI patients who are not receiving immediate PCI.\n[34]\nHeparin\n(UFH)\nBolus 60U/kg (max: 4000U) followed by 12U/kg/h (max: 1000U/h)\nTitrate to PTT 1.5-2.5 x control\nLMWH\n<75yo with serum creatinine < 2.5mg/dL (men) or < 2.0mg/dL (women):\n30mg IV bolus followed by 1mg/kg SC q12h\n≥ 75yo\n0.75mg/kg SC q12h\nCrCl < 30 mL/min\n1mg/kg SC QD\nFondaparinux\ncreatinine < 3.0mg/dL:\n2.5mg IV bolus then 2.5mg SC QD started 24hr after bolus\nMonitor anti-Xa levels\nBivalirudin\n0.75mg/kg IV bolus followed by 1.75mg/kg/h\nCrCl < 30 mL/min\n0.75mg/kg IV bolus followed by 1.0mg/kg/h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Ticagrelor",
+          "url": "https://wikem.org/wiki/Ticagrelor"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "HF",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "ARB",
+          "url": "https://wikem.org/wiki/ARB"
+        },
+        {
+          "text": "lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "atorvastatin",
+          "url": "https://wikem.org/wiki/Atorvastatin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        }
+      ]
+    },
+    "Anticoagulation": {
+      "text": "Heparin is required after thrombolysis to prevent re-thrombosis since all thrombolytics are short acting. Any patient receiving PCI requires heparinzation to prevent thrombosis during the procedure. There is minimal to no benefit for heparin in NSTEMI patients who are not receiving immediate PCI.\n[34]\nHeparin\n(UFH)\nBolus 60U/kg (max: 4000U) followed by 12U/kg/h (max: 1000U/h)\nTitrate to PTT 1.5-2.5 x control\nLMWH\n<75yo with serum creatinine < 2.5mg/dL (men) or < 2.0mg/dL (women):\n30mg IV bolus followed by 1mg/kg SC q12h\n≥ 75yo\n0.75mg/kg SC q12h\nCrCl < 30 mL/min\n1mg/kg SC QD\nFondaparinux\ncreatinine < 3.0mg/dL:\n2.5mg IV bolus then 2.5mg SC QD started 24hr after bolus\nMonitor anti-Xa levels\nBivalirudin\n0.75mg/kg IV bolus followed by 1.75mg/kg/h\nCrCl < 30 mL/min\n0.75mg/kg IV bolus followed by 1.0mg/kg/h",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "Bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        }
+      ]
+    },
+    "Special_Scenarios": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Arrest_and_STEMI": {
+          "text": "Consider\ntherapeutic hypothermia\ncooling protocol for patients with documented cardiac arrest felt to be caused by lethal cardiac rhythm (e.g.\nventricular fibrillation\n)\nPatients with cardiac arrest and ST elevation at any point, even if resolved, should still under go emergent coronary angiography\n[35]",
+          "tables": []
+        },
+        "Rescue_PCI": {
+          "text": "Failed reperfusion: consider if repeat ECG 90 minutes after infusion fails to show reduction of elevated ST segments by 50%\nRecurrent significant ST elevation following successful lysis\nPersistent hemodynamically unstable arrythmias, persistent ischemic symptoms, or worsened cardiogenic shock\nEven in those with successful reperfusion, its reasonable to do angiography within the index hospitalization, even within hours of thrombolytic therapy",
+          "tables": []
+        },
+        "Post-STEMI_complications": {
+          "text": "Cath site hematoma\nHeart failure or cardiogenic shock\nHemodynamic support, consider norepinephrine or dobutamine\nMechanical support e.g. balloon pump or Impella, usually placed in cath lab\nVentricular tachycardia or ventricular fibrillation --> if sustained and > 48 hours after STEMI may need ICD\nPericarditis, < 1 week from STEMI --> treat with high dose aspirin, avoid NSAIDs\nBradycardia, if AV nodal involvement, rarely responds to atropine, likely will require pacing\nFree wall or ventricular septal rupture\nDressler's syndrome, > 1 week post MI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "therapeutic hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        }
+      ]
+    },
+    "Cardiac_Arrest_and_STEMI": {
+      "text": "Consider\ntherapeutic hypothermia\ncooling protocol for patients with documented cardiac arrest felt to be caused by lethal cardiac rhythm (e.g.\nventricular fibrillation\n)\nPatients with cardiac arrest and ST elevation at any point, even if resolved, should still under go emergent coronary angiography\n[35]",
+      "subsections": {
+        "Rescue_PCI": {
+          "text": "Failed reperfusion: consider if repeat ECG 90 minutes after infusion fails to show reduction of elevated ST segments by 50%\nRecurrent significant ST elevation following successful lysis\nPersistent hemodynamically unstable arrythmias, persistent ischemic symptoms, or worsened cardiogenic shock\nEven in those with successful reperfusion, its reasonable to do angiography within the index hospitalization, even within hours of thrombolytic therapy",
+          "tables": []
+        },
+        "Post-STEMI_complications": {
+          "text": "Cath site hematoma\nHeart failure or cardiogenic shock\nHemodynamic support, consider norepinephrine or dobutamine\nMechanical support e.g. balloon pump or Impella, usually placed in cath lab\nVentricular tachycardia or ventricular fibrillation --> if sustained and > 48 hours after STEMI may need ICD\nPericarditis, < 1 week from STEMI --> treat with high dose aspirin, avoid NSAIDs\nBradycardia, if AV nodal involvement, rarely responds to atropine, likely will require pacing\nFree wall or ventricular septal rupture\nDressler's syndrome, > 1 week post MI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "therapeutic hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_hypothermia"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        }
+      ]
+    },
+    "Rescue_PCI": {
+      "text": "Failed reperfusion: consider if repeat ECG 90 minutes after infusion fails to show reduction of elevated ST segments by 50%\nRecurrent significant ST elevation following successful lysis\nPersistent hemodynamically unstable arrythmias, persistent ischemic symptoms, or worsened cardiogenic shock\nEven in those with successful reperfusion, its reasonable to do angiography within the index hospitalization, even within hours of thrombolytic therapy",
+      "subsections": {
+        "Post-STEMI_complications": {
+          "text": "Cath site hematoma\nHeart failure or cardiogenic shock\nHemodynamic support, consider norepinephrine or dobutamine\nMechanical support e.g. balloon pump or Impella, usually placed in cath lab\nVentricular tachycardia or ventricular fibrillation --> if sustained and > 48 hours after STEMI may need ICD\nPericarditis, < 1 week from STEMI --> treat with high dose aspirin, avoid NSAIDs\nBradycardia, if AV nodal involvement, rarely responds to atropine, likely will require pacing\nFree wall or ventricular septal rupture\nDressler's syndrome, > 1 week post MI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Post-STEMI_complications": {
+      "text": "Cath site hematoma\nHeart failure or cardiogenic shock\nHemodynamic support, consider norepinephrine or dobutamine\nMechanical support e.g. balloon pump or Impella, usually placed in cath lab\nVentricular tachycardia or ventricular fibrillation --> if sustained and > 48 hours after STEMI may need ICD\nPericarditis, < 1 week from STEMI --> treat with high dose aspirin, avoid NSAIDs\nBradycardia, if AV nodal involvement, rarely responds to atropine, likely will require pacing\nFree wall or ventricular septal rupture\nDressler's syndrome, > 1 week post MI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit direct to cath lab\nIf not at tertiary care center consider tPA depending transfer time and transfer to cardiac cath lab center",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Coronary Syndrome (Main)\nNSTEMI\nACS - Anatomical Correlation\nMyocardial Infarction Complications\nST segment elevation\nSgarbossa's criteria\nSTEMI equivalents\nSTEMI mimics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "ACS - Anatomical Correlation",
+          "url": "https://wikem.org/wiki/ACS_-_Anatomical_Correlation"
+        },
+        {
+          "text": "Myocardial Infarction Complications",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction_Complications"
+        },
+        {
+          "text": "ST segment elevation",
+          "url": "https://wikem.org/wiki/ST_segment_elevation"
+        },
+        {
+          "text": "Sgarbossa's criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa%27s_criteria"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        },
+        {
+          "text": "STEMI mimics",
+          "url": "https://wikem.org/wiki/STEMI_mimics"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - TIMI Risk Score for STEMI\nGRACE score - ACS risk model\nSTEMI heart attack\nACC-AHA guidelines for STEMI 2013\nEMCrit LBBB",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "drug_name": "Sarcoidosis",
+  "url": "https://wikem.org/wiki/Sarcoidosis",
+  "scraped_at": "2026-01-10T08:01:46.155227",
+  "sections": {
+    "Background": {
+      "text": "Abnormal collection of inflammatory cells (granulomas) throughout the body.\nMost common location for granulomas to occur are the lung, skin, heart, and brain.\nExact cause unknown - thought to be related to an immune reaction to a prior insult such as infection or chemical exposure earlier in life.\nDo not confuse with infectious granulomatous processes such as\ntuberculosis\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Depend on location of granulomata. May be entirely asymptomatic.\nRespiratory\nDue to pulmonary granulomata\nShortness of breath\nCough\nPulmonary hypertension\nPulmonary abscesses\n/\nempyema\nPneumothorax\nErythema nodosum\nand other skin lesions\nLupus pernio\nis pathognomonic for sarcoidosis and the most specific physical exam finding\n[1]\nFatigue\nWeight loss\nArthralgias\nCardiopulmonary\nRestrictive cardiomyopathy\nArrhythmias\ndue to conduction disturbance\nEndocrine\nHypercalcemia\nHypothyroidism\nAdrenal insufficiency\nOcular\nDacryoadenitis\n(lacrimal duct inflammation)\nOptic neuritis\nIritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Pulmonary abscesses",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Erythema nodosum",
+          "url": "https://wikem.org/wiki/Erythema_nodosum"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Restrictive cardiomyopathy",
+          "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Malignancy\nTuberculosis\nCoccidioidomycosis\nHistiocytosis X\nWegener's granulomatosis\nChurg-Strauss syndrome\nLupus\nRheumatoid arthritis\nPolymyalgia rheumatica",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Polymyalgia rheumatica",
+          "url": "https://wikem.org/wiki/Polymyalgia_rheumatica"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Definitive initial diagnosis unlikely to be made in ED, but may be suggested by typical granulomatous lesions seen on CT or other imaging in setting of appropriate clinical context\nEvaluate for complications/alternative diagnoses of presenting symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Corticosteroids\nTreat complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Dependent on presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

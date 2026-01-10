@@ -1,0 +1,30 @@
+{
+  "drug_name": "STOPP/START_criteria",
+  "url": "https://wikem.org/wiki/STOPP/START_criteria",
+  "scraped_at": "2026-01-10T08:01:43.011588",
+  "sections": {
+    "Background": {
+      "text": "Guideline for appropriateness of use of medications in the elderly\nDeveloped to address deficiencies of Beers criteria\n[1]\nSTOPP criteria medications are significantly associated with adverse drug events (ADEs), unlike Beers criteria medications\n[2]\n.\nSTOPP/START criteria as an intervention applied at a single time point during hospitalization for acute illness in older people significantly improve medication appropriateness, an effect that is maintained 6 months post-intervention\n[3]\nSTOPP/START criteria as an intervention applied within 72 h of admission significantly reduce adverse drug reactions (ADRs)\nWith an absolute risk reduction of 9.3%\nNumber needed to treat = 11\nAverage length of stay of 3 days in older people hospitalized with acute illnesses\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beers Criteria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beers Criteria",
+          "url": "https://wikem.org/wiki/Beers_Criteria"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "STOPP/START criteria for potentially inappropriate prescribing in older people: version 2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

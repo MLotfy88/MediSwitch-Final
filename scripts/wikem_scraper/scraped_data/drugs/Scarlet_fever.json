@@ -1,0 +1,522 @@
+{
+  "drug_name": "Scarlet_fever",
+  "url": "https://wikem.org/wiki/Scarlet_fever",
+  "scraped_at": "2026-01-10T08:01:54.813532",
+  "sections": {
+    "Background": {
+      "text": "Caused by\nGroup A Strep",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Group A Strep",
+          "url": "https://wikem.org/wiki/Group_A_Strep"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Prodrome of\nfever\n,\nsore throat\n,\nvomiting\n,\nabdominal pain\nfollowed by rash 1-2d later\nRash\nEnanthem (rash involving mucous membrane)\nTonsils/pharynx are red and covered with exudate\nTongue may have initial exudate followed by erythema (\"strawberry tongue)\nSoft palate have bright-red spots\nExanthem\nBegins 1-2days after onset of illness\nStarts on neck, axillae, groin, spreads to trunk and extremities\nRed, finely punctate, sandpaper feel\nPastia lines: linear petechial eruptions in antecubital/axilla\nDesquamation follows",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Rash": {
+          "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Pediatric_Rash": {
+      "text": "Atopic dermatitis\nBed bugs\nContact dermatitis\nDrug rash\nErythema infectiosum\n(Fifth disease)\nHand-foot-and-mouth disease\nHenoch-schonlein purpura\n(HSP)\nHerpangina\nHerpes simplex virus\n(HSV)\nInfectious mononucleosis\nMeningitis\nMeasles\nMolluscum contagiosum\nRoseola infantum\nRubella\n(German measles)\nScabies\nScarlet fever\nSmallpox\nVaricella\n(Chickenpox)",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Henoch-schonlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-schonlein_purpura"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Infectious mononucleosis",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment (to reduce rheumatic fever / nephritis)\nPenicillin VK\n50mg/kg BID x 10d\nOR\nAmoxicillin\n50mg/kg/d in 2 divided doses or one time dose x10d\n[1]\nIf allergic to penicillin →\nAzithromycin\n10mg/kg on day 1, 5mg/g days 2-5",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric Rash\nAcute rheumatic fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric Rash",
+          "url": "https://wikem.org/wiki/Pediatric_Rash"
+        },
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        }
+      ]
+    }
+  }
+}

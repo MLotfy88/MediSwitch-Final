@@ -1,0 +1,50 @@
+{
+  "drug_name": "SAD_PERSONS_score",
+  "url": "https://wikem.org/wiki/SAD_PERSONS_score",
+  "scraped_at": "2026-01-10T08:01:38.084639",
+  "sections": {
+    "Background": {
+      "text": "Score intended to evaluate patients presenting with\ndepression\nand/or suicidal ideation and determine need for admission\nHowever, while scale has good specificity (>90%), sensitivity is only 2%.\n[1]\nNeither the original nor modified score is useful for predicting need for admission.\n[2]\nTherefore, this score likely\nshould not\nbe utilized in the ED setting to make admission decisions.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    },
+    "Score": {
+      "text": "S\nex = male\n(1)\nA\nge <19 or >45\n(1)\nD\nepressed symptoms\n(2)\nP\nast psychiatric history or suicide attempts\n(1)\nE\nTOH\n/drug use history\n(1)\nR\national thought loss\n(2)\nS\neparated/divorced/widowed or sickness with 3 or more prescription medications\n(1)\nO\nrganized plan or serious attempt\n(2)\nN\no social support\n(1)\nS\ntated intent (or ambivalence)\n(2)\nAssessment must be without ETOH/drugs on board (wait for person to sober)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "By point total:\n<6: May discharge home if have someone to care for them, follow-up within 1 day, call follow up MD, and create safety plan (contracting for safety is not helpful, but creating a crisis plan may be)\n6-8: 50% admission rate (consult psychiatry for further risk assessment)\n>8: Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "General Psych Workup\nDepression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General Psych Workup",
+          "url": "https://wikem.org/wiki/General_Psych_Workup"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        }
+      ]
+    }
+  }
+}

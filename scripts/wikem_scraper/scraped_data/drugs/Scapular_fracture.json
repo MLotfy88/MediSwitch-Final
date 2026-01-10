@@ -1,0 +1,408 @@
+{
+  "drug_name": "Scapular_fracture",
+  "url": "https://wikem.org/wiki/Scapular_fracture",
+  "scraped_at": "2026-01-10T08:01:52.112773",
+  "sections": {
+    "Background": {
+      "text": "Occurs via direct trauma to shoulder area or FOOSH\nFractures of body and glenoid are most common\n>75% are associated with other injuries (ribs, lung, shoulder girdle)\nAssociation with\nthoracic aortic injury\nclassically taught, but actually <1% association in clinical practice",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thoracic aortic injury",
+          "url": "https://wikem.org/wiki/Thoracic_aortic_injury"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Localized tenderness over scapula with ipsilateral arm held in adduction\nAny arm movement will worsen pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CT chest with contrast (trauma protocol)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "While a dedicated scapular series (AP, lateral, axillary) will identify most fractures, CT chest is typically indicated to exclude other injuries.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CT chest with contrast (trauma protocol)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "While a dedicated scapular series (AP, lateral, axillary) will identify most fractures, CT chest is typically indicated to exclude other injuries.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "While a dedicated scapular series (AP, lateral, axillary) will identify most fractures, CT chest is typically indicated to exclude other injuries.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Rule-out other injuries\nLow threshold for additional CT imaging or obs\nSling\n, ice",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Sling",
+          "url": "https://wikem.org/wiki/Sling"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Rule-out other injuries\nLow threshold for additional CT imaging or obs\nSling\n, ice",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Sling",
+          "url": "https://wikem.org/wiki/Sling"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Rule-out other injuries\nLow threshold for additional CT imaging or obs\nSling\n, ice",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sling",
+          "url": "https://wikem.org/wiki/Sling"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically discussed with orthopedic specialist with in ED\nIf no other injuries of significance, may be discharged home",
+      "subsections": {
+        "Sub-Specialty_Care": {
+          "text": "Indications for surgery:\nGlenohumeral instability\nDisplaced scapular neck fracture\nOpen fracture\nLoss of rotator cuff function\nDisplaced coracoid fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "Sub-Specialty_Care": {
+      "text": "Indications for surgery:\nGlenohumeral instability\nDisplaced scapular neck fracture\nOpen fracture\nLoss of rotator cuff function\nDisplaced coracoid fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fractures (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        }
+      ]
+    }
+  }
+}

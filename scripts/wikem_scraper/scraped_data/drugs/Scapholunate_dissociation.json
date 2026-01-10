@@ -1,0 +1,204 @@
+{
+  "drug_name": "Scapholunate_dissociation",
+  "url": "https://wikem.org/wiki/Scapholunate_dissociation",
+  "scraped_at": "2026-01-10T08:01:49.952499",
+  "sections": {
+    "Background": {
+      "text": "Caused by rupture of scapholunate ligament\nMost commonly injured ligament of the wrist\nInjury most commonly occurs from FOOSH",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain/swelling on radial side of wrist\n\"Clicking\" sensation with wrist movement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "A grip compression view or wrist in ulnar deviation may be necessary in addition to PA/lateral views\nAny of the following signs may be seen:\nWidening of the scapholunate joint space >3mm\nKnown as Terry-Thomas sign (or David Letterman sign)\nRotary subluxation of the scaphoid\nLateral view: Scapholunate angle >60 degrees\nPA view: Cortical ring sign (circular cortex of the bone is more prominent)\nDorsal intercalated segment instability\nDorsal angulation of lunate relative to radius resulting in capitolunate angle > 20°\nSeen as loss of the normal collinear arrangement of the capitate, lunate, and radius",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "A grip compression view or wrist in ulnar deviation may be necessary in addition to PA/lateral views\nAny of the following signs may be seen:\nWidening of the scapholunate joint space >3mm\nKnown as Terry-Thomas sign (or David Letterman sign)\nRotary subluxation of the scaphoid\nLateral view: Scapholunate angle >60 degrees\nPA view: Cortical ring sign (circular cortex of the bone is more prominent)\nDorsal intercalated segment instability\nDorsal angulation of lunate relative to radius resulting in capitolunate angle > 20°\nSeen as loss of the normal collinear arrangement of the capitate, lunate, and radius",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Carpal_Dislocations": {
+          "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+          "tables": []
+        },
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_Dislocations": {
+      "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Radial gutter splint\nor\nforearm volar splint\nOrtho referral",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radial gutter splint",
+          "url": "https://wikem.org/wiki/Radial_gutter_splint"
+        },
+        {
+          "text": "forearm volar splint",
+          "url": "https://wikem.org/wiki/Forearm_volar_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally outpatient follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

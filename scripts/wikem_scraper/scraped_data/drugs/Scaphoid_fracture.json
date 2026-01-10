@@ -1,0 +1,226 @@
+{
+  "drug_name": "Scaphoid_fracture",
+  "url": "https://wikem.org/wiki/Scaphoid_fracture",
+  "scraped_at": "2026-01-10T08:01:49.804671",
+  "sections": {
+    "Background": {
+      "text": "Most commonly fractured carpal bone\nOccurs via FOOSH or axial load directed along thumb's metacarpal\nMost common fracture at the waist of the scaphoid\nAvascular necrosis\nMost commonly associated with proximal fractures (blood supply enters the distal part of the bone)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain along radial aspect of wrist\nLocalized tenderness in anatomic snuffbox\nPain elicited by axial pressure directed along thumb's metacarpal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "X-ray\nObtain both standard and scaphoid views\nUp to 10% of initial radiographs fail to detect a fracture\nMRI\nGold-standard in cases in which high index of suspicion remains despite negative x-ray",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Assess for instability:\nOblique fracture\n>1mm of displacement\nRotation\nComminution\nCarpal instability pattern is present",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "X-ray\nObtain both standard and scaphoid views\nUp to 10% of initial radiographs fail to detect a fracture\nMRI\nGold-standard in cases in which high index of suspicion remains despite negative x-ray",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Assess for instability:\nOblique fracture\n>1mm of displacement\nRotation\nComminution\nCarpal instability pattern is present",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Assess for instability:\nOblique fracture\n>1mm of displacement\nRotation\nComminution\nCarpal instability pattern is present",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "All patients with clinical suspicion should be treated regardless of x-ray findings",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Stable fracture: short-arm\nthumb spica splint\nin dorsiflexion and radial deviation\nUnstable fracture: long-arm\nthumb spica splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Immobilization": {
+          "text": "Stable fracture: short-arm\nthumb spica splint\nin dorsiflexion and radial deviation\nUnstable fracture: long-arm\nthumb spica splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "Stable fracture: short-arm\nthumb spica splint\nin dorsiflexion and radial deviation\nUnstable fracture: long-arm\nthumb spica splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Refer to a hand surgeon because may lead to osteonecrosis if not properly recognized/treated\n25% of those with initially neg xray will actually have a fracture (typically found on delay xray or other modality)\n[1]\nRepeat Wrist and scaphoid X-rays should be obtained 2-3 weeks after initial injury to assess for fracture if suspicion is high.\nImmobilization may be required for at least 6-12 wks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Carpal fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal fractures",
+          "url": "https://wikem.org/wiki/Carpal_fractures"
+        }
+      ]
+    }
+  }
+}

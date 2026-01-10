@@ -1,0 +1,520 @@
+{
+  "drug_name": "Rocky_mountain_spotted_fever",
+  "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever",
+  "scraped_at": "2026-01-10T08:01:38.517254",
+  "sections": {
+    "Background": {
+      "text": "Most frequent rickettsial disease reported in the US.\n[1]\nCaused by Rickettsia rickettsii\nObligate intracellular, gram negative bacteria\nPredilection for vascular endothelial cells\nSpread by ticks\nAmerican Dog Tick (Dermacentor variabilis)\nMost common vector\nRocky Mountain Wood Tick (Dermacentor andersoni)\nBrown Dog Tick (Rhipicephalus sanquineus)\nCayenne Tick (Amblyomma cajennense)\nSeasonal distribution with most infections occurring in the summer months\nWidely distributed in the US\nStates with the highest incidence are Oklahoma, Nebraska, Arkansas, Tennessee and North Carolina\nOverall incidence is increasing while mortality is falling\n[2]\nPrior to the era of antibiotics, ~30% mortality\nCurrently mortality is 3-5%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms generally begin 2-14 days after inoculation from an infected tick\n[3]",
+      "subsections": {
+        "Early_symptoms": {
+          "text": "Non specific and highly variable\nFever\nNausea/Vomiting\nAbdominal pain\nMyalgias\n(severe calf pain)\nHeadache\nFatigue\nConjunctivitis",
+          "tables": []
+        },
+        "Late_symptoms": {
+          "text": "Rash\nBegins as a blanching maculopapular rash that evolves to become a petechial rash\nUsually 2-5 days after fever subsides\nStarts on extremities and spreads inward (centripetally)\nCan involve palms and soles (50% of cases)\nArthralgias\nPositive Rumpel-Leede test\nDevelopment of petechiae at the site of blood pressure cuff and distally after compression",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Secondary to host response against infected endothelial cells\nVasculitis\nMyocarditis\nInterstitial\npneumonitis\nEncephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/Vomiting",
+          "url": "https://wikem.org/wiki/Nausea/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Early_symptoms": {
+      "text": "Non specific and highly variable\nFever\nNausea/Vomiting\nAbdominal pain\nMyalgias\n(severe calf pain)\nHeadache\nFatigue\nConjunctivitis",
+      "subsections": {
+        "Late_symptoms": {
+          "text": "Rash\nBegins as a blanching maculopapular rash that evolves to become a petechial rash\nUsually 2-5 days after fever subsides\nStarts on extremities and spreads inward (centripetally)\nCan involve palms and soles (50% of cases)\nArthralgias\nPositive Rumpel-Leede test\nDevelopment of petechiae at the site of blood pressure cuff and distally after compression",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Secondary to host response against infected endothelial cells\nVasculitis\nMyocarditis\nInterstitial\npneumonitis\nEncephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/Vomiting",
+          "url": "https://wikem.org/wiki/Nausea/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Late_symptoms": {
+      "text": "Rash\nBegins as a blanching maculopapular rash that evolves to become a petechial rash\nUsually 2-5 days after fever subsides\nStarts on extremities and spreads inward (centripetally)\nCan involve palms and soles (50% of cases)\nArthralgias\nPositive Rumpel-Leede test\nDevelopment of petechiae at the site of blood pressure cuff and distally after compression",
+      "subsections": {
+        "Complications": {
+          "text": "Secondary to host response against infected endothelial cells\nVasculitis\nMyocarditis\nInterstitial\npneumonitis\nEncephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Secondary to host response against infected endothelial cells\nVasculitis\nMyocarditis\nInterstitial\npneumonitis\nEncephalitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Other\nTick Borne Illnesses\nNon-specific\nviral illness",
+      "subsections": {
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        },
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick Borne Illnesses",
+          "url": "https://wikem.org/wiki/Tick_Borne_Illnesses"
+        },
+        {
+          "text": "viral illness",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Lower_Respiratory_Zoonotic_Infections": {
+      "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "PCR (initially)\nSerial serologic examinations by indirect fluorescent antibody confirm the diagnosis\nTiters",
+      "subsections": {
+        "Work-Up": {
+          "text": "ECG\n(\nMyocarditis\n)\nChem 7 (\nHyponatremia\n)\nCBC (\nThrombocytopenia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "ECG\n(\nMyocarditis\n)\nChem 7 (\nHyponatremia\n)\nCBC (\nThrombocytopenia\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Doxycycline\n100 mg BID for 5-7 days\n[4]\nIndicated also in children at 2.2mg/kg BID\nChloramphenicol\n(CAM) 50-100 mg/kg/day div Q6hr (Max dose = 4g/day)\nPreferred agent in pregnancy. May cause\naplastic anemia\nand\nGrey baby syndrome\n, more common in near term or 3rd trimester\n[1]\nConsideration should be made for doxycycline over CAM in the 3rd trimester",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        },
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Grey baby syndrome",
+          "url": "https://wikem.org/wiki/Grey_baby_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Tick borne illnesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick borne illnesses",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        }
+      ]
+    }
+  }
+}

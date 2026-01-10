@@ -1,0 +1,1065 @@
+{
+  "drug_name": "Salicylate_toxicity",
+  "url": "https://wikem.org/wiki/Salicylate_toxicity",
+  "scraped_at": "2026-01-10T08:01:46.693151",
+  "sections": {
+    "Background": {
+      "text": "Salicylates are commonly available in numerous over-the-counter products, and toxicity may occur from acute (intentional or accidental) and chronic ingestion.\nFatal dose:\n~10-30g by adult\n~3g by child",
+      "subsections": {
+        "Salicylate_Sources": {
+          "text": "Aspirin\nOil of Wintergreen\nOil of Wintergreen is very concentrated - 5mL contains approximately 7g of aspirin.\n[1]\nPepto-Bismol\nWart removers\nMaalox\nAlka-Seltzer",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Uncouples oxidative phosphorylation → increased metabolic rate and hyperthermia\nAs level rises, switches from hepatic to renal clearance (slower)\nNausea/vomiting\nStimulates chemoreceptor trigger zone\nMay cause metabolic alkalosis (contraction alkalosis)\nRespiratory alkalosis\nActivates respiratory center of medulla\nIf have respiratory acidosis, consider: pulmonary edema, co-ingestion of respiratory depressant or fatigue\nLeads to compensatory alkaluria: urinary excretion of potassium and sodium bicarb\nAnion gap metabolic acidosis\nInterferes with cellular metabolism\nNormal AG does not exclude ASA toxicity in patient with an unknown ingestion (mixed picture)\nHyperthermia\nUncouples oxidative phosphorylation\nAs pH drops more ASA is uncharged; able to cross BBB\nAltered mental status\nDirect toxicity of salicylate species in the CNS\nCerebral edema\nNeuroglycopenia\nSalicylate toxicity increases CNS utilization of glucose, serum glucose levels may not reflect CNS levels.\nPulmonary edema\nUsually occurs in elderly\nDue to increased pulmonary vascular permeability\nFetal Effects in pregnancy\nIncreased fetal morbidity and mortality\nUn-ionized salicylate cross the placenta due to higher fetal pH, where it becomes ionized and accumulates in the fetus\nDue to fetal inability to hyperventilate leads to worsening acidosis\nThere can be displacement of bilirubin from protein binding sites allowing it to cross the blood brain barrier, which can lead to kernicterus.\nDue to inhibition of prostaglandin synthesis, can lead to premature closure of the ductus arteriosus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Pepto-Bismol",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Maalox",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Salicylate_Sources": {
+      "text": "Aspirin\nOil of Wintergreen\nOil of Wintergreen is very concentrated - 5mL contains approximately 7g of aspirin.\n[1]\nPepto-Bismol\nWart removers\nMaalox\nAlka-Seltzer",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Uncouples oxidative phosphorylation → increased metabolic rate and hyperthermia\nAs level rises, switches from hepatic to renal clearance (slower)\nNausea/vomiting\nStimulates chemoreceptor trigger zone\nMay cause metabolic alkalosis (contraction alkalosis)\nRespiratory alkalosis\nActivates respiratory center of medulla\nIf have respiratory acidosis, consider: pulmonary edema, co-ingestion of respiratory depressant or fatigue\nLeads to compensatory alkaluria: urinary excretion of potassium and sodium bicarb\nAnion gap metabolic acidosis\nInterferes with cellular metabolism\nNormal AG does not exclude ASA toxicity in patient with an unknown ingestion (mixed picture)\nHyperthermia\nUncouples oxidative phosphorylation\nAs pH drops more ASA is uncharged; able to cross BBB\nAltered mental status\nDirect toxicity of salicylate species in the CNS\nCerebral edema\nNeuroglycopenia\nSalicylate toxicity increases CNS utilization of glucose, serum glucose levels may not reflect CNS levels.\nPulmonary edema\nUsually occurs in elderly\nDue to increased pulmonary vascular permeability\nFetal Effects in pregnancy\nIncreased fetal morbidity and mortality\nUn-ionized salicylate cross the placenta due to higher fetal pH, where it becomes ionized and accumulates in the fetus\nDue to fetal inability to hyperventilate leads to worsening acidosis\nThere can be displacement of bilirubin from protein binding sites allowing it to cross the blood brain barrier, which can lead to kernicterus.\nDue to inhibition of prostaglandin synthesis, can lead to premature closure of the ductus arteriosus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Pepto-Bismol",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Maalox",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Uncouples oxidative phosphorylation → increased metabolic rate and hyperthermia\nAs level rises, switches from hepatic to renal clearance (slower)\nNausea/vomiting\nStimulates chemoreceptor trigger zone\nMay cause metabolic alkalosis (contraction alkalosis)\nRespiratory alkalosis\nActivates respiratory center of medulla\nIf have respiratory acidosis, consider: pulmonary edema, co-ingestion of respiratory depressant or fatigue\nLeads to compensatory alkaluria: urinary excretion of potassium and sodium bicarb\nAnion gap metabolic acidosis\nInterferes with cellular metabolism\nNormal AG does not exclude ASA toxicity in patient with an unknown ingestion (mixed picture)\nHyperthermia\nUncouples oxidative phosphorylation\nAs pH drops more ASA is uncharged; able to cross BBB\nAltered mental status\nDirect toxicity of salicylate species in the CNS\nCerebral edema\nNeuroglycopenia\nSalicylate toxicity increases CNS utilization of glucose, serum glucose levels may not reflect CNS levels.\nPulmonary edema\nUsually occurs in elderly\nDue to increased pulmonary vascular permeability\nFetal Effects in pregnancy\nIncreased fetal morbidity and mortality\nUn-ionized salicylate cross the placenta due to higher fetal pH, where it becomes ionized and accumulates in the fetus\nDue to fetal inability to hyperventilate leads to worsening acidosis\nThere can be displacement of bilirubin from protein binding sites allowing it to cross the blood brain barrier, which can lead to kernicterus.\nDue to inhibition of prostaglandin synthesis, can lead to premature closure of the ductus arteriosus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anion gap metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Mild_(<150mg/kg)": {
+          "text": "Tinnitus\nTinnitus is early sign - providers used to dose ASA to onset of tinnitus.\nHearing loss\nDizziness\nNausea and vomiting\nCommon with acute toxicity",
+          "tables": []
+        },
+        "Moderate_(150-300mg/kg)": {
+          "text": "Tachypnea\nHyperpyrexia\nDiaphoresis\nAtaxia\nAnxiety",
+          "tables": []
+        },
+        "Severe_(>300mg/kg)": {
+          "text": "Altered mental status\nSeizure\nComa\nCerebral edema\nAcute lung injury\nNausea and vomiting\nAcute renal failure\nCardiac\narrhythmias\nShock",
+          "tables": []
+        },
+        "Chronic_Toxicity": {
+          "text": "Usually neurologic abnormalities, especially in elderly\nAgitation\nParanoia\nMemory deficits\nConfusion\nStupor\nHyperventilation\nTremor\nPapilledema\nHigher morbidity (\npulmonary edema\n,\nseizures\n,\nrenal failure\n) and mortality rate compared with acute toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Hyperpyrexia",
+          "url": "https://wikem.org/wiki/Hyperpyrexia"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Chronic_Toxicity": {
+      "text": "Usually neurologic abnormalities, especially in elderly\nAgitation\nParanoia\nMemory deficits\nConfusion\nStupor\nHyperventilation\nTremor\nPapilledema\nHigher morbidity (\npulmonary edema\n,\nseizures\n,\nrenal failure\n) and mortality rate compared with acute toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anion_gap_metabolic_acidosis": {
+          "text": "Lactic acidosis\nSepsis\n,\nshock\n, liver disease,\nCO\n,\nCN\n,\nmetformin\n,\nmethemoglobin\nShort bowel syndrome\nPropylene glycol infusions for\nlorazepam\nand\nphenobarbital\nRenal failure\nUremia\nKetoacidosis\nDKA\nAlcoholic Ketoacidosis\nStarvation ketoacidosis\nIngestions\nAcetaminophen toxicity\nAspirin toxicity\nIncreased osm gap\nMethanol\nEthylene glycol\nNormal osm gap\nSalicylate toxicity\nIron\nINH",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/CN"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "methemoglobin",
+          "url": "https://wikem.org/wiki/Methemoglobin"
+        },
+        {
+          "text": "Short bowel syndrome",
+          "url": "https://wikem.org/wiki/Short_bowel_syndrome"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "Starvation ketoacidosis",
+          "url": "https://wikem.org/wiki/Starvation_ketoacidosis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Aspirin toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Anion_gap_metabolic_acidosis": {
+      "text": "Lactic acidosis\nSepsis\n,\nshock\n, liver disease,\nCO\n,\nCN\n,\nmetformin\n,\nmethemoglobin\nShort bowel syndrome\nPropylene glycol infusions for\nlorazepam\nand\nphenobarbital\nRenal failure\nUremia\nKetoacidosis\nDKA\nAlcoholic Ketoacidosis\nStarvation ketoacidosis\nIngestions\nAcetaminophen toxicity\nAspirin toxicity\nIncreased osm gap\nMethanol\nEthylene glycol\nNormal osm gap\nSalicylate toxicity\nIron\nINH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/CN"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "methemoglobin",
+          "url": "https://wikem.org/wiki/Methemoglobin"
+        },
+        {
+          "text": "Short bowel syndrome",
+          "url": "https://wikem.org/wiki/Short_bowel_syndrome"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "Starvation ketoacidosis",
+          "url": "https://wikem.org/wiki/Starvation_ketoacidosis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Aspirin toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "ASA\nlevel\nAcetaminophen level (possible co-ingestant)\nMetabolic panel\nRenal failure prevents ASA clearance\nHyperglycemia in periphery (CSF will have low glucose due to CNS hypermetabolic state)\nHypokalemia requires aggressive repletion - this differentiates from\nDKA\nwhich tends to have hyperkalemia or normokalemia at initial presentation\nUrinary alkalinization inhibited by excretion of H+ in order to reabsorb K+\nMag and phos\nUrine toxicology screen\nUrinalysis\nVBG\nCBC\nPTT, PT/INR\nLFTs\nECG\nChest and abdominal radiographs",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Triple-mixed acid-base disturbance\nRespiratory alkalosis (earliest sign), AG metabolic acidosis, metabolic (contraction) alkalosis\nOnly other entity that produces this pattern is sepsis\nElevated ASA level\nObtain levels q1-2hr until levels decline and patient's clinical status stabilizes\nMay be deceptively low early after ingestion and with chronic toxicity",
+          "tables": []
+        },
+        "Levels": {
+          "text": "Therapeutic: 10-30mg/dL\nToxicity: >40-50mg/dL\nRapidly absorbed - measurable levels in 30 minutes\nPeak occurs ~6hr after absorption (up to 60hr if enteric-coated or extended release)\nUnit Conversion\n100mg/dL = 1000mg/L = 7.24 mmol/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "ASA\nlevel\nAcetaminophen level (possible co-ingestant)\nMetabolic panel\nRenal failure prevents ASA clearance\nHyperglycemia in periphery (CSF will have low glucose due to CNS hypermetabolic state)\nHypokalemia requires aggressive repletion - this differentiates from\nDKA\nwhich tends to have hyperkalemia or normokalemia at initial presentation\nUrinary alkalinization inhibited by excretion of H+ in order to reabsorb K+\nMag and phos\nUrine toxicology screen\nUrinalysis\nVBG\nCBC\nPTT, PT/INR\nLFTs\nECG\nChest and abdominal radiographs",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Triple-mixed acid-base disturbance\nRespiratory alkalosis (earliest sign), AG metabolic acidosis, metabolic (contraction) alkalosis\nOnly other entity that produces this pattern is sepsis\nElevated ASA level\nObtain levels q1-2hr until levels decline and patient's clinical status stabilizes\nMay be deceptively low early after ingestion and with chronic toxicity",
+          "tables": []
+        },
+        "Levels": {
+          "text": "Therapeutic: 10-30mg/dL\nToxicity: >40-50mg/dL\nRapidly absorbed - measurable levels in 30 minutes\nPeak occurs ~6hr after absorption (up to 60hr if enteric-coated or extended release)\nUnit Conversion\n100mg/dL = 1000mg/L = 7.24 mmol/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Triple-mixed acid-base disturbance\nRespiratory alkalosis (earliest sign), AG metabolic acidosis, metabolic (contraction) alkalosis\nOnly other entity that produces this pattern is sepsis\nElevated ASA level\nObtain levels q1-2hr until levels decline and patient's clinical status stabilizes\nMay be deceptively low early after ingestion and with chronic toxicity",
+      "subsections": {
+        "Levels": {
+          "text": "Therapeutic: 10-30mg/dL\nToxicity: >40-50mg/dL\nRapidly absorbed - measurable levels in 30 minutes\nPeak occurs ~6hr after absorption (up to 60hr if enteric-coated or extended release)\nUnit Conversion\n100mg/dL = 1000mg/L = 7.24 mmol/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Levels": {
+      "text": "Therapeutic: 10-30mg/dL\nToxicity: >40-50mg/dL\nRapidly absorbed - measurable levels in 30 minutes\nPeak occurs ~6hr after absorption (up to 60hr if enteric-coated or extended release)\nUnit Conversion\n100mg/dL = 1000mg/L = 7.24 mmol/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Airway": {
+          "text": "Avoid intubation unless absolutely necessary!\nVery difficult to achieve adequate minute ventilation on vent\nInadequate minute ventilation → ↑ respiratory acidosis → ↑ ASA crossing BBB\nWhile on ventilator, adjust RR to maintain goal serum pH 7.5 - 7.59\nIndications for intubation: hypoxemia or hypoventilation\nGive\nsodium bicarbonate\n50-100 meq prior to intubating",
+          "tables": []
+        },
+        "Breathing": {
+          "text": "Acute lung injury may lead to high O2 requirements",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Hypotension\nis common due to systemic vasodilation\nIVF +/- K+ (if no cerebral edema, no pulmonary edema)\nIf these are present consider pressors",
+          "tables": []
+        },
+        "Decontamination": {
+          "text": "Charcoal\n1g/kg up to 50g PO\nEffectively absorbs ASA\nGive multiple doses if tolerated\n25g PO q2hr x 3 doses\nOR\n50g q4hr x 2 doses after initial dose\nWhole-bowel irrigation\nConsider for ingestion of large amount of enteric-coated or extended-release forms",
+          "tables": []
+        },
+        "Glucose": {
+          "text": "Give\nD50\nto altered patients regardless of serum glucose concentration\nExcept for fluids used for initial resuscitation, all IVF should be D5W\nASA toxicity impairs glucose metabolism",
+          "tables": []
+        },
+        "Alkalinization_of_plasma_and_urine": {
+          "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "D50",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Airway": {
+      "text": "Avoid intubation unless absolutely necessary!\nVery difficult to achieve adequate minute ventilation on vent\nInadequate minute ventilation → ↑ respiratory acidosis → ↑ ASA crossing BBB\nWhile on ventilator, adjust RR to maintain goal serum pH 7.5 - 7.59\nIndications for intubation: hypoxemia or hypoventilation\nGive\nsodium bicarbonate\n50-100 meq prior to intubating",
+      "subsections": {
+        "Breathing": {
+          "text": "Acute lung injury may lead to high O2 requirements",
+          "tables": []
+        },
+        "Circulation": {
+          "text": "Hypotension\nis common due to systemic vasodilation\nIVF +/- K+ (if no cerebral edema, no pulmonary edema)\nIf these are present consider pressors",
+          "tables": []
+        },
+        "Decontamination": {
+          "text": "Charcoal\n1g/kg up to 50g PO\nEffectively absorbs ASA\nGive multiple doses if tolerated\n25g PO q2hr x 3 doses\nOR\n50g q4hr x 2 doses after initial dose\nWhole-bowel irrigation\nConsider for ingestion of large amount of enteric-coated or extended-release forms",
+          "tables": []
+        },
+        "Glucose": {
+          "text": "Give\nD50\nto altered patients regardless of serum glucose concentration\nExcept for fluids used for initial resuscitation, all IVF should be D5W\nASA toxicity impairs glucose metabolism",
+          "tables": []
+        },
+        "Alkalinization_of_plasma_and_urine": {
+          "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "D50",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Breathing": {
+      "text": "Acute lung injury may lead to high O2 requirements",
+      "subsections": {
+        "Circulation": {
+          "text": "Hypotension\nis common due to systemic vasodilation\nIVF +/- K+ (if no cerebral edema, no pulmonary edema)\nIf these are present consider pressors",
+          "tables": []
+        },
+        "Decontamination": {
+          "text": "Charcoal\n1g/kg up to 50g PO\nEffectively absorbs ASA\nGive multiple doses if tolerated\n25g PO q2hr x 3 doses\nOR\n50g q4hr x 2 doses after initial dose\nWhole-bowel irrigation\nConsider for ingestion of large amount of enteric-coated or extended-release forms",
+          "tables": []
+        },
+        "Glucose": {
+          "text": "Give\nD50\nto altered patients regardless of serum glucose concentration\nExcept for fluids used for initial resuscitation, all IVF should be D5W\nASA toxicity impairs glucose metabolism",
+          "tables": []
+        },
+        "Alkalinization_of_plasma_and_urine": {
+          "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "D50",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Circulation": {
+      "text": "Hypotension\nis common due to systemic vasodilation\nIVF +/- K+ (if no cerebral edema, no pulmonary edema)\nIf these are present consider pressors",
+      "subsections": {
+        "Decontamination": {
+          "text": "Charcoal\n1g/kg up to 50g PO\nEffectively absorbs ASA\nGive multiple doses if tolerated\n25g PO q2hr x 3 doses\nOR\n50g q4hr x 2 doses after initial dose\nWhole-bowel irrigation\nConsider for ingestion of large amount of enteric-coated or extended-release forms",
+          "tables": []
+        },
+        "Glucose": {
+          "text": "Give\nD50\nto altered patients regardless of serum glucose concentration\nExcept for fluids used for initial resuscitation, all IVF should be D5W\nASA toxicity impairs glucose metabolism",
+          "tables": []
+        },
+        "Alkalinization_of_plasma_and_urine": {
+          "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "D50",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Decontamination": {
+      "text": "Charcoal\n1g/kg up to 50g PO\nEffectively absorbs ASA\nGive multiple doses if tolerated\n25g PO q2hr x 3 doses\nOR\n50g q4hr x 2 doses after initial dose\nWhole-bowel irrigation\nConsider for ingestion of large amount of enteric-coated or extended-release forms",
+      "subsections": {
+        "Glucose": {
+          "text": "Give\nD50\nto altered patients regardless of serum glucose concentration\nExcept for fluids used for initial resuscitation, all IVF should be D5W\nASA toxicity impairs glucose metabolism",
+          "tables": []
+        },
+        "Alkalinization_of_plasma_and_urine": {
+          "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Charcoal",
+          "url": "https://wikem.org/wiki/Charcoal"
+        },
+        {
+          "text": "Whole-bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole-bowel_irrigation"
+        },
+        {
+          "text": "D50",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Glucose": {
+      "text": "Give\nD50\nto altered patients regardless of serum glucose concentration\nExcept for fluids used for initial resuscitation, all IVF should be D5W\nASA toxicity impairs glucose metabolism",
+      "subsections": {
+        "Alkalinization_of_plasma_and_urine": {
+          "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D50",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Alkalinization_of_plasma_and_urine": {
+      "text": "Not a substitute for dialysis in severe salicylism\nContinuous IV infusion of\nsodium bicarbonate\nis indicated even in the presence of alkalemia from respiratory alkalosis\n[2]\nSerum bicarbonate is still deficient\nMechanism\nTraps ASA in blood and in renal tubules\nIncreases elimination; prevents diffusion across BBB\nIndications\nASA>35 or suspect serious toxicity\nGoals\nBlood pH goal: = >7.5, <7.6\nUrine pH goal: 7.5-8\nMonitor serum electrolytes (to include potassium and magnesium) q2-4hrs during urine alkalinization\n[3]\nHCO3 will drive potassium into cells during drip\nEnsure replacement of magnesium and potassium, as urine will not alkalinize otherwise\nDosing\nNaHCO3 1-2mEq/kg IV bolus; then 3amp bicarb in 1L D5W at 2-3mL/kg/hr\nMaintain urine pH >7.5\nBolus during intubation\nIf intubation is required, consider administration of sodium bicarbonate by IV bolus at the time of intubation to maintain a blood pH of 7.45-7.5 over the next 30 minutes",
+      "subsections": {
+        "Dialysis": {
+          "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Dialysis": {
+      "text": "Indicated for:\nAltered mental status\nSeizure\nPulmonary edema\nCoagulopathy\nInability to tolerate volume load from bicarb drip (e.g.\nCHF\n)\nNew\nhypoxemia\npH ≤7.20\nHigh ASA levels\n[4]\nInitial levels\n>7.2 mmol/L (100mg/dL)\n>6.5 mmol/L (90mg/dL) in the setting of AKI\nAfter standard therapy\n>6.5 mmol/L (90mg/dL)\n>5.8 mmol/L (80mg/dL) in the setting of AKI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all patients who have ingested enteric-coated or extended-release preprarations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nGeneral Psych Workup\nAcetaminophen (Tylenol)\nAntidotes\nAspirin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "General Psych Workup",
+          "url": "https://wikem.org/wiki/General_Psych_Workup"
+        },
+        {
+          "text": "Acetaminophen (Tylenol)",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        }
+      ]
+    }
+  }
+}

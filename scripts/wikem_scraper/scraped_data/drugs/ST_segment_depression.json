@@ -1,0 +1,81 @@
+{
+  "drug_name": "ST_segment_depression",
+  "url": "https://wikem.org/wiki/ST_segment_depression",
+  "scraped_at": "2026-01-10T08:01:40.381611",
+  "sections": {
+    "Evaluation": {
+      "text": "Contour: Most→Least concerning for ischemia: Planar/Flat (90%) → Concave up (33%) → Downsloping with Asymmetric inverted T-wave (not ischemic/strain pattern)\nAssume posterior STEMI or reciprocal changes to STEMI until proven otherwise\nIndicators of ischemia:\n>0.5mm depression from baseline (especially >1mm) in two or more contiguous leads\nTransient depression\nMorphology that is flat or downsloping\nStrain:\ntall R wave\nonly in lateral leads (not anterior)\n\"checkbox\" or asymmetric TWI\ndown sloping pattern",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Posterior MI\n(including posterior\nSTEMI\n)\nRV strain\nNSTEMI\nReciprocal changes\nElectrolyte Disorders\n(e.g.\nhypokalemia\n)\nSVT\nRBBB\n/\nLBBB\nLVH\nwith strain pattern (repolarization abnormality)\nDigoxin\neffect (not indicative of toxicity)\nVentricular paced\npattern",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior MI",
+          "url": "https://wikem.org/wiki/Posterior_MI"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "Electrolyte Disorders",
+          "url": "https://wikem.org/wiki/Electrolyte_Disorders"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "LBBB",
+          "url": "https://wikem.org/wiki/LBBB"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        },
+        {
+          "text": "Ventricular paced",
+          "url": "https://wikem.org/wiki/Ventricular_paced"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "ST Elevation Lecture, Dr. Niemann, Harbor-UCLA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

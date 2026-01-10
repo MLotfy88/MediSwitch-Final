@@ -1,0 +1,97 @@
+{
+  "drug_name": "SGLT-2_Inhibitor",
+  "url": "https://wikem.org/wiki/SGLT-2_Inhibitor",
+  "scraped_at": "2026-01-10T08:01:41.220240",
+  "sections": {
+    "Administration": {
+      "text": "Type: Oral\nDiabetes medication\nCanagliflozin (Invokana), Dapagliflozin (Farxiga), Empagliflozin (Jardiance) are FDA approved for use in type 2 diabetes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes medication",
+          "url": "https://wikem.org/wiki/Diabetes_medication"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Euglycemic\nDKA\n[1]\nFournier's gangrene (rare)",
+          "tables": []
+        },
+        "Common": {
+          "text": "UTI\nGenital\ncandidiasis\nWeight loss\nDehydration/Orthostasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Euglycemic\nDKA\n[1]\nFournier's gangrene (rare)",
+      "subsections": {
+        "Common": {
+          "text": "UTI\nGenital\ncandidiasis\nWeight loss\nDehydration/Orthostasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "UTI\nGenital\ncandidiasis\nWeight loss\nDehydration/Orthostasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibit sodium-glucose cotransporter 2, decreasing glucose reabsorption in the proximal tubule",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "drug_name": "Salter-Harris_fractures",
+  "url": "https://wikem.org/wiki/Salter-Harris_fractures",
+  "scraped_at": "2026-01-10T08:01:47.628130",
+  "sections": {
+    "Background": {
+      "text": "The higher the classification, the higher the likelihood of growth abnormalities\nIf physis fracture missed may lead to premature closure and bone growth arrest\nIt was previously taught that ligaments are stronger than bones in kids (and fractures were more likely than sprains), however newer studies (\nto date in ankles\n) contradict that assumption\n[1]",
+      "subsections": {
+        "Mnemonic": {
+          "text": "S 1 - Slipped (through physis/growth plate)\nA 2 - Above (physis with metaphysis fracture)\nL 3 - Lower (physis  with epiphysis fracture)\nT 4 - Through (physis, metaphysis and epiphysis fracture)\nR 5 - Rammed (growth plate crushed)",
+          "tables": []
+        },
+        "Fracture_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Fracture Location",
+                "I (Slip)": "hypertrophic zone of physis (epiphysis separates from metaphysis)",
+                "II (Above)": "Through physis and out through piece of metaphyseal bone",
+                "III (Below)": "Intra-articular",
+                "IV (Through)": "Starts at articular surface and extends through epiphysis, physis, metaphysis",
+                "V (Crush)": "Physis compression"
+              },
+              {
+                "Type": "Pathophysiology",
+                "I (Slip)": "Growing cells remain on the epiphysis in continuity with blood supply",
+                "II (Above)": "Growing cells remain on the epiphysis in continuity with blood supply",
+                "III (Below)": "fracture extends from epiphysis through physis",
+                "IV (Through)": "",
+                "V (Crush)": ""
+              },
+              {
+                "Type": "Epidemiology",
+                "I (Slip)": "Occurs mostly in infants and todlers",
+                "II (Above)": "Most common type of fracture",
+                "III (Below)": "",
+                "IV (Through)": "",
+                "V (Crush)": "Typically occurs at knee or ankle"
+              },
+              {
+                "Type": "Prognosis",
+                "I (Slip)": "Good",
+                "II (Above)": "Good",
+                "III (Below)": "Moderate",
+                "IV (Through)": "Moderate",
+                "V (Crush)": "Highest chance of growth arrest"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "to date in ankles",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        }
+      ]
+    },
+    "Mnemonic": {
+      "text": "S 1 - Slipped (through physis/growth plate)\nA 2 - Above (physis with metaphysis fracture)\nL 3 - Lower (physis  with epiphysis fracture)\nT 4 - Through (physis, metaphysis and epiphysis fracture)\nR 5 - Rammed (growth plate crushed)",
+      "subsections": {
+        "Fracture_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Fracture Location",
+                "I (Slip)": "hypertrophic zone of physis (epiphysis separates from metaphysis)",
+                "II (Above)": "Through physis and out through piece of metaphyseal bone",
+                "III (Below)": "Intra-articular",
+                "IV (Through)": "Starts at articular surface and extends through epiphysis, physis, metaphysis",
+                "V (Crush)": "Physis compression"
+              },
+              {
+                "Type": "Pathophysiology",
+                "I (Slip)": "Growing cells remain on the epiphysis in continuity with blood supply",
+                "II (Above)": "Growing cells remain on the epiphysis in continuity with blood supply",
+                "III (Below)": "fracture extends from epiphysis through physis",
+                "IV (Through)": "",
+                "V (Crush)": ""
+              },
+              {
+                "Type": "Epidemiology",
+                "I (Slip)": "Occurs mostly in infants and todlers",
+                "II (Above)": "Most common type of fracture",
+                "III (Below)": "",
+                "IV (Through)": "",
+                "V (Crush)": "Typically occurs at knee or ankle"
+              },
+              {
+                "Type": "Prognosis",
+                "I (Slip)": "Good",
+                "II (Above)": "Good",
+                "III (Below)": "Moderate",
+                "IV (Through)": "Moderate",
+                "V (Crush)": "Highest chance of growth arrest"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fracture_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Fracture Location",
+            "I (Slip)": "hypertrophic zone of physis (epiphysis separates from metaphysis)",
+            "II (Above)": "Through physis and out through piece of metaphyseal bone",
+            "III (Below)": "Intra-articular",
+            "IV (Through)": "Starts at articular surface and extends through epiphysis, physis, metaphysis",
+            "V (Crush)": "Physis compression"
+          },
+          {
+            "Type": "Pathophysiology",
+            "I (Slip)": "Growing cells remain on the epiphysis in continuity with blood supply",
+            "II (Above)": "Growing cells remain on the epiphysis in continuity with blood supply",
+            "III (Below)": "fracture extends from epiphysis through physis",
+            "IV (Through)": "",
+            "V (Crush)": ""
+          },
+          {
+            "Type": "Epidemiology",
+            "I (Slip)": "Occurs mostly in infants and todlers",
+            "II (Above)": "Most common type of fracture",
+            "III (Below)": "",
+            "IV (Through)": "",
+            "V (Crush)": "Typically occurs at knee or ankle"
+          },
+          {
+            "Type": "Prognosis",
+            "I (Slip)": "Good",
+            "II (Above)": "Good",
+            "III (Below)": "Moderate",
+            "IV (Through)": "Moderate",
+            "V (Crush)": "Highest chance of growth arrest"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Trauma with point tenderness over a non-closed (pediatric) physis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Sprain\nContusion\nOther fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Type_1_(Slip)": {
+          "text": "Suspect if point tenderness over a physis\nX-ray findings are subtle (epiphyseal displacement) or absent (clinical diagnosis)\nOften radiograph negative",
+          "tables": []
+        },
+        "Type_2_(Above)": {
+          "text": "X-ray shows triangular fragment of metaphysis with out injury to epiphysis",
+          "tables": []
+        },
+        "Type_3_(Below)": {
+          "text": "X-ray shows epiphyseal fragment not associated with etaphyseal fracture\nGreater the displacement greater chance of vascular supply compromise",
+          "tables": []
+        },
+        "Type_4_(Both)": {
+          "text": "fracture starts at articular surface and extends through epiphysis, physis, metaphysis",
+          "tables": []
+        },
+        "Type_5_(Crush)": {
+          "text": "X-ray shows physis compression fracture\nMay confuse for Type 1 injury: differentiation based on clinical presentation, history, and exam.\nX-ray findings may be minimal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Type_I": {
+          "text": "Radiograph-negative ankle injury (peds)\nLow risk mechanism\nMost: Removable brace\n[2]\n[3]\n[4]\n[5]\nReturn to activities as tolerated by pain\nFollow up with pediatrician",
+          "tables": []
+        },
+        "Type_II": {
+          "text": "Most: Splint, ortho follow up\nAnkle injury - Consider removable ankle brace\n[2]",
+          "tables": []
+        },
+        "Type_III-V": {
+          "text": "Splint, ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Type_I": {
+          "text": "Radiograph-negative ankle injury (peds)\nLow risk mechanism\nMost: Removable brace\n[2]\n[3]\n[4]\n[5]\nReturn to activities as tolerated by pain\nFollow up with pediatrician",
+          "tables": []
+        },
+        "Type_II": {
+          "text": "Most: Splint, ortho follow up\nAnkle injury - Consider removable ankle brace\n[2]",
+          "tables": []
+        },
+        "Type_III-V": {
+          "text": "Splint, ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Type_I": {
+      "text": "Radiograph-negative ankle injury (peds)\nLow risk mechanism\nMost: Removable brace\n[2]\n[3]\n[4]\n[5]\nReturn to activities as tolerated by pain\nFollow up with pediatrician",
+      "subsections": {
+        "Type_II": {
+          "text": "Most: Splint, ortho follow up\nAnkle injury - Consider removable ankle brace\n[2]",
+          "tables": []
+        },
+        "Type_III-V": {
+          "text": "Splint, ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Type_II": {
+      "text": "Most: Splint, ortho follow up\nAnkle injury - Consider removable ankle brace\n[2]",
+      "subsections": {
+        "Type_III-V": {
+          "text": "Splint, ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Type_III-V": {
+      "text": "Splint, ortho consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures\nRadiograph-negative ankle injury (peds)\nTriplane fracture\n(type IV fracture of distal tibia)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Radiograph-negative ankle injury (peds)",
+          "url": "https://wikem.org/wiki/Radiograph-negative_ankle_injury_(peds)"
+        },
+        {
+          "text": "Triplane fracture",
+          "url": "https://wikem.org/wiki/Triplane_fracture"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "POSNA (Pediatric Orthopaedic Society of North America) -\nhttp://orthoinfo.aaos.org/topic.cfm?topic=A00040",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
