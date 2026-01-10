@@ -1,0 +1,71 @@
+{
+  "drug_name": "Pressure_immobilization_dressing",
+  "url": "https://wikem.org/wiki/Pressure_immobilization_dressing",
+  "scraped_at": "2026-01-10T08:00:34.871202",
+  "sections": {
+    "Background": {
+      "text": "Type of field dressing developed and used in Australia primarily for elapid bites\n[1]\nTheoretic reduction in systemic toxicity\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Only useful in extremity bites\nNeurotoxic\nElapidae (Coral Snakes)\nbite (mamba, king cobra, taipan, etc.)\nSea snake bike\nFunnel-web spider bite\nConsider in: large snake size, particularly lethal species, prolonged fang contact, small patient size, prior exposure to venom",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elapidae (Coral Snakes)",
+          "url": "https://wikem.org/wiki/Elapidae_(Coral_Snakes)"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        }
+      ]
+    },
+    "Considerations_Before_Application": {
+      "text": "Not indicated in\nCrotaline (Pit Vipers)\nbites (ie. rattlesnake).\nConsider plan for extricating the patient\nPatient must be\ncarried\nout of the field once dressing is in place\nThe dressing must\nnot\nbe taken down\nuntil the patient has reached definitive care\n. Removing the dressing may release a bolus of venom and antivenom should be immediately available.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "Place the extremity in a neutral position\nUse an elastic or crepe bandage to wrap the entire affected extremity (distal to proximal)\nWrap very firmly, with the same pressure used to splint a sprain, but not so much as to obstruct distal pulses.\nContinue to wrap the extremity to a rigid splint (ie. dowel) to immobilize.\nExtricate the patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Limitations": {
+      "text": "Insufficient pressure applied by provider\nChallenging to self-administer\nContraindication to self-extricate once applied\nContraindication to remove until antivenom available\nInadequate study in use of necrotic\nCrotaline (Pit Vipers)\nenvenomations. Contraindicated at this time.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crotaline (Pit Vipers)",
+          "url": "https://wikem.org/wiki/Crotaline_(Pit_Vipers)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Snake Bites\nFunnel-web spider bite",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Snake Bites",
+          "url": "https://wikem.org/wiki/Snake_Bites"
+        },
+        {
+          "text": "Funnel-web spider bite",
+          "url": "https://wikem.org/wiki/Funnel-web_spider_bite"
+        }
+      ]
+    }
+  }
+}

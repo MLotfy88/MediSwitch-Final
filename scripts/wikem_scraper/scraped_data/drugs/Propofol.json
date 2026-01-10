@@ -1,0 +1,331 @@
+{
+  "drug_name": "Propofol",
+  "url": "https://wikem.org/wiki/Propofol",
+  "scraped_at": "2026-01-10T08:00:39.833093",
+  "sections": {
+    "General": {
+      "text": "Type:\nSedative agent\nDosage Forms: 10mg/mL\nCommon Trade Names: Diprivan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative agent",
+          "url": "https://wikem.org/wiki/Sedative_agent"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Standard_Induction_Sedation": {
+          "text": "Induction = 0.5-1 mg/kg IV over 10s, followed by 0.5 mg/kg every 2-3 minutes as needed\nSmall incremental doses (10-30 mg) can slowly be administered to effect conscious sedation",
+          "tables": []
+        },
+        "Other": {
+          "text": "Maintenance dose for sedation between 0.1-0.2 mg/kg/min or 25-50 mg IV PRN in healthy patients < 55 years of age\nAntiemetic dosing, 10-20 mg IV or 10 μg/kg/min infusion",
+          "tables": []
+        },
+        "Adjunctive_medications": {
+          "text": "Fentanyl or morphine (propofol does not provide analgesia)\nNS for transient hypotension\nLidocaine\nflush (to reduce injection pain)",
+          "tables": []
+        },
+        "ICU_Sedation": {
+          "text": "5-50 mcg/kg/min IV, increase 5 mcg/kg/min q10min\nAvoid prolonged use, especially of high doses, to avoid propofol infusion syndrome (PRIS)\nPRIS\nusually associated with >65 mcg/kg/min for >24hrs, and critically ill patients with increased endogenous glucocorticoids and catecholamines\nPRIS\n:\nHeart failure\n,\nRhabdomyolysis\n,\nmetabolic acidosis\n, renal failure\nPropofol drip of these high dosages can be seen in post-intubation\nstatus epilepticus\n(drip 2-10mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Standard_Induction_Sedation": {
+      "text": "Induction = 0.5-1 mg/kg IV over 10s, followed by 0.5 mg/kg every 2-3 minutes as needed\nSmall incremental doses (10-30 mg) can slowly be administered to effect conscious sedation",
+      "subsections": {
+        "Other": {
+          "text": "Maintenance dose for sedation between 0.1-0.2 mg/kg/min or 25-50 mg IV PRN in healthy patients < 55 years of age\nAntiemetic dosing, 10-20 mg IV or 10 μg/kg/min infusion",
+          "tables": []
+        },
+        "Adjunctive_medications": {
+          "text": "Fentanyl or morphine (propofol does not provide analgesia)\nNS for transient hypotension\nLidocaine\nflush (to reduce injection pain)",
+          "tables": []
+        },
+        "ICU_Sedation": {
+          "text": "5-50 mcg/kg/min IV, increase 5 mcg/kg/min q10min\nAvoid prolonged use, especially of high doses, to avoid propofol infusion syndrome (PRIS)\nPRIS\nusually associated with >65 mcg/kg/min for >24hrs, and critically ill patients with increased endogenous glucocorticoids and catecholamines\nPRIS\n:\nHeart failure\n,\nRhabdomyolysis\n,\nmetabolic acidosis\n, renal failure\nPropofol drip of these high dosages can be seen in post-intubation\nstatus epilepticus\n(drip 2-10mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Maintenance dose for sedation between 0.1-0.2 mg/kg/min or 25-50 mg IV PRN in healthy patients < 55 years of age\nAntiemetic dosing, 10-20 mg IV or 10 μg/kg/min infusion",
+      "subsections": {
+        "Adjunctive_medications": {
+          "text": "Fentanyl or morphine (propofol does not provide analgesia)\nNS for transient hypotension\nLidocaine\nflush (to reduce injection pain)",
+          "tables": []
+        },
+        "ICU_Sedation": {
+          "text": "5-50 mcg/kg/min IV, increase 5 mcg/kg/min q10min\nAvoid prolonged use, especially of high doses, to avoid propofol infusion syndrome (PRIS)\nPRIS\nusually associated with >65 mcg/kg/min for >24hrs, and critically ill patients with increased endogenous glucocorticoids and catecholamines\nPRIS\n:\nHeart failure\n,\nRhabdomyolysis\n,\nmetabolic acidosis\n, renal failure\nPropofol drip of these high dosages can be seen in post-intubation\nstatus epilepticus\n(drip 2-10mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Adjunctive_medications": {
+      "text": "Fentanyl or morphine (propofol does not provide analgesia)\nNS for transient hypotension\nLidocaine\nflush (to reduce injection pain)",
+      "subsections": {
+        "ICU_Sedation": {
+          "text": "5-50 mcg/kg/min IV, increase 5 mcg/kg/min q10min\nAvoid prolonged use, especially of high doses, to avoid propofol infusion syndrome (PRIS)\nPRIS\nusually associated with >65 mcg/kg/min for >24hrs, and critically ill patients with increased endogenous glucocorticoids and catecholamines\nPRIS\n:\nHeart failure\n,\nRhabdomyolysis\n,\nmetabolic acidosis\n, renal failure\nPropofol drip of these high dosages can be seen in post-intubation\nstatus epilepticus\n(drip 2-10mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "ICU_Sedation": {
+      "text": "5-50 mcg/kg/min IV, increase 5 mcg/kg/min q10min\nAvoid prolonged use, especially of high doses, to avoid propofol infusion syndrome (PRIS)\nPRIS\nusually associated with >65 mcg/kg/min for >24hrs, and critically ill patients with increased endogenous glucocorticoids and catecholamines\nPRIS\n:\nHeart failure\n,\nRhabdomyolysis\n,\nmetabolic acidosis\n, renal failure\nPropofol drip of these high dosages can be seen in post-intubation\nstatus epilepticus\n(drip 2-10mg/kg/hr)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "PRIS",
+          "url": "https://wikem.org/wiki/PRIS"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Induction (3-16 yo) at 2.5-3.5 mg/kg IV\nProcedural sedation\n1 mg/kg (max 40 mg), then 0.5 mg/kg PRN (max 20 mg)\nPediatric population especially at risk for\npropofol infusion syndrome (PRIS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "propofol infusion syndrome (PRIS)",
+          "url": "https://wikem.org/wiki/Propofol_infusion_syndrome"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Drug of choice for induction in pregnancy (only Category B induction agent)\nLactation risk\n:\nRenal Dosing\nAdult\nNo adjustment necessary\nPediatric\nNo adjustment necessary\nHepatic Dosing\nAdult\nNo adjustment necessary\nPediatric\nNo adjustment necessary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAllergy to soy or eggs\nHypotension\nAortic stenosis",
+      "subsections": {
+        "Higher_Risk": {
+          "text": "Patients >55 years old\nDebilitated patients\nPatients with significant underlying illness (i.e. ASA physical status score III or IV)\nOptimize volume status before administration\nLargest decrease in systemic BP (vasodilation with only small increase in HR) compared with other induction drugs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Higher_Risk": {
+      "text": "Patients >55 years old\nDebilitated patients\nPatients with significant underlying illness (i.e. ASA physical status score III or IV)\nOptimize volume status before administration\nLargest decrease in systemic BP (vasodilation with only small increase in HR) compared with other induction drugs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Respiratory depression\nTransient hypotension\nPain at injection site (inject lidocaine 20-40mg IV and fentanyl 50 mcg IV first)\nHypertriglyceridemia\n- check TG levels in ICU setting\nCardiac arrest (patients with significant cardiac disease receiving propofol for induction at highest risk)\nPropofol infusion syndrome\n(PRIS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertriglyceridemia",
+          "url": "https://wikem.org/wiki/Hypertriglyceridemia"
+        },
+        {
+          "text": "Propofol infusion syndrome",
+          "url": "https://wikem.org/wiki/Propofol_infusion_syndrome"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 40 minutes (initial); 24-72 hr (after 10-day infusion)\nMetabolism: Hepatic\nExcretion: Renal\nMechanism of Action: GABA agonist\nRapid onset (90-100 seconds) and short duration (2-8 minute)\nWake up after induction dose usually 8-10 min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Seizure-like activity possible during induction, but safe in seizure disorder (most studies actually support anticonvulsant effect)\nHas significant anti-emetic activity\nAssociated with static or reduced intracranial pressure in head injured patients requiring\nICU Sedation\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ICU Sedation",
+          "url": "https://wikem.org/wiki/ICU_Sedation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sedation (Main)\nKetofol\nPropofol infusion syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation (Main)",
+          "url": "https://wikem.org/wiki/Sedation_(Main)"
+        },
+        {
+          "text": "Ketofol",
+          "url": "https://wikem.org/wiki/Ketofol"
+        },
+        {
+          "text": "Propofol infusion syndrome",
+          "url": "https://wikem.org/wiki/Propofol_infusion_syndrome"
+        }
+      ]
+    }
+  }
+}

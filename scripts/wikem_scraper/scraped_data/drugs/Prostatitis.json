@@ -1,0 +1,659 @@
+{
+  "drug_name": "Prostatitis",
+  "url": "https://wikem.org/wiki/Prostatitis",
+  "scraped_at": "2026-01-10T08:00:43.241043",
+  "sections": {
+    "Background": {
+      "text": "E. coli\ninvolved in 80% of cases\nOther:\nPseudomonas\n,\nKlebsiella\n,\nEnterobacter\n,\nSerratia\n,\nStaph",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Urinary Tract Obstruction\nEpididymitis\nUrethritis\nUnprotected rectal intercourse\nPhimosis\nIndwelling urethral catheter",
+          "tables": []
+        },
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Enterobacter",
+          "url": "https://wikem.org/wiki/Enterobacter"
+        },
+        {
+          "text": "Serratia",
+          "url": "https://wikem.org/wiki/Serratia"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Urinary Tract Obstruction",
+          "url": "https://wikem.org/wiki/Urinary_Tract_Obstruction"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Urinary Tract Obstruction\nEpididymitis\nUrethritis\nUnprotected rectal intercourse\nPhimosis\nIndwelling urethral catheter",
+      "subsections": {
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary Tract Obstruction",
+          "url": "https://wikem.org/wiki/Urinary_Tract_Obstruction"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Phimosis",
+          "url": "https://wikem.org/wiki/Phimosis"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        }
+      ]
+    },
+    "Genitourinary_infection": {
+      "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Dysuria\n/urgency/frequency, perineal pain/low back pain, pain with ejaculation, fever\nRectal exam: Exquisitely tender and boggy prostate",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Similar to acute prostatitis with exception of fever/chills\nRectal exam is often unremarkable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Dysuria\n/urgency/frequency, perineal pain/low back pain, pain with ejaculation, fever\nRectal exam: Exquisitely tender and boggy prostate",
+      "subsections": {
+        "Chronic": {
+          "text": "Similar to acute prostatitis with exception of fever/chills\nRectal exam is often unremarkable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Similar to acute prostatitis with exception of fever/chills\nRectal exam is often unremarkable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Dysuria": {
+      "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Urinalysis\n, urine culture",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis (UA and Urine culture may be normal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Urinalysis\n, urine culture",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis (UA and Urine culture may be normal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis (UA and Urine culture may be normal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Associated_with_STD": {
+          "text": "Target organisms are\nE. coli\n, and\nSTDs\n(\nGC\n)\nDoxycycline\n100mg PO q12 hrs x14 days +\nCeftriaxone\n500mg IM x1\nCiprofloxacin\nno longer recommended to treat gonorrhea in US",
+          "tables": []
+        },
+        "No_Associated_STD_and_Chronic_Bacterial_Prostatitis": {
+          "text": "Aimed at\nEnterobacteriaceae\n,\nenterococci\n,\nPseudomonas\nCiprofloxacin\n500mg PO q12hrs x 28 days OR\nLevofloxacin\n500mg PO daily x 28 days OR\nTMP/SMX\n1 DS tablet PO q12hrs x 28 days\nConsider extension to 6 wks of empiric therapy",
+          "tables": []
+        },
+        "Septic": {
+          "text": "Gentamycin\n7mg/kg IV daily +\nCeftriaxone\n1g IV q12hrs",
+          "tables": []
+        },
+        "Supportive_Measures": {
+          "text": "If severe obstruction suspected, may pass a Foley gently\nIf Foley does not pass easily, insert punch suprapubic catheter, to be removed 24-36 hrs later\nConsider α-blocker for outflow obstruction and urinary reflux\nTerazosin\n5mg/d PO for 4 weeks or long-term\nOR\ntamsulosin\nProstatic abscesses frequently require surgical aspiration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Enterobacteriaceae",
+          "url": "https://wikem.org/wiki/Enterobacteriaceae"
+        },
+        {
+          "text": "enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Terazosin",
+          "url": "https://wikem.org/wiki/Terazosin"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Associated_with_STD": {
+          "text": "Target organisms are\nE. coli\n, and\nSTDs\n(\nGC\n)\nDoxycycline\n100mg PO q12 hrs x14 days +\nCeftriaxone\n500mg IM x1\nCiprofloxacin\nno longer recommended to treat gonorrhea in US",
+          "tables": []
+        },
+        "No_Associated_STD_and_Chronic_Bacterial_Prostatitis": {
+          "text": "Aimed at\nEnterobacteriaceae\n,\nenterococci\n,\nPseudomonas\nCiprofloxacin\n500mg PO q12hrs x 28 days OR\nLevofloxacin\n500mg PO daily x 28 days OR\nTMP/SMX\n1 DS tablet PO q12hrs x 28 days\nConsider extension to 6 wks of empiric therapy",
+          "tables": []
+        },
+        "Septic": {
+          "text": "Gentamycin\n7mg/kg IV daily +\nCeftriaxone\n1g IV q12hrs",
+          "tables": []
+        },
+        "Supportive_Measures": {
+          "text": "If severe obstruction suspected, may pass a Foley gently\nIf Foley does not pass easily, insert punch suprapubic catheter, to be removed 24-36 hrs later\nConsider α-blocker for outflow obstruction and urinary reflux\nTerazosin\n5mg/d PO for 4 weeks or long-term\nOR\ntamsulosin\nProstatic abscesses frequently require surgical aspiration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Enterobacteriaceae",
+          "url": "https://wikem.org/wiki/Enterobacteriaceae"
+        },
+        {
+          "text": "enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Terazosin",
+          "url": "https://wikem.org/wiki/Terazosin"
+        }
+      ]
+    },
+    "Supportive_Measures": {
+      "text": "If severe obstruction suspected, may pass a Foley gently\nIf Foley does not pass easily, insert punch suprapubic catheter, to be removed 24-36 hrs later\nConsider α-blocker for outflow obstruction and urinary reflux\nTerazosin\n5mg/d PO for 4 weeks or long-term\nOR\ntamsulosin\nProstatic abscesses frequently require surgical aspiration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Terazosin",
+          "url": "https://wikem.org/wiki/Terazosin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit toxic patients or patients with\nUrinary Retention\nUrology follow up\nShould obtain repeat\nUrinalysis\nand urine culture in 7 days\nEnsure follow up to tailor therapy to urine culture and sensitivities\nCounsel patients on importance of adhering to full course of prolonged therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary Retention",
+          "url": "https://wikem.org/wiki/Urinary_Retention"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    }
+  }
+}

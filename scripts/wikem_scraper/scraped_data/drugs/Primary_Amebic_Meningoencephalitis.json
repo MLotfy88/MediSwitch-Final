@@ -1,0 +1,106 @@
+{
+  "drug_name": "Primary_Amebic_Meningoencephalitis",
+  "url": "https://wikem.org/wiki/Primary_Amebic_Meningoencephalitis",
+  "scraped_at": "2026-01-10T08:00:34.919906",
+  "sections": {
+    "Background": {
+      "text": "Primary amebic meningoencephalitis is a rare central nervous system disease caused by the thermophilic free-living amoeba\nNaegleria fowleri\nThe amoeba lives in freshwater and can enter the brain through the cribriform plate after water containing it enters the nose; the amoeba causes direct tissue damage with hemorrhage and necrosis of brain tissue\n[1]\nExposure can occur from natural water sources (lakes, ponds, puddles) as well as man-made sources (swimming pools)\nCases nearly always result in death - in the USA 141/145 known cases were fatal\n>50% cases in the USA occur in Texas and Florida\n[2]\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\nHeadache\nMeningismus\nAMS\nNausea\nVomiting\nSeizures\nCranial nerve abnormalities\nComa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Meningismus",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Cranial nerve abnormalities",
+          "url": "https://wikem.org/wiki/Cranial_nerve_abnormalities"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Encephalitis\nMeningitis\nBrain abscess\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Often diagnosed post-mortem given general low clinical suspicion and rapid death of patients\nLumbar puncture\n- basic studies may be consistent with meningitis with a negative Gram stain\nWet mount may see free moving trophozoites\nGiemsa-Wright, H+E, PAS, trichrome staining may show amoebae\nImmunohistochemical staining\nCulture\nPCR of CSF or tissue sample are newer modalities\nCT brain\n- should be to evaluate for abscess/mass/hemorrhage and prior to LP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission to ICU\nVery few patients have made a full neurologic recovery; key factors are high clinical suspicion and prompt diagnosis, aggressive anti-amoeba therapy, and management of elevated ICP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "https://www.cdc.gov/parasites/naegleria/health_professionals.html#one\nhttps://www.cdc.gov/parasites/naegleria/treatment-hcp.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

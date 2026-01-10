@@ -1,0 +1,345 @@
+{
+  "drug_name": "Preterm_labor",
+  "url": "https://wikem.org/wiki/Preterm_labor",
+  "scraped_at": "2026-01-10T08:00:32.526625",
+  "sections": {
+    "Background": {
+      "text": "Defined as labor before 37 weeks (uterine contraction and cervical change)\nIncreased risks to child depending on age of fetus\nCerebral palsy, poor lung development, cognitive delay, etc\nCan be triggered by infections, stress, hypertension, uncontrolled DM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Similar to term labor\nUterine contractions q 10 min (may be irregular)\nNew onset of vaginal mucus,\nblood\n, pink discharge, amniotic fluid\nLow\nback ache\n, vaginal pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "blood",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "back ache",
+          "url": "https://wikem.org/wiki/Back_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Type and Screen, CBC, Chem 10, Coags, U/A with culture, Utox (cocaine increases risk of abruption)\nDo NOT perform digital exam in patients who present with vaginal bleeding when >20 weeks pregnant due to potential for placenta previa\nStart with ultrasound to assess position of cervix and rule out placenta previa\nSwabs for nitrazine, fetal fibronectin (FFN), GBS culture should also precede digital exam\nSome lubricants can affect FFN and amniotic fluid pH strip\nNitrazine test (5% FP rate, 1% FN rate) - pH swab turns blue, indicating alkalotic amniotic fluid (pH 6.5 - 7.5 positive test); do not touch to mucous plug in cervix\n[1]\nProceed with digital exam if placental previa unlikely, and digital exam is urgently needed to assist patient care, such as in fetal HR decels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IV access x2, ABCs\nFetal heart monitor\nImmediate obstetrical consult",
+      "subsections": {
+        "Cervical_length": {
+          "text": ">30mm - Labor less likely\nObservation of 6 hours might be appropriate\n20-30mm - Increased risk for preterm labor\nFetal fibronectin result can assist, if over 50ng/ml manage labor actively\n<20mm - labor very likely\nManage actively",
+          "tables": []
+        },
+        "Management_by_Weeks": {
+          "text": "24-32 weeks\nMagnesium sulfate\n(neuroprotection against cerebral palsy)\n<34 weeks\nHospitalization\nBetamethasone\n12mg IM q24hrs x2 doses\nTocolytics (see below for options/dosages)\nAntibiotics\nfor GBS prophylaxis if status unknown\nOther antibiotics only indicated in setting of active infection\n34-36 weeks\nA single course of betamethasone is recommended to those who have not received a previous course\n[2]",
+          "tables": []
+        },
+        "Indications": {
+          "text": "Only if fetus would benefit from delay in delivery of 48 hrs\nGestational age 22wks - 34 wks\nTransport to facility for definitive delivery\nDelay in delivery for treatment of reversible condition possibly triggering labor (UTI/pyelo)\nBetamethasone requires approximately 48 hrs for maximal benefit for lung maturity, reducing intraventricular hemorrhage, NEC, and death\nTocolysis rarely effective for longer than 48 hrs\nDoes not remove underlying cause for tocolysis",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "Intrauterine fetal demise / lethal anomaly\nMaternal\nhemorrhage\nor instability\nIntraamniotic infection\nSevere\npreeclampsia\nor\neclampsia\nNonreassuring fetal status\nContraindications to the drugs",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Indomethacin\n50-100mg loading dose, 25mg q4-6 hrs for 48 hrs. (avoid in gestation >32 weeks for concern of premature narrowing or closure of the ductus arteriosus)\nNifedipine\n20mg x1, additional 20mg dose in 90min if ctx persist, followed by 20mg q3-8 hrs PRN ctx\nTerbutaline\n0.25mg sq q20-30 min up to 4 doses PRN ctx",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Intraamniotic infection",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        }
+      ]
+    },
+    "Cervical_length": {
+      "text": ">30mm - Labor less likely\nObservation of 6 hours might be appropriate\n20-30mm - Increased risk for preterm labor\nFetal fibronectin result can assist, if over 50ng/ml manage labor actively\n<20mm - labor very likely\nManage actively",
+      "subsections": {
+        "Management_by_Weeks": {
+          "text": "24-32 weeks\nMagnesium sulfate\n(neuroprotection against cerebral palsy)\n<34 weeks\nHospitalization\nBetamethasone\n12mg IM q24hrs x2 doses\nTocolytics (see below for options/dosages)\nAntibiotics\nfor GBS prophylaxis if status unknown\nOther antibiotics only indicated in setting of active infection\n34-36 weeks\nA single course of betamethasone is recommended to those who have not received a previous course\n[2]",
+          "tables": []
+        },
+        "Indications": {
+          "text": "Only if fetus would benefit from delay in delivery of 48 hrs\nGestational age 22wks - 34 wks\nTransport to facility for definitive delivery\nDelay in delivery for treatment of reversible condition possibly triggering labor (UTI/pyelo)\nBetamethasone requires approximately 48 hrs for maximal benefit for lung maturity, reducing intraventricular hemorrhage, NEC, and death\nTocolysis rarely effective for longer than 48 hrs\nDoes not remove underlying cause for tocolysis",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "Intrauterine fetal demise / lethal anomaly\nMaternal\nhemorrhage\nor instability\nIntraamniotic infection\nSevere\npreeclampsia\nor\neclampsia\nNonreassuring fetal status\nContraindications to the drugs",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Indomethacin\n50-100mg loading dose, 25mg q4-6 hrs for 48 hrs. (avoid in gestation >32 weeks for concern of premature narrowing or closure of the ductus arteriosus)\nNifedipine\n20mg x1, additional 20mg dose in 90min if ctx persist, followed by 20mg q3-8 hrs PRN ctx\nTerbutaline\n0.25mg sq q20-30 min up to 4 doses PRN ctx",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Intraamniotic infection",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        }
+      ]
+    },
+    "Management_by_Weeks": {
+      "text": "24-32 weeks\nMagnesium sulfate\n(neuroprotection against cerebral palsy)\n<34 weeks\nHospitalization\nBetamethasone\n12mg IM q24hrs x2 doses\nTocolytics (see below for options/dosages)\nAntibiotics\nfor GBS prophylaxis if status unknown\nOther antibiotics only indicated in setting of active infection\n34-36 weeks\nA single course of betamethasone is recommended to those who have not received a previous course\n[2]",
+      "subsections": {
+        "Indications": {
+          "text": "Only if fetus would benefit from delay in delivery of 48 hrs\nGestational age 22wks - 34 wks\nTransport to facility for definitive delivery\nDelay in delivery for treatment of reversible condition possibly triggering labor (UTI/pyelo)\nBetamethasone requires approximately 48 hrs for maximal benefit for lung maturity, reducing intraventricular hemorrhage, NEC, and death\nTocolysis rarely effective for longer than 48 hrs\nDoes not remove underlying cause for tocolysis",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "Intrauterine fetal demise / lethal anomaly\nMaternal\nhemorrhage\nor instability\nIntraamniotic infection\nSevere\npreeclampsia\nor\neclampsia\nNonreassuring fetal status\nContraindications to the drugs",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Indomethacin\n50-100mg loading dose, 25mg q4-6 hrs for 48 hrs. (avoid in gestation >32 weeks for concern of premature narrowing or closure of the ductus arteriosus)\nNifedipine\n20mg x1, additional 20mg dose in 90min if ctx persist, followed by 20mg q3-8 hrs PRN ctx\nTerbutaline\n0.25mg sq q20-30 min up to 4 doses PRN ctx",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Intraamniotic infection",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        }
+      ]
+    },
+    "Tocolysis": {
+      "text": "",
+      "subsections": {
+        "Indications": {
+          "text": "Only if fetus would benefit from delay in delivery of 48 hrs\nGestational age 22wks - 34 wks\nTransport to facility for definitive delivery\nDelay in delivery for treatment of reversible condition possibly triggering labor (UTI/pyelo)\nBetamethasone requires approximately 48 hrs for maximal benefit for lung maturity, reducing intraventricular hemorrhage, NEC, and death\nTocolysis rarely effective for longer than 48 hrs\nDoes not remove underlying cause for tocolysis",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "Intrauterine fetal demise / lethal anomaly\nMaternal\nhemorrhage\nor instability\nIntraamniotic infection\nSevere\npreeclampsia\nor\neclampsia\nNonreassuring fetal status\nContraindications to the drugs",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Indomethacin\n50-100mg loading dose, 25mg q4-6 hrs for 48 hrs. (avoid in gestation >32 weeks for concern of premature narrowing or closure of the ductus arteriosus)\nNifedipine\n20mg x1, additional 20mg dose in 90min if ctx persist, followed by 20mg q3-8 hrs PRN ctx\nTerbutaline\n0.25mg sq q20-30 min up to 4 doses PRN ctx",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(greater_than_20wks)"
+        },
+        {
+          "text": "Intraamniotic infection",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission to OB floor for delivery, or transfer to facility to manage delivery\nIf cervix >30mm, contractions have stopped, consider 6 hours of obs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaginal Bleeding (Main)\nPregnancy (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleeding (Main)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "UpToDate \"Overview of preterm labor and birth\"\nUpToDate \"Inhibition of acute preterm labor\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "drug_name": "Procedures_in_patients_with_coagulopathies",
+  "url": "https://wikem.org/wiki/Procedures_in_patients_with_coagulopathies",
+  "scraped_at": "2026-01-10T08:00:37.600116",
+  "sections": {
+    "Background": {
+      "text": "Evidence is mostly retrospective studies or case reports\nClinical practice should account for totality of circumstances, including operator experience",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Central_Line": {
+      "text": "",
+      "subsections": {
+        "Central_line_if_coagulopathic": {
+          "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[1]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Central_line_if_coagulopathic": {
+      "text": "Preferentially use a compressible site such as the\nfemoral\nlocation (avoid the\nIJ\nand\nsubclavian\nif possible, though IJ preferred over subclavian)\nNo benefit to giving\nFFP\nunless artery is punctured\n[1]\nHowever, consider giving\nFFP\nif patient has\nhemophilia\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "IJ",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        }
+      ]
+    },
+    "Lumbar_Puncture": {
+      "text": "",
+      "subsections": {
+        "Lumbar_puncture_if_coagulopathic": {
+          "text": "Tranfuse if platelets <25,000\n[3]\n[4]\nINR >1.5\nHemophilia, von Willebrand disease, other coagulopathies\nIf hemophiliac, replace factor before LP",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lumbar_puncture_if_coagulopathic": {
+      "text": "Tranfuse if platelets <25,000\n[3]\n[4]\nINR >1.5\nHemophilia, von Willebrand disease, other coagulopathies\nIf hemophiliac, replace factor before LP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Paracentesis": {
+      "text": "",
+      "subsections": {
+        "Paracentesis_if_coagulopathic": {
+          "text": "Coagulation studies are NOT required before performance of the procedure\n[5]\nIncidence of clinically significant bleeding complications is low even if in liver failure with an elevated INR (< 0.2%)\n[6]\nNo data supports cutoff values beyond which paracentesis should be avoided/prophylactically transfused\nRoutine use of\nFFP\nand\nplatelets\nis not recommended\nProcedure is contraindicated if the patient is actively bleeding or in\nDIC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Paracentesis_if_coagulopathic": {
+      "text": "Coagulation studies are NOT required before performance of the procedure\n[5]\nIncidence of clinically significant bleeding complications is low even if in liver failure with an elevated INR (< 0.2%)\n[6]\nNo data supports cutoff values beyond which paracentesis should be avoided/prophylactically transfused\nRoutine use of\nFFP\nand\nplatelets\nis not recommended\nProcedure is contraindicated if the patient is actively bleeding or in\nDIC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Thoracentesis": {
+      "text": "",
+      "subsections": {
+        "Thoracentesis_if_coagulopathic": {
+          "text": "Platelets <50K\n[7]\nINR >2x normal\n[7]\nMechanical ventilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thoracentesis_if_coagulopathic": {
+      "text": "Platelets <50K\n[7]\nINR >2x normal\n[7]\nMechanical ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Specific_Populations": {
+      "text": "",
+      "subsections": {
+        "Cirrhosis": {
+          "text": "INR is a poor marker of coagulation in\ncirrhosis\nRisk of post-procedure bleeding for minimally invasive procedures ~20% in cirrhotics\nEach 100 cc infusion of plasma increases portal venous pressure by 1 mmHg (normal pressure 5-10 mmHg)\nCorrection of elevated INR in\ncirrhosis\nleads to unnecessary volume expansion\nPT/INR only measures the procoagulant pathway and does not detect anticoagulant pathway (protein C and S, antithrombin)\nThus, cirrhotic patients may be hypercoagulable despite high INR due to natural anticoagulant deficiencies\n[9]\nDo not use PT/INR to risk stratify liver disease patients\nRather use target platelet count with goal > 50,000 uL and fibrinogen level > 120 mg/dL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Cirrhosis": {
+      "text": "INR is a poor marker of coagulation in\ncirrhosis\nRisk of post-procedure bleeding for minimally invasive procedures ~20% in cirrhotics\nEach 100 cc infusion of plasma increases portal venous pressure by 1 mmHg (normal pressure 5-10 mmHg)\nCorrection of elevated INR in\ncirrhosis\nleads to unnecessary volume expansion\nPT/INR only measures the procoagulant pathway and does not detect anticoagulant pathway (protein C and S, antithrombin)\nThus, cirrhotic patients may be hypercoagulable despite high INR due to natural anticoagulant deficiencies\n[9]\nDo not use PT/INR to risk stratify liver disease patients\nRather use target platelet count with goal > 50,000 uL and fibrinogen level > 120 mg/dL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.sirweb.org/clinical/cpg/4E8CAd01.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

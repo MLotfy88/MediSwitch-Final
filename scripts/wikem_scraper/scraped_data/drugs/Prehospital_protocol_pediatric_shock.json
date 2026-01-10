@@ -1,0 +1,71 @@
+{
+  "drug_name": "Prehospital_protocol_pediatric_shock",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_shock",
+  "scraped_at": "2026-01-10T08:00:29.977310",
+  "sections": {
+    "Perform_general_assessment": {
+      "text": "100% O2 NRB and Obtain Vital Signs\nIf hypotensive, elevate lower extremities IV NS TKO\nCardiac Monitor / 12 lead ECG / Pulse Oximetry",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Assess_for_signs_of_hypotension_and_poor_perfusion": {
+      "text": "Weak Pulses\nCapillary refill 3 seconds\nMottled or cool skin\nAltered mental status\nHypoxia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Other_signs_of_shock": {
+      "text": "Tachycardia, fever AND one of the following\nCancer\nSickle Cell\nTransplant\nIndwelling catheter\nImmune deficiency\nSevere developmental delay",
+      "subsections": {
+        "Yes": {
+          "text": "Give (weight *10)mL NS bolus.\nReassess for pulmonary edema after each bolus\nRepeat up to 3 boluses",
+          "tables": []
+        },
+        "No": {
+          "text": "Give (weight *20)mL NS bolus.\nReassess for pulmonary edema after each bolus\nRepeat up to 3 boluses",
+          "tables": []
+        },
+        "Advanced_Notification": {
+          "text": "If treating for shock then ensure advanced notification to receiving hospital.",
+          "tables": []
+        },
+        "Yes_2": {
+          "text": "Begin\ndopamine\ndrip with titration to age appropriate SBP\nFurther orders per on-line physician",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Reassess en-route",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        }
+      ]
+    },
+    "Advanced_Notification": {
+      "text": "If treating for shock then ensure advanced notification to receiving hospital.",
+      "subsections": {
+        "Yes_2": {
+          "text": "Begin\ndopamine\ndrip with titration to age appropriate SBP\nFurther orders per on-line physician",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Reassess en-route",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        }
+      ]
+    }
+  }
+}

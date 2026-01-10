@@ -1,0 +1,384 @@
+{
+  "drug_name": "Proctitis",
+  "url": "https://wikem.org/wiki/Proctitis",
+  "scraped_at": "2026-01-10T08:00:39.771091",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "Radiation treatment\nAutoimmune\nVasculitis\nIschemia\nInfectious (\nSTI\nand enteric organisms)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Radiation treatment\nAutoimmune\nVasculitis\nIschemia\nInfectious (\nSTI\nand enteric organisms)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Inflammation of the rectal mucosa\nPain on defecation\nTenesmus\nMucoid discharge\nInguinal lymphadenopathy (may be seen with\nT. pallidum\n)",
+          "tables": []
+        },
+        "By_Causative_Agent": {
+          "text": "Condyloma Acuminata\nGonorrhea\nSymptoms vary from none to severe rectal pain with yellow, bloody discharge\nUnlike nonvenereal cryptitis, infection is not confined to the posterior crypt\nChlamydia\nInfection due to direct anorectal infection or via vaginal seeding to perirectal lymphatics\nSymptoms range from asymptomatic to anal pruritus, pain, purulent discharge\nLymphogranulomatous variety\nAcutely painful anal ulcerations associated with unilateral lymph node enlargement\nFever\nand flulike symptoms\nMay result in rectal scarring, stricturing, perirectal abscesses, chronic fistulas\nSyphilis\nPrimary\nAnal chancres appear ~2-6 weeks after intercourse, are often painful\nMay be misdiagnosed as simple fissure\nSymmetric lesion on opposite side of anal margin is distinguishing feature\nInguinal adenopathy is often present\nSecondary\nCondylomata lata (flatter and firmer than condylomata acuminata)\nHerpes Simplex Virus-2\nItching and soreness in perianal area progressing to severe anorectal pain\nAccompanied by flulike illness, inguinal adenopathy\nEarly lesions are small, discrete vesicles on erythematous base\nVesicles then enlarge, coalesce, and rupture, forming exquisitely tender ulcers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Inflammation of the rectal mucosa\nPain on defecation\nTenesmus\nMucoid discharge\nInguinal lymphadenopathy (may be seen with\nT. pallidum\n)",
+      "subsections": {
+        "By_Causative_Agent": {
+          "text": "Condyloma Acuminata\nGonorrhea\nSymptoms vary from none to severe rectal pain with yellow, bloody discharge\nUnlike nonvenereal cryptitis, infection is not confined to the posterior crypt\nChlamydia\nInfection due to direct anorectal infection or via vaginal seeding to perirectal lymphatics\nSymptoms range from asymptomatic to anal pruritus, pain, purulent discharge\nLymphogranulomatous variety\nAcutely painful anal ulcerations associated with unilateral lymph node enlargement\nFever\nand flulike symptoms\nMay result in rectal scarring, stricturing, perirectal abscesses, chronic fistulas\nSyphilis\nPrimary\nAnal chancres appear ~2-6 weeks after intercourse, are often painful\nMay be misdiagnosed as simple fissure\nSymmetric lesion on opposite side of anal margin is distinguishing feature\nInguinal adenopathy is often present\nSecondary\nCondylomata lata (flatter and firmer than condylomata acuminata)\nHerpes Simplex Virus-2\nItching and soreness in perianal area progressing to severe anorectal pain\nAccompanied by flulike illness, inguinal adenopathy\nEarly lesions are small, discrete vesicles on erythematous base\nVesicles then enlarge, coalesce, and rupture, forming exquisitely tender ulcers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "By_Causative_Agent": {
+      "text": "Condyloma Acuminata\nGonorrhea\nSymptoms vary from none to severe rectal pain with yellow, bloody discharge\nUnlike nonvenereal cryptitis, infection is not confined to the posterior crypt\nChlamydia\nInfection due to direct anorectal infection or via vaginal seeding to perirectal lymphatics\nSymptoms range from asymptomatic to anal pruritus, pain, purulent discharge\nLymphogranulomatous variety\nAcutely painful anal ulcerations associated with unilateral lymph node enlargement\nFever\nand flulike symptoms\nMay result in rectal scarring, stricturing, perirectal abscesses, chronic fistulas\nSyphilis\nPrimary\nAnal chancres appear ~2-6 weeks after intercourse, are often painful\nMay be misdiagnosed as simple fissure\nSymmetric lesion on opposite side of anal margin is distinguishing feature\nInguinal adenopathy is often present\nSecondary\nCondylomata lata (flatter and firmer than condylomata acuminata)\nHerpes Simplex Virus-2\nItching and soreness in perianal area progressing to severe anorectal pain\nAccompanied by flulike illness, inguinal adenopathy\nEarly lesions are small, discrete vesicles on erythematous base\nVesicles then enlarge, coalesce, and rupture, forming exquisitely tender ulcers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider Gram stain and culture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Presumed_GC/chlamydia_of_cervix,_urethra,_or_rectum_(uncomplicated)": {
+          "text": "Typically, treatment for\nboth\ngonorrhea and chlamydia is indicated, if one entity is suspected.\nStandard\nGonorrhea\nCeftriaxone\nIM x 1\n500 mg, if weight <150 kg\n1 g, if weight ≥150 kg\nChlamydia\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\nCeftriaxone contraindicated\nGonorrhea\nGentamicin\n240 mg IM x 1\nPLUS\nazithromycin\n2 g PO x 1,\nOR\nCefixime\n800 mg PO x 1\nChlamydia^\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\n^Additional chlamydia coverage only needed if treated with cefixime only",
+          "tables": []
+        },
+        "Partner_Treatment": {
+          "text": "Gonorrhea\nCefixime\n800mg PO x 1\nChlamydia\nNonpregnant:\ndoxycycline\n100mg PO BID x 7 days,\nOR\nPregnant:\nazithromycin\n1g PO x 1",
+          "tables": []
+        },
+        "Syphilis": {
+          "text": "Penicillin\nG 2.4mil IM x1",
+          "tables": []
+        },
+        "Herpes_Simplex_Virus-2": {
+          "text": "Acyclovir\n400mg PO TID x10d for initial episode; 800mg TID x2d for recurrent episodes",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "Consider in patients with bloody discharge, perianal or mucosal ulcers, chlamydia NAAT+, and MSM\nExtend\ndoxycycline\n100mg PO BID for 21 days total\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Syphilis": {
+      "text": "Penicillin\nG 2.4mil IM x1",
+      "subsections": {
+        "Herpes_Simplex_Virus-2": {
+          "text": "Acyclovir\n400mg PO TID x10d for initial episode; 800mg TID x2d for recurrent episodes",
+          "tables": []
+        },
+        "Lymphogranuloma_Venereum": {
+          "text": "Consider in patients with bloody discharge, perianal or mucosal ulcers, chlamydia NAAT+, and MSM\nExtend\ndoxycycline\n100mg PO BID for 21 days total\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Herpes_Simplex_Virus-2": {
+      "text": "Acyclovir\n400mg PO TID x10d for initial episode; 800mg TID x2d for recurrent episodes",
+      "subsections": {
+        "Lymphogranuloma_Venereum": {
+          "text": "Consider in patients with bloody discharge, perianal or mucosal ulcers, chlamydia NAAT+, and MSM\nExtend\ndoxycycline\n100mg PO BID for 21 days total\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lymphogranuloma_Venereum": {
+      "text": "Consider in patients with bloody discharge, perianal or mucosal ulcers, chlamydia NAAT+, and MSM\nExtend\ndoxycycline\n100mg PO BID for 21 days total\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal Disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

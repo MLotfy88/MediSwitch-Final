@@ -1,0 +1,58 @@
+{
+  "drug_name": "Prehospital_protocol_pediatric_airway_obstruction",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_airway_obstruction",
+  "scraped_at": "2026-01-10T08:00:28.575737",
+  "sections": {
+    "No": {
+      "text": "If no signs of severe airway obstruction:\nEncourage coughing\nConscious with severe airway obstruction:\nChild: Abdominal thrusts\nInfant: Back blows/chest thrusts\nPerform until foreign body is expelled or patient becomes unconscious",
+      "subsections": {
+        "Reassess": {
+          "text": "Continue Supportive Care\nPlace on NRB\nMonitor and transport\nReassess for signs of complete airway obstruction and use BVM if needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reassess": {
+      "text": "Continue Supportive Care\nPlace on NRB\nMonitor and transport\nReassess for signs of complete airway obstruction and use BVM if needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes": {
+      "text": "",
+      "subsections": {
+        "Begin_chest_compressions": {
+          "text": "Open airway and remove any foreign body in mouth\nBegin BVM",
+          "tables": []
+        },
+        "Yes_2": {
+          "text": "Monitor and Transport\nNotify the receiving hospital",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Direct visualization of the foreign body\nAttempt to remove foreign body with McGill forceps\nPlace ETT if necessary\nMonitor and Transport\nNotify receiving hospital\nAdvance ETT until the hub is at the teeth then withdraw the hub to normal level\nUse small tidal volumes for ventilation\nIf unable to establish an airway rapidly transport to the nearest faciltity\nContact medical control",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Begin_chest_compressions": {
+      "text": "Open airway and remove any foreign body in mouth\nBegin BVM",
+      "subsections": {
+        "Yes_2": {
+          "text": "Monitor and Transport\nNotify the receiving hospital",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Direct visualization of the foreign body\nAttempt to remove foreign body with McGill forceps\nPlace ETT if necessary\nMonitor and Transport\nNotify receiving hospital\nAdvance ETT until the hub is at the teeth then withdraw the hub to normal level\nUse small tidal volumes for ventilation\nIf unable to establish an airway rapidly transport to the nearest faciltity\nContact medical control",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    }
+  }
+}

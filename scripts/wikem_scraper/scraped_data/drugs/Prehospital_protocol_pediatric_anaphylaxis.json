@@ -1,0 +1,65 @@
+{
+  "drug_name": "Prehospital_protocol_pediatric_anaphylaxis",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_anaphylaxis",
+  "scraped_at": "2026-01-10T08:00:28.606350",
+  "sections": {
+    "Perform_general_assessment": {
+      "text": "100% O2 NRB\nCheck Vital Signs\nAssist Ventilations with\nBVM\nas needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes": {
+      "text": "IF (weight <25)\nGive EpiPen Junior IM (0.15mg epinephrine 1:1000 IM)\nIf auto injector is not available, give epinephrine 1:1000 (weight *0.01) mg IM\nIF (weight > 25)\nGive EpiPen IM (0.3mg epinephrine 1:1000 IM)\nIf autoinjector is not available, give epinephrine (1:1000) (weight *0.01) mg IM",
+      "subsections": {
+        "No": {
+          "text": "Acute onset of symptoms and 2 or more of the following?\nHypotension, cyanosis, delayed cap refill\nDyspnea, wheezing, stridor, or respiratory distress\nThroat tightness or facial/lip/tongue swelling\nWidespread hives, itching, swelling\nPersistent vomiting or abdominal pain\naltered mental status, syncope, or decreased consciousness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "No": {
+      "text": "Acute onset of symptoms and 2 or more of the following?\nHypotension, cyanosis, delayed cap refill\nDyspnea, wheezing, stridor, or respiratory distress\nThroat tightness or facial/lip/tongue swelling\nWidespread hives, itching, swelling\nPersistent vomiting or abdominal pain\naltered mental status, syncope, or decreased consciousness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "IV_NS_TKO,_Cardiac_Monitor,_Pulse_Oximetry": {
+      "text": "Assess for signs of poor perfusion.\nIf hypotension, and pulmonary edema administer 10cc/kg NS IV\nIf hypotension and NO pulmonary edema administer  20cc/kg NS IV\nFollow Non-Traumatic Shock protocol (8.03 CC)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes_2": {
+      "text": "Give (weight *20) mL/kg NS bolus and reassess.\nRepeat bolus x 3 times if continued signs of poor perfusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Give_Diphenhydramine_1mg/kg_IV/IM": {
+      "text": "Max dose 50mg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Notify_Receiving_Hospital": {
+      "text": "Continue transport, and frequent reassessments\nContact online medical control if in need of further instructions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    }
+  }
+}

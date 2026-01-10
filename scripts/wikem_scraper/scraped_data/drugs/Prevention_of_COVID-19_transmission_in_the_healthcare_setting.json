@@ -1,0 +1,133 @@
+{
+  "drug_name": "Prevention_of_COVID-19_transmission_in_the_healthcare_setting",
+  "url": "https://wikem.org/wiki/Prevention_of_COVID-19_transmission_in_the_healthcare_setting",
+  "scraped_at": "2026-01-10T08:00:35.363096",
+  "sections": {
+    "COVID-19_PPE_Summary_Table": {
+      "text": "See\nprevention of COVID-19 transmission in the healthcare setting\nfor full PPE recommendations",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Contact Category": "General (all persons)",
+            "Precations": "Social distancing; meticulous hygiene; basic mask",
+            "Room Type": "NA"
+          },
+          {
+            "Contact Category": "Undifferentiated patients at risk (e.g. prior to evaluation or testing)",
+            "Precations": "Contact anddropletprecautions, including eye protection",
+            "Room Type": "Negative-pressure NOT required"
+          },
+          {
+            "Contact Category": "Persons Under Investigation",
+            "Precations": "Contact anddropletprecautions, including eye protection",
+            "Room Type": "Negative-pressure NOT required"
+          },
+          {
+            "Contact Category": "Aerosol-Generating Procedures",
+            "Precations": "Contact andairborneprecautions, including eye protection",
+            "Room Type": "Negative-pressure required"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Aerosol-Generating_Procedures": {
+      "text": "Due to higher risk of aerosolizing droplets; infection itself doesn’t seem to be spread via airborne route",
+      "subsections": {
+        "Recommended_Provider_PPE": {
+          "text": "Contact (including eye protection) and airborne precautions\nN95 mask or higher-level respirator (e.g. PAPR), plus eye protection, gloves, and gown\n[1]\nConsider head coverage: sterile disposable cap with gown or bunny suit\nConsider two pairs gloves, one under sleeves of gown and one over\nConsider shoe covers\nConsider buddy system for donning/doffing\nIf using PAPR, then need pre-assigned RN outside the room to help decontaminate it by wiping it down with purple wipes before you take it off\nNegative pressure room required, if at all possible\nLimit personnel in room to only those essential for patient care",
+          "tables": []
+        },
+        "Mask_Use_Technique": {
+          "text": "Mask donning (often incorrectly done):\nWash hands BEFORE touching mask\nGrip mask by loops/bands/ties only\nColoured portion typically faces outward\nMold / pinch the stiff edge to the shape of your nose\nPull the bottom of the mask over your mouth AND chin\nMake sure you are up to date with fit testing\nMask removal:\nWash hands BEFORE touching mask\nOnly make contact with the loops/bands/ties. DON’T TOUCH THE MASK ITSELF!",
+          "tables": []
+        },
+        "Aerosol-generating_procedures_list": {
+          "text": "Minimize exposure with these procedures when possible\nBag-valve-mask\n(BVM)\nCPR\nCPAP/\nBiPAP\nIntubation\nNebulizer administration (if possible, use MDI instead)\nBronchoscopy\nChest physiotherapy\nHigh-Flow Nasal Cannula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bag-valve-mask",
+          "url": "https://wikem.org/wiki/Bag-valve-mask"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "High-Flow Nasal Cannula",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        }
+      ]
+    },
+    "Recommended_Provider_PPE": {
+      "text": "Contact (including eye protection) and airborne precautions\nN95 mask or higher-level respirator (e.g. PAPR), plus eye protection, gloves, and gown\n[1]\nConsider head coverage: sterile disposable cap with gown or bunny suit\nConsider two pairs gloves, one under sleeves of gown and one over\nConsider shoe covers\nConsider buddy system for donning/doffing\nIf using PAPR, then need pre-assigned RN outside the room to help decontaminate it by wiping it down with purple wipes before you take it off\nNegative pressure room required, if at all possible\nLimit personnel in room to only those essential for patient care",
+      "subsections": {
+        "Mask_Use_Technique": {
+          "text": "Mask donning (often incorrectly done):\nWash hands BEFORE touching mask\nGrip mask by loops/bands/ties only\nColoured portion typically faces outward\nMold / pinch the stiff edge to the shape of your nose\nPull the bottom of the mask over your mouth AND chin\nMake sure you are up to date with fit testing\nMask removal:\nWash hands BEFORE touching mask\nOnly make contact with the loops/bands/ties. DON’T TOUCH THE MASK ITSELF!",
+          "tables": []
+        },
+        "Aerosol-generating_procedures_list": {
+          "text": "Minimize exposure with these procedures when possible\nBag-valve-mask\n(BVM)\nCPR\nCPAP/\nBiPAP\nIntubation\nNebulizer administration (if possible, use MDI instead)\nBronchoscopy\nChest physiotherapy\nHigh-Flow Nasal Cannula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bag-valve-mask",
+          "url": "https://wikem.org/wiki/Bag-valve-mask"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "High-Flow Nasal Cannula",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        }
+      ]
+    },
+    "Aerosol-generating_procedures_list": {
+      "text": "Minimize exposure with these procedures when possible\nBag-valve-mask\n(BVM)\nCPR\nCPAP/\nBiPAP\nIntubation\nNebulizer administration (if possible, use MDI instead)\nBronchoscopy\nChest physiotherapy\nHigh-Flow Nasal Cannula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bag-valve-mask",
+          "url": "https://wikem.org/wiki/Bag-valve-mask"
+        },
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "High-Flow Nasal Cannula",
+          "url": "https://wikem.org/wiki/Oxygen_therapy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Main CDC Guidance for Infection Prevention and Control in Healthcare Setting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

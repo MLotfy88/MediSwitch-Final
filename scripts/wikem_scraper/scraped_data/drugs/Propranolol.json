@@ -1,0 +1,121 @@
+{
+  "drug_name": "Propranolol",
+  "url": "https://wikem.org/wiki/Propranolol",
+  "scraped_at": "2026-01-10T08:00:43.022493",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta blockers\n, nonselective\nDosage Forms:\nIV: 1mg/mL\nPO conventional: 10, 20, 40, 60, 80mg\nPO extended release: 60, 80, 120, 160mg\nCommon Trade Names: Inderal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Thyroid storm\n1-2mg IV over 10 min; if tolerates then 1-2mg boluses q15 minutes until HR <100\nMay follow with drip @ dose required for HR control (ie 3-5mg/hr)\nAlternate 60-80mg PO q4h\nVariceal bleed ppx\n20mg BID titrated up to max tolerated dose\nMigraine\nppx\nStarting dose 80mg daily as either XL or divided q6-8hr. Max 160-240mg/day\nEssential tremor\n40mg BID starting dose\nHOCM\n80-160mg daily as either XL or divided q6-8 hr\nAkathisia\n10mg bid-tid starting dose. Max 120mg / day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C; risk of IUGR, neonatal hypoglycemia/bradycardia/respiratory depression. Still preferred agent for thyrotoxicosis\nLactation: Enters breast milk\nRenal Dosing: N/A\nHepatic Dosing: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nDecompensated heart failure, except high output failure secondary to tachyarrhythmia\nBradycardia / high degree heart block",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Rebound symptoms with abrupt withdrawal of treatment\nHeart failure\nAgranulocytosis, thrombocytopenia\nBronchospasm\nSJS/TEN",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bradycardia\nOrthostasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Rebound symptoms with abrupt withdrawal of treatment\nHeart failure\nAgranulocytosis, thrombocytopenia\nBronchospasm\nSJS/TEN",
+      "subsections": {
+        "Common": {
+          "text": "Bradycardia\nOrthostasis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Bradycardia\nOrthostasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-6 hrs, 8-10 hrs extended release\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action: Nonselective β-blocker",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta-blockers\nBeta-blocker toxicity\nAntiarrhythmics\nAntihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

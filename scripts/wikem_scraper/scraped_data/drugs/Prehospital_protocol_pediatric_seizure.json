@@ -1,0 +1,48 @@
+{
+  "drug_name": "Prehospital_protocol_pediatric_seizure",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_seizure",
+  "scraped_at": "2026-01-10T08:00:26.561355",
+  "sections": {
+    "Baseline_Assessment": {
+      "text": "100% O2 NRB\nPrepare to assist ventilations\nObtain vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes": {
+      "text": "Treat with Dextrose  IV/IO",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes_2": {
+      "text": "Midazolam (weight *0.2mg/kg) IN/IM\nPlace on EtCO2 monitoring",
+      "subsections": {
+        "No": {
+          "text": "Further orders per on-line physician",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "No": {
+      "text": "Further orders per on-line physician",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes_3": {
+      "text": "Give IV/IO midazolam (weight *0.1) mg\nOR\nGive IM/IN midazolam (weight *0.2) mg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Reassess_Patient": {
+      "text": "Continue to monitor airway\nFurther orders as per on-line physician",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

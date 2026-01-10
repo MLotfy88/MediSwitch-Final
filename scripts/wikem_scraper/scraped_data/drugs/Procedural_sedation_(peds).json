@@ -1,0 +1,578 @@
+{
+  "drug_name": "Procedural_sedation_(peds)",
+  "url": "https://wikem.org/wiki/Procedural_sedation_(peds)",
+  "scraped_at": "2026-01-10T08:00:37.139035",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nProcedural sedation\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Sedation_levels": {
+      "text": "",
+      "subsections": {
+        "Sedation_levels_2": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Level": "Minimal Sedation",
+                "Definition": "Standard pain medications",
+                "Comments": ""
+              },
+              {
+                "Level": "Moderate Sedation",
+                "Definition": "Awake and able to respond to questions",
+                "Comments": "use in:LP,I+D"
+              },
+              {
+                "Level": "Dissociative Sedation",
+                "Definition": "Trance-like state, airway reflexes preserved",
+                "Comments": ""
+              },
+              {
+                "Level": "Deep Sedation",
+                "Definition": "React purposefully to painful stimuli",
+                "Comments": "use in: Reduction"
+              },
+              {
+                "Level": "General Anesthesia",
+                "Definition": "Unarousable, requiresintubation/advanced airway",
+                "Comments": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sedation_levels_2": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Level": "Minimal Sedation",
+            "Definition": "Standard pain medications",
+            "Comments": ""
+          },
+          {
+            "Level": "Moderate Sedation",
+            "Definition": "Awake and able to respond to questions",
+            "Comments": "use in:LP,I+D"
+          },
+          {
+            "Level": "Dissociative Sedation",
+            "Definition": "Trance-like state, airway reflexes preserved",
+            "Comments": ""
+          },
+          {
+            "Level": "Deep Sedation",
+            "Definition": "React purposefully to painful stimuli",
+            "Comments": "use in: Reduction"
+          },
+          {
+            "Level": "General Anesthesia",
+            "Definition": "Unarousable, requiresintubation/advanced airway",
+            "Comments": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Procedural_Checklist": {
+      "text": "Consent in chart\nPIV with fluids running\nETCO2 and NC connected to patient\nAirway preparation\nSuction with Yankauer attached\nBVM attached to wall oxygen\nOral/nasal airways\nMac/Miller blades\nET tubes with stylets\nMeds at bedside\nSedation Meds\nNarcan\n0.4mg if opioid being used, not drawn up\nEpinephrine\n, cardiac syringe (1:10,000) unopened and 10 cc NS Flush with needle\nGlycopyrrolate\n, 1 vial; not drawn up\nStrongly consider child life",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Narcan",
+          "url": "https://wikem.org/wiki/Narcan"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        }
+      ]
+    },
+    "Fasting": {
+      "text": "No need to delay procedure based on fasting time. Preprocedural fasting for any duration has not demonstrated a reduction in the risk of emesis or aspiration when administering procedural sedation and analgesia (ACEP Level B)\n[2]\nSome specialty societies recommend:\n2-hour fasting time for clear liquids\n4-hour fasting time for breast milk\n6-hour fasting time for solids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Airway_Monitoring": {
+      "text": "Capnography may be used as an adjunct to pulse oximetry and clinical assessment to detect hypoventilation and apnea earlier than pulse oximetry and/or clinical assessment alone. However, there is a lack of evidence that capnography reduces the incidence of serious adverse events (neurologic injury caused by hypoxia, aspiration, death) (ACEP Level B).\n[2]\nPlacing the patient on ETCO2 + SpO2 is ideal\n[3]\nPosition the patient in a position you would intubate if needed (ear at level of sternal notch)\nConsider nasal airway in patients with likely OSA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Sedation_Medications": {
+      "text": "",
+      "subsections": {
+        "Oral_Sedation": {
+          "text": "Consider if only sedation without analgesia required\nMidazolam\n0.5-1mg/kg PO 10-20min prior to procedure\nChloral hydrate\n50-75mg/kg PO 30min prior to procedure\nMay give additional 25-50mg/kg PO x 1 after 30min if needed\nMidazolam\n0.5-1 mg/kg, Max 20mg (10-20 min before procddure)\nChloral hydrate\n50-70mg/kg PO 30 min prior to procedure, then repeat 25-50 mg/kg x 1 in 30 min if needed (max 1g/day infants; 2g/day older children)",
+          "tables": []
+        },
+        "Intranasal_sedation": {
+          "text": "Give 1mL at a time alternating nare. Contraindicated if significant URI\nMidazolam\n0.2mg/kg IN\nFentanyl\n2mcg/kg IN",
+          "tables": []
+        },
+        "Parenteral_sedation_agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Ketamine(IV)",
+                "Initial Dose": "1 mg/kg",
+                "Repeat Dose": "2-4 mg/kg",
+                "Max Dose": "50-100 mg/dose",
+                "Onset": "1 min",
+                "Duration": "5-10 min",
+                "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+                "Notes": ""
+              },
+              {
+                "Agent": "Ketamine(IM)",
+                "Initial Dose": "",
+                "Repeat Dose": "",
+                "Max Dose": "4mg/kg per dose",
+                "Onset": "3-4 min",
+                "Duration": "30 min",
+                "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+                "Notes": ""
+              },
+              {
+                "Agent": "Midazolam(IV)",
+                "Initial Dose": "0.1 mg/kg",
+                "Repeat Dose": "50% of original dose",
+                "Max Dose": "2mg/dose; 3-4 doses max",
+                "Onset": "",
+                "Duration": "",
+                "Contraindicaitons/Cautions": "Liver disease; kidney disease",
+                "Notes": "Consider in"
+              },
+              {
+                "Agent": "Fentanyl(IV)",
+                "Initial Dose": "1 mcg/kg",
+                "Repeat Dose": "q3-5 min",
+                "Max Dose": "",
+                "Onset": "",
+                "Duration": "",
+                "Contraindicaitons/Cautions": "",
+                "Notes": "May be reveresed with naloxone"
+              },
+              {
+                "Agent": "Etomidate",
+                "Initial Dose": "0.15 mg/kg",
+                "Repeat Dose": "",
+                "Max Dose": "10 mg",
+                "Onset": "30-60 sec",
+                "Duration": "2-3 min",
+                "Contraindicaitons/Cautions": "Apnea",
+                "Notes": ""
+              },
+              {
+                "Agent": "Propofol",
+                "Initial Dose": "0.5-1 mg/kg",
+                "Repeat Dose": "same at 3-5 min intervals",
+                "Max Dose": "",
+                "Onset": "30 sec",
+                "Duration": "3-10 min",
+                "Contraindicaitons/Cautions": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Pentobarbital",
+                "Initial Dose": "1mg/kg",
+                "Repeat Dose": "",
+                "Max Dose": "",
+                "Onset": "1 min",
+                "Duration": "15 min",
+                "Contraindicaitons/Cautions": "Hypovolemic shock, CHF, hepatic",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        }
+      ]
+    },
+    "Oral_Sedation": {
+      "text": "Consider if only sedation without analgesia required\nMidazolam\n0.5-1mg/kg PO 10-20min prior to procedure\nChloral hydrate\n50-75mg/kg PO 30min prior to procedure\nMay give additional 25-50mg/kg PO x 1 after 30min if needed\nMidazolam\n0.5-1 mg/kg, Max 20mg (10-20 min before procddure)\nChloral hydrate\n50-70mg/kg PO 30 min prior to procedure, then repeat 25-50 mg/kg x 1 in 30 min if needed (max 1g/day infants; 2g/day older children)",
+      "subsections": {
+        "Intranasal_sedation": {
+          "text": "Give 1mL at a time alternating nare. Contraindicated if significant URI\nMidazolam\n0.2mg/kg IN\nFentanyl\n2mcg/kg IN",
+          "tables": []
+        },
+        "Parenteral_sedation_agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Ketamine(IV)",
+                "Initial Dose": "1 mg/kg",
+                "Repeat Dose": "2-4 mg/kg",
+                "Max Dose": "50-100 mg/dose",
+                "Onset": "1 min",
+                "Duration": "5-10 min",
+                "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+                "Notes": ""
+              },
+              {
+                "Agent": "Ketamine(IM)",
+                "Initial Dose": "",
+                "Repeat Dose": "",
+                "Max Dose": "4mg/kg per dose",
+                "Onset": "3-4 min",
+                "Duration": "30 min",
+                "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+                "Notes": ""
+              },
+              {
+                "Agent": "Midazolam(IV)",
+                "Initial Dose": "0.1 mg/kg",
+                "Repeat Dose": "50% of original dose",
+                "Max Dose": "2mg/dose; 3-4 doses max",
+                "Onset": "",
+                "Duration": "",
+                "Contraindicaitons/Cautions": "Liver disease; kidney disease",
+                "Notes": "Consider in"
+              },
+              {
+                "Agent": "Fentanyl(IV)",
+                "Initial Dose": "1 mcg/kg",
+                "Repeat Dose": "q3-5 min",
+                "Max Dose": "",
+                "Onset": "",
+                "Duration": "",
+                "Contraindicaitons/Cautions": "",
+                "Notes": "May be reveresed with naloxone"
+              },
+              {
+                "Agent": "Etomidate",
+                "Initial Dose": "0.15 mg/kg",
+                "Repeat Dose": "",
+                "Max Dose": "10 mg",
+                "Onset": "30-60 sec",
+                "Duration": "2-3 min",
+                "Contraindicaitons/Cautions": "Apnea",
+                "Notes": ""
+              },
+              {
+                "Agent": "Propofol",
+                "Initial Dose": "0.5-1 mg/kg",
+                "Repeat Dose": "same at 3-5 min intervals",
+                "Max Dose": "",
+                "Onset": "30 sec",
+                "Duration": "3-10 min",
+                "Contraindicaitons/Cautions": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Pentobarbital",
+                "Initial Dose": "1mg/kg",
+                "Repeat Dose": "",
+                "Max Dose": "",
+                "Onset": "1 min",
+                "Duration": "15 min",
+                "Contraindicaitons/Cautions": "Hypovolemic shock, CHF, hepatic",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        }
+      ]
+    },
+    "Intranasal_sedation": {
+      "text": "Give 1mL at a time alternating nare. Contraindicated if significant URI\nMidazolam\n0.2mg/kg IN\nFentanyl\n2mcg/kg IN",
+      "subsections": {
+        "Parenteral_sedation_agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Ketamine(IV)",
+                "Initial Dose": "1 mg/kg",
+                "Repeat Dose": "2-4 mg/kg",
+                "Max Dose": "50-100 mg/dose",
+                "Onset": "1 min",
+                "Duration": "5-10 min",
+                "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+                "Notes": ""
+              },
+              {
+                "Agent": "Ketamine(IM)",
+                "Initial Dose": "",
+                "Repeat Dose": "",
+                "Max Dose": "4mg/kg per dose",
+                "Onset": "3-4 min",
+                "Duration": "30 min",
+                "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+                "Notes": ""
+              },
+              {
+                "Agent": "Midazolam(IV)",
+                "Initial Dose": "0.1 mg/kg",
+                "Repeat Dose": "50% of original dose",
+                "Max Dose": "2mg/dose; 3-4 doses max",
+                "Onset": "",
+                "Duration": "",
+                "Contraindicaitons/Cautions": "Liver disease; kidney disease",
+                "Notes": "Consider in"
+              },
+              {
+                "Agent": "Fentanyl(IV)",
+                "Initial Dose": "1 mcg/kg",
+                "Repeat Dose": "q3-5 min",
+                "Max Dose": "",
+                "Onset": "",
+                "Duration": "",
+                "Contraindicaitons/Cautions": "",
+                "Notes": "May be reveresed with naloxone"
+              },
+              {
+                "Agent": "Etomidate",
+                "Initial Dose": "0.15 mg/kg",
+                "Repeat Dose": "",
+                "Max Dose": "10 mg",
+                "Onset": "30-60 sec",
+                "Duration": "2-3 min",
+                "Contraindicaitons/Cautions": "Apnea",
+                "Notes": ""
+              },
+              {
+                "Agent": "Propofol",
+                "Initial Dose": "0.5-1 mg/kg",
+                "Repeat Dose": "same at 3-5 min intervals",
+                "Max Dose": "",
+                "Onset": "30 sec",
+                "Duration": "3-10 min",
+                "Contraindicaitons/Cautions": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Pentobarbital",
+                "Initial Dose": "1mg/kg",
+                "Repeat Dose": "",
+                "Max Dose": "",
+                "Onset": "1 min",
+                "Duration": "15 min",
+                "Contraindicaitons/Cautions": "Hypovolemic shock, CHF, hepatic",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        }
+      ]
+    },
+    "Parenteral_sedation_agents": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Agent": "Ketamine(IV)",
+            "Initial Dose": "1 mg/kg",
+            "Repeat Dose": "2-4 mg/kg",
+            "Max Dose": "50-100 mg/dose",
+            "Onset": "1 min",
+            "Duration": "5-10 min",
+            "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+            "Notes": ""
+          },
+          {
+            "Agent": "Ketamine(IM)",
+            "Initial Dose": "",
+            "Repeat Dose": "",
+            "Max Dose": "4mg/kg per dose",
+            "Onset": "3-4 min",
+            "Duration": "30 min",
+            "Contraindicaitons/Cautions": "Excessive secretions; airway manipulation; concern for emergenc reaction",
+            "Notes": ""
+          },
+          {
+            "Agent": "Midazolam(IV)",
+            "Initial Dose": "0.1 mg/kg",
+            "Repeat Dose": "50% of original dose",
+            "Max Dose": "2mg/dose; 3-4 doses max",
+            "Onset": "",
+            "Duration": "",
+            "Contraindicaitons/Cautions": "Liver disease; kidney disease",
+            "Notes": "Consider in"
+          },
+          {
+            "Agent": "Fentanyl(IV)",
+            "Initial Dose": "1 mcg/kg",
+            "Repeat Dose": "q3-5 min",
+            "Max Dose": "",
+            "Onset": "",
+            "Duration": "",
+            "Contraindicaitons/Cautions": "",
+            "Notes": "May be reveresed with naloxone"
+          },
+          {
+            "Agent": "Etomidate",
+            "Initial Dose": "0.15 mg/kg",
+            "Repeat Dose": "",
+            "Max Dose": "10 mg",
+            "Onset": "30-60 sec",
+            "Duration": "2-3 min",
+            "Contraindicaitons/Cautions": "Apnea",
+            "Notes": ""
+          },
+          {
+            "Agent": "Propofol",
+            "Initial Dose": "0.5-1 mg/kg",
+            "Repeat Dose": "same at 3-5 min intervals",
+            "Max Dose": "",
+            "Onset": "30 sec",
+            "Duration": "3-10 min",
+            "Contraindicaitons/Cautions": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Pentobarbital",
+            "Initial Dose": "1mg/kg",
+            "Repeat Dose": "",
+            "Max Dose": "",
+            "Onset": "1 min",
+            "Duration": "15 min",
+            "Contraindicaitons/Cautions": "Hypovolemic shock, CHF, hepatic",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Example_Protocol": {
+      "text": "Establish NPO status for at least 4 hours (non-emergent)\nObtain informed consent\nAMPLE history\nPrepare\nEstblish IV access, if necessary\nApply topical anesthetics (e.g. EMLA); allow >30 min for onset\nStrongly consider Child Life consult, if available\nIf only sedation without analgesia is required, consider oral sedation (see above)\nIntranasal dosing (can give 1mL per nostril at a time; contraindicated if signifiant URI)\nMidazolam\n0.2/kg, max 10mg (10-20 min prior to procedure)\nFentanyl\n2mcg/kg, max 100mcg\nGather appropriate equipment and supplies\nBVM, airway equipment\nSuction\nNaloxone\nfor rescue, if appropriate\nApply HR monitor, pulse-ox, BP cuff (on opposite side from pulse-ox); perform time out\nParenteral sedation agents (see above)\nPerform procedure\nMonitor for at least 30 min following last dose of IV medication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Side_Effects": {
+      "text": "Desaturation\nStimulate\nTry pressure behind ear\nJaw thrust\nNasal airway\nBVM\nNIV\nLMA\nIntubation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "LMA",
+          "url": "https://wikem.org/wiki/LMA"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Monitor until patient alert, at baseline level of consciousness, have purposeful neuromuscular activity, and have baseline vital signs\n[5]\nNot necessary to tolerate oral challenge\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Procedural sedation\nIntranasal sedation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        },
+        {
+          "text": "Intranasal sedation",
+          "url": "https://wikem.org/wiki/Intranasal_sedation"
+        }
+      ]
+    }
+  }
+}

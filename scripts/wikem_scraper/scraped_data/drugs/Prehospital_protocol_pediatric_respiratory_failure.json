@@ -1,0 +1,51 @@
+{
+  "drug_name": "Prehospital_protocol_pediatric_respiratory_failure",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_respiratory_failure",
+  "scraped_at": "2026-01-10T08:00:29.442755",
+  "sections": {
+    "No": {
+      "text": "",
+      "subsections": {
+        "Begin_BVM": {
+          "text": "If BVM is not effective perform the following:\nReposition Airway\nCheck correct mask size\nPlace\nOPA\nCheck for gastric distention",
+          "tables": []
+        },
+        "Yes_2": {
+          "text": "Monitor and transport",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Place endotracheal tube or supraglottic airway\nAssess:\nETCO2 Reading\nMisting in tube\nEqual breath sounds\nDirect visualization of the cords if ETT used.\nMonitor and transport\nCheck airway device\nTube dislodged?\nTube obstructed?\nPneumothorax?\nEquipment failure?\nContact online medical control for further instructions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Begin_BVM": {
+      "text": "If BVM is not effective perform the following:\nReposition Airway\nCheck correct mask size\nPlace\nOPA\nCheck for gastric distention",
+      "subsections": {
+        "Yes_2": {
+          "text": "Monitor and transport",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Place endotracheal tube or supraglottic airway\nAssess:\nETCO2 Reading\nMisting in tube\nEqual breath sounds\nDirect visualization of the cords if ETT used.\nMonitor and transport\nCheck airway device\nTube dislodged?\nTube obstructed?\nPneumothorax?\nEquipment failure?\nContact online medical control for further instructions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    }
+  }
+}

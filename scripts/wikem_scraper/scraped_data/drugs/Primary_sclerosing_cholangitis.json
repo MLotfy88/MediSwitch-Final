@@ -1,0 +1,49 @@
+{
+  "drug_name": "Primary_sclerosing_cholangitis",
+  "url": "https://wikem.org/wiki/Primary_sclerosing_cholangitis",
+  "scraped_at": "2026-01-10T08:00:37.580589",
+  "sections": {
+    "Background": {
+      "text": "Autoimmune disease typically seen in young men\nProgressive inflammation and fibrosis of intra/extra hepatic bile ducts\nMost (80%) cases are associated with\ninflammatory bowel disease\n, typically\nulcerative colitis\n, 10% of patients with ulcerative colitis have PSC\nIncreased risk of colon cancer in patients with Ulcerative colitis and PSC (more than UC alone) Increased risk of cholangiocarcinoma\nPrevalence is 1 to 6 per 100,000 in the U.S",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Generally asymptomatic but can present with fatigue,\nabdominal pain\n,\njaundice\n,\ncholangitis\n,\npruritus\n, weight loss, or\nfever\nMean age at presentation: 30-40",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Autoimmune hepatitis\nPrimary biliary cirrhosis\nIgG4 related disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "LFTs\nAlkaline phosphatase is usually elevated with mild elevations in aminotransferases\nBilirubin is typically normal, except when common hepatic duct or common bile duct is involved in late stages of disease\nPerinuclear antineutrophil cytoplasmic antibody (pANCA) positive in 2/3rds of cases\nCholangiography\nDiagnosis made by ERCP or MRCP, which demonstrates strictures or beading of the intrahepatic or extrahepatic bile ducts\nLiver biopsy typically shows pericholangitis and periductual fibrosis but is often not diagnostic in early disease\nConsider serum IgG4 levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "High dose Ursodeoxycholic acid (UDCA), 25-30mg/kg/day\nMay improve liver chemistries but does not slow disease progression and may actually hasten development of portal hypertension\nPeriodic dilation of strictures via ERCP or percutaneous route\nLiver Transplant should be offered to those with advanced liver disease or repeated bouts of cholangitis (disease can recur after transplantation)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Annual Screening for colon cancer in patients with concomitant\nulcerative colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Current Clinical Medicine, 2nd edition by Cleveland Clinic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

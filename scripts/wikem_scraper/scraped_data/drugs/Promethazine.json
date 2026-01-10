@@ -1,0 +1,154 @@
+{
+  "drug_name": "Promethazine",
+  "url": "https://wikem.org/wiki/Promethazine",
+  "scraped_at": "2026-01-10T08:00:39.864406",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antiemetic;\nPhenothiazine\nDerivative; Sedative\nDosage Forms: 12.5mg, 25mg, 50mg; 6.25mg/5 mL sol; IM; IV\nRoutes of Administration: Oral\nCommon Trade Names: Phenadoz; Phenergan; Promethegan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phenothiazine",
+          "url": "https://wikem.org/wiki/Phenothiazine"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Allergic conditions\n: 6.25-12.5mg PO tid\nMay give additional dose of 12.5-25mg PO qhs\nNausea/vomiting\n: 12.5-25mg PO/IM/IV q4-6h\nMax: 50mg/dose PO/IM; 25mg/dose IV\nIM preferred over IV\nMotion sickness: 25mg PO bid\nStart: 0.5-1h prior to travel\nSedation: 25-50mg PO/IM/IV x1\nMax: 50mg/dose PO/IM; 25mg/dose IV\nIM preferred over IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic conditions",
+          "url": "https://wikem.org/wiki/Allergic_conditions"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Only_Approved_for_>2_years": {
+          "text": "Allergic conditions: 0.1mg/kg PO q6h\nMax: 12.5mg/dose during day, 25mg/dose qhs\nMay give additional dose of up to 0.5mg/kg PO qhs\nUse lowest effective dose\nAvoid other resp. depressants\nNausea/vomiting: 0.25-1mg/kg PO/IM/IV q4-6h PRN;\nMax: 25mg/dose\nMotion sickness: 0.5mg/kg PO q12h PRN; Start: 0.5-1h before travel\nMax: 25mg/dose; Info: use lowest effective dose\nAvoid other resp. depressants\nSedation: 12.5-25mg PO/IM/IV x1\nMax: 25mg/dose\nIM preferred over IV\nUse lowest effective dose\nAvoid other resp. depressants",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Only_Approved_for_>2_years": {
+      "text": "Allergic conditions: 0.1mg/kg PO q6h\nMax: 12.5mg/dose during day, 25mg/dose qhs\nMay give additional dose of up to 0.5mg/kg PO qhs\nUse lowest effective dose\nAvoid other resp. depressants\nNausea/vomiting: 0.25-1mg/kg PO/IM/IV q4-6h PRN;\nMax: 25mg/dose\nMotion sickness: 0.5mg/kg PO q12h PRN; Start: 0.5-1h before travel\nMax: 25mg/dose; Info: use lowest effective dose\nAvoid other resp. depressants\nSedation: 12.5-25mg PO/IM/IV x1\nMax: 25mg/dose\nIM preferred over IV\nUse lowest effective dose\nAvoid other resp. depressants",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Caution advised with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "No adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Caution advised with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Caution advised with hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Hypersensitivity to drug/component\nPatients <2 yo\nComatose patients\nRespiratory depression\nSC injection\nintra- or periarterial administration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "extravasation/tissue damage (IV use > IM use)\napnea\nrespiratory depression\nrespiratory depression, fatal (infants)\nseizures\nleukopenia\nthrombocytopenia\nagranulocytosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "drowsiness\nsedation\nblurred vision\ndizziness\nconfusion\ndisorientation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "extravasation/tissue damage (IV use > IM use)\napnea\nrespiratory depression\nrespiratory depression, fatal (infants)\nseizures\nleukopenia\nthrombocytopenia\nagranulocytosis",
+      "subsections": {
+        "Common": {
+          "text": "drowsiness\nsedation\nblurred vision\ndizziness\nconfusion\ndisorientation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "drowsiness\nsedation\nblurred vision\ndizziness\nconfusion\ndisorientation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7-14 hrs\nMetabolism: urine, feces\nExcretion: CYP450",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "nonselective antagonist of central and peripheral H1 receptors; anticholinergic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiemetics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "References": {
+      "text": "<UpToDate, Micromedex>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "drug_name": "Propafenone",
+  "url": "https://wikem.org/wiki/Propafenone",
+  "scraped_at": "2026-01-10T08:00:40.747305",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiarrhythmics\nDosage Forms: Oral cap, Oral tablet\nRoutes of Administration: PO\nCommon Trade Names: Rhythmol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Sustained_Ventricular_Tachycardia": {
+          "text": "150 mg PO q 8 hrs\nDosage may be increased at 3-4 days to 225 mg PO q 8 hrs\nMax dosage: 300 mg PO q 8 hrs",
+          "tables": []
+        },
+        "New_Onset_Atrial_fibrillation": {
+          "text": "450 to 600 mg PO as a single dose",
+          "tables": []
+        },
+        "Sinus_Rhythm_Maintenance_in_Atrial_fibrillation_or_Atrial_flutter": {
+          "text": "See sustained VT dosing",
+          "tables": []
+        },
+        "PSVT_Prophylaxis_in_AVRT_including_WPW": {
+          "text": "300 mg q 8 hrs for 48 hrs (max 900 mg q 8 hrs)\nLimited data regarding dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "PSVT_Prophylaxis_in_AVRT_including_WPW_2": {
+          "text": "8 to 10 mg/kg/day PO in 3 divided doses.\nIncrease by 2 to 3 mg/kg/day every 2 to 3 days\nMax 15 mg/kg/day PO in 3 divided doses.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "No assigned FDA category\nNo associated risk of miscarriage, birth defects, or adverse maternal or fetal outcomes with this drug",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Dosages up to 900mg/day not expected to cause adverse effects in breast fed infants",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No dosage adjustment needed\nPediatric: No dosage adjustment needed",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Administer 20-30% of normal IR dose and monitor closely; consider dose reduction if administering ER dose\nPediatric: No specified guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "No assigned FDA category\nNo associated risk of miscarriage, birth defects, or adverse maternal or fetal outcomes with this drug",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Dosages up to 900mg/day not expected to cause adverse effects in breast fed infants",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No dosage adjustment needed\nPediatric: No dosage adjustment needed",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Administer 20-30% of normal IR dose and monitor closely; consider dose reduction if administering ER dose\nPediatric: No specified guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Dosages up to 900mg/day not expected to cause adverse effects in breast fed infants",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No dosage adjustment needed\nPediatric: No dosage adjustment needed",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Administer 20-30% of normal IR dose and monitor closely; consider dose reduction if administering ER dose\nPediatric: No specified guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No dosage adjustment needed\nPediatric: No dosage adjustment needed",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Administer 20-30% of normal IR dose and monitor closely; consider dose reduction if administering ER dose\nPediatric: No specified guidelines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Administer 20-30% of normal IR dose and monitor closely; consider dose reduction if administering ER dose\nPediatric: No specified guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSignificant QRS widening\nHigh Grade Heart Block\nHeart Failure\nLeft Ventricular Dysfunction\nBradycardia\nCardiogenic Shock\nElectrolyte Imbalance\nHypotension\nSick Sinus Syndrome\nLong QT Syndrome\nBrugada Syndrome\nRenal failure (relative)\nHepatic failure (relative)\nAsthma\nCOPD\nBronchospasm\nSLE",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Cardiac arrhythmia (2%-10%; new or worsened)\nCardiac failure (1%-4%)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Unusual Taste (3%-23%)\nDizziness (4%-15%)\nNausea/Vomiting (<11%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Cardiac arrhythmia (2%-10%; new or worsened)\nCardiac failure (1%-4%)",
+      "subsections": {
+        "Common": {
+          "text": "Unusual Taste (3%-23%)\nDizziness (4%-15%)\nNausea/Vomiting (<11%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Unusual Taste (3%-23%)\nDizziness (4%-15%)\nNausea/Vomiting (<11%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Extensive metabolizers: 2-10 hours; Poor metabolizers: 10-32 hours\nMetabolism: Hepatic via CYP2D6, CYP3A4 and CYP1A2\nExcretion: Urine (<1% unchanged; remainder as glucuronide or sulfate conjugates); feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Class 1c antiarrhythmic agent w/ local anesthetic properties\nBlocks the fast inward sodium current, slowing the rate of increase of the action potential.\nProlongs conduction/refractoriness in myocardium, reduces spontaneous automaticity, and exhibits some beta-blockade activity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

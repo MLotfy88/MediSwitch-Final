@@ -1,0 +1,114 @@
+{
+  "drug_name": "Propylthiouracil",
+  "url": "https://wikem.org/wiki/Propylthiouracil",
+  "scraped_at": "2026-01-10T08:00:40.750391",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antithyroid\nDosage Forms:\nRoutes of Administration:\nOther common names: PTU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Thyroid storm: 500-1000mg PO loading dose, followed by 250mg PO q4h\nHyperthyroidism\nInitial: 50-300mg PO TID (based on severity)\nMaintenance: 50mg PO TID\n1st trimester pregnancy: Use lowest dose needed to keep maternal total T3/T4 slightly above normal range for pregnancy, TSH suppressed, and free T4 at or slightly above upper limit of normal for nonpregnant women. Switch to\nmethimazole\nfor 2nd-3rd trimester",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": ">6yo: 50 mg PO daily, carefully uptitrated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D - see dosing note above\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: No adjustment\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Both PTU and methimazole can cause agranulocytosis and hepatotoxicity, but to a lesser extent with methimazole\nAgranulocytosis, aplastic anemia\nHepatotoxicity, liver failure\nNephritis\nVasculitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Both PTU and methimazole can cause agranulocytosis and hepatotoxicity, but to a lesser extent with methimazole\nAgranulocytosis, aplastic anemia\nHepatotoxicity, liver failure\nNephritis\nVasculitis",
+      "subsections": {
+        "Common": {
+          "text": "Rash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Rash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:  0.9-4.3h\nMetabolism: Hepatic\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits thyroperoxidase, blocking thyroid hormone synthesis in the thyroid. In target tissues, blocks 5'-deiodinase, thereby inhibiting conversion of T4 to active T3",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyperthyroidism\n,\nthyroid storm\nMethimazole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        }
+      ]
+    }
+  }
+}

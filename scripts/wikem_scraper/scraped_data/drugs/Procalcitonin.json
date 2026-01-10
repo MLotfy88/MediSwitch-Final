@@ -1,0 +1,40 @@
+{
+  "drug_name": "Procalcitonin",
+  "url": "https://wikem.org/wiki/Procalcitonin",
+  "scraped_at": "2026-01-10T08:00:37.519865",
+  "sections": {
+    "Background": {
+      "text": "Serum biomarker that may help distinguish between bacterial infection and other causes of infection or inflammation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Use": {
+      "text": "Differentiate lower respiratory inflammation/infection into bacterial vs. other etiology, and help clinicians choose if antibiotics are appropriate.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evidence": {
+      "text": "In patients with lower respiratory tract infections, procalcitonin guided antibiotic stewardship didn't result in worse outcomes, but did reduce antibiotic exposure and their associated effects\n[1]\nProcalcitonin-guided approach to inform antibiotic therapy didn't result in decreased antibiotic use compared to usual care\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sepsis (Main)\nPediatric fever of uncertain source",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Pediatric fever of uncertain source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        }
+      ]
+    }
+  }
+}

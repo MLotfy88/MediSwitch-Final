@@ -1,0 +1,116 @@
+{
+  "drug_name": "Pressure_ulcer",
+  "url": "https://wikem.org/wiki/Pressure_ulcer",
+  "scraped_at": "2026-01-10T08:00:33.720752",
+  "sections": {
+    "Background": {
+      "text": "Classified into stages based on thickness\nExternal compression of skin causes ischemic tissue damage, necrosis which is common in\nBedridden patients\nNursing home patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Stage 1 - Skin intact, nonblanchable erythema\nStage 2 - Erosion into epidermis only (dermis is intact)\nAdipose tissue is not visible\nStage 3 - Deep necrosis/ulceration with full-thickness skin loss\nAdipose tissue is visible\nFascia, muscles, ligaments/tendons, cartilage/bone not visible\nStage 4 - Full thickness ulceration revealing muscle and bone\nUnstageable - Full-thickness skin involvement with devitalized tissue/eschar obscuring view",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Skin_breakdown": {
+          "text": "Cellulitis\nDiabetic ulcer\nPressure ulcer\nPyoderma gangrenosum\nOsteomyelitis\nVenous ulcer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Diabetic ulcer",
+          "url": "https://wikem.org/wiki/Diabetic_ulcer"
+        },
+        {
+          "text": "Pyoderma gangrenosum",
+          "url": "https://wikem.org/wiki/Pyoderma_gangrenosum"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Venous ulcer",
+          "url": "https://wikem.org/wiki/Venous_ulcer"
+        }
+      ]
+    },
+    "Skin_breakdown": {
+      "text": "Cellulitis\nDiabetic ulcer\nPressure ulcer\nPyoderma gangrenosum\nOsteomyelitis\nVenous ulcer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Diabetic ulcer",
+          "url": "https://wikem.org/wiki/Diabetic_ulcer"
+        },
+        {
+          "text": "Pyoderma gangrenosum",
+          "url": "https://wikem.org/wiki/Pyoderma_gangrenosum"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Venous ulcer",
+          "url": "https://wikem.org/wiki/Venous_ulcer"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "The most important piece of the evaluation is early identification and classification especially for patients being admitted.\nFor deep wounds and in patients with signs of\nsepsis\n, evaluate for hematogenous spread (blood cultures) or\nosteomyelitis\n(imaging or deep culture)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Stage 1 and 2 ulcers\nWound care and dressing changes in addition to padding to relief pressure\nStage 2 and 3 ulcers\nSurgical debridement and ongoing intensive wound care and pressure relief",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Disposition is not dependent on the degree of ulcer but rather depends on the patient's clincal condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "General Approach to EM Geriatrics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "General Approach to EM Geriatrics",
+          "url": "https://wikem.org/wiki/General_Approach_to_EM_Geriatrics"
+        }
+      ]
+    }
+  }
+}

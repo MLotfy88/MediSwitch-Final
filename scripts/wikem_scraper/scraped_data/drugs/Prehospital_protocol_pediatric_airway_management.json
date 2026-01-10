@@ -1,0 +1,32 @@
+{
+  "drug_name": "Prehospital_protocol_pediatric_airway_management",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_pediatric_airway_management",
+  "scraped_at": "2026-01-10T08:00:27.698269",
+  "sections": {
+    "100%_O2_NRB": {
+      "text": "Blow by O2 only if needed to decrease agitation\nIncreased, decreased or no respiratory effort\nPoor to absent distal air movement\nChanges in level of consciousness\nTachycardia and tachypnea are early signs\nApnea and bradycardia are late signs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "No": {
+      "text": "",
+      "subsections": {
+        "Respiratory_Distress?": {
+          "text": "Tachypnea\nIncreased respiratory effort\nAbnormal airway sounds\nTachycardia\nPale cool skin\nChanges in level of consciousness",
+          "tables": []
+        },
+        "Yes_2": {
+          "text": "Perform CPAP (3-5 cm H2O PEEP) if correct mask size is available\nIf mask not available apply 100% O2 NRB\nMonitor for respiratory failure",
+          "tables": []
+        },
+        "No_2": {
+          "text": "Monitor and Transport",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    }
+  }
+}

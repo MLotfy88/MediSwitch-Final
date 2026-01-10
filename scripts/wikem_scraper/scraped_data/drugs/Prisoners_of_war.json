@@ -1,0 +1,57 @@
+{
+  "drug_name": "Prisoners_of_war",
+  "url": "https://wikem.org/wiki/Prisoners_of_war",
+  "scraped_at": "2026-01-10T08:00:37.388115",
+  "sections": {
+    "Background": {
+      "text": "Principles of war are laid out in various international treaties such as the Geneva Conventions and Hague Conventions\nTreaties and customary practices regulate the conduct of hostilities and are meant to establish certain humanitarian protections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prisoners_of_War": {
+      "text": "Captors must respect and protect those who surrender\nTreat POWs humanely\nPOWs entitled to medical care at standard of care given to captor's service members\nTriage by severity of injury not by nationality/uniform",
+      "subsections": {
+        "Rights": {
+          "text": "Receive food, shelter, clothing adequate to stay in good health\nReceive medical care\nSend and receive mail\nKeep personnel property except military equipment and certain documents\nRetain their military identification card\nBe provided copy of Geneva Conventions in their native language\nComplain to camp commander about conditions\nPractice their religion",
+          "tables": []
+        },
+        "Medical_Care": {
+          "text": "Perform screening medical examination\nCreate and maintain medical record during in-processing\nProvide Geneva Conventions in POWs native language\nMedical support includes sick call, first aid, surgery for serious illness/injury, rehabilitation if appropriate after surgery, preventive medical services (vaccinations)\nMonthly medical inspections and periodic sanitary inspections of facility",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rights": {
+      "text": "Receive food, shelter, clothing adequate to stay in good health\nReceive medical care\nSend and receive mail\nKeep personnel property except military equipment and certain documents\nRetain their military identification card\nBe provided copy of Geneva Conventions in their native language\nComplain to camp commander about conditions\nPractice their religion",
+      "subsections": {
+        "Medical_Care": {
+          "text": "Perform screening medical examination\nCreate and maintain medical record during in-processing\nProvide Geneva Conventions in POWs native language\nMedical support includes sick call, first aid, surgery for serious illness/injury, rehabilitation if appropriate after surgery, preventive medical services (vaccinations)\nMonthly medical inspections and periodic sanitary inspections of facility",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medical_Care": {
+      "text": "Perform screening medical examination\nCreate and maintain medical record during in-processing\nProvide Geneva Conventions in POWs native language\nMedical support includes sick call, first aid, surgery for serious illness/injury, rehabilitation if appropriate after surgery, preventive medical services (vaccinations)\nMonthly medical inspections and periodic sanitary inspections of facility",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Role_of_Individual_of_Medical_Provider": {
+      "text": "Must not violate the conventions\nNo obligation to follow unlawful order\nIf you think order is unlawful ask for clarification, try to get it withdrawn, if doesn't work then must disobey it\nMust prevent others from violating\nReport any suspected violations\nEntitled to defend themselves and their patients\nBody cavity searches for valid medical reasons only - not part of routine intake\nRoles of medical personnel in war limited to seeking/collecting/transporting/treating/sheltering injured/wounded/sick as well as prevention of disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Role_of_Medical_Units": {
+      "text": "Treat injured/wounded/sick casualties and POWs\nUse/store defensive arms for protection of military treatment facility if attacked\nTransfer patient's arms/ammunition to storage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

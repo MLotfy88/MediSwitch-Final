@@ -1,0 +1,230 @@
+{
+  "drug_name": "Prepubertal_pelvic_pain",
+  "url": "https://wikem.org/wiki/Prepubertal_pelvic_pain",
+  "scraped_at": "2026-01-10T08:00:33.475116",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nPelvic pain\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Prepubertal pelvic pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Gynecologic": {
+          "text": "Trauma\nLaceration\nHematoma\nSexual abuse\nVaginal foreign body\nVaginal infection\nCandida Vaginitis\nContact Vulvovaginitis\nOutflow-tract obstruction\nImperforate hymen\nLabial adhesions\nCongenital abnormalities",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Appendicitis\nGastroenteritis\nBowel obstruction\nConstipation\nVolvulus",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Muscle tendon injury\nGrowth-plate injury\nLigamentous injury\nAvulsion fracture\nInguinal hernia\nIntervertebral disc herniation",
+          "tables": []
+        },
+        "Urologic": {
+          "text": "Nephrolithiasis\nCystitis\nPyelonephritis\nUrethritis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Diabetic ketoacidosis\nSickle cell crisis\nNeoplasms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Sexual abuse",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "Prepubertal_pelvic_pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic": {
+          "text": "Trauma\nLaceration\nHematoma\nSexual abuse\nVaginal foreign body\nVaginal infection\nCandida Vaginitis\nContact Vulvovaginitis\nOutflow-tract obstruction\nImperforate hymen\nLabial adhesions\nCongenital abnormalities",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Appendicitis\nGastroenteritis\nBowel obstruction\nConstipation\nVolvulus",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Muscle tendon injury\nGrowth-plate injury\nLigamentous injury\nAvulsion fracture\nInguinal hernia\nIntervertebral disc herniation",
+          "tables": []
+        },
+        "Urologic": {
+          "text": "Nephrolithiasis\nCystitis\nPyelonephritis\nUrethritis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Diabetic ketoacidosis\nSickle cell crisis\nNeoplasms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Sexual abuse",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia_(peds)"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pelvic Pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Pain",
+          "url": "https://wikem.org/wiki/Pelvic_Pain"
+        }
+      ]
+    }
+  }
+}

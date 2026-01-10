@@ -1,0 +1,83 @@
+{
+  "drug_name": "Prehospital_protocol_breathing_difficulty_(less_than_2_yo)",
+  "url": "https://wikem.org/wiki/Prehospital_protocol_breathing_difficulty_(less_than_2_yo)",
+  "scraped_at": "2026-01-10T08:00:29.393018",
+  "sections": {
+    "Yes": {
+      "text": "Suction and give epinephrine 1:1000 3mL nebulized",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes_2": {
+      "text": "Give epinephrine 1:1000 3mL in nebulizer",
+      "subsections": {
+        "No": {
+          "text": "Reassess continuously during transport for respiratory distress",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "No": {
+      "text": "Reassess continuously during transport for respiratory distress",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Yes_3": {
+      "text": "Give epinephrine 1:1000 3mL in nebulizer\nImmediately assess for respiratory failure.",
+      "subsections": {
+        "No_2": {
+          "text": "Reassess continuously during transport\nFurther orders per\nOnline Medical Control",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "No_2": {
+      "text": "Reassess continuously during transport\nFurther orders per\nOnline Medical Control",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "No_3": {
+      "text": "Continue to reassess patient",
+      "subsections": {
+        "Yes_4": {
+          "text": "Perform BVM Ventilation\nNormal saline (weight *20)ml/kg bolus IV/IO",
+          "tables": []
+        },
+        "Is_BVM_effective?": {
+          "text": "If BVM is not effective, perform the following:\nReposition the airway\nCheck correct mask size\nCheck O2 source\nPlace\nOPA\nAssess for gastric distention\nTransport, monitor and continue to reassess\nIf continued failure to ventilate or oxygenate with BVM, then place endotracheal tube or supraglottic airway\nContact medical control for further orders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    },
+    "Yes_4": {
+      "text": "Perform BVM Ventilation\nNormal saline (weight *20)ml/kg bolus IV/IO",
+      "subsections": {
+        "Is_BVM_effective?": {
+          "text": "If BVM is not effective, perform the following:\nReposition the airway\nCheck correct mask size\nCheck O2 source\nPlace\nOPA\nAssess for gastric distention\nTransport, monitor and continue to reassess\nIf continued failure to ventilate or oxygenate with BVM, then place endotracheal tube or supraglottic airway\nContact medical control for further orders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "OPA",
+          "url": "https://wikem.org/wiki/OPA"
+        }
+      ]
+    }
+  }
+}

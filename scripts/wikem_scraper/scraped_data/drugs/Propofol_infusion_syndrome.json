@@ -1,0 +1,107 @@
+{
+  "drug_name": "Propofol_infusion_syndrome",
+  "url": "https://wikem.org/wiki/Propofol_infusion_syndrome",
+  "scraped_at": "2026-01-10T08:00:43.092789",
+  "sections": {
+    "Background": {
+      "text": "PRIS =\npropofol\ninfusion syndrome\nRefractory\nbradycardia\nand\ncardiovascular collapse\nPoorly understood mechanism\nRisk factors\nHigh doses of (> 4mg/kg/hr or 67 mcg/kg/min)\nLong duration (> 48 hrs)\nYounger age (PRIS first recognized in pediatric population)\nCritical illness\nMalnutrition\nLiver disease\nCarnitine deficiency\nMitochondrial disease\nCatecholamine, vasopressor infusion\nCorticosteroid infusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Elevated\nAG metabolic acidosis\nHypotension\nBradycardia\nRhabdomyolysis\nHyperkalemia\nAKI\nHyperlipidemia\nTransaminitis, fatty liver",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AG metabolic acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serum lipids (TGs, cholesterol)\nBMP, Cr\nCK, potassium, urinary myoglobin\nLactate, ABG\nPropofol levels if available\nECG\nBrugada\nlike pattern, coved-type\nRBBB\nHeart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Brugada",
+          "url": "https://wikem.org/wiki/Brugada"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immediate discontinuation of propofol infusion\nTreatment of\nrhabdomyolysis\n, to include renal replacement therapy\nHemodynamic support, cardiac\npacing\nL-carnitine\nsupplementation\nCarbohydrate administration at 6-8mg/kg/min\nHemodialysis\nECMO\nin refractory cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "pacing",
+          "url": "https://wikem.org/wiki/Pacing"
+        },
+        {
+          "text": "L-carnitine",
+          "url": "https://wikem.org/wiki/L-carnitine"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        }
+      ]
+    }
+  }
+}

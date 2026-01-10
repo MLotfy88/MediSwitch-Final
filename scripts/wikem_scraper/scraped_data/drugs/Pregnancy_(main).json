@@ -1,0 +1,1159 @@
+{
+  "drug_name": "Pregnancy_(main)",
+  "url": "https://wikem.org/wiki/Pregnancy_(main)",
+  "scraped_at": "2026-01-10T08:00:27.198798",
+  "sections": {
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Normal_Vitals_in_Pregnancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Vital": "HR",
+                "Nonpregnant": "70",
+                "1st Trimester": "78",
+                "2nd Trimester": "82",
+                "3rd Trimester": "85"
+              },
+              {
+                "Vital": "SBP",
+                "Nonpregnant": "115",
+                "1st Trimester": "112",
+                "2nd Trimester": "112",
+                "3rd Trimester": "114"
+              },
+              {
+                "Vital": "DBP",
+                "Nonpregnant": "70",
+                "1st Trimester": "60",
+                "2nd Trimester": "63",
+                "3rd Trimester": "70"
+              },
+              {
+                "Vital": "Hcrt",
+                "Nonpregnant": "40",
+                "1st Trimester": "36",
+                "2nd Trimester": "33",
+                "3rd Trimester": "34"
+              },
+              {
+                "Vital": "WBC",
+                "Nonpregnant": "7.2k",
+                "1st Trimester": "9.1k",
+                "2nd Trimester": "9.7k",
+                "3rd Trimester": "9.8k"
+              }
+            ]
+          ]
+        },
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        },
+        "Physiologic_Changes_in_Pregnancy": {
+          "text": "Heart rate (HR) increases 15-20 bpm (75-95 bpm)\nMean arterial pressure (MAP) increases 10 mmHg (80 mmHg)\nTidal volume (TV) increases 40% (700 cc)\nMinute volume (MV) increases 40% (10.5 L/min)\nFunctional residual capacity (FRC) decreases 25% (1300ml)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Vitals_in_Pregnancy": {
+      "text": "",
+      "subsections": {
+        "Estimated_Gestational_Age_by_Fundal_Height": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Weeks": "12",
+                "Fundal Height / Finding": "Pubic symphysis"
+              },
+              {
+                "Weeks": "20",
+                "Fundal Height / Finding": "Umbilicus"
+              },
+              {
+                "Weeks": "20-32",
+                "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+              },
+              {
+                "Weeks": "36",
+                "Fundal Height / Finding": "Xiphoid process"
+              },
+              {
+                "Weeks": ">37",
+                "Fundal Height / Finding": "Regression"
+              },
+              {
+                "Weeks": "Post delivery",
+                "Fundal Height / Finding": "Umbilicus"
+              }
+            ]
+          ]
+        },
+        "Physiologic_Changes_in_Pregnancy": {
+          "text": "Heart rate (HR) increases 15-20 bpm (75-95 bpm)\nMean arterial pressure (MAP) increases 10 mmHg (80 mmHg)\nTidal volume (TV) increases 40% (700 cc)\nMinute volume (MV) increases 40% (10.5 L/min)\nFunctional residual capacity (FRC) decreases 25% (1300ml)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Vital": "HR",
+            "Nonpregnant": "70",
+            "1st Trimester": "78",
+            "2nd Trimester": "82",
+            "3rd Trimester": "85"
+          },
+          {
+            "Vital": "SBP",
+            "Nonpregnant": "115",
+            "1st Trimester": "112",
+            "2nd Trimester": "112",
+            "3rd Trimester": "114"
+          },
+          {
+            "Vital": "DBP",
+            "Nonpregnant": "70",
+            "1st Trimester": "60",
+            "2nd Trimester": "63",
+            "3rd Trimester": "70"
+          },
+          {
+            "Vital": "Hcrt",
+            "Nonpregnant": "40",
+            "1st Trimester": "36",
+            "2nd Trimester": "33",
+            "3rd Trimester": "34"
+          },
+          {
+            "Vital": "WBC",
+            "Nonpregnant": "7.2k",
+            "1st Trimester": "9.1k",
+            "2nd Trimester": "9.7k",
+            "3rd Trimester": "9.8k"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Estimated_Gestational_Age_by_Fundal_Height": {
+      "text": "",
+      "subsections": {
+        "Physiologic_Changes_in_Pregnancy": {
+          "text": "Heart rate (HR) increases 15-20 bpm (75-95 bpm)\nMean arterial pressure (MAP) increases 10 mmHg (80 mmHg)\nTidal volume (TV) increases 40% (700 cc)\nMinute volume (MV) increases 40% (10.5 L/min)\nFunctional residual capacity (FRC) decreases 25% (1300ml)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Weeks": "12",
+            "Fundal Height / Finding": "Pubic symphysis"
+          },
+          {
+            "Weeks": "20",
+            "Fundal Height / Finding": "Umbilicus"
+          },
+          {
+            "Weeks": "20-32",
+            "Fundal Height / Finding": "Height (cm) above symphysis = gestational age (weeks)"
+          },
+          {
+            "Weeks": "36",
+            "Fundal Height / Finding": "Xiphoid process"
+          },
+          {
+            "Weeks": ">37",
+            "Fundal Height / Finding": "Regression"
+          },
+          {
+            "Weeks": "Post delivery",
+            "Fundal Height / Finding": "Umbilicus"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Physiologic_Changes_in_Pregnancy": {
+      "text": "Heart rate (HR) increases 15-20 bpm (75-95 bpm)\nMean arterial pressure (MAP) increases 10 mmHg (80 mmHg)\nTidal volume (TV) increases 40% (700 cc)\nMinute volume (MV) increases 40% (10.5 L/min)\nFunctional residual capacity (FRC) decreases 25% (1300ml)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        },
+        "Vaginal_Bleeding_in_Pregnancy_(<20wks)": {
+          "text": "Ectopic pregnancy\nSubchorionic hematoma\nFirst Trimester Abortion\nComplete Abortion\nIncomplete Abortion\nInevitable Abortion\nMissed Abortion\nSeptic abortion\nThreatened Abortion\nGestational trophoblastic disease\nConsider when pregnancy-induced hypertension is seen before 24 wks of gestation\nHeterotopic pregnancy\nImplantation bleeding\nMolar pregnancy\nNon-pregnancy related bleeding\nCervicitis\nFibroids\nImplantation bleeding",
+          "tables": []
+        },
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        },
+        "Abdominal_Pain_in_Pregnancy": {
+          "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+          "tables": []
+        },
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        },
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Subchorionic hematoma",
+          "url": "https://wikem.org/wiki/Subchorionic_hematoma"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Fibroids",
+          "url": "https://wikem.org/wiki/Fibroids"
+        },
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(<20wks)": {
+          "text": "Ectopic pregnancy\nSubchorionic hematoma\nFirst Trimester Abortion\nComplete Abortion\nIncomplete Abortion\nInevitable Abortion\nMissed Abortion\nSeptic abortion\nThreatened Abortion\nGestational trophoblastic disease\nConsider when pregnancy-induced hypertension is seen before 24 wks of gestation\nHeterotopic pregnancy\nImplantation bleeding\nMolar pregnancy\nNon-pregnancy related bleeding\nCervicitis\nFibroids\nImplantation bleeding",
+          "tables": []
+        },
+        "Vaginal_Bleeding_in_Pregnancy_(>20wks)": {
+          "text": "Emergent delivery\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nPreterm labor\nVaginal trauma\nPlacenta accreta\nIntrauterine fetal demise",
+          "tables": []
+        },
+        "Abdominal_Pain_in_Pregnancy": {
+          "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+          "tables": []
+        },
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        },
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Subchorionic hematoma",
+          "url": "https://wikem.org/wiki/Subchorionic_hematoma"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Fibroids",
+          "url": "https://wikem.org/wiki/Fibroids"
+        },
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Intrauterine fetal demise",
+          "url": "https://wikem.org/wiki/Intrauterine_fetal_demise"
+        },
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Abdominal_Pain_in_Pregnancy": {
+      "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+      "subsections": {
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation",
+          "tables": []
+        },
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Repeat_B-hCG_Levels": {
+          "text": "^Initial level CANNOT be used to rule-out ectopic",
+          "tables": [
+            [
+              {
+                "Pregnancy Type": "Normal",
+                "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+              },
+              {
+                "Pregnancy Type": "Ectopic",
+                "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+              },
+              {
+                "Pregnancy Type": "Miscarriage",
+                "B-hCG Change": "Decreases >20% in 48 hrs"
+              }
+            ]
+          ]
+        },
+        "Maternal_Laboratory_Changes_in_Pregnancy": {
+          "text": "CBC\nIncreased WBC count (5k-15k)\nDecreased hematocrit (32-34%) due to increased plasma volume\nDecreased platelets\nChemistry\nDecreased BUN and creatinine (<0.8mg/dL)\nGFR increases up to 60% (140ml/min)\nDecreased Bicarb\nOther\nIncreased\nD-dimer\nand Fibrinogen\nIncreased ESR ~78\nDecreased PaCO2 ~30\nECG\nwith Qs in III & aVF, left axis\nBeta-HCG Levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Beta-HCG Levels",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        }
+      ]
+    },
+    "Repeat_B-hCG_Levels": {
+      "text": "^Initial level CANNOT be used to rule-out ectopic",
+      "subsections": {
+        "Maternal_Laboratory_Changes_in_Pregnancy": {
+          "text": "CBC\nIncreased WBC count (5k-15k)\nDecreased hematocrit (32-34%) due to increased plasma volume\nDecreased platelets\nChemistry\nDecreased BUN and creatinine (<0.8mg/dL)\nGFR increases up to 60% (140ml/min)\nDecreased Bicarb\nOther\nIncreased\nD-dimer\nand Fibrinogen\nIncreased ESR ~78\nDecreased PaCO2 ~30\nECG\nwith Qs in III & aVF, left axis\nBeta-HCG Levels",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Pregnancy Type": "Normal",
+            "B-hCG Change": "Increase >53% in 48hrs (until 10,000 mIU/ml)Depends on the initial value:<1500 --> 50% increase1500-3000 --> 40% increase> 3000 --> 30% increase"
+          },
+          {
+            "Pregnancy Type": "Ectopic",
+            "B-hCG Change": "Increases or decreases slowly (\"plateau\")^"
+          },
+          {
+            "Pregnancy Type": "Miscarriage",
+            "B-hCG Change": "Decreases >20% in 48 hrs"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Beta-HCG Levels",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        }
+      ]
+    },
+    "Maternal_Laboratory_Changes_in_Pregnancy": {
+      "text": "CBC\nIncreased WBC count (5k-15k)\nDecreased hematocrit (32-34%) due to increased plasma volume\nDecreased platelets\nChemistry\nDecreased BUN and creatinine (<0.8mg/dL)\nGFR increases up to 60% (140ml/min)\nDecreased Bicarb\nOther\nIncreased\nD-dimer\nand Fibrinogen\nIncreased ESR ~78\nDecreased PaCO2 ~30\nECG\nwith Qs in III & aVF, left axis\nBeta-HCG Levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Beta-HCG Levels",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Drug Ratings in Pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drug Ratings in Pregnancy",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Uncomplicated pregnancy is managed as an outpatient\nFor particular problems in pregnancy, see individual pages",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Headache during pregnancy\nEctopic pregnancy\nITP in pregnancy\nTrauma in pregnancy\nComorbid diseases in pregnancy\nAbdominal pain in pregnancy\nPulmonary embolism in pregnancy\nVaccines in pregnancy\nRashes of pregnancy\nFundal exam in pregnancy\nResuscitative hysterotomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache during pregnancy",
+          "url": "https://wikem.org/wiki/Headache_during_pregnancy"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Comorbid diseases in pregnancy",
+          "url": "https://wikem.org/wiki/Comorbid_diseases_in_pregnancy"
+        },
+        {
+          "text": "Abdominal pain in pregnancy",
+          "url": "https://wikem.org/wiki/Abdominal_pain_in_pregnancy"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Vaccines in pregnancy",
+          "url": "https://wikem.org/wiki/Vaccines_in_pregnancy"
+        },
+        {
+          "text": "Rashes of pregnancy",
+          "url": "https://wikem.org/wiki/Rashes_of_pregnancy"
+        },
+        {
+          "text": "Fundal exam in pregnancy",
+          "url": "https://wikem.org/wiki/Fundal_exam_in_pregnancy"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        }
+      ]
+    }
+  }
+}

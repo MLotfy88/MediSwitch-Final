@@ -1,0 +1,141 @@
+{
+  "drug_name": "Procainamide",
+  "url": "https://wikem.org/wiki/Procainamide",
+  "scraped_at": "2026-01-10T08:00:39.558999",
+  "sections": {
+    "General": {
+      "text": "Type: Class Ia\nAntiarrhythmic\nDosage Forms: 100mg/mL (10 mL); 500mg/mL (2 mL)\nCommon Trade Names: Apo-Procainamide; Procainamide Hydrochloride Injection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmic",
+          "url": "https://wikem.org/wiki/Antiarrhythmic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Arrythmia": {
+          "text": "Drug of Choice for stable\nwide complex tachycardia\n(Class IIa recommendation)\n100 mg IV x 2 min q5min as needed to max dose 17 mg/kg\nGive until:\nArrhythmia is suppressed\nPatient develops hypotension\nQRS segment prolongs by >50% of baseline\nTotal of 17 mg/kg given\nIf effective, start continuous infusion at 1-4 mg/min\nContinuous infusion has fewer adverse effects than bolus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Wide_complex_tachycardia"
+        }
+      ]
+    },
+    "Arrythmia": {
+      "text": "Drug of Choice for stable\nwide complex tachycardia\n(Class IIa recommendation)\n100 mg IV x 2 min q5min as needed to max dose 17 mg/kg\nGive until:\nArrhythmia is suppressed\nPatient develops hypotension\nQRS segment prolongs by >50% of baseline\nTotal of 17 mg/kg given\nIf effective, start continuous infusion at 1-4 mg/min\nContinuous infusion has fewer adverse effects than bolus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Wide_complex_tachycardia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Arrythmia_2": {
+          "text": "Stable wide-complex\ntachycardia\nor\nSVT\n15mg/kg infused over 30-60 minutes\nStop infusion if hypotension occurs or QRS complex widens by >50% of baseline",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Arrythmia_2": {
+      "text": "Stable wide-complex\ntachycardia\nor\nSVT\n15mg/kg infused over 30-60 minutes\nStop infusion if hypotension occurs or QRS complex widens by >50% of baseline",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Class C\nLactation risk\n: Procainamide and its metabolite are found in breast milk. Due to the potential for adverse events in the nursing infant, breast-feeding is not recommended by the manufacturer.\nRenal Dosing\nAdult: Drip rate is 1-2 mg/min for renal/cardiac failure\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Wide-complex tachycardia of unknown type (in patient with preserved left ventricular function)\nStable ventricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nNot recommended for ventricular fibrillation or pulseless ventricular tachycardia, as it takes too long to dose\n2nd or 3rd atrioventricular block\nSevere glycoside intoxication\nProlonged QT segment\nMyasthenia gravis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Myocardial depression\nWatch for QRS/QT segment prolongation, ventricular tachycardia, ventricular fibrillation, complete atrioventricular block, torsades de pointes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nChildren: 1.7 hours\nAdults with normal renal function: 2.5-4.7 hours\nMetabolism: By acetylation in the liver to produce N-acetyl procainamide (NAPA)\nExcretion: Urinary excretion (25% as NAPA)\nKinetics: Onset of action 5 - 10 minutes",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Class Ia\nBinds to fast sodium channels in inactive state inhibiting recovery after repolarization\nProlongs action potential and reduces speed of impulse conduction\nDepresses myocardial conduction\nMay act as negative inotrope, causing hypotension through peripheral vasodilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Class Ia\nBinds to fast sodium channels in inactive state inhibiting recovery after repolarization\nProlongs action potential and reduces speed of impulse conduction\nDepresses myocardial conduction\nMay act as negative inotrope, causing hypotension through peripheral vasodilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiarrhythmics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    }
+  }
+}

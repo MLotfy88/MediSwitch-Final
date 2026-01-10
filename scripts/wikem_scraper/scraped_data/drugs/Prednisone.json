@@ -1,0 +1,114 @@
+{
+  "drug_name": "Prednisone",
+  "url": "https://wikem.org/wiki/Prednisone",
+  "scraped_at": "2026-01-10T08:00:27.101073",
+  "sections": {
+    "General": {
+      "text": "Type:\nCorticosteroids\n, systemic\nDosage Forms:1, 2, 5, 10, 20, 50, 5/5ml\nCommon Trade Names: Sterapred, Sterapred DS, Rayos",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "For all doses of\nprednisone\n, it is best given with food. Also, ideally best when given in AM to coincide with natural cortisol release. No need to taper if short course less than 1 week, otherwise consider taper.\nCorticosteroid-responsive conditions\n5-60mg PO QD\nDose varies based on condition\nAsthma, acute\n40-80mg/day PO divided QD-bid\nMost practitioners give 60mg PO x 1, followed by 40mg PO QD x 4 days (for a 80-100kg adult)\nIf patient can tolerate PO, no need to give steroids IV, but if asthma is severe, and bipap / intubation likely, best to keep patient NPO and give methylprednisolone IV\nAdrenal Insufficiency\n4-5mg/ m^2 PO QD\nTaper dose gradually to discharge when appropriate\nMultiple Sclerosis, acute exacerbation\n200mg PO QD x1 week, then 80mg po qod x1 mo\nGive with food, also prescribe PPI for gastric protection. Taper dose gradually to discharge\nAlcoholic Hepatitis, acute\n40mg PO QD\nPCP, Adjunct treatment\n40mg PO BID x5 days, then 40mg PO QD x5 days, then 20mg PO QD x11 days\nStart within 72hrs of antimicrobial treatment\nAlways consider discussion with\nHIV\nconsultants prior to given steroids, as they will be managing patient in hospital",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "For all doses of\nprednisone\n, it is best tolerated with food. Ideally best when given in AM to coincide with natural cortisol release. No need to taper if short course less than 1 week, otherwise consider taper.\nCorticosteroid-responsive conditions\n0.05-2mg/kg/day PO divided QD-QID\nDose varies based on condition\nAsthma, acute\n1-2mg/day PO divided QD-bid Max 60mg/day\nIf patient can tolerate PO, no need to give steroids IV, but if asthma is severe, and Bipap / intubation likely, best to keep patient NPO and give methylprednisolone IV\nAdrenal Insufficiency\n4-5mg/ m^2 PO QD Taper dose gradually to discharge when appropriate\nNephrotic Syndrome\n2mg / kg PO QD\nMax 80mg / day. Use for 1st 3 episodes\nPCP, adjunct treatment (children <40kg)\n1mg/kg PO BID x5days, then 0.5mg/kg PO BID x5days, then 0.5mg PO QD x 11 days. Start within 72 hrs of antimicrobial treatment (Children >40kg)\n40mg PO BID x5 days, then 20mg PO BID x5 days, then 20mg PO QD x 11 days. Start within 72 hrs of antimicrobial treatment (Adolescents)\n40mg PO BID x5 days, then 40mg PO QD x5 days, then 20mg PO QD x 11 days. Start within 72 hrs of antimicrobial treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation: Probably safe \"Limited information in animals and/or humans demonstrates no risk/minimal risk of adverse effects to infant/breast milk production; caution advised\" -Epocrates\nRenal Dosing\nAdult - No adjustment\nPediatric - No adjustment\nHepatic Dosing\nAdult - Not defined\nPediatric - Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSystemic fungal infection\nRecent varicella or measles infection\nCaution in TB, immunosuppressed, hypertension, CHF, DM, PUD, seizure disorder, psychiatric disorder, osteoporosis,",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Adrenal insufficiency\nCushing syndrome\nImmunosuppression\nInfection, fractures, thromboembolism\n[1]\nhypertension\nCHF\nDiabetes mellitus\nGI perf / ulcer\nOsteopenia / osteoporosis\ntendon rupture\npseudotumor cerebri\nIncreased ICP\nSeizures\nGlaucoma",
+          "tables": []
+        },
+        "Common": {
+          "text": "Sodium and fluid retention\ndiaphoresis\nheadache\nVertigo\nInsomnia\nNervousness, mood swings\nMuscle weakness\nBP elevation\nglucose intolerance\nMenstrual irregularities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Adrenal insufficiency\nCushing syndrome\nImmunosuppression\nInfection, fractures, thromboembolism\n[1]\nhypertension\nCHF\nDiabetes mellitus\nGI perf / ulcer\nOsteopenia / osteoporosis\ntendon rupture\npseudotumor cerebri\nIncreased ICP\nSeizures\nGlaucoma",
+      "subsections": {
+        "Common": {
+          "text": "Sodium and fluid retention\ndiaphoresis\nheadache\nVertigo\nInsomnia\nNervousness, mood swings\nMuscle weakness\nBP elevation\nglucose intolerance\nMenstrual irregularities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Sodium and fluid retention\ndiaphoresis\nheadache\nVertigo\nInsomnia\nNervousness, mood swings\nMuscle weakness\nBP elevation\nglucose intolerance\nMenstrual irregularities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 18-36h (biological) 3.4-3.8h (chemical)\nMetabolism: Liver CYP450; 3A4 substrate. Prodrug is converted to prenisolone\nExcretion: Urine\nMechanism of Action: Exact mechanism unknown, inhibits inflammatory cytokines, produces multiple glucocorticoid and mineralcorticoid effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
