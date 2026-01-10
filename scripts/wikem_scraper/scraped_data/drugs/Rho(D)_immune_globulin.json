@@ -1,0 +1,157 @@
+{
+  "drug_name": "Rho(D)_immune_globulin",
+  "url": "https://wikem.org/wiki/Rho(D)_immune_globulin",
+  "scraped_at": "2026-01-10T08:01:26.710650",
+  "sections": {
+    "General": {
+      "text": "Type: Immune Globulin\nRoutes of Administration: IM, IV\nCommon Trade Names: RhoGAM, WinRho",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "1st_Trimester_(<12weeks)_Vaginal_Bleeding": {
+          "text": "Abortion or pregnancy loss (managed medically or surgically), ACOG now recommends\nno\nroutine Rh testing or Rho(D) immune globulin prophylaxis.\n[1]\nExceptions may include\ntrauma\nand\nectopic\n(because the dataset does not include that population and the amount of fetomaternal hemorrhage and risk of alloimmunization is unknown)\nDose is 50 microgm IM\n[2]\nThere is no harm in giving the standard 300 microgram dose, which is more readily available",
+          "tables": []
+        },
+        "2nd_&_3rd_Trimester_Vaginal_Bleeding": {
+          "text": "300 microgm IM once and send Kleihauer-Betke test\nWithin 72hrs give additional 300 microgm/15 ml Rh-positive blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "2nd_&_3rd_Trimester_Vaginal_Bleeding": {
+      "text": "300 microgm IM once and send Kleihauer-Betke test\nWithin 72hrs give additional 300 microgm/15 ml Rh-positive blood",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Same as adult dosing above",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nAnimal studies have not been conducted, though available evidence suggest that administration of RhIG during pregnancy does not harm fetus\n[3]\nLactation risk\n:\nCaution advised while breastfeeding, however no adverse events observed\nRenal Dosing\nNo dosage adjustments\nHepatic Dosing\nNo dosage adjustments",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "For\nrisk\nof fetal maternal hemorrhage, such as blunt abdominal trauma\nRisk = >4-12wks\nDuration effect: 12wks\nAlso given to Rh- male trauma patients who receive O+ blood to prevent future reaction with O+ transfusions\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPrior sensitization of mother\nKnown Rh-negative father\nKnown Rh-negative fetus (from cord blood)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nViral transmission risk\nAcute intravascular hemolysis in patients with\nITP\nAcute transfusion reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Fever\nInjection site reaction\nHeadache\nMyalgias\nFatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Acute transfusion reaction",
+          "url": "https://wikem.org/wiki/Acute_transfusion_reaction"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nViral transmission risk\nAcute intravascular hemolysis in patients with\nITP\nAcute transfusion reaction",
+      "subsections": {
+        "Common": {
+          "text": "Fever\nInjection site reaction\nHeadache\nMyalgias\nFatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Acute transfusion reaction",
+          "url": "https://wikem.org/wiki/Acute_transfusion_reaction"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Fever\nInjection site reaction\nHeadache\nMyalgias\nFatigue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Approximately 30 days\nMetabolism: Unknown\nExcretion: Unknown\nMechanism of Action:\nExact mechanism unknown\nPrevents isoimmunization by suppressing immune response by Rh negative individuals against Rh positive blood cells",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaginal Bleeding (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleeding (Main)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.fda.gov/media/75013/download",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

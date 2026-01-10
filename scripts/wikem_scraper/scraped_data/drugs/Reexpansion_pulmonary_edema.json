@@ -1,0 +1,239 @@
+{
+  "drug_name": "Reexpansion_pulmonary_edema",
+  "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema",
+  "scraped_at": "2026-01-10T08:01:20.893521",
+  "sections": {
+    "Background": {
+      "text": "Incidence may be as low as 1% or as high as 14%\n[1]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Poorly understood, but may include:\nPTX > 30% in size\nPTX symptoms for prolonged time, >3 days\nType 2 DM",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Consider using smaller bore chest tubes\nOther strategies include applying water seal only or attaching only a Heimlich valve without suction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Poorly understood, but may include:\nPTX > 30% in size\nPTX symptoms for prolonged time, >3 days\nType 2 DM",
+      "subsections": {
+        "Prevention": {
+          "text": "Consider using smaller bore chest tubes\nOther strategies include applying water seal only or attaching only a Heimlich valve without suction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Consider using smaller bore chest tubes\nOther strategies include applying water seal only or attaching only a Heimlich valve without suction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Unilateral pulmonary edema presenting within minutes to hours after thoracentesis or other rapid thoracic decompression\nPatients will generally present with acute onset dyspnea, cough, hypoxemia, tachycardia\nPotentially fatal complication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_Edema_Types": {
+          "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[2]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Pulmonary_Edema_Types": {
+      "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[2]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Radiographic opacities in previously collapsed lung",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive, as is with other forms of noncardiogenic pulmonary edema\nIf a patient requires intubation, positive pressure ventilation improves symptoms after 24-48 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Chest tube\nPneumothorax\nNeedle thoracostomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Needle thoracostomy",
+          "url": "https://wikem.org/wiki/Needle_thoracostomy"
+        }
+      ]
+    }
+  }
+}

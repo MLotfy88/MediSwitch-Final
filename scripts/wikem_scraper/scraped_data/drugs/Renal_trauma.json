@@ -1,0 +1,533 @@
+{
+  "drug_name": "Renal_trauma",
+  "url": "https://wikem.org/wiki/Renal_trauma",
+  "scraped_at": "2026-01-10T08:01:23.333524",
+  "sections": {
+    "Background": {
+      "text": "Approximately 10% of blunt injuries include renal trauma\nBlunt mechanism 9x more common than penetrating\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Flank pain\nHematuria\n(gross or microscopic)\nPage kidney (late finding) -\nhypertension\nresulting from long-standing compression of from renal parenchyma by subcapsular hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CT with contrast",
+          "tables": []
+        },
+        "AAST_Renal_Injury_Scale": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Description": "ContusionMicroscopic or gross hematuria. Urological studies normal.HematomaSubcapsular, non-expanding without parenchymal laceration.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "II",
+                "Description": "HematomaNon-expanding peri-renal hematoma confined to renal retroperitoneum.Laceration<1.0 cm parenchymal depth of renal cortex without urinary extravasation.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "III",
+                "Description": "Laceration>1.0 cm parenchymal depth of renal cortex without collecting system rupture or urinary extravasation.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "IV",
+                "Description": "LacerationParenchymal laceration extending through renal cortex, medulla, and collecting system.VascularMain renal artery or vein injury with contained hemorrhage.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "V",
+                "Description": "LacerationCompletely shattered kidney.VascularAvulsion of renal hilum that devascularises kidney.",
+                "Image": "",
+                "CT Example": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CT with contrast",
+      "subsections": {
+        "AAST_Renal_Injury_Scale": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Description": "ContusionMicroscopic or gross hematuria. Urological studies normal.HematomaSubcapsular, non-expanding without parenchymal laceration.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "II",
+                "Description": "HematomaNon-expanding peri-renal hematoma confined to renal retroperitoneum.Laceration<1.0 cm parenchymal depth of renal cortex without urinary extravasation.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "III",
+                "Description": "Laceration>1.0 cm parenchymal depth of renal cortex without collecting system rupture or urinary extravasation.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "IV",
+                "Description": "LacerationParenchymal laceration extending through renal cortex, medulla, and collecting system.VascularMain renal artery or vein injury with contained hemorrhage.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "V",
+                "Description": "LacerationCompletely shattered kidney.VascularAvulsion of renal hilum that devascularises kidney.",
+                "Image": "",
+                "CT Example": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AAST_Renal_Injury_Scale": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Grade": "I",
+                "Description": "ContusionMicroscopic or gross hematuria. Urological studies normal.HematomaSubcapsular, non-expanding without parenchymal laceration.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "II",
+                "Description": "HematomaNon-expanding peri-renal hematoma confined to renal retroperitoneum.Laceration<1.0 cm parenchymal depth of renal cortex without urinary extravasation.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "III",
+                "Description": "Laceration>1.0 cm parenchymal depth of renal cortex without collecting system rupture or urinary extravasation.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "IV",
+                "Description": "LacerationParenchymal laceration extending through renal cortex, medulla, and collecting system.VascularMain renal artery or vein injury with contained hemorrhage.",
+                "Image": "",
+                "CT Example": ""
+              },
+              {
+                "Grade": "V",
+                "Description": "LacerationCompletely shattered kidney.VascularAvulsion of renal hilum that devascularises kidney.",
+                "Image": "",
+                "CT Example": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Based on grade of injury (above)\nGrade I and II\nobservation, vital signs monitoring, bed rest, antibiotic prophylaxis, monitor hematuria\nProphylactic IV\nantibiotics\nfor grade IV, V injuries (first generation\ncephalosporin\n,\nciprofloxacin\n, or\nampicillin\nand\ngentamicin\n)\nAbsolute indications for operative renal exploration and intervention:\nLife-threatening hemorrhage\nExpanding, pulsatile, or non-contained retroperitoneal hematoma\nRenal avulsion injury\nPage kidney treatment involves\nACE inhibitor\nand possible drainage of hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Penetrating renal injuries\nGross hematuria\nGrade II or higher injury",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Microscopic hematuria and no indication for imaging\nIsolated renal trauma with Grade I injury\nEnsure close followup and instruct no heavy lifting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Penetrating renal injuries\nGross hematuria\nGrade II or higher injury",
+      "subsections": {
+        "Discharge": {
+          "text": "Microscopic hematuria and no indication for imaging\nIsolated renal trauma with Grade I injury\nEnsure close followup and instruct no heavy lifting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Microscopic hematuria and no indication for imaging\nIsolated renal trauma with Grade I injury\nEnsure close followup and instruct no heavy lifting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "GU Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GU Trauma",
+          "url": "https://wikem.org/wiki/GU_Trauma"
+        }
+      ]
+    }
+  }
+}

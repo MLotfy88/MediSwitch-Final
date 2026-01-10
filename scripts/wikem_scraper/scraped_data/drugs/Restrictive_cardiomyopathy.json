@@ -1,0 +1,343 @@
+{
+  "drug_name": "Restrictive_cardiomyopathy",
+  "url": "https://wikem.org/wiki/Restrictive_cardiomyopathy",
+  "scraped_at": "2026-01-10T08:01:23.427165",
+  "sections": {
+    "Background": {
+      "text": "Muscle is stiff from fibrosis or infiltrating process (e.g.\namyloidosis\n,\nhemochromatosis\n)\nForm of diastolic dysfunction (difficulty filling); ventricular endocardial thickening or myocardial infiltration-->high filling pressures, impaired diastolic filling-->\nmitral\nand/or tricuspid regurgitation--> venous\npulmonary hypertension\nVentricular EF typically normal, though systolic function may deteriorate in absence of compensatory hypertrophy\nIf nodal/conduction tissues affected by infiltrative/fibrotic process, may cause SA or\nAV block\nMust distinguish from\nconstrictive pericarditis",
+      "subsections": {
+        "Causes_of_Restrictive_Cardiomyopathy": {
+          "text": "Idiopathic\nFamilial non-infiltrative disease\nInfiltrative disease (\namyloidosis\n,\nsarcoidosis\n, Gaucher, Hurler)\nStorage diseases (\nhemochromatosis\n, Fabry, glycogen/lysosomal storage diseases)\nDiabetes\nScleroderma\nEndomyocardial fibrosis (hypereosinophilic syndrome, medication toxicity)\nRadiation, chemotherapy (doxorubicin)\nMetastatic disease,\ncarcinoid syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "mitral",
+          "url": "https://wikem.org/wiki/Mitral_regurgitation"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        }
+      ]
+    },
+    "Causes_of_Restrictive_Cardiomyopathy": {
+      "text": "Idiopathic\nFamilial non-infiltrative disease\nInfiltrative disease (\namyloidosis\n,\nsarcoidosis\n, Gaucher, Hurler)\nStorage diseases (\nhemochromatosis\n, Fabry, glycogen/lysosomal storage diseases)\nDiabetes\nScleroderma\nEndomyocardial fibrosis (hypereosinophilic syndrome, medication toxicity)\nRadiation, chemotherapy (doxorubicin)\nMetastatic disease,\ncarcinoid syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Exertional\ndyspnea\n, orthopnea, PND\nPeripheral edema\nFatigue\n, +/-\nsyncope\n,\nangina\nfrom poor cardiac output\n+/-\nArrhythmias\n,\nAV block\nQuiet precordium\nCrackles\nJVD\n+/-\nmurmur\nfrom mitral/tricuspid regurgitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Constrictive pericarditis",
+      "subsections": {
+        "Cardiomyopathy": {
+          "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "Cardiomyopathy": {
+      "text": "Dilated cardiomyopathy\nHypertrophic cardiomyopathy\nRestrictive cardiomyopathy\nPeripartum cardiomyopathy\nTakotsubo cardiomyopathy\nArrhythmogenic right ventricular dysplasia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nTypically nonspecific ST/TW abnormalities\nOther features may include\nlow voltage\n,\npathologic Q waves\n,\nLVH\n,\nAV block\nshowing ST-segment and T-wave abnormalities\nCXR\n- heart typically normally sized, though can be enlarged in advanced stages of some underlying disease processes\nEchocardiography\nNormal LVEF\nElevated LV filling pressures, impaired longitudinal contraction\n+/- dilated atria, myocardial hypertrophy",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Consider if\nCHF\nbut no evidence of cardiomegaly or systolic dysfunction\nDefinitive diagnosis may require MRI, catheterization, biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "low voltage",
+          "url": "https://wikem.org/wiki/Low_voltage_ECG"
+        },
+        {
+          "text": "pathologic Q waves",
+          "url": "https://wikem.org/wiki/Pathologic_Q_waves"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nTypically nonspecific ST/TW abnormalities\nOther features may include\nlow voltage\n,\npathologic Q waves\n,\nLVH\n,\nAV block\nshowing ST-segment and T-wave abnormalities\nCXR\n- heart typically normally sized, though can be enlarged in advanced stages of some underlying disease processes\nEchocardiography\nNormal LVEF\nElevated LV filling pressures, impaired longitudinal contraction\n+/- dilated atria, myocardial hypertrophy",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Consider if\nCHF\nbut no evidence of cardiomegaly or systolic dysfunction\nDefinitive diagnosis may require MRI, catheterization, biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "low voltage",
+          "url": "https://wikem.org/wiki/Low_voltage_ECG"
+        },
+        {
+          "text": "pathologic Q waves",
+          "url": "https://wikem.org/wiki/Pathologic_Q_waves"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Consider if\nCHF\nbut no evidence of cardiomegaly or systolic dysfunction\nDefinitive diagnosis may require MRI, catheterization, biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Symptom-directed\nDiuretics\nfor edema or pulmonary vascular congestion\nCaution as cardiac output preload dependant\nCaution with afterload reduction as may cause profound\nhypotension\nTreat\narrhythmias\nAvoid\ndigoxin\nin amyloidosis as sensitivity to dig-induced arrhythmias common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cardiomyopathy (main)\nConstrictive pericarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiomyopathy (main)",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        }
+      ]
+    },
+    "References": {
+      "text": "https://www.merckmanuals.com/professional/cardiovascular-disorders/cardiomyopathies/restrictive-cardiomyopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

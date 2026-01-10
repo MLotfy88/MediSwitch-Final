@@ -1,0 +1,73 @@
+{
+  "drug_name": "Rhinovirus",
+  "url": "https://wikem.org/wiki/Rhinovirus",
+  "scraped_at": "2026-01-10T08:01:26.570840",
+  "sections": {
+    "Background": {
+      "text": "Most common cause for the common cold, especially during spring/summer/fall\nAdapted to grow in temperatures between 33–35 °C (91–95 °F) which are found in the nose\n[1]\nAmong the smallest viruses, ssRNA\nTransmitted via respiratory droplets or contact either direct or through fomite",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Common cold\n/URI\nSinusitis\nAcute otitis media\nExacerbations of chronic pulmonary disease\nBronchiolitis\nin infants/children\nPneumonia\nin elderly and immunocompromised adults\nCroup\n, less common than parainfluenza",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Common cold",
+          "url": "https://wikem.org/wiki/Common_cold"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Viral respiratory illness also caused by:\nAdenovirus\nCoronaviruses\nInfluenza viruses (predominant during winter months)\nParainfluenza viruses\nEnteroviruses\nHuman metapneumoviruses\nRSV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nPCR testing available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care only\nNo vaccine available\nPrevention through \"social distancing\", respiratory masks, and hand hygiene",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Upper respiratory infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        }
+      ]
+    }
+  }
+}

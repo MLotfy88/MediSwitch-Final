@@ -1,0 +1,457 @@
+{
+  "drug_name": "Renal_abscess",
+  "url": "https://wikem.org/wiki/Renal_abscess",
+  "scraped_at": "2026-01-10T08:01:19.623573",
+  "sections": {
+    "Background": {
+      "text": "Rare clinical entity which can lead to delayed diagnosis\nUsually a complication of a\nUTI\nor\npyelonephritis\nMost commonly due to\nE. Coli\n,\nKlebsiella\n,\nProteus\nLess often can be due to hematogenous spread from other sources of infection\nMost commonly due to\nStaph aureus",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Inadequately treated or delayed treatment of\nUTI\nor\npyelonephritis\nDiabetes\nRenal calculi\nUreteral obstruction\nAny underlying urinary tract abnormality\nImmunosuppression",
+          "tables": []
+        },
+        "Perinephric_vs_renal_abscess": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Necrotic Area",
+                "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+                "Renal": "Renal parenchyma"
+              },
+              {
+                "": "Cause",
+                "Perinephric": "Pyelonephritis(majority)",
+                "Renal": "Pyelonephritis(vast majority)"
+              },
+              {
+                "": "Risk of morbidity",
+                "Perinephric": "Higher",
+                "Renal": "Lower"
+              }
+            ]
+          ]
+        },
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "E. Coli",
+          "url": "https://wikem.org/wiki/E._Coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Renal calculi",
+          "url": "https://wikem.org/wiki/Renal_calculi"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Inadequately treated or delayed treatment of\nUTI\nor\npyelonephritis\nDiabetes\nRenal calculi\nUreteral obstruction\nAny underlying urinary tract abnormality\nImmunosuppression",
+      "subsections": {
+        "Perinephric_vs_renal_abscess": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Necrotic Area",
+                "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+                "Renal": "Renal parenchyma"
+              },
+              {
+                "": "Cause",
+                "Perinephric": "Pyelonephritis(majority)",
+                "Renal": "Pyelonephritis(vast majority)"
+              },
+              {
+                "": "Risk of morbidity",
+                "Perinephric": "Higher",
+                "Renal": "Lower"
+              }
+            ]
+          ]
+        },
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Renal calculi",
+          "url": "https://wikem.org/wiki/Renal_calculi"
+        },
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Perinephric_vs_renal_abscess": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Necrotic Area",
+            "Perinephric": "Perinephric fat between the renal cortex and Gerota's fascia",
+            "Renal": "Renal parenchyma"
+          },
+          {
+            "": "Cause",
+            "Perinephric": "Pyelonephritis(majority)",
+            "Renal": "Pyelonephritis(vast majority)"
+          },
+          {
+            "": "Risk of morbidity",
+            "Perinephric": "Higher",
+            "Renal": "Lower"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Genitourinary_infection": {
+      "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Costovertebral,\nflank\n, lumbar, lower\nchest\n, or\nback pain\nUsually unilateral\nFever\n, especially if prolonged or after antibiotic initiation\nNausea\n,\nvomiting\nUTI or pyelonephritis symptoms not improving with antibiotics",
+      "subsections": {
+        "Complications": {
+          "text": "Need for open surgical management or nephrectomy\nRenal failure\nSepsis\n,\nbacteremia\nEmphysematous kidney\nCortical abscesses can rupture and form\nperinephric abscesses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flank",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "chest",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Emphysematous kidney",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "perinephric abscesses",
+          "url": "https://wikem.org/wiki/Perinephric_abscesses"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Need for open surgical management or nephrectomy\nRenal failure\nSepsis\n,\nbacteremia\nEmphysematous kidney\nCortical abscesses can rupture and form\nperinephric abscesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        },
+        {
+          "text": "Emphysematous kidney",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "perinephric abscesses",
+          "url": "https://wikem.org/wiki/Perinephric_abscesses"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "UTI\nPyelonephritis\nRenal cyst\nRenal cancer",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": ".\nLabs\nCBC, BMP,\nUA\n,\nlactate\nUrine culture, blood cultures\nSome studies have shown up to 66% will have + blood cultures\nImaging\nRenal ultrasound\nWell-defined hypoechoic lesion with thick walls and usually with internal debris\nCT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Antibiotics\nBroad spectrum if unclear source\nIf urinary source cover typical urinary pathogens\nCeftriaxone\n1g IV\nPiperacillin-Tazobactam\n4.5 g IV\nIf hematogenous spread considered, cover for MSSA and MRSA\nVancomycin\n15-20mg/kg IV\nPercutaneous drainage\nOpen surgical management if patient fails antibiotics/percutaneous drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission for IV\nantibiotics\nand drainage\nEspecially if elderly or elevated BUN or creatinine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    },
+    "References": {
+      "text": "Dembry LM, Andriole VT. “Renal and Perirenal Abscesses” Infectious Disease Clinics North America: 11, 3, (Sept 1997).\nGetting GK, Shaikh N. “Renal Abscess” Journal of EM: 31, 1 (2006): 99-100.\nJudith E, Stapczynski J. Stephan. \"Urinary Tract Infections” Tintinalli's Emergency Medicine: A Comprehensive Study Guide. 7th ed. New York: McGraw-Hill, 2011. 632.\nYen DHT, et al. “Renal Abscess: Early Diagnosis and Treatment” Am J EM: 17, 2 (March 1999).\nShu T, Green JM, Orihuela E. “Renal and Perirenal Abscesses in Patients with Otherwise Anatomically Normal Urinary Tracts” Journal of Urology: 172 (July 2004): 148-150.\nhttp://www.ncbi.nlm.nih.gov/pubmed/16798166",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

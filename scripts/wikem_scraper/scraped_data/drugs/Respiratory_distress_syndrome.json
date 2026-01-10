@@ -1,0 +1,122 @@
+{
+  "drug_name": "Respiratory_distress_syndrome",
+  "url": "https://wikem.org/wiki/Respiratory_distress_syndrome",
+  "scraped_at": "2026-01-10T08:01:21.170401",
+  "sections": {
+    "Background": {
+      "text": "AKA hyaline membrane disease, infantile respiratory distress syndrome, respiratory distress syndrome of the newborn, or RDS\nDue to surfactant deficiency in infants delivered prematurely\n60% chance of developing RDS if delivered <29wks gestation, 10% of preemies overall, rare in full term infants\n[1]\nOnset rapid upon delivery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Grunting, retractions,\nhypoxia\n, cyanosis, or other signs of\nrespiratory distress\nin a recently delivered premature infant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Meconium aspiration syndrome\nTransient tachypnea of the newborn\nPneumonia\nSepsis\nCongenital heart disease\nPersistent\npulmonary hypertension\nof the newborn\nPneumothorax\nAnatomical malformation (e.g. congenital diaphragmatic hernia)\nAnemia\n,\npolycythemia\nUpper airway obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "polycythemia",
+          "url": "https://wikem.org/wiki/Polycythemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for other causes of respiratory distress (e.g.\npneumonia\n,\ncongenital heart disease\n, etc.)\nCXR\n: homogenous opaque infiltrates, air bronchograms, decreased lung volumes\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nnewborn resuscitation\nfor general management of distressed newborn\nSurfactant replacement (e.g. Servanta) given endotracheally\nPrevented by prenatal\ncorticosteroids\nbetween 24-34wks gestation in cases where high risk of preterm delivery\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Newborn resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        }
+      ]
+    }
+  }
+}

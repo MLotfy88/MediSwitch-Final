@@ -1,0 +1,177 @@
+{
+  "drug_name": "Ritonavir-boosted_nirmatrelvir",
+  "url": "https://wikem.org/wiki/Ritonavir-boosted_nirmatrelvir",
+  "scraped_at": "2026-01-10T08:01:35.149368",
+  "sections": {
+    "Indications": {
+      "text": "Confirmed COVID-19 (at home or in-clinic test).\nPatients who are at highest risk for progressing to severe disease.\nInitiated within 5 days of symptom onset.",
+      "subsections": {
+        "Particularly_recommended_for_those_who:": {
+          "text": "Are 65 years or older,\nor\nAre immunocompromised,\nor\nHave multiple medical comorbidities.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dosing": {
+      "text": "",
+      "subsections": {
+        "Adult_Dosing": {
+          "text": "eGFR ≥ 60 mL/min: 300 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR ≥ 60 mL/min: 150 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR < 30 mL/min: Not recommended.",
+          "tables": []
+        },
+        "Pediatric_Dosing": {
+          "text": "Children ≥ 12 years old, weighing ≥40 kg:\neGFR ≥ 60 mL/min: 300 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR ≥ 60 mL/min: 150 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR < 30 mL/min: Not recommended.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "eGFR ≥ 60 mL/min: 300 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR ≥ 60 mL/min: 150 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR < 30 mL/min: Not recommended.",
+      "subsections": {
+        "Pediatric_Dosing": {
+          "text": "Children ≥ 12 years old, weighing ≥40 kg:\neGFR ≥ 60 mL/min: 300 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR ≥ 60 mL/min: 150 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR < 30 mL/min: Not recommended.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Children ≥ 12 years old, weighing ≥40 kg:\neGFR ≥ 60 mL/min: 300 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR ≥ 60 mL/min: 150 mg nirmatrelvir plus 100 mg ritonavir orally, twice daily, for 5 days.\neGFR < 30 mL/min: Not recommended.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Drug_Interactions": {
+      "text": "Nirmatrelvir-ritonavir:\nAn inhibitor of metabolic enzymes and transporters such as the CYP3A enzyme (predominantly because of the ritonavir component), and\nA substrate of CYP3A [1].\nPrior to prescribing, review the patient's medications' list and assess specific drug interactions and potential ways to mitigate them. For example:\nDrug interactions program included with UpToDate\nDrug interaction checker from the University of Liverpool",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "1% to 10%: Gastrointestinal: Diarrhea (3%), dysgeusia (5%)\nPostmarketing:\nCardiovascular: Bradycardia, hypertension, syncope\nDermatologic: Pruritus, severe dermatological reaction (including Stevens-Johnson syndrome and toxic epidermal necrolysis), skin rash\nGastrointestinal: Abdominal pain, nausea, pancreatitis, vomiting\nHypersensitivity: Anaphylaxis, hypersensitivity reaction\nNervous system: Headache, malaise\nRespiratory: Dyspnea",
+      "subsections": {
+        "Rebound": {
+          "text": "Viral rebound with or without mild recurrent symptoms occurs in a minority of patients following initial improvement with nirmatrelvir-ritonavir.\nViral rebound warrants extension of the isolation period.\nAdvise patients of this possibility, but, for patients at risk for progression to severe disease, the potential benefits of treatment greatly outweigh any potential inconvenience from rebound.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rebound": {
+      "text": "Viral rebound with or without mild recurrent symptoms occurs in a minority of patients following initial improvement with nirmatrelvir-ritonavir.\nViral rebound warrants extension of the isolation period.\nAdvise patients of this possibility, but, for patients at risk for progression to severe disease, the potential benefits of treatment greatly outweigh any potential inconvenience from rebound.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "US FDA pregnancy category: Not assigned.\nNirmatrelvir-ritonavir should not be used during pregnancy unless the benefit outweighs the risk to the fetus.",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Information related to COVID-19 and breastfeeding is available from the\nWorld Health Organization",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Addressed above in \"Dosing\" section.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild or moderate impairment (Child-Pugh class A or B): No dosage adjustment necessary.\nSevere impairment (Child-Pugh class C): Use is not recommended (has not been studied).\nPediatric (≥12 years old, weighing ≥40 kg):\nMild or moderate impairment: No dosage adjustment necessary.\nSevere impairment: Not recommended for use (has not been studied).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "US FDA pregnancy category: Not assigned.\nNirmatrelvir-ritonavir should not be used during pregnancy unless the benefit outweighs the risk to the fetus.",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Information related to COVID-19 and breastfeeding is available from the\nWorld Health Organization",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Addressed above in \"Dosing\" section.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild or moderate impairment (Child-Pugh class A or B): No dosage adjustment necessary.\nSevere impairment (Child-Pugh class C): Use is not recommended (has not been studied).\nPediatric (≥12 years old, weighing ≥40 kg):\nMild or moderate impairment: No dosage adjustment necessary.\nSevere impairment: Not recommended for use (has not been studied).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Information related to COVID-19 and breastfeeding is available from the\nWorld Health Organization",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Addressed above in \"Dosing\" section.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild or moderate impairment (Child-Pugh class A or B): No dosage adjustment necessary.\nSevere impairment (Child-Pugh class C): Use is not recommended (has not been studied).\nPediatric (≥12 years old, weighing ≥40 kg):\nMild or moderate impairment: No dosage adjustment necessary.\nSevere impairment: Not recommended for use (has not been studied).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Addressed above in \"Dosing\" section.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nMild or moderate impairment (Child-Pugh class A or B): No dosage adjustment necessary.\nSevere impairment (Child-Pugh class C): Use is not recommended (has not been studied).\nPediatric (≥12 years old, weighing ≥40 kg):\nMild or moderate impairment: No dosage adjustment necessary.\nSevere impairment: Not recommended for use (has not been studied).",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nMild or moderate impairment (Child-Pugh class A or B): No dosage adjustment necessary.\nSevere impairment (Child-Pugh class C): Use is not recommended (has not been studied).\nPediatric (≥12 years old, weighing ≥40 kg):\nMild or moderate impairment: No dosage adjustment necessary.\nSevere impairment: Not recommended for use (has not been studied).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMany\ndrug interactions\nE.g. Plavix, Phenytoin, Tacrolimus, Tramadol, Statins, Hydro/oxycodone/Codeine, Diazepam/Clonazepam/Alprazolam, Fentanyl, Tamsulosin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Metabolism\n: Νirmatrelvir (when given with ritonavir): Minimal; Ritonavir: Hepatic via CYP3A4 (major) and CYP2D6 (minor).\nTime to peak\n: Νirmаtrelvir (when given with ritonavir): 3 hours; Ritonavir: 3.98 hours.\nHalf-life\n: Νirmаtrelvir (when given with ritonavir): 6.05 hours; Ritonavir: 6.15 hours.\nExcretion\n: Nirmаtrelvir (when given with ritonavir): Feces (27.5%); urine (55%); Ritonavir: Feces (86.4%); urine (3.5%).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Nirmаtrelvir blocks the activity of the ЅΑRS-CoV-2-3CL protease, an enzyme required for viral replication.\nCo-administration of nirmаtrelvir with ritonavir slows the metabolism of ոirmatrelvir so it remains active in the body for longer and at higher concentrations.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "89% reduction in hospitalization or death in high risk population, and 70% reduction in hospitalizations with no deaths in standard risk population.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Prescribing Nirmatrelvir-Ritonavir: How to Recognize and Manage Drug-Drug Interactions (\nhttps://pubmed.ncbi.nlm.nih.gov/35226530/\n)\nUpToDate: Nirmatrelvir and ritonavir: Drug information (\nhttps://www.uptodate.com/contents/nirmatrelvir-and-ritonavir-drug-information\n)\nUpToDate: COVID-19: Management of adults with acute illness in the outpatient setting (\nhttps://www.uptodate.com/contents/covid-19-management-of-adults-with-acute-illness-in-the-outpatient-setting\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

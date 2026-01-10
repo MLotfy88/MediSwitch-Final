@@ -1,0 +1,345 @@
+{
+  "drug_name": "Right_upper_quadrant_abdominal_pain",
+  "url": "https://wikem.org/wiki/Right_upper_quadrant_abdominal_pain",
+  "scraped_at": "2026-01-10T08:01:37.170158",
+  "sections": {
+    "Background": {
+      "text": "This page outlines the general approach to RUQ pain",
+      "subsections": {
+        "Classification_by_Abdominal_pain_location": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "RUQ pain": "Flank pain",
+                "Epigastric pain": "Diffuse abdominal pain",
+                "LUQ pain": "Flank pain"
+              },
+              {
+                "RUQ pain": "RLQ pain",
+                "Epigastric pain": "Pelvic pain",
+                "LUQ pain": "LLQ pain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification_by_Abdominal_pain_location": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "RUQ pain": "Flank pain",
+            "Epigastric pain": "Diffuse abdominal pain",
+            "LUQ pain": "Flank pain"
+          },
+          {
+            "RUQ pain": "RLQ pain",
+            "Epigastric pain": "Pelvic pain",
+            "LUQ pain": "LLQ pain"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Right upper quadrant pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RUQ_Pain": {
+          "text": "Gallbladder disease\nSymptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nPancreatitis\nAcute hepatitis\nPancreatitis\nGERD\nAppendicitis\n(retrocecal)\nPyogenic liver abscess\nBowel obstruction\nCirrhosis\nBudd-Chiari syndrome\nGU\nPyelonephritis\nKidney stone\nFitz-Hugh-Curtis Syndrome\nOther\nHepatomegaly\ndue to\nCHF\nPeptic ulcer disease\nwith or without perforation\nPneumonia\nHerpes zoster\nMyocardial ischemia\nPulmonary embolism\nAbdominal aortic aneurysm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Acute hepatitis",
+          "url": "https://wikem.org/wiki/Acute_hepatitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "RUQ_Pain": {
+      "text": "Gallbladder disease\nSymptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nPancreatitis\nAcute hepatitis\nPancreatitis\nGERD\nAppendicitis\n(retrocecal)\nPyogenic liver abscess\nBowel obstruction\nCirrhosis\nBudd-Chiari syndrome\nGU\nPyelonephritis\nKidney stone\nFitz-Hugh-Curtis Syndrome\nOther\nHepatomegaly\ndue to\nCHF\nPeptic ulcer disease\nwith or without perforation\nPneumonia\nHerpes zoster\nMyocardial ischemia\nPulmonary embolism\nAbdominal aortic aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Acute hepatitis",
+          "url": "https://wikem.org/wiki/Acute_hepatitis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nChemistry\nLFTs + lipase\nCoagulation studies (PT, PTT, INR), as a marker of liver function\nUrinalysis\nLeukocytes will be present in 40% of patients\n[1]\nUrine pregnancy test (if age and sex appropriate)",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Biliary ultrasound\nConsider\nCXR\nto assess for free air under the diaphram\nIf at risk for a perforated ulcer (e.g., age >55)\nConsider\nECG\nIf may be cardiac in nature",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis may be determined via a combination of history, labs, and imaging\nIf no definitive diagnosis at end of ED workup, but no signs of emergent pathology, may be empirically treated (e.g., for\nGERD\n) with further workup as an outpatient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nChemistry\nLFTs + lipase\nCoagulation studies (PT, PTT, INR), as a marker of liver function\nUrinalysis\nLeukocytes will be present in 40% of patients\n[1]\nUrine pregnancy test (if age and sex appropriate)",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Biliary ultrasound\nConsider\nCXR\nto assess for free air under the diaphram\nIf at risk for a perforated ulcer (e.g., age >55)\nConsider\nECG\nIf may be cardiac in nature",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis may be determined via a combination of history, labs, and imaging\nIf no definitive diagnosis at end of ED workup, but no signs of emergent pathology, may be empirically treated (e.g., for\nGERD\n) with further workup as an outpatient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Definitive diagnosis may be determined via a combination of history, labs, and imaging\nIf no definitive diagnosis at end of ED workup, but no signs of emergent pathology, may be empirically treated (e.g., for\nGERD\n) with further workup as an outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Disposition per underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain\nAbdominal Pain (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

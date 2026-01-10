@@ -1,0 +1,1410 @@
+{
+  "drug_name": "Rifampin",
+  "url": "https://wikem.org/wiki/Rifampin",
+  "scraped_at": "2026-01-10T08:01:29.889530",
+  "sections": {
+    "General": {
+      "text": "Type: bactericidal\nantibiotic\nDosage Forms: 150, 300; PO, IV\nCommon Trade Names: Rifadin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.5-5hours (increased if there is hepatic dysfunction)\nRifampin autoinduces its own metabolism so half-life is decreased with subsequent dosing.\nMetabolism: Hepatic\nExcretion: Bile; Urine <30%\nMechanism of Action: inhibits bacterial RNA synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Active_TB": {
+          "text": "10mg/kg/day (in combination with\nisoniazid\nand\npyrazinamide\n) PO or IV for 2 months\nThen 10mg/kg/day (in combination with\nisoniazid\n) for 4 months or longer as needed\nMAX, 600mg/day",
+          "tables": []
+        },
+        "Inactive_TB,_HIV+": {
+          "text": "600mg PO daily for 4 months",
+          "tables": []
+        },
+        "Meningitis": {
+          "text": "600mg IV once daily (with\nvancomycin\n/\ncephalosporin\n)",
+          "tables": []
+        },
+        "Meningococcal_Prophylaxis": {
+          "text": "600 mg PO BID for two days",
+          "tables": []
+        },
+        "Bartonellosis": {
+          "text": "300mg PO or IV q12h plus\ndoxycycline",
+          "tables": []
+        },
+        "Brucellosis": {
+          "text": "15-20mg/kg/day PO/IV in 1 or 2 divided doses for at least 6 weeks in combination with a\ntetracycline\nMAX 600 to 900mg/day",
+          "tables": []
+        },
+        "Infective_endocarditis": {
+          "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+          "tables": []
+        },
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Active_TB": {
+      "text": "10mg/kg/day (in combination with\nisoniazid\nand\npyrazinamide\n) PO or IV for 2 months\nThen 10mg/kg/day (in combination with\nisoniazid\n) for 4 months or longer as needed\nMAX, 600mg/day",
+      "subsections": {
+        "Inactive_TB,_HIV+": {
+          "text": "600mg PO daily for 4 months",
+          "tables": []
+        },
+        "Meningitis": {
+          "text": "600mg IV once daily (with\nvancomycin\n/\ncephalosporin\n)",
+          "tables": []
+        },
+        "Meningococcal_Prophylaxis": {
+          "text": "600 mg PO BID for two days",
+          "tables": []
+        },
+        "Bartonellosis": {
+          "text": "300mg PO or IV q12h plus\ndoxycycline",
+          "tables": []
+        },
+        "Brucellosis": {
+          "text": "15-20mg/kg/day PO/IV in 1 or 2 divided doses for at least 6 weeks in combination with a\ntetracycline\nMAX 600 to 900mg/day",
+          "tables": []
+        },
+        "Infective_endocarditis": {
+          "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+          "tables": []
+        },
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Meningitis": {
+      "text": "600mg IV once daily (with\nvancomycin\n/\ncephalosporin\n)",
+      "subsections": {
+        "Meningococcal_Prophylaxis": {
+          "text": "600 mg PO BID for two days",
+          "tables": []
+        },
+        "Bartonellosis": {
+          "text": "300mg PO or IV q12h plus\ndoxycycline",
+          "tables": []
+        },
+        "Brucellosis": {
+          "text": "15-20mg/kg/day PO/IV in 1 or 2 divided doses for at least 6 weeks in combination with a\ntetracycline\nMAX 600 to 900mg/day",
+          "tables": []
+        },
+        "Infective_endocarditis": {
+          "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+          "tables": []
+        },
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Meningococcal_Prophylaxis": {
+      "text": "600 mg PO BID for two days",
+      "subsections": {
+        "Bartonellosis": {
+          "text": "300mg PO or IV q12h plus\ndoxycycline",
+          "tables": []
+        },
+        "Brucellosis": {
+          "text": "15-20mg/kg/day PO/IV in 1 or 2 divided doses for at least 6 weeks in combination with a\ntetracycline\nMAX 600 to 900mg/day",
+          "tables": []
+        },
+        "Infective_endocarditis": {
+          "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+          "tables": []
+        },
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Bartonellosis": {
+      "text": "300mg PO or IV q12h plus\ndoxycycline",
+      "subsections": {
+        "Brucellosis": {
+          "text": "15-20mg/kg/day PO/IV in 1 or 2 divided doses for at least 6 weeks in combination with a\ntetracycline\nMAX 600 to 900mg/day",
+          "tables": []
+        },
+        "Infective_endocarditis": {
+          "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+          "tables": []
+        },
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Brucellosis": {
+      "text": "15-20mg/kg/day PO/IV in 1 or 2 divided doses for at least 6 weeks in combination with a\ntetracycline\nMAX 600 to 900mg/day",
+      "subsections": {
+        "Infective_endocarditis": {
+          "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+          "tables": []
+        },
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Infective_endocarditis": {
+      "text": "300mg IV or PO every 8 hours for a minimum of 6 weeks, in combination with appropriate antimicrobial therapy",
+      "subsections": {
+        "Hansen_Disease": {
+          "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Hansen_Disease": {
+      "text": "Paucibacillary, single lesion\n600 mg PO x1 with\nofloxacin\nand\nminocycline\nPaucibacillary\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+      "subsections": {
+        "Anthrax,_systemic": {
+          "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "minocycline",
+          "url": "https://wikem.org/wiki/Minocycline"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Anthrax,_systemic": {
+      "text": "600 mg IV q12h for at least 2 wk as part of a multi-drug regimen\nSwitch to PO abx x60 days total if inhalational exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Active_TB_2": {
+          "text": "<15 yo\n10-20 mg/kg PO/IV qd for at least 6mo\nMax: 600 mg/day\n15+ yo\n10 mg/kg PO/IV qd for at least 6mo\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Latent_TB": {
+          "text": "<15 yo\n10-20 mg/kg PO/IV qd x4mo\nMax: 600 mg/day\n15+ yo\n10 mg/kg PO/IV qd x4mo\nMax: 600 mg/day",
+          "tables": []
+        },
+        "H._influenza_prophylaxis": {
+          "text": "<1 mo\n10mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n20 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Meningcococcal_prophylaxis": {
+          "text": "<1 mo\n5mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n10 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Endocarditis,_Staphylococcal_prosthetic_valve": {
+          "text": "20 mg/kg/day PO/IV divided q8h for at least 6wk with\ngentamicin\nand\nnafcillin\nMax 900 mg/day",
+          "tables": []
+        },
+        "Hansen_Disease_2": {
+          "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Active_TB_2": {
+      "text": "<15 yo\n10-20 mg/kg PO/IV qd for at least 6mo\nMax: 600 mg/day\n15+ yo\n10 mg/kg PO/IV qd for at least 6mo\nMax: 600 mg/day",
+      "subsections": {
+        "Latent_TB": {
+          "text": "<15 yo\n10-20 mg/kg PO/IV qd x4mo\nMax: 600 mg/day\n15+ yo\n10 mg/kg PO/IV qd x4mo\nMax: 600 mg/day",
+          "tables": []
+        },
+        "H._influenza_prophylaxis": {
+          "text": "<1 mo\n10mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n20 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Meningcococcal_prophylaxis": {
+          "text": "<1 mo\n5mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n10 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Endocarditis,_Staphylococcal_prosthetic_valve": {
+          "text": "20 mg/kg/day PO/IV divided q8h for at least 6wk with\ngentamicin\nand\nnafcillin\nMax 900 mg/day",
+          "tables": []
+        },
+        "Hansen_Disease_2": {
+          "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Latent_TB": {
+      "text": "<15 yo\n10-20 mg/kg PO/IV qd x4mo\nMax: 600 mg/day\n15+ yo\n10 mg/kg PO/IV qd x4mo\nMax: 600 mg/day",
+      "subsections": {
+        "H._influenza_prophylaxis": {
+          "text": "<1 mo\n10mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n20 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Meningcococcal_prophylaxis": {
+          "text": "<1 mo\n5mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n10 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Endocarditis,_Staphylococcal_prosthetic_valve": {
+          "text": "20 mg/kg/day PO/IV divided q8h for at least 6wk with\ngentamicin\nand\nnafcillin\nMax 900 mg/day",
+          "tables": []
+        },
+        "Hansen_Disease_2": {
+          "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "H._influenza_prophylaxis": {
+      "text": "<1 mo\n10mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n20 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+      "subsections": {
+        "Meningcococcal_prophylaxis": {
+          "text": "<1 mo\n5mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n10 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+          "tables": []
+        },
+        "Endocarditis,_Staphylococcal_prosthetic_valve": {
+          "text": "20 mg/kg/day PO/IV divided q8h for at least 6wk with\ngentamicin\nand\nnafcillin\nMax 900 mg/day",
+          "tables": []
+        },
+        "Hansen_Disease_2": {
+          "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Meningcococcal_prophylaxis": {
+      "text": "<1 mo\n5mg/kg PO/IV q24h x4 days\nMax: 600 mg/day\n1+ mo\n10 mg/kg PO/IV q24h x4 days\nMax: 600 mg/day",
+      "subsections": {
+        "Endocarditis,_Staphylococcal_prosthetic_valve": {
+          "text": "20 mg/kg/day PO/IV divided q8h for at least 6wk with\ngentamicin\nand\nnafcillin\nMax 900 mg/day",
+          "tables": []
+        },
+        "Hansen_Disease_2": {
+          "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Endocarditis,_Staphylococcal_prosthetic_valve": {
+      "text": "20 mg/kg/day PO/IV divided q8h for at least 6wk with\ngentamicin\nand\nnafcillin\nMax 900 mg/day",
+      "subsections": {
+        "Hansen_Disease_2": {
+          "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+          "tables": []
+        },
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Hansen_Disease_2": {
+      "text": "Paucibacillary, 10-14 yo\n450mg PO qmo x6mo with\ndapsone\nPaucibacillary, 15+ yo\n600 mg PO qmo x 6mo with\ndapsone\nMultibacillary, 10-14 yo\n450mg PO qmo x 12mo with\ndapsone\nand\nclofazimine\nMultibacillary, 15+ yo\n600 mg PO qmo x 12mo with\ndapsone\nand\nclofazimine",
+      "subsections": {
+        "Anthrax,_systemic_2": {
+          "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Anthrax,_systemic_2": {
+      "text": "Neonates >32 wk gestation\n10-20 mg/kg/day IV divided q12-24h for at least 2 wk as part of multi-drug regimen\n1+ mo\n20 mg/kg/day IV divided q12h for at least 2 wk as part of multi-drug regimen\nMax: 300 mg/dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Infant risk minimal\nRenal Dosing:\nAdult\nCrCl <50: Consider decreasing dose 0-50%\nHD/PD: No supplment\nPediatric\nCrCl <50: Consider decreasing dose 0-50%\nHD/PD: No supplment\nHepatic Dosing\nAdult\nAvoid Use\nPediatric\nAvoid Use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nIM or SC administration\nConcomitant use with atazanavir, darunavir, fosamprenavir, saquinavir, tipranavir, rilpivirine or elvitegravir/cobicistat",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Agranulocytosis\nDIC\nHepatotoxicity\nNephrotoxicity\nThrombocytopenia\nLeukopenia\nAnemia\nPorphyria exacerbation\nErythema multiforme\nStevens-Johnson Syndrome\nToxic epidermal necrolysis\nC. Diff associated diarrhea\nPsychosis\nUveitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Reddish-Orange body fluids\nNausea\n/\nvomiting\nDiarrhea\nHeadache\nDizziness\nFatigue\nDisequilibrium\nWeakness\nPruritus\nFlushing\nAnorexia\nAbdominal pain\nDyspnea\nContact lens staining",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Agranulocytosis\nDIC\nHepatotoxicity\nNephrotoxicity\nThrombocytopenia\nLeukopenia\nAnemia\nPorphyria exacerbation\nErythema multiforme\nStevens-Johnson Syndrome\nToxic epidermal necrolysis\nC. Diff associated diarrhea\nPsychosis\nUveitis",
+      "subsections": {
+        "Common": {
+          "text": "Reddish-Orange body fluids\nNausea\n/\nvomiting\nDiarrhea\nHeadache\nDizziness\nFatigue\nDisequilibrium\nWeakness\nPruritus\nFlushing\nAnorexia\nAbdominal pain\nDyspnea\nContact lens staining",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Reddish-Orange body fluids\nNausea\n/\nvomiting\nDiarrhea\nHeadache\nDizziness\nFatigue\nDisequilibrium\nWeakness\nPruritus\nFlushing\nAnorexia\nAbdominal pain\nDyspnea\nContact lens staining",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        }
+      ]
+    },
+    "Acute_Overdose": {
+      "text": "Diarrhea is unique to rifampin toxicity in comparison to other antituberculous medications\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "S+'"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "X1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "drug_name": "Renal_ultrasound",
+  "url": "https://wikem.org/wiki/Renal_ultrasound",
+  "scraped_at": "2026-01-10T08:01:26.441449",
+  "sections": {
+    "Background": {
+      "text": "Bedside renal ultrasound has accepted use in the diagnosis of\nnephrolithiasis\nIn comparison of diagnosis by CT vs. U/S (by EP) vs. U/S (by radiologist):\n[1]\nNo difference in rate of missed high-risk diagnoses that resulted in complications (pyelo/sepsis/diverticular abscess)\nNo difference in rate of serious adverse events, pain scores, return emergency department visits, or hospitalizations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Flank pain\nSuspected\nnephrolithiasis\nHematuria\nDysuria\nAnuria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        }
+      ]
+    },
+    "Technique": {
+      "text": "Select probe\nCurvilinear/large convex probe (phased array probe may substitute)\nLocation\nRight kidney\nPatient supine\nProbe in the right lower intercostal space in the midaxillary line\nLeft kidney\nPatient supine or right lateral decubitus\nProbe in the lower intercostal space on the posterior axillary line\nMore cephalad and posterior than when visualizing the right kidney\nScan entire kidney (through liver)\nLongitudinal (long axis) and transverse (short axis) views\nScan the\nbladder",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        }
+      ]
+    },
+    "Findings": {
+      "text": "Hydronephrosis\nMild: Distention of collecting system\nModerate: Dilation of collecting system, rounding of calyces\nSevere: Dilated renal calyces and cortical thinning\n[2]\n“Bear claw” appearance\nRepresents severe obstructive uropathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "Normal": {
+          "text": "No hydronephrosis",
+          "tables": []
+        },
+        "Abnormal": {
+          "text": "Mild hydro\nModerate hydro\nSevere hydro\nUreteral stone located at the pyeloureteric junction with accompanying hydronephrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal": {
+      "text": "No hydronephrosis",
+      "subsections": {
+        "Abnormal": {
+          "text": "Mild hydro\nModerate hydro\nSevere hydro\nUreteral stone located at the pyeloureteric junction with accompanying hydronephrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal": {
+      "text": "Mild hydro\nModerate hydro\nSevere hydro\nUreteral stone located at the pyeloureteric junction with accompanying hydronephrosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "Patients that are overhydrated, pregnant, or with a full-bladder may have mild hydronephrosis bilaterally without obstruction\nUnderhydrated patients may not have hydronephrosis on initial renal scanning, despite obstruction\nRenal cysts can sometimes be mistaken for hydronephrosis\nCysts are typically single, circular, and arise in the periphery of the kidney\nThey can be multiple as in polycystic kidney disease",
+      "subsections": {
+        "Renal_Cyst_Classification": {
+          "text": "Bosniak I :Benign simple cyst with thin wall without septa, calcifications, or solid components.\nBosniak II: Benign cyst with a few thin septa, which may contain fine calcifications or a small segment of mildly thickened calcification.  Hyperdense cysts must be exophytic with at least 75% of its wall outside the kidney to allow for appropriate assessment of margins, otherwise they are categorized as IIF.\nBosniak IIF: Includes renal cysts with multiple thin septa, a septum thicker than hairline, slightly thick wall, or with calcification, which may be thick. It also includes intrarenal cysts larger than 3 centimetres (1.2 inches). Category IIF cysts have a 5-10% risk of being kidney cancer, and therefore follow-up is recommended every 6 months.\nBosniak III: Indeterminate cystic masses with thickened irregular septa with enhancement. 50 % of these lesions are ultimately found to be malignant.\nBosniak IV: Malignant cystic masses with all the characteristics of category III lesions but also with enhancing soft tissue components on CT independent of but adjacent to the septa. 100 %of these lesions are malignant.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Cyst_Classification": {
+      "text": "Bosniak I :Benign simple cyst with thin wall without septa, calcifications, or solid components.\nBosniak II: Benign cyst with a few thin septa, which may contain fine calcifications or a small segment of mildly thickened calcification.  Hyperdense cysts must be exophytic with at least 75% of its wall outside the kidney to allow for appropriate assessment of margins, otherwise they are categorized as IIF.\nBosniak IIF: Includes renal cysts with multiple thin septa, a septum thicker than hairline, slightly thick wall, or with calcification, which may be thick. It also includes intrarenal cysts larger than 3 centimetres (1.2 inches). Category IIF cysts have a 5-10% risk of being kidney cancer, and therefore follow-up is recommended every 6 months.\nBosniak III: Indeterminate cystic masses with thickened irregular septa with enhancement. 50 % of these lesions are ultimately found to be malignant.\nBosniak IV: Malignant cystic masses with all the characteristics of category III lesions but also with enhancing soft tissue components on CT independent of but adjacent to the septa. 100 %of these lesions are malignant.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for hydronephrosis with clinical indication of left/right flank pain. The left kidney, right kidney, and bladder were identified in the transverse and sagittal plane. There was no hydronephrosis identified.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for hydronephrosis with clinical indication of left/right flank pain. The left kidney, right kidney, and bladder were identified in the transverse and sagittal plane. There was mild/moderate/severe hydronephrosis identified on the left/right.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for hydronephrosis with clinical indication of left/right flank pain. The left kidney, right kidney, and bladder were identified in the transverse and sagittal plane. There was no hydronephrosis identified.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside ultrasound was conducted to assess for hydronephrosis with clinical indication of left/right flank pain. The left kidney, right kidney, and bladder were identified in the transverse and sagittal plane. There was mild/moderate/severe hydronephrosis identified on the left/right.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside ultrasound was conducted to assess for hydronephrosis with clinical indication of left/right flank pain. The left kidney, right kidney, and bladder were identified in the transverse and sagittal plane. There was mild/moderate/severe hydronephrosis identified on the left/right.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clips": {
+      "text": "",
+      "subsections": {
+        "Abnormal_2": {
+          "text": "Mild hydro\nModerate hydro\nSevere hydro",
+          "tables": []
+        },
+        "Pitfall": {
+          "text": "Nonobstructing stone\nUsing color flow to determine vasculature vs hydro",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_2": {
+      "text": "",
+      "subsections": {
+        "Abnormal_2": {
+          "text": "Mild hydro\nModerate hydro\nSevere hydro",
+          "tables": []
+        },
+        "Pitfall": {
+          "text": "Nonobstructing stone\nUsing color flow to determine vasculature vs hydro",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_2": {
+      "text": "Mild hydro\nModerate hydro\nSevere hydro",
+      "subsections": {
+        "Pitfall": {
+          "text": "Nonobstructing stone\nUsing color flow to determine vasculature vs hydro",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pitfall": {
+      "text": "Nonobstructing stone\nUsing color flow to determine vasculature vs hydro",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Sonoguide: Renal Ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nephrolithiasis\nFlank pain\nUltrasound (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Ultrasound (main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(main)"
+        }
+      ]
+    }
+  }
+}

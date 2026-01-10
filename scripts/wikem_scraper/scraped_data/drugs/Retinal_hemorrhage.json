@@ -1,0 +1,186 @@
+{
+  "drug_name": "Retinal_hemorrhage",
+  "url": "https://wikem.org/wiki/Retinal_hemorrhage",
+  "scraped_at": "2026-01-10T08:01:25.002457",
+  "sections": {
+    "Background": {
+      "text": "Due to retinal capillary rupture, can be due to acute or chronic processes",
+      "subsections": {
+        "Causes[1]": {
+          "text": "Subacute bacterial\nendocarditis\nHypertensive\nretinopathy\nDiabetic\nretinopathy\nTrauma:\nnonaccidental trauma\n(\nshaken baby syndrome\n),\nintracranial hemorrhage\n, neonatal birth trauma\nCentral Retinal Artery Occlusion (CRAO)\n,\nCentral Retinal Vein Occlusion (CRVO)\nAnemia\n,\nleukemia\n,\nsickle cell anemia\nAnoxia\nAcute mountain sickness\nCarbon monoxide poisoning\nProlonged intubation during anesthesia\nConnective tissue disease\n,\nSLE\nScurvy\n,\nWernicke-Korsakoff syndrome\nPreeclampsia\nPentoxifylline\nOcular decompression following trabeculectomy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Hypertensive",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Diabetic",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_anemia"
+        },
+        {
+          "text": "Anoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Pentoxifylline",
+          "url": "https://wikem.org/wiki/Pentoxifylline"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Roth Spots\n: retinal hemorrhages with white center, seen on\nfundoscopy\nMay be asymptomatic, or cause\nvisual loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        },
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Workup dependant on clinical presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying condition if appropriate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

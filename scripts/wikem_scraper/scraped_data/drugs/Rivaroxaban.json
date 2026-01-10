@@ -1,0 +1,426 @@
+{
+  "drug_name": "Rivaroxaban",
+  "url": "https://wikem.org/wiki/Rivaroxaban",
+  "scraped_at": "2026-01-10T08:01:34.528693",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAnticoagulant\n, Factor Xa Inhibitor\nDosage Forms: 10mg, 15mg, 20mg\nRoutes of Administration:\nCommon Trade Names: Xarelto",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Thromboembolism/stroke_prophylaxis": {
+          "text": "20mg PO QD",
+          "tables": []
+        },
+        "DVT_Prophylaxis": {
+          "text": "10mg PO QD x35 days; Start: 6-10h post-op once hemostasis established",
+          "tables": []
+        },
+        "DVT/PE_Prophylaxis,_recurrent": {
+          "text": "20mg PO once daily",
+          "tables": []
+        },
+        "DVT/PE_Treatment": {
+          "text": "15mg twice daily x 21 days if CrCl ≥15\n[1]\n20mg once daily starting day 22 if CrCl ≥15",
+          "tables": []
+        },
+        "Atrial_fibrillation_and_new_stent": {
+          "text": "Rivaroxaban 15 mg/day plus\nclopidogrel\nfor 12 months post-stenting just as efficacious to current standard\nReduces clinically significant bleeds from ~27% to 17% as compared to\nwarfarin\nplus DAPT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Thromboembolism/stroke_prophylaxis": {
+      "text": "20mg PO QD",
+      "subsections": {
+        "DVT_Prophylaxis": {
+          "text": "10mg PO QD x35 days; Start: 6-10h post-op once hemostasis established",
+          "tables": []
+        },
+        "DVT/PE_Prophylaxis,_recurrent": {
+          "text": "20mg PO once daily",
+          "tables": []
+        },
+        "DVT/PE_Treatment": {
+          "text": "15mg twice daily x 21 days if CrCl ≥15\n[1]\n20mg once daily starting day 22 if CrCl ≥15",
+          "tables": []
+        },
+        "Atrial_fibrillation_and_new_stent": {
+          "text": "Rivaroxaban 15 mg/day plus\nclopidogrel\nfor 12 months post-stenting just as efficacious to current standard\nReduces clinically significant bleeds from ~27% to 17% as compared to\nwarfarin\nplus DAPT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "DVT_Prophylaxis": {
+      "text": "10mg PO QD x35 days; Start: 6-10h post-op once hemostasis established",
+      "subsections": {
+        "DVT/PE_Prophylaxis,_recurrent": {
+          "text": "20mg PO once daily",
+          "tables": []
+        },
+        "DVT/PE_Treatment": {
+          "text": "15mg twice daily x 21 days if CrCl ≥15\n[1]\n20mg once daily starting day 22 if CrCl ≥15",
+          "tables": []
+        },
+        "Atrial_fibrillation_and_new_stent": {
+          "text": "Rivaroxaban 15 mg/day plus\nclopidogrel\nfor 12 months post-stenting just as efficacious to current standard\nReduces clinically significant bleeds from ~27% to 17% as compared to\nwarfarin\nplus DAPT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "DVT/PE_Prophylaxis,_recurrent": {
+      "text": "20mg PO once daily",
+      "subsections": {
+        "DVT/PE_Treatment": {
+          "text": "15mg twice daily x 21 days if CrCl ≥15\n[1]\n20mg once daily starting day 22 if CrCl ≥15",
+          "tables": []
+        },
+        "Atrial_fibrillation_and_new_stent": {
+          "text": "Rivaroxaban 15 mg/day plus\nclopidogrel\nfor 12 months post-stenting just as efficacious to current standard\nReduces clinically significant bleeds from ~27% to 17% as compared to\nwarfarin\nplus DAPT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "DVT/PE_Treatment": {
+      "text": "15mg twice daily x 21 days if CrCl ≥15\n[1]\n20mg once daily starting day 22 if CrCl ≥15",
+      "subsections": {
+        "Atrial_fibrillation_and_new_stent": {
+          "text": "Rivaroxaban 15 mg/day plus\nclopidogrel\nfor 12 months post-stenting just as efficacious to current standard\nReduces clinically significant bleeds from ~27% to 17% as compared to\nwarfarin\nplus DAPT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Atrial_fibrillation_and_new_stent": {
+      "text": "Rivaroxaban 15 mg/day plus\nclopidogrel\nfor 12 months post-stenting just as efficacious to current standard\nReduces clinically significant bleeds from ~27% to 17% as compared to\nwarfarin\nplus DAPT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor\n: C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Thromboembolism/\nstroke\nprophylaxis\nCrCl 15-50: 15mg QD; CrCl <15: avoid use\nDVT\nprophylaxis\nCrCl 30-50: caution advised; CrCl <30: avoid use\nDVT\n/\nPE\nprophylaxis, recurrent\nCrCl <30: avoid use\nDVT\n/\nPE\ntreatment\nCrCl <30: avoid use",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Avoid Use In:\nChild-Pugh Class B or C\nCoagulopathy-assoc. hepatic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Risk Factor",
+          "url": "https://wikem.org/wiki/Drug_ratings_in_pregnancy"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Thromboembolism/\nstroke\nprophylaxis\nCrCl 15-50: 15mg QD; CrCl <15: avoid use\nDVT\nprophylaxis\nCrCl 30-50: caution advised; CrCl <30: avoid use\nDVT\n/\nPE\nprophylaxis, recurrent\nCrCl <30: avoid use\nDVT\n/\nPE\ntreatment\nCrCl <30: avoid use",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Avoid Use In:\nChild-Pugh Class B or C\nCoagulopathy-assoc. hepatic disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Hepatic_Dosing": {
+      "text": "Avoid Use In:\nChild-Pugh Class B or C\nCoagulopathy-assoc. hepatic disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Active major bleeding\nHepatic impairment, Child-Pugh Class B or C\nCoagulopathy-assoc. hepatic disease\nCrCl <30 (DVT prophylaxis, recurrent DVT/PE prophylaxis, DVT/PE treatment use)\nCrCl <15 (thromboembolism/stroke prophylaxis use)\nAcute\nPE\nwith hemodynamic instability\nAcute\nPE\nrequiring thrombolysis or pulmonary embolectomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bleeding, severe\nAndexanet alfa\nEpidural/\nspinal hematoma\nThrombocytopenia\nAgranulocytosis\nHypersensitivity reaction\nStevens-Johnson syndrome\nHepatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding\nBack pain\nPruritus\nElevated ALT\nThrombocytopenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding, severe",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "Andexanet alfa",
+          "url": "https://wikem.org/wiki/Andexanet_alfa"
+        },
+        {
+          "text": "spinal hematoma",
+          "url": "https://wikem.org/wiki/Spinal_hematoma"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bleeding, severe\nAndexanet alfa\nEpidural/\nspinal hematoma\nThrombocytopenia\nAgranulocytosis\nHypersensitivity reaction\nStevens-Johnson syndrome\nHepatitis",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding\nBack pain\nPruritus\nElevated ALT\nThrombocytopenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding, severe",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "Andexanet alfa",
+          "url": "https://wikem.org/wiki/Andexanet_alfa"
+        },
+        {
+          "text": "spinal hematoma",
+          "url": "https://wikem.org/wiki/Spinal_hematoma"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding\nBack pain\nPruritus\nElevated ALT\nThrombocytopenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-9 hours\nMetabolism: CYP450\nExcretion: 66% Urine, 28% Feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits platelet activation and fibrin clot formation via direct, selective and reversible inhibition of factor Xa in both the intrinsic and extrinsic coagulation pathways",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticoagulant reversal for life-threatening bleeds\nAndexanet alfa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "Andexanet alfa",
+          "url": "https://wikem.org/wiki/Andexanet_alfa"
+        }
+      ]
+    },
+    "References": {
+      "text": "UpToDate\nEpocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

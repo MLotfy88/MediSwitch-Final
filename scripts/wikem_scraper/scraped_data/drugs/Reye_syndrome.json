@@ -1,0 +1,232 @@
+{
+  "drug_name": "Reye_syndrome",
+  "url": "https://wikem.org/wiki/Reye_syndrome",
+  "scraped_at": "2026-01-10T08:01:26.644033",
+  "sections": {
+    "Background": {
+      "text": "Potentially fatal syndrome\nAssociated with\naspirin\nuse during\nviral illness\n, especially\ninfluenza\n,\nvaricella\nMultiorgan system disease, particularly effects brain and liver\nClassic early symptoms:\nrash\n,\nvomiting\n,\nliver damage\n(without\njaundice\ntypically)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "viral illness",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "liver damage",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Stage I\nRash\non palms of hands and feet\nPersistent, heavy\nvomiting\nAltered mental status\n,\nconfusion\n, generalized\nlethargy\nHigh\nfever\nStage II\nStupor\nHyperventilation\nFatty liver (found by biopsy)\nStage III\nPossible\ncoma\nPossible cerebral edema\nRarely,\nrespiratory arrest\nStage IV\nDeepening\ncoma\nDilated pupils with minimal response to light\nMinimal hepatic dysfunction\nStage V\nDeep\ncoma\nSeizures\nMultisystem organ failure[7]\nFlaccidity\nHyperammonemia (above 300mg/dL of blood)\nDeath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Flaccidity",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Shaken baby syndrome\nHead trauma\nViral encephalitis\nMeningitis\nDrug overdose or poisoning\nInborn errors of metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(peds)"
+        },
+        {
+          "text": "Viral encephalitis",
+          "url": "https://wikem.org/wiki/Viral_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nChem 10\nABG\nLFTs\nAmmonemia\nAcetaminophen\nlevel (rule out coingestion/alternate cause of liver failure)\nASA\nlevel (rule out overdose)\nFingerstick (can be\nhypoglycemic\n)\nUDS\nLP\nECG\nEEG (coma)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "hypoglycemic",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "UDS",
+          "url": "https://wikem.org/wiki/UDS"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "ABCs": {
+          "text": "Consider\nintubation\nif stage II or higher\nEnsure IV access with fluid resus\nMonitor neuro status closely, treat signs of cerebral edema aggressively",
+          "tables": []
+        },
+        "Consultations": {
+          "text": "Consider NSG Consult for cerebral edema\nConsider GI consult for liver biopsy\nConsider metabolic disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "ABCs": {
+      "text": "Consider\nintubation\nif stage II or higher\nEnsure IV access with fluid resus\nMonitor neuro status closely, treat signs of cerebral edema aggressively",
+      "subsections": {
+        "Consultations": {
+          "text": "Consider NSG Consult for cerebral edema\nConsider GI consult for liver biopsy\nConsider metabolic disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "Consultations": {
+      "text": "Consider NSG Consult for cerebral edema\nConsider GI consult for liver biopsy\nConsider metabolic disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Also_See": {
+      "text": "Encephalitis\nIntracranial Hemorrhage\nHepatitis\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    }
+  }
+}

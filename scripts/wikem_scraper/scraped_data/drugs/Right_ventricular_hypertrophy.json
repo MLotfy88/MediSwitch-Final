@@ -1,0 +1,130 @@
+{
+  "drug_name": "Right_ventricular_hypertrophy",
+  "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy",
+  "scraped_at": "2026-01-10T08:01:31.566614",
+  "sections": {
+    "ECG_Findings": {
+      "text": "RVH is usually associated with right atrial enlargement or right ventricular strain (deep ST inversions in leads V1-V3)\nDominant R in V1 >7mm\nRSR in V1 with QRS < 0.12\nThese criteria are less sensitive and specific than\nLVH\ncriteria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/Left_Ventricular_Hypertrophy_(LVH)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Hypertrophy_and_Enlargement": {
+          "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+          "tables": []
+        },
+        "Causes_of_R_>_7mm_in_V1": {
+          "text": "WPW\nRBBB\nRight ventricular hypertrophy\nPosterior\nMI\nNormal Variant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Cardiac_Hypertrophy_and_Enlargement": {
+      "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+      "subsections": {
+        "Causes_of_R_>_7mm_in_V1": {
+          "text": "WPW\nRBBB\nRight ventricular hypertrophy\nPosterior\nMI\nNormal Variant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Causes_of_R_>_7mm_in_V1": {
+      "text": "WPW\nRBBB\nRight ventricular hypertrophy\nPosterior\nMI\nNormal Variant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Basics)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Basics)",
+          "url": "https://wikem.org/wiki/ECG_(Basics)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lecture by Dr. James Niemann MD\nJournal of Electrocardiology. Vol 43 (2010). 40-42.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

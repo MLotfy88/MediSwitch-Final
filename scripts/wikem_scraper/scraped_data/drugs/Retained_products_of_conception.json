@@ -1,0 +1,283 @@
+{
+  "drug_name": "Retained_products_of_conception",
+  "url": "https://wikem.org/wiki/Retained_products_of_conception",
+  "scraped_at": "2026-01-10T08:01:23.564430",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: RPOC\nFetal tissue or placenta that remains following abortion or delivery\nIncidence of 0.5-1% of induced abortions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vaginal bleeding\nTypical following abortions; should consider abnormal if heavy or last >3 weeks\nFever\n/\nPain\nNecrotic RPOC are prone to infection → uterine tenderness\nFever abnormal following evacuation of uterus\nConsider possibility of uterine perforation/visceral injury if instrumentation used during abortion\nClostridial\ntoxic shock syndrome\npossible after 1st trimester miscarriages/termination\n↑↑ WBC on presentation\nAlmost always fatal\nAmenorrhea\nMenses should resume within 6 weeks of miscarriage/termination\nAmenorrhea may be sign of remaining trophoblastic tissue",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Uterine tenderness\nHeavy vaginal bleeding\nUterine enlargement\nCervical OS typically open",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Uterine tenderness\nHeavy vaginal bleeding\nUterine enlargement\nCervical OS typically open",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Hematometra\nEctopic pregnancy\nTraumatic termination\nGestational trophoblastic disease",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Gestational trophoblastic disease",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Type and screen\nbHCG (may be negative if tissue necrotic and not secreting hormone)\nGC/C\nCBC\nPT/PTT\nTransvaginal US",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Transvaginal US",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound_(transvaginal)"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Type and screen\nbHCG (may be negative if tissue necrotic and not secreting hormone)\nGC/C\nCBC\nPT/PTT\nTransvaginal US",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transvaginal US",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound_(transvaginal)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "RPOC + hemodynamic instability\nIVF\nand\npRBC\nas needed\nMisoprostol\n800 mcg PR (theoretic benefit; not studied)\nUterine evacuation\nIf patient does not respond to above:\nUterine tamponade\nUterine artery embolization\nHysterectomy\nRPOC +\nsepsis\nEmergent uterine evacuation\nBroad spectrum\nantibiotics\nIf patient does not respond to above:\nLaparotomy +/- hysterectomy to evaluate for bowel injury, pelvic abscess, clostridial myometritis\nRPOC +\nendometritis\nCefotetan\n2 g IV +\ndoxycycline\n100mg IV or PO q12h\nOutpatient:\nCeftriaxone\n250mg IM +\ndoxycycline\n100mg BID x 14 days +/-\nmetronidazole\n500mg BID x 14 days\nIf patient does not respond to above:\nPrompt uterine evacuation\nRPOC + prolonged bleeding (hemodynamically stable)\nUterine evacuation (preferred)\nIndirect evidence supports use of prophylactic antibiotics\nMedical management\nMisoprostol\nNot studied in RPOC but reasonable in patient who refuses surgical management\nExpectant management\nRPOC likely to resorb without intervention → resolution of bleeding\n50-85% resolution at 1-2 week follow up\n90% resolution at 6 weeks follow up\nUse of prophylactic antibiotics not studied in RPOC patients",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "pRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "Misoprostol",
+          "url": "https://wikem.org/wiki/Misoprostol"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Postpartum emergencies\nOB/GYN antibiotics\nSeptic abortion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum emergencies",
+          "url": "https://wikem.org/wiki/Postpartum_emergencies"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        }
+      ]
+    }
+  }
+}

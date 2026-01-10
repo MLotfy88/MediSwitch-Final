@@ -1,0 +1,438 @@
+{
+  "drug_name": "Rib_fracture",
+  "url": "https://wikem.org/wiki/Rib_fracture",
+  "scraped_at": "2026-01-10T08:01:32.028099",
+  "sections": {
+    "Background": {
+      "text": "Most common injury in blunt chest trauma\n9th, 10th, 11th rib fractures associated with intra-abdominal injury\nElderly patients have double the mortality of younger patients\n<2 years old with >2 rib fractures → 50% mortality\nRibs more flexible in children, so fractures require extreme force\nConsider\nnon-accidental trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "non-accidental trauma",
+          "url": "https://wikem.org/wiki/Non-accidental_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Chest wall pain\nMay have chest wall crepitus or ecchymosis\nPain on inspiration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest wall pain",
+          "url": "https://wikem.org/wiki/Chest_wall_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Rib series typically\nnot\nindicated\nCXR\nMay only pick up 24% of fractures\n[1]\nCT chest\nBetter sensitivity (63%) and specificity (97%)\n[2]\nUltrasound\nHas been shown to detect rib fractures not seen on radiographs\n[3]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically made on imaging (see above)\nConsider\nflail chest\n, if multiple ribs are fractured in 2 or more places and paradoxical chest wall movement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Rib series typically\nnot\nindicated\nCXR\nMay only pick up 24% of fractures\n[1]\nCT chest\nBetter sensitivity (63%) and specificity (97%)\n[2]\nUltrasound\nHas been shown to detect rib fractures not seen on radiographs\n[3]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically made on imaging (see above)\nConsider\nflail chest\n, if multiple ribs are fractured in 2 or more places and paradoxical chest wall movement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically made on imaging (see above)\nConsider\nflail chest\n, if multiple ribs are fractured in 2 or more places and paradoxical chest wall movement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Adequate\nanalgesia\nIncentive spirometry",
+      "subsections": {
+        "NOT_Indicated": {
+          "text": "Rib belts or other chest wall wrapping has no place in treatment and should be discouraged",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "NOT_Indicated": {
+      "text": "Rib belts or other chest wall wrapping has no place in treatment and should be discouraged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Consider for:\nIsolated rib fractures\nYoung, otherwise healthy patient\nGood respiratory effort and cough (able to clear respiratory secretions)\nPain controlled with PO medications",
+          "tables": []
+        },
+        "Admission": {
+          "text": "≥ 65 years of age\n3-5 uncomplicated rib fractures\nRR > 18/min despite adequate pain control\nIncentive spirometry < 75% of predicted\nUnable to control pain with oral medications\nConsider for:\nElderly patient with multiple rib fractures, hypotension, pulmonary contusion, hemothorax, pneumothorax, or age >85\n[4]\nFlail chest\nSignificant associated injury\nPre-existing pulmonary disease",
+          "tables": []
+        },
+        "ICU": {
+          "text": "Severe rib fractures (e.g., > 5 ribs, multiple displaced fractures, flail chest)\nSigns of significant respiratory compromise (e.g., SpO2 < 92%)\nRisk of respiratory decompensation (e.g., older age, COPD, neuromuscular disease)\nDiscretion of clinician managing patient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Consider for:\nIsolated rib fractures\nYoung, otherwise healthy patient\nGood respiratory effort and cough (able to clear respiratory secretions)\nPain controlled with PO medications",
+      "subsections": {
+        "Admission": {
+          "text": "≥ 65 years of age\n3-5 uncomplicated rib fractures\nRR > 18/min despite adequate pain control\nIncentive spirometry < 75% of predicted\nUnable to control pain with oral medications\nConsider for:\nElderly patient with multiple rib fractures, hypotension, pulmonary contusion, hemothorax, pneumothorax, or age >85\n[4]\nFlail chest\nSignificant associated injury\nPre-existing pulmonary disease",
+          "tables": []
+        },
+        "ICU": {
+          "text": "Severe rib fractures (e.g., > 5 ribs, multiple displaced fractures, flail chest)\nSigns of significant respiratory compromise (e.g., SpO2 < 92%)\nRisk of respiratory decompensation (e.g., older age, COPD, neuromuscular disease)\nDiscretion of clinician managing patient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    },
+    "Admission": {
+      "text": "≥ 65 years of age\n3-5 uncomplicated rib fractures\nRR > 18/min despite adequate pain control\nIncentive spirometry < 75% of predicted\nUnable to control pain with oral medications\nConsider for:\nElderly patient with multiple rib fractures, hypotension, pulmonary contusion, hemothorax, pneumothorax, or age >85\n[4]\nFlail chest\nSignificant associated injury\nPre-existing pulmonary disease",
+      "subsections": {
+        "ICU": {
+          "text": "Severe rib fractures (e.g., > 5 ribs, multiple displaced fractures, flail chest)\nSigns of significant respiratory compromise (e.g., SpO2 < 92%)\nRisk of respiratory decompensation (e.g., older age, COPD, neuromuscular disease)\nDiscretion of clinician managing patient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    },
+    "ICU": {
+      "text": "Severe rib fractures (e.g., > 5 ribs, multiple displaced fractures, flail chest)\nSigns of significant respiratory compromise (e.g., SpO2 < 92%)\nRisk of respiratory decompensation (e.g., older age, COPD, neuromuscular disease)\nDiscretion of clinician managing patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fracture (Main)\nFlail chest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fracture (Main)",
+          "url": "https://wikem.org/wiki/Fracture_(Main)"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        }
+      ]
+    }
+  }
+}

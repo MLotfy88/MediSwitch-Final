@@ -1,0 +1,126 @@
+{
+  "drug_name": "Rifaximin",
+  "url": "https://wikem.org/wiki/Rifaximin",
+  "scraped_at": "2026-01-10T08:01:32.190247",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntibiotic\nDosage Forms: 200, 550\nRoutes of Administration: Oral\nCommon Trade Names: Xifaxan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Traveler's diarrhea, E. coli-induced: 200mg PO tid x3 days\nHepatic encephalopathy: 550mg PO bid\nIBS, diarrhea-predominant: 550mg PO tid x14 days\nMay repeat dose up to 2x if recurrent disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "For_>_12_yrs_old": {
+          "text": "Traveler's diarrhea, E. coli-induced: 200mg PO tid x3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "For_>_12_yrs_old": {
+      "text": "Traveler's diarrhea, E. coli-induced: 200mg PO tid x3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "No adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "No adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ncaution if hepatic impairment (Child-Pugh Class C)\ncaution if recent antibiotic-associated colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "superinfection\nC. difficile-assoc. diarrhea\nhypersensitivity reaction\nangioedema\nanaphylaxis\nexfoliative dermatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "peripheral edema\nnausea\ndizziness\nfatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "superinfection\nC. difficile-assoc. diarrhea\nhypersensitivity reaction\nangioedema\nanaphylaxis\nexfoliative dermatitis",
+      "subsections": {
+        "Common": {
+          "text": "peripheral edema\nnausea\ndizziness\nfatigue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "peripheral edema\nnausea\ndizziness\nfatigue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "<Epocrates, UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

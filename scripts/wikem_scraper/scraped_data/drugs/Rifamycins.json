@@ -1,0 +1,24 @@
+{
+  "drug_name": "Rifamycins",
+  "url": "https://wikem.org/wiki/Rifamycins",
+  "scraped_at": "2026-01-10T08:01:30.334044",
+  "sections": {
+    "Overview": {
+      "text": "Inhibit RNA polymerase in mycobacteria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Medications": {
+      "text": "Rifampin\nRifabutin\nRifapentine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,323 @@
+{
+  "drug_name": "Retroperitoneal_hemorrhage",
+  "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage",
+  "scraped_at": "2026-01-10T08:01:29.871521",
+  "sections": {
+    "Background": {
+      "text": "Bleeding into retroperitoneal space\nDifficult to diagnose given poor sensitivity of physical exam findings (Cullens, Grey-Turners)\nCan accumulate 4L blood before tamponade",
+      "subsections": {
+        "Etiologies": {
+          "text": "Trauma (renal, vascular, colon, pancreas or pelvis)\nLeaking/ruptured\nAAA\nIatrogenic (colonoscopy, cardiac catheterization, femoral line placement)\nSpontaneous (\ncoagulopathy\n)\nHemorrhagic\npancreatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Trauma (renal, vascular, colon, pancreas or pelvis)\nLeaking/ruptured\nAAA\nIatrogenic (colonoscopy, cardiac catheterization, femoral line placement)\nSpontaneous (\ncoagulopathy\n)\nHemorrhagic\npancreatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Most common in patients with bleeding disorders, on anticoagulants, and on HD\n[1]\n[2]\nMay present with:\nAbdominal pain\nFlank pain\nBack pain\nHypotension\nBryant's sign (unilateral scrotal ecchymosis from tracking blood)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Flank pain",
+          "url": "https://wikem.org/wiki/Flank_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Must have high clinical suspicion to make diagnosis\nCT scan abdomen/pelvis\nConsider\nultrasound for AAA\nFAST and DPL do not evaluate retroperitoneal space",
+          "tables": []
+        },
+        "Classification_of_traumatic_retroperitoneal_hemorrhage": {
+          "text": "Zone 1: Central\nPancreaticoduodenal injuries, major vascular injury\nZone 2: Flank/Perinephric\nRenal trauma\n, ureteric or colonic injury\nZone 3: Pelvic\nPelvic fracture or ileofemoral vascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound for AAA",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Must have high clinical suspicion to make diagnosis\nCT scan abdomen/pelvis\nConsider\nultrasound for AAA\nFAST and DPL do not evaluate retroperitoneal space",
+      "subsections": {
+        "Classification_of_traumatic_retroperitoneal_hemorrhage": {
+          "text": "Zone 1: Central\nPancreaticoduodenal injuries, major vascular injury\nZone 2: Flank/Perinephric\nRenal trauma\n, ureteric or colonic injury\nZone 3: Pelvic\nPelvic fracture or ileofemoral vascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound for AAA",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        }
+      ]
+    },
+    "Classification_of_traumatic_retroperitoneal_hemorrhage": {
+      "text": "Zone 1: Central\nPancreaticoduodenal injuries, major vascular injury\nZone 2: Flank/Perinephric\nRenal trauma\n, ureteric or colonic injury\nZone 3: Pelvic\nPelvic fracture or ileofemoral vascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Address A, B, C's\nResuscitation with\nblood products\nReverse\ncoagulopathy\nWarfarin (Coumadin) Reversal\nDabigatran (Pradaxa) Reversal\nUnfractionated heparin reversal\nTreat underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Warfarin (Coumadin) Reversal",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)_Reversal"
+        },
+        {
+          "text": "Dabigatran (Pradaxa) Reversal",
+          "url": "https://wikem.org/wiki/Dabigatran_(Pradaxa)_Reversal"
+        },
+        {
+          "text": "Unfractionated heparin reversal",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin_reversal"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal trauma\ncoagulopathy\nWarfarin (Coumadin) Reversal\nDabigatran (Pradaxa) Reversal\nUnfractionated heparin reversal\nAortic ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal trauma",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Warfarin (Coumadin) Reversal",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)_Reversal"
+        },
+        {
+          "text": "Dabigatran (Pradaxa) Reversal",
+          "url": "https://wikem.org/wiki/Dabigatran_(Pradaxa)_Reversal"
+        },
+        {
+          "text": "Unfractionated heparin reversal",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin_reversal"
+        },
+        {
+          "text": "Aortic ultrasound",
+          "url": "https://wikem.org/wiki/Aortic_ultrasound"
+        }
+      ]
+    }
+  }
+}

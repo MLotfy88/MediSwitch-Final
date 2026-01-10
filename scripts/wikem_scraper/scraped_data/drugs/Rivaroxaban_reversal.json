@@ -1,0 +1,245 @@
+{
+  "drug_name": "Rivaroxaban_reversal",
+  "url": "https://wikem.org/wiki/Rivaroxaban_reversal",
+  "scraped_at": "2026-01-10T08:01:36.070968",
+  "sections": {
+    "Background": {
+      "text": "Millions are prescribed\nrivaroxaban\n(Xarelto) for atrial fibrillation, cardiac stents, stroke prevention, DVT/PE and ACS prophylaxis\nBenefits: supposedly easier to dose, less monitoring than older anticoagulants\nDownside: uncertainty regarding best mechanism of reversal in case of catastrophic intracranial or GI bleed\nMultiple studies done since introduction of direct thrombin inhibitor (DTI)\ndabigatran\nand Factor Xa inhibitors\nrivaroxaban\nand\napixaban\nto determine testing for supratherapeutic levels and best means of reversal, however no good trials that assessing human subjects who are potentially supratherapeutic and symptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Patient taking rivaroxaban with a life-threatening bleeding event (GI, ICH, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Bleeding secondary to other coagulopathy\nSpontaneous bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CBC\naPTT/PT: Factor Xa inhibitors affect PT, however unlike with warfarin, degree of PT elevation not directly correlated to level of anticoagulation\nnon contrast head CT showing ICH\nAntifactor Xa assays- measure drug levels but not degree of anticoagulation, need to be calibrated for rivaroxaban not LMWH, and often not available in a timely fashion\nEvaluation of clinical manifestation of bleeding (e.g. head CT, endoscopy)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IV/O2/Monitor, ABCs\nStandard resuscitation with IVF; PRBCs if needed\nIf\nICH\n, treat for\nincreased ICP\nCurrently published manuscripts and protocols is that either\nPCC\nor aPCC is recommended as a reversal agent for DTIs and FXa inhibitors, with no clear data as to which is superior.\nConsider Tranexamic acid",
+      "subsections": {
+        "Factor_Xa_Inhibitor_Reversal": {
+          "text": "^Off-label",
+          "tables": [
+            [
+              {
+                "Anticoagulant": "Apixaban[1](Eliquis®)",
+                "Half-life": "8-15 hrs (longer in renal impairment)",
+                "Removed by HD": "No",
+                "Strategies to reverse or minimize anticoagulant effects": "If ingested within 2 hours, administer activated charcoal4-factorPCC(Kcentra™)^25units/kg—max 2500 units for treatment of documented intracranial hemorrhage50 units/kg—max 5000 units for all other life-threatening bleeds"
+              },
+              {
+                "Anticoagulant": "Edoxaban[2](Savaysa®)",
+                "Half-life": "10-14 hrs (longer in renal impairment)",
+                "Removed by HD": "~ 25%",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulant": "Rivaroxaban[3](Xarelto®)",
+                "Half-life": "9-13 hrs (longer in renal impairment)",
+                "Removed by HD": "No",
+                "Strategies to reverse or minimize anticoagulant effects": "As above"
+              },
+              {
+                "Anticoagulant": "Fondaparinux(Arixtra®)",
+                "Half-life": "17-21 hrs (significantly longer in renal impairment)",
+                "Removed by HD": "No",
+                "Strategies to reverse or minimize anticoagulant effects": "4-factorPCC(Kcentra™)^ 50 units/kg—max 5000 units"
+              }
+            ]
+          ]
+        },
+        "Andexanet_alfa": {
+          "text": "FDA approved in May 2018, limited availability June 2018\nCost is $20,000 to $55,000 per dose\nTrial that led to FDA approval does not have the most sound evidence behind it\n[4]\n:\nProspective single center single group study of 352 patients receiving a Factor Xa Inhibitor (\napixaban\n,\nrivaroxaban\n,\nedoxaban\n,\nenoxaparin\n) with life threatening bleed (those with expected survival <1 month were excluded).\nAnti-Factor Xa activity was decreased in all groups. 82% were judged to have excellent hemostatic control. 14% mortality rate at 30 days.\nNo comparison group available. It is unlikely that following anti-Factor Xa activity as a lab value is clinically important. High mortality rate even after excluding sick patients.",
+          "tables": []
+        },
+        "Low_Dose": {
+          "text": "400\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n4\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "High_Dose": {
+          "text": "800\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n8\nmg/minute for up to 120 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        }
+      ]
+    },
+    "Factor_Xa_Inhibitor_Reversal": {
+      "text": "^Off-label",
+      "subsections": {
+        "Andexanet_alfa": {
+          "text": "FDA approved in May 2018, limited availability June 2018\nCost is $20,000 to $55,000 per dose\nTrial that led to FDA approval does not have the most sound evidence behind it\n[4]\n:\nProspective single center single group study of 352 patients receiving a Factor Xa Inhibitor (\napixaban\n,\nrivaroxaban\n,\nedoxaban\n,\nenoxaparin\n) with life threatening bleed (those with expected survival <1 month were excluded).\nAnti-Factor Xa activity was decreased in all groups. 82% were judged to have excellent hemostatic control. 14% mortality rate at 30 days.\nNo comparison group available. It is unlikely that following anti-Factor Xa activity as a lab value is clinically important. High mortality rate even after excluding sick patients.",
+          "tables": []
+        },
+        "Low_Dose": {
+          "text": "400\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n4\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "High_Dose": {
+          "text": "800\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n8\nmg/minute for up to 120 minutes",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Anticoagulant": "Apixaban[1](Eliquis®)",
+            "Half-life": "8-15 hrs (longer in renal impairment)",
+            "Removed by HD": "No",
+            "Strategies to reverse or minimize anticoagulant effects": "If ingested within 2 hours, administer activated charcoal4-factorPCC(Kcentra™)^25units/kg—max 2500 units for treatment of documented intracranial hemorrhage50 units/kg—max 5000 units for all other life-threatening bleeds"
+          },
+          {
+            "Anticoagulant": "Edoxaban[2](Savaysa®)",
+            "Half-life": "10-14 hrs (longer in renal impairment)",
+            "Removed by HD": "~ 25%",
+            "Strategies to reverse or minimize anticoagulant effects": "As above"
+          },
+          {
+            "Anticoagulant": "Rivaroxaban[3](Xarelto®)",
+            "Half-life": "9-13 hrs (longer in renal impairment)",
+            "Removed by HD": "No",
+            "Strategies to reverse or minimize anticoagulant effects": "As above"
+          },
+          {
+            "Anticoagulant": "Fondaparinux(Arixtra®)",
+            "Half-life": "17-21 hrs (significantly longer in renal impairment)",
+            "Removed by HD": "No",
+            "Strategies to reverse or minimize anticoagulant effects": "4-factorPCC(Kcentra™)^ 50 units/kg—max 5000 units"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        }
+      ]
+    },
+    "Andexanet_alfa": {
+      "text": "FDA approved in May 2018, limited availability June 2018\nCost is $20,000 to $55,000 per dose\nTrial that led to FDA approval does not have the most sound evidence behind it\n[4]\n:\nProspective single center single group study of 352 patients receiving a Factor Xa Inhibitor (\napixaban\n,\nrivaroxaban\n,\nedoxaban\n,\nenoxaparin\n) with life threatening bleed (those with expected survival <1 month were excluded).\nAnti-Factor Xa activity was decreased in all groups. 82% were judged to have excellent hemostatic control. 14% mortality rate at 30 days.\nNo comparison group available. It is unlikely that following anti-Factor Xa activity as a lab value is clinically important. High mortality rate even after excluding sick patients.",
+      "subsections": {
+        "Low_Dose": {
+          "text": "400\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n4\nmg/minute for up to 120 minutes",
+          "tables": []
+        },
+        "High_Dose": {
+          "text": "800\nmg IV bolus at rate of ~30 mg/minute, followed 2 minutes later by\n8\nmg/minute for up to 120 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "admission to a monitored setting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticoagulant reversal for life-threatening bleeds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        }
+      ]
+    },
+    "References": {
+      "text": "Akwaa, F., & Spyropoulos, A. (2013). Treatment of Bleeding Complications When Using Oral Anticoagulants for Prevention of Strokes. Current Treatment Options In Cardiovascular Medicine, 15(3), 288-298. doi:10.1007/s11936-013-0238-5\nAwad, N., & Cocchio, C. (2013). Activated Prothrombin Complex Concentrates for the Reversal of Anticoagulant-Associated Coagulopathy. Pharmacy And Therapeutics, 38(11), 696.\nBabilonia, K., & Trujillo, T. (2014). The role of prothrombin complex concentrates in reversal of target specific anticoagulants. Thrombosis Journal, 12(1), 8. doi:10.1186/1477-9560-12-8\nDavis, P., Musunuru, H., Walsh, M., Mitra, R., Ploplis, V., & Castellino, F. (2012). The ex vivo reversibility of dabigatran-induced whole-blood coagulopathy as monitored by thromboelastography: Mechanistic implications for clinical medicine. Thromb Haemost, 108(3), 586-588. doi:10.1160/th12-04-0222\nEbright, J., & Mousa, S. (2014). Oral Anticoagulants and Status of Antidotes for the Reversal of Bleeding Risk. Clinical And Applied Thrombosis/Hemostasis. doi:10.1177/1076029614545211\nEerenberg, E., Kamphuisen, P., Sijpkens, M., Meijers, J., Buller, H., & Levi, M. (2011). Reversal of Rivaroxaban and Dabigatran by Prothrombin Complex Concentrate: A Randomized, Placebo-Controlled, Crossover Study in Healthy Subjects. Circulation, 124(14), 1573-1579. doi:10.1161/circulationaha.111.029017\nFawole, A., Daw, H., & Crowther, M. (2013). Practical management of bleeding due to the anticoagulants dabigatran, rivaroxaban, and apixaban. Cleveland Clinic Journal Of Medicine, 80(7), 443-451. doi:10.3949/ccjm.80a.13025\nFerrandis, R., Castillo, J., de AndrÃ©s, J., Gomar, C., GÃ³mez-Luque, A., & Hidalgo, F. et al. (2013). The perioperative management of new direct oral anticoagulants: a question without answers. Thromb Haemost, 110(3), 515-522. doi:10.1160/th12-11-0868\nGordon, J., Fabian, T., Lee, M., & Dugdale, M. (2013). Anticoagulant and antiplatelet medications encountered in emergency surgery patients. Journal Of Trauma And Acute Care Surgery, 75(3), 475-486. doi:10.1097/ta.0b013e3182a07391\nHankey, G., & Eikelboom, J. (2011). Dabigatran Etexilate: A New Oral Thrombin Inhibitor. Circulation, 123(13), 1436-1450. doi:10.1161/circulationaha.110.004424\nHerrmann, R., Thom, J., Wood, A., Phillips, M., Muhammad, S., & Baker, R. (2013). Thrombin generation using the calibrated automated thrombinoscope to assess reversibility of dabigatran and rivaroxaban. Thromb Haemost, 111(5), 989-995. doi:10.1160/th13-07-0607\nJames, R., Palys, V., Lomboy, J., Lamm, J., & Simon, S. (2013). The role of anticoagulants, antiplatelet agents, and their reversal strategies in the management of intracerebral hemorrhage. Neurosurgical Focus, 34(5), E6. doi:10.3171/2013.2.focus1328\nKaatz, S., & Crowther, M. (2013). Reversal of target-specific oral anticoagulants. J Thromb Thrombolysis, 36(2), 195-202. doi:10.1007/s11239-013-0923-y\nKasliwal, M., Panos, N., Munoz, L., Moftakhar, R., Lopes, D., & Byrne, R. (2014). Outcome following intracranial hemorrhage associated with novel oral anticoagulants. Journal Of Clinical Neuroscience. doi:10.1016/j.jocn.2014.04.025\nKhoo, T., Weatherburn, C., Kershaw, G., Reddel, C., Curnow, J., & Dunkley, S. (2012). The use of FEIBA® in the correction of coagulation abnormalities induced by dabigatran. International Journal Of Laboratory Hematology, 35(2), 222-224. doi:10.1111/ijlh.12005\nLai, A., Davidson, N., Galloway, S., & Thachil, J. (2014). Perioperative management of patients on new oral anticoagulants. British Journal Of Surgery, 101(7), 742-749. doi:10.1002/bjs.9485\nLambe, S. (2013). Reversing the New Anticoagulants. Retrieved 7 September 2014, from\nhttp://www.ucsfcme.com/2014/MEM14001/slides/24LambeTheNewAnticoagulants.pdf\nLazo-Langner, A., Lang, E., & Douketis, J. (2013). Clinical review: Clinical management of new oral anticoagulants: a structured review with emphasis on the reversal of bleeding complications. Critical Care, 17(3), 230. doi:10.1186/cc12592\nLevine, M., & Goldstein, J. (2014). Emergency Reversal of Anticoagulation: Novel Agents. Current Neurology And Neuroscience Reports, 14(8). doi:10.1007/s11910-014-0471-7\nLuddington, R., & Baglin, T. (2004). Clinical measurement of thrombin generation by calibrated automated thrombography requires contact factor inhibition. Journal Of Thrombosis And Haemostasis, 2(11), 1954--1959.\nMajeed, A., & Schulman, S. (2013). Bleeding and antidotes in new oral anticoagulants. Best Practice & Research Clinical Haematology, 26(2), 191-202. doi:10.1016/j.beha.2013.07.001\nMancl, E., Crawford, A., & Voils, S. (2012). Contemporary Anticoagulation Reversal: Focus on Direct Thrombin Inhibitors and Factor Xa Inhibitors. Journal Of Pharmacy Practice, 26(1), 43-51. doi:10.1177/0897190012465989\nMiller, M., Trujillo, T., & Nordenholz, K. (2014). Practical considerations in emergency management of bleeding in the setting of target-specific oral anticoagulants. The American Journal Of Emergency Medicine, 32(4), 375-382. doi:10.1016/j.ajem.2013.11.044\nMittal, M., & Rabinstein, A. (2012). Anticoagulation-Related Intracranial Hemorrhages. Current Atherosclerosis Reports, 14(4), 351-359. doi:10.1007/s11883-012-0258-8\nNitzki-George, D., Wozniak, I., & Caprini, J. (2013). Current State of Knowledge on Oral Anticoagulant Reversal Using Procoagulant Factors. Annals Of Pharmacotherapy, 47(6), 841-855. doi:10.1345/aph.1r724\nPeacock, W., Gearhart, M., & Mills, R. (2012). Emergency Management of Bleeding Associated With Old and New Oral Anticoagulants. Clin Cardiol, 35(12), 730-737. doi:10.1002/clc.22037\nPernod, G., Albaladejo, P., Godier, A., Samama, C., Susen, S., & Gruel, Y. et al. (2013). Management of major bleeding complications and emergency surgery in patients on long-term treatment with direct oral anticoagulants, thrombin or factor-Xa inhibitors: Proposals of the Working Group on Perioperative Haemostasis (GIHP) â€“ March 2013. Archives Of Cardiovascular Diseases, 106(6-7), 382-393. doi:10.1016/j.acvd.2013.04.009\nPerzborn, E., Heitmeier, S., Laux, V., & BuchmÃ¼ller, A. (2014). Reversal of rivaroxaban-induced anticoagulation with prothrombin complex concentrate, activated prothrombin complex concentrate and recombinant activated factor VII in vitro. Thrombosis Research, 133(4), 671-681. doi:10.1016/j.thromres.2014.01.017\nPollack, C. (2013). Managing Bleeding in Anticoagulated Patients in the Emergency Care Setting. The Journal Of Emergency Medicine, 45(3), 467-477. doi:10.1016/j.jemermed.2013.03.016\nSiegal, D., Garcia, D., & Crowther, M. (2014). How I treat target-specific oral anticoagulant-associated bleeding. Blood, 123(8), 1152-1158. doi:10.1182/blood-2013-09-529784\nYates, S., & Sarode, R. (2013). Novel thrombin and factor Xa inhibitors. Current Opinion In Hematology, 20(6), 552-557. doi:10.1097/moh.0b013e328365a164\nZumberg, M., Rajasekhar, A., Lawson, M., & Khanna, A. (2013). . Retrieved 7 September 2014, from\nhttps://com-dom-hemonc.sites.medinfo.ufl.edu/files/2012/02/Anticoag-reversal-in-ICH-2013-2.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

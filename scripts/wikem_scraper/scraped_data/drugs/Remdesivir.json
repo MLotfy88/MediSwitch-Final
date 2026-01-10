@@ -1,0 +1,214 @@
+{
+  "drug_name": "Remdesivir",
+  "url": "https://wikem.org/wiki/Remdesivir",
+  "scraped_at": "2026-01-10T08:01:20.835708",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiviral\nDosage Forms: 100 mg, 200 mg\nRoutes of Administration: IV\nCommon Trade Names: N/a",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "COVID": {
+          "text": "Loading dose: 200 mg IV administered on day 1\nMaintenance dose: 100 mg IV daily for duration of hospitalization, or up to 5-10 days (whichever is shorter)\nNIH consensus pannel recommends 5 days\n[1]\nDrug insert states 10 days\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "COVID": {
+      "text": "Loading dose: 200 mg IV administered on day 1\nMaintenance dose: 100 mg IV daily for duration of hospitalization, or up to 5-10 days (whichever is shorter)\nNIH consensus pannel recommends 5 days\n[1]\nDrug insert states 10 days\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not studied in pediatric patients",
+      "subsections": {
+        "COVID_2": {
+          "text": "Has not been evaluated in pediatric patients aged <12 years or weighing <40 kg.\n[3]\nIs available through an FDA EUA for the treatment of COVID-19 in hospitalized pediatric patients weighing 3.5 kg to <40 kg or aged <12 years and weighing ≥3.5 kg.\n[4]\nA clinical trial is currently evaluating the pharmacokinetics of remdesivir in children (ClinicalTrials.gov identifier NCT04431453).\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "COVID_2": {
+      "text": "Has not been evaluated in pediatric patients aged <12 years or weighing <40 kg.\n[3]\nIs available through an FDA EUA for the treatment of COVID-19 in hospitalized pediatric patients weighing 3.5 kg to <40 kg or aged <12 years and weighing ≥3.5 kg.\n[4]\nA clinical trial is currently evaluating the pharmacokinetics of remdesivir in children (ClinicalTrials.gov identifier NCT04431453).\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Pregnant patients were excluded from the clinical trials that evaluated the safety and efficacy for the treatment of COVID-19, but preliminary reports of use in pregnant patients through the remdesivir compassionate use program are reassuring.\n[6]\nAmong 86 pregnant and postpartum hospitalized patients with severe COVID-19 who received compassionate use remdesivir, the therapy was well tolerated, with a low rate of serious adverse events.\n[7]\nShould not be withheld from pregnant patients if it is otherwise indicated.\n[8]",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "No data",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Pregnant patients were excluded from the clinical trials that evaluated the safety and efficacy for the treatment of COVID-19, but preliminary reports of use in pregnant patients through the remdesivir compassionate use program are reassuring.\n[6]\nAmong 86 pregnant and postpartum hospitalized patients with severe COVID-19 who received compassionate use remdesivir, the therapy was well tolerated, with a low rate of serious adverse events.\n[7]\nShould not be withheld from pregnant patients if it is otherwise indicated.\n[8]",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "No data",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "No data",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Unknown\nPediatric: Unknown",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Unknown\nPediatric: Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Unknown\nPediatric: Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAlanine transaminase or aspartate transaminase >5 times the upper limit of normal\nCreatinine clearance of <30 mL/minute\nCan be considered in patients with calculated creatinine clearance of <30 mL/minute and in patients receiving hemodialysis if the benefits outweigh the risk (limited data).\nAt this time, there are no recommended dose adjustments for this patient population.\nPediatric patients 3.5kg to 12 years of age; should not be given if ALT is >10 times normal.\n[10]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Common": {
+          "text": "Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Unknown",
+      "subsections": {
+        "Common": {
+          "text": "Unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Unknown\nExcretion: Unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Adenosine nucleotide analog that interferes with the action of viral RNA polymerase, resulting in decreased virus production\n[11]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Remdesivir is a novel antiviral currently being studied in clinical trials for use in\nCOVID-19\n. It was initially developed for treatment of\nEbola\nand has also been shown to have some effect on\nSARS\nand\nMERS\n, as well as some other RNA viruses.\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Ebola",
+          "url": "https://wikem.org/wiki/Ebola"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coronavirus\nCOVID-19",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    }
+  }
+}

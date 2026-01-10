@@ -1,0 +1,277 @@
+{
+  "drug_name": "Riociguat",
+  "url": "https://wikem.org/wiki/Riociguat",
+  "scraped_at": "2026-01-10T08:01:33.391315",
+  "sections": {
+    "Administration": {
+      "text": "Type: Vasodilator\nDosage Forms: Tab 0.5mg, 1mg, 1.5mg, 2mg, 2.5mg\nRoutes of Administration: Oral\nCommon Trade Names: Adempas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Chronic_thromboembolic_pulmonary_HTN": {
+          "text": "0.5-2.5 mg PO TID",
+          "tables": []
+        },
+        "Pulmonary_arterial_hypertension": {
+          "text": "0.5-2.5 mg PO TID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_thromboembolic_pulmonary_HTN": {
+      "text": "0.5-2.5 mg PO TID",
+      "subsections": {
+        "Pulmonary_arterial_hypertension": {
+          "text": "0.5-2.5 mg PO TID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pulmonary_arterial_hypertension": {
+      "text": "0.5-2.5 mg PO TID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation risk: Avoid Use",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl >15: No adjustment\nCrCl <15: Not defined\nPediatric:\nSafety/efficacy not established in pediatric patients",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A or B: No adjustment\nChild-Pugh Class C: Not definied\nPediatric:\nSafety/efficacy not established in pediatric patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl >15: No adjustment\nCrCl <15: Not defined\nPediatric:\nSafety/efficacy not established in pediatric patients",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nChild-Pugh Class A or B: No adjustment\nChild-Pugh Class C: Not definied\nPediatric:\nSafety/efficacy not established in pediatric patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nChild-Pugh Class A or B: No adjustment\nChild-Pugh Class C: Not definied\nPediatric:\nSafety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy\nBreastfeeding\nPulmonary veno-occlusive disease\nIdiopathic interstitial pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hemorrhage\nHemoptysis\n, severe\nHypotension\n, severe",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\n,\ndizziness\nGastritis\n, dyspepsia,\nGERD\nNausea\n,\ndiarrhea\n,\nvomiting\n,\nconstipation\nHypotension\nAnemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hemorrhage\nHemoptysis\n, severe\nHypotension\n, severe",
+      "subsections": {
+        "Common": {
+          "text": "Headache\n,\ndizziness\nGastritis\n, dyspepsia,\nGERD\nNausea\n,\ndiarrhea\n,\nvomiting\n,\nconstipation\nHypotension\nAnemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\n,\ndizziness\nGastritis\n, dyspepsia,\nGERD\nNausea\n,\ndiarrhea\n,\nvomiting\n,\nconstipation\nHypotension\nAnemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 12h\nMetabolism: Liver extensively; CYP450: 1A1 (primary), 2C8, 2J2, 3A4/5 substrate\nExcretion: Urine 40% (6% unchanged); Feces 53% (15% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Sensitizes and stimulates binding of soluble guanylate cyclase to nitric oxide in nitric oxide-sGC-cGMP pathway\nIncreases cGMP production and subsequent vasodilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "drug_name": "Rift_valley_fever",
+  "url": "https://wikem.org/wiki/Rift_valley_fever",
+  "scraped_at": "2026-01-10T08:01:32.330537",
+  "sections": {
+    "Background": {
+      "text": "Viral illness caused by RVF virus, a bunyaviridae\nPrimarily infects domesticated animals; cattle, sheep, buffalo, etc.\nOutbreaks related to unusually heavy rainfall and flooding\nFound mostly in eastern and southern Africa where domesticated animals are raised\nCan be found in most of Africa\nRecent outbreaks in Saudi Arabia and Yemen (first outside African continent)\nOutbreaks cause major economic impact with livestock death",
+      "subsections": {
+        "Transmission": {
+          "text": "Mosquitos, most commonly Aedes, are a reservoir and vector for RVF virus\nAble to live with the virus and pass on to offspring, virus remains viable in eggs\nBite livestock and humans to cause infection\nIncreased rainfall increases mosquito numbers and is associated with outbreaks\nHumans are most commonly infected through direct contact of blood or other bodily fluids of infected livestock\nSlaughter, veterinary procedures, obstetrical procedures\nNo documented human to human transmission\nAerosolized transfer has occurred in laboratory settings",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transmission": {
+      "text": "Mosquitos, most commonly Aedes, are a reservoir and vector for RVF virus\nAble to live with the virus and pass on to offspring, virus remains viable in eggs\nBite livestock and humans to cause infection\nIncreased rainfall increases mosquito numbers and is associated with outbreaks\nHumans are most commonly infected through direct contact of blood or other bodily fluids of infected livestock\nSlaughter, veterinary procedures, obstetrical procedures\nNo documented human to human transmission\nAerosolized transfer has occurred in laboratory settings",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation period of 2-6 days",
+      "subsections": {
+        "Mild": {
+          "text": "No symptoms or flu-like illness (fever, myalgias, joint pain, headache)\nEarly disease can be mistaken for meningitis with occasional neck stiffness and sensitivity to light\nResolves within 1 week",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Occular form- 0.5-2% of patients\nMild disease form + retinal lesions, blurred and decreased vision\nRetinal lesions occur 1-3 weeks after disease onset and last 10-12 weeks\n50% of patients with macular lesions will develop permanent vision loss\nMeningoencephalitis form- <1% of patients\nSevere headache, memory loss, hallucinations, confusion, vertigo, seizures, coma, and late neurological complications\nOnset is 1-4 weeks after mild symptoms\nResidual severe neurological deficits are common\nHemorrhagic fever form- <1% of patients\nJaundice is first sign due to liver dysfunction\nHemorrhage (vomit, stool, gums, menorrhagia), purpuric rash, echymosis\nOnset is 2-4 days after illness, death in 3-6 days\nMost fatalities from RVF, 50% fatality rate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mild": {
+      "text": "No symptoms or flu-like illness (fever, myalgias, joint pain, headache)\nEarly disease can be mistaken for meningitis with occasional neck stiffness and sensitivity to light\nResolves within 1 week",
+      "subsections": {
+        "Severe": {
+          "text": "Occular form- 0.5-2% of patients\nMild disease form + retinal lesions, blurred and decreased vision\nRetinal lesions occur 1-3 weeks after disease onset and last 10-12 weeks\n50% of patients with macular lesions will develop permanent vision loss\nMeningoencephalitis form- <1% of patients\nSevere headache, memory loss, hallucinations, confusion, vertigo, seizures, coma, and late neurological complications\nOnset is 1-4 weeks after mild symptoms\nResidual severe neurological deficits are common\nHemorrhagic fever form- <1% of patients\nJaundice is first sign due to liver dysfunction\nHemorrhage (vomit, stool, gums, menorrhagia), purpuric rash, echymosis\nOnset is 2-4 days after illness, death in 3-6 days\nMost fatalities from RVF, 50% fatality rate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Severe": {
+      "text": "Occular form- 0.5-2% of patients\nMild disease form + retinal lesions, blurred and decreased vision\nRetinal lesions occur 1-3 weeks after disease onset and last 10-12 weeks\n50% of patients with macular lesions will develop permanent vision loss\nMeningoencephalitis form- <1% of patients\nSevere headache, memory loss, hallucinations, confusion, vertigo, seizures, coma, and late neurological complications\nOnset is 1-4 weeks after mild symptoms\nResidual severe neurological deficits are common\nHemorrhagic fever form- <1% of patients\nJaundice is first sign due to liver dysfunction\nHemorrhage (vomit, stool, gums, menorrhagia), purpuric rash, echymosis\nOnset is 2-4 days after illness, death in 3-6 days\nMost fatalities from RVF, 50% fatality rate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pursue other possible causes of fever\nIgM ELISA, viral detection, and RT-PCR can be used to diagnose acute infection.  IgG ELISA for previous infection.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Mild: requires no intervention (self limited_\nSevere\nSupportive Care\nPain control\nDO NOT use\nASA\nin hemorrhagic form\nIVFs\nBlood Component\nTransfusion\n- consider in hemorrhagic shock",
+      "subsections": {
+        "Vaccines": {
+          "text": "Inactivated vaccine has been developed for humans\nNot licensed and not commercially available\nExperimental use on veterinary and lab workers\nApproved vaccines for livestock",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "IVFs",
+          "url": "https://wikem.org/wiki/IVFs"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        }
+      ]
+    },
+    "Vaccines": {
+      "text": "Inactivated vaccine has been developed for humans\nNot licensed and not commercially available\nExperimental use on veterinary and lab workers\nApproved vaccines for livestock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Isolation precautions\n: standard, contact, and consider droplet\nAdmit if severe form suspected, likely ICU\nConsult ID\nConsult ophthalmology for ocular form",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Isolation precautions",
+          "url": "https://wikem.org/wiki/Isolation_precautions"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fever in Travelers\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever in Travelers",
+          "url": "https://wikem.org/wiki/Fever_in_Travelers"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "WHO - Rift Valley Fever\nCDC - Rift Valley Fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

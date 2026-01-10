@@ -1,0 +1,141 @@
+{
+  "drug_name": "Resuscitative_endovascular_balloon_occlusion_of_the_aorta",
+  "url": "https://wikem.org/wiki/Resuscitative_endovascular_balloon_occlusion_of_the_aorta",
+  "scraped_at": "2026-01-10T08:01:23.294670",
+  "sections": {
+    "Overview": {
+      "text": "Abbreviation: REBOA\nType of catheter based hemorrhage control\nHemorrhage is a leading cause of trauma-related mortality\n[1]\nREBOA has been proposed as a less invasive alternative to resuscitative thoracotomy\nResearch is ongoing, but has yet to demonstrate a mortality benefit\n[2]\nRetrospective case-control analysis found higher mortality for REBOA patients compared to similar cohort, higher complication rates of AKI and lower limb amputation\n[3]",
+      "subsections": {
+        "REBOA_Zones": {
+          "text": "Zone 1:\nFrom left subclavian artery to the celiac trunk\nZone 2:\nFrom the celiac trunk to the lowest renal artery\nZone 2 is an unused zone because if of difficulty in occluding the bleeding vessel at this aortic location\nZone 3:\nFrom lowest renal artery to the aortic bifurcation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "REBOA_Zones": {
+      "text": "Zone 1:\nFrom left subclavian artery to the celiac trunk\nZone 2:\nFrom the celiac trunk to the lowest renal artery\nZone 2 is an unused zone because if of difficulty in occluding the bleeding vessel at this aortic location\nZone 3:\nFrom lowest renal artery to the aortic bifurcation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Non-compressible\nhemorrhage\nbelow the diaphragm in the abdomen, pelvis or retroperitoneum\n[4]\nPositive\nFAST\nPelvic fracture\nwith negative FAST\nTraumatic cardiac arrest\nwithout\naortic dissection or pericardial tamponade\nSuspected traumatic abdominal hemorrhage (Zone I REBOA)\nBlunt pelvic injury or groin junctional hemorrhage (Zone III REBOA)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Traumatic cardiac arrest",
+          "url": "https://wikem.org/wiki/Traumatic_cardiac_arrest"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Age ≤18 or ≥70y\nAtraumatic\ncardiac arrest\nProximal\ntraumatic aortic dissection\nProximal\naortic dissection\nCardiac tamponade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "traumatic aortic dissection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_rupture"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Ultrasound\nREBOA Kit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Immediately perform a\nFAST\nexam to assess for\npericardial tamponade\n(contraindication)\nAccess the\ncommon femoral artery\nunder ultarsound guidance and place a standard 18G arterial line\nPass a 260cm guidewire through that arterial line up to the level of the left subclavian\nObtain a chest Xray if feasible to confirm the position of the guidewire\nEstimate length of catheter insertion based on desired location and external landmarks\nZone 1: Xiphoid process for Zone 1 (aprox 50cm)\nZone 3: umbilicus for Zone 3 (approx 40cm)\nPlace the REBOA 12 French arterial line  introducer sheath\nAdvance the catheter over the wire through the sheath, then inflate the balloon with saline in the desired zone\nResistance will be felt as the balloon inflates against the wall of the aorta and\nblood pressure will increase substantially if successful",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Failure to access the common femoral artery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracotomy\nPericardial tamponade\nThoracic trauma\nAbdominal trauma\nArterial line",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "Pericardial tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_tamponade"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        },
+        {
+          "text": "Abdominal trauma",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "Arterial line",
+          "url": "https://wikem.org/wiki/Arterial_line"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "REBOA 101 ERCast",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=b-s2cpuHq9k}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=b-s2cpuHq9k}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

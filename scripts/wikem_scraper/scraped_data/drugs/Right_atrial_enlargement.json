@@ -1,0 +1,73 @@
+{
+  "drug_name": "Right_atrial_enlargement",
+  "url": "https://wikem.org/wiki/Right_atrial_enlargement",
+  "scraped_at": "2026-01-10T08:01:32.888761",
+  "sections": {
+    "ECG_Findings": {
+      "text": "Rarely isolated finding (usually RVH/RAD also)\nP amplitude >2.5mm in II\nLarge biphasic p wave in V1 (> 1.5 mm in V1 and V2)\nRight atrial hyper.-initial component is larger in V1 than V6\np-mitrale-m notched p wave in leads 1 and 2. Greater than .12 seconds.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Hypertrophy_and_Enlargement": {
+          "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        }
+      ]
+    },
+    "Cardiac_Hypertrophy_and_Enlargement": {
+      "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Basics)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Basics)",
+          "url": "https://wikem.org/wiki/ECG_(Basics)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Adapted from Niemann, Lampe, Pani, Donaldson, ECGpedia.org\nJournal of Electrocardiology. Vol 43 (2010). 40-42.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "drug_name": "Resuscitative_hysterotomy",
+  "url": "https://wikem.org/wiki/Resuscitative_hysterotomy",
+  "scraped_at": "2026-01-10T08:01:25.509895",
+  "sections": {
+    "Background": {
+      "text": "Previously known as \"perimortem c-section\"\nCurrent terminology emphasizes benefit to mother as well as fetus\nRemoval of infant from gravid uterus is potentially life-saving for both mother and neonate\n[1]\nConsider etiologies of maternal cardiac arrest, but do not delay procedure while addressing all possibilities\nBest outcome within 4 minutes of maternal arrest\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Maternal cardiac arrest\nwithout ROSC within 4 minutes\n[3]\nEstimated Gestational age >24 weeks based on\nfundal height estimate\n[4]\nFundus reaches level of umbilicus at approximately 20 weeks and increases ~1 cm each week thereafter\nFundus approaches xiphoid around 36-38 weeks\nNot necessary to document fetal heart tones prior to procedure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Maternal cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest_in_pregnancy"
+        },
+        {
+          "text": "fundal height estimate",
+          "url": "https://wikem.org/wiki/Fundal_exam_in_pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Known gestational age <24 weeks\nROSC within 4 minutes of arrest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "C-Section or abdominal exploratory laparotomy kit ideal if available\nEmergency thoracotomy kit has many of the needed supplies\nIf surgical kit unavailable:\nScalpel\nLarge scissors\nHemostats\nSterile gauze\nBetadine or chlorhexadine\nSterile attire\nSkin stapler",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pre-Procedure": {
+      "text": "Call for help\nAnesthesia\nRespiratory therapist\nNICU or pediatrics\nObstetrics\nGeneral surgery\nSecure airway\nEstablish IV access\nCardiac monitor\nPlace foley catheter to drain bladder and decrease risk of bladder injury\nPrepare isolette, blankets, and other appropriate equipment for neonate\nDivide team into maternal team and neonate team\nCall for blood products\nDo not delay beyond 4 minutes of maternal arrest even if the above preparations have not been achieved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Continue CPR throughout procedure as long as it can be safely accomplished\nWidely cleanse abdomen\nUse scalpel to make a midline incision from the uterine fundus to pubic symphysis\nDissect into peritoneal cavity using scalpel or scissors\nMake a 2 cm incision into the uterine cavity using scalpel\nInsert two fingers into the uterine incision between baby's body and myometrium, and use scissors to advance the incised opening\nIf anterior placenta is encountered, sharply incise through it\nManually deliver infant from uterus, avoiding grasping the infant around the abdomen\nCut and clamp the umbilical cord and pass infant to neonatal team\nDeliver the placenta by gentle traction\nPack uterus with sterile gauze\nClose abdominal incision using skin stapler\nContinue maternal resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Fetal injury\nDIC\nHemorrhagic shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        }
+      ]
+    },
+    "Follow-up": {
+      "text": "Based on maternal outcome\nIf maternal survival is anticipated, give broad spectrum antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pregnancy (main)\nCardiac arrest in pregnancy\nTrauma in pregnancy\nEmergent delivery\nFundal exam in pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Cardiac arrest in pregnancy",
+          "url": "https://wikem.org/wiki/Cardiac_arrest_in_pregnancy"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Fundal exam in pregnancy",
+          "url": "https://wikem.org/wiki/Fundal_exam_in_pregnancy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://first10em.com/cardiac-arrest-in-pregnancy-the-perimortem-cesarean-section/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=IwDWv2iyAos}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

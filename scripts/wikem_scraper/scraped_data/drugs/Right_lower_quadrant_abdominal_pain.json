@@ -1,0 +1,457 @@
+{
+  "drug_name": "Right_lower_quadrant_abdominal_pain",
+  "url": "https://wikem.org/wiki/Right_lower_quadrant_abdominal_pain",
+  "scraped_at": "2026-01-10T08:01:33.116173",
+  "sections": {
+    "Background": {
+      "text": "This page describes the general approach to RLQ pain in adults",
+      "subsections": {
+        "Classification_by_Abdominal_pain_location": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "RUQ pain": "Flank pain",
+                "Epigastric pain": "Diffuse abdominal pain",
+                "LUQ pain": "Flank pain"
+              },
+              {
+                "RUQ pain": "RLQ pain",
+                "Epigastric pain": "Pelvic pain",
+                "LUQ pain": "LLQ pain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification_by_Abdominal_pain_location": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "RUQ pain": "Flank pain",
+            "Epigastric pain": "Diffuse abdominal pain",
+            "LUQ pain": "Flank pain"
+          },
+          {
+            "RUQ pain": "RLQ pain",
+            "Epigastric pain": "Pelvic pain",
+            "LUQ pain": "LLQ pain"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Right lower quadrant abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "RLQ_Pain": {
+      "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Alvarado_Clinical_Scoring_System": {
+          "text": "Clinical scoring system, where a score (Total=10) is composed on presence/absence of 3 signs, 3 symptoms and 2 lab values to help guide in case management.\n≤3 = Appendicitis unlikely\n≥7 = Surgical consultation\n4-6 = Consider CT\nMANTRELS\nMnemonic:\nM\nigration to the right iliac fossa,\nA\nnorexia,\nN\nausea/Vomiting,\nT\nenderness in the right iliac fossa,\nR\nebound pain,\nE\nlevated temperature (fever),\nL\neukocytosis, and\nS\nhift of leukocytes to the left (factors listed in the same order as presented above).",
+          "tables": [
+            [
+              {
+                "Right Lower Quadrant Tenderness": "Elevated Temperature (37.3°C or 99.1°F)",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Rebound Tenderness",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Migration of Pain to the Right Lower Quadrant",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Anorexia",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Nausea or Vomiting",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocytosis > 10,000",
+                "+2": "+2"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocyte Left Shift",
+                "+2": "+1"
+              }
+            ]
+          ]
+        },
+        "Workup": {
+          "text": "Include genital exam (pelvic exam or testicular), if appropriate",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nUrinalysis\nLeukocytes will be present in 40% of patients\n[1]\nUrine pregnancy test (if age and sex appropriate)",
+          "tables": []
+        },
+        "Male": {
+          "text": "Typically start with CT abdomen/pelvis (to rule out\nappy\n)",
+          "tables": []
+        },
+        "Female": {
+          "text": "Frequently utilize bimanual pelvic exam to determine first study:\nMore consistent with pelvic origin\nPelvic\nultrasound\n(rule out\novarian torsion\n)\nIf negative, consider CT abdomen/pelvis^ (to rule out\nappy\n)\nMore consistent with intra-abdominal origin\nCT abdomen/pelvis^ (to rule out\nappy\n)\nIf negative, consider pelvic\nultrasound\n(rule out\novarian torsion\n)\n^If pregnant, consider substituting MRI for CT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis may be determined via a combination of history, labs, and/or imaging\nAbout one-third of patients do not have a definitive diagnosis by end of ED workup\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Appendicitis_Risk_Scores": {
+      "text": "",
+      "subsections": {
+        "Alvarado_Clinical_Scoring_System": {
+          "text": "Clinical scoring system, where a score (Total=10) is composed on presence/absence of 3 signs, 3 symptoms and 2 lab values to help guide in case management.\n≤3 = Appendicitis unlikely\n≥7 = Surgical consultation\n4-6 = Consider CT\nMANTRELS\nMnemonic:\nM\nigration to the right iliac fossa,\nA\nnorexia,\nN\nausea/Vomiting,\nT\nenderness in the right iliac fossa,\nR\nebound pain,\nE\nlevated temperature (fever),\nL\neukocytosis, and\nS\nhift of leukocytes to the left (factors listed in the same order as presented above).",
+          "tables": [
+            [
+              {
+                "Right Lower Quadrant Tenderness": "Elevated Temperature (37.3°C or 99.1°F)",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Rebound Tenderness",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Migration of Pain to the Right Lower Quadrant",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Anorexia",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Nausea or Vomiting",
+                "+2": "+1"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocytosis > 10,000",
+                "+2": "+2"
+              },
+              {
+                "Right Lower Quadrant Tenderness": "Leukocyte Left Shift",
+                "+2": "+1"
+              }
+            ]
+          ]
+        },
+        "Workup": {
+          "text": "Include genital exam (pelvic exam or testicular), if appropriate",
+          "tables": []
+        },
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nUrinalysis\nLeukocytes will be present in 40% of patients\n[1]\nUrine pregnancy test (if age and sex appropriate)",
+          "tables": []
+        },
+        "Male": {
+          "text": "Typically start with CT abdomen/pelvis (to rule out\nappy\n)",
+          "tables": []
+        },
+        "Female": {
+          "text": "Frequently utilize bimanual pelvic exam to determine first study:\nMore consistent with pelvic origin\nPelvic\nultrasound\n(rule out\novarian torsion\n)\nIf negative, consider CT abdomen/pelvis^ (to rule out\nappy\n)\nMore consistent with intra-abdominal origin\nCT abdomen/pelvis^ (to rule out\nappy\n)\nIf negative, consider pelvic\nultrasound\n(rule out\novarian torsion\n)\n^If pregnant, consider substituting MRI for CT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis may be determined via a combination of history, labs, and/or imaging\nAbout one-third of patients do not have a definitive diagnosis by end of ED workup\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Include genital exam (pelvic exam or testicular), if appropriate",
+      "subsections": {
+        "Labs": {
+          "text": "Abdominal panel\nCBC\nChemistry\nConsider LFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nUrinalysis\nLeukocytes will be present in 40% of patients\n[1]\nUrine pregnancy test (if age and sex appropriate)",
+          "tables": []
+        },
+        "Male": {
+          "text": "Typically start with CT abdomen/pelvis (to rule out\nappy\n)",
+          "tables": []
+        },
+        "Female": {
+          "text": "Frequently utilize bimanual pelvic exam to determine first study:\nMore consistent with pelvic origin\nPelvic\nultrasound\n(rule out\novarian torsion\n)\nIf negative, consider CT abdomen/pelvis^ (to rule out\nappy\n)\nMore consistent with intra-abdominal origin\nCT abdomen/pelvis^ (to rule out\nappy\n)\nIf negative, consider pelvic\nultrasound\n(rule out\novarian torsion\n)\n^If pregnant, consider substituting MRI for CT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis may be determined via a combination of history, labs, and/or imaging\nAbout one-third of patients do not have a definitive diagnosis by end of ED workup\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "",
+      "subsections": {
+        "Male": {
+          "text": "Typically start with CT abdomen/pelvis (to rule out\nappy\n)",
+          "tables": []
+        },
+        "Female": {
+          "text": "Frequently utilize bimanual pelvic exam to determine first study:\nMore consistent with pelvic origin\nPelvic\nultrasound\n(rule out\novarian torsion\n)\nIf negative, consider CT abdomen/pelvis^ (to rule out\nappy\n)\nMore consistent with intra-abdominal origin\nCT abdomen/pelvis^ (to rule out\nappy\n)\nIf negative, consider pelvic\nultrasound\n(rule out\novarian torsion\n)\n^If pregnant, consider substituting MRI for CT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Definitive diagnosis may be determined via a combination of history, labs, and/or imaging\nAbout one-third of patients do not have a definitive diagnosis by end of ED workup\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Definitive diagnosis may be determined via a combination of history, labs, and/or imaging\nAbout one-third of patients do not have a definitive diagnosis by end of ED workup\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying disease process\nIf imaging studies are negative, but bimanual was positive, consider empiric treatment for\nPID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Per underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain\nAbdominal Pain (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

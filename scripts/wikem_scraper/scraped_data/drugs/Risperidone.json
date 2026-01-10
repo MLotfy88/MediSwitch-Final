@@ -1,0 +1,498 @@
+{
+  "drug_name": "Risperidone",
+  "url": "https://wikem.org/wiki/Risperidone",
+  "scraped_at": "2026-01-10T08:01:35.846198",
+  "sections": {
+    "Administration": {
+      "text": "Type: Atypical\nantipsychotic\nDosage Forms: 0.25mg, 0.5mg, 1mg, 2mg, 3mg, 4mg; 1mg/mL\nRoutes of Administration: Oral, IM\nCommon Trade Names: Risperdal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antipsychotic",
+          "url": "https://wikem.org/wiki/Antipsychotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Schizophrenia": {
+          "text": "<65 yo, 1st episode\n1-3 mg/day PO divided qd/bid\nMax: 16mg/day\n<65 yo, maintenance\n1-4 mg/day PO divided qd/bid\n65+ yo\n1-4 mg/day PO divided qd/bid\nDoses >4 mg/day rarely more effective",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_1,_Acute_manic": {
+          "text": "1-6 mg/day PO divided qd/bid\nMax: 6 mg/day",
+          "tables": []
+        },
+        "Tourette_Syndrome": {
+          "text": "0.25-3 mg/day PO divided qd-bid\nMax 6 mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Schizophrenia": {
+      "text": "<65 yo, 1st episode\n1-3 mg/day PO divided qd/bid\nMax: 16mg/day\n<65 yo, maintenance\n1-4 mg/day PO divided qd/bid\n65+ yo\n1-4 mg/day PO divided qd/bid\nDoses >4 mg/day rarely more effective",
+      "subsections": {
+        "Bipolar_disorder,_Type_1,_Acute_manic": {
+          "text": "1-6 mg/day PO divided qd/bid\nMax: 6 mg/day",
+          "tables": []
+        },
+        "Tourette_Syndrome": {
+          "text": "0.25-3 mg/day PO divided qd-bid\nMax 6 mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_disorder,_Type_1,_Acute_manic": {
+      "text": "1-6 mg/day PO divided qd/bid\nMax: 6 mg/day",
+      "subsections": {
+        "Tourette_Syndrome": {
+          "text": "0.25-3 mg/day PO divided qd-bid\nMax 6 mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tourette_Syndrome": {
+      "text": "0.25-3 mg/day PO divided qd-bid\nMax 6 mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Pediatric_procedural_sedation": {
+          "text": "0.01mg/kg/dose IM (typically 0.25-4mg/dose)",
+          "tables": []
+        },
+        "Schizophrenia_2": {
+          "text": "1-6 mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_1,_Acute_mania": {
+          "text": "0.5-6mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Irritability,_Autistic_disorder_associated": {
+          "text": "0.5-3 mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Tourrette_syndrome": {
+          "text": "0.75-3 mg/day PO divided qd/bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_procedural_sedation": {
+      "text": "0.01mg/kg/dose IM (typically 0.25-4mg/dose)",
+      "subsections": {
+        "Schizophrenia_2": {
+          "text": "1-6 mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_1,_Acute_mania": {
+          "text": "0.5-6mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Irritability,_Autistic_disorder_associated": {
+          "text": "0.5-3 mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Tourrette_syndrome": {
+          "text": "0.75-3 mg/day PO divided qd/bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Schizophrenia_2": {
+      "text": "1-6 mg/day PO divided qd/bid",
+      "subsections": {
+        "Bipolar_disorder,_Type_1,_Acute_mania": {
+          "text": "0.5-6mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Irritability,_Autistic_disorder_associated": {
+          "text": "0.5-3 mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Tourrette_syndrome": {
+          "text": "0.75-3 mg/day PO divided qd/bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_disorder,_Type_1,_Acute_mania": {
+      "text": "0.5-6mg/day PO divided qd/bid",
+      "subsections": {
+        "Irritability,_Autistic_disorder_associated": {
+          "text": "0.5-3 mg/day PO divided qd/bid",
+          "tables": []
+        },
+        "Tourrette_syndrome": {
+          "text": "0.75-3 mg/day PO divided qd/bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Irritability,_Autistic_disorder_associated": {
+      "text": "0.5-3 mg/day PO divided qd/bid",
+      "subsections": {
+        "Tourrette_syndrome": {
+          "text": "0.75-3 mg/day PO divided qd/bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tourrette_syndrome": {
+      "text": "0.75-3 mg/day PO divided qd/bid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal:\nAdult:\nCrCl <30: Start 0.5 mg BID then increase by 0.5mg BID weekly\nHD: Not defined\nPediatric:\nNot defined, see adult dosing.\nHepatic:\nAdult:\nChild-Pugh Class C: Start 0.5 mg BID and increase by 0.5mg BID weekly\nPediatric:\nNot defined, see adult dosing.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nPediatric/adolescent pts\nPregnancy 3rd trimester\nElderly pts\nDementia-related psychosis\nRenal impairment\nHepatic impairment\nParkinson's Disease\nNeuroleptic malignant syndrome\nhistory\nSeizure history\nCardiovascular disease\nDiabetes mellitus\nSuicide risk",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypotension\n,\nsyncope\nExtrapyramidal symptoms:\ntardive dyskinesia\nNeuroleptic malignant syndrome\n,\nhyperthermia\nHyperglycemia\n,\ndiabetes mellitus\n,\nDKA\nSeizure\n,\nPriapism\n,\nStroke\n,\nTIA\nDysphagia\nLeukopenia\n,\nNeutropenia\n,\nAgranulocytosis\nSuicidality\nPancreatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Akathisia, dystonia, parkinsonism, tremor\nSedation/\nfatigue\n,\ndizziness\n, blurred vision,\nanxiety\n, confusion\nRash\nHyperprolactinemia, weight gain, increased appetite\nConstipation\n,\ndiarrhea\n,\nnausea\n/\nvomiting\nUrinary incontinence\nCough\n, URI\nPhotosensitivity\n, visual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "tardive dyskinesia",
+          "url": "https://wikem.org/wiki/Tardive_dyskinesia"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypotension\n,\nsyncope\nExtrapyramidal symptoms:\ntardive dyskinesia\nNeuroleptic malignant syndrome\n,\nhyperthermia\nHyperglycemia\n,\ndiabetes mellitus\n,\nDKA\nSeizure\n,\nPriapism\n,\nStroke\n,\nTIA\nDysphagia\nLeukopenia\n,\nNeutropenia\n,\nAgranulocytosis\nSuicidality\nPancreatitis",
+      "subsections": {
+        "Common": {
+          "text": "Akathisia, dystonia, parkinsonism, tremor\nSedation/\nfatigue\n,\ndizziness\n, blurred vision,\nanxiety\n, confusion\nRash\nHyperprolactinemia, weight gain, increased appetite\nConstipation\n,\ndiarrhea\n,\nnausea\n/\nvomiting\nUrinary incontinence\nCough\n, URI\nPhotosensitivity\n, visual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "tardive dyskinesia",
+          "url": "https://wikem.org/wiki/Tardive_dyskinesia"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Akathisia, dystonia, parkinsonism, tremor\nSedation/\nfatigue\n,\ndizziness\n, blurred vision,\nanxiety\n, confusion\nRash\nHyperprolactinemia, weight gain, increased appetite\nConstipation\n,\ndiarrhea\n,\nnausea\n/\nvomiting\nUrinary incontinence\nCough\n, URI\nPhotosensitivity\n, visual disturbance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 20h (PO); 3-6 day (IM)\nMetabolism: Hepatic, CYP2D6\nExcretion: Urine 70%, Feces 14%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Unknown\n5HT-2 inhibitor, weaker D2 inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antipsychotics\nAntipsychotic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Antipsychotic toxicity",
+          "url": "https://wikem.org/wiki/Antipsychotic_toxicity"
+        }
+      ]
+    }
+  }
+}

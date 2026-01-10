@@ -1,0 +1,243 @@
+{
+  "drug_name": "Ring-enhancing_lesion",
+  "url": "https://wikem.org/wiki/Ring-enhancing_lesion",
+  "scraped_at": "2026-01-10T08:01:33.746219",
+  "sections": {
+    "Background": {
+      "text": "CT\nor\nMRI\nwith lesions having an enhancing ring of contrast around a less dense center can indicate certain neurological infections, injuries, and indolent disorders\nImmune status of patients is key in helping to narrow potential causative agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Clinical presentation can vary from asymptomatic to focal neurodeficits to coma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common_Mnemonic:_DR_MAGIC": {
+          "text": "D\nemyelination\nR\nadionecrosis/hematoma\nM\netastasis\nA\nbscess (consider bacterial, fungal, parasitic)\nG\nlioma (and other primary neoplasms such as lymphoma)\nI\nnfarction\nC\nontusion",
+          "tables": []
+        },
+        "HIV_and_ring-enhancing_lesion(s)": {
+          "text": "Toxoplasmosis\nv. lymphoma (see comparison of characteristics at\nRadiopaedia.org\n.)",
+          "tables": []
+        },
+        "Neoplasm": {
+          "text": "Primary\nbrain tumor\nPrimary CNS lymphoma\nMetastatic disease",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Pyogenic\nbrain abscess\nTuberculoma\nToxoplasmosis\nSyphilis\nNeurocysticercosis\nNocardiosis\nCryptococcosis\nAspergillosis",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Multiple Sclerosis\nSarcoidosis\nVasculitis\nAneurysm\nResolving\nhematoma\nCerebral infarct\nPost-op changes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Tuberculoma",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Neurocysticercosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "hematoma",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Cerebral infarct",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Ring-Enhancing_Lesion": {
+      "text": "",
+      "subsections": {
+        "Common_Mnemonic:_DR_MAGIC": {
+          "text": "D\nemyelination\nR\nadionecrosis/hematoma\nM\netastasis\nA\nbscess (consider bacterial, fungal, parasitic)\nG\nlioma (and other primary neoplasms such as lymphoma)\nI\nnfarction\nC\nontusion",
+          "tables": []
+        },
+        "HIV_and_ring-enhancing_lesion(s)": {
+          "text": "Toxoplasmosis\nv. lymphoma (see comparison of characteristics at\nRadiopaedia.org\n.)",
+          "tables": []
+        },
+        "Neoplasm": {
+          "text": "Primary\nbrain tumor\nPrimary CNS lymphoma\nMetastatic disease",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Pyogenic\nbrain abscess\nTuberculoma\nToxoplasmosis\nSyphilis\nNeurocysticercosis\nNocardiosis\nCryptococcosis\nAspergillosis",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Multiple Sclerosis\nSarcoidosis\nVasculitis\nAneurysm\nResolving\nhematoma\nCerebral infarct\nPost-op changes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Tuberculoma",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Neurocysticercosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "hematoma",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Cerebral infarct",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ring-enhancing lesion is a radiologic diagnosis\nWorkup must be directed towards presentation, comorbidities, and risk factors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Focused treatment plan based on etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Typically require admission for further work up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxoplasmosis\nMultiple sclerosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Radiopaedia.org - Toxoplasmosis versus Lymphoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

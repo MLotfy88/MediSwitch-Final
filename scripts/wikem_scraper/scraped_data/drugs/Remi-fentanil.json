@@ -1,0 +1,173 @@
+{
+  "drug_name": "Remi-fentanil",
+  "url": "https://wikem.org/wiki/Remi-fentanil",
+  "scraped_at": "2026-01-10T08:01:19.372654",
+  "sections": {
+    "Administration": {
+      "text": "Type: Synthetic\nopioid\n(ultra short acting)\nRoutes of Administration: IV\nCommon Trade Names: ULTIVA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1mcg/kg bolus for acute pain\n.25-5 mcg/kg/hr (titrate q20min) for maintenance analgesia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "1mcg/kg bolus for acute pain\n.25-5 mcg/kg/hr (titrate q20min) for maintenance analgesia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Prolonged use of opioid analgesics during pregnancy may cause neonatal opioid withdrawal syndrome",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Risk is unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by renal dysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by liverdysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Prolonged use of opioid analgesics during pregnancy may cause neonatal opioid withdrawal syndrome",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Risk is unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by renal dysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by liverdysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Risk is unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by renal dysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by liverdysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Pharmacodynamics are not affected by renal dysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Pharmacodynamics are not affected by liverdysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Pharmacodynamics are not affected by liverdysfunction\nPediatric: Pharmacodynamics are not affected by renal dysfunction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Respiratory depression",
+          "tables": []
+        },
+        "Common": {
+          "text": "Respiratory depression for large doses dependent on body weight.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Respiratory depression",
+      "subsections": {
+        "Common": {
+          "text": "Respiratory depression for large doses dependent on body weight.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Respiratory depression for large doses dependent on body weight.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1--20 min\nMetabolism: plasma and tissue esterases\nExcretion: NA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Opiod mu receptor agonist that unlike other opioids is plasma metabolized irrespective of hepatic function.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Opioid Overdose\nOpioid Withdrawal\nProcedural Sedation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioid Overdose",
+          "url": "https://wikem.org/wiki/Opioid_Overdose"
+        },
+        {
+          "text": "Opioid Withdrawal",
+          "url": "https://wikem.org/wiki/Opioid_Withdrawal"
+        },
+        {
+          "text": "Procedural Sedation",
+          "url": "https://wikem.org/wiki/Procedural_Sedation"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "drug_name": "Retinal_detachment",
+  "url": "https://wikem.org/wiki/Retinal_detachment",
+  "scraped_at": "2026-01-10T08:01:23.010149",
+  "sections": {
+    "Background": {
+      "text": "Average age of onset ~55",
+      "subsections": {
+        "Types": {
+          "text": "Rhegmatogenous (rhegma means \"tear\")\nAs vitreous separates from retina the traction creates a hole in retina\nFluid goes through the hole and peels the retina off like wallpaper\nExudative\nFluid accumulates beneath the retina without a retinal tear\nAssociated with neoplasm, inflammatory conditions,\nhypertension\n,\npreeclampsia\nTractional\nAcquired fibrocellular bands in the vitrous contract and detach the retina\nAssociated with\nDM\n,\nsickle cell\n,\ntrauma\nDistinguish between mac-off and mac-on",
+          "tables": []
+        },
+        "Other_risk_factors": {
+          "text": "Aging\nPrevious retinal detachment\nFamily history of retinal detachment\nExtreme myopia\nEye surgery, cataract removals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Rhegmatogenous (rhegma means \"tear\")\nAs vitreous separates from retina the traction creates a hole in retina\nFluid goes through the hole and peels the retina off like wallpaper\nExudative\nFluid accumulates beneath the retina without a retinal tear\nAssociated with neoplasm, inflammatory conditions,\nhypertension\n,\npreeclampsia\nTractional\nAcquired fibrocellular bands in the vitrous contract and detach the retina\nAssociated with\nDM\n,\nsickle cell\n,\ntrauma\nDistinguish between mac-off and mac-on",
+      "subsections": {
+        "Other_risk_factors": {
+          "text": "Aging\nPrevious retinal detachment\nFamily history of retinal detachment\nExtreme myopia\nEye surgery, cataract removals",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        }
+      ]
+    },
+    "Other_risk_factors": {
+      "text": "Aging\nPrevious retinal detachment\nFamily history of retinal detachment\nExtreme myopia\nEye surgery, cataract removals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abrupt onset of new\n\"floaters\" or flashes of light\nVitreous tugs on the retina before separation\nVisual acuity loss\n(filmy, cloudy, or curtain-like) or\nvisual field\nloss\nMay be mild or dramatic\nFundoscopic exam\nwith dilation\nOn fundoscopy, elevated retina will appear hazy gray and out of focus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "\"floaters\" or flashes of light",
+          "url": "https://wikem.org/wiki/Acute_onset_flashers_and_floaters"
+        },
+        {
+          "text": "Visual acuity loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "visual field",
+          "url": "https://wikem.org/wiki/Visual_field_defects"
+        },
+        {
+          "text": "Fundoscopic exam",
+          "url": "https://wikem.org/wiki/Fundoscopic_exam"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        },
+        "Acute_onset_flashers_and_floaters": {
+          "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Acute_onset_flashers_and_floaters": {
+      "text": "Ocular causes\nFloaters and/or flashes\nPosterior vitreous detachment\nRetinal tear or\nretinal detachment\nPosterior\nuveitis\nPredominantly floaters\nVitreous hemorrhage\nsecondary to proliferative retinopathy\nSympathetic ophthalmia\nPredominantly flashes\nOculodigital stimulation\nRapid eye movements\nNeovascular age-related macular degeneration\nNon-ocular causes\nIntraocular foreign body\nMigraine\naura (classic)\nMigraine aura (acephalgicmigraine)\nOccipital lobe disorders\nPostural hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Sympathetic ophthalmia",
+          "url": "https://wikem.org/wiki/Sympathetic_ophthalmia"
+        },
+        {
+          "text": "Intraocular foreign body",
+          "url": "https://wikem.org/wiki/Intraocular_foreign_body"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ocular ultrasound\n(LR+ 12, LR– 0.27)\n[1]\nGenerally remains anchored to the optic disc in most posterior section of the eye\nAppears as a hyperechoic membrane floating in the vitreous chamber\nThere are many studies out there confirming high sensitivity/specificity, recent study showing 94% sensitive/96% specific when performed by radiology and 92% sensitive/91% specific when performed by emergency providers\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Position patient relative to area of retinal detachment so retina lies flat:\nSuperior detachment = lay patient's head in supine position\nInferior detachment = elevate head up\nDifferent from face-down recovery position after pneumatic retinopexy (so that bubble covers retinal break)\nMay know where retinal detachment is by a couple of clues:\nGood fundoscopy\nUS beam orientation\nVisual Field Defects\nexamples\n[3]\n:\nSuperior detachment may have inferior visual field defect\nTemporal detachment may have nasal visual field defect",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Visual Field Defects",
+          "url": "https://wikem.org/wiki/Visual_Field_Defects"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most likely admit vs same-day (immediate) referral to retinal surgeon (minutes may matter)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Onset Flashers and Floaters\nOcular ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Onset Flashers and Floaters",
+          "url": "https://wikem.org/wiki/Acute_Onset_Flashers_and_Floaters"
+        },
+        {
+          "text": "Ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "drug_name": "Rhythm_diagnosis_in_regular_wide_complex_tachycardia",
+  "url": "https://wikem.org/wiki/Rhythm_diagnosis_in_regular_wide_complex_tachycardia",
+  "scraped_at": "2026-01-10T08:01:30.495810",
+  "sections": {
+    "Intro": {
+      "text": "Assume\nventricular tachycardia\nuntil proven otherwise\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Some patients with\nregular\nwide complex tachycardia\ndo not have\nventricular tachycardia\nHowever,\nventricular tachycardia\nis a dangerous rhythm that must be treated emergently",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "wide complex tachycardia",
+          "url": "https://wikem.org/wiki/Wide_complex_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Factor": "Age",
+            "V-Tach": ">50",
+            "SVTwith Aberrancy": "<35"
+          },
+          {
+            "Factor": "History",
+            "V-Tach": "MI, CHF, CABG, MVR",
+            "SVTwith Aberrancy": "MVR, WPW"
+          },
+          {
+            "Factor": "Cannon A Waves",
+            "V-Tach": "Present",
+            "SVTwith Aberrancy": "Absent"
+          },
+          {
+            "Factor": "Arterial Pulse",
+            "V-Tach": "Variation",
+            "SVTwith Aberrancy": "No variation"
+          },
+          {
+            "Factor": "First heart sound",
+            "V-Tach": "Variable",
+            "SVTwith Aberrancy": "Not variable"
+          },
+          {
+            "Factor": "Fusion Beats",
+            "V-Tach": "Present",
+            "SVTwith Aberrancy": "Absent"
+          },
+          {
+            "Factor": "AV dissociation",
+            "V-Tach": "Present",
+            "SVTwith Aberrancy": "Absent"
+          },
+          {
+            "Factor": "QRS",
+            "V-Tach": ">0.14sec",
+            "SVTwith Aberrancy": "<0.14sec"
+          },
+          {
+            "Factor": "Axis",
+            "V-Tach": "Extreme LAD (< -30)",
+            "SVTwith Aberrancy": "Normal or slightly abnormal"
+          },
+          {
+            "Factor": "Vagal Maneuvers",
+            "V-Tach": "No response",
+            "SVTwith Aberrancy": "Slows or terminates"
+          },
+          {
+            "Factor": "QRS morphology(RBBB-like pattern)",
+            "V-Tach": "V1 - R or qRV6 - rS",
+            "SVTwith Aberrancy": "V1 - rsR'V6 - R(slurredS)"
+          },
+          {
+            "Factor": "QRS morphology(LBBB-like pattern)",
+            "V-Tach": "V1 or V2 - Broad R wave (>40msec)V6 - Any Q or QS",
+            "SVTwith Aberrancy": "V1 - rS or QSV6 - qRs"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Diagnostic_Algorithms": {
+      "text": "Assume\nventricular tachycardia\nuntil proven otherwise\nOnly for regular rhythms, if irregular consider a-fib with block\nOnly for treatment decision if patient is stable",
+      "subsections": {
+        "Brugada_Algorithm": {
+          "text": "Absence of an RS complex in all precordial leads?\nIf yes then VT\nIf no then continue\nRS interval >100ms in any precordial lead? (onset of R wave to deepest part of S wave)\nIf yes then VT\nIf no then continue\nAV dissociation?\nIf yes then VT\nIf no then continue\nMorphology criteria for v-tach present in both V1-2 and V6?\nIf yes then VT\nIf no then possibly SVT with aberrant conduction",
+          "tables": []
+        },
+        "aVR_Algorithm": {
+          "text": "In lead aVR:\nPresence of an initial R wave?\nIf yes then VT\nIf no then continue\nPresence of an initial r or q wave >40ms\nIf yes then VT\nIf no then continue\nPresence of a notch on descending limb of a negative onset, predominantly negative QRS?\nIf yes then VT\nIf no then continue\nVentricular activation-velocity ratio (Vi/Vt) ≤1?\nIf yes then VT\nIf no then SVT",
+          "tables": []
+        },
+        "Niemann_Algorithm": {
+          "text": "Combination of the most specific aspects of the above two algorithms\nAcronym:\nCARMA\n→\nConcordance → aVR →Regular → Morphology →AV dissociation\nPresence of an initial\nR wave in aVR\n?\n[2]\n[3]\nIf yes then VT\nIf no then continue\nIs there\nconcordance\n(monophasic with same polarity) in all of the precordial leads?\n[4]\nIf yes then VT\nExample of concordance in precordial leads\nExample of disconcordance in precordial leads\nIf no then continue\nIs there evidence of\nAV dissociation/Capture beats\n?\nExample of capture beat\nIf yes then VT\nIf no then continue\nIs the QRS\nmorphology\nin V1 and V6 consistent with either\nLBBB\nor\nRBBB\n?\n[5]\n[6]\nIf no then VT\nIf yes then SVT with aberrancy",
+          "tables": []
+        },
+        "R-Wave_Peak_Time_Method": {
+          "text": "In lead II, if the TIME in (ms) it takes the R wave to go from the isoelectric line to its peak voltage is greater than 50ms, it is VT\nPositive Likelihood ratio of 34.8",
+          "tables": []
+        },
+        "Lesser_Known_Criteria": {
+          "text": "Josephson's sign --- notching or slurring near the nadir of the S-wave is characteristic of V. Tach\nJosephson's Sign Vtach\nRsr' sign --- A taller left R wave in v1-v2 is very specific for VT, as opposed in a RBBB where the second/right R-wave (R') is taller\n\"Northwest\" axis deviation -- Negative QRS complex in I, AVF and Positive QRS in AVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        }
+      ]
+    },
+    "Brugada_Algorithm": {
+      "text": "Absence of an RS complex in all precordial leads?\nIf yes then VT\nIf no then continue\nRS interval >100ms in any precordial lead? (onset of R wave to deepest part of S wave)\nIf yes then VT\nIf no then continue\nAV dissociation?\nIf yes then VT\nIf no then continue\nMorphology criteria for v-tach present in both V1-2 and V6?\nIf yes then VT\nIf no then possibly SVT with aberrant conduction",
+      "subsections": {
+        "aVR_Algorithm": {
+          "text": "In lead aVR:\nPresence of an initial R wave?\nIf yes then VT\nIf no then continue\nPresence of an initial r or q wave >40ms\nIf yes then VT\nIf no then continue\nPresence of a notch on descending limb of a negative onset, predominantly negative QRS?\nIf yes then VT\nIf no then continue\nVentricular activation-velocity ratio (Vi/Vt) ≤1?\nIf yes then VT\nIf no then SVT",
+          "tables": []
+        },
+        "Niemann_Algorithm": {
+          "text": "Combination of the most specific aspects of the above two algorithms\nAcronym:\nCARMA\n→\nConcordance → aVR →Regular → Morphology →AV dissociation\nPresence of an initial\nR wave in aVR\n?\n[2]\n[3]\nIf yes then VT\nIf no then continue\nIs there\nconcordance\n(monophasic with same polarity) in all of the precordial leads?\n[4]\nIf yes then VT\nExample of concordance in precordial leads\nExample of disconcordance in precordial leads\nIf no then continue\nIs there evidence of\nAV dissociation/Capture beats\n?\nExample of capture beat\nIf yes then VT\nIf no then continue\nIs the QRS\nmorphology\nin V1 and V6 consistent with either\nLBBB\nor\nRBBB\n?\n[5]\n[6]\nIf no then VT\nIf yes then SVT with aberrancy",
+          "tables": []
+        },
+        "R-Wave_Peak_Time_Method": {
+          "text": "In lead II, if the TIME in (ms) it takes the R wave to go from the isoelectric line to its peak voltage is greater than 50ms, it is VT\nPositive Likelihood ratio of 34.8",
+          "tables": []
+        },
+        "Lesser_Known_Criteria": {
+          "text": "Josephson's sign --- notching or slurring near the nadir of the S-wave is characteristic of V. Tach\nJosephson's Sign Vtach\nRsr' sign --- A taller left R wave in v1-v2 is very specific for VT, as opposed in a RBBB where the second/right R-wave (R') is taller\n\"Northwest\" axis deviation -- Negative QRS complex in I, AVF and Positive QRS in AVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "aVR_Algorithm": {
+      "text": "In lead aVR:\nPresence of an initial R wave?\nIf yes then VT\nIf no then continue\nPresence of an initial r or q wave >40ms\nIf yes then VT\nIf no then continue\nPresence of a notch on descending limb of a negative onset, predominantly negative QRS?\nIf yes then VT\nIf no then continue\nVentricular activation-velocity ratio (Vi/Vt) ≤1?\nIf yes then VT\nIf no then SVT",
+      "subsections": {
+        "Niemann_Algorithm": {
+          "text": "Combination of the most specific aspects of the above two algorithms\nAcronym:\nCARMA\n→\nConcordance → aVR →Regular → Morphology →AV dissociation\nPresence of an initial\nR wave in aVR\n?\n[2]\n[3]\nIf yes then VT\nIf no then continue\nIs there\nconcordance\n(monophasic with same polarity) in all of the precordial leads?\n[4]\nIf yes then VT\nExample of concordance in precordial leads\nExample of disconcordance in precordial leads\nIf no then continue\nIs there evidence of\nAV dissociation/Capture beats\n?\nExample of capture beat\nIf yes then VT\nIf no then continue\nIs the QRS\nmorphology\nin V1 and V6 consistent with either\nLBBB\nor\nRBBB\n?\n[5]\n[6]\nIf no then VT\nIf yes then SVT with aberrancy",
+          "tables": []
+        },
+        "R-Wave_Peak_Time_Method": {
+          "text": "In lead II, if the TIME in (ms) it takes the R wave to go from the isoelectric line to its peak voltage is greater than 50ms, it is VT\nPositive Likelihood ratio of 34.8",
+          "tables": []
+        },
+        "Lesser_Known_Criteria": {
+          "text": "Josephson's sign --- notching or slurring near the nadir of the S-wave is characteristic of V. Tach\nJosephson's Sign Vtach\nRsr' sign --- A taller left R wave in v1-v2 is very specific for VT, as opposed in a RBBB where the second/right R-wave (R') is taller\n\"Northwest\" axis deviation -- Negative QRS complex in I, AVF and Positive QRS in AVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Niemann_Algorithm": {
+      "text": "Combination of the most specific aspects of the above two algorithms\nAcronym:\nCARMA\n→\nConcordance → aVR →Regular → Morphology →AV dissociation\nPresence of an initial\nR wave in aVR\n?\n[2]\n[3]\nIf yes then VT\nIf no then continue\nIs there\nconcordance\n(monophasic with same polarity) in all of the precordial leads?\n[4]\nIf yes then VT\nExample of concordance in precordial leads\nExample of disconcordance in precordial leads\nIf no then continue\nIs there evidence of\nAV dissociation/Capture beats\n?\nExample of capture beat\nIf yes then VT\nIf no then continue\nIs the QRS\nmorphology\nin V1 and V6 consistent with either\nLBBB\nor\nRBBB\n?\n[5]\n[6]\nIf no then VT\nIf yes then SVT with aberrancy",
+      "subsections": {
+        "R-Wave_Peak_Time_Method": {
+          "text": "In lead II, if the TIME in (ms) it takes the R wave to go from the isoelectric line to its peak voltage is greater than 50ms, it is VT\nPositive Likelihood ratio of 34.8",
+          "tables": []
+        },
+        "Lesser_Known_Criteria": {
+          "text": "Josephson's sign --- notching or slurring near the nadir of the S-wave is characteristic of V. Tach\nJosephson's Sign Vtach\nRsr' sign --- A taller left R wave in v1-v2 is very specific for VT, as opposed in a RBBB where the second/right R-wave (R') is taller\n\"Northwest\" axis deviation -- Negative QRS complex in I, AVF and Positive QRS in AVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "R-Wave_Peak_Time_Method": {
+      "text": "In lead II, if the TIME in (ms) it takes the R wave to go from the isoelectric line to its peak voltage is greater than 50ms, it is VT\nPositive Likelihood ratio of 34.8",
+      "subsections": {
+        "Lesser_Known_Criteria": {
+          "text": "Josephson's sign --- notching or slurring near the nadir of the S-wave is characteristic of V. Tach\nJosephson's Sign Vtach\nRsr' sign --- A taller left R wave in v1-v2 is very specific for VT, as opposed in a RBBB where the second/right R-wave (R') is taller\n\"Northwest\" axis deviation -- Negative QRS complex in I, AVF and Positive QRS in AVR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lesser_Known_Criteria": {
+      "text": "Josephson's sign --- notching or slurring near the nadir of the S-wave is characteristic of V. Tach\nJosephson's Sign Vtach\nRsr' sign --- A taller left R wave in v1-v2 is very specific for VT, as opposed in a RBBB where the second/right R-wave (R') is taller\n\"Northwest\" axis deviation -- Negative QRS complex in I, AVF and Positive QRS in AVR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Wide-complex tachycardia\nSVT\nACLS: Tachycardia\nPALS: Tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wide-complex tachycardia",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "ACLS: Tachycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Tachycardia"
+        },
+        {
+          "text": "PALS: Tachycardia",
+          "url": "https://wikem.org/wiki/PALS:_Tachycardia"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "drug_name": "Reteplase",
+  "url": "https://wikem.org/wiki/Reteplase",
+  "scraped_at": "2026-01-10T08:01:23.166110",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nThrombolytic\nDosage Forms: injection\nRoutes of Administration: IV\nCommon Trade Names: Retavase",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolytic",
+          "url": "https://wikem.org/wiki/Thrombolytic"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Thrombolysis in\nSTEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "10 units IVx2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not approved for use in pediatrics",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Caution advised while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: n/a",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: n/a",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: n/a",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Intracranial hemorrhage\nSevere bleeding\nReperfusion arrhythmia\nHypersensitivity reaction\nCholesterol embolism",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Intracranial hemorrhage\nSevere bleeding\nReperfusion arrhythmia\nHypersensitivity reaction\nCholesterol embolism",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 13-16 min\nMetabolism: Liver, kidney",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to fibrin, converts tissue plasminogen to plasmin, promoting thrombolysis\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thrombolytics\nTenecteplase",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        }
+      ]
+    }
+  }
+}

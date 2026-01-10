@@ -1,0 +1,798 @@
+{
+  "drug_name": "Rhabdomyolysis",
+  "url": "https://wikem.org/wiki/Rhabdomyolysis",
+  "scraped_at": "2026-01-10T08:01:27.924681",
+  "sections": {
+    "Background": {
+      "text": "Muscle necrosis and release of intracellular muscle constituents into the circulation\nRecurrent episodes suggests inherited metabolic disorder\nAlcohol and drugs play a role in up to 80% of cases",
+      "subsections": {
+        "Etiology": {
+          "text": "Trauma\nor muscle compression\nCrush Syndrome\nImmobilization\nCompartment Syndrome\nElectrical injuries\nNontraumatic Exertional\nExercise + hot weather\nExercise +\nsickle cell\nExercise +\nHypokalemia\nHyperkinetic states\nSeizure\nDTs\nStimulant /\nSympathomimetic\n[1]\noverdose\nMalignant Hyperthermia\nNeuroleptic malignant syndrome\nNontraumatic Nonexertional\nDrugs and toxins\nComa\ninduced by\nsedatives\nAlcohol\nComa-induced muscle compression\nDirect toxic effect\nNutritional compromise increases risk (\nhypoK\n,\nhypoMg\n,\nhypoPhos\n)\nStatins\nColchicine\nCO Poisoning\nInfection\nViral\nmyositis\n-\ninfluenza\n,\ncoxsackie\n,\nEBV\n,\nHSV\n,\nHIV\n,\nCMV\nBacterial pyomyositis\nSepticemia\nEndocrine\nHypothyroidism\nInflammatory myopathies\nModerate CK elevations only (rhabdomyolysis only described in case reports)\nMiscellaneous\nStatus Asthmaticus\nToxic shock syndrome\nMushroom\ningestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Crush Syndrome",
+          "url": "https://wikem.org/wiki/Crush_Syndrome"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "DTs",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "hypoK",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypoMg",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoPhos",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/CO_Poisoning"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Septicemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Status Asthmaticus",
+          "url": "https://wikem.org/wiki/Status_Asthmaticus"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Mushroom",
+          "url": "https://wikem.org/wiki/Mushroom"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Trauma\nor muscle compression\nCrush Syndrome\nImmobilization\nCompartment Syndrome\nElectrical injuries\nNontraumatic Exertional\nExercise + hot weather\nExercise +\nsickle cell\nExercise +\nHypokalemia\nHyperkinetic states\nSeizure\nDTs\nStimulant /\nSympathomimetic\n[1]\noverdose\nMalignant Hyperthermia\nNeuroleptic malignant syndrome\nNontraumatic Nonexertional\nDrugs and toxins\nComa\ninduced by\nsedatives\nAlcohol\nComa-induced muscle compression\nDirect toxic effect\nNutritional compromise increases risk (\nhypoK\n,\nhypoMg\n,\nhypoPhos\n)\nStatins\nColchicine\nCO Poisoning\nInfection\nViral\nmyositis\n-\ninfluenza\n,\ncoxsackie\n,\nEBV\n,\nHSV\n,\nHIV\n,\nCMV\nBacterial pyomyositis\nSepticemia\nEndocrine\nHypothyroidism\nInflammatory myopathies\nModerate CK elevations only (rhabdomyolysis only described in case reports)\nMiscellaneous\nStatus Asthmaticus\nToxic shock syndrome\nMushroom\ningestion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Crush Syndrome",
+          "url": "https://wikem.org/wiki/Crush_Syndrome"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "Electrical injuries",
+          "url": "https://wikem.org/wiki/Electrical_injuries"
+        },
+        {
+          "text": "sickle cell",
+          "url": "https://wikem.org/wiki/Sickle_cell"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "DTs",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "hypoK",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypoMg",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoPhos",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Colchicine",
+          "url": "https://wikem.org/wiki/Colchicine"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/CO_Poisoning"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Septicemia",
+          "url": "https://wikem.org/wiki/Septicemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Status Asthmaticus",
+          "url": "https://wikem.org/wiki/Status_Asthmaticus"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Mushroom",
+          "url": "https://wikem.org/wiki/Mushroom"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Myalgia\n, stiffness,\nweakness\n, malaise, low-grade\nfever\n, dark urine\nMusculoskeletal symptoms may be present in only half of cases\nNausea and vomiting\n,\nabdominal pain\n,\ntachycardia\nin severe cases\nMental status changes secondary to urea-induced\nencephalopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        },
+        "Red_Urine": {
+          "text": "Hematuria\nHemoglobinuria\nPorphyria\nMyoglobinuria (\nrhabdomyolysis\n)\nFoods\nBlackberries\nBeets\nBlackberries\nRhubarb\nFood coloring\nFava beans\nDrugs\nLaxatives\nPhenophthalein\nRifampin\nDoxorubicin\nDeferoxamine\nIbuprofen\nChloroquine\nHydroxocobalamin\nUric acid crystalluria\n(neonates)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {
+        "Red_Urine": {
+          "text": "Hematuria\nHemoglobinuria\nPorphyria\nMyoglobinuria (\nrhabdomyolysis\n)\nFoods\nBlackberries\nBeets\nBlackberries\nRhubarb\nFood coloring\nFava beans\nDrugs\nLaxatives\nPhenophthalein\nRifampin\nDoxorubicin\nDeferoxamine\nIbuprofen\nChloroquine\nHydroxocobalamin\nUric acid crystalluria\n(neonates)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        }
+      ]
+    },
+    "Red_Urine": {
+      "text": "Hematuria\nHemoglobinuria\nPorphyria\nMyoglobinuria (\nrhabdomyolysis\n)\nFoods\nBlackberries\nBeets\nBlackberries\nRhubarb\nFood coloring\nFava beans\nDrugs\nLaxatives\nPhenophthalein\nRifampin\nDoxorubicin\nDeferoxamine\nIbuprofen\nChloroquine\nHydroxocobalamin\nUric acid crystalluria\n(neonates)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Uric acid crystalluria",
+          "url": "https://wikem.org/wiki/Uric_acid_crystalluria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Obtain immediate ECG (electrolyte abnormalities)\nTotal CK\nUrinalysis\nCBC\nChemistry, including Mag, Phos\nUric acid\nLFTs\nVBG, venous pH\nDIC\npanel\nCoags, FSP, fibrinogen",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Total CK\nMost consider rhabdomyolysis if 5x or greater increase above upper limit of normal (~2000)\nSerum CK begins to rise 2-12hr after injury, peaks within 24-72hr\nDegree of CK elevation correlates with muscle injury, but NOT renal failure\nCK-MB\nMay be normal or mildly elevated (<5% of total)\nUric Acid - elevates before CK\nMyoglobinuria\nUrinalysis\n= +blood, no RBCs (Sn ~80%)\nMyoglobin is cleared within 1-6hr (often see elevated CK with no myoglobinuria)\nAcute\nrenal failure\nCreatinine increase\nElectrolyte abnormalities\nHyperkalemia\nHyperphosphatemia\nHypocalcemia\nHyperuricemia\nLFTs elevation\nIntramuscular release of AST/ALT\n[2]\nwith AST>ALT.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Obtain immediate ECG (electrolyte abnormalities)\nTotal CK\nUrinalysis\nCBC\nChemistry, including Mag, Phos\nUric acid\nLFTs\nVBG, venous pH\nDIC\npanel\nCoags, FSP, fibrinogen",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Total CK\nMost consider rhabdomyolysis if 5x or greater increase above upper limit of normal (~2000)\nSerum CK begins to rise 2-12hr after injury, peaks within 24-72hr\nDegree of CK elevation correlates with muscle injury, but NOT renal failure\nCK-MB\nMay be normal or mildly elevated (<5% of total)\nUric Acid - elevates before CK\nMyoglobinuria\nUrinalysis\n= +blood, no RBCs (Sn ~80%)\nMyoglobin is cleared within 1-6hr (often see elevated CK with no myoglobinuria)\nAcute\nrenal failure\nCreatinine increase\nElectrolyte abnormalities\nHyperkalemia\nHyperphosphatemia\nHypocalcemia\nHyperuricemia\nLFTs elevation\nIntramuscular release of AST/ALT\n[2]\nwith AST>ALT.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Total CK\nMost consider rhabdomyolysis if 5x or greater increase above upper limit of normal (~2000)\nSerum CK begins to rise 2-12hr after injury, peaks within 24-72hr\nDegree of CK elevation correlates with muscle injury, but NOT renal failure\nCK-MB\nMay be normal or mildly elevated (<5% of total)\nUric Acid - elevates before CK\nMyoglobinuria\nUrinalysis\n= +blood, no RBCs (Sn ~80%)\nMyoglobin is cleared within 1-6hr (often see elevated CK with no myoglobinuria)\nAcute\nrenal failure\nCreatinine increase\nElectrolyte abnormalities\nHyperkalemia\nHyperphosphatemia\nHypocalcemia\nHyperuricemia\nLFTs elevation\nIntramuscular release of AST/ALT\n[2]\nwith AST>ALT.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Trend:\nVolume status\nUrine pH\nChemistry\nCK\nCalcium, phosphorus\nLFTs (elevation will resolve with resolving rhabdo)",
+      "subsections": {
+        "IV_Fluids": {
+          "text": "Start with\nIVF\n1-2 L/hr\nAfter rapid correction of fluid deficit, one method is infusing 2.5 mL/kg/hr with urine output goal of 200-300 ml/hr (2-3 cc/kg/hr)\nFrequently need ~10 L/day",
+          "tables": []
+        },
+        "Urinary_alkalinization": {
+          "text": "Administered as\nbicarbonate\ndrip\nMix 150 mL [3 amps] of 8.4% sodium bicarbonate with 1 L D5W\nInfuse at 200 mL/hour; rate is adjusted to achieve urine pH of >6.5\nControversial; no RCT to date have demonstrated benefit\nConsider if CK >5000, severe muscle injury (crush injury), rising CK AND urine pH <6.5\nContraindications:\nSevere hypocalcemia\nArterial pH > 7.50\nSerum bicarbonate > 30 meq/L\nArterial pH and serum calcium should be monitored q2hr\nDiscontinue alkalinization:\nUrine pH does not rise above 6.5 after 3-4hr\nPatient develops symptomatic hypocalcemia\nArterial pH > 7.5\nSerum bicarbonate >30 meq/L",
+          "tables": []
+        },
+        "Mannitol": {
+          "text": "Mannitol administration can worsen dehydration and oliguria and although used in the past should generally be avoided\nNo RCT to date has demonstrated benefit",
+          "tables": []
+        },
+        "Intubation/RSI": {
+          "text": "Use\nrocuronium\ndue to the potential elevations in potassium that result from the rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        }
+      ]
+    },
+    "IV_Fluids": {
+      "text": "Start with\nIVF\n1-2 L/hr\nAfter rapid correction of fluid deficit, one method is infusing 2.5 mL/kg/hr with urine output goal of 200-300 ml/hr (2-3 cc/kg/hr)\nFrequently need ~10 L/day",
+      "subsections": {
+        "Urinary_alkalinization": {
+          "text": "Administered as\nbicarbonate\ndrip\nMix 150 mL [3 amps] of 8.4% sodium bicarbonate with 1 L D5W\nInfuse at 200 mL/hour; rate is adjusted to achieve urine pH of >6.5\nControversial; no RCT to date have demonstrated benefit\nConsider if CK >5000, severe muscle injury (crush injury), rising CK AND urine pH <6.5\nContraindications:\nSevere hypocalcemia\nArterial pH > 7.50\nSerum bicarbonate > 30 meq/L\nArterial pH and serum calcium should be monitored q2hr\nDiscontinue alkalinization:\nUrine pH does not rise above 6.5 after 3-4hr\nPatient develops symptomatic hypocalcemia\nArterial pH > 7.5\nSerum bicarbonate >30 meq/L",
+          "tables": []
+        },
+        "Mannitol": {
+          "text": "Mannitol administration can worsen dehydration and oliguria and although used in the past should generally be avoided\nNo RCT to date has demonstrated benefit",
+          "tables": []
+        },
+        "Intubation/RSI": {
+          "text": "Use\nrocuronium\ndue to the potential elevations in potassium that result from the rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        }
+      ]
+    },
+    "Urinary_alkalinization": {
+      "text": "Administered as\nbicarbonate\ndrip\nMix 150 mL [3 amps] of 8.4% sodium bicarbonate with 1 L D5W\nInfuse at 200 mL/hour; rate is adjusted to achieve urine pH of >6.5\nControversial; no RCT to date have demonstrated benefit\nConsider if CK >5000, severe muscle injury (crush injury), rising CK AND urine pH <6.5\nContraindications:\nSevere hypocalcemia\nArterial pH > 7.50\nSerum bicarbonate > 30 meq/L\nArterial pH and serum calcium should be monitored q2hr\nDiscontinue alkalinization:\nUrine pH does not rise above 6.5 after 3-4hr\nPatient develops symptomatic hypocalcemia\nArterial pH > 7.5\nSerum bicarbonate >30 meq/L",
+      "subsections": {
+        "Mannitol": {
+          "text": "Mannitol administration can worsen dehydration and oliguria and although used in the past should generally be avoided\nNo RCT to date has demonstrated benefit",
+          "tables": []
+        },
+        "Intubation/RSI": {
+          "text": "Use\nrocuronium\ndue to the potential elevations in potassium that result from the rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        },
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        }
+      ]
+    },
+    "Mannitol": {
+      "text": "Mannitol administration can worsen dehydration and oliguria and although used in the past should generally be avoided\nNo RCT to date has demonstrated benefit",
+      "subsections": {
+        "Intubation/RSI": {
+          "text": "Use\nrocuronium\ndue to the potential elevations in potassium that result from the rhabdomyolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        }
+      ]
+    },
+    "Intubation/RSI": {
+      "text": "Use\nrocuronium\ndue to the potential elevations in potassium that result from the rhabdomyolysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rocuronium",
+          "url": "https://wikem.org/wiki/Rocuronium"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if:\nExertional rhabdo\nOtherwise healthy\nNo comorbidities (heat stress, dehydration, trauma)\nDowntrending total CK\nConsider admission for CK >30,000\nOtherwise admit to monitored bed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Acute Renal Failure\nNeither presence of myoglobinuria nor degree of CK rise is predictive of ARF\nRare in exertional rhabdomyolysis with out presence of dehydration, heat stress, trauma\nMost commonly oliguric\nHyperkalemia\nRenal function, not release of K+, is most important determinant\nTreat aggressively; insulin may be ineffective; may require dialysis\nHypocalcemia\n(initial phase)\nTreat only if symptomatic or severely hyperkalemic (often have rebound hypercalcemia)\nHypercalcemia\n(recovery phase)\nHyperphosphatemia\nTreat cautiously (treatment may worsen calcium precipitation in muscle)\nConsider oral phosphate binders when level >7\nDIC\nUsually resolves spontaneously within several days\nCompartment Syndrome\nPeripheral nerve injury\nUsually resolves within few days-weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Crush Syndrome\nSympathomimetic Toxicity\nIBCC chapter on rhabdomyolysis -\nhttps://emcrit.org/ibcc/rhabdo/",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Crush Syndrome",
+          "url": "https://wikem.org/wiki/Crush_Syndrome"
+        },
+        {
+          "text": "Sympathomimetic Toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_Toxicity"
+        }
+      ]
+    }
+  }
+}

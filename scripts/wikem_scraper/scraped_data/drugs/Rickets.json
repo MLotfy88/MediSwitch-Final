@@ -1,0 +1,350 @@
+{
+  "drug_name": "Rickets",
+  "url": "https://wikem.org/wiki/Rickets",
+  "scraped_at": "2026-01-10T08:01:29.282104",
+  "sections": {
+    "Background": {
+      "text": "Bone disorder characterized by soft, weak, and deformed bones\nPredominantly caused by\nVitamin D deficiency\nor impaired vitamin D metabolism, but can also be due to\nhypocalcemia\nMore common in areas with high rates of early childhood malnutrition/starvation\nThe predominant cause is a\nVitamin D deficiency\n, but also inadequate calcium and impaired metabolism of vitamin D may also lead to rickets",
+      "subsections": {
+        "Metabolism_and_Physiology_of_Vitamin_D": {
+          "text": "Gained from diet, supplements, or sunlight exposure\nFortified foods (mainstay), supplements, fatty fish, egg yolks, fish liver oil, and some mushrooms\nSynthesis of vitamin D occurs in the skin through exposure to ultraviolet B radiation from sunlight\nHydroxylated in liver→ 25-hydroxyvitamin D, which is further hydroxylated in kidney or extrarenally→ 1,25-dihydroxyvitamin D (active form)\nSecond hydroxylation regulated by PTH, serum calcium, and phosphorus levels\nVitamin D acts to:\nStimulate intestinal calcium absorption\nMaintain adequate phosphate levels for bone development\nRegulate cell growth proliferation and apoptosis\nModulate immune function and inflammation reduction",
+          "tables": []
+        },
+        "Etiology_of_Vitamin_D_Deficiency": {
+          "text": "Inadequate intake\nMaternal\nvitamin D deficiency\n: in utero, 25-hydroxyvitamin D passes through the placenta to the infant\nExclusive breastfed infants without vitamin D supplementation\nInadequate sunlight exposure, dark skin pigmentation\nImpaired vitamin D absorption\nCrohn's disease\n,\ncystic fibrosis\nImpairment in conversion of vitamin D into active metabolites\nRenal Failure\n,\nLiver failure",
+          "tables": []
+        },
+        "Types_of_Rickets": {
+          "text": "Hereditary rickets\nKidneys unable to retain phosphate\nNutritional rickets\nVitamin D Resistant Rickets\nVitamin D Dependant Rickets\nCongenital Rickets",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        }
+      ]
+    },
+    "Metabolism_and_Physiology_of_Vitamin_D": {
+      "text": "Gained from diet, supplements, or sunlight exposure\nFortified foods (mainstay), supplements, fatty fish, egg yolks, fish liver oil, and some mushrooms\nSynthesis of vitamin D occurs in the skin through exposure to ultraviolet B radiation from sunlight\nHydroxylated in liver→ 25-hydroxyvitamin D, which is further hydroxylated in kidney or extrarenally→ 1,25-dihydroxyvitamin D (active form)\nSecond hydroxylation regulated by PTH, serum calcium, and phosphorus levels\nVitamin D acts to:\nStimulate intestinal calcium absorption\nMaintain adequate phosphate levels for bone development\nRegulate cell growth proliferation and apoptosis\nModulate immune function and inflammation reduction",
+      "subsections": {
+        "Etiology_of_Vitamin_D_Deficiency": {
+          "text": "Inadequate intake\nMaternal\nvitamin D deficiency\n: in utero, 25-hydroxyvitamin D passes through the placenta to the infant\nExclusive breastfed infants without vitamin D supplementation\nInadequate sunlight exposure, dark skin pigmentation\nImpaired vitamin D absorption\nCrohn's disease\n,\ncystic fibrosis\nImpairment in conversion of vitamin D into active metabolites\nRenal Failure\n,\nLiver failure",
+          "tables": []
+        },
+        "Types_of_Rickets": {
+          "text": "Hereditary rickets\nKidneys unable to retain phosphate\nNutritional rickets\nVitamin D Resistant Rickets\nVitamin D Dependant Rickets\nCongenital Rickets",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        }
+      ]
+    },
+    "Etiology_of_Vitamin_D_Deficiency": {
+      "text": "Inadequate intake\nMaternal\nvitamin D deficiency\n: in utero, 25-hydroxyvitamin D passes through the placenta to the infant\nExclusive breastfed infants without vitamin D supplementation\nInadequate sunlight exposure, dark skin pigmentation\nImpaired vitamin D absorption\nCrohn's disease\n,\ncystic fibrosis\nImpairment in conversion of vitamin D into active metabolites\nRenal Failure\n,\nLiver failure",
+      "subsections": {
+        "Types_of_Rickets": {
+          "text": "Hereditary rickets\nKidneys unable to retain phosphate\nNutritional rickets\nVitamin D Resistant Rickets\nVitamin D Dependant Rickets\nCongenital Rickets",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        }
+      ]
+    },
+    "Types_of_Rickets": {
+      "text": "Hereditary rickets\nKidneys unable to retain phosphate\nNutritional rickets\nVitamin D Resistant Rickets\nVitamin D Dependant Rickets\nCongenital Rickets",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Peak incidence between 3 and 18 months of age\nBony pain\nGeneralized muscle\nweakness\nHypocalcemia\nGrowth disturbance\nEnlarged and soft skull (craniotabes), long bones, joints of rib cage (\"rickety rosary\")\nMetaphyseal hyperplasia (double malleoli sign, widening of wrist)\nBowed legs in toddlers (genu varum), knock-knees in older children (genu valgum)\nDental problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Growth disturbance",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Hypocalcemia\nHyperparathyroidism\nHypophosphatemia\nMalignancy\nNonaccidental trauma\n(if evidence of multiple acute or healing fractures)",
+      "subsections": {
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Vitamin_deficiencies": {
+      "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess for fractures, if indicated\nBMP, Mg/Phos, serum calcium",
+      "subsections": {
+        "Serum_25-hydroxyvitamin_D": {
+          "text": "Vitamin D assessed by measuring this precursor to hormonally active 1,25-dihydroxyvitamin D\nNormal range: 75-250 nmol/L\nInsufficiency: 25-75 nmol/L\nDeficiency: <25 nmol/L",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serum_25-hydroxyvitamin_D": {
+      "text": "Vitamin D assessed by measuring this precursor to hormonally active 1,25-dihydroxyvitamin D\nNormal range: 75-250 nmol/L\nInsufficiency: 25-75 nmol/L\nDeficiency: <25 nmol/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat complications (e.g.\nhypocalcemia\n,\nfractures\n,\nbone pain\n)\nSupplemental vitamin D\nInitial high-dosage treatment phase: 1,000 IU cholecalciferol per 10 nmol/L required serum increase given daily for 2-3 months\nMaintenance: 400 IU daily\nDouble dosage for premature infants, infants/children with dark pigmentation, children with limited sun exposure, and obese patients\nSome populations may require higher dosing (i.e. parathyroid disease, chronic liver disease, renal failure, and malabsorption disorders)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "bone pain",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Vitamin D deficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        }
+      ]
+    }
+  }
+}
