@@ -163,10 +163,11 @@
     "Ciprofloxacin",
     "Cisatricurium",
     "Clarithromycin",
-    "Clevidipine"
+    "Clevidipine",
+    "Clindamycin"
   ],
   "failed_drugs": [],
-  "last_updated": "2026-01-10T03:09:30.290627",
-  "total_scraped": 164,
+  "last_updated": "2026-01-10T03:09:35.129392",
+  "total_scraped": 165,
   "total_failed": 0
 }
