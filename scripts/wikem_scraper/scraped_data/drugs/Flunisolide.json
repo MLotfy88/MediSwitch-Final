@@ -1,0 +1,292 @@
+{
+  "drug_name": "Flunisolide",
+  "url": "https://wikem.org/wiki/Flunisolide",
+  "scraped_at": "2026-01-10T07:53:29.898126",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nInhaled corticosteroid\nDosage Forms: 80mcg/spray\nRoutes of Administration: Inhalation\nCommon Trade Names: Aerospan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled corticosteroid",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Inhalation: 2-4 puffs BID\nMax: 640 mcg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "6-11 yo: 1-2 puffs BID\nMax: 320 mcg/day\n>12 yo: 2-4 puffs BID\nMax: 640 mcg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D; Possible risk of fetal adrenal suppression; Low risk of teratogenicity\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not Defined\nPediatric: Not Defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not Defined\nPediatric: Not Defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not Defined\nPediatric: Not Defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not Defined\nPediatric: Not Defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not Defined\nPediatric: Not Defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to drug/class\nStatus asthmaticus\nAsthma\n, acute\nAvoid abrupt withdrawal\nBronchospasm, acute",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchospasm\nAdrenal suppression\nHypercorticism\nGrowth suppression (peds pts)\nGlaucoma\nCataracts\nOsteoporosis\nerythema multiforme",
+          "tables": []
+        },
+        "Common": {
+          "text": "URI\nHeadache\nNausea/vomiting\nDyspepsia\nUTI\nAbdominal pain\nChest pain\nInfection\nNeck pain\nDiarrhea\nCandidiasis, oral\nEdema\nMyalgia\nDizziness\nInsomnia\nVoice changes\nConjunctivitis\nEar pain\nTaste changes\nDysmenorrhea\nVaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bronchospasm\nAdrenal suppression\nHypercorticism\nGrowth suppression (peds pts)\nGlaucoma\nCataracts\nOsteoporosis\nerythema multiforme",
+      "subsections": {
+        "Common": {
+          "text": "URI\nHeadache\nNausea/vomiting\nDyspepsia\nUTI\nAbdominal pain\nChest pain\nInfection\nNeck pain\nDiarrhea\nCandidiasis, oral\nEdema\nMyalgia\nDizziness\nInsomnia\nVoice changes\nConjunctivitis\nEar pain\nTaste changes\nDysmenorrhea\nVaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "URI\nHeadache\nNausea/vomiting\nDyspepsia\nUTI\nAbdominal pain\nChest pain\nInfection\nNeck pain\nDiarrhea\nCandidiasis, oral\nEdema\nMyalgia\nDizziness\nInsomnia\nVoice changes\nConjunctivitis\nEar pain\nTaste changes\nDysmenorrhea\nVaginitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.3-1.7 hr\nMetabolism: Liver; CYP450: 3A4 substrate\nExcretion: Urine <1%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Exact mechanism unknown. Inhibits multiple inflammatory cytokines and produces multiple glucocorticoid and mineralocorticoid effects.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Corticosteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    }
+  }
+}

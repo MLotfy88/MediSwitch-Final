@@ -1,0 +1,1020 @@
+{
+  "drug_name": "GU_antibiotics",
+  "url": "https://wikem.org/wiki/GU_antibiotics",
+  "scraped_at": "2026-01-10T07:53:45.315640",
+  "sections": {
+    "Balanoposthitis": {
+      "text": "Common organisms are Candida, anaerobes, and\nGroup B Streptococcus",
+      "subsections": {
+        "Antifungal": {
+          "text": "Clotrimazole\n1% applied topically to glans q12hrs until resolution\nNystatin\ncream 100,000 units/gm if infection is recurrent after clotrimazole therapy",
+          "tables": []
+        },
+        "Antibacterial": {
+          "text": "Topical triple antibiotic ointment QID or\nmupirocin\ncream BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Group B Streptococcus",
+          "url": "https://wikem.org/wiki/Group_B_Streptococcus"
+        },
+        {
+          "text": "Clotrimazole",
+          "url": "https://wikem.org/wiki/Clotrimazole"
+        },
+        {
+          "text": "Nystatin",
+          "url": "https://wikem.org/wiki/Nystatin"
+        },
+        {
+          "text": "mupirocin",
+          "url": "https://wikem.org/wiki/Mupirocin"
+        }
+      ]
+    },
+    "Epididymitis/Epididymorchitis": {
+      "text": "For acute epididymitis likely caused by STI\n[1]\nCeftriaxone\n500 mg IM in a single dose\nPLUS\nDoxycycline\n100 mg orally twice a day for 10 days\nFor acute epididymitis most likely caused by STI and enteric organisms (MSM)\nCeftriaxone\n500 mg IM in a single dose\nPLUS\nLevofloxacin\n500 mg orally once a day for 10 days\nFor acute epididymitis most likely caused by enteric organisms\nLevofloxacin\n500 mg orally once daily for 10 days\nFor persons weighing ≥150 kg, 1 g of ceftriaxone should be administered.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        }
+      ]
+    },
+    "Cervicitis": {
+      "text": "",
+      "subsections": {
+        "Presumed_GC/chlamydia_of_cervix,_urethra,_or_rectum_(uncomplicated)": {
+          "text": "Typically, treatment for\nboth\ngonorrhea and chlamydia is indicated, if one entity is suspected.\nStandard\nGonorrhea\nCeftriaxone\nIM x 1\n500 mg, if weight <150 kg\n1 g, if weight ≥150 kg\nChlamydia\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\nCeftriaxone contraindicated\nGonorrhea\nGentamicin\n240 mg IM x 1\nPLUS\nazithromycin\n2 g PO x 1,\nOR\nCefixime\n800 mg PO x 1\nChlamydia^\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\n^Additional chlamydia coverage only needed if treated with cefixime only",
+          "tables": []
+        },
+        "Partner_Treatment": {
+          "text": "Gonorrhea\nCefixime\n800mg PO x 1\nChlamydia\nNonpregnant:\ndoxycycline\n100mg PO BID x 7 days,\nOR\nPregnant:\nazithromycin\n1g PO x 1",
+          "tables": []
+        },
+        "Non-Pregnant": {
+          "text": "Metronidazole\n500mg PO BID for 7 days\n[3]\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Only treat if the patient is symptomatic\nMetronidazole\n500mg PO BID for 7 days\n[4]",
+          "tables": []
+        },
+        "Sexual_Partner_Treatment": {
+          "text": "Female: Same as above\nMale:\nMetronidazole\n2 gm PO x1\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Associated_Bacterial_Vaginosis_or_Trichomonas_vaginalis": {
+      "text": "",
+      "subsections": {
+        "Non-Pregnant": {
+          "text": "Metronidazole\n500mg PO BID for 7 days\n[3]\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Only treat if the patient is symptomatic\nMetronidazole\n500mg PO BID for 7 days\n[4]",
+          "tables": []
+        },
+        "Sexual_Partner_Treatment": {
+          "text": "Female: Same as above\nMale:\nMetronidazole\n2 gm PO x1\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Outpatient": {
+      "text": "Women, Uncomplicated\nNitrofurantoin\nER 100mg BID x 5d, OR\nTMP/SMX\nDS (160/800mg) 1 tab BID x 3d (Females) x7days (Males), OR\nCephalexin\n250mg QID x 5d, OR\nCiprofloxacin\n250mg BID x3d\nAvoid using fluoroquinolone for the first-line treatment of uncomplicated urinary tract infections (UTIs) in women.\n[6]\nFosfomycin\n3 g PO once\nLower clinical and microbiologic success compared to nitrofurantoin TID for 5 days\n[7]\nWomen, Complicated\nCiprofloxacin\n500mg BID x10-14d, OR\nCefpodoxime\n200 mg BID x10-14d\nWomen, Concern for\nUrethritis\nCeftriaxone\n250mg IM x1 AND\nazithromycin\n1gm PO x1 AND\nnitrofurantoin\nER 100mg BID x5d, OR\nLevofloxacin\n500mg QD x 14d (covers urinary pathogens,\nGC\n, and\nchlamydia\n)\nGC\nresistance to fluoroquinolones is increasing\nMen\nCiprofloxacin\n500mg BID x10-14d, OR\nCefpodoxime\n200 mg BID x10-14d",
+      "subsections": {
+        "Inpatient_Options": {
+          "text": "Ciprofloxacin\n400mg IV q12hr, OR\nCeftriaxone\n1gm IV QD, OR\nCefotaxime\n1-2gm IV q8hr, OR\nGentamicin\n3mg/kg/day divided q8hr +/- ampicillin 1–2 gm q4hr, OR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr, OR\nCefepime\n2gm IV q8hr, OR\nImipenem\n500mg IV q8hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Fosfomycin",
+          "url": "https://wikem.org/wiki/Fosfomycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Inpatient_Options": {
+      "text": "Ciprofloxacin\n400mg IV q12hr, OR\nCeftriaxone\n1gm IV QD, OR\nCefotaxime\n1-2gm IV q8hr, OR\nGentamicin\n3mg/kg/day divided q8hr +/- ampicillin 1–2 gm q4hr, OR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr, OR\nCefepime\n2gm IV q8hr, OR\nImipenem\n500mg IV q8hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Bacterial_Vaginosis": {
+      "text": "",
+      "subsections": {
+        "First_Line_Therapy": {
+          "text": "Metronidazole\n500 mg PO Twice Daily for 7 days OR\nMetronidazole\ngel 0.75%, one full applicator (5 g) intravaginally, Daily for 5 days OR\nClindamycin\ncream 2%, one full applicator (5 g) intravaginally Nightly for 7 days\nMetronidazole does not cause a disulfiram-like reaction with alcohol.\n[9]",
+          "tables": []
+        },
+        "Alternative_Regimin": {
+          "text": "Clindamycin\n300 mg PO BID for 7 days OR\nClindamycin\novules 100 mg intravaginally qHS for 3 days (do not use if patient has used latex condom in last 72 hours)\nOther regimens have been studied and have varying efficacy compared to placebo but due to cost and availability do not represent alternatives outside of absolute contraindications to preferred regimens.",
+          "tables": []
+        },
+        "Pregnant_2": {
+          "text": "Metronidazole\n500mg PO Twice a day x 7 days\n[8]\nMetronidazole\n250mg PO Three times a day has also been studied\n[10]\n[11]\nAlthough metronidazole crosses the placenta, no evidence of teratogenicity or mutagenic effects among infants has been reported in multiple cross-sectional, case-control, and cohort studies of pregnant women\n[8]",
+          "tables": []
+        },
+        "Prophylaxis_(Sexual_Assault)": {
+          "text": "Metronidazole\n500mg PO Twice a day x 7 days\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Herpes": {
+      "text": "",
+      "subsections": {
+        "Initial_Episode[13]": {
+          "text": "Acyclovir\nOR\n400mg PO q8hrs x 7-10 days\nor\n200mg PO 5x/day x 7-10 days\nValacyclovir\n1g PO q12hrs x 7-10 days OR\nFamciclovir\n250mg PO q8hrs x 7-10 days",
+          "tables": []
+        },
+        "Recurrence": {
+          "text": "Acyclovir\nOR\n400mg PO q8hrs x 5 days\nor\n800mg PO q12hrs x 5 days\nor\n800mg PO q8hrs x 2 days\nValacyclovir\nOR\n500mg PO q12hrs x 3 days\nor\n1g PO qd x 5 days\nFamciclovir\n125mg PO q12hrs for 5 days\nor\n1g PO q12hrs for 1 day\nor\n500mg PO once, followed by 250mg PO q12hrs for 2 days",
+          "tables": []
+        },
+        "Suppressive_Therapy": {
+          "text": "Acyclovir\n400mg PO q12hrs daily OR\nFamciclovir\n250mg PO q12hrs daily OR\nValacyclovir\n500mg-1g PO daily (500mg may be less effective)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Famciclovir",
+          "url": "https://wikem.org/wiki/Famciclovir"
+        },
+        {
+          "text": "Valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        }
+      ]
+    },
+    "Proctitis": {
+      "text": "Inflammation of the rectum (distal 10-12cm)\nCeftriaxone\n125mg IM x1 + Doxy 100mg po bid x 7d",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Prostatitis": {
+      "text": "",
+      "subsections": {
+        "Associated_with_STD": {
+          "text": "Target organisms are\nE. coli\n, and\nSTDs\n(\nGC\n)\nDoxycycline\n100mg PO q12 hrs x14 days +\nCeftriaxone\n500mg IM x1\nCiprofloxacin\nno longer recommended to treat gonorrhea in US",
+          "tables": []
+        },
+        "No_Associated_STD_and_Chronic_Bacterial_Prostatitis": {
+          "text": "Aimed at\nEnterobacteriaceae\n,\nenterococci\n,\nPseudomonas\nCiprofloxacin\n500mg PO q12hrs x 28 days OR\nLevofloxacin\n500mg PO daily x 28 days OR\nTMP/SMX\n1 DS tablet PO q12hrs x 28 days\nConsider extension to 6 wks of empiric therapy",
+          "tables": []
+        },
+        "Septic": {
+          "text": "Gentamycin\n7mg/kg IV daily +\nCeftriaxone\n1g IV q12hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Enterobacteriaceae",
+          "url": "https://wikem.org/wiki/Enterobacteriaceae"
+        },
+        {
+          "text": "enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Pyelonephritis": {
+      "text": "Treatment is targeted at\nE. coli\n,\nEnterococcus\n,\nKlebsiella\n,\nProteus mirabilis\n,\nS. saprophyticus\n.",
+      "subsections": {
+        "Outpatient_2": {
+          "text": "Consider one dose of\nCeftriaxone\n1g IV or\nGentamycin\n7mg/kg IV if the regional susceptibility of\nTMP/SMX\nor\nFluoroquinolones\nis <80%\nCiprofloxacin\n500mg PO BID x7 days\nOR\nTrimethoprim-Sulfamethoxazole DS\n160/800mg PO BID x14 days\nOR\n[15]\nCephalexin\n500mg QID PO x 10-14 days (OR consider 1000mg BID if difficulty with QID regimen)\nOR\nCefdinir\n300mg BID PO x 10-14 days\nOR\nCefpodoxime\n200mg PO BID x 10 days\nOR\n[16]\nCefixime\n400mg PO daily x 10 days\nOR\n[17]\nLevofloxacin\n750mg PO QD x7 days\n[18]",
+          "tables": []
+        },
+        "Adult_Inpatient_Options": {
+          "text": "Ciprofloxacin\n400mg IV q12hr\nOR\nCeftriaxone\n1gm IV QD\n(Preferred in pregnancy)\nOR\nCefotaxime 1-2gm IV q8hr\nOR\nGentamicin\n3mg/kg/day divided q8hr +/-\nampicillin\n1–2 gm q4hr\nOR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr\nOR\nCefepime\n2gm IV q8hr\nOR\nImipenem\n500mg IV q8hr",
+          "tables": []
+        },
+        "Pediatric_Inpatient_Options": {
+          "text": "Ceftriaxone\n75mg/kg IV QD\nOR\nCefotaxime\n50mg/kg IV q8hrs\nOR\nAmpicillin\n25mg/kg IV q6hrs\n+\nGentamicin\n2.5mg/kg IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus mirabilis",
+          "url": "https://wikem.org/wiki/Proteus_mirabilis"
+        },
+        {
+          "text": "S. saprophyticus",
+          "url": "https://wikem.org/wiki/S._saprophyticus"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Trimethoprim-Sulfamethoxazole DS",
+          "url": "https://wikem.org/wiki/Trimethoprim-Sulfamethoxazole_DS"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Cefdinir",
+          "url": "https://wikem.org/wiki/Cefdinir"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Lymphogranuloma_venereum": {
+      "text": "Doxycycline\n100mg PO BID x 21 days (first choice)\nOR\nErythromycin\n500mg PO QID x 21 days\nOR\nPreferred for pregnant and lactating females\nAzithromycin 1g PO weekly for 3 weeks\nOR\nAlternative for pregnant women - poor evidence for this treatment currently\nTetracycline, Minocycline, or Moxifloxacin (x21 days) are also acceptable alternatives to Doxycycline\nTreat sexual partner\nDoxycycline\n100mg PO BID x 7 days\nOR\nAzithromycin\n1gm PO x1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Syphilis": {
+      "text": "",
+      "subsections": {
+        "Early_Stage": {
+          "text": "This is classified as primary, secondary, and early latent syphilis less than one year.\nTreatment Options:\nPenicillin G Benzathine\n2.4 million units IM x 1\nRepeat dose after 7 days for pregnant patients and HIV infection\nDoxycycline\n100mg oral twice daily for 14 days as alternative",
+          "tables": []
+        },
+        "Late_Stage": {
+          "text": "Late stage is greater than one year duration, presence of gummas, or cardiovascular disease\nTreatment Options:\nPenicillin G Benzathine\n2.4 million units IM weekly x 3 weeks\nDoxycycline\n100mg oral twice daily for 4 weeks as alternative",
+          "tables": []
+        },
+        "Neurosyphilis": {
+          "text": "There are 3 Major options with none showing greater efficacy than others:\nPenicillin G\n3-4 million units IV every 4 hours x 10-14 days\nPenicillin G\n24 million units continuous IV infusion x 10-14 days\nPenicillin G Procaine\n2.4 million units IM daily + probenecid 500mg oral every 6 hours for 10-14 days.\nAlternative:\nCeftriaxone\n2gm  IV once daily for 10-14 days\nDesensitization to the penicillin allergy is still the preferred method of treatment for patients with early and late stage disease (especially during pregnancy)",
+          "tables": []
+        },
+        "Pregnancy": {
+          "text": "Penicillin, dosage depends on stage\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Early_Stage": {
+      "text": "This is classified as primary, secondary, and early latent syphilis less than one year.\nTreatment Options:\nPenicillin G Benzathine\n2.4 million units IM x 1\nRepeat dose after 7 days for pregnant patients and HIV infection\nDoxycycline\n100mg oral twice daily for 14 days as alternative",
+      "subsections": {
+        "Late_Stage": {
+          "text": "Late stage is greater than one year duration, presence of gummas, or cardiovascular disease\nTreatment Options:\nPenicillin G Benzathine\n2.4 million units IM weekly x 3 weeks\nDoxycycline\n100mg oral twice daily for 4 weeks as alternative",
+          "tables": []
+        },
+        "Neurosyphilis": {
+          "text": "There are 3 Major options with none showing greater efficacy than others:\nPenicillin G\n3-4 million units IV every 4 hours x 10-14 days\nPenicillin G\n24 million units continuous IV infusion x 10-14 days\nPenicillin G Procaine\n2.4 million units IM daily + probenecid 500mg oral every 6 hours for 10-14 days.\nAlternative:\nCeftriaxone\n2gm  IV once daily for 10-14 days\nDesensitization to the penicillin allergy is still the preferred method of treatment for patients with early and late stage disease (especially during pregnancy)",
+          "tables": []
+        },
+        "Pregnancy": {
+          "text": "Penicillin, dosage depends on stage\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Late_Stage": {
+      "text": "Late stage is greater than one year duration, presence of gummas, or cardiovascular disease\nTreatment Options:\nPenicillin G Benzathine\n2.4 million units IM weekly x 3 weeks\nDoxycycline\n100mg oral twice daily for 4 weeks as alternative",
+      "subsections": {
+        "Neurosyphilis": {
+          "text": "There are 3 Major options with none showing greater efficacy than others:\nPenicillin G\n3-4 million units IV every 4 hours x 10-14 days\nPenicillin G\n24 million units continuous IV infusion x 10-14 days\nPenicillin G Procaine\n2.4 million units IM daily + probenecid 500mg oral every 6 hours for 10-14 days.\nAlternative:\nCeftriaxone\n2gm  IV once daily for 10-14 days\nDesensitization to the penicillin allergy is still the preferred method of treatment for patients with early and late stage disease (especially during pregnancy)",
+          "tables": []
+        },
+        "Pregnancy": {
+          "text": "Penicillin, dosage depends on stage\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G Benzathine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Benzathine"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Neurosyphilis": {
+      "text": "There are 3 Major options with none showing greater efficacy than others:\nPenicillin G\n3-4 million units IV every 4 hours x 10-14 days\nPenicillin G\n24 million units continuous IV infusion x 10-14 days\nPenicillin G Procaine\n2.4 million units IM daily + probenecid 500mg oral every 6 hours for 10-14 days.\nAlternative:\nCeftriaxone\n2gm  IV once daily for 10-14 days\nDesensitization to the penicillin allergy is still the preferred method of treatment for patients with early and late stage disease (especially during pregnancy)",
+      "subsections": {
+        "Pregnancy": {
+          "text": "Penicillin, dosage depends on stage\n[19]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        },
+        {
+          "text": "Penicillin G Procaine",
+          "url": "https://wikem.org/wiki/Penicillin_G_Procaine"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Pregnancy": {
+      "text": "Penicillin, dosage depends on stage\n[19]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

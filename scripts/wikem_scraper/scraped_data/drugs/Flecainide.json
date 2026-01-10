@@ -1,0 +1,101 @@
+{
+  "drug_name": "Flecainide",
+  "url": "https://wikem.org/wiki/Flecainide",
+  "scraped_at": "2026-01-10T07:53:30.595452",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antiarrhythmic\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Atrial fibrillation, cardioversion (\"pill-in-a-pocket\")\n200-300mg PO once\nParoxysmal atrial tachycardia (prophylaxis)\n50-150mg PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "25-100 mg/m(2) PO 2-3 times per day, MAX dose 200 mg/m(2)/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal\nRenal dosing: adjustment may be required\nHepatic dosing: adjustment may be required",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCardiogenic shock\nRight bundle branch block (without pacemaker)\n2nd or 3rd degree AV block (without pacemaker)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Heart block, sinus node dysfunction\nTorsades de pointes, ventricular tachycardia, ventricular fibrillation\nCardiac shock, cardiac arrest\nNew onset or worsening heart failure",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness, fatigue, blurred vision\nNausea\nDyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Heart block, sinus node dysfunction\nTorsades de pointes, ventricular tachycardia, ventricular fibrillation\nCardiac shock, cardiac arrest\nNew onset or worsening heart failure",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness, fatigue, blurred vision\nNausea\nDyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Dizziness, fatigue, blurred vision\nNausea\nDyspnea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 12-27h\nMetabolism: Hepatic, CYP2D6\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Class I C antiarrhythmic, Na+ channel blocker",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "antiarrhythmics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    }
+  }
+}

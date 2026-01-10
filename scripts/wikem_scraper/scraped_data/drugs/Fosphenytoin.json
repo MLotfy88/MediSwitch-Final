@@ -1,0 +1,138 @@
+{
+  "drug_name": "Fosphenytoin",
+  "url": "https://wikem.org/wiki/Fosphenytoin",
+  "scraped_at": "2026-01-10T07:53:40.425296",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsants\nDosage Forms: IM/IV\nCommon Trade Names: Cerebyx",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Generalized Convulsive Status Epilepticus\n15-20mg/kg IV, infuse at 100-150mg/min\nNonemergent Seizure\nLoad: 10-20mg/kg IV/IM\nInitial Maintenance: 4-6mg/kg/day IV/IM\nShort-Term Substitution for PO Phenytoin\nCan be substituted for PO\nphenytoin\ntherapy at the same total daily dose\nAdministration\nMaximum IV rate of 150mg PE/min\nMonitor:\nphenytoin\nlevel 2 hr after IV, 4 hr after IM\nAll dosing in mg \"phenytoin equivalents\" (PE); 75mg fosphenytoin equivalent to 50mg\nphenytoin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety and efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: excretion in milk unknown, not recommended\nRenal Dosing: not defined, caution advised\nHepatic Dosing: not defined, caution advised",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSinus bradycardia, sinoatrial block, 2nd or 3rd degree AV block, Adams-Stokes syndrome\nNot indicated for absence seizures or seizures secondary to hypoglycemia or other metabolic disorder\nCoadministration with delavirdine; potential for loss of virologic response and possible resistance to delavirdine or to the pharmacologic class of NNRTIs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Black Box Warnings\nCardiovascular risk associated with rapid infusion rates\nRisk of hypotension and arrhythmias with infusion rates that exceed 150mg/minute of\nphenytoin\nsodium equivalents (PE)\nCareful cardiac monitoring is needed during and after administering IV administration\nThese events have also been reported at or below 150mg/minute\nReduce infusion rate or discontinuation may be needed\nCardiovascular collapse\nToxic delirium\nBradycardia\nArrhythmias\nExfoliative dermatitis\nStevens-Johnson\nToxic epidermal necrolysis\nDrug rash with eosinophilia and systemic sx\nHepatotoxicity\nThrombocytopenia\nLeukopenia\nAgranulocytosis\nPancytopenia\nAnemia\nPurple glove syndrome (IV use)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nystagmus\nDizziness\nPruritis\nParesthesia\nHeadache\nSomnolence\nAtaxia\nNausea\nTinnitus\nRash\nTremor\nHypotension\nXerostomia\nConfusion\nBlurred vision\nTaste changes\nFever\nInjection site reaction\nConstipation\nHypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Black Box Warnings\nCardiovascular risk associated with rapid infusion rates\nRisk of hypotension and arrhythmias with infusion rates that exceed 150mg/minute of\nphenytoin\nsodium equivalents (PE)\nCareful cardiac monitoring is needed during and after administering IV administration\nThese events have also been reported at or below 150mg/minute\nReduce infusion rate or discontinuation may be needed\nCardiovascular collapse\nToxic delirium\nBradycardia\nArrhythmias\nExfoliative dermatitis\nStevens-Johnson\nToxic epidermal necrolysis\nDrug rash with eosinophilia and systemic sx\nHepatotoxicity\nThrombocytopenia\nLeukopenia\nAgranulocytosis\nPancytopenia\nAnemia\nPurple glove syndrome (IV use)",
+      "subsections": {
+        "Common": {
+          "text": "Nystagmus\nDizziness\nPruritis\nParesthesia\nHeadache\nSomnolence\nAtaxia\nNausea\nTinnitus\nRash\nTremor\nHypotension\nXerostomia\nConfusion\nBlurred vision\nTaste changes\nFever\nInjection site reaction\nConstipation\nHypokalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nystagmus\nDizziness\nPruritis\nParesthesia\nHeadache\nSomnolence\nAtaxia\nNausea\nTinnitus\nRash\nTremor\nHypotension\nXerostomia\nConfusion\nBlurred vision\nTaste changes\nFever\nInjection site reaction\nConstipation\nHypokalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 15 min (phenytoin)\nMetabolism: CYP450; prodrug metabolized to\nphenytoin\nExcretion: urine\nMechanism of Action: modulates neuronal voltage-dependent Na and Ca channels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anticonvulsants\nSeizure levels and reloading\nPhenytoin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Seizure levels and reloading",
+          "url": "https://wikem.org/wiki/Seizure_levels_and_reloading"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        }
+      ]
+    },
+    "References": {
+      "text": "epocrates, medscape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

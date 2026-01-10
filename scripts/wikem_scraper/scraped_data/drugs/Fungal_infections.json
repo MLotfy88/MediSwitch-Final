@@ -1,0 +1,95 @@
+{
+  "drug_name": "Fungal_infections",
+  "url": "https://wikem.org/wiki/Fungal_infections",
+  "scraped_at": "2026-01-10T07:53:43.942062",
+  "sections": {
+    "Types": {
+      "text": "Aspergillosis\nBlastomycosis‎\nCandida\nCandida vaginitis\nCandiduria\nEsophageal candidiasis\nOral thrush\nCoccidioidomycosis\nCryptococcosis\nHistoplasmosis\nMucormycosis\nOnychomycosis\nSporotrichosis\nTinea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Blastomycosis‎",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Candiduria",
+          "url": "https://wikem.org/wiki/Candiduria"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Oral thrush",
+          "url": "https://wikem.org/wiki/Oral_thrush"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        },
+        {
+          "text": "Onychomycosis",
+          "url": "https://wikem.org/wiki/Onychomycosis"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        }
+      ]
+    },
+    "Interpretations_of_Key_Phrases": {
+      "text": "“Yeast” suggests Candida spp.\n\"Germ-tube negative yeast\" suggests non-albicans Candida yeast\n“Germ-tube positive yeast” is identified as Candida albicans or Candida dubliniensis\n“Round Yeast” suggests Cryptococcus spp\n“Fungal elements or hyphal elements” suggest filamentous fungi (moulds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Microbiology (Main)\nAntifungals\nMold toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Mold toxicity",
+          "url": "https://wikem.org/wiki/Mold_toxicity"
+        }
+      ]
+    }
+  }
+}

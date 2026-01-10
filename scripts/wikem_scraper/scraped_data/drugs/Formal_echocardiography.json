@@ -1,0 +1,424 @@
+{
+  "drug_name": "Formal_echocardiography",
+  "url": "https://wikem.org/wiki/Formal_echocardiography",
+  "scraped_at": "2026-01-10T07:53:42.329190",
+  "sections": {
+    "Diagnostic_Pearls": {
+      "text": "Normal directional flow in CW and PW in apical, parasternal short:\nBelow the line for pulmonic and aortic valves (systole)\nAbove the line in tricuspid and mitral valves (diastole)\nCoronary artery distributions\nLAD, circumflex, RCA\nLeft marginal = obtuse marginal\nRight marginal",
+      "subsections": {
+        "Parasternal_long": {
+          "text": "Assess for mitral valve prolapse, systolic anterior motion\nDifferentiate pleural effusion from pericardial effusion\nPericardial effusion is anterior to descending aorta\nPleural effusion posterior to descending aorta\nPericardial effusion vs. pleural effusion\nWall motion assessment obtains LAD and Circumflex coronary artery distributions\nEPSS, E-Point Septal Separation in PSL view\nM-mode distance in mm between anterior leaflet of MV and septum in diastole\nE-point is shortest distance\nLVEF = 75.5 - 2.5 x EPSS\nin mm\n[1]\nEPSS and MRI LVEF correlated ~0.80 in study that generated equation\nExcluded MV prostheses, asymmetrical septal hypertrophy, significant\naortic regurgitation\nValues as calculated by above study\n< 5 mm, normal\n> 7 mm, EF < 50%\n> 18 mm, EF < 30%\nFalsely elevated EPSS in:\nMitral stenosis\n, rheumatic heart disease\nMitral calcification\nAortic regurgitation\nLV dilation",
+          "tables": []
+        },
+        "Parasternal_short": {
+          "text": "See\nAortic stenosis\nregarding evaluation of cuspidity\nEvaluate kinetics of LV motion anatomically by coronary artery flow",
+          "tables": []
+        },
+        "Apical": {
+          "text": "Best obtained in left lateral decubitus with left arm above head to open up ribs\nEF estimation\nLVEF by Simpson, LV volume change\nLVEF by Teichholz method, using M-mode (estimation of LV volume by diameter measured just beyond mitral tips in diastole)\nEF visual assessment:\n>65% = hyperdynamic\n55-65% = normal\n45-54% = mildly depressed\n30-44% = moderately depressed\n<30% = severely depressed\nEvaluation for wall motion abnormality",
+          "tables": []
+        },
+        "Apical_Two_Chamber_View": {
+          "text": "Infrequently used unless concern exists for full evaluation of wall motion abnormality in LV\nObtains better views of RCA and LAD distribution",
+          "tables": []
+        },
+        "Aortic_Stenosis": {
+          "text": "See\nAortic stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Mitral_Stenosis": {
+          "text": "See\nMitral stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Diastolic_Function": {
+          "text": "Worsening diastolic dysfunction corresponds to less fluid responsive hypotension and more volume overload\nSeptic/hypotensive patients with baseline diastolic dysfunction will not have reliable IVC ultrasounding for fluid responsiveness\nPts in impaired relaxation states can stand to be volume resuscitated just until impaired relaxation becomes pseudonormal\nOtherwise seen as the E wave ≈ A wave (give fluids until E wave increases up to A wave)\nIf still hypotensive at that point, pt volume resuscitated, then start vasopressors\nPatients with pseudonormal or worse diastolic dysfunction require vasopressors, not more fluids\nMeasure E and A waves, then e' and a' waves with tissue doppler\nPW Doppler across MV in apical view bisecting across MV tips during opening, diastole\nTissue doppler at MV annulus (base) at either septum or lateral position to measure tissue velocity\nE/e' ratio ≅ LVEDP (PCWP)\nThe following rules will apply to most patients\n[3]\n(Video)\nRule 1: Normal diastolic function if echo normal, age<45 yrs, E>A\nRule 2: Impaired relaxation if A>E, with E/A<1\nRule 3: Pseudonormal if echo abnormal (LVH), age>65, E>A, E/A>1\nRule 4: Restrictive filling if E/A>2\nEvaluate the E' and A' in tissue doppler to differentiate normal diastolic function from pseudonormalization\n[4]\nSeptal MV annulus TD, E' magnitude less than 8 cm/s suggestive of diastolic dysfunction\nLateral MV annulus TD, E' < 10 cm/s suggestive of diastolic dysfunction",
+          "tables": [
+            [
+              {
+                "": "LVEDP",
+                "Normal": "< 15 mmHg",
+                "Impaired": "< 15 mmHg",
+                "Pseudonormal": "15-25 mmHg",
+                "Restrictive": "> 25 mmHg"
+              },
+              {
+                "": "E velocity",
+                "Normal": "Normal",
+                "Impaired": "Stays Same",
+                "Pseudonormal": "~ 100 cm/s",
+                "Restrictive": "~150 cm/s"
+              },
+              {
+                "": "A velocity",
+                "Normal": "Normal",
+                "Impaired": "↑",
+                "Pseudonormal": "↓",
+                "Restrictive": "↓↓"
+              },
+              {
+                "": "E/A",
+                "Normal": "> 1",
+                "Impaired": "< 1",
+                "Pseudonormal": "> 1",
+                "Restrictive": "> 2"
+              },
+              {
+                "": "TDI",
+                "Normal": "e' > a'",
+                "Impaired": "a' > e'",
+                "Pseudonormal": "a' > e'",
+                "Restrictive": "a' ≈ e'"
+              },
+              {
+                "": "E/e'",
+                "Normal": "< 15",
+                "Impaired": "< 15",
+                "Pseudonormal": "> 15",
+                "Restrictive": "> 15"
+              },
+              {
+                "": "e' (septal)",
+                "Normal": "> 8 cm/s",
+                "Impaired": "< 8 cm/s",
+                "Pseudonormal": "<< 8 cm/s",
+                "Restrictive": "<<< 8 cm/s"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        }
+      ]
+    },
+    "Parasternal_long": {
+      "text": "Assess for mitral valve prolapse, systolic anterior motion\nDifferentiate pleural effusion from pericardial effusion\nPericardial effusion is anterior to descending aorta\nPleural effusion posterior to descending aorta\nPericardial effusion vs. pleural effusion\nWall motion assessment obtains LAD and Circumflex coronary artery distributions\nEPSS, E-Point Septal Separation in PSL view\nM-mode distance in mm between anterior leaflet of MV and septum in diastole\nE-point is shortest distance\nLVEF = 75.5 - 2.5 x EPSS\nin mm\n[1]\nEPSS and MRI LVEF correlated ~0.80 in study that generated equation\nExcluded MV prostheses, asymmetrical septal hypertrophy, significant\naortic regurgitation\nValues as calculated by above study\n< 5 mm, normal\n> 7 mm, EF < 50%\n> 18 mm, EF < 30%\nFalsely elevated EPSS in:\nMitral stenosis\n, rheumatic heart disease\nMitral calcification\nAortic regurgitation\nLV dilation",
+      "subsections": {
+        "Parasternal_short": {
+          "text": "See\nAortic stenosis\nregarding evaluation of cuspidity\nEvaluate kinetics of LV motion anatomically by coronary artery flow",
+          "tables": []
+        },
+        "Apical": {
+          "text": "Best obtained in left lateral decubitus with left arm above head to open up ribs\nEF estimation\nLVEF by Simpson, LV volume change\nLVEF by Teichholz method, using M-mode (estimation of LV volume by diameter measured just beyond mitral tips in diastole)\nEF visual assessment:\n>65% = hyperdynamic\n55-65% = normal\n45-54% = mildly depressed\n30-44% = moderately depressed\n<30% = severely depressed\nEvaluation for wall motion abnormality",
+          "tables": []
+        },
+        "Apical_Two_Chamber_View": {
+          "text": "Infrequently used unless concern exists for full evaluation of wall motion abnormality in LV\nObtains better views of RCA and LAD distribution",
+          "tables": []
+        },
+        "Aortic_Stenosis": {
+          "text": "See\nAortic stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Mitral_Stenosis": {
+          "text": "See\nMitral stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Diastolic_Function": {
+          "text": "Worsening diastolic dysfunction corresponds to less fluid responsive hypotension and more volume overload\nSeptic/hypotensive patients with baseline diastolic dysfunction will not have reliable IVC ultrasounding for fluid responsiveness\nPts in impaired relaxation states can stand to be volume resuscitated just until impaired relaxation becomes pseudonormal\nOtherwise seen as the E wave ≈ A wave (give fluids until E wave increases up to A wave)\nIf still hypotensive at that point, pt volume resuscitated, then start vasopressors\nPatients with pseudonormal or worse diastolic dysfunction require vasopressors, not more fluids\nMeasure E and A waves, then e' and a' waves with tissue doppler\nPW Doppler across MV in apical view bisecting across MV tips during opening, diastole\nTissue doppler at MV annulus (base) at either septum or lateral position to measure tissue velocity\nE/e' ratio ≅ LVEDP (PCWP)\nThe following rules will apply to most patients\n[3]\n(Video)\nRule 1: Normal diastolic function if echo normal, age<45 yrs, E>A\nRule 2: Impaired relaxation if A>E, with E/A<1\nRule 3: Pseudonormal if echo abnormal (LVH), age>65, E>A, E/A>1\nRule 4: Restrictive filling if E/A>2\nEvaluate the E' and A' in tissue doppler to differentiate normal diastolic function from pseudonormalization\n[4]\nSeptal MV annulus TD, E' magnitude less than 8 cm/s suggestive of diastolic dysfunction\nLateral MV annulus TD, E' < 10 cm/s suggestive of diastolic dysfunction",
+          "tables": [
+            [
+              {
+                "": "LVEDP",
+                "Normal": "< 15 mmHg",
+                "Impaired": "< 15 mmHg",
+                "Pseudonormal": "15-25 mmHg",
+                "Restrictive": "> 25 mmHg"
+              },
+              {
+                "": "E velocity",
+                "Normal": "Normal",
+                "Impaired": "Stays Same",
+                "Pseudonormal": "~ 100 cm/s",
+                "Restrictive": "~150 cm/s"
+              },
+              {
+                "": "A velocity",
+                "Normal": "Normal",
+                "Impaired": "↑",
+                "Pseudonormal": "↓",
+                "Restrictive": "↓↓"
+              },
+              {
+                "": "E/A",
+                "Normal": "> 1",
+                "Impaired": "< 1",
+                "Pseudonormal": "> 1",
+                "Restrictive": "> 2"
+              },
+              {
+                "": "TDI",
+                "Normal": "e' > a'",
+                "Impaired": "a' > e'",
+                "Pseudonormal": "a' > e'",
+                "Restrictive": "a' ≈ e'"
+              },
+              {
+                "": "E/e'",
+                "Normal": "< 15",
+                "Impaired": "< 15",
+                "Pseudonormal": "> 15",
+                "Restrictive": "> 15"
+              },
+              {
+                "": "e' (septal)",
+                "Normal": "> 8 cm/s",
+                "Impaired": "< 8 cm/s",
+                "Pseudonormal": "<< 8 cm/s",
+                "Restrictive": "<<< 8 cm/s"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        }
+      ]
+    },
+    "Parasternal_short": {
+      "text": "See\nAortic stenosis\nregarding evaluation of cuspidity\nEvaluate kinetics of LV motion anatomically by coronary artery flow",
+      "subsections": {
+        "Apical": {
+          "text": "Best obtained in left lateral decubitus with left arm above head to open up ribs\nEF estimation\nLVEF by Simpson, LV volume change\nLVEF by Teichholz method, using M-mode (estimation of LV volume by diameter measured just beyond mitral tips in diastole)\nEF visual assessment:\n>65% = hyperdynamic\n55-65% = normal\n45-54% = mildly depressed\n30-44% = moderately depressed\n<30% = severely depressed\nEvaluation for wall motion abnormality",
+          "tables": []
+        },
+        "Apical_Two_Chamber_View": {
+          "text": "Infrequently used unless concern exists for full evaluation of wall motion abnormality in LV\nObtains better views of RCA and LAD distribution",
+          "tables": []
+        },
+        "Aortic_Stenosis": {
+          "text": "See\nAortic stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Mitral_Stenosis": {
+          "text": "See\nMitral stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Diastolic_Function": {
+          "text": "Worsening diastolic dysfunction corresponds to less fluid responsive hypotension and more volume overload\nSeptic/hypotensive patients with baseline diastolic dysfunction will not have reliable IVC ultrasounding for fluid responsiveness\nPts in impaired relaxation states can stand to be volume resuscitated just until impaired relaxation becomes pseudonormal\nOtherwise seen as the E wave ≈ A wave (give fluids until E wave increases up to A wave)\nIf still hypotensive at that point, pt volume resuscitated, then start vasopressors\nPatients with pseudonormal or worse diastolic dysfunction require vasopressors, not more fluids\nMeasure E and A waves, then e' and a' waves with tissue doppler\nPW Doppler across MV in apical view bisecting across MV tips during opening, diastole\nTissue doppler at MV annulus (base) at either septum or lateral position to measure tissue velocity\nE/e' ratio ≅ LVEDP (PCWP)\nThe following rules will apply to most patients\n[3]\n(Video)\nRule 1: Normal diastolic function if echo normal, age<45 yrs, E>A\nRule 2: Impaired relaxation if A>E, with E/A<1\nRule 3: Pseudonormal if echo abnormal (LVH), age>65, E>A, E/A>1\nRule 4: Restrictive filling if E/A>2\nEvaluate the E' and A' in tissue doppler to differentiate normal diastolic function from pseudonormalization\n[4]\nSeptal MV annulus TD, E' magnitude less than 8 cm/s suggestive of diastolic dysfunction\nLateral MV annulus TD, E' < 10 cm/s suggestive of diastolic dysfunction",
+          "tables": [
+            [
+              {
+                "": "LVEDP",
+                "Normal": "< 15 mmHg",
+                "Impaired": "< 15 mmHg",
+                "Pseudonormal": "15-25 mmHg",
+                "Restrictive": "> 25 mmHg"
+              },
+              {
+                "": "E velocity",
+                "Normal": "Normal",
+                "Impaired": "Stays Same",
+                "Pseudonormal": "~ 100 cm/s",
+                "Restrictive": "~150 cm/s"
+              },
+              {
+                "": "A velocity",
+                "Normal": "Normal",
+                "Impaired": "↑",
+                "Pseudonormal": "↓",
+                "Restrictive": "↓↓"
+              },
+              {
+                "": "E/A",
+                "Normal": "> 1",
+                "Impaired": "< 1",
+                "Pseudonormal": "> 1",
+                "Restrictive": "> 2"
+              },
+              {
+                "": "TDI",
+                "Normal": "e' > a'",
+                "Impaired": "a' > e'",
+                "Pseudonormal": "a' > e'",
+                "Restrictive": "a' ≈ e'"
+              },
+              {
+                "": "E/e'",
+                "Normal": "< 15",
+                "Impaired": "< 15",
+                "Pseudonormal": "> 15",
+                "Restrictive": "> 15"
+              },
+              {
+                "": "e' (septal)",
+                "Normal": "> 8 cm/s",
+                "Impaired": "< 8 cm/s",
+                "Pseudonormal": "<< 8 cm/s",
+                "Restrictive": "<<< 8 cm/s"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        }
+      ]
+    },
+    "Apical": {
+      "text": "Best obtained in left lateral decubitus with left arm above head to open up ribs\nEF estimation\nLVEF by Simpson, LV volume change\nLVEF by Teichholz method, using M-mode (estimation of LV volume by diameter measured just beyond mitral tips in diastole)\nEF visual assessment:\n>65% = hyperdynamic\n55-65% = normal\n45-54% = mildly depressed\n30-44% = moderately depressed\n<30% = severely depressed\nEvaluation for wall motion abnormality",
+      "subsections": {
+        "Apical_Two_Chamber_View": {
+          "text": "Infrequently used unless concern exists for full evaluation of wall motion abnormality in LV\nObtains better views of RCA and LAD distribution",
+          "tables": []
+        },
+        "Aortic_Stenosis": {
+          "text": "See\nAortic stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Mitral_Stenosis": {
+          "text": "See\nMitral stenosis\nfor formal echo evaluation",
+          "tables": []
+        },
+        "Diastolic_Function": {
+          "text": "Worsening diastolic dysfunction corresponds to less fluid responsive hypotension and more volume overload\nSeptic/hypotensive patients with baseline diastolic dysfunction will not have reliable IVC ultrasounding for fluid responsiveness\nPts in impaired relaxation states can stand to be volume resuscitated just until impaired relaxation becomes pseudonormal\nOtherwise seen as the E wave ≈ A wave (give fluids until E wave increases up to A wave)\nIf still hypotensive at that point, pt volume resuscitated, then start vasopressors\nPatients with pseudonormal or worse diastolic dysfunction require vasopressors, not more fluids\nMeasure E and A waves, then e' and a' waves with tissue doppler\nPW Doppler across MV in apical view bisecting across MV tips during opening, diastole\nTissue doppler at MV annulus (base) at either septum or lateral position to measure tissue velocity\nE/e' ratio ≅ LVEDP (PCWP)\nThe following rules will apply to most patients\n[3]\n(Video)\nRule 1: Normal diastolic function if echo normal, age<45 yrs, E>A\nRule 2: Impaired relaxation if A>E, with E/A<1\nRule 3: Pseudonormal if echo abnormal (LVH), age>65, E>A, E/A>1\nRule 4: Restrictive filling if E/A>2\nEvaluate the E' and A' in tissue doppler to differentiate normal diastolic function from pseudonormalization\n[4]\nSeptal MV annulus TD, E' magnitude less than 8 cm/s suggestive of diastolic dysfunction\nLateral MV annulus TD, E' < 10 cm/s suggestive of diastolic dysfunction",
+          "tables": [
+            [
+              {
+                "": "LVEDP",
+                "Normal": "< 15 mmHg",
+                "Impaired": "< 15 mmHg",
+                "Pseudonormal": "15-25 mmHg",
+                "Restrictive": "> 25 mmHg"
+              },
+              {
+                "": "E velocity",
+                "Normal": "Normal",
+                "Impaired": "Stays Same",
+                "Pseudonormal": "~ 100 cm/s",
+                "Restrictive": "~150 cm/s"
+              },
+              {
+                "": "A velocity",
+                "Normal": "Normal",
+                "Impaired": "↑",
+                "Pseudonormal": "↓",
+                "Restrictive": "↓↓"
+              },
+              {
+                "": "E/A",
+                "Normal": "> 1",
+                "Impaired": "< 1",
+                "Pseudonormal": "> 1",
+                "Restrictive": "> 2"
+              },
+              {
+                "": "TDI",
+                "Normal": "e' > a'",
+                "Impaired": "a' > e'",
+                "Pseudonormal": "a' > e'",
+                "Restrictive": "a' ≈ e'"
+              },
+              {
+                "": "E/e'",
+                "Normal": "< 15",
+                "Impaired": "< 15",
+                "Pseudonormal": "> 15",
+                "Restrictive": "> 15"
+              },
+              {
+                "": "e' (septal)",
+                "Normal": "> 8 cm/s",
+                "Impaired": "< 8 cm/s",
+                "Pseudonormal": "<< 8 cm/s",
+                "Restrictive": "<<< 8 cm/s"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Mitral stenosis",
+          "url": "https://wikem.org/wiki/Mitral_stenosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Aortic stenosis\nfor CW Doppler measurements\nCardiac ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ECHOpedia Diastolic Dysfunction\nCritical USG - Echocardiographic evaluation of left ventricular systolic function",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

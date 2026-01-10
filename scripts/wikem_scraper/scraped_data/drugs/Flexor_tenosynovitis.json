@@ -1,0 +1,254 @@
+{
+  "drug_name": "Flexor_tenosynovitis",
+  "url": "https://wikem.org/wiki/Flexor_tenosynovitis",
+  "scraped_at": "2026-01-10T07:53:30.361638",
+  "sections": {
+    "Background": {
+      "text": "Surgical emergency - flexor sheaths are contiguous with deep spaces of the hand\nUsually associated with a penetrating trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Kanavel's_Signs": {
+          "text": "Pain with passive extension (often the first sign seen)\nPercussion tenderness (tenderness over entire length of flexor tendon sheath)\nUniform swelling (symmetric finger swelling along length of the tendon sheath)\nFlexion posture (flexed posture of involved digit at rest to minimize pain)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Kanavel's_Signs": {
+      "text": "Pain with passive extension (often the first sign seen)\nPercussion tenderness (tenderness over entire length of flexor tendon sheath)\nUniform swelling (symmetric finger swelling along length of the tendon sheath)\nFlexion posture (flexed posture of involved digit at rest to minimize pain)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nESR\nUltrasound\n[2]\nXray",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Generally a clinical diagnosis, based on history and physical exam\nLabs generally show elevated WBC and inflammatory markers\nXray is done to rule out radiopaque foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nESR\nUltrasound\n[2]\nXray",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Generally a clinical diagnosis, based on history and physical exam\nLabs generally show elevated WBC and inflammatory markers\nXray is done to rule out radiopaque foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Generally a clinical diagnosis, based on history and physical exam\nLabs generally show elevated WBC and inflammatory markers\nXray is done to rule out radiopaque foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Emergent hand surgery consult in ED\nAntibiotics for most common skin pathogens Strep and Staph\n(start immediately if suspected but consider obtaining wound culture if any spontaneous drainage is present)\nVancomycin\n1gm IV q12hr\nAND\nAmpicillin/Sulbactam\n1.5gm IV q6h\nOR\ncefoxitin\n2gm IV q8h\nOR\nPiperacillin/Tazobactam\n3.375gm IV q6h\nSpecial Antibiotic Considerations\nDiabetic Patients\nensure you have Pseudomonal Coverage by using\nPiperacillin/Tazobactam\nrather than\nAmpicillin/Sulbactam\nor\ncefoxitin\nMarine Exposure\nconsider adding a\nFluroquinolone\n,\nSulfamethoxazole/Trimethoprim\nor\nDoxycycline\nto cover common marine organisms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Fluroquinolone",
+          "url": "https://wikem.org/wiki/Fluroquinolone"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand infection",
+          "url": "https://wikem.org/wiki/Hand_infection"
+        }
+      ]
+    },
+    "Video": {
+      "text": "{{#widget:YouTube|id=4oCzzvTiwew}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "drug_name": "Flumazenil",
+  "url": "https://wikem.org/wiki/Flumazenil",
+  "scraped_at": "2026-01-10T07:53:32.149037",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nBenzodiazepine\nAntidote\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names: Anexate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "0.2 mg IV; if inadequate response after 30s, give additional 0.3 mg IV; if inadequate, repeat doses of 0.5 mg IV  q1 min to MAX total dose of 3 mg\nIf only partial response to 3mg, may slowly titrate to 5mg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">1 year old: 0.01 mg/kg (up to 0.2 mg) IV; if inadequate after 45s, repeat 0.01mg/kg (up to 0.2mg) q1 min up to 4 times. Max total dose 0.05mg/kg or 1mg (whichever is lower)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: No adjustment\nHepatic dosing: no change to initial dose, reduce dose or frequency of subsequent doses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nNeed for benzodiazepine to control potentially life-threatening condition (e.g. seizures in raised ICP, status epilepticus)\nSuspected or known physical dependence on benzodiazepines\nSuspected\nTCA overdose\nCo-ingestion of seizure-inducing agents\nKnown\nseizure\ndisorder\nSuspected increased intracranial pressure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TCA overdose",
+          "url": "https://wikem.org/wiki/TCA_overdose"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Cardiac dysrhythmias\nSeizure\nin patients relying on benzodiazepines for seizure control or who are physically dependent on benzos, or who have ingested large doses of other drugs\nDeath (in same patients as above)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness, headache, visual changes\nAgitation\nDiaphoresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Cardiac dysrhythmias\nSeizure\nin patients relying on benzodiazepines for seizure control or who are physically dependent on benzos, or who have ingested large doses of other drugs\nDeath (in same patients as above)",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness, headache, visual changes\nAgitation\nDiaphoresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Dizziness, headache, visual changes\nAgitation\nDiaphoresis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset of action: 1-2 minutes\n[1]\nHalf-life: 40-80 min\nMetabolism: Hepatic\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Competitive GABA antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Really only safe for use in benzo-naive patients who have had\nknown\nbenzo-only overdose (e.g. pediatric patient who was given too much for sedation)\nFlumazenil-Induced Seizure\nTreat with\nphenobarbital\nor\npropofol\n; benzodiazepines will not work",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Benzodiazepine toxicity\nAntidotes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine toxicity",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "drug_name": "Fluconazole",
+  "url": "https://wikem.org/wiki/Fluconazole",
+  "scraped_at": "2026-01-10T07:53:29.217674",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntifungal\nDosage Forms: IV; PO\nCommon Trade Names: Diflucan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "Candidiasis\n, oropharyngeal/esophageal\n100mg PO qday x 2 week to prevent relapse\nCandida vaginitis\nUncomplicated: 150mg PO x 1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "Candidiasis\n, oropharyngeal/esophageal\n100mg PO qday x 2 week to prevent relapse\nCandida vaginitis\nUncomplicated: 150mg PO x 1",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Candidiasis, oropharyngeal/esophageal:\n> 14 days old: 6mg/kg PO x 1, then 3mg/kg q24h x 7-14 days, max: 100mg/day\nTinea Capitis:\n> 14 days old: 3-6mg/kg PO q24h x 6 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation Risk Categories\n: safety unknown\nRenal Dosing\nAdult:CrCrl < 50, give usual loading dose x 1 then decrease dose 50%\nPediatric: CrCrl < 50, give usual loading dose x 1 then decrease dose 50%\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation Risk Categories",
+          "url": "https://wikem.org/wiki/Lactation_Risk_Categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "hepatotoxicity\nseizures\nleukopenia\nthrombocytopenia\nanaphylaxis\nsteven-johnson syndrome\nQT prolongation",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nvomiting\ndiarrhea\nTransaminitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "hepatotoxicity\nseizures\nleukopenia\nthrombocytopenia\nanaphylaxis\nsteven-johnson syndrome\nQT prolongation",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\nRash\nHeadache\nvomiting\ndiarrhea\nTransaminitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea\nRash\nHeadache\nvomiting\ndiarrhea\nTransaminitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30 hour\nMetabolism: Liver\nExcretion: urine\nMechanism of Action: inhibits cytochrome\nP450\nand sterol c-14 alpha-demethylation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "P450",
+          "url": "https://wikem.org/wiki/P450"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Antifungals\nFungal infections\n==External Links]]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

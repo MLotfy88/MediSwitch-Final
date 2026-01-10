@@ -1,0 +1,108 @@
+{
+  "drug_name": "First_degree_AV_block",
+  "url": "https://wikem.org/wiki/First_degree_AV_block",
+  "scraped_at": "2026-01-10T07:53:28.439481",
+  "sections": {
+    "Background": {
+      "text": "Also known as first-degree heart block\nDefined as prolongation of the PR interval on an electrocardiogram (ECG) to more than 200 msec (5 small squares on the ECG tracing)\nConsidered “marked” when the PR interval exceeds 300 msec (more than 7 small squares on the ECG tracing)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vast majority are asymptomatic and diagnosed by chance\nExercise may reveal decreased tolerance (especially when there is markedly prolonged PR interval and with left ventricular systolic dysfunction)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "AV_blocks": {
+      "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nConsider rare causes:\nLyme's disease\nLupus\nMyocarditis\nMyocardial infarction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Asymptomatic patients do not require any specific management\nConsider a cardiology consult for patients who may have symptoms attributable to the block (rare)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "AV blocks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "drug_name": "Flash_pulmonary_edema",
+  "url": "https://wikem.org/wiki/Flash_pulmonary_edema",
+  "scraped_at": "2026-01-10T07:53:32.837250",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"sympathetic crashing acute pulmonary edema\" (SCAPE)\nDifferent from acute\nCHF\nexacerbation or hypotensive\ncardiogenic shock\n, which do not have sympathetic overdrive\nPatients can decompensate rapidly, so rapid intervention required\nPatients are generally more fluid depleted despite \"wet\" lungs, so do\nnot\ngive diuretics\nUsually history of poorly controlled\nhypertension\nAcute afterload increase causes\npulmonary edema\nand poor peripheral perfusion\nSympathetic surge occurs as a result of decreased systemic perfusion\nAfterload further increases and patient rapidly decompensates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "cardiogenic shock",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Rales, crackles\nSBP >180 mmHg\nTachycardia\nTachypnea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SBP >180 mmHg",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_Edema_Types": {
+          "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Pulmonary_Edema_Types": {
+      "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC (rule out anemia)\nChem\nECG\nCXR\n-\nsigns of pulmonary congestion may not show for hours after acute flash pulmonary edema, so normal CXR is frequently seen\nCephalization\nInterstitial edema\nPulmonary venous congestion\nPleural effusion\nAlveolar edema\nCardiomegaly\nTroponin\nEchocardiography\nBedside to assess\nglobal function\n,\nB lines\n,\nassessment of IVC\nFormal TTE/TEE\nConsider\narterial line\nmonitoring for titration of NTG",
+          "tables": []
+        },
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[3]",
+          "tables": []
+        },
+        "NT-proBNP[4][5]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "global function",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "B lines",
+          "url": "https://wikem.org/wiki/Ultrasound:_lungs"
+        },
+        {
+          "text": "assessment of IVC",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "arterial line",
+          "url": "https://wikem.org/wiki/Arterial_line"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC (rule out anemia)\nChem\nECG\nCXR\n-\nsigns of pulmonary congestion may not show for hours after acute flash pulmonary edema, so normal CXR is frequently seen\nCephalization\nInterstitial edema\nPulmonary venous congestion\nPleural effusion\nAlveolar edema\nCardiomegaly\nTroponin\nEchocardiography\nBedside to assess\nglobal function\n,\nB lines\n,\nassessment of IVC\nFormal TTE/TEE\nConsider\narterial line\nmonitoring for titration of NTG",
+      "subsections": {
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[3]",
+          "tables": []
+        },
+        "NT-proBNP[4][5]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "global function",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "B lines",
+          "url": "https://wikem.org/wiki/Ultrasound:_lungs"
+        },
+        {
+          "text": "assessment of IVC",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "arterial line",
+          "url": "https://wikem.org/wiki/Arterial_line"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Lung_ultrasound_of_pulmonary_edema": {
+      "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Vasodilate arterial side, while maintaining oxygenation\nBiPAP\nwith PEEP of 8 mmHg\nTitrate PEEP quickly to 12\nHigh dose\nnitroglycerin\nover 2 min (at these doses,\nnitroglycerin\nhas vasodilation > venodilation\n[7]\n)\nGoal BP at the patient's norm\nLoad 800 mcg over 2 min (may start at 100 mcg/min, then titrate rapidly to 400 mcg/min for 2 min)\nThen start maintenance at 100 mcg/min, titrate up as needed\nNOTE: it takes time to set up\nnitroglycerin\ndrip, so consider SL\nnitroglycerin\nin interim\n0.4mg tab during 5 min = ~80 mcg/min (2 tabs = ~160 mcg/min, etc.)\nDifficult to titrate if giving more than 1-2 tabs\nPatients are likely more dehydrated that overloaded but should be recurrently volume assessed\nConsider\ncaptopril\n12.5 - 25mg SL for continuation of afterload reduction\n[8]\nWean CPAP after sustained BP at patient's baseline\nDecrease FiO2 to 40%\nWean PEEP down 2 cm H2O q10 min\nAt 5 cmH2O, trial of NC",
+      "subsections": {
+        "Other_Interventions": {
+          "text": "Furosemide\nTargets kidneys which are poorly perfused in BOTH hypotension and catecholamine surge\nConsider waiting until BiPAP and\nnitroglycerin\ncontrol hypertension first\nNitroprusside\n, alternative when insufficient response to NTG\nStart 0.5 mcg/kg/min, titrate to blood pressure\nMax 10 mcg/kg/min for x10 min\nCyanide toxicity risk increases proportionately with infusion rate as well as length of time\n[9]\nIf intubation required, consider\ndelayed sequence intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        }
+      ]
+    },
+    "Other_Interventions": {
+      "text": "Furosemide\nTargets kidneys which are poorly perfused in BOTH hypotension and catecholamine surge\nConsider waiting until BiPAP and\nnitroglycerin\ncontrol hypertension first\nNitroprusside\n, alternative when insufficient response to NTG\nStart 0.5 mcg/kg/min, titrate to blood pressure\nMax 10 mcg/kg/min for x10 min\nCyanide toxicity risk increases proportionately with infusion rate as well as length of time\n[9]\nIf intubation required, consider\ndelayed sequence intubation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary edema\nCHF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit Podcast - Sympathetic Crashing Acute Pulmonary Edema\nEMCrit Podcast - When to wean the CPAP in SCAPE\nEmergency Medicine Cases Podcast - Acute Congestive Heart Failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

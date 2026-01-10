@@ -1,0 +1,546 @@
+{
+  "drug_name": "Foot_and_toe_fractures",
+  "url": "https://wikem.org/wiki/Foot_and_toe_fractures",
+  "scraped_at": "2026-01-10T07:53:43.171648",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of trauma\nPain over fracture site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "XR foot and/or toe x 2 view\nConsider need for more proximal or distal plain films\nConsider non-contrast CT of the foot",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Calcaneus fracture\nCuboid fracture\nCuneiform fracture\nFifth metatarsal fracture\nLisfranc injury\nNavicular fracture\nNon-fifth metatarsal fracture\nTalus fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "XR foot and/or toe x 2 view\nConsider need for more proximal or distal plain films\nConsider non-contrast CT of the foot",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Calcaneus fracture\nCuboid fracture\nCuneiform fracture\nFifth metatarsal fracture\nLisfranc injury\nNavicular fracture\nNon-fifth metatarsal fracture\nTalus fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Calcaneus fracture\nCuboid fracture\nCuneiform fracture\nFifth metatarsal fracture\nLisfranc injury\nNavicular fracture\nNon-fifth metatarsal fracture\nTalus fracture\nToe fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Management_&_Disposition": {
+      "text": "",
+      "subsections": {
+        "Foot_and_Toe_Fractures_Management_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Fracture": "Talus fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Calcaneus fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Lisfranc injury",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Navicular fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Cuboid fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Cuneiform fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Fifth metatarsal fractureJones",
+                "Splint": "Posterior ankle splint",
+                "Disposition": "Ortho follow up 3-5D"
+              },
+              {
+                "Fracture": "Non-fifth metatarsal fracture",
+                "Splint": "Posterior ankle splint",
+                "Disposition": "Ortho follow up 2-3 days"
+              },
+              {
+                "Fracture": "Toe Fracture",
+                "Splint": "Posterior Ankle Splint",
+                "Disposition": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Foot_and_Toe_Fractures_Management_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Fracture": "Talus fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Calcaneus fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Lisfranc injury",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Navicular fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Cuboid fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Cuneiform fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Fifth metatarsal fractureJones",
+            "Splint": "Posterior ankle splint",
+            "Disposition": "Ortho follow up 3-5D"
+          },
+          {
+            "Fracture": "Non-fifth metatarsal fracture",
+            "Splint": "Posterior ankle splint",
+            "Disposition": "Ortho follow up 2-3 days"
+          },
+          {
+            "Fracture": "Toe Fracture",
+            "Splint": "Posterior Ankle Splint",
+            "Disposition": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures (Main)\nDistal leg fractures\nFoot Diagnoses (Main)\nSplinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Foot Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Foot_Diagnoses_(Main)"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.aliem.com/emrad-adult-ankle-foot-cant-miss/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

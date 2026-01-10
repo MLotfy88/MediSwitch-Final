@@ -1,0 +1,601 @@
+{
+  "drug_name": "Fluoxetine",
+  "url": "https://wikem.org/wiki/Fluoxetine",
+  "scraped_at": "2026-01-10T07:53:30.897242",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antidepressant\nDosage Forms: 10mg, 20mg, 40mg\nRoutes of Administration: Oral\nCommon Trade Names: Prozac",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Major_depressive_disorder": {
+          "text": "20-80mg PO qAM\nStart 20mg PO qAM",
+          "tables": []
+        },
+        "Obsessive-Compulsive_Disorder": {
+          "text": "20-60mg PO qAM\nStart 20mg PO qAM",
+          "tables": []
+        },
+        "Bulimia_nervosa": {
+          "text": "60mg PO qAM",
+          "tables": []
+        },
+        "Panic_Disorder": {
+          "text": "20mg PO qAM",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_I": {
+          "text": "20-50mg PO qPM",
+          "tables": []
+        },
+        "Cataplexy": {
+          "text": "20-60mg PO qAM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Major_depressive_disorder": {
+      "text": "20-80mg PO qAM\nStart 20mg PO qAM",
+      "subsections": {
+        "Obsessive-Compulsive_Disorder": {
+          "text": "20-60mg PO qAM\nStart 20mg PO qAM",
+          "tables": []
+        },
+        "Bulimia_nervosa": {
+          "text": "60mg PO qAM",
+          "tables": []
+        },
+        "Panic_Disorder": {
+          "text": "20mg PO qAM",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_I": {
+          "text": "20-50mg PO qPM",
+          "tables": []
+        },
+        "Cataplexy": {
+          "text": "20-60mg PO qAM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Obsessive-Compulsive_Disorder": {
+      "text": "20-60mg PO qAM\nStart 20mg PO qAM",
+      "subsections": {
+        "Bulimia_nervosa": {
+          "text": "60mg PO qAM",
+          "tables": []
+        },
+        "Panic_Disorder": {
+          "text": "20mg PO qAM",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_I": {
+          "text": "20-50mg PO qPM",
+          "tables": []
+        },
+        "Cataplexy": {
+          "text": "20-60mg PO qAM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bulimia_nervosa": {
+      "text": "60mg PO qAM",
+      "subsections": {
+        "Panic_Disorder": {
+          "text": "20mg PO qAM",
+          "tables": []
+        },
+        "Bipolar_disorder,_Type_I": {
+          "text": "20-50mg PO qPM",
+          "tables": []
+        },
+        "Cataplexy": {
+          "text": "20-60mg PO qAM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Panic_Disorder": {
+      "text": "20mg PO qAM",
+      "subsections": {
+        "Bipolar_disorder,_Type_I": {
+          "text": "20-50mg PO qPM",
+          "tables": []
+        },
+        "Cataplexy": {
+          "text": "20-60mg PO qAM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_disorder,_Type_I": {
+      "text": "20-50mg PO qPM",
+      "subsections": {
+        "Cataplexy": {
+          "text": "20-60mg PO qAM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cataplexy": {
+      "text": "20-60mg PO qAM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Major_depressive_disorder_2": {
+          "text": "6-7 yo\n10 mg PO qd\n8-18 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Obsessive-Compulsive_Disorder_2": {
+          "text": "7-17 yo\n20-60 mg PO qd",
+          "tables": []
+        },
+        "Bipolar_disorder,_type_I_2": {
+          "text": "10-17 yo\n20-50 mg PO qd",
+          "tables": []
+        },
+        "Bulimia_nervosa_2": {
+          "text": "12+ yo\n20-60 mg PO qd",
+          "tables": []
+        },
+        "Insomnia": {
+          "text": "10-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "PTSD": {
+          "text": "7-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Major_depressive_disorder_2": {
+      "text": "6-7 yo\n10 mg PO qd\n8-18 yo\n10-20 mg PO qd",
+      "subsections": {
+        "Obsessive-Compulsive_Disorder_2": {
+          "text": "7-17 yo\n20-60 mg PO qd",
+          "tables": []
+        },
+        "Bipolar_disorder,_type_I_2": {
+          "text": "10-17 yo\n20-50 mg PO qd",
+          "tables": []
+        },
+        "Bulimia_nervosa_2": {
+          "text": "12+ yo\n20-60 mg PO qd",
+          "tables": []
+        },
+        "Insomnia": {
+          "text": "10-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "PTSD": {
+          "text": "7-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Obsessive-Compulsive_Disorder_2": {
+      "text": "7-17 yo\n20-60 mg PO qd",
+      "subsections": {
+        "Bipolar_disorder,_type_I_2": {
+          "text": "10-17 yo\n20-50 mg PO qd",
+          "tables": []
+        },
+        "Bulimia_nervosa_2": {
+          "text": "12+ yo\n20-60 mg PO qd",
+          "tables": []
+        },
+        "Insomnia": {
+          "text": "10-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "PTSD": {
+          "text": "7-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bipolar_disorder,_type_I_2": {
+      "text": "10-17 yo\n20-50 mg PO qd",
+      "subsections": {
+        "Bulimia_nervosa_2": {
+          "text": "12+ yo\n20-60 mg PO qd",
+          "tables": []
+        },
+        "Insomnia": {
+          "text": "10-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "PTSD": {
+          "text": "7-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bulimia_nervosa_2": {
+      "text": "12+ yo\n20-60 mg PO qd",
+      "subsections": {
+        "Insomnia": {
+          "text": "10-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "PTSD": {
+          "text": "7-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Insomnia": {
+      "text": "10-17 yo\n10-20 mg PO qd",
+      "subsections": {
+        "PTSD": {
+          "text": "7-17 yo\n10-20 mg PO qd",
+          "tables": []
+        },
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "PTSD": {
+      "text": "7-17 yo\n10-20 mg PO qd",
+      "subsections": {
+        "Social_Anxiety_Disorder": {
+          "text": "5+ yo\n20 mg PO qd",
+          "tables": []
+        },
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Social_Anxiety_Disorder": {
+      "text": "5+ yo\n20 mg PO qd",
+      "subsections": {
+        "Cataplexy_2": {
+          "text": "5+ yo\n10-40 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cataplexy_2": {
+      "text": "5+ yo\n10-40 mg PO qd",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Caution advised in 3rd trimester\nLactation risk: Consider alternative while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nNo adjustment\nPediatric:\nNo adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nDecrease dose or frequency\nPediatric:\nDecrease dose or frequency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nNo adjustment\nPediatric:\nNo adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nDecrease dose or frequency\nPediatric:\nDecrease dose or frequency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nDecrease dose or frequency\nPediatric:\nDecrease dose or frequency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nConcurrent CNS depressant use\nAlcohol use\nPts < 25 yo\nElderly\nPregnancy 3rd trimester\nHepatic impairment\nPoor CYP2D6 metabolizer\nBleeding risk\nQT prolongation\nCHF\nHypomania or mania history\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Suicidality\nDepression\nexacerbation\nHypomania/mania\nQT prolongation,\ntorsades de pointes\nSerotonin syndrome\nAnaphylaxis\n,\nStevens-Johnson Syndrome\n, Erythema multiforme\nSerum sickness\nVasculitis\n, Pulmonary fibrosis\nGlaucoma\n, angle-closure\nSeizures\n,\nHyponatremia\n,\nSIADH\nHypoglycemia\nPriapism, Extrapyramidal symptoms",
+          "tables": []
+        },
+        "Common": {
+          "text": "Insomnia\nNausea\n,\nvomiting\n,\ndiarrhea\nHeadache\n,\ndizziness\nAnorexia, anxiety, nervousness\nAsthenia, somnolence\nSexual dysfunction\nDyspepsia\nAbnormal dreams\nRash\nWeight loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Suicidality\nDepression\nexacerbation\nHypomania/mania\nQT prolongation,\ntorsades de pointes\nSerotonin syndrome\nAnaphylaxis\n,\nStevens-Johnson Syndrome\n, Erythema multiforme\nSerum sickness\nVasculitis\n, Pulmonary fibrosis\nGlaucoma\n, angle-closure\nSeizures\n,\nHyponatremia\n,\nSIADH\nHypoglycemia\nPriapism, Extrapyramidal symptoms",
+      "subsections": {
+        "Common": {
+          "text": "Insomnia\nNausea\n,\nvomiting\n,\ndiarrhea\nHeadache\n,\ndizziness\nAnorexia, anxiety, nervousness\nAsthenia, somnolence\nSexual dysfunction\nDyspepsia\nAbnormal dreams\nRash\nWeight loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Insomnia\nNausea\n,\nvomiting\n,\ndiarrhea\nHeadache\n,\ndizziness\nAnorexia, anxiety, nervousness\nAsthenia, somnolence\nSexual dysfunction\nDyspepsia\nAbnormal dreams\nRash\nWeight loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-6 day (parent drug) and 9.3 days (active metabolite)\nMetabolism: Liver, CYP2C19 and CYP2D6 (primary)\nExcretion: Urine 80% (11.6% unchanged), Feces 15%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Selectively inhibits serotonin reuptake",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

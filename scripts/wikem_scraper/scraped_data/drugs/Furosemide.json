@@ -1,0 +1,114 @@
+{
+  "drug_name": "Furosemide",
+  "url": "https://wikem.org/wiki/Furosemide",
+  "scraped_at": "2026-01-10T07:53:44.829090",
+  "sections": {
+    "General": {
+      "text": "Type:\nDiuretic\nDosage Forms:20, 40, 80\nCommon Trade Names: Lasix\nApproximately 50% bioavailability, so converting from oral to IV dose doubles oral dose\n[1]\nFurosemide absorption may be reduced in decompensated\nCHF\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "40 mg\nfurosemide\n= 20 mg\ntorsemide\n= 1 mg\nbumetanide\n= 50 mg\nethacrynic acid\nFluid overload\n: Typically 40 mg IV or  normal PO dosage IV\nhypertension\n: 10-40 mg PO QDAY-BID, max 600 mg/day\nHypercalcemia\n: 120 mg/day PO divided QDAY - TID\nContinuous infusion may increase diuresis effect and minimize post-diuretic sodium retention and \"diuretic braking\"\n[3]\nStart 0.1 mg/kg/hr, increase hourly to max of 0.75 mg/kg/hr\n[4]\nTarget > 1 mL/kg/hr\nMonitor for ototoxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "torsemide",
+          "url": "https://wikem.org/wiki/Torsemide"
+        },
+        {
+          "text": "bumetanide",
+          "url": "https://wikem.org/wiki/Bumetanide"
+        },
+        {
+          "text": "ethacrynic acid",
+          "url": "https://wikem.org/wiki/Ethacrynic_acid"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Volume overload 0.5-2mg/kg/dose IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n:C\nLactation: safety unknown\nRenal Dosing\nAdult: no adjustment, contraindicated in anuria\nPediatric: no adjustment, contraindicated in anuria\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nanuria\nelectrolyte imbalances",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "hypokalemia\nmetabolic alkalosis\nhypovolemia\nototoxicity\nhemolytic anemia\nvasculitis\nsteven-johnson syndrome\npancreatitis\neosinophilia",
+          "tables": []
+        },
+        "Common": {
+          "text": "urinary frequency\ndizziness\nnausea/vomiting\nweakness\nmuscle cramping\nhypokalemia\nhypomagnesemia\nblurred vision\ndiarrhea\nhyperglycemia\nhyperuricemia\ntinnitus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "hypokalemia\nmetabolic alkalosis\nhypovolemia\nototoxicity\nhemolytic anemia\nvasculitis\nsteven-johnson syndrome\npancreatitis\neosinophilia",
+      "subsections": {
+        "Common": {
+          "text": "urinary frequency\ndizziness\nnausea/vomiting\nweakness\nmuscle cramping\nhypokalemia\nhypomagnesemia\nblurred vision\ndiarrhea\nhyperglycemia\nhyperuricemia\ntinnitus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "urinary frequency\ndizziness\nnausea/vomiting\nweakness\nmuscle cramping\nhypokalemia\nhypomagnesemia\nblurred vision\ndiarrhea\nhyperglycemia\nhyperuricemia\ntinnitus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 30-60 min\nMetabolism: liver minimally\nExcretion: urine\nMechanism of Action: inhibits loop of henle and proximal and distal convoluted tubule sodium and chloride resorption",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

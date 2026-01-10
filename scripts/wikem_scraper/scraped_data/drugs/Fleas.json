@@ -1,0 +1,130 @@
+{
+  "drug_name": "Fleas",
+  "url": "https://wikem.org/wiki/Fleas",
+  "scraped_at": "2026-01-10T07:53:35.247491",
+  "sections": {
+    "Background": {
+      "text": "Bilaterally-flattened wingless insects with enlarged hindlimbs specially adapted for jumping (up to 100 times their body length)\n[1]\nThere are some 2,500 flea species, most parasitic on mammals (especially rodents) and some on birds\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pruritic\nrash\nTungiasis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Domestic_U.S._Ectoparasites": {
+          "text": "Bed bugs\nLice\nScabies\n(Mites)\nTicks\nFleas\nPseudoparasites\nDelusional parasitosis (Ekbom syndrome)\nSee also\ntravel-related skin conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Ticks",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        },
+        {
+          "text": "travel-related skin conditions",
+          "url": "https://wikem.org/wiki/Travel-related_skin_conditions"
+        }
+      ]
+    },
+    "Domestic_U.S._Ectoparasites": {
+      "text": "Bed bugs\nLice\nScabies\n(Mites)\nTicks\nFleas\nPseudoparasites\nDelusional parasitosis (Ekbom syndrome)\nSee also\ntravel-related skin conditions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Ticks",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Pseudoparasites",
+          "url": "https://wikem.org/wiki/Pseudoparasites"
+        },
+        {
+          "text": "travel-related skin conditions",
+          "url": "https://wikem.org/wiki/Travel-related_skin_conditions"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive\nAdvise treating vector (e.g. pets etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ectoparasites\nTungiasis\nMurine typhus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        }
+      ]
+    }
+  }
+}

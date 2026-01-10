@@ -1,0 +1,362 @@
+{
+  "drug_name": "Fournier_gangrene",
+  "url": "https://wikem.org/wiki/Fournier_gangrene",
+  "scraped_at": "2026-01-10T07:53:40.891929",
+  "sections": {
+    "Background": {
+      "text": "Life-threatening polymicrobial necrotizing fasciitis of perineum, genitalia, or perianal area.\nMostly bacteria lower GI system -\nB. fragilis\nand\nE. coli\nObliterative endarteritis of subcutaneous arterioles leads to gangrene of overlying skin\n[1]\nMortality - often cited as 20-40%, but up to 80% in some studies\n[2]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Diabetes mellitus\n(most common)\nHypertension\nAlcoholism\nAdvanced age\nPara/Quadriplegic\nMales>Females (10:1)\n[1]\n, (likely under-diagnosed in women\n[2]\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "B. fragilis",
+          "url": "https://wikem.org/wiki/B._fragilis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Diabetes mellitus\n(most common)\nHypertension\nAlcoholism\nAdvanced age\nPara/Quadriplegic\nMales>Females (10:1)\n[1]\n, (likely under-diagnosed in women\n[2]\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Initial event is usually local trauma or extension of a UTI or perianal infection\n[1]\nGangrene develops over 2-7 days\nMarked pain, localized swelling, crepitus, ecchymosis to genital or perineal area.\nFever\nMalodorous purulent drainage\nIn late or severe cases, patient may present in septic shock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Testicular_Diagnoses": {
+          "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Testicular_Diagnoses": {
+      "text": "Scrotal\ncellulitis\nEpididymitis\nFournier gangrene\nHematocele\nHydrocele\nHydrocele (peds)\nIndirect inguinal\nhernia\nInguinal lymph node (\nLymphadenitis\n)\nOrchitis\nScrotal abscess\nSpermatocele\nTinea cruris\nTesticular rupture\nTesticular torsion\nTesticular trauma\nTesticular tumor\nTorsion of testicular appendage\nVaricocele\nPyocele\nTesticular malignancy\nScrotal wall hematoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Hematocele",
+          "url": "https://wikem.org/wiki/Hematocele"
+        },
+        {
+          "text": "Hydrocele",
+          "url": "https://wikem.org/wiki/Hydrocele"
+        },
+        {
+          "text": "Hydrocele (peds)",
+          "url": "https://wikem.org/wiki/Hydrocele_(peds)"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Spermatocele",
+          "url": "https://wikem.org/wiki/Spermatocele"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Testicular rupture",
+          "url": "https://wikem.org/wiki/Testicular_rupture"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Testicular tumor",
+          "url": "https://wikem.org/wiki/Testicular_tumor"
+        },
+        {
+          "text": "Torsion of testicular appendage",
+          "url": "https://wikem.org/wiki/Torsion_of_testicular_appendage"
+        },
+        {
+          "text": "Varicocele",
+          "url": "https://wikem.org/wiki/Varicocele"
+        },
+        {
+          "text": "Pyocele",
+          "url": "https://wikem.org/wiki/Pyocele"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "CBC - very elevated leukocytosis\nCMP - hyponatremia\nESR\nCRP\nLactate\nType and Screen\nWound Culture\nBlood Cultures\nCT Abdomen/pelvis (only if diagnosis unclear or if requested by surgery/urology)",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Clinical diagnosis, based on history and physical exam\nLRINEC score here:\nNecrotizing fasciitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "CBC - very elevated leukocytosis\nCMP - hyponatremia\nESR\nCRP\nLactate\nType and Screen\nWound Culture\nBlood Cultures\nCT Abdomen/pelvis (only if diagnosis unclear or if requested by surgery/urology)",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Clinical diagnosis, based on history and physical exam\nLRINEC score here:\nNecrotizing fasciitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis, based on history and physical exam\nLRINEC score here:\nNecrotizing fasciitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immediate surgery and urology consult for surgical debridement (gangrene can spread at rate of 2-3 cm/hr\n[1]\n)\nAntibiotics\n- Must cover\ngram positive\n,\ngram negative\n, and\nanaerobes\nVancomycin\n+ (\nimipenem\n1gm IV q24hr\nOR\nmeropenem\n500mg-1gm IV q8hr\nOR\npiperacillin-tazobactam\n3.375gm to 4.5gm IV q6h) +/- (\nclindamycin\n600mg-900mg IV q8h\nOR\nmetronidazole\n1gm IV then 500mg IV q8h)\nPiperacillin-Tazobactam\n3.375-4.5g q6hr and\nlinezolid\n600mg q12hr is an alternative regimen\n[3]\nAggressive supportive care, including fluid resuscitation (and\npressors\n, if indicated)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "pressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Necrotizing Fasciitis\nTesticular Diagnoses\nNecrotizing Soft Tissue Infections\nEBQ:LRINEC Score",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "Testicular Diagnoses",
+          "url": "https://wikem.org/wiki/Testicular_Diagnoses"
+        },
+        {
+          "text": "Necrotizing Soft Tissue Infections",
+          "url": "https://wikem.org/wiki/Necrotizing_Soft_Tissue_Infections"
+        },
+        {
+          "text": "EBQ:LRINEC Score",
+          "url": "https://wikem.org/wiki/EBQ:LRINEC_Score"
+        }
+      ]
+    }
+  }
+}

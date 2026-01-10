@@ -1,0 +1,158 @@
+{
+  "drug_name": "Fractures_and_dislocations_(peds)",
+  "url": "https://wikem.org/wiki/Fractures_and_dislocations_(peds)",
+  "scraped_at": "2026-01-10T07:53:41.851149",
+  "sections": {
+    "Clavicle_&_Shoulder": {
+      "text": "Clavicle fracture\nTreatment: Sling/swathe x3 weeks, no sports x3 weeks\nConsult ortho immediately for neurovascular compromise\nShoulder dislocation\nUsually anterior/inferior, always get axillary view film\nTreatment: Closed reduction, sling/swathe for several weeks with ortho outpatient follow up due to high risk of recurrence\nIf posterior dislocation or neurovascular compromise, consult ortho immediately",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        }
+      ]
+    },
+    "Humerus": {
+      "text": "Proximal humerus fracture\nGenerally can tolerate >50° angulation\nClassification\n- using the Neer classification system to divide humerus into 4 parts:\ngreater tuberosity\nlesser tuberosity\nanatomic neck\nsurgical neck\ntreatment: Sling and swathe for several weeks, ortho outpatient follow up in 3-5 days if\nShaft fracture\nConsider abuse of <3 years old\nRadial nerve palsy is common, resolved with treatment\ntreatment: Older kids/adolescents - Hanging long arm cast, ortho outpatient follow up in 3-5 days\nImmediate ortho consult: Child >20° or adolescent >10° angulation and/or radial nerve injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        }
+      ]
+    },
+    "Elbow": {
+      "text": "Supracondylar fracture\nOn XR - posterior and anterior fat pads, anterior humeral line (bisects mid 1/3 of capitellum)\nRadial/median/ulnar palsies generally resolve with reduction\ntreatment: Minimally displaced: long arm posterior splint with elbow at 90° and forearm protonated/neutral\nOrtho follow up in 3-5 days with immobilization for 3 weeks\nImmediate ortho consult for more than minimal displacement or neurovascular compromise\nLateral condylar\nDisplace >2 mm, requires ortho reduction\nMedial epicondylar\nDisplaced: requires open reduction by ortho\nNondisplaced: posterior splint with forearm pronated\nRadial head and neck\ntreatment: splint elbow 90° forearm pronated/neutrol, always follow up with ortho\nImmediate ortho consult for angulation >15°\nElbow dislocation\nHigh risk of neurovascular injury, always consult ortho for reduction\nRadial head subluxation (AKA 'nursemaid's elbow' )\nChild holds are pronated, slightly flexed\ntreatment: reduce with supination and flexion, post reduction patient uses arm in 5-10 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        }
+      ]
+    },
+    "Forearm/Wrist": {
+      "text": "Radius/ulna shaft\n75% are distal third, isolated ulna very rare\ntreatment: <10° sugar-tong splint, immediately consult ortho for >10° angulation\nMonteggia fracture\nUlna fracture and radial head dislocation\nAlways consult ortho immediately!\nGaleazzi fracture\nRadial shart disruption of distal radioulnar joint\nAlways consult ortho immediately!\nDistal radius/ulna\nDistal radius AKA Colles' fracture\ntreatment: Splint and ortho follow up in 3-5 days\nTorus: Volar/short arm\nGreenstick/complete: Long arm posterior or sugar-tong\nImmediate ortho consult for angluation >10-15°\nCarpal bones\nFractures are rare\nIf scaphoid injury even suspected, thumb spica/cast for at least 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Monteggia fracture",
+          "url": "https://wikem.org/wiki/Monteggia_fracture"
+        },
+        {
+          "text": "Galeazzi fracture",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture"
+        }
+      ]
+    },
+    "Hand/Fingers": {
+      "text": "Metacarpal fracture\ntreatment: Distal 5th (boxer's) if nondisplaced apply gutter splint with MCP joint at 70°\nImmediate ortho consult if >30-40° angulation; closed reduction often needed\nPhalangeal finger dislocation\nPIP/DIP - Reduce and buddy tape x3 weeks, if PIP consider digital block pre-reduction\nMCP - If initial reduction fails. consult hand surgeon (plastics)\nRefer gamekeeper's thump (avulsion of ulnar collateral ligament; requires thumb spica x3-6 weeks\nPhalangeal finger fracture\nDistal tuft crush injury - treatment: laceration closure\nMost other fractures - treatment: buddy tape",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metacarpal fracture",
+          "url": "https://wikem.org/wiki/Metacarpal_fracture"
+        },
+        {
+          "text": "Phalangeal finger dislocation",
+          "url": "https://wikem.org/wiki/Phalangeal_finger_dislocation"
+        },
+        {
+          "text": "Phalangeal finger fracture",
+          "url": "https://wikem.org/wiki/Phalangeal_finger_fracture"
+        }
+      ]
+    },
+    "Hip/Femur": {
+      "text": "Hip dislocation\nClosed reduction within 6 hours\nSCFE\n8-15yo M:F 2:1, associated with obesity, increased risk in blacks, patient complains of hip/knee pain\nFemoral shaft fracture\nBirth-2yo: Traction or immediate casting\n2-10yo: Ortho consult, traction with spica casting\nAdolescent: Stabilize with traction splint, consult ortho\nFemoral neck fracture\nTraction/splint with ortho consult for closed or open reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "SCFE",
+          "url": "https://wikem.org/wiki/SCFE"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        }
+      ]
+    },
+    "Knee": {
+      "text": "Knee dislocation\nImmediate reduction recommended, arteriogram post reduction\nPatella fracture\nNon-dislocated: cylindrical cast x4-6 weeks\nDisplaced >3-4mm: ORIF\nPatella dislocation\nClosed reduction with knee immobilizer x4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        }
+      ]
+    },
+    "Tib/Fib": {
+      "text": "Proximal tibia fracture\nEarly ortho consult especially if intra-articular\nTib/fib shaft\nLong leg posterior splint, ortho follow up in 3-5 days\nToddler's fracture\nTechnically an oblique non displaced fracture of the distal tibia\ntreatment: Posterior splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        }
+      ]
+    },
+    "Ankle_&_Foot": {
+      "text": "Distal tibia/fibula fractures\nNon-displaced: bulky posterior splint and crutches with ortho follow up in 3-5 days\nTilaux: Salter III of distal tibia, requires ORIF\nMid/Hindfoot fractures\nTalus: pain with dorsiflexion\nCalcaneous: fall from a height\nMidfoot fractures are rare\ntreatment: bulky posterior splint, crutches, ortho follow up in 3-5 days\nMetatarsal/phalangeal\nBase of 5th metatarsal: 'Jones fracture', high nonunion rate\nNon-displaced - bulky splint and crutches\nPhalanged: buddy tape, hard soled shoes\nIntra-articular: great toe and/or significant displacement requires pinning",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures (main)\nDislocations (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (main)",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Dislocations (main)",
+          "url": "https://wikem.org/wiki/Dislocations_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Cincinnati Children's Hospital \"The Pocket\" 2010-2011",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

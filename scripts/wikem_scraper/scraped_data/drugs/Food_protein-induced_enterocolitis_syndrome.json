@@ -1,0 +1,106 @@
+{
+  "drug_name": "Food_protein-induced_enterocolitis_syndrome",
+  "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome",
+  "scraped_at": "2026-01-10T07:53:37.577755",
+  "sections": {
+    "Background": {
+      "text": "Non-IgE mediated immune reaction to food protein\nPeak incidence in infants 0-9 months\nCow's milk and soy (in patient's diet or maternal diet if breast fed) are most common culprits",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Acute reactions can cause life-threatening volume depletion\nOnset of symptoms ~1-6 hours after ingesting culprit (possibly reintroduced after period of not consuming)\nProfuse, repetitive\nvomiting\nand voluminous\ndiarrhea\nCan lead to profound\ndehydration\n,\nshock\n, severe\nelectrolyte abnormalities\n75% of infants with FPIES appear seriously ill, with ~15% requiring hospitalization for hypotension\n[1]\nSymptoms may be mild-moderate if chronically exposed to offending food\nChronic watery\ndiarrhea\nwith blood or mucus,\nvomiting\n,\nfailure to thrive",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nausea_and_vomiting_(newborn)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Newborn": "Obstructive intestinal anomalies",
+                "'": "Esophageal stenosis/atresiaPyloric stenosisIntestinal stenosis/atresiaDuodenal atresiaMalrotation ±volvulusIncarceratedherniaMeconium ileus/plugHirschsprung's diseaseImperforate anusEnteric duplications"
+              },
+              {
+                "Newborn": "Neurologic",
+                "'": "Intracranial bleed/massHydrocephalusCerebral edemaKernicterus"
+              },
+              {
+                "Newborn": "Renal",
+                "'": "Urinary tract infectionObstructive uropathyRenal insufficiency"
+              },
+              {
+                "Newborn": "Infectious",
+                "'": "Viral illnessAcute gastroenteritisMeningitisSepsis"
+              },
+              {
+                "Newborn": "Metabolic/endocrine",
+                "'": "Inborn errors of metabolismAdrenal insufficiencyCongenital adrenal hyperplasia"
+              },
+              {
+                "Newborn": "Miscellaneous",
+                "'": "IleusGastroesophageal reflux diseaseNecrotizing enterocolitisMilk allergy,FPIESGIperforation"
+              }
+            ]
+          ]
+        },
+        "Nausea_and_vomiting_infant_(<12_mo)": {
+          "text": "Overfeeding\nStarvation stools\nShort bowel syndrome\nCystic fibrosis\nCeliac disease\nDisaccharidase deficiency\nSecretory neoplasms\nImmunodeficiency\nInflammatory bowel disease\nAntibiotic\n-associated diarrhea\nNeonatal drug withdrawal\nToxins\nHemolytic uremic syndrome",
+          "tables": [
+            [
+              {
+                "": "Obstructive intestinal anomalies",
+                "'": "Pyloric stenosisMalrotation ±volvulusIncarceratedherniaHirschsprung's diseaseEnteric duplicationsIntussusceptionForeign bodyBezoarMeckel diverticulum"
+              },
+              {
+                "": "Neurologic",
+                "'": "Intracranial hemorrhage/massHydrocephalusCerebral edema (e.g. inDKAorcancer)"
+              },
+              {
+                "": "Renal",
+                "'": "Urinary tract infectionObstructive uropathyRenal insufficiency"
+              },
+              {
+                "": "Infectious",
+                "'": "Viral illnessAcute gastroenteritisMeningitisSepsisOtitis mediaPneumoniaPertussisHepatitis"
+              },
+              {
+                "": "Metabolic/endocrine",
+                "'": "Inborn errors of metabolismAdrenal insufficiencyRenal tubular acidosisDKA"
+              },
+              {
+                "": "Miscellaneous",
+                "'": "IleusGastroesophageal reflux diseasePost-tussivePeritonitisDrug overdose"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nLabs to assess for consequences of GI losses (e.g. BMP, Mg/Phos,\nVBG\n) +/- workup to exclude alternative diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove offending agent from diet (and maternal diet if patient breastfed)\nVolume resuscitation (see:\ndehydration (peds)\n)\nCorrect\nelectrolyte abnormalities\nAntiemetics\nprn\nIf severe\n[2]\n(e.g. intractable vomiting, ill-appearing, lethargic, hypotensive)\nMethylprednisolone\n1mg/kg IV\nEpinephrine\n0.01 mg/kg IM if shock/hypotension refractory to IV fluids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if requires IV rehydration, electrolyte abnormalities, or intractable symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

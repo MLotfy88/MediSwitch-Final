@@ -1,0 +1,199 @@
+{
+  "drug_name": "Fresh_frozen_plasma",
+  "url": "https://wikem.org/wiki/Fresh_frozen_plasma",
+  "scraped_at": "2026-01-10T07:53:41.333889",
+  "sections": {
+    "General": {
+      "text": "Type:\nBlood products\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Rapid\nreversal of warfarin\nanticoagulation (in setting of bleeding or need for invasive procedure)\nBleeding\nand multiple\ncoagulation defects\n(e.g.\nDIC\nwith significant PT/PTT elevation)\nCorrection of coagulation defects for which no specific factor is available\nTransfusion\nof more than one blood volume with evidence of active bleeding + coagulopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "reversal of warfarin",
+          "url": "https://wikem.org/wiki/Warfarin_reversal"
+        },
+        {
+          "text": "Bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "coagulation defects",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1 bag = 1 unit = 250 mL\n10-20 mL/kg (4-6 units in 70kg adult) will increase factors by ~20-30%\nTransfuse at least 15 mL/kg at a time (4 units in 70-kg adult)\nMust be thawed in 37 degree Celsius water bath for about 45 minutes prior to administration\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Neonates/small children: 10-20 mL/kg will increase factor levels by 15-25%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation:\nRenal Dosing:\nHepatic Dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nABO incompatibility",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Transfusion reactions\nHemolytic transfusion reactions\nFebrile nonhemolytic transfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nAnaphylaxis\nSepsis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache, paresthesia\nNausea\nPruritus, urticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reactions",
+          "url": "https://wikem.org/wiki/Transfusion_reactions"
+        },
+        {
+          "text": "Hemolytic transfusion reactions",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic transfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Transfusion reactions\nHemolytic transfusion reactions\nFebrile nonhemolytic transfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nAnaphylaxis\nSepsis",
+      "subsections": {
+        "Common": {
+          "text": "Headache, paresthesia\nNausea\nPruritus, urticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reactions",
+          "url": "https://wikem.org/wiki/Transfusion_reactions"
+        },
+        {
+          "text": "Hemolytic transfusion reactions",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic transfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_transfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache, paresthesia\nNausea\nPruritus, urticaria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:\nMechanism of Action:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Contains all coagulation factors and fibrinogen\n40 mL/kg raises any factor by 100% (each unit is ~200mL)\nMay cause fluid overload\nABO compatibility a must but crossmatch before transfusing not\nINR of FFP is ~1.6; therefore transfusing for INR <1.7 is not advised\n[2]\nRetains active coagulation factors for up to 5 days after being thawed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transfusions\nPCC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        }
+      ]
+    }
+  }
+}

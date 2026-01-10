@@ -1,0 +1,138 @@
+{
+  "drug_name": "Fomepizole",
+  "url": "https://wikem.org/wiki/Fomepizole",
+  "scraped_at": "2026-01-10T07:53:37.107032",
+  "sections": {
+    "Administration": {
+      "text": "Type: Alcohol dehydrogenase inhibitor,\nantidote\nRoutes of Administration: Intravenous\nCommon Trade Names: Antizol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Loading: 15 mg/kg\nMaintenance: 10 mg/kg every 12 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Loading: 15 mg/kg\nMaintenance: 10 mg/kg every 12 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Unknown if excreted in breast mild",
+      "subsections": {
+        "Hemodialysis_Dosing": {
+          "text": "For patients undergoing hemodialysis for complications associated with toxic alcohol ingestion, dosing should be adjusted in consultation with a nephrologist.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Fomepizole is metabolized in the liver, specific dosing adjustments for hepatic impairment have not been developed.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Hemodialysis_Dosing": {
+      "text": "For patients undergoing hemodialysis for complications associated with toxic alcohol ingestion, dosing should be adjusted in consultation with a nephrologist.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Fomepizole is metabolized in the liver, specific dosing adjustments for hepatic impairment have not been developed.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Fomepizole is metabolized in the liver, specific dosing adjustments for hepatic impairment have not been developed.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bradycardia\nHypotension\nShock\nAnemia\nDisseminated intravascular coagulation (DIC)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Bradycardia\nHypotension\nShock\nAnemia\nDisseminated intravascular coagulation (DIC)",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nNausea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache\nNausea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Not calculated\nMetabolism: Hepatic\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Competitively inhibits alcohol dehydrogenase.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxic Alcohols",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic Alcohols",
+          "url": "https://wikem.org/wiki/Toxic_Alcohols"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

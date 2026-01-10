@@ -1,0 +1,251 @@
+{
+  "drug_name": "Forearm_fracture",
+  "url": "https://wikem.org/wiki/Forearm_fracture",
+  "scraped_at": "2026-01-10T07:53:39.533892",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nforearm fracture (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Solitary fractures of the forearm are uncommon\nFractures usually occur at two or more sites or also involve a ligamentous injury",
+      "subsections": {
+        "Forearm_Fracture_Types": {
+          "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        }
+      ]
+    },
+    "Forearm_Fracture_Types": {
+      "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Distal radius x-ray",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius x-ray",
+          "url": "https://wikem.org/wiki/Distal_radius_x-ray"
+        }
+      ]
+    },
+    "Management_&_Disposition": {
+      "text": "",
+      "subsections": {
+        "Forearm_Fracture_Management_Table": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Fracture": "Radial head fracture",
+                "Splint": "NondisplacedSling and Swathe SplintDisplacedLong Arm Posterior Splintor emerg. ORIF",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Monteggia fracture-dislocation(ulnar shaft w/prox radioulnar disloc)",
+                "Splint": "",
+                "Disposition": "Emergent ortho for ORIF"
+              },
+              {
+                "Fracture": "Galeazzi fracture(distal radius w/distal ulnar disloc)",
+                "Splint": "",
+                "Disposition": "Emerg. ortho for ORIF"
+              },
+              {
+                "Fracture": "Elbow dislocation",
+                "Splint": "Long arm posterior splintafter reduction",
+                "Disposition": "If associated fracture emergent ortho consult"
+              },
+              {
+                "Fracture": "Forearm fracture",
+                "Splint": "Sugar Tong Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Colle's fracture(distal radius with dist dorsal angulation)",
+                "Splint": "Sugar Tong Splint",
+                "Disposition": ""
+              },
+              {
+                "Fracture": "Smith fracture(reverse colles with volar angulation)",
+                "Splint": "Sugar Tong Splint",
+                "Disposition": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Forearm_Fracture_Management_Table": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Fracture": "Radial head fracture",
+            "Splint": "NondisplacedSling and Swathe SplintDisplacedLong Arm Posterior Splintor emerg. ORIF",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Monteggia fracture-dislocation(ulnar shaft w/prox radioulnar disloc)",
+            "Splint": "",
+            "Disposition": "Emergent ortho for ORIF"
+          },
+          {
+            "Fracture": "Galeazzi fracture(distal radius w/distal ulnar disloc)",
+            "Splint": "",
+            "Disposition": "Emerg. ortho for ORIF"
+          },
+          {
+            "Fracture": "Elbow dislocation",
+            "Splint": "Long arm posterior splintafter reduction",
+            "Disposition": "If associated fracture emergent ortho consult"
+          },
+          {
+            "Fracture": "Forearm fracture",
+            "Splint": "Sugar Tong Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Colle's fracture(distal radius with dist dorsal angulation)",
+            "Splint": "Sugar Tong Splint",
+            "Disposition": ""
+          },
+          {
+            "Fracture": "Smith fracture(reverse colles with volar angulation)",
+            "Splint": "Sugar Tong Splint",
+            "Disposition": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fracture (Main)\nForearm fracture (peds)\nSplinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fracture (Main)",
+          "url": "https://wikem.org/wiki/Fracture_(Main)"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

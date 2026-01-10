@@ -1,0 +1,79 @@
+{
+  "drug_name": "Fracture_management_overview",
+  "url": "https://wikem.org/wiki/Fracture_management_overview",
+  "scraped_at": "2026-01-10T07:53:40.754204",
+  "sections": {
+    "Intro": {
+      "text": "Upper extremity\nHumerus\nForearm\nCarpals\nHand\nTorso\nChest\nSpine\nPelvis\nLower extremity\nFemur\nDistal leg\nFoot\nOther\nPediatric\nFractures\n(main)\nHumerus\nForearm\nCarpals\nHand\nChest\nSpine\nPelvis\nFemur\nDistal leg\nFoot\nPediatric\nFractures\n(main)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Fracture_management_overview": {
+      "text": "Upper extremity\nHumerus\nForearm\nCarpals\nHand\nTorso\nChest\nSpine\nPelvis\nLower extremity\nFemur\nDistal leg\nFoot\nOther\nPediatric\nFractures\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Humerus",
+          "url": "https://wikem.org/wiki/Splinting:_Humerus"
+        },
+        {
+          "text": "Forearm",
+          "url": "https://wikem.org/wiki/Splinting:_Forearm"
+        },
+        {
+          "text": "Carpals",
+          "url": "https://wikem.org/wiki/Splinting:_Carpal"
+        },
+        {
+          "text": "Hand",
+          "url": "https://wikem.org/wiki/Splinting:_Hand"
+        },
+        {
+          "text": "Chest",
+          "url": "https://wikem.org/wiki/Splinting:_Chest"
+        },
+        {
+          "text": "Spine",
+          "url": "https://wikem.org/wiki/Splinting:_Spine"
+        },
+        {
+          "text": "Pelvis",
+          "url": "https://wikem.org/wiki/Splinting:_Pelvis"
+        },
+        {
+          "text": "Femur",
+          "url": "https://wikem.org/wiki/Splinting:_Femur"
+        },
+        {
+          "text": "Distal leg",
+          "url": "https://wikem.org/wiki/Splinting:_Distal_leg"
+        },
+        {
+          "text": "Foot",
+          "url": "https://wikem.org/wiki/Splinting:_Foot"
+        },
+        {
+          "text": "Pediatric",
+          "url": "https://wikem.org/wiki/Splinting:_Pediatric"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        }
+      ]
+    }
+  }
+}

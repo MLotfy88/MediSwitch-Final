@@ -1,0 +1,284 @@
+{
+  "drug_name": "Flurazepam",
+  "url": "https://wikem.org/wiki/Flurazepam",
+  "scraped_at": "2026-01-10T07:53:30.761299",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nBenzodiazepine\nDosage Forms: CAP 15mg, 30mg\nRoutes of Administration: Oral\nCommon Trade Names: Dalmane",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Insomnia,_short_term_tx": {
+          "text": "15mg PO qhs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Insomnia,_short_term_tx": {
+      "text": "15mg PO qhs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C\nConsider alternatives in pregnancy\nRisk of neonatal withdrawal and floppy infant syndrome",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Use alternative or consider short-acting benzodiazepines while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C\nConsider alternatives in pregnancy\nRisk of neonatal withdrawal and floppy infant syndrome",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Use alternative or consider short-acting benzodiazepines while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Use alternative or consider short-acting benzodiazepines while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined.\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined.\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy\nAvoid abrupt withdrawal with long-term use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nAngioedema\nComplex sleep-related behavior\nRespiratory depression,\ntachycardia\n, hypotension,\nsyncope\nDependency, suicidality\nSeizures",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\n, drowsiness, ataxia, confusion,\nheadache\nDisinhibition, irritability\nDystonia\n,\ndysarthria\nAppetite change, menstrual irregulatrity\nIncontinence\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dystonia",
+          "url": "https://wikem.org/wiki/Dystonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nAngioedema\nComplex sleep-related behavior\nRespiratory depression,\ntachycardia\n, hypotension,\nsyncope\nDependency, suicidality\nSeizures",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness\n, drowsiness, ataxia, confusion,\nheadache\nDisinhibition, irritability\nDystonia\n,\ndysarthria\nAppetite change, menstrual irregulatrity\nIncontinence\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dystonia",
+          "url": "https://wikem.org/wiki/Dystonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Dizziness\n, drowsiness, ataxia, confusion,\nheadache\nDisinhibition, irritability\nDystonia\n,\ndysarthria\nAppetite change, menstrual irregulatrity\nIncontinence\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dystonia",
+          "url": "https://wikem.org/wiki/Dystonia"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-3h; 40-100h active metabolite\nMetabolism: Liver extensively; 3A4 partial substrate\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to\nbenzodiazepine\nreceptors to enhance GABA effects",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Benzodiazepine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1621 @@
+{
+  "drug_name": "GI_antibiotics",
+  "url": "https://wikem.org/wiki/GI_antibiotics",
+  "scraped_at": "2026-01-10T07:53:41.493988",
+  "sections": {
+    "Appendicitis": {
+      "text": "Coverage should extend to\nE. coli\n,\nKlebsiella\n,\nProteus\n, and\nBacteroides\n(an anaerobe)",
+      "subsections": {
+        "Adult_Simple_Appendicitis": {
+          "text": "Antibiotic prophylaxis should be coordinated with surgical consult\nOptions:\nCefoxitin\n2g IV q6 hours OR\nCefotetan\n2g IV q12 hours OR\nMoxifloxacin\n400mg IV once daily OR\nErtapenem\n1g IV once daily",
+          "tables": []
+        },
+        "Pediatric_Simple_Appendicitis": {
+          "text": "Options:\nCefoxitin\n40mg/kg IV q6 hours\nCefotetan\n40mg/kg IV q12 hours\nGentamicin\n2.5mg/kg IV q8hrs +\nMetronidazole\n7.5mg/kg IV 16hrs OR\nClindamycin\n10mg/kg IV q8hrs",
+          "tables": []
+        },
+        "Complicated_Appendicitis": {
+          "text": "Defined as perforation, abscess, or phlegmon\nOptions:\nMetronidazole\n500 mg IV q8hrs +\nCefepime\n50 mg/kg IV q12hrs OR\nCiprofloxacin\n400 mg IV q12hrs OR\nLevofloxacin\n750 mg IV q24hrs OR\nAztreonam\n30 mg/kg IV q8hrs\nImipenem/Cilastatin\n25 mg/kg IV q6hrs (max 500mg)\nMeropenem\n20 mg/kg IV q8hrs (max 1g)\nPiperacillin/Tazobactam\n100 mg/kg (max 4.5g) IV q8hrs\nCautious use should be applied to use of\nfluoroquinolones\nin complicated pediatric appendicitis due to the risk of tendon injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Cefotetan",
+          "url": "https://wikem.org/wiki/Cefotetan"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Imipenem/Cilastatin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastatin"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Cholecystitis": {
+      "text": "Most often isolated organisms are\nEscherichia coli\n,\nKlebsiella pneumonia\n, and\nanaerobes\n, especially\nBacteroides fragilis",
+      "subsections": {
+        "Uncomplicated": {
+          "text": "Pathogenicity of\nEnterococci\nremains unclear and specific coverage is not routinely suggested for community-acquired infections\n[1]\nErtapenem\n1g IV once daily OR\nMetronidazole\n500mg IV q8hrs PLUS\nCiprofloxacin\n400mg IV q12 hrs OR\nLevofloxacin\n750mg IV q24hrs OR\nCeftriaxone\n1g IV q24hrs",
+          "tables": []
+        },
+        "Complicated_or_Healthcare_Associated": {
+          "text": "Examples of complication include severe\nsepsis\nor hemodynamic instability\nVancomycin\n15-20mg/kg PLUS any of the following options\nOptions:\nMetronidazole\n500mg IV q8hrs PLUS\nCiprofloxacin\n400mg IV q12hrs\nPiperacillin/Tazobactam\n4.5g IV q8hrs\nImipenem/Cilastin\n500mg IV q6hrs\nDoripenem\n500mg IV q8hrs\nMeropenem\n1g IV q8hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella pneumonia",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumonia"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Ertapenem",
+          "url": "https://wikem.org/wiki/Ertapenem"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Imipenem/Cilastin",
+          "url": "https://wikem.org/wiki/Imipenem/Cilastin"
+        },
+        {
+          "text": "Doripenem",
+          "url": "https://wikem.org/wiki/Doripenem"
+        },
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        }
+      ]
+    },
+    "Clostridium_Difficile": {
+      "text": "",
+      "subsections": {
+        "Mild/Moderate_Infection": {
+          "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days\nMetronidazole\n500mg PO or IV three times daily for 10 days (third line therapy)",
+          "tables": []
+        },
+        "Serious_Infection": {
+          "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Mild/Moderate_Infection": {
+      "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days\nMetronidazole\n500mg PO or IV three times daily for 10 days (third line therapy)",
+      "subsections": {
+        "Serious_Infection": {
+          "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Serious_Infection": {
+      "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Diverticulitis": {
+      "text": "",
+      "subsections": {
+        "Uncomplicated_2": {
+          "text": "Options:\nMetronidazole\n500mg PO Q8hrs AND\nCiprofloxacin\n500mg PO BID x5days\nAmoxicillin/Clavulanate\n875/125 PO Q8hrs x5days (or\nAugmentin\nXR 2 tablets BID [each tablet 1gm\namoxicillin\n62.5mg clavulanate])\n[2]\n[3]\nTrimethoprim/Sulfamethoxazole\n, one double-strength tablet bid, and\nMetronidazole\n500 mg Q8h\nMoxifloxacin\n400mg PO QDaily\n[4]",
+          "tables": []
+        },
+        "Complicated": {
+          "text": "Options:\nTicarcillin/Clavulanate\n3.1 g IV Q6h or\nPiperacillin/Tazobactam\n3.375 g IV q6 hours x 7-10 days\nCiprofloxacin\n400 mg IV q12h and metronidazole 1 g IV Q12h\nAmpicillin\n2 g IV Q6h and\nMetronidazole\n500 mg IV q6h\nPlus\n(\nGentamicin\n7 mg/kg Q24h or\nCiprofloxacin\n400 mg IV Q12h)\nImipenem\n500 mg IV Q6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Trimethoprim/Sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/Sulfamethoxazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Uncomplicated_2": {
+      "text": "Options:\nMetronidazole\n500mg PO Q8hrs AND\nCiprofloxacin\n500mg PO BID x5days\nAmoxicillin/Clavulanate\n875/125 PO Q8hrs x5days (or\nAugmentin\nXR 2 tablets BID [each tablet 1gm\namoxicillin\n62.5mg clavulanate])\n[2]\n[3]\nTrimethoprim/Sulfamethoxazole\n, one double-strength tablet bid, and\nMetronidazole\n500 mg Q8h\nMoxifloxacin\n400mg PO QDaily\n[4]",
+      "subsections": {
+        "Complicated": {
+          "text": "Options:\nTicarcillin/Clavulanate\n3.1 g IV Q6h or\nPiperacillin/Tazobactam\n3.375 g IV q6 hours x 7-10 days\nCiprofloxacin\n400 mg IV q12h and metronidazole 1 g IV Q12h\nAmpicillin\n2 g IV Q6h and\nMetronidazole\n500 mg IV q6h\nPlus\n(\nGentamicin\n7 mg/kg Q24h or\nCiprofloxacin\n400 mg IV Q12h)\nImipenem\n500 mg IV Q6h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Augmentin",
+          "url": "https://wikem.org/wiki/Augmentin"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Trimethoprim/Sulfamethoxazole",
+          "url": "https://wikem.org/wiki/Trimethoprim/Sulfamethoxazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Complicated": {
+      "text": "Options:\nTicarcillin/Clavulanate\n3.1 g IV Q6h or\nPiperacillin/Tazobactam\n3.375 g IV q6 hours x 7-10 days\nCiprofloxacin\n400 mg IV q12h and metronidazole 1 g IV Q12h\nAmpicillin\n2 g IV Q6h and\nMetronidazole\n500 mg IV q6h\nPlus\n(\nGentamicin\n7 mg/kg Q24h or\nCiprofloxacin\n400 mg IV Q12h)\nImipenem\n500 mg IV Q6h",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "General_Sick": {
+      "text": "",
+      "subsections": {
+        "Intra-Abdominal_Sepsis/Peritonitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Primary",
+                "Harbor-UCLA": "Metronidazole500mg IV q8hrsPlus one of the following:Ceftriaxone1g IV once dailyCiprofloxacin400mg IV q12hrsCefazolin1g (30mg/kg) IV q8hrsLevofloxacin750mg IV once daily",
+                "Santa Monica-UCLA": "Metronidazole500mg IV q8h+Vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)Plus one of the following:Piperacillin/tazobactam4.5g IV q6hErtapenem1g IV q24hCeftriaxone1g IV q24h",
+                "Other": "One of the following:Piperacillin-tazobactamTicarcillin-clavulanate3.1 g IV every 6 hoursErtapenem1 g every 24 hoursMoxifloxacin400 mg IV every 24 hours"
+              },
+              {
+                "": "Allergy or prior exposure",
+                "Harbor-UCLA": "Piperacillin/Tazobactam4.5g (80mg/kg) IV q8hrs ORMetronidazole500mg IV q8hrs PLUSCefepime2g IV once daily ORCiprofloxacin400mg IV q12hrs ORLevofloxacin750mg IV once dailyMeropenem1g (20mg/kg) IV q8hrs ORDoripenem500mg IV q8hrs ORAztreonam2g (30mg/kg) IV q8hrs +Metronidazole500mg IV q8hrs",
+                "Santa Monica-UCLA": "aztreonam2g IV q8h+metronidazole500mg IV q8h+/-vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)",
+                "Other": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intra-Abdominal_Sepsis/Peritonitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Primary",
+            "Harbor-UCLA": "Metronidazole500mg IV q8hrsPlus one of the following:Ceftriaxone1g IV once dailyCiprofloxacin400mg IV q12hrsCefazolin1g (30mg/kg) IV q8hrsLevofloxacin750mg IV once daily",
+            "Santa Monica-UCLA": "Metronidazole500mg IV q8h+Vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)Plus one of the following:Piperacillin/tazobactam4.5g IV q6hErtapenem1g IV q24hCeftriaxone1g IV q24h",
+            "Other": "One of the following:Piperacillin-tazobactamTicarcillin-clavulanate3.1 g IV every 6 hoursErtapenem1 g every 24 hoursMoxifloxacin400 mg IV every 24 hours"
+          },
+          {
+            "": "Allergy or prior exposure",
+            "Harbor-UCLA": "Piperacillin/Tazobactam4.5g (80mg/kg) IV q8hrs ORMetronidazole500mg IV q8hrs PLUSCefepime2g IV once daily ORCiprofloxacin400mg IV q12hrs ORLevofloxacin750mg IV once dailyMeropenem1g (20mg/kg) IV q8hrs ORDoripenem500mg IV q8hrs ORAztreonam2g (30mg/kg) IV q8hrs +Metronidazole500mg IV q8hrs",
+            "Santa Monica-UCLA": "aztreonam2g IV q8h+metronidazole500mg IV q8h+/-vancomycin15mg/kg/dose IV q12h (Max dose = 1500mg)",
+            "Other": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Infectious_Diarrhea": {
+      "text": "",
+      "subsections": {
+        "Campylobacter_jejuni": {
+          "text": "Erythromycin\n500mg PO BID x 5 days\nCiprofloxacin\n500mg PO BID x 5 days OR\nAzithromycin\n500mg PO once daily x 5 days",
+          "tables": []
+        },
+        "Entamoeba_Histolytica": {
+          "text": "Metronidazole\n750mg PO three times daily for 5-10 days PLUS\nParomomycin\n500mg q8hrs for 7 days OR\nIodoquinol\n650mg q 8hrs daily  20 days",
+          "tables": []
+        },
+        "Giardia_lamblia": {
+          "text": "Metronidazole\n250mg PO q8hrs for 7-10days\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Microsporidium": {
+          "text": "Albendazole\n400mg PO BID x 21 days + HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Cryptosporidium": {
+          "text": "Paromomycin\n500mg PO q8hrs x 14-28days +HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Salmonella_(non_typhoid)": {
+          "text": "Treatment is not recommended routinely but should be considered if:\nImmunocompromised\nAge<6 mo or >50yo\nHas any prostheses\nValvular heart disease\nSevere Atherosclerosis\nActive Malignancy\nUremic\nOptions:\nImmunocompromised patients should have 14 days of therapy\nTMP/SMX\n1 DS tab PO BID x 5 days\nCeftriaxone\n2g IV once daily x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nCiprofloxacin\n500mg PO BID x 5 days",
+          "tables": []
+        },
+        "Shigella": {
+          "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+          "tables": []
+        },
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Campylobacter_jejuni": {
+      "text": "Erythromycin\n500mg PO BID x 5 days\nCiprofloxacin\n500mg PO BID x 5 days OR\nAzithromycin\n500mg PO once daily x 5 days",
+      "subsections": {
+        "Entamoeba_Histolytica": {
+          "text": "Metronidazole\n750mg PO three times daily for 5-10 days PLUS\nParomomycin\n500mg q8hrs for 7 days OR\nIodoquinol\n650mg q 8hrs daily  20 days",
+          "tables": []
+        },
+        "Giardia_lamblia": {
+          "text": "Metronidazole\n250mg PO q8hrs for 7-10days\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Microsporidium": {
+          "text": "Albendazole\n400mg PO BID x 21 days + HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Cryptosporidium": {
+          "text": "Paromomycin\n500mg PO q8hrs x 14-28days +HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Salmonella_(non_typhoid)": {
+          "text": "Treatment is not recommended routinely but should be considered if:\nImmunocompromised\nAge<6 mo or >50yo\nHas any prostheses\nValvular heart disease\nSevere Atherosclerosis\nActive Malignancy\nUremic\nOptions:\nImmunocompromised patients should have 14 days of therapy\nTMP/SMX\n1 DS tab PO BID x 5 days\nCeftriaxone\n2g IV once daily x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nCiprofloxacin\n500mg PO BID x 5 days",
+          "tables": []
+        },
+        "Shigella": {
+          "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+          "tables": []
+        },
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Entamoeba_Histolytica": {
+      "text": "Metronidazole\n750mg PO three times daily for 5-10 days PLUS\nParomomycin\n500mg q8hrs for 7 days OR\nIodoquinol\n650mg q 8hrs daily  20 days",
+      "subsections": {
+        "Giardia_lamblia": {
+          "text": "Metronidazole\n250mg PO q8hrs for 7-10days\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Microsporidium": {
+          "text": "Albendazole\n400mg PO BID x 21 days + HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Cryptosporidium": {
+          "text": "Paromomycin\n500mg PO q8hrs x 14-28days +HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Salmonella_(non_typhoid)": {
+          "text": "Treatment is not recommended routinely but should be considered if:\nImmunocompromised\nAge<6 mo or >50yo\nHas any prostheses\nValvular heart disease\nSevere Atherosclerosis\nActive Malignancy\nUremic\nOptions:\nImmunocompromised patients should have 14 days of therapy\nTMP/SMX\n1 DS tab PO BID x 5 days\nCeftriaxone\n2g IV once daily x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nCiprofloxacin\n500mg PO BID x 5 days",
+          "tables": []
+        },
+        "Shigella": {
+          "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+          "tables": []
+        },
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Iodoquinol",
+          "url": "https://wikem.org/wiki/Iodoquinol"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Giardia_lamblia": {
+      "text": "Metronidazole\n250mg PO q8hrs for 7-10days\nTinidazole\n2g PO once",
+      "subsections": {
+        "Microsporidium": {
+          "text": "Albendazole\n400mg PO BID x 21 days + HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Cryptosporidium": {
+          "text": "Paromomycin\n500mg PO q8hrs x 14-28days +HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Salmonella_(non_typhoid)": {
+          "text": "Treatment is not recommended routinely but should be considered if:\nImmunocompromised\nAge<6 mo or >50yo\nHas any prostheses\nValvular heart disease\nSevere Atherosclerosis\nActive Malignancy\nUremic\nOptions:\nImmunocompromised patients should have 14 days of therapy\nTMP/SMX\n1 DS tab PO BID x 5 days\nCeftriaxone\n2g IV once daily x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nCiprofloxacin\n500mg PO BID x 5 days",
+          "tables": []
+        },
+        "Shigella": {
+          "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+          "tables": []
+        },
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Microsporidium": {
+      "text": "Albendazole\n400mg PO BID x 21 days + HAART therapy if\nHIV\npositive",
+      "subsections": {
+        "Cryptosporidium": {
+          "text": "Paromomycin\n500mg PO q8hrs x 14-28days +HAART therapy if\nHIV\npositive",
+          "tables": []
+        },
+        "Salmonella_(non_typhoid)": {
+          "text": "Treatment is not recommended routinely but should be considered if:\nImmunocompromised\nAge<6 mo or >50yo\nHas any prostheses\nValvular heart disease\nSevere Atherosclerosis\nActive Malignancy\nUremic\nOptions:\nImmunocompromised patients should have 14 days of therapy\nTMP/SMX\n1 DS tab PO BID x 5 days\nCeftriaxone\n2g IV once daily x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nCiprofloxacin\n500mg PO BID x 5 days",
+          "tables": []
+        },
+        "Shigella": {
+          "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+          "tables": []
+        },
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Cryptosporidium": {
+      "text": "Paromomycin\n500mg PO q8hrs x 14-28days +HAART therapy if\nHIV\npositive",
+      "subsections": {
+        "Salmonella_(non_typhoid)": {
+          "text": "Treatment is not recommended routinely but should be considered if:\nImmunocompromised\nAge<6 mo or >50yo\nHas any prostheses\nValvular heart disease\nSevere Atherosclerosis\nActive Malignancy\nUremic\nOptions:\nImmunocompromised patients should have 14 days of therapy\nTMP/SMX\n1 DS tab PO BID x 5 days\nCeftriaxone\n2g IV once daily x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nCiprofloxacin\n500mg PO BID x 5 days",
+          "tables": []
+        },
+        "Shigella": {
+          "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+          "tables": []
+        },
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Shigella": {
+      "text": "Treatment extended for 10 days if immunocompromised'\nCiprofloxacin\n500mg PO BID x 5 days\nTMP/SMX\n1 DS tab PO BID x 5 days\nLevofloxacin\n500mg PO once daily x 5 days\nAzithromycin\n500mg PO daily x 5 days",
+      "subsections": {
+        "Vibrio_Cholerae": {
+          "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+          "tables": []
+        },
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Vibrio_Cholerae": {
+      "text": "Doxycycline\n300mg PO as single dose\nTMP/SMX\n1 tablet (5mg/kg) PO BID daily x 3 daily\nAzithromycin\n20mg/kg (1g) PO once",
+      "subsections": {
+        "Yersinia_enterocolitica": {
+          "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Yersinia_enterocolitica": {
+      "text": "Antibiotics are not required unless patient is immunocompromised or systemically ill\nCiprofloxacin\n500mg PO BID daily\nLevofloxacin\n500mg PO once daily\nTMP/SMX\n1 DS tab (5mg/kg) PO BID",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Peritoneal_Dialysis_Associated_Peritonitis": {
+      "text": "",
+      "subsections": {
+        "Empiric_Therapy_(IP)": {
+          "text": "10- to 14-day course of intraperitoneal (IP) antibiotics that are administered by the patient on an outpatient basis or IV antibiotics and intraperitoneal for admitted patients\nVancomycin\n30mg/kg loading followed by 0.6 mg/kg IP daily  PLUS\n[5]\nCeftazidime\n1g IP daily OR\nGentamycin\n0.6mg/kg daily\nCatheter removal/exchange is usually only done if IP antibiotics fail (fungal, pseudomonal), and should be done in consultation with a nephrologist\n[6]",
+          "tables": []
+        },
+        "Empiric_Tharapy_(IV)": {
+          "text": "Although IP antibiotics are preferred IV antibiotics can be considered with coordination with nephrology for dosing. Coverage should be the same as IP antibiotics\n[7]\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Gentamycin",
+          "url": "https://wikem.org/wiki/Gentamycin"
+        }
+      ]
+    },
+    "Traveler's_Diarrhea": {
+      "text": "Options for Adults:\nCiprofloxacin\n750mg PO once daily x 1-3 days\n[9]\nFirst choice for use except in South and Southeast Asia\n[10]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[11]\nNausea is a frequent adverse event\n[12]\nFirst choice for use in South and Southeast Asia\n[13]\nRifaximin\n200mg PO TID x 3 days\n[14]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        }
+      ]
+    },
+    "Typhoid_Fever": {
+      "text": "",
+      "subsections": {
+        "Oral_therapy_with_Quinolone_Susceptibility": {
+          "text": "Ciprofloxacin\n500-750 mg PO q 12 hrs x 14 days",
+          "tables": []
+        },
+        "Parenteral_Therapy_with_Quinolone_Susceptibility": {
+          "text": "Ciprofloxacin\n400 mg IV q 12 hrs x 10 days",
+          "tables": []
+        },
+        "Parenteral_Therapy_with_Quinolone_Resistance": {
+          "text": "if nalidixic acid resistant, assume\nfluoroquinolone\nresistant\nCeftriaxone\n2mg IV q 24 hrs x 14 days\nOR\nCefixime\n10-15 mg/kg IV q 12 hrs x 8 days",
+          "tables": []
+        },
+        "Oral_Therapy_with_Quinolone_Resistance": {
+          "text": "Azithromycin\n1 g PO daily x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

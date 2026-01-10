@@ -1,0 +1,1982 @@
+{
+  "drug_name": "Fractures_(main)",
+  "url": "https://wikem.org/wiki/Fractures_(main)",
+  "scraped_at": "2026-01-10T07:53:44.856364",
+  "sections": {
+    "Describing_Fractures": {
+      "text": "A systematic approach for the description of fractures should be used to aid in clear communication with radiologists and consulting specialists.\nLaterality\nOpen\nvs. Closed\nAffected Bone\nLocation\nIntra-articular vs. extra-articular\nPortion of long-bone (proximal, middle, distal)\nAnatomic site (ex.\nsupracondylar\n,\nintertrochanteric\n,\nsubtrochanteric\n,\nfemoral neck\n)\nDirection\n(orientation of fracture line relative to long-axis)\nTransverse\nOblique\nSpiral\nImpacted\nTorus /\nGreenstick\n(Peds)\nAlignment\nDisplacement (distal relative to proximal fragment)\nState in terms of direct measurement (e.g. 4mm) or %width of bones (50% displacement)\nAngulation\nDeviation from longitudinal axis, described in degrees and direction\nDirection of apex of angle formed from redrawn longitudinal axes of fracture fragments\nValgus angulation is lateral\nVarus angulation is medial\nRotation\nTwisting around longitudinal axis (distal relative to proximal fragment)\nDescribed as medial or lateral rotation (towards or away from midline respectively)\nSeparation\nDistance two fragments have been pulled apart (but not offset from each other)\nShortening\nAmount by which a bone's length has been reduced (expressed in mm or cm)\nMay occur by impaction or by overriding\nOther\nIncomplete: Only one side of cortex disrupted\nStress: Caused by repetitive low-force trauma/impact\nPathologic: Caused by trivial trauma or biomechanically routine force, suggestive of abnormal bone.\nFracture-Dislocation: Be careful not to describe these injuries as fractures with displacement\nFragmentation\nSegmental (>2 fragments, with one segment not connected to either end)\nComminuted (>3 fragments)\nSalter Harris",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Open",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "supracondylar",
+          "url": "https://wikem.org/wiki/Supracondylar"
+        },
+        {
+          "text": "intertrochanteric",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "subtrochanteric",
+          "url": "https://wikem.org/wiki/Subtrochanteric_femur_fracture"
+        },
+        {
+          "text": "femoral neck",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Greenstick",
+          "url": "https://wikem.org/wiki/Greenstick_Fracture"
+        },
+        {
+          "text": "Salter Harris",
+          "url": "https://wikem.org/wiki/Salter_Harris"
+        }
+      ]
+    },
+    "Anatomic_Terms": {
+      "text": "Diaphysis\n- shaft\nMetaphysis\n- widened ends of the bones adjacent to the physis\nPhysis\n- radiolucent growth plate between metaphysis and epiphysis\nEpiphysis\n- secondary ossification center at the end of the bones\nApophysis\n- secondary ossification center at site of tendon or ligament attachment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Head_and_Neck": {
+      "text": "",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        },
+        "Vertebral_fractures_and_dislocations_types": {
+          "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Thoracic burst fracture",
+          "url": "https://wikem.org/wiki/Thoracic_burst_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {
+        "Vertebral_fractures_and_dislocations_types": {
+          "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Thoracic burst fracture",
+          "url": "https://wikem.org/wiki/Thoracic_burst_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Vertebral_fractures_and_dislocations_types": {
+      "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Thoracic burst fracture",
+          "url": "https://wikem.org/wiki/Thoracic_burst_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Upper_Extremity": {
+      "text": "",
+      "subsections": {
+        "Humerus_Fracture_Types": {
+          "text": "Adult\nProximal\nShaft\nDistal\nCapitellum\nTrochlea\nCondylar\nPediatric\nProximal\nShaft\nDistal\nSupracondylar\nLateral epicondyle\nMedial epicondyle",
+          "tables": []
+        },
+        "Elbow": {
+          "text": "Adult\nRadial head fracture\nOlecranon fracture\nElbow dislocation\nCapitellum fracture\nPediatric\nNursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture (peds)\nMedial epicondyle fracture (peds)\nOlecranon fracture (peds)\nRadial head fracture (peds)",
+          "tables": []
+        },
+        "Forearm_Fracture_Types": {
+          "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+          "tables": []
+        },
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        },
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture"
+        },
+        {
+          "text": "Capitellum",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Trochlea",
+          "url": "https://wikem.org/wiki/Trochlea_fracture"
+        },
+        {
+          "text": "Condylar",
+          "url": "https://wikem.org/wiki/Condylar_fracture"
+        },
+        {
+          "text": "Pediatric",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture_(peds)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture_(peds)"
+        },
+        {
+          "text": "Supracondylar",
+          "url": "https://wikem.org/wiki/Supracondylar_Fracture"
+        },
+        {
+          "text": "Lateral epicondyle",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture (peds)",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture (peds)",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture (peds)",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture (peds)",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Humerus_Fracture_Types": {
+      "text": "Adult\nProximal\nShaft\nDistal\nCapitellum\nTrochlea\nCondylar\nPediatric\nProximal\nShaft\nDistal\nSupracondylar\nLateral epicondyle\nMedial epicondyle",
+      "subsections": {
+        "Elbow": {
+          "text": "Adult\nRadial head fracture\nOlecranon fracture\nElbow dislocation\nCapitellum fracture\nPediatric\nNursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture (peds)\nMedial epicondyle fracture (peds)\nOlecranon fracture (peds)\nRadial head fracture (peds)",
+          "tables": []
+        },
+        "Forearm_Fracture_Types": {
+          "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+          "tables": []
+        },
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        },
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adult",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture"
+        },
+        {
+          "text": "Capitellum",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Trochlea",
+          "url": "https://wikem.org/wiki/Trochlea_fracture"
+        },
+        {
+          "text": "Condylar",
+          "url": "https://wikem.org/wiki/Condylar_fracture"
+        },
+        {
+          "text": "Pediatric",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture_(peds)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture_(peds)"
+        },
+        {
+          "text": "Supracondylar",
+          "url": "https://wikem.org/wiki/Supracondylar_Fracture"
+        },
+        {
+          "text": "Lateral epicondyle",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture (peds)",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture (peds)",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture (peds)",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture (peds)",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Elbow": {
+      "text": "Adult\nRadial head fracture\nOlecranon fracture\nElbow dislocation\nCapitellum fracture\nPediatric\nNursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture (peds)\nMedial epicondyle fracture (peds)\nOlecranon fracture (peds)\nRadial head fracture (peds)",
+      "subsections": {
+        "Forearm_Fracture_Types": {
+          "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+          "tables": []
+        },
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        },
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture (peds)",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture (peds)",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture (peds)",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture (peds)",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Forearm_Fracture_Types": {
+      "text": "Distal radius fractures\nColles' fracture\nSmith fracture\nBarton fracture\nRadial styloid fracture\nDistal radioulnar joint disruption\nRadia ulna fracture\nIsolated radius fracture (proximal)\nIsolated ulna fracture\n(i.e. nightstick)\nMonteggia fracture-dislocation\nGaleazzi fracture-dislocation\nForearm fracture (peds)",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        },
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal radius fractures",
+          "url": "https://wikem.org/wiki/Distal_radius_fractures"
+        },
+        {
+          "text": "Colles' fracture",
+          "url": "https://wikem.org/wiki/Colles%27_fracture"
+        },
+        {
+          "text": "Smith fracture",
+          "url": "https://wikem.org/wiki/Smith_fracture"
+        },
+        {
+          "text": "Barton fracture",
+          "url": "https://wikem.org/wiki/Barton_fracture"
+        },
+        {
+          "text": "Radial styloid fracture",
+          "url": "https://wikem.org/wiki/Radial_styloid_fracture"
+        },
+        {
+          "text": "Distal radioulnar joint disruption",
+          "url": "https://wikem.org/wiki/Distal_radioulnar_joint_disruption"
+        },
+        {
+          "text": "Radia ulna fracture",
+          "url": "https://wikem.org/wiki/Radia_ulna_fracture"
+        },
+        {
+          "text": "Isolated radius fracture (proximal)",
+          "url": "https://wikem.org/wiki/Isolated_radius_fracture_(proximal)"
+        },
+        {
+          "text": "Isolated ulna fracture",
+          "url": "https://wikem.org/wiki/Isolated_ulna_fracture"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "Galeazzi fracture-dislocation",
+          "url": "https://wikem.org/wiki/Galeazzi_fracture-dislocation"
+        },
+        {
+          "text": "Forearm fracture (peds)",
+          "url": "https://wikem.org/wiki/Forearm_fracture_(peds)"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezium fracture",
+          "url": "https://wikem.org/wiki/Trapezium_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        },
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Torso": {
+      "text": "",
+      "subsections": {
+        "Chest": {
+          "text": "Clavicle fracture\nClavicle fracture (peds)\nScapula fracture\nRib fracture\nFlail chest\nSternum fracture",
+          "tables": []
+        },
+        "Abdomen": {
+          "text": "Pelvic fractures",
+          "tables": []
+        },
+        "Spine": {
+          "text": "Thoracic and lumbar spine injuries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Thoracic and lumbar spine injuries",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_spine_injuries"
+        }
+      ]
+    },
+    "Chest": {
+      "text": "Clavicle fracture\nClavicle fracture (peds)\nScapula fracture\nRib fracture\nFlail chest\nSternum fracture",
+      "subsections": {
+        "Abdomen": {
+          "text": "Pelvic fractures",
+          "tables": []
+        },
+        "Spine": {
+          "text": "Thoracic and lumbar spine injuries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Thoracic and lumbar spine injuries",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_spine_injuries"
+        }
+      ]
+    },
+    "Abdomen": {
+      "text": "Pelvic fractures",
+      "subsections": {
+        "Spine": {
+          "text": "Thoracic and lumbar spine injuries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Thoracic and lumbar spine injuries",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_spine_injuries"
+        }
+      ]
+    },
+    "Spine": {
+      "text": "Thoracic and lumbar spine injuries",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic and lumbar spine injuries",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_spine_injuries"
+        }
+      ]
+    },
+    "Lower_Extremity": {
+      "text": "",
+      "subsections": {
+        "Proximal_Leg": {
+          "text": "Hip Fracture\nFemur Fracture\nKnee Fracture",
+          "tables": []
+        },
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip Fracture",
+          "url": "https://wikem.org/wiki/Hip_Fracture"
+        },
+        {
+          "text": "Femur Fracture",
+          "url": "https://wikem.org/wiki/Femur_Fracture"
+        },
+        {
+          "text": "Knee Fracture",
+          "url": "https://wikem.org/wiki/Knee_Fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Proximal_Leg": {
+      "text": "Hip Fracture\nFemur Fracture\nKnee Fracture",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        },
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip Fracture",
+          "url": "https://wikem.org/wiki/Hip_Fracture"
+        },
+        {
+          "text": "Femur Fracture",
+          "url": "https://wikem.org/wiki/Femur_Fracture"
+        },
+        {
+          "text": "Knee Fracture",
+          "url": "https://wikem.org/wiki/Knee_Fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Salter-Harris fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fracture management overview\nSplinting\nDiagnoses by Body Part (Main)\nFractures and dislocations (peds)\nOpen fracture\nJoint dislocations (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fracture management overview",
+          "url": "https://wikem.org/wiki/Fracture_management_overview"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Diagnoses by Body Part (Main)",
+          "url": "https://wikem.org/wiki/Diagnoses_by_Body_Part_(Main)"
+        },
+        {
+          "text": "Fractures and dislocations (peds)",
+          "url": "https://wikem.org/wiki/Fractures_and_dislocations_(peds)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Joint dislocations (main)",
+          "url": "https://wikem.org/wiki/Joint_dislocations_(main)"
+        }
+      ]
+    }
+  }
+}

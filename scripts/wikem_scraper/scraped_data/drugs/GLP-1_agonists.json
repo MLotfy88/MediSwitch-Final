@@ -1,0 +1,137 @@
+{
+  "drug_name": "GLP-1_agonists",
+  "url": "https://wikem.org/wiki/GLP-1_agonists",
+  "scraped_at": "2026-01-10T07:53:41.910552",
+  "sections": {
+    "Background": {
+      "text": "Synthetic glucagon-like peptide-1 (GLP-1) receptor agonists\nReleased by L-cells of the small intestine in response to the presence of nutrients\nStimulate insulin release from pancreatic islet cells. It does this by stimulating glucose-dependent insulin release in the islet cells of the pancreas\nSlows gastric emptying times\nIncreases satiety, which decreases drive for food intake",
+      "subsections": {
+        "GLP-1_Agonist_Types": {
+          "text": "Lixisenatide (Lyxumia, Adlyxin)\nSemaglutide (Ozempic, Rybelsus, Wegovy)\nTirzepatide^ (Mounjaro, Zepbound)\n^Dual GLP-1 and GIP agonist",
+          "tables": [
+            [
+              {
+                "Short Acting": "Exenatide (Byetta)",
+                "Dose": "5-10 mcg SC bid"
+              },
+              {
+                "Short Acting": "Liraglutide (Victoza, Saxenda)",
+                "Dose": "0.6-1.8 mg SC daily"
+              },
+              {
+                "Short Acting": "Long Acting",
+                "Dose": ""
+              },
+              {
+                "Short Acting": "Exenatide (Bydureon)",
+                "Dose": "2 mg SC qwk"
+              },
+              {
+                "Short Acting": "Albiglutide (Tanzeum)",
+                "Dose": "30-50 mg SC qwk"
+              },
+              {
+                "Short Acting": "Dulaglutide (Trulicity)",
+                "Dose": "0.75-1.5 mg qwk"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "GLP-1_Agonist_Types": {
+      "text": "Lixisenatide (Lyxumia, Adlyxin)\nSemaglutide (Ozempic, Rybelsus, Wegovy)\nTirzepatide^ (Mounjaro, Zepbound)\n^Dual GLP-1 and GIP agonist",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Short Acting": "Exenatide (Byetta)",
+            "Dose": "5-10 mcg SC bid"
+          },
+          {
+            "Short Acting": "Liraglutide (Victoza, Saxenda)",
+            "Dose": "0.6-1.8 mg SC daily"
+          },
+          {
+            "Short Acting": "Long Acting",
+            "Dose": ""
+          },
+          {
+            "Short Acting": "Exenatide (Bydureon)",
+            "Dose": "2 mg SC qwk"
+          },
+          {
+            "Short Acting": "Albiglutide (Tanzeum)",
+            "Dose": "30-50 mg SC qwk"
+          },
+          {
+            "Short Acting": "Dulaglutide (Trulicity)",
+            "Dose": "0.75-1.5 mg qwk"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Indication": {
+      "text": "Diabetes Mellitus\n, Type 2",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes Mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "Nausea\n,\nvomiting\n,\ndiarrhea\nAcute\npancreatitis\nExenatide should not be used in patients with creatinine clearance below 30mL/min\nShould not be used if personal of family history of medullary thyroid cancer or MEN 2A/2B",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "GLP-1 receptor agonist toxicity\nDiabetes medications\nTirzepatide",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GLP-1 receptor agonist toxicity",
+          "url": "https://wikem.org/wiki/GLP-1_receptor_agonist_toxicity"
+        },
+        {
+          "text": "Diabetes medications",
+          "url": "https://wikem.org/wiki/Diabetes_medications"
+        },
+        {
+          "text": "Tirzepatide",
+          "url": "https://wikem.org/wiki/Tirzepatide"
+        }
+      ]
+    },
+    "References": {
+      "text": "Epocrates\nhttp://www.uptodate.com/contents/glucagon-like-peptide-1-receptor-agonists-for-the-treatment-of-type-2-diabetes-mellitus?source=see_link&sectionName=GLUCAGON-LIKE+PEPTIDE-1&anchor=H2#H619400",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
