@@ -19,7 +19,7 @@ class DatabaseHelper {
   final FileLoggerService _logger = FileLoggerService();
 
   // --- Database Constants ---
-  static const String dbName = 'mediswitch.db';
+  static const String dbName = 'mediswitch_v2.db'; // Force fresh copy for fix
   static const int _dbVersion = 25; // Updated for Interaction Fix + UI Polish
   static const String medicinesTable = 'drugs';
   static const String interactionsTable = 'drug_interactions';
