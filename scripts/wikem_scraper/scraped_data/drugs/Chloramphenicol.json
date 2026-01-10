@@ -1,0 +1,94 @@
+{
+  "drug_name": "Chloramphenicol",
+  "url": "https://wikem.org/wiki/Chloramphenicol",
+  "scraped_at": "2026-01-10T03:08:27.797111",
+  "sections": {
+    "General": {
+      "text": "Type: bacteriostatic\nantibiotic\nDosage Forms: IV, IM, eye drops\nCommon Trade Names: pentamycetin, chloromycetin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infection,_General": {
+          "text": "50-100mg/kg/day IV divided q6h",
+          "tables": []
+        },
+        "Bacterial_meningitis": {
+          "text": "4 g/day IV divided q6h\nAlt: 75-100mg/kg/day IV divided qgh",
+          "tables": []
+        },
+        "Bacterial_conjunctivitis": {
+          "text": "0.5% ophthalmic solution 1 drop QID for 7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Bacterial_meningitis_2": {
+          "text": "75-100mg/kg/day IV divided q6h; Max 4g/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: Category C (risk not ruled out)\nLactation: passes into breast milk and should be avoided if possible\nRenal Dosing: minimally excreted via kidneys\nAdult: amount not defined\nPediatric: amount not defined\nHepatic Dosing: metabolized by the liver, therefore dose must be reduced\nAdult: amount not defined\nPediatric: amount not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "aplastic anemia\nagranulocytosis\nthrombocytopenia\nanaphylaxis\ngray baby syndrome\npseudomembranous colitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "headache\nnausea, vomiting\ndiarrhea\nfever\nrash\nurticaria\nperipheral neuropathy\nblurred vision",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.5 - 4.1 hours\nMetabolism: Liver\nExcretion: Urine\nMechanism of Action: binds to 50S ribosomal subunit inhibiting protein synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "drug_name": "Chloroquine",
+  "url": "https://wikem.org/wiki/Chloroquine",
+  "scraped_at": "2026-01-10T03:08:40.496713",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Most malaria-endemic areas have high rates of chloroquine resistance. Per the CDC, chloroquine-sensitive areas include: Central America west of the Panama Canal, Haiti, the Dominican Republic, and most of the Middle East. See [\nCDC malaria information by country\n] for details\nUncomplicated malaria treatment: 1000 mg PO, followed by 500mg PO at 6, 24, and 48 hours after first dose\nMalaria prophylaxis: 500 mg PO weekly beginning 1 to 2 weeks prior to travel to malarious area through 4 weeks after departure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Uncomplicated malaria treatment: 16.6 mg/kg PO (max 1 g), followed by 8.3 mg/kg PO at 6, 24, and 48 hours after first dose\nMalaria prophylaxis: 8.3 mg/kg PO weekly beginning 1 to 2 weeks prior to travel to malarious area through 4 weeks after departure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk minimal\nRenal dosing:  reduce dose by 50% if CrCl < 10\nHepatic dosing: may need serum drug level monitoring as 30-50% of dose modified by liver",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRetinal or visual field changes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Prolonged QT, AV block\nHeart failure\nSJS\nNeutropenia\nExtrapyramidal disease\nSeizure\nRetinopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-2 months\nMetabolism: Hepatic\nExcretion: Renal, fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

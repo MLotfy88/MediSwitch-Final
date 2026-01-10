@@ -1,0 +1,77 @@
+{
+  "drug_name": "Chlordiazepoxide",
+  "url": "https://wikem.org/wiki/Chlordiazepoxide",
+  "scraped_at": "2026-01-10T03:08:32.933083",
+  "sections": {
+    "General": {
+      "text": "Type:\nBenzodiazepines\nDosage Forms: 5,10, 25mg tab\nCommon Trade Names: Librium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "EtOH withdrawal\nExample taper:\nDay 1: 50mg q6h\nDay 2: 25mg q6h\nDay 3: 25mg q12h\nDay 4: 25mg at night\n(Rx fifteen 25mg tabs)\nMax 300mg per 24 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category D\nLactation risk categories\n: L4; enters breast milk, not recommended\nRenal Dosing: CrCl < 10 cc/min : 1/2 normal dose\nHepatic Dosing: No specific guidelines. Use caution as hepatically metabolized",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk categories",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CNS depression\nParadoxical agitation\nDrug induced EPS\nBone marrow suppression, agranulocytosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Drowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Time to peak: 0.5-2 h\nHalf-life: Parent compound 6-28 h, demoxepam (metabolite) 14-95 h\nMetabolism: Hepatic to desmethyldiazepam (active), desmethylchlordiazepoxide, demoxepam\nExcretion: Urine\nMechanism of Action:\nBenzodiazepines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    }
+  }
+}

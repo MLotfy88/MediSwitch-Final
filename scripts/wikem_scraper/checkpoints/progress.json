@@ -149,10 +149,20 @@
     "Cephalexin",
     "Cephalosporins",
     "Cercarial_dermatitis",
-    "Cetacaine"
+    "Cetacaine",
+    "Cetirizine",
+    "Chloral_hydrate_toxicity",
+    "Chloramphenicol",
+    "Chlordiazepoxide",
+    "Chlorhexidine",
+    "Chloroquine",
+    "Chlorpromazine",
+    "Ciclesonide",
+    "Cilostazol",
+    "Cimetidine"
   ],
   "failed_drugs": [],
-  "last_updated": "2026-01-10T03:08:13.800426",
-  "total_scraped": 150,
+  "last_updated": "2026-01-10T03:09:08.302411",
+  "total_scraped": 160,
   "total_failed": 0
 }

@@ -1,0 +1,62 @@
+{
+  "drug_name": "Cetirizine",
+  "url": "https://wikem.org/wiki/Cetirizine",
+  "scraped_at": "2026-01-10T03:08:18.883160",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis": {
+          "text": "10mg IV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis_2": {
+          "text": ">11 years old: 10mg IV\n6-11 years old: 5-10 mg IV\n6 mo - 5 years: 2.5 mg IV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "IV and oral are same dosage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

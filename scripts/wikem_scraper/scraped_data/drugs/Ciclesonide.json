@@ -1,0 +1,140 @@
+{
+  "drug_name": "Ciclesonide",
+  "url": "https://wikem.org/wiki/Ciclesonide",
+  "scraped_at": "2026-01-10T03:09:00.790424",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Prior bronchodilator alone\n1 puff (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 320 mcg/day\nTaper to lowest effective dose\nPrior inhaled steroid\n1-2 puffs (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 640 mcg/day\nTaper to lowest effective dose\nPrior oral steroid\n2 puffs (160 mcg per spray) BID\nMax: 640 mcg/day\nTaper to lowest effective dose. Taper oral steroids gradually after >1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "12+ yo, Prior bronchodilator alone\n1 puff (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 320 mcg/day\nTaper to lowest effective dose\n12+ yo, Prior inhaled steroid\n1-2 puffs (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 640 mcg/day\nTaper to lowest effective dose\n12+ yo, Prior oral steroid\n2 puffs (160 mcg per spray) BID\nMax: 640 mcg/day\nTaper to lowest effective dose. Taper oral steroids gradually after >1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Risk of teratogenicity low based on animal data at 10x MRHD\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAsthma\n, acute\nBronchospasm\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchospasm\nHypersensitivity reaction\nAngioedema\nAdrenal suppression\nHypercorticism\nGrowth suppression (peds pts)\nGlaucoma\nIOP increase\nCataracts",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nNasopharyngitis\nURI\nSinusitis\nNasal congestion\nPharyngolaryngeal pain\nArthralgia\nExtremity pain\nBack pain\nHoarseness\nCandidiasis\n, oral\nInfluenza\nPneumonia\nMusculoskeletal chest pain\nUrticaria\nDizziness\nGastroenteritis\nFacial edema\nFatigue\nConjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.71 hr (parent); 6-7 hr (active metabolite)\nMetabolism: Liver; CYP450: 2D6, 3A4 (primary) substrate\nExcretion: Bile/feces 66%, urine <20%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
