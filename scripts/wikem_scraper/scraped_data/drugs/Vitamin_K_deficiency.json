@@ -1,0 +1,472 @@
+{
+  "drug_name": "Vitamin_K_deficiency",
+  "url": "https://wikem.org/wiki/Vitamin_K_deficiency",
+  "scraped_at": "2026-01-10T08:05:14.730739",
+  "sections": {
+    "Background": {
+      "text": "Cofactor for vitamin K-dependent clotting factors II, VII, IX, X\nUsed by liver\nFat soluble",
+      "subsections": {
+        "Causes": {
+          "text": "Nutritional deficiency\nMalabsorption (pancreatic insufficiency,\nceliac sprue\n,\ncystic fibrosis\n, etc)\nCholestasis: since it is fat soluble and needs bile salts to be absorbed\nNeonates lack intestinal bacteria that produce vitamin K and therefore require supplementation at birth\nIf no vitamin K given, neonate at increased risk of spontaneous hemorrhage",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "celiac sprue",
+          "url": "https://wikem.org/wiki/Celiac_sprue"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Nutritional deficiency\nMalabsorption (pancreatic insufficiency,\nceliac sprue\n,\ncystic fibrosis\n, etc)\nCholestasis: since it is fat soluble and needs bile salts to be absorbed\nNeonates lack intestinal bacteria that produce vitamin K and therefore require supplementation at birth\nIf no vitamin K given, neonate at increased risk of spontaneous hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "celiac sprue",
+          "url": "https://wikem.org/wiki/Celiac_sprue"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Increased bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Increased bleeding",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        },
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        },
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Vitamin_deficiencies": {
+      "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Fresh Frozen Plasma\n: 1ml contains 1U of each clotting factor\nConsider\nVitamin K\noral or IV (subcutaneous not recommended): will take up to 24 hours to work and up to 2 weeks to wear off",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fresh Frozen Plasma",
+          "url": "https://wikem.org/wiki/Fresh_Frozen_Plasma"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Warfarin (Coumadin) Reversal\nCoagulopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Warfarin (Coumadin) Reversal",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)_Reversal"
+        },
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Vitamin K Deficiency Bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

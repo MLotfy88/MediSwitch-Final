@@ -1,0 +1,295 @@
+{
+  "drug_name": "Wilson%27s_disease",
+  "url": "https://wikem.org/wiki/Wilson%27s_disease",
+  "scraped_at": "2026-01-10T08:05:26.362573",
+  "sections": {
+    "Background": {
+      "text": "Autosomal recessive\nImpairment of biliary cellular copper excretion with accumulation in organs (mostly liver, brain, cornea)\nLiver becomes cirrhotic with ~5% developing liver failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hepatic\nKayser-Fleischer rings (highly specific)\nAsymptomatic (steatosis, chronic hepatitis, compensated\ncirrhosis\n)\nAbdominal pain\n(\nacute liver failure\n/\nhepatitis\n)\nJaundice\n,\nhepatomegaly\n, splenomegaly,\nascites\nUpper GI bleeding\n; sequela of cirrhosis with varices\nNeurologic symptoms\nDysarthria\nGait abnormalities\nDystonia\nTremor\nParkinsonism\nPsychiatric symptoms\nDepression\n, personality changes, impulsiveness,\npsychosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[1]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        },
+        "Neuro/psychiatric_symptoms": {
+          "text": "Essential tremor\nParkinson's disease\nGeneralized dystonia\nPrimary psychiatric disorder (e.g.\ndepression\n,\nbipolar disorder\n,\nschizophrenia\nDementia\nDrug abuse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Hepatic_Dysfunction": {
+      "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[1]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+      "subsections": {
+        "Neuro/psychiatric_symptoms": {
+          "text": "Essential tremor\nParkinson's disease\nGeneralized dystonia\nPrimary psychiatric disorder (e.g.\ndepression\n,\nbipolar disorder\n,\nschizophrenia\nDementia\nDrug abuse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Neuro/psychiatric_symptoms": {
+      "text": "Essential tremor\nParkinson's disease\nGeneralized dystonia\nPrimary psychiatric disorder (e.g.\ndepression\n,\nbipolar disorder\n,\nschizophrenia\nDementia\nDrug abuse",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "LFTs\nto assess ALT/AST\nCBC to assess for anemia (followed by testing for Coombs-negative hemolytic anemia)\nOcular slit-lamp to assess for Kayser-Flesicher rings",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Outpatient ceruloplasmin concentration, serums copper concentration, 24-hour urinary copper excretion +/- genetic testing can be done to confirm diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "LFTs\nto assess ALT/AST\nCBC to assess for anemia (followed by testing for Coombs-negative hemolytic anemia)\nOcular slit-lamp to assess for Kayser-Flesicher rings",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Outpatient ceruloplasmin concentration, serums copper concentration, 24-hour urinary copper excretion +/- genetic testing can be done to confirm diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Outpatient ceruloplasmin concentration, serums copper concentration, 24-hour urinary copper excretion +/- genetic testing can be done to confirm diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Potent chelators: D-penicillamine (first-line), trientine (second-line), oral zinc\nLow-copper diet",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Hepatology consult should be made for follow up\nScreening for hepatocellular carcinoma (HCC) recommended but unclear association",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Lorincz MT. Neurologic Wilson's disease. Ann N Y Acad Sci 2010; 1184:173.\nGollan JL, Gollan TJ. Wilson disease in 1998: genetic, diagnostic and therapeutic aspects. J Hepatol 1998; 28 Suppl 1:28.\nSoltanzadeh A, Soltanzadeh P, Nafissi S, et al. Wilson's disease: a great masquerader. Eur Neurol 2007; 57:80.\nStremmel W, Meyerrose KW, Niederau C, et al. Wilson disease: clinical presentation, treatment, and survival. Ann Intern Med 1991; 115:720.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

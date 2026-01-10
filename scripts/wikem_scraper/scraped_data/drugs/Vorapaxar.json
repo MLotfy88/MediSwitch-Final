@@ -1,0 +1,240 @@
+{
+  "drug_name": "Vorapaxar",
+  "url": "https://wikem.org/wiki/Vorapaxar",
+  "scraped_at": "2026-01-10T08:05:15.055520",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: Tab 2.08mg\nRoutes of Administration: Oral\nCommon Trade Names: Zontivity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Thrombotic_event_prevention": {
+          "text": "2.08 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thrombotic_event_prevention": {
+      "text": "2.08 mg PO qd",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Caution advised during pregnancy\nRisk of increased maternal bleeding during delivery",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Consider alternative while breastfeeding\nPossible drug excretion into milk based on drug properties",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nSevere Impairment: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Caution advised during pregnancy\nRisk of increased maternal bleeding during delivery",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Consider alternative while breastfeeding\nPossible drug excretion into milk based on drug properties",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nSevere Impairment: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Consider alternative while breastfeeding\nPossible drug excretion into milk based on drug properties",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nSevere Impairment: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Unavailable",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nSevere Impairment: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nSevere Impairment: Avoid use\nPediatric: Unavailable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nStroke\nor\nTIA\nhx\nIntracranial hemorrhage\nActive bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bleeding, severe\nIntracranial hemorrhage\nGI Bleeding\nRetinopathy",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding,\nanemia\nDepression\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bleeding, severe\nIntracranial hemorrhage\nGI Bleeding\nRetinopathy",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding,\nanemia\nDepression\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding,\nanemia\nDepression\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8 days w/ active metabolite\nMetabolism: Liver CYP450: 2J2, 3A4 substrate\nExcretion: Feces 58%, urine 25%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Antagonizes protease-activated receptor-1, inhibiting platelet aggregation induced by thrombin an thrombin receptor agonist peptide",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    }
+  }
+}

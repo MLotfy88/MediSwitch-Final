@@ -1,0 +1,476 @@
+{
+  "drug_name": "Viral_parotitis",
+  "url": "https://wikem.org/wiki/Viral_parotitis",
+  "scraped_at": "2026-01-10T08:05:11.606916",
+  "sections": {
+    "Background": {
+      "text": "Acute infection of the parotid glands\nMost often caused by paramyxoviruses (e.g.\nmumps\n), but should consider\ninfluenza\n[1]\n; less commonly by parainfluenza,\ncoxsackie\n, echo,\nHIV\nMost common in children <15yrs\nContagious for 9 days after onset of parotid swelling",
+      "subsections": {
+        "Complications": {
+          "text": "Mastitis\n,\npancreatitis\n, aseptic\nmeningitis\n,\nhearing loss\n,\nmyocarditis\n,\npolyarthritis\n,\nhemolytic anemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "polyarthritis",
+          "url": "https://wikem.org/wiki/Polyarthritis"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Mastitis\n,\npancreatitis\n, aseptic\nmeningitis\n,\nhearing loss\n,\nmyocarditis\n,\npolyarthritis\n,\nhemolytic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "polyarthritis",
+          "url": "https://wikem.org/wiki/Polyarthritis"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Prodrome of\nfever\n, malaise,\nheadache\n, myalgias,\narthralgias\nUnilateral or\nbilateral\nparotid swelling\nUnilateral\norchitis\n(20-30% of male patients)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "arthralgias",
+          "url": "https://wikem.org/wiki/Arthralgias"
+        },
+        {
+          "text": "bilateral",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bilateral_Parotitis": {
+          "text": "Viral infections\nViral parotitis\nParainfluenza\nCoxsackie virus\ninfluenza\nA\nEpstein-Barr virus\nAdenovirus\nHIV\nCytomegalovirus\nBacterial infections\nStaphylococcus aureus\nNoninfectious\nSalivary calculi\nTumors\nSarcoidosis\nSjögren’s syndrome\nThiazide\ndiuretics",
+          "tables": []
+        },
+        "Facial_Swelling": {
+          "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Salivary calculi",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Bilateral_Parotitis": {
+      "text": "Viral infections\nViral parotitis\nParainfluenza\nCoxsackie virus\ninfluenza\nA\nEpstein-Barr virus\nAdenovirus\nHIV\nCytomegalovirus\nBacterial infections\nStaphylococcus aureus\nNoninfectious\nSalivary calculi\nTumors\nSarcoidosis\nSjögren’s syndrome\nThiazide\ndiuretics",
+      "subsections": {
+        "Facial_Swelling": {
+          "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Salivary calculi",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren’s syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren%E2%80%99s_syndrome"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Facial_Swelling": {
+      "text": "Buccal space infections\nDental problems\nCanine space infection\nFacial\ncellulitis\nHerpes zoster\nMasticator space infections\nMaxillofacial trauma\nNeoplasm\nParapharyngeal space infection\nSalivary gland diagnoses\nParotitis\nBilateral parotitis\nSuppurative parotitis\nViral parotitis\n(Mumps)\nRanula\nSialoadenitis\nSialolithiasis\nSuperior vena cava syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Buccal space infections",
+          "url": "https://wikem.org/wiki/Buccal_space_infections"
+        },
+        {
+          "text": "Dental problems",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Masticator space infections",
+          "url": "https://wikem.org/wiki/Masticator_space_infections"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Parapharyngeal space infection",
+          "url": "https://wikem.org/wiki/Parapharyngeal_space_infection"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Ranula",
+          "url": "https://wikem.org/wiki/Ranula"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Sialolithiasis",
+          "url": "https://wikem.org/wiki/Sialolithiasis"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis\nMay confirm diagnosis with mumps immunoglobulin (IgM and IgG) or PCR (may also be needed by local health department for reporting)\nTesticular ultrasound\nif concern for\norchitis\nLumbar puncture\nif concern for associated\nmeningitis\n/\nencephalitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Testicular ultrasound",
+          "url": "https://wikem.org/wiki/Testicular_ultrasound"
+        },
+        {
+          "text": "orchitis",
+          "url": "https://wikem.org/wiki/Orchitis"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care is the mainstay of treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Isolated parotitis or orchitis: manage as outpatient\nSystemic complications: admit\nReport to local health department (nationally reportable disease)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Salivary gland diagnoses\nBilateral parotitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "Bilateral parotitis",
+          "url": "https://wikem.org/wiki/Bilateral_parotitis"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Mumps for HCP\nMerck Manual: Mumps",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

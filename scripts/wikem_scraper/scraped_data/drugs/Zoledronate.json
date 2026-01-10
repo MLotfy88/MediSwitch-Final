@@ -1,0 +1,155 @@
+{
+  "drug_name": "Zoledronate",
+  "url": "https://wikem.org/wiki/Zoledronate",
+  "scraped_at": "2026-01-10T08:05:28.425024",
+  "sections": {
+    "Administration": {
+      "text": "Type: Bisphosphonate\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "4mg IV once, may repeat in 7d",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Pregnancy category D",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "No information available, avoid use or breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 50-60 mL/min: 3.5 mg\nCrCl 40-49 mL/min: 3.3 mg\nCrCl 30-39 mL/min: 3 mg\nCrCl <30 mL/min: Not recommended",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Safety/efficacy not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Pregnancy category D",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "No information available, avoid use or breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 50-60 mL/min: 3.5 mg\nCrCl 40-49 mL/min: 3.3 mg\nCrCl 30-39 mL/min: 3 mg\nCrCl <30 mL/min: Not recommended",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Safety/efficacy not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "No information available, avoid use or breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl 50-60 mL/min: 3.5 mg\nCrCl 40-49 mL/min: 3.3 mg\nCrCl 30-39 mL/min: 3 mg\nCrCl <30 mL/min: Not recommended",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Safety/efficacy not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl 50-60 mL/min: 3.5 mg\nCrCl 40-49 mL/min: 3.3 mg\nCrCl 30-39 mL/min: 3 mg\nCrCl <30 mL/min: Not recommended",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Safety/efficacy not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypocalcemia\nSevere renal impairment (CrCl <35 mL/min or evidence of acute renal impairment)\nRehydrate hypovolemic patients prior to administration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypocalcemia\nBronchoconstriction if aspirin-sensitive asthma\nOsteonecrosis (usually of jaw)\nAcquired fanconi syndrome\nHypotension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bone pain, arthralgia\nNausea/vomiting, constipation, diarrhea\nFever\nFatigue, insomnia, anxiety\nAnemia\nDyspnea\nHeadache, dizziness\nUTI\nHypophosphatemia, hypokalemia, hypomagnesemia\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hypocalcemia\nBronchoconstriction if aspirin-sensitive asthma\nOsteonecrosis (usually of jaw)\nAcquired fanconi syndrome\nHypotension",
+      "subsections": {
+        "Common": {
+          "text": "Bone pain, arthralgia\nNausea/vomiting, constipation, diarrhea\nFever\nFatigue, insomnia, anxiety\nAnemia\nDyspnea\nHeadache, dizziness\nUTI\nHypophosphatemia, hypokalemia, hypomagnesemia\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Bone pain, arthralgia\nNausea/vomiting, constipation, diarrhea\nFever\nFatigue, insomnia, anxiety\nAnemia\nDyspnea\nHeadache, dizziness\nUTI\nHypophosphatemia, hypokalemia, hypomagnesemia\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 146h\nMetabolism: Not metabolized\nExcretion: Urinary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts on osteoclasts to inhibit bone resorption",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "https://reference.medscape.com/drug/reclast-zometa-zoledronic-acid-342858#10",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

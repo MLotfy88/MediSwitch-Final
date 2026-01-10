@@ -1,0 +1,228 @@
+{
+  "drug_name": "Viruses",
+  "url": "https://wikem.org/wiki/Viruses",
+  "scraped_at": "2026-01-10T08:05:11.652116",
+  "sections": {
+    "DNA_Viruses": {
+      "text": "Adenovirus\nHuman papillomavirus\nParvovirus B19\nHerpes viruses\nSimplex\nHerpes Simplex Virus-1\nHerpes Simplex Virus-2\nHerpes B virus\nVaricella zoster virus\nHHV-6 (\nRoseola infantum\n)\nHHV-8 (\nKaposi's sarcoma\n)\nEpstein-Barr virus\nCytomegalovirus\nVariola\nvirus (smallpox)\nMolluscum contagiosum\nvirus\nHepatitis B\nBK virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Herpes viruses",
+          "url": "https://wikem.org/wiki/Herpes_viruses"
+        },
+        {
+          "text": "Herpes Simplex Virus-1",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-1"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Herpes B virus",
+          "url": "https://wikem.org/wiki/Herpes_B_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Roseola infantum",
+          "url": "https://wikem.org/wiki/Roseola_infantum"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Variola",
+          "url": "https://wikem.org/wiki/Variola"
+        },
+        {
+          "text": "Molluscum contagiosum",
+          "url": "https://wikem.org/wiki/Molluscum_contagiosum"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        }
+      ]
+    },
+    "RNA_Viruses": {
+      "text": "Rotavirus\nEnterovirus\n(Picornavirus)\nCoxsackie virus\nEnterovirus D68\nEchovirus\nRhinovirus\nPoliovirus\nHepatitis A\nNorovirus (Norwalk virus)\nRubella\nFlavivirus\nDengue\nYellow fever\nHepatitis C\nJapanese encephalitis\nSt. Louis encephalitis\nWest nile virus\nZika virus\nTick-borne encephalitis virus\nFilovirus\nEbola\nMarburg\nBunyavirus\nNairovirus\n(Crimean-congo hemorrhagic fever)\nHantavirus\nHeartland virus\nRift Valley Fever\nLa Crosse virus (encephalitis)\nLassa fever\nParamyxovirus\nRubeola\n(measles)\nMumps\nvirus\nRespiratory syncytial virus\nParainfluenza\nCoronavirus\nMERS\n-CoV\nSARS\n-CoV\nInfluenza\nH1N1\nRabies\nAlphavirus\nChikungunya\nWestern equine encephalitis\nEastern equine encephalitis\nVenezuelan equine encephalitis\nHepatitis D\nHepatitis E",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Coxsackie virus",
+          "url": "https://wikem.org/wiki/Coxsackie_virus"
+        },
+        {
+          "text": "Enterovirus D68",
+          "url": "https://wikem.org/wiki/Enterovirus_D68"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Poliovirus",
+          "url": "https://wikem.org/wiki/Poliovirus"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Japanese encephalitis",
+          "url": "https://wikem.org/wiki/Japanese_encephalitis"
+        },
+        {
+          "text": "West nile virus",
+          "url": "https://wikem.org/wiki/West_nile_virus"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Filovirus",
+          "url": "https://wikem.org/wiki/Filovirus"
+        },
+        {
+          "text": "Ebola",
+          "url": "https://wikem.org/wiki/Ebola"
+        },
+        {
+          "text": "Marburg",
+          "url": "https://wikem.org/wiki/Marburg"
+        },
+        {
+          "text": "Nairovirus",
+          "url": "https://wikem.org/wiki/Nairovirus"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Rift Valley Fever",
+          "url": "https://wikem.org/wiki/Rift_Valley_Fever"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS",
+          "url": "https://wikem.org/wiki/MERS"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "H1N1",
+          "url": "https://wikem.org/wiki/H1N1"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        }
+      ]
+    },
+    "Retroviruses": {
+      "text": "Human T-lymphotrophic virus\nHIV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    }
+  }
+}

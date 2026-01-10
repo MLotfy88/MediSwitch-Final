@@ -1,0 +1,426 @@
+{
+  "drug_name": "Wet_gangrene",
+  "url": "https://wikem.org/wiki/Wet_gangrene",
+  "scraped_at": "2026-01-10T08:05:23.113050",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Gangrene_General_Info": {
+          "text": "A form of tissue necrosis characterized by critically insufficient blood supply leading to tissue death.\nPrimarily divided into wet gangrene vs dry gangrene. Other, specific forms of gangrene include\nFournier's gangrene\n, gas gangrene, and\nnecrotizing fasciitis\n.\nMost commonly occur in distal extremities, clasically the feet.\nMain risk factors are\ndiabetes\n, smoking, and\nperipheral arterial disease\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "peripheral arterial disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        }
+      ]
+    },
+    "Gangrene_General_Info": {
+      "text": "A form of tissue necrosis characterized by critically insufficient blood supply leading to tissue death.\nPrimarily divided into wet gangrene vs dry gangrene. Other, specific forms of gangrene include\nFournier's gangrene\n, gas gangrene, and\nnecrotizing fasciitis\n.\nMost commonly occur in distal extremities, clasically the feet.\nMain risk factors are\ndiabetes\n, smoking, and\nperipheral arterial disease\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "peripheral arterial disease",
+          "url": "https://wikem.org/wiki/Peripheral_arterial_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Usually due to peripheral arterial or venous disease, but can also be sequelae of trauma or burns causing vascular injuries.\nPresents with swollen, pale, soft tissue, often with a putrid smell and purulent discharge.\nAs tissue is infected, wet gangrene presents a higher risk of systemic infection than dry gangrene.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Foot_infection": {
+          "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+          "tables": []
+        },
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Foot_infection": {
+      "text": "Gout\nPsuedoGout\nCellulitis\nGangrene\nDry gangrene\nWet gangrene\nTrench foot\nAbscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nOsteomyelitis\nDiabetic foot infection\nCharcot Foot",
+      "subsections": {
+        "Look_A-Likes": {
+          "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "PsuedoGout",
+          "url": "https://wikem.org/wiki/PsuedoGout"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "Dry gangrene",
+          "url": "https://wikem.org/wiki/Dry_gangrene"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Charcot Foot",
+          "url": "https://wikem.org/wiki/Charcot_Foot"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Look_A-Likes": {
+      "text": "Peripheral artery disease\nSporotrichosis\nDeep venous thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChemistry\nConsider:\nX-ray\nblood cultures\nlactate",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "History and physical examination are usually sufficient to make the diagnosis.\nGiven higher risk for systemic infection, patients should be evaluated for signs/symptoms of\nsepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nChemistry\nConsider:\nX-ray\nblood cultures\nlactate",
+      "subsections": {
+        "Diagnosis": {
+          "text": "History and physical examination are usually sufficient to make the diagnosis.\nGiven higher risk for systemic infection, patients should be evaluated for signs/symptoms of\nsepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "History and physical examination are usually sufficient to make the diagnosis.\nGiven higher risk for systemic infection, patients should be evaluated for signs/symptoms of\nsepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Requires surgical consultation as rapid debridement or amputation of necrotic tissue is required to prevent further spread of infection.",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Initial use broad spectrum antibiotic coverage, as these are often polymycrobial infections.\nExample 1:\nCefepime\n1g IV q24h [infuse first] +\nMetronidazole\n500mg IV q8h +\nVancomycin\n1g IV (or per pharmacy) +\nConsider additionally:\nclindamycin\n900mg IV q8h (if suspect anerobic/gas gangrene/\nstreptococcal toxic shock syndrome\n)\nExample 2 (possible substitutions):\nSubstitute\npiperacillin-tazobactam\nOR\nmeropenem\nfor broad-spectrum coverage\nSubstitute\nlinezolid\nfor\nMRSA\ncoverage\nSubstitute\npenicillin G\nfor anaerobic coverage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "streptococcal toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Streptococcal_toxic_shock_syndrome"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Initial use broad spectrum antibiotic coverage, as these are often polymycrobial infections.\nExample 1:\nCefepime\n1g IV q24h [infuse first] +\nMetronidazole\n500mg IV q8h +\nVancomycin\n1g IV (or per pharmacy) +\nConsider additionally:\nclindamycin\n900mg IV q8h (if suspect anerobic/gas gangrene/\nstreptococcal toxic shock syndrome\n)\nExample 2 (possible substitutions):\nSubstitute\npiperacillin-tazobactam\nOR\nmeropenem\nfor broad-spectrum coverage\nSubstitute\nlinezolid\nfor\nMRSA\ncoverage\nSubstitute\npenicillin G\nfor anaerobic coverage.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "streptococcal toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Streptococcal_toxic_shock_syndrome"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "penicillin G",
+          "url": "https://wikem.org/wiki/Penicillin_G"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Gangrene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        }
+      ]
+    }
+  }
+}

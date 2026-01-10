@@ -1,0 +1,86 @@
+{
+  "drug_name": "Wells_criteria",
+  "url": "https://wikem.org/wiki/Wells_criteria",
+  "scraped_at": "2026-01-10T08:05:17.348245",
+  "sections": {
+    "Background": {
+      "text": "Used to determine pre-test probability when evaluating patients for possible\npulmonary embolism\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Criteria_and_Score": {
+      "text": "",
+      "subsections": {
+        "Wells_Criteria": {
+          "text": "Score 0-4 = PE Unlikely (12.1% incidence of PE)\nCheck\nD-dimer\nIf D-dimer positive then obtain CTPA or V/Q scan\nIf D-dimer negative, no further workup needed (0.5% incidence of PE at 3 month follow up)\nScore >4 = PE Likely (37.1% incidence of PE)\nObtain CT Pulmonary Angiography or V/Q Scan\nNew evidence suggests lower Wells Score with D-dimer <1000 ng/mL is effective at ruling out PE without imaging",
+          "tables": [
+            [
+              {
+                "Clinical Features": "Symptoms ofDVT(leg swelling and pain with palpation)",
+                "Points": "3.0"
+              },
+              {
+                "Clinical Features": "PEas likely as or more likely than an alternative diagnosis",
+                "Points": "3.0"
+              },
+              {
+                "Clinical Features": "HR >100 bpm",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "Immobilization for >3 consecutive days or surgery in the previous 4 weeks",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "PreviousDVTor PE",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "Hemoptysis",
+                "Points": "1.0"
+              },
+              {
+                "Clinical Features": "Malignancy (receiving treatment, treatment stopped within 6 mon, palliative care)",
+                "Points": "1.0"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "EBQ:Wells PE Rule Out\nPulmonary embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:Wells PE Rule Out",
+          "url": "https://wikem.org/wiki/EBQ:Wells_PE_Rule_Out"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "References": {
+      "text": "<references>\nDiagnosis of Pulmonary Embolism With D-Dimer Adjusted to Clinical Probability. N Engl J Med 2019;381:2125-2134.\nhttps://www.nejm.org/doi/full/10.1056/NEJMoa1909159",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

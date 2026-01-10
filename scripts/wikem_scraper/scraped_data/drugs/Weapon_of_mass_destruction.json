@@ -1,0 +1,158 @@
+{
+  "drug_name": "Weapon_of_mass_destruction",
+  "url": "https://wikem.org/wiki/Weapon_of_mass_destruction",
+  "scraped_at": "2026-01-10T08:05:20.201975",
+  "sections": {
+    "Background": {
+      "text": "According to Crimes and Criminal Procedure, Title 18 United States Code (USC) § 2332a, a Weapon of Mass Destruction (WMD) is “any destructive device defined in § 921” (2006). These weapons include any explosive, incendiary, poison gas, bomb, grenade, rocket having a propellant charge of more than four ounces, missile having an explosive or incendiary charge of more than one-quarter ounce, mine, or device similar to the above.\n[1]\nChildren at increased risk to WMD\nIncreased respiratory rate (minute ventilation)\nHeavier chemicals like SARIN will accumulate at a level where children are exposed to\nGreater surface area to volume ratio\nSmall fluid reserves and higher metabolic rates\nDehydration\nIncreased toxicity from same exposure in an adult\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Classification_of_Agents": {
+      "text": "Chemical\nNerve Agents\nSarin\nSoman\nTabun\nVX\nMustard agent (vesicants)\nBiologic\nAnthrax\nPlague\nSmallpox\nBotulism\nViral hemorrhagic fever\n(e.g.\nMarburg\n,\nEbola\n)\nTularemia\nRadiologic\nSimple device\nDispersal device",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "Sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Mustard agent (vesicants)",
+          "url": "https://wikem.org/wiki/Mustard_agent_(vesicants)"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Marburg",
+          "url": "https://wikem.org/wiki/Marburg"
+        },
+        {
+          "text": "Ebola",
+          "url": "https://wikem.org/wiki/Ebola"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Radiologic",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "GEMC:Prehospital / Disaster / Mass Casualty Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GEMC:Prehospital / Disaster / Mass Casualty Medicine",
+          "url": "https://wikem.org/wiki/GEMC:Prehospital_/_Disaster_/_Mass_Casualty_Medicine"
+        }
+      ]
+    }
+  }
+}

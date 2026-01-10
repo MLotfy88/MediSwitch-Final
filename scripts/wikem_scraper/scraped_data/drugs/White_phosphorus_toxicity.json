@@ -1,0 +1,288 @@
+{
+  "drug_name": "White_phosphorus_toxicity",
+  "url": "https://wikem.org/wiki/White_phosphorus_toxicity",
+  "scraped_at": "2026-01-10T08:05:22.073109",
+  "sections": {
+    "Background": {
+      "text": "White phosphorus is classically among only 2 chemical burns (other is\nHydrofluoric Acid\n) that required an antidote\nThe antidote of copper sulfate is controversial and is not universally recommended\nIncendiary agent that spontaneously burns in air and used during WWI, WWII, Vietnam, Korean wars; most recently in Iraq (OIF)\nUsually not seen unless in military or patients exposed to fireworks\nDamage due to both\nchemical\nand thermal\nburns\nThe lethal dose when white phosphorus is ingested orally is 1mg per kg of body weight\n[1]\n[2]\nParticles that penetrate tissue continue to cause caustic damage until debrided",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrofluoric Acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_Acid"
+        },
+        {
+          "text": "chemical",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hypocalcemia\nHypophosphatemia\nHepatic necrosis\nDeath may occur from burns of only 10-15% total body surface area (\nTBSA\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hypophosphatemia",
+          "url": "https://wikem.org/wiki/Hypophosphatemia"
+        },
+        {
+          "text": "Hepatic necrosis",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "TBSA",
+          "url": "https://wikem.org/wiki/TBSA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Thermal Burns\nAcute Respiratory Distress Syndrome\nChemical Burns\nHydrofluoric Acid",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thermal Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Acute Respiratory Distress Syndrome",
+          "url": "https://wikem.org/wiki/Acute_Respiratory_Distress_Syndrome"
+        },
+        {
+          "text": "Chemical Burns",
+          "url": "https://wikem.org/wiki/Chemical_Burns_(Eye)"
+        },
+        {
+          "text": "Hydrofluoric Acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_Acid"
+        },
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Management": {
+      "text": "ABCs to secure airway especially if there is any sign of oral or facial burns.\nRemove all\nO2\ntanks and tubing from patient\nAs healthcare provider, avoid contact with ignited white phosphorus\nContinuous irrigation and grossly debride (use Wood's lamp if available to fluoresce the white phosphorus)\n[3]\nWet dressings that cut off O2 exposure to remaining white phosphorus\n[4]\nMonitor Calcium and Phosphorus levels\nCopper sulfate\nTraditionally used to both convert white phosphorus and visualize end product (cupric phosphate)\nHowever, is systemically absorbed and may lead to intravascular\nhemolysis\n,\nrenal Failure\n, and\ncardiovascular collapse\nUpdate\nTetanus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus_(Prophylaxis)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Transfer the the patient to a burn care center",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Chemical weapons",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "drug_name": "Vitiligo",
+  "url": "https://wikem.org/wiki/Vitiligo",
+  "scraped_at": "2026-01-10T08:05:12.576957",
+  "sections": {
+    "Background": {
+      "text": "Condition which causes patchy depigmentation of the skin characterized by absence of melanocytes\nFlat achromic patches more commonly found in extremities or concave areas of body surface\nRelated with autoimmune diseases such as thyroid gland pathologies as well as melanoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Pityriasis versicolor\nlight desquamation, blurred borders\nPityriasis alba\nWood's lamp examination with yellow/green fluorescence\nKOH positive\nChemical leukoderma\nTuberculoid\nLeprosy\n(Hansen's disease)\nHipopigmented nevus\nstable macule, unilateral\nHipomelanosis of Ito (Incontinentia pigmenti achromians)\nfollows lines of Blaschko\nNevus anemicus\nno contrast on Wood's lamp examination\nno erythematous response to trauma, cold or heat\nTuberous sclerosis\nstable polygonal confetti macules\nPiebaldism\nalternating hyperpigmented macules on hipopigmented patches\ntriangular shaped depigmented patch on forehead\nTinea versicolor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leprosy",
+          "url": "https://wikem.org/wiki/Leprosy"
+        },
+        {
+          "text": "Tinea versicolor",
+          "url": "https://wikem.org/wiki/Tinea_versicolor"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Less than 20% skin surface affected\nTopical corticosteroids\n, calcineurin inhibitors\nUVB or PUVA phototherapy\nMelanocyte grafting (risk of Koebner phenomenon)\nCosmetic camouflage solutions\nOver 20% skin depigmentation\nNarrow band UVB phototherapy\nTotal skin depigmentation (with sun protection)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical corticosteroids",
+          "url": "https://wikem.org/wiki/Topical_corticosteroids"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Rash\nTinea versicolor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Tinea versicolor",
+          "url": "https://wikem.org/wiki/Tinea_versicolor"
+        }
+      ]
+    }
+  }
+}

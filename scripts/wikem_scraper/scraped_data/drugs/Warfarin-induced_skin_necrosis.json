@@ -1,0 +1,133 @@
+{
+  "drug_name": "Warfarin-induced_skin_necrosis",
+  "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis",
+  "scraped_at": "2026-01-10T08:05:18.917634",
+  "sections": {
+    "Background": {
+      "text": "Differing half-lives of Vitamin-K dependent coagulation factors leads to relative protein C deficiency initially→ hypercoagulability\nOnset usually in first week of starting\nwarfarin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Painful, red\nlesions\nover extremities, trunk, penis\nStart with erythematous macule→ edema→ central purpuric zones → necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lesions",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Necrotizing_rashes": {
+          "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Necrotizing_rashes": {
+      "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Levamisole toxicity",
+          "url": "https://wikem.org/wiki/Levamisole_toxicity"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stop warfarin\nLow molecular weight heparin\nor unfractionated\nheparin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    }
+  }
+}

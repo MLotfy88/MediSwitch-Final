@@ -1,0 +1,111 @@
+{
+  "drug_name": "Wound_care_dressing_basics",
+  "url": "https://wikem.org/wiki/Wound_care_dressing_basics",
+  "scraped_at": "2026-01-10T08:05:23.902937",
+  "sections": {
+    "Overview": {
+      "text": "Selecting appropriate dressings for wound care can improve lives and save limbs. The choice of appropriate dressings can significantly affect the rate of healing, the strength of the repaired skin, and the cosmetic appearance of the scar. In general, moisture content of the wound is paramount and dressings are selected that are best suited to maintain a balance: moist enough to promote healing while removing excess exudate\n[1]\nOccluded wounds heal 40% faster than open wounds.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General_Considerations": {
+      "text": "The ideal wound dressing\n[3]\n:\nhas the ability to keep the wound bed moist while absorbing excess fluids\nprotects the wound from further damage\naddresses bacterial bioburden\ndoes not injure viable surrounding peri-wound tissue\nachieves hemostasis\ndebrides necrotic tissue\nis appropriate for wound size, depth, and location\ninexpensive with a long shelf life\ndoesn't cause the patient pain during changes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dressing_Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Hydrocolloid",
+            "Benefits": "Traps exudate and moisture, washes away during dressing changes and produces a painless mechanical debridement",
+            "Indications": "Epithelialization stage, clean, low exudative wound",
+            "Contraindications/Precautions": "Do not use on necrotic wounds, highly exudative, may macerate viable skin."
+          },
+          {
+            "Type": "Hydrogel",
+            "Benefits": "Rehydrates wounds, feels cooling to the patient",
+            "Indications": "Debridement stage, dry wounds, wounds with low exudate.",
+            "Contraindications/Precautions": "Do not use on necrotic wounds, highly exudative, may macerate viable skin."
+          },
+          {
+            "Type": "Alginate",
+            "Benefits": "Absorbs fluids, conforms to wound bed, comes in a rope or ribbon for packing",
+            "Indications": "Highly exudative wounds and cavities",
+            "Contraindications/Precautions": "Caution with friable tissue"
+          },
+          {
+            "Type": "Foams",
+            "Benefits": "Absorbs fluids, conforms to wound bed, comes in a rope or ribbon for packing",
+            "Indications": "Granulation stage, highly exudative wounds and cavities",
+            "Contraindications/Precautions": "Do not use on necrotic tissue"
+          },
+          {
+            "Type": "Silver-Imgregnated",
+            "Benefits": "Antimicrobial action",
+            "Indications": "Use with critically colonized wounds",
+            "Contraindications/Precautions": "Can discolor skin, some people are sensitive to it"
+          },
+          {
+            "Type": "Silicone",
+            "Benefits": "Low adherence, protects neighboring viable skin, conforms to wound",
+            "Indications": "Use as a contact layer",
+            "Contraindications/Precautions": "Dries out easily"
+          },
+          {
+            "Type": "Collagen Matrix",
+            "Benefits": "Biologic dressing, accelerates rate of complete wound healing",
+            "Indications": "Non-healing Stage 3 and 4 pressure ulcers, when traditional dressings have failed",
+            "Contraindications/Precautions": "Expensive"
+          },
+          {
+            "Type": "Gauze",
+            "Benefits": "Inexpensive",
+            "Indications": "Open dressing",
+            "Contraindications/Precautions": "Requires more frequent dressing changes"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Wound_Packing": {
+      "text": "Although wet-to-wet and wet-to-moist packing has been the standard of care for many years, research indicates that gauze dressings are labor intensive and therefore not optimal. Many superior options are now available.\n[4]\nWet-to-Wet Dressings\nIndication: To keep a clean wound clean and prevent the build-up of exudates. \nTechnique: Moisten a piece of gauze with saline and just barely squeeze out the excess fluid so it isn't soaking wet. Unravel the gauze, place it onto the wound, and cover with a dry dressing over the top. The dressing should not be allowed to dry or stick to the wound. Change 2-3 times per day. Moisten with saline if it gets too dry.\nWet-to-Moist Dressings\nIndication: To clean a dirty or infected wound. \nTechnique: Moisten a piece of gauze with saline and squeeze out the excess fluid so it is damp, not dripping wet. Unravel the gauze, place it onto the wound, and cover with a dry dressing over the top. The dressing is allowed to dry out and when it is removed it pulls off the debris. Ideally, change 3-4 times per day. Change more often on a wound that is in need of more debridement, less often on a cleaner wound. Switch to the wet-to-wet dressing when the wound is clean.  \nNote: The wet-to-moist dressing is not a substitute for mechanical/sharp debridement.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Burn dressings\nDiabetic foot infections\nLaceration repair\nDiabetic Foot Ulcers\nPeripheral artery disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Burn dressings",
+          "url": "https://wikem.org/wiki/Burn_dressings"
+        },
+        {
+          "text": "Laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        },
+        {
+          "text": "Diabetic Foot Ulcers",
+          "url": "https://wikem.org/wiki/Diabetic_Foot_Ulcers"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "National Pressure Ulcer Advisory Panel:\nhttp://www.npuap.org/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

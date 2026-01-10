@@ -1,0 +1,198 @@
+{
+  "drug_name": "Vitreous_hemorrhage",
+  "url": "https://wikem.org/wiki/Vitreous_hemorrhage",
+  "scraped_at": "2026-01-10T08:05:15.351621",
+  "sections": {
+    "Background": {
+      "text": "Bleeding into the vitreous humor of the eye\nVitreous is avascular substance that helps keep retina in place\nTraction at its attachments at the ora serrata and optic disc can result in bleeding\nNeovascularization (associated with\nDM\n) can result in weak vessels with high propensity for bleeding\nMay cause permanent blindness",
+      "subsections": {
+        "Causes": {
+          "text": "Diabetic retinopathy\nTrauma\nShaken baby syndrome\nSickle cell disease\nPosterior vitreous detachment\nElderly\nRetinal tear\nTerson Syndrome (Association with\nSubarachnoid Hemorrhage (SAH)\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Diabetic retinopathy\nTrauma\nShaken baby syndrome\nSickle cell disease\nPosterior vitreous detachment\nElderly\nRetinal tear\nTerson Syndrome (Association with\nSubarachnoid Hemorrhage (SAH)\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Subarachnoid Hemorrhage (SAH)",
+          "url": "https://wikem.org/wiki/Subarachnoid_Hemorrhage_(SAH)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sudden, painless\nvision loss\nAcute Onset Flashers and Floaters\nGeneralized unilateral hazy vision",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vision loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Acute Onset Flashers and Floaters",
+          "url": "https://wikem.org/wiki/Acute_Onset_Flashers_and_Floaters"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Amaurosis fugax",
+          "url": "https://wikem.org/wiki/Amaurosis_fugax"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "In the setting of trauma, must assess for\nGlobe Rupture\nVisual acuity\nDegree of vision loss proportional to size of hemorrhage\nAssess for\ncoagulopathy\nINR for patients on\nwarfarin\nFundoscopy\nMay show gross hemorrhage\nBlood may obscure retina\nDecreased red reflex\nUltrasound\nBright echoes in posterior chamber\nMoving the eye can cause swirling of hemorrhage known as \"washing machine sign\"\n[1]\nSmall dots or mobile lines may represent early, mild hemorrhage\nLook for retinal injury/tears\nrequire operative intervention",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Globe Rupture",
+          "url": "https://wikem.org/wiki/Globe_Rupture"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Correct coagulopathy\nOphtho consult (should see ophtho within 24-48 hours)\nTreatment directed at underlying cause\nAvoid\nNSAIDs\nand anticoagulants\nElevate the head of the bed\nTreat\nnausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute vision loss (noninflamed)\nOcular ultrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        },
+        {
+          "text": "Ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        }
+      ]
+    }
+  }
+}

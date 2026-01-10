@@ -1,0 +1,78 @@
+{
+  "drug_name": "Wilms%27_tumor",
+  "url": "https://wikem.org/wiki/Wilms%27_tumor",
+  "scraped_at": "2026-01-10T08:05:24.571126",
+  "sections": {
+    "Background": {
+      "text": "Affects children <15yr, 2/3 of cases diagnosed before age 5\n[1]\nArises from persistent embryonal renal cells\nMost common renal malignancy in children\n[2]\n10-15% will have mets at presentation (lungs)\n10% of cases are associated with malformation syndromes such as WAGR, Denys-trash, Beckwith-Wiedemann\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal swelling/mass, can have abdominal pain\nAvoid vigorous palpation to prevent capsular rupture; causes tumor spillage (will then need more intensive therapy)\nSubcapsular hemorrhage presents as abdominal enlargement, anemia, HTN, and possibly fever\nPatient often appears well\nLess frequent features include\nabdominal pain\n,\nhematuria\n,\nfever\n, anorexia,\nnausea/vomiting\n,\nhypertension\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain_(peds)"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria_(peds)"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Neuroblastoma\nOther renal cell tumors are rare in children",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ultrasound\n, CT or MRI\nChest imaging to look for lung mets, usually CT\nCBC, chemistry including serum calcium and creatinine,\nLFTs\n, coags",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consult oncology/surgery\nSurgery/biopsy, chemo, and/or radiation based on staging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission for further workup and management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

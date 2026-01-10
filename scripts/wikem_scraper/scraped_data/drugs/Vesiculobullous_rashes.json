@@ -1,0 +1,685 @@
+{
+  "drug_name": "Vesiculobullous_rashes",
+  "url": "https://wikem.org/wiki/Vesiculobullous_rashes",
+  "scraped_at": "2026-01-10T08:05:15.742349",
+  "sections": {
+    "Background": {
+      "text": "Vesiculobullous disorders characterized by involvement of the dermal-epidermal junction (causing fluid-filled lesions to form)",
+      "subsections": {
+        "Rash_Red_Flags": {
+          "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+          "tables": []
+        },
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Rash_Red_Flags": {
+      "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+      "subsections": {
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Dermatology_Nomenclature": {
+      "text": "",
+      "subsections": {
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Vesicles are small (<1cm)\nBullae are larger (>1cm)",
+      "subsections": {
+        "Vesiculobullous_rashes_visual_diagnosis": {
+          "text": "Bullous pemphigoid\nBullous impetigo\n(after the bulla have broken)\nBullosis diabeticorum\nDermatitis herpetiformis\nErythema multiforme\nGonococcal\nMonkeypox\nNectrotizing fasciitis\nPemphigus vulgaris\nPoison ivy\n/Oak/Sumac\nPoison ivy\n/Oak/Sumac\nPhytophotodermatitis\nShingles\nSmallpox\nVaricella\nVaricella",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "Nectrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Nectrotizing_fasciitis"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Vesiculobullous_rashes_visual_diagnosis": {
+      "text": "Bullous pemphigoid\nBullous impetigo\n(after the bulla have broken)\nBullosis diabeticorum\nDermatitis herpetiformis\nErythema multiforme\nGonococcal\nMonkeypox\nNectrotizing fasciitis\nPemphigus vulgaris\nPoison ivy\n/Oak/Sumac\nPoison ivy\n/Oak/Sumac\nPhytophotodermatitis\nShingles\nSmallpox\nVaricella\nVaricella",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "Nectrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Nectrotizing_fasciitis"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Poison ivy",
+          "url": "https://wikem.org/wiki/Poison_ivy"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Shingles",
+          "url": "https://wikem.org/wiki/Shingles"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vesiculobullous_rashes": {
+          "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Vesiculobullous_rashes": {
+      "text": "Febrile\nDiffuse distribution\nVaricella\n(chickenpox)\nSmallpox\nMonkeypox\nDisseminated\ngonococcal disease\nDIC\nPurpural fulminans\nLocalized distribution\nNecrotizing fasciitis\nHand-foot-and-mouth disease\nAfebrile\nDiffuse distribution\nBullous pemphigoid\nDrug-Induced bullous disorders\nPemphigus vulgaris\nPhytophotodermatitis\nErythema multiforme\nmajor\nBullous impetigo\nLocalized distribution\nContact dermatitis\nHerpes zoster\n(shingles)\nDyshidrotic eczema\nBurn\nDermatitis herpetiformis\nErythema multiforme\nminor\nPoison Oak, Ivy, Sumac dermatitis\nBullosis diabeticorum\nBullous impetigo\nFolliculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Monkeypox",
+          "url": "https://wikem.org/wiki/Monkeypox"
+        },
+        {
+          "text": "gonococcal disease",
+          "url": "https://wikem.org/wiki/Gonococcal_disease"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "Purpural fulminans",
+          "url": "https://wikem.org/wiki/Purpural_fulminans"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Bullosis diabeticorum",
+          "url": "https://wikem.org/wiki/Bullosis_diabeticorum"
+        },
+        {
+          "text": "Bullous impetigo",
+          "url": "https://wikem.org/wiki/Bullous_impetigo"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Frequently a clinical diagnosis based on ruling-out more dangerous causes\nSee differential diagnosis section (above)\nConsider whether or not the patient has a fever or is toxic appearing (dangerous diagnosis)\nLook at lesion distribution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Based on presumed cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Based on presumed cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "drug_name": "Yohimbine_toxicity",
+  "url": "https://wikem.org/wiki/Yohimbine_toxicity",
+  "scraped_at": "2026-01-10T08:05:26.136068",
+  "sections": {
+    "Background": {
+      "text": "Indole alkylamine from West African Yohimbine tree (\nCorynanthe yohimbe\n)\nIs a plant species in the family Rubiaceae native to western and central Africa (Nigeria, Cabinda, Cameroon, Congo-Brazzaville, Gabon, Equatorial Guinea)\nExtracts from yohimbe have been used in traditional medicine in West Africa as an aphrodisiac and have been marketed in developed countries as dietary supplements.\nα2-adrenergic antagonist with cholinergic activity\n[1]\nCommonly used for treating erectile dysfunction. Also, for other uses (eg, postural hypotension); marketed as athletic performance enhancers, dieting agent.\nCan be obtained via prescription.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Tachycardia\nHypertension\nMydriasis\nNausea\n,\nvomiting\n, salivation\nAnxiety\nLarge ingestions may cause mania, bronchospasm, lupus-like syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Avoid β-Adrenergic antagonists - may lead to unopposed α1-adrenergic activity → ↑ hypertension\nSymptomatic patients:\nBenzodiazepines for agitation/anxiety/sympathomimetic effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Alpha blockers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alpha blockers",
+          "url": "https://wikem.org/wiki/Alpha_blockers"
+        }
+      ]
+    }
+  }
+}

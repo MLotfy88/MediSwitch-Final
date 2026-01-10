@@ -1,0 +1,29 @@
+{
+  "drug_name": "Whippets",
+  "url": "https://wikem.org/wiki/Whippets",
+  "scraped_at": "2026-01-10T08:05:22.418407",
+  "sections": {
+    "Background": {
+      "text": "\"Whippets\" refer to inhaled\nnitrous oxide\nfrom small  small cartridges (\"whippets\") for making whipped cream and in large tanks for industrial and medical purposes.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nitrous oxide",
+          "url": "https://wikem.org/wiki/Nitrous_oxide"
+        }
+      ]
+    },
+    "Clinical_Evaluation_and_Management": {
+      "text": "Refer to\nNitrous oxide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitrous oxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        }
+      ]
+    }
+  }
+}

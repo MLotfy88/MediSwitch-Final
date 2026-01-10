@@ -1,0 +1,537 @@
+{
+  "drug_name": "Zollinger-Ellison_syndrome",
+  "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome",
+  "scraped_at": "2026-01-10T08:05:28.939660",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"S-E syndrome\"\nCaused by secretion of gastrin by duodenal/pancreatic neuroendocrine tumors (gastrinomas) —> high gastric acid output by parietal cells\nAssociated with\npeptic ulcers\nand\ndiarrhea\n60-90% malignant\n[1]\n, only 20% resectable; 25% of gastrinoma patients have multiple endocrine neoplasia type I; >80% of gastrinomas found in gastrinoma triangle.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hematemesis\nChronic\ndiarrhea\nthat is responsive to\nPPIs\nGastroesophageal reflux disease\nSteatorrhea\nWeight loss\nPostprandial\nabdominal pain\nNausea\nWheezes on auscultation\nEvidence of malnourishment and decreased oral intake",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        },
+        "Upper_gastrointestinal_bleeding": {
+          "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+          "tables": []
+        },
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {
+        "Upper_gastrointestinal_bleeding": {
+          "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+          "tables": []
+        },
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Upper_gastrointestinal_bleeding": {
+      "text": "Peptic ulcer disease\n(most common cause)\nZollinger-Ellison syndrome\nGastritis\n/\nesophagitis\nGastric/\nesophageal varices\nMallory-Weiss tear\nMalignancy\nAortoenteric fisulta\nBoerhaave\nDieulafoy's lesion\nAngiodysplasia\nHemobilia\nHemorrhagic\ngastritis\n,\nEtOH\nCeliac disease\nDengue\nOther intrabdominal bleeds\nLower GI bleeding\nHemorrhagic\npancreatitis\nSplenic rupture\nSubcapsular cavernous hemangiomas\nPeliosis hepatis",
+      "subsections": {
+        "Mimics_of_GI_Bleeding": {
+          "text": "Hemoptysis\nVaginal\n/\nUrethra\nbleeding\nENT bleeding\nDietary (\nIron\n,\nbismuth\n, beets)\nSwallowed maternal blood (in neonate)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "esophageal varices",
+          "url": "https://wikem.org/wiki/Esophageal_varices"
+        },
+        {
+          "text": "Mallory-Weiss tear",
+          "url": "https://wikem.org/wiki/Mallory-Weiss_tear"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Boerhaave",
+          "url": "https://wikem.org/wiki/Boerhaave"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "Celiac disease",
+          "url": "https://wikem.org/wiki/Celiac_disease"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Lower GI bleeding",
+          "url": "https://wikem.org/wiki/Lower_GI_bleeding"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Splenic rupture",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Vaginal",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Urethra",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "bismuth",
+          "url": "https://wikem.org/wiki/Bismuth_subsalicylate"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Fasting serum gastrin concentration (>10x upper limit of normal) in the presence of gastric pH <2 is diagnostic\nIf findings not diagnostic for ZES, will require secretin stimulation test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Fasting serum gastrin concentration (>10x upper limit of normal) in the presence of gastric pH <2 is diagnostic\nIf findings not diagnostic for ZES, will require secretin stimulation test",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Fasting serum gastrin concentration (>10x upper limit of normal) in the presence of gastric pH <2 is diagnostic\nIf findings not diagnostic for ZES, will require secretin stimulation test",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Proton-Pump Inhibitors\nSomatostatin analog (Octreotide) if no improvement\nDirect inhibition of gastric secretion\nSurgical resection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

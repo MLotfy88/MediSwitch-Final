@@ -1,0 +1,623 @@
+{
+  "drug_name": "Von_Willebrand_disease",
+  "url": "https://wikem.org/wiki/Von_Willebrand_disease",
+  "scraped_at": "2026-01-10T08:05:13.892689",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: vWD\nMost common inherited bleeding disorder\n[1]\nvWF has two roles:\n1. Acts as cofactor for platelet adhesion\n2. Acts as carrier protein for factor VIII extending its half life\nvWD results from quantitative or qualitative dysfunction of Von Willebrand factor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Skin and mucosal bleeding\nEpistaxis\n, gingival bleeding,\nmenorrhagia\nHemarthrosis is unusual (more common in factor deficiencies)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "menorrhagia",
+          "url": "https://wikem.org/wiki/Vaginal_Bleed_Non-Pregnant"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Platelet count: normal\nBleeding time: prolonged\nPT: normal\nPTT: normal-mildly prolonged\nvWF activity level: low",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Avoid\nASA\n,\nNSAIDs\n,\nheparin\nand coordinate with hematology prior to any invasive or surgical procedures.\nMultiple therapeutic options exist for prophylaxis or treatment of bleeding.  The majority of therapy utilizes Humate-P and/or\ndesmopressin",
+      "subsections": {
+        "Humate-P": {
+          "text": "VWF and factor VIII concentration is the first line therapy for vWD bleeding patients. It is contraindicated for any patient with prior history of\nanaphylaxis\nto Humate-p\nLoading dose 40 to 60 IU/kg, then 40 to 50 IU/kg every 8 to 12 hours for 3 days to keep the trough level of VWF:RCo >50%; then 40 to 50 IU/kg daily for a total of up to 7 days of treatment.\n[2]\nFor severe bleeding the loading dose is increased to 50 to 75 IU/kg",
+          "tables": [
+            [
+              {
+                "Type of Hemorrhages/Surgery": "Minor Hemorrhages",
+                "Loading Dosage (IU VWF:RCo/ kg BW)": "20-40 IU/kg",
+                "Maintenance Dosage (IU VWF:RCo/ kg BW)": "20-30 IU/kg every 12-24 hours",
+                "Therapeutic Goal": "VWF:RCo and FVIII activity trough levels of >30%"
+              },
+              {
+                "Type of Hemorrhages/Surgery": "Major Hemorrhages",
+                "Loading Dosage (IU VWF:RCo/ kg BW)": "40-60 IU/kg",
+                "Maintenance Dosage (IU VWF:RCo/ kg BW)": "20-40 IU/kg every 12-24 hours",
+                "Therapeutic Goal": "VWF:RCo and FVIII activity trough levels of >50%"
+              },
+              {
+                "Type of Hemorrhages/Surgery": "Minor Surgeries",
+                "Loading Dosage (IU VWF:RCo/ kg BW)": "30-60 IU/kg",
+                "Maintenance Dosage (IU VWF:RCo/ kg BW)": "15-30 IU/kg or half the loading",
+                "Therapeutic Goal": "VWF:RCo peak level of 50% after loading dose"
+              }
+            ]
+          ]
+        },
+        "Platelet_transfusion": {
+          "text": "Consider if replacement therapy instituted and persistent bleeding",
+          "tables": []
+        },
+        "Desmopressin": {
+          "text": "Induces release of vWF from endothelial storage sites\n0.3mcg/kg  IV (max 20mcg) over 30min",
+          "tables": []
+        },
+        "Aminocaproic_acid_(Amicar)": {
+          "text": "Analogue of the amino acid lysine making it an inhibitor for proteolytic enzymes like plasmin, the enzyme responsible for fibrinolysis.",
+          "tables": []
+        },
+        "Recombinant_Factor_VIIa": {
+          "text": "Consider in type 3 VWD patients who have developed antibodies to VWF replacement\nIncreased risk of thrombosis, especially in patients with coronary artery disease",
+          "tables": [
+            [
+              {
+                "Types of Von Willebrand Disease": "Type 1",
+                "Pathophysiology": "Low levels of all proteins",
+                "Therapy": "Desmopressin",
+                "Procedures": "Desmopressin Responsive:Infuse 0.3 ug/kg to end 45 minutes before procedure. May repeat every 24 hours.For major procedures follow factor VIII levels with plan to keep troughs over 80%Not desmopressin responsive:Humate-P to achieve peak over 120% and troughs of 80%.Levels below 30%: 40-50 IU/kg followed by 20 IU/kg every 12 hoursLevels above 30%: 20-40 IU/kg every day"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2",
+                "Pathophysiology": "Abnormal protein",
+                "Therapy": ""
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2A",
+                "Pathophysiology": "Abnormal protein leading to lower levels of high weight multimers",
+                "Therapy": "Desmopressin (only effective in 10%), Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2B",
+                "Pathophysiology": "Abnormal protein with increased binding to gpIIb leading to lower levels of high weight multimers",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2N",
+                "Pathophysiology": "Lack of Factor VIII binding site leading to low Factor VIII levels",
+                "Therapy": "Desmopressin"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2M",
+                "Pathophysiology": "Abnormal protein but normal multimer size",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 3",
+                "Pathophysiology": "No von Willebrand or Factor VIII present",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Pseudo Von Willebrand (platelet-type)",
+                "Pathophysiology": "Abnormal gpIIb leading to lower levels of high molecular weight multimers",
+                "Therapy": "Platelets + Intermediate-Purity Factor VIII, rVIIa"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Humate-P": {
+      "text": "VWF and factor VIII concentration is the first line therapy for vWD bleeding patients. It is contraindicated for any patient with prior history of\nanaphylaxis\nto Humate-p\nLoading dose 40 to 60 IU/kg, then 40 to 50 IU/kg every 8 to 12 hours for 3 days to keep the trough level of VWF:RCo >50%; then 40 to 50 IU/kg daily for a total of up to 7 days of treatment.\n[2]\nFor severe bleeding the loading dose is increased to 50 to 75 IU/kg",
+      "subsections": {
+        "Platelet_transfusion": {
+          "text": "Consider if replacement therapy instituted and persistent bleeding",
+          "tables": []
+        },
+        "Desmopressin": {
+          "text": "Induces release of vWF from endothelial storage sites\n0.3mcg/kg  IV (max 20mcg) over 30min",
+          "tables": []
+        },
+        "Aminocaproic_acid_(Amicar)": {
+          "text": "Analogue of the amino acid lysine making it an inhibitor for proteolytic enzymes like plasmin, the enzyme responsible for fibrinolysis.",
+          "tables": []
+        },
+        "Recombinant_Factor_VIIa": {
+          "text": "Consider in type 3 VWD patients who have developed antibodies to VWF replacement\nIncreased risk of thrombosis, especially in patients with coronary artery disease",
+          "tables": [
+            [
+              {
+                "Types of Von Willebrand Disease": "Type 1",
+                "Pathophysiology": "Low levels of all proteins",
+                "Therapy": "Desmopressin",
+                "Procedures": "Desmopressin Responsive:Infuse 0.3 ug/kg to end 45 minutes before procedure. May repeat every 24 hours.For major procedures follow factor VIII levels with plan to keep troughs over 80%Not desmopressin responsive:Humate-P to achieve peak over 120% and troughs of 80%.Levels below 30%: 40-50 IU/kg followed by 20 IU/kg every 12 hoursLevels above 30%: 20-40 IU/kg every day"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2",
+                "Pathophysiology": "Abnormal protein",
+                "Therapy": ""
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2A",
+                "Pathophysiology": "Abnormal protein leading to lower levels of high weight multimers",
+                "Therapy": "Desmopressin (only effective in 10%), Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2B",
+                "Pathophysiology": "Abnormal protein with increased binding to gpIIb leading to lower levels of high weight multimers",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2N",
+                "Pathophysiology": "Lack of Factor VIII binding site leading to low Factor VIII levels",
+                "Therapy": "Desmopressin"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2M",
+                "Pathophysiology": "Abnormal protein but normal multimer size",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 3",
+                "Pathophysiology": "No von Willebrand or Factor VIII present",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Pseudo Von Willebrand (platelet-type)",
+                "Pathophysiology": "Abnormal gpIIb leading to lower levels of high molecular weight multimers",
+                "Therapy": "Platelets + Intermediate-Purity Factor VIII, rVIIa"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Type of Hemorrhages/Surgery": "Minor Hemorrhages",
+            "Loading Dosage (IU VWF:RCo/ kg BW)": "20-40 IU/kg",
+            "Maintenance Dosage (IU VWF:RCo/ kg BW)": "20-30 IU/kg every 12-24 hours",
+            "Therapeutic Goal": "VWF:RCo and FVIII activity trough levels of >30%"
+          },
+          {
+            "Type of Hemorrhages/Surgery": "Major Hemorrhages",
+            "Loading Dosage (IU VWF:RCo/ kg BW)": "40-60 IU/kg",
+            "Maintenance Dosage (IU VWF:RCo/ kg BW)": "20-40 IU/kg every 12-24 hours",
+            "Therapeutic Goal": "VWF:RCo and FVIII activity trough levels of >50%"
+          },
+          {
+            "Type of Hemorrhages/Surgery": "Minor Surgeries",
+            "Loading Dosage (IU VWF:RCo/ kg BW)": "30-60 IU/kg",
+            "Maintenance Dosage (IU VWF:RCo/ kg BW)": "15-30 IU/kg or half the loading",
+            "Therapeutic Goal": "VWF:RCo peak level of 50% after loading dose"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Platelet_transfusion": {
+      "text": "Consider if replacement therapy instituted and persistent bleeding",
+      "subsections": {
+        "Desmopressin": {
+          "text": "Induces release of vWF from endothelial storage sites\n0.3mcg/kg  IV (max 20mcg) over 30min",
+          "tables": []
+        },
+        "Aminocaproic_acid_(Amicar)": {
+          "text": "Analogue of the amino acid lysine making it an inhibitor for proteolytic enzymes like plasmin, the enzyme responsible for fibrinolysis.",
+          "tables": []
+        },
+        "Recombinant_Factor_VIIa": {
+          "text": "Consider in type 3 VWD patients who have developed antibodies to VWF replacement\nIncreased risk of thrombosis, especially in patients with coronary artery disease",
+          "tables": [
+            [
+              {
+                "Types of Von Willebrand Disease": "Type 1",
+                "Pathophysiology": "Low levels of all proteins",
+                "Therapy": "Desmopressin",
+                "Procedures": "Desmopressin Responsive:Infuse 0.3 ug/kg to end 45 minutes before procedure. May repeat every 24 hours.For major procedures follow factor VIII levels with plan to keep troughs over 80%Not desmopressin responsive:Humate-P to achieve peak over 120% and troughs of 80%.Levels below 30%: 40-50 IU/kg followed by 20 IU/kg every 12 hoursLevels above 30%: 20-40 IU/kg every day"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2",
+                "Pathophysiology": "Abnormal protein",
+                "Therapy": ""
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2A",
+                "Pathophysiology": "Abnormal protein leading to lower levels of high weight multimers",
+                "Therapy": "Desmopressin (only effective in 10%), Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2B",
+                "Pathophysiology": "Abnormal protein with increased binding to gpIIb leading to lower levels of high weight multimers",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2N",
+                "Pathophysiology": "Lack of Factor VIII binding site leading to low Factor VIII levels",
+                "Therapy": "Desmopressin"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2M",
+                "Pathophysiology": "Abnormal protein but normal multimer size",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 3",
+                "Pathophysiology": "No von Willebrand or Factor VIII present",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Pseudo Von Willebrand (platelet-type)",
+                "Pathophysiology": "Abnormal gpIIb leading to lower levels of high molecular weight multimers",
+                "Therapy": "Platelets + Intermediate-Purity Factor VIII, rVIIa"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Desmopressin": {
+      "text": "Induces release of vWF from endothelial storage sites\n0.3mcg/kg  IV (max 20mcg) over 30min",
+      "subsections": {
+        "Aminocaproic_acid_(Amicar)": {
+          "text": "Analogue of the amino acid lysine making it an inhibitor for proteolytic enzymes like plasmin, the enzyme responsible for fibrinolysis.",
+          "tables": []
+        },
+        "Recombinant_Factor_VIIa": {
+          "text": "Consider in type 3 VWD patients who have developed antibodies to VWF replacement\nIncreased risk of thrombosis, especially in patients with coronary artery disease",
+          "tables": [
+            [
+              {
+                "Types of Von Willebrand Disease": "Type 1",
+                "Pathophysiology": "Low levels of all proteins",
+                "Therapy": "Desmopressin",
+                "Procedures": "Desmopressin Responsive:Infuse 0.3 ug/kg to end 45 minutes before procedure. May repeat every 24 hours.For major procedures follow factor VIII levels with plan to keep troughs over 80%Not desmopressin responsive:Humate-P to achieve peak over 120% and troughs of 80%.Levels below 30%: 40-50 IU/kg followed by 20 IU/kg every 12 hoursLevels above 30%: 20-40 IU/kg every day"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2",
+                "Pathophysiology": "Abnormal protein",
+                "Therapy": ""
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2A",
+                "Pathophysiology": "Abnormal protein leading to lower levels of high weight multimers",
+                "Therapy": "Desmopressin (only effective in 10%), Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2B",
+                "Pathophysiology": "Abnormal protein with increased binding to gpIIb leading to lower levels of high weight multimers",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2N",
+                "Pathophysiology": "Lack of Factor VIII binding site leading to low Factor VIII levels",
+                "Therapy": "Desmopressin"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 2M",
+                "Pathophysiology": "Abnormal protein but normal multimer size",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Type 3",
+                "Pathophysiology": "No von Willebrand or Factor VIII present",
+                "Therapy": "Intermediate-Purity Factor VIII"
+              },
+              {
+                "Types of Von Willebrand Disease": "Pseudo Von Willebrand (platelet-type)",
+                "Pathophysiology": "Abnormal gpIIb leading to lower levels of high molecular weight multimers",
+                "Therapy": "Platelets + Intermediate-Purity Factor VIII, rVIIa"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Recombinant_Factor_VIIa": {
+      "text": "Consider in type 3 VWD patients who have developed antibodies to VWF replacement\nIncreased risk of thrombosis, especially in patients with coronary artery disease",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Types of Von Willebrand Disease": "Type 1",
+            "Pathophysiology": "Low levels of all proteins",
+            "Therapy": "Desmopressin",
+            "Procedures": "Desmopressin Responsive:Infuse 0.3 ug/kg to end 45 minutes before procedure. May repeat every 24 hours.For major procedures follow factor VIII levels with plan to keep troughs over 80%Not desmopressin responsive:Humate-P to achieve peak over 120% and troughs of 80%.Levels below 30%: 40-50 IU/kg followed by 20 IU/kg every 12 hoursLevels above 30%: 20-40 IU/kg every day"
+          },
+          {
+            "Types of Von Willebrand Disease": "Type 2",
+            "Pathophysiology": "Abnormal protein",
+            "Therapy": ""
+          },
+          {
+            "Types of Von Willebrand Disease": "Type 2A",
+            "Pathophysiology": "Abnormal protein leading to lower levels of high weight multimers",
+            "Therapy": "Desmopressin (only effective in 10%), Intermediate-Purity Factor VIII"
+          },
+          {
+            "Types of Von Willebrand Disease": "Type 2B",
+            "Pathophysiology": "Abnormal protein with increased binding to gpIIb leading to lower levels of high weight multimers",
+            "Therapy": "Intermediate-Purity Factor VIII"
+          },
+          {
+            "Types of Von Willebrand Disease": "Type 2N",
+            "Pathophysiology": "Lack of Factor VIII binding site leading to low Factor VIII levels",
+            "Therapy": "Desmopressin"
+          },
+          {
+            "Types of Von Willebrand Disease": "Type 2M",
+            "Pathophysiology": "Abnormal protein but normal multimer size",
+            "Therapy": "Intermediate-Purity Factor VIII"
+          },
+          {
+            "Types of Von Willebrand Disease": "Type 3",
+            "Pathophysiology": "No von Willebrand or Factor VIII present",
+            "Therapy": "Intermediate-Purity Factor VIII"
+          },
+          {
+            "Types of Von Willebrand Disease": "Pseudo Von Willebrand (platelet-type)",
+            "Pathophysiology": "Abnormal gpIIb leading to lower levels of high molecular weight multimers",
+            "Therapy": "Platelets + Intermediate-Purity Factor VIII, rVIIa"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        }
+      ]
+    }
+  }
+}

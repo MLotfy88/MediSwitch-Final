@@ -1,0 +1,319 @@
+{
+  "drug_name": "Yellow_fever",
+  "url": "https://wikem.org/wiki/Yellow_fever",
+  "scraped_at": "2026-01-10T08:05:25.554222",
+  "sections": {
+    "Background": {
+      "text": "A Flavi virus transmitted by Aedes and Haemagogus mosquitos\n200,000 cases per year with 30,000 deaths mostly in Africa\nEndemic in tropical areas of sub-Sahara Africa and South America",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Stage_1:_Infection": {
+          "text": "3-4 days of:\nFever\nFaget sign\n(low pulse compared to high fever)\nMyalgias\nKnee pain\nNausea\nVomiting",
+          "tables": []
+        },
+        "Stage_2:_Remission": {
+          "text": "Either recovers or progresses to next stage in 48 hours",
+          "tables": []
+        },
+        "Stage_3:_Intoxication": {
+          "text": "15% of patients\nReturn of symptoms plus:\nHepatic dysfunction\nRenal failure\nMyocardial injury\nCNS dysfunction\nBleeding complications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Faget sign",
+          "url": "https://wikem.org/wiki/Faget_sign"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Hepatic dysfunction",
+          "url": "https://wikem.org/wiki/Hepatic_dysfunction"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Myocardial injury",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        }
+      ]
+    },
+    "Stage_1:_Infection": {
+      "text": "3-4 days of:\nFever\nFaget sign\n(low pulse compared to high fever)\nMyalgias\nKnee pain\nNausea\nVomiting",
+      "subsections": {
+        "Stage_2:_Remission": {
+          "text": "Either recovers or progresses to next stage in 48 hours",
+          "tables": []
+        },
+        "Stage_3:_Intoxication": {
+          "text": "15% of patients\nReturn of symptoms plus:\nHepatic dysfunction\nRenal failure\nMyocardial injury\nCNS dysfunction\nBleeding complications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Faget sign",
+          "url": "https://wikem.org/wiki/Faget_sign"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Hepatic dysfunction",
+          "url": "https://wikem.org/wiki/Hepatic_dysfunction"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Myocardial injury",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        }
+      ]
+    },
+    "Stage_2:_Remission": {
+      "text": "Either recovers or progresses to next stage in 48 hours",
+      "subsections": {
+        "Stage_3:_Intoxication": {
+          "text": "15% of patients\nReturn of symptoms plus:\nHepatic dysfunction\nRenal failure\nMyocardial injury\nCNS dysfunction\nBleeding complications",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatic dysfunction",
+          "url": "https://wikem.org/wiki/Hepatic_dysfunction"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Myocardial injury",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        }
+      ]
+    },
+    "Stage_3:_Intoxication": {
+      "text": "15% of patients\nReturn of symptoms plus:\nHepatic dysfunction\nRenal failure\nMyocardial injury\nCNS dysfunction\nBleeding complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatic dysfunction",
+          "url": "https://wikem.org/wiki/Hepatic_dysfunction"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Myocardial injury",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Influenza\nAcute Hepatitis",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Acute Hepatitis",
+          "url": "https://wikem.org/wiki/Acute_Hepatitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nChem\nLFTs\nCoags\nViral PCR\nELISA for IgM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Symptomatic\nVaccination in endemic areas",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Lupi O. Mosquito-Borne Hemorrhagic Fevers. Dermatologic Clinics, 2011-01-01, Volume 29, Issue 1, Pages 33-38\nWHO Yellow fever:\nhttp://www.who.int/mediacentre/factsheets/fs100/en/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

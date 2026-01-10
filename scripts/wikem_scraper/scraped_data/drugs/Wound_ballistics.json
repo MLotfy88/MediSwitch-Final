@@ -1,0 +1,108 @@
+{
+  "drug_name": "Wound_ballistics",
+  "url": "https://wikem.org/wiki/Wound_ballistics",
+  "scraped_at": "2026-01-10T08:05:25.995405",
+  "sections": {
+    "Background": {
+      "text": "Wound ballistics is the study of projectile penetration of tissues\nWounding potential of projectiles is complex matter as it involves interplay of velocity, projectile type/composition, and tissue characteristics\nKnowing the type of weapon and ammunition helps in gaining a better understanding of the potential injuries and complications but should always be concerned with individual wound rather than potential of the weapon/projectile\nA clinically relevant understanding of wound ballistics helps with a targeted physical assessment and appropriate treatment options",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanisms_of_Projectile_Wounding": {
+      "text": "Wounding effect of a projectile is produced by transfer of Kinetic Energy (KE) from the projectile to the tissues\nProjectile does not exit the body then all its kinetic energy has been transferred to the tissues\nProjectile that exits the body then only some of its KE has been transferred to the tissues\nWounding effect is the result of the amount and location of crushed and stretched tissue from this KE transfer\nThe greater the KE the greater the wounding potential",
+      "subsections": {
+        "Damage_produced_in_three_ways": {
+          "text": "Laceration and crushing - Disruption and destruction of tissue caused by the projectile as it crushes and punches a hole in the tissue. The result is localized area of cell necrosis.\nCavitation\nPermanent cavity - The hole left by the passage of the projectile is proportional to the size of the projectile. This is the volume of space once occupied by tissue which has been destroyed.\nCavity is a function of the penetration and frontal area of the projectile which makes it.\nCross-sectional area of the projectile track is comparable to the presenting area of the projectile and its dimensions are roughly the same for all soft tissues\nSize of the permanent cavity can be increased by yaw (deviation of bullet from straight path within tissue). As more tissue is in contact with projectile there is more tissue damage\nSize of permanent cavity can be increased by projectile deformation and fragmentation as well.\nDeformation is when a projectile changes it shape upon contact with tissue which increases the diameter of the projectile. The flattening or deformation can cause 4 to 6 times greater tissue contact thus more tissue damage. Example would be hollow point bullets.\nFragmentation is when a projectile breaks apart within tissue creating many smaller projectiles. Fragmentation is more devastating than deformation.\nTemporary cavity - The transient expansion of the permanent cavity by stretching due to the transfer of KE during the projectiles passage. The walls of the permanent cavity are temporarily stretched radially outward.\nTemporary cavity may be up to thirty times the diameter of the projectile with a lifetime of 5 to 10 milliseconds with pressures of up to 100 to 200 atmospheres\nDamage is due to stretching of the tissue\nDamage is analogous to localized area of blunt trauma surrounding the permanent cavity\nIf the pressure of the temporary cavity exceeds the elastic limit of tissue then the organ may be disrupted \"burst\" or \"fractured\" and a large permanent cavity may be seen. Dense organs which are relatively inelastic are most susceptible to this affect (i.e. liver) whereas organs with low density and high elasticity are relative protected (i.e. lung).\nShock wave - acoustic wave which travels through tissue preceding the projectiles passage. Magnitude may be 100 atmospheres but duration is 2 microseconds. No detectable harmful effect on tissues.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Damage_produced_in_three_ways": {
+      "text": "Laceration and crushing - Disruption and destruction of tissue caused by the projectile as it crushes and punches a hole in the tissue. The result is localized area of cell necrosis.\nCavitation\nPermanent cavity - The hole left by the passage of the projectile is proportional to the size of the projectile. This is the volume of space once occupied by tissue which has been destroyed.\nCavity is a function of the penetration and frontal area of the projectile which makes it.\nCross-sectional area of the projectile track is comparable to the presenting area of the projectile and its dimensions are roughly the same for all soft tissues\nSize of the permanent cavity can be increased by yaw (deviation of bullet from straight path within tissue). As more tissue is in contact with projectile there is more tissue damage\nSize of permanent cavity can be increased by projectile deformation and fragmentation as well.\nDeformation is when a projectile changes it shape upon contact with tissue which increases the diameter of the projectile. The flattening or deformation can cause 4 to 6 times greater tissue contact thus more tissue damage. Example would be hollow point bullets.\nFragmentation is when a projectile breaks apart within tissue creating many smaller projectiles. Fragmentation is more devastating than deformation.\nTemporary cavity - The transient expansion of the permanent cavity by stretching due to the transfer of KE during the projectiles passage. The walls of the permanent cavity are temporarily stretched radially outward.\nTemporary cavity may be up to thirty times the diameter of the projectile with a lifetime of 5 to 10 milliseconds with pressures of up to 100 to 200 atmospheres\nDamage is due to stretching of the tissue\nDamage is analogous to localized area of blunt trauma surrounding the permanent cavity\nIf the pressure of the temporary cavity exceeds the elastic limit of tissue then the organ may be disrupted \"burst\" or \"fractured\" and a large permanent cavity may be seen. Dense organs which are relatively inelastic are most susceptible to this affect (i.e. liver) whereas organs with low density and high elasticity are relative protected (i.e. lung).\nShock wave - acoustic wave which travels through tissue preceding the projectiles passage. Magnitude may be 100 atmospheres but duration is 2 microseconds. No detectable harmful effect on tissues.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Wounding_Power": {
+      "text": "",
+      "subsections": {
+        "Projectiles_mass_and_velocity": {
+          "text": "Velocity dominant determinant of kinetic energy  recall KE  = 1/2( m * v^2)\nVelocity almost to exclusion of mass is operative factor\nDouble mass only doubles the KE\nDouble velocity quadruples the KE\nRange affects the velocity at which the projectile strikes body tissue",
+          "tables": []
+        },
+        "Projectiles_physical_specifications": {
+          "text": "Caliber and shape of projectile influence effect in tissues and the loss of KE. Larger the caliber the greater the loss of KE.\nStructure of the projectile  influences  deformation and break-up in tissue. Projectiles which fragment result in greater loss of KE. Projectiles which deform in tissue cause greater loss of KE. High velocity projectiles more likely to break up than low velocity projectiles.",
+          "tables": []
+        },
+        "Characteristics_of_tissue_that_has_been_penetrated": {
+          "text": "Resistance or vulnerability to stretch damage depends mostly on tissue elasticity\nElastic tissue - skeletal muscle, skin, blood vessels may be pushed aside but then rebound\nInelastic tissue - bone or liver may fracture or burst\nWound track - the longer the wound track the greater the loss of stability and the greater the deformation of the projectile with resultant increased loss of KE\nThe denser the tissue through which the projectile passes, the greater the retardation of the projectile and thus the greater the loss of KE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Projectiles_mass_and_velocity": {
+      "text": "Velocity dominant determinant of kinetic energy  recall KE  = 1/2( m * v^2)\nVelocity almost to exclusion of mass is operative factor\nDouble mass only doubles the KE\nDouble velocity quadruples the KE\nRange affects the velocity at which the projectile strikes body tissue",
+      "subsections": {
+        "Projectiles_physical_specifications": {
+          "text": "Caliber and shape of projectile influence effect in tissues and the loss of KE. Larger the caliber the greater the loss of KE.\nStructure of the projectile  influences  deformation and break-up in tissue. Projectiles which fragment result in greater loss of KE. Projectiles which deform in tissue cause greater loss of KE. High velocity projectiles more likely to break up than low velocity projectiles.",
+          "tables": []
+        },
+        "Characteristics_of_tissue_that_has_been_penetrated": {
+          "text": "Resistance or vulnerability to stretch damage depends mostly on tissue elasticity\nElastic tissue - skeletal muscle, skin, blood vessels may be pushed aside but then rebound\nInelastic tissue - bone or liver may fracture or burst\nWound track - the longer the wound track the greater the loss of stability and the greater the deformation of the projectile with resultant increased loss of KE\nThe denser the tissue through which the projectile passes, the greater the retardation of the projectile and thus the greater the loss of KE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Projectiles_physical_specifications": {
+      "text": "Caliber and shape of projectile influence effect in tissues and the loss of KE. Larger the caliber the greater the loss of KE.\nStructure of the projectile  influences  deformation and break-up in tissue. Projectiles which fragment result in greater loss of KE. Projectiles which deform in tissue cause greater loss of KE. High velocity projectiles more likely to break up than low velocity projectiles.",
+      "subsections": {
+        "Characteristics_of_tissue_that_has_been_penetrated": {
+          "text": "Resistance or vulnerability to stretch damage depends mostly on tissue elasticity\nElastic tissue - skeletal muscle, skin, blood vessels may be pushed aside but then rebound\nInelastic tissue - bone or liver may fracture or burst\nWound track - the longer the wound track the greater the loss of stability and the greater the deformation of the projectile with resultant increased loss of KE\nThe denser the tissue through which the projectile passes, the greater the retardation of the projectile and thus the greater the loss of KE",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Characteristics_of_tissue_that_has_been_penetrated": {
+      "text": "Resistance or vulnerability to stretch damage depends mostly on tissue elasticity\nElastic tissue - skeletal muscle, skin, blood vessels may be pushed aside but then rebound\nInelastic tissue - bone or liver may fracture or burst\nWound track - the longer the wound track the greater the loss of stability and the greater the deformation of the projectile with resultant increased loss of KE\nThe denser the tissue through which the projectile passes, the greater the retardation of the projectile and thus the greater the loss of KE",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Misconceptions_About_Wound_Ballistics": {
+      "text": "Exit wounds are larger than entrance wounds -- unreliable and seldom impacts care\nAll projectile tracks must be fully explored -- elastic soft tissue generally heals uneventfully and does not require excision provided the blood supply remains intact. Temporary cavity effects are analogous to blunt trauma.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Triage_and_Treatment_Decisions": {
+      "text": "Treat the wound not the weapon/projectile\nTreatment decisions based on type of wound, location, and amount of tissue disruption\nDocument wounds completely avoiding temptation to label as \"entrance\" or \"exit\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Gun shot wounds\nBlast injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gun shot wounds",
+          "url": "https://wikem.org/wiki/Gun_shot_wounds"
+        },
+        {
+          "text": "Blast injury",
+          "url": "https://wikem.org/wiki/Blast_injury"
+        }
+      ]
+    }
+  }
+}

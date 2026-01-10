@@ -1,0 +1,107 @@
+{
+  "drug_name": "Whole_bowel_irrigation",
+  "url": "https://wikem.org/wiki/Whole_bowel_irrigation",
+  "scraped_at": "2026-01-10T08:05:22.450824",
+  "sections": {
+    "Indications": {
+      "text": "LIMPS\n=\nL\nithium,\nI\nron,\nM\netals,\nP\nackers/stuffer,\nS\nustained release drugs (especially beta-blockers, calcium channel blockers)\nLithium overdose\n(extended-release tablets)\nIron\nHeavy metals\nToxic ingestions of sustained- or delayed-release formulations\nDrugs carried by body packers\nAdditional considerations:\nAgents that cause\nbezoar\nor concretion formation\nPaint chips containing\nlead\nBe mindful that the addition of PEG to activated charcoal significantly decreases activated charcoal's adsorptive capacity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lithium overdose",
+          "url": "https://wikem.org/wiki/Lithium_overdose"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "lead",
+          "url": "https://wikem.org/wiki/Lead"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Preceding\ndiarrhea\nIngestion of substances expected to result in significant diarrhea (except\nheavy metals\n)\nBowel obstruction\n(as evidenced by lack of bowel sounds)\navoid chilled solutions in neonates given risk for hypothermia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Give polyethylene glycol via NGT or PO (if tolerates) until rectal effluent is clear\nAdult: 1.5-2 L/hr\nPeds 6-12yr: 1 L/hr\nPeds <6yr: 0.5 L/hr\nPeds alt: 20-40 mL/kg/hr in young children\nGive\nondansetron\nor\nmetoclopramide\nas needed for\nnausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Bloating\nCramping\nRectal irritation (from frequent bowel movements)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)\nGastric Lavage\nActivated charcoal\nMultidose Activated Charcoal (MDAC)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Gastric Lavage",
+          "url": "https://wikem.org/wiki/Gastric_Lavage"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Multidose Activated Charcoal (MDAC)",
+          "url": "https://wikem.org/wiki/Multidose_Activated_Charcoal_(MDAC)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - GI Decon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

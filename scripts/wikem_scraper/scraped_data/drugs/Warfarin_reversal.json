@@ -1,0 +1,336 @@
+{
+  "drug_name": "Warfarin_reversal",
+  "url": "https://wikem.org/wiki/Warfarin_reversal",
+  "scraped_at": "2026-01-10T08:05:19.357557",
+  "sections": {
+    "Background": {
+      "text": "For supratheraputic INR on warfarin\nIntracranial hemorrhage is significantly increased with an INR > 4.0\n[1]",
+      "subsections": {
+        "Target_INR": {
+          "text": "Vascular thrombosis (DVT, PE): 2.0-3.0\nMost mechanical heart valves: 3.0-4.5\nBileaflet mechanical aortic heart valves: 2.5-3.5",
+          "tables": []
+        },
+        "Risk_Factors_for_INR_>_6.0": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Malignancy",
+                "Odds Ratio": "16.4"
+              },
+              {
+                "Risk Factor": "Tylenol Intake > 9100 mg/week",
+                "Odds Ratio": "10"
+              },
+              {
+                "Risk Factor": "New Medication",
+                "Odds Ratio": "8.5"
+              },
+              {
+                "Risk Factor": "Increased Warfarin Intake",
+                "Odds Ratio": "8.1"
+              },
+              {
+                "Risk Factor": "Tylenol Intake 4550 mg - 9099 mg/week",
+                "Odds Ratio": "6.9"
+              },
+              {
+                "Risk Factor": "Decrease Vitamin K intake",
+                "Odds Ratio": "3.6"
+              },
+              {
+                "Risk Factor": "Acute Diarrheal Illness",
+                "Odds Ratio": "3.5"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Target_INR": {
+      "text": "Vascular thrombosis (DVT, PE): 2.0-3.0\nMost mechanical heart valves: 3.0-4.5\nBileaflet mechanical aortic heart valves: 2.5-3.5",
+      "subsections": {
+        "Risk_Factors_for_INR_>_6.0": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Malignancy",
+                "Odds Ratio": "16.4"
+              },
+              {
+                "Risk Factor": "Tylenol Intake > 9100 mg/week",
+                "Odds Ratio": "10"
+              },
+              {
+                "Risk Factor": "New Medication",
+                "Odds Ratio": "8.5"
+              },
+              {
+                "Risk Factor": "Increased Warfarin Intake",
+                "Odds Ratio": "8.1"
+              },
+              {
+                "Risk Factor": "Tylenol Intake 4550 mg - 9099 mg/week",
+                "Odds Ratio": "6.9"
+              },
+              {
+                "Risk Factor": "Decrease Vitamin K intake",
+                "Odds Ratio": "3.6"
+              },
+              {
+                "Risk Factor": "Acute Diarrheal Illness",
+                "Odds Ratio": "3.5"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors_for_INR_>_6.0": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Risk Factor": "Malignancy",
+            "Odds Ratio": "16.4"
+          },
+          {
+            "Risk Factor": "Tylenol Intake > 9100 mg/week",
+            "Odds Ratio": "10"
+          },
+          {
+            "Risk Factor": "New Medication",
+            "Odds Ratio": "8.5"
+          },
+          {
+            "Risk Factor": "Increased Warfarin Intake",
+            "Odds Ratio": "8.1"
+          },
+          {
+            "Risk Factor": "Tylenol Intake 4550 mg - 9099 mg/week",
+            "Odds Ratio": "6.9"
+          },
+          {
+            "Risk Factor": "Decrease Vitamin K intake",
+            "Odds Ratio": "3.6"
+          },
+          {
+            "Risk Factor": "Acute Diarrheal Illness",
+            "Odds Ratio": "3.5"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Treatment_based_on_INR": {
+      "text": "",
+      "subsections": {
+        "INR_4.5-10_No_Bleeding": {
+          "text": "Hold Warfarin\nResume Warfarin at lower dose once INR therapeutic\nNot recommended to give Vitamin K",
+          "tables": []
+        },
+        "INR_>10_No_Bleeding": {
+          "text": "Hold Warfarin\nVitamin K\n2.5mg oral",
+          "tables": []
+        },
+        "Major_Bleeding": {
+          "text": "Stop warfarin\nGive\nVitamin K\n5-10mg IV INR will decrease over 24-48 hours (small risk of\nanaphylaxis\nwith IV\nVitamin K\n)\nGive 4 Factor\nprothrombin complex concentrate\n(PCC)\nIf no PCC, then give 15 ml/kg\nfresh frozen plasma\n(no benefit to combining\nPCC\nand\nFFP\n)\nConsult cardiology in conjunction with hematology if patient has prosthetic valve",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "prothrombin complex concentrate",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrate"
+        },
+        {
+          "text": "fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "INR_4.5-10_No_Bleeding": {
+      "text": "Hold Warfarin\nResume Warfarin at lower dose once INR therapeutic\nNot recommended to give Vitamin K",
+      "subsections": {
+        "INR_>10_No_Bleeding": {
+          "text": "Hold Warfarin\nVitamin K\n2.5mg oral",
+          "tables": []
+        },
+        "Major_Bleeding": {
+          "text": "Stop warfarin\nGive\nVitamin K\n5-10mg IV INR will decrease over 24-48 hours (small risk of\nanaphylaxis\nwith IV\nVitamin K\n)\nGive 4 Factor\nprothrombin complex concentrate\n(PCC)\nIf no PCC, then give 15 ml/kg\nfresh frozen plasma\n(no benefit to combining\nPCC\nand\nFFP\n)\nConsult cardiology in conjunction with hematology if patient has prosthetic valve",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "prothrombin complex concentrate",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrate"
+        },
+        {
+          "text": "fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "INR_>10_No_Bleeding": {
+      "text": "Hold Warfarin\nVitamin K\n2.5mg oral",
+      "subsections": {
+        "Major_Bleeding": {
+          "text": "Stop warfarin\nGive\nVitamin K\n5-10mg IV INR will decrease over 24-48 hours (small risk of\nanaphylaxis\nwith IV\nVitamin K\n)\nGive 4 Factor\nprothrombin complex concentrate\n(PCC)\nIf no PCC, then give 15 ml/kg\nfresh frozen plasma\n(no benefit to combining\nPCC\nand\nFFP\n)\nConsult cardiology in conjunction with hematology if patient has prosthetic valve",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "prothrombin complex concentrate",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrate"
+        },
+        {
+          "text": "fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "Major_Bleeding": {
+      "text": "Stop warfarin\nGive\nVitamin K\n5-10mg IV INR will decrease over 24-48 hours (small risk of\nanaphylaxis\nwith IV\nVitamin K\n)\nGive 4 Factor\nprothrombin complex concentrate\n(PCC)\nIf no PCC, then give 15 ml/kg\nfresh frozen plasma\n(no benefit to combining\nPCC\nand\nFFP\n)\nConsult cardiology in conjunction with hematology if patient has prosthetic valve",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "prothrombin complex concentrate",
+          "url": "https://wikem.org/wiki/Prothrombin_complex_concentrate"
+        },
+        {
+          "text": "fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nWarfarin (Coumadin)\nAnticoagulant reversal for life-threatening bleeds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        }
+      ]
+    },
+    "Video": {
+      "text": "{{#widget:YouTube|id=Qmgq0BvvZ7U}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

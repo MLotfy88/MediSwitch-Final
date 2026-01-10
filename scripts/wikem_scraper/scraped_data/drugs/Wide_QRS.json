@@ -1,0 +1,85 @@
+{
+  "drug_name": "Wide_QRS",
+  "url": "https://wikem.org/wiki/Wide_QRS",
+  "scraped_at": "2026-01-10T08:05:25.337930",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "Ventricular rhythm\nMonomorphic\nVentricular Tachycardia\nPolymorphic\nVentricular Tachycardia\nVentricular ectopy\nMI\nLBBB\nRBBB\nLVH\nHyperkalemia\nMetabolic acidosis\nSVT\nwith aberrancy\nSVT\nwith accessory pathway\nAtrial Fibrillation\nwith accessory pathway\nDrugs (eg, TCAs, digoxin, propanolol, antiarrhythmics)\nPaced rhythm\nHypothermia\nMyocarditis\nWPW\n(delta wave, antidromic)\nArrhythmogenic right ventricular dysplasia\n(epsilon wave)\nIf above negative, Nonspecific Intraventricular Conduction Delay",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventricular Tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_Tachycardia"
+        },
+        {
+          "text": "Ventricular Tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_Tachycardia"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "LBBB",
+          "url": "https://wikem.org/wiki/LBBB"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "LVH",
+          "url": "https://wikem.org/wiki/LVH"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Atrial Fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Arrhythmogenic right ventricular dysplasia",
+          "url": "https://wikem.org/wiki/Arrhythmogenic_right_ventricular_dysplasia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    }
+  }
+}

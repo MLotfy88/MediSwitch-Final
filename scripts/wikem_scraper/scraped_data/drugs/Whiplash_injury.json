@@ -1,0 +1,166 @@
+{
+  "drug_name": "Whiplash_injury",
+  "url": "https://wikem.org/wiki/Whiplash_injury",
+  "scraped_at": "2026-01-10T08:05:23.775621",
+  "sections": {
+    "Background": {
+      "text": "Also known as Acute Cervical Strain\nSudden acceleration-deceleration trauma that occurs when car is rear-ended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain\n, stiffness, paracervical muscle tenderness\nIsolated cervical strain should have\nnormal\nneuro exam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "neuro exam",
+          "url": "https://wikem.org/wiki/Neuro_exam"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis by history and physical exam\nUse\nC-Spine (NEXUS)\ncriteria to determine whether imaging is required\nConsider brain, cord, carotid/vertebral artery dissection if neuro findings are present",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "C-Spine (NEXUS)",
+          "url": "https://wikem.org/wiki/C-Spine_(NEXUS)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Symptomatic treatment e.g.\nibuprofen\nStudies have shown worsened range of motion and pain scores at 1 and 6 months after whiplash injury with placement of non-rigid (soft) cervical collars\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally outpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neck pain\nBlunt neck trauma\nCervical spine clearance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        }
+      ]
+    }
+  }
+}

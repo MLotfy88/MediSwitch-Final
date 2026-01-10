@@ -1,0 +1,578 @@
+{
+  "drug_name": "Volvulus",
+  "url": "https://wikem.org/wiki/Volvulus",
+  "scraped_at": "2026-01-10T08:05:19.298077",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Backgound": {
+      "text": "Twisting of loop of bowel causing\nbowel obstruction\nand (if severe) ischemia, gangrene, perforation\nGenerally affects adults aged 60-70\nCan cause severe third-spacing,\nelectrolyte abnormality\n, and abdominal distention\nCommon sites include cecum and sigmoid\nCecal volvulus - mobile segment of cecum causing volvulus and cecal folding\nSigmoid volvulus - redundant sigmoid attached to narrow mesentery twists on itself causing obstruction and further dilation",
+      "subsections": {
+        "Risk_Factors[1]": {
+          "text": "Sigmoid volvulus\nMore common in elderly as opposed to cecal volvulus\nHigh fiber diet\nChronic\nconstipation\nChagas disease\nPatients of long term care facilities/psychiatric institutions\nCecal volvulus\nMost between 30-60 years of age\nPrior abdominal surgery\nPelvic mass, 3rd trimester\npregnancy\nCecal mobility cause by congenital abnormality with cecal mesentery failing to fuse with posterior abdominal wall\nGastric volvulus\nMost common between 40-50 years of age\nParaesophageal hernias",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Sigmoid/Cecal_volvulus": {
+          "text": "Triad:\nAbdominal pain\n, distention,\nconstipation\nVomiting\nonly occurs late as obstruction is rather distal. If so, may be feculent in nature and indicates long-standing obstruction.\nVary from subtle to dramatic presentations\nPhysical Exam:\nDistended, tympanitic abdomen (mostly upper abdomen and unilateral)\nSevere abdominal tenderness,\nperitonitis\n,\nfever\n,\nshock\nhighly suggestive for gangrenous bowel",
+          "tables": []
+        },
+        "Gastric_volvulus_(Borchardt's_triad)": {
+          "text": "Abdominal\nand/or\nchest pain\nRetching,\nvomiting\nInability to pass NGT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sigmoid/Cecal_volvulus": {
+      "text": "Triad:\nAbdominal pain\n, distention,\nconstipation\nVomiting\nonly occurs late as obstruction is rather distal. If so, may be feculent in nature and indicates long-standing obstruction.\nVary from subtle to dramatic presentations\nPhysical Exam:\nDistended, tympanitic abdomen (mostly upper abdomen and unilateral)\nSevere abdominal tenderness,\nperitonitis\n,\nfever\n,\nshock\nhighly suggestive for gangrenous bowel",
+      "subsections": {
+        "Gastric_volvulus_(Borchardt's_triad)": {
+          "text": "Abdominal\nand/or\nchest pain\nRetching,\nvomiting\nInability to pass NGT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        },
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Constipation": {
+      "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC, chem 7\nLFTs\n, lipase, PT/PTT\nLactate\nUA\n, Upreg (if female)\nCT abdomen/pelvis",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Gastric volvulus\nUpright\nCXR\nand\nabdominal Xray\nIntrathoracic, upside-down stomach\nDouble air fluid level in stomach\nCollapsed small bowel\nCT\nGastric herniation around points of torsion\nIschemia seen a lack of contrast enhancement of gastric wall\nCecal Volvulus\nAbdominal Series X-rays\nNot definitive in many cases\nDilated cecum with air fluid level\nDistended small bowel\nDistal colon with paucity of gas\n\"Coffee bean sign\"-Large oval gas shadow with line down middle in middle of abdomen\nFree air on upright chest/lateral decubitus if perforation\nContrast enema\nHelpful to differentiate between sigmoid/cecal volvulus\nUltrasound\nNot particularly helpful\nCT\nMesocolon \"whirl sign\"- twisted mesentery\nMany only definitively diagnosed at surgery\nSigmoid Volvulus\nAbdominal Series X-rays\nMay not be diagnostic\nGrossly distended loop of colon (no haustral markings) either on R/L side.\nCoffee-bean sign\n\"Bent inner tube\" sign\nFree air on upright chest/lateral decubitus if perforation\nContrast enema\nBird's beak sign-contrast fills colon up to point of torsion\nSigmoidoscopy (both diagnostic and therapeutic)\nCT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC, chem 7\nLFTs\n, lipase, PT/PTT\nLactate\nUA\n, Upreg (if female)\nCT abdomen/pelvis",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Gastric volvulus\nUpright\nCXR\nand\nabdominal Xray\nIntrathoracic, upside-down stomach\nDouble air fluid level in stomach\nCollapsed small bowel\nCT\nGastric herniation around points of torsion\nIschemia seen a lack of contrast enhancement of gastric wall\nCecal Volvulus\nAbdominal Series X-rays\nNot definitive in many cases\nDilated cecum with air fluid level\nDistended small bowel\nDistal colon with paucity of gas\n\"Coffee bean sign\"-Large oval gas shadow with line down middle in middle of abdomen\nFree air on upright chest/lateral decubitus if perforation\nContrast enema\nHelpful to differentiate between sigmoid/cecal volvulus\nUltrasound\nNot particularly helpful\nCT\nMesocolon \"whirl sign\"- twisted mesentery\nMany only definitively diagnosed at surgery\nSigmoid Volvulus\nAbdominal Series X-rays\nMay not be diagnostic\nGrossly distended loop of colon (no haustral markings) either on R/L side.\nCoffee-bean sign\n\"Bent inner tube\" sign\nFree air on upright chest/lateral decubitus if perforation\nContrast enema\nBird's beak sign-contrast fills colon up to point of torsion\nSigmoidoscopy (both diagnostic and therapeutic)\nCT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Gastric volvulus\nUpright\nCXR\nand\nabdominal Xray\nIntrathoracic, upside-down stomach\nDouble air fluid level in stomach\nCollapsed small bowel\nCT\nGastric herniation around points of torsion\nIschemia seen a lack of contrast enhancement of gastric wall\nCecal Volvulus\nAbdominal Series X-rays\nNot definitive in many cases\nDilated cecum with air fluid level\nDistended small bowel\nDistal colon with paucity of gas\n\"Coffee bean sign\"-Large oval gas shadow with line down middle in middle of abdomen\nFree air on upright chest/lateral decubitus if perforation\nContrast enema\nHelpful to differentiate between sigmoid/cecal volvulus\nUltrasound\nNot particularly helpful\nCT\nMesocolon \"whirl sign\"- twisted mesentery\nMany only definitively diagnosed at surgery\nSigmoid Volvulus\nAbdominal Series X-rays\nMay not be diagnostic\nGrossly distended loop of colon (no haustral markings) either on R/L side.\nCoffee-bean sign\n\"Bent inner tube\" sign\nFree air on upright chest/lateral decubitus if perforation\nContrast enema\nBird's beak sign-contrast fills colon up to point of torsion\nSigmoidoscopy (both diagnostic and therapeutic)\nCT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Fluid resuscitation\nAnalgesia\nAntibiotics\nwith bowel coverage if perforation or gangrene suspected (e.g.\nceftriaxone\nplus\nflagyl\n)\nEmergent surgery consult\nGastric volvulus\nEndoscopic reduction\nRecurrence possible, which would mandate surgical repair\nCecal volvulus always requires surgical repair with resection (preferred) or cecopexy\nEndoscopy relatively contraindicated in signs of ischemia such as significantly elevated lactate\nSigmoid volvulus may be managed with endoscopic decompression/detorsion (if no signs of gangrenous bowel/perforation)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Volvulus (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

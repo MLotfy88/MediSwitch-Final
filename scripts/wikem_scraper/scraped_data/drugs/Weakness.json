@@ -1,0 +1,1047 @@
+{
+  "drug_name": "Weakness",
+  "url": "https://wikem.org/wiki/Weakness",
+  "scraped_at": "2026-01-10T08:05:16.117364",
+  "sections": {
+    "Background": {
+      "text": "Determine if patient has actual neuromuscular weakness (suggesting CNS dysfunction) or non-neuromuscular weakness.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "True motor weakness (neuromuscular weakness)? Bilateral or unilateral (distribution of weakness)?\nBilateral weakness:\nSymmetric ascending paralysis?\nGuillain-Barre Syndrome\nWeakness involving both central and peripheral nervous system? Inflammatory/Autoimmune or toxic/metabolic\nDiscrete sensory level and/or bladder dysfunction?\nSpinal Cord Lesion\nInvolvement of proximal > distal musculature? Myopathy, Polymyalgia Rheumatica\nInvolvement of distal > proximal musculature? Neuropathy\nUnilateral weakness:\nCVA\n,\nTIA\nIf non-neuromuscular weakness\nthen BROAD differential, obtain:\nECG\n, CBC, Chem10,\nLFTs\n, blood cultures,\nUA\n/urine culture, drug levels,\nCXR\n, Consider\nHead CT\n(\nfocal deficit\n,\naltered\n, history of cancer,\nanticoagulation\nwith minor trauma)\nOnset of weakness sudden or gradual?\nSudden suggests vaso-occlusive etiology\nCVA\n/\nTIA\nGradual onset likely non-vascular\nSignificant event surrounding onset of weakness?\nSeizure\nprior to weakness? Todd’s paralysis\nMigraine headache? Complicated\nmigraine\nSudden onset of severe headache?\nSAH\nTrauma? Epidural or\nSubdural Hematoma\nSevere migratory neck or chest pain?\nArterial dissection syndromes\nTemporal pattern to weakness? Fluctuating or fixed weakness?\nWeakness with repetitive motions? Neuromuscular junction pathology like\nMyasthenia Gravis\nAssociated symptoms?\nHeadache\n:\nSAH\n, epidural/\nSDH\n, complicated migraines (young females), not usually stroke/TIA (unless high intracranial pressure)\nVision changes\n: Posterior circulation\nstroke\n,\nMyasthenia Gravis\nShortness of breath\n: cardiovascular etiology\nChest pain\nor\nneck pain\n: Acute\ncarotid/vertebral\n/\naortic dissection\n,\nAMI\nAbdominal\nor\nback pain\n:\nwith alteration of bowel habits?\nBotulism\n, organophosphate poisoning, toxins,\nGuillain-Barre Syndrome\n,\nElectrolyte Imbalance\n.\nwith lower extremity weakness?\nAAA\nwith spinal cord infarction\nBack pain\nwith unilateral weakness? Herniated disk with nerve impingement\nBilateral weakness with sensory level s/p trauma?\nSCI\n,\nCauda Equina Syndrome\nNausea/vomiting\n: sign of\n↑ ICP\n, can lead to\nelectrolyte imbalances\nRash:\nDermatomyositis",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Focus on clarifying if patient has true loss of strength and determining distribution of deficits. Check for trauma, carotid bruits, thyroid enlargement, irregular rhythm, unequal pulses, rashes or ticks.",
+          "tables": [
+            [
+              {
+                "Location": "Upper motor neuron",
+                "Weakness": "",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Brain",
+                "Weakness": "Variable",
+                "Bowel/Bladder": "",
+                "Reflexes": "Increased",
+                "Sensory": "Diminished",
+                "Pain": "No"
+              },
+              {
+                "Location": "Brainstem",
+                "Weakness": "\"crossed\" findings - ipsilateral cranial nerve weakness and contralateral hemiparesis",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Cord",
+                "Weakness": "Fixed level",
+                "Bowel/Bladder": "Yes",
+                "Reflexes": "Increased",
+                "Sensory": "Diminished",
+                "Pain": "+/-"
+              },
+              {
+                "Location": "Lower motor neuron",
+                "Weakness": "",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Nerve",
+                "Weakness": "Distal > proximal and ascends",
+                "Bowel/Bladder": "No",
+                "Reflexes": "Diminished",
+                "Sensory": "Nl/parethesias",
+                "Pain": "No"
+              },
+              {
+                "Location": "End-plate/muscle",
+                "Weakness": "",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Motor end plate",
+                "Weakness": "Ocular, bulbar and descends, fatigable",
+                "Bowel/Bladder": "No",
+                "Reflexes": "Nl/diminished",
+                "Sensory": "Nl/parethesias",
+                "Pain": "No"
+              },
+              {
+                "Location": "Muscle",
+                "Weakness": "Proximal > distal",
+                "Bowel/Bladder": "No",
+                "Reflexes": "Nl/diminished",
+                "Sensory": "Normal",
+                "Pain": "+/-"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain-Barre Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_Syndrome"
+        },
+        {
+          "text": "Spinal Cord Lesion",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Lesion"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "altered",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Subdural Hematoma",
+          "url": "https://wikem.org/wiki/Subdural_Hematoma"
+        },
+        {
+          "text": "Arterial dissection syndromes",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "SDH",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "Vision changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "carotid/vertebral",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "Abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Guillain-Barre Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_Syndrome"
+        },
+        {
+          "text": "Electrolyte Imbalance",
+          "url": "https://wikem.org/wiki/Electrolyte_Imbalance"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "SCI",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Cauda Equina Syndrome",
+          "url": "https://wikem.org/wiki/Cauda_Equina_Syndrome"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "↑ ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "electrolyte imbalances",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalances"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        }
+      ]
+    },
+    "History": {
+      "text": "True motor weakness (neuromuscular weakness)? Bilateral or unilateral (distribution of weakness)?\nBilateral weakness:\nSymmetric ascending paralysis?\nGuillain-Barre Syndrome\nWeakness involving both central and peripheral nervous system? Inflammatory/Autoimmune or toxic/metabolic\nDiscrete sensory level and/or bladder dysfunction?\nSpinal Cord Lesion\nInvolvement of proximal > distal musculature? Myopathy, Polymyalgia Rheumatica\nInvolvement of distal > proximal musculature? Neuropathy\nUnilateral weakness:\nCVA\n,\nTIA\nIf non-neuromuscular weakness\nthen BROAD differential, obtain:\nECG\n, CBC, Chem10,\nLFTs\n, blood cultures,\nUA\n/urine culture, drug levels,\nCXR\n, Consider\nHead CT\n(\nfocal deficit\n,\naltered\n, history of cancer,\nanticoagulation\nwith minor trauma)\nOnset of weakness sudden or gradual?\nSudden suggests vaso-occlusive etiology\nCVA\n/\nTIA\nGradual onset likely non-vascular\nSignificant event surrounding onset of weakness?\nSeizure\nprior to weakness? Todd’s paralysis\nMigraine headache? Complicated\nmigraine\nSudden onset of severe headache?\nSAH\nTrauma? Epidural or\nSubdural Hematoma\nSevere migratory neck or chest pain?\nArterial dissection syndromes\nTemporal pattern to weakness? Fluctuating or fixed weakness?\nWeakness with repetitive motions? Neuromuscular junction pathology like\nMyasthenia Gravis\nAssociated symptoms?\nHeadache\n:\nSAH\n, epidural/\nSDH\n, complicated migraines (young females), not usually stroke/TIA (unless high intracranial pressure)\nVision changes\n: Posterior circulation\nstroke\n,\nMyasthenia Gravis\nShortness of breath\n: cardiovascular etiology\nChest pain\nor\nneck pain\n: Acute\ncarotid/vertebral\n/\naortic dissection\n,\nAMI\nAbdominal\nor\nback pain\n:\nwith alteration of bowel habits?\nBotulism\n, organophosphate poisoning, toxins,\nGuillain-Barre Syndrome\n,\nElectrolyte Imbalance\n.\nwith lower extremity weakness?\nAAA\nwith spinal cord infarction\nBack pain\nwith unilateral weakness? Herniated disk with nerve impingement\nBilateral weakness with sensory level s/p trauma?\nSCI\n,\nCauda Equina Syndrome\nNausea/vomiting\n: sign of\n↑ ICP\n, can lead to\nelectrolyte imbalances\nRash:\nDermatomyositis",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Focus on clarifying if patient has true loss of strength and determining distribution of deficits. Check for trauma, carotid bruits, thyroid enlargement, irregular rhythm, unequal pulses, rashes or ticks.",
+          "tables": [
+            [
+              {
+                "Location": "Upper motor neuron",
+                "Weakness": "",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Brain",
+                "Weakness": "Variable",
+                "Bowel/Bladder": "",
+                "Reflexes": "Increased",
+                "Sensory": "Diminished",
+                "Pain": "No"
+              },
+              {
+                "Location": "Brainstem",
+                "Weakness": "\"crossed\" findings - ipsilateral cranial nerve weakness and contralateral hemiparesis",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Cord",
+                "Weakness": "Fixed level",
+                "Bowel/Bladder": "Yes",
+                "Reflexes": "Increased",
+                "Sensory": "Diminished",
+                "Pain": "+/-"
+              },
+              {
+                "Location": "Lower motor neuron",
+                "Weakness": "",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Nerve",
+                "Weakness": "Distal > proximal and ascends",
+                "Bowel/Bladder": "No",
+                "Reflexes": "Diminished",
+                "Sensory": "Nl/parethesias",
+                "Pain": "No"
+              },
+              {
+                "Location": "End-plate/muscle",
+                "Weakness": "",
+                "Bowel/Bladder": "",
+                "Reflexes": "",
+                "Sensory": "",
+                "Pain": ""
+              },
+              {
+                "Location": "Motor end plate",
+                "Weakness": "Ocular, bulbar and descends, fatigable",
+                "Bowel/Bladder": "No",
+                "Reflexes": "Nl/diminished",
+                "Sensory": "Nl/parethesias",
+                "Pain": "No"
+              },
+              {
+                "Location": "Muscle",
+                "Weakness": "Proximal > distal",
+                "Bowel/Bladder": "No",
+                "Reflexes": "Nl/diminished",
+                "Sensory": "Normal",
+                "Pain": "+/-"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain-Barre Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_Syndrome"
+        },
+        {
+          "text": "Spinal Cord Lesion",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Lesion"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "altered",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Subdural Hematoma",
+          "url": "https://wikem.org/wiki/Subdural_Hematoma"
+        },
+        {
+          "text": "Arterial dissection syndromes",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "SDH",
+          "url": "https://wikem.org/wiki/SDH"
+        },
+        {
+          "text": "Vision changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "neck pain",
+          "url": "https://wikem.org/wiki/Neck_pain"
+        },
+        {
+          "text": "carotid/vertebral",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "Abdominal",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Guillain-Barre Syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_Syndrome"
+        },
+        {
+          "text": "Electrolyte Imbalance",
+          "url": "https://wikem.org/wiki/Electrolyte_Imbalance"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "SCI",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Cauda Equina Syndrome",
+          "url": "https://wikem.org/wiki/Cauda_Equina_Syndrome"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "↑ ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "electrolyte imbalances",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalances"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Focus on clarifying if patient has true loss of strength and determining distribution of deficits. Check for trauma, carotid bruits, thyroid enlargement, irregular rhythm, unequal pulses, rashes or ticks.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Location": "Upper motor neuron",
+            "Weakness": "",
+            "Bowel/Bladder": "",
+            "Reflexes": "",
+            "Sensory": "",
+            "Pain": ""
+          },
+          {
+            "Location": "Brain",
+            "Weakness": "Variable",
+            "Bowel/Bladder": "",
+            "Reflexes": "Increased",
+            "Sensory": "Diminished",
+            "Pain": "No"
+          },
+          {
+            "Location": "Brainstem",
+            "Weakness": "\"crossed\" findings - ipsilateral cranial nerve weakness and contralateral hemiparesis",
+            "Bowel/Bladder": "",
+            "Reflexes": "",
+            "Sensory": "",
+            "Pain": ""
+          },
+          {
+            "Location": "Cord",
+            "Weakness": "Fixed level",
+            "Bowel/Bladder": "Yes",
+            "Reflexes": "Increased",
+            "Sensory": "Diminished",
+            "Pain": "+/-"
+          },
+          {
+            "Location": "Lower motor neuron",
+            "Weakness": "",
+            "Bowel/Bladder": "",
+            "Reflexes": "",
+            "Sensory": "",
+            "Pain": ""
+          },
+          {
+            "Location": "Nerve",
+            "Weakness": "Distal > proximal and ascends",
+            "Bowel/Bladder": "No",
+            "Reflexes": "Diminished",
+            "Sensory": "Nl/parethesias",
+            "Pain": "No"
+          },
+          {
+            "Location": "End-plate/muscle",
+            "Weakness": "",
+            "Bowel/Bladder": "",
+            "Reflexes": "",
+            "Sensory": "",
+            "Pain": ""
+          },
+          {
+            "Location": "Motor end plate",
+            "Weakness": "Ocular, bulbar and descends, fatigable",
+            "Bowel/Bladder": "No",
+            "Reflexes": "Nl/diminished",
+            "Sensory": "Nl/parethesias",
+            "Pain": "No"
+          },
+          {
+            "Location": "Muscle",
+            "Weakness": "Proximal > distal",
+            "Bowel/Bladder": "No",
+            "Reflexes": "Nl/diminished",
+            "Sensory": "Normal",
+            "Pain": "+/-"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "On all patients:\nCBC (anemia)\nChem 10 (\nelectrolyte disturbance\n,\nhypoglycemia\n, uremia, cardiac enzymes)\nECG\n(\nIschemia\n,\nhypo\n/\nhyperkalemia\n)\nConsider:\nCK (myopathies)\nThyroid studies\nESR\nCXR\nand\nUA\n(if infectious symptoms or elderly)\nFVC (if evidence of respiratory compromise, i.e. Myasthenia, GBS)\nCT head\n(if focal findings,\naltered mental status\n, history of cancer, history of any trauma in patient on anticoagulation)\nMRI or CT with contrast (if a structural cord lesion is suspected)\nLP\n(CNS infection, GBS)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "On all patients:\nCBC (anemia)\nChem 10 (\nelectrolyte disturbance\n,\nhypoglycemia\n, uremia, cardiac enzymes)\nECG\n(\nIschemia\n,\nhypo\n/\nhyperkalemia\n)\nConsider:\nCK (myopathies)\nThyroid studies\nESR\nCXR\nand\nUA\n(if infectious symptoms or elderly)\nFVC (if evidence of respiratory compromise, i.e. Myasthenia, GBS)\nCT head\n(if focal findings,\naltered mental status\n, history of cancer, history of any trauma in patient on anticoagulation)\nMRI or CT with contrast (if a structural cord lesion is suspected)\nLP\n(CNS infection, GBS)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "hypo",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Intubation_Indications": {
+          "text": "Severe fatigue\nInability to protect airway\nRapidly increasing PaCO2\nHypoxemia\ndespite O2\nFVC <12 mL/kg\nNeg Insp Force <20 cm H2O",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Intubation_Indications": {
+      "text": "Severe fatigue\nInability to protect airway\nRapidly increasing PaCO2\nHypoxemia\ndespite O2\nFVC <12 mL/kg\nNeg Insp Force <20 cm H2O",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on process\nIf normal initial workup, make sure has no respiratory compromise",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "drug_name": "Wheal",
+  "url": "https://wikem.org/wiki/Wheal",
+  "scraped_at": "2026-01-10T08:05:20.584106",
+  "sections": {
+    "Background": {
+      "text": "In\nurticaria\n(hives), both wheals and\nangioedema\nare present. Wheals result from localized edema of upper dermis, while angioedema results from edema of lower dermal and subcutaneous tissues\n[1]\nMast cell and basophil activation involving the release of vasoactive substances\nBroad differential diagnosis of etiologies\nSometimes iatrogenic; for example, skin wheals from intradermal lidocaine infiltration, allergy skin prick test, tuberculin skin test",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Papules that are well-circumscribed but irregular, pruritic, and often with a pale center and red flare on the borders\nTransient duration, usually hours, with spontaneous self-resolution\nIf related to anaphylaxis or allergy, may also involve other systems such as respiratory, circulatory, GI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Anaphylaxis\nAcute allergic reaction\nContrast induced allergic reaction\nAcute transfusion reaction\nChronic urticaria\nDermatographism\nCold urticaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Acute allergic reaction",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Acute transfusion reaction",
+          "url": "https://wikem.org/wiki/Acute_transfusion_reaction"
+        },
+        {
+          "text": "Chronic urticaria",
+          "url": "https://wikem.org/wiki/Chronic_urticaria"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nTake a thorough history to assess for precipitating factors, including recent foods, travel, medications/treatments, insect bites/stings, autoimmune disease, viral infections, anaphylaxis history, etc\nCheck for association with overlying objects such as watches, jewelry clothing, bands, etc",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If any suspicion of anaphylaxis, treat with IM\nepinephrine\n2nd gen H1\nantihistamines\nare effective; if ineffective, consider\ncorticosteroids\nand H2 antihistamines\n[2]\nAvoid any causative agent or medications if identified, and treat the underlying illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Observe in ED for 4-6 hours until symptoms improve; utilize clinical gestalt\nIf anaphylactic picture, after observation discharge with anaphylaxis emergency plan and epipen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Angioedema\nAnaphylaxis\nAcute allergic reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Acute allergic reaction",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        }
+      ]
+    }
+  }
+}

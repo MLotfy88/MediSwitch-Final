@@ -1,0 +1,176 @@
+{
+  "drug_name": "Zenker%27s_diverticulum",
+  "url": "https://wikem.org/wiki/Zenker%27s_diverticulum",
+  "scraped_at": "2026-01-10T08:05:27.466095",
+  "sections": {
+    "Background": {
+      "text": "An out-pouching of the pharyngeal mucosa and submucosa through the cricopharyngeus muscle\nClassified as\nfalse\ndiverticulum in that it does not contain all layers of the intestinal wall, but only the mucosa and submucosa",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dysphagia\nGlobus sensation\nRegurgitation of\nundigested\nfood\nHalitosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dysphagia": {
+          "text": "Oropharyngeal dysphagia\nCVA\nParkinson's disease\nBrain stem tumors\nDegenerative disease -\nALS\n,\nMS\n, Huntington's\nPostinfectious -\npolio\n,\nsyphilis\nPeripheral neuropathy\nMyasthenia gravis\nPolymyositis\n,\ndermatomyositis\nMuscular dystrophy\nEsophageal dysphagia\nAchalasia\nDiffuse esophageal spasm\nIngested foreign body\nEsophageal web\nMalignancy, mediastinal masses\nSchatzki Ring\nScleroderma\nStrictures -\npeptic\n, radiation, chemical, medication-induced\nVascular compression\nZenker's diverticulum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Diffuse esophageal spasm",
+          "url": "https://wikem.org/wiki/Diffuse_esophageal_spasm"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Schatzki Ring",
+          "url": "https://wikem.org/wiki/Schatzki_Ring"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "peptic",
+          "url": "https://wikem.org/wiki/PUD"
+        }
+      ]
+    },
+    "Dysphagia": {
+      "text": "Oropharyngeal dysphagia\nCVA\nParkinson's disease\nBrain stem tumors\nDegenerative disease -\nALS\n,\nMS\n, Huntington's\nPostinfectious -\npolio\n,\nsyphilis\nPeripheral neuropathy\nMyasthenia gravis\nPolymyositis\n,\ndermatomyositis\nMuscular dystrophy\nEsophageal dysphagia\nAchalasia\nDiffuse esophageal spasm\nIngested foreign body\nEsophageal web\nMalignancy, mediastinal masses\nSchatzki Ring\nScleroderma\nStrictures -\npeptic\n, radiation, chemical, medication-induced\nVascular compression\nZenker's diverticulum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "polio",
+          "url": "https://wikem.org/wiki/Polio"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Diffuse esophageal spasm",
+          "url": "https://wikem.org/wiki/Diffuse_esophageal_spasm"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Schatzki Ring",
+          "url": "https://wikem.org/wiki/Schatzki_Ring"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "peptic",
+          "url": "https://wikem.org/wiki/PUD"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Barium swallow\nRule out emergent causes of symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Often not treated, but surgery considered in some cases of particularly symptomatic diverticula\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

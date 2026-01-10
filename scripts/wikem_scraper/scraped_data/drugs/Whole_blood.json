@@ -1,0 +1,64 @@
+{
+  "drug_name": "Whole_blood",
+  "url": "https://wikem.org/wiki/Whole_blood",
+  "scraped_at": "2026-01-10T08:05:22.851475",
+  "sections": {
+    "Background": {
+      "text": "Fresh Whole Blood (FWB) has been used extensively to resuscitate casualties in military conflicts since World War I.\nFWB has been shown in retrospective studies to improve early and late survival as compared to stored component therapy.\nFWB has also shown to have benefit over component therapy when used in resuscitation of bleeding patients who are anticipated to have need of massive transfusions\nFWB is reemerging as important tool used in modern military medicine although military physicians and providers often do not have extensive training in its proper use.\nFWB is not extensively used in civilian settings due to the availability of fractionated products which were developed to meet demand for a large-scale system needed to collect and distribute blood. Using fractionated products allows for prolonged storage and improved resource utilization of donated blood.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Advantages of FWB\nFWB provides the coagulation factors, buffer capacity, platelets, and oxygen carrying capacity all in one that single component therapy does not.\nFWB is more concentrated than component therapy (higher hematocrit)\nFWB does not contain the high volume of anticoagulant and additives as compared to component therapy\nFWB is more readily available in austere locations as it can often be 'stored' in walking pre-screen donors\nFWB has no loss of clotting factor or platelet activity often associated with cold storage of component blood products\nFWB has no \"storage lesion\" which causes decline in platelet function and coagulation factors, chelation of calcium by preservatives, and increased acidity common to blood products which have been fractionated and kept in storage.\nDisadvantages of FWB\nMust be ABO-type specific as it contains both RBCs and plasma\nIncreased risk of blood-borne diseases\nIncreased risk of bacterial contamination due to the field conditions\nDecreased exercise or operational performance in donors generally considered to be minimal\nIncreased risk of clerical errors (ABO typing) due to chaotic nature during which FWB may be used\nFWB is not FDA-approved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Not use for convenience or as an alternative to component therapy if said blood products are readily available\nUse in bleeding casualties who are anticipated to require massive transfusions\nUse in patients with clinically significant shock or coagulopathy when optimal component therapy is unavailable or stored component therapy is not adequately resuscitating patient with evidence of ongoing hemorrhage or continued shock\nUse when component therapy inventories are depleted or excepted to be depleted as in mass casualty situation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Decision to Use\nMade by physician or medical provider who has knowledge of the clinical situation and availability of compatible blood components\nMade in consultation with appropriate ancillary stakeholders to include blood bank officer in charge, trauma director, chief of staff of the military treatment facility if circumstances permit otherwise follow previously established policy/procedures for field use\nLimit use of FWB to indications noted above\nEnsure FWB is type-specific matched to casualty\nAnnotate decision to use FWB in medical record\nPrecautions\nNo universal donor -- risk is reduced with use of low antibody titer type O whole blood but not eliminated thus no true universal donor\nFemale casualties at or below child bearing potential should be Rh matched if possible to avoid antibody formation that may later cause harm\nBlood types on identification tags are known to be incorrect up to 10% of the time due to the fact that they are self-reported by the service member\nNon-standard equipment may lead to coagulation during transfusion process\nPlanning Factors for FWB Donation Program\nEstablish robust pre-screen donor pool if possible\nRapidly establish ABO/Rh status of donors and casualties\nAdhere to same screening, drawing, labeling, and issuing standards as for approved component products\nPerform on-site testing of potential donors using rapid screening immunoassays then retrospective testing should be performed and documented in medical chart as well",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Reference joint clinical practice guidelines for detailed FWB transfusion protocol\nAfter 24 hours destroy all room temperature-stored units\nIf refrigerated within 8 hours of collection, store up to 5 days. Note that FWB product only will have RBCs and plasma if transfused after refrigeration as platelets will be non-viable once they are cooled to 4 degrees C",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "FWB will continue to be a lifesaving addition to the military physicians and medical providers taking care of seriously injured service members on the battlefield despite not being FDA-approved therapy.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Massive transfusion\nBlood products",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        }
+      ]
+    },
+    "References": {
+      "text": "Joint Theater Trauma System Clinical Practice Guideline, Fresh Whole Blood Transfusion, October 2012.\nEmergency War Surgery\n, 2013, Fourth US Revision, Chapter 36: Emergency Whole Blood Collection.\nMakley, A, Goodman, M, Friend, L, et al.\nResuscitation with Fresh Whole Blood Ameliorates the Inflammatory Response after Hemorrhagic Shock.\nJ. Trauma\n. 2010; 68: 305-311.\nBowling, F, Pennardt, A.\nThe Use of Fresh Whole Blood Transfusions by the SOF Medic for Hemostatic Resuscitation in the Austere Environment.\nJ Spec Oper Med\n. 2010 Summer; 10(3):25-35.\nCahill, BP, Stinar, TR.\nImproving the Emergency Whole Blood Program.\nMil Med\n. 2011 Nov; 176(11):1287-91.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

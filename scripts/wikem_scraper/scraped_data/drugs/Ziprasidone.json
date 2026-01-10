@@ -1,0 +1,123 @@
+{
+  "drug_name": "Ziprasidone",
+  "url": "https://wikem.org/wiki/Ziprasidone",
+  "scraped_at": "2026-01-10T08:05:28.842178",
+  "sections": {
+    "Administration": {
+      "text": "Type: Atypical\nantipsychotic\nDosage Forms:\nRoutes of Administration: PO, IM\nCommon Trade Names: Geodon",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antipsychotic",
+          "url": "https://wikem.org/wiki/Antipsychotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Mania/psychosis: 40 to 80 mg PO BID\nAcute agitation: 10-20mg IM q2-4h, 40mg max daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Age 10-17: slowly titrate up to  target dose 20-80mg BID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nQT prolongation\n, concomitant administration of other QT prolonging medications\nDecompensated\nheart failure\n, recent\nMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Prolonged QT, torsades de pointes, syncope\nNeuroleptic malignant syndrome, tardive dyskinesia, seizure\nBone marrow depression\nDysphagia\nHyperglycemia, diabetes\nPriapism",
+          "tables": []
+        },
+        "Common": {
+          "text": "Extrapyramidal disease, dystonia, tremor, akathisia\nDizziness, asthenia, somnolence, anxiety\nNausea/vomiting, diarrhea, constipation\nWeight gain\nRash\nVisual changes\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Prolonged QT, torsades de pointes, syncope\nNeuroleptic malignant syndrome, tardive dyskinesia, seizure\nBone marrow depression\nDysphagia\nHyperglycemia, diabetes\nPriapism",
+      "subsections": {
+        "Common": {
+          "text": "Extrapyramidal disease, dystonia, tremor, akathisia\nDizziness, asthenia, somnolence, anxiety\nNausea/vomiting, diarrhea, constipation\nWeight gain\nRash\nVisual changes\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Extrapyramidal disease, dystonia, tremor, akathisia\nDizziness, asthenia, somnolence, anxiety\nNausea/vomiting, diarrhea, constipation\nWeight gain\nRash\nVisual changes\nURI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-7h\nMetabolism: Hepatic: CYP3A4, and CYP1A2\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "D2 and 5HT2 antagonist. Also strong α-1 blocker, antihistamine-1.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antipsychotics\nAntipsychotic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Antipsychotic toxicity",
+          "url": "https://wikem.org/wiki/Antipsychotic_toxicity"
+        }
+      ]
+    }
+  }
+}
