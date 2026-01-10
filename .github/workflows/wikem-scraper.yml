@@ -1,21 +1,12 @@
 name: WikEM Dosage Data Scraper
 
 on:
-  workflow_dispatch:
-    inputs:
-      categories:
-        description: 'Categories to scrape (comma-separated, or "all")'
-        required: false
-        default: 'Pharmacology,Toxicology'
-      max_pages:
-        description: 'Maximum pages to scrape (0 = unlimited)'
-        required: false
-        default: '100'
+  workflow_dispatch:  # Run on demand, but no options needed (Scrapes ALL by default)
 
 jobs:
   scrape-wikem:
     runs-on: ubuntu-latest
-    timeout-minutes: 360  # 6 hours max
+    timeout-minutes: 1440  # 24 hours max (extended for full scrape)
     
     steps:
       - name: Checkout repository
@@ -32,7 +23,7 @@ jobs:
         run: |
           pip install requests beautifulsoup4
       
-      - name: Get drug list
+      - name: Get drug list (ALL Categories)
         run: |
           python3 scripts/wikem_scraper/get_all_categories.py > scripts/wikem_scraper/drug_list.txt
           echo "📊 Total pages to scrape: $(wc -l < scripts/wikem_scraper/drug_list.txt)"
@@ -42,7 +33,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
       
-      - name: Run scraper
+      - name: Run scraper (Full)
         id: scrape
         run: |
           python3 scripts/wikem_scraper/scraper.py
@@ -58,7 +49,7 @@ jobs:
           echo "Total files scraped: $(ls scripts/wikem_scraper/scraped_data/drugs/ 2>/dev/null | wc -l)"
       
       - name: Upload scraped data as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: wikem-scraped-data-${{ github.run_number }}
