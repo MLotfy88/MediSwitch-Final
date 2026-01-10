@@ -1899,7 +1899,38 @@
     "Montelukast",
     "Moraxella_catarrhalis",
     "Morel-Lavall%C3%A9e_lesion",
-    "Morganella_sp."
+    "Morganella_sp.",
+    "Morphine",
+    "Morton%27s_neuroma",
+    "Mosquito-borne_infections",
+    "Motion_sickness",
+    "Moxifloxacin",
+    "Moyamoya",
+    "Mucormycosis",
+    "Mucositis",
+    "Multidose_activated_charcoal",
+    "Multifocal_atrial_tachycardia",
+    "Multiple_endocrine_neoplasia",
+    "Multiple_myeloma",
+    "Multiple_sclerosis",
+    "Multisystem_inflammatory_syndrome_in_children",
+    "Mumps",
+    "Mupirocin",
+    "Mural_thrombus",
+    "Murine_typhus",
+    "Mushroom_toxicity",
+    "Myalgia",
+    "Myasthenia_gravis",
+    "Mycobacterium_avium",
+    "Mycobacterium_marinum",
+    "Mycophenolate_mofetil",
+    "Mycoplasma_pneumoniae",
+    "Mycotic_aneurysm",
+    "Myelodysplastic_syndrome",
+    "Myelofibrosis",
+    "Myelophthistic_anemia",
+    "Myeloproliferative_disorders",
+    "Myiasis"
   ],
   "failed_drugs": [
     {
@@ -1913,7 +1944,7 @@
       "timestamp": "2026-01-10T05:57:49.685394"
     }
   ],
-  "last_updated": "2026-01-10T06:55:32.472212",
-  "total_scraped": 1900,
+  "last_updated": "2026-01-10T06:58:41.710232",
+  "total_scraped": 1931,
   "total_failed": 2
 }
