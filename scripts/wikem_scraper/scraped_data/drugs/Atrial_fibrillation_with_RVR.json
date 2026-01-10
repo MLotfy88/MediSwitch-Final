@@ -1,0 +1,1820 @@
+{
+  "drug_name": "Atrial_fibrillation_with_RVR",
+  "url": "https://wikem.org/wiki/Atrial_fibrillation_with_RVR",
+  "scraped_at": "2026-01-10T07:48:21.318185",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Atrial_fibrillation_categories": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Atrial Fibrillation Category": "Paroxysmal",
+                "Definition": "Terminates spontaneously or with intervention within 7 days of onset.Episodes may recur with variable frequency."
+              },
+              {
+                "Atrial Fibrillation Category": "Persistent",
+                "Definition": "Continuous sustained >7 days"
+              },
+              {
+                "Atrial Fibrillation Category": "Long-standing persistent",
+                "Definition": "Continuous >12 mo in duration."
+              },
+              {
+                "Atrial Fibrillation Category": "Permanent",
+                "Definition": "Used when the patient and clinician make a joint decision to stop further attempts to restore and/or maintain sinus rhythm.Acceptance represents a therapeutic attitude on the part of the patient and clinician rather than an inherent pathophysiological attribute.May change as symptoms, efficacy of therapeutic interventions, and patient and clinician preferences evolve."
+              },
+              {
+                "Atrial Fibrillation Category": "Nonvalvular",
+                "Definition": "In the absence of rheumatic mitral stenosis, a mechanical or bioprosthetic heart valve, or mitral valve repair."
+              },
+              {
+                "Atrial Fibrillation Category": "With Rapid Ventricular Response (RVR)",
+                "Definition": "With persistent ventricular heart rate >100 beats per minute"
+              }
+            ]
+          ]
+        },
+        "Causes_of_atrial_fibrillation": {
+          "text": "Cardiac (atrial enlargement)\nHypertension\nIschemic heart disease\nRheumatic heart disease\nValvular heart disease (any lesion that leads to significant stenosis or regurgitation)\nNoncardiac (increased automaticity)\nThyrotoxicosis\nChronic lung disease\nPericarditis\nEthanol\n(\"holiday heart\")\nPulmonary embolism\nPneumonia\nDrugs (\ncocaine\n,\nTCA\n, Milk of the Poppy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Ischemic heart disease",
+          "url": "https://wikem.org/wiki/Ischemic_heart_disease"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        }
+      ]
+    },
+    "Atrial_fibrillation_categories": {
+      "text": "",
+      "subsections": {
+        "Causes_of_atrial_fibrillation": {
+          "text": "Cardiac (atrial enlargement)\nHypertension\nIschemic heart disease\nRheumatic heart disease\nValvular heart disease (any lesion that leads to significant stenosis or regurgitation)\nNoncardiac (increased automaticity)\nThyrotoxicosis\nChronic lung disease\nPericarditis\nEthanol\n(\"holiday heart\")\nPulmonary embolism\nPneumonia\nDrugs (\ncocaine\n,\nTCA\n, Milk of the Poppy)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Atrial Fibrillation Category": "Paroxysmal",
+            "Definition": "Terminates spontaneously or with intervention within 7 days of onset.Episodes may recur with variable frequency."
+          },
+          {
+            "Atrial Fibrillation Category": "Persistent",
+            "Definition": "Continuous sustained >7 days"
+          },
+          {
+            "Atrial Fibrillation Category": "Long-standing persistent",
+            "Definition": "Continuous >12 mo in duration."
+          },
+          {
+            "Atrial Fibrillation Category": "Permanent",
+            "Definition": "Used when the patient and clinician make a joint decision to stop further attempts to restore and/or maintain sinus rhythm.Acceptance represents a therapeutic attitude on the part of the patient and clinician rather than an inherent pathophysiological attribute.May change as symptoms, efficacy of therapeutic interventions, and patient and clinician preferences evolve."
+          },
+          {
+            "Atrial Fibrillation Category": "Nonvalvular",
+            "Definition": "In the absence of rheumatic mitral stenosis, a mechanical or bioprosthetic heart valve, or mitral valve repair."
+          },
+          {
+            "Atrial Fibrillation Category": "With Rapid Ventricular Response (RVR)",
+            "Definition": "With persistent ventricular heart rate >100 beats per minute"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Ischemic heart disease",
+          "url": "https://wikem.org/wiki/Ischemic_heart_disease"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        }
+      ]
+    },
+    "Causes_of_atrial_fibrillation": {
+      "text": "Cardiac (atrial enlargement)\nHypertension\nIschemic heart disease\nRheumatic heart disease\nValvular heart disease (any lesion that leads to significant stenosis or regurgitation)\nNoncardiac (increased automaticity)\nThyrotoxicosis\nChronic lung disease\nPericarditis\nEthanol\n(\"holiday heart\")\nPulmonary embolism\nPneumonia\nDrugs (\ncocaine\n,\nTCA\n, Milk of the Poppy)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Ischemic heart disease",
+          "url": "https://wikem.org/wiki/Ischemic_heart_disease"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "TCA",
+          "url": "https://wikem.org/wiki/TCA"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Palpitations\nShortness of breath\nDyspnea on exersion\nChest pain\nConsider\nWPW\nif:\nWide QRS\nRate approaching 300 bpm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Narrow-complex_tachycardia": {
+          "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+          "tables": []
+        },
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Narrow-complex_tachycardia": {
+      "text": "Regular\nAV Node Independent\nSinus tachycardia\nAtrial tachycardia\n(uni-focal or multi-focal)\nAtrial fibrillation\nAtrial flutter\nIdiopathic fascicular left ventricular tachycardia\nAV Node Dependent\nParoxysmal supraventricular tachycardia\n(PSVT)\nAV node re-entry tachycardia\n(AVNRT)\nAV re-entry tachycardia\n(AVRT)\nLown-Ganong-Levine syndrome\nWolff–Parkinson–White syndrome\nJunctional tachycardia\nIrregular\nMultifocal atrial tachycardia\n(MAT)\nSinus tachycardia\nwith frequent\nPACs\n,\nPJCs\n,\nPVCs\nAtrial fibrillation\nAtrial fibrillation with RVR\nAtrial flutter\nwith variable conduction\nDigoxin Toxicity",
+      "subsections": {
+        "Palpitations": {
+          "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "Atrial tachycardia",
+          "url": "https://wikem.org/wiki/Atrial_tachycardia"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Idiopathic fascicular left ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Idiopathic_fascicular_left_ventricular_tachycardia"
+        },
+        {
+          "text": "Paroxysmal supraventricular tachycardia",
+          "url": "https://wikem.org/wiki/Paroxysmal_supraventricular_tachycardia"
+        },
+        {
+          "text": "AV node re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_node_re-entry_tachycardia"
+        },
+        {
+          "text": "AV re-entry tachycardia",
+          "url": "https://wikem.org/wiki/AV_re-entry_tachycardia"
+        },
+        {
+          "text": "Lown-Ganong-Levine syndrome",
+          "url": "https://wikem.org/wiki/Lown-Ganong-Levine_syndrome"
+        },
+        {
+          "text": "Wolff–Parkinson–White syndrome",
+          "url": "https://wikem.org/wiki/Wolff%E2%80%93Parkinson%E2%80%93White_syndrome"
+        },
+        {
+          "text": "Junctional tachycardia",
+          "url": "https://wikem.org/wiki/Junctional_tachycardia"
+        },
+        {
+          "text": "Multifocal atrial tachycardia",
+          "url": "https://wikem.org/wiki/Multifocal_atrial_tachycardia"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PACs",
+          "url": "https://wikem.org/wiki/PACs"
+        },
+        {
+          "text": "PJCs",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "Digoxin Toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_Toxicity"
+        },
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Palpitations": {
+      "text": "Arrhythmias:\nNarrow-complex tachycardias\nWide-complex tachycardias\nAV blocks\nSecond Degree AV Block Type I\n(Wenckeback)\nSecond Degree AV Block Type II\nThird Degree AV Block\nPremature atrial contraction\nPremature junctional contraction\nPremature ventricular contraction\nSick sinus syndrome\nWandering atrial pacemaker\nNon-arrhythmic cardiac causes:\nAcute coronary syndrome\nCardiomyopathy\nCongenital heart disease\nCongestive heart failure (CHF)\nMitral valve prolapse\nPacemaker complication\nPericarditis\nMyocarditis\nValvular disease\nPsychiatric causes:\nPanic attack\nAnxiety\nSomatic Symptom Disorder\nDrugs and Medications:\nAlcohol\nCaffeine\nDrugs of abuse\n(e.g.\ncocaine\n)\nMedications (e.g.\ndigoxin\n,\ntheophylline\n)\nTobacco\nMisc\nAnemia\nHyperthyroidism\nThyroid storm\nPulmonary embolism\nDehydration\nSepsis\nPheochromocytoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Narrow-complex tachycardias",
+          "url": "https://wikem.org/wiki/Narrow-complex_tachycardia"
+        },
+        {
+          "text": "Wide-complex tachycardias",
+          "url": "https://wikem.org/wiki/Wide-complex_tachycardia"
+        },
+        {
+          "text": "AV blocks",
+          "url": "https://wikem.org/wiki/AV_blocks"
+        },
+        {
+          "text": "Second Degree AV Block Type I",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_I"
+        },
+        {
+          "text": "Second Degree AV Block Type II",
+          "url": "https://wikem.org/wiki/Second_Degree_AV_Block_Type_II"
+        },
+        {
+          "text": "Third Degree AV Block",
+          "url": "https://wikem.org/wiki/Third_Degree_AV_Block"
+        },
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional contraction",
+          "url": "https://wikem.org/wiki/Premature_junctional_contraction"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        },
+        {
+          "text": "Sick sinus syndrome",
+          "url": "https://wikem.org/wiki/Sick_sinus_syndrome"
+        },
+        {
+          "text": "Wandering atrial pacemaker",
+          "url": "https://wikem.org/wiki/Wandering_atrial_pacemaker"
+        },
+        {
+          "text": "Acute coronary syndrome",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy_(main)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Congestive heart failure (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Somatic Symptom Disorder",
+          "url": "https://wikem.org/wiki/Somatic_Symptom_Disorder"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "digoxin",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Tobacco",
+          "url": "https://wikem.org/wiki/Tobacco"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nLabs\nCBC\nChem 10\nConsider coags, especially if on anticoagulation\nConsider LFTs\nConsider\nBNP\nif heart failure unclear\nConsider thyroid function tests\nTroponin\nif patient has chest pain\nChest XR\nConsider\nCardiac Echo\n- if signs of new/worsening heart failure",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on\nECG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Chest XR",
+          "url": "https://wikem.org/wiki/Chest_XR"
+        },
+        {
+          "text": "Cardiac Echo",
+          "url": "https://wikem.org/wiki/Ultrasound:_Cardiac"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nLabs\nCBC\nChem 10\nConsider coags, especially if on anticoagulation\nConsider LFTs\nConsider\nBNP\nif heart failure unclear\nConsider thyroid function tests\nTroponin\nif patient has chest pain\nChest XR\nConsider\nCardiac Echo\n- if signs of new/worsening heart failure",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Based on\nECG",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Chest XR",
+          "url": "https://wikem.org/wiki/Chest_XR"
+        },
+        {
+          "text": "Cardiac Echo",
+          "url": "https://wikem.org/wiki/Ultrasound:_Cardiac"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Based on\nECG",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Unstable": {
+          "text": "Synchronized cardioversion\n(100-200J)\nAtrial fibrillation - start at 200 J\nAtrial flutter - start at 50 J\nIf you have time sedate with etomidate or ketamine before defibrillation\nDose (Etomidate): Start with 0.1mg/kg IV; repeat if needed\nDose (Ketamine): Start with 0.5mg/kg IV; repeat if needed\nIndications: ischemic chest pain, SBP < 90, acute pulmonary edema, altered mental status\nConsider cardiostable sedation such as 5mg\netomidate\n+/- subdissociative pain dosage\nketamine\nat 15mg\nIf shock does not work:\nVerify not preexcitation (\nWPW\n)\nIncrease diastolic BP to perfuse the heart\nPush-dose\nphenylephrine\nWill maintain BP when give rate-control meds\n50-200mcg q2-5min with goal MAP 70-75\nCan also do\nphenylephrine\nas a drip or\nnorepinephrine\ndrip\nAfter MAP is better then try to rate control with one of the following\nAmiodarone\n150mg over 10min (preferably through central venous access) for up to 6 doses OR\nesmolol\ndrip (easy to turn off) OR\ndiltiazem\ninfusion 2.5mg/min until HR <100 or max 50mg\nMagnesium\nBe careful since can worsen vasodilation for these hypotensive patients\n2 g over 1-5 min, repeat if no response after 15 min, then consider 1-2 g/h for 4 hrs if response\n[2]\nSignificantly less effective than\namiodarone\nor\ncalcium-channel blockers\nEnsure baseline magnesium level\nCheck magnesium q2hrs if infusing",
+          "tables": []
+        },
+        "Stable_and_Symptomatic": {
+          "text": "Make sure you are not slowing down a normal physiologic response (e.g. fever, hypoxia, shock, etc.)\nGoal <110bpm\nRACE-II trial demonstrated that lenient control (goal HR < 110bpm) was noninferior to strict control (HR < 80 bpm) in preventing the primary outcome\n[3]",
+          "tables": []
+        },
+        "Stable_and_Asymptomatic": {
+          "text": "If mild or no symptoms and pulse only mildly elevated (<110bpm) ok to manage with PO meds",
+          "tables": []
+        },
+        "Cardioversion": {
+          "text": "Consider for:\n[4]\nSymptoms <48hr\nNew diagnosis\nNo history of similar episodes\nNo LV dysfunction\nNo mitral valve disease\nNo prior thromboembolic event\nAlready Anticoagulated\nIf cardioversion is considered, pretreatment with rate or rhythm control medications can reduce effectiveness\n[5]\n90% effective, 60% effective with pretreatment",
+          "tables": []
+        },
+        "Anticoagulation_Prior_to_Cardioversion": {
+          "text": "Anticoagulation with\nHeparin\nor\nLMWH\nshould be considered before cardioversion if time permits, otherwise immediately after cardioversion. (unless you are sure it has been <48 hours since onset of afib)\n[6]\n[7]\n[8]\nGenerally cardioversion while anti-coagulated is believed to be safe with a 1.3% risk of thromboembolism if on aspirin or other anticoagulant\n[9]\nHowever the risk may be as great as 2% risk after 48 hours and preference should be given to anticoagulation prior to cardioversion in longer cases\n[10]",
+          "tables": []
+        },
+        "Medication_Choices": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medication": "Calcium-Channel Blockers"
+              },
+              {
+                "Medication": "Diltiazem",
+                "Dose": "Bolus 0.25mg/kg (average adult dose 20mg) over 2 minIf, after 15min 1st dose is tolerated but inadequate re-bolus 0.35mg/kgIf patient responds start infusion at 5-15mg/hr or give POdiltiazem60mg QID",
+                "Comments": "Preferred in patients with chronic lung such asAsthmaandCOPD[11]",
+                "Contraindications": "Decompensated heart failurePreexcitation (especially in pediatrics)Significant hypotension"
+              },
+              {
+                "Medication": "Beta-Blockers"
+              },
+              {
+                "Medication": "Metoprolol",
+                "Dose": "Bolus 2.5-5mg IVP over 2min q5min up to 3 dosesIf patient responds orally load with 25-50mg. The initial oral dose may be estimated based on the IV dose required, based on a 1:2.5 conversion from IV to PO",
+                "Comments": "Particularly useful when A-fib associated with exercise, after acuteMI, or withthyrotoxicosisLong-term β-blocker improves patient survival (CCB may worsen outcomes), thus starting a β-blocker upon discharge, strongly consider using the agent for rate control also.[12]",
+                "Contraindications": "COPDAsthmaDecompensated heart failureHypotension"
+              },
+              {
+                "Medication": "Esmolol",
+                "Dose": "Bolus 0.5mg/kg over one minute, followed by 50 µg/kg/minIf, after 4min response is inadequate, re-bolus followed by infusion of 100 µg/kg/minIf, after 4min response is still inadequate, try final bolus followed by infusion of 150 µg/kg/minIf necessary, infusion can be increased to maximum of 200 µg/kg/min after another four minutes",
+                "Comments": "Use if unsure whether patient will tolerate a β-blocker since the duration of action is only 10 minutes",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Other"
+              },
+              {
+                "Medication": "Digoxin",
+                "Dose": "0.25mg IV q2hr up to 1.5mg, then 0.125-0.25mg PO or IV QDAdjust dose in presence of renal failure, amiodarone, etc",
+                "Comments": "Consider as initial therapy for patients with LV dysfunction who:Do not achieve rate control targets on β-blockers aloneCannot tolerate addition of or increased doses of β-blocker due to decompensatedCHFWould havedigoxinadded anyway to improveCHFsymptoms independent of A-fibConsider as initial therapy in patients with severe hypotensionConsider as 2nd agent in patients in whom IV BB or IV CCB has failed to control their rateMay take up to 6-8 hours to work",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Amiodarone",
+                "Dose": "Load 3-7mg/kg IV over 30 minthen, 1200mg over 24hr via continuous infusion or in divided oral doses[13]",
+                "Comments": "Consider for patients with decompensated heart failure or those with accessory pathways2nd-line agent for chronic rate control whenbeta-blockersandcalcium-channel blockers, alone, combined, or when used withdigoxin, are ineffective",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Magnesium sulfate",
+                "Dose": "4.5 IV over 30 min[14]",
+                "Comments": "IV MgSO4 appears to have a synergistic effect when combined with other AV nodal blockers resulting in improved rate control.Given in conjunction withbeta-blockersandcalcium-channel blockers.",
+                "Contraindications": ""
+              }
+            ]
+          ]
+        },
+        "Evidence_of_preexcitation": {
+          "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Unstable": {
+      "text": "Synchronized cardioversion\n(100-200J)\nAtrial fibrillation - start at 200 J\nAtrial flutter - start at 50 J\nIf you have time sedate with etomidate or ketamine before defibrillation\nDose (Etomidate): Start with 0.1mg/kg IV; repeat if needed\nDose (Ketamine): Start with 0.5mg/kg IV; repeat if needed\nIndications: ischemic chest pain, SBP < 90, acute pulmonary edema, altered mental status\nConsider cardiostable sedation such as 5mg\netomidate\n+/- subdissociative pain dosage\nketamine\nat 15mg\nIf shock does not work:\nVerify not preexcitation (\nWPW\n)\nIncrease diastolic BP to perfuse the heart\nPush-dose\nphenylephrine\nWill maintain BP when give rate-control meds\n50-200mcg q2-5min with goal MAP 70-75\nCan also do\nphenylephrine\nas a drip or\nnorepinephrine\ndrip\nAfter MAP is better then try to rate control with one of the following\nAmiodarone\n150mg over 10min (preferably through central venous access) for up to 6 doses OR\nesmolol\ndrip (easy to turn off) OR\ndiltiazem\ninfusion 2.5mg/min until HR <100 or max 50mg\nMagnesium\nBe careful since can worsen vasodilation for these hypotensive patients\n2 g over 1-5 min, repeat if no response after 15 min, then consider 1-2 g/h for 4 hrs if response\n[2]\nSignificantly less effective than\namiodarone\nor\ncalcium-channel blockers\nEnsure baseline magnesium level\nCheck magnesium q2hrs if infusing",
+      "subsections": {
+        "Stable_and_Symptomatic": {
+          "text": "Make sure you are not slowing down a normal physiologic response (e.g. fever, hypoxia, shock, etc.)\nGoal <110bpm\nRACE-II trial demonstrated that lenient control (goal HR < 110bpm) was noninferior to strict control (HR < 80 bpm) in preventing the primary outcome\n[3]",
+          "tables": []
+        },
+        "Stable_and_Asymptomatic": {
+          "text": "If mild or no symptoms and pulse only mildly elevated (<110bpm) ok to manage with PO meds",
+          "tables": []
+        },
+        "Cardioversion": {
+          "text": "Consider for:\n[4]\nSymptoms <48hr\nNew diagnosis\nNo history of similar episodes\nNo LV dysfunction\nNo mitral valve disease\nNo prior thromboembolic event\nAlready Anticoagulated\nIf cardioversion is considered, pretreatment with rate or rhythm control medications can reduce effectiveness\n[5]\n90% effective, 60% effective with pretreatment",
+          "tables": []
+        },
+        "Anticoagulation_Prior_to_Cardioversion": {
+          "text": "Anticoagulation with\nHeparin\nor\nLMWH\nshould be considered before cardioversion if time permits, otherwise immediately after cardioversion. (unless you are sure it has been <48 hours since onset of afib)\n[6]\n[7]\n[8]\nGenerally cardioversion while anti-coagulated is believed to be safe with a 1.3% risk of thromboembolism if on aspirin or other anticoagulant\n[9]\nHowever the risk may be as great as 2% risk after 48 hours and preference should be given to anticoagulation prior to cardioversion in longer cases\n[10]",
+          "tables": []
+        },
+        "Medication_Choices": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medication": "Calcium-Channel Blockers"
+              },
+              {
+                "Medication": "Diltiazem",
+                "Dose": "Bolus 0.25mg/kg (average adult dose 20mg) over 2 minIf, after 15min 1st dose is tolerated but inadequate re-bolus 0.35mg/kgIf patient responds start infusion at 5-15mg/hr or give POdiltiazem60mg QID",
+                "Comments": "Preferred in patients with chronic lung such asAsthmaandCOPD[11]",
+                "Contraindications": "Decompensated heart failurePreexcitation (especially in pediatrics)Significant hypotension"
+              },
+              {
+                "Medication": "Beta-Blockers"
+              },
+              {
+                "Medication": "Metoprolol",
+                "Dose": "Bolus 2.5-5mg IVP over 2min q5min up to 3 dosesIf patient responds orally load with 25-50mg. The initial oral dose may be estimated based on the IV dose required, based on a 1:2.5 conversion from IV to PO",
+                "Comments": "Particularly useful when A-fib associated with exercise, after acuteMI, or withthyrotoxicosisLong-term β-blocker improves patient survival (CCB may worsen outcomes), thus starting a β-blocker upon discharge, strongly consider using the agent for rate control also.[12]",
+                "Contraindications": "COPDAsthmaDecompensated heart failureHypotension"
+              },
+              {
+                "Medication": "Esmolol",
+                "Dose": "Bolus 0.5mg/kg over one minute, followed by 50 µg/kg/minIf, after 4min response is inadequate, re-bolus followed by infusion of 100 µg/kg/minIf, after 4min response is still inadequate, try final bolus followed by infusion of 150 µg/kg/minIf necessary, infusion can be increased to maximum of 200 µg/kg/min after another four minutes",
+                "Comments": "Use if unsure whether patient will tolerate a β-blocker since the duration of action is only 10 minutes",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Other"
+              },
+              {
+                "Medication": "Digoxin",
+                "Dose": "0.25mg IV q2hr up to 1.5mg, then 0.125-0.25mg PO or IV QDAdjust dose in presence of renal failure, amiodarone, etc",
+                "Comments": "Consider as initial therapy for patients with LV dysfunction who:Do not achieve rate control targets on β-blockers aloneCannot tolerate addition of or increased doses of β-blocker due to decompensatedCHFWould havedigoxinadded anyway to improveCHFsymptoms independent of A-fibConsider as initial therapy in patients with severe hypotensionConsider as 2nd agent in patients in whom IV BB or IV CCB has failed to control their rateMay take up to 6-8 hours to work",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Amiodarone",
+                "Dose": "Load 3-7mg/kg IV over 30 minthen, 1200mg over 24hr via continuous infusion or in divided oral doses[13]",
+                "Comments": "Consider for patients with decompensated heart failure or those with accessory pathways2nd-line agent for chronic rate control whenbeta-blockersandcalcium-channel blockers, alone, combined, or when used withdigoxin, are ineffective",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Magnesium sulfate",
+                "Dose": "4.5 IV over 30 min[14]",
+                "Comments": "IV MgSO4 appears to have a synergistic effect when combined with other AV nodal blockers resulting in improved rate control.Given in conjunction withbeta-blockersandcalcium-channel blockers.",
+                "Contraindications": ""
+              }
+            ]
+          ]
+        },
+        "Evidence_of_preexcitation": {
+          "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Stable_and_Symptomatic": {
+      "text": "Make sure you are not slowing down a normal physiologic response (e.g. fever, hypoxia, shock, etc.)\nGoal <110bpm\nRACE-II trial demonstrated that lenient control (goal HR < 110bpm) was noninferior to strict control (HR < 80 bpm) in preventing the primary outcome\n[3]",
+      "subsections": {
+        "Stable_and_Asymptomatic": {
+          "text": "If mild or no symptoms and pulse only mildly elevated (<110bpm) ok to manage with PO meds",
+          "tables": []
+        },
+        "Cardioversion": {
+          "text": "Consider for:\n[4]\nSymptoms <48hr\nNew diagnosis\nNo history of similar episodes\nNo LV dysfunction\nNo mitral valve disease\nNo prior thromboembolic event\nAlready Anticoagulated\nIf cardioversion is considered, pretreatment with rate or rhythm control medications can reduce effectiveness\n[5]\n90% effective, 60% effective with pretreatment",
+          "tables": []
+        },
+        "Anticoagulation_Prior_to_Cardioversion": {
+          "text": "Anticoagulation with\nHeparin\nor\nLMWH\nshould be considered before cardioversion if time permits, otherwise immediately after cardioversion. (unless you are sure it has been <48 hours since onset of afib)\n[6]\n[7]\n[8]\nGenerally cardioversion while anti-coagulated is believed to be safe with a 1.3% risk of thromboembolism if on aspirin or other anticoagulant\n[9]\nHowever the risk may be as great as 2% risk after 48 hours and preference should be given to anticoagulation prior to cardioversion in longer cases\n[10]",
+          "tables": []
+        },
+        "Medication_Choices": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medication": "Calcium-Channel Blockers"
+              },
+              {
+                "Medication": "Diltiazem",
+                "Dose": "Bolus 0.25mg/kg (average adult dose 20mg) over 2 minIf, after 15min 1st dose is tolerated but inadequate re-bolus 0.35mg/kgIf patient responds start infusion at 5-15mg/hr or give POdiltiazem60mg QID",
+                "Comments": "Preferred in patients with chronic lung such asAsthmaandCOPD[11]",
+                "Contraindications": "Decompensated heart failurePreexcitation (especially in pediatrics)Significant hypotension"
+              },
+              {
+                "Medication": "Beta-Blockers"
+              },
+              {
+                "Medication": "Metoprolol",
+                "Dose": "Bolus 2.5-5mg IVP over 2min q5min up to 3 dosesIf patient responds orally load with 25-50mg. The initial oral dose may be estimated based on the IV dose required, based on a 1:2.5 conversion from IV to PO",
+                "Comments": "Particularly useful when A-fib associated with exercise, after acuteMI, or withthyrotoxicosisLong-term β-blocker improves patient survival (CCB may worsen outcomes), thus starting a β-blocker upon discharge, strongly consider using the agent for rate control also.[12]",
+                "Contraindications": "COPDAsthmaDecompensated heart failureHypotension"
+              },
+              {
+                "Medication": "Esmolol",
+                "Dose": "Bolus 0.5mg/kg over one minute, followed by 50 µg/kg/minIf, after 4min response is inadequate, re-bolus followed by infusion of 100 µg/kg/minIf, after 4min response is still inadequate, try final bolus followed by infusion of 150 µg/kg/minIf necessary, infusion can be increased to maximum of 200 µg/kg/min after another four minutes",
+                "Comments": "Use if unsure whether patient will tolerate a β-blocker since the duration of action is only 10 minutes",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Other"
+              },
+              {
+                "Medication": "Digoxin",
+                "Dose": "0.25mg IV q2hr up to 1.5mg, then 0.125-0.25mg PO or IV QDAdjust dose in presence of renal failure, amiodarone, etc",
+                "Comments": "Consider as initial therapy for patients with LV dysfunction who:Do not achieve rate control targets on β-blockers aloneCannot tolerate addition of or increased doses of β-blocker due to decompensatedCHFWould havedigoxinadded anyway to improveCHFsymptoms independent of A-fibConsider as initial therapy in patients with severe hypotensionConsider as 2nd agent in patients in whom IV BB or IV CCB has failed to control their rateMay take up to 6-8 hours to work",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Amiodarone",
+                "Dose": "Load 3-7mg/kg IV over 30 minthen, 1200mg over 24hr via continuous infusion or in divided oral doses[13]",
+                "Comments": "Consider for patients with decompensated heart failure or those with accessory pathways2nd-line agent for chronic rate control whenbeta-blockersandcalcium-channel blockers, alone, combined, or when used withdigoxin, are ineffective",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Magnesium sulfate",
+                "Dose": "4.5 IV over 30 min[14]",
+                "Comments": "IV MgSO4 appears to have a synergistic effect when combined with other AV nodal blockers resulting in improved rate control.Given in conjunction withbeta-blockersandcalcium-channel blockers.",
+                "Contraindications": ""
+              }
+            ]
+          ]
+        },
+        "Evidence_of_preexcitation": {
+          "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Stable_and_Asymptomatic": {
+      "text": "If mild or no symptoms and pulse only mildly elevated (<110bpm) ok to manage with PO meds",
+      "subsections": {
+        "Cardioversion": {
+          "text": "Consider for:\n[4]\nSymptoms <48hr\nNew diagnosis\nNo history of similar episodes\nNo LV dysfunction\nNo mitral valve disease\nNo prior thromboembolic event\nAlready Anticoagulated\nIf cardioversion is considered, pretreatment with rate or rhythm control medications can reduce effectiveness\n[5]\n90% effective, 60% effective with pretreatment",
+          "tables": []
+        },
+        "Anticoagulation_Prior_to_Cardioversion": {
+          "text": "Anticoagulation with\nHeparin\nor\nLMWH\nshould be considered before cardioversion if time permits, otherwise immediately after cardioversion. (unless you are sure it has been <48 hours since onset of afib)\n[6]\n[7]\n[8]\nGenerally cardioversion while anti-coagulated is believed to be safe with a 1.3% risk of thromboembolism if on aspirin or other anticoagulant\n[9]\nHowever the risk may be as great as 2% risk after 48 hours and preference should be given to anticoagulation prior to cardioversion in longer cases\n[10]",
+          "tables": []
+        },
+        "Medication_Choices": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medication": "Calcium-Channel Blockers"
+              },
+              {
+                "Medication": "Diltiazem",
+                "Dose": "Bolus 0.25mg/kg (average adult dose 20mg) over 2 minIf, after 15min 1st dose is tolerated but inadequate re-bolus 0.35mg/kgIf patient responds start infusion at 5-15mg/hr or give POdiltiazem60mg QID",
+                "Comments": "Preferred in patients with chronic lung such asAsthmaandCOPD[11]",
+                "Contraindications": "Decompensated heart failurePreexcitation (especially in pediatrics)Significant hypotension"
+              },
+              {
+                "Medication": "Beta-Blockers"
+              },
+              {
+                "Medication": "Metoprolol",
+                "Dose": "Bolus 2.5-5mg IVP over 2min q5min up to 3 dosesIf patient responds orally load with 25-50mg. The initial oral dose may be estimated based on the IV dose required, based on a 1:2.5 conversion from IV to PO",
+                "Comments": "Particularly useful when A-fib associated with exercise, after acuteMI, or withthyrotoxicosisLong-term β-blocker improves patient survival (CCB may worsen outcomes), thus starting a β-blocker upon discharge, strongly consider using the agent for rate control also.[12]",
+                "Contraindications": "COPDAsthmaDecompensated heart failureHypotension"
+              },
+              {
+                "Medication": "Esmolol",
+                "Dose": "Bolus 0.5mg/kg over one minute, followed by 50 µg/kg/minIf, after 4min response is inadequate, re-bolus followed by infusion of 100 µg/kg/minIf, after 4min response is still inadequate, try final bolus followed by infusion of 150 µg/kg/minIf necessary, infusion can be increased to maximum of 200 µg/kg/min after another four minutes",
+                "Comments": "Use if unsure whether patient will tolerate a β-blocker since the duration of action is only 10 minutes",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Other"
+              },
+              {
+                "Medication": "Digoxin",
+                "Dose": "0.25mg IV q2hr up to 1.5mg, then 0.125-0.25mg PO or IV QDAdjust dose in presence of renal failure, amiodarone, etc",
+                "Comments": "Consider as initial therapy for patients with LV dysfunction who:Do not achieve rate control targets on β-blockers aloneCannot tolerate addition of or increased doses of β-blocker due to decompensatedCHFWould havedigoxinadded anyway to improveCHFsymptoms independent of A-fibConsider as initial therapy in patients with severe hypotensionConsider as 2nd agent in patients in whom IV BB or IV CCB has failed to control their rateMay take up to 6-8 hours to work",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Amiodarone",
+                "Dose": "Load 3-7mg/kg IV over 30 minthen, 1200mg over 24hr via continuous infusion or in divided oral doses[13]",
+                "Comments": "Consider for patients with decompensated heart failure or those with accessory pathways2nd-line agent for chronic rate control whenbeta-blockersandcalcium-channel blockers, alone, combined, or when used withdigoxin, are ineffective",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Magnesium sulfate",
+                "Dose": "4.5 IV over 30 min[14]",
+                "Comments": "IV MgSO4 appears to have a synergistic effect when combined with other AV nodal blockers resulting in improved rate control.Given in conjunction withbeta-blockersandcalcium-channel blockers.",
+                "Contraindications": ""
+              }
+            ]
+          ]
+        },
+        "Evidence_of_preexcitation": {
+          "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Cardioversion": {
+      "text": "Consider for:\n[4]\nSymptoms <48hr\nNew diagnosis\nNo history of similar episodes\nNo LV dysfunction\nNo mitral valve disease\nNo prior thromboembolic event\nAlready Anticoagulated\nIf cardioversion is considered, pretreatment with rate or rhythm control medications can reduce effectiveness\n[5]\n90% effective, 60% effective with pretreatment",
+      "subsections": {
+        "Anticoagulation_Prior_to_Cardioversion": {
+          "text": "Anticoagulation with\nHeparin\nor\nLMWH\nshould be considered before cardioversion if time permits, otherwise immediately after cardioversion. (unless you are sure it has been <48 hours since onset of afib)\n[6]\n[7]\n[8]\nGenerally cardioversion while anti-coagulated is believed to be safe with a 1.3% risk of thromboembolism if on aspirin or other anticoagulant\n[9]\nHowever the risk may be as great as 2% risk after 48 hours and preference should be given to anticoagulation prior to cardioversion in longer cases\n[10]",
+          "tables": []
+        },
+        "Medication_Choices": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Medication": "Calcium-Channel Blockers"
+              },
+              {
+                "Medication": "Diltiazem",
+                "Dose": "Bolus 0.25mg/kg (average adult dose 20mg) over 2 minIf, after 15min 1st dose is tolerated but inadequate re-bolus 0.35mg/kgIf patient responds start infusion at 5-15mg/hr or give POdiltiazem60mg QID",
+                "Comments": "Preferred in patients with chronic lung such asAsthmaandCOPD[11]",
+                "Contraindications": "Decompensated heart failurePreexcitation (especially in pediatrics)Significant hypotension"
+              },
+              {
+                "Medication": "Beta-Blockers"
+              },
+              {
+                "Medication": "Metoprolol",
+                "Dose": "Bolus 2.5-5mg IVP over 2min q5min up to 3 dosesIf patient responds orally load with 25-50mg. The initial oral dose may be estimated based on the IV dose required, based on a 1:2.5 conversion from IV to PO",
+                "Comments": "Particularly useful when A-fib associated with exercise, after acuteMI, or withthyrotoxicosisLong-term β-blocker improves patient survival (CCB may worsen outcomes), thus starting a β-blocker upon discharge, strongly consider using the agent for rate control also.[12]",
+                "Contraindications": "COPDAsthmaDecompensated heart failureHypotension"
+              },
+              {
+                "Medication": "Esmolol",
+                "Dose": "Bolus 0.5mg/kg over one minute, followed by 50 µg/kg/minIf, after 4min response is inadequate, re-bolus followed by infusion of 100 µg/kg/minIf, after 4min response is still inadequate, try final bolus followed by infusion of 150 µg/kg/minIf necessary, infusion can be increased to maximum of 200 µg/kg/min after another four minutes",
+                "Comments": "Use if unsure whether patient will tolerate a β-blocker since the duration of action is only 10 minutes",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Other"
+              },
+              {
+                "Medication": "Digoxin",
+                "Dose": "0.25mg IV q2hr up to 1.5mg, then 0.125-0.25mg PO or IV QDAdjust dose in presence of renal failure, amiodarone, etc",
+                "Comments": "Consider as initial therapy for patients with LV dysfunction who:Do not achieve rate control targets on β-blockers aloneCannot tolerate addition of or increased doses of β-blocker due to decompensatedCHFWould havedigoxinadded anyway to improveCHFsymptoms independent of A-fibConsider as initial therapy in patients with severe hypotensionConsider as 2nd agent in patients in whom IV BB or IV CCB has failed to control their rateMay take up to 6-8 hours to work",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Amiodarone",
+                "Dose": "Load 3-7mg/kg IV over 30 minthen, 1200mg over 24hr via continuous infusion or in divided oral doses[13]",
+                "Comments": "Consider for patients with decompensated heart failure or those with accessory pathways2nd-line agent for chronic rate control whenbeta-blockersandcalcium-channel blockers, alone, combined, or when used withdigoxin, are ineffective",
+                "Contraindications": ""
+              },
+              {
+                "Medication": "Magnesium sulfate",
+                "Dose": "4.5 IV over 30 min[14]",
+                "Comments": "IV MgSO4 appears to have a synergistic effect when combined with other AV nodal blockers resulting in improved rate control.Given in conjunction withbeta-blockersandcalcium-channel blockers.",
+                "Contraindications": ""
+              }
+            ]
+          ]
+        },
+        "Evidence_of_preexcitation": {
+          "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Medication_Choices": {
+      "text": "",
+      "subsections": {
+        "Evidence_of_preexcitation": {
+          "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Medication": "Calcium-Channel Blockers"
+          },
+          {
+            "Medication": "Diltiazem",
+            "Dose": "Bolus 0.25mg/kg (average adult dose 20mg) over 2 minIf, after 15min 1st dose is tolerated but inadequate re-bolus 0.35mg/kgIf patient responds start infusion at 5-15mg/hr or give POdiltiazem60mg QID",
+            "Comments": "Preferred in patients with chronic lung such asAsthmaandCOPD[11]",
+            "Contraindications": "Decompensated heart failurePreexcitation (especially in pediatrics)Significant hypotension"
+          },
+          {
+            "Medication": "Beta-Blockers"
+          },
+          {
+            "Medication": "Metoprolol",
+            "Dose": "Bolus 2.5-5mg IVP over 2min q5min up to 3 dosesIf patient responds orally load with 25-50mg. The initial oral dose may be estimated based on the IV dose required, based on a 1:2.5 conversion from IV to PO",
+            "Comments": "Particularly useful when A-fib associated with exercise, after acuteMI, or withthyrotoxicosisLong-term β-blocker improves patient survival (CCB may worsen outcomes), thus starting a β-blocker upon discharge, strongly consider using the agent for rate control also.[12]",
+            "Contraindications": "COPDAsthmaDecompensated heart failureHypotension"
+          },
+          {
+            "Medication": "Esmolol",
+            "Dose": "Bolus 0.5mg/kg over one minute, followed by 50 µg/kg/minIf, after 4min response is inadequate, re-bolus followed by infusion of 100 µg/kg/minIf, after 4min response is still inadequate, try final bolus followed by infusion of 150 µg/kg/minIf necessary, infusion can be increased to maximum of 200 µg/kg/min after another four minutes",
+            "Comments": "Use if unsure whether patient will tolerate a β-blocker since the duration of action is only 10 minutes",
+            "Contraindications": ""
+          },
+          {
+            "Medication": "Other"
+          },
+          {
+            "Medication": "Digoxin",
+            "Dose": "0.25mg IV q2hr up to 1.5mg, then 0.125-0.25mg PO or IV QDAdjust dose in presence of renal failure, amiodarone, etc",
+            "Comments": "Consider as initial therapy for patients with LV dysfunction who:Do not achieve rate control targets on β-blockers aloneCannot tolerate addition of or increased doses of β-blocker due to decompensatedCHFWould havedigoxinadded anyway to improveCHFsymptoms independent of A-fibConsider as initial therapy in patients with severe hypotensionConsider as 2nd agent in patients in whom IV BB or IV CCB has failed to control their rateMay take up to 6-8 hours to work",
+            "Contraindications": ""
+          },
+          {
+            "Medication": "Amiodarone",
+            "Dose": "Load 3-7mg/kg IV over 30 minthen, 1200mg over 24hr via continuous infusion or in divided oral doses[13]",
+            "Comments": "Consider for patients with decompensated heart failure or those with accessory pathways2nd-line agent for chronic rate control whenbeta-blockersandcalcium-channel blockers, alone, combined, or when used withdigoxin, are ineffective",
+            "Contraindications": ""
+          },
+          {
+            "Medication": "Magnesium sulfate",
+            "Dose": "4.5 IV over 30 min[14]",
+            "Comments": "IV MgSO4 appears to have a synergistic effect when combined with other AV nodal blockers resulting in improved rate control.Given in conjunction withbeta-blockersandcalcium-channel blockers.",
+            "Contraindications": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Evidence_of_preexcitation": {
+      "text": "Defined as:\nSlurred upstroke of QRS complex\nWide QRS complex >120 msec\nShort PR interval <120msec\nManagement:\nAvoid AV nodal agents\nUnstable:\nSynchronized cardioversion\n(120-200 joules for biphasic waveforms, 200 joules for monophasic waveforms)\nStable\n[15]\n:\nProcainamide\n(17 mg/kg loading dose at 20 to 50 mg/minutes or 100mg every 5 minutes, maintenance infusion 1 to 4 mg/minute)\n[16]\nIbutilide\n(1mg over 10 minutes, repeat 10 minute infusion can be given)\n[17]\nAvoid\namiodarone\n, does not slow accessory pathway and has beta blocking properties, may increase conduction via accessory pathway\nCardioversion\n, consider sedation prior\nAvoid AV nodal blocking agents (\ndiltiazem\n,\nmetoprolol\n) as can lead to\nventricular fibrillation\n/tachycardia\nTry to avoid\ncardioversion\nwithout adequate anticoagulation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Synchronized cardioversion",
+          "url": "https://wikem.org/wiki/Synchronized_cardioversion"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Ibutilide",
+          "url": "https://wikem.org/wiki/Ibutilide"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "ventricular fibrillation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrillation"
+        },
+        {
+          "text": "cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit patients who were unstable\nStable and asymptomatic patients can typically be discharged, once controlled\nOther patients to be determined on a case-by-case basis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Atrial Fibrillation (Main)\nOttawa Aggressive Cardioversion Protocol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial Fibrillation (Main)",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_(Main)"
+        },
+        {
+          "text": "Ottawa Aggressive Cardioversion Protocol",
+          "url": "https://wikem.org/wiki/EBQ:Ottawa_Aggressive_ED_Cardioversion_Protocol"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ALiEM - BB vs CCB\nCrashing Afib - EMCrit\nDiltiazem load:\nFile:dilt-load.pdf\n[18]\nUnstable Atrial Fibrillation: A Guide to Management from emDocs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "File:dilt-load.pdf",
+          "url": "https://wikem.org/wiki/File:Dilt-load.pdf"
+        }
+      ]
+    }
+  }
+}

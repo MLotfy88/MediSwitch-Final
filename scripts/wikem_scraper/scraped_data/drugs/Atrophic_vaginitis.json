@@ -1,0 +1,164 @@
+{
+  "drug_name": "Atrophic_vaginitis",
+  "url": "https://wikem.org/wiki/Atrophic_vaginitis",
+  "scraped_at": "2026-01-10T07:48:21.294460",
+  "sections": {
+    "Background": {
+      "text": "Also known as: vulvovaginal atrophy, vaginal atrophy, genitourinary syndrome of menopause, and estrogen deficient vaginitis\nPrimarily occurs in peri or postmenopausal women",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Conditions or medications that induce a low estrogen state:\nNatural menopause\nBilateral oophorectomy\nSpontaneous premature ovarian failure\nOvarian failure due to radiation or chemo\nMedications: tamoxifen, danazol, medroxyprogesterone, leuprolide, ganirelix\nPostpartum reduction in estrogen production\nProlactin elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Conditions or medications that induce a low estrogen state:\nNatural menopause\nBilateral oophorectomy\nSpontaneous premature ovarian failure\nOvarian failure due to radiation or chemo\nMedications: tamoxifen, danazol, medroxyprogesterone, leuprolide, ganirelix\nPostpartum reduction in estrogen production\nProlactin elevation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms are generally progressive and gradually worsen as women progress through menopause\nVaginal dryness\nVaginal burning/irritation\nDecreased vaginal lubrication\nDyspareunia\nVulvar or\nvaginal bleeding\nVaginal discharge\nPelvic pressure\nUTI\nsymptoms or recurrent UTIs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "Pelvic pressure",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Infection (candidiasis, bacterial vaginosis, trichomoniasis, desquamative inflammatory vaginitis)\nReaction to irritants (soaps, deodorants, lubricants, clothing)\nVulvovaginal\nlichen planus\nVulvar\nlichen sclerosus\nIf bleeding present, malignancy should be excluded",
+      "subsections": {
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Vulvovaginitis": {
+      "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "History\nMenstrual and medication history to assess for causes of hypoestrogenism\nComplete ROS to rule out other causes of urogenital symptoms\nConsider symptoms that may be secondary to infection, inflammation, local irritation\nAsk about history of pelvic radiation\nThorough sexual history\nPelvic Exam\nExternal genitalia may show scarce pubic hair, diminished elasticity, introital narrowing, or fusion of labia minora\nLoss of labial fat pad\nPale, dry epithelium that is smooth and shiny with loss of rugation\nUse caution as exam can cause pain and bleeding\nAssess for introital stenosis with gloved finger before inserting speculum\nLabs\nNot usually necessary in ED unless concern for other causes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Topical estrogen cream or tablets\n[1]\nGeneric estradiol 10-mcg insert vaginally daily x 2 weeks, then twice weekly indefinitely (lower cost option)\nMay take as long as 2-3 months to see maximal benefit\nWarm patients about possible side effects of breast or perineal pain and uterine bleeding\nShould not be used if history of cancer to reproductive organs or postmenopausal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Refer to gynecologist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "drug_name": "Asplenic_patient",
+  "url": "https://wikem.org/wiki/Asplenic_patient",
+  "scraped_at": "2026-01-10T07:48:15.229338",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes_of_asplenia": {
+          "text": "Congenital\nPrior splenectomy for:\nPrevious hypersplenism\nSickle cell disease\nImmune thrombocytopenic purpura\n,\nTTP\n,\nautoimmune hemolytic anemia\nHodgkin's lymphoma\nThalassemia\nHereditary spherocytosis\nSplenic injury\n(rupture/hemorrhage)\nFunctional\nSickle cell disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Immune thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Immune_thrombocytopenic_purpura"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Splenic injury",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        }
+      ]
+    },
+    "Causes_of_asplenia": {
+      "text": "Congenital\nPrior splenectomy for:\nPrevious hypersplenism\nSickle cell disease\nImmune thrombocytopenic purpura\n,\nTTP\n,\nautoimmune hemolytic anemia\nHodgkin's lymphoma\nThalassemia\nHereditary spherocytosis\nSplenic injury\n(rupture/hemorrhage)\nFunctional\nSickle cell disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Immune thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Immune_thrombocytopenic_purpura"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Splenic injury",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Presentation": {
+          "text": "Sickle-cell disease patient over the age of 8\nAbsent spleen on CT\nOtherwise asplenic patient",
+          "tables": []
+        },
+        "Asplenia_increases_risk_of_(and_worsens_course_of)": {
+          "text": "Pneumonia\nSepsis\n/septicemia\nBabesiosis\n,\nEhrlichiosis\nInfections from encapsulated bacteria (e.g.\nStrep pneumo\n,\nH. influenzae\n,\nNeisseria meningitidis\n)\nViral illnesses",
+          "tables": []
+        },
+        "Signs/symptoms_of_infection": {
+          "text": "Cough\n,\nfever\n, rigors, malaise\nNausea/vomiting\n,\nconstipation\n/\ndiarrhea\nUrinary symptoms\nwound infection\nRash\nIncreased oxygen requirement\n,\ntachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep pneumo",
+          "url": "https://wikem.org/wiki/Strep_pneumo"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "url": "https://wikem.org/wiki/Neisseria_meningitidis"
+        },
+        {
+          "text": "Viral illnesses",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Urinary symptoms",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Increased oxygen requirement",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Presentation": {
+      "text": "Sickle-cell disease patient over the age of 8\nAbsent spleen on CT\nOtherwise asplenic patient",
+      "subsections": {
+        "Asplenia_increases_risk_of_(and_worsens_course_of)": {
+          "text": "Pneumonia\nSepsis\n/septicemia\nBabesiosis\n,\nEhrlichiosis\nInfections from encapsulated bacteria (e.g.\nStrep pneumo\n,\nH. influenzae\n,\nNeisseria meningitidis\n)\nViral illnesses",
+          "tables": []
+        },
+        "Signs/symptoms_of_infection": {
+          "text": "Cough\n,\nfever\n, rigors, malaise\nNausea/vomiting\n,\nconstipation\n/\ndiarrhea\nUrinary symptoms\nwound infection\nRash\nIncreased oxygen requirement\n,\ntachycardia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep pneumo",
+          "url": "https://wikem.org/wiki/Strep_pneumo"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "url": "https://wikem.org/wiki/Neisseria_meningitidis"
+        },
+        {
+          "text": "Viral illnesses",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Urinary symptoms",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Increased oxygen requirement",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Signs/symptoms_of_infection": {
+      "text": "Cough\n,\nfever\n, rigors, malaise\nNausea/vomiting\n,\nconstipation\n/\ndiarrhea\nUrinary symptoms\nwound infection\nRash\nIncreased oxygen requirement\n,\ntachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Urinary symptoms",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Increased oxygen requirement",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Bacterial infection\n(\nsepsis\n)\nStreptococcus\npneumonia\nHaemophilus influenzae\ntype B\nNeisseria meningitidis\nCapnocytophaga canimorsus\nBordetella holmesii\nViral illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial infection",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Neisseria meningitidis",
+          "url": "https://wikem.org/wiki/Neisseria_meningitidis"
+        },
+        {
+          "text": "Capnocytophaga canimorsus",
+          "url": "https://wikem.org/wiki/Capnocytophaga_canimorsus"
+        },
+        {
+          "text": "Viral illness",
+          "url": "https://wikem.org/wiki/Viruses"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC (elevated WBC, platelets)\nBMP,\nlactate\nCXR\nBlood cultures, urine, wound cultures\nPeripheral blood smear\nHowell Jolly bodies\nHeinz Bodies\nPappenheimer bodies\nTarget cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC (elevated WBC, platelets)\nBMP,\nlactate\nCXR\nBlood cultures, urine, wound cultures\nPeripheral blood smear\nHowell Jolly bodies\nHeinz Bodies\nPappenheimer bodies\nTarget cells",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Sepsis": {
+          "text": "30mL/kg fluids\nbroad spectrum antibiotics appropriate for suspected infection\noverwhelming majority of cases are from\nstreptococcus",
+          "tables": []
+        },
+        "Fever_(no_sepsis)": {
+          "text": "treat empirically with antibiotics\namoxicillin-clavulanate\n: 90mg/kg amox per day in children divided into two doses; 875 mg/125 BID for adults\ncefuroxime\n: 30mg/kg per day in children divided into two doses; 500mg BID for adults\nlevofloxacin\n750 mg once daily (adults or adolescents only)\nmoxifloxacin\n400 mg once daily (adults or adolescents only)\ngemifloxacin\n320 mg once daily (adults or adolescents only)",
+          "tables": []
+        },
+        "Vaccination_management": {
+          "text": "4 doses of PCV13 before 15 months\nPPSV23 at least 8 weeks after last PCV13, first at age 2\n2nd dose of PPSV23 3 years after first\n(if patient is >6years and has not received PCV13 or PPSV23, dose 1 time with PCV13 then dose with PPSV23 8 weeks later)\n(if patient is >6years but <18 years and has not received PCV13 but has received PPSV23, dose 1 time with PCV13 at least 8 weeks after last PPSV23)\n(if patient is >18 years and has not received PCV13 but has received PPSV23, dose 1 time with PCV13 at least 1 year after last PPSV23)\nRedose PPSV23 every 5 years\nHib conjugate vaccine for all unvaccinated patients above the age of 5 years\ninactivated influenza vaccine yearly\nNeisseria meningitidis vaccine for asplenic adults\n[1]",
+          "tables": []
+        },
+        "Prophylaxis": {
+          "text": "Daily\nPenicillin VK\nor\namoxicillin\nfor children up to age of 5 or for 1 year following splenectomy\npotentially up to age of 18 for highly immunocompromised individuals\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        }
+      ]
+    },
+    "Sepsis": {
+      "text": "30mL/kg fluids\nbroad spectrum antibiotics appropriate for suspected infection\noverwhelming majority of cases are from\nstreptococcus",
+      "subsections": {
+        "Fever_(no_sepsis)": {
+          "text": "treat empirically with antibiotics\namoxicillin-clavulanate\n: 90mg/kg amox per day in children divided into two doses; 875 mg/125 BID for adults\ncefuroxime\n: 30mg/kg per day in children divided into two doses; 500mg BID for adults\nlevofloxacin\n750 mg once daily (adults or adolescents only)\nmoxifloxacin\n400 mg once daily (adults or adolescents only)\ngemifloxacin\n320 mg once daily (adults or adolescents only)",
+          "tables": []
+        },
+        "Vaccination_management": {
+          "text": "4 doses of PCV13 before 15 months\nPPSV23 at least 8 weeks after last PCV13, first at age 2\n2nd dose of PPSV23 3 years after first\n(if patient is >6years and has not received PCV13 or PPSV23, dose 1 time with PCV13 then dose with PPSV23 8 weeks later)\n(if patient is >6years but <18 years and has not received PCV13 but has received PPSV23, dose 1 time with PCV13 at least 8 weeks after last PPSV23)\n(if patient is >18 years and has not received PCV13 but has received PPSV23, dose 1 time with PCV13 at least 1 year after last PPSV23)\nRedose PPSV23 every 5 years\nHib conjugate vaccine for all unvaccinated patients above the age of 5 years\ninactivated influenza vaccine yearly\nNeisseria meningitidis vaccine for asplenic adults\n[1]",
+          "tables": []
+        },
+        "Prophylaxis": {
+          "text": "Daily\nPenicillin VK\nor\namoxicillin\nfor children up to age of 5 or for 1 year following splenectomy\npotentially up to age of 18 for highly immunocompromised individuals\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "amoxicillin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin-clavulanate"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        }
+      ]
+    },
+    "Vaccination_management": {
+      "text": "4 doses of PCV13 before 15 months\nPPSV23 at least 8 weeks after last PCV13, first at age 2\n2nd dose of PPSV23 3 years after first\n(if patient is >6years and has not received PCV13 or PPSV23, dose 1 time with PCV13 then dose with PPSV23 8 weeks later)\n(if patient is >6years but <18 years and has not received PCV13 but has received PPSV23, dose 1 time with PCV13 at least 8 weeks after last PPSV23)\n(if patient is >18 years and has not received PCV13 but has received PPSV23, dose 1 time with PCV13 at least 1 year after last PPSV23)\nRedose PPSV23 every 5 years\nHib conjugate vaccine for all unvaccinated patients above the age of 5 years\ninactivated influenza vaccine yearly\nNeisseria meningitidis vaccine for asplenic adults\n[1]",
+      "subsections": {
+        "Prophylaxis": {
+          "text": "Daily\nPenicillin VK\nor\namoxicillin\nfor children up to age of 5 or for 1 year following splenectomy\npotentially up to age of 18 for highly immunocompromised individuals\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "Daily\nPenicillin VK\nor\namoxicillin\nfor children up to age of 5 or for 1 year following splenectomy\npotentially up to age of 18 for highly immunocompromised individuals\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin VK",
+          "url": "https://wikem.org/wiki/Penicillin_VK"
+        },
+        {
+          "text": "amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Based on presenting complaint/illness (asplenia by itself is not an indication for admission)\nConsider admitting asplenic patients presenting with fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaccination schedule\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaccination schedule",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    }
+  }
+}

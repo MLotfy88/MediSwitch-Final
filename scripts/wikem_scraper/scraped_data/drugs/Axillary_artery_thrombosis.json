@@ -1,0 +1,96 @@
+{
+  "drug_name": "Axillary_artery_thrombosis",
+  "url": "https://wikem.org/wiki/Axillary_artery_thrombosis",
+  "scraped_at": "2026-01-10T07:48:23.210146",
+  "sections": {
+    "Background": {
+      "text": "Axillary artery thrombosis may occur secondary to multiple mechanisms:\nThoracic outlet compression from cervical ribs, anomalous fibrous bands, or scalene muscle hypertrophy\nAbduction and external rotation of the upper extremity resulting in compression, contusion, and subsequent thrombosis of the artery by the humeral head [such as in baseball pitchers]\nDistal embolization, such as from an aneurysmal subclavian artery\nThe second portion of the artery may be compressed and occluded by the pectoralis minor [“hyperabduction syndrome”]\nSequela of direct arterial injury [such as penetrating injuries, displaced humeral neck fractures, arterial intimal tears]\nRarely, anterior shoulder dislocation may lead to thrombosis\nImproper use of crutches may cause axillary artery aneurysm and subsequent thrombosis",
+      "subsections": {
+        "Anatomy": {
+          "text": "Continuation of the subclavian artery\nDefined by the lateral border of the first rib to the inferior border of teres major muscle\nContinues as the brachial artery\nAxillary vein runs medial to the artery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anatomy": {
+      "text": "Continuation of the subclavian artery\nDefined by the lateral border of the first rib to the inferior border of teres major muscle\nContinues as the brachial artery\nAxillary vein runs medial to the artery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms of vascular insufficiency:\nFatigue of the extremity\npallor\npoikilothermia\npain\nparaesthesias\npulselessness/diminished pulses (radial, ulnar)\nBlood pressure discrepancy between the upper extremities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Arterial compression without thrombosis\nThrombosis proximal or distal to the axillary artery\nArterial dissection\nVasculitides",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Physical_Exam": {
+      "text": "Examination findings of vascular insufficiency (see above)\nPulse discrepancy between upper extremities\nBlood pressure discrepancy between upper extremities\nMay require Doppler to detect pulse\nPotentially, distal ischemic infarcts from thrombus embolization",
+      "subsections": {
+        "Workup": {
+          "text": "Labs: Coagulation studies\nImaging: Duplex scan, Arteriography",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Labs: Coagulation studies\nImaging: Duplex scan, Arteriography",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Vascular Consult:\nDirect thrombolysis followed by oral anticoagulation\nSurgical exploration may be indicated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Distal ischemia of upper extremity (neurovascular compromise)\nDistal embolization of thrombus\nCompartment syndrome of upper extremity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Paget-Schroetter syndrome\nDVT\nSuperior vena cava syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paget-Schroetter syndrome",
+          "url": "https://wikem.org/wiki/Paget-Schroetter_syndrome"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rohrer, Michael J. et al.  Axillary artery compression and thrombosis in throwing athletes. Journal of Vascular Surgery, Volume 11, Issue 6, 761 – 769.\nHayes JM, Van Winkle GN. Axillary artery injury with minimally displaced fracture of the neck of the humerus. J Trauma. 1983 May;23(5):431-3.\nDuwayri, Yazan M. et al. Positional compression of the axillary artery causing upper extremity thrombosis and embolism in the elite overhead throwing athlete. Journal of Vascular Surgery, Volume 53, Issue 5, 1329 – 1340.\nPopescu, D., et.al. Axillary arterial thrombosis secondary to anterior shoulder dislocation. Acta orthopaedica Belgica (Impact Factor: 0.65). 11/2006; 72(5):637-40.\nWheeless, C.R. Axillary Artery. Wheeless’ Textbook of Orthopaedics. Last updated 12/15/11. <\nhttp://www.wheelessonline.com/ortho/axillary_artery\n>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

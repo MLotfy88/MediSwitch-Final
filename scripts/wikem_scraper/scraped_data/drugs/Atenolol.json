@@ -1,0 +1,205 @@
+{
+  "drug_name": "Atenolol",
+  "url": "https://wikem.org/wiki/Atenolol",
+  "scraped_at": "2026-01-10T07:48:13.362710",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta blocker\nDosage Forms: tablet\nDosage Strengths: 25, 50, 100mg\nRoutes of Administration: PO\nCommon Trade Names: Tenormin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "50-100mg PO QD, Start 50mg PO QD\nMax: 100mg/day",
+          "tables": []
+        },
+        "Stable_angina": {
+          "text": "50-200mg PO QD, Start 50mg PO QD\nMax: 200mg/day",
+          "tables": []
+        },
+        "Cardiovascular_event_prevention,_post-MI": {
+          "text": "100mg/day PO divided QD-bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension": {
+      "text": "50-100mg PO QD, Start 50mg PO QD\nMax: 100mg/day",
+      "subsections": {
+        "Stable_angina": {
+          "text": "50-200mg PO QD, Start 50mg PO QD\nMax: 200mg/day",
+          "tables": []
+        },
+        "Cardiovascular_event_prevention,_post-MI": {
+          "text": "100mg/day PO divided QD-bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Stable_angina": {
+      "text": "50-200mg PO QD, Start 50mg PO QD\nMax: 200mg/day",
+      "subsections": {
+        "Cardiovascular_event_prevention,_post-MI": {
+          "text": "100mg/day PO divided QD-bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiovascular_event_prevention,_post-MI": {
+      "text": "100mg/day PO divided QD-bid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension_2": {
+          "text": "1-2mg/kg PO QD, Start 0.8-1mg/kg PO QD\nMax: 2mg/kg/day",
+          "tables": []
+        },
+        "Supraventricular_arrhythmias": {
+          "text": "0.3-2mg/kg PO QD\nMax: 2mg/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension_2": {
+      "text": "1-2mg/kg PO QD, Start 0.8-1mg/kg PO QD\nMax: 2mg/kg/day",
+      "subsections": {
+        "Supraventricular_arrhythmias": {
+          "text": "0.3-2mg/kg PO QD\nMax: 2mg/kg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Supraventricular_arrhythmias": {
+      "text": "0.3-2mg/kg PO QD\nMax: 2mg/kg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Possibly unsafe\nRenal Dosing\nAdult: CrCl 10-50: decrease dose 50%, give q48h, max 50mg/day; CrCl<10: decrease dose 50-70%, give q96h, max 25mg/day; HD: give dose after dialysis, no supplement; PD: no supplement\nPediatric: CrCl 30-50: max 1mg/kg up to 50mg q24h; CrCl<30: max 1mg/kg up to 25mg q24h or up to 50mg q48h; HD: give dose after dialysis, no supplement; PD: no supplement\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nsinus bradycardia\n2nd or 3rd degree AV block\nheart failure, uncompensated\ncardiogenic shock\nsick sinus syndrome with out pacemaker\npheochromocytoma, untreated\navoid abrupt withdrawal\ncaution if peripheral vascular disease\ncaution if bronchospastic disease\ncaution if major surgery\ncaution if diabetes mellitus\ncaution if thyroid disorder\ncaution if WPW syndrome\ncaution if renal impairment\ncaution if pregnancy\ncaution if breastfeeding\ncaution if myasthenia gravis\ncaution if severe anaphylactic reaction history\ncaution in elderly patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CHF\nbradycardia\n, severe\nheart block\nangina exacerbation if abrupt discontinuation\nMyocardial infarction\nif abrupt discontinuation\nventricular arrhythmia during treatment and if abruptly discontinue\nRaynaud phenomenon\nbronchospasm\nhypersensitivity reaction\nlupus erythematosus",
+          "tables": []
+        },
+        "Common": {
+          "text": "bradycardia\nhypotension\nfatigue\ndizziness\ncold extremities\ndepression\ndyspnea\nhypotension, orthostatic\nleg pain\nbronchospasm\nlightheadedness\nlethargy\ndiarrhea\nnausea\nvertigo\ndrowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "CHF\nbradycardia\n, severe\nheart block\nangina exacerbation if abrupt discontinuation\nMyocardial infarction\nif abrupt discontinuation\nventricular arrhythmia during treatment and if abruptly discontinue\nRaynaud phenomenon\nbronchospasm\nhypersensitivity reaction\nlupus erythematosus",
+      "subsections": {
+        "Common": {
+          "text": "bradycardia\nhypotension\nfatigue\ndizziness\ncold extremities\ndepression\ndyspnea\nhypotension, orthostatic\nleg pain\nbronchospasm\nlightheadedness\nlethargy\ndiarrhea\nnausea\nvertigo\ndrowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        }
+      ]
+    },
+    "Common": {
+      "text": "bradycardia\nhypotension\nfatigue\ndizziness\ncold extremities\ndepression\ndyspnea\nhypotension, orthostatic\nleg pain\nbronchospasm\nlightheadedness\nlethargy\ndiarrhea\nnausea\nvertigo\ndrowsiness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6-7h\nMetabolism: CYP450\nExcretion: urine 40-50%, feces 50%\nMechanism of Action: selectively antagonizes beta-1 adrenergic receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta-blockers\nBeta-blocker toxicity\nAntiarrhythmics\nAntihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    }
+  }
+}

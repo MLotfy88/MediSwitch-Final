@@ -1,0 +1,457 @@
+{
+  "drug_name": "Ataxia_(peds)",
+  "url": "https://wikem.org/wiki/Ataxia_(peds)",
+  "scraped_at": "2026-01-10T07:48:12.561544",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nataxia\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Any disturbance in coordination of movement\nMost cases in ED will be acute (<72h), but can also be episodic or chronic\nEtiology usually benign in previously healthy child\nMost cases will be postinfectious cerebellitis, drug ingestion, or\nGuillain Barre",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain Barre",
+          "url": "https://wikem.org/wiki/Guillain_Barre"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Unsteady gait in all cases\nPostinfectious cerebellitis: 1-3 weeks post\nURI\nlike illness or immunization, truncal ataxia and gait instability, normal mental status, normal vitals, ONLY ataxia\nGuillain Barre\nextremity ataxia more than truncal ataxia, areflexia or hyporeflexia,\nrespiratory failure\npossible\nDrug ingestion:\naltered mental status\n, eye findings (\nnystagmus\n)\nIntracranial mass\n:\nheadache\n,\nvomiting\n, gradual onset,\nvisual changes\n,\npapilledema\n,\nfocal neuro deficits\nMeningitis\n/\nEncephalitis\nfever\n, meningismus,\nbulging fontanelle\n,\nrash\n,\naltered mental status\n,\nseizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Guillain Barre",
+          "url": "https://wikem.org/wiki/Guillain_Barre"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "visual changes",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "focal neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "bulging fontanelle",
+          "url": "https://wikem.org/wiki/Bulging_fontanelle"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Systemic conditions\nIntoxications with diminished alertness\nEthanol\nSedative/hypnotic toxicity\nToxic alcohols\nGHB\nBenzodiazepine toxicity\nTCA toxicity\nAntipsychotic toxicity\nInhalant abuse\n,\nhydrocarbon toxicity\nPentobarbital\nChloral hydrate toxicity\nMarijuana toxicity\nPhencyclidine toxicity\nIntoxications with relatively preserved alertness\nPhenytoin\n,\nfosphenytoin\n,\nKeppra\nCarbamazepine\n,\noxcarbazepine\nValproic acid\nLead, organic mercurials\nCarbon monoxide\nAcute radiation syndrome\nLithium toxicity\nMushroom toxicity\nLacosamide\nArsenic toxicity\nGabapentin\nMarijuana toxicity\nPhencyclidine toxicity\nLindane\nVitamin A toxicity\nOther metabolic disorders\nHyponatremia\nHypernatremia\nHypomagnesemia\nInborn errors of metabolism\nWernicke disease\nVitamin B7 deficiency\nVitamin E deficiency\nDisorders predominantly of the nervous system\nConditions affecting predominantly one region of the CNS\nHemorrhage\n,\nvertebral and carotid artery dissection\nInfarction\nLateral medullary syndrome\nDegenerative changes\nAbscess\nBrain tumor\nHead trauma\nHydrocephalus\n,\nnormal pressure hydrocephalus\n,\nVP shunt malfunction\nParkinson's disease\nPrion disease\nHeat stroke\nLeukostasis and hyperleukocytosis\nCervical spondylosis\nPosterior column disorders\nConditions affecting predominantly the peripheral nervous system\nPeripheral neuropathy\nVestibulopathy (e.g.\nvestibular neuritis\n,\nlabyrinthitis\n)\nGuillain-Barre\nMiscellaneous\nAcute mountain sickness\nSyphilis\nTick paralysis\nCiguatera\n,\nneurotoxic shellfish poisoning\nAfrican trypanosomiasis\nTympanic membrane rupture\nLegionella\nParaneoplastic syndromes\nPostinfectious cerebellitis (acute cerebellar ataxia)\nPost vaccination (\nvaricella\n)\nVasculitis\nEpilepsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol"
+        },
+        {
+          "text": "Sedative/hypnotic toxicity",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "GHB",
+          "url": "https://wikem.org/wiki/GHB"
+        },
+        {
+          "text": "Benzodiazepine toxicity",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Antipsychotic toxicity",
+          "url": "https://wikem.org/wiki/Antipsychotic_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        },
+        {
+          "text": "Chloral hydrate toxicity",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Marijuana toxicity",
+          "url": "https://wikem.org/wiki/Marijuana_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Keppra",
+          "url": "https://wikem.org/wiki/Keppra"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_toxicity"
+        },
+        {
+          "text": "oxcarbazepine",
+          "url": "https://wikem.org/wiki/Oxcarbazepine"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid_toxicity"
+        },
+        {
+          "text": "Lead, organic mercurials",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Marijuana toxicity",
+          "url": "https://wikem.org/wiki/Marijuana_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Lindane",
+          "url": "https://wikem.org/wiki/Lindane"
+        },
+        {
+          "text": "Vitamin A toxicity",
+          "url": "https://wikem.org/wiki/Vitamin_A_toxicity"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Wernicke disease",
+          "url": "https://wikem.org/wiki/Wernicke_disease"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Infarction",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Lateral medullary syndrome",
+          "url": "https://wikem.org/wiki/Lateral_medullary_syndrome"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "normal pressure hydrocephalus",
+          "url": "https://wikem.org/wiki/Normal_pressure_hydrocephalus"
+        },
+        {
+          "text": "VP shunt malfunction",
+          "url": "https://wikem.org/wiki/VP_shunt_malfunction"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Prion disease",
+          "url": "https://wikem.org/wiki/Prion_disease"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Posterior column disorders",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "Acute mountain sickness",
+          "url": "https://wikem.org/wiki/Acute_mountain_sickness"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "African trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_trypanosomiasis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Paraneoplastic syndromes",
+          "url": "https://wikem.org/wiki/Paraneoplastic_syndromes"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Epilepsy",
+          "url": "https://wikem.org/wiki/Epilepsy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "tox screen\n, alcohol level\nfingerstick glucose\ndrug levels as indicated (ex.\nantiepileptic\nlevel if possible ingestion)\nHead CT\nif concern for trauma or mass lesion\nLumbar Puncture\nin most cases unless etiology is known\nEEG if possibly\nseizure\nrelated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tox screen",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "antiepileptic",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Lumbar Puncture",
+          "url": "https://wikem.org/wiki/Lumbar_Puncture"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Management": {
+      "text": "most postinfectious cerebellitis self limited, resolve within 3 months without sequelae\ntox ingestion: supportive. social work or DCFS as indicated\nGuillain Barre\nadmit for IVIG, observation of respiratory status\nMeningitis\n/\nEncephalitis\nadmit, IV antibiotic, see meningitis section\nintracranial mass\n: neurosurgery consultation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain Barre",
+          "url": "https://wikem.org/wiki/Guillain_Barre"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "consider discharge home mildly symptomatic, well appearing child with history and exam consistent with postinfectious cerebellitis with excellent follow-up (give injury prevention precautions)\notherwise, admission indicated for further workup, observation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ataxia\nWeakness\nCerebellar Stroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Cerebellar Stroke",
+          "url": "https://wikem.org/wiki/Cerebellar_Stroke"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "drug_name": "Autonomic_dysreflexia",
+  "url": "https://wikem.org/wiki/Autonomic_dysreflexia",
+  "scraped_at": "2026-01-10T07:48:21.074206",
+  "sections": {
+    "Background": {
+      "text": "Syndrome of massive imbalanced reflex sympathetic discharge from strong stimulus below level of spinal lesion\nCarotid and aortic baroreceptors result in strong vagal response with bradycardia and vasodilation above level of injury, but cannot inhibit sympathetics below level of injury -\nhypertension\nremains dysregulated by the CNS\nOccurring in patients with\nspinal cord injury\n(SCI) above the splanchnic sympathetic outflow (T5-T6)\nSplanchnic innervation from T5-T9\nLesions below T6 allow descending inhibitory PSNS control to decrease splanchnic tone, preventing hypertension\nMedical emergency given dangerous sequelae of elevated blood pressure",
+      "subsections": {
+        "Common_triggers_(due_to_strong_stimuli_below_level_of_injury)": {
+          "text": "Bladder distension\n~80%\nBowel distension,\nfecal impaction\n~15%\nPressure ulcers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Bladder distension",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Pressure ulcers",
+          "url": "https://wikem.org/wiki/Decubitus_ulcers"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Possible to be asymptomatic\nA sudden significant rise in systolic and diastolic blood pressures\nUsually associated with\nbradycardia\nSBP >140 mm Hg (in a patient with SCI above T6)",
+      "subsections": {
+        "Unopposed_PSNS_above_lesion": {
+          "text": "Blurry vision\n, miosis\nHeadaches\nAnxiety\nBradycardia\nassociated with rises in BP\nProfuse sweating/flushing (especially in the face, neck, and shoulders)\nNasal congestion",
+          "tables": []
+        },
+        "Unopposed_SNS_below_lesion": {
+          "text": "Pale, cool skin\nPiloerection, goose bumps",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Blurry vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "Headaches",
+          "url": "https://wikem.org/wiki/Headaches"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Unopposed_PSNS_above_lesion": {
+      "text": "Blurry vision\n, miosis\nHeadaches\nAnxiety\nBradycardia\nassociated with rises in BP\nProfuse sweating/flushing (especially in the face, neck, and shoulders)\nNasal congestion",
+      "subsections": {
+        "Unopposed_SNS_below_lesion": {
+          "text": "Pale, cool skin\nPiloerection, goose bumps",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blurry vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "Headaches",
+          "url": "https://wikem.org/wiki/Headaches"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        }
+      ]
+    },
+    "Unopposed_SNS_below_lesion": {
+      "text": "Pale, cool skin\nPiloerection, goose bumps",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Hypertension should abate once offending agent corrected (normal = SBP 90-110 mmHg)\nRemove offending agent\nCheck urinary catheter for any blockage or twisting\nIf cath blocked, gently irrigate bladder with NS at body temp\nIf cath is draining, suspect fecal impaction and check rectum for stool with lidocaine jelly lube - gentle disimpaction to follow\nCareful inspection of nonsensate areas to identify the source of painful stimuli\ne.g. catheter, restrictive clothing, leg bag straps, abdominal supports, orthoses\nDirectly lower blood pressure (if #1 fails)\nPlace in an upright position to allow gravitational pooling of blood to reduce BP\nBP meds if SBP > 150\nUse short-acting (since offending agent must be corrected); use with caution in CAD\nNifedipine\nimmediate release\nNitroglycerine\nsublingual",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "Nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Spinal Trauma (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal Trauma (Main)",
+          "url": "https://wikem.org/wiki/Spinal_Trauma_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Gunduz H, Binak DF. Autonomic dysreflexia: an important cardiovascular complication in spinal cord injury patients. Cardiol J. 2012;19(2):215-9.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

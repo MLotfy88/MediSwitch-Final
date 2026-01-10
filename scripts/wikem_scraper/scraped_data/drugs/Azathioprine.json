@@ -1,0 +1,227 @@
+{
+  "drug_name": "Azathioprine",
+  "url": "https://wikem.org/wiki/Azathioprine",
+  "scraped_at": "2026-01-10T07:48:26.901778",
+  "sections": {
+    "Administration": {
+      "text": "Type: immunosuppressant\nDosage Forms: tablet, powder for injection (IV form unavailable in US)\nDosage Strengths: tablet: 50, 75, 100mg; powder for injection: 100mg/vial\nRoutes of Administration: PO, IV (unavailable in US)\nCommon Trade Names: Azasan, Imuran",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Kidney_transplant_rejection_prophylaxis": {
+          "text": "1-3mg/kg PO QD\nStart: 3-5mg/kg PO x1 up to 3 days before transplant; Info: transplant protocols may vary",
+          "tables": []
+        },
+        "Rheumatoid_arthritis,_severe": {
+          "text": "1-2.5mg/kg/day PO divided QD-bid\nStart: 1mg/kg/day PO divided QD-bid; Max: 2.5mg/kg/day; Info: after 6-8wk may increase 0.5mg/kg/day q4wk",
+          "tables": []
+        },
+        "Crohns_Disease": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance and fistulizing disease, steroid-sparing effects",
+          "tables": []
+        },
+        "Ulcerative_colitis": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance, steroid-sparing effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Kidney_transplant_rejection_prophylaxis": {
+      "text": "1-3mg/kg PO QD\nStart: 3-5mg/kg PO x1 up to 3 days before transplant; Info: transplant protocols may vary",
+      "subsections": {
+        "Rheumatoid_arthritis,_severe": {
+          "text": "1-2.5mg/kg/day PO divided QD-bid\nStart: 1mg/kg/day PO divided QD-bid; Max: 2.5mg/kg/day; Info: after 6-8wk may increase 0.5mg/kg/day q4wk",
+          "tables": []
+        },
+        "Crohns_Disease": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance and fistulizing disease, steroid-sparing effects",
+          "tables": []
+        },
+        "Ulcerative_colitis": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance, steroid-sparing effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rheumatoid_arthritis,_severe": {
+      "text": "1-2.5mg/kg/day PO divided QD-bid\nStart: 1mg/kg/day PO divided QD-bid; Max: 2.5mg/kg/day; Info: after 6-8wk may increase 0.5mg/kg/day q4wk",
+      "subsections": {
+        "Crohns_Disease": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance and fistulizing disease, steroid-sparing effects",
+          "tables": []
+        },
+        "Ulcerative_colitis": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance, steroid-sparing effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Crohns_Disease": {
+      "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance and fistulizing disease, steroid-sparing effects",
+      "subsections": {
+        "Ulcerative_colitis": {
+          "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance, steroid-sparing effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ulcerative_colitis": {
+      "text": "100-250mg PO QD\nStart: 50mg PO QD; Max: 2.5mg/kg/day; Info: for induction or remission maintenance, steroid-sparing effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Kidney_transplant_rejection_prophylaxis_2": {
+          "text": "1-3mg/kg PO QD\nStart: 3-5mg/kg PO x1 up to 3 days before transplant; Info: transplant protocols may vary",
+          "tables": []
+        },
+        "Juvenile_idiopathic_arthritis,_severe": {
+          "text": "1-2.5mg/kg/day PO divided QD-bid\nStart: 1mg/kg/day PO divided QD-bid; Max: 2.5mg/kg/day; Info: after 6-8wk may increase 0.5mg/kg/day q4wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Kidney_transplant_rejection_prophylaxis_2": {
+      "text": "1-3mg/kg PO QD\nStart: 3-5mg/kg PO x1 up to 3 days before transplant; Info: transplant protocols may vary",
+      "subsections": {
+        "Juvenile_idiopathic_arthritis,_severe": {
+          "text": "1-2.5mg/kg/day PO divided QD-bid\nStart: 1mg/kg/day PO divided QD-bid; Max: 2.5mg/kg/day; Info: after 6-8wk may increase 0.5mg/kg/day q4wk",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Juvenile_idiopathic_arthritis,_severe": {
+      "text": "1-2.5mg/kg/day PO divided QD-bid\nStart: 1mg/kg/day PO divided QD-bid; Max: 2.5mg/kg/day; Info: after 6-8wk may increase 0.5mg/kg/day q4wk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Pregnancy Category D\nLactation risk\n: possibly unsafe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: CrCl 10-50: decrease dose 25%; CrCl <10: decrease dose 50%; HD: give 0.25mg/kg supplement; PD: not defined\nPediatric: CrCl 10-50: decrease dose 25% or give q36h; CrCl <10: decrease dose 50% or give q48h; HD: give supplement; PD: not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: not defined; caution advised\nPediatric: not defined; caution advised",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: CrCl 10-50: decrease dose 25%; CrCl <10: decrease dose 50%; HD: give 0.25mg/kg supplement; PD: not defined\nPediatric: CrCl 10-50: decrease dose 25% or give q36h; CrCl <10: decrease dose 50% or give q48h; HD: give supplement; PD: not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: not defined; caution advised\nPediatric: not defined; caution advised",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: not defined; caution advised\nPediatric: not defined; caution advised",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\npregnancy (RA use)\ncaution if renal impairment\ncaution if prior alkylating agents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "leukopenia\nthrombocytopenia\nanemia\nmyelosuppression\nimmunosuppression\ninfection\nPML\nGI hypersensitivity reaction\npancreatitis\nhepatotoxicity\nhepatic veno-occlusive disease\nlymphoma\nmalignancy\nacute febrile neutrophilic dermatosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "leukopenia\nthrombocytopenia\nanemia\ninfection\nnausea\nvomiting\nanorexia\ndiarrhea\nALT, AST elevated\nmalaise\nmyalgia\nfever\nrash\nmalignancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "leukopenia\nthrombocytopenia\nanemia\nmyelosuppression\nimmunosuppression\ninfection\nPML\nGI hypersensitivity reaction\npancreatitis\nhepatotoxicity\nhepatic veno-occlusive disease\nlymphoma\nmalignancy\nacute febrile neutrophilic dermatosis",
+      "subsections": {
+        "Common": {
+          "text": "leukopenia\nthrombocytopenia\nanemia\ninfection\nnausea\nvomiting\nanorexia\ndiarrhea\nALT, AST elevated\nmalaise\nmyalgia\nfever\nrash\nmalignancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "leukopenia\nthrombocytopenia\nanemia\ninfection\nnausea\nvomiting\nanorexia\ndiarrhea\nALT, AST elevated\nmalaise\nmyalgia\nfever\nrash\nmalignancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5 hours\nMetabolism: liver extensively, erythrocytes; CYP450\nExcretion: bile, urine (1-2% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts as a prodrug for mercaptopurine, inhibiting an enzyme required for the synthesis of DNA. Thus, it most strongly affects proliferating cells, such as the T cells and B cells of the immune system",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transplant complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        }
+      ]
+    },
+    "References": {
+      "text": "A randomised clinical trial comparing prednisone and azathioprine in myasthenia gravis. Results of the second interim analysis. Myasthenia Gravis Clinical Study Group. J Neurol Neurosurg Psychiatry. 1993;56(11):1157-1163. [PubMed 8229026]\nAmerican College of Rheumatology Ad Hoc Committee on Clinical Guidelines, “Guidelines for Monitoring Drug Therapy in Rheumatoid Arthritis,” Arthritis Rheum, 1996, 39(5):723-31. [PubMed 8639168]\nAstey AV, Wakelin S, and Reynolds NJ, “Guidelines for Prescribing Azathioprine in Dermatology,” Br J Dermatol, 2004, 151(6):1123-32. [PubMed 15606506]\nArmuzzi A, Felice C, Papa A, et al. Prevention of postoperative recurrence with azathioprine or infliximab in patients with Crohn's disease: an open-label pilot study. J Crohns Colitis. 2013;7(12):e623-e629. doi: 10.1016/j.crohns.2013.04.020. [PubMed 23810678]\nArnold DM, Nazi I, Santos A, et al, “Combination Immunosuppressant Therapy for Patients With Chronic Refractory Immune Thrombocytopenic Purpura,” Blood, 2010, 115(1):29-31. [PubMed 19897578]\nAronoff GR, Bennett WM, Berns JS, et al, Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children, 5th ed. Philadelphia, PA: American College of Physicians; 2007, p 97, 177.\nAzasan (azathioprine) [prescribing information]. Bridgewater, NJ: Salix Pharmaceuticals; March 2019.\nAzathioprine injection [prescribing information]. Eatontown, NJ: West-Ward Pharmaceuticals; August 2015.\nBaum D, Bernstein D, Starnes VA, et al, “Pediatric Heart Transplantation at Stanford: Results of a 15-Year Experience,” Pediatrics, 1991, 88(2):203-14. [PubMed 1861916]\nBeissert S, Werfel T, Frieling U, et al, \"A Comparison of Oral Methylprednisolone Plus Azathioprine or Mycophenolate Mofetil for the Treatment of Pemphigus,\" Arch Dermatol, 2006, 142(11):1447-54. [PubMed 17116835]\nepocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

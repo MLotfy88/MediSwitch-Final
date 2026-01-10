@@ -1,0 +1,88 @@
+{
+  "drug_name": "Austere_peritoneal_dialysis",
+  "url": "https://wikem.org/wiki/Austere_peritoneal_dialysis",
+  "scraped_at": "2026-01-10T07:48:24.558344",
+  "sections": {
+    "Overview": {
+      "text": "Improvised PD has been done in resource-limited settings such as the earthquakes in Turkey in 1999 and Haiti in 2010\nIndications in the austere setting are the same in non-austere settings\nConsider contacting a nephrologist via telemedicine if available\nEffective for\nhyperkalemia\n, though much slower than hemodialysis\nRelatively ineffective for\nuremia\nand eliminating BUN",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "See indications in\nAKI\nHowever, there are certain situations that are more likely in disaster or combat situations:\nRhabdomyolysis\nfrom crush injuries\nSevere pediatric\ndehydration\nand AKI\nToxin clearance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications\nRelative contraindications include:\nRecent abdominal surgery\nDiaphragmatic injury with communication into thoracic space\nOverlying diffuse abdominal wall infection\nKnown severe peritoneal adhesions\nPatients with severe respiratory failure that may not do well with intraperitoneal fluid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Types of possible peritoneal catheters:\nFlexible Tenckhoff catheter is gold standard, but not available in austere setting\nRigid trocar, non-tunneled catheter\nImprovised: NGTs, suprapubic catheters, pediatric chest tubes, large bore central venous catheters (\"Cordis\"), pigtail catheters, 8-10 Fr Foley catheters\nScalpel\nLidocaine\nSterile preparation, sterile equipment\nUltrasound",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Consider giving preprocedural antibiotics such as ertapenam before start\nFungal coverage where suspected to be an issue\nEnsure sterile technique in creating dialysate\nAdditionally, antibiotics such as cephalosporins can be added to each PD bag\nImprovised flexible\nLocal anesthesia, then midline incise 2 cm below umbilicus\nBlunt dissect to linea alba, then puncture through linea alba with rigid catheter, and insert a small volume of dialysate under US guidance\nInsert a guidewire through the initial catheter, then dilate using Seldinger technique to final catheter\nRigid catheter\nLocal anesthesia to area just lateral to umbilicus\nAdvance pointed trocar, directed caudal toward iliac fossa\nSee reference for dedicated tunneled PD catheter insertion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dialysate": {
+      "text": "Lactated Ringer's is the most readily available IVF and most similar to commercial dialysate fluid, but dextrose must be added to produce an osmotic dialysate\nIncreasing dextrose concentration increases volume removal for hypervolemic patients\nCommercial dialysates usually have 1.5-4.25% dextrose\nGenerally, dextrose concentrations increase 1% for every 20 mL of D50 per liter\n500 units of heparin per liter can prevent PD catheter obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Dialysis_Process": {
+      "text": "Attach threeway stop-cock to improvised catheter\nInfuse 1-2 L of dialysate in an adult, with dwell time of 2-4 hours, four times per day\nSmaller volume dwells of 500-1000 mL with 2-4 hours of dwell time may be more appropriate in the austere combat setting\nIn pediatrics, give 10-20 mL/kg of dialysate, with total exchange time of 60-90 minutes, with 30-40 minutes of dwell time\\\nVolume usage per day may range from 4 all the way to 70 L per day depending on targets of therapy\nDrainage is done by gravity or aspiration\nFrequently measure electrolytes and BUN/Cr, alongside collecting daily EKGs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Hemorrhage, bowel or solid organ injury\nPeritonitis\n, including fungal peritonitis not otherwise covered by prophylactic antibiotics\nDialysate leakage, especially in abdominal surgical patients with newly healing abdominal wounds\nHydrothorax\nCatheter obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        }
+      ]
+    },
+    "References": {
+      "text": "Gorbatkin C, Bass J, Finkelstein F, Gorbatkin S. Peritoneal Dialysis in Austere Environments: An Emergent Approach to Renal Failure Management. West J Emerg Med. 2018 May;19(3):548-556.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "drug_name": "Atrial_septal_defect",
+  "url": "https://wikem.org/wiki/Atrial_septal_defect",
+  "scraped_at": "2026-01-10T07:48:18.380815",
+  "sections": {
+    "Background": {
+      "text": "Many ASDs go undiagnosed in childhood\nFrom superior to inferior, ASDs occur in\n[1]\n:\nSinus venosus (5%)\nOstium secundum (75%), ostium primum (15-20%)\nVery rarely coronary sinus ASD\nSpontaneous closure in up to 40% of patients within the first 5 years of life\nBy 40s, patients may develop symptoms\n[2]\nSmall ASDs < 5 mm in diameter may not generate symptoms\n5-10 mm defects lead to symptoms in 4th and 5th decade of life\n> 10 mm defects present with symptoms in 3rd decade\nLV stiffness increases as a part of normal aging, impairing left heart diastolic filling\n[3]\n[4]\nIncreases left to right shunt across ASD\nProduces RA and RV volume overload\nMay predispose to paradoxical embolus, causing\nstroke\n,\nTIA\n,\nacute limb ischemia\n,\nmesenteric ischemia\n, etc.\n[5]\nRight to left shunt may occur during coughing, for example\nPulmonary hypertension\nproduces this shunting pattern even at rest\nUnlike ventricular septal defects, uncomplicated ASDs are not associated with high risk of bacterial endocarditis (lower turbulence and velocity of blood flow)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "acute limb ischemia",
+          "url": "https://wikem.org/wiki/Acute_limb_ischemia"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "A patient may be asymptomatic or have any of the following features:\nDyspnea on Exertion\nCHF\nPalpitations\nSyncope\nRight heart failure\nA. fib\nStroke\n(via an embolism)\nPulmonary hypertension\n, marker of late disease and increased mortality\n[6]\nEisenmenger syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "A. fib",
+          "url": "https://wikem.org/wiki/A._fib"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[7]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[7]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "ECG_Findings": {
+          "text": "An\nECG\nmay show the “crochetage” pattern (92% specific)—a notch near the apex of the R wave in inferior limb leads\n[8]\nLarge notches signify a larger shunt\nOther ECG findings\n(Incomplete\nright bundle branch block\n, very sensitive\n1st degree\nAV block\nAtrial flutter\nor\natrial fibrillation\nin ~20% of adults with ASDs requiring surgery\n[9]\nRight axis deviation\n(\npulmonary hypertension\n)",
+          "tables": []
+        },
+        "Echocardiography": {
+          "text": "Subcostal view preferred window, due to interatrial septum perpendicular to echo signal (apical four-chamber is parallel to ASD echo signal)\nClues to ASD\nHypermobile interatrial septum\nAbrupt septal irregularity\nRA and/or RV volume overload\nPulmonary artery dilation\nHigh pulmonary artery pressures\nTTE with Doppler can demonstrate most shunting\nAgitated saline with Valsalva maneuver to increase right to left shunting is more diagnostic\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Right axis deviation",
+          "url": "https://wikem.org/wiki/Right_axis_deviation"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "ECG_Findings": {
+      "text": "An\nECG\nmay show the “crochetage” pattern (92% specific)—a notch near the apex of the R wave in inferior limb leads\n[8]\nLarge notches signify a larger shunt\nOther ECG findings\n(Incomplete\nright bundle branch block\n, very sensitive\n1st degree\nAV block\nAtrial flutter\nor\natrial fibrillation\nin ~20% of adults with ASDs requiring surgery\n[9]\nRight axis deviation\n(\npulmonary hypertension\n)",
+      "subsections": {
+        "Echocardiography": {
+          "text": "Subcostal view preferred window, due to interatrial septum perpendicular to echo signal (apical four-chamber is parallel to ASD echo signal)\nClues to ASD\nHypermobile interatrial septum\nAbrupt septal irregularity\nRA and/or RV volume overload\nPulmonary artery dilation\nHigh pulmonary artery pressures\nTTE with Doppler can demonstrate most shunting\nAgitated saline with Valsalva maneuver to increase right to left shunting is more diagnostic\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "right bundle branch block",
+          "url": "https://wikem.org/wiki/Right_bundle_branch_block"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Right axis deviation",
+          "url": "https://wikem.org/wiki/Right_axis_deviation"
+        },
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "Echocardiography": {
+      "text": "Subcostal view preferred window, due to interatrial septum perpendicular to echo signal (apical four-chamber is parallel to ASD echo signal)\nClues to ASD\nHypermobile interatrial septum\nAbrupt septal irregularity\nRA and/or RV volume overload\nPulmonary artery dilation\nHigh pulmonary artery pressures\nTTE with Doppler can demonstrate most shunting\nAgitated saline with Valsalva maneuver to increase right to left shunting is more diagnostic\n[11]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Medical management of complications (Afib, pulmonary HTN, etc.)\nAvoid pregnancy and exertional activity in ASD complicated by\npulmonary hypertension\nIndications for ASD closure\nRight heart overload with RA or RV enlargement\nComplicated ASDs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If no acute complications → discharge with outpatient follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital heart disease\nHeart murmurs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Heart murmurs",
+          "url": "https://wikem.org/wiki/Heart_murmurs"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ECG Weekly Apr 4 2016",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

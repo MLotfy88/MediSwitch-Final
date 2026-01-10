@@ -1,0 +1,564 @@
+{
+  "drug_name": "Autoimmune_hepatitis/en",
+  "url": "https://wikem.org/wiki/Autoimmune_hepatitis/en",
+  "scraped_at": "2026-01-10T07:48:22.131377",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Hepatocellular inflammation caused by autoimmune pathology, ultimately leading to necrosis and cirrhosis\nPresentation may be acute or chronic, rarely presents as fulminant\nhepatic failure\nUsually affects women (~70%\n[1]\nbetween age 15-40 years\nOften occurs comorbidly with other autoimmune disorders (e.g. type 1\ndiabetes\n,\nthyroid disease\n,\ninflammatory bowel disease\n,\nSjögren\n's)\n3 subtypes of autoimmune hepatitis: types 1-3, with type 1 being the most common",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Findings of liver disease and systemic signs/symptoms of autoimmune disorders\nNausea/vomiting\n, diarrhea\nEpigastric pain\n,\nRUQ pain\nAnorexia\nJaundice\nAscites\n,\nSBP\n, edema\nPruritus\nFatigue\n, malaise,\nweakness\nArthralgia\n, myalgia\nSpider angiomata, hirsutism, amenorrhea\nChest pain\ndue to pleuritis\nWeight loss\nHepatosplenomegaly\nHepatic encephalopathy\nCoagulopathy\nGI bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Viral hepatitis\nAcute alcoholic hepatitis\n, alcoholic liver disease\nAcetaminophen toxicity\nand other drug-induced hepatotoxicity (\nMushroom toxicity\nIschemic hepatitis\nNon-alcoholic steatohepatitis\nCardiac cirrhosis\nPrimary biliary cirrhosis\nprimary sclerosing cholangitis\nBudd-Chiari\nAlpha1 anti-trypsin Deficiency\nCystic Fibrosis\nWilson's disease\nSarcoidosis",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[2]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        },
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[3]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[2]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[3]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Hepatic_Dysfunction": {
+      "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[3]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "LFTs\nALT/AST 1.5-50 times normal\nMild to moderate elevations in bilirubin and alk phos\nCBC\n+/- mild\nleukopenia\n,\n+/- normocytic or hemolytic\nanemia\n+/-\nthrombocytopenia\nBMP: evaluate for electrolyte derangements,\nhypoglycemia\n,\nhepatorenal syndrome\nPT/INR\nAmmonia if suspect\nhepatic encephalopathy\nParacentesis\nif suspect\nSBP\nConsider\nRUQ ultrasound\nand/or MRCP",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Evaluate for other causes of liver disease, if not previously diagnosed with autoimmune hepatitis:\nViral hepatitis\nserologies\nAcetaminophen\nlevel\nAutoantibodies: may have positive ANA, SMA, LKM-1, and/or anti-LC1\n[4]\n; ANA & SMA usually positive in type 1 autoimmune hepatitis, LJM-1 and atypical p-ANCA positive in type 2 and liver soluble antigen usually in type 3\nDefinitive diagnosis usually by liver biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "LFTs\nALT/AST 1.5-50 times normal\nMild to moderate elevations in bilirubin and alk phos\nCBC\n+/- mild\nleukopenia\n,\n+/- normocytic or hemolytic\nanemia\n+/-\nthrombocytopenia\nBMP: evaluate for electrolyte derangements,\nhypoglycemia\n,\nhepatorenal syndrome\nPT/INR\nAmmonia if suspect\nhepatic encephalopathy\nParacentesis\nif suspect\nSBP\nConsider\nRUQ ultrasound\nand/or MRCP",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Evaluate for other causes of liver disease, if not previously diagnosed with autoimmune hepatitis:\nViral hepatitis\nserologies\nAcetaminophen\nlevel\nAutoantibodies: may have positive ANA, SMA, LKM-1, and/or anti-LC1\n[4]\n; ANA & SMA usually positive in type 1 autoimmune hepatitis, LJM-1 and atypical p-ANCA positive in type 2 and liver soluble antigen usually in type 3\nDefinitive diagnosis usually by liver biopsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Evaluate for other causes of liver disease, if not previously diagnosed with autoimmune hepatitis:\nViral hepatitis\nserologies\nAcetaminophen\nlevel\nAutoantibodies: may have positive ANA, SMA, LKM-1, and/or anti-LC1\n[4]\n; ANA & SMA usually positive in type 1 autoimmune hepatitis, LJM-1 and atypical p-ANCA positive in type 2 and liver soluble antigen usually in type 3\nDefinitive diagnosis usually by liver biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Corticosteroids\n+/-\nAzathioprine\nManage complications, see:\nAscites\n,\nSBP\nUpper gastrointestinal bleed\nHepatorenal syndrome\nHepatic encephalopathy\nUltimately, may require transplant\nHepatology/Gastroenterology consult should be made",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute hepatitis\nCirrhosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

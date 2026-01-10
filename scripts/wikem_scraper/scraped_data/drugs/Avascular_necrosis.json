@@ -1,0 +1,364 @@
+{
+  "drug_name": "Avascular_necrosis",
+  "url": "https://wikem.org/wiki/Avascular_necrosis",
+  "scraped_at": "2026-01-10T07:48:20.538289",
+  "sections": {
+    "Background": {
+      "text": "Also called osteonecrosis, ischemic necrosis, bone infarction\nInterruption in vascular supply leads to death of osteocytes and marrow, necrosis, and (eventually) collapse of dead segment",
+      "subsections": {
+        "Nontraumatic": {
+          "text": "Sickle cell disease\nExogenous\ncorticosteroids\n, Cushing's disease\nCollagen vascular disease\n(e.g.\nSLE\n)\nChronic kidney disease (renal osteodystrophy), post-renal transplant\nPancreatitis\nRadiation therapy\nHIV\nCaisson Disease (aka dysbarism)\nLegg-Calve-Perthes disease\nSlipped capital femoral epiphysis\n(may be atraumatic or minor trauma)\nIdiopathic",
+          "tables": []
+        },
+        "Traumatic": {
+          "text": "Hip dislocation\nHigh risk if not reduced within 6h\nFemoral neck fracture\nMajor\ntalus fracture\n(talar head/neck)\nNavicular fracture\n(central part of bone is avascular)\nProximal humerus fracture\nRisk factors: 4 part fractures, head split, short calcar segments, disrupted medial hinge\nElbow fractures\nTrochlear fracture\nLateral\nor\nmedial epicondyle fracture\nLunate fracture\n,\nCapitate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Elbow fractures",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        },
+        {
+          "text": "Lateral",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        }
+      ]
+    },
+    "Causes/Risk_factors": {
+      "text": "",
+      "subsections": {
+        "Nontraumatic": {
+          "text": "Sickle cell disease\nExogenous\ncorticosteroids\n, Cushing's disease\nCollagen vascular disease\n(e.g.\nSLE\n)\nChronic kidney disease (renal osteodystrophy), post-renal transplant\nPancreatitis\nRadiation therapy\nHIV\nCaisson Disease (aka dysbarism)\nLegg-Calve-Perthes disease\nSlipped capital femoral epiphysis\n(may be atraumatic or minor trauma)\nIdiopathic",
+          "tables": []
+        },
+        "Traumatic": {
+          "text": "Hip dislocation\nHigh risk if not reduced within 6h\nFemoral neck fracture\nMajor\ntalus fracture\n(talar head/neck)\nNavicular fracture\n(central part of bone is avascular)\nProximal humerus fracture\nRisk factors: 4 part fractures, head split, short calcar segments, disrupted medial hinge\nElbow fractures\nTrochlear fracture\nLateral\nor\nmedial epicondyle fracture\nLunate fracture\n,\nCapitate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Collagen vascular disease",
+          "url": "https://wikem.org/wiki/Collagen_vascular_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Proximal humerus fracture",
+          "url": "https://wikem.org/wiki/Proximal_humerus_fracture"
+        },
+        {
+          "text": "Elbow fractures",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        },
+        {
+          "text": "Lateral",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Depends on cause and location",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sickle_cell_crisis": {
+          "text": "Vaso-occlusive pain crisis\nBony infarction\nDactylitis\nAvascular necrosis\nof femoral head\nAcute chest syndrome\nAsthma\nPulmonary hypertension\nGallbladder disease\nAcute hepatic sequestration\nInfection\nMeningitis\nPneumonia\nSeptic joint\nOsteomyelitis\nParvovirus B19\nSplenic sequestration\nCVA\nCerebral aneurysm and\nICH\nPriapism\nPapillary necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaso-occlusive pain crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_pain_crisis"
+        },
+        {
+          "text": "Dactylitis",
+          "url": "https://wikem.org/wiki/Dactylitis"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Splenic sequestration",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Sickle_cell_crisis": {
+      "text": "Vaso-occlusive pain crisis\nBony infarction\nDactylitis\nAvascular necrosis\nof femoral head\nAcute chest syndrome\nAsthma\nPulmonary hypertension\nGallbladder disease\nAcute hepatic sequestration\nInfection\nMeningitis\nPneumonia\nSeptic joint\nOsteomyelitis\nParvovirus B19\nSplenic sequestration\nCVA\nCerebral aneurysm and\nICH\nPriapism\nPapillary necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaso-occlusive pain crisis",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_pain_crisis"
+        },
+        {
+          "text": "Dactylitis",
+          "url": "https://wikem.org/wiki/Dactylitis"
+        },
+        {
+          "text": "Acute chest syndrome",
+          "url": "https://wikem.org/wiki/Acute_chest_syndrome"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Splenic sequestration",
+          "url": "https://wikem.org/wiki/Splenic_sequestration"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Priapism",
+          "url": "https://wikem.org/wiki/Priapism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain films generally first step\nFurther evaluation depends on cause/location",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ortho consult\nUsually\nsplint\n, non-weightbearing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "splint",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Avascular necrosis of hip",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        }
+      ]
+    }
+  }
+}

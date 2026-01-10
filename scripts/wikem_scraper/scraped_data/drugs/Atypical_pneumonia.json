@@ -1,0 +1,402 @@
+{
+  "drug_name": "Atypical_pneumonia",
+  "url": "https://wikem.org/wiki/Atypical_pneumonia",
+  "scraped_at": "2026-01-10T07:48:17.898486",
+  "sections": {
+    "Background": {
+      "text": "Atypical bugs: chlamydia pneumoniae,\nlegionella pneumophila\n,\nmycoplasma pneumoniae",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Atypical presentation: more likely to have extra-pulmonary symptoms, i.e. arthralgias, fever, malaise, headache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Causes_of_Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Macrolide antibiotic, e.g.\nazithromycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    }
+  }
+}

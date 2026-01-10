@@ -1,0 +1,400 @@
+{
+  "drug_name": "Bacteremia",
+  "url": "https://wikem.org/wiki/Bacteremia",
+  "scraped_at": "2026-01-10T07:48:27.382469",
+  "sections": {
+    "Background": {
+      "text": "Bacteremia is presence of bacteria in the blood, which is typically a sterile environment. This is distinct from\nsepsis\n, which is the body's response to the infection.\nPrimary bacteremia is the result of direct inoculation of bacteria into the bloodstream. Most commonly the result of\nIV drug use\nor contaminated\nvenous catheters\nSecondary bacteremia occurs when bacteria enters via an alternate site such as cuts in the skin, mucous membranes, or genitals",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Diabetes\nHIV infection\nHemodialysis\nImmunosupression\nGlucocorticoid\ntherapy\nIV drug use",
+          "tables": []
+        },
+        "Common_Pathogens": {
+          "text": "Staph aureus\nis one of the most common cause of bacteremia in healthcare setting\nGram negative\nbacteremia accounts for a quarter to half of bloodstream infections.\nThe most common isolated pathogens include\nE. coli\n,\nK. pneumonia\n,\nP. aeruginosa\n,\nProteus\nspp.\nGroup A strep\naccounts for 0.6% of bacteremia.\nMay indicate undiagnosed type II\nnecrotizing fasciitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "venous catheters",
+          "url": "https://wikem.org/wiki/Central_line"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV infection",
+          "url": "https://wikem.org/wiki/HIV_infection"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Glucocorticoid",
+          "url": "https://wikem.org/wiki/Glucocorticoid"
+        },
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "K. pneumonia",
+          "url": "https://wikem.org/wiki/K._pneumonia"
+        },
+        {
+          "text": "P. aeruginosa",
+          "url": "https://wikem.org/wiki/P._aeruginosa"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Diabetes\nHIV infection\nHemodialysis\nImmunosupression\nGlucocorticoid\ntherapy\nIV drug use",
+      "subsections": {
+        "Common_Pathogens": {
+          "text": "Staph aureus\nis one of the most common cause of bacteremia in healthcare setting\nGram negative\nbacteremia accounts for a quarter to half of bloodstream infections.\nThe most common isolated pathogens include\nE. coli\n,\nK. pneumonia\n,\nP. aeruginosa\n,\nProteus\nspp.\nGroup A strep\naccounts for 0.6% of bacteremia.\nMay indicate undiagnosed type II\nnecrotizing fasciitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV infection",
+          "url": "https://wikem.org/wiki/HIV_infection"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Glucocorticoid",
+          "url": "https://wikem.org/wiki/Glucocorticoid"
+        },
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "K. pneumonia",
+          "url": "https://wikem.org/wiki/K._pneumonia"
+        },
+        {
+          "text": "P. aeruginosa",
+          "url": "https://wikem.org/wiki/P._aeruginosa"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Common_Pathogens": {
+      "text": "Staph aureus\nis one of the most common cause of bacteremia in healthcare setting\nGram negative\nbacteremia accounts for a quarter to half of bloodstream infections.\nThe most common isolated pathogens include\nE. coli\n,\nK. pneumonia\n,\nP. aeruginosa\n,\nProteus\nspp.\nGroup A strep\naccounts for 0.6% of bacteremia.\nMay indicate undiagnosed type II\nnecrotizing fasciitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "Gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "K. pneumonia",
+          "url": "https://wikem.org/wiki/K._pneumonia"
+        },
+        {
+          "text": "P. aeruginosa",
+          "url": "https://wikem.org/wiki/P._aeruginosa"
+        },
+        {
+          "text": "Proteus",
+          "url": "https://wikem.org/wiki/Proteus"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "A host response may result in\nsepsis\nTypically present with fever, chills and hypotension.\nThe presence of chills is also independently associated with blood stream infections\nAlternatively bacteria may spread hematomagously to distant sites in body:\nEndocarditis\nMeningitis\nOsteomyelitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Source": {
+          "text": "In\ngram positive\nbacteremia, more notably\nStaph aureus\n, consider sources from skin ulcerations, respiratory tract infections,\nIV drug use\n, and indwelling catheters\nIn\ngram negative\nbacteremia, common sources include respiratory tract and central venous catheters. In the elderly, consider urinary tract infections.",
+          "tables": []
+        },
+        "Blood_Cultures": {
+          "text": "Obtain blood cultures prior to antibiotic therapy. Indicated for suspected bacterial infections or elevated white count.\nCare should be taken to avoid contamination of samples with skin flora\nIf filling serial samples from same syringe, fill aerobic(blue) tube first to draw out air in the needle before filling the anaerobic(orange) tube",
+          "tables": []
+        },
+        "Echocardiography": {
+          "text": "Patients should undergo cardiac echo if\nstaph aureus\nbacteremia is found to look for\nendocarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Source": {
+      "text": "In\ngram positive\nbacteremia, more notably\nStaph aureus\n, consider sources from skin ulcerations, respiratory tract infections,\nIV drug use\n, and indwelling catheters\nIn\ngram negative\nbacteremia, common sources include respiratory tract and central venous catheters. In the elderly, consider urinary tract infections.",
+      "subsections": {
+        "Blood_Cultures": {
+          "text": "Obtain blood cultures prior to antibiotic therapy. Indicated for suspected bacterial infections or elevated white count.\nCare should be taken to avoid contamination of samples with skin flora\nIf filling serial samples from same syringe, fill aerobic(blue) tube first to draw out air in the needle before filling the anaerobic(orange) tube",
+          "tables": []
+        },
+        "Echocardiography": {
+          "text": "Patients should undergo cardiac echo if\nstaph aureus\nbacteremia is found to look for\nendocarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "Staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "IV drug use",
+          "url": "https://wikem.org/wiki/IV_drug_use"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Blood_Cultures": {
+      "text": "Obtain blood cultures prior to antibiotic therapy. Indicated for suspected bacterial infections or elevated white count.\nCare should be taken to avoid contamination of samples with skin flora\nIf filling serial samples from same syringe, fill aerobic(blue) tube first to draw out air in the needle before filling the anaerobic(orange) tube",
+      "subsections": {
+        "Echocardiography": {
+          "text": "Patients should undergo cardiac echo if\nstaph aureus\nbacteremia is found to look for\nendocarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Echocardiography": {
+      "text": "Patients should undergo cardiac echo if\nstaph aureus\nbacteremia is found to look for\nendocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Uncomplicated\nMRSA\nwith 14 days of IV\nvancomycin\nGram negative\nbacteremia should be treated via empirical therapy based on suspected source\nCatheter associated infections\nShort term catheters (<14 days) should be removed if cause of bacteremia, especially\ngram negative\n,\nstaph aureus\n,\nenterococci\n, or\nmycobacteria\nLong term catheters (>14 days) should be removed if patient is septic or bacteremia persists for 72+ hours",
+      "subsections": {
+        "Resistance": {
+          "text": "Extended spectrum beta lactam resistance - drugs of choice include those in the\ncarbapenem\nfamily of antibiotics\nCarbapenem resistance - usually requires a combination regimen of two or more",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "gram negative",
+          "url": "https://wikem.org/wiki/Gram_negative"
+        },
+        {
+          "text": "staph aureus",
+          "url": "https://wikem.org/wiki/Staph_aureus"
+        },
+        {
+          "text": "enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        }
+      ]
+    },
+    "Resistance": {
+      "text": "Extended spectrum beta lactam resistance - drugs of choice include those in the\ncarbapenem\nfamily of antibiotics\nCarbapenem resistance - usually requires a combination regimen of two or more",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sepsis (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis (Main)",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    }
+  }
+}

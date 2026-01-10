@@ -1,0 +1,551 @@
+{
+  "drug_name": "Auricular_hematoma",
+  "url": "https://wikem.org/wiki/Auricular_hematoma",
+  "scraped_at": "2026-01-10T07:48:24.345584",
+  "sections": {
+    "Background": {
+      "text": "Caused by blunt trauma to external ear\nAssociated with contact sports such as boxing, wrestling, etc.\nSeparation of perichondrium from underlying cartilage tears the adjoining blood vessels\n[1]\nUsually occurs on anterior surface, since skin is firmly adherent to cartilage (on posterior ear, there is underlying muscle and adipose is it loosely adherent to cartilage)\n[2]\nRecurrent hematomas lead to infection and/or cartilage necrosis and neocartilage formation (i.e. \"cauliflower ear\")\nGoal of treatment is to prevent \"cauliflower ear\" deformity by draining the hematoma in a timely fashion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Gross deformity/swelling to pinna after recent blunt trauma\nLoss of typical auricular landmarks/anatomy\n[3]\nPain\nout of proportion\n[3]\nHematoma most commonly collects in the scaphoid fossa and the concha",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pain",
+          "url": "https://wikem.org/wiki/Earache"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Ear_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "External": {
+          "text": "Auricular hematoma\nAuricular perichondritis\nCholesteatoma\nContact dermatitis\nEar foreign body\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nMalignant otitis externa\nOtitis externa\nOtomycosis\nTympanic membrane rupture\nOtic barotrauma",
+          "tables": []
+        },
+        "Internal": {
+          "text": "Acute otitis media\nBullous myringitis\nChronic otitis media\nMastoiditis",
+          "tables": []
+        },
+        "Inner/vestibular": {
+          "text": "Labyrinthitis\n,\nvestibular neuritis\nMeniere's disease\nSudden sensorineural hearing loss",
+          "tables": []
+        },
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular perichondritis",
+          "url": "https://wikem.org/wiki/Auricular_perichondritis"
+        },
+        {
+          "text": "Cholesteatoma",
+          "url": "https://wikem.org/wiki/Cholesteatoma"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Otitis externa",
+          "url": "https://wikem.org/wiki/Otitis_externa"
+        },
+        {
+          "text": "Otomycosis",
+          "url": "https://wikem.org/wiki/Otomycosis"
+        },
+        {
+          "text": "Tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Bullous myringitis",
+          "url": "https://wikem.org/wiki/Bullous_myringitis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "vestibular neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_neuritis"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "Sudden sensorineural hearing loss",
+          "url": "https://wikem.org/wiki/Sudden_sensorineural_hearing_loss"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Indications_for_drainage": {
+          "text": "Traumatic swelling that deforms pinna\nWithin 7 days of trauma",
+          "tables": []
+        },
+        "Contraindications": {
+          "text": "In these cases, refer to ENT due to formation of granulation tissue that may require debridement\nRecurrent or chronic hematomas\n> 7 days from trauma",
+          "tables": []
+        },
+        "Procedure": {
+          "text": "Perform an\nauricular block\nEvacuate the clot\nOption 1: Make semi-circle incision inside the inner curvature of the helix or antihelix\nMake incisions along natural auricular crease for cosmesis\nRemove hematoma by milking of the hematoma toward the incision.  Suction or curettage may also be helpful\nUse a butterfly hemostat or suture kit needle driver to break up any hematoma that is not easily coming out\nOption 2: Use large-bore needle/syringe to aspirate hematoma\n[2]\nNeedle aspiration generally is not sufficient treatment\n[3]\n, especially for larger hematomas as clot has usually already formed and cannot be aspirated\nPrevent re-accumulation of hematoma (goal is to close the dead space between perichondrium and cartilage\n[1]\n). Multiple methods available:\nOption 1: Compression dressing\nPack the helix with petroleum jelly-impregnated gauze\nPlace regular gauze both in front of and behind the ear\nCircle the head with a compressive wrap\nGenerally only moderately successful, and subject to poor compliance (especially with athletes\n[1]\n)\nAlternative to petroleum jelly gauze is to splint the ear with a molded piece of plaster\n[5]\n[6]\nwhich fits better and does not need as tight of a compression dressing.\nOption 2: Suture\nUse fast-absorbing sutures\nPlace running or interrupted sutures through cartilage and both anterior and posterior skin of auricle in mattress fashion\n[2]\nThis should reappose the perichondrium\nConsider leaving incision open (with wound edges approximated by mattress sutures) to allow for continued drainage\n[1]\nOption 3: Bolster sutured in place- combination of the above two methods\nUse non-absorbable 2-0 or 3-0 nylon\nPack the helix with petroleum jelly impregnated gauze.  Place a thick layer of gauze behind the ear\nPerform a running quilt stitch through the anterior gauze, through the pinna, and through the posterior gauze\nAntibiotics\nOften used by our ENT colleagues in all patients though it is actually only recommended for immunocompromised patients\nCover\npseudomonas\nand\nS. aureus\n- Cipro is the most commonly used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "auricular block",
+          "url": "https://wikem.org/wiki/Nerve_block:_Auricular"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Indications_for_drainage": {
+      "text": "Traumatic swelling that deforms pinna\nWithin 7 days of trauma",
+      "subsections": {
+        "Contraindications": {
+          "text": "In these cases, refer to ENT due to formation of granulation tissue that may require debridement\nRecurrent or chronic hematomas\n> 7 days from trauma",
+          "tables": []
+        },
+        "Procedure": {
+          "text": "Perform an\nauricular block\nEvacuate the clot\nOption 1: Make semi-circle incision inside the inner curvature of the helix or antihelix\nMake incisions along natural auricular crease for cosmesis\nRemove hematoma by milking of the hematoma toward the incision.  Suction or curettage may also be helpful\nUse a butterfly hemostat or suture kit needle driver to break up any hematoma that is not easily coming out\nOption 2: Use large-bore needle/syringe to aspirate hematoma\n[2]\nNeedle aspiration generally is not sufficient treatment\n[3]\n, especially for larger hematomas as clot has usually already formed and cannot be aspirated\nPrevent re-accumulation of hematoma (goal is to close the dead space between perichondrium and cartilage\n[1]\n). Multiple methods available:\nOption 1: Compression dressing\nPack the helix with petroleum jelly-impregnated gauze\nPlace regular gauze both in front of and behind the ear\nCircle the head with a compressive wrap\nGenerally only moderately successful, and subject to poor compliance (especially with athletes\n[1]\n)\nAlternative to petroleum jelly gauze is to splint the ear with a molded piece of plaster\n[5]\n[6]\nwhich fits better and does not need as tight of a compression dressing.\nOption 2: Suture\nUse fast-absorbing sutures\nPlace running or interrupted sutures through cartilage and both anterior and posterior skin of auricle in mattress fashion\n[2]\nThis should reappose the perichondrium\nConsider leaving incision open (with wound edges approximated by mattress sutures) to allow for continued drainage\n[1]\nOption 3: Bolster sutured in place- combination of the above two methods\nUse non-absorbable 2-0 or 3-0 nylon\nPack the helix with petroleum jelly impregnated gauze.  Place a thick layer of gauze behind the ear\nPerform a running quilt stitch through the anterior gauze, through the pinna, and through the posterior gauze\nAntibiotics\nOften used by our ENT colleagues in all patients though it is actually only recommended for immunocompromised patients\nCover\npseudomonas\nand\nS. aureus\n- Cipro is the most commonly used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "auricular block",
+          "url": "https://wikem.org/wiki/Nerve_block:_Auricular"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "In these cases, refer to ENT due to formation of granulation tissue that may require debridement\nRecurrent or chronic hematomas\n> 7 days from trauma",
+      "subsections": {
+        "Procedure": {
+          "text": "Perform an\nauricular block\nEvacuate the clot\nOption 1: Make semi-circle incision inside the inner curvature of the helix or antihelix\nMake incisions along natural auricular crease for cosmesis\nRemove hematoma by milking of the hematoma toward the incision.  Suction or curettage may also be helpful\nUse a butterfly hemostat or suture kit needle driver to break up any hematoma that is not easily coming out\nOption 2: Use large-bore needle/syringe to aspirate hematoma\n[2]\nNeedle aspiration generally is not sufficient treatment\n[3]\n, especially for larger hematomas as clot has usually already formed and cannot be aspirated\nPrevent re-accumulation of hematoma (goal is to close the dead space between perichondrium and cartilage\n[1]\n). Multiple methods available:\nOption 1: Compression dressing\nPack the helix with petroleum jelly-impregnated gauze\nPlace regular gauze both in front of and behind the ear\nCircle the head with a compressive wrap\nGenerally only moderately successful, and subject to poor compliance (especially with athletes\n[1]\n)\nAlternative to petroleum jelly gauze is to splint the ear with a molded piece of plaster\n[5]\n[6]\nwhich fits better and does not need as tight of a compression dressing.\nOption 2: Suture\nUse fast-absorbing sutures\nPlace running or interrupted sutures through cartilage and both anterior and posterior skin of auricle in mattress fashion\n[2]\nThis should reappose the perichondrium\nConsider leaving incision open (with wound edges approximated by mattress sutures) to allow for continued drainage\n[1]\nOption 3: Bolster sutured in place- combination of the above two methods\nUse non-absorbable 2-0 or 3-0 nylon\nPack the helix with petroleum jelly impregnated gauze.  Place a thick layer of gauze behind the ear\nPerform a running quilt stitch through the anterior gauze, through the pinna, and through the posterior gauze\nAntibiotics\nOften used by our ENT colleagues in all patients though it is actually only recommended for immunocompromised patients\nCover\npseudomonas\nand\nS. aureus\n- Cipro is the most commonly used",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "auricular block",
+          "url": "https://wikem.org/wiki/Nerve_block:_Auricular"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Perform an\nauricular block\nEvacuate the clot\nOption 1: Make semi-circle incision inside the inner curvature of the helix or antihelix\nMake incisions along natural auricular crease for cosmesis\nRemove hematoma by milking of the hematoma toward the incision.  Suction or curettage may also be helpful\nUse a butterfly hemostat or suture kit needle driver to break up any hematoma that is not easily coming out\nOption 2: Use large-bore needle/syringe to aspirate hematoma\n[2]\nNeedle aspiration generally is not sufficient treatment\n[3]\n, especially for larger hematomas as clot has usually already formed and cannot be aspirated\nPrevent re-accumulation of hematoma (goal is to close the dead space between perichondrium and cartilage\n[1]\n). Multiple methods available:\nOption 1: Compression dressing\nPack the helix with petroleum jelly-impregnated gauze\nPlace regular gauze both in front of and behind the ear\nCircle the head with a compressive wrap\nGenerally only moderately successful, and subject to poor compliance (especially with athletes\n[1]\n)\nAlternative to petroleum jelly gauze is to splint the ear with a molded piece of plaster\n[5]\n[6]\nwhich fits better and does not need as tight of a compression dressing.\nOption 2: Suture\nUse fast-absorbing sutures\nPlace running or interrupted sutures through cartilage and both anterior and posterior skin of auricle in mattress fashion\n[2]\nThis should reappose the perichondrium\nConsider leaving incision open (with wound edges approximated by mattress sutures) to allow for continued drainage\n[1]\nOption 3: Bolster sutured in place- combination of the above two methods\nUse non-absorbable 2-0 or 3-0 nylon\nPack the helix with petroleum jelly impregnated gauze.  Place a thick layer of gauze behind the ear\nPerform a running quilt stitch through the anterior gauze, through the pinna, and through the posterior gauze\nAntibiotics\nOften used by our ENT colleagues in all patients though it is actually only recommended for immunocompromised patients\nCover\npseudomonas\nand\nS. aureus\n- Cipro is the most commonly used",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "auricular block",
+          "url": "https://wikem.org/wiki/Nerve_block:_Auricular"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge\nENT followup in 2-3 days for suture removal or dressing removal and wound check",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Failure to fully drain and maintain drainage of an auricular hematoma can result in \"Cauliflower ear,\" a permament cosmetic defect.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Auricular hematoma can be prevented by use of appropriate headgear in sports prone to repeat ear trauma (e.g., wrestling, rugby, MMA).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Maxillofacial Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Maxillofacial Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Auricular Hematoma Management\nhttps://rebelem.com/auricular-hematoma-management/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

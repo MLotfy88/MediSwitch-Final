@@ -1,0 +1,625 @@
+{
+  "drug_name": "Asymptomatic_hypertension",
+  "url": "https://wikem.org/wiki/Asymptomatic_hypertension",
+  "scraped_at": "2026-01-10T07:48:14.789366",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Classification_of_Hypertension": {
+          "text": "JNC-7 recommends 2 or more properly measured, seated blood pressure readings on each of 2 or more office visits to establish the diagnosis of hypertension\n[1]\nJNC-8 Changes:\nIn patients ≥60 yr the threshold has increased from <140/90 to <150/90\n[2]\nPatients with\ndiabetes mellitus\n(any age) and >140/90\nThe American Heart Association published \"The Management of Elevated Blood Pressure in the Acute Care Setting: A Scientific Statement From the American Heart Association\" in 2024\n[3]\nThe term \"hypertensive urgency\" has been formally abandoned in favor of \"asymptomatic markedly elevated BP\" and should no longer be used.",
+          "tables": [
+            [
+              {
+                "Class": "Normal",
+                "Systolic": "<120",
+                "": "and",
+                "Diasolic": "<80"
+              },
+              {
+                "Class": "Elevated Blood Pressure",
+                "Systolic": "120-129",
+                "": "and",
+                "Diasolic": "<80"
+              },
+              {
+                "Class": "Stage 1",
+                "Systolic": "130-139",
+                "": "or",
+                "Diasolic": "80-89"
+              },
+              {
+                "Class": "Stage 2",
+                "Systolic": "≥140",
+                "": "or",
+                "Diasolic": "≥90"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Classification_of_Hypertension": {
+      "text": "JNC-7 recommends 2 or more properly measured, seated blood pressure readings on each of 2 or more office visits to establish the diagnosis of hypertension\n[1]\nJNC-8 Changes:\nIn patients ≥60 yr the threshold has increased from <140/90 to <150/90\n[2]\nPatients with\ndiabetes mellitus\n(any age) and >140/90\nThe American Heart Association published \"The Management of Elevated Blood Pressure in the Acute Care Setting: A Scientific Statement From the American Heart Association\" in 2024\n[3]\nThe term \"hypertensive urgency\" has been formally abandoned in favor of \"asymptomatic markedly elevated BP\" and should no longer be used.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Class": "Normal",
+            "Systolic": "<120",
+            "": "and",
+            "Diasolic": "<80"
+          },
+          {
+            "Class": "Elevated Blood Pressure",
+            "Systolic": "120-129",
+            "": "and",
+            "Diasolic": "<80"
+          },
+          {
+            "Class": "Stage 1",
+            "Systolic": "130-139",
+            "": "or",
+            "Diasolic": "80-89"
+          },
+          {
+            "Class": "Stage 2",
+            "Systolic": "≥140",
+            "": "or",
+            "Diasolic": "≥90"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "None (asymptomatic by definition)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Hypertension": {
+      "text": "Hypertensive emergency\nStroke\nSympathetic crashing\nacute pulmonary edema\nIschemic stroke\nIntracranial hemorrhage\nPreeclampsia\n/\nEclampsia\nAutonomic dysreflexia\nScleroderma\nrenal crisis\nAcute glomerulonephritis\nType- I\nmyocardial infarction\nVolume overload\nUrinary obstruction\nDrug use or overdose (e.g stimulants, especially alcohol, cocaine, or\nSynthroid\n)\nRenal Artery Stenosis\nNephritic and\nnephrotic syndrome\nPolycystic kidney disease\nTyramine reaction\nCushing's syndrome\nObstructive sleep apnea\nPheochromocytoma\nHyperaldosteronism\nHyperthyroidism\nAnxiety\nPain\nOral contraceptive use",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "acute pulmonary edema",
+          "url": "https://wikem.org/wiki/Acute_pulmonary_edema"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Acute glomerulonephritis",
+          "url": "https://wikem.org/wiki/Acute_glomerulonephritis"
+        },
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Urinary obstruction",
+          "url": "https://wikem.org/wiki/Urinary_obstruction"
+        },
+        {
+          "text": "Synthroid",
+          "url": "https://wikem.org/wiki/Synthroid"
+        },
+        {
+          "text": "nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tyramine reaction",
+          "url": "https://wikem.org/wiki/Tyramine_reaction"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Obstructive sleep apnea",
+          "url": "https://wikem.org/wiki/Obstructive_sleep_apnea"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Hyperaldosteronism",
+          "url": "https://wikem.org/wiki/Hyperaldosteronism"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic_hypertension": {
+          "text": "Routine screening for acute target organ injury (e.g. creatinine, UA, ECG) is NOT required (Level C)\n[4]\nIn select patient populations, screening of creatinine may identify injury that affects disposition (Level C)\n[4]\nSuggested algorithm:\nUrine pregnancy in all women of child-bearing age (consider\npreeclampsia\nif positive)\n<120 diastolic\nNo screening ED workup --> home with outpatient treatment\n>210 systolic or >120-130 diastolic\nChem 7 (creatinine) --> home with outpatient treatment if no evidence of\nacute renal failure\n\"No other diagnostic screening tests (e.g. UA, ECG) appear to be useful\"\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        }
+      ]
+    },
+    "Asymptomatic_hypertension": {
+      "text": "Routine screening for acute target organ injury (e.g. creatinine, UA, ECG) is NOT required (Level C)\n[4]\nIn select patient populations, screening of creatinine may identify injury that affects disposition (Level C)\n[4]\nSuggested algorithm:\nUrine pregnancy in all women of child-bearing age (consider\npreeclampsia\nif positive)\n<120 diastolic\nNo screening ED workup --> home with outpatient treatment\n>210 systolic or >120-130 diastolic\nChem 7 (creatinine) --> home with outpatient treatment if no evidence of\nacute renal failure\n\"No other diagnostic screening tests (e.g. UA, ECG) appear to be useful\"\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic_hypertension_2": {
+          "text": "Routine ED medical intervention is NOT required (Level C)\n[4]\nIn select patient populations, consider initiating or increasing outpatient therapy for long-term control (Level C)\n[4]",
+          "tables": []
+        },
+        "Initial_outpatient_hypertension_medications": {
+          "text": "First line for people without comorbidities\nHydrochlorothiazide\n12.5mg, max 25mg\nNeed labs before starting, does not work in people with CKD\nFirst line for people with\nDM\nand/or\nproteinuria\nACEi\n/ARB:\nLisinopril\neither Qday or BID\nNeed Chem 10 before and after starting to check for\nhyperkalemia\nand creatinine\nStart 10mg lisinopril QD\nAnyone with CAD,\nCHF\nBeta-Blocker\n(do not need labs)\nAmlodipine\nfor anyone, except for people with LE edema (do not need labs)\nStart amlodipine 5mg QD\nDiltiazem\nfor\nproteinuria\nin people unable to tolerate\nACEi\n(do not need labs)\nLasix\nfor\nCHF\nand/or lower extremity edema secondary to\nproteinuria\nJNC 8 Recommendations\n[2]",
+          "tables": [
+            [
+              {
+                "Population": "General population",
+                "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+                "Black Patients": "thiazide or CCB"
+              },
+              {
+                "Population": "CKD",
+                "Non-black Patients": "ACEI or ARB",
+                "Black Patients": "ACEI or ARB"
+              },
+              {
+                "Population": "DM",
+                "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+                "Black Patients": "thiazide or CCB"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Asymptomatic_hypertension_2": {
+      "text": "Routine ED medical intervention is NOT required (Level C)\n[4]\nIn select patient populations, consider initiating or increasing outpatient therapy for long-term control (Level C)\n[4]",
+      "subsections": {
+        "Initial_outpatient_hypertension_medications": {
+          "text": "First line for people without comorbidities\nHydrochlorothiazide\n12.5mg, max 25mg\nNeed labs before starting, does not work in people with CKD\nFirst line for people with\nDM\nand/or\nproteinuria\nACEi\n/ARB:\nLisinopril\neither Qday or BID\nNeed Chem 10 before and after starting to check for\nhyperkalemia\nand creatinine\nStart 10mg lisinopril QD\nAnyone with CAD,\nCHF\nBeta-Blocker\n(do not need labs)\nAmlodipine\nfor anyone, except for people with LE edema (do not need labs)\nStart amlodipine 5mg QD\nDiltiazem\nfor\nproteinuria\nin people unable to tolerate\nACEi\n(do not need labs)\nLasix\nfor\nCHF\nand/or lower extremity edema secondary to\nproteinuria\nJNC 8 Recommendations\n[2]",
+          "tables": [
+            [
+              {
+                "Population": "General population",
+                "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+                "Black Patients": "thiazide or CCB"
+              },
+              {
+                "Population": "CKD",
+                "Non-black Patients": "ACEI or ARB",
+                "Black Patients": "ACEI or ARB"
+              },
+              {
+                "Population": "DM",
+                "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+                "Black Patients": "thiazide or CCB"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Initial_outpatient_hypertension_medications": {
+      "text": "First line for people without comorbidities\nHydrochlorothiazide\n12.5mg, max 25mg\nNeed labs before starting, does not work in people with CKD\nFirst line for people with\nDM\nand/or\nproteinuria\nACEi\n/ARB:\nLisinopril\neither Qday or BID\nNeed Chem 10 before and after starting to check for\nhyperkalemia\nand creatinine\nStart 10mg lisinopril QD\nAnyone with CAD,\nCHF\nBeta-Blocker\n(do not need labs)\nAmlodipine\nfor anyone, except for people with LE edema (do not need labs)\nStart amlodipine 5mg QD\nDiltiazem\nfor\nproteinuria\nin people unable to tolerate\nACEi\n(do not need labs)\nLasix\nfor\nCHF\nand/or lower extremity edema secondary to\nproteinuria\nJNC 8 Recommendations\n[2]",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Population": "General population",
+            "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+            "Black Patients": "thiazide or CCB"
+          },
+          {
+            "Population": "CKD",
+            "Non-black Patients": "ACEI or ARB",
+            "Black Patients": "ACEI or ARB"
+          },
+          {
+            "Population": "DM",
+            "Non-black Patients": "thiazide, CCB, ACEI, or ARB",
+            "Black Patients": "thiazide or CCB"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Hydrochlorothiazide",
+          "url": "https://wikem.org/wiki/Hydrochlorothiazide"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lisinopril",
+          "url": "https://wikem.org/wiki/Lisinopril"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Beta-Blocker",
+          "url": "https://wikem.org/wiki/Beta-Blocker"
+        },
+        {
+          "text": "Amlodipine",
+          "url": "https://wikem.org/wiki/Amlodipine"
+        },
+        {
+          "text": "Diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        },
+        {
+          "text": "Lasix",
+          "url": "https://wikem.org/wiki/Lasix"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "See workup, if no evidence of\nacute renal failure\nor\nhypertensive emergency\n,\npatients should be referred for outpatient follow up (Level C)\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypertension (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension (main)",
+          "url": "https://wikem.org/wiki/Hypertension_(main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP Clinical Policy: Asymptomatic Elevated Blood Pressure\n2024 \"The Management of Elevated Blood Pressure in the Acute Care Setting: A Scientific Statement From the American Heart Association\" American Heart Association\nREBEL EM - Asymptomatic Hypertension: A 2 Year Look Back from Canada",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

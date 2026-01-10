@@ -1,0 +1,908 @@
+{
+  "drug_name": "Back_pain_(red_flags)",
+  "url": "https://wikem.org/wiki/Back_pain_(red_flags)",
+  "scraped_at": "2026-01-10T07:48:26.302801",
+  "sections": {
+    "General": {
+      "text": "Although there are many red flags of back pain on history and physical, meta-analysis has shown the following to be predictive of fracture or malignancy:",
+      "subsections": {
+        "Back_Pain_Risk_factors_and_probability_of_Fracture_or_Malignancy": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Factor": "Older Age  (>65yo)",
+                "Post Test Probability(95%CI)": "9%(3-25%)"
+              },
+              {
+                "Factor": "Prolonged corticosteroid",
+                "Post Test Probability(95%CI)": "33%(10-67%)"
+              },
+              {
+                "Factor": "Severe trauma",
+                "Post Test Probability(95%CI)": "11%(8-16%)"
+              },
+              {
+                "Factor": "Presence of contusion or abrasion",
+                "Post Test Probability(95%CI)": "62%(49-74%)"
+              },
+              {
+                "Factor": "Multiple red flags",
+                "Post Test Probability(95%CI)": "90%(34-99%)"
+              },
+              {
+                "Factor": "History of malignancy",
+                "Post Test Probability(95%CI)": "33%(22-46%)"
+              }
+            ]
+          ]
+        },
+        "Red_Flag_Symptoms_of_Low_Back_Pain_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Symptoms": "Age under 18 years",
+                "Corresponding Pathology": "Congenital abnormality"
+              },
+              {
+                "Symptoms": "Age over 50 years",
+                "Corresponding Pathology": "Fracture, malignancy"
+              },
+              {
+                "Symptoms": "Anticoagulant use",
+                "Corresponding Pathology": "Spinal hematoma"
+              },
+              {
+                "Symptoms": "Fever",
+                "Corresponding Pathology": "Infection, malignancy"
+              },
+              {
+                "Symptoms": "Genitourinary issues including urinary retention/incontinence or sexual dysfunction",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Symptoms": "Immunocompromised",
+                "Corresponding Pathology": "Fracture, infection"
+              },
+              {
+                "Symptoms": "IV drug use",
+                "Corresponding Pathology": "Infection"
+              },
+              {
+                "Symptoms": "Recent spinal surgery or epidural injection",
+                "Corresponding Pathology": "Infection, spinal hematoma"
+              },
+              {
+                "Symptoms": "Trauma",
+                "Corresponding Pathology": "Fracture,spinal hematoma"
+              }
+            ]
+          ]
+        },
+        "Red_Flag_Signs_of_Low_Back_Pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Signs": "Reduced anal sphincter tone",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Hyperreflexia",
+                "Corresponding Pathology": "Acute cord compression"
+              },
+              {
+                "Signs": "Hyporeflexia/areflexia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Lower extremity muscle weakness",
+                "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+              },
+              {
+                "Signs": "Saddle paresthesia/anesthesia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Absent or decreased bulbocavernosus reflex",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              }
+            ]
+          ]
+        },
+        "History": {
+          "text": "Pain >6wk (tumor, infection)\nAge >50 or <18 (tumor, congenital anomaly)\nHistory of\ntrauma\nHistory of\nIVDU\nHistory of cancer\nHistory of sciatica\nNeurological complaints (\nparesthesias\n,\nanesthesia\n,\nweakness\n)\nUrinary retention\nIncontinence\nof bowel/bladder\nNight pain\nUnremitting pain, even when supine\nFever\n, chills, night sweats\nAnticoagulants\n/\ncoagulopathy",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Fever\nPatient writhing in pain\nAnal sphincter laxity\nPerianal/perineal sensory loss (Saddle Anesthesia)\nPalpable bladder post voiding or\nabnormal post void residual\nPoint vertebral tenderness\nNeurological deficits\nPositive straight leg raise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "IVDU",
+          "url": "https://wikem.org/wiki/IVDU"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abnormal post void residual",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "Back_Pain_Risk_factors_and_probability_of_Fracture_or_Malignancy": {
+      "text": "",
+      "subsections": {
+        "Red_Flag_Symptoms_of_Low_Back_Pain_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Symptoms": "Age under 18 years",
+                "Corresponding Pathology": "Congenital abnormality"
+              },
+              {
+                "Symptoms": "Age over 50 years",
+                "Corresponding Pathology": "Fracture, malignancy"
+              },
+              {
+                "Symptoms": "Anticoagulant use",
+                "Corresponding Pathology": "Spinal hematoma"
+              },
+              {
+                "Symptoms": "Fever",
+                "Corresponding Pathology": "Infection, malignancy"
+              },
+              {
+                "Symptoms": "Genitourinary issues including urinary retention/incontinence or sexual dysfunction",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Symptoms": "Immunocompromised",
+                "Corresponding Pathology": "Fracture, infection"
+              },
+              {
+                "Symptoms": "IV drug use",
+                "Corresponding Pathology": "Infection"
+              },
+              {
+                "Symptoms": "Recent spinal surgery or epidural injection",
+                "Corresponding Pathology": "Infection, spinal hematoma"
+              },
+              {
+                "Symptoms": "Trauma",
+                "Corresponding Pathology": "Fracture,spinal hematoma"
+              }
+            ]
+          ]
+        },
+        "Red_Flag_Signs_of_Low_Back_Pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Signs": "Reduced anal sphincter tone",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Hyperreflexia",
+                "Corresponding Pathology": "Acute cord compression"
+              },
+              {
+                "Signs": "Hyporeflexia/areflexia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Lower extremity muscle weakness",
+                "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+              },
+              {
+                "Signs": "Saddle paresthesia/anesthesia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Absent or decreased bulbocavernosus reflex",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              }
+            ]
+          ]
+        },
+        "History": {
+          "text": "Pain >6wk (tumor, infection)\nAge >50 or <18 (tumor, congenital anomaly)\nHistory of\ntrauma\nHistory of\nIVDU\nHistory of cancer\nHistory of sciatica\nNeurological complaints (\nparesthesias\n,\nanesthesia\n,\nweakness\n)\nUrinary retention\nIncontinence\nof bowel/bladder\nNight pain\nUnremitting pain, even when supine\nFever\n, chills, night sweats\nAnticoagulants\n/\ncoagulopathy",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Fever\nPatient writhing in pain\nAnal sphincter laxity\nPerianal/perineal sensory loss (Saddle Anesthesia)\nPalpable bladder post voiding or\nabnormal post void residual\nPoint vertebral tenderness\nNeurological deficits\nPositive straight leg raise",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Factor": "Older Age  (>65yo)",
+            "Post Test Probability(95%CI)": "9%(3-25%)"
+          },
+          {
+            "Factor": "Prolonged corticosteroid",
+            "Post Test Probability(95%CI)": "33%(10-67%)"
+          },
+          {
+            "Factor": "Severe trauma",
+            "Post Test Probability(95%CI)": "11%(8-16%)"
+          },
+          {
+            "Factor": "Presence of contusion or abrasion",
+            "Post Test Probability(95%CI)": "62%(49-74%)"
+          },
+          {
+            "Factor": "Multiple red flags",
+            "Post Test Probability(95%CI)": "90%(34-99%)"
+          },
+          {
+            "Factor": "History of malignancy",
+            "Post Test Probability(95%CI)": "33%(22-46%)"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "IVDU",
+          "url": "https://wikem.org/wiki/IVDU"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abnormal post void residual",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "Red_Flag_Symptoms_of_Low_Back_Pain_": {
+      "text": "",
+      "subsections": {
+        "Red_Flag_Signs_of_Low_Back_Pain": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Signs": "Reduced anal sphincter tone",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Hyperreflexia",
+                "Corresponding Pathology": "Acute cord compression"
+              },
+              {
+                "Signs": "Hyporeflexia/areflexia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Lower extremity muscle weakness",
+                "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+              },
+              {
+                "Signs": "Saddle paresthesia/anesthesia",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              },
+              {
+                "Signs": "Absent or decreased bulbocavernosus reflex",
+                "Corresponding Pathology": "Cauda equina syndrome"
+              }
+            ]
+          ]
+        },
+        "History": {
+          "text": "Pain >6wk (tumor, infection)\nAge >50 or <18 (tumor, congenital anomaly)\nHistory of\ntrauma\nHistory of\nIVDU\nHistory of cancer\nHistory of sciatica\nNeurological complaints (\nparesthesias\n,\nanesthesia\n,\nweakness\n)\nUrinary retention\nIncontinence\nof bowel/bladder\nNight pain\nUnremitting pain, even when supine\nFever\n, chills, night sweats\nAnticoagulants\n/\ncoagulopathy",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Fever\nPatient writhing in pain\nAnal sphincter laxity\nPerianal/perineal sensory loss (Saddle Anesthesia)\nPalpable bladder post voiding or\nabnormal post void residual\nPoint vertebral tenderness\nNeurological deficits\nPositive straight leg raise",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Symptoms": "Age under 18 years",
+            "Corresponding Pathology": "Congenital abnormality"
+          },
+          {
+            "Symptoms": "Age over 50 years",
+            "Corresponding Pathology": "Fracture, malignancy"
+          },
+          {
+            "Symptoms": "Anticoagulant use",
+            "Corresponding Pathology": "Spinal hematoma"
+          },
+          {
+            "Symptoms": "Fever",
+            "Corresponding Pathology": "Infection, malignancy"
+          },
+          {
+            "Symptoms": "Genitourinary issues including urinary retention/incontinence or sexual dysfunction",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Symptoms": "Immunocompromised",
+            "Corresponding Pathology": "Fracture, infection"
+          },
+          {
+            "Symptoms": "IV drug use",
+            "Corresponding Pathology": "Infection"
+          },
+          {
+            "Symptoms": "Recent spinal surgery or epidural injection",
+            "Corresponding Pathology": "Infection, spinal hematoma"
+          },
+          {
+            "Symptoms": "Trauma",
+            "Corresponding Pathology": "Fracture,spinal hematoma"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "IVDU",
+          "url": "https://wikem.org/wiki/IVDU"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abnormal post void residual",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "Red_Flag_Signs_of_Low_Back_Pain": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Pain >6wk (tumor, infection)\nAge >50 or <18 (tumor, congenital anomaly)\nHistory of\ntrauma\nHistory of\nIVDU\nHistory of cancer\nHistory of sciatica\nNeurological complaints (\nparesthesias\n,\nanesthesia\n,\nweakness\n)\nUrinary retention\nIncontinence\nof bowel/bladder\nNight pain\nUnremitting pain, even when supine\nFever\n, chills, night sweats\nAnticoagulants\n/\ncoagulopathy",
+          "tables": []
+        },
+        "Physical_Exam": {
+          "text": "Fever\nPatient writhing in pain\nAnal sphincter laxity\nPerianal/perineal sensory loss (Saddle Anesthesia)\nPalpable bladder post voiding or\nabnormal post void residual\nPoint vertebral tenderness\nNeurological deficits\nPositive straight leg raise",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Signs": "Reduced anal sphincter tone",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Signs": "Hyperreflexia",
+            "Corresponding Pathology": "Acute cord compression"
+          },
+          {
+            "Signs": "Hyporeflexia/areflexia",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Signs": "Lower extremity muscle weakness",
+            "Corresponding Pathology": "Acute cord compressionorCauda equina syndrome"
+          },
+          {
+            "Signs": "Saddle paresthesia/anesthesia",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          },
+          {
+            "Signs": "Absent or decreased bulbocavernosus reflex",
+            "Corresponding Pathology": "Cauda equina syndrome"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "IVDU",
+          "url": "https://wikem.org/wiki/IVDU"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abnormal post void residual",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "History": {
+      "text": "Pain >6wk (tumor, infection)\nAge >50 or <18 (tumor, congenital anomaly)\nHistory of\ntrauma\nHistory of\nIVDU\nHistory of cancer\nHistory of sciatica\nNeurological complaints (\nparesthesias\n,\nanesthesia\n,\nweakness\n)\nUrinary retention\nIncontinence\nof bowel/bladder\nNight pain\nUnremitting pain, even when supine\nFever\n, chills, night sweats\nAnticoagulants\n/\ncoagulopathy",
+      "subsections": {
+        "Physical_Exam": {
+          "text": "Fever\nPatient writhing in pain\nAnal sphincter laxity\nPerianal/perineal sensory loss (Saddle Anesthesia)\nPalpable bladder post voiding or\nabnormal post void residual\nPoint vertebral tenderness\nNeurological deficits\nPositive straight leg raise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "IVDU",
+          "url": "https://wikem.org/wiki/IVDU"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "anesthesia",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Incontinence",
+          "url": "https://wikem.org/wiki/Urinary_incontinence"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abnormal post void residual",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "Physical_Exam": {
+      "text": "Fever\nPatient writhing in pain\nAnal sphincter laxity\nPerianal/perineal sensory loss (Saddle Anesthesia)\nPalpable bladder post voiding or\nabnormal post void residual\nPoint vertebral tenderness\nNeurological deficits\nPositive straight leg raise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "abnormal post void residual",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Neurological deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "Specific_Condition_Red_Flags": {
+      "text": "",
+      "subsections": {
+        "Cancer_Related": {
+          "text": "History of back pain\nWeight loss >10kg in 6mo\nAge >50 or <18\nNo improvement despite therapy\nPain for >4-6wks\nNight pain\nPain worse at rest\nVertebral tenderness\nMultiple nerve roots affected",
+          "tables": []
+        },
+        "Infection_Related": {
+          "text": "Persistent fever\nHistory of IVDA\nRecent infection\nImmunocompromised state\nHIV\nSystemic\ncorticosteroids\nTransplant\nDM",
+          "tables": []
+        },
+        "Cauda_Equina": {
+          "text": "Incontinence or\nretention\nSaddle anesthesia\nDecreased anal sphincter tone\nBilateral lower extremity\nweakness\nor\nnumbness\nNeurologic deficit",
+          "tables": []
+        },
+        "Herniated_Disc": {
+          "text": "Muscle Weakness\nRadiation of pain\nFootdrop",
+          "tables": []
+        },
+        "Vertebral_Fracture": {
+          "text": "Prolonged use of corticosteroids\nHistory of osteoporosis\nAge>70\nMild trauma in age >50yr\nSignificant trauma in any age\nBony tenderness",
+          "tables": []
+        },
+        "AAA/Aortic_Dissection": {
+          "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Transplant",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Cancer_Related": {
+      "text": "History of back pain\nWeight loss >10kg in 6mo\nAge >50 or <18\nNo improvement despite therapy\nPain for >4-6wks\nNight pain\nPain worse at rest\nVertebral tenderness\nMultiple nerve roots affected",
+      "subsections": {
+        "Infection_Related": {
+          "text": "Persistent fever\nHistory of IVDA\nRecent infection\nImmunocompromised state\nHIV\nSystemic\ncorticosteroids\nTransplant\nDM",
+          "tables": []
+        },
+        "Cauda_Equina": {
+          "text": "Incontinence or\nretention\nSaddle anesthesia\nDecreased anal sphincter tone\nBilateral lower extremity\nweakness\nor\nnumbness\nNeurologic deficit",
+          "tables": []
+        },
+        "Herniated_Disc": {
+          "text": "Muscle Weakness\nRadiation of pain\nFootdrop",
+          "tables": []
+        },
+        "Vertebral_Fracture": {
+          "text": "Prolonged use of corticosteroids\nHistory of osteoporosis\nAge>70\nMild trauma in age >50yr\nSignificant trauma in any age\nBony tenderness",
+          "tables": []
+        },
+        "AAA/Aortic_Dissection": {
+          "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Transplant",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Infection_Related": {
+      "text": "Persistent fever\nHistory of IVDA\nRecent infection\nImmunocompromised state\nHIV\nSystemic\ncorticosteroids\nTransplant\nDM",
+      "subsections": {
+        "Cauda_Equina": {
+          "text": "Incontinence or\nretention\nSaddle anesthesia\nDecreased anal sphincter tone\nBilateral lower extremity\nweakness\nor\nnumbness\nNeurologic deficit",
+          "tables": []
+        },
+        "Herniated_Disc": {
+          "text": "Muscle Weakness\nRadiation of pain\nFootdrop",
+          "tables": []
+        },
+        "Vertebral_Fracture": {
+          "text": "Prolonged use of corticosteroids\nHistory of osteoporosis\nAge>70\nMild trauma in age >50yr\nSignificant trauma in any age\nBony tenderness",
+          "tables": []
+        },
+        "AAA/Aortic_Dissection": {
+          "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Transplant",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/Diabetes_Mellitus"
+        },
+        {
+          "text": "retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Cauda_Equina": {
+      "text": "Incontinence or\nretention\nSaddle anesthesia\nDecreased anal sphincter tone\nBilateral lower extremity\nweakness\nor\nnumbness\nNeurologic deficit",
+      "subsections": {
+        "Herniated_Disc": {
+          "text": "Muscle Weakness\nRadiation of pain\nFootdrop",
+          "tables": []
+        },
+        "Vertebral_Fracture": {
+          "text": "Prolonged use of corticosteroids\nHistory of osteoporosis\nAge>70\nMild trauma in age >50yr\nSignificant trauma in any age\nBony tenderness",
+          "tables": []
+        },
+        "AAA/Aortic_Dissection": {
+          "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "numbness",
+          "url": "https://wikem.org/wiki/Numbness"
+        }
+      ]
+    },
+    "Herniated_Disc": {
+      "text": "Muscle Weakness\nRadiation of pain\nFootdrop",
+      "subsections": {
+        "Vertebral_Fracture": {
+          "text": "Prolonged use of corticosteroids\nHistory of osteoporosis\nAge>70\nMild trauma in age >50yr\nSignificant trauma in any age\nBony tenderness",
+          "tables": []
+        },
+        "AAA/Aortic_Dissection": {
+          "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Vertebral_Fracture": {
+      "text": "Prolonged use of corticosteroids\nHistory of osteoporosis\nAge>70\nMild trauma in age >50yr\nSignificant trauma in any age\nBony tenderness",
+      "subsections": {
+        "AAA/Aortic_Dissection": {
+          "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "AAA/Aortic_Dissection": {
+      "text": "Risk factors for PVD\nPulsating mass\nPain at rest or at night\nAge >60yrs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Lower back pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lower back pain",
+          "url": "https://wikem.org/wiki/Lower_back_pain"
+        }
+      ]
+    }
+  }
+}

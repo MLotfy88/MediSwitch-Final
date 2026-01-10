@@ -1,0 +1,614 @@
+{
+  "drug_name": "Ascites/en",
+  "url": "https://wikem.org/wiki/Ascites/en",
+  "scraped_at": "2026-01-10T07:48:16.088322",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Abnormal buildup of peritoneal fluid\nMost commonly caused by portal hypertension\nAscites fluid can become infected (spontaneous bacterial peritonitis), carrying a mortality rate between 30%-90%\n[1]",
+      "subsections": {
+        "Causes": {
+          "text": "Cirrhosis\n81%\n[2]\nMalignancy 10%\nHeart failure\n3%\nTuberculosis\n2%\nOther 4%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Cirrhosis\n81%\n[2]\nMalignancy 10%\nHeart failure\n3%\nTuberculosis\n2%\nOther 4%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal distention\n+/- discomfort\nFluid wave\n+/-\nSOB\nif massive amount",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        },
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[3]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[3]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Hepatic_Dysfunction": {
+      "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[3]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Ascites in females with no other reason for it = gynecologic neoplasm until proven otherwise (ovarian cancer)",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChem 7\nPT/PTT\nLFTs\n+ lipase\nFAST",
+          "tables": []
+        },
+        "Ascites_Fluid_Workup": {
+          "text": "Cell count and differential\nAlbumin\nTotal protein\nOnly if suspicious:\n[5]\nGram stain\nGlucose\nLDH\nAmylase\nAFB smear and culture\nCytology\nTriglyceride",
+          "tables": []
+        },
+        "Ascites_Diagnosis": {
+          "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[6]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[7]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nChem 7\nPT/PTT\nLFTs\n+ lipase\nFAST",
+      "subsections": {
+        "Ascites_Fluid_Workup": {
+          "text": "Cell count and differential\nAlbumin\nTotal protein\nOnly if suspicious:\n[5]\nGram stain\nGlucose\nLDH\nAmylase\nAFB smear and culture\nCytology\nTriglyceride",
+          "tables": []
+        },
+        "Ascites_Diagnosis": {
+          "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[6]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[7]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Ascites_Diagnosis": {
+      "text": "The differential diagnosis of ascites is often clarified by the calculation of the serum albumin to ascites gradient (SAAG).^\nHigh SAAG > 1.1 g/dL – Indicative of portal hypertension\n[6]\nCirrhosis\nHeart failure\nAscites total protein > 2.5 g/dL suggests cardiac ascites\n[7]\nAlcoholic hepatitis\nBudd-Chiari syndrome\nPortal vein thrombosis\nLow SAAG < 1.1 g/dL\nMalignancy / peritoneal carcinomatosis\nNephrotic syndrome\nPancreatitis\nPeritoneal\ntuberculosis\nSerositis\nBowel infarction\nChylous\n^SAAG = (serum albumin in g/dL) − (ascitic albumin in g/dL)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Portal vein thrombosis",
+          "url": "https://wikem.org/wiki/Portal_vein_thrombosis"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Salt restriction\nEffective in about 15% of patients\nDiuretics\nSpironolactone\nStarting dose = 100mg/day PO (max 400mg/day)\n40% of patients will respond\nFurosemide\n40mg/day PO (max 160mg/day)\nRatio of 100:40 with spironolactone (reduces risks of potassium prob)\nWater restriction\nParacentesis\nConsider liver transplantation and shunting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Frequently outpatient, once\nSBP\nis ruled out, if a known reason for ascites and sufficiently therapeutically drained",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "SBP\nHepatorenal syndrome\nPleural effusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Jaundice\nParacentesis\nSBP\nCirrhosis\nAcute hepatic failure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "drug_name": "Autoimmune_hemolytic_anemia",
+  "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia",
+  "scraped_at": "2026-01-10T07:48:19.531333",
+  "sections": {
+    "Background": {
+      "text": "Autoimmune\nhemolytic anemia\n(AIHA) = generation of auto-antibodies towards red blood cell membrane antigens, leady to hemolysis.\nCan be primary (idiopathic) or due to another disease process (e.g. malignancy, autoimmune disease, infection)",
+      "subsections": {
+        "\"Warm\"_Autoimmune_Hemolytic_Anemia": {
+          "text": "Autoantibodies agglutinate to RBCs at higher temperatures\nIgG mediated, usually pan-reactive to patient's and transfused RBCs\nExtravascular (i.e. in spleen) hemolysis→ unconjugated > conjugated\nhyperbilirubinemia\nHaptoglobin low, LDH may be normal\nCauses:\nLymphoma\n, especially Non-Hodgkin's lymphoma\nLeukemia\n, particularly\nchronic lymphocytic leukemia\nCollagen vascular diseases (E.g.\nSystemic Lupus Erythematosus\n,\nRheumatoid arthritis\n,\nGiant cell arteritis\nViral-induced or\nHIV\n-associated\nMedications: methyldopa,\nquinidine\n,\npenicillin",
+          "tables": []
+        },
+        "\"Cold\"_Autoimmune_Hemolytic_Anemia": {
+          "text": "Autoantibodies agglutinate at lower temperatures\nIgM mediated\nIntravascular hemolysis→ high LDH, low haptoglobin, hemoglobinuria\nCauses:\nInfection, most commonly\nMycoplasma pneumoniae\nand\nmononucleosis\n, also\nvaricella\n,\nlisteria\n,\ninfluenza\nMultiple myeloma\nand other plasmacytomas\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "chronic lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Chronic_lymphocytic_leukemia"
+        },
+        {
+          "text": "Systemic Lupus Erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        }
+      ]
+    },
+    "\"Warm\"_Autoimmune_Hemolytic_Anemia": {
+      "text": "Autoantibodies agglutinate to RBCs at higher temperatures\nIgG mediated, usually pan-reactive to patient's and transfused RBCs\nExtravascular (i.e. in spleen) hemolysis→ unconjugated > conjugated\nhyperbilirubinemia\nHaptoglobin low, LDH may be normal\nCauses:\nLymphoma\n, especially Non-Hodgkin's lymphoma\nLeukemia\n, particularly\nchronic lymphocytic leukemia\nCollagen vascular diseases (E.g.\nSystemic Lupus Erythematosus\n,\nRheumatoid arthritis\n,\nGiant cell arteritis\nViral-induced or\nHIV\n-associated\nMedications: methyldopa,\nquinidine\n,\npenicillin",
+      "subsections": {
+        "\"Cold\"_Autoimmune_Hemolytic_Anemia": {
+          "text": "Autoantibodies agglutinate at lower temperatures\nIgM mediated\nIntravascular hemolysis→ high LDH, low haptoglobin, hemoglobinuria\nCauses:\nInfection, most commonly\nMycoplasma pneumoniae\nand\nmononucleosis\n, also\nvaricella\n,\nlisteria\n,\ninfluenza\nMultiple myeloma\nand other plasmacytomas\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "chronic lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Chronic_lymphocytic_leukemia"
+        },
+        {
+          "text": "Systemic Lupus Erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        }
+      ]
+    },
+    "\"Cold\"_Autoimmune_Hemolytic_Anemia": {
+      "text": "Autoantibodies agglutinate at lower temperatures\nIgM mediated\nIntravascular hemolysis→ high LDH, low haptoglobin, hemoglobinuria\nCauses:\nInfection, most commonly\nMycoplasma pneumoniae\nand\nmononucleosis\n, also\nvaricella\n,\nlisteria\n,\ninfluenza\nMultiple myeloma\nand other plasmacytomas\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs and symptoms of\nanemia\n(fatigue, pallor, palpitations, etc.)\nJaundice\nand scleral icterus\nSigns/symptoms of underlying disease process\nCold-type:\nAcrocyanosis,\nRaynaud's\n, vascular occlusion with peripheral tissue ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Raynaud's",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12\n/\nfolate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Thalassemia",
+          "url": "https://wikem.org/wiki/Thalassemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC, LFTs, LDH, haptoglobin\nDirect Coombs test - blood sample is removed of plasma and incubated with anti-human immunoglobulin (aka \"Coombs reagent\"). This detects if autoantibodies are attached to RBCs or compliment. If the RBCs are coated with IgG (positive direct Coombs test), this suggests the diagnosis of \"warm AIHA. If the RBCs are coated with only compliment, this suggests the diagnosis of \"cold\" AIHA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Warm_AIHA": {
+          "text": "Oral\nprednisone\n1-1.5mg/kg/day for 1-3 weeks with taper after hemoglobin stable\nmay need several months of low dose\nprednisone\nto remain in remission\nSplenectomy\nand/or cytotoxic drugs for for steroid-refractory disease\nPlasmapheresis\nas temporizing measure for severe disease\nTransfuse\npRBCs\nonly if truly life-threatening anemia, least incompatible units possible",
+          "tables": []
+        },
+        "Cold_AIHA": {
+          "text": "No treatment for mild disease\nImmunosuppressive or cytotoxic medications can be considered\nPlasmapheresis\nfor severe disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    },
+    "Warm_AIHA": {
+      "text": "Oral\nprednisone\n1-1.5mg/kg/day for 1-3 weeks with taper after hemoglobin stable\nmay need several months of low dose\nprednisone\nto remain in remission\nSplenectomy\nand/or cytotoxic drugs for for steroid-refractory disease\nPlasmapheresis\nas temporizing measure for severe disease\nTransfuse\npRBCs\nonly if truly life-threatening anemia, least incompatible units possible",
+      "subsections": {
+        "Cold_AIHA": {
+          "text": "No treatment for mild disease\nImmunosuppressive or cytotoxic medications can be considered\nPlasmapheresis\nfor severe disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    },
+    "Cold_AIHA": {
+      "text": "No treatment for mild disease\nImmunosuppressive or cytotoxic medications can be considered\nPlasmapheresis\nfor severe disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Paroxysmal nocturnal hemoglobinuria\n(PNH)\nSystemic lupus erythematosus\nRheumatoid arthritis\nScleroderma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        }
+      ]
+    }
+  }
+}

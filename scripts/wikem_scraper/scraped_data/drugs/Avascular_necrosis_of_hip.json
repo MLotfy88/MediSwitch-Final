@@ -1,0 +1,367 @@
+{
+  "drug_name": "Avascular_necrosis_of_hip",
+  "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip",
+  "scraped_at": "2026-01-10T07:48:26.984746",
+  "sections": {
+    "Background": {
+      "text": "Traumatic and nontraumatic causes can lead to an insult to the blood supply of the joint. The ischemia causes death of osteocytes and bone marrow that leads to necrosis and eventual collapse of the dead segment.",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Estimate of 10,000 to 20,000 new cases per year\nResponsible for about 10% of all total hip replacements\nPatients typically diagnosed before 40 years of age",
+          "tables": []
+        },
+        "Etiologies": {
+          "text": "Traumatic causes\nFemoral neck fracture\n/\ndislocation\nNon-traumatic causes\nUse of\ncorticosteroids\n,\nalcohol\n, tobacco\nSystemic lupus erythematosus\nSickle cell disease\nChronic Kidney Disease\nPancreatitis\nRadiation therapy\nHIV\nCaisson Disease (aka Dysbarism)\nLegg-Calve-Perthes disease\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Estimate of 10,000 to 20,000 new cases per year\nResponsible for about 10% of all total hip replacements\nPatients typically diagnosed before 40 years of age",
+      "subsections": {
+        "Etiologies": {
+          "text": "Traumatic causes\nFemoral neck fracture\n/\ndislocation\nNon-traumatic causes\nUse of\ncorticosteroids\n,\nalcohol\n, tobacco\nSystemic lupus erythematosus\nSickle cell disease\nChronic Kidney Disease\nPancreatitis\nRadiation therapy\nHIV\nCaisson Disease (aka Dysbarism)\nLegg-Calve-Perthes disease\nIdiopathic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        }
+      ]
+    },
+    "Etiologies": {
+      "text": "Traumatic causes\nFemoral neck fracture\n/\ndislocation\nNon-traumatic causes\nUse of\ncorticosteroids\n,\nalcohol\n, tobacco\nSystemic lupus erythematosus\nSickle cell disease\nChronic Kidney Disease\nPancreatitis\nRadiation therapy\nHIV\nCaisson Disease (aka Dysbarism)\nLegg-Calve-Perthes disease\nIdiopathic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Limp\nLimited range of motion of joint, both active and passive\nPain: Knee, Thigh, and/or Groin\nWasting of local musculature\nAsymmetric leg length",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hip_pain": {
+          "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        }
+      ]
+    },
+    "Hip_pain": {
+      "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain XR is poorly sensitive in early stages, as low as 41%\nAP and Frog leg views\nMRI ~90% sensitivity and specificity\nBest test\nBone Scan (aka Bone Scintigraph)\nMay show evidence of early bone ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Nonsurgical\nConsidered ineffective at stopping progression of ischemia\nBedrest, limit weightbearing, pain control\nMedications\nBisphophonates, vasodilators, and\nanticoagulants\nhave been used but efficacy has not yet been proven\nSurgical\nTotal Join Replacement\nUnfortunately, patients with osteonecrosis have an increased failure rate of the procedure.\nOngoing research for treatment\nJoint preserving operations, Bone marrow decompression therapy, vascularized and nonvascularized bone grafts, Bone marrow grafting, and Osteotomy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "It is vital to order medical and orthopedic referrals for evaluation of comorbidities and evaluation of joint in the emergency department.\nProgression to subchondral collapse if the diagnosis is missed and untreated\n67% in asymptomatic patients\nGreater than 85% in symptomatic patients\nIn one study by the American Academy of Orthopaedic Surgeons, early detection and treatment with core decompression has shown to prevent the need for total hip replacement.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hip pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip pain",
+          "url": "https://wikem.org/wiki/Hip_pain"
+        }
+      ]
+    },
+    "References": {
+      "text": "Kelly JD et al. Femoral head avascular necrosis treatment & management. Aug 16, 2015.\nhttp://emedicine.medscape.com/article/86568-treatment#showall\n.\nMiller MD M, Fisher MD S, Foran J. Osteonecrosis of the Hip. American Academy of Orthopaedic Surgeons.\nhttp://orthoinfo.aaos.org/topic.cfm?topic=a00216\n. Accessed August 2, 2016.\nStoica Z et al. Imaging of Avascular Necrosis of Femoral Head: Familiar Methods and Newer Trends. Curr Health Sci J. 2009 Jan-Mar; 35(1): 23–28.\nWainwright A. Legg-Calve-Perthes disease diagnostic tests - Epocrates online. Epocrates.\nhttps://online.epocrates.com/diseases/75134/Legg-Calve-Perthes-disease/Diagnostic-Tests\n. Accessed July 31, 2016.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,659 @@
+{
+  "drug_name": "Aspergillosis",
+  "url": "https://wikem.org/wiki/Aspergillosis",
+  "scraped_at": "2026-01-10T07:48:10.533302",
+  "sections": {
+    "Background": {
+      "text": "Primary affects lung\nMold\n: Hyphae that branches 45°\nInhalation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mold",
+          "url": "https://wikem.org/wiki/Mold"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Allergic_Bronchopulmonary_Aspergillosis_(ABPA)": {
+          "text": "Hypersensitivity reaction to\nA fumigatus\nAsthma\nand\ncystic fibrosis\nCough\n, mucous plugs, bronchial casts,\nhemoptysis\n,\nwheezing\n+/- Allergic fungal sinusitis",
+          "tables": []
+        },
+        "Chronic_Necrotizing_Aspergillosis_Pneumonia_(CNPA)": {
+          "text": "Underlying lung disease (steroid-dependent\nCOPD\n,\nalcoholism\n)\nSubacute\npneumonia\n, resistant to\nantibiotics\nand cavitates\nFever\n, cough, night sweats, weight loss",
+          "tables": []
+        },
+        "Aspergilloma_(Fungus_ball)": {
+          "text": "Preexisting cavitary lung disease (Tb, sarcoidosis) or cystic lesion (PCP)\nHemoptysis\n, cough and fever\nAsymptomatic radiographic abnormality",
+          "tables": []
+        },
+        "Invasive_aspergillosis": {
+          "text": "Neutropenia\nor immunosuppression\nOrgan\ntransplantation\n(bone marrow),\nleukemia\n,\nlymphoma\n, chemotherapy\nLong-term steroid use (ex\nCOPD\n)\nFever\n, cough, dyspnea, pleuritic\nchest pain\n,\nhemoptysis\nRapidly progressive, can be fatal\nCan cause skin infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "transplantation",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Invasive_aspergillosis": {
+      "text": "Neutropenia\nor immunosuppression\nOrgan\ntransplantation\n(bone marrow),\nleukemia\n,\nlymphoma\n, chemotherapy\nLong-term steroid use (ex\nCOPD\n)\nFever\n, cough, dyspnea, pleuritic\nchest pain\n,\nhemoptysis\nRapidly progressive, can be fatal\nCan cause skin infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "transplantation",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Asthma\nBronchiectasis\nEosinophilia\nARDS\nPE\nLung abscess\nSarcoidosis\nTb",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Causes_of_Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Chlamydophila psittaci",
+          "url": "https://wikem.org/wiki/Chlamydophila_psittaci"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ABPA\nEosinophilia\nSkin test + for\nA. Fumigatus\nSerum IgE > 1000 IU/dL or > x 2-fold rise from baseline\nAspergillus precipitins +\nAspergillus radioallergosorbent assay test + and sputum culture\nCXR\n: Fleeting pulmonary infiltrates, mucoid impaction, central bronchiectasis\nCT chest: Bronchiectasis, lobulated masses that are mucus-filled dilate bronchi\nAspergilloma\nPrecipitin Ab test +\nCXR\n/CT: Mass in preexisting cavity, often in upper lobe (crescent of air outlining solid mass)\nInvasive aspergillosis and CNPA\nVisualization of fungi (Silver stain)\nPositive culture from sputum, needle biopsy, or BAL\nGalactomannan level\nCXR\n: Nodules, cavitary lesions, alveolar infiltrates\nCT chest: Halo sign, screscent of air surrounding nodules, wedge-shaped or pleural-based infiltrates, cavitation, pulmonary infarction",
+      "subsections": {
+        "Special_Population:_Cystic_Fibrosis": {
+          "text": "Diagnosis: Clinical deterioration; IgE> 1000IU/mL or > 2-4x baseline; + serology; new infiltrate\nTreatment: New radiologic finding and symptoms and change in baseline IgE >500 IU/mL",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Special_Population:_Cystic_Fibrosis": {
+      "text": "Diagnosis: Clinical deterioration; IgE> 1000IU/mL or > 2-4x baseline; + serology; new infiltrate\nTreatment: New radiologic finding and symptoms and change in baseline IgE >500 IU/mL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Pulmonary consult +/- ID consult\nABPA: Oral\ncorticosteroids\nRecurrent chronic, add oral\nitraconazole\n+/- surgical resection of nasal polyp\nAspergilloma\nSymptomatic (\nhemoptysis\n): Oral\nitraconazole\nIntracavitary CT-guided percutaneous catheter px for\namphotericin B\nSurgical resection\nBronchial artery embolization\nInvasive aspergillosis\nVoriconazole\nDOC\nAlternative: Posaconazole,\namphotericin B\n,\ncaspofungin\nReduce immunosuppression\nCNPA\nVoriconazole\n,\nitraconazole\n,\ncaspofungin\n, or\namphotericin b\nReduce immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        },
+        {
+          "text": "Voriconazole",
+          "url": "https://wikem.org/wiki/Voriconazole"
+        },
+        {
+          "text": "itraconazole",
+          "url": "https://wikem.org/wiki/Itraconazole"
+        },
+        {
+          "text": "caspofungin",
+          "url": "https://wikem.org/wiki/Caspofungin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Invasive aspergillosis often requires admission\nAdmit if massive hemoptysis\nABPA usually managed outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fungal infections\nAntifungals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Aspergillosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Harman EM, et al. (2014, May 31). Aspergillosis. eMedicine. Retrieved 12/24/2014 from\nhttp://emedicine.medscape.com/article/296052-overview",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

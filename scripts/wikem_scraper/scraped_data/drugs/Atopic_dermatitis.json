@@ -1,0 +1,418 @@
+{
+  "drug_name": "Atopic_dermatitis",
+  "url": "https://wikem.org/wiki/Atopic_dermatitis",
+  "scraped_at": "2026-01-10T07:48:18.060554",
+  "sections": {
+    "Background": {
+      "text": "Also known as atopic eczema\nA chronic type of inflammatory skin disease affecting many children and adults\nOccasionally accompanied by\nasthma\nand/or hay fever. Patients develop a cutaneous hyperreactivity to environmental triggers.\nCause is not known, but believed to be due to an interaction between susceptibility genes, the environment, defective skin barrier function, and immunologic responses.",
+      "subsections": {
+        "Dermatitis_Types": {
+          "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Dermatitis_Types": {
+      "text": "Atopic dermatitis\nCandida dermatitis\nCercarial dermatitis\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nDermatitis herpetiformis\nDiaper dermatitis\nDyshidrotic dermatitis\nNeonatal seborrhoeic dermatitis\nNummular dermatitis\nPerianal streptococcal dermatitis\nPerioral dermatitis\nSeborrheic dermatitis\nStasis dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Neonatal seborrhoeic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Perioral dermatitis",
+          "url": "https://wikem.org/wiki/Perioral_dermatitis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        },
+        {
+          "text": "Stasis dermatitis",
+          "url": "https://wikem.org/wiki/Stasis_dermatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Atopic personal or family history, worse in winter, dry weather\nErythema, crusts, fissures,\npruritus\n, excoriations, lichenification",
+      "subsections": {
+        "Infantile": {
+          "text": "blisters, crusts, exfoliations\nFace, scalp, trunk, extensor surfaces, sparing of diaper area\n1st few months of life, resolving by age 2\nDifferentiate from\nimpetigo\n(which may occur alongside)",
+          "tables": []
+        },
+        "Childhood": {
+          "text": "~4-12 years old\nWrists, ankles, antecubital and popliteal fossae",
+          "tables": []
+        },
+        "Adults": {
+          "text": ">12 years old\nDryness, thickening in flexor surfaces including antecubital and popliteal fossae, neck, hands\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        }
+      ]
+    },
+    "Infantile": {
+      "text": "blisters, crusts, exfoliations\nFace, scalp, trunk, extensor surfaces, sparing of diaper area\n1st few months of life, resolving by age 2\nDifferentiate from\nimpetigo\n(which may occur alongside)",
+      "subsections": {
+        "Childhood": {
+          "text": "~4-12 years old\nWrists, ankles, antecubital and popliteal fossae",
+          "tables": []
+        },
+        "Adults": {
+          "text": ">12 years old\nDryness, thickening in flexor surfaces including antecubital and popliteal fossae, neck, hands\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        }
+      ]
+    },
+    "Childhood": {
+      "text": "~4-12 years old\nWrists, ankles, antecubital and popliteal fossae",
+      "subsections": {
+        "Adults": {
+          "text": ">12 years old\nDryness, thickening in flexor surfaces including antecubital and popliteal fossae, neck, hands\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adults": {
+      "text": ">12 years old\nDryness, thickening in flexor surfaces including antecubital and popliteal fossae, neck, hands\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Neonatal_Rashes": {
+          "text": "Acne\nAtopic dermatitis\nCandidiasis\nContact dermatitis\nDiaper dermatitis\nErythema toxicum neonatorum\nImpetigo\nMastitis\nMilia\nMiliaria\nMongolian spots\nOmphalitis\nPerianal streptococcal dermatitis\nPsoriasis\nPustular melanosis\nSeborrheic dermatitis\nSucking blisters\nTinea capitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acne",
+          "url": "https://wikem.org/wiki/Neonatal_acne"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Erythema toxicum neonatorum",
+          "url": "https://wikem.org/wiki/Erythema_toxicum_neonatorum"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Neonatal_mastitis"
+        },
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Neonatal_Rashes": {
+      "text": "Acne\nAtopic dermatitis\nCandidiasis\nContact dermatitis\nDiaper dermatitis\nErythema toxicum neonatorum\nImpetigo\nMastitis\nMilia\nMiliaria\nMongolian spots\nOmphalitis\nPerianal streptococcal dermatitis\nPsoriasis\nPustular melanosis\nSeborrheic dermatitis\nSucking blisters\nTinea capitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acne",
+          "url": "https://wikem.org/wiki/Neonatal_acne"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Diaper dermatitis",
+          "url": "https://wikem.org/wiki/Diaper_dermatitis"
+        },
+        {
+          "text": "Erythema toxicum neonatorum",
+          "url": "https://wikem.org/wiki/Erythema_toxicum_neonatorum"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Neonatal_mastitis"
+        },
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Perianal streptococcal dermatitis",
+          "url": "https://wikem.org/wiki/Perianal_streptococcal_dermatitis"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Neonatal_seborrhoeic_dermatitis"
+        },
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nDry skin, erythematous papular lesions\nFace most commonly involved; nose and diaper areas spared",
+      "subsections": {
+        "Neonatal_atopic_dermatitis_vs._seborrhoeic_dermatitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Presentation",
+                "Neonatalatopic dermatitis": "1-2 months",
+                "Neonatal seborrhoeic dermatitis": "2-6 months"
+              },
+              {
+                "Category": "Puritic (fussiness)",
+                "Neonatalatopic dermatitis": "Yes",
+                "Neonatal seborrhoeic dermatitis": "No"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Neonatal_atopic_dermatitis_vs._seborrhoeic_dermatitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Presentation",
+            "Neonatalatopic dermatitis": "1-2 months",
+            "Neonatal seborrhoeic dermatitis": "2-6 months"
+          },
+          {
+            "Category": "Puritic (fussiness)",
+            "Neonatalatopic dermatitis": "Yes",
+            "Neonatal seborrhoeic dermatitis": "No"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Identify and eliminate triggers:\nAlcohol based products\nFragrances and astringents\nExcessive bathing\nAllergens\nReduce drying of skin\nAvoid lotions (high water and low oil content)\nLiberal application of emollients (vaseline) immediately after bath (<5 min, skin should be pat dry instead of rubbing)\n[2]\nAlternatives include petroleum jelly and Aquaphor\nIf using steroids, apply emollients on top of steroids\nTopical steroids\n7 days of low or medium potency steroid ointments either daily or BID\nTriamcinolone\n,\nhydrocortisone\n, or\nbetamethasone\nSevere flares require high potency steroids followed by a taper\nTopical steroid potency\nfor additional options\nAvoid fluoridinated steroids to thin skin areas such as face, groin, or axilla\nConsider\ndoxepin\nfor recalcitrant pruritus\n[3]\n[4]\n25-50mg PO nightly\nOr topical doxepin cream 5% QID",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "Triamcinolone",
+          "url": "https://wikem.org/wiki/Triamcinolone"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "Topical steroid potency",
+          "url": "https://wikem.org/wiki/Topical_steroid_potency"
+        },
+        {
+          "text": "doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Secondary\nbacterial infection\nEczema herpeticum\n, widespread HSV infection\nDyshidrotic eczema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bacterial infection",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        },
+        {
+          "text": "Eczema herpeticum",
+          "url": "https://wikem.org/wiki/Eczema_herpeticum"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Neonatal Rashes\nGeneral approach to rashes\nPediatric rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neonatal Rashes",
+          "url": "https://wikem.org/wiki/Neonatal_Rashes"
+        },
+        {
+          "text": "General approach to rashes",
+          "url": "https://wikem.org/wiki/General_approach_to_rashes"
+        },
+        {
+          "text": "Pediatric rashes",
+          "url": "https://wikem.org/wiki/Pediatric_rashes"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://pedemmorsels.com/atopic-dermatitis/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

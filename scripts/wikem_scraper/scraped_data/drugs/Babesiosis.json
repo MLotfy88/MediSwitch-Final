@@ -1,0 +1,300 @@
+{
+  "drug_name": "Babesiosis",
+  "url": "https://wikem.org/wiki/Babesiosis",
+  "scraped_at": "2026-01-10T07:48:25.385898",
+  "sections": {
+    "Background": {
+      "text": "Babesiosis is an infection of the\nBabesia\nspecies of intraerythrocytic protozoa, causing lysis of host red blood cells.\nSpread by the deer tick (Ixodes scapularis)\nPeople often unaware they are bitten\nNatural reservior is the white footed mouse\nEndemic in US, Europe, parts of Russia and China\nBabesia Microti is pathogen in US\nPossible to have co-infection with Lyme (same tick family)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\n, hemolytic anemia, chills,\nthrombocytopenia\n,\nDIC\nMore severe disease in immunocompromized patients (\nHIV\n, Elderly,\nAsplenic\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Asplenic",
+          "url": "https://wikem.org/wiki/Asplenic"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nOften with depressed white count\nPeripheral Blood Smears\nShows intracellular parasites: Maltese Cross sign\nMay need large smear as parasitemia can be as low as 1%\nCan often be confused for malaria parasites\nElectrolytes and renal function\nLFTs\nTotal bilirubin and haptoglobin values reflect the intensity of the infection (hemolysis)\nLyme\nUrine - hemolysis\nCXR\n- rare but possible ARDS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Each regimin is for 10 days duration and option 1 is often used for mild parasitemia <4% with option two for sever cases with >4% parasite load",
+      "subsections": {
+        "Option_1": {
+          "text": "Atovaquone (750mg BID) and\nAzithromycin\n(500-1000mg on first day, 250-1000mg on subsequent days)\n[1]",
+          "tables": []
+        },
+        "Option_2": {
+          "text": "Clindamycin\n600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Option_1": {
+      "text": "Atovaquone (750mg BID) and\nAzithromycin\n(500-1000mg on first day, 250-1000mg on subsequent days)\n[1]",
+      "subsections": {
+        "Option_2": {
+          "text": "Clindamycin\n600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Option_2": {
+      "text": "Clindamycin\n600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+      "subsections": {
+        "Pediatrics": {
+          "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "Clindamycin\n20mg/kg/day for children and 25mg/kg/day for children for 7-10 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Severe anemia (hemoglobin <10g/dL)\nParasitemia >4%\nMortality risk higher in asplenic patients",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Parasitemia <4%\nAsymptomatic or mild disease with intact spleen\nDischarged patients should follow-up with primary care or infectious disease specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Severe anemia (hemoglobin <10g/dL)\nParasitemia >4%\nMortality risk higher in asplenic patients",
+      "subsections": {
+        "Discharge": {
+          "text": "Parasitemia <4%\nAsymptomatic or mild disease with intact spleen\nDischarged patients should follow-up with primary care or infectious disease specialist",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Parasitemia <4%\nAsymptomatic or mild disease with intact spleen\nDischarged patients should follow-up with primary care or infectious disease specialist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tick Borne Illnesses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick Borne Illnesses",
+          "url": "https://wikem.org/wiki/Tick_Borne_Illnesses"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC\nhttp://www.cdc.gov/parasites/babesiosis/\nMerck Manual - Babesiosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Tobler WD, Cotton D, Lepore T, Agarwal S, Mahoney EJ. Case Report: Successful non-operative management of spontaneous splenic rupture in a patient with babesiosis. World Journal of Emergency Surgery : WJES. 2011;6:4. doi:10.1186/1749-7922-6-4.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

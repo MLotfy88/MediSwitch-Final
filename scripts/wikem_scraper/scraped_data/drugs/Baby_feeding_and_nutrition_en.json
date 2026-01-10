@@ -1,0 +1,193 @@
+{
+  "drug_name": "Baby_feeding_and_nutrition/en",
+  "url": "https://wikem.org/wiki/Baby_feeding_and_nutrition/en",
+  "scraped_at": "2026-01-10T07:48:24.555458",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Feeding": {
+      "text": "^Breastfeeding highly preferred to formula feeding",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "1 month",
+            "Amount of formula^": "2 to 4 ounces per feeding",
+            "Number of feedings per 24 hours": "6 to 8 times",
+            "Development": "",
+            "Solid foods": "No",
+            "Water": "No"
+          },
+          {
+            "Age": "2 months",
+            "Amount of formula^": "5 to 6 ounces per feeding",
+            "Number of feedings per 24 hours": "5 to 6 times",
+            "Development": "",
+            "Solid foods": "No",
+            "Water": "No"
+          },
+          {
+            "Age": "3 to 5 months",
+            "Amount of formula^": "6 to 7 ounces per feeding",
+            "Number of feedings per 24 hours": "5 to 6 times",
+            "Development": "",
+            "Solid foods": "No",
+            "Water": "No"
+          },
+          {
+            "Age": "4 to 6 months",
+            "Amount of formula^": "28 to 32 ounces per day",
+            "Number of feedings per 24 hours": "4 to 6 times",
+            "Development": "Make first cereal feedings very soupy and thicken slowly.",
+            "Solid foods": "Yes",
+            "Water": "No"
+          },
+          {
+            "Age": "7 months",
+            "Amount of formula^": "30 to 32 ounces per day",
+            "Number of feedings per 24 hours": "3 to 5 times",
+            "Development": "Start finger foods and cup.",
+            "Solid foods": "Yes",
+            "Water": "Yes"
+          },
+          {
+            "Age": "8 months",
+            "Amount of formula^": "30 to 32 ounces per day",
+            "Number of feedings per 24 hours": "3 to 5 times",
+            "Development": "Formula intake decreases; solid foods in diet increase.",
+            "Solid foods": "Yes",
+            "Water": "Yes"
+          },
+          {
+            "Age": "9 months",
+            "Amount of formula^": "30 to 32 ounces per day",
+            "Number of feedings per 24 hours": "3 to 5 times",
+            "Development": "Eating more table foods. Make sure diet has good variety.",
+            "Solid foods": "Yes",
+            "Water": "Yes"
+          },
+          {
+            "Age": "10 to 12 months",
+            "Amount of formula^": "24 to 30 ounces per day",
+            "Number of feedings per 24 hours": "3 to 4 times",
+            "Development": "Baby may change to table food. Baby will feed himself or herself and use a spoon and cup.",
+            "Solid foods": "Yes",
+            "Water": "Yes"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Formula_Types": {
+      "text": "Usually all formulas should be mixed 1 scoop to 2 oz of water. Water should be added first and then powder.\n[1]\n[2]",
+      "subsections": {
+        "Cow's_milk_protein": {
+          "text": "Milk based, for most babies\nExamples: Enfamil Complete, Similac Advance",
+          "tables": []
+        },
+        "Low_lactose_or_lactose_free": {
+          "text": "Sometimes used after a diarrheal illness, but these are not needed in the grand majority of patients\nExamples: Similac Sensitive, Enfamily Gentlease",
+          "tables": []
+        },
+        "Soy_protein_based": {
+          "text": "For infants with IgE mediated cow's milk allergy\nFor infants with galactosemia\nExamples: Enfamil Isomil, Gerber Good Start Soy, Similac Isomil",
+          "tables": []
+        },
+        "Extensively_hydrolyzed": {
+          "text": "Most are lactose free\nFor infants with food protein induced proctocolitis or IgE mediated cow's milk allergy\nExamples: Enfamil Nutramigen, Similac Alimentär",
+          "tables": []
+        },
+        "Amino_acid_based": {
+          "text": "Free from amino acids, indicated for patient's with severe cow's milk protein allergy\nLactose free\nExamples: Electra, Neocate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cow's_milk_protein": {
+      "text": "Milk based, for most babies\nExamples: Enfamil Complete, Similac Advance",
+      "subsections": {
+        "Low_lactose_or_lactose_free": {
+          "text": "Sometimes used after a diarrheal illness, but these are not needed in the grand majority of patients\nExamples: Similac Sensitive, Enfamily Gentlease",
+          "tables": []
+        },
+        "Soy_protein_based": {
+          "text": "For infants with IgE mediated cow's milk allergy\nFor infants with galactosemia\nExamples: Enfamil Isomil, Gerber Good Start Soy, Similac Isomil",
+          "tables": []
+        },
+        "Extensively_hydrolyzed": {
+          "text": "Most are lactose free\nFor infants with food protein induced proctocolitis or IgE mediated cow's milk allergy\nExamples: Enfamil Nutramigen, Similac Alimentär",
+          "tables": []
+        },
+        "Amino_acid_based": {
+          "text": "Free from amino acids, indicated for patient's with severe cow's milk protein allergy\nLactose free\nExamples: Electra, Neocate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Low_lactose_or_lactose_free": {
+      "text": "Sometimes used after a diarrheal illness, but these are not needed in the grand majority of patients\nExamples: Similac Sensitive, Enfamily Gentlease",
+      "subsections": {
+        "Soy_protein_based": {
+          "text": "For infants with IgE mediated cow's milk allergy\nFor infants with galactosemia\nExamples: Enfamil Isomil, Gerber Good Start Soy, Similac Isomil",
+          "tables": []
+        },
+        "Extensively_hydrolyzed": {
+          "text": "Most are lactose free\nFor infants with food protein induced proctocolitis or IgE mediated cow's milk allergy\nExamples: Enfamil Nutramigen, Similac Alimentär",
+          "tables": []
+        },
+        "Amino_acid_based": {
+          "text": "Free from amino acids, indicated for patient's with severe cow's milk protein allergy\nLactose free\nExamples: Electra, Neocate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Soy_protein_based": {
+      "text": "For infants with IgE mediated cow's milk allergy\nFor infants with galactosemia\nExamples: Enfamil Isomil, Gerber Good Start Soy, Similac Isomil",
+      "subsections": {
+        "Extensively_hydrolyzed": {
+          "text": "Most are lactose free\nFor infants with food protein induced proctocolitis or IgE mediated cow's milk allergy\nExamples: Enfamil Nutramigen, Similac Alimentär",
+          "tables": []
+        },
+        "Amino_acid_based": {
+          "text": "Free from amino acids, indicated for patient's with severe cow's milk protein allergy\nLactose free\nExamples: Electra, Neocate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Extensively_hydrolyzed": {
+      "text": "Most are lactose free\nFor infants with food protein induced proctocolitis or IgE mediated cow's milk allergy\nExamples: Enfamil Nutramigen, Similac Alimentär",
+      "subsections": {
+        "Amino_acid_based": {
+          "text": "Free from amino acids, indicated for patient's with severe cow's milk protein allergy\nLactose free\nExamples: Electra, Neocate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Amino_acid_based": {
+      "text": "Free from amino acids, indicated for patient's with severe cow's milk protein allergy\nLactose free\nExamples: Electra, Neocate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain (Peds)\nColic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

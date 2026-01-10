@@ -1,0 +1,766 @@
+{
+  "drug_name": "Aspirated_foreign_body",
+  "url": "https://wikem.org/wiki/Aspirated_foreign_body",
+  "scraped_at": "2026-01-10T07:48:15.085822",
+  "sections": {
+    "Background": {
+      "text": "Most common in young children (1-3 years old)\nConsider in any child with respiratory symptoms\nObject can be lodged in upper airway (20% of cases) or bronchus (80%)",
+      "subsections": {
+        "Foreign_Body_Types": {
+          "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Foreign_Body_Types": {
+      "text": "Ear foreign body\nNasal foreign body\nOcular foreign body\nAspirated foreign body\nGI\nIngested foreign body\nBezoar\nBody packing\nEsophageal foreign body removal with foley catheter\nRectal foreign body\nSoft tissue foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ear foreign body",
+          "url": "https://wikem.org/wiki/Ear_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        },
+        {
+          "text": "Esophageal foreign body removal with foley catheter",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body_removal_with_foley_catheter"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of eating or handling a small object (or being unsupervised near one) followed by sudden onset coughing, dyspnea\nOnset of respiratory symptoms may sometimes be delayed >24 hours\nDyspnea\n, tachypnea,\nrespiratory distress\n,\nhypoxia\nSudden collapse,\ncardiac arrest\nCough\n, gagging\nStridor\n,\ndysphonia\n(if stuck at level of larynx)\nWheezing\n, decreased breath sounds (If lower airway)\nWheezing\nnot\nresponsive to\nbronchodilators\nFever\n,\npneumonia\nsymptoms if retained",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "dysphonia",
+          "url": "https://wikem.org/wiki/Dysphonia"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Trauma": {
+          "text": "Larynx fracture\nTracheobronchial tear/injury\nThyroid gland injury/trauma\nTracheal injury\nElectromagnetic or\nradiation exposure\nBurns\n,\ninhalation injury",
+          "tables": []
+        },
+        "Infectious_Disorders": {
+          "text": "Bacterial tracheitis\nDiphtheria\nTetanus\nTracheobronchial\ntuberculosis\nPoliomyelitis\n, paralytic, bulbar, or acute\nFungal\nlaryngitis",
+          "tables": []
+        },
+        "Abscesses": {
+          "text": "Retropharyngeal abscess\nEpiglottitis\n, acute\nPeritonsillar abscess\nLaryngotracheobronchitis (\ncroup\n)\nRetropharyngeal abscess",
+          "tables": []
+        },
+        "Neoplastic_Disorders": {
+          "text": "Neoplasms/tumors",
+          "tables": []
+        },
+        "Allergic_and_Auto-Immune_Disorders": {
+          "text": "Spasmodic/tracheobronchitis\nAngioedema\n/Angioneurotic edema",
+          "tables": []
+        },
+        "Metabolic,_Storage_Disorders": {
+          "text": "Cerebral Gaucher's of infants (acute)\nTracheobronchial\namyloidosis",
+          "tables": []
+        },
+        "Biochemical_Disorders": {
+          "text": "Tetany",
+          "tables": []
+        },
+        "Congenital,_Developmental_Disorders": {
+          "text": "Angioedema\n/Angioneurotic edema, hereditary",
+          "tables": []
+        },
+        "Psychiatric_Disorders": {
+          "text": "Somatization disorder",
+          "tables": []
+        },
+        "Anatomical_or_Mechanical": {
+          "text": "Foreign body aspiration\nAcute gastric acid/aspiration syndrome\nAirway obstruction\nNeck compartment hemorrhage/hematoma\nParadoxical vocal fold motion\n[1]",
+          "tables": []
+        },
+        "Vegetative,_Autonomic,_Endocrine_Disorders": {
+          "text": "Esophageal free reflux/\nGERD\nsyndrome\nLaryngospasm, acute\nBilateral vocal cord paralysis\nHypoparathyroidism",
+          "tables": []
+        },
+        "Poisoning": {
+          "text": "Smoke inhalation\nChemical burn/esophagus",
+          "tables": []
+        },
+        "Chronic_Pediatric_Conditions": {
+          "text": "Laryngotracheomalacia\n[2]\nSubglottic stenosis\nor prior intubation\nVascular ring\n(double aortic arch)\nVocal cord dysfunction/paroxysmal vocal fold movement",
+          "tables": []
+        },
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Larynx fracture",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Paradoxical vocal fold motion",
+          "url": "https://wikem.org/wiki/Paradoxical_vocal_fold_motion"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Hypoparathyroidism",
+          "url": "https://wikem.org/wiki/Hypoparathyroidism"
+        },
+        {
+          "text": "Smoke inhalation",
+          "url": "https://wikem.org/wiki/Smoke_inhalation"
+        },
+        {
+          "text": "Chemical burn/esophagus",
+          "url": "https://wikem.org/wiki/Caustics"
+        },
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Stridor": {
+      "text": "",
+      "subsections": {
+        "Trauma": {
+          "text": "Larynx fracture\nTracheobronchial tear/injury\nThyroid gland injury/trauma\nTracheal injury\nElectromagnetic or\nradiation exposure\nBurns\n,\ninhalation injury",
+          "tables": []
+        },
+        "Infectious_Disorders": {
+          "text": "Bacterial tracheitis\nDiphtheria\nTetanus\nTracheobronchial\ntuberculosis\nPoliomyelitis\n, paralytic, bulbar, or acute\nFungal\nlaryngitis",
+          "tables": []
+        },
+        "Abscesses": {
+          "text": "Retropharyngeal abscess\nEpiglottitis\n, acute\nPeritonsillar abscess\nLaryngotracheobronchitis (\ncroup\n)\nRetropharyngeal abscess",
+          "tables": []
+        },
+        "Neoplastic_Disorders": {
+          "text": "Neoplasms/tumors",
+          "tables": []
+        },
+        "Allergic_and_Auto-Immune_Disorders": {
+          "text": "Spasmodic/tracheobronchitis\nAngioedema\n/Angioneurotic edema",
+          "tables": []
+        },
+        "Metabolic,_Storage_Disorders": {
+          "text": "Cerebral Gaucher's of infants (acute)\nTracheobronchial\namyloidosis",
+          "tables": []
+        },
+        "Biochemical_Disorders": {
+          "text": "Tetany",
+          "tables": []
+        },
+        "Congenital,_Developmental_Disorders": {
+          "text": "Angioedema\n/Angioneurotic edema, hereditary",
+          "tables": []
+        },
+        "Psychiatric_Disorders": {
+          "text": "Somatization disorder",
+          "tables": []
+        },
+        "Anatomical_or_Mechanical": {
+          "text": "Foreign body aspiration\nAcute gastric acid/aspiration syndrome\nAirway obstruction\nNeck compartment hemorrhage/hematoma\nParadoxical vocal fold motion\n[1]",
+          "tables": []
+        },
+        "Vegetative,_Autonomic,_Endocrine_Disorders": {
+          "text": "Esophageal free reflux/\nGERD\nsyndrome\nLaryngospasm, acute\nBilateral vocal cord paralysis\nHypoparathyroidism",
+          "tables": []
+        },
+        "Poisoning": {
+          "text": "Smoke inhalation\nChemical burn/esophagus",
+          "tables": []
+        },
+        "Chronic_Pediatric_Conditions": {
+          "text": "Laryngotracheomalacia\n[2]\nSubglottic stenosis\nor prior intubation\nVascular ring\n(double aortic arch)\nVocal cord dysfunction/paroxysmal vocal fold movement",
+          "tables": []
+        },
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Larynx fracture",
+          "url": "https://wikem.org/wiki/Neck_Trauma"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Tetanus",
+          "url": "https://wikem.org/wiki/Tetanus"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "laryngitis",
+          "url": "https://wikem.org/wiki/Laryngitis"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Peritonsillar abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_abscess"
+        },
+        {
+          "text": "croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Tetany",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Paradoxical vocal fold motion",
+          "url": "https://wikem.org/wiki/Paradoxical_vocal_fold_motion"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Hypoparathyroidism",
+          "url": "https://wikem.org/wiki/Hypoparathyroidism"
+        },
+        {
+          "text": "Smoke inhalation",
+          "url": "https://wikem.org/wiki/Smoke_inhalation"
+        },
+        {
+          "text": "Chemical burn/esophagus",
+          "url": "https://wikem.org/wiki/Caustics"
+        },
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Pediatric_stridor": {
+      "text": "",
+      "subsections": {
+        "<6_Months_Old": {
+          "text": "Laryngotracheomalacia\nAccounts for 60%\nUsually exacerbated by viral URI\nDiagnosed with flexible fiberoptic laryngoscopy\nVocal cord paralysis\nStridor associated with feeding problems, hoarse voice, weak and/or changing cry\nMay have cyanosis or apnea if bilateral (less common)\nSubglottic stenosis\nCongenital vs secondary to prolonged intubation in premies\nAirway hemangioma\nUsually regresses by age 5\nAssociated with skin hemangiomas in beard distribution\nVascular ring\n/sling",
+          "tables": []
+        },
+        ">6_Months_Old": {
+          "text": "Croup\nviral laryngotracheobronchitis\n6 mo - 3 yr, peaks at 2 yrs\nMost severe on 3rd-4th day of illness\nSteeple sign not reliable- diagnose clinically\nEpiglottitis\nH flu\ntype B\nHave higher suspicion in unvaccinated children\nRapid onset sore throat, fever, drooling\nDifficult airway- call anesthesia/ ENT early\nBacterial tracheitis\nRare but causes life-threatening obstruction\nSymptoms of croup + toxic-appearing = bacterial tracheitis\nForeign body\n(sudden onset)\nMarked variation in quality or pattern of stridor\nRetropharyngeal abscess\nFever, neck pain, dysphagia, muffled voice, drooling, neck stiffness/torticollis/extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngotracheomalacia",
+          "url": "https://wikem.org/wiki/Laryngotracheomalacia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "H flu",
+          "url": "https://wikem.org/wiki/H_flu"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nUseful to confirm diagnosis, does not rule out\nNegative in >50% of tracheal foreign bodies, 25% of bronchial foreign bodies\n[3]\n, and may be missed if very small and/or radiopaque\nInspiratory/expiratory films may show relative hyperinflation proximal to obstruction on end-expiration\nConsider lateral decubitus films on right and left side",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Complete_Airway_Obstruction": {
+          "text": "If conscious: Heimlich maneuver, chest thrusts (obese or pregnant patients), back-blow/chest thrust (infants)\nIf object visible, remove manually (don't push it further into airway!)\nLaryngoscopy\n, remove visualized object with Magill forceps\nIf unsuccessful, bag-valve mask or intubate (may dislodge object and improve situation to partial or more distal obstruction)\nIf unable to intubate, may need cricothyrotomy (though will not help if obstruction distal to cricothyroid)",
+          "tables": []
+        },
+        "Partial_Obstruction": {
+          "text": "Supplemental\nO2\nAllow patient to assume position of comfort\nMonitor closely\nMay need rigid bronchoscopy to remove\nConsider consulting ENT, anesthesia (inhalational induction will decrease risk of pushing foreign body into harder-to-reach area)\nPost-removal: consider\ndexamethasone\n, bronchodilators and/or racemic epinephrine, and antibiotics for pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Complete_Airway_Obstruction": {
+      "text": "If conscious: Heimlich maneuver, chest thrusts (obese or pregnant patients), back-blow/chest thrust (infants)\nIf object visible, remove manually (don't push it further into airway!)\nLaryngoscopy\n, remove visualized object with Magill forceps\nIf unsuccessful, bag-valve mask or intubate (may dislodge object and improve situation to partial or more distal obstruction)\nIf unable to intubate, may need cricothyrotomy (though will not help if obstruction distal to cricothyroid)",
+      "subsections": {
+        "Partial_Obstruction": {
+          "text": "Supplemental\nO2\nAllow patient to assume position of comfort\nMonitor closely\nMay need rigid bronchoscopy to remove\nConsider consulting ENT, anesthesia (inhalational induction will decrease risk of pushing foreign body into harder-to-reach area)\nPost-removal: consider\ndexamethasone\n, bronchodilators and/or racemic epinephrine, and antibiotics for pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngoscopy",
+          "url": "https://wikem.org/wiki/Laryngoscopy"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Partial_Obstruction": {
+      "text": "Supplemental\nO2\nAllow patient to assume position of comfort\nMonitor closely\nMay need rigid bronchoscopy to remove\nConsider consulting ENT, anesthesia (inhalational induction will decrease risk of pushing foreign body into harder-to-reach area)\nPost-removal: consider\ndexamethasone\n, bronchodilators and/or racemic epinephrine, and antibiotics for pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Respiratory distress\nStridor\n,\nStridor (Peds)\nPALS (Main)\n,\nNewborn resuscitation\nDifficult airway algorithm\n,\nAirway sizes (peds)\nAspiration pneumonia and pneumonitis\nEsophageal foreign body\n,\nNasal foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "Stridor (Peds)",
+          "url": "https://wikem.org/wiki/Stridor_(Peds)"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Difficult airway algorithm",
+          "url": "https://wikem.org/wiki/Difficult_airway_algorithm"
+        },
+        {
+          "text": "Airway sizes (peds)",
+          "url": "https://wikem.org/wiki/Airway_sizes_(peds)"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "Esophageal foreign body",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        }
+      ]
+    }
+  }
+}

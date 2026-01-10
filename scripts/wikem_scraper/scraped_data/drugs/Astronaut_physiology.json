@@ -1,0 +1,79 @@
+{
+  "drug_name": "Astronaut_physiology",
+  "url": "https://wikem.org/wiki/Astronaut_physiology",
+  "scraped_at": "2026-01-10T07:48:11.850170",
+  "sections": {
+    "Definition": {
+      "text": "Space physiology is the study of the effects of space travel on the human body. It is a subfield of space medicine that focuses on the physiological changes that occur in the body during spaceflight.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Effects_of_Microgravity_on_the_Body": {
+      "text": "Microgravity, or weightlessness, has a profound impact on the human body. In space, the body does not have to work as hard to maintain posture and movement, which can lead to a range of effects, including:\nMuscle atrophy\n: Prolonged exposure to microgravity can cause muscles to weaken and shrink, particularly in the lower body.\n[2]\nBone loss\n: In microgravity, the body does not have to work as hard to maintain bone density, leading to a loss of bone mass, particularly in the weight-bearing bones of the lower body.\nFluid shift\n: In microgravity, fluids in the body shift towards the upper body, leading to puffy faces, congested sinuses, and other issues.\nCardiovascular changes\n: Microgravity can cause changes in blood pressure, cardiac output, and vascular resistance.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Other_Effects_of_Space_Travel_on_the_Body": {
+      "text": "In addition to the effects of microgravity, space travel can also cause a range of other physiological changes, including:\nRadiation exposure\n: Space travelers are exposed to higher levels of cosmic radiation, which can increase the risk of cancer and other health problems.\n[4]\nSleep disturbances\n: The unusual environment of space can disrupt sleep patterns, leading to fatigue and other issues.\nImmune system suppression\n: Space travel can weaken the immune system, making astronauts more susceptible to illness.\nVision impairment\n: Prolonged exposure to microgravity can cause changes in the shape of the eye, leading to vision problems.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adaptation_to_Space_Travel": {
+      "text": "Astronauts undergo a range of physiological changes as they adapt to space travel. These changes can include:\nOrthostatic intolerance\n: Astronauts may experience dizziness and lightheadedness when standing up after prolonged periods in microgravity.\nSpace adaptation syndrome\n: Astronauts may experience a range of symptoms, including nausea, vomiting, and disorientation, as they adapt to the microgravity environment.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Orthostatic intolerance",
+          "url": "https://wikem.org/wiki/Orthostatic_intolerance"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        }
+      ]
+    },
+    "Countermeasures": {
+      "text": "To mitigate the effects of space travel on the body, astronauts use a range of countermeasures, including:\nExercise\n: Regular exercise can help maintain muscle mass and bone density.\nResistance bands\n: Resistance bands can be used to provide resistance and help maintain muscle strength.\nLower body negative pressure\n: Lower body negative pressure (LBNP) devices can be used to simulate the effects of gravity on the lower body.\nSleep schedules\n: Astronauts follow strict sleep schedules to help regulate their sleep patterns.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Space medicine\nSpace adaptation syndrome\nOrthostatic intolerance\nRadiation exposure\nSpace adaptation syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Space medicine",
+          "url": "https://wikem.org/wiki/Space_medicine"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        },
+        {
+          "text": "Orthostatic intolerance",
+          "url": "https://wikem.org/wiki/Orthostatic_intolerance"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Space adaptation syndrome",
+          "url": "https://wikem.org/wiki/Space_adaptation_syndrome"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "NASA's Human Research Program\nEuropean Space Agency's Human Physiology in Space\nNational Space Biomedical Research Institute's Space Physiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

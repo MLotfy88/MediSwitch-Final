@@ -1,0 +1,122 @@
+{
+  "drug_name": "Arterial_line",
+  "url": "https://wikem.org/wiki/Arterial_line",
+  "scraped_at": "2026-01-10T07:48:10.466951",
+  "sections": {
+    "Indications": {
+      "text": "Hemodynamic instability\nUnreliable non-invasive BP monitoring\nTitration of\nvasopressors\nor other cardioactive drugs\nNeed for recurrent or serial ABG analysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Infection overlying insertion site\nKnown arterial insufficiency or occlusion distal to placement site\nTraumatic or vascular injury proximal to placement site\nDialysis fistula at site",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Sterile gloves, gown, cap, mask\nSterile drape\nIodine or chlorhexidine prep\nLocal anesthetic\n27-30ga needle and syringe for local anesthetic administration\nAppropriately sized needle and catheter for chosen site\nGuidewire (may be integrated into needle/catheter)\nNonabsorbable suture\nArmboard to hold wrist in extension (radial site only)\n500cc IV NS with pressure bag\nTransducer kit with tubing\nTransducer cable\nBioderm patch\nTegaderm dressing\nUltrasound (if using ultrasound-guided technique)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "General_Setup": {
+          "text": "Identify landmarks and palpate pulse\nRadial - 1-2 cm proximal to wrist\nSupinate hand and hold wrist in extension\nCheck for collateral circulation by performing the Allen test\nFemoral - anteromedial thigh distal to inguinal ligament\nCleanse skin with iodine or chlorhexidine\nAnesthetize skin and subcutaneous tissue over site with local anesthetic",
+          "tables": []
+        },
+        "\"Over-the-needle\"_technique": {
+          "text": "Gently palpate pulse with nondominant hand to guide needle placement\nInsert needle at 30-45 degrees to the skin\nAdvance until pulsatile blood is seen in flash chamber or catheter\nLower angle of catheter to 10-15 degrees to the skin\nAdvance catheter over needle into artery",
+          "tables": []
+        },
+        "\"Over-the-wire\"_technique_(Seldinger_or_modified_Seldinger)": {
+          "text": "Gently palpate pulse with nondominant hand to guide needle placement\nInsert needle at 30-45 degrees to the skin\nAdvance until pulsatile blood is seen in flash chamber or catheter\nInsert wire through needle into artery\nRemove needle, leaving wire in place, and advance catheter over wire into artery, then remove wire\nSome arterial line needles have the wire integrated into flash chamber, allowing the wire to be advanced into artery and the catheter over the needle/wire system without removing the needle",
+          "tables": []
+        },
+        "Ultrasound_guidance": {
+          "text": "Ultrasound guidance of arterial line placement has been shown to significantly increase first attempt success and decrease time to placement\n[2]\n[3]\n[4]\n, and should be considered in all arterial line placements",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General_Setup": {
+      "text": "Identify landmarks and palpate pulse\nRadial - 1-2 cm proximal to wrist\nSupinate hand and hold wrist in extension\nCheck for collateral circulation by performing the Allen test\nFemoral - anteromedial thigh distal to inguinal ligament\nCleanse skin with iodine or chlorhexidine\nAnesthetize skin and subcutaneous tissue over site with local anesthetic",
+      "subsections": {
+        "\"Over-the-needle\"_technique": {
+          "text": "Gently palpate pulse with nondominant hand to guide needle placement\nInsert needle at 30-45 degrees to the skin\nAdvance until pulsatile blood is seen in flash chamber or catheter\nLower angle of catheter to 10-15 degrees to the skin\nAdvance catheter over needle into artery",
+          "tables": []
+        },
+        "\"Over-the-wire\"_technique_(Seldinger_or_modified_Seldinger)": {
+          "text": "Gently palpate pulse with nondominant hand to guide needle placement\nInsert needle at 30-45 degrees to the skin\nAdvance until pulsatile blood is seen in flash chamber or catheter\nInsert wire through needle into artery\nRemove needle, leaving wire in place, and advance catheter over wire into artery, then remove wire\nSome arterial line needles have the wire integrated into flash chamber, allowing the wire to be advanced into artery and the catheter over the needle/wire system without removing the needle",
+          "tables": []
+        },
+        "Ultrasound_guidance": {
+          "text": "Ultrasound guidance of arterial line placement has been shown to significantly increase first attempt success and decrease time to placement\n[2]\n[3]\n[4]\n, and should be considered in all arterial line placements",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "\"Over-the-needle\"_technique": {
+      "text": "Gently palpate pulse with nondominant hand to guide needle placement\nInsert needle at 30-45 degrees to the skin\nAdvance until pulsatile blood is seen in flash chamber or catheter\nLower angle of catheter to 10-15 degrees to the skin\nAdvance catheter over needle into artery",
+      "subsections": {
+        "\"Over-the-wire\"_technique_(Seldinger_or_modified_Seldinger)": {
+          "text": "Gently palpate pulse with nondominant hand to guide needle placement\nInsert needle at 30-45 degrees to the skin\nAdvance until pulsatile blood is seen in flash chamber or catheter\nInsert wire through needle into artery\nRemove needle, leaving wire in place, and advance catheter over wire into artery, then remove wire\nSome arterial line needles have the wire integrated into flash chamber, allowing the wire to be advanced into artery and the catheter over the needle/wire system without removing the needle",
+          "tables": []
+        },
+        "Ultrasound_guidance": {
+          "text": "Ultrasound guidance of arterial line placement has been shown to significantly increase first attempt success and decrease time to placement\n[2]\n[3]\n[4]\n, and should be considered in all arterial line placements",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ultrasound_guidance": {
+      "text": "Ultrasound guidance of arterial line placement has been shown to significantly increase first attempt success and decrease time to placement\n[2]\n[3]\n[4]\n, and should be considered in all arterial line placements",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Bleeding\nHematoma at puncture site\nInfection\nTemporary occlusion of artery (permanent occlusion reported, but rare)\nPseudoaneurysm formation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Miscellaneous": {
+      "text": "While you are trying to get an arterial line to get a crude estimate of the systolic pressure (especially if automatic cuff BP machine is not working due to BP too low) you can try one of the following:\n[6]\nPOCUS blood pressure: inflate cuff and watch when you stop getting flow stops on ultrasound of brachial artery.\nSpO2 blood pressure: inflate cuff and watch when you stop getting SpO2 on the finger.\nArterial line still preferred over the above methods since these are just rough estimates.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Do Radial Artery Cannulation\nMerk Manual - How To Do Femoral Artery Cannulation\nemDocs - Under Pressure: Arterial Lines in the Emergency Department\nREBEL EM - Ultrasound vs Landmark-Guided Palpation for Radial Arterial Line Placement",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=_VNEZtZtww8}}\n{{#widget:YouTube|id=EFnUaYRAdro}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=_VNEZtZtww8}}\n{{#widget:YouTube|id=EFnUaYRAdro}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
