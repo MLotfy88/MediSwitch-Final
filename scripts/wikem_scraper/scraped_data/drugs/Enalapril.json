@@ -1,0 +1,106 @@
+{
+  "drug_name": "Enalapril",
+  "url": "https://wikem.org/wiki/Enalapril",
+  "scraped_at": "2026-01-10T07:52:35.531817",
+  "sections": {
+    "Intro": {
+      "text": "Note: for the active metabolite available in IV, see\nEnalaprilat\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Type:\nACE inhibitor\nDosage Forms: 2.5mg, 5mg, 10mg, 20mg\nCommon Trade Names: Vasotec, Epaned\nGeneral information:\nDoses > 40mg/day rarely more effective\nDecreased efficacy as monotherapy in African-American patients\nObtain Chem 10 if starting in ED to assess renal function",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "hypertension: 10 - 40mg PO Qday, max 40mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "1 month -16 year old: 0.1 - 0.5mg/kg/day PO divided q12 - 24h, max 40mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Probably Safe\nRenal Dosing\nAdult: CrCl < 30, start 2.5mg qday, max 40mg q/day\nPediatric creatinine Cl 10-50: decrease dose 25%, CrCl < 10: decrease dose 50%\nHepatic Dosing\nAdult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nhistory of angioedema\npregnancy\ncaution if renal artery stenosis\ncaution if severe CHF\ncaution if renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "angioedema\nhypotension\nhyperkalemia\nrenal impairment\nhepatotoxicity\nneutropenia\npancreatitis\nsteven johnson syndrome\nfetal/neonatal harm\ncongenital malformations",
+          "tables": []
+        },
+        "Common": {
+          "text": "dizziness\nelevated Cr\nheadache\ndiarrhea\nhypotension\nabdominal pain\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "angioedema\nhypotension\nhyperkalemia\nrenal impairment\nhepatotoxicity\nneutropenia\npancreatitis\nsteven johnson syndrome\nfetal/neonatal harm\ncongenital malformations",
+      "subsections": {
+        "Common": {
+          "text": "dizziness\nelevated Cr\nheadache\ndiarrhea\nhypotension\nabdominal pain\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "dizziness\nelevated Cr\nheadache\ndiarrhea\nhypotension\nabdominal pain\nhyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 12 hours\nMetabolism: Liver\nExcretion: urine, feces\nMechanism of Action: inhibits angiotensin converting enzyme, interferes with conversion of angiotensin 1 to angiotensin 2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension\nACE inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    }
+  }
+}

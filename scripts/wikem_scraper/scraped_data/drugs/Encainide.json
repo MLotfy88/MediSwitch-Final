@@ -1,0 +1,154 @@
+{
+  "drug_name": "Encainide",
+  "url": "https://wikem.org/wiki/Encainide",
+  "scraped_at": "2026-01-10T07:52:37.367204",
+  "sections": {
+    "Administration": {
+      "text": "Type: Class IC antiarrhythmic (sodium channel blocker)\nDosage Forms: Capsules (25mg or 35mg)\nRoutes of Administration: PO\nCommon Trade Names: Enkaid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Sustained_ventricular_tachycardia": {
+          "text": "25mg PO t.i.d\nMay be increased to 35mg PO t.i.d after 3-5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sustained_ventricular_tachycardia": {
+      "text": "25mg PO t.i.d\nMay be increased to 35mg PO t.i.d after 3-5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety and effectiveness in pediatrics not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown risk to nursing infants",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Reduce to single initial daily 25mg dose; increase to 25mg b.i.d after 7 days if needed.\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustments needed, but use caution when increasing dosage\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown risk to nursing infants",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Reduce to single initial daily 25mg dose; increase to 25mg b.i.d after 7 days if needed.\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustments needed, but use caution when increasing dosage\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown risk to nursing infants",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Reduce to single initial daily 25mg dose; increase to 25mg b.i.d after 7 days if needed.\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustments needed, but use caution when increasing dosage\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Reduce to single initial daily 25mg dose; increase to 25mg b.i.d after 7 days if needed.\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustments needed, but use caution when increasing dosage\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustments needed, but use caution when increasing dosage\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPreexisting 2nd or 3rd-degree AV block\nPreexisting right bundle branch block w/ left hemiblock\nPresence of cardiogenic shock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Provocation or aggravation of ventricular arrhythmias\n2nd or 3rd-degree AV block\nSinus bradycardia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dizziness\nBlurred/abnormal vision\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Provocation or aggravation of ventricular arrhythmias\n2nd or 3rd-degree AV block\nSinus bradycardia",
+      "subsections": {
+        "Common": {
+          "text": "Dizziness\nBlurred/abnormal vision\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Dizziness\nBlurred/abnormal vision\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Genetically determined; 1-2 hours for 90% of patients; 6-11 hours for 10% of patients\n[1]\nMetabolism: Hepatic; Encainide converts to two active metabolites (ODE and MODE)\nExcretion: Urine and feces\nMechanism of action: Blocks sodium channels in purkinje fibers and myocardium; slows conduction, reduces membrane responsiveness, and inhibits automaticity\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

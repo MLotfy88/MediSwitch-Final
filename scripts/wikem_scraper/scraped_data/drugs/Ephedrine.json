@@ -1,0 +1,284 @@
+{
+  "drug_name": "Ephedrine",
+  "url": "https://wikem.org/wiki/Ephedrine",
+  "scraped_at": "2026-01-10T07:52:42.787248",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nSympathomimetic\n,\nPressors\nDosage Forms:\nRoutes of Administration: IV; ephedrine directly from\nephedra\nplant may be consumed PO as component of traditional chinese medicine\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Hypotension in setting of analgesia: 5-10mg IV bolus, repeat prn, max dose 50mg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Fetal risk cannot be ruled out",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Fetal risk cannot be ruled out",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: not established",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: not established",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nClosed angle\nglaucoma\n,\nPheochromocytoma\n[1]\nCaution if using postpartum with concomitant oxytocics\nCaution in severe hypertension, history of cardiac disease\nCaution with concomitant use of norepi-dopa reuptake inhibitors (e.g.\nbupropion\n, Ritalin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Severe hypertension\nStroke\nTachycardia\n,\nbradycardia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypertension\nPalpitations\n,\nTachycardia\nNausea/vomiting\nDizziness\n, restlessness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Severe hypertension\nStroke\nTachycardia\n,\nbradycardia",
+      "subsections": {
+        "Common": {
+          "text": "Hypertension\nPalpitations\n,\nTachycardia\nNausea/vomiting\nDizziness\n, restlessness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypertension\nPalpitations\n,\nTachycardia\nNausea/vomiting\nDizziness\n, restlessness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6h\nMetabolism:\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Sympathomimetic: stimulates both alpha and beta adrenergic receptors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Ephedrine in its natural plant form, known as\nmá huáng\n(麻黄), used in traditional chinese medicine as decongestant, bronchodilator\nEphedrine used historically (now illicitly) for weight-loss and recreationally as stimulant due to its'\namphetamine\n-like properties",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sympathomimetic\nPressors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        }
+      ]
+    }
+  }
+}

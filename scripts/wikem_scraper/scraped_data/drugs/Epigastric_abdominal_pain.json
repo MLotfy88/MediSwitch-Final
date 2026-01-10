@@ -1,0 +1,326 @@
+{
+  "drug_name": "Epigastric_abdominal_pain",
+  "url": "https://wikem.org/wiki/Epigastric_abdominal_pain",
+  "scraped_at": "2026-01-10T07:52:46.646521",
+  "sections": {
+    "Background": {
+      "text": "This page outlines the general approach to adult epigastric pain",
+      "subsections": {
+        "Classification_by_Abdominal_pain_location": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "RUQ pain": "Flank pain",
+                "Epigastric pain": "Diffuse abdominal pain",
+                "LUQ pain": "Flank pain"
+              },
+              {
+                "RUQ pain": "RLQ pain",
+                "Epigastric pain": "Pelvic pain",
+                "LUQ pain": "LLQ pain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification_by_Abdominal_pain_location": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "RUQ pain": "Flank pain",
+            "Epigastric pain": "Diffuse abdominal pain",
+            "LUQ pain": "Flank pain"
+          },
+          {
+            "RUQ pain": "RLQ pain",
+            "Epigastric pain": "Pelvic pain",
+            "LUQ pain": "LLQ pain"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain in the epigastrum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Epigastric_Pain": {
+          "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Epigastric_Pain": {
+      "text": "Gastroesophageal reflux disease\n(GERD)\nPeptic ulcer disease\nwith or without perforation\nZollinger-Ellison syndrome\nGastritis\nPancreatitis\nGallbladder disease\nAcute cholecystitis\nCholangitis\nSymptomatic cholelithiasis\nAcalculous cholecystitis\nMyocardial Ischemia\nSplenic Infarctionenlargement\n/rupture/aneurysm\nPericarditis\n/\nMyocarditis\nAortic dissection\nHepatitis\nPyelonephritis\nPneumonia\nPyogenic liver abscess\nFitz-Hugh-Curtis Syndrome\nHepatomegaly\ndue to\nCHF\nBowel obstruction\nSMA syndrome\nPulmonary embolism\nBezoar\nIngested foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Zollinger-Ellison syndrome",
+          "url": "https://wikem.org/wiki/Zollinger-Ellison_syndrome"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_Disease_(Main)"
+        },
+        {
+          "text": "Acute cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_cholecystitis"
+        },
+        {
+          "text": "Cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Myocardial Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_Ischemia"
+        },
+        {
+          "text": "Splenic Infarctionenlargement",
+          "url": "https://wikem.org/wiki/Splenic_Infarction"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pyogenic liver abscess",
+          "url": "https://wikem.org/wiki/Pyogenic_liver_abscess"
+        },
+        {
+          "text": "Fitz-Hugh-Curtis Syndrome",
+          "url": "https://wikem.org/wiki/Fitz-Hugh-Curtis_Syndrome"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SMA syndrome",
+          "url": "https://wikem.org/wiki/SMA_syndrome"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Bezoar",
+          "url": "https://wikem.org/wiki/Bezoar"
+        },
+        {
+          "text": "Ingested foreign body",
+          "url": "https://wikem.org/wiki/Ingested_foreign_body"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChem\nLFTs\nLipase\nCoags\nUrinalysis\nUrine pregnancy (females)\n?\nECG\n(if >50 or at risk for cardiac disease)\n?\nRUQ US\n?\nCXR\nConsider if at risk for perforated ulcer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nChem\nLFTs\nLipase\nCoags\nUrinalysis\nUrine pregnancy (females)\n?\nECG\n(if >50 or at risk for cardiac disease)\n?\nRUQ US\n?\nCXR\nConsider if at risk for perforated ulcer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying disease process\nConsider PO antacid (e.g.\nMaalox\nPlus)\nThe addition of viscous\nlidocaine\n2% and/or Donnatol (i.e. \"GI Cocktail\") is no more effective than plain liquid antacid\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Disposition per underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain\nAbdominal Pain (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

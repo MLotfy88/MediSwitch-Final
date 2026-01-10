@@ -1,0 +1,91 @@
+{
+  "drug_name": "Elbow_x-ray",
+  "url": "https://wikem.org/wiki/Elbow_x-ray",
+  "scraped_at": "2026-01-10T07:52:36.034248",
+  "sections": {
+    "Four_Questions": {
+      "text": "Are the fat pads normal?\nA visible ant. fat pad is normal but if displaced anteriorly (Sail sign) it is abnormal\nA visible post. fat pad is always abnormal\nWhat if have fat pad displacement but no fracture or displacement is identified?\nAdults: Treat as radial head fracture\nPeds: Be certain that neither an undisplaced supracondylar fracture nor a displaced internal epicondyle fracture is overlooked!\nIs the radiocapitellar line normal?\nA line drawn along the longitudinal axis of the radial head and neck should pass through the capitellum\nIf line does not pass through capitellum then\ndislocation of radial head\nis probable\nWhenever there is a fracture of the ulnar shaft must evaluate the radiocapitellar line for possible\nradial head dislocation\n(\nMonteggia fracture-dislocation\n)\nThis rule is always valid on a true lateral film\nIn pediatric cases the AP view may be misleading\nIs the anterior humeral line normal?\nA line drawn along the ant cortex of the humerus will have at least 1/3 of the capitellum anterior to it\nIf less than 1/3 then strong probability of\nsupracondylar fracture\nwith distal fragment displaced posteriorly\nAre the ossification centers normal (pediatric patients only)?\nCRITOE\n(Capitellum, Radial head, Internal epicondyle, Trochlea, Olecranon, Lateral Epicondyle)\nDislocated elbow\nmay result in avulsion of internal epicondyle\nBecause the trochlea ossifies after the internal epicondyle if you see the trochlea you must find the epicondyle!",
+      "subsections": {
+        "Elbow_Ossification_by_Age_(CRITOE)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Ossification Center": "Capitellum",
+                "Age of Appearance (add 1yr for boys)": "1yr"
+              },
+              {
+                "Ossification Center": "Radial head",
+                "Age of Appearance (add 1yr for boys)": "3yr"
+              },
+              {
+                "Ossification Center": "Internal epicondyle",
+                "Age of Appearance (add 1yr for boys)": "5yr"
+              },
+              {
+                "Ossification Center": "Trochlea",
+                "Age of Appearance (add 1yr for boys)": "7yr"
+              },
+              {
+                "Ossification Center": "Olecranon",
+                "Age of Appearance (add 1yr for boys)": "9yr"
+              },
+              {
+                "Ossification Center": "External epicondyle",
+                "Age of Appearance (add 1yr for boys)": "11yr"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dislocation of radial head",
+          "url": "https://wikem.org/wiki/Radial_head_dislocation"
+        },
+        {
+          "text": "radial head dislocation",
+          "url": "https://wikem.org/wiki/Radial_head_dislocation"
+        },
+        {
+          "text": "Monteggia fracture-dislocation",
+          "url": "https://wikem.org/wiki/Monteggia_fracture-dislocation"
+        },
+        {
+          "text": "supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "CRITOE",
+          "url": "https://wikem.org/wiki/CRITOE"
+        },
+        {
+          "text": "Dislocated elbow",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Elbow diagnoses\nElbow fractures (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elbow diagnoses",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        },
+        {
+          "text": "Elbow fractures (peds)",
+          "url": "https://wikem.org/wiki/Elbow_fractures_(peds)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Accident and Emergency Radiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

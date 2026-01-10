@@ -1,0 +1,31 @@
+{
+  "drug_name": "Episiotomy",
+  "url": "https://wikem.org/wiki/Episiotomy",
+  "scraped_at": "2026-01-10T07:52:49.690488",
+  "sections": {
+    "Episiotomy": {
+      "text": "Midline episiotomy - easier to heal, less painful, but can extend to anus\nMediolateral - unlikely to extend to anus\nAnatomic structures - vaginal epithelium, transverse perineal muscle, bulbocavernosus muscle, perineal skin\nACOG recommends restricting episiotomies, and prefers mediolateral to median (Level A, 2006)\nCurrent data is of poor quality in regards to benefits to mother or baby\nProcedure avoids spontaneous tearing and/or aids in difficult delivery:\nShoulder dystocia (contentiously the only indication)\nIf possible, avoid even in these situations:\nBaby is large or in breech\nLabor is going too quickly\nExtraction instruments needed (forceps, vacuum assisted)\nContraindications:\nIBD\nPerineal malformations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Bleeding\nExtension to higher-odre lacerations\nInfection - routine antibiotic prophylaxis not recommended by ACOG due to lack of evidence\nDehiscence",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Repair": {
+      "text": "Examine 360 degrees for other non-hemostatic lacerations that require sutures\nUse 2-0 or 3-0 vicryl rapide or similar - the same suture will be used to close all tissue\nStart an anchoring stitch at apex within vaginal mucosa\nContinuous LOCKing sutures along vaginal mucosa/submucosa\nOnce at the hymen/perineal muscles, tie suture, but do not cut continuous end\nBury the knot within the perineum, and come out with the needle at the apex of the perineum\nContinue suturing perineal muscles up to skin in a NON-locking fashion\nAt apex of skin, perform dermal approximations down to distal skin edge\nReturn to apex of skin with a subcuticular stitch (like a monocryl skin closure) and tie knot\nBury knot in superficial perineum/subQ and cut remaining suture from needle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Lappen et al. Episiotomy and Repair Technique. Updated Feb 27, 2014.\nhttp://emedicine.medscape.com/article/2047173-technique#showall\nAmerican College of Obstetrics and Gynecology. Episiotomy. ACOG Practice Bulletin #71. Obstet Gynecol. 2006. 107:957-62.\nAmerican College of Obstetricians and Gynecologists. ACOG practice bulletin no. 120: use of prophylactic antibiotics in labor and delivery. Obstet Gynecol. 2011 Jun. 117(6):1472-83.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

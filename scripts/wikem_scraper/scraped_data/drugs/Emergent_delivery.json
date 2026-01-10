@@ -1,0 +1,514 @@
+{
+  "drug_name": "Emergent_delivery",
+  "url": "https://wikem.org/wiki/Emergent_delivery",
+  "scraped_at": "2026-01-10T07:52:40.818105",
+  "sections": {
+    "Background": {
+      "text": "4 million deliveries per year in the US\nHighest pregnancy rates seen in 25-29 year old females\n[1]",
+      "subsections": {
+        "Stages_of_Labor": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1st: Dilation",
+                "Info": "LatentPassage of cervical mucous plugSlow dilation to 6 cmActiveRapid cervical dilation from 6 cm to 10 cm~8 hours in primiparous and ~5 hours in multiparous",
+                "Image": ""
+              },
+              {
+                "Stage": "2nd: Birth",
+                "Info": "Cervix fully dilatedUrge to pushExpulsion of infant~20 - 50 minutes",
+                "Image": ""
+              },
+              {
+                "Stage": "3rd: Placental delivery",
+                "Info": "~20 minutes>18 minutes increases risk ofpostpartum hemorrhagewith >30 minutes conferring very increased risk",
+                "Image": ""
+              },
+              {
+                "Stage": "4th: Post-placental delivery",
+                "Info": "1st hour after placental deliveryPeriod of time with highest risk forpostpartum hemorrhage",
+                "Image": ""
+              }
+            ]
+          ]
+        },
+        "6_Cardinal_Movements_of_Fetal_Descent": {
+          "text": "Engagement\nDescent\nFlexion\nInternal rotation\nExtension\nExternal rotation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Stages_of_Labor": {
+      "text": "",
+      "subsections": {
+        "6_Cardinal_Movements_of_Fetal_Descent": {
+          "text": "Engagement\nDescent\nFlexion\nInternal rotation\nExtension\nExternal rotation",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Stage": "1st: Dilation",
+            "Info": "LatentPassage of cervical mucous plugSlow dilation to 6 cmActiveRapid cervical dilation from 6 cm to 10 cm~8 hours in primiparous and ~5 hours in multiparous",
+            "Image": ""
+          },
+          {
+            "Stage": "2nd: Birth",
+            "Info": "Cervix fully dilatedUrge to pushExpulsion of infant~20 - 50 minutes",
+            "Image": ""
+          },
+          {
+            "Stage": "3rd: Placental delivery",
+            "Info": "~20 minutes>18 minutes increases risk ofpostpartum hemorrhagewith >30 minutes conferring very increased risk",
+            "Image": ""
+          },
+          {
+            "Stage": "4th: Post-placental delivery",
+            "Info": "1st hour after placental deliveryPeriod of time with highest risk forpostpartum hemorrhage",
+            "Image": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "6_Cardinal_Movements_of_Fetal_Descent": {
+      "text": "Engagement\nDescent\nFlexion\nInternal rotation\nExtension\nExternal rotation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nRupture of membranes\nPooling of fluid in the vaginal vault\nFerning pattern when fluid is allowed to dry on microscopic slide\npH testing with nitrazine paper turning blue\nCrowning",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent_delivery_and_related_complications": {
+          "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Umbilical cord prolapse",
+          "url": "https://wikem.org/wiki/Umbilical_cord_prolapse"
+        },
+        {
+          "text": "Breech delivery",
+          "url": "https://wikem.org/wiki/Breech_delivery"
+        },
+        {
+          "text": "Shoulder dystocia",
+          "url": "https://wikem.org/wiki/Shoulder_dystocia"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Emergent_delivery_and_related_complications": {
+      "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Umbilical cord prolapse",
+          "url": "https://wikem.org/wiki/Umbilical_cord_prolapse"
+        },
+        {
+          "text": "Breech delivery",
+          "url": "https://wikem.org/wiki/Breech_delivery"
+        },
+        {
+          "text": "Shoulder dystocia",
+          "url": "https://wikem.org/wiki/Shoulder_dystocia"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Cervical_Dilatation": {
+          "text": "Diameter of the internal cervical os increases as labor progresses\n0 cm (closed/fingertip) to 10 cm (complete/fully dilated)\nMeasure with index and middle fingers of examining hand\nUse sterile gloves, sterile lubrication, and sterile speculum",
+          "tables": []
+        },
+        "Effacement": {
+          "text": "Assessment of the cervical thinning\nPercentage of normal 3-4 cm long cervix\n4cm cervix = 0%\n0cm (thin) cervix = 100%\nFully effaced cervix feels paper-thin",
+          "tables": []
+        },
+        "Station_(-5_to_+5)": {
+          "text": "Distance of the presenting body relative to the maternal ischial spines\n-3 = beginning of second stage of labor\n0 = in line with the plane of the maternal ischial spines\n+3 = impending delivery\n+4 to +5 = crowning",
+          "tables": []
+        },
+        "True_versus_False_Labor": {
+          "text": "False labor is defined as uterine contractions that do not produce cervical changes.\nBraxton-Hicks contractions: Brief contractions, irregular in both duration and intensity\nTrue labor is characterized by regular contractions that lead to cervical changes, gradually increasing in intensity and duration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cervical_Dilatation": {
+      "text": "Diameter of the internal cervical os increases as labor progresses\n0 cm (closed/fingertip) to 10 cm (complete/fully dilated)\nMeasure with index and middle fingers of examining hand\nUse sterile gloves, sterile lubrication, and sterile speculum",
+      "subsections": {
+        "Effacement": {
+          "text": "Assessment of the cervical thinning\nPercentage of normal 3-4 cm long cervix\n4cm cervix = 0%\n0cm (thin) cervix = 100%\nFully effaced cervix feels paper-thin",
+          "tables": []
+        },
+        "Station_(-5_to_+5)": {
+          "text": "Distance of the presenting body relative to the maternal ischial spines\n-3 = beginning of second stage of labor\n0 = in line with the plane of the maternal ischial spines\n+3 = impending delivery\n+4 to +5 = crowning",
+          "tables": []
+        },
+        "True_versus_False_Labor": {
+          "text": "False labor is defined as uterine contractions that do not produce cervical changes.\nBraxton-Hicks contractions: Brief contractions, irregular in both duration and intensity\nTrue labor is characterized by regular contractions that lead to cervical changes, gradually increasing in intensity and duration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Effacement": {
+      "text": "Assessment of the cervical thinning\nPercentage of normal 3-4 cm long cervix\n4cm cervix = 0%\n0cm (thin) cervix = 100%\nFully effaced cervix feels paper-thin",
+      "subsections": {
+        "Station_(-5_to_+5)": {
+          "text": "Distance of the presenting body relative to the maternal ischial spines\n-3 = beginning of second stage of labor\n0 = in line with the plane of the maternal ischial spines\n+3 = impending delivery\n+4 to +5 = crowning",
+          "tables": []
+        },
+        "True_versus_False_Labor": {
+          "text": "False labor is defined as uterine contractions that do not produce cervical changes.\nBraxton-Hicks contractions: Brief contractions, irregular in both duration and intensity\nTrue labor is characterized by regular contractions that lead to cervical changes, gradually increasing in intensity and duration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "True_versus_False_Labor": {
+      "text": "False labor is defined as uterine contractions that do not produce cervical changes.\nBraxton-Hicks contractions: Brief contractions, irregular in both duration and intensity\nTrue labor is characterized by regular contractions that lead to cervical changes, gradually increasing in intensity and duration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Preparation": {
+          "text": "Position patient in the dorsal lithotomy position\n[3]\nPut on personal protective equipment\nPrepare suction, airway equipment, and warmer for infant\nCall for OB, NICU, pediatrics\nCall for additional staff members\nDivide team into maternal team and infant team (to receive infant after delivery)",
+          "tables": []
+        },
+        "Perineal_inspection": {
+          "text": "Infant's head bulges the perineum\nIf prolapsed cord is present, elevate the presenting fetal part, place patient in Trendelenburg position, and call OB stat\nGentle digital stretching with a lubricated finger may prevent tears and lacerations\nSupport the perineum with a sterile towel and place the other hand over the occiput to promote fetal head extension",
+          "tables": []
+        },
+        "Slowly_deliver_the_head": {
+          "text": "Check for nuchal cord\nIf present, slip finger between infant's neck and cord and attempt to reduce cord by pulling over infant's head\nIf unable to reduce cord, clamp or cut cord if infant's face can be cleared from perineum with immediate suction",
+          "tables": []
+        },
+        "Deliver_anterior_shoulder": {
+          "text": "Position hands on either side of the head and exert a gentle downward force\n[4]",
+          "tables": []
+        },
+        "Deliver_posterior_shoulder": {
+          "text": "Maintain position of hands and apply a small amount of upward traction",
+          "tables": []
+        },
+        "Delivery_of_the_body": {
+          "text": "Controlled expulsion helps to prevent perineal lacerations",
+          "tables": []
+        },
+        "After_delivery_of_infant": {
+          "text": "Hold the infant securely\nPosition in a manner that facilitates the flow of blood from the placenta to the infant\nStimulate and dry the infant\nClamp then cut the umbilical cord 3cm distal to insertion at umbilicus with sterile scissors\nACOG recommends delaying cord clamping until 30-60 seconds after delivery\n[5]\nIf uncomplicated delivery with clear airway and good respiratory support, mother may hold child immediately (skin to skin)\nIf mother or infant is unstable, pass infant to receiving team\nPlace infant in a warm incubator\nCheck\nAPGAR\nscores at 1, 5, and 10 minutes after delivery\nSee\nnewborn resuscitation\nfor complications",
+          "tables": []
+        },
+        "Emergent_Delivery_Instructions_(3nd_Stage)": {
+          "text": "Placental delivery\nMaintain manual suprapubic pressure\nProvide gentle cord traction and allow spontaneous placental separation\nPlacenta usually delivers within 10-30 minutes\nAvoid excessive cord traction to prevent uterine inversion\nSigns of placental separation\nAbrupt lengthening of cord\nSudden gush of blood\nCephalad migration of uterus\nInspect for missing placental segments and normal cord insertion and vessels\nNormal cord should have 3 vessels\nIf placenta is not intact, there may be\nretained products of conception\nin the uterus requiring manual or surgical removal\nStart\noxytocin\n20U-40U in 1L NS at 200-500 mL/hr or give\noxytocin\n10U IM in a patient without IV access\nAdministering oxytocin prevents 40% of PPH",
+          "tables": []
+        },
+        "Emergent_Delivery_Instructions_(4th_Stage)": {
+          "text": "1st hour after placental delivery\nPalpate abdomen and check for the achievement of uterine firmness and contraction\nPeriod of time with highest risk for\npostpartum hemorrhage\n(>500 mL blood)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "APGAR",
+          "url": "https://wikem.org/wiki/APGAR"
+        },
+        {
+          "text": "newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    },
+    "Preparation": {
+      "text": "Position patient in the dorsal lithotomy position\n[3]\nPut on personal protective equipment\nPrepare suction, airway equipment, and warmer for infant\nCall for OB, NICU, pediatrics\nCall for additional staff members\nDivide team into maternal team and infant team (to receive infant after delivery)",
+      "subsections": {
+        "Perineal_inspection": {
+          "text": "Infant's head bulges the perineum\nIf prolapsed cord is present, elevate the presenting fetal part, place patient in Trendelenburg position, and call OB stat\nGentle digital stretching with a lubricated finger may prevent tears and lacerations\nSupport the perineum with a sterile towel and place the other hand over the occiput to promote fetal head extension",
+          "tables": []
+        },
+        "Slowly_deliver_the_head": {
+          "text": "Check for nuchal cord\nIf present, slip finger between infant's neck and cord and attempt to reduce cord by pulling over infant's head\nIf unable to reduce cord, clamp or cut cord if infant's face can be cleared from perineum with immediate suction",
+          "tables": []
+        },
+        "Deliver_anterior_shoulder": {
+          "text": "Position hands on either side of the head and exert a gentle downward force\n[4]",
+          "tables": []
+        },
+        "Deliver_posterior_shoulder": {
+          "text": "Maintain position of hands and apply a small amount of upward traction",
+          "tables": []
+        },
+        "Delivery_of_the_body": {
+          "text": "Controlled expulsion helps to prevent perineal lacerations",
+          "tables": []
+        },
+        "After_delivery_of_infant": {
+          "text": "Hold the infant securely\nPosition in a manner that facilitates the flow of blood from the placenta to the infant\nStimulate and dry the infant\nClamp then cut the umbilical cord 3cm distal to insertion at umbilicus with sterile scissors\nACOG recommends delaying cord clamping until 30-60 seconds after delivery\n[5]\nIf uncomplicated delivery with clear airway and good respiratory support, mother may hold child immediately (skin to skin)\nIf mother or infant is unstable, pass infant to receiving team\nPlace infant in a warm incubator\nCheck\nAPGAR\nscores at 1, 5, and 10 minutes after delivery\nSee\nnewborn resuscitation\nfor complications",
+          "tables": []
+        },
+        "Emergent_Delivery_Instructions_(3nd_Stage)": {
+          "text": "Placental delivery\nMaintain manual suprapubic pressure\nProvide gentle cord traction and allow spontaneous placental separation\nPlacenta usually delivers within 10-30 minutes\nAvoid excessive cord traction to prevent uterine inversion\nSigns of placental separation\nAbrupt lengthening of cord\nSudden gush of blood\nCephalad migration of uterus\nInspect for missing placental segments and normal cord insertion and vessels\nNormal cord should have 3 vessels\nIf placenta is not intact, there may be\nretained products of conception\nin the uterus requiring manual or surgical removal\nStart\noxytocin\n20U-40U in 1L NS at 200-500 mL/hr or give\noxytocin\n10U IM in a patient without IV access\nAdministering oxytocin prevents 40% of PPH",
+          "tables": []
+        },
+        "Emergent_Delivery_Instructions_(4th_Stage)": {
+          "text": "1st hour after placental delivery\nPalpate abdomen and check for the achievement of uterine firmness and contraction\nPeriod of time with highest risk for\npostpartum hemorrhage\n(>500 mL blood)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "APGAR",
+          "url": "https://wikem.org/wiki/APGAR"
+        },
+        {
+          "text": "newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "oxytocin",
+          "url": "https://wikem.org/wiki/Oxytocin"
+        },
+        {
+          "text": "postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Amniotic fluid embolus",
+          "url": "https://wikem.org/wiki/Amniotic_fluid_embolus"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Post-Partum Emergencies\nVaginal Bleeding (Main)\nNewborn Scalp Hematoma\nApgar score\nNewborn resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-Partum Emergencies",
+          "url": "https://wikem.org/wiki/Post-Partum_Emergencies"
+        },
+        {
+          "text": "Vaginal Bleeding (Main)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Newborn Scalp Hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Apgar score",
+          "url": "https://wikem.org/wiki/Apgar_score"
+        },
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        }
+      ]
+    }
+  }
+}

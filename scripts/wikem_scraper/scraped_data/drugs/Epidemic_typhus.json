@@ -1,0 +1,277 @@
+{
+  "drug_name": "Epidemic_typhus",
+  "url": "https://wikem.org/wiki/Epidemic_typhus",
+  "scraped_at": "2026-01-10T07:52:44.123187",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\ntyphoid fever\n, a distinct disease caused by a different genera of bacteria\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Also known as epidemic \"louse-borne\" typhus\nAny of several similar diseases caused by Rickettsia bacteria (e.g. Rickettsia prowazekii, )",
+      "subsections": {
+        "Types_of_Typhus": {
+          "text": "Multiple diseases include the word \"typhus\" in their description. Types include:",
+          "tables": [
+            [
+              {
+                "Condition": "Epidemic \"Louse-borne\" typhus",
+                "Bacteria": "Rickettsia prowazekii",
+                "Reservoir/vector": "Human Body louse",
+                "Notes": "When the term \"typhus\" is used without clarification, this is usually the condition described. Historical references to \"typhus\" are now generally considered to be this condition."
+              },
+              {
+                "Condition": "Murine typhusor \"endemic typhus\" or \"flea-borne\" typhus",
+                "Bacteria": "Rickettsia typhi",
+                "Reservoir/vector": "Fleas on rats",
+                "Notes": ""
+              },
+              {
+                "Condition": "Scrub typhus",
+                "Bacteria": "Orientia tsutsugamushi",
+                "Reservoir/vector": "Harvest mites on humans or rodents",
+                "Notes": "Unlike the two conditions above, though it has the word \"typhus\" in the name, it is currently usually not classified in the typhus group, but in the closely related spotted fever group."
+              },
+              {
+                "Condition": "Queensland tick typhus",
+                "Bacteria": "Rickettsia australis",
+                "Reservoir/vector": "Ticks",
+                "Notes": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types_of_Typhus": {
+      "text": "Multiple diseases include the word \"typhus\" in their description. Types include:",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Condition": "Epidemic \"Louse-borne\" typhus",
+            "Bacteria": "Rickettsia prowazekii",
+            "Reservoir/vector": "Human Body louse",
+            "Notes": "When the term \"typhus\" is used without clarification, this is usually the condition described. Historical references to \"typhus\" are now generally considered to be this condition."
+          },
+          {
+            "Condition": "Murine typhusor \"endemic typhus\" or \"flea-borne\" typhus",
+            "Bacteria": "Rickettsia typhi",
+            "Reservoir/vector": "Fleas on rats",
+            "Notes": ""
+          },
+          {
+            "Condition": "Scrub typhus",
+            "Bacteria": "Orientia tsutsugamushi",
+            "Reservoir/vector": "Harvest mites on humans or rodents",
+            "Notes": "Unlike the two conditions above, though it has the word \"typhus\" in the name, it is currently usually not classified in the typhus group, but in the closely related spotted fever group."
+          },
+          {
+            "Condition": "Queensland tick typhus",
+            "Bacteria": "Rickettsia australis",
+            "Reservoir/vector": "Ticks",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever, headache, myalgias\n[1]\nTransmitted by arthropods/ ticks\nPainless eschar at inoculation site imp clue\nCamping, hiking in grassy/ scrub area\nRegional lymphadenopathy, rash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "leukopenia, thrombocytopenia\nUsually clinically",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Tetracycline\nChloramphenicol\nmay be an alternative, though associated with higher morbidity\nConfirm serologically, not useful in acute phase",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Travel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

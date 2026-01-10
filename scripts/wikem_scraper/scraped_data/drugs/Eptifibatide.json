@@ -1,0 +1,239 @@
+{
+  "drug_name": "Eptifibatide",
+  "url": "https://wikem.org/wiki/Eptifibatide",
+  "scraped_at": "2026-01-10T07:52:47.693026",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: INJ\nRoutes of Administration: IV\nCommon Trade Names: Integrilin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Acute_Coronary_Syndrome": {
+          "text": "2 mcg/kg/min IV\nStart 180 mcg/kg up to 22.6 mg IV x1\nMax: 15 mg/h infusion",
+          "tables": []
+        },
+        "PCI": {
+          "text": "2 mcg/kg/min IV\nStart 180 mcg/kg up to 22.6 mg IV x1\nMax: 15 mg/h infusion\nRepeat bolus x1 10 min after initial dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_Coronary_Syndrome": {
+      "text": "2 mcg/kg/min IV\nStart 180 mcg/kg up to 22.6 mg IV x1\nMax: 15 mg/h infusion",
+      "subsections": {
+        "PCI": {
+          "text": "2 mcg/kg/min IV\nStart 180 mcg/kg up to 22.6 mg IV x1\nMax: 15 mg/h infusion\nRepeat bolus x1 10 min after initial dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "PCI": {
+      "text": "2 mcg/kg/min IV\nStart 180 mcg/kg up to 22.6 mg IV x1\nMax: 15 mg/h infusion\nRepeat bolus x1 10 min after initial dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Benefits outweigh risks during pregnancy\nRisk of maternal hemorrhage during delivery\nRisk of fetal bleeding",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "May use when breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Decrease infusion to 1 mcg/kg/min, max 7.5 mg/h\nHD: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Benefits outweigh risks during pregnancy\nRisk of maternal hemorrhage during delivery\nRisk of fetal bleeding",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "May use when breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Decrease infusion to 1 mcg/kg/min, max 7.5 mg/h\nHD: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "May use when breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl <50: Decrease infusion to 1 mcg/kg/min, max 7.5 mg/h\nHD: Avoid use\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl <50: Decrease infusion to 1 mcg/kg/min, max 7.5 mg/h\nHD: Avoid use\nPediatric: Unavailable",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Unavailable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nBleeding diathesis history\nActive abnormal bleeding w/in 30 days\nMajor surgery w/in 6 weeks\nStroke\nw/in 30 days\nHemorrhagic stroke history\nPlatelet < 100,000\nSBP > 200, DBP > 110\nDialysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bleeding\nIntracranial hemorrhage\nThrombocytopenia\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bleeding\nHypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bleeding\nIntracranial hemorrhage\nThrombocytopenia\nAnaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Bleeding\nHypotension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bleeding\nHypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5 hours\nMetabolism: Other\nExcretion: Urine 50%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Reversibly binds to platelet glycoprotein IIb/IIIa receptors, reducing platelet aggregation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    }
+  }
+}

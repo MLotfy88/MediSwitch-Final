@@ -1,0 +1,174 @@
+{
+  "drug_name": "Epidemic_keratoconjunctivitis",
+  "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis",
+  "scraped_at": "2026-01-10T07:52:45.226449",
+  "sections": {
+    "Background": {
+      "text": "Form of\nviral conjunctivitis\nthat causes keratitis in addition to conjunctivitis\nCaused by\nadenovirus\ninfection that is highly contagious and tends to occur in epidemics\nHighly contagious and potentially vision-threatening\n[1]\nTransmitted via contact with infectious fluids (commonly tear fluid) on hands, tissues, etc\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Ranges from subclinical conjunctivitis to severe disease with superimposed bacterial infection and systemic symptoms.\n[1]\nCan be preceded by prodrome of\ncough\n,\nfever\n, malaise,\nmyalgias\n,\nnausea/vomiting\nWorsening foreign body sensation (starts near medial canthus and spreads laterally), followed by\n[1]\n:\nLid swelling\nTearing\nItching\nPhotophobia\nBlurred vision\nConjunctival injection\nPapillae of inf palpebral conjunctiva\nIpsilateral pre-auricular\nlymphadenopathy\nSlit lamp exam\n- diffuse, superficial keratitis but no corneal ulceration\nSubepithelial infiltrates likely secondary to adenoviral antigens deposited in corneal stroma\n[2]\nThese lesions usually regress within 3-6 weeks, but can last for months (and cause vision impairment if within the visual field)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Slit lamp exam",
+          "url": "https://wikem.org/wiki/Slit_lamp_exam"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Artificial tears\nCool compresses\nCycloplegics\nif photophobia is severe\nRigorous hand hygiene to prevent transmission",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cycloplegics",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with rapid ophtho follow-up.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "drug_name": "Epiploic_appendagitis",
+  "url": "https://wikem.org/wiki/Epiploic_appendagitis",
+  "scraped_at": "2026-01-10T07:52:48.068776",
+  "sections": {
+    "Background": {
+      "text": "Benign and self-limited condition of the epiploic appendages (fat-filled sacs along surface of colon and rectum)\n[1]\nAcutely inflamed due to torsion or venous thrombosis\nMimics\nAppendicitis\nor\nDiverticulitis\nMost often found on abdominal CT during abdominal pain workup\nMore than half occur in rectosigmoid colon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nMay develop\nfever\nand\nleukocytosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "RLQ_Pain": {
+      "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CT abdomen with IV contrast",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "High dose\nibuprofen\nConsider\nopioids\nSurgical intervention not routinely recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient follow-up.\nAlthough recurrence is common the disease is self limiting and not life threatening.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Complete resolution normally within 3-14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

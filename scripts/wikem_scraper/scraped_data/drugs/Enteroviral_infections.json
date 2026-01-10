@@ -1,0 +1,55 @@
+{
+  "drug_name": "Enteroviral_infections",
+  "url": "https://wikem.org/wiki/Enteroviral_infections",
+  "scraped_at": "2026-01-10T07:52:39.836334",
+  "sections": {
+    "Intro": {
+      "text": "Enterovirus\nEnterovirus D68\nCoxsackie\nHerpangina\n(just mouth lesions)\nHand-Foot-and-Mouth Disease\n(mouth + hand/foot lesions)\nEchovirus\nRhinovirus\nPoliovirus\nEnterovirus D68\nHerpangina\n(just mouth lesions)\nHand-Foot-and-Mouth Disease\n(mouth + hand/foot lesions)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Enterovirus\nEnterovirus D68\nCoxsackie\nHerpangina\n(just mouth lesions)\nHand-Foot-and-Mouth Disease\n(mouth + hand/foot lesions)\nEchovirus\nRhinovirus\nPoliovirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Enterovirus D68",
+          "url": "https://wikem.org/wiki/Enterovirus_D68"
+        },
+        {
+          "text": "Coxsackie",
+          "url": "https://wikem.org/wiki/Coxsackie"
+        },
+        {
+          "text": "Herpangina",
+          "url": "https://wikem.org/wiki/Herpangina"
+        },
+        {
+          "text": "Hand-Foot-and-Mouth Disease",
+          "url": "https://wikem.org/wiki/Hand-Foot-and-Mouth_Disease"
+        },
+        {
+          "text": "Rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Poliovirus",
+          "url": "https://wikem.org/wiki/Poliovirus"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pediatric rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric rashes",
+          "url": "https://wikem.org/wiki/Pediatric_rashes"
+        }
+      ]
+    }
+  }
+}

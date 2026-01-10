@@ -1,0 +1,294 @@
+{
+  "drug_name": "Environmental_exposure_antibiotics",
+  "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics",
+  "scraped_at": "2026-01-10T07:52:43.475452",
+  "sections": {
+    "Mammalian_bites": {
+      "text": "",
+      "subsections": {
+        "Cat_and_Dog_Bites": {
+          "text": "Coverage for\nPasteurella\n,\nStrep\n, and\nStaph\nConsider for high-risk wounds\nwounds reaching the level of the muscle/tendon, wounds to the hand\n[1]\n, violation of bone or joint capsule, immunocompromised hosts, wounds associated with significant local edema\nAmoxicilin-clavulanate\n875mg PO BID x 5-7 days OR\n[2]\nDoxycycline\n100mg PO BID x 14 days if penicillin allergic\n[3]\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days PLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days OR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Human_Bites": {
+          "text": "All human bites should be strongly considered for antibiotic therapy.\n[4]\nRequires polymicrobial coverage for:\nS. aureus\n,\nStrep Viridans\n,\nBacteroides\n, Coagulase-neg\nStaph\n,\nEikenella\n,\nFusobacterium\n,\nCornebacterium\n,\npeptostreptococus\nAmoxicilin-clavulanate\n875mg PO BID x 5-7days\nOR\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days\nPLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days\nOR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        },
+        "Mammalian_Bites_Severe_Infections": {
+          "text": "Ampicillin/Sulbactam\n3g IV (50mg/kg IV) q 6hrs daily OR\nCefoxitin\n1g IV q8hrs (25mg/kg q6hrs) OR\nPipericillin/Tazobactam\n4.5g IV (80mg/kg IV) q8hrs OR\nCeftriaxone\n1g (50mg/kg IV) once +\nMetronidazole\n500mg IV q8hrs OR\nClindamycin\n600mg IV q8hrs PLUS\nTMP/SMX\n5mg/kg IV q12hrs OR\nCiprofloxacin\n400mg IV q12hrs OR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pasteurella",
+          "url": "https://wikem.org/wiki/Pasteurella"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep Viridans",
+          "url": "https://wikem.org/wiki/Strep_Viridans"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Eikenella",
+          "url": "https://wikem.org/wiki/Eikenella"
+        },
+        {
+          "text": "Fusobacterium",
+          "url": "https://wikem.org/wiki/Fusobacterium"
+        },
+        {
+          "text": "Cornebacterium",
+          "url": "https://wikem.org/wiki/Cornebacterium"
+        },
+        {
+          "text": "peptostreptococus",
+          "url": "https://wikem.org/wiki/Peptostreptococus"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "Pipericillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Pipericillin/Tazobactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "drug_name": "Enoxaparin",
+  "url": "https://wikem.org/wiki/Enoxaparin",
+  "scraped_at": "2026-01-10T07:52:37.167054",
+  "sections": {
+    "General": {
+      "text": "Type:\nLow molecular weight heparin\nDosage Forms: subcutaneous\nCommon Trade Names: Lovenox",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Therapeutic_anticoagulation_(e.g._treating_DVT/PE,_unstable_angina)": {
+          "text": "1mg/kg SC q12h",
+          "tables": []
+        },
+        "Chemical_Prophylaxis_of_VTE": {
+          "text": "Lovenox\n30mg SubQ q12 hrs (if Cr Clearance > 30)\nCheck Anti-Xa level every week EXACTLY 4 hours after 3rd dose of lovenox\nprophylactic goal: 0.2-0.6\ntherapeutic goal: 0.6-1.2\nRecheck AntiXa level after each 3rd dose if dose is changed until you are at goal\nRecheck level every week (usually qMonday) for all patients\nIf renal dysfunction order heparin 5000 Units SubQ q8 hrs (search “SURG DVT/VTE prophylaxis” order set)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lovenox",
+          "url": "https://wikem.org/wiki/Lovenox"
+        }
+      ]
+    },
+    "Chemical_Prophylaxis_of_VTE": {
+      "text": "Lovenox\n30mg SubQ q12 hrs (if Cr Clearance > 30)\nCheck Anti-Xa level every week EXACTLY 4 hours after 3rd dose of lovenox\nprophylactic goal: 0.2-0.6\ntherapeutic goal: 0.6-1.2\nRecheck AntiXa level after each 3rd dose if dose is changed until you are at goal\nRecheck level every week (usually qMonday) for all patients\nIf renal dysfunction order heparin 5000 Units SubQ q8 hrs (search “SURG DVT/VTE prophylaxis” order set)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lovenox",
+          "url": "https://wikem.org/wiki/Lovenox"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Off-label\nDVT prophylaxis:\n<2 months: 0.75 mg/kg SC q12hr\n≥2 months: 0.5 mg/kg SC q12h\nTherapeutic anticoagulation:\n<2 months: 1.5 mg/kg SC q12hr\n≥2 months: 1 mg/kg SC q12hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Unknown risk\nRenal Dosing\nRenal impairment (creatinine clearance <30)\nUse 50% of usual dose or use UFH instead\nHepatic Dosing: not established\nObesity\nWeight-based dosing safe up to 190kg (no data available thereafter)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "DVT\nPE\nNSTEMI\nSTEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Bleeding\nPruritus\nLocal skin reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4.5h\nMetabolism: hepatic\nExcretion: urine\nMechanism of Action: inhibits factor Xa by increasing inhibition rate of clotting proteases that are activated by antithrombin III",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Heparin (Unfractionated)\nCoagulopathy (Main)\nAnticoagulant reversal for life-threatening bleeds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin (Unfractionated)",
+          "url": "https://wikem.org/wiki/Heparin_(Unfractionated)"
+        },
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        }
+      ]
+    }
+  }
+}

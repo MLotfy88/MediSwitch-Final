@@ -1,0 +1,398 @@
+{
+  "drug_name": "Episcleritis",
+  "url": "https://wikem.org/wiki/Episcleritis",
+  "scraped_at": "2026-01-10T07:52:46.604173",
+  "sections": {
+    "Background": {
+      "text": "Abrupt onset of inflammation in the episclera\n70% of cases occurs in women (usually young/middle-aged)\nUsually a benign, self-limited condition\nCan be classified into simple (more common) or nodular types\nMost commonly idiopathic but may occur as an ocular manifestation of underlying autoimmune conditions eg\nRA\n,\nIBD\nAlso associated with\nglaucoma\nand cataracts\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Abrupt onset of\nredness\n, irritation, and watering of the eye\nPain is unusual\nVision unaffected\n50% of cases are bilateral",
+          "tables": []
+        },
+        "Physical_exam": {
+          "text": "Vasodilatation of the superficial episcleral vessels\nFocal area(s) of redness\nMay have a tender scleral nodule (nodular episcleritis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "redness",
+          "url": "https://wikem.org/wiki/Red_eye"
+        }
+      ]
+    },
+    "History": {
+      "text": "Abrupt onset of\nredness\n, irritation, and watering of the eye\nPain is unusual\nVision unaffected\n50% of cases are bilateral",
+      "subsections": {
+        "Physical_exam": {
+          "text": "Vasodilatation of the superficial episcleral vessels\nFocal area(s) of redness\nMay have a tender scleral nodule (nodular episcleritis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "redness",
+          "url": "https://wikem.org/wiki/Red_eye"
+        }
+      ]
+    },
+    "Physical_exam": {
+      "text": "Vasodilatation of the superficial episcleral vessels\nFocal area(s) of redness\nMay have a tender scleral nodule (nodular episcleritis)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Must distinguish from\nscleritis\nScleritis likely to have pain and decreased vision\nUse of 2.5% phenylephrine drops will cause vasoconstriction/blanching of episcleral but not scleral vessels. Thus, there will be decreased injection and redness in episcleritis but not scleritis.\n[2]\nRed area will be mobile if moved with a moist q-tip\nMust distinguish from\nconjunctivitis\nEpiscleritis will usually have a sectoral pattern of injection, as opposed to a diffuse injection seen in conjunctivitis.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Topical lubricants\nArtificial tears q4-6hr\nOral\nNSAIDs\nTopical steroids\nmay relieve symptoms but are associated with rebound redness and potentially worse future events and are generally not recommended\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Refer to ophtho is unsure of diagnosis or if steroids are necessary for treatment\nSelf-limiting (will resolve within 2-3 weeks)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Scleritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        }
+      ]
+    }
+  }
+}

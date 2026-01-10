@@ -1,0 +1,24 @@
+{
+  "drug_name": "Elbow_fracture",
+  "url": "https://wikem.org/wiki/Elbow_fracture",
+  "scraped_at": "2026-01-10T07:52:32.763754",
+  "sections": {
+    "Intro": {
+      "text": "Adults\nRadial head fracture\nCapitellum fracture\nOlecranon fracture\nElbow fracture (peds)\nRadial head fracture\nCapitellum fracture\nOlecranon fracture\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting: Humerus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting: Humerus",
+          "url": "https://wikem.org/wiki/Splinting:_Humerus"
+        }
+      ]
+    }
+  }
+}

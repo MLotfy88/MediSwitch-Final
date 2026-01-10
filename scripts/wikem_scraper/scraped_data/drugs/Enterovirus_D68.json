@@ -1,0 +1,89 @@
+{
+  "drug_name": "Enterovirus_D68",
+  "url": "https://wikem.org/wiki/Enterovirus_D68",
+  "scraped_at": "2026-01-10T07:52:42.065102",
+  "sections": {
+    "Background": {
+      "text": "A viruses in the\nEnterovirus\nfamily\nInfection in the U.S. rarely identified\nOutbreak in Missouri and Illinois in 8/2014",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Mild to severe respiratory distress, otherwise not well defined, spread via respiratory secretions and body fluids\n30 confirmed cases in Kansas City and Chicago via PCR of nasopharyngeal secretions with the following features: age range 6 weeks to 16 years, febrile- 23%, prior asthma/wheezing- 70%, 20% required NIV, 7% required intubation\n[1]\nAll patients in Kansas City showed hypoxemia and difficulty breathing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Asthma\nForeign Body\nPneumothorax\nPneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nLabs\nCultures\nSerum Studies(check with micro lab regarding available studies)- Enteroviral infections reportable to (NESS) National Enteroviral Surveillance System",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care\nClose observation for respiratory failure and possible need for NIV or ETI\nNo antiviral medications available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prevention": {
+      "text": "Wash hands often with soap and water for 20 seconds, especially after changing diapers\nAvoid touching eyes, nose and mouth with unwashed hands\nAvoid kissing, hugging, and sharing cups or eating utensils with people who are sick\nDisinfect frequently touched surfaces, such as toys and doorknobs, especially if someone is sick",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit to ICU for respiratory support and observation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Enteroviral Infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Enteroviral Infections",
+          "url": "https://wikem.org/wiki/Enteroviral_Infections"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC - Enterovirus D68",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

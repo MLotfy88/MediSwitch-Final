@@ -1,0 +1,1461 @@
+{
+  "drug_name": "Electrical_injuries",
+  "url": "https://wikem.org/wiki/Electrical_injuries",
+  "scraped_at": "2026-01-10T07:52:40.669133",
+  "sections": {
+    "Background": {
+      "text": "Tissue damage occurs via electrical energy (becomes thermal energy once it enters the body) and mechanical injury from trauma\nFat, bone, tendon, dry skin all have very high resistance\nMuscle, nerves, vasculature have lower resistance, more often damaged\nThe primary determinant of injury is the amount of current flowing through the body, which depends on:\nVoltage\nAmperage\nResistance\nType of current (DC or AC)\nCurrent pathway\nDuration of contact",
+      "subsections": {
+        "Electrical_Injury_Types": {
+          "text": "Low-Voltage\n<1000V\nHigh-Voltage\n>1000V - typically seen in industrial settings or transmission line injuries\nAssociated with electrical burns\nLightning\nStrike\nElectric Arc\nAssociated with high voltage sources\nIonized particles with temperature 3000 °C–20,000 °C\n[1]\nCan jump 2-3cm per 1000V\n[1]\nMay radiate enough heat to burn persons 10ft or more away from the arc\nBlast force may result in trauma",
+          "tables": []
+        },
+        "DC_vs_AC": {
+          "text": "Direct current (DC) injuries typically due to\nlightning\nwhile alternating current (AC) are household injuries",
+          "tables": []
+        },
+        "DC": {
+          "text": "Direct current most often demonstrates flow-over phenomenon\nLightning can reach 1-5 million volts, but current flows over the body and exits to the ground\nMay result in little tissue damage but\ncardiac dysrrhythmias\nare still of great concern",
+          "tables": []
+        },
+        "AC": {
+          "text": "Current arcs onto body, envelops surface of body, then arcs to lower electromotive potential (ground)\nWith alternative cycle of the current there is contraction and release of muscle preventing full release from source\nCurrent flows through body tissues",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lightning",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "lightning",
+          "url": "https://wikem.org/wiki/Lightning"
+        },
+        {
+          "text": "cardiac dysrrhythmias",
+          "url": "https://wikem.org/wiki/Cardiac_dysrrhythmias"
+        }
+      ]
+    },
+    "Electrical_Injury_Types": {
+      "text": "Low-Voltage\n<1000V\nHigh-Voltage\n>1000V - typically seen in industrial settings or transmission line injuries\nAssociated with electrical burns\nLightning\nStrike\nElectric Arc\nAssociated with high voltage sources\nIonized particles with temperature 3000 °C–20,000 °C\n[1]\nCan jump 2-3cm per 1000V\n[1]\nMay radiate enough heat to burn persons 10ft or more away from the arc\nBlast force may result in trauma",
+      "subsections": {
+        "DC_vs_AC": {
+          "text": "Direct current (DC) injuries typically due to\nlightning\nwhile alternating current (AC) are household injuries",
+          "tables": []
+        },
+        "DC": {
+          "text": "Direct current most often demonstrates flow-over phenomenon\nLightning can reach 1-5 million volts, but current flows over the body and exits to the ground\nMay result in little tissue damage but\ncardiac dysrrhythmias\nare still of great concern",
+          "tables": []
+        },
+        "AC": {
+          "text": "Current arcs onto body, envelops surface of body, then arcs to lower electromotive potential (ground)\nWith alternative cycle of the current there is contraction and release of muscle preventing full release from source\nCurrent flows through body tissues",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lightning",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "lightning",
+          "url": "https://wikem.org/wiki/Lightning"
+        },
+        {
+          "text": "cardiac dysrrhythmias",
+          "url": "https://wikem.org/wiki/Cardiac_dysrrhythmias"
+        }
+      ]
+    },
+    "DC_vs_AC": {
+      "text": "Direct current (DC) injuries typically due to\nlightning\nwhile alternating current (AC) are household injuries",
+      "subsections": {
+        "DC": {
+          "text": "Direct current most often demonstrates flow-over phenomenon\nLightning can reach 1-5 million volts, but current flows over the body and exits to the ground\nMay result in little tissue damage but\ncardiac dysrrhythmias\nare still of great concern",
+          "tables": []
+        },
+        "AC": {
+          "text": "Current arcs onto body, envelops surface of body, then arcs to lower electromotive potential (ground)\nWith alternative cycle of the current there is contraction and release of muscle preventing full release from source\nCurrent flows through body tissues",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lightning",
+          "url": "https://wikem.org/wiki/Lightning"
+        },
+        {
+          "text": "cardiac dysrrhythmias",
+          "url": "https://wikem.org/wiki/Cardiac_dysrrhythmias"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Immediate_Effects": {
+          "text": "Cardiac dysrhythmias\nRespiratory arrest\nSeizures",
+          "tables": []
+        },
+        "Cardiac_Dysrhythmias": {
+          "text": "Fatalities due to\nasystole\nor\nV-fib\nusually occur prior to arrival\nMost common\ndysrhythmia\nat presentation is\nA-fib\n(\nV-fib\nis more common, but patients are dead PTA)\nAsymptomatic patients with normal\nECGs\ndo not develop later dysrhythmias after <1000V injuries\nFor uncomplicated electrical injuries if normal EKG then routine ECG monitoring and cardiac biomarkers unnecessary\n[2]\n.",
+          "tables": []
+        },
+        "Cardiovascular_Injury": {
+          "text": "Contraction band necrosis\n[3]\nMedial necrosis of large vessels\nAneurysm\nformation\nCoagulation necrosis of small vessels\nCan lead to\ncompartment syndrome",
+          "tables": []
+        },
+        "CNS_Injury": {
+          "text": "Occurs in 50% of patients with high-voltage injuries\nBrain injury ranges from transient\nLOC\nto\nCVA\nto\nrespiratory arrest\nHigh voltage injuries involving head are frequently associated with\ncoma\nand\npersistent vegetative state",
+          "tables": []
+        },
+        "Orthopedic_Injury": {
+          "text": "Forceful muscle contractions can cause\nfracture\nand\njoint dislocations\n(especially shoulder)\nMay occur with voltages as low as 120V\nCompartment Syndrome\nUsually associated with high-voltage injuries\nMay occur even with 120V shocks if contact is sustained for longer than few seconds\nPatient experiences ongoing muscle pain with movement\nNeed for\nfasciotomy\npredicted by:\nMyoglobinuria\nBurns >20%\nBSA\nFull-thickness\nburn\n>12%\nBSA\nRhabdomyolysis\nAssociated with:\nContact with >1000V\nPrehospital\ncardiac arrest\nCrush injury\nCompartment syndrome\nFull-thickness skin\nburns",
+          "tables": []
+        },
+        "Ocular_Injury": {
+          "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+          "tables": []
+        },
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac dysrhythmias",
+          "url": "https://wikem.org/wiki/Cardiac_dysrhythmias"
+        },
+        {
+          "text": "Respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "V-fib",
+          "url": "https://wikem.org/wiki/V-fib"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "ECGs",
+          "url": "https://wikem.org/wiki/ECGs"
+        },
+        {
+          "text": "Aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "persistent vegetative state",
+          "url": "https://wikem.org/wiki/Persistent_Vegetative_State"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Immediate_Effects": {
+      "text": "Cardiac dysrhythmias\nRespiratory arrest\nSeizures",
+      "subsections": {
+        "Cardiac_Dysrhythmias": {
+          "text": "Fatalities due to\nasystole\nor\nV-fib\nusually occur prior to arrival\nMost common\ndysrhythmia\nat presentation is\nA-fib\n(\nV-fib\nis more common, but patients are dead PTA)\nAsymptomatic patients with normal\nECGs\ndo not develop later dysrhythmias after <1000V injuries\nFor uncomplicated electrical injuries if normal EKG then routine ECG monitoring and cardiac biomarkers unnecessary\n[2]\n.",
+          "tables": []
+        },
+        "Cardiovascular_Injury": {
+          "text": "Contraction band necrosis\n[3]\nMedial necrosis of large vessels\nAneurysm\nformation\nCoagulation necrosis of small vessels\nCan lead to\ncompartment syndrome",
+          "tables": []
+        },
+        "CNS_Injury": {
+          "text": "Occurs in 50% of patients with high-voltage injuries\nBrain injury ranges from transient\nLOC\nto\nCVA\nto\nrespiratory arrest\nHigh voltage injuries involving head are frequently associated with\ncoma\nand\npersistent vegetative state",
+          "tables": []
+        },
+        "Orthopedic_Injury": {
+          "text": "Forceful muscle contractions can cause\nfracture\nand\njoint dislocations\n(especially shoulder)\nMay occur with voltages as low as 120V\nCompartment Syndrome\nUsually associated with high-voltage injuries\nMay occur even with 120V shocks if contact is sustained for longer than few seconds\nPatient experiences ongoing muscle pain with movement\nNeed for\nfasciotomy\npredicted by:\nMyoglobinuria\nBurns >20%\nBSA\nFull-thickness\nburn\n>12%\nBSA\nRhabdomyolysis\nAssociated with:\nContact with >1000V\nPrehospital\ncardiac arrest\nCrush injury\nCompartment syndrome\nFull-thickness skin\nburns",
+          "tables": []
+        },
+        "Ocular_Injury": {
+          "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+          "tables": []
+        },
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac dysrhythmias",
+          "url": "https://wikem.org/wiki/Cardiac_dysrhythmias"
+        },
+        {
+          "text": "Respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "V-fib",
+          "url": "https://wikem.org/wiki/V-fib"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "ECGs",
+          "url": "https://wikem.org/wiki/ECGs"
+        },
+        {
+          "text": "Aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "persistent vegetative state",
+          "url": "https://wikem.org/wiki/Persistent_Vegetative_State"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Cardiac_Dysrhythmias": {
+      "text": "Fatalities due to\nasystole\nor\nV-fib\nusually occur prior to arrival\nMost common\ndysrhythmia\nat presentation is\nA-fib\n(\nV-fib\nis more common, but patients are dead PTA)\nAsymptomatic patients with normal\nECGs\ndo not develop later dysrhythmias after <1000V injuries\nFor uncomplicated electrical injuries if normal EKG then routine ECG monitoring and cardiac biomarkers unnecessary\n[2]\n.",
+      "subsections": {
+        "Cardiovascular_Injury": {
+          "text": "Contraction band necrosis\n[3]\nMedial necrosis of large vessels\nAneurysm\nformation\nCoagulation necrosis of small vessels\nCan lead to\ncompartment syndrome",
+          "tables": []
+        },
+        "CNS_Injury": {
+          "text": "Occurs in 50% of patients with high-voltage injuries\nBrain injury ranges from transient\nLOC\nto\nCVA\nto\nrespiratory arrest\nHigh voltage injuries involving head are frequently associated with\ncoma\nand\npersistent vegetative state",
+          "tables": []
+        },
+        "Orthopedic_Injury": {
+          "text": "Forceful muscle contractions can cause\nfracture\nand\njoint dislocations\n(especially shoulder)\nMay occur with voltages as low as 120V\nCompartment Syndrome\nUsually associated with high-voltage injuries\nMay occur even with 120V shocks if contact is sustained for longer than few seconds\nPatient experiences ongoing muscle pain with movement\nNeed for\nfasciotomy\npredicted by:\nMyoglobinuria\nBurns >20%\nBSA\nFull-thickness\nburn\n>12%\nBSA\nRhabdomyolysis\nAssociated with:\nContact with >1000V\nPrehospital\ncardiac arrest\nCrush injury\nCompartment syndrome\nFull-thickness skin\nburns",
+          "tables": []
+        },
+        "Ocular_Injury": {
+          "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+          "tables": []
+        },
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "asystole",
+          "url": "https://wikem.org/wiki/Asystole"
+        },
+        {
+          "text": "V-fib",
+          "url": "https://wikem.org/wiki/V-fib"
+        },
+        {
+          "text": "dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "ECGs",
+          "url": "https://wikem.org/wiki/ECGs"
+        },
+        {
+          "text": "Aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "persistent vegetative state",
+          "url": "https://wikem.org/wiki/Persistent_Vegetative_State"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Cardiovascular_Injury": {
+      "text": "Contraction band necrosis\n[3]\nMedial necrosis of large vessels\nAneurysm\nformation\nCoagulation necrosis of small vessels\nCan lead to\ncompartment syndrome",
+      "subsections": {
+        "CNS_Injury": {
+          "text": "Occurs in 50% of patients with high-voltage injuries\nBrain injury ranges from transient\nLOC\nto\nCVA\nto\nrespiratory arrest\nHigh voltage injuries involving head are frequently associated with\ncoma\nand\npersistent vegetative state",
+          "tables": []
+        },
+        "Orthopedic_Injury": {
+          "text": "Forceful muscle contractions can cause\nfracture\nand\njoint dislocations\n(especially shoulder)\nMay occur with voltages as low as 120V\nCompartment Syndrome\nUsually associated with high-voltage injuries\nMay occur even with 120V shocks if contact is sustained for longer than few seconds\nPatient experiences ongoing muscle pain with movement\nNeed for\nfasciotomy\npredicted by:\nMyoglobinuria\nBurns >20%\nBSA\nFull-thickness\nburn\n>12%\nBSA\nRhabdomyolysis\nAssociated with:\nContact with >1000V\nPrehospital\ncardiac arrest\nCrush injury\nCompartment syndrome\nFull-thickness skin\nburns",
+          "tables": []
+        },
+        "Ocular_Injury": {
+          "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+          "tables": []
+        },
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aneurysm",
+          "url": "https://wikem.org/wiki/LV_aneurysm"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "persistent vegetative state",
+          "url": "https://wikem.org/wiki/Persistent_Vegetative_State"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "CNS_Injury": {
+      "text": "Occurs in 50% of patients with high-voltage injuries\nBrain injury ranges from transient\nLOC\nto\nCVA\nto\nrespiratory arrest\nHigh voltage injuries involving head are frequently associated with\ncoma\nand\npersistent vegetative state",
+      "subsections": {
+        "Orthopedic_Injury": {
+          "text": "Forceful muscle contractions can cause\nfracture\nand\njoint dislocations\n(especially shoulder)\nMay occur with voltages as low as 120V\nCompartment Syndrome\nUsually associated with high-voltage injuries\nMay occur even with 120V shocks if contact is sustained for longer than few seconds\nPatient experiences ongoing muscle pain with movement\nNeed for\nfasciotomy\npredicted by:\nMyoglobinuria\nBurns >20%\nBSA\nFull-thickness\nburn\n>12%\nBSA\nRhabdomyolysis\nAssociated with:\nContact with >1000V\nPrehospital\ncardiac arrest\nCrush injury\nCompartment syndrome\nFull-thickness skin\nburns",
+          "tables": []
+        },
+        "Ocular_Injury": {
+          "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+          "tables": []
+        },
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "respiratory arrest",
+          "url": "https://wikem.org/wiki/Respiratory_arrest"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "persistent vegetative state",
+          "url": "https://wikem.org/wiki/Persistent_Vegetative_State"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Orthopedic_Injury": {
+      "text": "Forceful muscle contractions can cause\nfracture\nand\njoint dislocations\n(especially shoulder)\nMay occur with voltages as low as 120V\nCompartment Syndrome\nUsually associated with high-voltage injuries\nMay occur even with 120V shocks if contact is sustained for longer than few seconds\nPatient experiences ongoing muscle pain with movement\nNeed for\nfasciotomy\npredicted by:\nMyoglobinuria\nBurns >20%\nBSA\nFull-thickness\nburn\n>12%\nBSA\nRhabdomyolysis\nAssociated with:\nContact with >1000V\nPrehospital\ncardiac arrest\nCrush injury\nCompartment syndrome\nFull-thickness skin\nburns",
+      "subsections": {
+        "Ocular_Injury": {
+          "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+          "tables": []
+        },
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "joint dislocations",
+          "url": "https://wikem.org/wiki/Joint_dislocations"
+        },
+        {
+          "text": "Compartment Syndrome",
+          "url": "https://wikem.org/wiki/Compartment_Syndrome"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Crush injury",
+          "url": "https://wikem.org/wiki/Crush_injury"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Ocular_Injury": {
+      "text": "Cataract formation has been described weeks to years after electrical injury\nDocument presence or absence of cataracts following all electrical injuries",
+      "subsections": {
+        "Auditory_Injury": {
+          "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+          "tables": []
+        },
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Auditory_Injury": {
+      "text": "May be damaged by current or hemorrhage\nCheck hearing in all patients",
+      "subsections": {
+        "Cutaneous_Burns": {
+          "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+          "tables": []
+        },
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Cutaneous_Burns": {
+      "text": "Often seen at electrical contact areas\nSeriously injured patients often have burns on either arm or skull + feet\nMost patients with burns from electrical injury require admission and care by burn specialist\nLichtenberg figures (not true burns) are pathognomonic for lightning strike",
+      "subsections": {
+        "GI_Injury": {
+          "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+          "tables": []
+        },
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "GI_Injury": {
+      "text": "Suspect in patients with:\nElectrical burns of abdominal wall\nHistory of a fall, nearby explosion, or other mechanical trauma",
+      "subsections": {
+        "Pediatric_Considerations": {
+          "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Pediatric_Considerations": {
+      "text": "In general, evaluate as for the adult, looking for multi-system involvement\nPerform an\nECG\nin all patients, regardless of voltage\nAn oral commissure burn (from chewing on power cord) will create significant edema and necrosis\nThe child may need Plastic Surgery or Head and Neck Surgery consultation to avoid microstomia\n1-2 weeks after the burn, the eschar may fall off, exposing the labial artery and causing significant hemorrhage\nProvide clear and thorough precautionary advice including first aid for bleeding (pinch buccal mucosa against outside of cheek until arrival to hospital)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Burns": {
+          "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Smoke inhalation injury\n(airway compromise)\nChemical injury\nAcrolein\nHydrochloric acid\nTuolene diisocyanate\nNitrogen dioxide\nSystemic chemical injury\nCarbon monoxide toxicity\nCyanide toxicity\nSpecific types of burns\nCaustic burns\nAirbag-related burns\nTar burn\nCement burn\nElectrical injuries\nLightning Injuries\nAssociated toxicities\nCarbon monoxide toxicity\nCyanide toxicity\nHydrogen fluoride toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Hydrogen fluoride toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_fluoride_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "12-lead\nECG\nCBC\nCMP\nLactate\nTroponin\nCK\nUrinalysis\nUrine myoglobin is poorly sensitive/specific, and most patients with rhabdomyolis will have grossly discolored urine\n[4]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        },
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "12-lead\nECG\nCBC\nCMP\nLactate\nTroponin\nCK\nUrinalysis\nUrine myoglobin is poorly sensitive/specific, and most patients with rhabdomyolis will have grossly discolored urine\n[4]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        },
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {
+        "Burn_Thickness_Chart": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Thickness": "Superficial (first-degree)",
+                "Deepest Skin Structure Involved": "Epidermis",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, 5-10 days",
+                "Image": ""
+              },
+              {
+                "Thickness": "Superficial Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+                "Pain & Sensation": "Painful",
+                "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+                "Expected Course": "Heals without scarring, <3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Deep Partial (second-degree)",
+                "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+                "Image": ""
+              },
+              {
+                "Thickness": "Full (third-degree)",
+                "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+                "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+                "Image": ""
+              },
+              {
+                "Thickness": "Fourth-degree",
+                "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+                "Pain & Sensation": "Decreased sensation",
+                "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+                "Expected Course": "Does not healFrequently requires amputation",
+                "Image": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Burn_Thickness_Chart": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Thickness": "Superficial (first-degree)",
+            "Deepest Skin Structure Involved": "Epidermis",
+            "Pain & Sensation": "Painful",
+            "Appearance": "Dry, erythema (no blisters)Blanching (intact cap refill)",
+            "Expected Course": "Heals without scarring, 5-10 days",
+            "Image": ""
+          },
+          {
+            "Thickness": "Superficial Partial (second-degree)",
+            "Deepest Skin Structure Involved": "Superficial dermis (papillary region)",
+            "Pain & Sensation": "Painful",
+            "Appearance": "Wet, pale pink, blistersBlanching (intact cap refill)",
+            "Expected Course": "Heals without scarring, <3 weeks",
+            "Image": ""
+          },
+          {
+            "Thickness": "Deep Partial (second-degree)",
+            "Deepest Skin Structure Involved": "Deep dermis (reticular region)",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "Pale white-yellow, blistersDoesnotblanch (absent cap refill)",
+            "Expected Course": "Heals in 3-8 weeksLikely to scar if healing >3 weeksMay require skin-graft if does not heal within 3 weeks",
+            "Image": ""
+          },
+          {
+            "Thickness": "Full (third-degree)",
+            "Deepest Skin Structure Involved": "Hypodermis (subcutaneous tissue)",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "White, leatheryDoesnotblanch (absent cap refill)",
+            "Expected Course": "Heals by contracture, >8 weeksAlmost always requires skin grafting",
+            "Image": ""
+          },
+          {
+            "Thickness": "Fourth-degree",
+            "Deepest Skin Structure Involved": "Underlying fat, muscle and bone",
+            "Pain & Sensation": "Decreased sensation",
+            "Appearance": "Black; charred with escharDoesnotblanch (absent cap refill)",
+            "Expected Course": "Does not healFrequently requires amputation",
+            "Image": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Usual trauma evaluation and resuscitation applies\nUse\nParkland formula\nas starting point for\nfluid resuscitation\nFluids in first 24 hrs = [[T\nBSA\n]] burned(%) x Wt(kg) x 4ml; Give 1/2 in first 8 hours, then give other 1/2 over next 16 hrs\nParkland formula frequently underestimates fluid requirements in electrical burns\n[6]\nbecause internal injuries are usually more significant than external burns\nIn healthy individuals start continuous fluids at 300-500 mL/hr and titrate to urine output of 100 mL/hr\n[7]\nTreat\nrhabdomyolysis\nand\ncompartment syndrome\nin usual manner\nIf RBCs and/or myoglobin in UA, urine should be alkalinized at minimum of 2 cc/kg/hr until pigments eliminated\n[8]\nMannitol\nshould be given early to prevent renal tubular damage but patient must remain adequately fluid resuscitated\nHigh voltage injuries to the hand frequently require carpal tunnel decompression as soon as patient is stable for OR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parkland formula",
+          "url": "https://wikem.org/wiki/Parkland_formula"
+        },
+        {
+          "text": "fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "BSA",
+          "url": "https://wikem.org/wiki/BSA"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Asymptomatic patients with normal ECG on presentation after a low-voltage electrical injury\n[9]",
+          "tables": []
+        },
+        "Admit": {
+          "text": "All patients with high-voltage injuries (even if asymptomatic)\nPatients with low-voltage injury if symptomatic (e.g. LOC, severe\nburns\n, ECG changes, ↑ CK)\nAbnormal\nECG\nor observed dysrhythmia\nCardiac biomarkers positive\nPersistent\nchest pain\n,\nparesthesias\n, or\nhypoxia\nCardiac arrest\nHistory of significant cardiac disease or CAD risk factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "Asymptomatic patients with normal ECG on presentation after a low-voltage electrical injury\n[9]",
+      "subsections": {
+        "Admit": {
+          "text": "All patients with high-voltage injuries (even if asymptomatic)\nPatients with low-voltage injury if symptomatic (e.g. LOC, severe\nburns\n, ECG changes, ↑ CK)\nAbnormal\nECG\nor observed dysrhythmia\nCardiac biomarkers positive\nPersistent\nchest pain\n,\nparesthesias\n, or\nhypoxia\nCardiac arrest\nHistory of significant cardiac disease or CAD risk factors",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "All patients with high-voltage injuries (even if asymptomatic)\nPatients with low-voltage injury if symptomatic (e.g. LOC, severe\nburns\n, ECG changes, ↑ CK)\nAbnormal\nECG\nor observed dysrhythmia\nCardiac biomarkers positive\nPersistent\nchest pain\n,\nparesthesias\n, or\nhypoxia\nCardiac arrest\nHistory of significant cardiac disease or CAD risk factors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Lightning Injuries\nBurns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lightning Injuries",
+          "url": "https://wikem.org/wiki/Lightning_Injuries"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Electrical Injuries: Hertz So Bad - Pediatric Emergency Playbook\nEmergency Medicine Cases - Electrical Injuries",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

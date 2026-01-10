@@ -1,0 +1,172 @@
+{
+  "drug_name": "Elder_abuse",
+  "url": "https://wikem.org/wiki/Elder_abuse",
+  "scraped_at": "2026-01-10T07:52:33.409673",
+  "sections": {
+    "Background": {
+      "text": "Refers to intentional or negligent acts by a caregiver or trusted individual that cause harm or serious risk of harm to an older adult, typically aged 60 and over.\nIncludes physical, emotional, sexual, or financial abuse, as well as neglect and abandonment\nIs underreported and often occurs in private settings, including the victim's home or long-term care facilities.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Physical: Bruises, burns, lacerations, fractures (especially spiral), pressure ulcers\nBehavioral: Withdrawal, agitation, fearfulness, depression\nNeglect: Poor hygiene, malnutrition, dehydration, unmet medical needs\nFinancial: Sudden financial difficulties, missing belongings, unpaid bills\nSexual: Genital injuries, STIs, behavioral changes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Accidental trauma (especially in patients with balance issues)\nDementia-related self-neglect\nDermatologic conditions mimicking bruising\nMedication side effects (e.g., anticoagulants causing easy bruising)\nCultural practices or family misunderstandings",
+      "subsections": {
+        "Psychosocial_and_Related": {
+          "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Psychosocial_and_Related": {
+      "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Nonaccidental trauma",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Use open-ended questions, assess for inconsistencies between patient and caregiver reports\nPhysical Exam: Full-body exam including skin, oral cavity, and genital area\nLabs/Imaging: CBC, BMP, coagulation studies, imaging for suspected fractures\nSocial Assessment: Involvement of social worker, assess home safety and support\nDocumentation: Objective, detailed descriptions of injuries, photos (if institutional policy permits)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis based on a combination of history, physical findings, and social context. Use screening tools like the Elder Abuse Suspicion Index (EASI) or the Hwalek-Sengstock Elder Abuse Screening Test (H-S/EAST).",
+          "tables": []
+        },
+        "Hwalek-Sengstock_Elder_Abuse_Screening_Test": {
+          "text": "\"Purpose: Screening device useful to service providers interested in identifying people at high risk of the need for protective services.\nInstructions: Read the questions and write in the answers. A response of “no” to items 1, 6, 12, and 14; a response of “someone else” to item 4; and a response of “yes” to all others is scored in the “abused” direction.\n1. Do you have anyone who spends time with you, taking you shopping or to the doctor?\n2. Are you helping to support someone?\n3. Are you sad or lonely often?\n4. Who makes decisions about your life—like how you should live or where you should live?\n5. Do you feel uncomfortable with anyone in your family?\n6. Can you take your own medication and get around by yourself?\n7. Do you feel that nobody wants you around?\n8. Does anyone in your family drink a lot?\n9. Does someone in your family make you stay in bed or tell you you’re sick when you know you’re not?\n10. Has anyone forced you to do things you didn’t want to do?\n11. Has anyone taken things that belong to you without your O.K.?\n12. Do you trust most of the people in your family?\n13. Does anyone tell you that you give them too much trouble?\n14. Do you have enough privacy at home?\n15. Has anyone close to you tried to hurt you or harm you recently?\"\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Use open-ended questions, assess for inconsistencies between patient and caregiver reports\nPhysical Exam: Full-body exam including skin, oral cavity, and genital area\nLabs/Imaging: CBC, BMP, coagulation studies, imaging for suspected fractures\nSocial Assessment: Involvement of social worker, assess home safety and support\nDocumentation: Objective, detailed descriptions of injuries, photos (if institutional policy permits)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis based on a combination of history, physical findings, and social context. Use screening tools like the Elder Abuse Suspicion Index (EASI) or the Hwalek-Sengstock Elder Abuse Screening Test (H-S/EAST).",
+          "tables": []
+        },
+        "Hwalek-Sengstock_Elder_Abuse_Screening_Test": {
+          "text": "\"Purpose: Screening device useful to service providers interested in identifying people at high risk of the need for protective services.\nInstructions: Read the questions and write in the answers. A response of “no” to items 1, 6, 12, and 14; a response of “someone else” to item 4; and a response of “yes” to all others is scored in the “abused” direction.\n1. Do you have anyone who spends time with you, taking you shopping or to the doctor?\n2. Are you helping to support someone?\n3. Are you sad or lonely often?\n4. Who makes decisions about your life—like how you should live or where you should live?\n5. Do you feel uncomfortable with anyone in your family?\n6. Can you take your own medication and get around by yourself?\n7. Do you feel that nobody wants you around?\n8. Does anyone in your family drink a lot?\n9. Does someone in your family make you stay in bed or tell you you’re sick when you know you’re not?\n10. Has anyone forced you to do things you didn’t want to do?\n11. Has anyone taken things that belong to you without your O.K.?\n12. Do you trust most of the people in your family?\n13. Does anyone tell you that you give them too much trouble?\n14. Do you have enough privacy at home?\n15. Has anyone close to you tried to hurt you or harm you recently?\"\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis based on a combination of history, physical findings, and social context. Use screening tools like the Elder Abuse Suspicion Index (EASI) or the Hwalek-Sengstock Elder Abuse Screening Test (H-S/EAST).",
+      "subsections": {
+        "Hwalek-Sengstock_Elder_Abuse_Screening_Test": {
+          "text": "\"Purpose: Screening device useful to service providers interested in identifying people at high risk of the need for protective services.\nInstructions: Read the questions and write in the answers. A response of “no” to items 1, 6, 12, and 14; a response of “someone else” to item 4; and a response of “yes” to all others is scored in the “abused” direction.\n1. Do you have anyone who spends time with you, taking you shopping or to the doctor?\n2. Are you helping to support someone?\n3. Are you sad or lonely often?\n4. Who makes decisions about your life—like how you should live or where you should live?\n5. Do you feel uncomfortable with anyone in your family?\n6. Can you take your own medication and get around by yourself?\n7. Do you feel that nobody wants you around?\n8. Does anyone in your family drink a lot?\n9. Does someone in your family make you stay in bed or tell you you’re sick when you know you’re not?\n10. Has anyone forced you to do things you didn’t want to do?\n11. Has anyone taken things that belong to you without your O.K.?\n12. Do you trust most of the people in your family?\n13. Does anyone tell you that you give them too much trouble?\n14. Do you have enough privacy at home?\n15. Has anyone close to you tried to hurt you or harm you recently?\"\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ensure patient safety: separate from suspected abuser if possible\nTreat medical issues: wound care, pain management, nutritional support\nInvolve interdisciplinary team: social work, case management, geriatrician\nMandatory reporting to Adult Protective Services (APS) in most jurisdictions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if medically unstable, unsafe home environment, or unable to self-care\nCoordinate with APS, legal authorities, and case managers for safe discharge planning\nConsider temporary placement in skilled nursing or rehabilitation facility if needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Child Abuse\nDepression in Older Adults\nDelirium\nCapacity Assessment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Child Abuse",
+          "url": "https://wikem.org/wiki/Nonaccidental_trauma"
+        },
+        {
+          "text": "Depression in Older Adults",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Capacity Assessment",
+          "url": "https://wikem.org/wiki/Capacity_Assessment"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Elder Abuse Suspicion Index\nNational Center on Elder Abuse\nAdult Protective Services (NAPSA)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

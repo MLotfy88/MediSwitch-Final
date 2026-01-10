@@ -1,0 +1,456 @@
+{
+  "drug_name": "Enterobius",
+  "url": "https://wikem.org/wiki/Enterobius",
+  "scraped_at": "2026-01-10T07:52:41.227999",
+  "sections": {
+    "Background": {
+      "text": "Enterobius vermicularis\nColloquially known as Pinworm (United States), Treadworm (UK and Australia), or Seatworm\nWorldwide distribution\nHumans only known reservoir\nTransmitted by fecal-oral route\nCan survive outside of body for up to 3 weeks",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Prevalence can reach up to 50% in these populations\nAge under 18\nInstitutionalized\nCohabitation with infected individual",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Prevalence can reach up to 50% in these populations\nAge under 18\nInstitutionalized\nCohabitation with infected individual",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pruritus ani\n(intense itching of the perianal region)\nWorse at night\nRarer symptoms include\nabdominal pain\n,\nappendicitis\nand\nvulvovaginitis\nor\ndysuria\nin females",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Idiopathic pruritus ani\nRectal tenesmus",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Helminth_infections": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Tape test\nMost common\nTouch transparent tape to the perianal region and examine for eggs under the microscope\nCan also test by examining scrapings under patient's fingernails or examining perianal region 2-3 hours after patient falls asleep\nStool analysis does not work because of low egg burden in stool",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment targeted against Enterobius vermicularis; All family members should be treated at the same time",
+      "subsections": {
+        "Adult": {
+          "text": "Mebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nOkay during breastfeeding\n[1]\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\nPyrantel Pamoate\n(Pin-x) 11mg/kg (max 1g), THEN repeat in 2 weeks\nFirst choice for pregnant patients\nTreat in pregnancy only if the infection is compromising the pregnancy (i.e. weight loss, sleeplessness); withhold until the 3rd trimester if possible.\n[2]",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "2 years or older:\nMebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\n<2 years\nAlbendazole\n200 mg PO once, THEN repeat in 2 weeks",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Carefully hand washing after using the toilet, and before and after eating\nThoroughly launder all bedding, clothing, and toys to destroy any lingering eggs\nLaunder all bedding every 3-7 days for three weeks\nWash underwear and pajamas daily for two weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Pyrantel Pamoate",
+          "url": "https://wikem.org/wiki/Pyrantel_Pamoate"
+        },
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Adult": {
+      "text": "Mebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nOkay during breastfeeding\n[1]\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\nPyrantel Pamoate\n(Pin-x) 11mg/kg (max 1g), THEN repeat in 2 weeks\nFirst choice for pregnant patients\nTreat in pregnancy only if the infection is compromising the pregnancy (i.e. weight loss, sleeplessness); withhold until the 3rd trimester if possible.\n[2]",
+      "subsections": {
+        "Pediatric": {
+          "text": "2 years or older:\nMebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\n<2 years\nAlbendazole\n200 mg PO once, THEN repeat in 2 weeks",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Carefully hand washing after using the toilet, and before and after eating\nThoroughly launder all bedding, clothing, and toys to destroy any lingering eggs\nLaunder all bedding every 3-7 days for three weeks\nWash underwear and pajamas daily for two weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Pyrantel Pamoate",
+          "url": "https://wikem.org/wiki/Pyrantel_Pamoate"
+        },
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Pediatric": {
+      "text": "2 years or older:\nMebendazole\n100mg PO once, THEN repeat in 2 weeks OR\nAlbendazole\n400mg PO once, THEN repeat in 2 weeks OR\n<2 years\nAlbendazole\n200 mg PO once, THEN repeat in 2 weeks",
+      "subsections": {
+        "Prevention": {
+          "text": "Carefully hand washing after using the toilet, and before and after eating\nThoroughly launder all bedding, clothing, and toys to destroy any lingering eggs\nLaunder all bedding every 3-7 days for three weeks\nWash underwear and pajamas daily for two weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        },
+        {
+          "text": "Albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Carefully hand washing after using the toilet, and before and after eating\nThoroughly launder all bedding, clothing, and toys to destroy any lingering eggs\nLaunder all bedding every 3-7 days for three weeks\nWash underwear and pajamas daily for two weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "CDC: Enterobiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasites\nPruritus ani",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

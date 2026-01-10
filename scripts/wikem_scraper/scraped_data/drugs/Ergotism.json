@@ -1,0 +1,117 @@
+{
+  "drug_name": "Ergotism",
+  "url": "https://wikem.org/wiki/Ergotism",
+  "scraped_at": "2026-01-10T07:52:48.038707",
+  "sections": {
+    "Background": {
+      "text": "Long term effects of ergotamine usage or ergot poisoning\nCoadministration of ergotamine medication with triptan or certain antibiotics\nIncrease in serotonin activity\nα-adrenergic agonist activity peripherally",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usage of ergotamines such as dihydroergotamine (DHE) and methylergometrine (Methergine)\nMiosis\nBurning sensation in extremities\nCerebrovascular ischemia\nSeizures\nCardiac ischemia\nGI disturbances\nPeripheral ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cerebrovascular ischemia",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Cardiac ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Atypical\nmigraine\nCVA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Intake within 2 hours\nConsidered\nactivated charcoal\nConsider definitive airway\nMild ergotism\nIVF\nAntiemetics\nAnalgesia\nSevere Peripheral Vasoconstriction or Ischemia\nVasodilators -\nnitroprusside\n,\nnitroglycerine\nConsider\ncorticosteroids\nConsider\nheparinization",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "nitroglycerine",
+          "url": "https://wikem.org/wiki/Nitroglycerine"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "heparinization",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider observation for mild ergotism\nAdmission for severe ergotism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Migraine headache\nToxicology (Main)\nActivated charcoal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Goldfrank\"s Toxicologic Emergencies, 9th Ed. Pgs 705-706, 763-769, and 1060-1064.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

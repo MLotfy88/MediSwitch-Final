@@ -1,0 +1,107 @@
+{
+  "drug_name": "Eosinophilia",
+  "url": "https://wikem.org/wiki/Eosinophilia",
+  "scraped_at": "2026-01-10T07:52:40.794789",
+  "sections": {
+    "Background": {
+      "text": "Defined usually as peripheral eosinophil count  >0.5 x 10\n9\n/L\nEosinophils normally comprise <7% of total WBC count",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Allergic reaction\nor other hypersensitivity/atopic state\nUrticaria\n,\natopic dermatitis\n,\nasthma\n, drug reaction/hypersensitivity\nDRESS syndrome\n, drug-induced\nParasitic infection\nCoccidioidomycosis\nand other\nfungal infections\nMalignancy (e.g.\nlymphoma\n, eosinophilic\nleukemia\n)\nSkin disorders (e.g.\nbullous pemphigoid\n, dermatitis herpetiformis)\nAdrenal insufficiency\nConnective tissue disease\n(e.g.\nChurg-Strauss syndrome\n)\nInterstitial nephritis\nArsenic\n,\ngold toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/DRESS_syndrome"
+        },
+        {
+          "text": "Parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Churg-Strauss syndrome",
+          "url": "https://wikem.org/wiki/Churg-Strauss_syndrome"
+        },
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC with differential",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Directed at underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Leukocytosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        }
+      ]
+    }
+  }
+}

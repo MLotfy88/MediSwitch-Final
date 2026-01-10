@@ -1,0 +1,1689 @@
+{
+  "drug_name": "Endocarditis",
+  "url": "https://wikem.org/wiki/Endocarditis",
+  "scraped_at": "2026-01-10T07:52:40.154658",
+  "sections": {
+    "Background": {
+      "text": "Defined as an infection of the endocardial surface of the heart, affecting native (or prosthetic) heart valves as well as in-dwelling cardiac devices\nConsider in patients with known risk factors and unexplained fever\nMitral valve most commonly affected overall; tricuspid valve most common in IVDA\nNoninfectious vegetations can arise in patients with malignancy/\nSLE\n/Hypercoagulable state (\"Marantic\" endocarditis)\nS. aureus\nis single most common cause (accounts for 1/3 of all cases)\n[1]\nStrep viridans\nis the most common cause of native valve endocarditis, excluding risk factors below\nBlood cultures\nare falsely negative ~5% (think HACEK organisms)\nOnly 20% have an increase in a known murmur and only 48% have a new murmur\n[2]",
+      "subsections": {
+        "Prophylaxis": {
+          "text": "No longer recommended at all in the United Kingdom\n[3]\nIn United States, only recommended for\ninvasive dental procedures\n(not routine cleanings) and\ninvasive respiratory procedures\nin setting of:\n[4]\n[5]\nProsthetic valves\nPrior\nendocarditis\nUn-repaired\ncongenital cyanotic heart disease\nRepaired\ncongenital heart disease\n/valvulopathy with prosthetic material",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "IVDA\nTricuspid valve most commonly affected\nProsthetic heart valve\nCoagulase negative\nstaphylcocci\nare substantial etiologies in this patient population\n[6]\nStructural heart disease\nRheumatic heart disease (biggest risk factor in low-income countries)\nMitral valve prolapse\nBicuspid aortic valve\nHemodialysis\nHIV\ninfection\nFungal\nendocarditis risk factors, with\nCandida\nmost common\nProlonged antibiotics\nTPN through central line",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "congenital cyanotic heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "IVDA",
+          "url": "https://wikem.org/wiki/IVDA"
+        },
+        {
+          "text": "staphylcocci",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Prophylaxis": {
+      "text": "No longer recommended at all in the United Kingdom\n[3]\nIn United States, only recommended for\ninvasive dental procedures\n(not routine cleanings) and\ninvasive respiratory procedures\nin setting of:\n[4]\n[5]\nProsthetic valves\nPrior\nendocarditis\nUn-repaired\ncongenital cyanotic heart disease\nRepaired\ncongenital heart disease\n/valvulopathy with prosthetic material",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "IVDA\nTricuspid valve most commonly affected\nProsthetic heart valve\nCoagulase negative\nstaphylcocci\nare substantial etiologies in this patient population\n[6]\nStructural heart disease\nRheumatic heart disease (biggest risk factor in low-income countries)\nMitral valve prolapse\nBicuspid aortic valve\nHemodialysis\nHIV\ninfection\nFungal\nendocarditis risk factors, with\nCandida\nmost common\nProlonged antibiotics\nTPN through central line",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "congenital cyanotic heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "IVDA",
+          "url": "https://wikem.org/wiki/IVDA"
+        },
+        {
+          "text": "staphylcocci",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "IVDA\nTricuspid valve most commonly affected\nProsthetic heart valve\nCoagulase negative\nstaphylcocci\nare substantial etiologies in this patient population\n[6]\nStructural heart disease\nRheumatic heart disease (biggest risk factor in low-income countries)\nMitral valve prolapse\nBicuspid aortic valve\nHemodialysis\nHIV\ninfection\nFungal\nendocarditis risk factors, with\nCandida\nmost common\nProlonged antibiotics\nTPN through central line",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVDA",
+          "url": "https://wikem.org/wiki/IVDA"
+        },
+        {
+          "text": "staphylcocci",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nPresent in 80% of cases\nHeart\nmurmur\nPreexisting murmur found in 85% of cases; new murmur found in 48%\nCHF\nAcute or progressive (70%)\nDerm\nOsler nodes\nTender red/purple nodules on distal finger and toes\nSplinter hemorrhages\nNail bed hemorrhages not extending the length of the nail\nJaneway lesions\nNon-tender, small erythematous or hemorrhagic macular, papular or nodular lesions on the palms or soles only a few millimeters in diameter\nCNS\n65% of emboli involve the CNS\n[7]\nCentral retinal artery occlusion\nPulmonary\nPneumonia\nEmpyema\nPulmonary emboli\nCardiac\nMI\nMyocarditis\nAbdominal\nBowel, renal, splenic infarcts\nOphtho\nRoth spots\nWhite centered retinal hemorrhage\nAssociated with multiple systemic illnesses, most commonly bacterial endocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Empyema",
+          "url": "https://wikem.org/wiki/Empyema"
+        },
+        {
+          "text": "Pulmonary emboli",
+          "url": "https://wikem.org/wiki/Pulmonary_emboli"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome\nEndocarditis\nInfected\nDVT\nLemierre's syndrome\nCentral line\n, pacemaker wire infection\nPeri-odontal disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        }
+      ]
+    },
+    "Fever": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome\nEndocarditis\nInfected\nDVT\nLemierre's syndrome\nCentral line\n, pacemaker wire infection\nPeri-odontal disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Lemierre's syndrome",
+          "url": "https://wikem.org/wiki/Lemierre%27s_syndrome"
+        },
+        {
+          "text": "Central line",
+          "url": "https://wikem.org/wiki/Central_line"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Blood culture\n(from 3 separate sites)\n[8]\nCBC\nStaphylococcal endocarditis:\nLeukocytosis\n+/-\nthrombocytopenia\nSubacute endocarditis: WBC may be normal or elevated\nUrinalysis\nHematuria\nESR\nElevated in >90% of cases\nECG\nIschemia,\nheart block\nCXR\nPulmonary emboli,\nCHF\nUltrasound\nObtain as soon as possible\nTEE may be required for:\nProsthetic valves\nDifficulty obtaining clear TTE images (obesity, COPD)\nHigh clinical probability of endocarditis",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Inpatient diagnosis is based on the Duke's Criteria although many of the criteria are not filled in the ED\nHeightened clinical suspicion is necessary even if diagnosis does not meet the official criteria.\n[9]",
+          "tables": []
+        },
+        "Modified_Duke_Criteria": {
+          "text": "2 major criteria\nOR\n1 major and 3 minor criteria\nOR\n5 minor criteria",
+          "tables": []
+        },
+        "Major_Criteria": {
+          "text": "Positive blood culture with typical IE microorganism, defined as one of the following:\nTypical microorganism consistent with IE from 2 separate blood cultures, as noted below:\nViridans-group streptococci\n, or\nStreptococcus bovis\nincluding nutritional variant strains, or\nHACEK\ngroup, or\nStaphylococcus aureus\n, or\nCommunity-acquired\nEnterococci\n, in the absence of a primary focus\nMicroorganisms consistent with IE from persistently positive blood cultures defined as:\nTwo positive cultures of blood samples drawn >12 hours apart, or\nAll of 3 or a majority of 4 separate cultures of blood (with first and last sample drawn 1 hour apart)\nCoxiella burnetii\ndetected by one positive blood culture or IgG\nStaphylococus lugdunensis should raise concerns for endocarditis with a single positive blood culture\n[11]\nEvidence of endocardial involvement with positive echocardiogram defined as:\nValvular mass or supporting structures or\nAbscess, or\nNew disruption of a prosthetic valve or new valvular regurgitation",
+          "tables": []
+        },
+        "Minor_Criteria": {
+          "text": "Predisposing factor: known cardiac lesion, recreational drug injection\nFever >38°C\nEvidence of emboli: arterial emboli,pulmonary infarcts,\nJaneway lesions\n, conjunctival hemorrhage\nGlomerulonephritis\n,\nOsler's nodes\nPositive blood culture (that does not meet a major criterion) or serologic evidence of infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "Viridans-group streptococci",
+          "url": "https://wikem.org/wiki/Streptococcus_viridans"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Coxiella burnetii",
+          "url": "https://wikem.org/wiki/Coxiella_burnetii"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Blood culture\n(from 3 separate sites)\n[8]\nCBC\nStaphylococcal endocarditis:\nLeukocytosis\n+/-\nthrombocytopenia\nSubacute endocarditis: WBC may be normal or elevated\nUrinalysis\nHematuria\nESR\nElevated in >90% of cases\nECG\nIschemia,\nheart block\nCXR\nPulmonary emboli,\nCHF\nUltrasound\nObtain as soon as possible\nTEE may be required for:\nProsthetic valves\nDifficulty obtaining clear TTE images (obesity, COPD)\nHigh clinical probability of endocarditis",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Inpatient diagnosis is based on the Duke's Criteria although many of the criteria are not filled in the ED\nHeightened clinical suspicion is necessary even if diagnosis does not meet the official criteria.\n[9]",
+          "tables": []
+        },
+        "Modified_Duke_Criteria": {
+          "text": "2 major criteria\nOR\n1 major and 3 minor criteria\nOR\n5 minor criteria",
+          "tables": []
+        },
+        "Major_Criteria": {
+          "text": "Positive blood culture with typical IE microorganism, defined as one of the following:\nTypical microorganism consistent with IE from 2 separate blood cultures, as noted below:\nViridans-group streptococci\n, or\nStreptococcus bovis\nincluding nutritional variant strains, or\nHACEK\ngroup, or\nStaphylococcus aureus\n, or\nCommunity-acquired\nEnterococci\n, in the absence of a primary focus\nMicroorganisms consistent with IE from persistently positive blood cultures defined as:\nTwo positive cultures of blood samples drawn >12 hours apart, or\nAll of 3 or a majority of 4 separate cultures of blood (with first and last sample drawn 1 hour apart)\nCoxiella burnetii\ndetected by one positive blood culture or IgG\nStaphylococus lugdunensis should raise concerns for endocarditis with a single positive blood culture\n[11]\nEvidence of endocardial involvement with positive echocardiogram defined as:\nValvular mass or supporting structures or\nAbscess, or\nNew disruption of a prosthetic valve or new valvular regurgitation",
+          "tables": []
+        },
+        "Minor_Criteria": {
+          "text": "Predisposing factor: known cardiac lesion, recreational drug injection\nFever >38°C\nEvidence of emboli: arterial emboli,pulmonary infarcts,\nJaneway lesions\n, conjunctival hemorrhage\nGlomerulonephritis\n,\nOsler's nodes\nPositive blood culture (that does not meet a major criterion) or serologic evidence of infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "Viridans-group streptococci",
+          "url": "https://wikem.org/wiki/Streptococcus_viridans"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Coxiella burnetii",
+          "url": "https://wikem.org/wiki/Coxiella_burnetii"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Inpatient diagnosis is based on the Duke's Criteria although many of the criteria are not filled in the ED\nHeightened clinical suspicion is necessary even if diagnosis does not meet the official criteria.\n[9]",
+      "subsections": {
+        "Modified_Duke_Criteria": {
+          "text": "2 major criteria\nOR\n1 major and 3 minor criteria\nOR\n5 minor criteria",
+          "tables": []
+        },
+        "Major_Criteria": {
+          "text": "Positive blood culture with typical IE microorganism, defined as one of the following:\nTypical microorganism consistent with IE from 2 separate blood cultures, as noted below:\nViridans-group streptococci\n, or\nStreptococcus bovis\nincluding nutritional variant strains, or\nHACEK\ngroup, or\nStaphylococcus aureus\n, or\nCommunity-acquired\nEnterococci\n, in the absence of a primary focus\nMicroorganisms consistent with IE from persistently positive blood cultures defined as:\nTwo positive cultures of blood samples drawn >12 hours apart, or\nAll of 3 or a majority of 4 separate cultures of blood (with first and last sample drawn 1 hour apart)\nCoxiella burnetii\ndetected by one positive blood culture or IgG\nStaphylococus lugdunensis should raise concerns for endocarditis with a single positive blood culture\n[11]\nEvidence of endocardial involvement with positive echocardiogram defined as:\nValvular mass or supporting structures or\nAbscess, or\nNew disruption of a prosthetic valve or new valvular regurgitation",
+          "tables": []
+        },
+        "Minor_Criteria": {
+          "text": "Predisposing factor: known cardiac lesion, recreational drug injection\nFever >38°C\nEvidence of emboli: arterial emboli,pulmonary infarcts,\nJaneway lesions\n, conjunctival hemorrhage\nGlomerulonephritis\n,\nOsler's nodes\nPositive blood culture (that does not meet a major criterion) or serologic evidence of infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viridans-group streptococci",
+          "url": "https://wikem.org/wiki/Streptococcus_viridans"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Enterococci",
+          "url": "https://wikem.org/wiki/Enterococci"
+        },
+        {
+          "text": "Coxiella burnetii",
+          "url": "https://wikem.org/wiki/Coxiella_burnetii"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Initial management should focus on early blood cultures and antibiotics",
+      "subsections": {
+        "CHF/Cardiogenic_Shock": {
+          "text": "Often due to valve failure, rupture, or a new defect.",
+          "tables": []
+        },
+        "Pulmonary_edema": {
+          "text": "Often due to mitral or aortic valve rupture causing severe regurgitation\nFocus on after-load reduction",
+          "tables": []
+        },
+        "Respiratory_failure_(emboli)": {
+          "text": "Often requires\nintubation\nwith failure either due to\nCHF\nor\nPneumonia\nMulti-lobar\npneumonia\nsuggests a tricuspid or pulmonary valve lesion with emboli to lungs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "CHF/Cardiogenic_Shock": {
+      "text": "Often due to valve failure, rupture, or a new defect.",
+      "subsections": {
+        "Pulmonary_edema": {
+          "text": "Often due to mitral or aortic valve rupture causing severe regurgitation\nFocus on after-load reduction",
+          "tables": []
+        },
+        "Respiratory_failure_(emboli)": {
+          "text": "Often requires\nintubation\nwith failure either due to\nCHF\nor\nPneumonia\nMulti-lobar\npneumonia\nsuggests a tricuspid or pulmonary valve lesion with emboli to lungs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Pulmonary_edema": {
+      "text": "Often due to mitral or aortic valve rupture causing severe regurgitation\nFocus on after-load reduction",
+      "subsections": {
+        "Respiratory_failure_(emboli)": {
+          "text": "Often requires\nintubation\nwith failure either due to\nCHF\nor\nPneumonia\nMulti-lobar\npneumonia\nsuggests a tricuspid or pulmonary valve lesion with emboli to lungs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Start after 3 sets of blood cultures are obtained (if possible)\n[8]\nTherapy should be based on:\nWhether the patient has received prior antibiotic therapy\nProsthetic valves\nLocal antibiotic resistance patterns or knowledge of prior endocarditis cultures\nPrior hospitalizations and risk of MRSA",
+      "subsections": {
+        "Native_Valves": {
+          "text": "Options:\n[12]\nAmpicillin/Sulbactam\n12g/day IV in 4 doses +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nAmoxicillin/Clavulanate\n12g/day in 4 dose +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nOxacillin\nor\nNafcillin\n2g IV six times daily +\nGentamicin\n1mg/kg IV three times daily AND\nAmpicillin\n2g IV six times daily\nDaptomycin\n6mg/kg IV once daily\nSuspected MRSA:\n[12]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nCiprofloxacin\n1000mg/day PO in 2 doses or 800 mg/day IV in 2 doses",
+          "tables": []
+        },
+        "Prosthetic_Valves_(Early)": {
+          "text": "Early prosthetic valve endocarditis defined as < 12 months post surgery\n[12]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nRifampin\n1200 mg/day PO in 2 doses",
+          "tables": []
+        },
+        "IV_Drug_User_without_Prosthetic_Valve": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID daily\nDaptomycin\n6mg/kg IV once daily",
+          "tables": []
+        },
+        "Prosthetic_Valve_(Late)": {
+          "text": "Late prosthetic valve endocarditis defined as ≥ 12 months post surgery\n[12]\nSame as native valve endocarditis empiric therapy",
+          "tables": []
+        },
+        "Dental_Procedure_Prophylaxis": {
+          "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[13]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "Native_Valves": {
+      "text": "Options:\n[12]\nAmpicillin/Sulbactam\n12g/day IV in 4 doses +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nAmoxicillin/Clavulanate\n12g/day in 4 dose +\nGentamicin\n3mg/kg/day IV in 2 or 3 doses\nOxacillin\nor\nNafcillin\n2g IV six times daily +\nGentamicin\n1mg/kg IV three times daily AND\nAmpicillin\n2g IV six times daily\nDaptomycin\n6mg/kg IV once daily\nSuspected MRSA:\n[12]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nCiprofloxacin\n1000mg/day PO in 2 doses or 800 mg/day IV in 2 doses",
+      "subsections": {
+        "Prosthetic_Valves_(Early)": {
+          "text": "Early prosthetic valve endocarditis defined as < 12 months post surgery\n[12]\nVancomycin\n30mg/kg/day IV in 2 doses PLUS\nGentamicin\n3mg/kg/day IV in 2 or 3 doses PLUS\nRifampin\n1200 mg/day PO in 2 doses",
+          "tables": []
+        },
+        "IV_Drug_User_without_Prosthetic_Valve": {
+          "text": "Vancomycin\n15-20 mg/kg IV BID daily\nDaptomycin\n6mg/kg IV once daily",
+          "tables": []
+        },
+        "Prosthetic_Valve_(Late)": {
+          "text": "Late prosthetic valve endocarditis defined as ≥ 12 months post surgery\n[12]\nSame as native valve endocarditis empiric therapy",
+          "tables": []
+        },
+        "Dental_Procedure_Prophylaxis": {
+          "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[13]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "IV_Drug_User_without_Prosthetic_Valve": {
+      "text": "Vancomycin\n15-20 mg/kg IV BID daily\nDaptomycin\n6mg/kg IV once daily",
+      "subsections": {
+        "Prosthetic_Valve_(Late)": {
+          "text": "Late prosthetic valve endocarditis defined as ≥ 12 months post surgery\n[12]\nSame as native valve endocarditis empiric therapy",
+          "tables": []
+        },
+        "Dental_Procedure_Prophylaxis": {
+          "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[13]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "Dental_Procedure_Prophylaxis": {
+      "text": "All antibiotics options are given as a single dose 1 hour prior to the dental procedure\nOptions:\n[13]\nAmoxicillin\n2g or 50mg/kg\nAmpicillin\n2g (50mg/kg) IV or IM\nCefazolin\nor\nCeftriaxone\n1g (50mg/kg) IM or IV\nClindamycin\n600mg (20mg/kg) PO or IV\nAzithromycin\nor\nClarithromycin\n500mg (15mg/kg) PO",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Cefazolin",
+          "url": "https://wikem.org/wiki/Cefazolin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit all suspected cases and consult Cardiothoracic surgery for endocarditis complicated by:\n[2]\nNew Heart failure suspected due to severe regurgitation\nCardiogenic Shock\nEchocardiography demonstrating a new fistula\nSurgery indicated for\n[14]\n:\nAcute heart failure\nPeriannular extension\nRecurrent emboli\nLarge mobile vegetations\nPersistent bacteremia\nFungal endocarditis (penetration of antifungals into vegetation walls poor)\n[15]\nIV\namphotericin B\nLifelong PO antifungal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Miscellaneous": {
+      "text": "No therapeutic anticoagulation necessary\nAnticoagulation carries higher risk of bleeding without delivering mortality benefit or reducing embolic complication\n[16]\nSeptic pulmonary embolism\nMost common culture growths are MSSA, MRSA, and candida\n[17]\nFurthermore, therapeutic anticoagulation not indicated for\nseptic pulmonary embolism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Cardiac": {
+          "text": "Heart Failure\nMost common cause of death due to IE\nPerivalvular Abscess",
+          "tables": []
+        },
+        "Embolic": {
+          "text": "CVA\nBlindness\nPainful, ischemic extremities\nUnusual pain syndromes (due to splenic or renal infarction)\nMycotic aneurysm\nHypoxia\nMI",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Embolic stroke\nAcute\nencephalopathy\nMeningoencephalitis\nPurulent or aseptic\nmeningitis\nCerebral hemorrhage\nSeizure\nSpinal abscess",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Renal infarction\nGlomerulonephritis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Vertebral osteomyelitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart Failure",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(CHF)"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Mycotic aneurysm",
+          "url": "https://wikem.org/wiki/Mycotic_aneurysm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Embolic stroke",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cerebral hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Spinal abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    },
+    "Cardiac": {
+      "text": "Heart Failure\nMost common cause of death due to IE\nPerivalvular Abscess",
+      "subsections": {
+        "Embolic": {
+          "text": "CVA\nBlindness\nPainful, ischemic extremities\nUnusual pain syndromes (due to splenic or renal infarction)\nMycotic aneurysm\nHypoxia\nMI",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Embolic stroke\nAcute\nencephalopathy\nMeningoencephalitis\nPurulent or aseptic\nmeningitis\nCerebral hemorrhage\nSeizure\nSpinal abscess",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Renal infarction\nGlomerulonephritis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Vertebral osteomyelitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart Failure",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(CHF)"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Mycotic aneurysm",
+          "url": "https://wikem.org/wiki/Mycotic_aneurysm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Embolic stroke",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cerebral hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Spinal abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    },
+    "Embolic": {
+      "text": "CVA\nBlindness\nPainful, ischemic extremities\nUnusual pain syndromes (due to splenic or renal infarction)\nMycotic aneurysm\nHypoxia\nMI",
+      "subsections": {
+        "Neurologic": {
+          "text": "Embolic stroke\nAcute\nencephalopathy\nMeningoencephalitis\nPurulent or aseptic\nmeningitis\nCerebral hemorrhage\nSeizure\nSpinal abscess",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Renal infarction\nGlomerulonephritis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Vertebral osteomyelitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Mycotic aneurysm",
+          "url": "https://wikem.org/wiki/Mycotic_aneurysm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Embolic stroke",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cerebral hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Spinal abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    },
+    "Neurologic": {
+      "text": "Embolic stroke\nAcute\nencephalopathy\nMeningoencephalitis\nPurulent or aseptic\nmeningitis\nCerebral hemorrhage\nSeizure\nSpinal abscess",
+      "subsections": {
+        "Renal": {
+          "text": "Renal infarction\nGlomerulonephritis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Vertebral osteomyelitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Embolic stroke",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "Meningoencephalitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cerebral hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Spinal abscess",
+          "url": "https://wikem.org/wiki/Epidural_abscess"
+        },
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    },
+    "Renal": {
+      "text": "Renal infarction\nGlomerulonephritis",
+      "subsections": {
+        "Musculoskeletal": {
+          "text": "Vertebral osteomyelitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal infarction",
+          "url": "https://wikem.org/wiki/Renal_infarction"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    },
+    "Musculoskeletal": {
+      "text": "Vertebral osteomyelitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fever\nIn-training exam review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "In-training exam review",
+          "url": "https://wikem.org/wiki/In-training_exam_review"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Duke Criteria\nEMCrit - Endocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "drug_name": "End_of_life_care",
+  "url": "https://wikem.org/wiki/End_of_life_care",
+  "scraped_at": "2026-01-10T07:52:36.614011",
+  "sections": {
+    "Background": {
+      "text": "Despite widespread hospice services, many terminally ill patients visit the ED at the end of life (EOL)\nUp to one third of cancer patients visit the ED in the last 2 weeks of life\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Weakness\n, fatigue, and functional decline\nIncreased risk of pressure ulcers\nDecreased oral intake\nNeurologic changes\nDecreasing levels of consciousness leading to\ncoma\nand death\nTerminal\ndelirium\nconfusion, restlessness, agitation, day-night reversal\nAccumulation of upper airway secretions\nDecreased gag reflex and ability to swallow leads to gurgling, or rattling sounds with each breath\nIncontinence of urine and/or stool\nInability to close eyes\nCachexia leads to loss of retro-obital fat pad\nOphthalmic lubricants for dry eyes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Pain and dyspnea\nOpioids\nare the mainstay of treatment\nChoice of opioid based on provider preference, no trials to support one over another\nOpioid naïve patients:\nConsider starting doses of 1-2mg IV\nmorphine\nor 0.2 to 0.4mg IV\nhydromorphone\nMay safely redose in 10 minutes\nOpioid tolerant patients:\nConsider starting with 10% of total daily opioid dose\nAirway secretions\nThe “death rattle” tend to be more distressing to family members than to the patients themselves\nDiscontinue non-essential IV fluids or enteral feedings\nPosition the patient on his or her side\nGlycopyrrolate\n(0.2 mg SC q4-6hrs, or 0.2 to 0.4 mg PO q8hrs\nGenerally preferred over\natropine\nand\nscopolamine\nbecause of less central effects\nDelirium\nHaloperidol\n0.5 to 1 mg haloperidol (PO, IV, IM, or SC),  repeat dose every 45 to 60 minutes titrated against symptoms\nFor patients with persistent agitated delirium, a single dose of\nlorazepam\nmay be beneficial as an adjunct to haloperidol.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "hydromorphone",
+          "url": "https://wikem.org/wiki/Hydromorphone"
+        },
+        {
+          "text": "Glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "scopolamine",
+          "url": "https://wikem.org/wiki/Scopolamine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Goals of care\nDelivering bad news",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Goals of care",
+          "url": "https://wikem.org/wiki/Goals_of_care"
+        },
+        {
+          "text": "Delivering bad news",
+          "url": "https://wikem.org/wiki/Delivering_bad_news"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "drug_name": "Endometriosis",
+  "url": "https://wikem.org/wiki/Endometriosis",
+  "scraped_at": "2026-01-10T07:52:41.945260",
+  "sections": {
+    "Background": {
+      "text": "Endometrial glands and stroma at extrauterine sites, generally in the pelvis but can be anywhere in the body\nThe condition is a common, benign, estrogen-dependent disorder\nCan be associated with debilitating symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Classic symptoms: dysmenorrhea,\npelvic pain\n, dyspareunia, and infertility\nMnemonic: 3 D's--dysmenorrhea, dyschezia and dyspareunia\nOther symptoms may include: include abnormal\nuterine bleeding\n, low\nback pain\n, or chronic fatigue\nEndometriosis is commonly detected as an asymptomatic incidental finding on pelvic ultrasound or during a surgical procedure\nCatamenial pneumothorax\n- rare complication involving recurrent spontaneous pneumothoraces occurring around menses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "uterine bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_Bleed_Non-Pregnant"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Catamenial pneumothorax",
+          "url": "https://wikem.org/wiki/Catamenial_pneumothorax"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Ectopic pregnancy\nPelvic inflammatory disease\nInterstitial cystitis\nAdenomyosis\nOvarian neoplasms\nPelvic adhesions\nIrritable bowel syndrome\nColon cancer\nDiverticular disease",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[1]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Nonpregnant_Vaginal_Bleeding": {
+          "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Diverticular disease",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[1]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Nonpregnant_Vaginal_Bleeding": {
+          "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Nonpregnant_Vaginal_Bleeding": {
+      "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Leiomyoma",
+          "url": "https://wikem.org/wiki/Leiomyoma"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "History of symptoms described above\nExam with tenderness when palpating posterior fornix\nLabs are not generally useful\nPelvic ultrasound\nis the first-line study\nLaparoscopy for definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Symptomatic management\nAnalgesia\nHormonal medical therapy\nOCP's, GnRH agonists, progestins, danazol, aromatase inhibitors\nSurgical intervention - conservative (retain uterus and ovaries) or definitive (TAH-BSO)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with OB/Gyn follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pelvic Pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pelvic Pain",
+          "url": "https://wikem.org/wiki/Pelvic_Pain"
+        }
+      ]
+    }
+  }
+}

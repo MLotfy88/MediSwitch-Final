@@ -1,0 +1,694 @@
+{
+  "drug_name": "Ertapenem",
+  "url": "https://wikem.org/wiki/Ertapenem",
+  "scraped_at": "2026-01-10T07:52:47.630459",
+  "sections": {
+    "General": {
+      "text": "Type:\nCarbapenems\nDosage Forms: IM, IV\nCommon Trade Names: Invanz\nHas activity against ESBL organisms\nAs opposed to\nmeropenem\n, ertapenem does not cover\nPseudomonas aeruginosa",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbapenems",
+          "url": "https://wikem.org/wiki/Carbapenems"
+        },
+        {
+          "text": "meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "1g IM/IV daily x 5-14 days\nFirst Dose: 1g IM/IV x 1",
+          "tables": []
+        },
+        "Specific_Indications": {
+          "text": "1g IM/IV daily for all\nIntrabdominal infections x 5-14 days\nSkin Infections\n= x 7-14 days\nPneumonia\n, community aquired x 10-14 days\nUTI\n, complicated = x 10-14 days\nGynecologic = x 3-10 days\nProphylaxis, colorectal surgery = x 1 dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Skin Infections",
+          "url": "https://wikem.org/wiki/Skin_Infections"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "1g IM/IV daily x 5-14 days\nFirst Dose: 1g IM/IV x 1",
+      "subsections": {
+        "Specific_Indications": {
+          "text": "1g IM/IV daily for all\nIntrabdominal infections x 5-14 days\nSkin Infections\n= x 7-14 days\nPneumonia\n, community aquired x 10-14 days\nUTI\n, complicated = x 10-14 days\nGynecologic = x 3-10 days\nProphylaxis, colorectal surgery = x 1 dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Skin Infections",
+          "url": "https://wikem.org/wiki/Skin_Infections"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Specific_Indications": {
+      "text": "1g IM/IV daily for all\nIntrabdominal infections x 5-14 days\nSkin Infections\n= x 7-14 days\nPneumonia\n, community aquired x 10-14 days\nUTI\n, complicated = x 10-14 days\nGynecologic = x 3-10 days\nProphylaxis, colorectal surgery = x 1 dose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Skin Infections",
+          "url": "https://wikem.org/wiki/Skin_Infections"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_(3mo-12_years)": {
+          "text": "30mg/kg/day IM/IV divided BID x 5-14 days\nFirst Dose: 15mg/kg IM/IV x 1\nMax: 1 g/day\nFor duration, see adult specific indication dosing",
+          "tables": []
+        },
+        "General_(>13_Years)": {
+          "text": "See adult dosing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Safety unknown\nRenal Dosing\nAdult\nCrCl <30: 500mg daily\nHemodyalisis: give 150mg supplement if maintenance dose <6h prior\nPediatric\nCrCl <30: decrease dose 50%\nHemodyalisis: give 150mg supplement if maintenance dose <6h prior\nHepatic Dosing (Adult & Pediatric)\nNo data",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to amide anesthetics (IM only)",
+      "subsections": {
+        "Cautions": {
+          "text": "Hypersensitivity to\nBeta-Lactam\nSeizure\nhistory\nCNS disorder\nRenal impairment\nRecent antibiotic associated colitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-Lactam",
+          "url": "https://wikem.org/wiki/Beta-Lactam"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Cautions": {
+      "text": "Hypersensitivity to\nBeta-Lactam\nSeizure\nhistory\nCNS disorder\nRenal impairment\nRecent antibiotic associated colitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-Lactam",
+          "url": "https://wikem.org/wiki/Beta-Lactam"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity Reaction\nAnaphylaxis\nNeurotoxicity\nSeizures\nC. diff\nSuperinfection\nExtravasation with tissue damage\nHallucinations\nHypertension\nTachycardia\nDrug rash with\neosinophilia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nInfusion site reaction\nNausea and Vomiting\nTransaminitis\nHeadache\nFever\nAltered Mental Status\nConstipation\nAbdominal Pain\nEdema\nInsomnia\nThrombocytosis\nDyspnea\nRash\nDizziness\nPuritis\nHypotension\nVaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity Reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity Reaction\nAnaphylaxis\nNeurotoxicity\nSeizures\nC. diff\nSuperinfection\nExtravasation with tissue damage\nHallucinations\nHypertension\nTachycardia\nDrug rash with\neosinophilia",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nInfusion site reaction\nNausea and Vomiting\nTransaminitis\nHeadache\nFever\nAltered Mental Status\nConstipation\nAbdominal Pain\nEdema\nInsomnia\nThrombocytosis\nDyspnea\nRash\nDizziness\nPuritis\nHypotension\nVaginitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity Reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nInfusion site reaction\nNausea and Vomiting\nTransaminitis\nHeadache\nFever\nAltered Mental Status\nConstipation\nAbdominal Pain\nEdema\nInsomnia\nThrombocytosis\nDyspnea\nRash\nDizziness\nPuritis\nHypotension\nVaginitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4h\nMetabolism: CYP450\nExcretion: Urine (80%)\nMechanism of Action: Bactericidal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        }
+      ]
+    }
+  }
+}

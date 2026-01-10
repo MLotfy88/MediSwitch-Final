@@ -1,0 +1,476 @@
+{
+  "drug_name": "Encephalitis",
+  "url": "https://wikem.org/wiki/Encephalitis",
+  "scraped_at": "2026-01-10T07:52:37.674967",
+  "sections": {
+    "Background": {
+      "text": "Infection of brain parenchyma  of the temporal lobes and inferior frontal lobe causing distinct neurologic abnormality\nPathophysiology\nGray matter is predominantly affected (cognitive / psychiatric signs, lethargy, seizure)",
+      "subsections": {
+        "Microbiology": {
+          "text": "HSV\nHZV\nEBV\nCMV\nRabies\nArboviruses (\nWest Nile\n, St. Louis equine) account for 50% of cases\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HZV",
+          "url": "https://wikem.org/wiki/HZV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        }
+      ]
+    },
+    "Microbiology": {
+      "text": "HSV\nHZV\nEBV\nCMV\nRabies\nArboviruses (\nWest Nile\n, St. Louis equine) account for 50% of cases\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HZV",
+          "url": "https://wikem.org/wiki/HZV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "New psychiatric symptoms (HSV)\n[2]\nCognitive deficits\nAphasia, amnesia,\nconfusion\nSeizure\nMovement disorder (arboviruses)\nFever\nand meningeal signs are almost always present\nDysuria\nand pyuria (St. Louis encephalitis)\nExtreme\nlethargy\n(West Nile encephalitis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "SAH\nLyme disease\nBrain abscess\nBacterial\nendocarditis\nToxic / metabolic encephalopathy",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Imaging identifies abnormalities in medial temporal and inferior frontal gray matter in HSV\n[3]\nCT Head\n- edema and petechial hemorrhage\nMRI\n- increased T2 intensity\nLP\nBloody tap consistent with HSV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT Head",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Often it is unclear which type of encephalitis is present and starting\nAcyclovir\nempirically is appropriate. In addition to the pathogens below, possible causes can include\nWest Nile Virus\n,\nEBV\n,\nHIV\n,\ntoxoplasmosis\n, or\nrabies\n.",
+      "subsections": {
+        "HSV_encephalitis": {
+          "text": "Acyclovir\n10mg/kg (10-15mg/kg for pediatrics) every 8hrs",
+          "tables": []
+        },
+        "HZV_encephalitis": {
+          "text": "Acyclovir\n10mg/kg every 8hr",
+          "tables": []
+        },
+        "CMV_encephalitis": {
+          "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+          "tables": []
+        },
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "West Nile Virus",
+          "url": "https://wikem.org/wiki/West_Nile_Virus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "HSV_encephalitis": {
+      "text": "Acyclovir\n10mg/kg (10-15mg/kg for pediatrics) every 8hrs",
+      "subsections": {
+        "HZV_encephalitis": {
+          "text": "Acyclovir\n10mg/kg every 8hr",
+          "tables": []
+        },
+        "CMV_encephalitis": {
+          "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+          "tables": []
+        },
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "HZV_encephalitis": {
+      "text": "Acyclovir\n10mg/kg every 8hr",
+      "subsections": {
+        "CMV_encephalitis": {
+          "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+          "tables": []
+        },
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "CMV_encephalitis": {
+      "text": "Ganciclovir\n5mg/kg IV every 12hr OR\nFoscarnet\n90mg/kg IV every 12 hrs",
+      "subsections": {
+        "Tick_Associated_(Borrelia_burgdorferi,_Ehrlichiosis_or_Rickettsia)": {
+          "text": "Doxycycline\n200 mg IV once followed by 100 mg IV twice daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ganciclovir",
+          "url": "https://wikem.org/wiki/Ganciclovir"
+        },
+        {
+          "text": "Foscarnet",
+          "url": "https://wikem.org/wiki/Foscarnet"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit in all cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anti-NMDA receptor encephalitis\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    }
+  }
+}

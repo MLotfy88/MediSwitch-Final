@@ -1,0 +1,247 @@
+{
+  "drug_name": "Epidural_abscess_(intracranial)",
+  "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)",
+  "scraped_at": "2026-01-10T07:52:44.900784",
+  "sections": {
+    "Background": {
+      "text": "Much less common than\nspinal epidural abscess\n(1:9)\nUsually caused by local spread of infection or inoculation during surgery or\ntrauma\nUsually isolated to calvarium due to adherence of dura to foramen magnum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "spinal epidural abscess",
+          "url": "https://wikem.org/wiki/Spinal_epidural_abscess"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms of\nintracranial mass\npapilledema\nfocal neurologic symptoms\nheadache\nnausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "focal neurologic symptoms",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Intracranial_Mass": {
+          "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        }
+      ]
+    },
+    "Intracranial_Mass": {
+      "text": "Intracranial hemorrhage\nIntra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)\nBrain tumor\nBrain abscess\nSubdural empyema\nEpidural abscess (intracranial)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Subdural empyema",
+          "url": "https://wikem.org/wiki/Subdural_empyema"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Suspect diagnosis based on clinical history and physical exam\nImaging modality of choice is\nMRI\nCT\nwith IV contrast is reasonable alternative",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Surgical decompression\nAntibiotics\nVancomycin\n+\nmetronidazole\n+ (\ncefotaxime\nor\nceftriaxone\nor\nceftazidime\n)\nCeftazidime\nis preferred if\npseudomonas\nis considered likely\nCan substitute\nnafcillin\nor\noxacillin\nfor\nVancomycin\nif not\nMRSA\nTreat for 6-8 weeks\nIf likely nasopharyngeal source (\nsinusitis\n,\nmastoiditis\n), may consider regiment covering\nstrep\n,\nHaemophilus influenzae\n, and\naerobes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "aerobes",
+          "url": "https://wikem.org/wiki/Aerobes"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epidural abscess (spinal)\nBrain abscess",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    }
+  }
+}

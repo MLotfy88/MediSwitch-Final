@@ -1,0 +1,967 @@
+{
+  "drug_name": "Epidural_abscess_(spinal)",
+  "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)",
+  "scraped_at": "2026-01-10T07:52:50.456786",
+  "sections": {
+    "Background": {
+      "text": "Abscess confined to epidural adipose tissue in spine\n[1]\nThoracic and lumbar spine most common; C-spine least common\nUsually spans up to 3-5 vertebral spaces\nTypically hematogenous spread from other source of infection",
+      "subsections": {
+        "Organisms": {
+          "text": "S. aureus\n(most common, 2/3 of cases)\nS. epidermidis\n(associated with device, instrumentation)\nE. coli\n(urine spread)\nP. aeruginosa\n(\nIVDA\n)\nRare:\nanaerobes\n,\nmycobacteria\n,\nfungi",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "98% of patients have at least one of the following risk-factors:\n[3]\nInjection\ndrug use\nImmunocompromised\nAlcohol use disorder\nCancer\nRecent spine procedure\nRecent spine fracture\nDistant site of infection\nIndwelling catheter\nChronic\nrenal failure\nDiabetes",
+          "tables": []
+        },
+        "Epidural_compression_syndromes": {
+          "text": "Syndromes\nSpinal cord injury\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nCauses\nSpinal cord injury\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nSyringomyelia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. epidermidis",
+          "url": "https://wikem.org/wiki/S._epidermidis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "P. aeruginosa",
+          "url": "https://wikem.org/wiki/P._aeruginosa"
+        },
+        {
+          "text": "IVDA",
+          "url": "https://wikem.org/wiki/IVDA"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "mycobacteria",
+          "url": "https://wikem.org/wiki/Mycobacterium"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "drug use",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Syringomyelia",
+          "url": "https://wikem.org/wiki/Syringomyelia"
+        }
+      ]
+    },
+    "Organisms": {
+      "text": "S. aureus\n(most common, 2/3 of cases)\nS. epidermidis\n(associated with device, instrumentation)\nE. coli\n(urine spread)\nP. aeruginosa\n(\nIVDA\n)\nRare:\nanaerobes\n,\nmycobacteria\n,\nfungi",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "98% of patients have at least one of the following risk-factors:\n[3]\nInjection\ndrug use\nImmunocompromised\nAlcohol use disorder\nCancer\nRecent spine procedure\nRecent spine fracture\nDistant site of infection\nIndwelling catheter\nChronic\nrenal failure\nDiabetes",
+          "tables": []
+        },
+        "Epidural_compression_syndromes": {
+          "text": "Syndromes\nSpinal cord injury\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nCauses\nSpinal cord injury\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nSyringomyelia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "S. epidermidis",
+          "url": "https://wikem.org/wiki/S._epidermidis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "P. aeruginosa",
+          "url": "https://wikem.org/wiki/P._aeruginosa"
+        },
+        {
+          "text": "IVDA",
+          "url": "https://wikem.org/wiki/IVDA"
+        },
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "mycobacteria",
+          "url": "https://wikem.org/wiki/Mycobacterium"
+        },
+        {
+          "text": "fungi",
+          "url": "https://wikem.org/wiki/Fungi"
+        },
+        {
+          "text": "drug use",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Syringomyelia",
+          "url": "https://wikem.org/wiki/Syringomyelia"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "98% of patients have at least one of the following risk-factors:\n[3]\nInjection\ndrug use\nImmunocompromised\nAlcohol use disorder\nCancer\nRecent spine procedure\nRecent spine fracture\nDistant site of infection\nIndwelling catheter\nChronic\nrenal failure\nDiabetes",
+      "subsections": {
+        "Epidural_compression_syndromes": {
+          "text": "Syndromes\nSpinal cord injury\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nCauses\nSpinal cord injury\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nSyringomyelia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "drug use",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Syringomyelia",
+          "url": "https://wikem.org/wiki/Syringomyelia"
+        }
+      ]
+    },
+    "Epidural_compression_syndromes": {
+      "text": "Syndromes\nSpinal cord injury\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nCauses\nSpinal cord injury\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nSyringomyelia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Syringomyelia",
+          "url": "https://wikem.org/wiki/Syringomyelia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\n+ localized\nback pain\nis epidural abscess until proven otherwise\nClassic triad of fever, back pain, and\nneuro deficits\nis rare (13%)\n[4]\nFever is only present in ~50% of cases",
+      "subsections": {
+        "Prevalence_of_Clinical_Findings_": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finding": "Fever (T>38°C)",
+                "Prevalence": "19-32%"
+              },
+              {
+                "Finding": "Focal spinal TTP",
+                "Prevalence": "52-62%"
+              },
+              {
+                "Finding": "Diffuse spinal TTP",
+                "Prevalence": "63-65%"
+              },
+              {
+                "Finding": "Positive SLR",
+                "Prevalence": "11-13%"
+              },
+              {
+                "Finding": "Abnormal sensation",
+                "Prevalence": "17-27%"
+              },
+              {
+                "Finding": "Weakness",
+                "Prevalence": "29-40%"
+              },
+              {
+                "Finding": "Abnormal reflexes",
+                "Prevalence": "8-17%"
+              },
+              {
+                "Finding": "Abnormal rectal tone",
+                "Prevalence": "5-10%"
+              },
+              {
+                "Finding": "Saddle anesthesia",
+                "Prevalence": "2%"
+              }
+            ]
+          ]
+        },
+        "Staging": {
+          "text": "Progression through stages is highly variable and may evolve rapidly.\nBack pain at affected site\nNerve root pain from affected level\nWeakness\n,\nsensory deficit\n,\nbladder\n/bowel dysfunction\nParalysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "neuro deficits",
+          "url": "https://wikem.org/wiki/Focal_neuro"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory deficit",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        }
+      ]
+    },
+    "Prevalence_of_Clinical_Findings_": {
+      "text": "",
+      "subsections": {
+        "Staging": {
+          "text": "Progression through stages is highly variable and may evolve rapidly.\nBack pain at affected site\nNerve root pain from affected level\nWeakness\n,\nsensory deficit\n,\nbladder\n/bowel dysfunction\nParalysis",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Finding": "Fever (T>38°C)",
+            "Prevalence": "19-32%"
+          },
+          {
+            "Finding": "Focal spinal TTP",
+            "Prevalence": "52-62%"
+          },
+          {
+            "Finding": "Diffuse spinal TTP",
+            "Prevalence": "63-65%"
+          },
+          {
+            "Finding": "Positive SLR",
+            "Prevalence": "11-13%"
+          },
+          {
+            "Finding": "Abnormal sensation",
+            "Prevalence": "17-27%"
+          },
+          {
+            "Finding": "Weakness",
+            "Prevalence": "29-40%"
+          },
+          {
+            "Finding": "Abnormal reflexes",
+            "Prevalence": "8-17%"
+          },
+          {
+            "Finding": "Abnormal rectal tone",
+            "Prevalence": "5-10%"
+          },
+          {
+            "Finding": "Saddle anesthesia",
+            "Prevalence": "2%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory deficit",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        }
+      ]
+    },
+    "Staging": {
+      "text": "Progression through stages is highly variable and may evolve rapidly.\nBack pain at affected site\nNerve root pain from affected level\nWeakness\n,\nsensory deficit\n,\nbladder\n/bowel dysfunction\nParalysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "sensory deficit",
+          "url": "https://wikem.org/wiki/Numbness"
+        },
+        {
+          "text": "bladder",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Spinal_infection": {
+          "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+          "tables": []
+        },
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Spinal_infection": {
+      "text": "Epidural Abscess (Spinal)\nDiscitis\nVertebral osteomyelitis",
+      "subsections": {
+        "Lower_Back_Pain": {
+          "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural Abscess (Spinal)",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Vertebral osteomyelitis",
+          "url": "https://wikem.org/wiki/Vertebral_osteomyelitis"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Lower_Back_Pain": {
+      "text": "Spine related\nAcute ligamentous injury\nAcute muscle strain\nDisk herniation (Sciatica)\nDegenerative joint disease\nSpondylolithesis\nEpidural compression syndromes\nSpinal cord compression (non-traumatic)\nCauda equina syndrome\nConus medullaris syndrome\nEpidural abscess (spinal)\nEpidural hematoma (spinal)\nThoracic and lumbar fractures and dislocations\nCancer metastasis\nSpinal stenosis\nTransverse myelitis\nVertebral\nosteomyelitis\nAnkylosing spondylitis\nSpondylolisthesis\nDiscitis\nSpinal Infarct\nRenal disease\nKidney stone\nPyelonephritis\nNephrolithiasis\nIntra-abdominal\nAbdominal aortic aneurysm\nUlcer\nperforation\nRetrocecal\nappendicitis\nLarge bowel obstruction\nPancreatitis\nPelvic disease\nPID\nOther\nRetroperitoneal hemorrhage\n/mass\nMeningitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Cauda equina syndrome",
+          "url": "https://wikem.org/wiki/Cauda_equina_syndrome"
+        },
+        {
+          "text": "Conus medullaris syndrome",
+          "url": "https://wikem.org/wiki/Conus_medullaris_syndrome"
+        },
+        {
+          "text": "Epidural hematoma (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_hematoma_(spinal)"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Spinal stenosis",
+          "url": "https://wikem.org/wiki/Spinal_stenosis"
+        },
+        {
+          "text": "Transverse myelitis",
+          "url": "https://wikem.org/wiki/Transverse_myelitis"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Discitis",
+          "url": "https://wikem.org/wiki/Discitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Ulcer",
+          "url": "https://wikem.org/wiki/Peptic_Ulcer_Disease"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Labs\n[7]\nWBC elevated\nin <45% of patients\nESR and CRP are almost consistently elevated\nSensitivity of ESR in pt with SEA risk factors ~100%\n[8]\nBlood cultures are indicated to identify the source organism (Staph in 2/3 of cases)\nCSF\n[9]\nGram stain typically negative\nCultures are positive in <25% of patients\nImaging\nStrongly consider imaging the entire spine to assess for non-contiguous epidural abscess\n[10]\nMRI\nwith gadolinium is the diagnostic test of choice\n[11]\nCT with IV contrast may provide usual information regarding bony integrity and fluid collections while awaiting MRI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "WBC elevated",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Mri"
+        }
+      ]
+    },
+    "Work-up": {
+      "text": "Labs\n[7]\nWBC elevated\nin <45% of patients\nESR and CRP are almost consistently elevated\nSensitivity of ESR in pt with SEA risk factors ~100%\n[8]\nBlood cultures are indicated to identify the source organism (Staph in 2/3 of cases)\nCSF\n[9]\nGram stain typically negative\nCultures are positive in <25% of patients\nImaging\nStrongly consider imaging the entire spine to assess for non-contiguous epidural abscess\n[10]\nMRI\nwith gadolinium is the diagnostic test of choice\n[11]\nCT with IV contrast may provide usual information regarding bony integrity and fluid collections while awaiting MRI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "WBC elevated",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Mri"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Early surgical decompression and drainage\n[12]\nAspiration (for diagnosis) and\nantibiotics\nmay be sufficient for patients without neuro deficits",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Target\nStaph\n,\nStrep\n, and\nGram-negative bacilli\n[13]\nVancomycin\n15-20mg/kg BID +\nmetronidazole\n500mg (7.5mg/kg) q6 hrs + (\nCefotaxime\nor\nCeftriaxone\nor\nCeftazidime\n)\nCeftazidime\nis preferred if\npseudomonas\nis considered likely\nCan substitute\nNafcillin\nor\nOxacillin\nfor\nVancomycin\nif not\nMRSA\nTreat for 6-8 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staphylococcus_Species"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep_Species"
+        },
+        {
+          "text": "Gram-negative bacilli",
+          "url": "https://wikem.org/wiki/Gram_Negatives"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Target\nStaph\n,\nStrep\n, and\nGram-negative bacilli\n[13]\nVancomycin\n15-20mg/kg BID +\nmetronidazole\n500mg (7.5mg/kg) q6 hrs + (\nCefotaxime\nor\nCeftriaxone\nor\nCeftazidime\n)\nCeftazidime\nis preferred if\npseudomonas\nis considered likely\nCan substitute\nNafcillin\nor\nOxacillin\nfor\nVancomycin\nif not\nMRSA\nTreat for 6-8 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staphylococcus_Species"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep_Species"
+        },
+        {
+          "text": "Gram-negative bacilli",
+          "url": "https://wikem.org/wiki/Gram_Negatives"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Nafcillin",
+          "url": "https://wikem.org/wiki/Nafcillin"
+        },
+        {
+          "text": "Oxacillin",
+          "url": "https://wikem.org/wiki/Oxacillin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Epidural abscess (intracranial)\nEpidural compression syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epidural abscess (intracranial)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(intracranial)"
+        },
+        {
+          "text": "Epidural compression syndromes",
+          "url": "https://wikem.org/wiki/Epidural_compression_syndromes"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Spinal Epidural Abscess",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
