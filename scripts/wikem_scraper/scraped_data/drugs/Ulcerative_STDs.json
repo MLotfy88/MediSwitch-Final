@@ -1,0 +1,145 @@
+{
+  "drug_name": "Ulcerative_STDs",
+  "url": "https://wikem.org/wiki/Ulcerative_STDs",
+  "scraped_at": "2026-01-10T08:04:29.173606",
+  "sections": {
+    "Types": {
+      "text": "Chancroid\nHerpes Simplex Virus-2\nSyphilis\nBehcet's Disease\nLymphogranuloma venereum\nGranuloma inguinale (donovanosis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Behcet's Disease",
+          "url": "https://wikem.org/wiki/Behcet%27s_Disease"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Granuloma inguinale (donovanosis)",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        }
+      ]
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "STD_Visual_Diagnosis_(Male)": {
+          "text": "Chancroid\nHSV\nPrimary\nSyphilis\nPainless genital ulcer from\nlymphogranuloma venereum\nInguinal femoral lymphadenopathy (bilateral) from\nlymphogranuloma venereum",
+          "tables": []
+        },
+        "STD_Visual_Diagnosis_(Female)": {
+          "text": "Chancroid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        }
+      ]
+    },
+    "Male": {
+      "text": "",
+      "subsections": {
+        "STD_Visual_Diagnosis_(Male)": {
+          "text": "Chancroid\nHSV\nPrimary\nSyphilis\nPainless genital ulcer from\nlymphogranuloma venereum\nInguinal femoral lymphadenopathy (bilateral) from\nlymphogranuloma venereum",
+          "tables": []
+        },
+        "STD_Visual_Diagnosis_(Female)": {
+          "text": "Chancroid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        }
+      ]
+    },
+    "Female": {
+      "text": "",
+      "subsections": {
+        "STD_Visual_Diagnosis_(Female)": {
+          "text": "Chancroid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sexually Transmitted Diseases (STD)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually Transmitted Diseases (STD)",
+          "url": "https://wikem.org/wiki/Sexually_Transmitted_Diseases_(STD)"
+        }
+      ]
+    }
+  }
+}

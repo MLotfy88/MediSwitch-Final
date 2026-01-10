@@ -1,0 +1,707 @@
+{
+  "drug_name": "Tuberculosis",
+  "url": "https://wikem.org/wiki/Tuberculosis",
+  "scraped_at": "2026-01-10T08:04:22.757089",
+  "sections": {
+    "Background": {
+      "text": "Over 1/3 of world's population is infected",
+      "subsections": {
+        "Infection_Types": {
+          "text": "Primary Infection\nUsually contained by body via formation of tubercles\nHematogenous spread limited to areas with high O2 or blood flow (apical lung, vertebrae)\nPPD positive\nReactivation Infection\nMore common in immunocompromised patients (AIDS, malignancy, DM, immunosupressive medications)\nMiliary Tuberculosis\nDisseminated tuberculosis\nLooks like millet seeds\nSeen in patients with comorbid AIDS\nCheck\nHIV\nin patients suspected of TB\nPPD is positive in only 50% of cases",
+          "tables": []
+        },
+        "Special_Populations": {
+          "text": "AIDS\nTB is 200-500x more common in AIDS population than general population\nCD4 count\nIncreased risk when <500\nDetermines the clinical and radiographic presentations of TB\nPediatric\nMore likely to progress early to active disease\nPresentation more commonly that of primary TB\n>5yr - classic symptoms\n<5yr - miliary TB,\nmeningitis\n,\ncervical lymphadenitis\n,\npneumonia\nthat does not respond to usual antibiotics\nChildren are usually not infectious due to their weak cough",
+          "tables": []
+        },
+        "Tuberculin_Skin_Test": {
+          "text": "Used for population screening, but not for rule-out in patients with concern for active disease\nReaction considered positive in following situations:\n>5 mm\nHIV\npositive\nClose contact with active TB patient\nNodular or fibrotic changes on CXR\nImmunosuppressed (TNF-alpha inhibitor, chemo, organ transplant)\n>10 mm\nChildren < 4 yrs old\nHealthcare/lab/prison employees and residents\nCo-morbid conditions (dialysis, DM, blood/head/neck/lung malignancy, IV drug users)\nPeople from high prevalence areas\n>15 mm\nPersons with no known risk factors for TB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "cervical lymphadenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Infection_Types": {
+      "text": "Primary Infection\nUsually contained by body via formation of tubercles\nHematogenous spread limited to areas with high O2 or blood flow (apical lung, vertebrae)\nPPD positive\nReactivation Infection\nMore common in immunocompromised patients (AIDS, malignancy, DM, immunosupressive medications)\nMiliary Tuberculosis\nDisseminated tuberculosis\nLooks like millet seeds\nSeen in patients with comorbid AIDS\nCheck\nHIV\nin patients suspected of TB\nPPD is positive in only 50% of cases",
+      "subsections": {
+        "Special_Populations": {
+          "text": "AIDS\nTB is 200-500x more common in AIDS population than general population\nCD4 count\nIncreased risk when <500\nDetermines the clinical and radiographic presentations of TB\nPediatric\nMore likely to progress early to active disease\nPresentation more commonly that of primary TB\n>5yr - classic symptoms\n<5yr - miliary TB,\nmeningitis\n,\ncervical lymphadenitis\n,\npneumonia\nthat does not respond to usual antibiotics\nChildren are usually not infectious due to their weak cough",
+          "tables": []
+        },
+        "Tuberculin_Skin_Test": {
+          "text": "Used for population screening, but not for rule-out in patients with concern for active disease\nReaction considered positive in following situations:\n>5 mm\nHIV\npositive\nClose contact with active TB patient\nNodular or fibrotic changes on CXR\nImmunosuppressed (TNF-alpha inhibitor, chemo, organ transplant)\n>10 mm\nChildren < 4 yrs old\nHealthcare/lab/prison employees and residents\nCo-morbid conditions (dialysis, DM, blood/head/neck/lung malignancy, IV drug users)\nPeople from high prevalence areas\n>15 mm\nPersons with no known risk factors for TB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "cervical lymphadenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "AIDS\nTB is 200-500x more common in AIDS population than general population\nCD4 count\nIncreased risk when <500\nDetermines the clinical and radiographic presentations of TB\nPediatric\nMore likely to progress early to active disease\nPresentation more commonly that of primary TB\n>5yr - classic symptoms\n<5yr - miliary TB,\nmeningitis\n,\ncervical lymphadenitis\n,\npneumonia\nthat does not respond to usual antibiotics\nChildren are usually not infectious due to their weak cough",
+      "subsections": {
+        "Tuberculin_Skin_Test": {
+          "text": "Used for population screening, but not for rule-out in patients with concern for active disease\nReaction considered positive in following situations:\n>5 mm\nHIV\npositive\nClose contact with active TB patient\nNodular or fibrotic changes on CXR\nImmunosuppressed (TNF-alpha inhibitor, chemo, organ transplant)\n>10 mm\nChildren < 4 yrs old\nHealthcare/lab/prison employees and residents\nCo-morbid conditions (dialysis, DM, blood/head/neck/lung malignancy, IV drug users)\nPeople from high prevalence areas\n>15 mm\nPersons with no known risk factors for TB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "cervical lymphadenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Tuberculin_Skin_Test": {
+      "text": "Used for population screening, but not for rule-out in patients with concern for active disease\nReaction considered positive in following situations:\n>5 mm\nHIV\npositive\nClose contact with active TB patient\nNodular or fibrotic changes on CXR\nImmunosuppressed (TNF-alpha inhibitor, chemo, organ transplant)\n>10 mm\nChildren < 4 yrs old\nHealthcare/lab/prison employees and residents\nCo-morbid conditions (dialysis, DM, blood/head/neck/lung malignancy, IV drug users)\nPeople from high prevalence areas\n>15 mm\nPersons with no known risk factors for TB",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Primary_Tuberculosis": {
+          "text": "Usually asymptomatic (only identified by positive PPD/quantiferon gold)\nMay be rapidly progressive and fatal in immunocompromised patients\nFever\n, malaise, weight loss,\nchest pain\nTuberculous\npleural effusion\nmay occur if subpleural node ruptures into the pleura\nPleuritic\nchest pain\nExudative fluid\nOrganisms may not be visible on acid-fast staining (need pleural biopsy)",
+          "tables": []
+        },
+        "Reactivation_Tuberculosis": {
+          "text": "Pulmonary: Productive\ncough\n,\nhemoptysis\n,\ndyspnea\n, pleuritic\nchest pain\nSystemic:\nFever\n, night sweats, malaise, fatigue, weight loss\nExtrapulmonary\nPainless lymphadenopathy/\nscrofula\n(most common extrapulmonary manifestation)\nPericarditis\nPeritonitis\nMeningitis\nAdrenal insufficiency\nIf adrenals affected, TB typically spreads to bilateral adrenals rather than unilateral\nThink about in the patient presenting in shock with TB risk factors\nArthritis\nOsteomyelitis\nPott's disease, usually in thoracic spine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "scrofula",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        }
+      ]
+    },
+    "Primary_Tuberculosis": {
+      "text": "Usually asymptomatic (only identified by positive PPD/quantiferon gold)\nMay be rapidly progressive and fatal in immunocompromised patients\nFever\n, malaise, weight loss,\nchest pain\nTuberculous\npleural effusion\nmay occur if subpleural node ruptures into the pleura\nPleuritic\nchest pain\nExudative fluid\nOrganisms may not be visible on acid-fast staining (need pleural biopsy)",
+      "subsections": {
+        "Reactivation_Tuberculosis": {
+          "text": "Pulmonary: Productive\ncough\n,\nhemoptysis\n,\ndyspnea\n, pleuritic\nchest pain\nSystemic:\nFever\n, night sweats, malaise, fatigue, weight loss\nExtrapulmonary\nPainless lymphadenopathy/\nscrofula\n(most common extrapulmonary manifestation)\nPericarditis\nPeritonitis\nMeningitis\nAdrenal insufficiency\nIf adrenals affected, TB typically spreads to bilateral adrenals rather than unilateral\nThink about in the patient presenting in shock with TB risk factors\nArthritis\nOsteomyelitis\nPott's disease, usually in thoracic spine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "scrofula",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        }
+      ]
+    },
+    "Reactivation_Tuberculosis": {
+      "text": "Pulmonary: Productive\ncough\n,\nhemoptysis\n,\ndyspnea\n, pleuritic\nchest pain\nSystemic:\nFever\n, night sweats, malaise, fatigue, weight loss\nExtrapulmonary\nPainless lymphadenopathy/\nscrofula\n(most common extrapulmonary manifestation)\nPericarditis\nPeritonitis\nMeningitis\nAdrenal insufficiency\nIf adrenals affected, TB typically spreads to bilateral adrenals rather than unilateral\nThink about in the patient presenting in shock with TB risk factors\nArthritis\nOsteomyelitis\nPott's disease, usually in thoracic spine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "scrofula",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "CXR": {
+          "text": "Primary infection\nInfiltrates in any area of the lung\nIsolated hilar or mediastinal adenopathy may be only finding\nReactivation infection\ncavitary/noncavitary lesions in upper lobe or superior segment of lower lobe\nLatent infection\nUpper lobe or hilar nodules and fibrotic lesions\nGhon foci, areas of scarring, calcification\nMiliary TB\nLooks like millet seeds on CXR\nImmunocompromised patients less likely to have classic lesions and may have normal CXR",
+          "tables": []
+        },
+        "PCR_Sputum_Assay": {
+          "text": "Rapidly detects TB in sputum specimens (as well as\nrifampin\nresistance)\nUse to rule-out patients for active TB\nNeed two sputum specimens (expectorated or induced) at least 8 hours apart (including at least one early morning specimen)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "CXR": {
+      "text": "Primary infection\nInfiltrates in any area of the lung\nIsolated hilar or mediastinal adenopathy may be only finding\nReactivation infection\ncavitary/noncavitary lesions in upper lobe or superior segment of lower lobe\nLatent infection\nUpper lobe or hilar nodules and fibrotic lesions\nGhon foci, areas of scarring, calcification\nMiliary TB\nLooks like millet seeds on CXR\nImmunocompromised patients less likely to have classic lesions and may have normal CXR",
+      "subsections": {
+        "PCR_Sputum_Assay": {
+          "text": "Rapidly detects TB in sputum specimens (as well as\nrifampin\nresistance)\nUse to rule-out patients for active TB\nNeed two sputum specimens (expectorated or induced) at least 8 hours apart (including at least one early morning specimen)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "PCR_Sputum_Assay": {
+      "text": "Rapidly detects TB in sputum specimens (as well as\nrifampin\nresistance)\nUse to rule-out patients for active TB\nNeed two sputum specimens (expectorated or induced) at least 8 hours apart (including at least one early morning specimen)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Active_TB": {
+          "text": "Isoniazid\n+\nrifampin\n+\npyrazinamide\n+\nethambutol\nx 8wk followed by INH/rifampin x18wk\n2 drug continuation treatment x 18-31wk\nUse of\npyrazinamide\nin pregnancy is controversial and typically reserved for women with MDR TB\n[2]",
+          "tables": []
+        },
+        "Latent_TB": {
+          "text": "Isoniazid x 9 months\nConsider treatment for:\nRecent conversion to PPD-positive\nclose contact with active TB\nimmunocompromised patients (or plan to start immunosuppressive medications)\nNew vaccine has demonstrated effectiveness (50%) in preventing progression to active TB\n[3]\n. However, this is not yet widely available and further research is needed.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "ethambutol",
+          "url": "https://wikem.org/wiki/Ethambutol"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        }
+      ]
+    },
+    "Active_TB": {
+      "text": "Isoniazid\n+\nrifampin\n+\npyrazinamide\n+\nethambutol\nx 8wk followed by INH/rifampin x18wk\n2 drug continuation treatment x 18-31wk\nUse of\npyrazinamide\nin pregnancy is controversial and typically reserved for women with MDR TB\n[2]",
+      "subsections": {
+        "Latent_TB": {
+          "text": "Isoniazid x 9 months\nConsider treatment for:\nRecent conversion to PPD-positive\nclose contact with active TB\nimmunocompromised patients (or plan to start immunosuppressive medications)\nNew vaccine has demonstrated effectiveness (50%) in preventing progression to active TB\n[3]\n. However, this is not yet widely available and further research is needed.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        },
+        {
+          "text": "ethambutol",
+          "url": "https://wikem.org/wiki/Ethambutol"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        }
+      ]
+    },
+    "Latent_TB": {
+      "text": "Isoniazid x 9 months\nConsider treatment for:\nRecent conversion to PPD-positive\nclose contact with active TB\nimmunocompromised patients (or plan to start immunosuppressive medications)\nNew vaccine has demonstrated effectiveness (50%) in preventing progression to active TB\n[3]\n. However, this is not yet widely available and further research is needed.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Otherwise healthy\nContact public health services before discharge\nInstructions for home isolation and follow up at appropriate clinic to receive meds\nDo not start TB meds in ED unless specifically instructed by public health",
+          "tables": []
+        },
+        "Admit": {
+          "text": "Ill-appearing\nDiagnosis is uncertain\nPatient is treatment non-adherent",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Otherwise healthy\nContact public health services before discharge\nInstructions for home isolation and follow up at appropriate clinic to receive meds\nDo not start TB meds in ED unless specifically instructed by public health",
+      "subsections": {
+        "Admit": {
+          "text": "Ill-appearing\nDiagnosis is uncertain\nPatient is treatment non-adherent",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Ill-appearing\nDiagnosis is uncertain\nPatient is treatment non-adherent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "https://www.cdc.gov/tb/default.htm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

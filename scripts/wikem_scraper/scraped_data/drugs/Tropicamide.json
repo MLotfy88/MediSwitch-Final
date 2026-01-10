@@ -1,0 +1,100 @@
+{
+  "drug_name": "Tropicamide",
+  "url": "https://wikem.org/wiki/Tropicamide",
+  "scraped_at": "2026-01-10T08:04:23.151565",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nCycloplegic\n,\nanticholinergic\nDosage Forms:\nRoutes of Administration: opthalmic\nCommon Trade Names: Mydriacyl",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cycloplegic",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        },
+        {
+          "text": "anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "1 to 2 drops of 0.5% or 1% solution, may repeat in 5m",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing\nHepatic dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPrimary glaucoma or a tendency toward glaucoma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Central nervous system complication\nRaised IOP\nPhotophobia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Blurred vision\nBurning sensation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Central nervous system complication\nRaised IOP\nPhotophobia",
+      "subsections": {
+        "Common": {
+          "text": "Blurred vision\nBurning sensation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Blurred vision\nBurning sensation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Anticholinergic: blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to stimulation by acetylcholine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cycloplegic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cycloplegic",
+          "url": "https://wikem.org/wiki/Cycloplegic"
+        }
+      ]
+    }
+  }
+}

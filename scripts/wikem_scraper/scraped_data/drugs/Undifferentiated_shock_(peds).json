@@ -1,0 +1,990 @@
+{
+  "drug_name": "Undifferentiated_shock_(peds)",
+  "url": "https://wikem.org/wiki/Undifferentiated_shock_(peds)",
+  "scraped_at": "2026-01-10T08:04:29.715466",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nundifferentiated shock\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Important physiologic differences between pediatric and adult patients",
+      "subsections": {
+        "Intravascular_volume": {
+          "text": "Newborns: larger total body water compared to adults (75% vs. 60%) with the majority of it being in the extracellular fluid (ECF) (~40% vs. 25%)\nPercentage of ECF decreases throughout childhood\nLarge surface area to weight ratio --> younger kids may have more fluid losses from ECF and intravascular space with short illness/environmental exposure decreased preload\nMay present profoundly volume depleted and need more aggressive volume repletion",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Infants have immature myocardial calcium regulation system, difficulty storing/releasing calcium highly dependent on extracellular calcium for contractility\nCheck iCal, replete calcium earlier, do NOT give\nCCBs\nto infants with tachydysrhythmias\nStiffer, less compliant myocardium in infants-->increasing heart rate is main compensatory means for increasing BP\nBUT higher resting heart rate--> less room to go up (e.g. adult with resting heart rate of 60 can double to 120 but a neonate doubling resting heart rate of 120 to 240 is not sustainable)\nHeavily rely on vasoconstriction, which can further decrease cardiac output\nLess beta-adrenergic receptors/sympathetic innervations + more dominant parasympathetics --> exaggerated vagal response\nHypotension is a ‘’’late’’’ finding in shock!",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CCBs",
+          "url": "https://wikem.org/wiki/CCBs"
+        }
+      ]
+    },
+    "Intravascular_volume": {
+      "text": "Newborns: larger total body water compared to adults (75% vs. 60%) with the majority of it being in the extracellular fluid (ECF) (~40% vs. 25%)\nPercentage of ECF decreases throughout childhood\nLarge surface area to weight ratio --> younger kids may have more fluid losses from ECF and intravascular space with short illness/environmental exposure decreased preload\nMay present profoundly volume depleted and need more aggressive volume repletion",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Infants have immature myocardial calcium regulation system, difficulty storing/releasing calcium highly dependent on extracellular calcium for contractility\nCheck iCal, replete calcium earlier, do NOT give\nCCBs\nto infants with tachydysrhythmias\nStiffer, less compliant myocardium in infants-->increasing heart rate is main compensatory means for increasing BP\nBUT higher resting heart rate--> less room to go up (e.g. adult with resting heart rate of 60 can double to 120 but a neonate doubling resting heart rate of 120 to 240 is not sustainable)\nHeavily rely on vasoconstriction, which can further decrease cardiac output\nLess beta-adrenergic receptors/sympathetic innervations + more dominant parasympathetics --> exaggerated vagal response\nHypotension is a ‘’’late’’’ finding in shock!",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CCBs",
+          "url": "https://wikem.org/wiki/CCBs"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Infants have immature myocardial calcium regulation system, difficulty storing/releasing calcium highly dependent on extracellular calcium for contractility\nCheck iCal, replete calcium earlier, do NOT give\nCCBs\nto infants with tachydysrhythmias\nStiffer, less compliant myocardium in infants-->increasing heart rate is main compensatory means for increasing BP\nBUT higher resting heart rate--> less room to go up (e.g. adult with resting heart rate of 60 can double to 120 but a neonate doubling resting heart rate of 120 to 240 is not sustainable)\nHeavily rely on vasoconstriction, which can further decrease cardiac output\nLess beta-adrenergic receptors/sympathetic innervations + more dominant parasympathetics --> exaggerated vagal response\nHypotension is a ‘’’late’’’ finding in shock!",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CCBs",
+          "url": "https://wikem.org/wiki/CCBs"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs/symptoms of underlying pathology",
+      "subsections": {
+        "Cold_shock": {
+          "text": "More common in children than in adults\nPoor cardiac output due to decreased stroke volume-->\ntachycardia\nto compensate\nPoor peripheral perfusion, increased SVR (vasoconstriction) to compensate-->\nSkin cold to touch\nDiminished pulses\nMottled skin\nCap refill >2s\nNarrow pulse pressure, eventually\nhypotension\nSigns and symptoms of end organ damage as blood shunted to vital organs\nAMS\n, tachypnea,\nnausea/vomiting\n,\nAKI\n,\nlactic acidosis",
+          "tables": []
+        },
+        "Warm_shock": {
+          "text": "Hyperdynamic state, with vasodilation and low SVR\nResults in end organ damage due to shunting of blood away from vital organs to periphery\nFindings thus include:\nTachycardia\nWide pulse pressure\nBounding peripheral pulses\nBrisk cap refill",
+          "tables": []
+        },
+        "Shock_index": {
+          "text": "Shock Index Pediatric-Adjusted (SIPA)- see\nhttps://www.mdcalc.com/shock-index-pediatric-age-adjusted-sipa\nUseful in identifying shock in trauma patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "Cold_shock": {
+      "text": "More common in children than in adults\nPoor cardiac output due to decreased stroke volume-->\ntachycardia\nto compensate\nPoor peripheral perfusion, increased SVR (vasoconstriction) to compensate-->\nSkin cold to touch\nDiminished pulses\nMottled skin\nCap refill >2s\nNarrow pulse pressure, eventually\nhypotension\nSigns and symptoms of end organ damage as blood shunted to vital organs\nAMS\n, tachypnea,\nnausea/vomiting\n,\nAKI\n,\nlactic acidosis",
+      "subsections": {
+        "Warm_shock": {
+          "text": "Hyperdynamic state, with vasodilation and low SVR\nResults in end organ damage due to shunting of blood away from vital organs to periphery\nFindings thus include:\nTachycardia\nWide pulse pressure\nBounding peripheral pulses\nBrisk cap refill",
+          "tables": []
+        },
+        "Shock_index": {
+          "text": "Shock Index Pediatric-Adjusted (SIPA)- see\nhttps://www.mdcalc.com/shock-index-pediatric-age-adjusted-sipa\nUseful in identifying shock in trauma patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "Warm_shock": {
+      "text": "Hyperdynamic state, with vasodilation and low SVR\nResults in end organ damage due to shunting of blood away from vital organs to periphery\nFindings thus include:\nTachycardia\nWide pulse pressure\nBounding peripheral pulses\nBrisk cap refill",
+      "subsections": {
+        "Shock_index": {
+          "text": "Shock Index Pediatric-Adjusted (SIPA)- see\nhttps://www.mdcalc.com/shock-index-pediatric-age-adjusted-sipa\nUseful in identifying shock in trauma patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Shock_index": {
+      "text": "Shock Index Pediatric-Adjusted (SIPA)- see\nhttps://www.mdcalc.com/shock-index-pediatric-age-adjusted-sipa\nUseful in identifying shock in trauma patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Hypovolemia\nMore common and more profound in peds\nhemorrhage\n,\ndehydration\n(from\nnausea/vomiting\n, insensible losses due to\nheat illness\n_)\nCardiogenic\nCongenital heart disease\n,\nCHF\nMyocarditis\nDysrhythmias\nObstructive\nPTX\n,\nPE\n,\ntamponade\nDistributive\nsepsis\nAnaphylaxis\nAdrenal insufficiency\nLiver failure\nNeurogenic shock",
+      "subsections": {
+        "Sick_Neonate": {
+          "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "heat illness",
+          "url": "https://wikem.org/wiki/Heat_illness"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "PTX",
+          "url": "https://wikem.org/wiki/PTX"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Sick_Neonate": {
+      "text": "THE MISFITS\n[1]\nTrauma\nHeart\nCongenital heart disease\nHypovolemia\nEndocrine\nhypoglycemia\nHypothyroidism\nCongenital adrenal hyperplasia\nMetabolic\nSodium\nCalcium\nGlucose\nInborn errors of metabolism\nSeizure\nFormula / feeding problems\nHyponatremia\nHypocalcemia\nFPIES\n/\nFood protein-induced enterocolitis syndrome\nIntestinal Disasters\nDuodenal atresia\nMidgut volvulus\nNecrotizing enterocolitis\nIntussusception\nToxin\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma_(Peds)"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(Neonatal)"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "FPIES",
+          "url": "https://wikem.org/wiki/FPIES"
+        },
+        {
+          "text": "Food protein-induced enterocolitis syndrome",
+          "url": "https://wikem.org/wiki/Food_protein-induced_enterocolitis_syndrome"
+        },
+        {
+          "text": "Duodenal atresia",
+          "url": "https://wikem.org/wiki/Duodenal_atresia"
+        },
+        {
+          "text": "Midgut volvulus",
+          "url": "https://wikem.org/wiki/Volvulus_(peds)"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "Toxin",
+          "url": "https://wikem.org/wiki/Toxin"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Rapid IV access\nIO if unable to obtain in <1min\nAggressive\nIVF\nRemember hypovolemia may be more profound in peds\n40-60mL/kg NS or lactated ringers rapid bolus (e.g push-pull)\nVasopressors\nif remains hypotensive OR with poor perfusion (e.g. cool, poor cap refill) after volume resuscitation\nCold shock:\nepinephrine\n0.05mcg/kg/min starting dose\nCan be safely given through good peripheral IV\n[2]\nWarm shock:\nnorepinephrine\n0.05mcg/kg/min to start\nEmpiric antibiotics for\nsepsis\nNeonatal:\nAmpicillin\n50mg/kg q8h +\ngentamicin\n2.5mg/kg q24h +\nacyclovir\nPeds: *Extended-spectrum penicillin (e.g.\npiperacillin-tazobactam\n) ±\naminoglycoside\n±\nvancomycin\nOR\n3rd or 4th generation\ncephalosporin\n±\naminoglycoside\n±\nvancomycin\nOR\nCarbapenem\n±\naminoglycoside\n±\nvancomycin\nConsider\ncorticosteroids\nif volume non-responsive\nTreat underlying condition!\nTreat\nhypoglycemia\nTreat\nhypocalcemia\n, consider giving empiric calcium as inotrope\nIf suspect ductal-dependant\ncongenital heart disease\n:\nPGE1\n0.1mcg/kg/min IV/IO\nNS\n10cc/kg\nDobutamine",
+      "subsections": {
+        "Vasopressors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Pressor": "Dobutamine",
+                "Initial Dose": "3-5 mcg/kg/min",
+                "Max Dose": "5-15 mcg/kg/min (as high as 200)[3]",
+                "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+                "BP Effect": "alpha effect minimal",
+                "Arrhythmias": "HR variable effects.",
+                "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[4]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+              },
+              {
+                "Pressor": "Dopamine",
+                "Initial Dose": "2 mcg/kg/min",
+                "Max Dose": "20-50 mcg/kg/min",
+                "Cardiac Effect": "β1 and NorEpi release",
+                "BP Effect": "α effects if > 20mcg/kg/min",
+                "Arrhythmias": "Arrhythmogenic from β1 effects",
+                "Special Notes": "More adverse events when used in shock compared to Norepi[5]"
+              },
+              {
+                "Pressor": "Epinepherine",
+                "Initial Dose": "0.1-1 mcg/kg/min",
+                "Max Dose": "",
+                "Cardiac Effect": "+ inotropy, + chronotropy",
+                "BP Effect": "",
+                "Arrhythmias": "",
+                "Special Notes": ""
+              },
+              {
+                "Pressor": "Norepinephrine",
+                "Initial Dose": "0.2 mcg/kg/min",
+                "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[6]",
+                "Cardiac Effect": "mild β1 direct effect",
+                "BP Effect": "β1 and strong α1,2 effects",
+                "Arrhythmias": "Less arrhythmias than Dopamine[5]",
+                "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+              },
+              {
+                "Pressor": "Milrinone",
+                "Initial Dose": "50 mcg/kg x 10 min",
+                "Max Dose": "0.375-75 mcg/kg/min",
+                "Cardiac Effect": "Direct influx of Ca2+channels",
+                "BP Effect": "Smooth muscle vasodilator",
+                "Arrhythmias": "",
+                "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+              },
+              {
+                "Pressor": "Phenylephrine",
+                "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+                "Max Dose": "0.4-9 mcg/kg/min",
+                "Cardiac Effect": "",
+                "BP Effect": "Alpha agonist",
+                "Arrhythmias": "",
+                "Special Notes": "Long half life"
+              },
+              {
+                "Pressor": "Vasopressin",
+                "Initial Dose": "Fixed Dose",
+                "Max Dose": "0.01 to 0.04 U/min",
+                "Cardiac Effect": "unknown",
+                "BP Effect": "increases via ADH peptide",
+                "Arrhythmias": "",
+                "Special Notes": "should not be titrated due to ischemic effects"
+              },
+              {
+                "Pressor": "Methylene blue[7]",
+                "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+                "Max Dose": "1-2 mg/kg/hour",
+                "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+                "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+                "Arrhythmias": "",
+                "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+              }
+            ],
+            [
+              {
+                "Medication": "Norepinephrine(Levophed)",
+                "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+                "Concentration": "8mg in 500mL D5W"
+              },
+              {
+                "Medication": "Dopamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "400mg in 250 D5W"
+              },
+              {
+                "Medication": "Dobutamine",
+                "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+                "Concentration": "250mg in 250 mg D5W"
+              },
+              {
+                "Medication": "Epinephrine",
+                "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+                "Concentration": "1mg in 250 D5W"
+              }
+            ]
+          ]
+        },
+        "Causes_of_non-response_to_vasopressors": {
+          "text": "Acidosis\nDx: Blood gas, BMP\nTx: treat underlying cause, consider bicarbonate gtt\nHypothyroidism\nDx: Clinical, TSH\nTx:\nlevothyroxine\nAnaphylaxis\nDx: History\nTx:\nEpinephrine\n,\nmethylene blue\n, ECMO\nAdrenal insufficiency\nDx: Clinical, cortisol level,\nhyperkalemia\n+\nhyponatremia\nTx:\nHydrocortisone\n100-200mg\nHypocalcemia\nDx: ionized calcium,\nprolonged QTc\nTx:\nCalcium chloride\nor\ncalcium gluconate\nOccult bleeding\nDx: Clinical (consider\nGI bleed\nand retroperitoneal hematoma)\nTx: Transfusion, treat coagulopathy, surgery/IR interventions\nToxicologic\nDx: Clinical (consider\nbeta blocker toxicity\n,\ncalcium channel blocker toxicity\n,\nTCA overdose\n, etc)\nTx: Depends on etiology (glucagon, hyperinsulin euglycemia therapy, sodium bicarbonate, ECMO, etc)\n2nd cause of shock\nDx: Clinical, consider\nRUSH exam\nTx: Address underlying cause",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        },
+        {
+          "text": "aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "PGE1",
+          "url": "https://wikem.org/wiki/PGE1"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "prolonged QTc",
+          "url": "https://wikem.org/wiki/Prolonged_QTc"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Occult bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "TCA overdose",
+          "url": "https://wikem.org/wiki/TCA_overdose"
+        },
+        {
+          "text": "RUSH exam",
+          "url": "https://wikem.org/wiki/RUSH_exam"
+        }
+      ]
+    },
+    "Vasopressors": {
+      "text": "",
+      "subsections": {
+        "Causes_of_non-response_to_vasopressors": {
+          "text": "Acidosis\nDx: Blood gas, BMP\nTx: treat underlying cause, consider bicarbonate gtt\nHypothyroidism\nDx: Clinical, TSH\nTx:\nlevothyroxine\nAnaphylaxis\nDx: History\nTx:\nEpinephrine\n,\nmethylene blue\n, ECMO\nAdrenal insufficiency\nDx: Clinical, cortisol level,\nhyperkalemia\n+\nhyponatremia\nTx:\nHydrocortisone\n100-200mg\nHypocalcemia\nDx: ionized calcium,\nprolonged QTc\nTx:\nCalcium chloride\nor\ncalcium gluconate\nOccult bleeding\nDx: Clinical (consider\nGI bleed\nand retroperitoneal hematoma)\nTx: Transfusion, treat coagulopathy, surgery/IR interventions\nToxicologic\nDx: Clinical (consider\nbeta blocker toxicity\n,\ncalcium channel blocker toxicity\n,\nTCA overdose\n, etc)\nTx: Depends on etiology (glucagon, hyperinsulin euglycemia therapy, sodium bicarbonate, ECMO, etc)\n2nd cause of shock\nDx: Clinical, consider\nRUSH exam\nTx: Address underlying cause",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Pressor": "Dobutamine",
+            "Initial Dose": "3-5 mcg/kg/min",
+            "Max Dose": "5-15 mcg/kg/min (as high as 200)[3]",
+            "Cardiac Effect": "Strong ß1 agonist +inotrope +chronotrope, Weak ß2 agonist +weak vasodilatation )",
+            "BP Effect": "alpha effect minimal",
+            "Arrhythmias": "HR variable effects.",
+            "Special Notes": "indicated in decompensated systolic HF, Debut Research 1979[4]Isoproterenol has most Β2 vasodilatory and Β1 HR effects"
+          },
+          {
+            "Pressor": "Dopamine",
+            "Initial Dose": "2 mcg/kg/min",
+            "Max Dose": "20-50 mcg/kg/min",
+            "Cardiac Effect": "β1 and NorEpi release",
+            "BP Effect": "α effects if > 20mcg/kg/min",
+            "Arrhythmias": "Arrhythmogenic from β1 effects",
+            "Special Notes": "More adverse events when used in shock compared to Norepi[5]"
+          },
+          {
+            "Pressor": "Epinepherine",
+            "Initial Dose": "0.1-1 mcg/kg/min",
+            "Max Dose": "",
+            "Cardiac Effect": "+ inotropy, + chronotropy",
+            "BP Effect": "",
+            "Arrhythmias": "",
+            "Special Notes": ""
+          },
+          {
+            "Pressor": "Norepinephrine",
+            "Initial Dose": "0.2 mcg/kg/min",
+            "Max Dose": "0.2-1.3 mcg/kg/min (5mcg/kg/min)[6]",
+            "Cardiac Effect": "mild β1 direct effect",
+            "BP Effect": "β1 and strong α1,2 effects",
+            "Arrhythmias": "Less arrhythmias than Dopamine[5]",
+            "Special Notes": "First line for sepsis. Increases MAP with vasoconstriction, increases coronary perfusion pressure, little β2 effects."
+          },
+          {
+            "Pressor": "Milrinone",
+            "Initial Dose": "50 mcg/kg x 10 min",
+            "Max Dose": "0.375-75 mcg/kg/min",
+            "Cardiac Effect": "Direct influx of Ca2+channels",
+            "BP Effect": "Smooth muscle vasodilator",
+            "Arrhythmias": "",
+            "Special Notes": "PDE Inhibitor which increases Ca2+uptake by sarcolemma.  No venodilatory activity"
+          },
+          {
+            "Pressor": "Phenylephrine",
+            "Initial Dose": "100-180 mcg/min then 40-60 mcg/min",
+            "Max Dose": "0.4-9 mcg/kg/min",
+            "Cardiac Effect": "",
+            "BP Effect": "Alpha agonist",
+            "Arrhythmias": "",
+            "Special Notes": "Long half life"
+          },
+          {
+            "Pressor": "Vasopressin",
+            "Initial Dose": "Fixed Dose",
+            "Max Dose": "0.01 to 0.04 U/min",
+            "Cardiac Effect": "unknown",
+            "BP Effect": "increases via ADH peptide",
+            "Arrhythmias": "",
+            "Special Notes": "should not be titrated due to ischemic effects"
+          },
+          {
+            "Pressor": "Methylene blue[7]",
+            "Initial Dose": "IV bolus 2 mg/kg over 15 min",
+            "Max Dose": "1-2 mg/kg/hour",
+            "Cardiac Effect": "Possible increased inotropy, cardiac use of ATP",
+            "BP Effect": "Inhibits NO mediated peripheral vasodilation",
+            "Arrhythmias": "",
+            "Special Notes": "Don't use inG6PD deficiency,ARDS,pulmonary hypertension"
+          }
+        ],
+        [
+          {
+            "Medication": "Norepinephrine(Levophed)",
+            "IV Dose (mcg/kg/min)": "0.1-2 mcg/kg/min",
+            "Concentration": "8mg in 500mL D5W"
+          },
+          {
+            "Medication": "Dopamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "400mg in 250 D5W"
+          },
+          {
+            "Medication": "Dobutamine",
+            "IV Dose (mcg/kg/min)": "2-20 mcg/kg/min",
+            "Concentration": "250mg in 250 mg D5W"
+          },
+          {
+            "Medication": "Epinephrine",
+            "IV Dose (mcg/kg/min)": "0.1-1 mcg/kg/min",
+            "Concentration": "1mg in 250 D5W"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "prolonged QTc",
+          "url": "https://wikem.org/wiki/Prolonged_QTc"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Occult bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "TCA overdose",
+          "url": "https://wikem.org/wiki/TCA_overdose"
+        },
+        {
+          "text": "RUSH exam",
+          "url": "https://wikem.org/wiki/RUSH_exam"
+        }
+      ]
+    },
+    "Causes_of_non-response_to_vasopressors": {
+      "text": "Acidosis\nDx: Blood gas, BMP\nTx: treat underlying cause, consider bicarbonate gtt\nHypothyroidism\nDx: Clinical, TSH\nTx:\nlevothyroxine\nAnaphylaxis\nDx: History\nTx:\nEpinephrine\n,\nmethylene blue\n, ECMO\nAdrenal insufficiency\nDx: Clinical, cortisol level,\nhyperkalemia\n+\nhyponatremia\nTx:\nHydrocortisone\n100-200mg\nHypocalcemia\nDx: ionized calcium,\nprolonged QTc\nTx:\nCalcium chloride\nor\ncalcium gluconate\nOccult bleeding\nDx: Clinical (consider\nGI bleed\nand retroperitoneal hematoma)\nTx: Transfusion, treat coagulopathy, surgery/IR interventions\nToxicologic\nDx: Clinical (consider\nbeta blocker toxicity\n,\ncalcium channel blocker toxicity\n,\nTCA overdose\n, etc)\nTx: Depends on etiology (glucagon, hyperinsulin euglycemia therapy, sodium bicarbonate, ECMO, etc)\n2nd cause of shock\nDx: Clinical, consider\nRUSH exam\nTx: Address underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "prolonged QTc",
+          "url": "https://wikem.org/wiki/Prolonged_QTc"
+        },
+        {
+          "text": "Calcium chloride",
+          "url": "https://wikem.org/wiki/Calcium_chloride"
+        },
+        {
+          "text": "calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Occult bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "TCA overdose",
+          "url": "https://wikem.org/wiki/TCA_overdose"
+        },
+        {
+          "text": "RUSH exam",
+          "url": "https://wikem.org/wiki/RUSH_exam"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "NICU/PICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Approach to Shock",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "https://rebelem.com/approach-to-the-critically-ill-child-shock/\nhttps://pedemmorsels.com/epinephrine-for-shock/\nhttps://www.chop.edu/clinical-pathway/sepsis-emergent-care-clinical-pathway",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

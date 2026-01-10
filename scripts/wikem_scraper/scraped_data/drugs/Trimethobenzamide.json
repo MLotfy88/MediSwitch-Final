@@ -1,0 +1,138 @@
+{
+  "drug_name": "Trimethobenzamide",
+  "url": "https://wikem.org/wiki/Trimethobenzamide",
+  "scraped_at": "2026-01-10T08:04:17.734043",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiemetic\nDosage Forms: 200mg, 300mg\nRoutes of Administration: IM, PO\nCommon Trade Names: Tigan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiemetic",
+          "url": "https://wikem.org/wiki/Antiemetic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Nausea/Vomiting": {
+          "text": "200mg IM q8h prn, 300mg PO q8h prn\nCan be used as an antiemetic in patients with a prolonged QTc",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nausea/Vomiting": {
+      "text": "200mg IM q8h prn, 300mg PO q8h prn\nCan be used as an antiemetic in patients with a prolonged QTc",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Nausea/Vomiting_2": {
+          "text": "Expert recommendations do\nnot\nsuggest trimethobenzamide as a therapeutic option; use has been replaced by newer agents with an improved safety profile",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nausea/Vomiting_2": {
+      "text": "Expert recommendations do\nnot\nsuggest trimethobenzamide as a therapeutic option; use has been replaced by newer agents with an improved safety profile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypersensitivity to trimethobenzamide or any component of the formulation\nUse in pediatric patients (injection only)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7 to 9 hours\nMetabolism: Via oxidation, forms metabolite trimethobenzamide N-oxide\nExcretion: Urine (30% to 50%, as unchanged drug)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts centrally to inhibit the medullary chemoreceptor trigger zone by blocking emetic impulses to the vomiting center",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "No known QTc prolonging effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

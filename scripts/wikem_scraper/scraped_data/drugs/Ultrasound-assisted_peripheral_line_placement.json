@@ -1,0 +1,197 @@
+{
+  "drug_name": "Ultrasound-assisted_peripheral_line_placement",
+  "url": "https://wikem.org/wiki/Ultrasound-assisted_peripheral_line_placement",
+  "scraped_at": "2026-01-10T08:04:29.286856",
+  "sections": {
+    "Overview": {
+      "text": "Ultrasound is a useful adjunct for visualizing vasculature in patients with difficult vascular access\n[1]\nSuccess is higher in veins that are more superficial and wide\n[2]\nMore prone to failure and extravasation; ideally use extra long catheters (>2.5 cm)\n[3]\nFailure of the IV is high when <30% of the catheter length is in the vessel and minimized when >65% of the catheter is intravascular\n[4]\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Patients with difficult access, multiple unsuccessful attempts\nCommonly required in patients with obesity or history of IVDU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Ipsilateral radical mastectomy, fistulas\nOverlying cellulitis\nBurns, thrombosis, edema, sclerosis, phlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "High frequency ultrasound transducer (7.5 - 10 mHz)\nProbe cover\nIV catheter (longer ones more useful and less likely to be pulled out accidentally, minimum of 1.75 inches)\nAlcohol Pad / Chlorhexidine\nTourniquet\nNS Flush\nTubing, Caps\nTape, Tegaderm\nGauze (to remove US gel)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "3:1:3 rule - look for veins that are a minimum 3 mm in diameter, 1 cm deep (1.5 cm max), 3 mm long (and straight)\nBasilic vein and deep brachial are good targets for upper arm\nExternal jugular in neck\nIf no suitable peripheral veins or\nexternal jugular\n, can consider\nEZ IJ\nSimilar procedure as ultrasound guided IV but use a longer peripheral ultrasound catheter and should only stay in for <24 hours, must obtain CXR to rule out pneumothorax\nAs a general rule the depth of the vein equals the distance from the probe at which you should enter the skin at a 45 degree angle\nCan be done in cross-section, longitudinal section, or utilizing a combination of the two\nCross-section allows easier approach to the vein and works well for superficial veins in particular, but the user must be careful to find the needle tip at all times (by fanning the probe and seeing the needle tip disappear and then re-appear) because otherwise you may be looking at any point along the needle and not know where the tip is located; easy to go through back wall.\nLongitudinal section allows good visualization of the vein and needle depth (to avoid back-walling), but it can be difficult to keep the needle tip in plan during the entire approach and for superficial veins it is difficult to find the needle before entering the vein\nAn effective combination of these two techniques involves gaining access to the vein in cross-section and then changing to longitudinal section to follow the needle into the vein and avoid going through back wall\nIt is important to not stop once you see flash in catheter. This should be your cue to switch to longitudinal section (if not already done) and continue to advance catheter at least several millimeters up to a centimeter further under visualization. Doing so will significantly increase success rate.\nAn alternative strategy is the \"lantern method\" in which the probe is moved proximally after the needle tip is observed until it disappears, then the needle is advanced until it is again observed on the screen.  These two movements are alternated until the needle and catheter are adequately inside the vessel",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "external jugular",
+          "url": "https://wikem.org/wiki/External_Jugular_Vein_Cannulation"
+        },
+        {
+          "text": "EZ IJ",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "High rate of IV failure\nHematoma\nArterial puncture\nNerve damage\nBacteremia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vascular_access_types": {
+          "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDOCs: Ultrasound-Guided Peripheral Intravenous Access – Tips for Success\nemDOCs: Approach to the Patient with Difficult Vascular Access\nALiEM: Techniques for Ultrasound-Guided IV Placement\nMerk Manual - How To Do Peripheral Vein Cannulation (Ultrasound-Guided)\nER Nurse Central",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

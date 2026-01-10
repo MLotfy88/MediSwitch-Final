@@ -1,0 +1,458 @@
+{
+  "drug_name": "Typhoid_fever",
+  "url": "https://wikem.org/wiki/Typhoid_fever",
+  "scraped_at": "2026-01-10T08:04:28.104726",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\ntyphus\n, a distinct disease caused by a different genera of bacteria\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Also known as \"enteric fever\" (of which paratyphoid fever is an additional subset)\nDiagnosed in 2% of febrile travelers and caused by\nSalmonella\nenterica serotype Typhi\n(formerly\nSalmonella typhi\n)\nserotype paratyphi A, B, and C\n[2]\nEndemic in Mexico, Indonesia, Peru, and the Indian subcontinent\nPrior vaccination does not exclude infection\nIncubation period 1-3 weeks with chronic carrier state defined as organism in urine or stool > 12 months\nChronic carrier state risk factors: biliary tract abnormalities\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Classic_symptoms": {
+          "text": "Bradycardia\nrelative to fever (Faget sign)",
+          "tables": []
+        },
+        "Initial_symptoms": {
+          "text": "Fever\nAbdominal Pain\nHeadache",
+          "tables": []
+        },
+        "Subsequent_symptoms": {
+          "text": "Chills (rarely rigors)\nCough\nAbdominal distension\nConstipation (more common than diarrhea)\n“Rose spots” – truncal light red macular rash (in the 2nd wk)\nHepatosplenomegaly\nGI bleeding\nTransaminitis\nLeukopenia with left shift (adults)\nLeukocytosis (children)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Classic_symptoms": {
+      "text": "Bradycardia\nrelative to fever (Faget sign)",
+      "subsections": {
+        "Initial_symptoms": {
+          "text": "Fever\nAbdominal Pain\nHeadache",
+          "tables": []
+        },
+        "Subsequent_symptoms": {
+          "text": "Chills (rarely rigors)\nCough\nAbdominal distension\nConstipation (more common than diarrhea)\n“Rose spots” – truncal light red macular rash (in the 2nd wk)\nHepatosplenomegaly\nGI bleeding\nTransaminitis\nLeukopenia with left shift (adults)\nLeukocytosis (children)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Initial_symptoms": {
+      "text": "Fever\nAbdominal Pain\nHeadache",
+      "subsections": {
+        "Subsequent_symptoms": {
+          "text": "Chills (rarely rigors)\nCough\nAbdominal distension\nConstipation (more common than diarrhea)\n“Rose spots” – truncal light red macular rash (in the 2nd wk)\nHepatosplenomegaly\nGI bleeding\nTransaminitis\nLeukopenia with left shift (adults)\nLeukocytosis (children)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        }
+      ]
+    },
+    "Subsequent_symptoms": {
+      "text": "Chills (rarely rigors)\nCough\nAbdominal distension\nConstipation (more common than diarrhea)\n“Rose spots” – truncal light red macular rash (in the 2nd wk)\nHepatosplenomegaly\nGI bleeding\nTransaminitis\nLeukopenia with left shift (adults)\nLeukocytosis (children)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Viral hepatitis\nAmebic Liver Abscess\nInfectious enteritis",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Blood culture\nUrine culture\nStool culture\n“Rose spot” aspiration\nBone marrow culture (most sensitive)\nSensitivity testing for nalidixic acid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consultation with Infectious Disease should be considered since there are increasingly multidrug resistant strains of S. Typhi and coinfection with diseases such as\nMalaria\nmay complicate treatment.  The therapy favors the use of fluorquinolones unless suspected or known resistance.\n[4]",
+      "subsections": {
+        "Oral_therapy_with_Quinolone_Susceptibility": {
+          "text": "Ciprofloxacin\n500-750 mg PO q 12 hrs x 14 days",
+          "tables": []
+        },
+        "Parenteral_Therapy_with_Quinolone_Susceptibility": {
+          "text": "Ciprofloxacin\n400 mg IV q 12 hrs x 10 days",
+          "tables": []
+        },
+        "Parenteral_Therapy_with_Quinolone_Resistance": {
+          "text": "if nalidixic acid resistant, assume\nfluoroquinolone\nresistant\nCeftriaxone\n2mg IV q 24 hrs x 14 days\nOR\nCefixime\n10-15 mg/kg IV q 12 hrs x 8 days",
+          "tables": []
+        },
+        "Oral_Therapy_with_Quinolone_Resistance": {
+          "text": "Azithromycin\n1 g PO daily x 5 days",
+          "tables": []
+        },
+        "Adjunctive_Therapy": {
+          "text": "If associated delirium, coma, shock, and/or\nDIC\n: Dexamethasone 3mg/kg IV load over 30 minutes, then 1mg/kg IV every 6 hours x 8 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Oral_therapy_with_Quinolone_Susceptibility": {
+          "text": "Ciprofloxacin\n500-750 mg PO q 12 hrs x 14 days",
+          "tables": []
+        },
+        "Parenteral_Therapy_with_Quinolone_Susceptibility": {
+          "text": "Ciprofloxacin\n400 mg IV q 12 hrs x 10 days",
+          "tables": []
+        },
+        "Parenteral_Therapy_with_Quinolone_Resistance": {
+          "text": "if nalidixic acid resistant, assume\nfluoroquinolone\nresistant\nCeftriaxone\n2mg IV q 24 hrs x 14 days\nOR\nCefixime\n10-15 mg/kg IV q 12 hrs x 8 days",
+          "tables": []
+        },
+        "Oral_Therapy_with_Quinolone_Resistance": {
+          "text": "Azithromycin\n1 g PO daily x 5 days",
+          "tables": []
+        },
+        "Adjunctive_Therapy": {
+          "text": "If associated delirium, coma, shock, and/or\nDIC\n: Dexamethasone 3mg/kg IV load over 30 minutes, then 1mg/kg IV every 6 hours x 8 doses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Adjunctive_Therapy": {
+      "text": "If associated delirium, coma, shock, and/or\nDIC\n: Dexamethasone 3mg/kg IV load over 30 minutes, then 1mg/kg IV every 6 hours x 8 doses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit if any complication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Small-bowel ulceration\nIntestinal perforation\nAnemia\nDIC\nPneumonia\nMeningitis\nMyocarditis\nCholecystitis\nRenal Failure\nChronic carrier state",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Travel Medicine\nFever in Traveler",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Fever in Traveler",
+          "url": "https://wikem.org/wiki/Fever_in_Traveler"
+        }
+      ]
+    }
+  }
+}

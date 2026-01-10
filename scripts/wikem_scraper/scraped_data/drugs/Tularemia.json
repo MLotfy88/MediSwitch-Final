@@ -1,0 +1,555 @@
+{
+  "drug_name": "Tularemia",
+  "url": "https://wikem.org/wiki/Tularemia",
+  "scraped_at": "2026-01-10T08:04:25.218224",
+  "sections": {
+    "Background": {
+      "text": "Caused by the intracellular gram negative bacteria Francisella tularensis\nPrimarily spread through tick and deer fly bites\nTicks that spread Tularemia include:\nDog tick (Dermacentor variabilis)\nWood tick (Dermacentor andersoni)\nLone star tick (Amblyomma americanum)\nAlso spread through contact with infected animals (rabbits, rodents), ingestion of contaminated water, inhalation of aerosolized material (ex. running over dead animal with lawn mower)",
+      "subsections": {
+        "Potential_Bioterrorism_Threat": {
+          "text": "Listed by CDC as potential\nbioterrorism\nthreat as the bacterium can be aerosolized, is highly infective, and highly incapacitating.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        }
+      ]
+    },
+    "Potential_Bioterrorism_Threat": {
+      "text": "Listed by CDC as potential\nbioterrorism\nthreat as the bacterium can be aerosolized, is highly infective, and highly incapacitating.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Features depend on site of infection\nAll are associated with fevers\nAt risk patient groups include farmers, meat handlers, landscapers, veterinarians, hunters, sheep shearers and taxidermists.",
+      "subsections": {
+        "Ulceroglandular": {
+          "text": "Most common form\n, represents about 75% of disease\nPresent with a single erythematous ulcerative lesion with a central eschar\nThis represents direct inoculation from the insect bite or from handling infected animals\nLymphadenopathy\nUsually inguinal or axillary\nCervical or occipital in children",
+          "tables": []
+        },
+        "Glandular": {
+          "text": "Regional lymphadenopathy with no skin lesions or ulceration\nMost common presentation among children\nSuppurated nodes may need drainage",
+          "tables": []
+        },
+        "Oropharyngeal": {
+          "text": "From ingesting contaminated material\nMay cause outbreaks when water supply is disrupted\nSymptoms include:\nSore throat,\nMouth ulcers\nExudative pharyngitis/tonsilitis\nCervical lymphadenitis",
+          "tables": []
+        },
+        "Pneumonic": {
+          "text": "Associated with highest mortality rate\nResults from direct inhalation of the bacterium into the lungs\nFarmers and herders at higher risk\nAcute infection associated with non-specific flu-like symptoms\nProgresses to more severe pneumonic signs\nNodular infiltrates with pleural effusion on chest xray\nExudative effusion with lymphocytic predominance\nMay also be secondary to hematologic dissemination from other source",
+          "tables": []
+        },
+        "Oculoglandular": {
+          "text": "Occurs with inocculation into eye (aerosols, rubbing with contaminated fingers, splash, etc.)\nPain, photophobia, tearing\nMay have small ulcers of the conjunctiva or periorbital erythema\nMay lead to corneal ulceration\nMay have preauricular, cervical or submandibular lymphadenopathy",
+          "tables": []
+        },
+        "Typhoidal": {
+          "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ulceroglandular": {
+      "text": "Most common form\n, represents about 75% of disease\nPresent with a single erythematous ulcerative lesion with a central eschar\nThis represents direct inoculation from the insect bite or from handling infected animals\nLymphadenopathy\nUsually inguinal or axillary\nCervical or occipital in children",
+      "subsections": {
+        "Glandular": {
+          "text": "Regional lymphadenopathy with no skin lesions or ulceration\nMost common presentation among children\nSuppurated nodes may need drainage",
+          "tables": []
+        },
+        "Oropharyngeal": {
+          "text": "From ingesting contaminated material\nMay cause outbreaks when water supply is disrupted\nSymptoms include:\nSore throat,\nMouth ulcers\nExudative pharyngitis/tonsilitis\nCervical lymphadenitis",
+          "tables": []
+        },
+        "Pneumonic": {
+          "text": "Associated with highest mortality rate\nResults from direct inhalation of the bacterium into the lungs\nFarmers and herders at higher risk\nAcute infection associated with non-specific flu-like symptoms\nProgresses to more severe pneumonic signs\nNodular infiltrates with pleural effusion on chest xray\nExudative effusion with lymphocytic predominance\nMay also be secondary to hematologic dissemination from other source",
+          "tables": []
+        },
+        "Oculoglandular": {
+          "text": "Occurs with inocculation into eye (aerosols, rubbing with contaminated fingers, splash, etc.)\nPain, photophobia, tearing\nMay have small ulcers of the conjunctiva or periorbital erythema\nMay lead to corneal ulceration\nMay have preauricular, cervical or submandibular lymphadenopathy",
+          "tables": []
+        },
+        "Typhoidal": {
+          "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Glandular": {
+      "text": "Regional lymphadenopathy with no skin lesions or ulceration\nMost common presentation among children\nSuppurated nodes may need drainage",
+      "subsections": {
+        "Oropharyngeal": {
+          "text": "From ingesting contaminated material\nMay cause outbreaks when water supply is disrupted\nSymptoms include:\nSore throat,\nMouth ulcers\nExudative pharyngitis/tonsilitis\nCervical lymphadenitis",
+          "tables": []
+        },
+        "Pneumonic": {
+          "text": "Associated with highest mortality rate\nResults from direct inhalation of the bacterium into the lungs\nFarmers and herders at higher risk\nAcute infection associated with non-specific flu-like symptoms\nProgresses to more severe pneumonic signs\nNodular infiltrates with pleural effusion on chest xray\nExudative effusion with lymphocytic predominance\nMay also be secondary to hematologic dissemination from other source",
+          "tables": []
+        },
+        "Oculoglandular": {
+          "text": "Occurs with inocculation into eye (aerosols, rubbing with contaminated fingers, splash, etc.)\nPain, photophobia, tearing\nMay have small ulcers of the conjunctiva or periorbital erythema\nMay lead to corneal ulceration\nMay have preauricular, cervical or submandibular lymphadenopathy",
+          "tables": []
+        },
+        "Typhoidal": {
+          "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Oropharyngeal": {
+      "text": "From ingesting contaminated material\nMay cause outbreaks when water supply is disrupted\nSymptoms include:\nSore throat,\nMouth ulcers\nExudative pharyngitis/tonsilitis\nCervical lymphadenitis",
+      "subsections": {
+        "Pneumonic": {
+          "text": "Associated with highest mortality rate\nResults from direct inhalation of the bacterium into the lungs\nFarmers and herders at higher risk\nAcute infection associated with non-specific flu-like symptoms\nProgresses to more severe pneumonic signs\nNodular infiltrates with pleural effusion on chest xray\nExudative effusion with lymphocytic predominance\nMay also be secondary to hematologic dissemination from other source",
+          "tables": []
+        },
+        "Oculoglandular": {
+          "text": "Occurs with inocculation into eye (aerosols, rubbing with contaminated fingers, splash, etc.)\nPain, photophobia, tearing\nMay have small ulcers of the conjunctiva or periorbital erythema\nMay lead to corneal ulceration\nMay have preauricular, cervical or submandibular lymphadenopathy",
+          "tables": []
+        },
+        "Typhoidal": {
+          "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pneumonic": {
+      "text": "Associated with highest mortality rate\nResults from direct inhalation of the bacterium into the lungs\nFarmers and herders at higher risk\nAcute infection associated with non-specific flu-like symptoms\nProgresses to more severe pneumonic signs\nNodular infiltrates with pleural effusion on chest xray\nExudative effusion with lymphocytic predominance\nMay also be secondary to hematologic dissemination from other source",
+      "subsections": {
+        "Oculoglandular": {
+          "text": "Occurs with inocculation into eye (aerosols, rubbing with contaminated fingers, splash, etc.)\nPain, photophobia, tearing\nMay have small ulcers of the conjunctiva or periorbital erythema\nMay lead to corneal ulceration\nMay have preauricular, cervical or submandibular lymphadenopathy",
+          "tables": []
+        },
+        "Typhoidal": {
+          "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Oculoglandular": {
+      "text": "Occurs with inocculation into eye (aerosols, rubbing with contaminated fingers, splash, etc.)\nPain, photophobia, tearing\nMay have small ulcers of the conjunctiva or periorbital erythema\nMay lead to corneal ulceration\nMay have preauricular, cervical or submandibular lymphadenopathy",
+      "subsections": {
+        "Typhoidal": {
+          "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Typhoidal": {
+      "text": "Tularemia that does not fit into any of the other groups\nMay present as sepsis\nOften has associated GI symptoms\nNo skin lesions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tick_Borne_Illnesses": {
+          "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+          "tables": []
+        },
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Tick_Borne_Illnesses": {
+      "text": "Babesiosis\nColorado tick fever\nEhrlichiosis\nHeartland virus\nLyme\nMurine typhus\nRocky mountain spotted fever\nSouthern tick-associated rash illness\n(STARI)\nTick paralysis\nTularemia",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Colorado tick fever",
+          "url": "https://wikem.org/wiki/Colorado_tick_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Heartland virus",
+          "url": "https://wikem.org/wiki/Heartland_virus"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Murine typhus",
+          "url": "https://wikem.org/wiki/Murine_typhus"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "Southern tick-associated rash illness",
+          "url": "https://wikem.org/wiki/Southern_tick-associated_rash_illness"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Bioterrorism_Agents": {
+      "text": "",
+      "subsections": {
+        "Category_A": {
+          "text": "Anthrax\nSmallpox\nPlague\nTularemia\nBotulinum Toxin\nViral hemorrhagic fever",
+          "tables": []
+        },
+        "Category_B": {
+          "text": "Ricin\nBrucellosis\nEpsilon toxin\nPsittacosis\nQ Fever\nStaph enterotoxin B\nTyphus\nGlanders\nMelioidosis\nFood safety threats\nWater safety threats\nViral encephalitis",
+          "tables": []
+        },
+        "Category_C": {
+          "text": "Influenza\nYellow fever\nTickborne hemorrhagic fever\nTickborne encephalitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Botulinum Toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Q Fever",
+          "url": "https://wikem.org/wiki/Q_Fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Titers\nPCR\nGram stain does not usually reveal any organisms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Postexposure_Prophylaxis": {
+          "text": "Doxycycline\n100mg PO q12hrs x 14 days OR\nCiprofloxacin\n500mg PO q12hrs q12hrs x 10 days",
+          "tables": []
+        },
+        "Active_Disease": {
+          "text": "Streptomycin\n1g (15mg/kg) IM q12hrs daily x 10 days\n(First line)\nOR\nGentamicin\n5mg/kg/day IV/IM once daily x 10 days OR\nCiprofloxacin\n400mg (15mg/kg) q12hrs daily x 10 days OR\nDoxycycline\n100mg (2.2mg/kg) IV q12hrs daily x 14 days OR\nChloramphenicol\n15mg/kg IV q6hrs daily x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Streptomycin",
+          "url": "https://wikem.org/wiki/Streptomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "",
+      "subsections": {
+        "Postexposure_Prophylaxis": {
+          "text": "Doxycycline\n100mg PO q12hrs x 14 days OR\nCiprofloxacin\n500mg PO q12hrs q12hrs x 10 days",
+          "tables": []
+        },
+        "Active_Disease": {
+          "text": "Streptomycin\n1g (15mg/kg) IM q12hrs daily x 10 days\n(First line)\nOR\nGentamicin\n5mg/kg/day IV/IM once daily x 10 days OR\nCiprofloxacin\n400mg (15mg/kg) q12hrs daily x 10 days OR\nDoxycycline\n100mg (2.2mg/kg) IV q12hrs daily x 14 days OR\nChloramphenicol\n15mg/kg IV q6hrs daily x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Streptomycin",
+          "url": "https://wikem.org/wiki/Streptomycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit severe disease\nCan selectively treat mild disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tick borne illnesses\nBioterrorism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tick borne illnesses",
+          "url": "https://wikem.org/wiki/Tick_borne_illnesses"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.cdc.gov/tularemia/index.html",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

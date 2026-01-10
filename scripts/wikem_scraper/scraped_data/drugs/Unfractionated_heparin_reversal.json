@@ -1,0 +1,61 @@
+{
+  "drug_name": "Unfractionated_heparin_reversal",
+  "url": "https://wikem.org/wiki/Unfractionated_heparin_reversal",
+  "scraped_at": "2026-01-10T08:04:30.701222",
+  "sections": {
+    "Background": {
+      "text": "Managed according to clinical severity of bleeding, NOT PTT value\nHeparin-associated bleeding is not always reflected by a supratherapeutic PTT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Significant bleeding while on [[heparin] drip",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stop transfusion\nObservation alone may be appropriate in less severe cases\nProtamine\nOnly indicated for major bleeding (0.2% of patients develop severe anaphylaxis)\nMajor bleeding due to unfractionated heparin:\n1 mg IV for every 100 units of heparin infused in past 3h\nDo not infuse faster than 50mg/10min\nIf it has been >30min since last heparin injection, 0.5mg may be sufficient\nGive slowly over 1-3min; do not exceed 50mg in any 10 minute period (\nanaphylaxis\nrisk)\nBecause half-life is short (7 min) may require second treatment\nMajor bleeding due to low-molecular-weight heparin:\nProtamine is less effective for bleeding from LMWH than it is with heparin-induced bleeds\nEnoxaparin:\n1 mg IV for every 1 mg enoxaparin administered in past 8h\nDalteparin:\n1 mg IV for every 100 anti-Xa international units of dalteparin\nMassive bleed\nCryoprecipitate\n(10 U IV), then\nFFP\n(& platelets, aminocaproic acid infusion if nec)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Massive bleed",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nUnfractionated heparin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        }
+      ]
+    }
+  }
+}

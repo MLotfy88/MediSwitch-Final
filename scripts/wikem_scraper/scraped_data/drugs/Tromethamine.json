@@ -1,0 +1,156 @@
+{
+  "drug_name": "Tromethamine",
+  "url": "https://wikem.org/wiki/Tromethamine",
+  "scraped_at": "2026-01-10T08:04:18.868968",
+  "sections": {
+    "Administration": {
+      "text": "Type: Tham: 30 mEq/100 mL (500 mL) [latex free]\nDosage Forms:\nRoutes of Administration: IV\nCommon Trade Names: THAM",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Metabolic_acidosis": {
+          "text": "Estimated dose when buffer base deficit is known: IV: tromethamine dose (mL of 0.3 M solution) = body weight (kg) x base deficit (mEq/L) x 1.1.\nInitial: 111 to 333 mL of 0.3 M solution (3.6 to 10.8 g); additional amounts may be required to control acidosis after arrest reversed.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Metabolic_acidosis": {
+      "text": "Estimated dose when buffer base deficit is known: IV: tromethamine dose (mL of 0.3 M solution) = body weight (kg) x base deficit (mEq/L) x 1.1.\nInitial: 111 to 333 mL of 0.3 M solution (3.6 to 10.8 g); additional amounts may be required to control acidosis after arrest reversed.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Metabolic_acidosis_2": {
+          "text": "Infants, Children, and Adolescents: IV: Empiric dosage calculation equation based upon base deficit:\nDose (mL) of THAM = body weight (kg) x base deficit (mEq/L) x 1.1*",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Metabolic_acidosis_2": {
+      "text": "Infants, Children, and Adolescents: IV: Empiric dosage calculation equation based upon base deficit:\nDose (mL) of THAM = body weight (kg) x base deficit (mEq/L) x 1.1*",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknwon",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Unknown",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknwon",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknwon",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: There are no dosage adjustments provided in the manufacturer’s labeling.\nPediatric: There are no dosage adjustments provided in the manufacturer’s labeling.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nUremia or anuria; chronic respiratory acidosis (neonates); salicylate intoxication (neonates).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Extravasation: Vesicant; ensure proper needle or catheter placement prior to and during administration; avoid extravasation. May cause tissue inflammation, sloughing, and necrosis.\nHypoglycemia: May cause hypoglycemia with rapid administration or extremely large doses; monitor serum blood glucose during and after therapy.\nRespiratory depression: Large doses may decrease respiratory ventilation due to increased blood pH and reduced CO2; adjust dose so that blood pH is not increased above normal. Monitor closely especially if patient not intubated. In patients with concomitant respiratory acidosis, use only with mechanical ventilation.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Extravasation: Vesicant; ensure proper needle or catheter placement prior to and during administration; avoid extravasation. May cause tissue inflammation, sloughing, and necrosis.\nHypoglycemia: May cause hypoglycemia with rapid administration or extremely large doses; monitor serum blood glucose during and after therapy.\nRespiratory depression: Large doses may decrease respiratory ventilation due to increased blood pH and reduced CO2; adjust dose so that blood pH is not increased above normal. Monitor closely especially if patient not intubated. In patients with concomitant respiratory acidosis, use only with mechanical ventilation.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism: None known.\nExcretion: Urine (>75%) within 8 hours.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Acts as a proton acceptor, which combines with hydrogen ions, liberating bicarbonate buffer, to correct acidosis. It buffers both metabolic and respiratory acids, limiting carbon dioxide generation. Also an osmotic diuretic.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

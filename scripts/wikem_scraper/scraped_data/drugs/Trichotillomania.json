@@ -1,0 +1,64 @@
+{
+  "drug_name": "Trichotillomania",
+  "url": "https://wikem.org/wiki/Trichotillomania",
+  "scraped_at": "2026-01-10T08:04:17.868358",
+  "sections": {
+    "Background": {
+      "text": "A repetitive hair-pulling disorder, often associated with skin-picking\nClassified as an impulse control disorder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Presents with\nbald spots\nin various sites: scalp, face, arms, legs, and pubic areas\nScalp is the most common, usually with associated eyebrow and eyelash involvement\nUsually with bizarre-shaped patches of alopecia and different hair lengths due to breaking off at different points",
+      "subsections": {
+        "DSM_5_Criteria": {
+          "text": "Recurrent pulling out of one's hair, resulting in hair loss\nRepeated attempts to decrease or stop hair pulling\nThe hair pulling causes significant distress and impairment in at least one important area of functioning\nThe hair pulling or hair loss is not attributable to another medical condition\nThe hair pulling is not better explained by the symptoms of another mental disorder (eg, attempts to improve a perceived defect or flaw in appearance in body dysmorphic disorder)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bald spots",
+          "url": "https://wikem.org/wiki/Alopecia"
+        }
+      ]
+    },
+    "DSM_5_Criteria": {
+      "text": "Recurrent pulling out of one's hair, resulting in hair loss\nRepeated attempts to decrease or stop hair pulling\nThe hair pulling causes significant distress and impairment in at least one important area of functioning\nThe hair pulling or hair loss is not attributable to another medical condition\nThe hair pulling is not better explained by the symptoms of another mental disorder (eg, attempts to improve a perceived defect or flaw in appearance in body dysmorphic disorder)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Tinea capitis\nAlopecia areata\nMonilethrix",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tinea capitis",
+          "url": "https://wikem.org/wiki/Tinea_capitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis, however skin biopsy can be used to exclude other etiologies of hair loss",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Cognitive and behavioral psychotherapy is preferred over pharmacotherapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

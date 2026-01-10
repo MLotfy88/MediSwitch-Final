@@ -1,0 +1,73 @@
+{
+  "drug_name": "Typhus",
+  "url": "https://wikem.org/wiki/Typhus",
+  "scraped_at": "2026-01-10T08:04:22.309265",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\ntyphoid fever\n, a distinct disease caused by a different genera of bacteria\nMultiple diseases include the word \"typhus\" in their description. Types include:\n",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Condition": "Epidemic \"Louse-borne\" typhus",
+            "Bacteria": "Rickettsia prowazekii",
+            "Reservoir/vector": "Human Body louse",
+            "Notes": "When the term \"typhus\" is used without clarification, this is usually the condition described. Historical references to \"typhus\" are now generally considered to be this condition."
+          },
+          {
+            "Condition": "Murine typhusor \"endemic typhus\" or \"flea-borne\" typhus",
+            "Bacteria": "Rickettsia typhi",
+            "Reservoir/vector": "Fleas on rats",
+            "Notes": ""
+          },
+          {
+            "Condition": "Scrub typhus",
+            "Bacteria": "Orientia tsutsugamushi",
+            "Reservoir/vector": "Harvest mites on humans or rodents",
+            "Notes": "Unlike the two conditions above, though it has the word \"typhus\" in the name, it is currently usually not classified in the typhus group, but in the closely related spotted fever group."
+          },
+          {
+            "Condition": "Queensland tick typhus",
+            "Bacteria": "Rickettsia australis",
+            "Reservoir/vector": "Ticks",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Types_of_Typhus": {
+      "text": "Multiple diseases include the word \"typhus\" in their description. Types include:",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Condition": "Epidemic \"Louse-borne\" typhus",
+            "Bacteria": "Rickettsia prowazekii",
+            "Reservoir/vector": "Human Body louse",
+            "Notes": "When the term \"typhus\" is used without clarification, this is usually the condition described. Historical references to \"typhus\" are now generally considered to be this condition."
+          },
+          {
+            "Condition": "Murine typhusor \"endemic typhus\" or \"flea-borne\" typhus",
+            "Bacteria": "Rickettsia typhi",
+            "Reservoir/vector": "Fleas on rats",
+            "Notes": ""
+          },
+          {
+            "Condition": "Scrub typhus",
+            "Bacteria": "Orientia tsutsugamushi",
+            "Reservoir/vector": "Harvest mites on humans or rodents",
+            "Notes": "Unlike the two conditions above, though it has the word \"typhus\" in the name, it is currently usually not classified in the typhus group, but in the closely related spotted fever group."
+          },
+          {
+            "Condition": "Queensland tick typhus",
+            "Bacteria": "Rickettsia australis",
+            "Reservoir/vector": "Ticks",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "drug_name": "Umbilical_cord_prolapse",
+  "url": "https://wikem.org/wiki/Umbilical_cord_prolapse",
+  "scraped_at": "2026-01-10T08:04:31.200239",
+  "sections": {
+    "Background": {
+      "text": "Occurs in 0.5% of pregnancies\nLikely secondary to the presenting fetal part not filling enough of the lower uterus and allowing cord to present first during labor.\n[1]",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Low birth weight\n[1]\nMultiparity\n[1]\nFetal malpresentation\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Low birth weight\n[1]\nMultiparity\n[1]\nFetal malpresentation\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Presentation of umbilical cord before fetal delivery (can be felt as pulsatile structure on exam)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent_delivery_and_related_complications": {
+          "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Breech delivery",
+          "url": "https://wikem.org/wiki/Breech_delivery"
+        },
+        {
+          "text": "Shoulder dystocia",
+          "url": "https://wikem.org/wiki/Shoulder_dystocia"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Emergent_delivery_and_related_complications": {
+      "text": "Emergent delivery\nUmbilical cord prolapse\nBreech delivery\nShoulder dystocia\nPerimortem cesarean delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Breech delivery",
+          "url": "https://wikem.org/wiki/Breech_delivery"
+        },
+        {
+          "text": "Shoulder dystocia",
+          "url": "https://wikem.org/wiki/Shoulder_dystocia"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Emergent OB/Gyn consult\nDo NOT attempt to reduce cord\nElevate presenting fetal part to reduce compression and transport to OR for emergent C-section\n[2]\nExaminer who diagnosed umbilical cord prolapse must maintain umbilical decompression until patient is in OR\nPlace patient in knee-chest position and encourage not to push or cough\n[1]\nMay also consider Trendelenburg position (if patient can tolerate) to let gravity assist in moving fetus off pelvic floor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit to L&D",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Emergent delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        }
+      ]
+    }
+  }
+}

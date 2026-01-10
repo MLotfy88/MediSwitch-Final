@@ -1,0 +1,86 @@
+{
+  "drug_name": "Ulnar_gutter_splint",
+  "url": "https://wikem.org/wiki/Ulnar_gutter_splint",
+  "scraped_at": "2026-01-10T08:04:29.024026",
+  "sections": {
+    "Background": {
+      "text": "Limits flexion/extension of the 4th/5th DIP, PIP, MCP, and wrist joints",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Hand and finger fractures\nand soft tissue injuries of 4th and 5th digit\nBoxer's fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nPlace padding between 4th and 5th digits to prevent maceration\nSplint course:\nStart at mid-forearm\nExtend down ulnar aspect of forearm\nEnd at mid-distal phalanx\nInclude the 4th and 5th digits\nKey anatomic positions\nWrist slightly extended  (10° to 20°)\n4th and 5th MCP at 50°\nIf\nBoxer's fracture\n, 90° flexion\n[2]\nDIP/PIP in slight flexion (~5–10º)\nHand in position of function\nForearm in neutral position",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        }
+      ]
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[1]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure\nPlace padding between 4th and 5th digits to prevent maceration\nSplint course:\nStart at mid-forearm\nExtend down ulnar aspect of forearm\nEnd at mid-distal phalanx\nInclude the 4th and 5th digits\nKey anatomic positions\nWrist slightly extended  (10° to 20°)\n4th and 5th MCP at 50°\nIf\nBoxer's fracture\n, 90° flexion\n[2]\nDIP/PIP in slight flexion (~5–10º)\nHand in position of function\nForearm in neutral position",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        }
+      ]
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure\nPlace padding between 4th and 5th digits to prevent maceration\nSplint course:\nStart at mid-forearm\nExtend down ulnar aspect of forearm\nEnd at mid-distal phalanx\nInclude the 4th and 5th digits\nKey anatomic positions\nWrist slightly extended  (10° to 20°)\n4th and 5th MCP at 50°\nIf\nBoxer's fracture\n, 90° flexion\n[2]\nDIP/PIP in slight flexion (~5–10º)\nHand in position of function\nForearm in neutral position",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

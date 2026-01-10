@@ -1,0 +1,258 @@
+{
+  "drug_name": "Unintentional_intra-arterial_injection",
+  "url": "https://wikem.org/wiki/Unintentional_intra-arterial_injection",
+  "scraped_at": "2026-01-10T08:04:31.796018",
+  "sections": {
+    "Background": {
+      "text": "A significant and potentially severe complication of medication administration\nMust consider this scenario any time patient begins complaining of paresthesias or pain distal to IV site\nSelf-inflicted cases are also being described in patients with IVDA",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Obesity\nHypotension\nProcedurally difficult situations (ie. agitated patient, back of ambulance)\nAberrant vascular anatomy",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Is often multifactorial and dependent upon type of medication administered. Theories include NE induced vasospasm, crystal formation, venous constriction, lipid solubility, direct cytoxicity, endothelial damage and high osmolality.  All pathways suggest the primary mediator of tissue injury is\nthrombosis\n[2]",
+          "tables": []
+        },
+        "Medications_known_to_cause_severe_injury_if_administered_IA:": {
+          "text": "Benzodiazepines\nBarbiturates\nPropofol\nPenicillins\nAmphetamines\nPhenothiazines\nPhenytoin\nHeroin\nTubocurarine\nAtrcurium\nTPN\nNaHCO3\nHypertonic Dextrose (D50)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Obesity\nHypotension\nProcedurally difficult situations (ie. agitated patient, back of ambulance)\nAberrant vascular anatomy",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Is often multifactorial and dependent upon type of medication administered. Theories include NE induced vasospasm, crystal formation, venous constriction, lipid solubility, direct cytoxicity, endothelial damage and high osmolality.  All pathways suggest the primary mediator of tissue injury is\nthrombosis\n[2]",
+          "tables": []
+        },
+        "Medications_known_to_cause_severe_injury_if_administered_IA:": {
+          "text": "Benzodiazepines\nBarbiturates\nPropofol\nPenicillins\nAmphetamines\nPhenothiazines\nPhenytoin\nHeroin\nTubocurarine\nAtrcurium\nTPN\nNaHCO3\nHypertonic Dextrose (D50)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Is often multifactorial and dependent upon type of medication administered. Theories include NE induced vasospasm, crystal formation, venous constriction, lipid solubility, direct cytoxicity, endothelial damage and high osmolality.  All pathways suggest the primary mediator of tissue injury is\nthrombosis\n[2]",
+      "subsections": {
+        "Medications_known_to_cause_severe_injury_if_administered_IA:": {
+          "text": "Benzodiazepines\nBarbiturates\nPropofol\nPenicillins\nAmphetamines\nPhenothiazines\nPhenytoin\nHeroin\nTubocurarine\nAtrcurium\nTPN\nNaHCO3\nHypertonic Dextrose (D50)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medications_known_to_cause_severe_injury_if_administered_IA:": {
+      "text": "Benzodiazepines\nBarbiturates\nPropofol\nPenicillins\nAmphetamines\nPhenothiazines\nPhenytoin\nHeroin\nTubocurarine\nAtrcurium\nTPN\nNaHCO3\nHypertonic Dextrose (D50)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Presentation is a spectrum of severity",
+      "subsections": {
+        "Symptoms": {
+          "text": "Immediate:  pain on injection, numbness, weakness\n30 min-24 hours: decreased cap refill, pallor, skin mottling, cramping, paresthesias motor deficit\n24- 48 hours: swelling, edema, contractures, signs of compartment syndrome\n1-2 weeks:  clinical evidence of rhabdo, necrosis, gangrene, autoamputation\n[3]",
+          "tables": []
+        },
+        "Tissue_Severity_Score": {
+          "text": "Assesses severity of symptoms\nSkin color\nCapillary refill\nDistal sensation\nDistal extremity temperature\nReceives 1 point for every finding that is abnormal\nScore of >2 is associated with higher likelihood of requiring amputation despite early treatment and management.\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Symptoms": {
+      "text": "Immediate:  pain on injection, numbness, weakness\n30 min-24 hours: decreased cap refill, pallor, skin mottling, cramping, paresthesias motor deficit\n24- 48 hours: swelling, edema, contractures, signs of compartment syndrome\n1-2 weeks:  clinical evidence of rhabdo, necrosis, gangrene, autoamputation\n[3]",
+      "subsections": {
+        "Tissue_Severity_Score": {
+          "text": "Assesses severity of symptoms\nSkin color\nCapillary refill\nDistal sensation\nDistal extremity temperature\nReceives 1 point for every finding that is abnormal\nScore of >2 is associated with higher likelihood of requiring amputation despite early treatment and management.\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tissue_Severity_Score": {
+      "text": "Assesses severity of symptoms\nSkin color\nCapillary refill\nDistal sensation\nDistal extremity temperature\nReceives 1 point for every finding that is abnormal\nScore of >2 is associated with higher likelihood of requiring amputation despite early treatment and management.\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Skin and soft tissue infections\nDVT\nCT contrast media extravasation\nAllergic reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Skin and soft tissue infections",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_infections"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically clinical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treatment recommendations based off of case reports and animal models.  No good human clinical studies to guide therapy at this time.",
+      "subsections": {
+        "Goals_of_Management:": {
+          "text": "Symptom relief\nEvaluate and manage arterial spasm\nReestablish distal perfusion\nManage clinical sequelae of tissue injury\nRehabilitation of limb",
+          "tables": []
+        },
+        "Initial_steps:": {
+          "text": "If iatrogenic, maintain catheter in place:\nStart slow infusion of isotonic solution to keep patent\nto be used for arteriogram and administration of vasodilators\nThoroughly evaluate medications administered through this catheter\nEvaluate severity of injury (soft compartments, neuro-vascular exam)\nAnticoagulation with IV\nheparin\nrecommended\nTreat pain and symptoms",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Some clinicians advocate initiation of coverage for\ngram positive\nand\nanaerobic\norganisms if patient is IV drug abuser\nTroer et al. withheld Antibiotics in this patient population if no sign of infection present.  No cellulitic changes or spreading infection noted in those managed with antibiotic.\n[7]",
+          "tables": []
+        },
+        "If_Evidence_of_Vasospasm": {
+          "text": "Consider initiation of the following:\nIA Papaverine 30MG followed by infusion of 180mg over 10 hours\n[8]\nExtremity sympatholysis with plexus or nerve block\n[9]\nIA CCB → Nicardipine IA infusion\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        }
+      ]
+    },
+    "Goals_of_Management:": {
+      "text": "Symptom relief\nEvaluate and manage arterial spasm\nReestablish distal perfusion\nManage clinical sequelae of tissue injury\nRehabilitation of limb",
+      "subsections": {
+        "Initial_steps:": {
+          "text": "If iatrogenic, maintain catheter in place:\nStart slow infusion of isotonic solution to keep patent\nto be used for arteriogram and administration of vasodilators\nThoroughly evaluate medications administered through this catheter\nEvaluate severity of injury (soft compartments, neuro-vascular exam)\nAnticoagulation with IV\nheparin\nrecommended\nTreat pain and symptoms",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Some clinicians advocate initiation of coverage for\ngram positive\nand\nanaerobic\norganisms if patient is IV drug abuser\nTroer et al. withheld Antibiotics in this patient population if no sign of infection present.  No cellulitic changes or spreading infection noted in those managed with antibiotic.\n[7]",
+          "tables": []
+        },
+        "If_Evidence_of_Vasospasm": {
+          "text": "Consider initiation of the following:\nIA Papaverine 30MG followed by infusion of 180mg over 10 hours\n[8]\nExtremity sympatholysis with plexus or nerve block\n[9]\nIA CCB → Nicardipine IA infusion\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        }
+      ]
+    },
+    "Initial_steps:": {
+      "text": "If iatrogenic, maintain catheter in place:\nStart slow infusion of isotonic solution to keep patent\nto be used for arteriogram and administration of vasodilators\nThoroughly evaluate medications administered through this catheter\nEvaluate severity of injury (soft compartments, neuro-vascular exam)\nAnticoagulation with IV\nheparin\nrecommended\nTreat pain and symptoms",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Some clinicians advocate initiation of coverage for\ngram positive\nand\nanaerobic\norganisms if patient is IV drug abuser\nTroer et al. withheld Antibiotics in this patient population if no sign of infection present.  No cellulitic changes or spreading infection noted in those managed with antibiotic.\n[7]",
+          "tables": []
+        },
+        "If_Evidence_of_Vasospasm": {
+          "text": "Consider initiation of the following:\nIA Papaverine 30MG followed by infusion of 180mg over 10 hours\n[8]\nExtremity sympatholysis with plexus or nerve block\n[9]\nIA CCB → Nicardipine IA infusion\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Some clinicians advocate initiation of coverage for\ngram positive\nand\nanaerobic\norganisms if patient is IV drug abuser\nTroer et al. withheld Antibiotics in this patient population if no sign of infection present.  No cellulitic changes or spreading infection noted in those managed with antibiotic.\n[7]",
+      "subsections": {
+        "If_Evidence_of_Vasospasm": {
+          "text": "Consider initiation of the following:\nIA Papaverine 30MG followed by infusion of 180mg over 10 hours\n[8]\nExtremity sympatholysis with plexus or nerve block\n[9]\nIA CCB → Nicardipine IA infusion\n[10]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gram positive",
+          "url": "https://wikem.org/wiki/Gram_positive"
+        },
+        {
+          "text": "anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        }
+      ]
+    },
+    "If_Evidence_of_Vasospasm": {
+      "text": "Consider initiation of the following:\nIA Papaverine 30MG followed by infusion of 180mg over 10 hours\n[8]\nExtremity sympatholysis with plexus or nerve block\n[9]\nIA CCB → Nicardipine IA infusion\n[10]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Much of management depends on extent of injury and timing.\nAdmission for serial neurovascular exams and compartment checks is recommended with early elevation and aggressive pain management.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CT contrast media extravasation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CT contrast media extravasation",
+          "url": "https://wikem.org/wiki/CT_contrast_media_extravasation"
+        }
+      ]
+    }
+  }
+}

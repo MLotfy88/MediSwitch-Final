@@ -1,0 +1,127 @@
+{
+  "drug_name": "Unstable_spine_fractures",
+  "url": "https://wikem.org/wiki/Unstable_spine_fractures",
+  "scraped_at": "2026-01-10T08:04:34.588471",
+  "sections": {
+    "Background": {
+      "text": "Denis' three column concept helps to determine whether a vertebral fracture is stable or unstable\nI: Anterior column\nAnterior longitudinal ligament\nAnterior 1/2 of the vertebral body and disk\nII: Middle column\nPosterior 1/2 of the vertebral body and disk\nPosterior longitudinal ligament\nIII: Posterior column\nFacet joints\nLigament flavum\nPosterior elements",
+      "subsections": {
+        "Examples_of_Unstable_Cervical_Spine_Fractures": {
+          "text": "Jefferson's fracture\nBilateral\nCervical facet dislocation\nOdontoid fracture\n, type II or III\nAtlanto-occipital dissociation\nHangman's fracture\nFlexion teardrop\nMnemonic: \"Jefferson Bit Off A Hangman's Thumb\"",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Jefferson's fracture",
+          "url": "https://wikem.org/wiki/Jefferson%27s_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Flexion teardrop",
+          "url": "https://wikem.org/wiki/Flexion_teardrop"
+        }
+      ]
+    },
+    "Examples_of_Unstable_Cervical_Spine_Fractures": {
+      "text": "Jefferson's fracture\nBilateral\nCervical facet dislocation\nOdontoid fracture\n, type II or III\nAtlanto-occipital dissociation\nHangman's fracture\nFlexion teardrop\nMnemonic: \"Jefferson Bit Off A Hangman's Thumb\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Jefferson's fracture",
+          "url": "https://wikem.org/wiki/Jefferson%27s_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Flexion teardrop",
+          "url": "https://wikem.org/wiki/Flexion_teardrop"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "I:Always stable\nII:Possibly unstable\nIII:Always unstable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CT with reconstructions\nConsider plain x-ray in conjunction as this is what is used during orthospine follow up\nMRI to assess cord and ligament damage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "C-collar\nConsult ortho or spine as needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cervical Spine Injuries\nSpinal Cord Trauma\nSpinal Cord Compression (Non-Traumatic)\nNeurogenic Shock\nC-spine (NEXUS)\nC-Spine X-Ray\nFractures (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical Spine Injuries",
+          "url": "https://wikem.org/wiki/Cervical_Spine_Injuries"
+        },
+        {
+          "text": "Spinal Cord Trauma",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Trauma"
+        },
+        {
+          "text": "Spinal Cord Compression (Non-Traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Compression_(Non-Traumatic)"
+        },
+        {
+          "text": "Neurogenic Shock",
+          "url": "https://wikem.org/wiki/Neurogenic_Shock"
+        },
+        {
+          "text": "C-spine (NEXUS)",
+          "url": "https://wikem.org/wiki/C-spine_(NEXUS)"
+        },
+        {
+          "text": "C-Spine X-Ray",
+          "url": "https://wikem.org/wiki/C-Spine_X-Ray"
+        },
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        }
+      ]
+    }
+  }
+}

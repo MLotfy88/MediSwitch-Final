@@ -1,0 +1,194 @@
+{
+  "drug_name": "Triplane_fracture",
+  "url": "https://wikem.org/wiki/Triplane_fracture",
+  "scraped_at": "2026-01-10T08:04:16.675853",
+  "sections": {
+    "Background": {
+      "text": "Salter-Harris\ntype IV fracture of distal tibia with components in all 3 planes\nPlanes\nEpiphysis fractured through sagittal plane\nPhysis fractured transversely (lateral open end to medial fused end)\nMetaphysis fractured in coronal plane\nOccurs typically in adolescents, between ages 10-17\nPhysiological closure of the growth plate begins medially\nLateral growth plate is open and vulnerable to this type of fracture\nTypically a result of external rotation force",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris",
+          "url": "https://wikem.org/wiki/Salter-Harris"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Ankle pain/deformity\nInability to bear weight\nLocal tenderness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess distal pulse, motor, and sensation\nXR\nAP view shows Salter-Harris III fracture\nLateral view shows Salter-Harris II fracture\nCT\nOften required to delineate degree of injury\nFracture involvement seen in all three planes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ortho consult in ED\nNonoperative\nUsually sufficient, indicated in <2 mm displacement\nOperative\nIf >2 mm displacement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Most can be followed as outpatient\n[1]",
+      "subsections": {
+        "Admit_for": {
+          "text": "Open fracture\nSigns of neurovascular injury\nConcern for\ncompartment syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Admit_for": {
+      "text": "Open fracture\nSigns of neurovascular injury\nConcern for\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Growth arrest (about 1/3 of injuries)\nCompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Salter-Harris fractures\nTillaux fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://www.orthobullets.com/pediatrics/4029/triplane-fractures\nhttps://radiopaedia.org/articles/triplane-fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

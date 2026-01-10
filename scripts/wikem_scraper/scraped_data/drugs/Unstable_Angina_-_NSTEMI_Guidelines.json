@@ -1,0 +1,191 @@
+{
+  "drug_name": "Unstable_Angina_-_NSTEMI_Guidelines",
+  "url": "https://wikem.org/wiki/Unstable_Angina_-_NSTEMI_Guidelines",
+  "scraped_at": "2026-01-10T08:04:33.204964",
+  "sections": {
+    "Summary_of_Class_I_Guidelines": {
+      "text": "Aspirin\nshould be initiated as soon as possible and continued indefinitely in patients who tolerate it. (\nLevel A\n)\nClopidogrel\nloading dose should be initiated as soon as possible in patients unable to tolerate aspirin.  (\nLevel B\n)\nMedium/High risk patients in whom initial invasive strategy is planned should receive dual therapy (Level A) including aspirin (Level A) and:\nBefore PCI one of the following:\nClopidogrel (\nLevel B\n)\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nOtherwise during PCI one of the following:\nClopidogrel (\nLevel A\n) if not started beforehand\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nPrasugrel\n(\nLevel B\n)\nIf an initial conservative (i.e. noninvasive) strategy is selected, clopidogrel should be added to ASA and anticoagulant therapy as soon as possible after admission. (\nLevel B\n)\nIf an initial conservative strategy is selected and recurrent symptoms/ischemia, heart failure, or serious arrhythmias subsequently appear, then diagnostic angiography should be performed. (\nLevel A\n). Either an IV GP IIb/IIIa inhibitor (\nLevel A\n) or clopidogrel (\nLevel B\n) should be added to ASA and anticoagulant therapy before diagnostic angiography. (\nLevel C\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Summary_of_Class_IIa_Guidelines": {
+      "text": "If an initial conservative strategy is selected and patient has recurrent ischemic discomfort with clopidogrel, ASA, and\nanticoagulant\ntherapy, it is reasonable to add a GP IIb/IIIa inhibitor before diagnostic angiography. (\nLevel C\n)\nIf an initial invasive strategy is selected, it is reasonable to omit administration of an IV GP IIb/IIIa inhibitor if\nbivalirudin\nis selected as the anticoagulant and clopidogrel was administered at least 6 hours earlier than planned catheterization or PCI. (\nLevel B\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Summary_of_Class_IIb_Guidelines": {
+      "text": "If an initial conservative strategy is selected, it may be reasonable to add\neptifibatide\nor\ntirofiban\nto\nanticoagulant\nand oral antiplatelet therapy.19,20 (\nLevel B\n)\nPrasugrel may be considered for administration promptly upon presentation if PCI is planned, before definition of coronary anatomy if both the risk for bleeding is low and the need for CABG is considered unlikely. (\nLevel C\n)\nThe use of GP IIb/IIIa inhibitors may be considered in high-risk patients already receiving ASA and a thienopyridine who are selected for an invasive strategy, such as those with elevated\ntroponin\nlevels, diabetes, or significant ST-segment depression, and who are not otherwise at high risk for\nbleeding. (\nLevel B\n)\nIn patients with definite UA/NSTEMI undergoing PCI, the use of a loading dose of clopidogrel of 600mg, followed by a higher maintenance dose of 150mg daily for 6 days, then 75mg daily may be reasonable in patients not considered at high risk for bleeding. (\nLevel B\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Summary_of_Class_IIb_Guidelines_2": {
+      "text": "Abciximab\nshould not be administered to patients in whom PCI is not planned. (\nLevel A\n)\nLow risk patients for ischemic events (TIMI risk score 2) or at high risk of bleeding and who are already receiving ASA and clopidogrel, upstream GP IIb/IIIa inhibitors are not recommended. (\nLevel B\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Summary_of_Class_III_Guidelines": {
+      "text": "In UA/NSTEMI patients with a prior history of stroke or TIA for whom PCI is planned, prasugrel is potentially harmful as part of a dual-antiplatelet therapy regimen.(\nLevel B\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Non ST-Elevation Myocardial Infarction (NSTEMI)\nUnstable Angina\nRecommendation Grading System",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non ST-Elevation Myocardial Infarction (NSTEMI)",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable Angina",
+          "url": "https://wikem.org/wiki/Unstable_Angina"
+        },
+        {
+          "text": "Recommendation Grading System",
+          "url": "https://wikem.org/wiki/Recommendation_Grading_System"
+        }
+      ]
+    },
+    "References": {
+      "text": "2011 ACCF/AHA Focused Update of the Guidelines for the Management of Patients With Unstable Angina/ Non −ST-Elevation Myocardial Infarction. Circulation 2011;123:2022-2060.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

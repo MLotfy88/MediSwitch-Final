@@ -1,0 +1,359 @@
+{
+  "drug_name": "Undifferentiated_lower_gastrointestinal_bleeding",
+  "url": "https://wikem.org/wiki/Undifferentiated_lower_gastrointestinal_bleeding",
+  "scraped_at": "2026-01-10T08:04:32.564876",
+  "sections": {
+    "Background": {
+      "text": "Loss of blood from the GI tract distal to the ligament of Treitz\nDiverticulosis\ncause majority; other conditions include\ncolitis\n, angiodysplasia, polyps,\ncolorectal cancer\n,\nhemorrhoids\n,\nanal fissures\n,\ninflammatory bowel disease\nMajority of cases originate distally to ileocecal valve, rather than small intestines\n[1]\nConsider recent procedures such as abdominal surgeries or colonoscopies/polypectomies\nMust consider upper GI bleed (especially rapid transit) as a source, as a significant number of lower GI bleeds have a concurrent upper GI bleed, brisk or not\n[2]\n80% of lower GI bleeding will resolve spontaneously\n[3]",
+      "subsections": {
+        "Medication_Risk_Factors": {
+          "text": "Obtain a thorough medication history to assess for new antiplatelets or anticoagulants\nSalicylates\nNSAIDs\nWarfarin\nand\nClopidogrel\nApixaban\nand\nRivaroxaban",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medication_Risk_Factors": {
+      "text": "Obtain a thorough medication history to assess for new antiplatelets or anticoagulants\nSalicylates\nNSAIDs\nWarfarin\nand\nClopidogrel\nApixaban\nand\nRivaroxaban",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Type_of_blood": {
+          "text": "Hematochezia\nUsually represents lower GI bleeding\nLeft colonic bleeding tends to be bright red, whereas right colonic is usually maroon and mixed with stool\n[4]\nMay represent upper GI source if bleeding is brisk; usually accompanied by hematemesis and hemodynamic instability\nMelena\nUsually represents bleeding from upper GI source (see\nupper GI bleed\n)\nMay represent slow bleeding or slow stool transit from lower GI source",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Type_of_blood": {
+      "text": "Hematochezia\nUsually represents lower GI bleeding\nLeft colonic bleeding tends to be bright red, whereas right colonic is usually maroon and mixed with stool\n[4]\nMay represent upper GI source if bleeding is brisk; usually accompanied by hematemesis and hemodynamic instability\nMelena\nUsually represents bleeding from upper GI source (see\nupper GI bleed\n)\nMay represent slow bleeding or slow stool transit from lower GI source",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Undifferentiated_lower_gastrointestinal_bleeding": {
+          "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Undifferentiated_lower_gastrointestinal_bleeding": {
+      "text": "Upper GI Bleeding\nDiverticular disease\nDiverticulosis\nDiverticulitis\nVascular ectasia / angiodysplasia\nInflammatory bowel disease\nInfectious\ncolitis\nMesenteric Ischemia\n/\nischemic colitis\nMeckel's diverticulum\nColorectal cancer\n/ polyps\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nAortoenteric fistula\nNearly 100% mortality if untreated\nConsider in patients with gastrointestinal bleeding and known abdominal aortic aneurysms or aortic grafts\nRectal foreign body\nRectal ulcer (\nHIV\n,\nSyphilis\n,\nSTI\n)\nAnal fissure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI Bleeding",
+          "url": "https://wikem.org/wiki/Upper_GI_Bleeding"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Colorectal cancer",
+          "url": "https://wikem.org/wiki/Colorectal_cancer"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Aortoenteric fistula",
+          "url": "https://wikem.org/wiki/Aortoenteric_fistula"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Digital rectal exam for guaiac or assessment of anorectal structural abnormalities\nNote that guaiac tests have low sensitivity, many false positive etiologies (red meat, red jello, certain fruits/veggies, iron), and may not change management clinically\nConsider chart review to search for prior colonoscopy/endoscopy results",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nConsider q3-12hr serial Hgb, depending on suspected severity of bleed\nInitial Hgb may be normal if bleeding is acute\nCMP\nBUN may be elevated if bleeding occurs from site high in GI tract, due to heme digestion to nitrogenous substances reflected in BUN\n[5]\nCoags\nType and screen/cross\nConsider:\nCTA; Requires brisk bleeding rate (0.4-0.5 ml/min) for detection\n[6]\nTagged red blood cell scan. This is not typically an emergency study and is only recommended if CTA is unavailable or contraindicated\nECG\n(if concern for silent ischemia in patients likely to have CAD)\nFibrinogen",
+          "tables": []
+        },
+        "Definitive_studies": {
+          "text": "Consider:\nAnoscopy if source of bleeding cannot be identified on external exam\nProctoscopy (22cm from anal verge)\nSigmoidoscopy (60cm from anal verge)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nConsider q3-12hr serial Hgb, depending on suspected severity of bleed\nInitial Hgb may be normal if bleeding is acute\nCMP\nBUN may be elevated if bleeding occurs from site high in GI tract, due to heme digestion to nitrogenous substances reflected in BUN\n[5]\nCoags\nType and screen/cross\nConsider:\nCTA; Requires brisk bleeding rate (0.4-0.5 ml/min) for detection\n[6]\nTagged red blood cell scan. This is not typically an emergency study and is only recommended if CTA is unavailable or contraindicated\nECG\n(if concern for silent ischemia in patients likely to have CAD)\nFibrinogen",
+      "subsections": {
+        "Definitive_studies": {
+          "text": "Consider:\nAnoscopy if source of bleeding cannot be identified on external exam\nProctoscopy (22cm from anal verge)\nSigmoidoscopy (60cm from anal verge)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definitive_studies": {
+      "text": "Consider:\nAnoscopy if source of bleeding cannot be identified on external exam\nProctoscopy (22cm from anal verge)\nSigmoidoscopy (60cm from anal verge)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "NPO, if there is foreseeable endoscopy or surgery\nFluid resuscitation for all\nConsider transfusing\npRBCs\n/\nplatelets\nfor unstable patients or with very low hemoglobin (<7).  with cardiovascular disease use trigger of 8 and target of 10 hemoglobin.\nBase decision to transfuse on individual clinical factors. Active bleeding and tachycardia may call for transfusion despite a normal Hgb\nCategorize as stable versus unstable using\nshock index\n: <1 stable; >1 unstable or suspect active bleeding\nUnstable\nCT angiography is preferred for hemodynamically unstable patients due to speed\n[7]\nPositive CTA demonstrating extravasation/blush calls for IR consult for transcatheter arteriography and subsequent embolization.\nConsult GI for emergent colonoscopy, as it is the diagnostic/therapeutic procedure of choice (within 12-24 hours); upper endoscopy may be needed if CTA does not reveal source of GI bleeding\nPatients with a positive CTA are more likely to have a source found on subsequent colonoscopy\nConsult surgery if endoscopy and IR embolization fail or are not available\nStable\nSee \"Disposition\"",
+      "subsections": {
+        "Major_Bleed_and_Existing_Coagulopathy": {
+          "text": "Correct coagulopathy\nPCC\n(preferred) or\nFFP\nfor patients on\nwarfarin\nVitamin K\n10mg IV (best bioavailability in critical patients)\nConsider targeted reversal agents for DOACs in life-threatening LGIB refractory to initial resuscitation treatments, if the DOAC was taken in the past 24 hours: See\nAnticoagulant reversal for life-threatening bleeds\nPlatelets should be administered to thrombocytopenic patients to a goal of 30-50, depending if endoscopy is planned\n[8]\nACG recommends against\nTranexamic acid\nas it has no evidence for benefit but may increase VTE",
+          "tables": []
+        },
+        "Special_situations": {
+          "text": "Marathon runners - 16% will have hematochezia within 24-48 hrs of race and 85% will be guaiac positive\n[9]\nNon-actionable unless abdominal pain present",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Major_Bleed_and_Existing_Coagulopathy": {
+      "text": "Correct coagulopathy\nPCC\n(preferred) or\nFFP\nfor patients on\nwarfarin\nVitamin K\n10mg IV (best bioavailability in critical patients)\nConsider targeted reversal agents for DOACs in life-threatening LGIB refractory to initial resuscitation treatments, if the DOAC was taken in the past 24 hours: See\nAnticoagulant reversal for life-threatening bleeds\nPlatelets should be administered to thrombocytopenic patients to a goal of 30-50, depending if endoscopy is planned\n[8]\nACG recommends against\nTranexamic acid\nas it has no evidence for benefit but may increase VTE",
+      "subsections": {
+        "Special_situations": {
+          "text": "Marathon runners - 16% will have hematochezia within 24-48 hrs of race and 85% will be guaiac positive\n[9]\nNon-actionable unless abdominal pain present",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_situations": {
+      "text": "Marathon runners - 16% will have hematochezia within 24-48 hrs of race and 85% will be guaiac positive\n[9]\nNon-actionable unless abdominal pain present",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "Oakland score can help determine if outpatient management is feasible; a score of <8 can be considered for safe discharge\n[10]\nBased on a recent meta-analysis, the Oakland score, compared to other LGIB risk scores, has good performance in predicting safe discharge, major bleeding, and need for transfusion\n[11]\nBleeding from\nhemorrhoids\n,\nanal fissures\n, or known\nIBD\n(hemodynamically stable)\nMinor, self-terminating bleed with no other indication for admission (\nshock index\n>1; low risk score calculated)",
+          "tables": []
+        },
+        "Admission": {
+          "text": "Melena\nSignificant anemia\nHemodynamic instability\nIdentified as high risk based on Oakland score",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Oakland score can help determine if outpatient management is feasible; a score of <8 can be considered for safe discharge\n[10]\nBased on a recent meta-analysis, the Oakland score, compared to other LGIB risk scores, has good performance in predicting safe discharge, major bleeding, and need for transfusion\n[11]\nBleeding from\nhemorrhoids\n,\nanal fissures\n, or known\nIBD\n(hemodynamically stable)\nMinor, self-terminating bleed with no other indication for admission (\nshock index\n>1; low risk score calculated)",
+      "subsections": {
+        "Admission": {
+          "text": "Melena\nSignificant anemia\nHemodynamic instability\nIdentified as high risk based on Oakland score",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Melena\nSignificant anemia\nHemodynamic instability\nIdentified as high risk based on Oakland score",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Gastrointestinal_Bleeding_Pages": {
+          "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Balloon tamponade for massive GI bleeding",
+          "url": "https://wikem.org/wiki/Balloon_tamponade_for_massive_GI_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        }
+      ]
+    },
+    "Gastrointestinal_Bleeding_Pages": {
+      "text": "Adults\nUpper GI bleeding\nBalloon tamponade for massive GI bleeding\nUpper GI bleeding guidelines\nEBQ:Omeprazole in Bleeding Peptic Ulcers\nLower GI bleeding\nPediatrics\nGastrointestinal bleeding (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Balloon tamponade for massive GI bleeding",
+          "url": "https://wikem.org/wiki/Balloon_tamponade_for_massive_GI_bleeding"
+        },
+        {
+          "text": "Upper GI bleeding guidelines",
+          "url": "https://wikem.org/wiki/Upper_GI_bleeding_guidelines"
+        },
+        {
+          "text": "EBQ:Omeprazole in Bleeding Peptic Ulcers",
+          "url": "https://wikem.org/wiki/EBQ:Omeprazole_in_Bleeding_Peptic_Ulcers"
+        },
+        {
+          "text": "Gastrointestinal bleeding (peds)",
+          "url": "https://wikem.org/wiki/Gastrointestinal_bleeding_(peds)"
+        }
+      ]
+    }
+  }
+}

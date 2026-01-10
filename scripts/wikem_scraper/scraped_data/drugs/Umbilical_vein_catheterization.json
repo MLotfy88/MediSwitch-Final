@@ -1,0 +1,202 @@
+{
+  "drug_name": "Umbilical_vein_catheterization",
+  "url": "https://wikem.org/wiki/Umbilical_vein_catheterization",
+  "scraped_at": "2026-01-10T08:04:32.253347",
+  "sections": {
+    "Indications": {
+      "text": "Emergency access and stabilization of the newly born with lack of peripheral access\nRemains viable and patent until ~1 week after birth\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Omphalitis\nPeritonitis\nNecrotizing enterocolitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Omphalitis",
+          "url": "https://wikem.org/wiki/Omphalitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Necrotizing enterocolitis",
+          "url": "https://wikem.org/wiki/Necrotizing_enterocolitis"
+        }
+      ]
+    },
+    "Equipment_Needed": {
+      "text": "Fluid chamber, IV tubing, infusion pump, filter (0.22 µm), short length of IV tubing, three-way stopcock\nUmbilical catheter (3.5 to 5 Fr)\n3-0 silk suture on a curved needle\nCurved iris forceps without teeth\nSmall clamps, forceps, scissors, needle holder\n10 mL of heparinized solution for flush (1–2 units heparin per milliliter of fluid)\nSterile drapes, surgical cap, mask, gown, and gloves",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Place patient under warmer\nHold umbilical stump and scrub with betadine (avoid pooling at patient's sides secondary to to blistering under warmer\nDrape in sterile fashion (leave head exposed for observation)\nFlush catheter (3.5 Fr for preterm to\n5 Fr for term newborns\nand attach to\nthree-way stopcock\n)\nIf emergency and UVC kit not available, consider 3.5 Fr ≈ 18.5 gauge and 5 Fr ≈ 16 ga\n[2]\nGrab long angiocaths and remove from needle in sterile fashion\nPlace purse string suture or umbilical tape at jct of skin and cord to provide hemostasis and to secure line\nCut cord with scalpel 1 cm from skin\nIdentify the vein (larger, thin walled vessel usually at 12 o'clock position that continues to bleed. usu 2 arteries, 1 vein)\nFeed the \"mouth\"\nGently dilate catheter with forceps, clearing thrombus\nGently\nadvance catheter until blood returns and then advance 1-2 cm more\n(usually a total of 4-5 cm in term infant)\nSecure the catheter using the purse string or umbilical tape and then secure to the patient\nThe catheter can be advanced to the IVC using a standardized graph, if CVP monitoring or high concentrations of glucose are indicated\nConfirm catheter location radiographically\n[3]\n[4]\nTravels cephalad until passing through ductus venosus\nIn contrast, umbilical arterial catheters travel down into iliac arteries and then cephalad",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Hemorrhage\nInfection\nHepatic necrosis (secondary to to injection of sclerosing solutions)\nAir embolism (especially on removal of catheter)\nCatheter tip embolism\nVessel perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Newborn Resuscitation",
+      "subsections": {
+        "Vascular_access_types": {
+          "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn Resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_Resuscitation"
+        },
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "External jugular vein cannulation",
+          "url": "https://wikem.org/wiki/External_jugular_vein_cannulation"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "First10EM - Umbilical Vein Catheterization",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=CrUnsFy5iGU}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=CrUnsFy5iGU}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

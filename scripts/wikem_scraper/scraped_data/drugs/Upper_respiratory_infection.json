@@ -1,0 +1,493 @@
+{
+  "drug_name": "Upper_respiratory_infection",
+  "url": "https://wikem.org/wiki/Upper_respiratory_infection",
+  "scraped_at": "2026-01-10T08:04:33.738927",
+  "sections": {
+    "Background": {
+      "text": "Infection and inflammation of the upper respiratory tract, typically self-limiting\nMay involve any portion of the upper airway, thus causing rhinitis, sinusitis, pharyngitis, or laryngitis, etc\nA variety of viruses and bacteria can cause an URI\nRhinovirus is most common cause\n[1]\nOther causes include:\ncoronavirus\n,\nadenovirus\n,\ninfluenza\n,\nRespiratory syncytial virus\n,\nadenovirus\n,\nenterovirus\n,\nparainfluenza\nPathophys: Aerosolized (droplet and airborne) transmission, deposition in the nasopharyngeal mucosa, hours-days incubation period, host inflammatory response leading to symptoms\nAlthough aerosol transmission predominates, contact (ex. hand to eye) transmission is also common",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Common cold\n[2]\nSore throat\nMalaise\nLow-grade\nfever\nFevers are more common in pediatrics than adults\nCough\n(usually 24-48 hrs later)\nPostinfectious cough can last for weeks after other symptoms have resolved\nRhinorrhea\nNasal congestion\nSneezing\nMyalgia\nHoarse voice\nDepending on the organism, typically symptoms peak by day 3 or 4, resolve by day 7",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "Myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        },
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Cough": {
+      "text": "",
+      "subsections": {
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nDepending on provider preference, can send viral panels, but this often doesn't change management\nExceptions: Tamiflu for flu, paxlovid for COVID, etc\nRule out other serious causes of this presentation, such as\npneumonia\n, bacterial sinusitis, epiglottitis, etc",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care and symptomatic relief are the mainstays of management\nAnalgesics, including\nibuprofen\nand\nacetaminophen\n[3]\nNasal decongestants\n[4]\nOral decongestants such as\npseudoephedrine\nmay be used, but contraindicated in systemic\nhypertension\nTopical decongestants: Nasal saline spray and\noxymetazoline\nspray can reduce nasal passageway resistance\nAvoid oxymetazoline use in children due to risk of unintended a2-agonism; limit number of days to <3 to prevent rhinitis medicamentosa\nAntitussives have equivocal evidence but may be trialed for symptomatic relief\n[5]\nCough suppressants:\nDextromethorphan\nor Benzonatate; avoid in young children\nCough expectorant: Guaifenesin\nTopical anesthetics for sore throat:\nBenzocaine\n, menthol lozenges\nAvoid prescribing antibiotics\n[6]\nMucolytics: little evidence to support usage\nBronchodilators\nif\nwheezing\npresent",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "pseudoephedrine",
+          "url": "https://wikem.org/wiki/Pseudoephedrine"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        },
+        {
+          "text": "Dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        },
+        {
+          "text": "Benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "Bronchodilators",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

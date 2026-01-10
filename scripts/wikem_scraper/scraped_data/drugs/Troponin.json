@@ -1,0 +1,277 @@
+{
+  "drug_name": "Troponin",
+  "url": "https://wikem.org/wiki/Troponin",
+  "scraped_at": "2026-01-10T08:04:22.456521",
+  "sections": {
+    "Background": {
+      "text": "During contraction of muscle, thick filaments of myosin slide past thin filaments of actin by calcium-mediated ATP-dependent contraction\nReleased calcium binds to troponin C, T, and I, which regulate muscle contraction\nTroponins do not change in trauma, skeletal muscle disease, exercise\nTroponin C found in all tissue and is not cardiac marker\nTroponin T is qualitative assay\nTroponin I is quantitative assay\nHigh sensitivity troponin T (hsTnT) is a quantitative assay",
+      "subsections": {
+        "Cardiac_Enzymes_Over_Time": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Myoglobin",
+                "Interval (hours)": "1-4",
+                "Peak Elevation (hours)": "6-7",
+                "Return to Normal": "18-24 hours"
+              },
+              {
+                "Type": "TroponinI",
+                "Interval (hours)": "3-12",
+                "Peak Elevation (hours)": "10-24",
+                "Return to Normal": "3-10 days"
+              },
+              {
+                "Type": "TroponinT",
+                "Interval (hours)": "3-12",
+                "Peak Elevation (hours)": "10-24",
+                "Return to Normal": "5-14 days"
+              },
+              {
+                "Type": "CK-MB",
+                "Interval (hours)": "4-12",
+                "Peak Elevation (hours)": "12-24",
+                "Return to Normal": "2-3 days"
+              },
+              {
+                "Type": "LDH",
+                "Interval (hours)": "8-12",
+                "Peak Elevation (hours)": "24-48",
+                "Return to Normal": "10-14 days"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiac_Enzymes_Over_Time": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Myoglobin",
+            "Interval (hours)": "1-4",
+            "Peak Elevation (hours)": "6-7",
+            "Return to Normal": "18-24 hours"
+          },
+          {
+            "Type": "TroponinI",
+            "Interval (hours)": "3-12",
+            "Peak Elevation (hours)": "10-24",
+            "Return to Normal": "3-10 days"
+          },
+          {
+            "Type": "TroponinT",
+            "Interval (hours)": "3-12",
+            "Peak Elevation (hours)": "10-24",
+            "Return to Normal": "5-14 days"
+          },
+          {
+            "Type": "CK-MB",
+            "Interval (hours)": "4-12",
+            "Peak Elevation (hours)": "12-24",
+            "Return to Normal": "2-3 days"
+          },
+          {
+            "Type": "LDH",
+            "Interval (hours)": "8-12",
+            "Peak Elevation (hours)": "24-48",
+            "Return to Normal": "10-14 days"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "True_Positive": {
+          "text": "Occlusive myocardial infarction\nSTEMI\nNSTEMI",
+          "tables": []
+        },
+        "False_(Non-CAD)_Positives": {
+          "text": "Pericarditis\nMyocarditis\nPE\nCHF\nSepsis\nDissection\nArrhythmias\nCVA\nSAH\nBurns\nRenal failure\nAssume true positive until proven otherwise\nESRD\n86% elevated predialysis in troponin-T\n6% elevated predialysis in troponin-I\nno difference in post-MI troponin-I clearance rate in ESRD vs. normal GFR\nCardioversion\nCardiotoxic medications\nAmyloidosis\nRheumatoid Factor\nHeterophilic antibodies\nApical ballooning syndrome\nCardiac procedures (surgery, ablation, pacing, stenting)\nExtreme exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Elevated_Troponin": {
+      "text": "",
+      "subsections": {
+        "True_Positive": {
+          "text": "Occlusive myocardial infarction\nSTEMI\nNSTEMI",
+          "tables": []
+        },
+        "False_(Non-CAD)_Positives": {
+          "text": "Pericarditis\nMyocarditis\nPE\nCHF\nSepsis\nDissection\nArrhythmias\nCVA\nSAH\nBurns\nRenal failure\nAssume true positive until proven otherwise\nESRD\n86% elevated predialysis in troponin-T\n6% elevated predialysis in troponin-I\nno difference in post-MI troponin-I clearance rate in ESRD vs. normal GFR\nCardioversion\nCardiotoxic medications\nAmyloidosis\nRheumatoid Factor\nHeterophilic antibodies\nApical ballooning syndrome\nCardiac procedures (surgery, ablation, pacing, stenting)\nExtreme exertion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Dissection",
+          "url": "https://wikem.org/wiki/Dissection"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "Cardioversion",
+          "url": "https://wikem.org/wiki/Cardioversion"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cardiac Enzymes\nAcute Coronary Syndrome (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac Enzymes",
+          "url": "https://wikem.org/wiki/Cardiac_Enzymes"
+        },
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Big Labs, Little People",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Jain N, Hedayati SS. How should clinicians interpret cardiac troponin values in patients with ESRD? Seminars in dialysis. 2011;24(4):398-400. doi:10.1111/j.1525-139X.2011.00912.x.\nEllis K, Dreisbach AW, Lertora JL. Plasma elimination of cardiac troponin I in end-stage renal disease. South Med J. 2001 Oct;94(10):993-6. PubMed PMID: 11702827.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

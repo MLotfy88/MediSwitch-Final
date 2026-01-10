@@ -1,0 +1,605 @@
+{
+  "drug_name": "Tuberculous_lymphadenitis",
+  "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis",
+  "scraped_at": "2026-01-10T08:04:26.259411",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"scrofula\" when involves cervical lymph nodes\nMost common form of extrapulmonary\nTB\nTB causes up to 43% of peripheral lymphadenopathy in the developing world\n[1]\nIn the US, more common among Asian Pacific Islanders and in females\nMost cases occur in the setting of reactivation of latent infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Enlarging, painless, red, firm,\nmass\n, most commonly in the anterior or posterior cervical chain\nCan be complicated by ulceration, fistula, or\nabscess\nformation\nSystemic signs and symptoms are uncommon, except patients with\nHIV\n(in whom lymphadenitis is usually generalized)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "mass",
+          "url": "https://wikem.org/wiki/Neck_mass"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Reactive\nlymphadenopathy\n- most common\nViral\nURI\nEBV\nCMV\nStrep\n/\nstaph\nHIV\nToxoplasmosis\nBartonella henselae\n- kitten or flea exposure\nTuberculous lymphadenitis\n(scrofula)\nDescending infections from oral cavity\nLudwig's angina\nSialoadenitis\n(can also be chronic)\nTrauma\n-related\nHematoma\nPseudoaneurysm or AV fistula",
+          "tables": []
+        },
+        "Subacute_(weeks_to_months)": {
+          "text": "Cancer\nHPV\n-related squamous cell carcinoma\nUpper aerodigestive tract squamous cell carcinoma\nMetastatic disease\nLymphoma\nParotid tumors\nSystemic diseases\nAmyloidosis\nSarcoidosis\nSjögren syndrome",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Thyroid\nnodules or cancer\nGoiters\nGraves' disease\nHashimoto\nthyroiditis\nIodine deficiency\nLithium\nuse\nToxic multinodular\nCongenital cysts\nBranchial cleft\ncyst\nThyroglossal duct cyst- 2nd most common benign neck mass\nDermoid cyst\nCarotid body tumor\nGlomus jugulare or vagale tumor\nLaryngocele\nLipoma/liposarcoma\nParathyroid cysts or cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/HPV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        }
+      ]
+    },
+    "Lymphadenitis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Reactive\nlymphadenopathy\n- most common\nViral\nURI\nEBV\nCMV\nStrep\n/\nstaph\nHIV\nToxoplasmosis\nBartonella henselae\n- kitten or flea exposure\nTuberculous lymphadenitis\n(scrofula)\nDescending infections from oral cavity\nLudwig's angina\nSialoadenitis\n(can also be chronic)\nTrauma\n-related\nHematoma\nPseudoaneurysm or AV fistula",
+          "tables": []
+        },
+        "Subacute_(weeks_to_months)": {
+          "text": "Cancer\nHPV\n-related squamous cell carcinoma\nUpper aerodigestive tract squamous cell carcinoma\nMetastatic disease\nLymphoma\nParotid tumors\nSystemic diseases\nAmyloidosis\nSarcoidosis\nSjögren syndrome",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Thyroid\nnodules or cancer\nGoiters\nGraves' disease\nHashimoto\nthyroiditis\nIodine deficiency\nLithium\nuse\nToxic multinodular\nCongenital cysts\nBranchial cleft\ncyst\nThyroglossal duct cyst- 2nd most common benign neck mass\nDermoid cyst\nCarotid body tumor\nGlomus jugulare or vagale tumor\nLaryngocele\nLipoma/liposarcoma\nParathyroid cysts or cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/HPV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        }
+      ]
+    },
+    "Neck_mass": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Reactive\nlymphadenopathy\n- most common\nViral\nURI\nEBV\nCMV\nStrep\n/\nstaph\nHIV\nToxoplasmosis\nBartonella henselae\n- kitten or flea exposure\nTuberculous lymphadenitis\n(scrofula)\nDescending infections from oral cavity\nLudwig's angina\nSialoadenitis\n(can also be chronic)\nTrauma\n-related\nHematoma\nPseudoaneurysm or AV fistula",
+          "tables": []
+        },
+        "Subacute_(weeks_to_months)": {
+          "text": "Cancer\nHPV\n-related squamous cell carcinoma\nUpper aerodigestive tract squamous cell carcinoma\nMetastatic disease\nLymphoma\nParotid tumors\nSystemic diseases\nAmyloidosis\nSarcoidosis\nSjögren syndrome",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Thyroid\nnodules or cancer\nGoiters\nGraves' disease\nHashimoto\nthyroiditis\nIodine deficiency\nLithium\nuse\nToxic multinodular\nCongenital cysts\nBranchial cleft\ncyst\nThyroglossal duct cyst- 2nd most common benign neck mass\nDermoid cyst\nCarotid body tumor\nGlomus jugulare or vagale tumor\nLaryngocele\nLipoma/liposarcoma\nParathyroid cysts or cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Bartonella henselae",
+          "url": "https://wikem.org/wiki/Bartonella_henselae"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Sialoadenitis",
+          "url": "https://wikem.org/wiki/Sialoadenitis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/HPV"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Sjögren syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_syndrome"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Graves' disease",
+          "url": "https://wikem.org/wiki/Graves%27_disease"
+        },
+        {
+          "text": "thyroiditis",
+          "url": "https://wikem.org/wiki/Thyroiditis"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Fine needle aspiration: sensitivity and specificity (77 and 93% respectively)\n[2]\nExcisional biopsy (if FNA is not diagnostic)\nhighest diagnostic yield\nSubmit specimens for histology, culture, and Nucleic acid amplification testing\ncaseating granulomas on histopathology is highly suggestive of TB\nCT can be useful to identify involved lymph nodes for biopsy\nCXR: most do not have evidence of active pulmonary TB in nonendemic countries\nSputum smear and culture: positive only in approximately 20% of cases\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Medical therapy\nRifampicin\n,\nisoniazid\n,\nethambutol\n, and\npyrazinamide\n(RIPE therapy) given daily x 2 months\nFollowed by rifampicin and isoniazid (given either daily or three times weekly) x 4 months\nSurgical excision may be performed if medical therapy fails\nDo not I&D, can result in permanent sinuses and prolonged drainage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rifampicin",
+          "url": "https://wikem.org/wiki/Rifampicin"
+        },
+        {
+          "text": "isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "ethambutol",
+          "url": "https://wikem.org/wiki/Ethambutol"
+        },
+        {
+          "text": "pyrazinamide",
+          "url": "https://wikem.org/wiki/Pyrazinamide"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Lymphadenitis\nTB",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        }
+      ]
+    }
+  }
+}

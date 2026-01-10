@@ -1,0 +1,575 @@
+{
+  "drug_name": "Tumor_lysis_syndrome",
+  "url": "https://wikem.org/wiki/Tumor_lysis_syndrome",
+  "scraped_at": "2026-01-10T08:04:24.288120",
+  "sections": {
+    "Background": {
+      "text": "Typically occurs within 1 to 5 days of initiation of chemotherapy\nAssociated with treatment of acute\nleukemia\n, Burkitt\nlymphoma\n, NHL\nRarely observed in solid tumors or without prior therapy\nRapid turnover of tumor cells (spontaneously or after treatment) leading to release of:\nPotassium\nPhosphate\nBinds Ca causing\nhypocalcemia\nUric acid (converted from nucleic acids)",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "High cell proliferation rate\nLarge tumor burden (LDH) > 1500 IU/L, WBC ≥ 50 x 103 cells/L\nExtensive BM involvement\nTumor infiltration of the kidney",
+          "tables": []
+        },
+        "Cairo-Bishop_Definition": {
+          "text": "Laboratory Tumor Lysis Syndrome\nAbnormality in 2 or more of the following, occurring within 3d before or 7d after chemo:\nUric acid ≥ 8mg/dL or 25% increase from baseline\nPotassium ≥ 6mEq/L or 25% increase from baseline\nPhosphate ≥ 4.5mg/dL or 25% increase from baseline (≥ 6.5 for children)\nCalcium ≤ 7mg/dL or 25% decrease from baseline\nClinical Tumor Lysis Syndrome\nLaboratory tumor lysis syndrome plus 1 or more of the following:\nCreatinine > 1.5 times upper limit of age-adjusted reference range\nCardiac dysrhythmia or sudden death\nSeizure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "High cell proliferation rate\nLarge tumor burden (LDH) > 1500 IU/L, WBC ≥ 50 x 103 cells/L\nExtensive BM involvement\nTumor infiltration of the kidney",
+      "subsections": {
+        "Cairo-Bishop_Definition": {
+          "text": "Laboratory Tumor Lysis Syndrome\nAbnormality in 2 or more of the following, occurring within 3d before or 7d after chemo:\nUric acid ≥ 8mg/dL or 25% increase from baseline\nPotassium ≥ 6mEq/L or 25% increase from baseline\nPhosphate ≥ 4.5mg/dL or 25% increase from baseline (≥ 6.5 for children)\nCalcium ≤ 7mg/dL or 25% decrease from baseline\nClinical Tumor Lysis Syndrome\nLaboratory tumor lysis syndrome plus 1 or more of the following:\nCreatinine > 1.5 times upper limit of age-adjusted reference range\nCardiac dysrhythmia or sudden death\nSeizure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cairo-Bishop_Definition": {
+      "text": "Laboratory Tumor Lysis Syndrome\nAbnormality in 2 or more of the following, occurring within 3d before or 7d after chemo:\nUric acid ≥ 8mg/dL or 25% increase from baseline\nPotassium ≥ 6mEq/L or 25% increase from baseline\nPhosphate ≥ 4.5mg/dL or 25% increase from baseline (≥ 6.5 for children)\nCalcium ≤ 7mg/dL or 25% decrease from baseline\nClinical Tumor Lysis Syndrome\nLaboratory tumor lysis syndrome plus 1 or more of the following:\nCreatinine > 1.5 times upper limit of age-adjusted reference range\nCardiac dysrhythmia or sudden death\nSeizure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hyperuricemia\nNausea/vomiting\n,\nlethargy\n,\nrenal failure\nHyperkalemia\nMost immediate life-threatening element (due to\ndysrhythmias\n)\nHyperphosphatemia\nMay combine with Ca to precipiate in renal tubules\nHypocalcemia\nAnorexia, cramping, tetany,\nconfusion\n,\nseizures\n,\nV-tach\n/\ntorsades\nAcute Renal Failure\nMost common cause of morbidity\nUsually results from uric acid precipitation within renal tubules",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Hyperphosphatemia",
+          "url": "https://wikem.org/wiki/Hyperphosphatemia"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "V-tach",
+          "url": "https://wikem.org/wiki/V-tach"
+        },
+        {
+          "text": "torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Acute Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_Renal_Failure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Oncologic_Emergencies": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work_Up": {
+          "text": "CBC\nChemistry\nElevated Cr\nCalcium, phosphate\nUric Acid\nLDH - >2-3 fold increase stratifies into higher TLS risk\n[2]\nUrinalysis\nECG\nHyperkalemia\n,\nhypocalcemia\nAvoid IV contrast",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Work_Up": {
+      "text": "CBC\nChemistry\nElevated Cr\nCalcium, phosphate\nUric Acid\nLDH - >2-3 fold increase stratifies into higher TLS risk\n[2]\nUrinalysis\nECG\nHyperkalemia\n,\nhypocalcemia\nAvoid IV contrast",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Aggressive hydration - Goal urine output is 3L in 24hr",
+      "subsections": {
+        "Hypocalcemia_Treatment": {
+          "text": "≤7 or 25% decrease in baseline\nTreat only if symptomatic (increased Ca leads to increased Ca/phos deposition), such as widened QRS or ventricular arrhythmias\nCalcium gluconate\n50-200mg IV",
+          "tables": []
+        },
+        "Hyperphosphatemia_treatment": {
+          "text": "Treat the underlying cause\nRestrict calcium phosphate intake\nIV Normal Saline (if normal renal fx)\nAcetazolamide\n(500mg IV q6hr) - if normal renal function\nPhosphate Binder - Aluminum hydroxide (50-150mg/kg PO q4-6h) - limited effect\nDialysis if refractory\nConsider sevelamer 800-1600mg PO tid to avoid side effects of aluminum toxicity and hypercalcemia from aluminum hydroxide treatment",
+          "tables": []
+        },
+        "Hyperuricemia_Treatment": {
+          "text": "≥8 or 25% increase\nAllopurinol\nActs slowly; only helpful for preventing future production of uric acid\n10mg/kg/d PO q8\nOR\n200-400mg/m2 IV q12; renally dosed\nInhibition of xanthine oxidase can last 18-30h\nUrate Oxidase\nRasburicase\n0.05-0.2mg/kg IV\nCan be used for BOTH prevention and treatment\nUric acid final product of purine metabolism\nUrate oxidase converts uric acid to allantoin (5-10x more soluble)",
+          "tables": []
+        },
+        "Hyperkalemia_Treatment": {
+          "text": "Only give Ca for cardiovascular instability (e.g.ventricular arrhythmias, widened QRS)\nGiving Ca leads to increased Ca/phos deposition which leads to renal failure\nSee\nHyperkalemia\nfor treatment options",
+          "tables": []
+        },
+        "Dialysis_Criteria": {
+          "text": "Potassium >6\nSignificant renal insufficiency (Creatinine >10)\nUric Acid >10\nSymptomatic\nhypocalcemia\nSerum phosphorus >10\nVolume overload",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Hypocalcemia_Treatment": {
+      "text": "≤7 or 25% decrease in baseline\nTreat only if symptomatic (increased Ca leads to increased Ca/phos deposition), such as widened QRS or ventricular arrhythmias\nCalcium gluconate\n50-200mg IV",
+      "subsections": {
+        "Hyperphosphatemia_treatment": {
+          "text": "Treat the underlying cause\nRestrict calcium phosphate intake\nIV Normal Saline (if normal renal fx)\nAcetazolamide\n(500mg IV q6hr) - if normal renal function\nPhosphate Binder - Aluminum hydroxide (50-150mg/kg PO q4-6h) - limited effect\nDialysis if refractory\nConsider sevelamer 800-1600mg PO tid to avoid side effects of aluminum toxicity and hypercalcemia from aluminum hydroxide treatment",
+          "tables": []
+        },
+        "Hyperuricemia_Treatment": {
+          "text": "≥8 or 25% increase\nAllopurinol\nActs slowly; only helpful for preventing future production of uric acid\n10mg/kg/d PO q8\nOR\n200-400mg/m2 IV q12; renally dosed\nInhibition of xanthine oxidase can last 18-30h\nUrate Oxidase\nRasburicase\n0.05-0.2mg/kg IV\nCan be used for BOTH prevention and treatment\nUric acid final product of purine metabolism\nUrate oxidase converts uric acid to allantoin (5-10x more soluble)",
+          "tables": []
+        },
+        "Hyperkalemia_Treatment": {
+          "text": "Only give Ca for cardiovascular instability (e.g.ventricular arrhythmias, widened QRS)\nGiving Ca leads to increased Ca/phos deposition which leads to renal failure\nSee\nHyperkalemia\nfor treatment options",
+          "tables": []
+        },
+        "Dialysis_Criteria": {
+          "text": "Potassium >6\nSignificant renal insufficiency (Creatinine >10)\nUric Acid >10\nSymptomatic\nhypocalcemia\nSerum phosphorus >10\nVolume overload",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium gluconate",
+          "url": "https://wikem.org/wiki/Calcium_gluconate"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Hyperphosphatemia_treatment": {
+      "text": "Treat the underlying cause\nRestrict calcium phosphate intake\nIV Normal Saline (if normal renal fx)\nAcetazolamide\n(500mg IV q6hr) - if normal renal function\nPhosphate Binder - Aluminum hydroxide (50-150mg/kg PO q4-6h) - limited effect\nDialysis if refractory\nConsider sevelamer 800-1600mg PO tid to avoid side effects of aluminum toxicity and hypercalcemia from aluminum hydroxide treatment",
+      "subsections": {
+        "Hyperuricemia_Treatment": {
+          "text": "≥8 or 25% increase\nAllopurinol\nActs slowly; only helpful for preventing future production of uric acid\n10mg/kg/d PO q8\nOR\n200-400mg/m2 IV q12; renally dosed\nInhibition of xanthine oxidase can last 18-30h\nUrate Oxidase\nRasburicase\n0.05-0.2mg/kg IV\nCan be used for BOTH prevention and treatment\nUric acid final product of purine metabolism\nUrate oxidase converts uric acid to allantoin (5-10x more soluble)",
+          "tables": []
+        },
+        "Hyperkalemia_Treatment": {
+          "text": "Only give Ca for cardiovascular instability (e.g.ventricular arrhythmias, widened QRS)\nGiving Ca leads to increased Ca/phos deposition which leads to renal failure\nSee\nHyperkalemia\nfor treatment options",
+          "tables": []
+        },
+        "Dialysis_Criteria": {
+          "text": "Potassium >6\nSignificant renal insufficiency (Creatinine >10)\nUric Acid >10\nSymptomatic\nhypocalcemia\nSerum phosphorus >10\nVolume overload",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Hyperuricemia_Treatment": {
+      "text": "≥8 or 25% increase\nAllopurinol\nActs slowly; only helpful for preventing future production of uric acid\n10mg/kg/d PO q8\nOR\n200-400mg/m2 IV q12; renally dosed\nInhibition of xanthine oxidase can last 18-30h\nUrate Oxidase\nRasburicase\n0.05-0.2mg/kg IV\nCan be used for BOTH prevention and treatment\nUric acid final product of purine metabolism\nUrate oxidase converts uric acid to allantoin (5-10x more soluble)",
+      "subsections": {
+        "Hyperkalemia_Treatment": {
+          "text": "Only give Ca for cardiovascular instability (e.g.ventricular arrhythmias, widened QRS)\nGiving Ca leads to increased Ca/phos deposition which leads to renal failure\nSee\nHyperkalemia\nfor treatment options",
+          "tables": []
+        },
+        "Dialysis_Criteria": {
+          "text": "Potassium >6\nSignificant renal insufficiency (Creatinine >10)\nUric Acid >10\nSymptomatic\nhypocalcemia\nSerum phosphorus >10\nVolume overload",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Rasburicase",
+          "url": "https://wikem.org/wiki/Rasburicase"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Hyperkalemia_Treatment": {
+      "text": "Only give Ca for cardiovascular instability (e.g.ventricular arrhythmias, widened QRS)\nGiving Ca leads to increased Ca/phos deposition which leads to renal failure\nSee\nHyperkalemia\nfor treatment options",
+      "subsections": {
+        "Dialysis_Criteria": {
+          "text": "Potassium >6\nSignificant renal insufficiency (Creatinine >10)\nUric Acid >10\nSymptomatic\nhypocalcemia\nSerum phosphorus >10\nVolume overload",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Dialysis_Criteria": {
+      "text": "Potassium >6\nSignificant renal insufficiency (Creatinine >10)\nUric Acid >10\nSymptomatic\nhypocalcemia\nSerum phosphorus >10\nVolume overload",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (often to ICU)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

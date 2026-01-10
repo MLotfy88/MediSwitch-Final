@@ -1,0 +1,648 @@
+{
+  "drug_name": "Tricyclic_antidepressant_toxicity",
+  "url": "https://wikem.org/wiki/Tricyclic_antidepressant_toxicity",
+  "scraped_at": "2026-01-10T08:04:19.076187",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: TCA\nUsed in depression and neuropathic pain\nSerious toxicity is almost always seen within 6hr of ingestion\nCoingestants that impair metabolism through cytochrome P450 often increase severity of toxicity\nCocaine\ncan produce the same sodium blockade effect and exacerbate as TCA overdose",
+      "subsections": {
+        "Ingestion_amount": {
+          "text": "<1mg/kg: Nontoxic\n>10mg/kg: Life-threatening\n>1gm: Commonly fatal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        }
+      ]
+    },
+    "Ingestion_amount": {
+      "text": "<1mg/kg: Nontoxic\n>10mg/kg: Life-threatening\n>1gm: Commonly fatal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Na Channel Blockade (2-6 hours post ingestion)\nNegative inotropy,\nheart block\n,\nhypotension\n, ectopy\nAntihistamine Effects\nSedation,\ncoma\nAntimuscarinic Effects (early toxicity, within 2 hours)\nCentral\nAgitation\n,\ndelirium\n,\nconfusion\n,\nhallucinations\nSlurred speech,\nataxia\nSedation,\ncoma\nSeizures\nPeripheral\nMydriasis, decreased secretions, dry skin,\nileus\n,\nurinary retention\nTachycardia\n,\nhyperthermia\n,\nhypertension\nα\n1\nReceptor Blockade\nSedation, orthostatic hypotension, miosis\nInhibition of amine reuptake\nSympathomimetic\neffects\nMyoclonus, hyperreflexia\nSerotonin Syndrome\n(only when used in combination with other serotonergic agents)\nAntagonism at GABA A receptors\nSeizures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "ileus",
+          "url": "https://wikem.org/wiki/Ileus"
+        },
+        {
+          "text": "urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anticholinergic_toxicity_Causes": {
+          "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+          "tables": []
+        },
+        "Sodium_Channel_Blockade_Toxidrome": {
+          "text": "Phenothiazines\nAntihistamines\nSotalol\nTCAs\nAntipsychotics\nCocaine\nAnti-spasmodics, cyclobenzaprine\nChloroquine\nAnti-malarials\nClass Ia and Ic antiarrhythmics\nLocal anesthetic systemic toxicity\nVenlafaxine\ntoxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Local anesthetic systemic toxicity",
+          "url": "https://wikem.org/wiki/Local_anesthetic_systemic_toxicity"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        }
+      ]
+    },
+    "Anticholinergic_toxicity_Causes": {
+      "text": "Medications\n[1]\nAtropine\nLomotil toxicity\nAntihistamines\nAntidepressants\nTricyclic antidepressant (TCA) toxicity\nSelective serotonin reuptake inhibitor toxicity\nAntipsychotics\nMuscle relaxants\nAnti-Parkinsonians\nPlants\nJimson weed\n(Devil's trumpet)\nAmanita mushroom",
+      "subsections": {
+        "Sodium_Channel_Blockade_Toxidrome": {
+          "text": "Phenothiazines\nAntihistamines\nSotalol\nTCAs\nAntipsychotics\nCocaine\nAnti-spasmodics, cyclobenzaprine\nChloroquine\nAnti-malarials\nClass Ia and Ic antiarrhythmics\nLocal anesthetic systemic toxicity\nVenlafaxine\ntoxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Tricyclic antidepressant (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Selective serotonin reuptake inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Selective_serotonin_reuptake_inhibitor_toxicity"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Jimson weed",
+          "url": "https://wikem.org/wiki/Jimson_weed"
+        },
+        {
+          "text": "Amanita mushroom",
+          "url": "https://wikem.org/wiki/Amanita_mushroom"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Local anesthetic systemic toxicity",
+          "url": "https://wikem.org/wiki/Local_anesthetic_systemic_toxicity"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        }
+      ]
+    },
+    "Sodium_Channel_Blockade_Toxidrome": {
+      "text": "Phenothiazines\nAntihistamines\nSotalol\nTCAs\nAntipsychotics\nCocaine\nAnti-spasmodics, cyclobenzaprine\nChloroquine\nAnti-malarials\nClass Ia and Ic antiarrhythmics\nLocal anesthetic systemic toxicity\nVenlafaxine\ntoxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressant_(TCA)_toxicity"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Local anesthetic systemic toxicity",
+          "url": "https://wikem.org/wiki/Local_anesthetic_systemic_toxicity"
+        },
+        {
+          "text": "Venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Serious toxicity\nConduction delays,\nSVT\n,\nV-tach\n,\nhypotension\nRespiratory depression\nSeizures\nPulmonary Edema\nECG\nSinus Tachycardia\n(most frequent dysrhythmia)\nPR, QRS,\nQT Prolongation\nAbnormal QRS morphology (deep slurred S wave in I and AVL)\nThreshold of QRS>100 for seizures\nThreshold of QRS>160 for ventricular dysrhythmias\nRBBB\nRight axis deviation\n(of terminal 40ms)\n[2]\nTerminal R wave in aVR, S wave in I/aVL\nR/S > 0.7\nOtherwise, more simply put, tall R wave in aVR\nBrugada pattern (15%)\n[3]\n[4]\nAn urine positive test result suggests only use of a TCA or another drug that cross-reacts with the screen (antimuscarinic, antipsychotic, carbamazepine, etc.)\nQuantitative serum level does not correlate with severity of illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "V-tach",
+          "url": "https://wikem.org/wiki/V-tach"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Sinus Tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_Tachycardia"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "RBBB",
+          "url": "https://wikem.org/wiki/RBBB"
+        },
+        {
+          "text": "Right axis deviation",
+          "url": "https://wikem.org/wiki/Right_axis_deviation"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "GI_Decontamination": {
+          "text": "There is no role for\nGastric lavage\nActivated charcoal\n1gm/kg x1 if <1 hour and patient awake and cooperative without signs of toxicity",
+          "tables": []
+        },
+        "Sodium_Bicarbonate": {
+          "text": "Indications:\nQRS >100ms, terminal RAD >120 deg, Brugada pattern, ventricular dysrhythmias\nInitial Dosing:\nGive 1-2 mEq/kg as rapid IVP; may repeat as necessary (stop if pH > 7.50-7.55)\nMay give as 3 ampules of 8.4% NaHCO3 (150 mEq) or 7.5% NaHCO3 (134 mEq)\nInfusion Dosing\n[6]\nMix 125-150 mEq of NaHCO3 in 1L of D5W; infuse at 250 mL/hr\nTreatment Goal:\nQRS <100ms\npH 7.50-7.55\nMay continue for 12-24hrs due to the drugs redistribution from tissue\nTreatment Monitoring\nMonitor for volume overload, hypocalcemia, hypokalemia, hypernatremia, metabolic alkalosis\nAggressively replace serum electrolytes",
+          "tables": []
+        },
+        "Hyperventilation": {
+          "text": "Consider in patients unable to tolerate NaHCO\n3\n(renal failure, pulm/cerebral edema)\nHyperventilate to pH of 7.50 - 7.55 (same as bicarb administration)",
+          "tables": []
+        },
+        "Lidocaine": {
+          "text": "At 1.5 mg/kg, consider lidocaine for ventricular dysrhythmias if NaHCO\n3\nalone is ineffective\nCompetitively inhibits sodium channel blockade effects of TCAs\nNOTE\nAvoid IA, IC antiarrhythmics, Beta-Blockers, Calcium Channel Blockers, and amiodarone",
+          "tables": []
+        },
+        "Phenytoin": {
+          "text": "Consider for ventricular dysrhythmias resistant to NaHCO\n3\nand lidocaine",
+          "tables": []
+        },
+        "Synchronized_cardioversion": {
+          "text": "Appropriate in patients with persistent unstable tachydysrhythmias",
+          "tables": []
+        },
+        "NEVER_Use_Physostigmine": {
+          "text": "NEVER\nuse\nphysostigmine\nin TCA overdose as the combination leads to lethal bradyarrhythmias\n[7]\nDue to dose dependent AV blockade by physostigmine\nTCA toxicity and physostigmine interact synergistically to cause AV conduction delays",
+          "tables": []
+        },
+        "Seizures": {
+          "text": "Benzodiazepines\nare 1st line\nBarbituates\nor\npropofol\nare 2nd line\nPhenytoin\nineffective as no seizure focus in brain",
+          "tables": []
+        },
+        "Hypotension": {
+          "text": "After repeat fluid boluses and with sodium load from NaHCO\n3\nnorepinepherine should be the first line vasopressor\nECMO is a successful adjunct for refractory hypotension after maximal therapy has failed\nMay also consider 200 ml of\nhypertonic 3% saline\nfor refractory hypotension and ventricular dysrhythmias despite maximal alkalinization (pH > 7.55)",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Not useful for enhancing elimination due to the large volume of distribution and high lipid solubility",
+          "tables": []
+        },
+        "Intralipid": {
+          "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "hypertonic 3% saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "GI_Decontamination": {
+      "text": "There is no role for\nGastric lavage\nActivated charcoal\n1gm/kg x1 if <1 hour and patient awake and cooperative without signs of toxicity",
+      "subsections": {
+        "Sodium_Bicarbonate": {
+          "text": "Indications:\nQRS >100ms, terminal RAD >120 deg, Brugada pattern, ventricular dysrhythmias\nInitial Dosing:\nGive 1-2 mEq/kg as rapid IVP; may repeat as necessary (stop if pH > 7.50-7.55)\nMay give as 3 ampules of 8.4% NaHCO3 (150 mEq) or 7.5% NaHCO3 (134 mEq)\nInfusion Dosing\n[6]\nMix 125-150 mEq of NaHCO3 in 1L of D5W; infuse at 250 mL/hr\nTreatment Goal:\nQRS <100ms\npH 7.50-7.55\nMay continue for 12-24hrs due to the drugs redistribution from tissue\nTreatment Monitoring\nMonitor for volume overload, hypocalcemia, hypokalemia, hypernatremia, metabolic alkalosis\nAggressively replace serum electrolytes",
+          "tables": []
+        },
+        "Hyperventilation": {
+          "text": "Consider in patients unable to tolerate NaHCO\n3\n(renal failure, pulm/cerebral edema)\nHyperventilate to pH of 7.50 - 7.55 (same as bicarb administration)",
+          "tables": []
+        },
+        "Lidocaine": {
+          "text": "At 1.5 mg/kg, consider lidocaine for ventricular dysrhythmias if NaHCO\n3\nalone is ineffective\nCompetitively inhibits sodium channel blockade effects of TCAs\nNOTE\nAvoid IA, IC antiarrhythmics, Beta-Blockers, Calcium Channel Blockers, and amiodarone",
+          "tables": []
+        },
+        "Phenytoin": {
+          "text": "Consider for ventricular dysrhythmias resistant to NaHCO\n3\nand lidocaine",
+          "tables": []
+        },
+        "Synchronized_cardioversion": {
+          "text": "Appropriate in patients with persistent unstable tachydysrhythmias",
+          "tables": []
+        },
+        "NEVER_Use_Physostigmine": {
+          "text": "NEVER\nuse\nphysostigmine\nin TCA overdose as the combination leads to lethal bradyarrhythmias\n[7]\nDue to dose dependent AV blockade by physostigmine\nTCA toxicity and physostigmine interact synergistically to cause AV conduction delays",
+          "tables": []
+        },
+        "Seizures": {
+          "text": "Benzodiazepines\nare 1st line\nBarbituates\nor\npropofol\nare 2nd line\nPhenytoin\nineffective as no seizure focus in brain",
+          "tables": []
+        },
+        "Hypotension": {
+          "text": "After repeat fluid boluses and with sodium load from NaHCO\n3\nnorepinepherine should be the first line vasopressor\nECMO is a successful adjunct for refractory hypotension after maximal therapy has failed\nMay also consider 200 ml of\nhypertonic 3% saline\nfor refractory hypotension and ventricular dysrhythmias despite maximal alkalinization (pH > 7.55)",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Not useful for enhancing elimination due to the large volume of distribution and high lipid solubility",
+          "tables": []
+        },
+        "Intralipid": {
+          "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "hypertonic 3% saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Cardiac_Toxicity": {
+      "text": "",
+      "subsections": {
+        "Sodium_Bicarbonate": {
+          "text": "Indications:\nQRS >100ms, terminal RAD >120 deg, Brugada pattern, ventricular dysrhythmias\nInitial Dosing:\nGive 1-2 mEq/kg as rapid IVP; may repeat as necessary (stop if pH > 7.50-7.55)\nMay give as 3 ampules of 8.4% NaHCO3 (150 mEq) or 7.5% NaHCO3 (134 mEq)\nInfusion Dosing\n[6]\nMix 125-150 mEq of NaHCO3 in 1L of D5W; infuse at 250 mL/hr\nTreatment Goal:\nQRS <100ms\npH 7.50-7.55\nMay continue for 12-24hrs due to the drugs redistribution from tissue\nTreatment Monitoring\nMonitor for volume overload, hypocalcemia, hypokalemia, hypernatremia, metabolic alkalosis\nAggressively replace serum electrolytes",
+          "tables": []
+        },
+        "Hyperventilation": {
+          "text": "Consider in patients unable to tolerate NaHCO\n3\n(renal failure, pulm/cerebral edema)\nHyperventilate to pH of 7.50 - 7.55 (same as bicarb administration)",
+          "tables": []
+        },
+        "Lidocaine": {
+          "text": "At 1.5 mg/kg, consider lidocaine for ventricular dysrhythmias if NaHCO\n3\nalone is ineffective\nCompetitively inhibits sodium channel blockade effects of TCAs\nNOTE\nAvoid IA, IC antiarrhythmics, Beta-Blockers, Calcium Channel Blockers, and amiodarone",
+          "tables": []
+        },
+        "Phenytoin": {
+          "text": "Consider for ventricular dysrhythmias resistant to NaHCO\n3\nand lidocaine",
+          "tables": []
+        },
+        "Synchronized_cardioversion": {
+          "text": "Appropriate in patients with persistent unstable tachydysrhythmias",
+          "tables": []
+        },
+        "NEVER_Use_Physostigmine": {
+          "text": "NEVER\nuse\nphysostigmine\nin TCA overdose as the combination leads to lethal bradyarrhythmias\n[7]\nDue to dose dependent AV blockade by physostigmine\nTCA toxicity and physostigmine interact synergistically to cause AV conduction delays",
+          "tables": []
+        },
+        "Seizures": {
+          "text": "Benzodiazepines\nare 1st line\nBarbituates\nor\npropofol\nare 2nd line\nPhenytoin\nineffective as no seizure focus in brain",
+          "tables": []
+        },
+        "Hypotension": {
+          "text": "After repeat fluid boluses and with sodium load from NaHCO\n3\nnorepinepherine should be the first line vasopressor\nECMO is a successful adjunct for refractory hypotension after maximal therapy has failed\nMay also consider 200 ml of\nhypertonic 3% saline\nfor refractory hypotension and ventricular dysrhythmias despite maximal alkalinization (pH > 7.55)",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Not useful for enhancing elimination due to the large volume of distribution and high lipid solubility",
+          "tables": []
+        },
+        "Intralipid": {
+          "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "physostigmine",
+          "url": "https://wikem.org/wiki/Physostigmine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "hypertonic 3% saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Seizures": {
+      "text": "Benzodiazepines\nare 1st line\nBarbituates\nor\npropofol\nare 2nd line\nPhenytoin\nineffective as no seizure focus in brain",
+      "subsections": {
+        "Hypotension": {
+          "text": "After repeat fluid boluses and with sodium load from NaHCO\n3\nnorepinepherine should be the first line vasopressor\nECMO is a successful adjunct for refractory hypotension after maximal therapy has failed\nMay also consider 200 ml of\nhypertonic 3% saline\nfor refractory hypotension and ventricular dysrhythmias despite maximal alkalinization (pH > 7.55)",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Not useful for enhancing elimination due to the large volume of distribution and high lipid solubility",
+          "tables": []
+        },
+        "Intralipid": {
+          "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbituates",
+          "url": "https://wikem.org/wiki/Barbituates"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "hypertonic 3% saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Hypotension": {
+      "text": "After repeat fluid boluses and with sodium load from NaHCO\n3\nnorepinepherine should be the first line vasopressor\nECMO is a successful adjunct for refractory hypotension after maximal therapy has failed\nMay also consider 200 ml of\nhypertonic 3% saline\nfor refractory hypotension and ventricular dysrhythmias despite maximal alkalinization (pH > 7.55)",
+      "subsections": {
+        "Dialysis": {
+          "text": "Not useful for enhancing elimination due to the large volume of distribution and high lipid solubility",
+          "tables": []
+        },
+        "Intralipid": {
+          "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertonic 3% saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        }
+      ]
+    },
+    "Dialysis": {
+      "text": "Not useful for enhancing elimination due to the large volume of distribution and high lipid solubility",
+      "subsections": {
+        "Intralipid": {
+          "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intralipid": {
+      "text": "1.5 mL/kg bolus over 2-3 minutes if life-threatening toxicity refractory to bicarbonate administration\nMay be repeated once in 5 minutes if no improvement, followed by an infusion of 0.25 ml/kg/min for 15-30 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider discharging patients who remain asymptomatic after 6hr of observation\nPatients with decreased level of consciousness or seizures should be admitted to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nCalcium Channel Blocker Toxicity\nBeta-Blocker Toxicity\nAntipsychotic Toxicity\nAntidotes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Calcium Channel Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Beta-Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Beta-Blocker_Toxicity"
+        },
+        {
+          "text": "Antipsychotic Toxicity",
+          "url": "https://wikem.org/wiki/Antipsychotic_Toxicity"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        }
+      ]
+    }
+  }
+}

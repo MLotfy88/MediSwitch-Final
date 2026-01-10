@@ -1,0 +1,69 @@
+{
+  "drug_name": "Twiddler%27s_syndrome",
+  "url": "https://wikem.org/wiki/Twiddler%27s_syndrome",
+  "scraped_at": "2026-01-10T08:04:23.746510",
+  "sections": {
+    "Background": {
+      "text": "Implantable devices with attached wires traveling remotely are at risk for this complication.\nDevice moves within subcutaneous pocket acting like fishing rod pulling wires back to the \"pole.\"\nWires dislodged from appropriate location in myocardium, often by patient 'twiddling' a recently-implanted pacemaker.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pacemaker placed with poor function.\nCan present with\nsyncope\nfrom lack of pacemaker function.\nCan present with symptoms related to stimulation of other structures (diaphragm, brachial plexus) as wires migrate from expected position.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Lead separation\nLead dislodgement\nLead infection\nSee also\npacemaker malfunction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pacemaker malfunction",
+          "url": "https://wikem.org/wiki/Pacemaker_malfunction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CXR\nto evaluate the placement of the leads",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Cardiologist for device/lead placement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit to allow for device intervention as pacemaker does not function in Twiddler's Syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pacemaker complication",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pacemaker complication",
+          "url": "https://wikem.org/wiki/Pacemaker_complication"
+        }
+      ]
+    }
+  }
+}

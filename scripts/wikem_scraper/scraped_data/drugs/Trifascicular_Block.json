@@ -1,0 +1,274 @@
+{
+  "drug_name": "Trifascicular_Block",
+  "url": "https://wikem.org/wiki/Trifascicular_Block",
+  "scraped_at": "2026-01-10T08:04:18.714424",
+  "sections": {
+    "Background": {
+      "text": "First degree AV block, right bundle branch block, and left anterior hemiblock\nConduction disease of all three fascicles: fight bundle branch, and left posterior and left anterior fascicles\nTrifascicular blocks can deteriorate into high grade blocks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "ECG will show a bifascicular block and a prolonged PR interval",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Differential includes ischemic events, electrolyte abnormalities, and medication overdoses in addition to rheumatologic conditions\n[1]\n[2]\nAnterior\nMI\nRheumatic fever\nMyocarditis\nLyme disease\nLenegre's disease\nLev's disease\nSLE\nSystemic sclerosis\nAmyloidosis\nHemochromatosis\nSarcoidosis\nHyperkalemia\nToxicology\nBeta blocker toxicity\nCalcium channel blocker toxicity\nDigoxin toxicity\nAmiodarone",
+      "subsections": {
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Systemic sclerosis",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Toxicology",
+          "url": "https://wikem.org/wiki/Toxicology"
+        },
+        {
+          "text": "Beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "Calcium channel blocker toxicity",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "AV_blocks": {
+      "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        },
+        {
+          "text": "Third degree AV block",
+          "url": "https://wikem.org/wiki/Third_degree_AV_block"
+        }
+      ]
+    },
+    "Bundle_and_Fascicular_Blocks": {
+      "text": "Right Bundle Branch Block\nLeft Bundle Branch Block\nLeft Anterior Fascicular Block\nLeft Posterior Fascicular Block\nTrifascicular Block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Right Bundle Branch Block",
+          "url": "https://wikem.org/wiki/Right_Bundle_Branch_Block"
+        },
+        {
+          "text": "Left Bundle Branch Block",
+          "url": "https://wikem.org/wiki/Left_Bundle_Branch_Block"
+        },
+        {
+          "text": "Left Anterior Fascicular Block",
+          "url": "https://wikem.org/wiki/Left_Anterior_Fascicular_Block"
+        },
+        {
+          "text": "Left Posterior Fascicular Block",
+          "url": "https://wikem.org/wiki/Left_Posterior_Fascicular_Block"
+        }
+      ]
+    },
+    "Premature_Beats": {
+      "text": "Premature atrial contraction\nPremature junctional complex\nPremature ventricular contraction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Premature atrial contraction",
+          "url": "https://wikem.org/wiki/Premature_atrial_contraction"
+        },
+        {
+          "text": "Premature junctional complex",
+          "url": "https://wikem.org/wiki/Premature_junctional_complex"
+        },
+        {
+          "text": "Premature ventricular contraction",
+          "url": "https://wikem.org/wiki/Premature_ventricular_contraction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Evaluate for underlying pathology\nECG\nLabs\nCBC\nChemistry\nTroponin\nPT/PTT",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Prolongation of the PR interval (first degree AV block) AND\nRight bundle branch block AND\nEither left anterior fascicular block or left posterior fascicular block\nECG will show more atrial complexes than ventricular complex indicating high grade heart block\nRight budle branch block + extreme left axis deviation (left anterior fascicular block) + atrioventricular heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Evaluate for underlying pathology\nECG\nLabs\nCBC\nChemistry\nTroponin\nPT/PTT",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Prolongation of the PR interval (first degree AV block) AND\nRight bundle branch block AND\nEither left anterior fascicular block or left posterior fascicular block\nECG will show more atrial complexes than ventricular complex indicating high grade heart block\nRight budle branch block + extreme left axis deviation (left anterior fascicular block) + atrioventricular heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Prolongation of the PR interval (first degree AV block) AND\nRight bundle branch block AND\nEither left anterior fascicular block or left posterior fascicular block\nECG will show more atrial complexes than ventricular complex indicating high grade heart block\nRight budle branch block + extreme left axis deviation (left anterior fascicular block) + atrioventricular heart block",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If symptomatic, standard\nACLS guidelines for symptomatic bradycardia\nto include\n[3]\nAtropine\n0.5mg IV q3-5min PRN total dose of 3mg\nTranscutaneous pacing\n, followed by\ntransvenous pacing\nDopamine\nIV consider for low BP 3mcg/kg/minute titrate up to 20 mcg/kg/minute\nDobutamine\nIV consider for heart failure at 5mcg/kg/minute titrate up to 20mcg/kg/minute if needed for HR and BP augmentation\nTreat underlying etiology\nAvoid AV nodal blocking agents (e.g.\nβ-blockers\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS guidelines for symptomatic bradycardia",
+          "url": "https://wikem.org/wiki/ACLS_guidelines_for_symptomatic_bradycardia"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Transcutaneous pacing",
+          "url": "https://wikem.org/wiki/Transcutaneous_pacing"
+        },
+        {
+          "text": "transvenous pacing",
+          "url": "https://wikem.org/wiki/Transvenous_pacing"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Symptomatic patients should be admitted for monitoring and evaluation for a permanent pacemaker\nCardiology consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        }
+      ]
+    }
+  }
+}

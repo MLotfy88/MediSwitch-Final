@@ -1,0 +1,1615 @@
+{
+  "drug_name": "Unstable_angina",
+  "url": "https://wikem.org/wiki/Unstable_angina",
+  "scraped_at": "2026-01-10T08:04:33.356590",
+  "sections": {
+    "Background": {
+      "text": "Angina =\nchest pain\nor other equivalents (e.g.\nSOB\n) that occur due to\nmyocardial ischemia\nConsidered unstable with 1 or more:\nOccurs for 1st time\nOccurs at rest\nAccelerating frequency or severity",
+      "subsections": {
+        "Clinical_ACS_Categories": {
+          "text": "ST-segment elevation myocardial infarction\n(30%)\nNon-ST-elevation myocardial infarction\n(25%)\nUnstable Angina\n(UA) (38%)\nThe new title, “Non-ST-Elevation Acute Coronary Syndromes,” emphasizes the continuum between UA and NSTEMI\n[1]\nNSTEMI myocardium is damaged enough to increase biomarkers, UA is not.",
+          "tables": []
+        },
+        "MI_Types_by_Causation": {
+          "text": "Type 1: Spontaneous Myocardial Infarction\nAtherosclerotic plaque rupture or intraluminal thrombus in one or more of the coronary arteries\nType 2: Myocardial Infarction Secondary to an Ischemic Imbalance\nCondition other than CAD contributes to an imbalance between myocardial oxygen supply and/or demand (e.g. coronary spasm, embolism, low or high blood pressures, anemia, or arrhythmias)\nType 3: Cardiac Death Due to Myocardial Infarction\nSudden cardiac death with symptoms suggestive of myocardial ischaemia without elevated biomarkers\nType 4: Myocardial Infarction Associated With Revascularization Procedure\n4a: Related to PCI\n4b: Related to Stent Thrombosis\nType 5: Myocardial Infarction Related to CABG Procedure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Non-ST-elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/Non-ST-elevation_myocardial_infarction"
+        },
+        {
+          "text": "Unstable Angina",
+          "url": "https://wikem.org/wiki/Unstable_Angina"
+        }
+      ]
+    },
+    "Clinical_ACS_Categories": {
+      "text": "ST-segment elevation myocardial infarction\n(30%)\nNon-ST-elevation myocardial infarction\n(25%)\nUnstable Angina\n(UA) (38%)\nThe new title, “Non-ST-Elevation Acute Coronary Syndromes,” emphasizes the continuum between UA and NSTEMI\n[1]\nNSTEMI myocardium is damaged enough to increase biomarkers, UA is not.",
+      "subsections": {
+        "MI_Types_by_Causation": {
+          "text": "Type 1: Spontaneous Myocardial Infarction\nAtherosclerotic plaque rupture or intraluminal thrombus in one or more of the coronary arteries\nType 2: Myocardial Infarction Secondary to an Ischemic Imbalance\nCondition other than CAD contributes to an imbalance between myocardial oxygen supply and/or demand (e.g. coronary spasm, embolism, low or high blood pressures, anemia, or arrhythmias)\nType 3: Cardiac Death Due to Myocardial Infarction\nSudden cardiac death with symptoms suggestive of myocardial ischaemia without elevated biomarkers\nType 4: Myocardial Infarction Associated With Revascularization Procedure\n4a: Related to PCI\n4b: Related to Stent Thrombosis\nType 5: Myocardial Infarction Related to CABG Procedure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Non-ST-elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/Non-ST-elevation_myocardial_infarction"
+        },
+        {
+          "text": "Unstable Angina",
+          "url": "https://wikem.org/wiki/Unstable_Angina"
+        }
+      ]
+    },
+    "MI_Types_by_Causation": {
+      "text": "Type 1: Spontaneous Myocardial Infarction\nAtherosclerotic plaque rupture or intraluminal thrombus in one or more of the coronary arteries\nType 2: Myocardial Infarction Secondary to an Ischemic Imbalance\nCondition other than CAD contributes to an imbalance between myocardial oxygen supply and/or demand (e.g. coronary spasm, embolism, low or high blood pressures, anemia, or arrhythmias)\nType 3: Cardiac Death Due to Myocardial Infarction\nSudden cardiac death with symptoms suggestive of myocardial ischaemia without elevated biomarkers\nType 4: Myocardial Infarction Associated With Revascularization Procedure\n4a: Related to PCI\n4b: Related to Stent Thrombosis\nType 5: Myocardial Infarction Related to CABG Procedure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Risk_of_Acute_Coronary_Syndrome": {
+          "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[3]\n[4]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[5]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[6]\nLess likely to undergo cardiac catheterization\n[6]\nLess likely to receive timely reperfusion therapy\n[6]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[6]\nalthough some studies have found fewer differences in presentation\n[7]\nMore likely to delay presentation\n[6]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[6]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_of_Acute_Coronary_Syndrome": {
+      "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[3]\n[4]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[5]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[6]\nLess likely to undergo cardiac catheterization\n[6]\nLess likely to receive timely reperfusion therapy\n[6]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[6]\nalthough some studies have found fewer differences in presentation\n[7]\nMore likely to delay presentation\n[6]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[6]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Same as for\nNSTEMI\nDual antiplatelet therapy and antithrombotic therapy is mainstay of treatment\nMedical management vs cath determined by level of risk for future cardiovascular events",
+      "subsections": {
+        "Antiplatelets": {
+          "text": "Aspirin\nRecommended dose is 325 mg chewed\nReduces death from MI by 12.5 → 6.4%\nShould be used in all ACS unless contraindicated (eg\nAnaphylaxis\n)\nIn pts with true ASA allergies, substitute\nClopidogrel\n[8]\nClopidogrel\n(see drug link for specific age and indication-related dosages)\nGive in addition to ASA\nMortality benefit with NSTEMI (CURE trial: Decrease in cardiovascular death, MI, or stroke by 9.3-11.5%)\nMain risk and contraindication is bleeding\nGPIIb/IIIa Inhibitors\nEptifibatide\n,\nabciximab\n,\ntirofiban\nBenefit only for patients undergoing PCI\nAdminister at time of PCI, not in the ED",
+          "tables": []
+        },
+        "Antithrombotics": {
+          "text": "Give\nheparin\nor\nenoxaparin\nalong with ASA (Class 1A evidence)\nEnoxaparin\n(Lovenox)\n1mg/kg subq BID\nAHA recommends for moderate & high risk\nUnstable angina\n/NSTEMI unless CABG within 24hr\nSafer than UFH\nESSENCE trial showed 20% decrease in death, MI or urgent revascularization with LMWH\nAdjust for CrCl<30ml and extremes of weight\nNo need to monitor labs\nUnfractionated\nHeparin\nBolus 60-70u/kg (max 5000) followed by infusion of 12-15u/kg/hr (max 1000/hr), goal ptt 45-75s\nConsider if patient likely to undergo PCI/CABG within 24hr of admission or in setting of renal failure\nHirudins\nApproved only for patients with\nHIT",
+          "tables": []
+        },
+        "Other": {
+          "text": "Oxygen\nUse only if SpO2 <90%\nNitrates\n(decrease preload)\nAdminister sublingual\nnitroglycerin\nevery 5 min x3 for continuing ischemic pain and then assess need for IV\nnitroglycerin\n(AHA ACA Level I)\nUse cautiously in inferior MI or if on sildenafil\nNot shown to decrease MACE\nAnalgesia\nMorphine\n,\nFentanyl\n, or other opioid (AHA ACA Level IIb)\nDo not use NSAIDs other than ASA (AHA ACA Level III: Harm)\nComplete absence of pain is likely not feasible - aim for pain level <5\nβ-blockers\nStart PO dose within 24 hours (Do not give IV β-blocker in ED (AHA ACA Level III: Harm))\nGoal HR is 50-60\nContraindicated if HR<50 or SBP<90, acute CHF, low flow state, or PR>240ms\nDecreases inotropic and chronotropic response to catecholamines\nUse\ndiltiazem\nif cannot use beta-blocker (\nnifedipine\nclearly harmful)\nACE inhibitor\nStart short-acting (\ncaptopril\n) within 24 hours of admission\nReduces RR of 30 day mortality by 7%\nThose with recent MI (especially anterior) and LV dysfunction benefit most\nTransfusion\nTransfuse to keep hemoglobin >10\nThrombolytics\nNot indicated\n(only useful for\nSTEMI\n)",
+          "tables": []
+        },
+        "Summary_of_Class_I_Guidelines": {
+          "text": "Aspirin\nshould be initiated as soon as possible and continued indefinitely in patients who tolerate it. (\nLevel A\n)\nClopidogrel\nloading dose should be initiated as soon as possible in patients unable to tolerate aspirin.  (\nLevel B\n)\nMedium/High risk patients in whom initial invasive strategy is planned should receive dual therapy (Level A) including aspirin (Level A) and:\nBefore PCI one of the following:\nClopidogrel (\nLevel B\n)\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nOtherwise during PCI one of the following:\nClopidogrel (\nLevel A\n) if not started beforehand\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nPrasugrel\n(\nLevel B\n)\nIf an initial conservative (i.e. noninvasive) strategy is selected, clopidogrel should be added to ASA and anticoagulant therapy as soon as possible after admission. (\nLevel B\n)\nIf an initial conservative strategy is selected and recurrent symptoms/ischemia, heart failure, or serious arrhythmias subsequently appear, then diagnostic angiography should be performed. (\nLevel A\n). Either an IV GP IIb/IIIa inhibitor (\nLevel A\n) or clopidogrel (\nLevel B\n) should be added to ASA and anticoagulant therapy before diagnostic angiography. (\nLevel C\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIa_Guidelines": {
+          "text": "If an initial conservative strategy is selected and patient has recurrent ischemic discomfort with clopidogrel, ASA, and\nanticoagulant\ntherapy, it is reasonable to add a GP IIb/IIIa inhibitor before diagnostic angiography. (\nLevel C\n)\nIf an initial invasive strategy is selected, it is reasonable to omit administration of an IV GP IIb/IIIa inhibitor if\nbivalirudin\nis selected as the anticoagulant and clopidogrel was administered at least 6 hours earlier than planned catheterization or PCI. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines": {
+          "text": "If an initial conservative strategy is selected, it may be reasonable to add\neptifibatide\nor\ntirofiban\nto\nanticoagulant\nand oral antiplatelet therapy.19,20 (\nLevel B\n)\nPrasugrel may be considered for administration promptly upon presentation if PCI is planned, before definition of coronary anatomy if both the risk for bleeding is low and the need for CABG is considered unlikely. (\nLevel C\n)\nThe use of GP IIb/IIIa inhibitors may be considered in high-risk patients already receiving ASA and a thienopyridine who are selected for an invasive strategy, such as those with elevated\ntroponin\nlevels, diabetes, or significant ST-segment depression, and who are not otherwise at high risk for\nbleeding. (\nLevel B\n)\nIn patients with definite UA/NSTEMI undergoing PCI, the use of a loading dose of clopidogrel of 600mg, followed by a higher maintenance dose of 150mg daily for 6 days, then 75mg daily may be reasonable in patients not considered at high risk for bleeding. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines_2": {
+          "text": "Abciximab\nshould not be administered to patients in whom PCI is not planned. (\nLevel A\n)\nLow risk patients for ischemic events (TIMI risk score 2) or at high risk of bleeding and who are already receiving ASA and clopidogrel, upstream GP IIb/IIIa inhibitors are not recommended. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_III_Guidelines": {
+          "text": "In UA/NSTEMI patients with a prior history of stroke or TIA for whom PCI is planned, prasugrel is potentially harmful as part of a dual-antiplatelet therapy regimen.(\nLevel B\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Hirudins",
+          "url": "https://wikem.org/wiki/Hirudins"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Nitrates",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Antiplatelets": {
+      "text": "Aspirin\nRecommended dose is 325 mg chewed\nReduces death from MI by 12.5 → 6.4%\nShould be used in all ACS unless contraindicated (eg\nAnaphylaxis\n)\nIn pts with true ASA allergies, substitute\nClopidogrel\n[8]\nClopidogrel\n(see drug link for specific age and indication-related dosages)\nGive in addition to ASA\nMortality benefit with NSTEMI (CURE trial: Decrease in cardiovascular death, MI, or stroke by 9.3-11.5%)\nMain risk and contraindication is bleeding\nGPIIb/IIIa Inhibitors\nEptifibatide\n,\nabciximab\n,\ntirofiban\nBenefit only for patients undergoing PCI\nAdminister at time of PCI, not in the ED",
+      "subsections": {
+        "Antithrombotics": {
+          "text": "Give\nheparin\nor\nenoxaparin\nalong with ASA (Class 1A evidence)\nEnoxaparin\n(Lovenox)\n1mg/kg subq BID\nAHA recommends for moderate & high risk\nUnstable angina\n/NSTEMI unless CABG within 24hr\nSafer than UFH\nESSENCE trial showed 20% decrease in death, MI or urgent revascularization with LMWH\nAdjust for CrCl<30ml and extremes of weight\nNo need to monitor labs\nUnfractionated\nHeparin\nBolus 60-70u/kg (max 5000) followed by infusion of 12-15u/kg/hr (max 1000/hr), goal ptt 45-75s\nConsider if patient likely to undergo PCI/CABG within 24hr of admission or in setting of renal failure\nHirudins\nApproved only for patients with\nHIT",
+          "tables": []
+        },
+        "Other": {
+          "text": "Oxygen\nUse only if SpO2 <90%\nNitrates\n(decrease preload)\nAdminister sublingual\nnitroglycerin\nevery 5 min x3 for continuing ischemic pain and then assess need for IV\nnitroglycerin\n(AHA ACA Level I)\nUse cautiously in inferior MI or if on sildenafil\nNot shown to decrease MACE\nAnalgesia\nMorphine\n,\nFentanyl\n, or other opioid (AHA ACA Level IIb)\nDo not use NSAIDs other than ASA (AHA ACA Level III: Harm)\nComplete absence of pain is likely not feasible - aim for pain level <5\nβ-blockers\nStart PO dose within 24 hours (Do not give IV β-blocker in ED (AHA ACA Level III: Harm))\nGoal HR is 50-60\nContraindicated if HR<50 or SBP<90, acute CHF, low flow state, or PR>240ms\nDecreases inotropic and chronotropic response to catecholamines\nUse\ndiltiazem\nif cannot use beta-blocker (\nnifedipine\nclearly harmful)\nACE inhibitor\nStart short-acting (\ncaptopril\n) within 24 hours of admission\nReduces RR of 30 day mortality by 7%\nThose with recent MI (especially anterior) and LV dysfunction benefit most\nTransfusion\nTransfuse to keep hemoglobin >10\nThrombolytics\nNot indicated\n(only useful for\nSTEMI\n)",
+          "tables": []
+        },
+        "Summary_of_Class_I_Guidelines": {
+          "text": "Aspirin\nshould be initiated as soon as possible and continued indefinitely in patients who tolerate it. (\nLevel A\n)\nClopidogrel\nloading dose should be initiated as soon as possible in patients unable to tolerate aspirin.  (\nLevel B\n)\nMedium/High risk patients in whom initial invasive strategy is planned should receive dual therapy (Level A) including aspirin (Level A) and:\nBefore PCI one of the following:\nClopidogrel (\nLevel B\n)\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nOtherwise during PCI one of the following:\nClopidogrel (\nLevel A\n) if not started beforehand\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nPrasugrel\n(\nLevel B\n)\nIf an initial conservative (i.e. noninvasive) strategy is selected, clopidogrel should be added to ASA and anticoagulant therapy as soon as possible after admission. (\nLevel B\n)\nIf an initial conservative strategy is selected and recurrent symptoms/ischemia, heart failure, or serious arrhythmias subsequently appear, then diagnostic angiography should be performed. (\nLevel A\n). Either an IV GP IIb/IIIa inhibitor (\nLevel A\n) or clopidogrel (\nLevel B\n) should be added to ASA and anticoagulant therapy before diagnostic angiography. (\nLevel C\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIa_Guidelines": {
+          "text": "If an initial conservative strategy is selected and patient has recurrent ischemic discomfort with clopidogrel, ASA, and\nanticoagulant\ntherapy, it is reasonable to add a GP IIb/IIIa inhibitor before diagnostic angiography. (\nLevel C\n)\nIf an initial invasive strategy is selected, it is reasonable to omit administration of an IV GP IIb/IIIa inhibitor if\nbivalirudin\nis selected as the anticoagulant and clopidogrel was administered at least 6 hours earlier than planned catheterization or PCI. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines": {
+          "text": "If an initial conservative strategy is selected, it may be reasonable to add\neptifibatide\nor\ntirofiban\nto\nanticoagulant\nand oral antiplatelet therapy.19,20 (\nLevel B\n)\nPrasugrel may be considered for administration promptly upon presentation if PCI is planned, before definition of coronary anatomy if both the risk for bleeding is low and the need for CABG is considered unlikely. (\nLevel C\n)\nThe use of GP IIb/IIIa inhibitors may be considered in high-risk patients already receiving ASA and a thienopyridine who are selected for an invasive strategy, such as those with elevated\ntroponin\nlevels, diabetes, or significant ST-segment depression, and who are not otherwise at high risk for\nbleeding. (\nLevel B\n)\nIn patients with definite UA/NSTEMI undergoing PCI, the use of a loading dose of clopidogrel of 600mg, followed by a higher maintenance dose of 150mg daily for 6 days, then 75mg daily may be reasonable in patients not considered at high risk for bleeding. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines_2": {
+          "text": "Abciximab\nshould not be administered to patients in whom PCI is not planned. (\nLevel A\n)\nLow risk patients for ischemic events (TIMI risk score 2) or at high risk of bleeding and who are already receiving ASA and clopidogrel, upstream GP IIb/IIIa inhibitors are not recommended. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_III_Guidelines": {
+          "text": "In UA/NSTEMI patients with a prior history of stroke or TIA for whom PCI is planned, prasugrel is potentially harmful as part of a dual-antiplatelet therapy regimen.(\nLevel B\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Hirudins",
+          "url": "https://wikem.org/wiki/Hirudins"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Nitrates",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Antithrombotics": {
+      "text": "Give\nheparin\nor\nenoxaparin\nalong with ASA (Class 1A evidence)\nEnoxaparin\n(Lovenox)\n1mg/kg subq BID\nAHA recommends for moderate & high risk\nUnstable angina\n/NSTEMI unless CABG within 24hr\nSafer than UFH\nESSENCE trial showed 20% decrease in death, MI or urgent revascularization with LMWH\nAdjust for CrCl<30ml and extremes of weight\nNo need to monitor labs\nUnfractionated\nHeparin\nBolus 60-70u/kg (max 5000) followed by infusion of 12-15u/kg/hr (max 1000/hr), goal ptt 45-75s\nConsider if patient likely to undergo PCI/CABG within 24hr of admission or in setting of renal failure\nHirudins\nApproved only for patients with\nHIT",
+      "subsections": {
+        "Other": {
+          "text": "Oxygen\nUse only if SpO2 <90%\nNitrates\n(decrease preload)\nAdminister sublingual\nnitroglycerin\nevery 5 min x3 for continuing ischemic pain and then assess need for IV\nnitroglycerin\n(AHA ACA Level I)\nUse cautiously in inferior MI or if on sildenafil\nNot shown to decrease MACE\nAnalgesia\nMorphine\n,\nFentanyl\n, or other opioid (AHA ACA Level IIb)\nDo not use NSAIDs other than ASA (AHA ACA Level III: Harm)\nComplete absence of pain is likely not feasible - aim for pain level <5\nβ-blockers\nStart PO dose within 24 hours (Do not give IV β-blocker in ED (AHA ACA Level III: Harm))\nGoal HR is 50-60\nContraindicated if HR<50 or SBP<90, acute CHF, low flow state, or PR>240ms\nDecreases inotropic and chronotropic response to catecholamines\nUse\ndiltiazem\nif cannot use beta-blocker (\nnifedipine\nclearly harmful)\nACE inhibitor\nStart short-acting (\ncaptopril\n) within 24 hours of admission\nReduces RR of 30 day mortality by 7%\nThose with recent MI (especially anterior) and LV dysfunction benefit most\nTransfusion\nTransfuse to keep hemoglobin >10\nThrombolytics\nNot indicated\n(only useful for\nSTEMI\n)",
+          "tables": []
+        },
+        "Summary_of_Class_I_Guidelines": {
+          "text": "Aspirin\nshould be initiated as soon as possible and continued indefinitely in patients who tolerate it. (\nLevel A\n)\nClopidogrel\nloading dose should be initiated as soon as possible in patients unable to tolerate aspirin.  (\nLevel B\n)\nMedium/High risk patients in whom initial invasive strategy is planned should receive dual therapy (Level A) including aspirin (Level A) and:\nBefore PCI one of the following:\nClopidogrel (\nLevel B\n)\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nOtherwise during PCI one of the following:\nClopidogrel (\nLevel A\n) if not started beforehand\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nPrasugrel\n(\nLevel B\n)\nIf an initial conservative (i.e. noninvasive) strategy is selected, clopidogrel should be added to ASA and anticoagulant therapy as soon as possible after admission. (\nLevel B\n)\nIf an initial conservative strategy is selected and recurrent symptoms/ischemia, heart failure, or serious arrhythmias subsequently appear, then diagnostic angiography should be performed. (\nLevel A\n). Either an IV GP IIb/IIIa inhibitor (\nLevel A\n) or clopidogrel (\nLevel B\n) should be added to ASA and anticoagulant therapy before diagnostic angiography. (\nLevel C\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIa_Guidelines": {
+          "text": "If an initial conservative strategy is selected and patient has recurrent ischemic discomfort with clopidogrel, ASA, and\nanticoagulant\ntherapy, it is reasonable to add a GP IIb/IIIa inhibitor before diagnostic angiography. (\nLevel C\n)\nIf an initial invasive strategy is selected, it is reasonable to omit administration of an IV GP IIb/IIIa inhibitor if\nbivalirudin\nis selected as the anticoagulant and clopidogrel was administered at least 6 hours earlier than planned catheterization or PCI. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines": {
+          "text": "If an initial conservative strategy is selected, it may be reasonable to add\neptifibatide\nor\ntirofiban\nto\nanticoagulant\nand oral antiplatelet therapy.19,20 (\nLevel B\n)\nPrasugrel may be considered for administration promptly upon presentation if PCI is planned, before definition of coronary anatomy if both the risk for bleeding is low and the need for CABG is considered unlikely. (\nLevel C\n)\nThe use of GP IIb/IIIa inhibitors may be considered in high-risk patients already receiving ASA and a thienopyridine who are selected for an invasive strategy, such as those with elevated\ntroponin\nlevels, diabetes, or significant ST-segment depression, and who are not otherwise at high risk for\nbleeding. (\nLevel B\n)\nIn patients with definite UA/NSTEMI undergoing PCI, the use of a loading dose of clopidogrel of 600mg, followed by a higher maintenance dose of 150mg daily for 6 days, then 75mg daily may be reasonable in patients not considered at high risk for bleeding. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines_2": {
+          "text": "Abciximab\nshould not be administered to patients in whom PCI is not planned. (\nLevel A\n)\nLow risk patients for ischemic events (TIMI risk score 2) or at high risk of bleeding and who are already receiving ASA and clopidogrel, upstream GP IIb/IIIa inhibitors are not recommended. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_III_Guidelines": {
+          "text": "In UA/NSTEMI patients with a prior history of stroke or TIA for whom PCI is planned, prasugrel is potentially harmful as part of a dual-antiplatelet therapy regimen.(\nLevel B\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Hirudins",
+          "url": "https://wikem.org/wiki/Hirudins"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Nitrates",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Oxygen\nUse only if SpO2 <90%\nNitrates\n(decrease preload)\nAdminister sublingual\nnitroglycerin\nevery 5 min x3 for continuing ischemic pain and then assess need for IV\nnitroglycerin\n(AHA ACA Level I)\nUse cautiously in inferior MI or if on sildenafil\nNot shown to decrease MACE\nAnalgesia\nMorphine\n,\nFentanyl\n, or other opioid (AHA ACA Level IIb)\nDo not use NSAIDs other than ASA (AHA ACA Level III: Harm)\nComplete absence of pain is likely not feasible - aim for pain level <5\nβ-blockers\nStart PO dose within 24 hours (Do not give IV β-blocker in ED (AHA ACA Level III: Harm))\nGoal HR is 50-60\nContraindicated if HR<50 or SBP<90, acute CHF, low flow state, or PR>240ms\nDecreases inotropic and chronotropic response to catecholamines\nUse\ndiltiazem\nif cannot use beta-blocker (\nnifedipine\nclearly harmful)\nACE inhibitor\nStart short-acting (\ncaptopril\n) within 24 hours of admission\nReduces RR of 30 day mortality by 7%\nThose with recent MI (especially anterior) and LV dysfunction benefit most\nTransfusion\nTransfuse to keep hemoglobin >10\nThrombolytics\nNot indicated\n(only useful for\nSTEMI\n)",
+      "subsections": {
+        "Summary_of_Class_I_Guidelines": {
+          "text": "Aspirin\nshould be initiated as soon as possible and continued indefinitely in patients who tolerate it. (\nLevel A\n)\nClopidogrel\nloading dose should be initiated as soon as possible in patients unable to tolerate aspirin.  (\nLevel B\n)\nMedium/High risk patients in whom initial invasive strategy is planned should receive dual therapy (Level A) including aspirin (Level A) and:\nBefore PCI one of the following:\nClopidogrel (\nLevel B\n)\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nOtherwise during PCI one of the following:\nClopidogrel (\nLevel A\n) if not started beforehand\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nPrasugrel\n(\nLevel B\n)\nIf an initial conservative (i.e. noninvasive) strategy is selected, clopidogrel should be added to ASA and anticoagulant therapy as soon as possible after admission. (\nLevel B\n)\nIf an initial conservative strategy is selected and recurrent symptoms/ischemia, heart failure, or serious arrhythmias subsequently appear, then diagnostic angiography should be performed. (\nLevel A\n). Either an IV GP IIb/IIIa inhibitor (\nLevel A\n) or clopidogrel (\nLevel B\n) should be added to ASA and anticoagulant therapy before diagnostic angiography. (\nLevel C\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIa_Guidelines": {
+          "text": "If an initial conservative strategy is selected and patient has recurrent ischemic discomfort with clopidogrel, ASA, and\nanticoagulant\ntherapy, it is reasonable to add a GP IIb/IIIa inhibitor before diagnostic angiography. (\nLevel C\n)\nIf an initial invasive strategy is selected, it is reasonable to omit administration of an IV GP IIb/IIIa inhibitor if\nbivalirudin\nis selected as the anticoagulant and clopidogrel was administered at least 6 hours earlier than planned catheterization or PCI. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines": {
+          "text": "If an initial conservative strategy is selected, it may be reasonable to add\neptifibatide\nor\ntirofiban\nto\nanticoagulant\nand oral antiplatelet therapy.19,20 (\nLevel B\n)\nPrasugrel may be considered for administration promptly upon presentation if PCI is planned, before definition of coronary anatomy if both the risk for bleeding is low and the need for CABG is considered unlikely. (\nLevel C\n)\nThe use of GP IIb/IIIa inhibitors may be considered in high-risk patients already receiving ASA and a thienopyridine who are selected for an invasive strategy, such as those with elevated\ntroponin\nlevels, diabetes, or significant ST-segment depression, and who are not otherwise at high risk for\nbleeding. (\nLevel B\n)\nIn patients with definite UA/NSTEMI undergoing PCI, the use of a loading dose of clopidogrel of 600mg, followed by a higher maintenance dose of 150mg daily for 6 days, then 75mg daily may be reasonable in patients not considered at high risk for bleeding. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines_2": {
+          "text": "Abciximab\nshould not be administered to patients in whom PCI is not planned. (\nLevel A\n)\nLow risk patients for ischemic events (TIMI risk score 2) or at high risk of bleeding and who are already receiving ASA and clopidogrel, upstream GP IIb/IIIa inhibitors are not recommended. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_III_Guidelines": {
+          "text": "In UA/NSTEMI patients with a prior history of stroke or TIA for whom PCI is planned, prasugrel is potentially harmful as part of a dual-antiplatelet therapy regimen.(\nLevel B\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "Nitrates",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        },
+        {
+          "text": "nifedipine",
+          "url": "https://wikem.org/wiki/Nifedipine"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        },
+        {
+          "text": "Transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "Unstable_Angina_-_NSTEMI_Guidelines": {
+      "text": "",
+      "subsections": {
+        "Summary_of_Class_I_Guidelines": {
+          "text": "Aspirin\nshould be initiated as soon as possible and continued indefinitely in patients who tolerate it. (\nLevel A\n)\nClopidogrel\nloading dose should be initiated as soon as possible in patients unable to tolerate aspirin.  (\nLevel B\n)\nMedium/High risk patients in whom initial invasive strategy is planned should receive dual therapy (Level A) including aspirin (Level A) and:\nBefore PCI one of the following:\nClopidogrel (\nLevel B\n)\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nOtherwise during PCI one of the following:\nClopidogrel (\nLevel A\n) if not started beforehand\nAn IV GP IIb/IIIa inhibitor (\nLevel A\n) preferably eptifibatide or tirofiban.\nPrasugrel\n(\nLevel B\n)\nIf an initial conservative (i.e. noninvasive) strategy is selected, clopidogrel should be added to ASA and anticoagulant therapy as soon as possible after admission. (\nLevel B\n)\nIf an initial conservative strategy is selected and recurrent symptoms/ischemia, heart failure, or serious arrhythmias subsequently appear, then diagnostic angiography should be performed. (\nLevel A\n). Either an IV GP IIb/IIIa inhibitor (\nLevel A\n) or clopidogrel (\nLevel B\n) should be added to ASA and anticoagulant therapy before diagnostic angiography. (\nLevel C\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIa_Guidelines": {
+          "text": "If an initial conservative strategy is selected and patient has recurrent ischemic discomfort with clopidogrel, ASA, and\nanticoagulant\ntherapy, it is reasonable to add a GP IIb/IIIa inhibitor before diagnostic angiography. (\nLevel C\n)\nIf an initial invasive strategy is selected, it is reasonable to omit administration of an IV GP IIb/IIIa inhibitor if\nbivalirudin\nis selected as the anticoagulant and clopidogrel was administered at least 6 hours earlier than planned catheterization or PCI. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines": {
+          "text": "If an initial conservative strategy is selected, it may be reasonable to add\neptifibatide\nor\ntirofiban\nto\nanticoagulant\nand oral antiplatelet therapy.19,20 (\nLevel B\n)\nPrasugrel may be considered for administration promptly upon presentation if PCI is planned, before definition of coronary anatomy if both the risk for bleeding is low and the need for CABG is considered unlikely. (\nLevel C\n)\nThe use of GP IIb/IIIa inhibitors may be considered in high-risk patients already receiving ASA and a thienopyridine who are selected for an invasive strategy, such as those with elevated\ntroponin\nlevels, diabetes, or significant ST-segment depression, and who are not otherwise at high risk for\nbleeding. (\nLevel B\n)\nIn patients with definite UA/NSTEMI undergoing PCI, the use of a loading dose of clopidogrel of 600mg, followed by a higher maintenance dose of 150mg daily for 6 days, then 75mg daily may be reasonable in patients not considered at high risk for bleeding. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_IIb_Guidelines_2": {
+          "text": "Abciximab\nshould not be administered to patients in whom PCI is not planned. (\nLevel A\n)\nLow risk patients for ischemic events (TIMI risk score 2) or at high risk of bleeding and who are already receiving ASA and clopidogrel, upstream GP IIb/IIIa inhibitors are not recommended. (\nLevel B\n)",
+          "tables": []
+        },
+        "Summary_of_Class_III_Guidelines": {
+          "text": "In UA/NSTEMI patients with a prior history of stroke or TIA for whom PCI is planned, prasugrel is potentially harmful as part of a dual-antiplatelet therapy regimen.(\nLevel B\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "eptifibatide",
+          "url": "https://wikem.org/wiki/Eptifibatide"
+        },
+        {
+          "text": "tirofiban",
+          "url": "https://wikem.org/wiki/Tirofiban"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Abciximab",
+          "url": "https://wikem.org/wiki/Abciximab"
+        },
+        {
+          "text": "Level A",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Level B",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - TIMI Risk Score fro UA/NSTEMI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Coronary Syndrome (Main)\nStable Angina\nNSTEMI\nUnstable Angina - NSTEMI Guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Stable Angina",
+          "url": "https://wikem.org/wiki/Stable_Angina"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "Unstable Angina - NSTEMI Guidelines",
+          "url": "https://wikem.org/wiki/Unstable_Angina_-_NSTEMI_Guidelines"
+        }
+      ]
+    }
+  }
+}

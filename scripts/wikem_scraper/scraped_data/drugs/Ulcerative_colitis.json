@@ -1,0 +1,242 @@
+{
+  "drug_name": "Ulcerative_colitis",
+  "url": "https://wikem.org/wiki/Ulcerative_colitis",
+  "scraped_at": "2026-01-10T08:04:24.747423",
+  "sections": {
+    "Background": {
+      "text": "Inflammation tends to be progressively more severe from proximal to distal colon\nRectum is almost always involved\nPeak incidence occurs in second and third decades of life",
+      "subsections": {
+        "Crohn's_disease_vs._ulcerative_colitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finding": "Depth of inflammation",
+                "Crohn's disease": "May be transmural, deep into tissues",
+                "Ulcerative colitis": "Shallow, mucosal"
+              },
+              {
+                "Finding": "Distribution of disease",
+                "Crohn's disease": "Patchy areas of inflammation (skip lesions)",
+                "Ulcerative colitis": "Continuous area of inflammation"
+              },
+              {
+                "Finding": "Terminal ileum involvement",
+                "Crohn's disease": "Commonly",
+                "Ulcerative colitis": "Seldom"
+              },
+              {
+                "Finding": "Colon involvement",
+                "Crohn's disease": "Usually",
+                "Ulcerative colitis": "Always"
+              },
+              {
+                "Finding": "Rectum involvement",
+                "Crohn's disease": "Seldom",
+                "Ulcerative colitis": "Usually (95%)"
+              },
+              {
+                "Finding": "Involvement around anus",
+                "Crohn's disease": "Common",
+                "Ulcerative colitis": "Seldom"
+              },
+              {
+                "Finding": "Stenosis",
+                "Crohn's disease": "Common",
+                "Ulcerative colitis": "Seldom"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Crohn's_disease_vs._ulcerative_colitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Depth of inflammation",
+            "Crohn's disease": "May be transmural, deep into tissues",
+            "Ulcerative colitis": "Shallow, mucosal"
+          },
+          {
+            "Finding": "Distribution of disease",
+            "Crohn's disease": "Patchy areas of inflammation (skip lesions)",
+            "Ulcerative colitis": "Continuous area of inflammation"
+          },
+          {
+            "Finding": "Terminal ileum involvement",
+            "Crohn's disease": "Commonly",
+            "Ulcerative colitis": "Seldom"
+          },
+          {
+            "Finding": "Colon involvement",
+            "Crohn's disease": "Usually",
+            "Ulcerative colitis": "Always"
+          },
+          {
+            "Finding": "Rectum involvement",
+            "Crohn's disease": "Seldom",
+            "Ulcerative colitis": "Usually (95%)"
+          },
+          {
+            "Finding": "Involvement around anus",
+            "Crohn's disease": "Common",
+            "Ulcerative colitis": "Seldom"
+          },
+          {
+            "Finding": "Stenosis",
+            "Crohn's disease": "Common",
+            "Ulcerative colitis": "Seldom"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal cramps\nand\ndiarrhea\n(often\nbloody\n)",
+      "subsections": {
+        "Classification": {
+          "text": "Mild\n<4 bowel movements per day\nNo systemic symptoms\nFew extraintestinal manifestations\nOccasional constipation and rectal bleeding\nModerate\nColitis\nextends to splenic flexure\nSevere\nFrequent BM\nAnemia\nFever\nWeight loss\nFrequent extraintestinal manifestations\nPancolitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification": {
+      "text": "Mild\n<4 bowel movements per day\nNo systemic symptoms\nFew extraintestinal manifestations\nOccasional constipation and rectal bleeding\nModerate\nColitis\nextends to splenic flexure\nSevere\nFrequent BM\nAnemia\nFever\nWeight loss\nFrequent extraintestinal manifestations\nPancolitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Colitis": {
+          "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Colitis": {
+      "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "CBC\nChemistry\nLFTs/lipase\nConsider:\nESR/CRP\nFecal calprotectin\n[2]\n(typically requested by GI)\nType and screen (if significant bleeding)\nImaging\nConsider CT based on clinical features and need to rule out more concerning processes",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Positive atypical p-ANCA and negative ASCA is specific for ulcerative colitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "CBC\nChemistry\nLFTs/lipase\nConsider:\nESR/CRP\nFecal calprotectin\n[2]\n(typically requested by GI)\nType and screen (if significant bleeding)\nImaging\nConsider CT based on clinical features and need to rule out more concerning processes",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Positive atypical p-ANCA and negative ASCA is specific for ulcerative colitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Positive atypical p-ANCA and negative ASCA is specific for ulcerative colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Rule-out complications:\nHemorrhage\nToxic megacolon\nDevelops in advanced disease when all the layers of the colon become involved\nPresentation\nSeverely ill\nAbdomen distended, tender,\nperitonitis\nFever\n,\ntachycardia\nLeukocytosis\n(may be masked if patient taking steroids)\nPerforation results in high mortality\nAbdominal x-ray\n: long, continuous segment of air-filled colon >6cm in diameter\nPerirectal fistula\nPerirectal abscess\nObstruction (due to stricture)\nCarcinoma\nSteroids\nParenteral vs PO depending on severity\nPO:\nprednisone\n40mg x 2wks, then decrease by 5mg per week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for severe complication or severe flare requiring IV steroids",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
