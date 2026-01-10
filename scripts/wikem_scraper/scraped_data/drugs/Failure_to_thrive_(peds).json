@@ -1,0 +1,112 @@
+{
+  "drug_name": "Failure_to_thrive_(peds)",
+  "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)",
+  "scraped_at": "2026-01-10T07:53:09.623641",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nfailure to thrive\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Non-specific term indicating inappropriate weight loss or insufficient weight gain, due to insufficient caloric intake, insufficient caloric absorption, or excessive caloric demand.\nDefined as weighing <5th%ile for age and sex, or weight deceleration crossing two major growth lines on a growth chart.\nDoes not imply a defect in social, intellectual, or emotional development, but if untreated may lead to any combination of those.\nClassically divided into endogenous (medical) and exogenous (psychosocial or environmental) causes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Weight <5th percentile or weight deceleration crossing two major growth lines\n+/- signs/symptoms of\nmalnutrition\n+/- signs/symptoms of underlying pathology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "malnutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Endogenous_Causes": {
+          "text": "GERD\nIBS\nFood allergy\nMalabsorption\nPyloric stenosis\nGastrointestinal atresia or malformation\nInborn errors of metabolism\nThyroid disease\nChronic infection or immunodeficiency\nChronic pulmonary disease\nCongenital heart disease\nor heart failure\nMalignancy\nCeliac disease\nInflammatory bowel disease",
+          "tables": []
+        },
+        "Exogenous_Causes": {
+          "text": "Breastfeeding problem (latching, suckling, or swallowing)\nImproper formula preparation\nCaregiver depression\nLack of food availability\nCleft lip/palate\nMood disorder\nEating disorder\nChild neglect or\nchild abuse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "IBS",
+          "url": "https://wikem.org/wiki/IBS"
+        },
+        {
+          "text": "Pyloric stenosis",
+          "url": "https://wikem.org/wiki/Pyloric_stenosis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Thyroid disease",
+          "url": "https://wikem.org/wiki/Thyroid_disease"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "A detailed history and physical examination (including accurate height and weight) are usually sufficient to establish a cause. Over 80% of cases are due to insufficient caloric intake from exogenous causes.\nHistory should focus on breastfeeding technique, frequency, and duration, or amount of formula and method of preparation.\nObserved feeds can often be useful to identify problems.\nIf an endogenous cause is suspected, specific lab tests or imaging studies may be helpful to evaluate for metabolic abnormalities, the presence of infections, malignancy, or anatomic malformations. Additional testing should be ordered on a case by case basis and is only recommended if a specific etiology is suspected.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause\nTreat\nmalnutrition",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "malnutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most cases can be discharged with PCP follow up. PCPs can make appropriate referrals for nutritional counseling, lactation coaching, or formula supplementation.\nIndications for hospitalization include failure of outpatient management, suspicion of endogenous cause requiring urgent management, suspicion of abuse or neglect, signs of traumatic injury, severe psychosocial impairment of the caregiver, or evidence of serious malnutrition (<70th% of predicted weight for length).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Failure to thrive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Failure to thrive",
+          "url": "https://wikem.org/wiki/Failure_to_thrive"
+        }
+      ]
+    }
+  }
+}

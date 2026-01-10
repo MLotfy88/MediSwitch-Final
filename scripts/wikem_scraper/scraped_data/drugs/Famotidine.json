@@ -1,0 +1,107 @@
+{
+  "drug_name": "Famotidine",
+  "url": "https://wikem.org/wiki/Famotidine",
+  "scraped_at": "2026-01-10T07:53:13.407500",
+  "sections": {
+    "Administration": {
+      "text": "Type: Histamine\nH2 blocker\nDosage Forms: 10, 20, and 40 PO; 40/5 mL suspension\nRoutes of Administration: PO, IV\nCommon Trade Names: Pepcid, Pepcid AC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Active duodenal ulcer\n40mg PO qhs x4-6 weeks\nAlt dosing: 20mg PO BID or 20mg IV q12 hr\nMaintenance duodenal ulcer\n20mg PO qhs\nGastric ulcer\n40mg PO qhs\nAlt dosing: 20mg IV q12 hr\nGERD\n20-40mg PO BID x12 weeks\nAlt dosing: 20mg IV q12 hr\nZollinger-Ellison syndrome\n20-60mg PO q6 hr\nAlt dosing: 20mg IV q12 hr\nMax: 160mg PO q6 hr\nintractable ulcer\n20mg IV q12 hr\nH. pylori infection\n20mg PO BID x 10-28 days\nUse in combination with other medications for eradication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "PUD\n1-16 years old\n0.5-1mg/kd/day PO daily-bid\nStart at 0.5mg/kg/day daily-bid\nAlt dosing: 0.5-1mg/kg/day IV bid\nMax 40mg/day\nGERD\n<3 mo\n0.5mg/kg/day PO daily\n3-12 mo\n1mg/kg/day PO bid\n1-16 yo\n1-2mg/kg/day PO bid\nStart 1mg/kg/day bid\nAlt dosing: 0.5-1mg/kg/day IV bid\nMax 40mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Probably safe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: CrCl<50: decrease dose by 50% or give q 36-48 hr; If on dialysis give after dialysis\nPediatric: CrCl 10-50: decrease dose 50% or give q24 hr, CrCl<10: give q36-48 hr",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric:Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: CrCl<50: decrease dose by 50% or give q 36-48 hr; If on dialysis give after dialysis\nPediatric: CrCl 10-50: decrease dose 50% or give q24 hr, CrCl<10: give q36-48 hr",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric:Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric:Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution in renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\nAngioedema\nTEN\nStevens-Johnson Syndrome\nagranulocytosis\nleukopenia\nthrombocytopenia\npancytopenia\nseizures\nAV block\narrhythmias\nCNS toxicity\ncholestatic jaundice\nhepatitis\ninterstitial pneumonia\nQT prolongation",
+          "tables": []
+        },
+        "Common": {
+          "text": "headache\ndizziness\nconstipation\ndiarrhea\ntaste changes\nvitamin B12 deficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anaphylaxis\nAngioedema\nTEN\nStevens-Johnson Syndrome\nagranulocytosis\nleukopenia\nthrombocytopenia\npancytopenia\nseizures\nAV block\narrhythmias\nCNS toxicity\ncholestatic jaundice\nhepatitis\ninterstitial pneumonia\nQT prolongation",
+      "subsections": {
+        "Common": {
+          "text": "headache\ndizziness\nconstipation\ndiarrhea\ntaste changes\nvitamin B12 deficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "headache\ndizziness\nconstipation\ndiarrhea\ntaste changes\nvitamin B12 deficiency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5-3.5 hr; >20 hr with CrCl<10\nMetabolism: minimally liver/CYP450\nExcretion: urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Selective histamine H2 blocker",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

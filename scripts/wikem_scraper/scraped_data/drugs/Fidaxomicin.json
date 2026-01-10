@@ -1,0 +1,246 @@
+{
+  "drug_name": "Fidaxomicin",
+  "url": "https://wikem.org/wiki/Fidaxomicin",
+  "scraped_at": "2026-01-10T07:53:19.309484",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nMacrolide\nantibiotic\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "C. diff\ndiarrhea: 200mg PO BID x 10d",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category B",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category B",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Infant risk cannot be ruled out",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "No adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "No adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bowel obstruction\nGI bleed",
+          "tables": []
+        },
+        "Common": {
+          "text": "Abdominal pain\n,\nnausea/vomiting\nAnemia\n,\nneutropenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bowel obstruction\nGI bleed",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal pain\n,\nnausea/vomiting\nAnemia\n,\nneutropenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Abdominal pain\n,\nnausea/vomiting\nAnemia\n,\nneutropenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: ~12h\nMetabolism: Intestinal\nExcretion: Fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Macrolide\n: inhibits RNA polymerases primarily against clostridia species",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "C. diff\nMacrolides",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "Macrolides",
+          "url": "https://wikem.org/wiki/Macrolides"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "drug_name": "Faget_sign",
+  "url": "https://wikem.org/wiki/Faget_sign",
+  "scraped_at": "2026-01-10T07:53:12.975399",
+  "sections": {
+    "Background": {
+      "text": "A pulse-temperature dissociation (aka sphygmothermic dissociation) named after Louisiana physician Jean Charles Faget.\nTypically for every 1 degree of fever the pulse increases by 10 beats/min.  When fever is associated with bradycardia, it is referred to as Faget's sign.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Etiology": {
+      "text": "Common causes include:\nBrucellosis\nChlamydia\nColorado tick fever virus\nCoxiella burnetii\nDengue fever\nDrug fever\nLegionella\nLeptospirosis\nLeishmaniasis\nMycoplasma\nPsittacosis\nTularemia\nTyphoid fever\nYellow fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Coxiella burnetii",
+          "url": "https://wikem.org/wiki/Coxiella_burnetii"
+        },
+        {
+          "text": "Dengue fever",
+          "url": "https://wikem.org/wiki/Dengue_fever"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1864 @@
+{
+  "drug_name": "Fever_and_rash",
+  "url": "https://wikem.org/wiki/Fever_and_rash",
+  "scraped_at": "2026-01-10T07:53:26.345274",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Rash_Red_Flags": {
+          "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+          "tables": []
+        },
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Rash_Red_Flags": {
+      "text": "Fever\nToxic appearance\nHypotension\nMucosal lesions\nSevere pain\nVery old or young age\nImmunosuppressed\nNew medication",
+      "subsections": {
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "New medication",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Dermatology_Nomenclature": {
+      "text": "",
+      "subsections": {
+        "Small_lesions_(<0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Macule",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "flat, cirumscribed, colored",
+                "Diagram": ""
+              },
+              {
+                "Name": "Papule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Solid",
+                "Diagram": ""
+              },
+              {
+                "Name": "Vesicle",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "",
+                "Diagram": ""
+              },
+              {
+                "Name": "Pustule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Pus",
+                "Other Description": "Leukocytes or keratin",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Large_lesions_(>0.5cm)": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Name": "Patch",
+                "Raised/Palpable": "No",
+                "Fluid-Filled": "None",
+                "Other Description": "Large macule (flat, colored)",
+                "Diagram": ""
+              },
+              {
+                "Name": "Plaque",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Superficially raised, circumscribed solid area",
+                "Diagram": ""
+              },
+              {
+                "Name": "Nodule",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "None",
+                "Other Description": "Distinct large papule",
+                "Diagram": ""
+              },
+              {
+                "Name": "Bulla",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Clear",
+                "Other Description": "Large vesicle/blister or exposed epidermal layer",
+                "Diagram": ""
+              },
+              {
+                "Name": "Wheal",
+                "Raised/Palpable": "Yes",
+                "Fluid-Filled": "Edema",
+                "Other Description": "Firm and edema of dermis",
+                "Diagram": ""
+              }
+            ]
+          ]
+        },
+        "Other": {
+          "text": "Eschar\nFissure/erosion/ulcer\nNecrotizing rashes",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing rashes",
+          "url": "https://wikem.org/wiki/Necrotizing_rashes"
+        }
+      ]
+    },
+    "Differential_Diagnosis_by_Rash_Type": {
+      "text": "",
+      "subsections": {
+        "Petechial": {
+          "text": "Infectious\nDengue fever\nEBV\nEndocarditis\nEnteric bacteria (e.g.\ne. coli\n,\nshigella\n)\nEnterovirus\nEpidemic typhus\nGonococcemia\nGram negative bacteria\nHepatitis B\nMeningococcemia\nRat bite fever\nRMSF\nRubella\nNoninfectious\nAllergy\nAmyloidosis\nHSP\nHypersensitivity\nvasculitis\nLupus\nRheumatic fever\nScurvy\nThrombocytopenia",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Skin changes are often the most concerning finding in a pediatric fever\nHSP\nHUS\nITP\nMeningitis (Peds)\nMicroangiopathic Hemolytic Anemia (MAHA)\nTTP",
+          "tables": []
+        },
+        "Maculopapular": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        },
+        "Vesico-Bullous": {
+          "text": "Infectious\nEnterovirus\nFifths disease\nFolliculitis\n(\nStaph\n,\nCandida\n,\nPseudomonas\n)\nGC\nHIV\nHSV\nParvovirus B19\nRickettsia\nStaph\nVaricella\nVibrio vulnificans\nNoninfectious\nAllergy\nEczema vaccinatum\nErythema multiforme\nbullosum\nPlant dermatitis",
+          "tables": []
+        },
+        "Erythematous": {
+          "text": "Infectious\nStaph\n/\nstrep\n(\ntoxic shock\n,\nscarlet fever\n)\nEhrlichiosis\nStrep viridans\nC. haemolyticum\nKawasaki's\nEnterovirus\nNoninfectious\nAllergy\nEczema\nLymphoma\nPityriasis rubra\nPsoriasis\nSezary syndrome\nVasodilation",
+          "tables": []
+        },
+        "Urticarial": {
+          "text": "Infectious\nAdenovirus\nEBV\nEnterovirus\nHep B\nHIV\nLoiasis\nLyme\nMycoplasma\nOnchocerciasis\nSchistosomiasis\nStrongyloides\nTrichinosis\nNoninfectious\nAllergy\nIdiopathic\nMalignancy\nVasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dengue fever",
+          "url": "https://wikem.org/wiki/Dengue_fever"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "e. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Epidemic typhus",
+          "url": "https://wikem.org/wiki/Epidemic_typhus"
+        },
+        {
+          "text": "Gonococcemia",
+          "url": "https://wikem.org/wiki/Gonococcemia"
+        },
+        {
+          "text": "Gram negative bacteria",
+          "url": "https://wikem.org/wiki/Gram_negative_bacteria"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Rat bite fever",
+          "url": "https://wikem.org/wiki/Rat_bite_fever"
+        },
+        {
+          "text": "RMSF",
+          "url": "https://wikem.org/wiki/RMSF"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Meningitis (Peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Vibrio vulnificans",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificans"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Plant dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "toxic shock",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "C. haemolyticum",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "Kawasaki's",
+          "url": "https://wikem.org/wiki/Kawasaki%27s"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hep B",
+          "url": "https://wikem.org/wiki/Hep_B"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Loiasis",
+          "url": "https://wikem.org/wiki/Loiasis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Petechial": {
+      "text": "Infectious\nDengue fever\nEBV\nEndocarditis\nEnteric bacteria (e.g.\ne. coli\n,\nshigella\n)\nEnterovirus\nEpidemic typhus\nGonococcemia\nGram negative bacteria\nHepatitis B\nMeningococcemia\nRat bite fever\nRMSF\nRubella\nNoninfectious\nAllergy\nAmyloidosis\nHSP\nHypersensitivity\nvasculitis\nLupus\nRheumatic fever\nScurvy\nThrombocytopenia",
+      "subsections": {
+        "Pediatric": {
+          "text": "Skin changes are often the most concerning finding in a pediatric fever\nHSP\nHUS\nITP\nMeningitis (Peds)\nMicroangiopathic Hemolytic Anemia (MAHA)\nTTP",
+          "tables": []
+        },
+        "Maculopapular": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        },
+        "Vesico-Bullous": {
+          "text": "Infectious\nEnterovirus\nFifths disease\nFolliculitis\n(\nStaph\n,\nCandida\n,\nPseudomonas\n)\nGC\nHIV\nHSV\nParvovirus B19\nRickettsia\nStaph\nVaricella\nVibrio vulnificans\nNoninfectious\nAllergy\nEczema vaccinatum\nErythema multiforme\nbullosum\nPlant dermatitis",
+          "tables": []
+        },
+        "Erythematous": {
+          "text": "Infectious\nStaph\n/\nstrep\n(\ntoxic shock\n,\nscarlet fever\n)\nEhrlichiosis\nStrep viridans\nC. haemolyticum\nKawasaki's\nEnterovirus\nNoninfectious\nAllergy\nEczema\nLymphoma\nPityriasis rubra\nPsoriasis\nSezary syndrome\nVasodilation",
+          "tables": []
+        },
+        "Urticarial": {
+          "text": "Infectious\nAdenovirus\nEBV\nEnterovirus\nHep B\nHIV\nLoiasis\nLyme\nMycoplasma\nOnchocerciasis\nSchistosomiasis\nStrongyloides\nTrichinosis\nNoninfectious\nAllergy\nIdiopathic\nMalignancy\nVasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dengue fever",
+          "url": "https://wikem.org/wiki/Dengue_fever"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "e. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Epidemic typhus",
+          "url": "https://wikem.org/wiki/Epidemic_typhus"
+        },
+        {
+          "text": "Gonococcemia",
+          "url": "https://wikem.org/wiki/Gonococcemia"
+        },
+        {
+          "text": "Gram negative bacteria",
+          "url": "https://wikem.org/wiki/Gram_negative_bacteria"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Rat bite fever",
+          "url": "https://wikem.org/wiki/Rat_bite_fever"
+        },
+        {
+          "text": "RMSF",
+          "url": "https://wikem.org/wiki/RMSF"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Meningitis (Peds)",
+          "url": "https://wikem.org/wiki/Meningitis_(Peds)"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Vibrio vulnificans",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificans"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Plant dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "toxic shock",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "C. haemolyticum",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "Kawasaki's",
+          "url": "https://wikem.org/wiki/Kawasaki%27s"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hep B",
+          "url": "https://wikem.org/wiki/Hep_B"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Loiasis",
+          "url": "https://wikem.org/wiki/Loiasis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Maculopapular": {
+      "text": "Infectious\nAdenovirus\nArbovirus\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nSerum sickness\nSweet's syndrome",
+      "subsections": {
+        "Vesico-Bullous": {
+          "text": "Infectious\nEnterovirus\nFifths disease\nFolliculitis\n(\nStaph\n,\nCandida\n,\nPseudomonas\n)\nGC\nHIV\nHSV\nParvovirus B19\nRickettsia\nStaph\nVaricella\nVibrio vulnificans\nNoninfectious\nAllergy\nEczema vaccinatum\nErythema multiforme\nbullosum\nPlant dermatitis",
+          "tables": []
+        },
+        "Erythematous": {
+          "text": "Infectious\nStaph\n/\nstrep\n(\ntoxic shock\n,\nscarlet fever\n)\nEhrlichiosis\nStrep viridans\nC. haemolyticum\nKawasaki's\nEnterovirus\nNoninfectious\nAllergy\nEczema\nLymphoma\nPityriasis rubra\nPsoriasis\nSezary syndrome\nVasodilation",
+          "tables": []
+        },
+        "Urticarial": {
+          "text": "Infectious\nAdenovirus\nEBV\nEnterovirus\nHep B\nHIV\nLoiasis\nLyme\nMycoplasma\nOnchocerciasis\nSchistosomiasis\nStrongyloides\nTrichinosis\nNoninfectious\nAllergy\nIdiopathic\nMalignancy\nVasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Vibrio vulnificans",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificans"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Plant dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "toxic shock",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "C. haemolyticum",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "Kawasaki's",
+          "url": "https://wikem.org/wiki/Kawasaki%27s"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hep B",
+          "url": "https://wikem.org/wiki/Hep_B"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Loiasis",
+          "url": "https://wikem.org/wiki/Loiasis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Vesico-Bullous": {
+      "text": "Infectious\nEnterovirus\nFifths disease\nFolliculitis\n(\nStaph\n,\nCandida\n,\nPseudomonas\n)\nGC\nHIV\nHSV\nParvovirus B19\nRickettsia\nStaph\nVaricella\nVibrio vulnificans\nNoninfectious\nAllergy\nEczema vaccinatum\nErythema multiforme\nbullosum\nPlant dermatitis",
+      "subsections": {
+        "Erythematous": {
+          "text": "Infectious\nStaph\n/\nstrep\n(\ntoxic shock\n,\nscarlet fever\n)\nEhrlichiosis\nStrep viridans\nC. haemolyticum\nKawasaki's\nEnterovirus\nNoninfectious\nAllergy\nEczema\nLymphoma\nPityriasis rubra\nPsoriasis\nSezary syndrome\nVasodilation",
+          "tables": []
+        },
+        "Urticarial": {
+          "text": "Infectious\nAdenovirus\nEBV\nEnterovirus\nHep B\nHIV\nLoiasis\nLyme\nMycoplasma\nOnchocerciasis\nSchistosomiasis\nStrongyloides\nTrichinosis\nNoninfectious\nAllergy\nIdiopathic\nMalignancy\nVasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Candida",
+          "url": "https://wikem.org/wiki/Candida"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Parvovirus B19",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Vibrio vulnificans",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificans"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Plant dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "toxic shock",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "C. haemolyticum",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "Kawasaki's",
+          "url": "https://wikem.org/wiki/Kawasaki%27s"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hep B",
+          "url": "https://wikem.org/wiki/Hep_B"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Loiasis",
+          "url": "https://wikem.org/wiki/Loiasis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Erythematous": {
+      "text": "Infectious\nStaph\n/\nstrep\n(\ntoxic shock\n,\nscarlet fever\n)\nEhrlichiosis\nStrep viridans\nC. haemolyticum\nKawasaki's\nEnterovirus\nNoninfectious\nAllergy\nEczema\nLymphoma\nPityriasis rubra\nPsoriasis\nSezary syndrome\nVasodilation",
+      "subsections": {
+        "Urticarial": {
+          "text": "Infectious\nAdenovirus\nEBV\nEnterovirus\nHep B\nHIV\nLoiasis\nLyme\nMycoplasma\nOnchocerciasis\nSchistosomiasis\nStrongyloides\nTrichinosis\nNoninfectious\nAllergy\nIdiopathic\nMalignancy\nVasculitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "toxic shock",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Strep viridans",
+          "url": "https://wikem.org/wiki/Strep_viridans"
+        },
+        {
+          "text": "C. haemolyticum",
+          "url": "https://wikem.org/wiki/Corynebacterium"
+        },
+        {
+          "text": "Kawasaki's",
+          "url": "https://wikem.org/wiki/Kawasaki%27s"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Eczema",
+          "url": "https://wikem.org/wiki/Eczema"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hep B",
+          "url": "https://wikem.org/wiki/Hep_B"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Loiasis",
+          "url": "https://wikem.org/wiki/Loiasis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "Urticarial": {
+      "text": "Infectious\nAdenovirus\nEBV\nEnterovirus\nHep B\nHIV\nLoiasis\nLyme\nMycoplasma\nOnchocerciasis\nSchistosomiasis\nStrongyloides\nTrichinosis\nNoninfectious\nAllergy\nIdiopathic\nMalignancy\nVasculitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Hep B",
+          "url": "https://wikem.org/wiki/Hep_B"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Loiasis",
+          "url": "https://wikem.org/wiki/Loiasis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Strongyloides",
+          "url": "https://wikem.org/wiki/Strongyloides"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Rashes\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rashes",
+          "url": "https://wikem.org/wiki/Rashes"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    }
+  }
+}

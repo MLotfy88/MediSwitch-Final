@@ -1,0 +1,609 @@
+{
+  "drug_name": "Febrile_seizure/es",
+  "url": "https://wikem.org/wiki/Febrile_seizure/es",
+  "scraped_at": "2026-01-10T07:53:17.068344",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "Ocurren en el 2-5% de los niños estadounidenses antes de los 5 años\nhttps://www.ninds.nih.gov/disorders/patient-caregiver-education/fact-sheets/febrile-seizures-fact-sheet\nEl 50% de los pacientes nunca tienen temperatura >39\nLas convulsiones febriles no aumentan el riesgo de enfermedad bacteriana grave",
+      "subsections": {
+        "Prónostico": {
+          "text": "2-3% de probabilidad de desarrollar epilepsia (1% para la población general)\nEl 50% de los pacientes <12 meses tendrán otra convulsión febril simple\nEl 30% de los pacientes >12 meses tendrán otra convulsión febril simple",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prónostico": {
+      "text": "2-3% de probabilidad de desarrollar epilepsia (1% para la población general)\nEl 50% de los pacientes <12 meses tendrán otra convulsión febril simple\nEl 30% de los pacientes >12 meses tendrán otra convulsión febril simple",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "Seizure\n+\nfever",
+      "subsections": {
+        "Convulsión_febril_simple": {
+          "text": "Edad 6 meses-5 años, con la mayoría ocurriendo entre 12 meses-18 meses\nÚnica convulsión en 24 horas\nDuración <15 minutos\nGeneralizada sin características focales\nRetorna a la línea de base neurológica y tiene un examen neurológico normal después de un breve período post-ictal",
+          "tables": []
+        },
+        "Convulsión_febril_compleja": {
+          "text": "Cualquier excepción a lo anterior\nPuede indicar un proceso de enfermedad más grave",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Convulsión_febril_simple": {
+      "text": "Edad 6 meses-5 años, con la mayoría ocurriendo entre 12 meses-18 meses\nÚnica convulsión en 24 horas\nDuración <15 minutos\nGeneralizada sin características focales\nRetorna a la línea de base neurológica y tiene un examen neurológico normal después de un breve período post-ictal",
+      "subsections": {
+        "Convulsión_febril_compleja": {
+          "text": "Cualquier excepción a lo anterior\nPuede indicar un proceso de enfermedad más grave",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Convulsión_febril_compleja": {
+      "text": "Cualquier excepción a lo anterior\nPuede indicar un proceso de enfermedad más grave",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "",
+      "subsections": {
+        "Pediatric_seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with or \"outgrowing\"\nAEDs\nNon-epileptic seizure\nFebrile seizure\nBrain inflammation\nMeningitis\nEncephalitis\nCNS abscess\nIntracranial hemorrhage\nNeurocysticercosis\nIncreased ICP\nSeizure with\nVP shunt\nHydrocephalus\nIntracranial mass\nToxicologic\nAlcohol withdrawal\nBenzodiazepine withdrawal\nToxic ingestion\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\nPyridoxine responsive seizure\n[1]\nEclampsia\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nOther mimics\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nSyncope (peds)\nBreath-holding spell\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)\nInfantile Spasms/West Syndrome",
+          "tables": []
+        },
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(Peds)"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "CNS abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Syncope (peds)",
+          "url": "https://wikem.org/wiki/Syncope_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_seizure": {
+      "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with or \"outgrowing\"\nAEDs\nNon-epileptic seizure\nFebrile seizure\nBrain inflammation\nMeningitis\nEncephalitis\nCNS abscess\nIntracranial hemorrhage\nNeurocysticercosis\nIncreased ICP\nSeizure with\nVP shunt\nHydrocephalus\nIntracranial mass\nToxicologic\nAlcohol withdrawal\nBenzodiazepine withdrawal\nToxic ingestion\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\nPyridoxine responsive seizure\n[1]\nEclampsia\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nOther mimics\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nSyncope (peds)\nBreath-holding spell\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)\nInfantile Spasms/West Syndrome",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(Peds)"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "CNS abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Syncope (peds)",
+          "url": "https://wikem.org/wiki/Syncope_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        },
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "Evaluación": {
+      "text": "La clave es distinguir entre convulsión febril simple secundaria a una enfermedad menor vs. convulsión por infección grave del sistema nervioso central, que también puede presentarse con fiebre y convulsión.\nGlucosa en todos los pacientes",
+      "subsections": {
+        "Convulsión_febril_simple_2": {
+          "text": "Neither labs nor neuroimaging are absolutely necessary\nNormal\npediatric fever workup",
+          "tables": []
+        },
+        "Convulsión_febril_compleja_2": {
+          "text": "Considerar hemograma,\nblood culture\n, UA, cultivo de orina,\nCSF studies\nEstudios han sugerido una relación entre la anemia por deficiencia de hierro y la tasa de convulsiones febriles\n[2]\nConsiderar TC si:\nExamen neurológico anormal de manera persistente (especialmente con focalidad)\nSignos/síntomas de\nincreased ICP\nPaciente tiene\nVP shunt\nConsiderar\nECG\nsi:\nHistoria familiar de\nlong QT\n,\nBrugada\n, muerte súbita\nEEG de rutina no indicado\nConsiderar solo si retraso en el desarrollo o síntomas focales\nCausas que pueden ser tratadas de manera específica\nHypoglycemia\nHyponatremia\n(intoxicación por agua, dilución de fórmula)\nHypocalcemia\nHypomagnesemia\nINH ingestion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Manejo": {
+      "text": "^Puede ser ineficaz para las convulsiones inducidas por toxinas y contraindicado en\ncocaine toxicity",
+      "subsections": {
+        "Convulsión_detenida": {
+          "text": "Tratar la infección subyacente si está indicado\nSee\npediatric fever of uncertain source",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Cronología": "0-5 minutos",
+            "Consideraciones generales": "Atención de apoyoABC'sMantener la vía aérea; succión, empuje de la mandíbulaProporcionarO2a través de ventilación con presión positiva con BVM/MaplesonProbablemente apneico/hipoventilante/hipercapneicoSolo aplicar CPAP o una máscara de no rebreathing si el paciente deja de tener convulsiones y tiene un adecuado aumento del pechoEstablecer acceso IV/IORevisar la glucemiaSi tiene fiebre,acetaminophen15 mg/kg rectalmente",
+            "Tratamiento de la convulsión": "Benzodiacepina: primera dosisAcceso IV/IO establecidoLorazepam0.1 mg/kg IV (max 4 mg) si se tiene acceso IV/IO, ORDiazepam0.2 mg/kg IM (max 10 mg) si no se tiene accesoNo se logra acceso IV o IO dentro de 3 minutos:Buccalmidazolam0.2 mg/kg (max 10 mg), ORIMmidazolam0.2 mg/kg (max 10 mg), ORRectaldiazepam(Diastat gel o solución de inyección administrada rectalmente) 0.5 mg/kg (max 20 mg)"
+          },
+          {
+            "Cronología": "5-10 minutos",
+            "Consideraciones generales": "Administrar antibióticos si se sospechasepsisomeningitisElectrolitos POC, si están disponibles",
+            "Tratamiento de la convulsión": "Benzodiacepina: segunda dosis"
+          },
+          {
+            "Cronología": "10-15 minutos",
+            "Consideraciones generales": "Todas son igualmente eficaces para el estado epilépticoLevetiracetam es preferido debido a su rápida administración, perfil de efectos secundarios favorable y menos interacciones medicamentosasNo combinar Fenitoína y Fosfenitoína",
+            "Tratamiento de la convulsión": "Antiepiléptico: primera terapiaLevetiracetam60 mg/kg IV/IO (max 4500mg) durante 5 min, ORFosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) durante 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) durante 10 min, ORPhenobarbital20 mg/kg IV/IO, (max 1 g) durante 20 min, (esperar depresión respiratoria con apnea)¥"
+          },
+          {
+            "Cronología": "15-30 minutos",
+            "Consideraciones generales": "Considerar intubación, si no se ha realizado anteriormenteConsiderar sonda nasogástrica para descomprimir el estómago antes de la intubaciónConsulta de neurología pediátrica",
+            "Tratamiento de la convulsión": "Antiepiléptico: segunda terapia(si no se ha administrado el medicamento anteriormente)Fosphenytoin^ 20 mg PE/kg IV/IO (max 1500mg) durante 10 min, ORValproate40 mg/kg IV/IO (max 3000mg) durante 10 min, ORPhenobarbital20 mg/kg IV/IO (max 1 g) durante 20 min10 mg/kg si ya se administró fenobarbital, ORLevetiracetam60 mg/kg IV/IO (max 4500mg) durante 5 minSi se sospechatoxicidad por isoniazida,piridoxinaInfantes (<1 año): 100 mg IV o IO enDe lo contrario 70 mg/kg IV o IO (max = 5 g)"
+          },
+          {
+            "Cronología": ">30 minutos",
+            "Consideraciones generales": "Intubar al paciente, si no se ha realizado anteriormenteConsultar sitio de referencia / UCI para admisión y EEG continuo",
+            "Tratamiento de la convulsión": "Antiepiléptico: tercera terapiaMidazolam0.2mg/kg IV en bolo (max 10mg), seguido de 0.2mg/kg/hr (max 10mg/hr) goteo de infusiónAumentar la velocidad de infusión en 0.2mg/kg/hr (max 10mg/hr) cada 10 minutos hasta la supresión de la actividad eléctrica o la dosis máxima de 2mg/kg/hr (max 100mg/hr)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Convulsión_detenida": {
+      "text": "Tratar la infección subyacente si está indicado\nSee\npediatric fever of uncertain source",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Destino": {
+      "text": "",
+      "subsections": {
+        "Alta": {
+          "text": "Convulsión febril simple si el paciente está en su baseline\nSeguimiento en 1-2d\nAlrededor del reloj\nacetaminophen\npuede prevenir la recurrencia de la convulsión en el mismo episodio febrilMurata et al. Acetaminophen and Febrile Seizure Recurrences During the Same Fever Episode. Pediatrics. November 2018, VOLUME 142 / ISSUE 5\nConvulsión febril compleja si el paciente parece bien, con trabajo de laboratorio normal\nSeguimiento en 24hr",
+          "tables": []
+        },
+        "Ingresar": {
+          "text": "Paciente con mal aspecto\nLetargia más allá del período posictal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Alta": {
+      "text": "Convulsión febril simple si el paciente está en su baseline\nSeguimiento en 1-2d\nAlrededor del reloj\nacetaminophen\npuede prevenir la recurrencia de la convulsión en el mismo episodio febrilMurata et al. Acetaminophen and Febrile Seizure Recurrences During the Same Fever Episode. Pediatrics. November 2018, VOLUME 142 / ISSUE 5\nConvulsión febril compleja si el paciente parece bien, con trabajo de laboratorio normal\nSeguimiento en 24hr",
+      "subsections": {
+        "Ingresar": {
+          "text": "Paciente con mal aspecto\nLetargia más allá del período posictal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ingresar": {
+      "text": "Paciente con mal aspecto\nLetargia más allá del período posictal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

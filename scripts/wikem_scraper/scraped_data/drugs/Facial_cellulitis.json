@@ -1,0 +1,831 @@
+{
+  "drug_name": "Facial_cellulitis",
+  "url": "https://wikem.org/wiki/Facial_cellulitis",
+  "scraped_at": "2026-01-10T07:53:09.983017",
+  "sections": {
+    "Background": {
+      "text": "Superficial soft tissue infection of the face\nMost commonly caused by\nS. pyogenes\nand\nS. aureus\n, including\nMRSA",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "immunosuppression\ndiabetes\nvascular injury\n(due to radiation or trauma)\nforeign bodies",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. pyogenes",
+          "url": "https://wikem.org/wiki/S._pyogenes"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "immunosuppression\ndiabetes\nvascular injury\n(due to radiation or trauma)\nforeign bodies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "foreign bodies",
+          "url": "https://wikem.org/wiki/Foreign_bodies"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Erythema, edema, warmth, pain\nCan be associated with chronic illness,\ntrauma\n,\ninsect bites\n,\nallergen exposure\n,\ndental caries\n,\nradiation exposure\nConsider severe illness or sepsis with systemic symptoms (\nfever\n,\ntachycardia\n,\nhypotension\n,\nAMS\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "allergen exposure",
+          "url": "https://wikem.org/wiki/Allergen_exposure"
+        },
+        {
+          "text": "dental caries",
+          "url": "https://wikem.org/wiki/Dental_caries"
+        },
+        {
+          "text": "radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_cellulitis": {
+          "text": "Infectious\nCellulitis\nImpetigo\nErysipelas\nViral exanthem\nParotitis\nNecrotizing fasciitis\nAnthrax\nHerpes zoster\nMalignant otitis externa\nTrauma\nSoft tissue contusion\nBurn\nInflammatory\nInsect bite\nApical abscess\nContact dermatitis\nImmunologic\nSystemic lupus erythematosus\nVancomycin\nflushing reaction\nAngioneurotic edema",
+          "tables": []
+        },
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Facial_cellulitis": {
+      "text": "Infectious\nCellulitis\nImpetigo\nErysipelas\nViral exanthem\nParotitis\nNecrotizing fasciitis\nAnthrax\nHerpes zoster\nMalignant otitis externa\nTrauma\nSoft tissue contusion\nBurn\nInflammatory\nInsect bite\nApical abscess\nContact dermatitis\nImmunologic\nSystemic lupus erythematosus\nVancomycin\nflushing reaction\nAngioneurotic edema",
+      "subsections": {
+        "Skin_and_Soft_Tissue_Infection": {
+          "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+          "tables": []
+        },
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Malignant otitis externa",
+          "url": "https://wikem.org/wiki/Malignant_otitis_externa"
+        },
+        {
+          "text": "Burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Skin_and_Soft_Tissue_Infection": {
+      "text": "Cellulitis\nHand cellulitis\nFacial cellulitis\nOrbital cellulitis\nErysipelas\nLymphangitis\nFolliculitis\nHidradenitis suppurativa\nSkin abscess\nAnorectal abscess\nBartholin gland abscess\nPilonidal abscess\nScrotal abscess\nNecrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nFournier's gangrene\nMycobacterium marinum",
+      "subsections": {
+        "Look-A-Likes": {
+          "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Hidradenitis suppurativa",
+          "url": "https://wikem.org/wiki/Hidradenitis_suppurativa"
+        },
+        {
+          "text": "Skin abscess",
+          "url": "https://wikem.org/wiki/Skin_abscess"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pilonidal abscess",
+          "url": "https://wikem.org/wiki/Pilonidal_abscess"
+        },
+        {
+          "text": "Scrotal abscess",
+          "url": "https://wikem.org/wiki/Scrotal_abscess"
+        },
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Fournier's gangrene",
+          "url": "https://wikem.org/wiki/Fournier%27s_gangrene"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Look-A-Likes": {
+      "text": "Sporotrichosis\nOsteomyelitis\nDeep venous thrombosis\nPyomyositis\nPurple glove syndrome\nTuberculosis\n(tuberculous inflammation of the skin)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Pyomyositis",
+          "url": "https://wikem.org/wiki/Pyomyositis"
+        },
+        {
+          "text": "Purple glove syndrome",
+          "url": "https://wikem.org/wiki/Purple_glove_syndrome"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is clinical\nConsider labs,\nblood culture\nif patient is immunocompromised, risk factors, renal dysfunction\nBedside\nultrasound\nto identify abscess\nCT can identify deep, extensive infection that involve soft tissues of neck or pharynx",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_Soft_tissue"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Analgesics\nRemove foreign bodies from affected area if possible\nAbscesses should be drained\nAntibiotics (see below)",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Tailor antibiotics by regional antibiogram\n[1]",
+          "tables": []
+        },
+        "Outpatient": {
+          "text": "Coverage primarily for\nStrep\nMRSA\ncoverage only necessary if cellulitis associated with: purulence, penetrating trauma, known MRSA colonization, IV drug use, or SIRS\n[2]\n5 day treatment duration, unless symptoms do not improve within that timeframe\n[2]\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\nDS 1 tab PO BID\n[3]\nif\nMRSA\nis suspected\nMost cases of non-purulent cellulitis are caused by Strep. In these cases, the addition of TMP/SMX has been demonstrated to offer no clinical benefit over cephalexin alone.\n[4]\nClindamycin\n450mg PO TID covers both Strep and Staph\nTetracyclines (like\nDoxycycline\n) should be avoided in non-purulent cellulitis due to high rates of Strep resistance\n[5]",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Vancomycin\n20mg/kg IV q12hrs\nOR\nClindamycin\n600mg IV q8hrs\nOR\nLinezolid\n600mg IV q12hrs\nOR\nDaptomycin\n4mg/kg IV once daily",
+          "tables": []
+        },
+        "Saltwater_related_cellulitis": {
+          "text": "coverage extended for\nVibrio vulnificus\nDoxycycline\n100mg PO/IV q12hrs daily +\nCefepime\n1g IV q12hrs x 10 days\nCiprofloxacin\n400mg IV q12hrs x 10 days\nCiprofloxacin\n750mg PO q12hrs x 10 days",
+          "tables": []
+        },
+        "Freshwater_related_cellulitis": {
+          "text": "coverage extended for\nAeromonas sp\nCiprofloxacin\n400mg IV q12hrs  x 10 days\nCiprofloxacin\n500mg PO q12hrs x 10 days\nTMP/SMX\n2 DS tablets (5mg/kg) PO q12hrs x 10 days\nCeftriaxone\n1g (50mg/kg) IV q24hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aeromonas sp",
+          "url": "https://wikem.org/wiki/Aeromonas_sp"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Tailor antibiotics by regional antibiogram\n[1]",
+      "subsections": {
+        "Outpatient": {
+          "text": "Coverage primarily for\nStrep\nMRSA\ncoverage only necessary if cellulitis associated with: purulence, penetrating trauma, known MRSA colonization, IV drug use, or SIRS\n[2]\n5 day treatment duration, unless symptoms do not improve within that timeframe\n[2]\nCephalexin\n500mg PO q6hrs\nOR\nAdd\nTMP/SMX\nDS 1 tab PO BID\n[3]\nif\nMRSA\nis suspected\nMost cases of non-purulent cellulitis are caused by Strep. In these cases, the addition of TMP/SMX has been demonstrated to offer no clinical benefit over cephalexin alone.\n[4]\nClindamycin\n450mg PO TID covers both Strep and Staph\nTetracyclines (like\nDoxycycline\n) should be avoided in non-purulent cellulitis due to high rates of Strep resistance\n[5]",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Vancomycin\n20mg/kg IV q12hrs\nOR\nClindamycin\n600mg IV q8hrs\nOR\nLinezolid\n600mg IV q12hrs\nOR\nDaptomycin\n4mg/kg IV once daily",
+          "tables": []
+        },
+        "Saltwater_related_cellulitis": {
+          "text": "coverage extended for\nVibrio vulnificus\nDoxycycline\n100mg PO/IV q12hrs daily +\nCefepime\n1g IV q12hrs x 10 days\nCiprofloxacin\n400mg IV q12hrs x 10 days\nCiprofloxacin\n750mg PO q12hrs x 10 days",
+          "tables": []
+        },
+        "Freshwater_related_cellulitis": {
+          "text": "coverage extended for\nAeromonas sp\nCiprofloxacin\n400mg IV q12hrs  x 10 days\nCiprofloxacin\n500mg PO q12hrs x 10 days\nTMP/SMX\n2 DS tablets (5mg/kg) PO q12hrs x 10 days\nCeftriaxone\n1g (50mg/kg) IV q24hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Strep",
+          "url": "https://wikem.org/wiki/Strep"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Daptomycin",
+          "url": "https://wikem.org/wiki/Daptomycin"
+        },
+        {
+          "text": "Vibrio vulnificus",
+          "url": "https://wikem.org/wiki/Vibrio_vulnificus"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Aeromonas sp",
+          "url": "https://wikem.org/wiki/Aeromonas_sp"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Most patients can be treated with oral antibiotics as outpatient",
+      "subsections": {
+        "Consider_admission_for:": {
+          "text": "systemic signs of sepsis\nantibiotic intolerance\nimmunosuppression\nextensive areas of erythema or induration\nforeign bodies that cannot be removed in ED\nfailure of outpatient therapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Consider_admission_for:": {
+      "text": "systemic signs of sepsis\nantibiotic intolerance\nimmunosuppression\nextensive areas of erythema or induration\nforeign bodies that cannot be removed in ED\nfailure of outpatient therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cellulitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "drug_name": "FALLS_protocol",
+  "url": "https://wikem.org/wiki/FALLS_protocol",
+  "scraped_at": "2026-01-10T07:53:13.673039",
+  "sections": {
+    "Background": {
+      "text": "The FALLS-protocol is an ultrasound evaluation of patients with acute circulatory failure\nIncludes evaluation of the pleura, lungs, and pericardium using ultrasound in a step-wise fashion to categorize circulatory shock is present according to Weil's shock classification",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Appropriate_Patient": {
+      "text": "A shocked patient who presents initially with an A-profile - termed a FALLS-responder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Endpoints": {
+      "text": "Prior to FALLS Protocol (BLUE-Protocol)\nObstructive shock - Tamponade or pneumothorax on initial ultrasound\nCardiogenic shock - B-profile on itial ultrasound\nWith FALLS Protocol\nHypovolemic shock - Improvement after IVF\nSeptic shock - B-profile and continued failure after IVF",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Limitations": {
+      "text": "Patients presenting with B-profile have a larger differential such as cardiogenic shock, pulmonary fibrosis, diastolic failure, etc\nCardiogenic shock with no lung edema - e.g. right ventricular infarction - are associated with an A-profile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ultrasound (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        }
+      ]
+    }
+  }
+}

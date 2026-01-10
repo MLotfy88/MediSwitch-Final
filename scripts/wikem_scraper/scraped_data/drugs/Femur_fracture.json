@@ -1,0 +1,403 @@
+{
+  "drug_name": "Femur_fracture",
+  "url": "https://wikem.org/wiki/Femur_fracture",
+  "scraped_at": "2026-01-10T07:53:23.179731",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nfemur fracture (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Despite good care, proximal fracture 30-day all cause mortality is 22% and grows to 36% at one year\n[1]",
+      "subsections": {
+        "Proximal": {
+          "text": "Intracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture",
+          "tables": []
+        },
+        "Shaft": {
+          "text": "Mid-shaft femur fracture\n(all subtrochanteric)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        }
+      ]
+    },
+    "Femur_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Proximal": {
+          "text": "Intracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture",
+          "tables": []
+        },
+        "Shaft": {
+          "text": "Mid-shaft femur fracture\n(all subtrochanteric)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of trauma\nPain, point tenderness, deformity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hip_pain": {
+          "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        }
+      ]
+    },
+    "Hip_pain": {
+      "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Proximal_2": {
+          "text": "Consider AP pelvis in addition to AP/lateral views to compare contralateral side\nConsider MRI if strong clinical suspicion but negative x-ray",
+          "tables": []
+        },
+        "Mid-Shaft": {
+          "text": "Plain xrays of femur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Proximal_2": {
+          "text": "Consider AP pelvis in addition to AP/lateral views to compare contralateral side\nConsider MRI if strong clinical suspicion but negative x-ray",
+          "tables": []
+        },
+        "Mid-Shaft": {
+          "text": "Plain xrays of femur",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Pain control in ED with\nfemoral nerve block\nNerve Block: Fascia Iliaca Compartment\n3 in 1 block (femoral, obturator, lateral cutaneous nerve of thigh)\nNo difference in 2 blocks listed above, which both reduced pain scores in the ED.\n[2]\nType and cross/screen for patients at higher risk of hemorrhage:\nAge > 75 yrs\nInitial hemoglobin < 12\nPeritrochanteric fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "femoral nerve block",
+          "url": "https://wikem.org/wiki/Femoral_nerve_block"
+        },
+        {
+          "text": "Nerve Block: Fascia Iliaca Compartment",
+          "url": "https://wikem.org/wiki/Nerve_Block:_Fascia_Iliaca_Compartment"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Pain control in ED with\nfemoral nerve block\nNerve Block: Fascia Iliaca Compartment\n3 in 1 block (femoral, obturator, lateral cutaneous nerve of thigh)\nNo difference in 2 blocks listed above, which both reduced pain scores in the ED.\n[2]\nType and cross/screen for patients at higher risk of hemorrhage:\nAge > 75 yrs\nInitial hemoglobin < 12\nPeritrochanteric fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "femoral nerve block",
+          "url": "https://wikem.org/wiki/Femoral_nerve_block"
+        },
+        {
+          "text": "Nerve Block: Fascia Iliaca Compartment",
+          "url": "https://wikem.org/wiki/Nerve_Block:_Fascia_Iliaca_Compartment"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Pain control in ED with\nfemoral nerve block\nNerve Block: Fascia Iliaca Compartment\n3 in 1 block (femoral, obturator, lateral cutaneous nerve of thigh)\nNo difference in 2 blocks listed above, which both reduced pain scores in the ED.\n[2]\nType and cross/screen for patients at higher risk of hemorrhage:\nAge > 75 yrs\nInitial hemoglobin < 12\nPeritrochanteric fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "femoral nerve block",
+          "url": "https://wikem.org/wiki/Femoral_nerve_block"
+        },
+        {
+          "text": "Nerve Block: Fascia Iliaca Compartment",
+          "url": "https://wikem.org/wiki/Nerve_Block:_Fascia_Iliaca_Compartment"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally requires admission for operative repair",
+      "subsections": {
+        "Specialty_Care": {
+          "text": "Most fractures, including all displaced, are treated with ORIF\nException is isolated trochanteric fracture often does not require surgery\nSee individual pages for further discussion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Specialty_Care": {
+      "text": "Most fractures, including all displaced, are treated with ORIF\nException is isolated trochanteric fracture often does not require surgery\nSee individual pages for further discussion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        }
+      ]
+    }
+  }
+}

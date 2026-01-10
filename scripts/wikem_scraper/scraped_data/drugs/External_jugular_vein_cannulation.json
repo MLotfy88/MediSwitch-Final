@@ -1,0 +1,194 @@
+{
+  "drug_name": "External_jugular_vein_cannulation",
+  "url": "https://wikem.org/wiki/External_jugular_vein_cannulation",
+  "scraped_at": "2026-01-10T07:53:09.680699",
+  "sections": {
+    "Overview": {
+      "text": "Alternative to\nultrasound-guided PIV\nor\nCVC placement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound-guided PIV",
+          "url": "https://wikem.org/wiki/Ultrasound-assisted_peripheral_line_placement"
+        },
+        {
+          "text": "CVC placement",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Patients with difficult vascular access (DVA)\nMay be particularly useful in patients with\njugular venous distention\n/volume overload",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "jugular venous distention",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Thrombosis of EJV\nOverlying infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "16-20 gauge angiocatheter\nChlorhexidine or alcohol wipe\nDisposable gloves",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Place patient in Trendelenburg position and rotate head to opposite side of cannulation\nPosition yourself at the head of the bed facing the patient\nClean skin with appropriate antiseptic\nUse non-dominant thumb to provide counter-traction and index finger to tamponade EJV just superior to clavicle\nCannulate vessel midway between angle of mandible and clavicle\nWhen \"flash\" seen, advance catheter over needle\nAttach pre-flushed IV tubing and apply dressing\nHaving patient perform Valsalva maneuver can dilate vein and aid in cannulation\nSame effect can be achieved by having the patient hum\n[1]\nCan also use stethoscope to act as \"tourniquet\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Typical risks associated with PIV cannulation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Vascular_access_types": {
+          "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "Vascular_access_types": {
+      "text": "Central venous catheterization\nCentral line: internal jugular\nCentral line: subclavian\nCentral line: supraclavicular\nCentral line: femoral\nPediatric central line\nSheath introducer\nRapid infusion catheter\nIntraosseous access\nVenous cutdown\nUmbilical vein catheterization\nUltrasound assisted peripheral line placement\nExternal jugular vein cannulation\nThe \"Easy IJ\"\nMidlines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central venous catheterization",
+          "url": "https://wikem.org/wiki/Central_venous_catheterization"
+        },
+        {
+          "text": "Central line: internal jugular",
+          "url": "https://wikem.org/wiki/Central_line:_internal_jugular"
+        },
+        {
+          "text": "Central line: subclavian",
+          "url": "https://wikem.org/wiki/Central_line:_subclavian"
+        },
+        {
+          "text": "Central line: supraclavicular",
+          "url": "https://wikem.org/wiki/Central_line:_supraclavicular"
+        },
+        {
+          "text": "Central line: femoral",
+          "url": "https://wikem.org/wiki/Central_line:_femoral"
+        },
+        {
+          "text": "Pediatric central line",
+          "url": "https://wikem.org/wiki/Pediatric_central_line"
+        },
+        {
+          "text": "Sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        },
+        {
+          "text": "Rapid infusion catheter",
+          "url": "https://wikem.org/wiki/Rapid_infusion_catheter"
+        },
+        {
+          "text": "Intraosseous access",
+          "url": "https://wikem.org/wiki/Intraosseous_access"
+        },
+        {
+          "text": "Venous cutdown",
+          "url": "https://wikem.org/wiki/Venous_cutdown"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Ultrasound assisted peripheral line placement",
+          "url": "https://wikem.org/wiki/Ultrasound_assisted_peripheral_line_placement"
+        },
+        {
+          "text": "The \"Easy IJ\"",
+          "url": "https://wikem.org/wiki/The_%22Easy_IJ%22"
+        },
+        {
+          "text": "Midlines",
+          "url": "https://wikem.org/wiki/Midlines"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDOCs: Approach to the Patient with Difficult Vascular Access\nhttps://www.youtube.com/watch?v=BoLgMnDOBpY\nhttps://www.aliem.com/trick-of-trade-external-jugular/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

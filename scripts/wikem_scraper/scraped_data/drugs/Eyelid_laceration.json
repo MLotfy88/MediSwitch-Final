@@ -1,0 +1,266 @@
+{
+  "drug_name": "Eyelid_laceration",
+  "url": "https://wikem.org/wiki/Eyelid_laceration",
+  "scraped_at": "2026-01-10T07:53:09.797560",
+  "sections": {
+    "Background": {
+      "text": "Must rule-out corneal laceration and\nglobe rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "History of\ntrauma\nVisible laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Ocular_Trauma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ocular_Diagnoses": {
+          "text": "Acute angle-closure glaucoma\nConjunctival abrasion\nCorneal foreign body\nCorneal ulcer\nEpiscleritis\nPainful eyes with normal exam\nPterygium\nScleritis\nTraumatic hyphema\nUveitis\nPinguecula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Conjunctival abrasion",
+          "url": "https://wikem.org/wiki/Conjunctival_abrasion"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        }
+      ]
+    },
+    "Ocular_Diagnoses": {
+      "text": "Acute angle-closure glaucoma\nConjunctival abrasion\nCorneal foreign body\nCorneal ulcer\nEpiscleritis\nPainful eyes with normal exam\nPterygium\nScleritis\nTraumatic hyphema\nUveitis\nPinguecula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Conjunctival abrasion",
+          "url": "https://wikem.org/wiki/Conjunctival_abrasion"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nConsider orbital XR or CT to evaluate for foreign body, fractures, etc\nCheck tetanus status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "The following lacerations should be repaired by an oculoplastic specialist:\nLid margin\nOnly if >1mm; <1mm does not require suturing and will heal spontaneously\nWithin 6-8mm of medial canthus\nLacrimal duct or sac involvement\nInner surface of the lid involvement (or \"through and through\" laceration)\nWounds associated with ptosis\nTarsal plate or levator palpebrae muscle involvement\nSimple superficial horizontal lacerations may be repaired by the Emergency Physician\nAnesthesia:\nsupraorbital block\nor\ninfraorbital block\n.\n6-0 or 7-0\nsuture\nrecommended\nSutures should be removed in 5-7 days\nTetanus prophylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "supraorbital block",
+          "url": "https://wikem.org/wiki/Nerve_Block:_supraorbital"
+        },
+        {
+          "text": "infraorbital block",
+          "url": "https://wikem.org/wiki/Nerve_Block:_Infraorbital"
+        },
+        {
+          "text": "suture",
+          "url": "https://wikem.org/wiki/Sutures"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "If repaired by the Emergency Physician, discharge with ophtho follow-up\nAll other lacerations require ophtho consult for repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Laceration repair",
+      "subsections": {
+        "Special_Lacerations_by_Body_Part": {
+          "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "Special_Lacerations_by_Body_Part": {
+      "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    }
+  }
+}

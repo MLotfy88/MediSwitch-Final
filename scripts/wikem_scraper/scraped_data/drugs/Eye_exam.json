@@ -1,0 +1,164 @@
+{
+  "drug_name": "Eye_exam",
+  "url": "https://wikem.org/wiki/Eye_exam",
+  "scraped_at": "2026-01-10T07:53:15.963932",
+  "sections": {
+    "8-point_eye_exam_includes": {
+      "text": "Visual acuity\nPupil exam\nEOM and alignment\nIOP\nConfrontational visual fields\nExternal exam\nSlit-lamp exam\nFundoscopy",
+      "subsections": {
+        "Visual_Acuity": {
+          "text": "(OD (R)/ OS (L))\nObtain VA while wearing correction\nPinhole occluder will aid in uncorrected refractive error\nProgression from better to worse:\nCF, count fingers\nHM, hand motions only\nLight perception with projection, LP\nEye can determine which direction light is coming from (left, right, up, down)\nLight perception without projection (cannot tell direction)\nNo light perception, NLP",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Fundoscopy",
+          "url": "https://wikem.org/wiki/Fundoscopy"
+        }
+      ]
+    },
+    "Visual_Acuity": {
+      "text": "(OD (R)/ OS (L))\nObtain VA while wearing correction\nPinhole occluder will aid in uncorrected refractive error\nProgression from better to worse:\nCF, count fingers\nHM, hand motions only\nLight perception with projection, LP\nEye can determine which direction light is coming from (left, right, up, down)\nLight perception without projection (cannot tell direction)\nNo light perception, NLP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Slit_Lamp_Exam": {
+      "text": "Lids and Lashes\nEversion\nConjunctiva and Sclera\nInjection, hemorrhage, discharge\nCornea\nFluorescein for abrasions, foreign bodies\nPerforation (staining or pooling - Seidel's sign)\nAnterior Chamber\nCell and flare\nIris\nLens\nAPD (afferent pupillary defect)\nAffected pupil enlarges in response to light\nDue to optic nerve dysfunction-\nneuritis\nvs retinal damage",
+      "subsections": {
+        "Slit_Lamp_Abbreviations": {
+          "text": "L/L (lids/lashes) = nl\nC (conjunctiva) = cl\nK (cornea) = cl\nA/C (anterior chamber) = D/Q (dark/quiet)\nI (iris) = R/R (round/reactive)\nL (lens) = cl\n(cl = clear; nl = normal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        }
+      ]
+    },
+    "Slit_Lamp_Abbreviations": {
+      "text": "L/L (lids/lashes) = nl\nC (conjunctiva) = cl\nK (cornea) = cl\nA/C (anterior chamber) = D/Q (dark/quiet)\nI (iris) = R/R (round/reactive)\nL (lens) = cl\n(cl = clear; nl = normal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Fundoscopic_Exam": {
+      "text": "Optic disc for cupping/pallor/swelling/hemorrhage\nCentral retina for hemor/pallor\nPeripheral retina for vessel appearance/\nhemorrhage\n/\ndetachment",
+      "subsections": {
+        "Retinal_Images": {
+          "text": "Central Retinal Vein Occlusion (CRVO)\nRetinal detachment\nCMV retinitis\nOpen-angle glaucoma\n(cupping)\nRoth spots due to retinal vein occlusion (\nretinal hemorrhage\n)\nCentral retinal artery occlusion\n: cherry-red spot, retinal edema and narrowing of the vessels.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        }
+      ]
+    },
+    "Retinal_Images": {
+      "text": "Central Retinal Vein Occlusion (CRVO)\nRetinal detachment\nCMV retinitis\nOpen-angle glaucoma\n(cupping)\nRoth spots due to retinal vein occlusion (\nretinal hemorrhage\n)\nCentral retinal artery occlusion\n: cherry-red spot, retinal edema and narrowing of the vessels.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "CMV retinitis",
+          "url": "https://wikem.org/wiki/CMV_retinitis"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Tono-Pen\n/Applinator/Schiotz\nEOM\nVisual fields\nXray with concerns of metal/glass/stone\nSee here for\nOptokinetic drum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tono-Pen",
+          "url": "https://wikem.org/wiki/Tono-Pen_use"
+        },
+        {
+          "text": "Visual fields",
+          "url": "https://wikem.org/wiki/Visual_field_defects"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Eye Algorithms (Main)\nOpthalmology eye drop colors\nOphthalmology abbreviations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Algorithms (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithms_(Main)"
+        },
+        {
+          "text": "Opthalmology eye drop colors",
+          "url": "https://wikem.org/wiki/Opthalmology_eye_drop_colors"
+        },
+        {
+          "text": "Ophthalmology abbreviations",
+          "url": "https://wikem.org/wiki/Ophthalmology_abbreviations"
+        }
+      ]
+    }
+  }
+}

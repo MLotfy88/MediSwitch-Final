@@ -1,0 +1,519 @@
+{
+  "drug_name": "Fingertip_avulsion",
+  "url": "https://wikem.org/wiki/Fingertip_avulsion",
+  "scraped_at": "2026-01-10T07:53:27.270887",
+  "sections": {
+    "Background": {
+      "text": "Due to blunt or penetrating trauma",
+      "subsections": {
+        "Nailtip_Anatomy": {
+          "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nailtip_Anatomy": {
+      "text": "The\nperionychium\nincludes the nail bed and the paronychium.\nThe\nparonychium\nis the lateral nail fold (soft tissue lateral to the nail bed).\nThe\nhyponychium\nis the palmar surface skin distal to the nail.\nThe\nlunula\nis that white semi-moon shaped proximal portion of the nail.\nThe\nsterile matrix\nis deep to the nail, adheres to it and is distal to the lunule.\nThe\ngerminal\nportion is proximal to the matrix and is responsible for nail growth.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Partial or complete amputation of distal phalanx of finger",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_Finger_(Including_Nail)_Injury": {
+          "text": "Distal interphalangeal dislocation (finger)\nDistal phalanx (finger) fracture\nFinger amputation\nFingertip avulsion\nFinger infection\nNailbed laceration\nNail avulsion\nSubungual hematoma",
+          "tables": []
+        },
+        "Hand_and_finger_injuries": {
+          "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Finger infection",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Hand_and_finger_injuries": {
+      "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Xray",
+          "tables": []
+        },
+        "Fingertip_Zones": {
+          "text": "Zone I - Distal to tip of phalanx\nZone II - Between tip of phalanx and lunula\nZone III - Proximal to lunula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Xray",
+      "subsections": {
+        "Fingertip_Zones": {
+          "text": "Zone I - Distal to tip of phalanx\nZone II - Between tip of phalanx and lunula\nZone III - Proximal to lunula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fingertip_Zones": {
+      "text": "Zone I - Distal to tip of phalanx\nZone II - Between tip of phalanx and lunula\nZone III - Proximal to lunula",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Pain control (\nDigital block\n)\nIrrigate and debride non-viable tissue\nReplantation rarely indicated for zone I-III amputations\nPatients more likely to benefit from replantation for thumb and index finger amputations",
+      "subsections": {
+        "No_exposed_bone_or_nail_bed_involvement": {
+          "text": "Zone I injuries - treat conservatively with serial dressing changes alone\nCover wound with non-adherent dressing\nInstruct patient to soak fingertip in antibacterial soap-added water for 10min QD and then reapply non-adherent dressing\nFollow up with primary care provider in 2d\nMost will have epithelialization in approximately 1 month\n[1]",
+          "tables": []
+        },
+        "Exposed_Bone": {
+          "text": "Zone II injuries\nConsider hand surgery consult\nRongeur bone if bony protuberance\nTrim digital nerves proximal to skin to avoid painful neuroma formation\nConsider nail removal if significant involvement, possibility of hook nail deformity it damaged nail left in situ\nConservative treatment with non-adherent dressing generally preferred\n[2]\n[3]\nvs. wound closure with flap\nFollow up with hand surgery in 3-5d\nHealing time 3-6wks\nZone III injuries\nConsult hand surgery if available\nMay require distal phalanx amputation\nConsider treating like Zone II\nHealing time 3-6wks\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Digital block",
+          "url": "https://wikem.org/wiki/Digital_block"
+        }
+      ]
+    },
+    "No_exposed_bone_or_nail_bed_involvement": {
+      "text": "Zone I injuries - treat conservatively with serial dressing changes alone\nCover wound with non-adherent dressing\nInstruct patient to soak fingertip in antibacterial soap-added water for 10min QD and then reapply non-adherent dressing\nFollow up with primary care provider in 2d\nMost will have epithelialization in approximately 1 month\n[1]",
+      "subsections": {
+        "Exposed_Bone": {
+          "text": "Zone II injuries\nConsider hand surgery consult\nRongeur bone if bony protuberance\nTrim digital nerves proximal to skin to avoid painful neuroma formation\nConsider nail removal if significant involvement, possibility of hook nail deformity it damaged nail left in situ\nConservative treatment with non-adherent dressing generally preferred\n[2]\n[3]\nvs. wound closure with flap\nFollow up with hand surgery in 3-5d\nHealing time 3-6wks\nZone III injuries\nConsult hand surgery if available\nMay require distal phalanx amputation\nConsider treating like Zone II\nHealing time 3-6wks\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exposed_Bone": {
+      "text": "Zone II injuries\nConsider hand surgery consult\nRongeur bone if bony protuberance\nTrim digital nerves proximal to skin to avoid painful neuroma formation\nConsider nail removal if significant involvement, possibility of hook nail deformity it damaged nail left in situ\nConservative treatment with non-adherent dressing generally preferred\n[2]\n[3]\nvs. wound closure with flap\nFollow up with hand surgery in 3-5d\nHealing time 3-6wks\nZone III injuries\nConsult hand surgery if available\nMay require distal phalanx amputation\nConsider treating like Zone II\nHealing time 3-6wks\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Generally may be discharged\nHand surgery follow-up (especially if zone II or III injury)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Finger amputation\nDistal phalanx (finger) fracture",
+      "subsections": {
+        "Special_Lacerations_by_Body_Part": {
+          "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Distal phalanx (finger) fracture",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    },
+    "Special_Lacerations_by_Body_Part": {
+      "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        },
+        {
+          "text": "laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "drug_name": "Facial_paralysis",
+  "url": "https://wikem.org/wiki/Facial_paralysis",
+  "scraped_at": "2026-01-10T07:53:14.849383",
+  "sections": {
+    "Background": {
+      "text": "Key to distinguish between central and peripheral facial nerve palsy",
+      "subsections": {
+        "Causes": {
+          "text": "Central\nCVA\nPeripheral\nIdiopathic (\nBell's palsy\n)\nLyme disease\nVaricella-zoster\nHSV\nFacial trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Central\nCVA\nPeripheral\nIdiopathic (\nBell's palsy\n)\nLyme disease\nVaricella-zoster\nHSV\nFacial trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Central_Process": {
+          "text": "Forehead \"sparing\" or normal muscle tone of the forehead",
+          "tables": []
+        },
+        "Peripheral_Process": {
+          "text": "Weakness of forehead muscles",
+          "tables": []
+        },
+        "Central_and_Peripheral": {
+          "text": "Unable to close eye\nLoss of nasolabial fold\nAsymmetric smile",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Central_Process": {
+      "text": "Forehead \"sparing\" or normal muscle tone of the forehead",
+      "subsections": {
+        "Peripheral_Process": {
+          "text": "Weakness of forehead muscles",
+          "tables": []
+        },
+        "Central_and_Peripheral": {
+          "text": "Unable to close eye\nLoss of nasolabial fold\nAsymmetric smile",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Peripheral_Process": {
+      "text": "Weakness of forehead muscles",
+      "subsections": {
+        "Central_and_Peripheral": {
+          "text": "Unable to close eye\nLoss of nasolabial fold\nAsymmetric smile",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Central_and_Peripheral": {
+      "text": "Unable to close eye\nLoss of nasolabial fold\nAsymmetric smile",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Facial_paralysis": {
+          "text": "Bell's palsy\nCVA\nTrigeminal neuralgia\nTick paralysis\nLyme disease\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nCNS tumor\nAcoustic neuroma or other cerebellopontine angle lesions\nMeningioma\nCerebellar pontine angle\nFacial nerve schwannoma\nParotid\nSarcoma\nAnesthesia nerve blocks\nCerebral Aneurysms (vertebral, basilar, or carotid)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        }
+      ]
+    },
+    "Facial_paralysis": {
+      "text": "Bell's palsy\nCVA\nTrigeminal neuralgia\nTick paralysis\nLyme disease\nHerpes zoster oticus\n(Ramsay Hunt syndrome)\nCNS tumor\nAcoustic neuroma or other cerebellopontine angle lesions\nMeningioma\nCerebellar pontine angle\nFacial nerve schwannoma\nParotid\nSarcoma\nAnesthesia nerve blocks\nCerebral Aneurysms (vertebral, basilar, or carotid)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bell's palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_palsy"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Central_Process_2": {
+          "text": "CT",
+          "tables": []
+        },
+        "Peripheral_Process_2": {
+          "text": "No labs or imaging routinely necessary\nConsider lyme serologies if endemic area",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Central_Process_2": {
+      "text": "CT",
+      "subsections": {
+        "Peripheral_Process_2": {
+          "text": "No labs or imaging routinely necessary\nConsider lyme serologies if endemic area",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        }
+      ]
+    },
+    "Peripheral_Process_2": {
+      "text": "No labs or imaging routinely necessary\nConsider lyme serologies if endemic area",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Central_Process_3": {
+          "text": "Treat underlying pathology",
+          "tables": []
+        },
+        "Peripheral_Process_3": {
+          "text": "Prednisone\n(unless diagnosed Lyme disease)\nEmpiric\ndoxycycline\nif high suspicion for Lyme disease\nConsider\nvalacyclovir\nfor severe presentation if Lyme is negative\nArtificial tears\nConsider neurology follow-up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        }
+      ]
+    },
+    "Central_Process_3": {
+      "text": "Treat underlying pathology",
+      "subsections": {
+        "Peripheral_Process_3": {
+          "text": "Prednisone\n(unless diagnosed Lyme disease)\nEmpiric\ndoxycycline\nif high suspicion for Lyme disease\nConsider\nvalacyclovir\nfor severe presentation if Lyme is negative\nArtificial tears\nConsider neurology follow-up",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        }
+      ]
+    },
+    "Peripheral_Process_3": {
+      "text": "Prednisone\n(unless diagnosed Lyme disease)\nEmpiric\ndoxycycline\nif high suspicion for Lyme disease\nConsider\nvalacyclovir\nfor severe presentation if Lyme is negative\nArtificial tears\nConsider neurology follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "valacyclovir",
+          "url": "https://wikem.org/wiki/Valacyclovir"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Facial swelling",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Facial swelling",
+          "url": "https://wikem.org/wiki/Facial_swelling"
+        }
+      ]
+    }
+  }
+}

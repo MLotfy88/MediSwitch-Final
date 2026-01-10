@@ -1,0 +1,45 @@
+{
+  "drug_name": "Finger_splint",
+  "url": "https://wikem.org/wiki/Finger_splint",
+  "scraped_at": "2026-01-10T07:53:26.003071",
+  "sections": {
+    "Background": {
+      "text": "Multiple types of finger splint exists\nThis page shows general splint - certain fractures or injuries may require an alternative splint technique",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Phalangeal fracture\nGutter splints probably better for proximal fractures\nTendon repair",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Phalangeal fracture",
+          "url": "https://wikem.org/wiki/Phalangeal_finger_fracture"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation\nApply splint and secure to finger at multiple points (e.g. with tape)\nAvoid placing securing straps over joints\nRe-check and document repeat neurovascular status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting\nBuddy tape splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Buddy tape splint",
+          "url": "https://wikem.org/wiki/Buddy_tape_splint"
+        }
+      ]
+    }
+  }
+}

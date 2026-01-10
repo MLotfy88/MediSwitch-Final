@@ -1,0 +1,1072 @@
+{
+  "drug_name": "Fever_in_traveler",
+  "url": "https://wikem.org/wiki/Fever_in_traveler",
+  "scraped_at": "2026-01-10T07:53:19.650103",
+  "sections": {
+    "Background": {
+      "text": "If incubation period >1 month: dengue, rickettsia, viral hemorrhagic fever less likely",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Fever\nand exposure outside of U.S.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        },
+        "Fever_with_CNS_Changes": {
+          "text": "Malaria\n,\nTuberculosis\nTyphoid fever\nRickettsia\nPoliomyelitis\nRabies\nViral (Japanese/ West Nile/ tick borne) encephalitis\nMeningococcal meningitis (associated with Haj to Mecca)\nEosinophilic meningitis\nAssociated with coccidiomycosis or angiostrongyliasis (rat lung worm to brain)\nTrypanosomiasis\n(African sleeping sickness)",
+          "tables": []
+        },
+        "Fever_and_Respiratory_Symptoms": {
+          "text": "Pneumonia\nInfluenza\nMycoplasma\nLegionella\nTuberculosis\nQ fever\ncoxiella burnetti\nLoffler's syndrome",
+          "tables": []
+        },
+        "Fever_with_Sexual/Blood_Exposure": {
+          "text": "HIV\nSyphilis\n(\nTreponema pallidum\n)\nCytomegalovirus\n(CMV)\nEpstein-Barr virus\n(EBV)\nHepatitis B\nHepatitis D\nco-infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Trypanosomiasis",
+          "url": "https://wikem.org/wiki/Trypanosomiasis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {
+        "Fever_with_CNS_Changes": {
+          "text": "Malaria\n,\nTuberculosis\nTyphoid fever\nRickettsia\nPoliomyelitis\nRabies\nViral (Japanese/ West Nile/ tick borne) encephalitis\nMeningococcal meningitis (associated with Haj to Mecca)\nEosinophilic meningitis\nAssociated with coccidiomycosis or angiostrongyliasis (rat lung worm to brain)\nTrypanosomiasis\n(African sleeping sickness)",
+          "tables": []
+        },
+        "Fever_and_Respiratory_Symptoms": {
+          "text": "Pneumonia\nInfluenza\nMycoplasma\nLegionella\nTuberculosis\nQ fever\ncoxiella burnetti\nLoffler's syndrome",
+          "tables": []
+        },
+        "Fever_with_Sexual/Blood_Exposure": {
+          "text": "HIV\nSyphilis\n(\nTreponema pallidum\n)\nCytomegalovirus\n(CMV)\nEpstein-Barr virus\n(EBV)\nHepatitis B\nHepatitis D\nco-infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Trypanosomiasis",
+          "url": "https://wikem.org/wiki/Trypanosomiasis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        }
+      ]
+    },
+    "Fever_with_CNS_Changes": {
+      "text": "Malaria\n,\nTuberculosis\nTyphoid fever\nRickettsia\nPoliomyelitis\nRabies\nViral (Japanese/ West Nile/ tick borne) encephalitis\nMeningococcal meningitis (associated with Haj to Mecca)\nEosinophilic meningitis\nAssociated with coccidiomycosis or angiostrongyliasis (rat lung worm to brain)\nTrypanosomiasis\n(African sleeping sickness)",
+      "subsections": {
+        "Fever_and_Respiratory_Symptoms": {
+          "text": "Pneumonia\nInfluenza\nMycoplasma\nLegionella\nTuberculosis\nQ fever\ncoxiella burnetti\nLoffler's syndrome",
+          "tables": []
+        },
+        "Fever_with_Sexual/Blood_Exposure": {
+          "text": "HIV\nSyphilis\n(\nTreponema pallidum\n)\nCytomegalovirus\n(CMV)\nEpstein-Barr virus\n(EBV)\nHepatitis B\nHepatitis D\nco-infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Poliomyelitis",
+          "url": "https://wikem.org/wiki/Poliomyelitis"
+        },
+        {
+          "text": "Rabies",
+          "url": "https://wikem.org/wiki/Rabies"
+        },
+        {
+          "text": "Trypanosomiasis",
+          "url": "https://wikem.org/wiki/Trypanosomiasis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        }
+      ]
+    },
+    "Fever_and_Respiratory_Symptoms": {
+      "text": "Pneumonia\nInfluenza\nMycoplasma\nLegionella\nTuberculosis\nQ fever\ncoxiella burnetti\nLoffler's syndrome",
+      "subsections": {
+        "Fever_with_Sexual/Blood_Exposure": {
+          "text": "HIV\nSyphilis\n(\nTreponema pallidum\n)\nCytomegalovirus\n(CMV)\nEpstein-Barr virus\n(EBV)\nHepatitis B\nHepatitis D\nco-infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        }
+      ]
+    },
+    "Fever_with_Sexual/Blood_Exposure": {
+      "text": "HIV\nSyphilis\n(\nTreponema pallidum\n)\nCytomegalovirus\n(CMV)\nEpstein-Barr virus\n(EBV)\nHepatitis B\nHepatitis D\nco-infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Always consider malaria\nMalaria smear (thick and thin)\nCBC with differential\nChemistry panel\nLiver function tests\nBlood culture\nUrinalysis\nand urine culture\nStool culture\nChest x-ray\nAdditional to consider:\nLumbar puncture\nHepatitis\npanel\nSTD\nstudies\nSerologies for specific viruses\nOther radiography (CT scan, abdominal ultrasound, MRI brain)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "GEOGRAPHIC AREA": "Caribbean",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(Haiti)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Acutehistoplasmosis,leptospirosis,chikungunya"
+              },
+              {
+                "GEOGRAPHIC AREA": "Central America",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily Plasmodium vivax)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Leptospirosis,histoplasmosis,coccidioidomycosis"
+              },
+              {
+                "GEOGRAPHIC AREA": "South America",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily P. vivax)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Bartonellosis,leptospirosis,enteric fever,histoplasmosis"
+              },
+              {
+                "GEOGRAPHIC AREA": "South-central Asia",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,enteric fever,malaria(primarily non-falciparum)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Chikungunya"
+              },
+              {
+                "GEOGRAPHIC AREA": "Southeast Asia",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily non-falciparum)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Chikungunya,leptospirosis"
+              },
+              {
+                "GEOGRAPHIC AREA": "Sub-Saharan Africa",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Malaria(primarily P. falciparum), tickbornerickettsiae(main cause of fever in southern Africa), acuteschistosomiasis,filariasis",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "African trypanosomiasis,chikungunya,enteric fever,filariasis"
+              }
+            ],
+            [
+              {
+                "DISEASE": "Incubation <14 days",
+                "USUAL INCUBATION PERIOD (RANGE)": "",
+                "DISTRIBUTION": ""
+              },
+              {
+                "DISEASE": "Chikungunya",
+                "USUAL INCUBATION PERIOD (RANGE)": "2–4 days (1–14 days)",
+                "DISTRIBUTION": "Tropics, subtropics"
+              },
+              {
+                "DISEASE": "Dengue",
+                "USUAL INCUBATION PERIOD (RANGE)": "4–8 days (3–14 days)",
+                "DISTRIBUTION": "Topics, subtropics"
+              },
+              {
+                "DISEASE": "Encephalitis, arboviral (Japanese encephalitis,tickborne encephalitis,West Nile virus, other)",
+                "USUAL INCUBATION PERIOD (RANGE)": "3–14 days (1–20 days)",
+                "DISTRIBUTION": "Specific agents vary by region"
+              },
+              {
+                "DISEASE": "Enteric fever",
+                "USUAL INCUBATION PERIOD (RANGE)": "7–18 days (3–60 days)",
+                "DISTRIBUTION": "Especially in Indian subcontinent"
+              },
+              {
+                "DISEASE": "Acute HIV",
+                "USUAL INCUBATION PERIOD (RANGE)": "10–28 days (10 days to 6 weeks)",
+                "DISTRIBUTION": "Worldwide"
+              },
+              {
+                "DISEASE": "Influenza",
+                "USUAL INCUBATION PERIOD (RANGE)": "1–3 days",
+                "DISTRIBUTION": "Worldwide, can also be acquired while traveling"
+              },
+              {
+                "DISEASE": "Legionellosis",
+                "USUAL INCUBATION PERIOD (RANGE)": "5–6 days (2–10 days)",
+                "DISTRIBUTION": "Widespread"
+              },
+              {
+                "DISEASE": "Leptospirosis",
+                "USUAL INCUBATION PERIOD (RANGE)": "7–12 days (2–26 days)",
+                "DISTRIBUTION": "Widespread, most common in tropical areas"
+              },
+              {
+                "DISEASE": "Malaria, Plasmodium falciparum",
+                "USUAL INCUBATION PERIOD (RANGE)": "6–30 days (98% onset within 3 months of travel)",
+                "DISTRIBUTION": "Tropics, subtropics"
+              },
+              {
+                "DISEASE": "Malaria, P. vivax",
+                "USUAL INCUBATION PERIOD (RANGE)": "8 days to 12 months (almost half have onset >30 days after completion of travel)",
+                "DISTRIBUTION": "Widespread in tropics and subtropics"
+              },
+              {
+                "DISEASE": "Spotted-fever rickettsiae",
+                "USUAL INCUBATION PERIOD (RANGE)": "Few days to 2–3 weeks",
+                "DISTRIBUTION": "Causative species vary by region"
+              },
+              {
+                "DISEASE": "Incubation 14 Days to 6 Weeks",
+                "USUAL INCUBATION PERIOD (RANGE)": "",
+                "DISTRIBUTION": ""
+              },
+              {
+                "DISEASE": "Encephalitis,arboviral;enteric fever; acuteHIV;leptospirosis;malaria",
+                "USUAL INCUBATION PERIOD (RANGE)": "See above incubation periods for relevant diseases",
+                "DISTRIBUTION": "See above distribution for relevant diseases"
+              },
+              {
+                "DISEASE": "Amebic liver abscess",
+                "USUAL INCUBATION PERIOD (RANGE)": "Weeks to months",
+                "DISTRIBUTION": "Most common in developing countries"
+              },
+              {
+                "DISEASE": "Hepatitis A",
+                "USUAL INCUBATION PERIOD (RANGE)": "28–30 days (15–50 days)",
+                "DISTRIBUTION": "Most common in developing countries"
+              },
+              {
+                "DISEASE": "Hepatitis E",
+                "USUAL INCUBATION PERIOD (RANGE)": "26–42 days (2–9 weeks)",
+                "DISTRIBUTION": "Widespread"
+              },
+              {
+                "DISEASE": "Acuteschistosomiasis(Katayama syndrome)",
+                "USUAL INCUBATION PERIOD (RANGE)": "4–8 weeks",
+                "DISTRIBUTION": "Most common in sub-Saharan Africa"
+              },
+              {
+                "DISEASE": "Incubation >6 weeks",
+                "USUAL INCUBATION PERIOD (RANGE)": "",
+                "DISTRIBUTION": ""
+              },
+              {
+                "DISEASE": "Amebic liver abscess, hepatitis E, malaria, acute schistosomiasis",
+                "USUAL INCUBATION PERIOD (RANGE)": "See above incubation periods for relevant diseases",
+                "DISTRIBUTION": "See above distribution for relevant diseases"
+              },
+              {
+                "DISEASE": "Hepatitis B",
+                "USUAL INCUBATION PERIOD (RANGE)": "90 days (60–150 days)",
+                "DISTRIBUTION": "Widespread"
+              },
+              {
+                "DISEASE": "Leishmaniasis, visceral",
+                "USUAL INCUBATION PERIOD (RANGE)": "2–10 months (10 days to years)",
+                "DISTRIBUTION": "Asia, Africa, Latin America, southern Europe, and the Middle East"
+              },
+              {
+                "DISEASE": "Tuberculosis",
+                "USUAL INCUBATION PERIOD (RANGE)": "Primary, weeks; reactivation, years",
+                "DISTRIBUTION": "Global distribution, rates and levels of resistance vary widely"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "STD",
+          "url": "https://wikem.org/wiki/STD"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Always consider malaria\nMalaria smear (thick and thin)\nCBC with differential\nChemistry panel\nLiver function tests\nBlood culture\nUrinalysis\nand urine culture\nStool culture\nChest x-ray\nAdditional to consider:\nLumbar puncture\nHepatitis\npanel\nSTD\nstudies\nSerologies for specific viruses\nOther radiography (CT scan, abdominal ultrasound, MRI brain)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "GEOGRAPHIC AREA": "Caribbean",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(Haiti)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Acutehistoplasmosis,leptospirosis,chikungunya"
+              },
+              {
+                "GEOGRAPHIC AREA": "Central America",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily Plasmodium vivax)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Leptospirosis,histoplasmosis,coccidioidomycosis"
+              },
+              {
+                "GEOGRAPHIC AREA": "South America",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily P. vivax)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Bartonellosis,leptospirosis,enteric fever,histoplasmosis"
+              },
+              {
+                "GEOGRAPHIC AREA": "South-central Asia",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,enteric fever,malaria(primarily non-falciparum)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Chikungunya"
+              },
+              {
+                "GEOGRAPHIC AREA": "Southeast Asia",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily non-falciparum)",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Chikungunya,leptospirosis"
+              },
+              {
+                "GEOGRAPHIC AREA": "Sub-Saharan Africa",
+                "COMMON TROPICAL DISEASE CAUSING FEVER": "Malaria(primarily P. falciparum), tickbornerickettsiae(main cause of fever in southern Africa), acuteschistosomiasis,filariasis",
+                "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "African trypanosomiasis,chikungunya,enteric fever,filariasis"
+              }
+            ],
+            [
+              {
+                "DISEASE": "Incubation <14 days",
+                "USUAL INCUBATION PERIOD (RANGE)": "",
+                "DISTRIBUTION": ""
+              },
+              {
+                "DISEASE": "Chikungunya",
+                "USUAL INCUBATION PERIOD (RANGE)": "2–4 days (1–14 days)",
+                "DISTRIBUTION": "Tropics, subtropics"
+              },
+              {
+                "DISEASE": "Dengue",
+                "USUAL INCUBATION PERIOD (RANGE)": "4–8 days (3–14 days)",
+                "DISTRIBUTION": "Topics, subtropics"
+              },
+              {
+                "DISEASE": "Encephalitis, arboviral (Japanese encephalitis,tickborne encephalitis,West Nile virus, other)",
+                "USUAL INCUBATION PERIOD (RANGE)": "3–14 days (1–20 days)",
+                "DISTRIBUTION": "Specific agents vary by region"
+              },
+              {
+                "DISEASE": "Enteric fever",
+                "USUAL INCUBATION PERIOD (RANGE)": "7–18 days (3–60 days)",
+                "DISTRIBUTION": "Especially in Indian subcontinent"
+              },
+              {
+                "DISEASE": "Acute HIV",
+                "USUAL INCUBATION PERIOD (RANGE)": "10–28 days (10 days to 6 weeks)",
+                "DISTRIBUTION": "Worldwide"
+              },
+              {
+                "DISEASE": "Influenza",
+                "USUAL INCUBATION PERIOD (RANGE)": "1–3 days",
+                "DISTRIBUTION": "Worldwide, can also be acquired while traveling"
+              },
+              {
+                "DISEASE": "Legionellosis",
+                "USUAL INCUBATION PERIOD (RANGE)": "5–6 days (2–10 days)",
+                "DISTRIBUTION": "Widespread"
+              },
+              {
+                "DISEASE": "Leptospirosis",
+                "USUAL INCUBATION PERIOD (RANGE)": "7–12 days (2–26 days)",
+                "DISTRIBUTION": "Widespread, most common in tropical areas"
+              },
+              {
+                "DISEASE": "Malaria, Plasmodium falciparum",
+                "USUAL INCUBATION PERIOD (RANGE)": "6–30 days (98% onset within 3 months of travel)",
+                "DISTRIBUTION": "Tropics, subtropics"
+              },
+              {
+                "DISEASE": "Malaria, P. vivax",
+                "USUAL INCUBATION PERIOD (RANGE)": "8 days to 12 months (almost half have onset >30 days after completion of travel)",
+                "DISTRIBUTION": "Widespread in tropics and subtropics"
+              },
+              {
+                "DISEASE": "Spotted-fever rickettsiae",
+                "USUAL INCUBATION PERIOD (RANGE)": "Few days to 2–3 weeks",
+                "DISTRIBUTION": "Causative species vary by region"
+              },
+              {
+                "DISEASE": "Incubation 14 Days to 6 Weeks",
+                "USUAL INCUBATION PERIOD (RANGE)": "",
+                "DISTRIBUTION": ""
+              },
+              {
+                "DISEASE": "Encephalitis,arboviral;enteric fever; acuteHIV;leptospirosis;malaria",
+                "USUAL INCUBATION PERIOD (RANGE)": "See above incubation periods for relevant diseases",
+                "DISTRIBUTION": "See above distribution for relevant diseases"
+              },
+              {
+                "DISEASE": "Amebic liver abscess",
+                "USUAL INCUBATION PERIOD (RANGE)": "Weeks to months",
+                "DISTRIBUTION": "Most common in developing countries"
+              },
+              {
+                "DISEASE": "Hepatitis A",
+                "USUAL INCUBATION PERIOD (RANGE)": "28–30 days (15–50 days)",
+                "DISTRIBUTION": "Most common in developing countries"
+              },
+              {
+                "DISEASE": "Hepatitis E",
+                "USUAL INCUBATION PERIOD (RANGE)": "26–42 days (2–9 weeks)",
+                "DISTRIBUTION": "Widespread"
+              },
+              {
+                "DISEASE": "Acuteschistosomiasis(Katayama syndrome)",
+                "USUAL INCUBATION PERIOD (RANGE)": "4–8 weeks",
+                "DISTRIBUTION": "Most common in sub-Saharan Africa"
+              },
+              {
+                "DISEASE": "Incubation >6 weeks",
+                "USUAL INCUBATION PERIOD (RANGE)": "",
+                "DISTRIBUTION": ""
+              },
+              {
+                "DISEASE": "Amebic liver abscess, hepatitis E, malaria, acute schistosomiasis",
+                "USUAL INCUBATION PERIOD (RANGE)": "See above incubation periods for relevant diseases",
+                "DISTRIBUTION": "See above distribution for relevant diseases"
+              },
+              {
+                "DISEASE": "Hepatitis B",
+                "USUAL INCUBATION PERIOD (RANGE)": "90 days (60–150 days)",
+                "DISTRIBUTION": "Widespread"
+              },
+              {
+                "DISEASE": "Leishmaniasis, visceral",
+                "USUAL INCUBATION PERIOD (RANGE)": "2–10 months (10 days to years)",
+                "DISTRIBUTION": "Asia, Africa, Latin America, southern Europe, and the Middle East"
+              },
+              {
+                "DISEASE": "Tuberculosis",
+                "USUAL INCUBATION PERIOD (RANGE)": "Primary, weeks; reactivation, years",
+                "DISTRIBUTION": "Global distribution, rates and levels of resistance vary widely"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "STD",
+          "url": "https://wikem.org/wiki/STD"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "GEOGRAPHIC AREA": "Caribbean",
+            "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(Haiti)",
+            "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Acutehistoplasmosis,leptospirosis,chikungunya"
+          },
+          {
+            "GEOGRAPHIC AREA": "Central America",
+            "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily Plasmodium vivax)",
+            "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Leptospirosis,histoplasmosis,coccidioidomycosis"
+          },
+          {
+            "GEOGRAPHIC AREA": "South America",
+            "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily P. vivax)",
+            "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Bartonellosis,leptospirosis,enteric fever,histoplasmosis"
+          },
+          {
+            "GEOGRAPHIC AREA": "South-central Asia",
+            "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,enteric fever,malaria(primarily non-falciparum)",
+            "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Chikungunya"
+          },
+          {
+            "GEOGRAPHIC AREA": "Southeast Asia",
+            "COMMON TROPICAL DISEASE CAUSING FEVER": "Dengue,malaria(primarily non-falciparum)",
+            "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "Chikungunya,leptospirosis"
+          },
+          {
+            "GEOGRAPHIC AREA": "Sub-Saharan Africa",
+            "COMMON TROPICAL DISEASE CAUSING FEVER": "Malaria(primarily P. falciparum), tickbornerickettsiae(main cause of fever in southern Africa), acuteschistosomiasis,filariasis",
+            "OTHER INFECTIONS CAUSING OUTBREAKS OR CLUSTERS IN TRAVELERS": "African trypanosomiasis,chikungunya,enteric fever,filariasis"
+          }
+        ],
+        [
+          {
+            "DISEASE": "Incubation <14 days",
+            "USUAL INCUBATION PERIOD (RANGE)": "",
+            "DISTRIBUTION": ""
+          },
+          {
+            "DISEASE": "Chikungunya",
+            "USUAL INCUBATION PERIOD (RANGE)": "2–4 days (1–14 days)",
+            "DISTRIBUTION": "Tropics, subtropics"
+          },
+          {
+            "DISEASE": "Dengue",
+            "USUAL INCUBATION PERIOD (RANGE)": "4–8 days (3–14 days)",
+            "DISTRIBUTION": "Topics, subtropics"
+          },
+          {
+            "DISEASE": "Encephalitis, arboviral (Japanese encephalitis,tickborne encephalitis,West Nile virus, other)",
+            "USUAL INCUBATION PERIOD (RANGE)": "3–14 days (1–20 days)",
+            "DISTRIBUTION": "Specific agents vary by region"
+          },
+          {
+            "DISEASE": "Enteric fever",
+            "USUAL INCUBATION PERIOD (RANGE)": "7–18 days (3–60 days)",
+            "DISTRIBUTION": "Especially in Indian subcontinent"
+          },
+          {
+            "DISEASE": "Acute HIV",
+            "USUAL INCUBATION PERIOD (RANGE)": "10–28 days (10 days to 6 weeks)",
+            "DISTRIBUTION": "Worldwide"
+          },
+          {
+            "DISEASE": "Influenza",
+            "USUAL INCUBATION PERIOD (RANGE)": "1–3 days",
+            "DISTRIBUTION": "Worldwide, can also be acquired while traveling"
+          },
+          {
+            "DISEASE": "Legionellosis",
+            "USUAL INCUBATION PERIOD (RANGE)": "5–6 days (2–10 days)",
+            "DISTRIBUTION": "Widespread"
+          },
+          {
+            "DISEASE": "Leptospirosis",
+            "USUAL INCUBATION PERIOD (RANGE)": "7–12 days (2–26 days)",
+            "DISTRIBUTION": "Widespread, most common in tropical areas"
+          },
+          {
+            "DISEASE": "Malaria, Plasmodium falciparum",
+            "USUAL INCUBATION PERIOD (RANGE)": "6–30 days (98% onset within 3 months of travel)",
+            "DISTRIBUTION": "Tropics, subtropics"
+          },
+          {
+            "DISEASE": "Malaria, P. vivax",
+            "USUAL INCUBATION PERIOD (RANGE)": "8 days to 12 months (almost half have onset >30 days after completion of travel)",
+            "DISTRIBUTION": "Widespread in tropics and subtropics"
+          },
+          {
+            "DISEASE": "Spotted-fever rickettsiae",
+            "USUAL INCUBATION PERIOD (RANGE)": "Few days to 2–3 weeks",
+            "DISTRIBUTION": "Causative species vary by region"
+          },
+          {
+            "DISEASE": "Incubation 14 Days to 6 Weeks",
+            "USUAL INCUBATION PERIOD (RANGE)": "",
+            "DISTRIBUTION": ""
+          },
+          {
+            "DISEASE": "Encephalitis,arboviral;enteric fever; acuteHIV;leptospirosis;malaria",
+            "USUAL INCUBATION PERIOD (RANGE)": "See above incubation periods for relevant diseases",
+            "DISTRIBUTION": "See above distribution for relevant diseases"
+          },
+          {
+            "DISEASE": "Amebic liver abscess",
+            "USUAL INCUBATION PERIOD (RANGE)": "Weeks to months",
+            "DISTRIBUTION": "Most common in developing countries"
+          },
+          {
+            "DISEASE": "Hepatitis A",
+            "USUAL INCUBATION PERIOD (RANGE)": "28–30 days (15–50 days)",
+            "DISTRIBUTION": "Most common in developing countries"
+          },
+          {
+            "DISEASE": "Hepatitis E",
+            "USUAL INCUBATION PERIOD (RANGE)": "26–42 days (2–9 weeks)",
+            "DISTRIBUTION": "Widespread"
+          },
+          {
+            "DISEASE": "Acuteschistosomiasis(Katayama syndrome)",
+            "USUAL INCUBATION PERIOD (RANGE)": "4–8 weeks",
+            "DISTRIBUTION": "Most common in sub-Saharan Africa"
+          },
+          {
+            "DISEASE": "Incubation >6 weeks",
+            "USUAL INCUBATION PERIOD (RANGE)": "",
+            "DISTRIBUTION": ""
+          },
+          {
+            "DISEASE": "Amebic liver abscess, hepatitis E, malaria, acute schistosomiasis",
+            "USUAL INCUBATION PERIOD (RANGE)": "See above incubation periods for relevant diseases",
+            "DISTRIBUTION": "See above distribution for relevant diseases"
+          },
+          {
+            "DISEASE": "Hepatitis B",
+            "USUAL INCUBATION PERIOD (RANGE)": "90 days (60–150 days)",
+            "DISTRIBUTION": "Widespread"
+          },
+          {
+            "DISEASE": "Leishmaniasis, visceral",
+            "USUAL INCUBATION PERIOD (RANGE)": "2–10 months (10 days to years)",
+            "DISTRIBUTION": "Asia, Africa, Latin America, southern Europe, and the Middle East"
+          },
+          {
+            "DISEASE": "Tuberculosis",
+            "USUAL INCUBATION PERIOD (RANGE)": "Primary, weeks; reactivation, years",
+            "DISTRIBUTION": "Global distribution, rates and levels of resistance vary widely"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Travel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "https://wwwnc.cdc.gov/travel/yellowbook/2016/post-travel-evaluation/fever-in-returned-travelers\nhttps://www.ebmedicine.net/topics.php?paction=showTopicSeg&topic_id=167&seg_id=3279",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

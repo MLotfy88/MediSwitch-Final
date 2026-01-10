@@ -1,0 +1,202 @@
+{
+  "drug_name": "Finger_(phalanx)_fracture",
+  "url": "https://wikem.org/wiki/Finger_(phalanx)_fracture",
+  "scraped_at": "2026-01-10T07:53:25.959350",
+  "sections": {
+    "Background": {
+      "text": "Be wary of avulsion fracture of base of phalanx\nLateral or medial fracture fragment = collateral ligament avulsion\nDorsal fracture fragment = extensor tendon avulsion\nPalmar fracture fragment = volar plate avulsion",
+      "subsections": {
+        "Finger_(phalanx)_fracture_types": {
+          "text": "Proximal Phalanx (Finger) Fracture\nMiddle Phalanx (Finger) Fracture\nDistal Phalanx (Finger) Fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Proximal Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Proximal_Phalanx_(Finger)_Fracture"
+        },
+        {
+          "text": "Middle Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Middle_Phalanx_(Finger)_Fracture"
+        },
+        {
+          "text": "Distal Phalanx (Finger) Fracture",
+          "url": "https://wikem.org/wiki/Distal_Phalanx_(Finger)_Fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pain and/or swelling of the digit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hand and Finger Fractures\nHand Diagnoses (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and Finger Fractures",
+          "url": "https://wikem.org/wiki/Hand_and_Finger_Fractures"
+        },
+        {
+          "text": "Hand Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Hand_Diagnoses_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "drug_name": "Factor_V_Leiden",
+  "url": "https://wikem.org/wiki/Factor_V_Leiden",
+  "scraped_at": "2026-01-10T07:53:12.574229",
+  "sections": {
+    "Background": {
+      "text": "Also known as Factor V Leiden Deficiency or FVL\nPoint mutation in FV making it resistant to cleavage by activated protein C\nIncreased risk of thrombosis\nMost individuals with FVL will never have a venous thromboembolism (VTE)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Family history of thrombophilia\nVTE at a young age\nVTE in an atypical location",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Disseminated Intravascular Coagulation (DIC)\nFactor V Leiden\nNephrotic syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        }
+      ]
+    }
+  }
+}

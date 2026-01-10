@@ -1,0 +1,410 @@
+{
+  "drug_name": "Fasciola_hepatica",
+  "url": "https://wikem.org/wiki/Fasciola_hepatica",
+  "scraped_at": "2026-01-10T07:53:13.073129",
+  "sections": {
+    "Background": {
+      "text": "Parasite\n:\nFasciola hepatica\n\"Liver fluke\" or \"Sheep liver fluke\"\nEggs in stool of infected mammals (sheep/cattle) → snail → aquatic vegetation → human\nInfected by eating raw watercress or water plants contaminated by immature larvae\nImmature larvae migrate from intestine → abdominal cavity → liver → bile duct (mature adult)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasite",
+          "url": "https://wikem.org/wiki/Parasite"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea\n,\nvomiting\n,\nabdominal pain\n/tenderness,\nhepatomegaly\nFever\n,\nrash\n,\nshortness of breath\nMarked peripheral\neosinophilia\nLiver hematoma\nChronic: Inflammation and obstruction of liver, gallbladder, pancreas\nBiliary colic\n,\ncholangitis\n,\ncholelithiasis\n, obstructive\njaundice\nEctopic fascioliasis: Erythematous itchy nodules\nPharyngeal fascioliasis: pharyngitis with edema, congestion, suffocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "eosinophilia",
+          "url": "https://wikem.org/wiki/Eosinophilia"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "cholelithiasis",
+          "url": "https://wikem.org/wiki/Cholelithiasis"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Amebiasis\n,\nlarva migrans\n,\ncysticercosis\n,\nascariasis\n,\nhepatitis\n,\nparasitic infection\nBiliary atresia,\ncholecystitis\n,\ncholelithiasis\n, cholestasis",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "cysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholelithiasis",
+          "url": "https://wikem.org/wiki/Cholelithiasis"
+        },
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Helminth_infections": {
+      "text": "",
+      "subsections": {
+        "Cestodes_(Tapeworms)": {
+          "text": "Taenia saginata\nTaenia solium (Cysticercosis)\nDiphyllobothrium latum\nHymenolepis nana\nEchinococcus granulosus",
+          "tables": []
+        },
+        "Trematodes_(Flukes)": {
+          "text": "Fasciola hepatica\nFasciolopsis buski\nOpistorchis viverrini\nSchistosoma spp\nSchistosomiasis\nChlonorchis sinensis\nParagonimus\nspp.",
+          "tables": []
+        },
+        "Nematodes_(Roundworms)": {
+          "text": "Ascaris lumbricoides\nEnterobius vermicularis (Pinworm)\nFilarial worms\nLoa Loa\nOnchocerciasis\nLymphatic filariasis\n(\nElephantiasis\n)\nWuchereria bancrofti\nBrugia malayi\nBrugia timori\nHookworm\nNecator americanus\nAncylostoma duodenale\nCutaneous larva migrans\n(Ancylostoma braziliense)\nDracunculiasis\nStrongyloides stercoralis\nTrichuris trichiura\n(\nWhipworm)\nAnisakis\nToxocara\nspp.\nTrichinosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Taenia saginata",
+          "url": "https://wikem.org/wiki/Taenia_saginata"
+        },
+        {
+          "text": "Taenia solium (Cysticercosis)",
+          "url": "https://wikem.org/wiki/Taenia_solium_(Cysticercosis)"
+        },
+        {
+          "text": "Diphyllobothrium latum",
+          "url": "https://wikem.org/wiki/Diphyllobothrium_latum"
+        },
+        {
+          "text": "Hymenolepis nana",
+          "url": "https://wikem.org/wiki/Hymenolepis_nana"
+        },
+        {
+          "text": "Echinococcus granulosus",
+          "url": "https://wikem.org/wiki/Echinococcus_granulosus"
+        },
+        {
+          "text": "Fasciolopsis buski",
+          "url": "https://wikem.org/wiki/Fasciolopsis_buski"
+        },
+        {
+          "text": "Opistorchis viverrini",
+          "url": "https://wikem.org/wiki/Opistorchis_viverrini"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Chlonorchis sinensis",
+          "url": "https://wikem.org/wiki/Chlonorchis_sinensis"
+        },
+        {
+          "text": "Paragonimus",
+          "url": "https://wikem.org/wiki/Paragonimus"
+        },
+        {
+          "text": "Ascaris lumbricoides",
+          "url": "https://wikem.org/wiki/Ascaris_lumbricoides"
+        },
+        {
+          "text": "Enterobius vermicularis (Pinworm)",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "Loa Loa",
+          "url": "https://wikem.org/wiki/Loa_Loa"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Lymphatic filariasis",
+          "url": "https://wikem.org/wiki/Lymphatic_filariasis"
+        },
+        {
+          "text": "Elephantiasis",
+          "url": "https://wikem.org/wiki/Elephantiasis"
+        },
+        {
+          "text": "Wuchereria bancrofti",
+          "url": "https://wikem.org/wiki/Wuchereria_bancrofti"
+        },
+        {
+          "text": "Brugia malayi",
+          "url": "https://wikem.org/wiki/Brugia_malayi"
+        },
+        {
+          "text": "Brugia timori",
+          "url": "https://wikem.org/wiki/Brugia_timori"
+        },
+        {
+          "text": "Hookworm",
+          "url": "https://wikem.org/wiki/Hookworm"
+        },
+        {
+          "text": "Necator americanus",
+          "url": "https://wikem.org/wiki/Necator_americanus"
+        },
+        {
+          "text": "Ancylostoma duodenale",
+          "url": "https://wikem.org/wiki/Ancylostoma_duodenale"
+        },
+        {
+          "text": "Cutaneous larva migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larva_migrans"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Trichuris trichiura",
+          "url": "https://wikem.org/wiki/Trichuris_trichiura"
+        },
+        {
+          "text": "Whipworm)",
+          "url": "https://wikem.org/wiki/Whipworm)"
+        },
+        {
+          "text": "Anisakis",
+          "url": "https://wikem.org/wiki/Anisakis"
+        },
+        {
+          "text": "Toxocara",
+          "url": "https://wikem.org/wiki/Toxocara"
+        },
+        {
+          "text": "Trichinosis",
+          "url": "https://wikem.org/wiki/Trichinosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC: Leukocytosis, anemia, eosinophilia\nElevated ESR and LFT\nStool ova and parasites, culture\nMicroscopy\nEndoscopy or surgery, biopsy\nSerology (ELISA), PCR\nCT abdomen, US, ERCP, cholangiography, MRI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Triclabendazole\n(10mg/kg PO x 1-2 days)\nAlternative: Bithionol and nitazoxnide\nID and GI consult\nPossible surgery consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        }
+      ]
+    },
+    "References": {
+      "text": "http://www.cdc.gov/parasites/fasciola/gen_info/index.html\nLeder K, et al. Liver flukes: Fascioliasis. In: Post T, ed. UpToDate. Waltham, Mass.: UpToDate; 2014. www.uptodate.com. Accessed December 24, 2014.\nTolan RW, et al. (2013, Apr 12). Fascioliasis. eMedicine. Retrieved 12/24/2014 from\nhttp://emedicine.medscape.com/article/997890-overview",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

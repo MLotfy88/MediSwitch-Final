@@ -1,0 +1,110 @@
+{
+  "drug_name": "Fibromyalgia",
+  "url": "https://wikem.org/wiki/Fibromyalgia",
+  "scraped_at": "2026-01-10T07:53:23.238336",
+  "sections": {
+    "Background": {
+      "text": "A disorder of pain regulation, sometimes classified as a kind of central sensitization\nChronic musculoskeletal pain not explained by another systemic disorder\nMore common in women than men",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Chronic musculoskeletal pain\nInsomnia\nFatigue\nDecreased concentration\nHeadache\nParesthesias",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Rheumatoid arthritis\nSjögren Syndrome\nSystemic lupus erythematosus\nAnkylosing spondylitis\nMyopathies: metabolic or statin-induced\nMyasthenia gravis\nMyofascial pain syndrome\nMultiple sclerosis\nPsychiatric disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Sjögren Syndrome",
+          "url": "https://wikem.org/wiki/Sj%C3%B6gren_Syndrome"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Ankylosing spondylitis",
+          "url": "https://wikem.org/wiki/Ankylosing_spondylitis"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Tricyclic antidepressants\nSelect SNRIs (\nduloxetine\n,\nvenlafaxine\n,\nmilnacipran\n)\nAnticonvulsants\n(\npregabalin\n,\ngabapentin\n)\nExercise program",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tricyclic antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressants"
+        },
+        {
+          "text": "duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        },
+        {
+          "text": "venlafaxine",
+          "url": "https://wikem.org/wiki/Venlafaxine"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "pregabalin",
+          "url": "https://wikem.org/wiki/Pregabalin"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

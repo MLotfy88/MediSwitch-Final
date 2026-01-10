@@ -1,0 +1,89 @@
+{
+  "drug_name": "Fasciolopsiasis",
+  "url": "https://wikem.org/wiki/Fasciolopsiasis",
+  "scraped_at": "2026-01-10T07:53:15.575750",
+  "sections": {
+    "Background": {
+      "text": "Caused by the trematode Fasciolopsis buski, the largest intestinal fluke of humans\nFound in Asia and the Indian subcontinent, especially in areas where humans raise pigs and consume freshwater plants",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Most infections asymptomatic or mild GI symptoms\nHeavier infections:\nAbdominal pain\nDiarrhea\nAscites\nAnasarca\nBowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "See\nAbdominal pain\n,\ndiarrhea\n,\nparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Workup for alternative causes of symptoms and complications\nDefinitive diagnosis made by visual examination of fluke in stool or emesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Praziquantel\n25 mg/kg TID x 3",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Praziquantel",
+          "url": "https://wikem.org/wiki/Praziquantel"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Dependent on severity, most can likely be discharged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        }
+      ]
+    }
+  }
+}

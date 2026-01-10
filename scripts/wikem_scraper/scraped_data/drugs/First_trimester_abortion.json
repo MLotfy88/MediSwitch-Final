@@ -1,0 +1,263 @@
+{
+  "drug_name": "First_trimester_abortion",
+  "url": "https://wikem.org/wiki/First_trimester_abortion",
+  "scraped_at": "2026-01-10T07:53:24.229042",
+  "sections": {
+    "Intro": {
+      "text": "See\nVaginal bleeding in pregnancy (less than 20wks)\nfor diagnostic approach to early vaginal bleeding in pregnancy.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Estimates are up to 15% of pregnancies end in a 1st trimester abortion, usually due to fetal chromosomal abnormalities\nPrimary risk factors include history of prior miscarriage and advanced maternal age\n[1]\nOther risk factors include heavy alcohol use, uterine structure abnormalities, and systemic maternal disease",
+      "subsections": {
+        "Abortion_Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Classification": "Threatened",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Closed",
+                "Fetal Tissue Passage": "No",
+                "Misc": "If  < 11 weeks (with fetal cardiac activity) 90% progress to term.  If between 11 and 20 weeks 50% progress to term"
+              },
+              {
+                "Classification": "Inevitable",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Open",
+                "Fetal Tissue Passage": "No",
+                "Misc": ""
+              },
+              {
+                "Classification": "Incomplete",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Open",
+                "Fetal Tissue Passage": "Yes, some",
+                "Misc": ""
+              },
+              {
+                "Classification": "Complete",
+                "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+                "OS": "Closed",
+                "Fetal Tissue Passage": "Yes, complete expulsion of products",
+                "Misc": "Distinguish from ectopic based on decreasing hCG and/or decreased bleeding"
+              },
+              {
+                "Classification": "Missed",
+                "Characteristics": "Fetal death at <20 weeks without passage of any fetal tissue for 4 weeks after fetal death",
+                "OS": "Closed",
+                "Fetal Tissue Passage": "No",
+                "Misc": ""
+              },
+              {
+                "Classification": "Septic",
+                "Characteristics": "Infection of the uterus during a miscarriage.  Most commonly caused by retained products of conception",
+                "OS": "Open",
+                "Fetal Tissue Passage": "No, or may be incomplete",
+                "Misc": "Uterine tenderness and purulent discharge from the OS may be present"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abortion_Types": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Classification": "Threatened",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Closed",
+            "Fetal Tissue Passage": "No",
+            "Misc": "If  < 11 weeks (with fetal cardiac activity) 90% progress to term.  If between 11 and 20 weeks 50% progress to term"
+          },
+          {
+            "Classification": "Inevitable",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Open",
+            "Fetal Tissue Passage": "No",
+            "Misc": ""
+          },
+          {
+            "Classification": "Incomplete",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Open",
+            "Fetal Tissue Passage": "Yes, some",
+            "Misc": ""
+          },
+          {
+            "Classification": "Complete",
+            "Characteristics": "Abdominal pain or bleeding; < 20 weeks gestation",
+            "OS": "Closed",
+            "Fetal Tissue Passage": "Yes, complete expulsion of products",
+            "Misc": "Distinguish from ectopic based on decreasing hCG and/or decreased bleeding"
+          },
+          {
+            "Classification": "Missed",
+            "Characteristics": "Fetal death at <20 weeks without passage of any fetal tissue for 4 weeks after fetal death",
+            "OS": "Closed",
+            "Fetal Tissue Passage": "No",
+            "Misc": ""
+          },
+          {
+            "Classification": "Septic",
+            "Characteristics": "Infection of the uterus during a miscarriage.  Most commonly caused by retained products of conception",
+            "OS": "Open",
+            "Fetal Tissue Passage": "No, or may be incomplete",
+            "Misc": "Uterine tenderness and purulent discharge from the OS may be present"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Visualize any clots or bleeding from external os\nAssess\ninternal os\nas open or closed based on ability to pass finger through os\nPregnancy ≤ 13 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vaginal_Bleeding_in_Pregnancy_(<20wks)": {
+          "text": "Ectopic pregnancy\nSubchorionic hematoma\nFirst Trimester Abortion\nComplete Abortion\nIncomplete Abortion\nInevitable Abortion\nMissed Abortion\nSeptic abortion\nThreatened Abortion\nGestational trophoblastic disease\nConsider when pregnancy-induced hypertension is seen before 24 wks of gestation\nHeterotopic pregnancy\nImplantation bleeding\nMolar pregnancy\nNon-pregnancy related bleeding\nCervicitis\nFibroids\nImplantation bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Subchorionic hematoma",
+          "url": "https://wikem.org/wiki/Subchorionic_hematoma"
+        },
+        {
+          "text": "First Trimester Abortion",
+          "url": "https://wikem.org/wiki/First_Trimester_Abortion"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Fibroids",
+          "url": "https://wikem.org/wiki/Fibroids"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nVaginal Bleed Pregnant (less than 20wks)\nType and Screen/ABO\nHemoglobin\nTransvaginal\nor\ntransabdominal ultrasound\nultrasound\nfinding:\n+IUP =\nthreatened abortion\nEctopic\nruled-out unless on fertility drugs\nEmpty uterus + free fluid/adnexal mass =\nEctopic\nEmpty uterus + no free fluid / no mass\nBeta-HCG\n:\n>1,500 = Presumed\nectopic\n<1,500 = Indeterminate: follow serial\nB-HCG\nlevels in 48hrs (if no peritonitis)\nIncreased >66% = normal IUP\nIncreased <66% =\nEctopic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleed Pregnant (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleed_Pregnant_(less_than_20wks)"
+        },
+        {
+          "text": "Transvaginal",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound_(transvaginal)"
+        },
+        {
+          "text": "transabdominal ultrasound",
+          "url": "https://wikem.org/wiki/Pelvic_ultrasound_(transabdominal)"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "threatened abortion",
+          "url": "https://wikem.org/wiki/Threatened_abortion"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Beta-HCG",
+          "url": "https://wikem.org/wiki/Beta-HCG_Levels"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "B-HCG",
+          "url": "https://wikem.org/wiki/B-HCG"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        }
+      ]
+    },
+    "Management": {
+      "text": "RhoGam\ncan be considered if Rh Negative\nRecent 2024 ACOG practice guideline update recommends forgoing routine Rh testing and RhoGam for patients less than 12 weeks\n[2]\nIVF\nand/or\nPRBCs\nif severe bleeding\nMisoprostol\nonly for < 12 weeks gestation: give 800mcg vaginally, dose can be repeated once within 7 days if no response\n[3]\nIf available, mifepristone 200mg PO should be given 24 hours prior to first dose of misoprostol (NNT = 6)\nSupportive care with anti-emetic and NSAIDs for misoprostol side effects\nD&C and OB/gyn consult may be necessary if medical management fails or continuous products/vaginal bleeding > 7-14 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "RhoGam",
+          "url": "https://wikem.org/wiki/Rho(D)_Immune_Globulin_(RhoGAM)"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Misoprostol",
+          "url": "https://wikem.org/wiki/Misoprostol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge Criteria\nAfter brief period of observation and if hemodynamically stable\nDischarge w/ pain medications and close OB follow-up for repeat ultrasound\nGive strict return precautions (heavy vaginal bleeding, worsening pain, or fever)\nAdmission Criteria\nIf hemodynamically unstable, septic, or suspect gestational trophoblastic disease/ectopic pregnancy\nUrgent OBGYN consult if active hemorrhage and need for Dilation and Curettage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vaginal Bleeding (Main)\nVaginal bleeding in pregnancy (less than 20wks)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal Bleeding (Main)",
+          "url": "https://wikem.org/wiki/Vaginal_Bleeding_(Main)"
+        },
+        {
+          "text": "Vaginal bleeding in pregnancy (less than 20wks)",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding_in_pregnancy_(less_than_20wks)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual: Spontaneous Abortion (Miscarriage)\nemDocs: Bleeding in Early Pregnancy and Threatened Miscarriage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

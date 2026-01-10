@@ -1,0 +1,229 @@
+{
+  "drug_name": "Fever_of_unknown_origin_(peds)",
+  "url": "https://wikem.org/wiki/Fever_of_unknown_origin_(peds)",
+  "scraped_at": "2026-01-10T07:53:20.451430",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nfever of unknown origin\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Prolonged fever of unknown origin without identified cause generally has favorable prognosis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Original definition\n[1]\nFever >38.3 C on several occasions\nLasting for at least 3 weeks\nNo clear diagnosis after 1 week inpatient workup\nNewer definition\n[2]\n- \"Prolonged fever\" with:\n3 outpatient visits without identifying a cause\nor\n3 inpatient days without identifying a cause\nor\n1 week of “intelligent and invasive” ambulatory investigation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Infection\nBacterial\nAdenitis\nEndocarditis\nMastoiditis\nOccult\nabscess\nPyelonephritis\nSinusitis\nTb\nMycoplasmal\nChlamydial\nLymphogranuloma venereum\nPsittacosis\nRickettsial\nQ fever\nRocky mountain spotted fever\nViral\nCMV\nViral hepatitis\nMononucleosis\nFungal\nBlastomycosis\nHistoplasmosis\nParasitic\nMalaria\nToxoplasmosis\nCysticercosis\nNon-infectious Inflammatory\nJuvenile idiopathic arthritis\nSLE\nRegional enteritis\nRheumatic fever\nUlcerative colitis\nVasculitis\nMalignancy\nLeukemia\nLymphoma\nNeuroblastoma\nWilms' tumor\nDrug Induced\nAntibiotics\nAnticonvulsants\nAnti\nTB\nProcainamide\nQuinidine\nSerum sickness\nMisc\nAIDS\nCNS dysfunction\nEnvironmental\nhyperthermia\nFactitious\nFamilial dysautonomia\nKawasaki\nPE\nSerial infections\nThyrotoxicosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Mastoiditis",
+          "url": "https://wikem.org/wiki/Mastoiditis"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Tb",
+          "url": "https://wikem.org/wiki/Tb"
+        },
+        {
+          "text": "Mycoplasmal",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsial",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Wilms' tumor",
+          "url": "https://wikem.org/wiki/Wilms%27_tumor"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Procainamide",
+          "url": "https://wikem.org/wiki/Procainamide"
+        },
+        {
+          "text": "Quinidine",
+          "url": "https://wikem.org/wiki/Quinidine"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Kawasaki",
+          "url": "https://wikem.org/wiki/Kawasaki"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical (preliminary) diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause (once identified)\nEmpiric treatment generally not recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Frequently admitted for workup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric fever of uncertain source",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric fever of uncertain source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        }
+      ]
+    }
+  }
+}

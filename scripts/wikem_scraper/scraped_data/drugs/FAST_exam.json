@@ -1,0 +1,255 @@
+{
+  "drug_name": "FAST_exam",
+  "url": "https://wikem.org/wiki/FAST_exam",
+  "scraped_at": "2026-01-10T07:53:17.139585",
+  "sections": {
+    "Background": {
+      "text": "\"Focused assessment with sonography for trauma\"\nPrioritize: Do primary survey of ATLS first (\nABCDE\n)\nFAST exam follows ABCDE to assess “C” looking for free fluid\nSensitivity of 42% and specificity of ≥98%\n[1]\n[2]\nAs little as 100 mL of free fluid can be seen\n[3]\n[4]\n, though >500 mL is needed for the common user\n[5]\nIf blunt trauma start with RUQ view first\nIn penetrating start with cardiac views first to rule out tamponade\nSerial exams extremely helpful",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ABCDE",
+          "url": "https://wikem.org/wiki/Trauma_(main)#Primary_Survey.5B2.5D.5B3.5D.5B4.5D"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "FAST is useful in patients with blunt or penetrating traumatic injury\nEnables trauma bay decision:\nStable patient with traumatic mechanism of injury + negative FAST → observation\nStable patient with traumatic mechanism of injury + positive FAST → CT\nUnstable patient with traumatic mechanism of injury + negative FAST → repeat FAST or CT\nUnstable patient with traumatic mechanism of injury + positive FAST → laparotomy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "Select probe\nCurvilinear/large convex probe is ideal but phased array probe may be substituted\nLocation\nSequence can vary depending on mechanism of injury\nInclude cardiac, RUQ, pelvic, and LUQ views",
+      "subsections": {
+        "Cardiac": {
+          "text": "Location\nSubxiphoid\nLandmarks\nVisualize the heart and pericardium using the liver as an acoustic window\nScan anterior to posterior through the heart",
+          "tables": []
+        },
+        "RUQ": {
+          "text": "Location\nCoronal view over the right flank\nLandmarks\nVisualize the interface between the liver and kidney\nScan anterior to posterior identifying Morison’s pouch and the superior and inferior pole of the kidney",
+          "tables": []
+        },
+        "Pelvic": {
+          "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder",
+          "tables": []
+        },
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the spleen and the kidney\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cardiac": {
+      "text": "Location\nSubxiphoid\nLandmarks\nVisualize the heart and pericardium using the liver as an acoustic window\nScan anterior to posterior through the heart",
+      "subsections": {
+        "RUQ": {
+          "text": "Location\nCoronal view over the right flank\nLandmarks\nVisualize the interface between the liver and kidney\nScan anterior to posterior identifying Morison’s pouch and the superior and inferior pole of the kidney",
+          "tables": []
+        },
+        "Pelvic": {
+          "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder",
+          "tables": []
+        },
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the spleen and the kidney\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "RUQ": {
+      "text": "Location\nCoronal view over the right flank\nLandmarks\nVisualize the interface between the liver and kidney\nScan anterior to posterior identifying Morison’s pouch and the superior and inferior pole of the kidney",
+      "subsections": {
+        "Pelvic": {
+          "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder",
+          "tables": []
+        },
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the spleen and the kidney\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pelvic": {
+      "text": "Location\nSagittal view just superior to the pubic symphysis\nLandmarks\nIdentify the bladder\nScan medial to lateral to identify fluid posterior and superior to the bladder",
+      "subsections": {
+        "LUQ": {
+          "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the spleen and the kidney\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "LUQ": {
+      "text": "Location\nCoronal view over the left flank\nLandmarks\nIdentify the space between the spleen and diaphragm and the spleen and the kidney\nScan through anterior to posterior of the splenodiaphragmatic space and superior and inferior pole of the kidney",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Findings": {
+      "text": "Positive FAST will have one of the following:\nAnechoic area within the pericardial space\nAnechoic areas between the liver and kidney\nAnechoic areas between the diaphragm and spleen\nAnechoic areas between the spleen and kidney\nAnechoic areas between superior and posterior to the posterior wall of the bladder",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Images": {
+      "text": "",
+      "subsections": {
+        "Normal": {
+          "text": "Normal subxiphoid view\nRUQ with no free fluid\nNormal saggital bladder",
+          "tables": []
+        },
+        "Abnormal": {
+          "text": "Pericardial effusion\nPositive FAST (RUQ)\nPositive FAST (RUQ)\nFree fluid superior to the bladder\nPositive FAST (LUQ)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal": {
+      "text": "Normal subxiphoid view\nRUQ with no free fluid\nNormal saggital bladder",
+      "subsections": {
+        "Abnormal": {
+          "text": "Pericardial effusion\nPositive FAST (RUQ)\nPositive FAST (RUQ)\nFree fluid superior to the bladder\nPositive FAST (LUQ)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal": {
+      "text": "Pericardial effusion\nPositive FAST (RUQ)\nPositive FAST (RUQ)\nFree fluid superior to the bladder\nPositive FAST (LUQ)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pearls_and_Pitfalls": {
+      "text": "The area between the liver and kidney in the RUQ view is called Morison’s pouch\nIn the LUQ view, fluid is most likely to accumulate between the diaphragm and spleen, not between the spleen and kidney\nScans must scan through the inferior poles of the kidneys as this can contain small quantities of fluid\nSerial exam may be needed\nNegative exam does not rule out intraabdominal injuries\nRetroperitoneal hemorrhage not easily identified\nThose with delayed presentation may have clotted and not demonstrate completely anechoic fluid collections",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Documentation": {
+      "text": "",
+      "subsections": {
+        "Normal_Exam": {
+          "text": "A bedside FAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, and LUQ views were adequately obtained. There was no free fluid identified.",
+          "tables": []
+        },
+        "Abnormal_Exam": {
+          "text": "A bedside FAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, and LUQ views were adequately obtained. There was free fluid identified in the RUQ suggesting intraabdominal hemorrhage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Exam": {
+      "text": "A bedside FAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, and LUQ views were adequately obtained. There was no free fluid identified.",
+      "subsections": {
+        "Abnormal_Exam": {
+          "text": "A bedside FAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, and LUQ views were adequately obtained. There was free fluid identified in the RUQ suggesting intraabdominal hemorrhage.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Exam": {
+      "text": "A bedside FAST ultrasound was conducted to assess for free fluid with clinical indication of trauma. Cardiac, RUQ, pelvic, and LUQ views were adequately obtained. There was free fluid identified in the RUQ suggesting intraabdominal hemorrhage.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clips": {
+      "text": "",
+      "subsections": {
+        "Normal_2": {
+          "text": "Normal subxiphoid view\nNormal pelvic view",
+          "tables": []
+        },
+        "Abnormal_2": {
+          "text": "Free fluid located at the liver tip",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_2": {
+      "text": "Normal subxiphoid view\nNormal pelvic view",
+      "subsections": {
+        "Abnormal_2": {
+          "text": "Free fluid located at the liver tip",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_2": {
+      "text": "Free fluid located at the liver tip",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Sonoguide: Ultrasound in Trauma – The FAST Exam\nEMCrit: Podcast 102 – Don’t Half-Ass your FAST!\neFAST : extended Focused Assessment with Sonography in Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "EFAST exam\nCardiac ultrasound\nIVC ultrasound\nUltrasound: Lungs\nUltrasound (Main)\nRenal ultrasound\nBladder ultrasound\nAbdominal Trauma\nUltrasound: In Shock and Hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EFAST exam",
+          "url": "https://wikem.org/wiki/EFAST_exam"
+        },
+        {
+          "text": "Cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "IVC ultrasound",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "Ultrasound: Lungs",
+          "url": "https://wikem.org/wiki/Ultrasound:_Lungs"
+        },
+        {
+          "text": "Ultrasound (Main)",
+          "url": "https://wikem.org/wiki/Ultrasound_(Main)"
+        },
+        {
+          "text": "Renal ultrasound",
+          "url": "https://wikem.org/wiki/Renal_ultrasound"
+        },
+        {
+          "text": "Bladder ultrasound",
+          "url": "https://wikem.org/wiki/Bladder_ultrasound"
+        },
+        {
+          "text": "Abdominal Trauma",
+          "url": "https://wikem.org/wiki/Abdominal_Trauma"
+        },
+        {
+          "text": "Ultrasound: In Shock and Hypotension",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        }
+      ]
+    }
+  }
+}

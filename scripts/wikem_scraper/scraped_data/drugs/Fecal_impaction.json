@@ -1,0 +1,293 @@
+{
+  "drug_name": "Fecal_impaction",
+  "url": "https://wikem.org/wiki/Fecal_impaction",
+  "scraped_at": "2026-01-10T07:53:16.562443",
+  "sections": {
+    "Background": {
+      "text": "Typically a complication of chronic constipation that results in the accumulation of hardened/inspissated fecal matter in the colon or rectum that cannot be spontaneously evacuated\nIncidence greatly increases with age and polypharmacy; common in the inpatient or institutionalized setting",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Elderly and young age\nChronic\nconstipation\nLifestyle factors (immobility/bedbound, low fiber diet, dehydration)\nMedications that impair GI motility (\nanticholinergics\n,\nantipsychotics\n,\nopioids\n)\nMetabolic disorders (\nhypothyroidism\n,\nDiabetes\nAnatomic abnormalities (\nmalignancy\n,\nanorectal disease\n,\nHirschsprung's disease\n)\nNeurologic conditions (\ndementia\n,\nspinal cord injury\n,\ncerebral palsy\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Elderly and young age\nChronic\nconstipation\nLifestyle factors (immobility/bedbound, low fiber diet, dehydration)\nMedications that impair GI motility (\nanticholinergics\n,\nantipsychotics\n,\nopioids\n)\nMetabolic disorders (\nhypothyroidism\n,\nDiabetes\nAnatomic abnormalities (\nmalignancy\n,\nanorectal disease\n,\nHirschsprung's disease\n)\nNeurologic conditions (\ndementia\n,\nspinal cord injury\n,\ncerebral palsy\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Abdominal pain\n, bloating, distention, or early satiety\nNausea and vomiting\nOverflow stool incontinence as diarrhea\nObstipation\nAgitation\n/\nconfusion\n(elderly patients with neuropsychiatric conditions)\nTachycardia\nmay be present due to pain or dehydration\nUrinary incontinence",
+          "tables": []
+        },
+        "Physical_exam": {
+          "text": "Abdominal distention and/or\ntenderness\nPalpable firm stool balls or copious amounts of stool found on digital rectal exam\nNote that for proximal impactions (proximal rectum or sigmoid colon), DRE may not be diagnostic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Abdominal pain\n, bloating, distention, or early satiety\nNausea and vomiting\nOverflow stool incontinence as diarrhea\nObstipation\nAgitation\n/\nconfusion\n(elderly patients with neuropsychiatric conditions)\nTachycardia\nmay be present due to pain or dehydration\nUrinary incontinence",
+      "subsections": {
+        "Physical_exam": {
+          "text": "Abdominal distention and/or\ntenderness\nPalpable firm stool balls or copious amounts of stool found on digital rectal exam\nNote that for proximal impactions (proximal rectum or sigmoid colon), DRE may not be diagnostic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physical_exam": {
+      "text": "Abdominal distention and/or\ntenderness\nPalpable firm stool balls or copious amounts of stool found on digital rectal exam\nNote that for proximal impactions (proximal rectum or sigmoid colon), DRE may not be diagnostic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Constipation": {
+          "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Constipation": {
+      "text": "Behavioral-related\nLack of exercise\nDiet-related\nFecal impaction\nStercoral colitis\nIleus from surgical abdomen\nAppendicitis\nDiverticulitis\nBowel obstruction\nSmall bowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nMalignant bowel obstruction\nSpecific causes: tumor, stricture,\nhernia\n, adhesion,\nvolvulus\nPainful\nanorectal disorders\n(e.g.\nanal fissure\n,\nhemorrhoids\n)\nMedical causes\nHypothyroidism\nElectrolytes\nHypomagnesia\nHypercalcemia\nHypokalemia\nMedication-related\nOpiods\n,\nantipsychotics\n,\nanticholinergics\n, antacid,\nantihistamines\nConstipation (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stercoral colitis",
+          "url": "https://wikem.org/wiki/Stercoral_colitis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "anorectal disorders",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hypomagnesia",
+          "url": "https://wikem.org/wiki/Hypomagnesia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Opiods",
+          "url": "https://wikem.org/wiki/Opiods"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Constipation (peds)",
+          "url": "https://wikem.org/wiki/Constipation_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Digital rectal exam\nAbdominal panel\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nConsider\nlactate\nif concern for\nstercoral colitis\nCT if abdominal tenderness, elderly, or severe presentation\nConstipation should not cause abdominal tenderness on exam\nCT may show large stool burden in colon/rectum\nStercoral colitis\nis CT finding caused by impacted fecal material causing pressure edema and ischemia on the bowel wall. Left untreated, the condition can lead to wall ischemia, ulceration, and perforation.\n[1]\nFindings include colonic wall thickening, pericolonic fat stranding, and extraluminal bubbles of gas or abscess (signs of perforation); all of which are not found in uncomplicated fecal impaction.",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis is frequently clinical\nIn patients with concerning symptoms/risk factors, CT can confirm diagnosis and rule out more emergent conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Digital rectal exam\nAbdominal panel\nCBC\nChemistry (\nhypokalemia\nor\nhypercalcemia\n)\nLFTs + lipase\nConsider coagulation studies (PT, PTT, INR), as a marker of liver function\nConsider\nTSH\nif concern for\nhypothyroid\nrelated\nconstipation\nConsider\nlactate\nif concern for\nstercoral colitis\nCT if abdominal tenderness, elderly, or severe presentation\nConstipation should not cause abdominal tenderness on exam\nCT may show large stool burden in colon/rectum\nStercoral colitis\nis CT finding caused by impacted fecal material causing pressure edema and ischemia on the bowel wall. Left untreated, the condition can lead to wall ischemia, ulceration, and perforation.\n[1]\nFindings include colonic wall thickening, pericolonic fat stranding, and extraluminal bubbles of gas or abscess (signs of perforation); all of which are not found in uncomplicated fecal impaction.",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis is frequently clinical\nIn patients with concerning symptoms/risk factors, CT can confirm diagnosis and rule out more emergent conditions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Diagnosis is frequently clinical\nIn patients with concerning symptoms/risk factors, CT can confirm diagnosis and rule out more emergent conditions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgery if there are signs of perforation, peritonitis, or stercoral colitis\nIn severe cases refractory to mainstay treatments, manual disimpaction under anesthesia in OR may be requried\n[2]\nDistal impactions - manual disimpaction and/or rectal suppositories or enemas (Fleet, mineral oil, warm water, docusate)\nAdministration of small-volume enemas over a longer time may be more beneficial and comfortable for patient\nIn small studies, Fleet (sodium phosphate) enemas led to to increased rate of electrolyte derangements in the elderly\n[3]\nProximal impactions typically respond better to oral laxatives\nAfter initial disimpaction, address risk factors (especially medications) and initiate a maintenance bowel regimen",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider admission for patients with\nstercoral colitis\nfor aggressive bowel regimen and washout\nFirst-time fecal impaction may prompt colonoscopy or flexible sigmoidoscopy to assess for anatomic causes\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation\nStercoral colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

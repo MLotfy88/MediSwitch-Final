@@ -1,0 +1,82 @@
+{
+  "drug_name": "Factitious_disorder",
+  "url": "https://wikem.org/wiki/Factitious_disorder",
+  "scraped_at": "2026-01-10T07:53:12.982163",
+  "sections": {
+    "Background": {
+      "text": "The falsification of medical or psychological signs and symptoms in oneself or others that are associated with the identified deception, absent of obvious external rewards\nIncludes:\n[1]\nMunchausen syndrome\nPsychogenic seizures\n20% of patients in epilepsy clinics\n3.5% of kidney stone patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Factitious_Disorder_Imposed_on_Self": {
+          "text": "Falsification of physical or psychological signs or symptoms, or induction of injury or disease, associated with identified deception.\n[2]\nThe individual presents himself or herself to others as ill, impaired, or injured.\nThe deceptive behavior is evident even in the absence of obvious external rewards.\nThe behavior is not better explained by another mental disorder, such as delusional disorder or another psychotic disorder.",
+          "tables": []
+        },
+        "Factitious_Disorder_Imposed_on_Another": {
+          "text": "Falsification of physical or psychological signs or symptoms, or induction of injury or disease, on another, associated with identified deception.\nThe individual presents another individual (victim) to others as ill, impaired, or injured.\nThe deceptive behavior is evident even in the absence of obvious external rewards.\nThe behavior is not better explained by another mental disorder, such as delusional disorder or another psychotic disorder.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Factitious_Disorder_Imposed_on_Self": {
+      "text": "Falsification of physical or psychological signs or symptoms, or induction of injury or disease, associated with identified deception.\n[2]\nThe individual presents himself or herself to others as ill, impaired, or injured.\nThe deceptive behavior is evident even in the absence of obvious external rewards.\nThe behavior is not better explained by another mental disorder, such as delusional disorder or another psychotic disorder.",
+      "subsections": {
+        "Factitious_Disorder_Imposed_on_Another": {
+          "text": "Falsification of physical or psychological signs or symptoms, or induction of injury or disease, on another, associated with identified deception.\nThe individual presents another individual (victim) to others as ill, impaired, or injured.\nThe deceptive behavior is evident even in the absence of obvious external rewards.\nThe behavior is not better explained by another mental disorder, such as delusional disorder or another psychotic disorder.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Factitious_Disorder_Imposed_on_Another": {
+      "text": "Falsification of physical or psychological signs or symptoms, or induction of injury or disease, on another, associated with identified deception.\nThe individual presents another individual (victim) to others as ill, impaired, or injured.\nThe deceptive behavior is evident even in the absence of obvious external rewards.\nThe behavior is not better explained by another mental disorder, such as delusional disorder or another psychotic disorder.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Somatic symptom disorder\nMalingering\nConversion disorder\nBorderline personality disorder\nMedical condition or mental disorder not associated with intentional symptom falsification",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Somatic symptom disorder",
+          "url": "https://wikem.org/wiki/Somatic_symptom_disorder"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Borderline personality disorder",
+          "url": "https://wikem.org/wiki/Borderline_personality_disorder"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Difficult to diagnose, as often a diagnosis of exclusion. Refer to the patient's medical record for indication of repeated visits, recurrent testing, or multiple identities.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Close outpatient psychotherapy focused on establishing and maintaining a relationship with the patient.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

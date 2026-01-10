@@ -1,0 +1,108 @@
+{
+  "drug_name": "Field_trauma_triage",
+  "url": "https://wikem.org/wiki/Field_trauma_triage",
+  "scraped_at": "2026-01-10T07:53:25.094824",
+  "sections": {
+    "Background": {
+      "text": "The Centers for Disease Control and Prevention (CDC) Trauma Triage Guidelines, composed by the American College of Surgeons' Committee on Trauma and the National Highway Traffic Safety Administration, help EMS providers triage trauma patients to the proper facility. These guidelines offer patient-specific criteria used for determining which facility a patient sustaining traumatic injuries needs to provide the level of definitive treatment required.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Decision_Rules": {
+      "text": "If step one or two criteria met, transport to highest level of care trauma center. If step three criteria met, transport to trauma center, but not necessarily highest level. If step four criteria met, transport to trauma center or hospital capable of timely and thorough evaluation. When in doubt, transport to a trauma center",
+      "subsections": {
+        "Step_One:_Physiologic_Criteria": {
+          "text": "Glasgow Coma Scale ≤13, or\nSBP of <90 mmHg, or\nRespiratory rate of <10 or >29 breaths per minute (<20 in infant aged <1 year), or need for ventilatory support",
+          "tables": []
+        },
+        "Step_Two:_Anatomic_Criteria": {
+          "text": "All penetrating injuries to head, neck, torso, and extremities proximal to elbow or knee\nChest wall instability or deformity (e.g. flail chest)\nTwo or more proximal long-bone fractures\nCrushed, degloved, mangled, or pulseless extremity\nAmputation proximal to wrist or ankle\nPelvic fractures\nOpen or depressed skull fractures\nParalysis",
+          "tables": []
+        },
+        "Step_Three:_Mechanism_of_Injury": {
+          "text": "Falls\nAdults: >20 feet (one story = 10 feet)\nChildren: >10 feet or two to three times the height of the child\nHigh-risk auto crash\nIntrusion, including roof: >12 inches occupant site; >18 inches any site\nEjection (partial or complete) from automobile\nDeath in same passenger compartment\nVehicle telemetry data consistent with a high risk for injury\nAutomobile versus pedestrian/bicyclist thrown, run over, or with significant (>20 mph) impact\nMotorcycle crash >20 mph",
+          "tables": []
+        },
+        "Step_Four:_Special_Considerations": {
+          "text": "Older adults\nRisk for injury/death increases after age 55 years\nSBP <110 might represent shock after age 65 years\nLow impact mechanisms (e.g., ground-level falls) might result in severe injury\nChildren\nShould be triaged preferentially to pediatric capable trauma centers\nAnticoagulants and bleeding disorders\nPatients with head injury are at high risk for rapid deterioration\nBurns\nWithout other trauma mechanism: triage to burn facility\nWith trauma mechanism: triage to trauma center\nPregnancy >20 weeks\nEMS provider judgment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Step_One:_Physiologic_Criteria": {
+      "text": "Glasgow Coma Scale ≤13, or\nSBP of <90 mmHg, or\nRespiratory rate of <10 or >29 breaths per minute (<20 in infant aged <1 year), or need for ventilatory support",
+      "subsections": {
+        "Step_Two:_Anatomic_Criteria": {
+          "text": "All penetrating injuries to head, neck, torso, and extremities proximal to elbow or knee\nChest wall instability or deformity (e.g. flail chest)\nTwo or more proximal long-bone fractures\nCrushed, degloved, mangled, or pulseless extremity\nAmputation proximal to wrist or ankle\nPelvic fractures\nOpen or depressed skull fractures\nParalysis",
+          "tables": []
+        },
+        "Step_Three:_Mechanism_of_Injury": {
+          "text": "Falls\nAdults: >20 feet (one story = 10 feet)\nChildren: >10 feet or two to three times the height of the child\nHigh-risk auto crash\nIntrusion, including roof: >12 inches occupant site; >18 inches any site\nEjection (partial or complete) from automobile\nDeath in same passenger compartment\nVehicle telemetry data consistent with a high risk for injury\nAutomobile versus pedestrian/bicyclist thrown, run over, or with significant (>20 mph) impact\nMotorcycle crash >20 mph",
+          "tables": []
+        },
+        "Step_Four:_Special_Considerations": {
+          "text": "Older adults\nRisk for injury/death increases after age 55 years\nSBP <110 might represent shock after age 65 years\nLow impact mechanisms (e.g., ground-level falls) might result in severe injury\nChildren\nShould be triaged preferentially to pediatric capable trauma centers\nAnticoagulants and bleeding disorders\nPatients with head injury are at high risk for rapid deterioration\nBurns\nWithout other trauma mechanism: triage to burn facility\nWith trauma mechanism: triage to trauma center\nPregnancy >20 weeks\nEMS provider judgment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Step_Two:_Anatomic_Criteria": {
+      "text": "All penetrating injuries to head, neck, torso, and extremities proximal to elbow or knee\nChest wall instability or deformity (e.g. flail chest)\nTwo or more proximal long-bone fractures\nCrushed, degloved, mangled, or pulseless extremity\nAmputation proximal to wrist or ankle\nPelvic fractures\nOpen or depressed skull fractures\nParalysis",
+      "subsections": {
+        "Step_Three:_Mechanism_of_Injury": {
+          "text": "Falls\nAdults: >20 feet (one story = 10 feet)\nChildren: >10 feet or two to three times the height of the child\nHigh-risk auto crash\nIntrusion, including roof: >12 inches occupant site; >18 inches any site\nEjection (partial or complete) from automobile\nDeath in same passenger compartment\nVehicle telemetry data consistent with a high risk for injury\nAutomobile versus pedestrian/bicyclist thrown, run over, or with significant (>20 mph) impact\nMotorcycle crash >20 mph",
+          "tables": []
+        },
+        "Step_Four:_Special_Considerations": {
+          "text": "Older adults\nRisk for injury/death increases after age 55 years\nSBP <110 might represent shock after age 65 years\nLow impact mechanisms (e.g., ground-level falls) might result in severe injury\nChildren\nShould be triaged preferentially to pediatric capable trauma centers\nAnticoagulants and bleeding disorders\nPatients with head injury are at high risk for rapid deterioration\nBurns\nWithout other trauma mechanism: triage to burn facility\nWith trauma mechanism: triage to trauma center\nPregnancy >20 weeks\nEMS provider judgment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Step_Three:_Mechanism_of_Injury": {
+      "text": "Falls\nAdults: >20 feet (one story = 10 feet)\nChildren: >10 feet or two to three times the height of the child\nHigh-risk auto crash\nIntrusion, including roof: >12 inches occupant site; >18 inches any site\nEjection (partial or complete) from automobile\nDeath in same passenger compartment\nVehicle telemetry data consistent with a high risk for injury\nAutomobile versus pedestrian/bicyclist thrown, run over, or with significant (>20 mph) impact\nMotorcycle crash >20 mph",
+      "subsections": {
+        "Step_Four:_Special_Considerations": {
+          "text": "Older adults\nRisk for injury/death increases after age 55 years\nSBP <110 might represent shock after age 65 years\nLow impact mechanisms (e.g., ground-level falls) might result in severe injury\nChildren\nShould be triaged preferentially to pediatric capable trauma centers\nAnticoagulants and bleeding disorders\nPatients with head injury are at high risk for rapid deterioration\nBurns\nWithout other trauma mechanism: triage to burn facility\nWith trauma mechanism: triage to trauma center\nPregnancy >20 weeks\nEMS provider judgment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Step_Four:_Special_Considerations": {
+      "text": "Older adults\nRisk for injury/death increases after age 55 years\nSBP <110 might represent shock after age 65 years\nLow impact mechanisms (e.g., ground-level falls) might result in severe injury\nChildren\nShould be triaged preferentially to pediatric capable trauma centers\nAnticoagulants and bleeding disorders\nPatients with head injury are at high risk for rapid deterioration\nBurns\nWithout other trauma mechanism: triage to burn facility\nWith trauma mechanism: triage to trauma center\nPregnancy >20 weeks\nEMS provider judgment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Combat triage\nTrauma center levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Combat triage",
+          "url": "https://wikem.org/wiki/Combat_triage"
+        },
+        {
+          "text": "Trauma center levels",
+          "url": "https://wikem.org/wiki/Trauma_center_levels"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Guidelines for Field Triage of Injured Patients: Recommendations of the National Expert Panel on Field Triage, 2011",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

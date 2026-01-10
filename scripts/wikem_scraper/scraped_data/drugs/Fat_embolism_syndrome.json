@@ -1,0 +1,316 @@
+{
+  "drug_name": "Fat_embolism_syndrome",
+  "url": "https://wikem.org/wiki/Fat_embolism_syndrome",
+  "scraped_at": "2026-01-10T07:53:15.589437",
+  "sections": {
+    "Background": {
+      "text": "Caused by fat globules in pulmonary microcirculation\n[1]\nFat is prothrombotic and pro-inflammatory\nCommonly associated with  orthopedic\nfractures\n, especially long bone fractures of lower extremities (eg.\nfemur\n)\nOccurance in Men > women, highest rates: ages 10-40 y/o\nTypically occurs 12-72 hrs after initial insult",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "femur",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Multi-organ system dysfunction\nClassic triad:\nhypoxemia\n, neurological abnormalities and petechiae\nNeuro findings included:\nfocal deficits\n,\naltered mental status\n,\ncoma\nThrombocytopenia\nand\nanemia\ncommon\nCan progress to\nDIC\nFulminant cases: RV dysfunction,\nbiventricular failure\n,\nARDS\n,\nshock\n, death\nOther etiologies (uncommon):\npancreatitis\n,\nsickle cell crisis\n, alcoholic liver disease, bone marrow harvest/\ntransplant\n/liposuction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "focal deficits",
+          "url": "https://wikem.org/wiki/Focal_deficits"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "biventricular failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "transplant",
+          "url": "https://wikem.org/wiki/Bone_marrow_transplant_complications"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pulmonary embolism\nARDS\nPulmonary edema\nDiffuse alveolar hemorrhage\nOther causes of [[hypoxemia]\nOther causes of\nshock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Diffuse alveolar hemorrhage",
+          "url": "https://wikem.org/wiki/Diffuse_alveolar_hemorrhage"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, no gold standard",
+      "subsections": {
+        "Gurd's_Criteria": {
+          "text": "Most frequently cited diagnostic criteria\nNeed 1 major, 4 minor",
+          "tables": []
+        },
+        "Major": {
+          "text": "Petechial\nrash\nRespiratory symptoms with\nCXR\nchanges\nCNS signs unrelated to another condition",
+          "tables": []
+        },
+        "Minor": {
+          "text": "Tachycardia\nPyrexia\nRetinal changes (fat or petechiae)\nRenal abnormalities (oliguria, anuria or lipiduria)\nThrombocytopenia\nAcute\nanemia\nElevated ESR\nFat globules in sputum\nCXR\n/CT scan chest\nBilateral patchy infiltrates\nMRI brain\n: star-field pattern of diffuse, punctate, hyperintense lesions on DWI\nBronchoalveolar lavage\n30% of alveolar cells staining for fat strongly asso w diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Petechial",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Pyrexia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "MRI brain",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Gurd's_Criteria": {
+      "text": "Most frequently cited diagnostic criteria\nNeed 1 major, 4 minor",
+      "subsections": {
+        "Major": {
+          "text": "Petechial\nrash\nRespiratory symptoms with\nCXR\nchanges\nCNS signs unrelated to another condition",
+          "tables": []
+        },
+        "Minor": {
+          "text": "Tachycardia\nPyrexia\nRetinal changes (fat or petechiae)\nRenal abnormalities (oliguria, anuria or lipiduria)\nThrombocytopenia\nAcute\nanemia\nElevated ESR\nFat globules in sputum\nCXR\n/CT scan chest\nBilateral patchy infiltrates\nMRI brain\n: star-field pattern of diffuse, punctate, hyperintense lesions on DWI\nBronchoalveolar lavage\n30% of alveolar cells staining for fat strongly asso w diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Petechial",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Pyrexia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "MRI brain",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Acute_Care": {
+          "text": "Supportive care\nHeparin\nand steroids have not shown improvement\nSupplemental\nO2\n, mechanical ventilation if needed\nFrequent neurochecks, consider ICP monitoring\nVasopressors\nas needed\nRefractory hypotension/shock: consider\nECMO",
+          "tables": []
+        },
+        "Prevention": {
+          "text": "Decreased incidence with orthopedic repair within 24h\nConsider prophylactic\ncorticosteroids\nin patients with long bone fractures\nDecreased hypoxemia, no difference in mortality",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Acute_Care": {
+      "text": "Supportive care\nHeparin\nand steroids have not shown improvement\nSupplemental\nO2\n, mechanical ventilation if needed\nFrequent neurochecks, consider ICP monitoring\nVasopressors\nas needed\nRefractory hypotension/shock: consider\nECMO",
+      "subsections": {
+        "Prevention": {
+          "text": "Decreased incidence with orthopedic repair within 24h\nConsider prophylactic\ncorticosteroids\nin patients with long bone fractures\nDecreased hypoxemia, no difference in mortality",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "Decreased incidence with orthopedic repair within 24h\nConsider prophylactic\ncorticosteroids\nin patients with long bone fractures\nDecreased hypoxemia, no difference in mortality",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary embolism\nHypoxemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    }
+  }
+}

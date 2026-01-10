@@ -1,0 +1,42 @@
+{
+  "drug_name": "First_Responder",
+  "url": "https://wikem.org/wiki/First_Responder",
+  "scraped_at": "2026-01-10T07:53:24.394628",
+  "sections": {
+    "Background": {
+      "text": "First responders are trained healthcare volunteers and workers who tend to medical emergencies until more professionally trained help has arrived. They are first on the scene of any accident or injury and could be amongst Police, firefighters, or trained paramedics.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Historic_perspective": {
+      "text": "The word First responder emerged in the press in the 1970s in the United States. It appeared in the Boston Globe in 1973 about developing Ambulance Regulations in Massachusetts.\n[2]\nWithin a short period, the word gained traction and its use became commonplace.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Scope_of_Practice": {
+      "text": "The scope of first responders is quite wide. The first responders are also of various kinds, which include Medical First responders and Wilderness first responders. Medical First Responders are trained to deal with various kinds of medical emergencies till further help has arrived at the scene. Their scope involves protecting and preserving lives in pre-hospital settings. The medical first responders working in any community are also called Community Responders.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Who_are_First_Responders": {
+      "text": "First responders are from various walks of life and could include law enforcement officers, paramedics, emergency medical technicians, and firefighters. In some parts of the United States, emergency department personnel, such as doctors and nurses, are also required to respond to disasters and critical situations, designating them first responders; in other jurisdictions, military and security forces may also be authorized to act as first responders.\nThe first responders could be anyone with training in first aid and life-saving skills. They don't require any degree but require competence in life-saving skills, crowd control, and a  nice control of nerves. They should be able to stay calm, and also to help people stay calm.\nHow do they get trained:\nSome First responders have experience working in the field as Emergency Medical Personnel, and others get training through different institutions. One example is of Red Cross. It has several courses for people to learn the role and responsibilities as well as the competence of Medical Responders.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "EMS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EMS",
+          "url": "https://wikem.org/wiki/Emergency_medical_services_training_levels"
+        }
+      ]
+    }
+  }
+}

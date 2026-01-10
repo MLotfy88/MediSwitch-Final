@@ -1,0 +1,187 @@
+{
+  "drug_name": "Fever_of_unknown_origin",
+  "url": "https://wikem.org/wiki/Fever_of_unknown_origin",
+  "scraped_at": "2026-01-10T07:53:22.036862",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nfever of unknown origin (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Infectious disease (22%)\nEBV\nUTI\nEnterovirus\nLyme\nCat-scratch disease\nOsteomyelitis\nPsittacosis\nRheumatic fever\nCrohn's\nBacterial\nmeningitis\nAutoimmune (6%)\nJRA\nSLE\nPAN\nMalignancy (2%)\nLeukemia\nLymphoma\nDrug-induced fever (2%)\nFactitious (2%)\nNo Etiology  (67%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Rheumatic_fever"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Phase_1": {
+          "text": "CBC\nESR\nTB test\nMonoSpot\nCXR\nblood culture\nASLO\nANA\nHIV",
+          "tables": []
+        },
+        "Phase_2": {
+          "text": "LP\nblood culture\nagain\nSinus/mastoid x-ray\nOphtho exam for iridocyclits\nCMV, Toxo, Hep A/B,\nTularemia\n,\nBrucellosis\n,\nLeptospirosis\n,\nSalmonellosis\nLFTs",
+          "tables": []
+        },
+        "Phase_3": {
+          "text": "Abd ultrasound\nAbd CT\nGallium/Indium scanning\nUGI series with sbft\nBone marrow\nTechnetium bone scan",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Salmonellosis",
+          "url": "https://wikem.org/wiki/Salmonellosis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Phase_1": {
+          "text": "CBC\nESR\nTB test\nMonoSpot\nCXR\nblood culture\nASLO\nANA\nHIV",
+          "tables": []
+        },
+        "Phase_2": {
+          "text": "LP\nblood culture\nagain\nSinus/mastoid x-ray\nOphtho exam for iridocyclits\nCMV, Toxo, Hep A/B,\nTularemia\n,\nBrucellosis\n,\nLeptospirosis\n,\nSalmonellosis\nLFTs",
+          "tables": []
+        },
+        "Phase_3": {
+          "text": "Abd ultrasound\nAbd CT\nGallium/Indium scanning\nUGI series with sbft\nBone marrow\nTechnetium bone scan",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        },
+        {
+          "text": "blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Salmonellosis",
+          "url": "https://wikem.org/wiki/Salmonellosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fever\nFever of unknown origin (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Fever of unknown origin (peds)",
+          "url": "https://wikem.org/wiki/Fever_of_unknown_origin_(peds)"
+        }
+      ]
+    }
+  }
+}

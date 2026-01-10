@@ -1,0 +1,329 @@
+{
+  "drug_name": "Eye_antibiotics",
+  "url": "https://wikem.org/wiki/Eye_antibiotics",
+  "scraped_at": "2026-01-10T07:53:09.412178",
+  "sections": {
+    "Conjunctivitis": {
+      "text": "",
+      "subsections": {
+        "Newborn": {
+          "text": "Azithromycin\n20mg/kg PO once daily for 3 days OR\nErythromycin\n12.5 mg/kg PO q6hrs for 14 days",
+          "tables": []
+        },
+        "Chlamydial": {
+          "text": "Doxycycline\n100mg PO BID for 7 days OR\nAzithromycin\n1g (20mg/kg) PO one time dose\nNewborn Treatment:\nAzithromycin\n20mg/kg PO once daily x 3 days or erythromycin PO 50 mg/kg/day in 4 divided doses for 14 days\n[1]\nDisease manifests 5 days post-birth to 2 weeks (late onset)",
+          "tables": []
+        },
+        "Gonococcal": {
+          "text": "Due to increasing resistance, CDC recommends dual therapy with Ceftriaxone and Azithromycin (even if patient is negative for Chlamydia).\nCeftriaxone\n250mg IM one dose PLUS\nAzithromycin\n1g PO one dose\nNewborn Treatment:\nProphylaxis:\nErythromycin\nophthalmic 0.5% x1\nDisease manifests 1st 5 days post delivery (early onset)\nTreatment\nCeftriaxone\n25-50mg IV or IM, max 125mg or cefotaxime single dose of 100 mg/kg (preferred if the patient has hyperbilirubinemia)\nAlso requires evaluation for disseminated disease (meningitis, arthritis, etc.)",
+          "tables": []
+        },
+        "Bacterial_Conjunctivitis": {
+          "text": "Counsel patient/family on importance of hand hygiene/avoiding touching face to prevent spread!\nApply warm or cool compresses (for comfort and cleansing) every 4 hours, followed by instillation of ophthalmic antibiotic solutions\nThese options do not cover gonococcal or chlamydial infections\nPolymyxin B/Trimethoprim (Polytrim) 2 drops every 6 hours for 7 days OR\nErythromycin\napplied to the conjunctiva q6hrs for 7 days OR\nLevofloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nMoxifloxacin\n0.5% ophthalmic 1-2 drops every 2 hours for 2 days THEN every 6 hours for 5 days OR\nGatifloxacin\n0.5% ophthalmic solution 1-2 drops every 2 hours for 2 days THEN 1 drop every 6 hours for 5 days OR\nAzithromycin\n1% ophthalmic solution 1 drop BID for 2 days THEN 1 drop daily for 5 days\nChloramphenicol\n0.5% ophthalmic solution 1 drop QID for 7 days\nNB: levofloxacin is preferred for contact lens wearers for coverage of pseudomonas. Advise not to wear contacts for duration of treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Chloramphenicol",
+          "url": "https://wikem.org/wiki/Chloramphenicol"
+        }
+      ]
+    },
+    "Corneal_Abrasion": {
+      "text": "",
+      "subsections": {
+        "Does_Not_Wear_Contact_Lens": {
+          "text": "Erythromycin\nointment qid x 3-5d\nOR\nCiprofloxacin\n0.3% ophthalmic solution 2 drops q6 hours\nOR\nOfloxacin\n0.3% solution 2 drops q6 hours\nOR\nSulfacetamide\n10% ophthalmic ointment q6 hours",
+          "tables": []
+        },
+        "Wears_Contact_Lens": {
+          "text": "Antibiotics should cover pseudomonas and favor 3rd or 4th generation fluoroquinolones\nLevofloxacin\n0.5% solution 2 drops ever 2 hours for 2 days THEN q6hrs for 5 days\nOR\nMoxifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nTobramycin\n0.3% solution 2 drops q6hrs for 5 days\nOR\nGatifloxacin\n0.5% solution 2 drops every 2 hours for 2 days THEN q6hrs for 5 days\nOR\nGentamicin\n0.3% solution 2 drops six times for 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ofloxacin",
+          "url": "https://wikem.org/wiki/Ofloxacin"
+        },
+        {
+          "text": "Sulfacetamide",
+          "url": "https://wikem.org/wiki/Sulfacetamide"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "Gatifloxacin",
+          "url": "https://wikem.org/wiki/Gatifloxacin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Orbital_Cellulitis": {
+      "text": "Vancomycin\n15-20mg/kg IV BID + (one of the following)\nAmpicillin/Sulbactam\n3 g IV q6hr OR\nTicarcillin/Clavulanate\n3.1 g IV q4h OR\nPiperacillin-Tazobactam\n4.5 g IV q6h OR\nCeftriaxone\n2 g IV q12hr OR\nCefotaxime\n2 g IV q4h",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Ampicillin/Sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin/Sulbactam"
+        },
+        {
+          "text": "Ticarcillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin/Clavulanate"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Pulmonary antibiotics",
+          "url": "https://wikem.org/wiki/Pulmonary_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

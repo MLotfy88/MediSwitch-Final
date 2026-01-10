@@ -1,0 +1,325 @@
+{
+  "drug_name": "Fifth_metatarsal_fracture",
+  "url": "https://wikem.org/wiki/Fifth_metatarsal_fracture",
+  "scraped_at": "2026-01-10T07:53:26.371223",
+  "sections": {
+    "Background": {
+      "text": "Os peroneum\nis an accessory bone (ossicle) located at the lateral side of the tarsal cuboid, proximal to the base of 5th metatarsal, commonly mistaken for a fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Dancer,_pseudo-Jones,_or_tuberosity_(styloid)_avulsion_fracture": {
+          "text": "Most common fracture at base of 5th metatarsal\nDoes not involve 4th-5th intertarsal junction\nSx often mild, patients usually present with sprained ankle complaint\nOccurs due to forced inversion of foot/ankle while in plantar flexion",
+          "tables": []
+        },
+        "Jones_or_metaphyseal-diaphyseal_junction_fracture": {
+          "text": "Second most common fracture at base of 5th metatarsal\nDoes involve 4th-5th intertarsal junction\nAbrupt onset of lateral foot pain, with no prior history of pain at that site, suggests acute injury and helps distinguish from stress injury\nOccurs due to sudden change in direction with heel off the ground\nEdema & ecchymosis usually present, may not be able to bear weight",
+          "tables": []
+        },
+        "Diaphyseal_stress_fracture": {
+          "text": "Occurs through repetitive microtrauma, usually in younger athletes\nImportant to identify given propensity for delayed union and nonunion\nUsually present with history of months of pain, which is more intense during exercise or weight-bearing\nalways ask about persistent pain prior to acute event to help distinguish worsening stress fracture from acute fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Jones_or_metaphyseal-diaphyseal_junction_fracture": {
+      "text": "Second most common fracture at base of 5th metatarsal\nDoes involve 4th-5th intertarsal junction\nAbrupt onset of lateral foot pain, with no prior history of pain at that site, suggests acute injury and helps distinguish from stress injury\nOccurs due to sudden change in direction with heel off the ground\nEdema & ecchymosis usually present, may not be able to bear weight",
+      "subsections": {
+        "Diaphyseal_stress_fracture": {
+          "text": "Occurs through repetitive microtrauma, usually in younger athletes\nImportant to identify given propensity for delayed union and nonunion\nUsually present with history of months of pain, which is more intense during exercise or weight-bearing\nalways ask about persistent pain prior to acute event to help distinguish worsening stress fracture from acute fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diaphyseal_stress_fracture": {
+      "text": "Occurs through repetitive microtrauma, usually in younger athletes\nImportant to identify given propensity for delayed union and nonunion\nUsually present with history of months of pain, which is more intense during exercise or weight-bearing\nalways ask about persistent pain prior to acute event to help distinguish worsening stress fracture from acute fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Foot_and_Toe_Fracture_Types": {
+      "text": "",
+      "subsections": {
+        "Hindfoot": {
+          "text": "Talus fracture\nCalcaneus fracture",
+          "tables": []
+        },
+        "Midfoot": {
+          "text": "Lisfranc injury\nNavicular fracture\nCuboid fracture\nCuneiform fracture",
+          "tables": []
+        },
+        "Forefoot": {
+          "text": "Fifth metatarsal fracture\nNon-fifth metatarsal fracture\nToe fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Talus fracture",
+          "url": "https://wikem.org/wiki/Talus_fracture"
+        },
+        {
+          "text": "Calcaneus fracture",
+          "url": "https://wikem.org/wiki/Calcaneus_fracture"
+        },
+        {
+          "text": "Lisfranc injury",
+          "url": "https://wikem.org/wiki/Lisfranc_injury"
+        },
+        {
+          "text": "Navicular fracture",
+          "url": "https://wikem.org/wiki/Navicular_fracture"
+        },
+        {
+          "text": "Cuboid fracture",
+          "url": "https://wikem.org/wiki/Cuboid_fracture"
+        },
+        {
+          "text": "Cuneiform fracture",
+          "url": "https://wikem.org/wiki/Cuneiform_fracture"
+        },
+        {
+          "text": "Non-fifth metatarsal fracture",
+          "url": "https://wikem.org/wiki/Non-fifth_metatarsal_fracture"
+        },
+        {
+          "text": "Toe fracture",
+          "url": "https://wikem.org/wiki/Toe_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Plain radiographs are usually adequate",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Must distinguish Jones fracture from diaphyseal stress fracture:\nAcute fracture will have narrow fracture line that appears sharp, normal thin cortex adjacent to fracture, and normal intramedullary canal\nStress fracture will demonstrate cortical thickening  near fracture line, older stress fracture will demonstrate widened fracture line and intramedullary sclerosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Plain radiographs are usually adequate",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Must distinguish Jones fracture from diaphyseal stress fracture:\nAcute fracture will have narrow fracture line that appears sharp, normal thin cortex adjacent to fracture, and normal intramedullary canal\nStress fracture will demonstrate cortical thickening  near fracture line, older stress fracture will demonstrate widened fracture line and intramedullary sclerosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Must distinguish Jones fracture from diaphyseal stress fracture:\nAcute fracture will have narrow fracture line that appears sharp, normal thin cortex adjacent to fracture, and normal intramedullary canal\nStress fracture will demonstrate cortical thickening  near fracture line, older stress fracture will demonstrate widened fracture line and intramedullary sclerosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_&_Disposition": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Tuberosity_(Styloid)_Avulsion_Fracture_(Dancer_or_pseudo-Jones_fracture)": {
+          "text": "Proximal to the more diaphyseal Jones fracture\nRefer to ortho if > 3mm displacement\nNondisplaced fracture usually require only symptomatic treatment, RICE\nWalking boot or hard shoe (casting rarely necessary) and weight-bearing as tolerated, follow up in 1 week",
+          "tables": []
+        },
+        "Jones_Fracture_(non-displaced)": {
+          "text": "Posterior Ankle Splint\n, strict NWB, RICE, ortho follow up in 3-5 days\n50% of Jones fracture treated conservatively may result in nonunion or re-fracture\nConservative treatment failure usually due to poor vascular supply of bone and premature return to weight-bearing",
+          "tables": []
+        },
+        "Diaphyseal_Stress_Fracture_2": {
+          "text": "Strict NWB short-leg cast, RICE\nOrtho referral for all stress fractures",
+          "tables": []
+        },
+        "Traumatic_Diaphyseal_Fracture": {
+          "text": "Posterior Ankle Splint\n, NWB, RICE, ortho/podiatry follow up in 3-5 days\nDorsal or Plantar displacement >10% or 3-4mm may require reduction in ED or at referral clinic while lateral/medial displacement usually heal well without reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Tuberosity_(Styloid)_Avulsion_Fracture_(Dancer_or_pseudo-Jones_fracture)": {
+          "text": "Proximal to the more diaphyseal Jones fracture\nRefer to ortho if > 3mm displacement\nNondisplaced fracture usually require only symptomatic treatment, RICE\nWalking boot or hard shoe (casting rarely necessary) and weight-bearing as tolerated, follow up in 1 week",
+          "tables": []
+        },
+        "Jones_Fracture_(non-displaced)": {
+          "text": "Posterior Ankle Splint\n, strict NWB, RICE, ortho follow up in 3-5 days\n50% of Jones fracture treated conservatively may result in nonunion or re-fracture\nConservative treatment failure usually due to poor vascular supply of bone and premature return to weight-bearing",
+          "tables": []
+        },
+        "Diaphyseal_Stress_Fracture_2": {
+          "text": "Strict NWB short-leg cast, RICE\nOrtho referral for all stress fractures",
+          "tables": []
+        },
+        "Traumatic_Diaphyseal_Fracture": {
+          "text": "Posterior Ankle Splint\n, NWB, RICE, ortho/podiatry follow up in 3-5 days\nDorsal or Plantar displacement >10% or 3-4mm may require reduction in ED or at referral clinic while lateral/medial displacement usually heal well without reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        },
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "Diaphyseal_Stress_Fracture_2": {
+      "text": "Strict NWB short-leg cast, RICE\nOrtho referral for all stress fractures",
+      "subsections": {
+        "Traumatic_Diaphyseal_Fracture": {
+          "text": "Posterior Ankle Splint\n, NWB, RICE, ortho/podiatry follow up in 3-5 days\nDorsal or Plantar displacement >10% or 3-4mm may require reduction in ED or at referral clinic while lateral/medial displacement usually heal well without reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "Traumatic_Diaphyseal_Fracture": {
+      "text": "Posterior Ankle Splint\n, NWB, RICE, ortho/podiatry follow up in 3-5 days\nDorsal or Plantar displacement >10% or 3-4mm may require reduction in ED or at referral clinic while lateral/medial displacement usually heal well without reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior Ankle Splint",
+          "url": "https://wikem.org/wiki/Posterior_Ankle_Splint"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Foot Fractures\nFoot Diagnoses (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot Fractures",
+          "url": "https://wikem.org/wiki/Foot_Fractures"
+        },
+        {
+          "text": "Foot Diagnoses (Main)",
+          "url": "https://wikem.org/wiki/Foot_Diagnoses_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "http://radiopaedia.org/articles/jones_fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
