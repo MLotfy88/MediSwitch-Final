@@ -1,0 +1,159 @@
+{
+  "drug_name": "Meropenem-vaborbactam",
+  "url": "https://wikem.org/wiki/Meropenem-vaborbactam",
+  "scraped_at": "2026-01-10T07:57:14.061521",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nCarbapenem\n+beta lactamase inhibitor\nDosage Forms: 2 gram (1 gram each) solution reconstituted\nRoutes of Administration: IV\nCommon Trade Names: Vabomere",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbapenem",
+          "url": "https://wikem.org/wiki/Carbapenem"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Complicated UTI (including pyelonephritis)\n4 g IV q8h (administered over 3 hours)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Meropenem is present in breast milk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "eGFR >50: none\neGFR 30 to 49: 2 g q8h\neGFR 15 to 29: 2 g q12h\neGFR <15: 1 g q12h\nESRD on HD: Administer after HD on dialysis days",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Unknown",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Meropenem is present in breast milk",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "eGFR >50: none\neGFR 30 to 49: 2 g q8h\neGFR 15 to 29: 2 g q12h\neGFR <15: 1 g q12h\nESRD on HD: Administer after HD on dialysis days",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Meropenem is present in breast milk",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "eGFR >50: none\neGFR 30 to 49: 2 g q8h\neGFR 15 to 29: 2 g q12h\neGFR <15: 1 g q12h\nESRD on HD: Administer after HD on dialysis days",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "eGFR >50: none\neGFR 30 to 49: 2 g q8h\neGFR 15 to 29: 2 g q12h\neGFR <15: 1 g q12h\nESRD on HD: Administer after HD on dialysis days",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "DVT (<1%)\nIncreased risk of seizures",
+          "tables": []
+        },
+        "Common": {
+          "text": "Phlebitis\nHeadache\nHypokalemia\nDiarrhea\nIncreased ALT/AST\nInfusion site reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "DVT (<1%)\nIncreased risk of seizures",
+      "subsections": {
+        "Common": {
+          "text": "Phlebitis\nHeadache\nHypokalemia\nDiarrhea\nIncreased ALT/AST\nInfusion site reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Phlebitis\nHeadache\nHypokalemia\nDiarrhea\nIncreased ALT/AST\nInfusion site reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Meropenem 1.2 hours; Vaborbactam 1.68 hours\nMetabolism:\nExcretion: Meropenem (urine); Vaborbactam (urine)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Meropenem\ninhibits bacterial cell wall synthesis\nVaborbactam is a beta-lactamase inhibitor that protects meropenem from degradation by KPC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meropenem",
+          "url": "https://wikem.org/wiki/Meropenem"
+        }
+      ]
+    },
+    "Comments": {
+      "text": "Cost: 1 g: ~$200",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

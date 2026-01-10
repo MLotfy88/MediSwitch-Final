@@ -1,0 +1,73 @@
+{
+  "drug_name": "Metabolic_syndrome",
+  "url": "https://wikem.org/wiki/Metabolic_syndrome",
+  "scraped_at": "2026-01-10T07:57:15.159973",
+  "sections": {
+    "Background": {
+      "text": "Prothrombotic, proimflammatory state\nMay be associated with elevated CRP, IL-6, and tissue plasminogen activator, which may be associated with increased risk of cardiovascular disease and type 2 diabetes\nMarkers not shown to be of utility in the ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Although several diagnostic features exist, below is the most widely accepted: The National Cholesterol Education Program (NCEP) Adult Treatment Panel III (ATP III)\nDiagnostic Criteria\n- 3 or more of the following:\nWaist circumference >/=102 cm in men or >/=88 cm in women\nPlus 3 of the following:\nFasting blood glucose >/= to 100 mg/dL or requiring treatment for elevated blood glucose\nHDL </=40 in men or </=50 in women\nTGs >/=150 mg/dL\nBP >/= 130/85 or requiring drug treatment for HTN",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Hypertension\nHyperlipidemia\nHyperglycemia\nHypothyroidism\nObstructive Sleep Apnea\nType 2\nDM\nPheochromocytoma\nGlucagonoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Not an ED diagnosis!\nEvaluate for sequelae of associated diseases (e.g. cardiovascular disease, DM) as appropriate\nNon-ED workup may include:\nBMP\nHbA1c\nLipid panel\nTSH\n+/- Polysomnography to evaluate for OSA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Lifestyle modification\nMetformin\nBP control(e.g.\nACEi\nor ARBs}\nOSA treatment\nDepending on the level of obesity, and severity of the condition bariatric surgery may be advantageous to the patient\nPossible referral to obesity management clinic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "ACEi",
+          "url": "https://wikem.org/wiki/ACEi"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with outpatient follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

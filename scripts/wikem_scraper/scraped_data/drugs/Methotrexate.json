@@ -1,0 +1,263 @@
+{
+  "drug_name": "Methotrexate",
+  "url": "https://wikem.org/wiki/Methotrexate",
+  "scraped_at": "2026-01-10T07:57:22.673895",
+  "sections": {
+    "Administration": {
+      "text": "Type: Immunosuppressant/antineoplastic\nDosage Forms:\nRoutes of Administration: IV/IM, oral\nCommon Trade Names: Trexall, Rheumatrex, Otrexup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Ectopic_pregnancy": {
+          "text": "Single-dose regimen: Methotrexate 50 mg/m2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ectopic_pregnancy": {
+      "text": "Single-dose regimen: Methotrexate 50 mg/m2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation risk\n: Infant risk has been determined (risk of serious adverse effects for infant)",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nBreastfeeding, pregnant, or possibility of impregnating someone\nBlood dyscrasias\nChronic liver disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nNephrotoxicity\nMyelosuppression,\naplastic anemia\n,\npancytopenia\nInfectious disease\nTumor lysis syndrome\nGI bleed\nNeurotoxicity,\nseizure\nPericardial effusion\nTEN",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\n,\ndiarrhea\nStomatitis\nLeukopenia\n,\nthrombocytopenia\nAlopecia, photosensitivity,\nrash\nDizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nNephrotoxicity\nMyelosuppression,\naplastic anemia\n,\npancytopenia\nInfectious disease\nTumor lysis syndrome\nGI bleed\nNeurotoxicity,\nseizure\nPericardial effusion\nTEN",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\n,\ndiarrhea\nStomatitis\nLeukopenia\n,\nthrombocytopenia\nAlopecia, photosensitivity,\nrash\nDizziness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\n,\ndiarrhea\nStomatitis\nLeukopenia\n,\nthrombocytopenia\nAlopecia, photosensitivity,\nrash\nDizziness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8-15hr\nMetabolism: Extensive hepatic and intracellular\nExcretion: Mostly renal. Dialyzable.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits dihydrofolate reductase→ blocks DNA synthesis and thus, cellular replication/repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Methotrexate_toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methotrexate_toxicity",
+          "url": "https://wikem.org/wiki/Methotrexate_toxicity"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,353 @@
+{
+  "drug_name": "Metoclopramide",
+  "url": "https://wikem.org/wiki/Metoclopramide",
+  "scraped_at": "2026-01-10T07:57:22.294452",
+  "sections": {
+    "General": {
+      "text": "Type:\nantiemetics\nDosage Forms: 5mg, 10mg; 5mg/5 mL; IM; IV\nCommon Trade Names: Reglan",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "GERD": {
+          "text": "Chronic symptoms: 10-15mg PO/IM/IV qac and qhs\nMax: x12wk; intermittent symptoms: up to 20mg PO/IM/IV x 1 before symptoms",
+          "tables": []
+        },
+        "Diabetic_gastroparesis": {
+          "text": "10mg PO/IM/IV qac and qhs\nMax: x12wk",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_chemo-related": {
+          "text": "1-2mg/kg IV q2-3h",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_postop": {
+          "text": "10mg IM/IV x 1",
+          "tables": []
+        },
+        "small_bowel_intubation": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Radiologic_exam": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "GERD": {
+      "text": "Chronic symptoms: 10-15mg PO/IM/IV qac and qhs\nMax: x12wk; intermittent symptoms: up to 20mg PO/IM/IV x 1 before symptoms",
+      "subsections": {
+        "Diabetic_gastroparesis": {
+          "text": "10mg PO/IM/IV qac and qhs\nMax: x12wk",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_chemo-related": {
+          "text": "1-2mg/kg IV q2-3h",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_postop": {
+          "text": "10mg IM/IV x 1",
+          "tables": []
+        },
+        "small_bowel_intubation": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Radiologic_exam": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "Diabetic_gastroparesis": {
+      "text": "10mg PO/IM/IV qac and qhs\nMax: x12wk",
+      "subsections": {
+        "Nausea/vomiting_prevention,_chemo-related": {
+          "text": "1-2mg/kg IV q2-3h",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_postop": {
+          "text": "10mg IM/IV x 1",
+          "tables": []
+        },
+        "small_bowel_intubation": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Radiologic_exam": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "Nausea/vomiting_prevention,_chemo-related": {
+      "text": "1-2mg/kg IV q2-3h",
+      "subsections": {
+        "Nausea/vomiting_prevention,_postop": {
+          "text": "10mg IM/IV x 1",
+          "tables": []
+        },
+        "small_bowel_intubation": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Radiologic_exam": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "Nausea/vomiting_prevention,_postop": {
+      "text": "10mg IM/IV x 1",
+      "subsections": {
+        "small_bowel_intubation": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Radiologic_exam": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "small_bowel_intubation": {
+      "text": "10mg IV x 1",
+      "subsections": {
+        "Radiologic_exam": {
+          "text": "10mg IV x 1",
+          "tables": []
+        },
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "Radiologic_exam": {
+      "text": "10mg IV x 1",
+      "subsections": {
+        "Palliative_medicine": {
+          "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "Palliative_medicine": {
+      "text": "10mg subcutaneously or orally 6-hourly and/or 30mg via\nCSCI\nover 24 hours",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CSCI",
+          "url": "https://wikem.org/wiki/CSCI"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "GERD_2": {
+          "text": "0.1-0.2mg/kg PO/IM/IV QID\nMax: 0.8mg/kg/24h x 12wk",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_chemo-related_2": {
+          "text": "1-2mg/kg IV q2-4h",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_postop_2": {
+          "text": "0.1-0.2mg/kg IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "GERD_2": {
+      "text": "0.1-0.2mg/kg PO/IM/IV QID\nMax: 0.8mg/kg/24h x 12wk",
+      "subsections": {
+        "Nausea/vomiting_prevention,_chemo-related_2": {
+          "text": "1-2mg/kg IV q2-4h",
+          "tables": []
+        },
+        "Nausea/vomiting_prevention,_postop_2": {
+          "text": "0.1-0.2mg/kg IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nausea/vomiting_prevention,_chemo-related_2": {
+      "text": "1-2mg/kg IV q2-4h",
+      "subsections": {
+        "Nausea/vomiting_prevention,_postop_2": {
+          "text": "0.1-0.2mg/kg IV x1",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nausea/vomiting_prevention,_postop_2": {
+      "text": "0.1-0.2mg/kg IV x1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Safety Unknown\nRenal Dosing\nAdult: CrCl 41-50: decrease dose 25%; CrCl 10-40: decrease dose 50%; CrCl <10: decrease dose 75%; HD/PD: no supplement\nPediatric: CrCl 41-50: decrease dose 25%; CrCl 10-40: decrease dose 50%; CrCl <10: decrease dose 75%; HD/PD: no supplement\nHepatic Dosing\nAdult: no adjustment\nPediatric: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\npheochromocytoma\nseizure disorder\nGI bleeding or perforation\nGI obstruction\ncaution if depression\ncaution if Parkinson disease\ncaution if NADH methemoglobin reductase deficiency\ncaution if hypertension\ncaution if CHF\ncaution if cirrhosis\ncaution if dibetes mellitus\ncaution if renal impairment\ncaution if neonates\ncaution if pediatric patients\ncaution if elderly patients, esp. female",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "extrapyramidal symptoms\ndystonia, acute\nparkinsonism\ntardive dyskinesia\nneuroleptic malignant syndrome\nseizures\ndepression\nsuicidality\nhallucinations\nleukopenia\nneutropenia\nagranulocytosis\nmethemoglobinemia\nCHF\n, acute\nAV block\nSVT\nhypertension\nangioedema\nhepatotoxicity\nwithdrawal symptoms if abrupt discontinuation",
+          "tables": []
+        },
+        "Common": {
+          "text": "drowsiness\nrestlessness\nfatigue\nanxiety\ninsomnia\nheadache\nconfusion\ndizziness\ndepression\nextrapyramidal symptoms\ngalactorrhea\namenorrhea\ngynecomastia\nhyperprolactinemia\nimpotence\nhyperaldosteronism\nfluid retention\nhypotension\nhypertension\nbradycardia\nnausea\ndiarrhea\nurinary frequency\nincontinence\nrash\nurticaria\nvisual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "extrapyramidal symptoms\ndystonia, acute\nparkinsonism\ntardive dyskinesia\nneuroleptic malignant syndrome\nseizures\ndepression\nsuicidality\nhallucinations\nleukopenia\nneutropenia\nagranulocytosis\nmethemoglobinemia\nCHF\n, acute\nAV block\nSVT\nhypertension\nangioedema\nhepatotoxicity\nwithdrawal symptoms if abrupt discontinuation",
+      "subsections": {
+        "Common": {
+          "text": "drowsiness\nrestlessness\nfatigue\nanxiety\ninsomnia\nheadache\nconfusion\ndizziness\ndepression\nextrapyramidal symptoms\ngalactorrhea\namenorrhea\ngynecomastia\nhyperprolactinemia\nimpotence\nhyperaldosteronism\nfluid retention\nhypotension\nhypertension\nbradycardia\nnausea\ndiarrhea\nurinary frequency\nincontinence\nrash\nurticaria\nvisual disturbance",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Common": {
+      "text": "drowsiness\nrestlessness\nfatigue\nanxiety\ninsomnia\nheadache\nconfusion\ndizziness\ndepression\nextrapyramidal symptoms\ngalactorrhea\namenorrhea\ngynecomastia\nhyperprolactinemia\nimpotence\nhyperaldosteronism\nfluid retention\nhypotension\nhypertension\nbradycardia\nnausea\ndiarrhea\nurinary frequency\nincontinence\nrash\nurticaria\nvisual disturbance",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-6h\nMetabolism: liver minimally; CYP450: unknown\nExcretion: urine 85% (20% unchanged), bile/feces 5%\nMechanism of Action: exact mechanism of action unknown;  sensitizes tissues to acetylcholine, stimulating upper GI tract motility; antagonizes central and peripheral dopamine receptors, producing antiemetic effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

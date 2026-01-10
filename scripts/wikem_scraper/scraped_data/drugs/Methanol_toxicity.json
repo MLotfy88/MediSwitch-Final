@@ -1,0 +1,858 @@
+{
+  "drug_name": "Methanol_toxicity",
+  "url": "https://wikem.org/wiki/Methanol_toxicity",
+  "scraped_at": "2026-01-10T07:57:20.079665",
+  "sections": {
+    "Background": {
+      "text": "Found in antifreeze, windshield washer fluid, solvents\nColorless, volatile liquid with distinctive “alcohol” odor\nMethanol slowly metabolized to formaldehyde by alcohol dehydrogenase\nFormaldehyde then quickly metabolized to formic acid by aldehyde dehydrogenase\nVery toxic formic acid slowly metabolized, which translates to two clinical features\n[1]\n:\nLatency and delay in onset of symptoms\nProlonged symptoms due to accumulation of formic acid\nParent compound causes only mild inebriation; metabolite (formic acid) causes toxicity both directly and indirectly\nBinds to cytochrome oxidase > blockade of oxidative phosphorylation > lactic acidosis\nIn itself causes anion gap metabolic acidosis\nMost exposures from ingestion; may be systemically absorbed after inhalation or dermal exposure but rarely causes significant clinical toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Peak serum concentration 30-60 minutes, elimination half-life 12-20 hours\nPermanent blindness reported at as little as 0.1 mL/kg (6-10 mL in adults)\nLethal dose = 1-2 mL/kg\nMetabolite (eg. formic acid) causes toxicity, but does NOT cause osmolal gap",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms begin 12-24hr after ingestion (may occur even later if ETOH is co-ingested as EtOH competes with alcohol dehydrogenase and has greater affinity for the enzyme than methanol)",
+      "subsections": {
+        "CNS_depression": {
+          "text": "Confusion, ataxia, depressed mental status, seizure\nLess inebriating than ethanol or ethylene glycol\nVisual disturbances (50% of patients)\nDevelopment may precede or parallel that of other clinical symptoms\nCloudy or blurry vision (\"stepping out into a snowstorm\")",
+          "tables": []
+        },
+        "Anion-gap_acidosis": {
+          "text": "May be severe (bicarb < 5, pH < 7)\nCompensatory tachypnea",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Tachycardia\nHypotension\n→ can progress to shock",
+          "tables": []
+        },
+        "Respiratory": {
+          "text": "Tachypnea\nshortness of breath (compensating for metabolic acidosis) → may progress to respiratory depression and/or failure",
+          "tables": []
+        },
+        "GI": {
+          "text": "Abdominal pain\nnausea and vomiting\nAnorexia\nPancreatitis\nand gastritis\nTransaminitis (mild and transient)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "CNS_depression": {
+      "text": "Confusion, ataxia, depressed mental status, seizure\nLess inebriating than ethanol or ethylene glycol\nVisual disturbances (50% of patients)\nDevelopment may precede or parallel that of other clinical symptoms\nCloudy or blurry vision (\"stepping out into a snowstorm\")",
+      "subsections": {
+        "Anion-gap_acidosis": {
+          "text": "May be severe (bicarb < 5, pH < 7)\nCompensatory tachypnea",
+          "tables": []
+        },
+        "Cardiovascular": {
+          "text": "Tachycardia\nHypotension\n→ can progress to shock",
+          "tables": []
+        },
+        "Respiratory": {
+          "text": "Tachypnea\nshortness of breath (compensating for metabolic acidosis) → may progress to respiratory depression and/or failure",
+          "tables": []
+        },
+        "GI": {
+          "text": "Abdominal pain\nnausea and vomiting\nAnorexia\nPancreatitis\nand gastritis\nTransaminitis (mild and transient)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Anion-gap_acidosis": {
+      "text": "May be severe (bicarb < 5, pH < 7)\nCompensatory tachypnea",
+      "subsections": {
+        "Cardiovascular": {
+          "text": "Tachycardia\nHypotension\n→ can progress to shock",
+          "tables": []
+        },
+        "Respiratory": {
+          "text": "Tachypnea\nshortness of breath (compensating for metabolic acidosis) → may progress to respiratory depression and/or failure",
+          "tables": []
+        },
+        "GI": {
+          "text": "Abdominal pain\nnausea and vomiting\nAnorexia\nPancreatitis\nand gastritis\nTransaminitis (mild and transient)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Cardiovascular": {
+      "text": "Tachycardia\nHypotension\n→ can progress to shock",
+      "subsections": {
+        "Respiratory": {
+          "text": "Tachypnea\nshortness of breath (compensating for metabolic acidosis) → may progress to respiratory depression and/or failure",
+          "tables": []
+        },
+        "GI": {
+          "text": "Abdominal pain\nnausea and vomiting\nAnorexia\nPancreatitis\nand gastritis\nTransaminitis (mild and transient)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Respiratory": {
+      "text": "Tachypnea\nshortness of breath (compensating for metabolic acidosis) → may progress to respiratory depression and/or failure",
+      "subsections": {
+        "GI": {
+          "text": "Abdominal pain\nnausea and vomiting\nAnorexia\nPancreatitis\nand gastritis\nTransaminitis (mild and transient)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "GI": {
+      "text": "Abdominal pain\nnausea and vomiting\nAnorexia\nPancreatitis\nand gastritis\nTransaminitis (mild and transient)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Chemistry": {
+          "text": "Anion gap acidosis",
+          "tables": []
+        },
+        "Serum_Osm": {
+          "text": "Osm gap (measured - calculated)\nCalculated serum osm = 2Na + BUN/2.8 + glucose/18 + ethanol/4.6\nNormal is < 10\nNote: Cannot rule out toxic ingestion with a \"normal\" osmol gap\nOnly parent alcohol is osmotically active\nDelayed presentation may mean that much of it is already metabolized",
+          "tables": []
+        },
+        "Toxic_alcohol_levels": {
+          "text": "Methanol\n<20mg/dL - asymptomatic\n>20mg/dL - CNS symptoms may appear\n>50mg/dL - ocular problems\n>150-200mg/dL - risk of fatality",
+          "tables": []
+        },
+        "Other_labs": {
+          "text": "Ethanol level\nVBG",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chemistry": {
+      "text": "Anion gap acidosis",
+      "subsections": {
+        "Serum_Osm": {
+          "text": "Osm gap (measured - calculated)\nCalculated serum osm = 2Na + BUN/2.8 + glucose/18 + ethanol/4.6\nNormal is < 10\nNote: Cannot rule out toxic ingestion with a \"normal\" osmol gap\nOnly parent alcohol is osmotically active\nDelayed presentation may mean that much of it is already metabolized",
+          "tables": []
+        },
+        "Toxic_alcohol_levels": {
+          "text": "Methanol\n<20mg/dL - asymptomatic\n>20mg/dL - CNS symptoms may appear\n>50mg/dL - ocular problems\n>150-200mg/dL - risk of fatality",
+          "tables": []
+        },
+        "Other_labs": {
+          "text": "Ethanol level\nVBG",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serum_Osm": {
+      "text": "Osm gap (measured - calculated)\nCalculated serum osm = 2Na + BUN/2.8 + glucose/18 + ethanol/4.6\nNormal is < 10\nNote: Cannot rule out toxic ingestion with a \"normal\" osmol gap\nOnly parent alcohol is osmotically active\nDelayed presentation may mean that much of it is already metabolized",
+      "subsections": {
+        "Toxic_alcohol_levels": {
+          "text": "Methanol\n<20mg/dL - asymptomatic\n>20mg/dL - CNS symptoms may appear\n>50mg/dL - ocular problems\n>150-200mg/dL - risk of fatality",
+          "tables": []
+        },
+        "Other_labs": {
+          "text": "Ethanol level\nVBG",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxic_alcohol_levels": {
+      "text": "Methanol\n<20mg/dL - asymptomatic\n>20mg/dL - CNS symptoms may appear\n>50mg/dL - ocular problems\n>150-200mg/dL - risk of fatality",
+      "subsections": {
+        "Other_labs": {
+          "text": "Ethanol level\nVBG",
+          "tables": []
+        },
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Other_labs": {
+      "text": "Ethanol level\nVBG",
+      "subsections": {
+        "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (if ketoacidosis)",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "+",
+                "Reduced vision": "-",
+                "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+ (early on, then disappears)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+              },
+              {
+                "Osmolar gap": "+",
+                "Metabolic acidosis": "-",
+                "Anion gap": "-",
+                "Ketones": "+",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "+",
+                "Management": "Mainly supportive"
+              },
+              {
+                "Osmolar gap": "+ (initially)",
+                "Metabolic acidosis": "+",
+                "Anion gap": "+ (converted to lactate)",
+                "Ketones": "-",
+                "Ca Oxolate stones": "-",
+                "Reduced vision": "-",
+                "Management": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxic_Alcohols_Anion/Osmolar_Gaps": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (if ketoacidosis)",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "+",
+            "Reduced vision": "-",
+            "Management": "Fomepizole,Thiamine,Pyridoxine, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+ (early on, then disappears)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Fomepizoleor ethanol, Folinic acid, +/- Dialysis"
+          },
+          {
+            "Osmolar gap": "+",
+            "Metabolic acidosis": "-",
+            "Anion gap": "-",
+            "Ketones": "+",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "+",
+            "Management": "Mainly supportive"
+          },
+          {
+            "Osmolar gap": "+ (initially)",
+            "Metabolic acidosis": "+",
+            "Anion gap": "+ (converted to lactate)",
+            "Ketones": "-",
+            "Ca Oxolate stones": "-",
+            "Reduced vision": "-",
+            "Management": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "ADH_enzyme_blockade": {
+          "text": "Both fomepizole and ethanol have greater affinity for ADH than methanol. Providing IV alcohol is not commonly used but a possible treatment option",
+          "tables": []
+        },
+        "Fomepizole": {
+          "text": "Dosing: 15mg/kg IV over 30min; follow by 10mg/kg q12hr until level <20 or acidosis resolves\nIndications:\nMethanol level >20mg/dL (=6.24 mmmol/L)\nSuspected significant methanol ingestion with ETOH level <100mg/dL\nComa or altered mental status in patient with unclear history and osm gap >10\nComa or altered mental status in patient with unclear history and unexplained met acidosis and ETOH level <100",
+          "tables": []
+        },
+        "Ethanol": {
+          "text": "Dosing\nIV: load 800mg/kg; then give 100mg/kg/hr\nOral: 3-4 1-oz \"shots\" of 80-proof liquor); then give 1-2 \"shots\" per hour\nBAL of 100-150 completely saturates alcohol dehydrogenase\nDisadvantages: makes patients inebriated thus requiring close monitoring for CNS and respiratory depression, individual metabolic variations make dosing complicated, frequent serum level monitoring and dosage adjustments are required, administration of the 10% IV ethanol solution requires central venous access",
+          "tables": []
+        },
+        "Correction_of_metabolic_acidosis": {
+          "text": "Profound\nacidemia\nis corrected with\nsodium bicarbonate\nBicarbonate 1-2mEq/kg IV bolus to attain pH = 7.45-7.50\nFollow by infusion of 150mEq/L in D5 at 1.5-2x maintenance fluid rate\nMonitor for worsening hypocalcemia",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indications:\nRefractory\nmetabolic acidosis\n(pH <7.25) with AG >30\nRenal insufficiency\nVisual symptoms\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nMethanol level >50mg/dL (controversial)",
+          "tables": []
+        },
+        "Enchanced_formic_acid_metabolism": {
+          "text": "Folinic acid 50mg IV q4hr\nMay facilitate breakdown of formic acid into carbon dioxide and water",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidemia"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "ADH_enzyme_blockade": {
+      "text": "Both fomepizole and ethanol have greater affinity for ADH than methanol. Providing IV alcohol is not commonly used but a possible treatment option",
+      "subsections": {
+        "Fomepizole": {
+          "text": "Dosing: 15mg/kg IV over 30min; follow by 10mg/kg q12hr until level <20 or acidosis resolves\nIndications:\nMethanol level >20mg/dL (=6.24 mmmol/L)\nSuspected significant methanol ingestion with ETOH level <100mg/dL\nComa or altered mental status in patient with unclear history and osm gap >10\nComa or altered mental status in patient with unclear history and unexplained met acidosis and ETOH level <100",
+          "tables": []
+        },
+        "Ethanol": {
+          "text": "Dosing\nIV: load 800mg/kg; then give 100mg/kg/hr\nOral: 3-4 1-oz \"shots\" of 80-proof liquor); then give 1-2 \"shots\" per hour\nBAL of 100-150 completely saturates alcohol dehydrogenase\nDisadvantages: makes patients inebriated thus requiring close monitoring for CNS and respiratory depression, individual metabolic variations make dosing complicated, frequent serum level monitoring and dosage adjustments are required, administration of the 10% IV ethanol solution requires central venous access",
+          "tables": []
+        },
+        "Correction_of_metabolic_acidosis": {
+          "text": "Profound\nacidemia\nis corrected with\nsodium bicarbonate\nBicarbonate 1-2mEq/kg IV bolus to attain pH = 7.45-7.50\nFollow by infusion of 150mEq/L in D5 at 1.5-2x maintenance fluid rate\nMonitor for worsening hypocalcemia",
+          "tables": []
+        },
+        "Dialysis": {
+          "text": "Indications:\nRefractory\nmetabolic acidosis\n(pH <7.25) with AG >30\nRenal insufficiency\nVisual symptoms\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nMethanol level >50mg/dL (controversial)",
+          "tables": []
+        },
+        "Enchanced_formic_acid_metabolism": {
+          "text": "Folinic acid 50mg IV q4hr\nMay facilitate breakdown of formic acid into carbon dioxide and water",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidemia"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Correction_of_metabolic_acidosis": {
+      "text": "Profound\nacidemia\nis corrected with\nsodium bicarbonate\nBicarbonate 1-2mEq/kg IV bolus to attain pH = 7.45-7.50\nFollow by infusion of 150mEq/L in D5 at 1.5-2x maintenance fluid rate\nMonitor for worsening hypocalcemia",
+      "subsections": {
+        "Dialysis": {
+          "text": "Indications:\nRefractory\nmetabolic acidosis\n(pH <7.25) with AG >30\nRenal insufficiency\nVisual symptoms\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nMethanol level >50mg/dL (controversial)",
+          "tables": []
+        },
+        "Enchanced_formic_acid_metabolism": {
+          "text": "Folinic acid 50mg IV q4hr\nMay facilitate breakdown of formic acid into carbon dioxide and water",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acidemia",
+          "url": "https://wikem.org/wiki/Acidemia"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Dialysis": {
+      "text": "Indications:\nRefractory\nmetabolic acidosis\n(pH <7.25) with AG >30\nRenal insufficiency\nVisual symptoms\nDeteriorating vital signs despite aggressive supportive care\nElectrolyte abnormalities refractory to conventional therapy\nMethanol level >50mg/dL (controversial)",
+      "subsections": {
+        "Enchanced_formic_acid_metabolism": {
+          "text": "Folinic acid 50mg IV q4hr\nMay facilitate breakdown of formic acid into carbon dioxide and water",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "Enchanced_formic_acid_metabolism": {
+      "text": "Folinic acid 50mg IV q4hr\nMay facilitate breakdown of formic acid into carbon dioxide and water",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consult toxicologist and/or\npoison control",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "poison control",
+          "url": "https://wikem.org/wiki/Poison_control"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Ethylene Glycol Toxicity\nToxic Alcohols\nIn-Training Exam Review",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethylene Glycol Toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Toxic Alcohols",
+          "url": "https://wikem.org/wiki/Toxic_Alcohols"
+        },
+        {
+          "text": "In-Training Exam Review",
+          "url": "https://wikem.org/wiki/In-Training_Exam_Review"
+        }
+      ]
+    }
+  }
+}

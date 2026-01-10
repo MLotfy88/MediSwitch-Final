@@ -1,0 +1,26 @@
+{
+  "drug_name": "Metabolic_emergencies_(peds)",
+  "url": "https://wikem.org/wiki/Metabolic_emergencies_(peds)",
+  "scraped_at": "2026-01-10T07:57:11.907671",
+  "sections": {
+    "Background": {
+      "text": "Adrenal Insufficiency\nHypoglycemia (peds)\nInborn errors of metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_Insufficiency"
+        },
+        {
+          "text": "Hypoglycemia (peds)",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        }
+      ]
+    }
+  }
+}

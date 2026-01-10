@@ -1,0 +1,327 @@
+{
+  "drug_name": "Mesenteric_vein_thrombosis",
+  "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis",
+  "scraped_at": "2026-01-10T07:57:17.676417",
+  "sections": {
+    "Background": {
+      "text": "Local thrombus formation in mesenteric veins, which impairs venous return of the bowel\nA rare (< 5% of all cases) subset of mesenteric ischemia that has a high rate of mortality approaching 50%.\nCan be associated with concurrent portal vein thrombosis\nRisk factors include intraabdominal inflammation (pancreatitis, IBD) and hypercoagulability (protein C/S deficiency, malignancy).\n[1]\nA previous history of DVT is reported in approximately 20-40 percent of patients with mesenteric venous thrombosis",
+      "subsections": {
+        "Intestinal_Ischemic_Disorder_Types": {
+          "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Intestinal_Ischemic_Disorder_Types": {
+      "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Depends on subtype and disease can exist along a continuum.\nAcute- expect typical features such as severe abdominal pain that is out of proportion to exam findings. Rebound and guarding may occur. Time course usually over days.\nSubacute- abdominal pain can be vague and symptoms may be insidious over a period of days to weeks.\nChronic- patients usually are asymptomatic and thrombosis is usually found on imaging incidentally. Some patients may have post-prandial colicky abdominal pain that resolves.\nExam may show distended abdomen or positive fecal occult blood\nRebound and guarding may occur if bowel wall edema progresses to ischemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs\n: CBC, CMP, Lipase, UA, HCG(when applicable), Lactate, Coags.\nImaging\nFrom the ED standpoint a multiphase contrast CT is the most accurate and timely (Non-contrast, arterial phase, and venous phase).\nOral contrast can help delineate bowel thickness.\nMagnetic resonance venography is another option if testing is non-diagnostic.\nDoppler ultrasonography can detect thrombosis in larger veins but is less sensitive\n[2]",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Mesenteric vein filling defect is diagnostic\nBowel thickening, bowel hypoattenuation, bowel enhancement, fat-stranding pneumatosis, potential ascites may also be seen\n[3]\nLabs, other forms of imaging, and physical exam do not have high enough sensitivity to reliably exclude this diagnosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Labs\n: CBC, CMP, Lipase, UA, HCG(when applicable), Lactate, Coags.\nImaging\nFrom the ED standpoint a multiphase contrast CT is the most accurate and timely (Non-contrast, arterial phase, and venous phase).\nOral contrast can help delineate bowel thickness.\nMagnetic resonance venography is another option if testing is non-diagnostic.\nDoppler ultrasonography can detect thrombosis in larger veins but is less sensitive\n[2]",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Mesenteric vein filling defect is diagnostic\nBowel thickening, bowel hypoattenuation, bowel enhancement, fat-stranding pneumatosis, potential ascites may also be seen\n[3]\nLabs, other forms of imaging, and physical exam do not have high enough sensitivity to reliably exclude this diagnosis.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Mesenteric vein filling defect is diagnostic\nBowel thickening, bowel hypoattenuation, bowel enhancement, fat-stranding pneumatosis, potential ascites may also be seen\n[3]\nLabs, other forms of imaging, and physical exam do not have high enough sensitivity to reliably exclude this diagnosis.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Non-Operative": {
+          "text": "Anticoagulation\nis the mainstay of treatment\nDepending on disposition, can utilize\nunfractionated heparin\n,\nLMWH\n, or\nDOACs\nConsider if there are no planned operative management\nIVF\n,\nelectrolyte repletion\n, and\npain control\nBowel Rest\nBowel decompression\nAntibiotics",
+          "tables": []
+        },
+        "Operative": {
+          "text": "Reserved for patients with overt signs of intestinal necrosis or perforation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-Operative": {
+      "text": "Anticoagulation\nis the mainstay of treatment\nDepending on disposition, can utilize\nunfractionated heparin\n,\nLMWH\n, or\nDOACs\nConsider if there are no planned operative management\nIVF\n,\nelectrolyte repletion\n, and\npain control\nBowel Rest\nBowel decompression\nAntibiotics",
+      "subsections": {
+        "Operative": {
+          "text": "Reserved for patients with overt signs of intestinal necrosis or perforation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Operative": {
+      "text": "Reserved for patients with overt signs of intestinal necrosis or perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider admission depending on clinical status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Portal vein thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "drug_name": "Metformin-associated_lactic_acidosis",
+  "url": "https://wikem.org/wiki/Metformin-associated_lactic_acidosis",
+  "scraped_at": "2026-01-10T07:57:17.626904",
+  "sections": {
+    "Background": {
+      "text": "Acute and chronic use of\nmetformin\ncan lead to rare complication of Metformin-associated\nlactic acidosis\n(MALA)\nExcreted (unmetabolized) in proximal tubules\nStimulates anaerobic glucose metabolism in splanchnic bed → increased lactate production\nInhibits mitochondrial respiratory chain → decreased gluconeogenesis from lactate → lactate accumulation\nAssociated with overdose, renal failure, liver disease, and septicemia\n[1]\nAcidosis onset several hours after acute ingestion\nMortality rate 45%\n[2]\nLactate only predictive of mortality in overdose patients, not in incidental metformin accumulation\nElevated PT associated with increased mortality\npH >6.9, lactate >25 portends a poor prognosis\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea\nVomiting\nDiarrhea\nAltered mental status\nDyspnea\nHypotension\nTachycardia\nTachypnea",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "By_Type": {
+          "text": "Type A (tissue hypoperfusion)\nHypovolemia\nCardiac failure\nSepsis\nType B (decreased utilization)\nAlcoholism\n↓ Lactate utilization secondary to hepatic dysfunction\n↓ NAD+/NADH ratio leads to ↑ conversion of pyruvate to lactate\nMetformin\nDKA\nMainly due to D-lactate production, though hypovolemia contributes\nLiver disease\n(decreased clearance)\nAdrenergic receptor agonism; viz.,\nalbuterol\n,\nepinephrine\n, etc\nMalignancy\nCarbon Monoxide\npoisoning\nCyanide\npoisoning\nType D\nepisodes of encephalopathy and metabolic acidosis typically following high carbohydrate meals in patients with short bowel syndrome\nmetabolic acidosis and high serum anion gap, normal lactate level, short bowel syn or other forms of malabsorption, and characteristic neurologic findings\nType D lactate is not detected with standard lactate levels",
+          "tables": []
+        },
+        "Complete_List": {
+          "text": "Any\nshock\nstate\nSIRS\n; lactate may be 2-5 mEq/L\nThiamine deficiency\n; more often seen in ICU settings; Thiamine is a co-factor for pyruvate dehydrogenase\nSeizure\nDead gut\nHepatic failure\nMalignancy\nExercise\nAlbuterol\nand other beta agonists\n[4]\n[5]\nToxicologic Causes:\nCyanide\nCarbon Monoxide\nMetformin\nDidanosine\nStavudine\nZidovudine\nLinezolid\nStrychnine\nEmtriva\nRotenone (Fish Poison\nNaAzide (Lab Workers)\nAPAP\n(if Liver Fx)\nPhospine (rodenticide)\nNaMonofluoroacetate (Coyote Poison‐ give Etoh as antidote)\nINH\n(if patient seizes)\nHemlock\nValproate\nHydrogen Sulfide\nNitroprusside\n(if cyanide toxic)\nRicin\n& Castor Beans\nPropofol\nSympathomimetics\n(cocaine, methamphetamine)\nJequirty peas (Abrus precatorius)\nPrunus Amygdalus plants\nCrab tree apple seeds & cassava (yucca)\nHAART-induced lactic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Cardiac failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcohol_Abuse"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Carbon Monoxide",
+          "url": "https://wikem.org/wiki/Carbon_Monoxide"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "SIRS",
+          "url": "https://wikem.org/wiki/SIRS"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dead gut",
+          "url": "https://wikem.org/wiki/Ischemic_bowel"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon Monoxide",
+          "url": "https://wikem.org/wiki/Carbon_Monoxide"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "APAP",
+          "url": "https://wikem.org/wiki/APAP"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        }
+      ]
+    },
+    "Lactic_acidosis": {
+      "text": "",
+      "subsections": {
+        "By_Type": {
+          "text": "Type A (tissue hypoperfusion)\nHypovolemia\nCardiac failure\nSepsis\nType B (decreased utilization)\nAlcoholism\n↓ Lactate utilization secondary to hepatic dysfunction\n↓ NAD+/NADH ratio leads to ↑ conversion of pyruvate to lactate\nMetformin\nDKA\nMainly due to D-lactate production, though hypovolemia contributes\nLiver disease\n(decreased clearance)\nAdrenergic receptor agonism; viz.,\nalbuterol\n,\nepinephrine\n, etc\nMalignancy\nCarbon Monoxide\npoisoning\nCyanide\npoisoning\nType D\nepisodes of encephalopathy and metabolic acidosis typically following high carbohydrate meals in patients with short bowel syndrome\nmetabolic acidosis and high serum anion gap, normal lactate level, short bowel syn or other forms of malabsorption, and characteristic neurologic findings\nType D lactate is not detected with standard lactate levels",
+          "tables": []
+        },
+        "Complete_List": {
+          "text": "Any\nshock\nstate\nSIRS\n; lactate may be 2-5 mEq/L\nThiamine deficiency\n; more often seen in ICU settings; Thiamine is a co-factor for pyruvate dehydrogenase\nSeizure\nDead gut\nHepatic failure\nMalignancy\nExercise\nAlbuterol\nand other beta agonists\n[4]\n[5]\nToxicologic Causes:\nCyanide\nCarbon Monoxide\nMetformin\nDidanosine\nStavudine\nZidovudine\nLinezolid\nStrychnine\nEmtriva\nRotenone (Fish Poison\nNaAzide (Lab Workers)\nAPAP\n(if Liver Fx)\nPhospine (rodenticide)\nNaMonofluoroacetate (Coyote Poison‐ give Etoh as antidote)\nINH\n(if patient seizes)\nHemlock\nValproate\nHydrogen Sulfide\nNitroprusside\n(if cyanide toxic)\nRicin\n& Castor Beans\nPropofol\nSympathomimetics\n(cocaine, methamphetamine)\nJequirty peas (Abrus precatorius)\nPrunus Amygdalus plants\nCrab tree apple seeds & cassava (yucca)\nHAART-induced lactic acidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Cardiac failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Alcoholism",
+          "url": "https://wikem.org/wiki/Alcohol_Abuse"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Liver disease",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Carbon Monoxide",
+          "url": "https://wikem.org/wiki/Carbon_Monoxide"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "SIRS",
+          "url": "https://wikem.org/wiki/SIRS"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Dead gut",
+          "url": "https://wikem.org/wiki/Ischemic_bowel"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon Monoxide",
+          "url": "https://wikem.org/wiki/Carbon_Monoxide"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "APAP",
+          "url": "https://wikem.org/wiki/APAP"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Valproate",
+          "url": "https://wikem.org/wiki/Valproate"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "FS\nASA\nAPAP\nECG\nbHCG\nABG\nChem\nLactate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "APAP",
+          "url": "https://wikem.org/wiki/APAP"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "If intubated, maintain minute ventilation so as to not remove respiratory compensation for acidosis\nActivated charcoal if peri-ingestion/mental status appropriate\nMetformin should not cause hypoglycemia and, if present, should lead to work up of cause\nSodium Bicarbonate\nNo evidence to support its use in MALA patients\n[6]\nHemodialysis\nMetformin can be cleared with hemodialysis and CVVH (continuous venovenous hemofiltration)\n[7]\nFormer preferred\nCVVH should be used in unstable patient\nReduction in metformin levels following acute ingestion reported to require prolonged HD\n[8]\nConsider if:\npH <7.1\nRenal insufficiency\nMortality benefits mainly from improving acidosis than from removing Metformin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Metformin\nDiabetes\nActivated Charcoal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        }
+      ]
+    }
+  }
+}

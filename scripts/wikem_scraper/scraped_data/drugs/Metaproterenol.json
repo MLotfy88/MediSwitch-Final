@@ -1,0 +1,282 @@
+{
+  "drug_name": "Metaproterenol",
+  "url": "https://wikem.org/wiki/Metaproterenol",
+  "scraped_at": "2026-01-10T07:57:16.223267",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nBeta-2 agonist\nDosage Forms: TAB: 10mg, 20mg; SOL: 10mg per 5mL\nRoutes of Administration: Oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-2 agonist",
+          "url": "https://wikem.org/wiki/Beta-2_agonist"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Asthma": {
+          "text": "20mg PO tid-qid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma": {
+      "text": "20mg PO tid-qid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Asthma_2": {
+          "text": "6-9 yo or <60lb\n10mg PO tid-qid\n>9yo or >60lb\n20mg PO tid-qid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asthma_2": {
+      "text": "6-9 yo or <60lb\n10mg PO tid-qid\n>9yo or >60lb\n20mg PO tid-qid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C. Adverse events observed in animal studies. May interfere with uterine contractility if administered during labor\nLactation risk: Caution advised",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjusment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: No adjusment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: No adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nTachyarrhythmia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachyarrhythmia",
+          "url": "https://wikem.org/wiki/Tachyarrhythmia"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchoconstriction\n, paradoxical\nHypersensitivity rxn\nHypertension\n,\nhypotension\nAngina\nCardiac arrest\nArrhythmia\nHypokalemia\nHyperglycemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nervousness\nTachycardia\nTremor\nHeadache\nPalpitations\nNausea\n,\ndizziness\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bronchoconstriction\n, paradoxical\nHypersensitivity rxn\nHypertension\n,\nhypotension\nAngina\nCardiac arrest\nArrhythmia\nHypokalemia\nHyperglycemia",
+      "subsections": {
+        "Common": {
+          "text": "Nervousness\nTachycardia\nTremor\nHeadache\nPalpitations\nNausea\n,\ndizziness\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchoconstriction",
+          "url": "https://wikem.org/wiki/Bronchoconstriction"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nervousness\nTachycardia\nTremor\nHeadache\nPalpitations\nNausea\n,\ndizziness\nInsomnia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6h\nMetabolism: Liver, GI tract\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Selectively stimulates beta-2 adrenergic receptors, relaxing airway smooth muscle",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta 2 agonist",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta 2 agonist",
+          "url": "https://wikem.org/wiki/Beta_2_agonist"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "drug_name": "Methylergonovine",
+  "url": "https://wikem.org/wiki/Methylergonovine",
+  "scraped_at": "2026-01-10T07:57:25.690526",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nUterotonic\nDosage Forms: Tablet, injection\nRoutes of Administration: IM, IV\nCommon Trade Names: Methergine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Uterotonic",
+          "url": "https://wikem.org/wiki/Uterotonic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Postpartum_hemorrhage": {
+          "text": "0.2 mg IV q2-4h prn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Postpartum_hemorrhage": {
+      "text": "0.2 mg IV q2-4h prn",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Pediatric dosing not applicable or safety has not been established in pediatric patients.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Contraindicated during pregnancy\nNo known risk of teratogenicity\nRisk of fetal hypoxia based on mechanism of action",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding during treatment and 12 hours after discontinuing\nRisk for infant vomiting, diarrhea, bradycardia, tachycardia, and seizures",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Contraindicated during pregnancy\nNo known risk of teratogenicity\nRisk of fetal hypoxia based on mechanism of action",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Avoid breastfeeding during treatment and 12 hours after discontinuing\nRisk for infant vomiting, diarrhea, bradycardia, tachycardia, and seizures",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Avoid breastfeeding during treatment and 12 hours after discontinuing\nRisk for infant vomiting, diarrhea, bradycardia, tachycardia, and seizures",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Caution advised in impairment\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nIntra or periarterial administration\nPregnancy\nBreastfeeding up to 12 hours after d/c\nHTN\nToxemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Seizure\nHTN\n,\nMI\n,\nvasospasm\n, arterial spasm\nArrhythmia\n,\nAV block\nThrombophlebitis\nStroke\nHallucinations",
+          "tables": []
+        },
+        "Common": {
+          "text": "HTN\nHeadache\n,\nabdominal pain\n,\nnausea\n,\nvomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Seizure\nHTN\n,\nMI\n,\nvasospasm\n, arterial spasm\nArrhythmia\n,\nAV block\nThrombophlebitis\nStroke\nHallucinations",
+      "subsections": {
+        "Common": {
+          "text": "HTN\nHeadache\n,\nabdominal pain\n,\nnausea\n,\nvomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "Thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Common": {
+      "text": "HTN\nHeadache\n,\nabdominal pain\n,\nnausea\n,\nvomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3.4h\nMetabolism: Liver\nExcretion: Urine (<5% unchanged), feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Increases uterine contraction force and frequency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Postpartum hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "drug_name": "Methylprednisolone",
+  "url": "https://wikem.org/wiki/Methylprednisolone",
+  "scraped_at": "2026-01-10T07:57:22.078838",
+  "sections": {
+    "General": {
+      "text": "Type:\nCorticosteroid\nDosage Forms: IM; IV\nCommon Trade Names: Medrol, Solu-Medrol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis": {
+          "text": "125mg IV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anaphylaxis": {
+      "text": "125mg IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis_2": {
+          "text": "2mg/kg",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anaphylaxis_2": {
+      "text": "2mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C(US)\nLactation: Oral maternal doses to 8mg daily is safe. Recommend waiting 2-8 hours after infusion of 1 gm.\n[1]\nRenal Dosing\nAdult: not available\nPediatric: not available\nHepatic Dosing\nAdult: not available\nPediatric: not available",
+      "subsections": {
+        "Controversial_Use_in_Spinal_Cord_Injury": {
+          "text": "Steroid use for spinal cord injury was a controversial treatment during the 1990s and 2000s, with the NASCIS II and III studies reporting positive outcomes in a subgroup analysis of patients who received methylpredisolone within 8 hours of injury. Multiple cochrane reviews performed by the author of the NASCIS trials concluded neurological improvement after injury, but a review of all individual studies demonstrate negative outcomes for both the retrospective and the prospective trials\n[2]\n. Most recent guidelines from the Congress of Neurological Surgeons and American Association of Neurological Surgeons discourage against the use of steroids in spinal cord injury, citing harmful side effects including death.\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Controversial_Use_in_Spinal_Cord_Injury": {
+      "text": "Steroid use for spinal cord injury was a controversial treatment during the 1990s and 2000s, with the NASCIS II and III studies reporting positive outcomes in a subgroup analysis of patients who received methylpredisolone within 8 hours of injury. Multiple cochrane reviews performed by the author of the NASCIS trials concluded neurological improvement after injury, but a review of all individual studies demonstrate negative outcomes for both the retrospective and the prospective trials\n[2]\n. Most recent guidelines from the Congress of Neurological Surgeons and American Association of Neurological Surgeons discourage against the use of steroids in spinal cord injury, citing harmful side effects including death.\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.25 hours (IV)\n[4]\nMetabolism: Hepatic\nExcretion: Urine excretion\nMechanism of Action: Potent anti-inflammatory properties with minimal mineralocorticoid activity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

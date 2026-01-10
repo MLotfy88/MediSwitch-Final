@@ -1,0 +1,336 @@
+{
+  "drug_name": "Metabolic_alkalosis",
+  "url": "https://wikem.org/wiki/Metabolic_alkalosis",
+  "scraped_at": "2026-01-10T07:57:14.840058",
+  "sections": {
+    "Background": {
+      "text": "Metabolic alkalosis generally occurs as a primary increase in serum bicarbonate (HCO3-) concentration, which can occur due to loss of H+ from the body or a gain in HCO3-.",
+      "subsections": {
+        "Main_Causes": {
+          "text": "Hydrogen ion loss (via\nvomiting\n)\nShift of hydrogen ions intracellularly (from\nhypokalemia\n)\nBicarbonate administration\nContraction alkalosis (\nDiuretic\nadministration,\ndiarrhea\n, or any excessive\nloss of volume\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "loss of volume",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Main_Causes": {
+      "text": "Hydrogen ion loss (via\nvomiting\n)\nShift of hydrogen ions intracellularly (from\nhypokalemia\n)\nBicarbonate administration\nContraction alkalosis (\nDiuretic\nadministration,\ndiarrhea\n, or any excessive\nloss of volume\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "loss of volume",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symptoms are nonspecific and usually result from the concomitant\nhypokalemia\nor\nhypocalcemia\n.  Common signs and symptoms include\nWeakness\n/Fatigue\nVomiting\nor\ndiarrhea\nHypoventilation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chloride-Responsive": {
+          "text": "Urine Cl < 20 mEq/L\nLoss of gastric secretions;\nVomiting\nNG suction\nBulimia\nLoss of colonic secretions\nDiarrhea\nCongenital chloridorrhea\nVillous adenoma\nThiazides/loop\ndiuretics\nCystic fibrosis",
+          "tables": []
+        },
+        "Chloride-resistant": {
+          "text": "Urine Cl > 20 mEq/L\nExogenous alkali (Nabicarb +\nrenal failure\n, metabolism of lactic acid, or ketoacids)\nPotassium acetate\nMilk alkali syndrome\nHypercalcemia\n(inability to concentrate urine leads to hypovolemia)\nIntravenous\npenicillin\nRefeeding alkalosis\nMassive blood transfusion\nPrimary hyperaldosteronism\nCAH\n(11-Hydroxylase or 17-hydroxylase deficiency)\nCushing syndrome\nExogenous\nsteroids\nLiddle syndrome\nRenovascular hypertension\nBartter syndrome (pediatrics)\nGitelman syndrome (pediatrics)\nSevere\nK+ depletion\nHypomagnesemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Bulimia",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Milk alkali syndrome",
+          "url": "https://wikem.org/wiki/Milk_alkali_syndrome"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Refeeding alkalosis",
+          "url": "https://wikem.org/wiki/Refeeding_syndrome"
+        },
+        {
+          "text": "Massive blood transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "CAH",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "K+ depletion",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Chloride-Responsive": {
+      "text": "Urine Cl < 20 mEq/L\nLoss of gastric secretions;\nVomiting\nNG suction\nBulimia\nLoss of colonic secretions\nDiarrhea\nCongenital chloridorrhea\nVillous adenoma\nThiazides/loop\ndiuretics\nCystic fibrosis",
+      "subsections": {
+        "Chloride-resistant": {
+          "text": "Urine Cl > 20 mEq/L\nExogenous alkali (Nabicarb +\nrenal failure\n, metabolism of lactic acid, or ketoacids)\nPotassium acetate\nMilk alkali syndrome\nHypercalcemia\n(inability to concentrate urine leads to hypovolemia)\nIntravenous\npenicillin\nRefeeding alkalosis\nMassive blood transfusion\nPrimary hyperaldosteronism\nCAH\n(11-Hydroxylase or 17-hydroxylase deficiency)\nCushing syndrome\nExogenous\nsteroids\nLiddle syndrome\nRenovascular hypertension\nBartter syndrome (pediatrics)\nGitelman syndrome (pediatrics)\nSevere\nK+ depletion\nHypomagnesemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Bulimia",
+          "url": "https://wikem.org/wiki/Bulimia_nervosa"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Milk alkali syndrome",
+          "url": "https://wikem.org/wiki/Milk_alkali_syndrome"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Refeeding alkalosis",
+          "url": "https://wikem.org/wiki/Refeeding_syndrome"
+        },
+        {
+          "text": "Massive blood transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "CAH",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "K+ depletion",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Chloride-resistant": {
+      "text": "Urine Cl > 20 mEq/L\nExogenous alkali (Nabicarb +\nrenal failure\n, metabolism of lactic acid, or ketoacids)\nPotassium acetate\nMilk alkali syndrome\nHypercalcemia\n(inability to concentrate urine leads to hypovolemia)\nIntravenous\npenicillin\nRefeeding alkalosis\nMassive blood transfusion\nPrimary hyperaldosteronism\nCAH\n(11-Hydroxylase or 17-hydroxylase deficiency)\nCushing syndrome\nExogenous\nsteroids\nLiddle syndrome\nRenovascular hypertension\nBartter syndrome (pediatrics)\nGitelman syndrome (pediatrics)\nSevere\nK+ depletion\nHypomagnesemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Milk alkali syndrome",
+          "url": "https://wikem.org/wiki/Milk_alkali_syndrome"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "Refeeding alkalosis",
+          "url": "https://wikem.org/wiki/Refeeding_syndrome"
+        },
+        {
+          "text": "Massive blood transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "CAH",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "K+ depletion",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "pH > 7.42 = alkalemia\nHCO3 > 28 = metabolic alkalosis\nAlways determine if there is also a concurrent primary respiratory process\nexpected pCO2 = 40 + 0.6(measured HCO3 - 24)\nif pCO2>pCO2 expected, then there is also a primary respiratory acidosis\nif pCO2<pCO2 expected, then there is also primary respiratory alkalosis\nAlways calculate AG to determine if concurrent primary metabolic acidosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Correct volume depletion\nNormal saline\nRepletion of extracellular volume decreased need for Na reaborption\nDelivery of Cl to distal tubule increases Cl/bicarb exchange\nCorrect\npotassium\ndepletion\nGiving K+ leads to movement of H+ out of cells → acidosis\nGiving K+ stops hypokalemia-induced distal H+/K+ pump\nCorrect chloride depletion\nMust give a reabsorbable anion to replace HCO3\nCorrect mineralocorticoid excess\nAldosterone antagonists if indicated (i.e.\nspironolactone\n)\nNote: if patient is edematous (CHF, cirrhosis), do NOT give normal saline\nIf patient is hypokalemic, KCl will correct both hypoK AND alkalosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "potassium",
+          "url": "https://wikem.org/wiki/Potassium"
+        },
+        {
+          "text": "spironolactone",
+          "url": "https://wikem.org/wiki/Spironolactone"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acid-base disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acid-base disorders",
+          "url": "https://wikem.org/wiki/Acid-base_disorders"
+        }
+      ]
+    }
+  }
+}

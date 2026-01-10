@@ -1,0 +1,131 @@
+{
+  "drug_name": "Metoprolol",
+  "url": "https://wikem.org/wiki/Metoprolol",
+  "scraped_at": "2026-01-10T07:57:23.642845",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta blockers\nDosage Forms: Tablet: 25 mg, 37.5 mg, 50 mg, 75mg, 100 mg. IV: variable\nCommon Trade Names: Lopressor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "50-200 mg PO bid",
+          "tables": []
+        },
+        "CHF": {
+          "text": "12.5-100 mg PO bid",
+          "tables": []
+        },
+        "Migraine_prophylaxis": {
+          "text": "25-100 mg PO bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation:\nRenal Dosing\nAdult: No adjustment necessary\nPediatric: No adjustment necessary\nHepatic Dosing\nAdult: Not defined however consider reduced dose due to hepatic metabolism\nPediatric: Not defined however consider reduced dose due to hepatic metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSinus bradycardia\nAV blocks\ndecompensated acute CHF\ncardiogenic shock\nhypotension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CHF\nbradycardia\nAV block\nbronchospasm",
+          "tables": []
+        },
+        "Common": {
+          "text": "fatigue\ndizziness\ndepression\ndyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "CHF\nbradycardia\nAV block\nbronchospasm",
+      "subsections": {
+        "Common": {
+          "text": "fatigue\ndizziness\ndepression\ndyspnea",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Common": {
+      "text": "fatigue\ndizziness\ndepression\ndyspnea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-7 hours\nMetabolism: Liver\nExcretion: Renal\nMechanism of Action: Selective Beta-1 adrenergic receptor antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiarrhythmics\nCalcium Channel Blocker Toxicity\nAtrial Fibrillation with RVR\nBeta blocker toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Calcium Channel Blocker Toxicity",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker_Toxicity"
+        },
+        {
+          "text": "Atrial Fibrillation with RVR",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation_with_RVR"
+        },
+        {
+          "text": "Beta blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Metoprolol: Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

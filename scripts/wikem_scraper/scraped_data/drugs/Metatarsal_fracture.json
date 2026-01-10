@@ -1,0 +1,24 @@
+{
+  "drug_name": "Metatarsal_fracture",
+  "url": "https://wikem.org/wiki/Metatarsal_fracture",
+  "scraped_at": "2026-01-10T07:57:16.455292",
+  "sections": {
+    "Intro": {
+      "text": "Fifth Metatarsal Fracture\nNon-fifth metatarsal fracture\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Foot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    }
+  }
+}

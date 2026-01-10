@@ -1,0 +1,332 @@
+{
+  "drug_name": "Miconazole",
+  "url": "https://wikem.org/wiki/Miconazole",
+  "scraped_at": "2026-01-10T07:57:25.742314",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntifungal\nDosage Forms: 2% Cream\nRoutes of Administration: Topical\nCommon Trade Names: Monistat-Derm, Desenex, Lotrimin, Micatin, Zeasorb",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Candidiasis,_cutaneous": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_corporis": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        },
+        "Tinea_cruris": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_pedis": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Candidiasis,_cutaneous": {
+      "text": "Apply 2% Cream BID to affected area x2 weeks",
+      "subsections": {
+        "Tinea_corporis": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        },
+        "Tinea_cruris": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_pedis": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tinea_corporis": {
+      "text": "Apply 2% Cream BID to affected area x4 weeks",
+      "subsections": {
+        "Tinea_cruris": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_pedis": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tinea_cruris": {
+      "text": "Apply 2% Cream BID to affected area x2 weeks",
+      "subsections": {
+        "Tinea_pedis": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tinea_pedis": {
+      "text": "Apply 2% Cream BID to affected area x4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Candidiasis,_cutaneous_2": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_corporis_2": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        },
+        "Tinea_cruris_2": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_pedis_2": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Candidiasis,_cutaneous_2": {
+      "text": "Apply 2% Cream BID to affected area x2 weeks",
+      "subsections": {
+        "Tinea_corporis_2": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        },
+        "Tinea_cruris_2": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_pedis_2": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tinea_corporis_2": {
+      "text": "Apply 2% Cream BID to affected area x4 weeks",
+      "subsections": {
+        "Tinea_cruris_2": {
+          "text": "Apply 2% Cream BID to affected area x2 weeks",
+          "tables": []
+        },
+        "Tinea_pedis_2": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tinea_cruris_2": {
+      "text": "Apply 2% Cream BID to affected area x2 weeks",
+      "subsections": {
+        "Tinea_pedis_2": {
+          "text": "Apply 2% Cream BID to affected area x4 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tinea_pedis_2": {
+      "text": "Apply 2% Cream BID to affected area x4 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Risk of fetal harm no expected\nMay use during pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "May use while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Risk of fetal harm no expected\nMay use during pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "May use while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "May use while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "May occur, but none reported",
+          "tables": []
+        },
+        "Common": {
+          "text": "Irritation, burning, stining\nPruritus\n, erythema, maceration\nContact dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "May occur, but none reported",
+      "subsections": {
+        "Common": {
+          "text": "Irritation, burning, stining\nPruritus\n, erythema, maceration\nContact dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Irritation, burning, stining\nPruritus\n, erythema, maceration\nContact dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: None, minimal systemic absorption\nExcretion: None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits 14-alpha demethylase, reducing fungal cell membrane ergosterol synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antifungals\nFungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

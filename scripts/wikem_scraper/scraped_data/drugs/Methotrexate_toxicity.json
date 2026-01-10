@@ -1,0 +1,102 @@
+{
+  "drug_name": "Methotrexate_toxicity",
+  "url": "https://wikem.org/wiki/Methotrexate_toxicity",
+  "scraped_at": "2026-01-10T07:57:19.872137",
+  "sections": {
+    "Background": {
+      "text": "Methotrexate\nblocks dihydrofolate reductase (DHFR) → blocks conversion of folate to folinic acid\nUsed in treatment of\nNon-Hodgkin's lymphoma\n,\nacute lymphocytic leukemia\n, certain other malignancies,\npsoriasis\nand other dermatological conditions,\nrheumatoid arthritis\n(as a DMARD)\nFolate\nsupplementation is often given with methotrexate, and ↓ risk of toxicity\n[1]\nAbsorbed by saturable transporter in GI tract\n[2]\nSingle large oral dose will have lower bioavailability/toxicity than multiple small doses or chronic toxicity.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Non-Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea/vomiting\nFolate deficiency\nMyelosuppression,\npancytopenia\nHepatotoxicity\nAcutely - transaminitis\nChronic -\ncirrhosis\n/fibrosis\nPulmonary toxicity\nRenal injury\n(ATN) secondary to precipitation of methotrexate crystals\n[2]\nCutaneous injury (stomatitis, mucositis, ulcerations,\nSJS\nand\nTEN\n, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Renal injury",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "TEN",
+          "url": "https://wikem.org/wiki/TEN"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Early initiation of therapy is important, so begin treatment once MTX toxicity is strongly suspected\nFolinic Acid (\nLeucovorin\n)\n[1]\n20mg IV or IM q6h until MTX serum level <10\n−8\nM\nGlucarpidase\nWorks by enzymatic cleaving of MTX into metabolites\nHydration and urine alkalinization\nBicarbonate\ndrip at 1.5-2x maintenance rate to maintain urine pH of >7.5\nMTX is excreted renally",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leucovorin",
+          "url": "https://wikem.org/wiki/Leucovorin"
+        },
+        {
+          "text": "Glucarpidase",
+          "url": "https://wikem.org/wiki/Glucarpidase"
+        },
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

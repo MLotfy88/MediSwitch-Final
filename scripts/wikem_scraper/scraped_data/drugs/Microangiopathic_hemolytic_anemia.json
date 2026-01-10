@@ -1,0 +1,198 @@
+{
+  "drug_name": "Microangiopathic_hemolytic_anemia",
+  "url": "https://wikem.org/wiki/Microangiopathic_hemolytic_anemia",
+  "scraped_at": "2026-01-10T07:57:24.979381",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: MAHA\nA variety of conditions that result in damaged endothelium of small vessels causing platelet aggregation and fibrin deposition which leads to shearing forces within these small vessels causing an intravascular fragmentation hemolysis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical features + heme labs with red blood cell fragments or schistocytes.\n[1]\nMay have\nbleeding\nand\nthrombosis\nSigns and symptoms of\nanemia\n(fatigue, pallor, palpitations, etc.)\nJaundice\nand scleral icterus\nSigns/symptoms of underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "thrombosis",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_(MAHA)": {
+          "text": "Disseminated Intravascular Coagulation (DIC)\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nHELLP syndrome\nHeparin-Induced Thrombocytopenia (HIT)\nHereditary spherocytosis\nParoxysmal nocturnal hemoglobinuria\n(PNH)\nMalignant hypertension\nScleroderma\nAntiphospholipid Syndrome (APS)\nOther medical causes: malignancy, renal allograft rejection, vasculitides like\npolyarteritis nodosa\nand\nWegener's granulomatosis\nDrugs: chemotherapy;\nClopidogrel\n(Plavix) associated with\nTTP\nNonvascular causes: prosthetic valve (more common with mechanical, more common at aortic valve),\nLVAD\n,\nTIPS\n, coil embolization, patched AV shunt,\nAVM",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Heparin-Induced Thrombocytopenia (HIT)",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "LVAD",
+          "url": "https://wikem.org/wiki/LVAD"
+        },
+        {
+          "text": "TIPS",
+          "url": "https://wikem.org/wiki/TIPS"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Peripheral smear, hemoglobin, platelets, PT/INR, PTT, fibrinogen, FDPs, D-dimer, haptoglobin, LDH, bilirubin\nSchistocytes (aka Helmet cells) secondary to fragmentation hemolysis classic finding on peripheral smear",
+      "subsections": {
+        "Lab_Findings": {
+          "text": "Schistocytes\nHigh: +/- LDH and unconjugated bilirubin\nLow: Hgb, platelets, +/- haptoglobin",
+          "tables": []
+        },
+        "General_Rules": {
+          "text": "DIC\n=\nelevated\nPT/INR/PTT/FDPs/D-dimer,\nlow\nfibrinogen\n[1]\nTTP\n/\nHUS\n=\nnormal\nPT/INR/PTT/FDPs/D-dimer/fibrinogen\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        }
+      ]
+    },
+    "Lab_Findings": {
+      "text": "Schistocytes\nHigh: +/- LDH and unconjugated bilirubin\nLow: Hgb, platelets, +/- haptoglobin",
+      "subsections": {
+        "General_Rules": {
+          "text": "DIC\n=\nelevated\nPT/INR/PTT/FDPs/D-dimer,\nlow\nfibrinogen\n[1]\nTTP\n/\nHUS\n=\nnormal\nPT/INR/PTT/FDPs/D-dimer/fibrinogen\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        }
+      ]
+    },
+    "General_Rules": {
+      "text": "DIC\n=\nelevated\nPT/INR/PTT/FDPs/D-dimer,\nlow\nfibrinogen\n[1]\nTTP\n/\nHUS\n=\nnormal\nPT/INR/PTT/FDPs/D-dimer/fibrinogen\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    }
+  }
+}

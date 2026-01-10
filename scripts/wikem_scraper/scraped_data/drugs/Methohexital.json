@@ -1,0 +1,106 @@
+{
+  "drug_name": "Methohexital",
+  "url": "https://wikem.org/wiki/Methohexital",
+  "scraped_at": "2026-01-10T07:57:23.447514",
+  "sections": {
+    "General": {
+      "text": "Type:\nSedative agents\nDosage Forms:\nCommon Trade Names: Brevital",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative agents",
+          "url": "https://wikem.org/wiki/Sedative_agents"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Dose 1-1.5mg/kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": ">1mo: 6.6-10 mg/kg IM administered as a 5% (50 mg/mL) solution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Excreted in breastmilk\nRenal Dosing: Caution\nHepatic Dosing: Caution",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPorphyria\nRelative: cardiovascular disease, hypotension, respiratory disease\nCaution if: severe anemia, extreme obesity, debilitated patients, renal/hepatic/endocrine/circulatory dysfunction, obstructive pulmonary disease, severe HTN, status asthmaticus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Laryngospasm\nApnea, respiratory depression\nHypotension\nMyocardial depression\nSeizures",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hiccups, muscle twitching, coughing\nShivering\nSalivation\nEmergence reaction\nAnxiety, restlessness\nHeadache\nNausea/vomiting, abdominal pain\nErythema, pruritus, urticaria\nRhinitis\nThrombophlebitis\nInjection site pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Laryngospasm\nApnea, respiratory depression\nHypotension\nMyocardial depression\nSeizures",
+      "subsections": {
+        "Common": {
+          "text": "Hiccups, muscle twitching, coughing\nShivering\nSalivation\nEmergence reaction\nAnxiety, restlessness\nHeadache\nNausea/vomiting, abdominal pain\nErythema, pruritus, urticaria\nRhinitis\nThrombophlebitis\nInjection site pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Hiccups, muscle twitching, coughing\nShivering\nSalivation\nEmergence reaction\nAnxiety, restlessness\nHeadache\nNausea/vomiting, abdominal pain\nErythema, pruritus, urticaria\nRhinitis\nThrombophlebitis\nInjection site pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-6h\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action: ultra short acting barbituate\nOnset < 1 minute; Duration 10 minutes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "No analgesic effect",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Procedural sedation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Procedural sedation",
+          "url": "https://wikem.org/wiki/Procedural_sedation"
+        }
+      ]
+    }
+  }
+}

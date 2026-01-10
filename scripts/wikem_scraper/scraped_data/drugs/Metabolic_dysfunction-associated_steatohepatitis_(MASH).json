@@ -1,0 +1,262 @@
+{
+  "drug_name": "Metabolic_dysfunction-associated_steatohepatitis_(MASH)",
+  "url": "https://wikem.org/wiki/Metabolic_dysfunction-associated_steatohepatitis_(MASH)",
+  "scraped_at": "2026-01-10T07:57:17.165995",
+  "sections": {
+    "Background": {
+      "text": "Formerly known as\nnon-alcoholic steatohepatitis\nFatty liver disease due to causes other than excessive alcohol\nAssociated with insulin resistance and\nmetabolic syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Often asymptomatic or with mild\nRUQ discomfort\nSigns of portal hypertension (e.g.\nascites\n) if advanced fibrosis\nHepatomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[1]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Hepatic_Dysfunction": {
+      "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[1]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "LFTs\n, CBC\nRUQ US\nOutpatient elastography/Fibroscan",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat complications of portal hypertension, if present\nCounsel on weight loss, increased coffee consumption\nVitamin E if known F2 fibrosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge unless complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hepatomegaly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

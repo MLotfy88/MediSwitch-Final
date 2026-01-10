@@ -1,0 +1,154 @@
+{
+  "drug_name": "Methazolamide",
+  "url": "https://wikem.org/wiki/Methazolamide",
+  "scraped_at": "2026-01-10T07:57:18.723517",
+  "sections": {
+    "Administration": {
+      "text": "Type: Carbonic anhydrase inhibitor,\ndiuretic\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names: Neptazane",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "50-100mg PO BID/TID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Not known if enters breastmilk, use caution",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Not known if enters breastmilk, use caution",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Not known if enters breastmilk, use caution",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Contraindicated in severe impairment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in severe impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Contraindicated in severe impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHypokalemia\nHyponatremia\nHyperchloremic acidosis\nRenal/hepatic impairment,severe\nCirrhosis\nAdrenal insufficiency\nCaution in:\nCOPD\nConcomitant high-dose ASA or steroid therapy\nHepatic insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "SJS/TEN",
+          "tables": []
+        },
+        "Common": {
+          "text": "Drowsiness\nParesthesias\nAnorexia, nausea/vomiting\nSulfonamide-type reactions\nAcidosis\nElectrolyte imbalance\nGlycosuria\nHematuria\nThrombocytopenia\nHepatic dysfunction\nTinnitus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "SJS/TEN",
+      "subsections": {
+        "Common": {
+          "text": "Drowsiness\nParesthesias\nAnorexia, nausea/vomiting\nSulfonamide-type reactions\nAcidosis\nElectrolyte imbalance\nGlycosuria\nHematuria\nThrombocytopenia\nHepatic dysfunction\nTinnitus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Drowsiness\nParesthesias\nAnorexia, nausea/vomiting\nSulfonamide-type reactions\nAcidosis\nElectrolyte imbalance\nGlycosuria\nHematuria\nThrombocytopenia\nHepatic dysfunction\nTinnitus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 14d\nMetabolism:\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Carbonic anhydrase inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

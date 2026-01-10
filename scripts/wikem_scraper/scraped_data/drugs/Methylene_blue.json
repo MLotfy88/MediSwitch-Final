@@ -1,0 +1,142 @@
+{
+  "drug_name": "Methylene_blue",
+  "url": "https://wikem.org/wiki/Methylene_blue",
+  "scraped_at": "2026-01-10T07:57:21.495941",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntidote\n,\nVasopressors\nRoutes of Administration: IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        },
+        {
+          "text": "Vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Acquired methemoglobinemia: 1 mg/kg IV over 5-30min, may repeat in 1h with up to 1 mg/kg IV if methemoglobin level still >30% or symptoms persist\nDrug-induced methemoglobinemia: 1-2 mg/kg IV slowly over several minutes\nSee\nvasopressors\nFor hypotension refractory to catecholamine pressors\nConsider after catecholamine,\nvasopressin\n, and mineralocorticoid refractive shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "vasopressin",
+          "url": "https://wikem.org/wiki/Vasopressin"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Same as weight-based adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X, Fetal risk has been demonstrated\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nG6PD deficiency\nARDS\nPulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hemolytic anemia\nSyncope\nSerotonin syndrome\nParadoxical\nmethemoglobinemia\nat doses > 4 mg/kg/hr or per bolus\nPulmonary vasoconstriction at 3-4 mg/kg/hr or per bolus",
+          "tables": []
+        },
+        "Common": {
+          "text": "Skin discoloration, urine discoloration, hyperhidrosis\nNausea, abnormal taste\nLimb pain\nDizziness, headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hemolytic anemia\nSyncope\nSerotonin syndrome\nParadoxical\nmethemoglobinemia\nat doses > 4 mg/kg/hr or per bolus\nPulmonary vasoconstriction at 3-4 mg/kg/hr or per bolus",
+      "subsections": {
+        "Common": {
+          "text": "Skin discoloration, urine discoloration, hyperhidrosis\nNausea, abnormal taste\nLimb pain\nDizziness, headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Skin discoloration, urine discoloration, hyperhidrosis\nNausea, abnormal taste\nLimb pain\nDizziness, headache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 24h\nMetabolism: Hepatic\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Promotes non-enzymatic redox conversion of methemoglobin to hemoglobin\nImproves vascular tone via inhibition of nitric oxide synthase",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Methemoglobinemia\nAntidotes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        }
+      ]
+    }
+  }
+}

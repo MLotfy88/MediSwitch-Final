@@ -1,0 +1,211 @@
+{
+  "drug_name": "Metformin",
+  "url": "https://wikem.org/wiki/Metformin",
+  "scraped_at": "2026-01-10T07:57:20.228413",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nDiabetes medication\nDosage Forms: 500mg, 850mg, 1000mg; ER 500mg, 750mg, 1000mg\nRoutes of Administration: PO\nCommon Trade Names: Fortamet, Glucophage, Glumetza, Riomet",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes medication",
+          "url": "https://wikem.org/wiki/Diabetes_medication"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Diabetes_Mellitus_type_2": {
+          "text": "Take with meals\nHold 48 hours for iodinated contrast\nImmediate Release\n850-1000mg PO bid\nStart 500mg BID or 850mg QD\nIncrease 500mg qwk or 850mg q2wk\nMax 2550mg/day\nExtended Release\n1000-2000mg PO QD\nStart 500mg QD\nIncrease 500mg qwk\nAlt dosing; 1000mg bid\nAdd 500mg immediate release for inadequate response\nDo not crush or chew",
+          "tables": []
+        },
+        "Polycystic_Ovarian_Syndrome": {
+          "text": "Take with meals\nHold for iodinated contrast\nImmediate Release\n500mg tid\nAlt dosing; 850-1000mg bid\nIncrease as needed\nMax 2550mg/day\nExtended Release\n1500-2000mg QD\nDo not crush or chew\nMax 2000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diabetes_Mellitus_type_2": {
+      "text": "Take with meals\nHold 48 hours for iodinated contrast\nImmediate Release\n850-1000mg PO bid\nStart 500mg BID or 850mg QD\nIncrease 500mg qwk or 850mg q2wk\nMax 2550mg/day\nExtended Release\n1000-2000mg PO QD\nStart 500mg QD\nIncrease 500mg qwk\nAlt dosing; 1000mg bid\nAdd 500mg immediate release for inadequate response\nDo not crush or chew",
+      "subsections": {
+        "Polycystic_Ovarian_Syndrome": {
+          "text": "Take with meals\nHold for iodinated contrast\nImmediate Release\n500mg tid\nAlt dosing; 850-1000mg bid\nIncrease as needed\nMax 2550mg/day\nExtended Release\n1500-2000mg QD\nDo not crush or chew\nMax 2000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Polycystic_Ovarian_Syndrome": {
+      "text": "Take with meals\nHold for iodinated contrast\nImmediate Release\n500mg tid\nAlt dosing; 850-1000mg bid\nIncrease as needed\nMax 2550mg/day\nExtended Release\n1500-2000mg QD\nDo not crush or chew\nMax 2000mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Take with meals\nHold for iodinated contrast\nChildren aged 10-18 years of age",
+      "subsections": {
+        "Diabetes_Mellitus_type_2_2": {
+          "text": "500-1000mg bid\nStart 500mg QD\nIncrease 500mg/day every 1-2 weeks\nMax 2000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diabetes_Mellitus_type_2_2": {
+      "text": "500-1000mg bid\nStart 500mg QD\nIncrease 500mg/day every 1-2 weeks\nMax 2000mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Probably safe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Contraindicated Cr>1.4 in females and Cr>1.5 in med\nPediatric:  Contraindicated Cr>1.4 in females and Cr>1.5 in med",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Avoid with hepatic impairment\nPediatric: Avoid with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Contraindicated Cr>1.4 in females and Cr>1.5 in med\nPediatric:  Contraindicated Cr>1.4 in females and Cr>1.5 in med",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Avoid with hepatic impairment\nPediatric: Avoid with hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Avoid with hepatic impairment\nPediatric: Avoid with hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCreatinine >1.4 female or >1.5 male\nMetabolic acidosis\nDKA\nLactic acidosis\nIodinated contrast\nHypoxemia\nDehydration\nSepsis\nSurgery\nHepatic impairment\nCaution\nCHF\nElderly\nAlcohol abuse\nHypoglycemia\nrisk",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Metformin-associated lactic acidosis\nMegaloblastic anemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nnausea and vomiting\nFlatulence\nIndigestion\nAbdominal discomfort\nAnorexia\nHeadache\nRash\nOvulation reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin-associated lactic acidosis",
+          "url": "https://wikem.org/wiki/Metformin-associated_lactic_acidosis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Metformin-associated lactic acidosis\nMegaloblastic anemia",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nnausea and vomiting\nFlatulence\nIndigestion\nAbdominal discomfort\nAnorexia\nHeadache\nRash\nOvulation reduction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin-associated lactic acidosis",
+          "url": "https://wikem.org/wiki/Metformin-associated_lactic_acidosis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nnausea and vomiting\nFlatulence\nIndigestion\nAbdominal discomfort\nAnorexia\nHeadache\nRash\nOvulation reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6 hours in plasma and 17 hours in blood\nMetabolism: CYP450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Decreases hepatic glucose production and intestinal absorption\nIncreases insulin sensitivity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Metformin-associated lactic acidosis\nDiabetes medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin-associated lactic acidosis",
+          "url": "https://wikem.org/wiki/Metformin-associated_lactic_acidosis"
+        },
+        {
+          "text": "Diabetes medications",
+          "url": "https://wikem.org/wiki/Diabetes_medications"
+        }
+      ]
+    },
+    "References": {
+      "text": "Epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

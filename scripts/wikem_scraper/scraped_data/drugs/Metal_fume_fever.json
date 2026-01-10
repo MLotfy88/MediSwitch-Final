@@ -1,0 +1,462 @@
+{
+  "drug_name": "Metal_fume_fever",
+  "url": "https://wikem.org/wiki/Metal_fume_fever",
+  "scraped_at": "2026-01-10T07:57:16.959552",
+  "sections": {
+    "Background": {
+      "text": "AKA brass founders' ague, brass shakes, zinc shakes, galvie flu, metal dust fever, welding shivers, Monday morning fever\nSyndrome caused by inhalation of certain metals (most commonly zinc, copper, cadmium, but also aluminum, lead, nickel and various other metals\n[1]\n) in form of dust or fumes, usually through hot metalworking such as welding, brazing, smelting, or soldering.\nThought to be due to metals stimulating cytokine release",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Flu-like illness\n;\nfever\n,\nfatigue\n/malaise,\nmyalgia\n,\narthralgia\n,\nmyalgia\n,\nheadache\nClassically occurs on Monday, after reduced exposure on the weekend, and improves over the work week due to short-term tachyphylaxis\nUsually resolves in 24-48h\n+/-\nSOB\n,\nchest pain\n,\npneumonitis\nRarely, severe lung injury,\nARDS\npicture\n+/-\nhypotension\n,\nLOC\n,\nseizure\n,\nAKI\nin severe cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "LOC",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Inhalation_injury": {
+          "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+          "tables": []
+        },
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Inhalation_injury": {
+      "text": "Unintentional\nSmoke inhalation injury\nCyanide\nCarbon monoxide\nChloramine\nHydrocarbons\nSewer gas\nHydrogen Sulfide\nAmmonia toxicity\nMethane\nCarbon monoxide\nHydrazine toxicity\nNitrogen tetroxide\nMetal fume fever\nTerrorism\nPulmonary chemical agents\nAmmonia\nMethyl isocyanate\nmethyl bromide\nHydrochloric acid\nChlorine\nPhosgene\nBioterrorism\nAnthrax\nSmallpox\nPlague\nTularemia\nBotulinum toxin\nViral hemorrhagic fever\nRicin",
+      "subsections": {
+        "Influenza-Like_Illness": {
+          "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Chloramine",
+          "url": "https://wikem.org/wiki/Chloramine"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methane",
+          "url": "https://wikem.org/wiki/Methane"
+        },
+        {
+          "text": "Carbon monoxide",
+          "url": "https://wikem.org/wiki/Carbon_monoxide"
+        },
+        {
+          "text": "Hydrazine toxicity",
+          "url": "https://wikem.org/wiki/Hydrazine_toxicity"
+        },
+        {
+          "text": "Nitrogen tetroxide",
+          "url": "https://wikem.org/wiki/Nitrogen_tetroxide"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "Botulinum toxin",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fever"
+        },
+        {
+          "text": "Ricin",
+          "url": "https://wikem.org/wiki/Ricin"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Influenza-Like_Illness": {
+      "text": "Influenza\nParainfluenza\nURI\nPneumonia\nSinusitis\nToxic exposure\nPyelonephritis\nBronchitis\nCoronavirus\nMERS-CoV\nSARS-CoV\n2019-nCoV (\nCOVID-19\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Parainfluenza",
+          "url": "https://wikem.org/wiki/Parainfluenza"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Toxic exposure",
+          "url": "https://wikem.org/wiki/Toxic_exposure"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "MERS-CoV",
+          "url": "https://wikem.org/wiki/MERS-CoV"
+        },
+        {
+          "text": "SARS-CoV",
+          "url": "https://wikem.org/wiki/SARS-CoV"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, evaluate for alternate diagnoses\nCXR\nand CT chest often unremarkable in milder cases but may show ground-glass opacities or other findings\n[2]\nCBC- may have\nleukocytosis\nwith neutrophil predominance\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive\nConsider consultation with\nPoison Control\nMost cases self-limiting within 24-48h",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Poison Control",
+          "url": "https://wikem.org/wiki/Poison_Control"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if clinically stable\nFollow-up with occupational health (may require OSHA report by employer)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Inhalation injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        }
+      ]
+    }
+  }
+}

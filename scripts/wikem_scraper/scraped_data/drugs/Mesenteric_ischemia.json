@@ -1,0 +1,675 @@
+{
+  "drug_name": "Mesenteric_ischemia",
+  "url": "https://wikem.org/wiki/Mesenteric_ischemia",
+  "scraped_at": "2026-01-10T07:57:15.885080",
+  "sections": {
+    "Background": {
+      "text": "Most commonly superior mesenteric artery (SMA), thus typically involves small bowel (especially jejunum) and right colon\nLeft colon uncommonly involved due to collateral flow\nMean age = 70 years old (>70% of cases occur in women)",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "4 distinct entities:\nMesenteric arterial embolism (ex. Afib)\nMesenteric arterial thrombosis (ex. Vasculopath)\nNonocclusive mesenteric ischemia (ex. Hypovolemia from diuretics)\nMesenteric venous thrombosis\n(ex. hypercoagulable state)",
+          "tables": []
+        },
+        "Intestinal_Ischemic_Disorder_Types": {
+          "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Arterial Embolism",
+                "Risk Factor": "Dysrhythmia(A. Fib)CardiomyopathyValve DiseaseEndocarditisMI"
+              },
+              {
+                "Type": "Arterial Thrombosis",
+                "Risk Factor": "Atherosclerotic Disease"
+              },
+              {
+                "Type": "Venous Thrombosis",
+                "Risk Factor": "Prior thrombosis historyHypercoagulable state (pregnancy, cancer, clotting disorder)"
+              },
+              {
+                "Type": "Nonocculsive",
+                "Risk Factor": "HypovolemicstateHeart failureMyocardial infarctionwith decrease outputSepsisDiureticuse"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "4 distinct entities:\nMesenteric arterial embolism (ex. Afib)\nMesenteric arterial thrombosis (ex. Vasculopath)\nNonocclusive mesenteric ischemia (ex. Hypovolemia from diuretics)\nMesenteric venous thrombosis\n(ex. hypercoagulable state)",
+      "subsections": {
+        "Intestinal_Ischemic_Disorder_Types": {
+          "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Arterial Embolism",
+                "Risk Factor": "Dysrhythmia(A. Fib)CardiomyopathyValve DiseaseEndocarditisMI"
+              },
+              {
+                "Type": "Arterial Thrombosis",
+                "Risk Factor": "Atherosclerotic Disease"
+              },
+              {
+                "Type": "Venous Thrombosis",
+                "Risk Factor": "Prior thrombosis historyHypercoagulable state (pregnancy, cancer, clotting disorder)"
+              },
+              {
+                "Type": "Nonocculsive",
+                "Risk Factor": "HypovolemicstateHeart failureMyocardial infarctionwith decrease outputSepsisDiureticuse"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Intestinal_Ischemic_Disorder_Types": {
+      "text": "Ischemic colitis\nAccounts for 80-85% of intestinal ischemia\nDue to non-occlusive disease with decreased blood flow to the colon.\nCauses decreased perfusion leading to sub-mucosal or mucosal ischemia only.\nTypical to the \"watershed areas\" of the colon (Splenic flexure or Sigmoid)\nAcute\nmesenteric ischemia\nDue to complete occlusion of mesenteric vessels\nComplete transmural ischemia\nMesenteric venous thrombosis\nChronic mesenteric ischemia (\"intestinal angina\")",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Type": "Arterial Embolism",
+                "Risk Factor": "Dysrhythmia(A. Fib)CardiomyopathyValve DiseaseEndocarditisMI"
+              },
+              {
+                "Type": "Arterial Thrombosis",
+                "Risk Factor": "Atherosclerotic Disease"
+              },
+              {
+                "Type": "Venous Thrombosis",
+                "Risk Factor": "Prior thrombosis historyHypercoagulable state (pregnancy, cancer, clotting disorder)"
+              },
+              {
+                "Type": "Nonocculsive",
+                "Risk Factor": "HypovolemicstateHeart failureMyocardial infarctionwith decrease outputSepsisDiureticuse"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Mesenteric venous thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_venous_thrombosis"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Type": "Arterial Embolism",
+            "Risk Factor": "Dysrhythmia(A. Fib)CardiomyopathyValve DiseaseEndocarditisMI"
+          },
+          {
+            "Type": "Arterial Thrombosis",
+            "Risk Factor": "Atherosclerotic Disease"
+          },
+          {
+            "Type": "Venous Thrombosis",
+            "Risk Factor": "Prior thrombosis historyHypercoagulable state (pregnancy, cancer, clotting disorder)"
+          },
+          {
+            "Type": "Nonocculsive",
+            "Risk Factor": "HypovolemicstateHeart failureMyocardial infarctionwith decrease outputSepsisDiureticuse"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain\nout of proportion to exam\nAbdomen often soft, without guarding.\nPain often left sided around watershed areas of colon (splenic flexure and recto-sigmoid junction)\nSevere, generalized, colicky\nBloody stools",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Colitis": {
+          "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+          "tables": []
+        },
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Colitis": {
+      "text": "Infectious colitis\nIschemic colitis\nUlcerative colitis\nCMV colitis\nCrohn's\ncolitis\nToxic colitis (antineoplastic agents)\nPseudomembranous colitis\nFibrosing colonopathy\n(\nCystic fibrosis\n)",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infectious colitis",
+          "url": "https://wikem.org/wiki/Infectious_colitis"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "CMV colitis",
+          "url": "https://wikem.org/wiki/CMV_colitis"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "Pseudomembranous colitis",
+          "url": "https://wikem.org/wiki/Pseudomembranous_enterocolitis"
+        },
+        {
+          "text": "Fibrosing colonopathy",
+          "url": "https://wikem.org/wiki/Fibrosing_colonopathy"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Large bowel obstruction",
+          "url": "https://wikem.org/wiki/Large_bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs\nCBC\nChemistry\nLFTs\nLipase\nLactate\nConsider\nUA\nCTA abdomen/pelvis (Bowel wall edema is the most common finding on CT)\nMesenteric angiography considered gold standard (if available, typically as a secondary study)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically diagnosed on CT\nLabs may show the following (although do not rule need for CT):\nLactate\n(higher later)\nWBC (often >15K)\nChemistry (metabolic acidosis)\nHyperphosphatemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Labs\nCBC\nChemistry\nLFTs\nLipase\nLactate\nConsider\nUA\nCTA abdomen/pelvis (Bowel wall edema is the most common finding on CT)\nMesenteric angiography considered gold standard (if available, typically as a secondary study)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically diagnosed on CT\nLabs may show the following (although do not rule need for CT):\nLactate\n(higher later)\nWBC (often >15K)\nChemistry (metabolic acidosis)\nHyperphosphatemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically diagnosed on CT\nLabs may show the following (although do not rule need for CT):\nLactate\n(higher later)\nWBC (often >15K)\nChemistry (metabolic acidosis)\nHyperphosphatemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General": {
+          "text": "Aggressive\nIVF\nresuscitation, continued after revascularization due to capillary leak\nCorrect\nelectrolyte imbalances\nprior to IV contrast or surgical exploration\n[1]\nAnalgesia\n(usually\nOpioids\nIV\nantibiotics\n- broad spectrum antibiotics to prevent sepsis\n[2]\nSecond-generation\ncephalosporin\nplus\nmetronidazole\n[3]\n,\nOR\nLevofloxacin\n500 mg IV q24 hours PLUS\nMetronidazole\n15 mg/kg IV LOAD over 1 hour, for severely ill, maintenance 500 mg IV q6 hours,\n[4]\nOR\nPiperacillin/tazobactam\n3.375 mg IV q6 hours\nAnticoagulation\nwith\nheparin\nis usually appropriate in all patients with mesenteric ischemia, with exception of those with typical contraindications\nSome experts will recommend delaying heparin for 48 hours due to risk for intraluminal bleeding in bowels\n[5]",
+          "tables": []
+        },
+        "Acute_arterial_embolus": {
+          "text": "Papaverine infusion (30-60m g/h IV)\nOR\nSurgical embolectomy\nOR\nMesenteric artery bypass surgery\nOR\nRetrograde open mesenteric stenting\nOR\ntPA\nintra-arterial thrombolysis with IR\nPLUS/MINUS surgical resection of necrotic bowel after any of above interventions\nPLUS/MINUS 24-48 hour second-look surgery",
+          "tables": []
+        },
+        "Nonocclusive_mesenteric_ischemia": {
+          "text": "Transcatheter vasodilation via:\nPGE1\n, alprostadil\nPGI2,\nepoprostenol\nPapaverine, most commonly used, though use in caution with angina, recent stroke, MI, glaucoma",
+          "tables": []
+        },
+        "Mesenteric_venous_thrombosis": {
+          "text": "Heparin\n/\nwarfarin\neither alone or in combination with surgery\nUp to 5% of patients require intervention beyond anticoagulation alone\n[6]\nImmediate heparinization should be started even when surgical intervention is indicated\nDecreases progression of thrombosis and improves survival\nPLUS/MINUS tPA intra-arterial thrombolysis with IR\nPLUS/MINUS laparotomy for evidence of bowel necrosis, peritonitis, stricture, severe GI bleeding",
+          "tables": []
+        },
+        "Chronic_mesenteric_ischemia": {
+          "text": "Angioplasty with or without stent placement or surgical revascularization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Aggressive\nIVF\nresuscitation, continued after revascularization due to capillary leak\nCorrect\nelectrolyte imbalances\nprior to IV contrast or surgical exploration\n[1]\nAnalgesia\n(usually\nOpioids\nIV\nantibiotics\n- broad spectrum antibiotics to prevent sepsis\n[2]\nSecond-generation\ncephalosporin\nplus\nmetronidazole\n[3]\n,\nOR\nLevofloxacin\n500 mg IV q24 hours PLUS\nMetronidazole\n15 mg/kg IV LOAD over 1 hour, for severely ill, maintenance 500 mg IV q6 hours,\n[4]\nOR\nPiperacillin/tazobactam\n3.375 mg IV q6 hours\nAnticoagulation\nwith\nheparin\nis usually appropriate in all patients with mesenteric ischemia, with exception of those with typical contraindications\nSome experts will recommend delaying heparin for 48 hours due to risk for intraluminal bleeding in bowels\n[5]",
+      "subsections": {
+        "Acute_arterial_embolus": {
+          "text": "Papaverine infusion (30-60m g/h IV)\nOR\nSurgical embolectomy\nOR\nMesenteric artery bypass surgery\nOR\nRetrograde open mesenteric stenting\nOR\ntPA\nintra-arterial thrombolysis with IR\nPLUS/MINUS surgical resection of necrotic bowel after any of above interventions\nPLUS/MINUS 24-48 hour second-look surgery",
+          "tables": []
+        },
+        "Nonocclusive_mesenteric_ischemia": {
+          "text": "Transcatheter vasodilation via:\nPGE1\n, alprostadil\nPGI2,\nepoprostenol\nPapaverine, most commonly used, though use in caution with angina, recent stroke, MI, glaucoma",
+          "tables": []
+        },
+        "Mesenteric_venous_thrombosis": {
+          "text": "Heparin\n/\nwarfarin\neither alone or in combination with surgery\nUp to 5% of patients require intervention beyond anticoagulation alone\n[6]\nImmediate heparinization should be started even when surgical intervention is indicated\nDecreases progression of thrombosis and improves survival\nPLUS/MINUS tPA intra-arterial thrombolysis with IR\nPLUS/MINUS laparotomy for evidence of bowel necrosis, peritonitis, stricture, severe GI bleeding",
+          "tables": []
+        },
+        "Chronic_mesenteric_ischemia": {
+          "text": "Angioplasty with or without stent placement or surgical revascularization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Acute_arterial_embolus": {
+      "text": "Papaverine infusion (30-60m g/h IV)\nOR\nSurgical embolectomy\nOR\nMesenteric artery bypass surgery\nOR\nRetrograde open mesenteric stenting\nOR\ntPA\nintra-arterial thrombolysis with IR\nPLUS/MINUS surgical resection of necrotic bowel after any of above interventions\nPLUS/MINUS 24-48 hour second-look surgery",
+      "subsections": {
+        "Nonocclusive_mesenteric_ischemia": {
+          "text": "Transcatheter vasodilation via:\nPGE1\n, alprostadil\nPGI2,\nepoprostenol\nPapaverine, most commonly used, though use in caution with angina, recent stroke, MI, glaucoma",
+          "tables": []
+        },
+        "Mesenteric_venous_thrombosis": {
+          "text": "Heparin\n/\nwarfarin\neither alone or in combination with surgery\nUp to 5% of patients require intervention beyond anticoagulation alone\n[6]\nImmediate heparinization should be started even when surgical intervention is indicated\nDecreases progression of thrombosis and improves survival\nPLUS/MINUS tPA intra-arterial thrombolysis with IR\nPLUS/MINUS laparotomy for evidence of bowel necrosis, peritonitis, stricture, severe GI bleeding",
+          "tables": []
+        },
+        "Chronic_mesenteric_ischemia": {
+          "text": "Angioplasty with or without stent placement or surgical revascularization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nonocclusive_mesenteric_ischemia": {
+      "text": "Transcatheter vasodilation via:\nPGE1\n, alprostadil\nPGI2,\nepoprostenol\nPapaverine, most commonly used, though use in caution with angina, recent stroke, MI, glaucoma",
+      "subsections": {
+        "Mesenteric_venous_thrombosis": {
+          "text": "Heparin\n/\nwarfarin\neither alone or in combination with surgery\nUp to 5% of patients require intervention beyond anticoagulation alone\n[6]\nImmediate heparinization should be started even when surgical intervention is indicated\nDecreases progression of thrombosis and improves survival\nPLUS/MINUS tPA intra-arterial thrombolysis with IR\nPLUS/MINUS laparotomy for evidence of bowel necrosis, peritonitis, stricture, severe GI bleeding",
+          "tables": []
+        },
+        "Chronic_mesenteric_ischemia": {
+          "text": "Angioplasty with or without stent placement or surgical revascularization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mesenteric_venous_thrombosis": {
+      "text": "Heparin\n/\nwarfarin\neither alone or in combination with surgery\nUp to 5% of patients require intervention beyond anticoagulation alone\n[6]\nImmediate heparinization should be started even when surgical intervention is indicated\nDecreases progression of thrombosis and improves survival\nPLUS/MINUS tPA intra-arterial thrombolysis with IR\nPLUS/MINUS laparotomy for evidence of bowel necrosis, peritonitis, stricture, severe GI bleeding",
+      "subsections": {
+        "Chronic_mesenteric_ischemia": {
+          "text": "Angioplasty with or without stent placement or surgical revascularization",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_mesenteric_ischemia": {
+      "text": "Angioplasty with or without stent placement or surgical revascularization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit with consultation of one or more of the following:\nIR\nVascular\nSurgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

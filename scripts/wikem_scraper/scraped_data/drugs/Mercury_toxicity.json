@@ -1,0 +1,853 @@
+{
+  "drug_name": "Mercury_toxicity",
+  "url": "https://wikem.org/wiki/Mercury_toxicity",
+  "scraped_at": "2026-01-10T07:57:12.405906",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Common_Exposures": {
+          "text": "Industrial\nBatteries, fungicide\nSeafood consumption\nMostly methylmercury",
+          "tables": []
+        },
+        "Exists_as_three_major_forms": {
+          "text": "All disrupt sulfhydryl ezymes leading to impaired cellular function",
+          "tables": []
+        },
+        "Elemental": {
+          "text": "Liquid metal at room temperature (Think of the Terminator recongealing)\n14x more dense than water\nVolatile and lipid soluble, therefore rapidly absorbed through lungs (approximately 70-80%)\nOxidized rapidly to inorganic form\nPoorly absorbed from GI tract\nTherefor most ingestions are non-toxic",
+          "tables": []
+        },
+        "Organic": {
+          "text": "Exists in three major forms:\nLong chain\nShort chain\nAryl\nLong chain and Aryl forms are rapidly converted to inorganic forms\nShort chain forms are highly lipophilic and cross the blood-brain barrier and placenta\nMetabolized in the liver to N-acetyl-homocysteine-methylmercury which undergoes enterohepatic recirculation",
+          "tables": []
+        },
+        "Inorganic": {
+          "text": "Exists as monovalent and divalent\nCorrosive\nChronic exposures lead to accumulation in brain and CNS\nFound in many batteries, little risk of toxicity from the mercury components s/p ingestion\nOther dangers exist though!!!\nThe California Department of Public Health issued a health alert on May, 2014 noting mercury poisoning linked to use of skin-lightening or acne Creams from Mexico\n[1]",
+          "tables": []
+        },
+        "Historical_Exposures": {
+          "text": "Atomic symbol of Hg from latin name hydrargyros which means silver water\nHat felters (Elemental)\n\"Mad as a hatter\"\nAnti-syphilitic agents (Inorganic)\n\"A night in the arms of venus lead to a lifetime on mercury\"\nCalomel (Inorganic)\nMercurous Chloride sold as a teething powder\nCauses \"pink disease\"\npain and erythema of the palms and soles, irritability, insomnia, anorexia, diaphoresis, photophobia, and skin rash\nMinamata Bay, Japan (Organic)\nMassive exposure to methylmercury from contaminated seafood secondary to industrial dumping of mercury containing compounds\nIraq 1971 (Organic)\n95,000 tons of methylmercury coated grain sold for human consumption\nMiners and smelters (Elemental)\nMostly secondary to exposure to Cinnabar (HgS)\nDental workers through amalgams (Elemental)\nClinical effects secondary to exposure to mercury through amalgams is controversial",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common_Exposures": {
+      "text": "Industrial\nBatteries, fungicide\nSeafood consumption\nMostly methylmercury",
+      "subsections": {
+        "Exists_as_three_major_forms": {
+          "text": "All disrupt sulfhydryl ezymes leading to impaired cellular function",
+          "tables": []
+        },
+        "Elemental": {
+          "text": "Liquid metal at room temperature (Think of the Terminator recongealing)\n14x more dense than water\nVolatile and lipid soluble, therefore rapidly absorbed through lungs (approximately 70-80%)\nOxidized rapidly to inorganic form\nPoorly absorbed from GI tract\nTherefor most ingestions are non-toxic",
+          "tables": []
+        },
+        "Organic": {
+          "text": "Exists in three major forms:\nLong chain\nShort chain\nAryl\nLong chain and Aryl forms are rapidly converted to inorganic forms\nShort chain forms are highly lipophilic and cross the blood-brain barrier and placenta\nMetabolized in the liver to N-acetyl-homocysteine-methylmercury which undergoes enterohepatic recirculation",
+          "tables": []
+        },
+        "Inorganic": {
+          "text": "Exists as monovalent and divalent\nCorrosive\nChronic exposures lead to accumulation in brain and CNS\nFound in many batteries, little risk of toxicity from the mercury components s/p ingestion\nOther dangers exist though!!!\nThe California Department of Public Health issued a health alert on May, 2014 noting mercury poisoning linked to use of skin-lightening or acne Creams from Mexico\n[1]",
+          "tables": []
+        },
+        "Historical_Exposures": {
+          "text": "Atomic symbol of Hg from latin name hydrargyros which means silver water\nHat felters (Elemental)\n\"Mad as a hatter\"\nAnti-syphilitic agents (Inorganic)\n\"A night in the arms of venus lead to a lifetime on mercury\"\nCalomel (Inorganic)\nMercurous Chloride sold as a teething powder\nCauses \"pink disease\"\npain and erythema of the palms and soles, irritability, insomnia, anorexia, diaphoresis, photophobia, and skin rash\nMinamata Bay, Japan (Organic)\nMassive exposure to methylmercury from contaminated seafood secondary to industrial dumping of mercury containing compounds\nIraq 1971 (Organic)\n95,000 tons of methylmercury coated grain sold for human consumption\nMiners and smelters (Elemental)\nMostly secondary to exposure to Cinnabar (HgS)\nDental workers through amalgams (Elemental)\nClinical effects secondary to exposure to mercury through amalgams is controversial",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Exists_as_three_major_forms": {
+      "text": "All disrupt sulfhydryl ezymes leading to impaired cellular function",
+      "subsections": {
+        "Elemental": {
+          "text": "Liquid metal at room temperature (Think of the Terminator recongealing)\n14x more dense than water\nVolatile and lipid soluble, therefore rapidly absorbed through lungs (approximately 70-80%)\nOxidized rapidly to inorganic form\nPoorly absorbed from GI tract\nTherefor most ingestions are non-toxic",
+          "tables": []
+        },
+        "Organic": {
+          "text": "Exists in three major forms:\nLong chain\nShort chain\nAryl\nLong chain and Aryl forms are rapidly converted to inorganic forms\nShort chain forms are highly lipophilic and cross the blood-brain barrier and placenta\nMetabolized in the liver to N-acetyl-homocysteine-methylmercury which undergoes enterohepatic recirculation",
+          "tables": []
+        },
+        "Inorganic": {
+          "text": "Exists as monovalent and divalent\nCorrosive\nChronic exposures lead to accumulation in brain and CNS\nFound in many batteries, little risk of toxicity from the mercury components s/p ingestion\nOther dangers exist though!!!\nThe California Department of Public Health issued a health alert on May, 2014 noting mercury poisoning linked to use of skin-lightening or acne Creams from Mexico\n[1]",
+          "tables": []
+        },
+        "Historical_Exposures": {
+          "text": "Atomic symbol of Hg from latin name hydrargyros which means silver water\nHat felters (Elemental)\n\"Mad as a hatter\"\nAnti-syphilitic agents (Inorganic)\n\"A night in the arms of venus lead to a lifetime on mercury\"\nCalomel (Inorganic)\nMercurous Chloride sold as a teething powder\nCauses \"pink disease\"\npain and erythema of the palms and soles, irritability, insomnia, anorexia, diaphoresis, photophobia, and skin rash\nMinamata Bay, Japan (Organic)\nMassive exposure to methylmercury from contaminated seafood secondary to industrial dumping of mercury containing compounds\nIraq 1971 (Organic)\n95,000 tons of methylmercury coated grain sold for human consumption\nMiners and smelters (Elemental)\nMostly secondary to exposure to Cinnabar (HgS)\nDental workers through amalgams (Elemental)\nClinical effects secondary to exposure to mercury through amalgams is controversial",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Historical_Exposures": {
+      "text": "Atomic symbol of Hg from latin name hydrargyros which means silver water\nHat felters (Elemental)\n\"Mad as a hatter\"\nAnti-syphilitic agents (Inorganic)\n\"A night in the arms of venus lead to a lifetime on mercury\"\nCalomel (Inorganic)\nMercurous Chloride sold as a teething powder\nCauses \"pink disease\"\npain and erythema of the palms and soles, irritability, insomnia, anorexia, diaphoresis, photophobia, and skin rash\nMinamata Bay, Japan (Organic)\nMassive exposure to methylmercury from contaminated seafood secondary to industrial dumping of mercury containing compounds\nIraq 1971 (Organic)\n95,000 tons of methylmercury coated grain sold for human consumption\nMiners and smelters (Elemental)\nMostly secondary to exposure to Cinnabar (HgS)\nDental workers through amalgams (Elemental)\nClinical effects secondary to exposure to mercury through amalgams is controversial",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical presentation highly dependent on form, concentration and duration of exposure\nInhalation of elemental mercury and ingestion of inorganic can cause acute or subacute toxicity\nOrganic mercury more likely causes chronic toxicity",
+      "subsections": {
+        "Acute_Exposure": {
+          "text": "Metal fume fever\nUsually self limited course of\nflu-like illness\n;\nfever\n, chills,\nshortness of breath\n, metallic taste in throat,\nlethargy\n,\nconfusion\n,\nvomiting\n, renal tubular necrosis\nRarely may progress to\nrespiratory compromise\nand death\nWorse presentation in children\nMay develop\npneumothorax\n, pneumomediastinum and interstitial emphysema\nSmall airway obstruction secondary to desquamation",
+          "tables": []
+        },
+        "Chronic_Exposure": {
+          "text": "Classic Triad:\nTremor\nGingivitis/stomatitis\nHyperexcitable state/emotional lability\nOther findings\nHeadache\n,\nvisual disturbances\n, peripheral neuropathy,\nataxia",
+          "tables": []
+        },
+        "Acute_Exposure_2": {
+          "text": "Primarily toxic through oral route\nCauses caustic\nburns\nSeverity dependent on type [Hg(2)Cl vs Hg(1)Cl] and concentration of mercurial salts\nMercuric forms [Hg(2)] more toxic\nOther symptoms include pain,\nnausea\n,\nhematemesis\n,\nhypovolemia\n, acute tubular necrosis\nSequelae include\nrenal failure",
+          "tables": []
+        },
+        "Chronic_Exposure_2": {
+          "text": "Chronic exposures usually secondary to inhalation exposure\nSymptoms include\nrenal failure\n,\ndementia\n, acrodynia\nAcrodynia (AKA pink disease) = painful erythema and edema of hands and feet,\nrash\n,\ntachycardia\n,\nhypertension\nand irritability.\nNeuropsychiatric disturbances",
+          "tables": []
+        },
+        "Organic_Mercury": {
+          "text": "Acute and chronic exposures present similarly\nAcute presentations usually show signs days to weeks after exposure\nNeuro symptoms predominate\nTremor,\nataxia\n,\nparesthesias\n, memory difficulties,\nvisual disturbances\n,\nhearing loss\nMay also cause\nthrombocytopenia\nand\nagranulocytosis\nHighly\nfetotoxic\nEasily crosses placenta\nMay lead to severe intellectual disability (like those with Minamata disease), developmental delay, ataxia and seizures in offspring\nControversy exists over exposure from regular diet\nAlbacore tuna may contain up to 0.34ppm of organic mercury\nPlease see Faroe Island and Seychelles studies\nThimerosal (mercury containing preservative found in many vaccines) has\nNOT\nbeen linked to developmental delays or autism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "respiratory compromise",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        }
+      ]
+    },
+    "Elemental_Mercury": {
+      "text": "",
+      "subsections": {
+        "Acute_Exposure": {
+          "text": "Metal fume fever\nUsually self limited course of\nflu-like illness\n;\nfever\n, chills,\nshortness of breath\n, metallic taste in throat,\nlethargy\n,\nconfusion\n,\nvomiting\n, renal tubular necrosis\nRarely may progress to\nrespiratory compromise\nand death\nWorse presentation in children\nMay develop\npneumothorax\n, pneumomediastinum and interstitial emphysema\nSmall airway obstruction secondary to desquamation",
+          "tables": []
+        },
+        "Chronic_Exposure": {
+          "text": "Classic Triad:\nTremor\nGingivitis/stomatitis\nHyperexcitable state/emotional lability\nOther findings\nHeadache\n,\nvisual disturbances\n, peripheral neuropathy,\nataxia",
+          "tables": []
+        },
+        "Acute_Exposure_2": {
+          "text": "Primarily toxic through oral route\nCauses caustic\nburns\nSeverity dependent on type [Hg(2)Cl vs Hg(1)Cl] and concentration of mercurial salts\nMercuric forms [Hg(2)] more toxic\nOther symptoms include pain,\nnausea\n,\nhematemesis\n,\nhypovolemia\n, acute tubular necrosis\nSequelae include\nrenal failure",
+          "tables": []
+        },
+        "Chronic_Exposure_2": {
+          "text": "Chronic exposures usually secondary to inhalation exposure\nSymptoms include\nrenal failure\n,\ndementia\n, acrodynia\nAcrodynia (AKA pink disease) = painful erythema and edema of hands and feet,\nrash\n,\ntachycardia\n,\nhypertension\nand irritability.\nNeuropsychiatric disturbances",
+          "tables": []
+        },
+        "Organic_Mercury": {
+          "text": "Acute and chronic exposures present similarly\nAcute presentations usually show signs days to weeks after exposure\nNeuro symptoms predominate\nTremor,\nataxia\n,\nparesthesias\n, memory difficulties,\nvisual disturbances\n,\nhearing loss\nMay also cause\nthrombocytopenia\nand\nagranulocytosis\nHighly\nfetotoxic\nEasily crosses placenta\nMay lead to severe intellectual disability (like those with Minamata disease), developmental delay, ataxia and seizures in offspring\nControversy exists over exposure from regular diet\nAlbacore tuna may contain up to 0.34ppm of organic mercury\nPlease see Faroe Island and Seychelles studies\nThimerosal (mercury containing preservative found in many vaccines) has\nNOT\nbeen linked to developmental delays or autism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metal fume fever",
+          "url": "https://wikem.org/wiki/Metal_fume_fever"
+        },
+        {
+          "text": "flu-like illness",
+          "url": "https://wikem.org/wiki/Flu-like_illness"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "respiratory compromise",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        }
+      ]
+    },
+    "Inorganic_Mercury": {
+      "text": "",
+      "subsections": {
+        "Acute_Exposure_2": {
+          "text": "Primarily toxic through oral route\nCauses caustic\nburns\nSeverity dependent on type [Hg(2)Cl vs Hg(1)Cl] and concentration of mercurial salts\nMercuric forms [Hg(2)] more toxic\nOther symptoms include pain,\nnausea\n,\nhematemesis\n,\nhypovolemia\n, acute tubular necrosis\nSequelae include\nrenal failure",
+          "tables": []
+        },
+        "Chronic_Exposure_2": {
+          "text": "Chronic exposures usually secondary to inhalation exposure\nSymptoms include\nrenal failure\n,\ndementia\n, acrodynia\nAcrodynia (AKA pink disease) = painful erythema and edema of hands and feet,\nrash\n,\ntachycardia\n,\nhypertension\nand irritability.\nNeuropsychiatric disturbances",
+          "tables": []
+        },
+        "Organic_Mercury": {
+          "text": "Acute and chronic exposures present similarly\nAcute presentations usually show signs days to weeks after exposure\nNeuro symptoms predominate\nTremor,\nataxia\n,\nparesthesias\n, memory difficulties,\nvisual disturbances\n,\nhearing loss\nMay also cause\nthrombocytopenia\nand\nagranulocytosis\nHighly\nfetotoxic\nEasily crosses placenta\nMay lead to severe intellectual disability (like those with Minamata disease), developmental delay, ataxia and seizures in offspring\nControversy exists over exposure from regular diet\nAlbacore tuna may contain up to 0.34ppm of organic mercury\nPlease see Faroe Island and Seychelles studies\nThimerosal (mercury containing preservative found in many vaccines) has\nNOT\nbeen linked to developmental delays or autism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "hematemesis",
+          "url": "https://wikem.org/wiki/Hematemesis"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        }
+      ]
+    },
+    "Organic_Mercury": {
+      "text": "Acute and chronic exposures present similarly\nAcute presentations usually show signs days to weeks after exposure\nNeuro symptoms predominate\nTremor,\nataxia\n,\nparesthesias\n, memory difficulties,\nvisual disturbances\n,\nhearing loss\nMay also cause\nthrombocytopenia\nand\nagranulocytosis\nHighly\nfetotoxic\nEasily crosses placenta\nMay lead to severe intellectual disability (like those with Minamata disease), developmental delay, ataxia and seizures in offspring\nControversy exists over exposure from regular diet\nAlbacore tuna may contain up to 0.34ppm of organic mercury\nPlease see Faroe Island and Seychelles studies\nThimerosal (mercury containing preservative found in many vaccines) has\nNOT\nbeen linked to developmental delays or autism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "hearing loss",
+          "url": "https://wikem.org/wiki/Hearing_loss"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Urine and blood mercury levels\nCBC\nChem 7\nType and screen\nRadiographs",
+          "tables": []
+        },
+        "Evaluation_3": {
+          "text": "Urine mercury levels (>25μg/L is elevated) for elemental and organic mercury\nLevels >300μg/L usually symptomatic\nOrganic mercury poorly excreted\nBlood levels for organic mercury\nHair analysis is not sufficient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-Up": {
+      "text": "Urine and blood mercury levels\nCBC\nChem 7\nType and screen\nRadiographs",
+      "subsections": {
+        "Evaluation_3": {
+          "text": "Urine mercury levels (>25μg/L is elevated) for elemental and organic mercury\nLevels >300μg/L usually symptomatic\nOrganic mercury poorly excreted\nBlood levels for organic mercury\nHair analysis is not sufficient",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_3": {
+      "text": "Urine mercury levels (>25μg/L is elevated) for elemental and organic mercury\nLevels >300μg/L usually symptomatic\nOrganic mercury poorly excreted\nBlood levels for organic mercury\nHair analysis is not sufficient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_2": {
+      "text": "ABC's\nDecontaminate\nOf note, mercury can penetrate through latex and nitrile gloves",
+      "subsections": {
+        "Inhalation_injuries": {
+          "text": "Oxygen\nMay require\nintubation",
+          "tables": []
+        },
+        "Caustic_injuries": {
+          "text": "May consider milk or egg whites\nThought to bind mercury\nWBI",
+          "tables": []
+        },
+        "Chelation_therapy": {
+          "text": "The choice of chelating agent is dependent of the type of mercury poisoning.\nPenicillamine\n250mg PO QID x 1-2wks\nAvoid in renal failure\nDimercaprol\n(BAL) 2.5-5mg IM Q6-12hr\nContraindicated in organic mercury poisoning as can paradoxically increase mercury levels\nDMSA\n(succimer) 10mg/kg TID x 5days then 10mg/kg BID x 14days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        },
+        {
+          "text": "DMSA",
+          "url": "https://wikem.org/wiki/DMSA"
+        }
+      ]
+    },
+    "Inhalation_injuries": {
+      "text": "Oxygen\nMay require\nintubation",
+      "subsections": {
+        "Caustic_injuries": {
+          "text": "May consider milk or egg whites\nThought to bind mercury\nWBI",
+          "tables": []
+        },
+        "Chelation_therapy": {
+          "text": "The choice of chelating agent is dependent of the type of mercury poisoning.\nPenicillamine\n250mg PO QID x 1-2wks\nAvoid in renal failure\nDimercaprol\n(BAL) 2.5-5mg IM Q6-12hr\nContraindicated in organic mercury poisoning as can paradoxically increase mercury levels\nDMSA\n(succimer) 10mg/kg TID x 5days then 10mg/kg BID x 14days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        },
+        {
+          "text": "DMSA",
+          "url": "https://wikem.org/wiki/DMSA"
+        }
+      ]
+    },
+    "Caustic_injuries": {
+      "text": "May consider milk or egg whites\nThought to bind mercury\nWBI",
+      "subsections": {
+        "Chelation_therapy": {
+          "text": "The choice of chelating agent is dependent of the type of mercury poisoning.\nPenicillamine\n250mg PO QID x 1-2wks\nAvoid in renal failure\nDimercaprol\n(BAL) 2.5-5mg IM Q6-12hr\nContraindicated in organic mercury poisoning as can paradoxically increase mercury levels\nDMSA\n(succimer) 10mg/kg TID x 5days then 10mg/kg BID x 14days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        },
+        {
+          "text": "DMSA",
+          "url": "https://wikem.org/wiki/DMSA"
+        }
+      ]
+    },
+    "Chelation_therapy": {
+      "text": "The choice of chelating agent is dependent of the type of mercury poisoning.\nPenicillamine\n250mg PO QID x 1-2wks\nAvoid in renal failure\nDimercaprol\n(BAL) 2.5-5mg IM Q6-12hr\nContraindicated in organic mercury poisoning as can paradoxically increase mercury levels\nDMSA\n(succimer) 10mg/kg TID x 5days then 10mg/kg BID x 14days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Dimercaprol",
+          "url": "https://wikem.org/wiki/Dimercaprol"
+        },
+        {
+          "text": "DMSA",
+          "url": "https://wikem.org/wiki/DMSA"
+        }
+      ]
+    },
+    "See_Also_2": {
+      "text": "Toxicology (main)\nHeavy Metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "The biological monitoring of mercury in the Seychelles study: Methylmercury and human health\nhttp://www.ncbi.nlm.nih.gov/pubmed/8714867\nCognitive performance of children prenatally exposed to \"safe\" level of methylmercury\nhttp://www.ncbi.nlm.nih.gov/pubmed/9600810",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Haddad and Winchester's Clinical Management of Poisoning and Overdose\nGoldfrank's Toxicology\nhttp://en.wikipedia.org/wiki/Mercury(I)_chloride\nhttp://en.wikipedia.org/wiki/Minamata_disease\nhttp://en.wikipedia.org/wiki/1971_Iraq_poison_grain_disaster",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

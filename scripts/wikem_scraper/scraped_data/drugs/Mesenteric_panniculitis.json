@@ -1,0 +1,43 @@
+{
+  "drug_name": "Mesenteric_panniculitis",
+  "url": "https://wikem.org/wiki/Mesenteric_panniculitis",
+  "scraped_at": "2026-01-10T07:57:13.157525",
+  "sections": {
+    "Background": {
+      "text": "Also known as sclerosing mesenteritis, mesenteric lipodystrophy, mesenteric sclerosis, retractile mesenteritis, mesenteric Weber-Christian disease, liposclerotic mesenteritis, lipomatosis and lipogranuloma of the mesentery\n[1]\nA rare, benign, and chronic fibrosing inflammatory disease that affects the adipose tissue of the mesentery (of the small intestine and colon)\n[1]\n.\nOccurs independently (specific cause unknown) or in association with other disorders\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Regional increase in mesenteric fat density on abdominal CT (i.e. “misty mesentery”)\nMay be confirmed by surgical biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive ED treatment\nThere is no standardized treatment, and it may consist of anti-inflammatory or immunosuppressive agents. We recommend resection only when the advanced inflammatory changes become irreversible or in cases of bowel obstruction\nChronic treatment includes workup of underlying etiology and consideration of medical therapy for severe/protracted disease (e.g. corticosteroids, cyclophosphamide, or azathioprine)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Overall prognosis is usually good and recurrence seems to be rare\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

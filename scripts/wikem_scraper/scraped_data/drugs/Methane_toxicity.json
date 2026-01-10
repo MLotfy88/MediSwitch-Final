@@ -1,0 +1,264 @@
+{
+  "drug_name": "Methane_toxicity",
+  "url": "https://wikem.org/wiki/Methane_toxicity",
+  "scraped_at": "2026-01-10T07:57:17.835144",
+  "sections": {
+    "Background": {
+      "text": "Simple asphyxiant\nInert gases that displace oxygen and decrease FiO2\nLighter than air\nExplosive\nNatural production by bacteria in GI tract of humans, other animals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "History": {
+          "text": "Confined space, particularly at work\nMining\nLarge scale animal farming\nFossil fuel industry\nOrganic decomposition\nOther people exposed may have similar symptoms",
+          "tables": []
+        },
+        "Symptoms": {
+          "text": "Wide range, nonspecific\nTachycardia\nTachypnea\nHeadache\nConfusion\nNausea/vomiting\nLOC\nComa\nCardiac arrest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "History": {
+      "text": "Confined space, particularly at work\nMining\nLarge scale animal farming\nFossil fuel industry\nOrganic decomposition\nOther people exposed may have similar symptoms",
+      "subsections": {
+        "Symptoms": {
+          "text": "Wide range, nonspecific\nTachycardia\nTachypnea\nHeadache\nConfusion\nNausea/vomiting\nLOC\nComa\nCardiac arrest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Symptoms": {
+      "text": "Wide range, nonspecific\nTachycardia\nTachypnea\nHeadache\nConfusion\nNausea/vomiting\nLOC\nComa\nCardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Methemoglobinemia\nAltitude related illness\nPrimary CNS disease\nACS",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Altitude related illness",
+          "url": "https://wikem.org/wiki/High_altitude_medicine"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Oxygen saturation - decreased, should improve with removal from exposure\nNo definitive test for methane\nConsider other diagnostic testing to rule out other causes if unsure exposure or lack of improvement:\nEKG\nCXR\nHead CT\nABG\nCarboxyhemoglobin",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical/diagnosis of exclusion\nOften based on history of exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Oxygen saturation - decreased, should improve with removal from exposure\nNo definitive test for methane\nConsider other diagnostic testing to rule out other causes if unsure exposure or lack of improvement:\nEKG\nCXR\nHead CT\nABG\nCarboxyhemoglobin",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical/diagnosis of exclusion\nOften based on history of exposure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical/diagnosis of exclusion\nOften based on history of exposure",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supplemental\noxygen\nOther supportive care as indicated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge\nIf stable vitals, improved mental status, and otherwise asymptomatic\nAdmit\nIf needed for further supportive care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Carbon monoxide toxicity\nInhalant abuse\nToxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "Kuschner WG, Blanc PD. Kuschner W.G., & Blanc P.D. Kuschner, Ware G., and Paul D. Blanc.Gases & Other Airborne Toxicants. In: LaDou J, Harrison RJ. LaDou J, & Harrison R.J.(Eds.),Eds. Joseph LaDou, and Robert J. Harrison.eds. CURRENT Diagnosis & Treatment: Occupational & Environmental Medicine, 6e. McGraw Hill; 2021.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

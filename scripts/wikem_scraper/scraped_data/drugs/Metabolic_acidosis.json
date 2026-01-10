@@ -1,0 +1,388 @@
+{
+  "drug_name": "Metabolic_acidosis",
+  "url": "https://wikem.org/wiki/Metabolic_acidosis",
+  "scraped_at": "2026-01-10T07:57:11.714564",
+  "sections": {
+    "Clinical_Features": {
+      "text": "Compensatory respiratory tachypnea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anion_gap_metabolic_acidosis": {
+          "text": "Lactic acidosis\nSepsis\n,\nshock\n, liver disease,\nCO\n,\nCN\n,\nmetformin\n,\nmethemoglobin\nShort bowel syndrome\nPropylene glycol infusions for\nlorazepam\nand\nphenobarbital\nRenal failure\nUremia\nKetoacidosis\nDKA\nAlcoholic Ketoacidosis\nStarvation ketoacidosis\nIngestions\nAcetaminophen toxicity\nAspirin toxicity\nIncreased osm gap\nMethanol\nEthylene glycol\nNormal osm gap\nSalicylate toxicity\nIron\nINH",
+          "tables": []
+        },
+        "Non-gap": {
+          "text": "Hyperkalemia\nResolving\nDKA\nEarly\nuremic\nacidosis\nEarly obstructive uropathy\nRTA Type IV\nHypoaldosteronism\nK-sparing\ndiuretics\nHypokalemia\nRTA Type I\nRTA Type II\nAcetazolamide\nAcute\ndiarrhea\n(May be assoc with gap if hypoperfusion -> lactic acidosis)\nCKD\nIntestinal, pancreatic, biliary fistula\nHyperchloremic\nIVF\ninfusions\nHyperalimentation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/CN"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "methemoglobin",
+          "url": "https://wikem.org/wiki/Methemoglobin"
+        },
+        {
+          "text": "Short bowel syndrome",
+          "url": "https://wikem.org/wiki/Short_bowel_syndrome"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "Starvation ketoacidosis",
+          "url": "https://wikem.org/wiki/Starvation_ketoacidosis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Aspirin toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "uremic",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "RTA Type IV",
+          "url": "https://wikem.org/wiki/RTA_Type_IV"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "RTA Type I",
+          "url": "https://wikem.org/wiki/RTA_Type_I"
+        },
+        {
+          "text": "RTA Type II",
+          "url": "https://wikem.org/wiki/RTA_Type_II"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Anion_gap_metabolic_acidosis": {
+      "text": "Lactic acidosis\nSepsis\n,\nshock\n, liver disease,\nCO\n,\nCN\n,\nmetformin\n,\nmethemoglobin\nShort bowel syndrome\nPropylene glycol infusions for\nlorazepam\nand\nphenobarbital\nRenal failure\nUremia\nKetoacidosis\nDKA\nAlcoholic Ketoacidosis\nStarvation ketoacidosis\nIngestions\nAcetaminophen toxicity\nAspirin toxicity\nIncreased osm gap\nMethanol\nEthylene glycol\nNormal osm gap\nSalicylate toxicity\nIron\nINH",
+      "subsections": {
+        "Non-gap": {
+          "text": "Hyperkalemia\nResolving\nDKA\nEarly\nuremic\nacidosis\nEarly obstructive uropathy\nRTA Type IV\nHypoaldosteronism\nK-sparing\ndiuretics\nHypokalemia\nRTA Type I\nRTA Type II\nAcetazolamide\nAcute\ndiarrhea\n(May be assoc with gap if hypoperfusion -> lactic acidosis)\nCKD\nIntestinal, pancreatic, biliary fistula\nHyperchloremic\nIVF\ninfusions\nHyperalimentation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "CN",
+          "url": "https://wikem.org/wiki/CN"
+        },
+        {
+          "text": "metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "methemoglobin",
+          "url": "https://wikem.org/wiki/Methemoglobin"
+        },
+        {
+          "text": "Short bowel syndrome",
+          "url": "https://wikem.org/wiki/Short_bowel_syndrome"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Alcoholic Ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_Ketoacidosis"
+        },
+        {
+          "text": "Starvation ketoacidosis",
+          "url": "https://wikem.org/wiki/Starvation_ketoacidosis"
+        },
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Aspirin toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "uremic",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "RTA Type IV",
+          "url": "https://wikem.org/wiki/RTA_Type_IV"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "RTA Type I",
+          "url": "https://wikem.org/wiki/RTA_Type_I"
+        },
+        {
+          "text": "RTA Type II",
+          "url": "https://wikem.org/wiki/RTA_Type_II"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Non-gap": {
+      "text": "Hyperkalemia\nResolving\nDKA\nEarly\nuremic\nacidosis\nEarly obstructive uropathy\nRTA Type IV\nHypoaldosteronism\nK-sparing\ndiuretics\nHypokalemia\nRTA Type I\nRTA Type II\nAcetazolamide\nAcute\ndiarrhea\n(May be assoc with gap if hypoperfusion -> lactic acidosis)\nCKD\nIntestinal, pancreatic, biliary fistula\nHyperchloremic\nIVF\ninfusions\nHyperalimentation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "uremic",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "RTA Type IV",
+          "url": "https://wikem.org/wiki/RTA_Type_IV"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "RTA Type I",
+          "url": "https://wikem.org/wiki/RTA_Type_I"
+        },
+        {
+          "text": "RTA Type II",
+          "url": "https://wikem.org/wiki/RTA_Type_II"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Osm gap = measured osm - calculated osm (normal 10-15)\nCalculated Osm = 2(Na)+(glucose/18)+(BUN/2.8)+(BAL/5)\nPrimary acidosis if pH <7.38\nHCO3 <24 = metabolic acidosis\nAlways determine if there is another acid/base process occurring\nPrimary respiratory acidosis if pCO2 > pCO2expected\nPrimary respiratory alkalosis if pCO2 < pCO2expected\nuse Winter's formula: PCO2 (expected) = (1.5 x [HCO3–] + 8) ± 2\nIn acute setting PCO2 should fall by 1 mmHg for every 1 mEq fall in HCO3\nConcurrent metabolic alkalosis if delta-delta > 28\nDelta-Delta = (AG - 12) + HCO3",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat source\nCorrect any\nrespiratory acidosis\nBicarbonate\nHCO3 dose in mEq = 0.5(wt in kg) x (24 - measured HCO3)\nEach bicarb 0.5mEq/kg causes 1 meq/L rise in HCO3\nConsider for:\nBicarb <4\npH <7.20 AND shock/myocardial irritability\nSevere hyperchloremic acidemia\nlower threshold with non-AG acidosis (greater HCO3 loss)\nLost bicarbonate would take days to replenish",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "Bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acid-base disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acid-base disorders",
+          "url": "https://wikem.org/wiki/Acid-base_disorders"
+        }
+      ]
+    }
+  }
+}
