@@ -1,0 +1,1092 @@
+{
+  "drug_name": "Alcohol_withdrawal_seizures",
+  "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures",
+  "scraped_at": "2026-01-10T07:47:22.346523",
+  "sections": {
+    "Background": {
+      "text": "Onset after last drink: 6-48h\nMultiple seizures: 60% of patients\nProgression to\nDelerium tremens\n: 33% of patients\nMay occur in spectrum or independent of\nAlcohol withdrawal\nsyndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Single or multiple brief tonic-clonic seizures in the appropriate time setting for alcohol withdrawal\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ethanol_related_disease_processes": {
+          "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+          "tables": []
+        },
+        "Seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Ethanol_related_disease_processes": {
+      "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+      "subsections": {
+        "Seizure": {
+          "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Seizure": {
+      "text": "Epileptic\nseizure\nFirst-time seizure\nSeizure with known seizure disorder\nStatus epilepticus\nTemporal lobe epilepsy\nNon-compliance with\nanti-epileptic medications\nHyponatremia\nINH toxicity\nNon-epileptic seizure\nMeningitis\nEncephalitis\nBrain abscess\nIntracranial hemorrhage\nAlcohol withdrawal\nBenzodiazepine withdrawal\nBarbiturate withdrawal\nBaclofen withdrawal\nMetabolic abnormalities:\nhyponatremia\n,\nhypernatremia\n,\nhypocalcemia\n,\nhypomagnesemia\n,\nhypoglycemia\n,\nhyperglycemia\n,\nhepatic failure\n,\nuremia\nEclampsia\nNeurocysticercosis\nPosterior reversible encephalopathy syndrome\nImpact seizure (\nhead trauma\n)\nAcute\nhydrocephalus\nArteriovenous malformation\nSeizure with\nVP shunt\nToxic ingestion\n(amphetamines, anticholinergics, cocaine, INH, organophosphates, TCA, salicylates, lithium, phenothiazines, bupropion, camphor, clozapine, cyclosporine, fluoroquinolones, imipenem, lead, lidocaine, metronidazole, synthetic cannabinoids, theophylline,\nStarfruit\n)\nPsychogenic nonepileptic seizure\n(pseudoseizure)\nIntracranial mass\nSyncope\nHyperventilation syndrome\nMigraine\nheadache\nMovement disorders\nNarcolepsy/cataplexy\nPost-hypoxic myoclonus\n(\nStatus myoclonicus\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "First-time seizure",
+          "url": "https://wikem.org/wiki/First-time_seizure"
+        },
+        {
+          "text": "Seizure with known seizure disorder",
+          "url": "https://wikem.org/wiki/Seizure_with_known_seizure_disorder"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "anti-epileptic medications",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Benzodiazepine withdrawal",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "Barbiturate withdrawal",
+          "url": "https://wikem.org/wiki/Barbiturate_withdrawal"
+        },
+        {
+          "text": "Baclofen withdrawal",
+          "url": "https://wikem.org/wiki/Baclofen_withdrawal"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "Neurocysticercosis",
+          "url": "https://wikem.org/wiki/Cysticercosis"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Arteriovenous malformation",
+          "url": "https://wikem.org/wiki/Arteriovenous_malformation"
+        },
+        {
+          "text": "VP shunt",
+          "url": "https://wikem.org/wiki/VP_shunt"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxic_ingestion"
+        },
+        {
+          "text": "Starfruit",
+          "url": "https://wikem.org/wiki/Starfruit_toxicity"
+        },
+        {
+          "text": "Psychogenic nonepileptic seizure",
+          "url": "https://wikem.org/wiki/Psychogenic_nonepileptic_seizure"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Post-hypoxic myoclonus",
+          "url": "https://wikem.org/wiki/Post-hypoxic_myoclonus"
+        },
+        {
+          "text": "Status myoclonicus",
+          "url": "https://wikem.org/wiki/Status_myoclonicus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Appropriate history with timeline\nClinical features\nElevated CIWA",
+      "subsections": {
+        "CIWA_score": {
+          "text": "Clinical Institute Withdrawal Assessment – Alcohol – revised (CIWA-Ar)\nH\neadache 0-7\nO\nrientation 0-4\nT\nremor 0-7\nS\nweating 0-7\nA\nnxiety 0-7\nN\nausea (and Vomiting) 0-7\nT\nactile Hallucinations 0-7\nA\nuditory Hallucinations 0-7\nV\nisual Hallucinations 0-7\nA\ngitation 0-7\nMaximum Score = 67\n<8: Typically do not require medication\n8-19: Medication\n≥20: Medication and admission",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "CIWA_score": {
+      "text": "Clinical Institute Withdrawal Assessment – Alcohol – revised (CIWA-Ar)\nH\neadache 0-7\nO\nrientation 0-4\nT\nremor 0-7\nS\nweating 0-7\nA\nnxiety 0-7\nN\nausea (and Vomiting) 0-7\nT\nactile Hallucinations 0-7\nA\nuditory Hallucinations 0-7\nV\nisual Hallucinations 0-7\nA\ngitation 0-7\nMaximum Score = 67\n<8: Typically do not require medication\n8-19: Medication\n≥20: Medication and admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Don’t use\nphenytoin\nor\nfosphenytoin\nto treat seizures caused by drug toxicity or drug withdrawal.\n[2]",
+      "subsections": {
+        "Benzodiazepine_overview": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agents": "Chlordiazepoxide",
+                "Equivalent PO dose (mg)": "25",
+                "Route": "PO, IV",
+                "Onset of Action (min)": "30 - 120",
+                "Half Life (hr)": "7-28",
+                "Metabolism": "CYP; active metabolites"
+              },
+              {
+                "Agents": "Diazepam",
+                "Equivalent PO dose (mg)": "5",
+                "Route": "PO, IV, IM",
+                "Onset of Action (min)": "2 - 5",
+                "Half Life (hr)": "20-120",
+                "Metabolism": "CYP; active metabolites"
+              },
+              {
+                "Agents": "Lorazepam",
+                "Equivalent PO dose (mg)": "1",
+                "Route": "PO, IM, IV",
+                "Onset of Action (min)": "15-20",
+                "Half Life (hr)": "8-19",
+                "Metabolism": "Glucuronidation"
+              }
+            ]
+          ]
+        },
+        "Benzodiazepines": {
+          "text": "Diazepam\n(Valium) 5-10 mg IV (depending on severity)\nMay repeat q5-10 min for severe withdrawal (may increase dose by 10 mg every 5-10 min until desired effect achieved, max dose of 200 mg)\nHalf-life 20-100 h (long acting)\nLorazepam\n(Ativan) 1-4mg IV (depending on severity)\nMay repeat q15-20 min for severe withdrawal (titrated to effect)\nRarely causes hepatitis, as opposed to diazepam which may cause a cholestatic hepatitis\n[3]\nHalf-life 10-20 h (medium acting)",
+          "tables": []
+        },
+        "Other_Agents": {
+          "text": "For use in cases refractory to\nbenzodiazepine\ntreatment\nPropofol\nIf patient does not respond to high doses of\nbenzodiazepines\n0.3-1.25 mg/kg up to 4 mg/kg/hr (consider intubation), for up to 48 hours\nBarbiturates\n(\nPhenobarbital\n)\nUsed when refractory to\nbenzodiazepines\n(consider after patient has received equivalent of 200 mg diazepam)\nPhenobarbital\n130-260 mg IV q 15-20 minutes\nCan also be used as a first line load at 10 mg/kg prior to giving benzodiazepines to decrease benzodiazepine requirements and ICU admissions\n[4]\nα-2 agonists (\nDexmedetomidine\n)\nDecrease severity of symptoms, but only supplemental to GABA-ergic first-lines\nDexmedetomidine drip, start 0.2 mcg/kg/hr, likely needing no more than 0.7 mcg/kg/hr\n[5]\nKetamine\nMay have some use in refractory cases\nBlocks the NMDA receptor which is excited an unregulated.\n[6]",
+          "tables": []
+        },
+        "Special_Situations": {
+          "text": "The propylene glycol diluent in\nlorazepam\n,\nphenobarbital\n, and\ndiazepam\n, may induce a hyperosmolar anion gap\nmetabolic acidosis\nif given as a drip in high doses ≥ 48hrs.\n[7]\nConsider alternatives such as\npropofol\nor\ndexmedetomidine\nif patients need long term sedation for\ndelirium tremens\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        }
+      ]
+    },
+    "Benzodiazepine_overview": {
+      "text": "",
+      "subsections": {
+        "Benzodiazepines": {
+          "text": "Diazepam\n(Valium) 5-10 mg IV (depending on severity)\nMay repeat q5-10 min for severe withdrawal (may increase dose by 10 mg every 5-10 min until desired effect achieved, max dose of 200 mg)\nHalf-life 20-100 h (long acting)\nLorazepam\n(Ativan) 1-4mg IV (depending on severity)\nMay repeat q15-20 min for severe withdrawal (titrated to effect)\nRarely causes hepatitis, as opposed to diazepam which may cause a cholestatic hepatitis\n[3]\nHalf-life 10-20 h (medium acting)",
+          "tables": []
+        },
+        "Other_Agents": {
+          "text": "For use in cases refractory to\nbenzodiazepine\ntreatment\nPropofol\nIf patient does not respond to high doses of\nbenzodiazepines\n0.3-1.25 mg/kg up to 4 mg/kg/hr (consider intubation), for up to 48 hours\nBarbiturates\n(\nPhenobarbital\n)\nUsed when refractory to\nbenzodiazepines\n(consider after patient has received equivalent of 200 mg diazepam)\nPhenobarbital\n130-260 mg IV q 15-20 minutes\nCan also be used as a first line load at 10 mg/kg prior to giving benzodiazepines to decrease benzodiazepine requirements and ICU admissions\n[4]\nα-2 agonists (\nDexmedetomidine\n)\nDecrease severity of symptoms, but only supplemental to GABA-ergic first-lines\nDexmedetomidine drip, start 0.2 mcg/kg/hr, likely needing no more than 0.7 mcg/kg/hr\n[5]\nKetamine\nMay have some use in refractory cases\nBlocks the NMDA receptor which is excited an unregulated.\n[6]",
+          "tables": []
+        },
+        "Special_Situations": {
+          "text": "The propylene glycol diluent in\nlorazepam\n,\nphenobarbital\n, and\ndiazepam\n, may induce a hyperosmolar anion gap\nmetabolic acidosis\nif given as a drip in high doses ≥ 48hrs.\n[7]\nConsider alternatives such as\npropofol\nor\ndexmedetomidine\nif patients need long term sedation for\ndelirium tremens\n.",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Agents": "Chlordiazepoxide",
+            "Equivalent PO dose (mg)": "25",
+            "Route": "PO, IV",
+            "Onset of Action (min)": "30 - 120",
+            "Half Life (hr)": "7-28",
+            "Metabolism": "CYP; active metabolites"
+          },
+          {
+            "Agents": "Diazepam",
+            "Equivalent PO dose (mg)": "5",
+            "Route": "PO, IV, IM",
+            "Onset of Action (min)": "2 - 5",
+            "Half Life (hr)": "20-120",
+            "Metabolism": "CYP; active metabolites"
+          },
+          {
+            "Agents": "Lorazepam",
+            "Equivalent PO dose (mg)": "1",
+            "Route": "PO, IM, IV",
+            "Onset of Action (min)": "15-20",
+            "Half Life (hr)": "8-19",
+            "Metabolism": "Glucuronidation"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        }
+      ]
+    },
+    "Benzodiazepines": {
+      "text": "Diazepam\n(Valium) 5-10 mg IV (depending on severity)\nMay repeat q5-10 min for severe withdrawal (may increase dose by 10 mg every 5-10 min until desired effect achieved, max dose of 200 mg)\nHalf-life 20-100 h (long acting)\nLorazepam\n(Ativan) 1-4mg IV (depending on severity)\nMay repeat q15-20 min for severe withdrawal (titrated to effect)\nRarely causes hepatitis, as opposed to diazepam which may cause a cholestatic hepatitis\n[3]\nHalf-life 10-20 h (medium acting)",
+      "subsections": {
+        "Other_Agents": {
+          "text": "For use in cases refractory to\nbenzodiazepine\ntreatment\nPropofol\nIf patient does not respond to high doses of\nbenzodiazepines\n0.3-1.25 mg/kg up to 4 mg/kg/hr (consider intubation), for up to 48 hours\nBarbiturates\n(\nPhenobarbital\n)\nUsed when refractory to\nbenzodiazepines\n(consider after patient has received equivalent of 200 mg diazepam)\nPhenobarbital\n130-260 mg IV q 15-20 minutes\nCan also be used as a first line load at 10 mg/kg prior to giving benzodiazepines to decrease benzodiazepine requirements and ICU admissions\n[4]\nα-2 agonists (\nDexmedetomidine\n)\nDecrease severity of symptoms, but only supplemental to GABA-ergic first-lines\nDexmedetomidine drip, start 0.2 mcg/kg/hr, likely needing no more than 0.7 mcg/kg/hr\n[5]\nKetamine\nMay have some use in refractory cases\nBlocks the NMDA receptor which is excited an unregulated.\n[6]",
+          "tables": []
+        },
+        "Special_Situations": {
+          "text": "The propylene glycol diluent in\nlorazepam\n,\nphenobarbital\n, and\ndiazepam\n, may induce a hyperosmolar anion gap\nmetabolic acidosis\nif given as a drip in high doses ≥ 48hrs.\n[7]\nConsider alternatives such as\npropofol\nor\ndexmedetomidine\nif patients need long term sedation for\ndelirium tremens\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        }
+      ]
+    },
+    "Other_Agents": {
+      "text": "For use in cases refractory to\nbenzodiazepine\ntreatment\nPropofol\nIf patient does not respond to high doses of\nbenzodiazepines\n0.3-1.25 mg/kg up to 4 mg/kg/hr (consider intubation), for up to 48 hours\nBarbiturates\n(\nPhenobarbital\n)\nUsed when refractory to\nbenzodiazepines\n(consider after patient has received equivalent of 200 mg diazepam)\nPhenobarbital\n130-260 mg IV q 15-20 minutes\nCan also be used as a first line load at 10 mg/kg prior to giving benzodiazepines to decrease benzodiazepine requirements and ICU admissions\n[4]\nα-2 agonists (\nDexmedetomidine\n)\nDecrease severity of symptoms, but only supplemental to GABA-ergic first-lines\nDexmedetomidine drip, start 0.2 mcg/kg/hr, likely needing no more than 0.7 mcg/kg/hr\n[5]\nKetamine\nMay have some use in refractory cases\nBlocks the NMDA receptor which is excited an unregulated.\n[6]",
+      "subsections": {
+        "Special_Situations": {
+          "text": "The propylene glycol diluent in\nlorazepam\n,\nphenobarbital\n, and\ndiazepam\n, may induce a hyperosmolar anion gap\nmetabolic acidosis\nif given as a drip in high doses ≥ 48hrs.\n[7]\nConsider alternatives such as\npropofol\nor\ndexmedetomidine\nif patients need long term sedation for\ndelirium tremens\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "Dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        }
+      ]
+    },
+    "Special_Situations": {
+      "text": "The propylene glycol diluent in\nlorazepam\n,\nphenobarbital\n, and\ndiazepam\n, may induce a hyperosmolar anion gap\nmetabolic acidosis\nif given as a drip in high doses ≥ 48hrs.\n[7]\nConsider alternatives such as\npropofol\nor\ndexmedetomidine\nif patients need long term sedation for\ndelirium tremens\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "phenobarbital",
+          "url": "https://wikem.org/wiki/Phenobarbital"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "delirium tremens",
+          "url": "https://wikem.org/wiki/Delirium_tremens"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Alcohol withdrawal\nDelerium tremens\nEBQ:Outpatient use of benzodiazepines for the treatment of acute alcohol withdrawal\nSeizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "EBQ:Outpatient use of benzodiazepines for the treatment of acute alcohol withdrawal",
+          "url": "https://wikem.org/wiki/EBQ:Outpatient_use_of_benzodiazepines_for_the_treatment_of_acute_alcohol_withdrawal"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - CIWA-AR Calculator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "drug_name": "Airbag_injuries",
+  "url": "https://wikem.org/wiki/Airbag_injuries",
+  "scraped_at": "2026-01-10T07:47:18.788439",
+  "sections": {
+    "Background": {
+      "text": "Airbag deployment can cause injury via multiple mechanisms, such as:\nCaustic injuries from aerosolized alkali (including sodium hydroxide and sodium carbonate)\nBlunt trauma from direct contact with airbag\nRapid deceleration and associated flexion and/or hyperextension injuries",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Burns": {
+          "text": "Usually minor\nRelated to direct contact with skin or heat from melted clothing\nDeployment releases small amount of alkali\nSkin burns are usually minor\nOcular burns require irrigation, pH testing and ophtho follow up\nLong-term sequelae are rare",
+          "tables": []
+        },
+        "Ocular_Injuries": {
+          "text": "Chemical keratitis\nCorneal Abrasion",
+          "tables": []
+        },
+        "Cervical_and_Thoracic_Spine_Injuries": {
+          "text": "see\nCervical spine fractures and dislocations\nsee\nThoracic trauma",
+          "tables": []
+        },
+        "Myocardial_rupture": {
+          "text": "Uncommon complication\nCan exist with barotrauma alone with the absence of rib fractures\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal Abrasion",
+          "url": "https://wikem.org/wiki/Corneal_Abrasion"
+        },
+        {
+          "text": "Cervical spine fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_spine_fractures_and_dislocations"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Usually minor\nRelated to direct contact with skin or heat from melted clothing\nDeployment releases small amount of alkali\nSkin burns are usually minor\nOcular burns require irrigation, pH testing and ophtho follow up\nLong-term sequelae are rare",
+      "subsections": {
+        "Ocular_Injuries": {
+          "text": "Chemical keratitis\nCorneal Abrasion",
+          "tables": []
+        },
+        "Cervical_and_Thoracic_Spine_Injuries": {
+          "text": "see\nCervical spine fractures and dislocations\nsee\nThoracic trauma",
+          "tables": []
+        },
+        "Myocardial_rupture": {
+          "text": "Uncommon complication\nCan exist with barotrauma alone with the absence of rib fractures\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal Abrasion",
+          "url": "https://wikem.org/wiki/Corneal_Abrasion"
+        },
+        {
+          "text": "Cervical spine fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_spine_fractures_and_dislocations"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Ocular_Injuries": {
+      "text": "Chemical keratitis\nCorneal Abrasion",
+      "subsections": {
+        "Cervical_and_Thoracic_Spine_Injuries": {
+          "text": "see\nCervical spine fractures and dislocations\nsee\nThoracic trauma",
+          "tables": []
+        },
+        "Myocardial_rupture": {
+          "text": "Uncommon complication\nCan exist with barotrauma alone with the absence of rib fractures\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Corneal Abrasion",
+          "url": "https://wikem.org/wiki/Corneal_Abrasion"
+        },
+        {
+          "text": "Cervical spine fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_spine_fractures_and_dislocations"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Cervical_and_Thoracic_Spine_Injuries": {
+      "text": "see\nCervical spine fractures and dislocations\nsee\nThoracic trauma",
+      "subsections": {
+        "Myocardial_rupture": {
+          "text": "Uncommon complication\nCan exist with barotrauma alone with the absence of rib fractures\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical spine fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_spine_fractures_and_dislocations"
+        },
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        }
+      ]
+    },
+    "Myocardial_rupture": {
+      "text": "Uncommon complication\nCan exist with barotrauma alone with the absence of rib fractures\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Depends on location/type of suspected injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Skin\n: basic burn care\nEye\n: copious irrigation, pH testing, ophthalmology consult\nConsider conservative management with antibiotics, and a short course of steroids\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Skin",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        },
+        {
+          "text": "Eye",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on type and severity of injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Caustic keratoconjunctivitis\nBurns\nCaustic burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        }
+      ]
+    }
+  }
+}

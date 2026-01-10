@@ -1,0 +1,542 @@
+{
+  "drug_name": "Air_Force_Active_Duty",
+  "url": "https://wikem.org/wiki/Air_Force_Active_Duty",
+  "scraped_at": "2026-01-10T07:47:16.651421",
+  "sections": {
+    "Deployment_Jobs": {
+      "text": "Ground Surgical Teams (GST)\nCritical Care Air Transport Teams (CCATT)\nTactical Critical Care Evacuation Team (TCCET)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Active_Duty_Locations_with_Emergency_Department": {
+      "text": "",
+      "subsections": {
+        "Andrews_AFB": {
+          "text": "Washington DC\nJoint base with Navy and Air Force\nLower acuity ER/Urgent Care\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Bethesda-Uniformed_Services_University_of_the_Health_Sciences_(USUHS)": {
+          "text": "Bethesda, Maryland\nUndergraduate military programs (Naval and Air Force Academy)\nMedical, nursing, graduate schools",
+          "tables": []
+        },
+        "University_of_Alabama_at_Birmingham": {
+          "text": "Birmingham, Alabama\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Eglin_AFB": {
+          "text": "Valparaiso, Florida\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Elmendorf_AFB": {
+          "text": "Anchorage, Alaska\nJoint DOD and VA patients",
+          "tables": []
+        },
+        "Hurlburt_Field": {
+          "text": "Part of Eglin AFB\nMary Esther, Florida\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Keesler_AFB": {
+          "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Andrews_AFB": {
+      "text": "Washington DC\nJoint base with Navy and Air Force\nLower acuity ER/Urgent Care\nSupports GST, CCATT, and TCCET",
+      "subsections": {
+        "Bethesda-Uniformed_Services_University_of_the_Health_Sciences_(USUHS)": {
+          "text": "Bethesda, Maryland\nUndergraduate military programs (Naval and Air Force Academy)\nMedical, nursing, graduate schools",
+          "tables": []
+        },
+        "University_of_Alabama_at_Birmingham": {
+          "text": "Birmingham, Alabama\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Eglin_AFB": {
+          "text": "Valparaiso, Florida\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Elmendorf_AFB": {
+          "text": "Anchorage, Alaska\nJoint DOD and VA patients",
+          "tables": []
+        },
+        "Hurlburt_Field": {
+          "text": "Part of Eglin AFB\nMary Esther, Florida\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Keesler_AFB": {
+          "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "University_of_Alabama_at_Birmingham": {
+      "text": "Birmingham, Alabama\nSpecial Operations Assignment",
+      "subsections": {
+        "Eglin_AFB": {
+          "text": "Valparaiso, Florida\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Elmendorf_AFB": {
+          "text": "Anchorage, Alaska\nJoint DOD and VA patients",
+          "tables": []
+        },
+        "Hurlburt_Field": {
+          "text": "Part of Eglin AFB\nMary Esther, Florida\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Keesler_AFB": {
+          "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Eglin_AFB": {
+      "text": "Valparaiso, Florida\nSupports GST, CCATT, and TCCET",
+      "subsections": {
+        "Elmendorf_AFB": {
+          "text": "Anchorage, Alaska\nJoint DOD and VA patients",
+          "tables": []
+        },
+        "Hurlburt_Field": {
+          "text": "Part of Eglin AFB\nMary Esther, Florida\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Keesler_AFB": {
+          "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elmendorf_AFB": {
+      "text": "Anchorage, Alaska\nJoint DOD and VA patients",
+      "subsections": {
+        "Hurlburt_Field": {
+          "text": "Part of Eglin AFB\nMary Esther, Florida\nSpecial Operations Assignment",
+          "tables": []
+        },
+        "Keesler_AFB": {
+          "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hurlburt_Field": {
+      "text": "Part of Eglin AFB\nMary Esther, Florida\nSpecial Operations Assignment",
+      "subsections": {
+        "Keesler_AFB": {
+          "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+          "tables": []
+        },
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Keesler_AFB": {
+      "text": "Biloxi, Mississippi\nSupports GST, CCATT, and TCCET",
+      "subsections": {
+        "Lakenheath_AFB": {
+          "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lakenheath_AFB": {
+      "text": "Suffolk, England\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+      "subsections": {
+        "Langley_AFB": {
+          "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Langley_AFB": {
+      "text": "Hampton, Virginia\nSupports GST and TCCET, no CCATT",
+      "subsections": {
+        "Landstuhl_Regional_Medical_Center": {
+          "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+          "tables": []
+        },
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Landstuhl_Regional_Medical_Center": {
+      "text": "Landstuhl, Germany\nLargest military hospital outside continental United States\nClosest medical treatment facility for wounded soldiers from Afghanistan and Iraq\nHighly desired location\nDifficult to be stationed here directly out of residency\nPreference given to those with military experience\nSupports GST",
+      "subsections": {
+        "Nellis_AFB": {
+          "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+          "tables": []
+        },
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nellis_AFB": {
+      "text": "Las Vegas, Nevada\nJoint DOD and VA patients\nAssociated with University Medical Center (UMC)\nSupports GST and TCCET, no CCATT",
+      "subsections": {
+        "Osan_Air_Base": {
+          "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+          "tables": []
+        },
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Osan_Air_Base": {
+      "text": "Pyeongtaek, South Korea\nOverseeing family medicine physicians in Urgent Care setting\n1-year remote tour (no funding for spouse)\nSometimes can commit to 2 years and they may provide funding for spouse (case by case basis)\nTypically if you commit to remote tour, you can get first pick at location for following assignment",
+      "subsections": {
+        "San_Antonio_Uniformed_Health_Services_Education_Consortium_(SAUSHEC)": {
+          "text": "San Antonio, Texas\nJoint Army and Air Force base\nAcademic attending position (military residency)\nOnly Level I Trauma Center in the DOD\nBurn Center\nHighest acuity of all locations\nAlso do shifts at Lackland AFB in San Antonio (smaller, community-like ED)\nCan moonlight after one year of being stationed at this location",
+          "tables": []
+        },
+        "Travis_AFB": {
+          "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+          "tables": []
+        },
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Travis_AFB": {
+      "text": "Vacaville, California\nJoint DOD and VA patients\nSecond highest acuity of all locations\nCan moonlight immediately",
+      "subsections": {
+        "Wright-Patterson_AFB": {
+          "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Wright-Patterson_AFB": {
+      "text": "Dayton, Ohio\nAssociated with Wright State University and civilian residency program",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Assignment_Priority": {
+      "text": "Those that completed hardship tour in Osan\nThose already active duty elsewhere and want to change location (permanent change of station, or PCS)\nThose that have spouse in military\nGraduating residents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Approved_Fellowships": {
+      "text": "Toxicology\nEmergency Medical Services (EMS)\nUltrasound\nCritical Care",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

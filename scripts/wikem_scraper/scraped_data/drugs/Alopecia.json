@@ -1,0 +1,87 @@
+{
+  "drug_name": "Alopecia",
+  "url": "https://wikem.org/wiki/Alopecia",
+  "scraped_at": "2026-01-10T07:47:26.950307",
+  "sections": {
+    "Background": {
+      "text": "Alopecia is defined as hair loss\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hair loss\nThe pattern of hair loss can help determine diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Alopecia areata\nLupus\nTrauma -\nBurns\n, Direct Trauma\nSyphilis\nHair pulling -\nTrichotillomania\nTinea\nCapitis\nRadiation\nOncologic\nMale pattern baldness\nStress - Telogen effluvium\nTrichotillomania",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Trichotillomania",
+          "url": "https://wikem.org/wiki/Trichotillomania"
+        },
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        },
+        {
+          "text": "Trichotillomania",
+          "url": "https://wikem.org/wiki/Trichotillomania"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Careful history and physical\nMostly clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat the underlying cause\nFinasteride 1mg daily and topical minoxidil 5% is FDA approved for the treatment of androgenic alopecia in males\nTinea treated with either topical or systemic antifungals\nDermatology referral especially for cicatrial alopecia (inflammatory disorders of scalp that lead to permanent hair loss)\nPsych referral for trichotillomania",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Per underlying cause where\nacute radiation syndrome\n,\nthyroid\ndysfunction, and\nburns\nmay require admission\nDischarge with appropriate referral",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute radiation syndrome",
+          "url": "https://wikem.org/wiki/Acute_radiation_syndrome"
+        },
+        {
+          "text": "thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "National Alopecia Arata Foundation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

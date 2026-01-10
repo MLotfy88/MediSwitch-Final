@@ -1,0 +1,758 @@
+{
+  "drug_name": "Amaurosis_fugax",
+  "url": "https://wikem.org/wiki/Amaurosis_fugax",
+  "scraped_at": "2026-01-10T07:47:25.479753",
+  "sections": {
+    "Background": {
+      "text": "Transient painless\nvisual loss\ncaused by either circulatory, ocular or a neurologic condition. Vision loss can last a few seconds to minutes.\n[1]\nFugax is greek for \"fleeing\"\nGreatest suspicion in assessing these patients should be to evaluation for acute\nstroke\nand embolic phenomenon as that will carry the greatest mortality\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Patients report complete blackening of vision.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Causes are divided into\nembolic\n,\nhemodynamic\n,\nocular\n,\nneurologic\n, and\nidiopathic\n[3]",
+      "subsections": {
+        "Embolic": {
+          "text": "Carotid emboli or Cardiac emboli in origin causing\nCentral Retinal Artery Occlusion (CRAO)\nCentral Retinal Vein Occlusion (CRVO)\nDrug abuse-related intravascular emboli",
+          "tables": []
+        },
+        "Vascular/Hemodynamic": {
+          "text": "Carotid stenosis\nArteritis (\nTemporal arteritis\n,\nTakayasu arteritis\n)\nHypoperfusion (\nCHF\n,\nHyperviscosity syndrome\n, hypercoagulable state)\n[4]\n[5]",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Ischemic optic neuropathy\nCentral Retinal Artery Occlusion (CRAO)\nCentral Retinal Vein Occlusion (CRVO)\nNonvascular causes\nRetinal Detachment\nVitreous hemorrhage\nMalignancy",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Migraine\n[6]\nPapilledema\nOptic neuritis\nIntracranial mass\nIntracranial hemorrhage\nMultiple Sclerosis\nPsychogenic",
+          "tables": []
+        },
+        "Idiopathic": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal Detachment",
+          "url": "https://wikem.org/wiki/Retinal_Detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Embolic": {
+      "text": "Carotid emboli or Cardiac emboli in origin causing\nCentral Retinal Artery Occlusion (CRAO)\nCentral Retinal Vein Occlusion (CRVO)\nDrug abuse-related intravascular emboli",
+      "subsections": {
+        "Vascular/Hemodynamic": {
+          "text": "Carotid stenosis\nArteritis (\nTemporal arteritis\n,\nTakayasu arteritis\n)\nHypoperfusion (\nCHF\n,\nHyperviscosity syndrome\n, hypercoagulable state)\n[4]\n[5]",
+          "tables": []
+        },
+        "Ocular": {
+          "text": "Ischemic optic neuropathy\nCentral Retinal Artery Occlusion (CRAO)\nCentral Retinal Vein Occlusion (CRVO)\nNonvascular causes\nRetinal Detachment\nVitreous hemorrhage\nMalignancy",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Migraine\n[6]\nPapilledema\nOptic neuritis\nIntracranial mass\nIntracranial hemorrhage\nMultiple Sclerosis\nPsychogenic",
+          "tables": []
+        },
+        "Idiopathic": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal Detachment",
+          "url": "https://wikem.org/wiki/Retinal_Detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Vascular/Hemodynamic": {
+      "text": "Carotid stenosis\nArteritis (\nTemporal arteritis\n,\nTakayasu arteritis\n)\nHypoperfusion (\nCHF\n,\nHyperviscosity syndrome\n, hypercoagulable state)\n[4]\n[5]",
+      "subsections": {
+        "Ocular": {
+          "text": "Ischemic optic neuropathy\nCentral Retinal Artery Occlusion (CRAO)\nCentral Retinal Vein Occlusion (CRVO)\nNonvascular causes\nRetinal Detachment\nVitreous hemorrhage\nMalignancy",
+          "tables": []
+        },
+        "Neurologic": {
+          "text": "Migraine\n[6]\nPapilledema\nOptic neuritis\nIntracranial mass\nIntracranial hemorrhage\nMultiple Sclerosis\nPsychogenic",
+          "tables": []
+        },
+        "Idiopathic": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Carotid stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal Detachment",
+          "url": "https://wikem.org/wiki/Retinal_Detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Ocular": {
+      "text": "Ischemic optic neuropathy\nCentral Retinal Artery Occlusion (CRAO)\nCentral Retinal Vein Occlusion (CRVO)\nNonvascular causes\nRetinal Detachment\nVitreous hemorrhage\nMalignancy",
+      "subsections": {
+        "Neurologic": {
+          "text": "Migraine\n[6]\nPapilledema\nOptic neuritis\nIntracranial mass\nIntracranial hemorrhage\nMultiple Sclerosis\nPsychogenic",
+          "tables": []
+        },
+        "Idiopathic": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Central Retinal Artery Occlusion (CRAO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Artery_Occlusion_(CRAO)"
+        },
+        {
+          "text": "Central Retinal Vein Occlusion (CRVO)",
+          "url": "https://wikem.org/wiki/Central_Retinal_Vein_Occlusion_(CRVO)"
+        },
+        {
+          "text": "Retinal Detachment",
+          "url": "https://wikem.org/wiki/Retinal_Detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Neurologic": {
+      "text": "Migraine\n[6]\nPapilledema\nOptic neuritis\nIntracranial mass\nIntracranial hemorrhage\nMultiple Sclerosis\nPsychogenic",
+      "subsections": {
+        "Idiopathic": {
+          "text": "Diagnosis of exclusion",
+          "tables": []
+        },
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Idiopathic": {
+      "text": "Diagnosis of exclusion",
+      "subsections": {
+        "Acute_Vision_Loss_(Noninflamed)": {
+          "text": "Painful\nArteritic anterior ischemic optic neuropathy\nOptic neuritis\nTemporal arteritis\n†\nPainless\nAmaurosis fugax\nCentral retinal artery occlusion\n(CRAO)\n†\nCentral retinal vein occlusion\n(CRVO)\n†\nHigh altitude retinopathy\nOpen-angle glaucoma\nPosterior reversible encephalopathy syndrome\n(PRES)\nRetinal detachment\n†\nStroke\n†\nVitreous hemorrhage\nTraumatic optic neuropathy\n(although may have pain from the trauma)\n†\nEmergent Diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Optic neuritis",
+          "url": "https://wikem.org/wiki/Optic_neuritis"
+        },
+        {
+          "text": "Temporal arteritis",
+          "url": "https://wikem.org/wiki/Temporal_arteritis"
+        },
+        {
+          "text": "Central retinal artery occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_artery_occlusion"
+        },
+        {
+          "text": "Central retinal vein occlusion",
+          "url": "https://wikem.org/wiki/Central_retinal_vein_occlusion"
+        },
+        {
+          "text": "High altitude retinopathy",
+          "url": "https://wikem.org/wiki/High_altitude_retinopathy"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        },
+        {
+          "text": "Posterior reversible encephalopathy syndrome",
+          "url": "https://wikem.org/wiki/Posterior_reversible_encephalopathy_syndrome"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Workup will focus will vary significantly based on the differential and clinical presentation\nIn general it includes:\nECG\nCT brain\nnon con and CTA head and neck\nCXR\nBasic Metabolic Panel\nCBC (to assess for severe anemia or thrombocytosis)\nINR (if patient is anticoagulated)\nMRI\n(if suspicion for\nCVA\n,\nMultiple Sclerosis\n, or undifferentiated\nmass lesion\n)\nOcular ultrasound\n(evaluate for\nretinal detachment\nor\nhemorrhage\n)\nESR/CRP\n(evaluate for\nTemporal Arteritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CT brain",
+          "url": "https://wikem.org/wiki/CT_brain"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Multiple Sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis"
+        },
+        {
+          "text": "mass lesion",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Ocular ultrasound",
+          "url": "https://wikem.org/wiki/Ocular_ultrasound"
+        },
+        {
+          "text": "retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Temporal Arteritis",
+          "url": "https://wikem.org/wiki/Temporal_Arteritis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Management also varies also based final diagnosis\nIntrinsic ocular causes require ophtho evaluation and referral\nCardiologic cause requires admission and cardiology consultation\nNeurologic causes require admission and neurologic consultation\nHematologic causes or vasculitis related causes will require sub specialist consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Close follow-up or admission depending on the final determined cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute vision loss (noninflamed)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute vision loss (noninflamed)",
+          "url": "https://wikem.org/wiki/Acute_vision_loss_(noninflamed)"
+        }
+      ]
+    }
+  }
+}

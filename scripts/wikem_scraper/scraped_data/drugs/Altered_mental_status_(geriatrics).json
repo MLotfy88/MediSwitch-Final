@@ -1,0 +1,241 @@
+{
+  "drug_name": "Altered_mental_status_(geriatrics)",
+  "url": "https://wikem.org/wiki/Altered_mental_status_(geriatrics)",
+  "scraped_at": "2026-01-10T07:47:25.999277",
+  "sections": {
+    "Background": {
+      "text": "Elderly patients present differently with common issues\nUnique aspects of elderly altered mental status\nSee\naltered mental status\nfor complete differential list\nDementia\nshould be diagnosis of exclusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    },
+    "Infectious": {
+      "text": "Encephalitis\nMental status changes - personality/behavior changes\nUnlikely to have\nfevers\n, meningismus\nHigh risk: same for meningitis, live near water\nMeningitis\nUsually other etiology for altered mental status, but if negative workup do LP\nConsider\nAmpicillin\nfor\nlisteria\nConsider\nacyclovir\nfor\nHSV\nHigh risk:\nHIV\n,\nDM\n, malignancy, s/p\nceftriaxone\n, prior neurosurgery,\nalcoholism\n, recent\nsinusitis\nPneumonia\nFalse negative\nCXR\n~15-20%\nHigh morbidity\nUTI\nVery common etiology for altered mental status in elderly\nStraight cath\nUA\nResistant organisms likely, look up old urine culture + sensitivity\nHigh risk: pelvic relaxation, indwelling foley >2wks (check for one!), BPH, history prostate cancer\nCholecystitis\nMay not have\nRUQ pain\nor GI symptoms\nAsk about history of gallstones/\nUS RUQ\nSkin/Soft Tissue\nCompletely undress to examine\nOften\ndecubitus ulcers\npresent\nOld photos helpful\nConsider fistula,\nosteomyelitis\n,\nnecrotizing fasciitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "fevers",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "listeria",
+          "url": "https://wikem.org/wiki/Listeria"
+        },
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "alcoholism",
+          "url": "https://wikem.org/wiki/Alcoholism"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        },
+        {
+          "text": "US RUQ",
+          "url": "https://wikem.org/wiki/RUQ_Ultrasound"
+        },
+        {
+          "text": "decubitus ulcers",
+          "url": "https://wikem.org/wiki/Decubitus_ulcers"
+        },
+        {
+          "text": "osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    },
+    "Metabolic/Toxic/Polypharmacy": {
+      "text": "Withdrawal/Overdose\nChronic\nopioid\n/\nbenzodiazepine\n/\nzolpidem\n(Ambien) use\nETOH abuse\n- may not experience\ntremors\nin\nETOH withdrawal\nPolypharmacy\nNSAIDS\n- may be taking multiple\nLong term\nASA\nSteroids\nSedatives\n/Psychoactives\nAnticholinergics\n- many OTC\nMeperidine\n,\ncimetidine\n,\nranitidine\n,\nTCAs\n, antiparkinson,\nantipsychotics\n,\ndiphenhydramine\nDietary - teas, supplements\nOther\nCardiac Ischemia\n- no chest pain needed\nSeizure\nv Post ictal\nUrinary retention\n-\nuremia\nFecal impaction\nOccult\nmesenteric ischemia\nElectrolyte abnormalities\n(e.g. Ca/Mg/Phos)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "zolpidem",
+          "url": "https://wikem.org/wiki/Zolpidem"
+        },
+        {
+          "text": "ETOH abuse",
+          "url": "https://wikem.org/wiki/ETOH_abuse"
+        },
+        {
+          "text": "tremors",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "ETOH withdrawal",
+          "url": "https://wikem.org/wiki/ETOH_withdrawal"
+        },
+        {
+          "text": "NSAIDS",
+          "url": "https://wikem.org/wiki/NSAIDS"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        },
+        {
+          "text": "ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Cardiac Ischemia",
+          "url": "https://wikem.org/wiki/Cardiac_Ischemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Urinary retention",
+          "url": "https://wikem.org/wiki/Urinary_retention"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Altered Mental Status\nGeriatrics (Main)\nhttps://www.aliem.com/2013/08/a-time-based-approach-to-elderly-patients-with-altered-mental-status/",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        },
+        {
+          "text": "Geriatrics (Main)",
+          "url": "https://wikem.org/wiki/Geriatrics_(Main)"
+        }
+      ]
+    },
+    "References": {
+      "text": "ACEP Academic Affairs Committee Geriatric Video lecture series\nSAEM Academy of Geriatric Emergency Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

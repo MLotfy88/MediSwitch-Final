@@ -1,0 +1,149 @@
+{
+  "drug_name": "Amiodarone_pulmonary_toxicity",
+  "url": "https://wikem.org/wiki/Amiodarone_pulmonary_toxicity",
+  "scraped_at": "2026-01-10T07:47:29.501879",
+  "sections": {
+    "Background": {
+      "text": "Amiodarone\nis an antiarrhythmic agent commonly used to treat\nsupraventricular\nand ventricular\narrhythmias\nIodine-containing compound with large volume of distribution\nTends to accumulate in several organs, including lungs\nCan occur with any dose, though incidence has decreased with use of lower doses\n[1]\nLong half life of amiodarone--> effects can persist long after discontinuation",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Amiodarone and metabolites damage lungs:\n[2]\nDirectly by cytotoxic effect, production of toxic O2 radicals\n[3]\nIndirectly via immunological reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "supraventricular",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Amiodarone and metabolites damage lungs:\n[2]\nDirectly by cytotoxic effect, production of toxic O2 radicals\n[3]\nIndirectly via immunological reaction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dyspnea\n, particularly with exertion\nCough\nLow grade\nfever\nLess common features include:  nausea, generalized fatigue, weight loss, pleuritic chest pain\n[4]",
+      "subsections": {
+        "Amiodarone_Adverse_Effects": {
+          "text": "Bradycardia\nHypotension with older solvent-based formulation. Uncommon with newer aqueous formulation.\nProlonged QT\nThyrotoxicosis\n[5]\nBetween 5-20% of patients treated with amiodarone have thyrotoxicosis (higher in areas of iodine deficiency)\nIodine-induced hyperthyroidism\nIt is thought that the iodine load may unmask hyperthyroidism in patients with multinodular goiter and subclinical Graves’ disease\nDrug-induced destructive thyroiditis\nMore commonly, the cytotoxic effects of amiodarone destroy thyroid cells, resulting in a release of preformed hormone.\nAmiodarone pulmonary toxicity\nHyperpigmentation rash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Amiodarone_Adverse_Effects": {
+      "text": "Bradycardia\nHypotension with older solvent-based formulation. Uncommon with newer aqueous formulation.\nProlonged QT\nThyrotoxicosis\n[5]\nBetween 5-20% of patients treated with amiodarone have thyrotoxicosis (higher in areas of iodine deficiency)\nIodine-induced hyperthyroidism\nIt is thought that the iodine load may unmask hyperthyroidism in patients with multinodular goiter and subclinical Graves’ disease\nDrug-induced destructive thyroiditis\nMore commonly, the cytotoxic effects of amiodarone destroy thyroid cells, resulting in a release of preformed hormone.\nAmiodarone pulmonary toxicity\nHyperpigmentation rash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Prolonged QT",
+          "url": "https://wikem.org/wiki/Prolonged_QT"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Pneumonia\nCHF\nPulmonary fibrosis\nInterstitial lung disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Pulmonary_fibrosis"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Often clinical diagnosis based on history of amiodarone use, presence of ground glass opacities on CT, and exclusion of alternate diagnoses (such as pneumonia)\nCT chest:\nGround glass opacities with interstitial or alveolar inflitrations and lung nodules\nPleural thickening and pleural effusions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Discontinue amiodarone\nSteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit the patient for rule out of an infectious etiology.\nConsult with the patient's pulmonologist or cardiologist for recommendations on stopping the amiodarone",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Amiodarone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        }
+      ]
+    }
+  }
+}

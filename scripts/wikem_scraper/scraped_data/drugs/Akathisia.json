@@ -1,0 +1,71 @@
+{
+  "drug_name": "Akathisia",
+  "url": "https://wikem.org/wiki/Akathisia",
+  "scraped_at": "2026-01-10T07:47:19.373210",
+  "sections": {
+    "Background": {
+      "text": "Defined as restlessness, inability to sit still, distressing disquiet\nCommonly caused as a medication side effect (e.g.\nprochlorperazine\n,\ndroperidol\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "prochlorperazine",
+          "url": "https://wikem.org/wiki/Prochlorperazine"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Restlessness, inability to sit still, distressing disquiet",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Generally not required",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Generally not required",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Diphenhydramine\n(50mg PO/IM/IV) OR benztropine (1-2mg IV)\n[1]\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    }
+  }
+}

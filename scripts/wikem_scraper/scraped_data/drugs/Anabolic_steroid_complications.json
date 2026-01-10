@@ -1,0 +1,47 @@
+{
+  "drug_name": "Anabolic_steroid_complications",
+  "url": "https://wikem.org/wiki/Anabolic_steroid_complications",
+  "scraped_at": "2026-01-10T07:47:31.631764",
+  "sections": {
+    "Background": {
+      "text": "Anabolic steroids are used for both recreational purposes as well as competitive purposes for those in various sports",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Adverse effects can vary depending on the specific anabolic steroid\nOral agents can cause hepatotoxicity\nTestosterone is generally utilized as the primary anabolic steroid and combined with various other anabolic agents such as trenbolone, oxandrolone, oxymetholone, metandienone, and many others",
+      "subsections": {
+        "Adverse_Effects": {
+          "text": "Hypogonadism (occurs after discontinuation)\nHepatotoxicity (primarily with oral agents)\nRenal toxicity, most commonly with trenbolone\nAcne\nHair loss\nDyslipidemia\nLeft ventricular hypertrophy\nPolycythemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Effects": {
+      "text": "Hypogonadism (occurs after discontinuation)\nHepatotoxicity (primarily with oral agents)\nRenal toxicity, most commonly with trenbolone\nAcne\nHair loss\nDyslipidemia\nLeft ventricular hypertrophy\nPolycythemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nLFTs\nCreatinine\nECG\nConsider for outpatient workup:\nA1C\nLipid panel\nEchocardiogram to assess for left ventricular hypertrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nLFTs\nCreatinine\nECG\nConsider for outpatient workup:\nA1C\nLipid panel\nEchocardiogram to assess for left ventricular hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

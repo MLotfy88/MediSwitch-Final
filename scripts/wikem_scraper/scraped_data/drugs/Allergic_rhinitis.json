@@ -1,0 +1,151 @@
+{
+  "drug_name": "Allergic_rhinitis",
+  "url": "https://wikem.org/wiki/Allergic_rhinitis",
+  "scraped_at": "2026-01-10T07:47:23.842334",
+  "sections": {
+    "Background": {
+      "text": "Also called hay fever - inflammation of the nasal mucosa secondary to allergens in the air.\nAssociated with\nasthma\nand\natopic dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Constellation of symptoms:\nThin, clear\nrhinorrhea\n(if thick or discolored, consider infectious causes)\nSneezing, itching of the nose\nNasal congestion and/or obstruction\nClogged feeling in the ears\nCommon triggers:\nAnimals\nEnvironmental (e.g. grassess, pollens); often symptomatic with seasonal changes\nSymptoms last until triggers are removed\nShould not have actual fever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Rhinorrhea": {
+          "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Rhinorrhea": {
+      "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Juvenile nasopharyngeal angiofibroma",
+          "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nPE may show infraorbital edema and darkening (allergic shiner), transverse nasal crease (allergic salute), and cobble-stoning of the posterior oropharynx\nRule out bacterial infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Reduce exposure to allergen\nIf environmental, sleep with windows closed, change clothes and/or shower when returning home after being outdoors\nSaline nasal irrigation (neti pot) twice a day- washes out allergens\nCombination of topic nasal steroids (\nfluticasone propionate\n, nasonex) and/or nasal\nantihistamines\n(patanase)\nMust be used for several weeks before symptomatic relief is realized",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fluticasone propionate",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge home\nConsider allergist referral if nasal sprays not helping\nConsider ENT referral to evaluate for the need for sinus surgery, which may be help by opening up the sinuses allowing for better distribution of topical medications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "drug_name": "Amyotrophic_lateral_sclerosis",
+  "url": "https://wikem.org/wiki/Amyotrophic_lateral_sclerosis",
+  "scraped_at": "2026-01-10T07:47:33.678408",
+  "sections": {
+    "Background": {
+      "text": "Progressive muscle atrophy/weakness due to degeneration of upper and lower motor neurons\nPatients will rarely present to the ED undiagnosed\nLikely related to mutated superoxide dismutase (SOD1) gene\nInvolvement of the anterior horn cells",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Acute\nrespiratory failure\nPredicted by forced VC <25 mL/kg or 50% decrease from normal\nAspiration\npneumonia\nTrauma related to extremity\nweakness\nAsymmetric\nweakness\nwithout sensory findings with mixed upper and lower motor nerve findings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(Main)"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate for complications of ALS or other treatable causes of progressive weakness",
+      "subsections": {
+        "Labs": {
+          "text": "CBC\nEvaluate for anemia/infection\nCPK\nElevation associated with myopathy\nBMP\nElectrolyte abnormalities (hypercalcemia, hypokalemia, etc.) can cause weakness\nUA\nEvaluate for source of infection\nABG\nHelps identify respiratory failure",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "CXR\nMay identify aspiration, pneumonia, or other comorbid conditions",
+          "tables": []
+        },
+        "Other": {
+          "text": "FVC\nSensitive indicator of respiratory muscle weakness\nFVC <50% typically requires ventilatory support",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "CBC\nEvaluate for anemia/infection\nCPK\nElevation associated with myopathy\nBMP\nElectrolyte abnormalities (hypercalcemia, hypokalemia, etc.) can cause weakness\nUA\nEvaluate for source of infection\nABG\nHelps identify respiratory failure",
+      "subsections": {
+        "Imaging": {
+          "text": "CXR\nMay identify aspiration, pneumonia, or other comorbid conditions",
+          "tables": []
+        },
+        "Other": {
+          "text": "FVC\nSensitive indicator of respiratory muscle weakness\nFVC <50% typically requires ventilatory support",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "CXR\nMay identify aspiration, pneumonia, or other comorbid conditions",
+      "subsections": {
+        "Other": {
+          "text": "FVC\nSensitive indicator of respiratory muscle weakness\nFVC <50% typically requires ventilatory support",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Other": {
+      "text": "FVC\nSensitive indicator of respiratory muscle weakness\nFVC <50% typically requires ventilatory support",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Nebulized medications\nSteroids\nAntibiotics\nfor infectious complications\nAssisted ventilation / intubation if in\nrespiratory failure\nand aligned with\ngoals of care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "goals of care",
+          "url": "https://wikem.org/wiki/Goals_of_care"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission\nAdmit if patient requires respiratory support or has other complications requiring admission\nEvaluate patient's ability to be cared for at home; admit if needed\nDischarge\nIf stable, and new onset ALS is suspected, discharge with a referral for outpatient evaluation by neurologist\nIf stable, and ALS has previously been diagnosed, discharge if outpatient treatment remains available for patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Weakness\nIntubation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - Amyotrophic Lateral Sclerosis (ALS) and Other Motor Neuron Diseases (MNDs)\nemDOCs - Amyotrophic Lateral Sclerosis: A Focused Emergency Medicine Review",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Tintinalli's Emergency Medicine: A Comprehensive Study Guide, 7e (2010), Chapter 167. Chronic Neurologic Disorders",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

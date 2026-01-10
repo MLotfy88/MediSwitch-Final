@@ -1,0 +1,437 @@
+{
+  "drug_name": "Ampicillin",
+  "url": "https://wikem.org/wiki/Ampicillin",
+  "scraped_at": "2026-01-10T07:47:31.844438",
+  "sections": {
+    "General": {
+      "text": "Ampicillin is an antibiotic in the beta-lactam family of antibiotics. It is a Penicillin derivative.\nType: Amino-\nPenicillin\nDosage Forms: capsule, oral suspension, powder for injection\nDosage Strengths: capsule: 250, 500mg; oral suspension: 125, 250mg/5mL; powder for injection: 125mg, 250mg, 500mg, 1g, 2g, 10g\nRoutes of Administration: PO, IV, IM\nCommon Trade Names: Ampi, Omnipen, Penglobe, Principen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Endocarditis": {
+          "text": "12 g daily (continuous IV infusion or in 6 equally divided dosages) in conjunction with gentamicin",
+          "tables": []
+        },
+        "Perinatal_Group_B_Streptococcal_Prevention": {
+          "text": "Initial 2 g dose at time of labor or rupture of membranes, followed by 1 g q4hrs until delivery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Endocarditis": {
+      "text": "12 g daily (continuous IV infusion or in 6 equally divided dosages) in conjunction with gentamicin",
+      "subsections": {
+        "Perinatal_Group_B_Streptococcal_Prevention": {
+          "text": "Initial 2 g dose at time of labor or rupture of membranes, followed by 1 g q4hrs until delivery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Perinatal_Group_B_Streptococcal_Prevention": {
+      "text": "Initial 2 g dose at time of labor or rupture of membranes, followed by 1 g q4hrs until delivery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Pneumonia_(peds)": {
+          "text": "150-200mg/kg/day IV divided Q6hours (max dose: 4g per day)",
+          "tables": []
+        },
+        "Other_Pediatric_Bacterial_Infections": {
+          "text": "100-400mg/kg/day IM/IV divided q4-16Hours (max dose 12g/day IM/IV)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Other_Pediatric_Bacterial_Infections": {
+      "text": "100-400mg/kg/day IM/IV divided q4-16Hours (max dose 12g/day IM/IV)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Excreted in breastmilk, use caution\nRenal dosing:\nCrCl <10 mL/min: Administer q12-24hr\nCrCl 10-50 mL/min: Administer q6-12hr\nCrCl >50 mL/min: Administer q6hr\nHepatic Dosing: not studied",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Pseudomembranous colitis, enterocolitis\nAgranulocytosis\nSeizure\nInterstitial nephritis\nStridor\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Rash, urticaria\nDiarrhea, nausea\nFever\nOral candidiasis\nStomatitis, glossitis\nAnemia/hemolytic anemia, leukopenia, thrombocytopenia, eosinophilia\nSerum sickness like reaction\nElevated AST\nErythema multiforme",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Pseudomembranous colitis, enterocolitis\nAgranulocytosis\nSeizure\nInterstitial nephritis\nStridor\nAnaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Rash, urticaria\nDiarrhea, nausea\nFever\nOral candidiasis\nStomatitis, glossitis\nAnemia/hemolytic anemia, leukopenia, thrombocytopenia, eosinophilia\nSerum sickness like reaction\nElevated AST\nErythema multiforme",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Rash, urticaria\nDiarrhea, nausea\nFever\nOral candidiasis\nStomatitis, glossitis\nAnemia/hemolytic anemia, leukopenia, thrombocytopenia, eosinophilia\nSerum sickness like reaction\nElevated AST\nErythema multiforme",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-1.8 hr (normal renal function); 7-20 hr (anuria/ESRD)\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action: Bactericidal; inhibits bacterial cell wall synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

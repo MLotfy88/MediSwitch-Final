@@ -1,0 +1,254 @@
+{
+  "drug_name": "Agent_orange",
+  "url": "https://wikem.org/wiki/Agent_orange",
+  "scraped_at": "2026-01-10T07:47:17.562816",
+  "sections": {
+    "Background": {
+      "text": "Member of chlorophenoxy pesticide group, and are often contaminated with dioxin\nGained notoriety during Vietnam War",
+      "subsections": {
+        "Mechanism": {
+          "text": "Absorbed through skin, GI tract, and respiratory tract\nActs on skeletal muscle but exact mechanism unknown",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism": {
+      "text": "Absorbed through skin, GI tract, and respiratory tract\nActs on skeletal muscle but exact mechanism unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Serious toxic effects develop in 4-6 hours\nNon-specific dermal and GI irritation (\nnausea\n,\nvomiting\n, GI distress)\nMyotonia, muscle fasciculations,\nrhabdomyolysis\n,\nhyperthermia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "No specific tests for chlorophenoxy compounds\nWorkup is aimed at detecting muscle injury and hepatic/renal function",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Skin decontamination\nSupportive care\nTreat\nrhabdomyolysis\n,\nhyperthermia\n, and\nmetabolic acidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Chemical weapons",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        }
+      ]
+    }
+  }
+}

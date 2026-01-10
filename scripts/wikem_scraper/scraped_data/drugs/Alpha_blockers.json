@@ -1,0 +1,238 @@
+{
+  "drug_name": "Alpha_blockers",
+  "url": "https://wikem.org/wiki/Alpha_blockers",
+  "scraped_at": "2026-01-10T07:47:25.020923",
+  "sections": {
+    "Background": {
+      "text": "Also known as α-blockers\nα\n1\n-blockers act on α\n1\n-adrenoceptors\nα\n2\n-blockers act on α\n2\n-adrenoceptors\nAct as neutral antagonists or inverse agonists of α-adrenergic receptors (α-adrenoceptors)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Medications": {
+      "text": "",
+      "subsections": {
+        "Non-selective": {
+          "text": "Phenoxybenzamine\nPhentolamine\nTolazoline\nTrazodone\nTypical and atypical\nantipsychotics",
+          "tables": []
+        },
+        "Selective_α1": {
+          "text": "Alfuzosin\nDoxazosin\nPrazosin\n(\ninverse agonist\n)\nTamsulosin\nTerazosin\nSilodosin",
+          "tables": []
+        },
+        "Selective_α2": {
+          "text": "Atipamezole\nIdazoxan\nMirtazapine\nYohimbine",
+          "tables": []
+        },
+        "Mixed": {
+          "text": "The agents\ncarvedilol\nand\nlabetalol\nare both α- and\nβ-blockers\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phentolamine",
+          "url": "https://wikem.org/wiki/Phentolamine"
+        },
+        {
+          "text": "Trazodone",
+          "url": "https://wikem.org/wiki/Trazodone"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Terazosin",
+          "url": "https://wikem.org/wiki/Terazosin"
+        },
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "Non-selective": {
+      "text": "Phenoxybenzamine\nPhentolamine\nTolazoline\nTrazodone\nTypical and atypical\nantipsychotics",
+      "subsections": {
+        "Selective_α1": {
+          "text": "Alfuzosin\nDoxazosin\nPrazosin\n(\ninverse agonist\n)\nTamsulosin\nTerazosin\nSilodosin",
+          "tables": []
+        },
+        "Selective_α2": {
+          "text": "Atipamezole\nIdazoxan\nMirtazapine\nYohimbine",
+          "tables": []
+        },
+        "Mixed": {
+          "text": "The agents\ncarvedilol\nand\nlabetalol\nare both α- and\nβ-blockers\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Phentolamine",
+          "url": "https://wikem.org/wiki/Phentolamine"
+        },
+        {
+          "text": "Trazodone",
+          "url": "https://wikem.org/wiki/Trazodone"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Terazosin",
+          "url": "https://wikem.org/wiki/Terazosin"
+        },
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "Selective_α1": {
+      "text": "Alfuzosin\nDoxazosin\nPrazosin\n(\ninverse agonist\n)\nTamsulosin\nTerazosin\nSilodosin",
+      "subsections": {
+        "Selective_α2": {
+          "text": "Atipamezole\nIdazoxan\nMirtazapine\nYohimbine",
+          "tables": []
+        },
+        "Mixed": {
+          "text": "The agents\ncarvedilol\nand\nlabetalol\nare both α- and\nβ-blockers\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tamsulosin",
+          "url": "https://wikem.org/wiki/Tamsulosin"
+        },
+        {
+          "text": "Terazosin",
+          "url": "https://wikem.org/wiki/Terazosin"
+        },
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "Selective_α2": {
+      "text": "Atipamezole\nIdazoxan\nMirtazapine\nYohimbine",
+      "subsections": {
+        "Mixed": {
+          "text": "The agents\ncarvedilol\nand\nlabetalol\nare both α- and\nβ-blockers\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "Mixed": {
+      "text": "The agents\ncarvedilol\nand\nlabetalol\nare both α- and\nβ-blockers\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "carvedilol",
+          "url": "https://wikem.org/wiki/Carvedilol"
+        },
+        {
+          "text": "labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        }
+      ]
+    },
+    "Uses": {
+      "text": "hypertension\nRaynaud’s disease\nscleroderma\ngeneralized anxiety disorder\npanic disorder\nposttraumatic stress disorder\nbenign prostatic hyperplasia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "benign prostatic hyperplasia",
+          "url": "https://wikem.org/wiki/Benign_prostatic_hyperplasia"
+        }
+      ]
+    },
+    "See_also": {
+      "text": "Antihypertensive medications\nBeta blocker\nYohimbine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        },
+        {
+          "text": "Beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker"
+        },
+        {
+          "text": "Yohimbine toxicity",
+          "url": "https://wikem.org/wiki/Yohimbine_toxicity"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,489 @@
+{
+  "drug_name": "Ammonia_toxicity",
+  "url": "https://wikem.org/wiki/Ammonia_toxicity",
+  "scraped_at": "2026-01-10T07:47:28.131803",
+  "sections": {
+    "Background": {
+      "text": "Liquid form common in cleaning products\nAmmonia gas used as chemical weapon\nInjury due to inhalation, skin/eye contact, and/or ingestion\nExtent of injury contingent upon concentration and duration of exposure\nEven fairly low airborne concentrations (50 ppm) of ammonia produce rapid onset of eye, nose, and throat irritation; coughing; and narrowing of the bronchi.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Routes_of_Exposure": {
+          "text": "Inhalation\nNasopharyngeal and tracheal\nchemical burns\n, upper airway obstruction\nBronchiolar/alveolar edema and narrowing\nLaryngospasm (can occur immediately upon exposure)\nRespiratory distress\n/failure,\nhypoxia\nCough\nSkin contact\nDilute (e.g. household cleaners) rarely burn but may be irritating\nCorrosive injury if contact with concentrated (e.g. industrial cleaners >25%)\nSkin\nchemical burns\n, blistering, pain, necrosis, particularly on moist skin areas\nContact with compressed liquid ammonia (stored at -28 °F) can cause\nfrostbite\ninjury and deep ulcerating burns\nEye contact\nGreater tendency to penetrate/damage eye than other alkali\nTemporary or permanent\nvision loss\nif contact with high concentrations of the gas or with concentrated ammonium hydroxide, due to swelling/sloughing of eye surface cells\nExtent of damage may not be apparent for up to a week\nIngestion\nCorrosive damage\n/\nchemical burns\nto oropharynx, esophagus, stomach\n-->\nNausea/vomiting\n,\nchest pain\n,\nabdominal pain\n, drooling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "frostbite",
+          "url": "https://wikem.org/wiki/Frostbite"
+        },
+        {
+          "text": "vision loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Corrosive damage",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Routes_of_Exposure": {
+      "text": "Inhalation\nNasopharyngeal and tracheal\nchemical burns\n, upper airway obstruction\nBronchiolar/alveolar edema and narrowing\nLaryngospasm (can occur immediately upon exposure)\nRespiratory distress\n/failure,\nhypoxia\nCough\nSkin contact\nDilute (e.g. household cleaners) rarely burn but may be irritating\nCorrosive injury if contact with concentrated (e.g. industrial cleaners >25%)\nSkin\nchemical burns\n, blistering, pain, necrosis, particularly on moist skin areas\nContact with compressed liquid ammonia (stored at -28 °F) can cause\nfrostbite\ninjury and deep ulcerating burns\nEye contact\nGreater tendency to penetrate/damage eye than other alkali\nTemporary or permanent\nvision loss\nif contact with high concentrations of the gas or with concentrated ammonium hydroxide, due to swelling/sloughing of eye surface cells\nExtent of damage may not be apparent for up to a week\nIngestion\nCorrosive damage\n/\nchemical burns\nto oropharynx, esophagus, stomach\n-->\nNausea/vomiting\n,\nchest pain\n,\nabdominal pain\n, drooling",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "frostbite",
+          "url": "https://wikem.org/wiki/Frostbite"
+        },
+        {
+          "text": "vision loss",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Corrosive damage",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Caustic_Burns": {
+          "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+          "tables": []
+        },
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Caustic_Burns": {
+      "text": "Caustic ingestion\nCaustic eye exposure\n(Caustic keratoconjunctivitis)\nCaustic dermal burn\nAirbag-related burns\nHydrofluoric acid\nTar burn\nCement burn",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "Caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Caustic dermal burn",
+          "url": "https://wikem.org/wiki/Caustic_dermal_burn"
+        },
+        {
+          "text": "Airbag-related burns",
+          "url": "https://wikem.org/wiki/Airbag-related_burns"
+        },
+        {
+          "text": "Hydrofluoric acid",
+          "url": "https://wikem.org/wiki/Hydrofluoric_acid"
+        },
+        {
+          "text": "Tar burn",
+          "url": "https://wikem.org/wiki/Tar_burn"
+        },
+        {
+          "text": "Cement burn",
+          "url": "https://wikem.org/wiki/Cement_burn"
+        },
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Decontaminate\nEvaluate for extent of injury, co-intoxicants",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Diuretics and corticosteroids not shown to be effective\nInhaled beta agonists e.g.\nalbuterol\nfor bronchoconstriction\nSee\ncaustic ingestion\nSee\ncaustic burns",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "albuterol",
+          "url": "https://wikem.org/wiki/Albuterol"
+        },
+        {
+          "text": "caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "caustic burns",
+          "url": "https://wikem.org/wiki/Caustic_burns"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Dependant on clinical severity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary chemical agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        }
+      ]
+    }
+  }
+}

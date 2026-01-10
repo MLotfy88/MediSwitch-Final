@@ -1,0 +1,222 @@
+{
+  "drug_name": "Allergic_conjunctivitis",
+  "url": "https://wikem.org/wiki/Allergic_conjunctivitis",
+  "scraped_at": "2026-01-10T07:47:24.525677",
+  "sections": {
+    "Background": {
+      "text": "Conjunctivitis due to exposure to an allergen\nChronic allergic conjunctivitis is also called vernal conjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Itching\nWatery discharge\nInjected and\nedematous conjunctiva\nPapillae on inferior conjunctival fornix\nRed, swollen eyelids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "edematous conjunctiva",
+          "url": "https://wikem.org/wiki/Red_eye"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Clinical_diagnosis_of_conjunctivitis": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Bilateral",
+                "Bacterial": "50%",
+                "Viral": "25%",
+                "Allergic": "Mostly"
+              },
+              {
+                "": "Discharge",
+                "Bacterial": "Mucopurulent",
+                "Viral": "Clear, Watery",
+                "Allergic": "Cobblestoning, none"
+              },
+              {
+                "": "Redness",
+                "Bacterial": "Yes",
+                "Viral": "Yes",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Pruritis",
+                "Bacterial": "Rarely",
+                "Viral": "Rarely",
+                "Allergic": "Yes"
+              },
+              {
+                "": "Additional",
+                "Bacterial": "Treatment: Antibiotics",
+                "Viral": "Treatment: Hygiene",
+                "Allergic": "Seasonal"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_diagnosis_of_conjunctivitis": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Bilateral",
+            "Bacterial": "50%",
+            "Viral": "25%",
+            "Allergic": "Mostly"
+          },
+          {
+            "": "Discharge",
+            "Bacterial": "Mucopurulent",
+            "Viral": "Clear, Watery",
+            "Allergic": "Cobblestoning, none"
+          },
+          {
+            "": "Redness",
+            "Bacterial": "Yes",
+            "Viral": "Yes",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Pruritis",
+            "Bacterial": "Rarely",
+            "Viral": "Rarely",
+            "Allergic": "Yes"
+          },
+          {
+            "": "Additional",
+            "Bacterial": "Treatment: Antibiotics",
+            "Viral": "Treatment: Hygiene",
+            "Allergic": "Seasonal"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Mild\n: avoid triggers, cool compresses for 15 minutes QID\nModerate\n: Histamine-blocking drops (e.g. naphazoline/pheniramine 0.025%/0.3%, olopatadine, pemirolast, or ketotifen)\nSevere\n: refer to ophthalmology for possible\nsteroid\ntherapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with ophthalmology follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conjunctivitis\nEye Algorithms (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Eye Algorithms (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithms_(Main)"
+        }
+      ]
+    }
+  }
+}

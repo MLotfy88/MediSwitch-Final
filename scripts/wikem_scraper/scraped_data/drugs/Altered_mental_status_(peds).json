@@ -1,0 +1,372 @@
+{
+  "drug_name": "Altered_mental_status_(peds)",
+  "url": "https://wikem.org/wiki/Altered_mental_status_(peds)",
+  "scraped_at": "2026-01-10T07:47:22.296290",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\naltered mental status\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Both cerebral cortices must be affected to cause altered mental status\nMust quickly determine if\ncoma\nor lethargy is from diffuse or focal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Depends on cause\nDiffuse brain dysfunction - lack of focal findings\nFocal brain dysfunction\n- hemiparesis, loss of motor tone, loss of ocular reflexes\nImportant to differentiate diffuse brain dysfunction from localized lesion as a patient may appear confused due to visual deficit, dysphasia, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Focal brain dysfunction",
+          "url": "https://wikem.org/wiki/Focal_neuro_deficits"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Additional": {
+          "text": "Sympathomimetics\n/\ncocaine\nAnticholinergics\nArsenic\nLSD\nPCP\nPhenothiazines\nSalicylates\nTheophylline\nThyroxine",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "A": "Acid-baseandmetabolic disorders",
+            "Alcohol": "U",
+            "O": "Uremia"
+          },
+          {
+            "A": "Diabetes mellitus",
+            "Alcohol": "Chronicrenal failure"
+          },
+          {
+            "A": "Dehydration",
+            "Alcohol": "Hemolytic-uremic syndrome"
+          },
+          {
+            "A": "Hypercapnia",
+            "Alcohol": "T",
+            "O": "Trauma"
+          },
+          {
+            "A": "Hepatic failure",
+            "Alcohol": "Generaltraumawithhypovolemia"
+          },
+          {
+            "A": "Hypoxia",
+            "Alcohol": "Head injury"
+          },
+          {
+            "A": "Inborn errors of metabolism",
+            "Alcohol": "Mass lesion"
+          },
+          {
+            "A": "Arrhythmiaand cardiogenic causes",
+            "Alcohol": "Cerebral edema"
+          },
+          {
+            "A": "Ventricular fibrillation",
+            "Alcohol": "Cerebrovascular accident"
+          },
+          {
+            "A": "Adams-Stokes attack",
+            "Alcohol": "Electric shock"
+          },
+          {
+            "A": "Aortic stenosis",
+            "Alcohol": "Decompression sickness"
+          },
+          {
+            "A": "Pericardial tamponade",
+            "Alcohol": "Tumor"
+          },
+          {
+            "A": "E",
+            "Alcohol": "Encephalopathy",
+            "O": "Hyperthermia,hypothermia"
+          },
+          {
+            "A": "Hypertensive encephalopathy",
+            "Alcohol": "I",
+            "O": "Infection"
+          },
+          {
+            "A": "Reye syndrome",
+            "Alcohol": "Meningitis"
+          },
+          {
+            "A": "Pediatric shock|Hemorrhagic shock]] and encephalopathy syndrome",
+            "Alcohol": "Encephalitis"
+          },
+          {
+            "A": "Brain abscess"
+          },
+          {
+            "A": "Postimmunization encephalopathy",
+            "Alcohol": "Visceral larva migrans"
+          },
+          {
+            "A": "Disseminated encephalomyelitis",
+            "Alcohol": "Severesystemic infection"
+          },
+          {
+            "A": "Human immunodeficiency virusdisease",
+            "Alcohol": "Intracerebral vascular disorders"
+          },
+          {
+            "A": "Subarachnoid hemorrhage"
+          },
+          {
+            "A": "Endocrinopathy",
+            "Alcohol": "Venous thrombosis"
+          },
+          {
+            "A": "Addison's disease",
+            "Alcohol": "Arterial thrombosis"
+          },
+          {
+            "A": "Congenital adrenal hyperplasia",
+            "Alcohol": "Intracerebralor intraventricular hemorrhage"
+          },
+          {
+            "A": "Thyrotoxicity"
+          },
+          {
+            "A": "Cushing syndrome",
+            "Alcohol": "Cerebral embolus"
+          },
+          {
+            "A": "Pheochromocytoma",
+            "Alcohol": "Acute infantile hemiplegia"
+          },
+          {
+            "A": "Hepaticporphyrias",
+            "Alcohol": "Acute confusionalmigraine"
+          },
+          {
+            "A": "Electrolyte abnormalities",
+            "Alcohol": "Moyamoyamalformation"
+          },
+          {
+            "A": "[Na+], [Ca2+], [Mg2+], PO4",
+            "Alcohol": "P",
+            "O": "Poisoning"
+          },
+          {
+            "A": "I",
+            "Alcohol": "Insulin",
+            "O": "Psychogenic unresponsiveness"
+          },
+          {
+            "A": "Hypoglycemia",
+            "Alcohol": "S",
+            "O": "Seizure"
+          },
+          {
+            "A": "Ketotichypoglycemia",
+            "Alcohol": "VP shunt malfunction"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "LSD",
+          "url": "https://wikem.org/wiki/LSD"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Thyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        }
+      ]
+    },
+    "Additional": {
+      "text": "Sympathomimetics\n/\ncocaine\nAnticholinergics\nArsenic\nLSD\nPCP\nPhenothiazines\nSalicylates\nTheophylline\nThyroxine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "LSD",
+          "url": "https://wikem.org/wiki/LSD"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Thyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nGlucose, CBC, chem, UA, CSF, LFT, utox, VBG, BAL, thyroid, Calcium (ionized)\nECG\nNeuroimaging\nXR\nUA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immobilize cervical spine for suspected trauma\nFluid resuscitation\n20 mL/kg x3 as needed; start pressors thereafter\nAntibiotics\nfor\nsepsis\nor\nmeningitis\n(consider\nantiviral\nit patient is toxic)\nNaloxone\nfor\nopioid\nor\nclonidine overdose\n(0.01-0.1mg/kg IV q2 min)\nGlucose\nfor\nhypoglycemia\n(2 mL/kg of 25% dextrose)\nAvoid\nsodium bicarbonate\nfor\nmetabolic acidosis\nunless pH <7.0\nControl\nseizures\nPrevent\nhypothermia\n, treat\nhyperthermia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "antiviral",
+          "url": "https://wikem.org/wiki/Antiviral"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "clonidine overdose",
+          "url": "https://wikem.org/wiki/Clonidine_toxicity"
+        },
+        {
+          "text": "Glucose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Altered Mental Status",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered Mental Status",
+          "url": "https://wikem.org/wiki/Altered_Mental_Status"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Altered Mental Status in Children",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

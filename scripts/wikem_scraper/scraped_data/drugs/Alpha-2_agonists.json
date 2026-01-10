@@ -1,0 +1,49 @@
+{
+  "drug_name": "Alpha-2_agonists",
+  "url": "https://wikem.org/wiki/Alpha-2_agonists",
+  "scraped_at": "2026-01-10T07:47:21.448206",
+  "sections": {
+    "Background": {
+      "text": "Central α agonists lower blood pressure by stimulating α-receptors in the brain which causes peripheral vasodilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Medications": {
+      "text": "clonidine\ndexmedetomidine\nguanabenz\nguanfacine\nmethyldopa\nmoxonidine\nXylazine\n(veterinary med, drug of abuse)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Xylazine",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Adverse_effects": {
+      "text": "sedation\ndrying of the nasal mucosa\nrebound hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antihypertensives",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensives",
+          "url": "https://wikem.org/wiki/Antihypertensives"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "drug_name": "Alport_syndrome",
+  "url": "https://wikem.org/wiki/Alport_syndrome",
+  "scraped_at": "2026-01-10T07:47:25.803392",
+  "sections": {
+    "Background": {
+      "text": "Alport Syndrome is an autoimmune disorder affecting Type 4 Collagen that includes  kidney disease, hearing loss, and eye abnormalities.  The genetic disease classically also manifests with\nhematuria\nand\nproteinuria\nas the disease progresses to\nESRD\n.  The issues are related to a mutation in the COL4A5 (collagen) gene and are inherited in an X-linked pattern.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "The degree of clinical features are related to the severity of the organ systems involved.  Most common patient will have:\nLower extremity\nedema\ndue to the\nhypoalbuminemia\nHematuria\nHypertension\nHearing Loss\nVisual problems",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        },
+        {
+          "text": "Hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Hearing Loss",
+          "url": "https://wikem.org/wiki/Hearing_Loss"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hematuria": {
+          "text": "Urologic (lower tract)\nAny location\nIatrogenic/postprocedure\nGU trauma\nInfection\nKidney stone\nErosion or mechanical obstruction by tumor\nUreter(s)\nDilatation of stricture\nBladder\nTransitional cell carcinoma\nVascular lesions or malformations\nChemical or radiation cystitis\nProstate\nBenign prostatic hypertrophy\nProstatitis\nUrethra\nStricture\nDiverticulosis\nForeign body\nEndometriosis\n(cyclic hematuria with menstrual pain)\nRenal (upper tract)\nGlomerular\nGlomerulonephritis\nIgA nephropathy\n(Berger disease)\nLupus nephritis\nHereditary nephritis\n(Alport syndrome)\nToxemia of pregnancy\nSerum sickness\nErythema multiforme\nNonglomerular\nInterstitial nephritis\nPyelonephritis\nPapillary necrosis:\nsickle cell disease\n,\ndiabetes\n,\nNSAID\nuse\nVascular: arteriovenous malformations, emboli, aortocaval fistula\nMalignancy\nPolycystic kidney disease\nMedullary sponge disease\nTuberculosis\nRenal trauma\nHematologic\nPrimary\ncoagulopathy\n(e.g.,\nhemophilia\n)\nPharmacologic\nanticoagulation\nSickle cell disease\nMyoglobinuria - positive blood, no RBCs:\nrhabdomyolysis\nHemoglobinuria - positive blood, no RBCs\nTTP\n/\nHUS\nDIC\nMechanical valve emergency\nHemolytic anemia\nParoxysmal Nocturnal Hemoglobinuria\nMiscellaneous\nEroding\nabdominal aortic aneurysm\nMalignant hypertension\nLoin pain–hematuria syndrome\nRenal vein thrombosis\nExercise-induced hematuria\nCantharidin (Spanish fly) poisoning\nStings/bites by insects/reptiles having venom with anticoagulant properties\nSchistosomiasis\nSickle Cell Trait",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GU trauma",
+          "url": "https://wikem.org/wiki/GU_trauma"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Paroxysmal Nocturnal Hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_Nocturnal_Hemoglobinuria"
+        },
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    },
+    "Hematuria": {
+      "text": "Urologic (lower tract)\nAny location\nIatrogenic/postprocedure\nGU trauma\nInfection\nKidney stone\nErosion or mechanical obstruction by tumor\nUreter(s)\nDilatation of stricture\nBladder\nTransitional cell carcinoma\nVascular lesions or malformations\nChemical or radiation cystitis\nProstate\nBenign prostatic hypertrophy\nProstatitis\nUrethra\nStricture\nDiverticulosis\nForeign body\nEndometriosis\n(cyclic hematuria with menstrual pain)\nRenal (upper tract)\nGlomerular\nGlomerulonephritis\nIgA nephropathy\n(Berger disease)\nLupus nephritis\nHereditary nephritis\n(Alport syndrome)\nToxemia of pregnancy\nSerum sickness\nErythema multiforme\nNonglomerular\nInterstitial nephritis\nPyelonephritis\nPapillary necrosis:\nsickle cell disease\n,\ndiabetes\n,\nNSAID\nuse\nVascular: arteriovenous malformations, emboli, aortocaval fistula\nMalignancy\nPolycystic kidney disease\nMedullary sponge disease\nTuberculosis\nRenal trauma\nHematologic\nPrimary\ncoagulopathy\n(e.g.,\nhemophilia\n)\nPharmacologic\nanticoagulation\nSickle cell disease\nMyoglobinuria - positive blood, no RBCs:\nrhabdomyolysis\nHemoglobinuria - positive blood, no RBCs\nTTP\n/\nHUS\nDIC\nMechanical valve emergency\nHemolytic anemia\nParoxysmal Nocturnal Hemoglobinuria\nMiscellaneous\nEroding\nabdominal aortic aneurysm\nMalignant hypertension\nLoin pain–hematuria syndrome\nRenal vein thrombosis\nExercise-induced hematuria\nCantharidin (Spanish fly) poisoning\nStings/bites by insects/reptiles having venom with anticoagulant properties\nSchistosomiasis\nSickle Cell Trait",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GU trauma",
+          "url": "https://wikem.org/wiki/GU_trauma"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Diverticulosis",
+          "url": "https://wikem.org/wiki/Diverticulosis"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Paroxysmal Nocturnal Hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_Nocturnal_Hemoglobinuria"
+        },
+        {
+          "text": "abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        }
+      ]
+    }
+  }
+}

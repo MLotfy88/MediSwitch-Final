@@ -1,0 +1,375 @@
+{
+  "drug_name": "Alcohol_use_disorder",
+  "url": "https://wikem.org/wiki/Alcohol_use_disorder",
+  "scraped_at": "2026-01-10T07:47:19.525659",
+  "sections": {
+    "Background": {
+      "text": "Chronic mental illness characterized by inability to limit alcohol ingestion, compulsive drinking, and a negative emotional state when not drinking.\nPreviously separated into alcohol abuse and alcohol dependence, but as of DSM-5, the diagnoses were combined into alcohol use disorder, and subdivided into mild, moderate, or severe.\nIt is estimated that about 6% of adults in the US suffer from alcohol use disorder.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Drinking more or for a longer period of time than intended.\nFeeling incapable of cutting back on the amount of alcohol consumed.\nBecoming sick for an extended period of time as a result of drinking too much.\nInability to concentrate due to alcohol cravings.\nInability to care for a family, hold down a job, or perform in school.\nContinuing to drink despite problems caused with friends or family.\nDecreased participation in activities which were once important.\nFinding oneself in dangerous or harmful situations as a direct result of drinking.\nContinuing to drink despite adding to another health problem, feeling depressed or anxious or blacking out.\nDrinking more as a result of a tolerance to alcohol.\nExperiencing withdrawal symptoms.\nMild = 2-3 features\nModerate = 4-5 features\nSevere = 6 or more features",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ethanol_related_disease_processes": {
+          "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Ethanol_related_disease_processes": {
+      "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "A history alone is sufficient to make the diagnosis of alcohol use disorder, however, if a patient presents to the ER, it is important to evaluate for the presence of:\nAcute alcohol intoxication\n,\nAlcohol withdrawal\n, and\nCo-ingestion with other drugs or\ntoxic alcohols\nCheck electrolytes, including magnesium and phosphorus\n[1]\nLong-term alcohol intake often has electrolyte abnormalities (including\nhypomagnesemia\nand\nhypokalemia\n)\nLow magnesium levels, typically below 0.8 mEq/L, can also cause\nhypocalcemia\ndue to suppression of parathyroid hormone secretion and parathyroid hormone resistance",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute alcohol intoxication",
+          "url": "https://wikem.org/wiki/Acute_alcohol_intoxication"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+          "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+          "tables": []
+        },
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[2]\n[3]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        },
+        "Naltrexone": {
+          "text": "Dosage\nNaltrexone\n380 mg IM or 50 mg PO qday #30 tabs, no refills\nContraindications:\nAny opioid use (including\nBuprenorphine\n):\nMust be off short-acting opioids for 1 week and methadone for 2 weeks\nPlanned surgery/anesthesia in next 30 days (okay to use tablets, stop 1 day prior to surgery)\nAcute liver injury with AST or ALT >/= 250 or decompensated cirrhosis (Childs Pugh Class 3)\nPregnancy\nAllergy\nEvidence\nA Cochrane review assessed the efficacy of naltrexone in randomized control trials.\n[4]\nHelps to reduce the number of participants who relapse or return to heavy drinking in a short time frame following treatment (12 weeks).\nReduces the time in days to first drink when compared to placebo or disulfiram.\nReduces reported cravings and the total amount of alcohol consumed.\nShould be offered to patients with alcohol use disorder who are interested in reducing alcohol intake.",
+          "tables": []
+        },
+        "Gabapentin": {
+          "text": "Dosage\nGabapentin\n600 mg PO TID #90 tabs, no refills\nCounsel to decrease to 300 mg PO TID if dizzy, can increase after 1 week\nRenally dosed if CrCl<60\nACOG approves of use in pregnancy\nEvidence\nA metanalysis of several randomized control trials demonstrates that use of gabapentin for alcohol use disorder reduces the number of total heavy drinking days.\n[5]\nAddition of\ngabapentin\nto\nnaltrexone\nfurther helped to reduce cravings in the first 6 weeks of AUD.\n[6]",
+          "tables": []
+        },
+        "Dilsulfiram": {
+          "text": "Can be prescribed as alcohol avoidance therapy. This can be prescribed in the emergency department or referred to PCP/psychiatrist treating the patient's addiction.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "Naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        }
+      ]
+    },
+    "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+      "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+      "subsections": {
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[2]\n[3]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        },
+        "Naltrexone": {
+          "text": "Dosage\nNaltrexone\n380 mg IM or 50 mg PO qday #30 tabs, no refills\nContraindications:\nAny opioid use (including\nBuprenorphine\n):\nMust be off short-acting opioids for 1 week and methadone for 2 weeks\nPlanned surgery/anesthesia in next 30 days (okay to use tablets, stop 1 day prior to surgery)\nAcute liver injury with AST or ALT >/= 250 or decompensated cirrhosis (Childs Pugh Class 3)\nPregnancy\nAllergy\nEvidence\nA Cochrane review assessed the efficacy of naltrexone in randomized control trials.\n[4]\nHelps to reduce the number of participants who relapse or return to heavy drinking in a short time frame following treatment (12 weeks).\nReduces the time in days to first drink when compared to placebo or disulfiram.\nReduces reported cravings and the total amount of alcohol consumed.\nShould be offered to patients with alcohol use disorder who are interested in reducing alcohol intake.",
+          "tables": []
+        },
+        "Gabapentin": {
+          "text": "Dosage\nGabapentin\n600 mg PO TID #90 tabs, no refills\nCounsel to decrease to 300 mg PO TID if dizzy, can increase after 1 week\nRenally dosed if CrCl<60\nACOG approves of use in pregnancy\nEvidence\nA metanalysis of several randomized control trials demonstrates that use of gabapentin for alcohol use disorder reduces the number of total heavy drinking days.\n[5]\nAddition of\ngabapentin\nto\nnaltrexone\nfurther helped to reduce cravings in the first 6 weeks of AUD.\n[6]",
+          "tables": []
+        },
+        "Dilsulfiram": {
+          "text": "Can be prescribed as alcohol avoidance therapy. This can be prescribed in the emergency department or referred to PCP/psychiatrist treating the patient's addiction.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        },
+        {
+          "text": "Naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        }
+      ]
+    },
+    "Medication_Assisted_Treatment": {
+      "text": "",
+      "subsections": {
+        "Naltrexone": {
+          "text": "Dosage\nNaltrexone\n380 mg IM or 50 mg PO qday #30 tabs, no refills\nContraindications:\nAny opioid use (including\nBuprenorphine\n):\nMust be off short-acting opioids for 1 week and methadone for 2 weeks\nPlanned surgery/anesthesia in next 30 days (okay to use tablets, stop 1 day prior to surgery)\nAcute liver injury with AST or ALT >/= 250 or decompensated cirrhosis (Childs Pugh Class 3)\nPregnancy\nAllergy\nEvidence\nA Cochrane review assessed the efficacy of naltrexone in randomized control trials.\n[4]\nHelps to reduce the number of participants who relapse or return to heavy drinking in a short time frame following treatment (12 weeks).\nReduces the time in days to first drink when compared to placebo or disulfiram.\nReduces reported cravings and the total amount of alcohol consumed.\nShould be offered to patients with alcohol use disorder who are interested in reducing alcohol intake.",
+          "tables": []
+        },
+        "Gabapentin": {
+          "text": "Dosage\nGabapentin\n600 mg PO TID #90 tabs, no refills\nCounsel to decrease to 300 mg PO TID if dizzy, can increase after 1 week\nRenally dosed if CrCl<60\nACOG approves of use in pregnancy\nEvidence\nA metanalysis of several randomized control trials demonstrates that use of gabapentin for alcohol use disorder reduces the number of total heavy drinking days.\n[5]\nAddition of\ngabapentin\nto\nnaltrexone\nfurther helped to reduce cravings in the first 6 weeks of AUD.\n[6]",
+          "tables": []
+        },
+        "Dilsulfiram": {
+          "text": "Can be prescribed as alcohol avoidance therapy. This can be prescribed in the emergency department or referred to PCP/psychiatrist treating the patient's addiction.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        },
+        {
+          "text": "Buprenorphine",
+          "url": "https://wikem.org/wiki/Buprenorphine"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "naltrexone",
+          "url": "https://wikem.org/wiki/Naltrexone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient\nIf the patient is not acutely\nintoxicated\nor at risk for\nalcohol withdrawal\n, they should be referred to a social worker or their PCP for resources to quit drinking and can usually be discharged safely.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intoxicated",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Ethanol toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        }
+      ]
+    }
+  }
+}

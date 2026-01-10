@@ -1,0 +1,298 @@
+{
+  "drug_name": "Alcoholic_ketoacidosis",
+  "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis",
+  "scraped_at": "2026-01-10T07:47:21.252340",
+  "sections": {
+    "Background": {
+      "text": "Seen in patients with recent history of binge drinking with little/no nutritional intake\nAnion gap\nmetabolic acidosis\nassociated with acute cessation of EtOH consumption after chronic abuse\nCharacterized by high serum ketone levels and an elevated AG\nConsider other causes of elevated AG, as well as co-ingestants (toxic alcohols, salicylates)\nConcomitant\nmetabolic alkalosis\ncan occur from dehydration (volume depletion) and emesis, so a normal blood pH may be found",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Ethanol metabolism depletes NAD stores\n[1]\nResults in inhibition of Krebs cycle, depletion of glycogen stores, and ketone formation\nSuppresses gluconeogenesis and may result in hypoglycemia\nHigh NADH:NAD also results in increased lactate production\nLactate higher than normal but not as high as in shock or\nsepsis\nAcetoacetate is metabolized to acetone so elevated osmolal gap may also be seen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_Alkalosis"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Ethanol metabolism depletes NAD stores\n[1]\nResults in inhibition of Krebs cycle, depletion of glycogen stores, and ketone formation\nSuppresses gluconeogenesis and may result in hypoglycemia\nHigh NADH:NAD also results in increased lactate production\nLactate higher than normal but not as high as in shock or\nsepsis\nAcetoacetate is metabolized to acetone so elevated osmolal gap may also be seen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Nausea\n(75%)\nVomiting\n(73%)\nAbdominal pain\n(62%)\nTypically, history of binge drinking ending in nausea, vomiting, and decreased intake\nNot hyperosmolar as opposed to\nDKA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Isopropyl Alcohol\nResults in ketosis\nMethanol\n,\nEthylene Glycol\nDo not produce ketosis\nSepsis\nSalicylate Toxicity\nDKA\nHyperosmolar hyperglycemic state\nStarvation Ketosis\nUremia",
+      "subsections": {
+        "Ethanol_related_disease_processes": {
+          "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Isopropyl Alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_Alcohol"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Salicylate Toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_Toxicity"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Ethanol_related_disease_processes": {
+      "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nAnion gap acidosis\nTypically\nwide\nanion gap\nPositive serum ketones +\nlactic acidosis\nLab measured ketone is acetoacetate\nMay miss beta-hydroxybutyrate\nUrine ketones may be falsely negative or low\nTypically normal osmolal gap\nAlcohol level usually zero or not considerably high\nBMP, Mg/phos\nOften have concomitant\nelectrolyte abnormalities\nECG\nMay show dysrhythmias or QT interval/QRS changes secondary to electrolyte abnormalities\nImaging\nConsider\nCXR\nif concern for aspiration pneumonia\nConsider\nCT head\nif presentation associated with trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anion gap acidosis",
+          "url": "https://wikem.org/wiki/Anion_gap_acidosis"
+        },
+        {
+          "text": "lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consider associated diseases (ie\npancreatitis\n,\nrhabdomyolysis\n,\nhepatitis\n, infections)\nThiamine\n(100mg IV or IM)\nPrior to glucose to decrease risk of\nWernicke encephalopathy\nor\nKorsakoff syndrome\nHydration (D5NS)\nIVF\nshould include 5% dextrose to treat starvation ketosis\nLarge IVF admin does not predispose to cerebral edema\nGlucose stimulates insulin which stops lipolysis\nOral nutrition if able to tolerate\nElectrolyte replacement\nK, Mag and Phos\nMonitor for signs of\nalcohol withdrawal\nConsider\nbicarbonate\nif life-threatening acidosis (pH <7.1) unresponsive to fluid therapy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Korsakoff_syndrome"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Electrolyte replacement",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_Withdrawal"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission\nConsider admission for those with severe volume depletion, acidosis, or persistent nausea/vomiting\nHypoglycemia\nis poor prognostic feature, indicating depleted glycogen stores\nDischarge\nDischarge home after treatment if able to tolerate POs and acidosis resolved",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Metabolic Acidosis\nAnion Gap (High)\nAcid-Base Disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Anion Gap (High)",
+          "url": "https://wikem.org/wiki/Anion_Gap_(High)"
+        },
+        {
+          "text": "Acid-Base Disorders",
+          "url": "https://wikem.org/wiki/Acid-Base_Disorders"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - Alcoholic Ketoacidosis\nEMRA - Alcoholic Ketoacidosis: Mind the Gap, Give Patients What They Need",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

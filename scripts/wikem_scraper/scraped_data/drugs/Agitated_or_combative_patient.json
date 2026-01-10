@@ -1,0 +1,609 @@
+{
+  "drug_name": "Agitated_or_combative_patient",
+  "url": "https://wikem.org/wiki/Agitated_or_combative_patient",
+  "scraped_at": "2026-01-10T07:47:17.691027",
+  "sections": {
+    "Background": {
+      "text": "Violence may occur without warning\nPositive predictors of violence\nMale gender\nHistory of violence\nSubstance abuse\nPsychiatric illness\nSchizophrenia\n, Psychotic\ndepression\nPersonality disorders\n- (e.g. antisocial personality disorder patients may lack remorse for violent actions_\nMania\n- unpredictable because of emotional lability\nIncreased\nwaiting\nduration (for evaluation, results, treatment, etc)\nFactors that\ndo not\npredict violence\nEthnicity, diagnosis, age, marital status, and education\nEvaluation by psychiatrist,\nregardless of experience",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Personality disorders",
+          "url": "https://wikem.org/wiki/Personality_disorders"
+        },
+        {
+          "text": "Mania",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Escalation behaviors may include progression through:\nAnger, resistance, aggression, hostility, argumentativeness, violence",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "FIND ME (functional, infectious, neurologic, drugs, metabolic, endocrine)\nPsychiatric\nSchizophrenia\n, paranoid ideation, catatonic excitement\nMania\nPersonality disorders (\nborderline\n,\nantisocial\n)\nDelusional\ndepression\nPost-traumatic stress disorder\nDecompensating obsessive-compulsive disorders\nSituational Frustration\nMutual hostility\nMiscommunication\nFear of dependence or rejection\nFear of illness\nGuilt about disease process\nAntisocial Behavior\nViolence with no associated medical or psychiatric explanation\nOrganic Diseases\nHead trauma\nHypoxia\nHypoglycemia\nor\nhyperglycemia\nElectrolyte abnormality\nInfection\nCNS infection (eg, herpes\nencephalitis\n)\nAIDS\nEndocrine disorder\nThyrotoxicosis\nHyperparathyroidism\nSeizure\n(eg, temporal lobe, limbic)\nCNS tumor\n(limbic system)\nAutoimmune Disease\nLimbic encephalitis\nMultiple sclerosis\nPorphyria\nWilson's disease\nHuntington’s disease\nSleep disorders\nVitamin deficiencies\n(e.g. folate, B12, niacin, B6)\nDelirium\nDementia\nCerebrovascular accident\nVascular malformation (e.g.\nAVM\n)\nHypothermia\nor\nhyperthermia\nAnemia\nTox\nAdverse reaction to prescribed medication\nAlcohol\n(intoxication and withdrawal)\nAmphetamines\nCocaine\nSedative/Hypnotics\n(intoxication or withdrawal)\nPhencyclidine\n(PCP)\nLysergic acid diethylamide (LSD)\nAnticholinergics\nAromatic\nhydrocarbons\n(eg, glue, paint, gasoline)\nSteroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Mania",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        },
+        {
+          "text": "borderline",
+          "url": "https://wikem.org/wiki/Borderline_personality_disorder"
+        },
+        {
+          "text": "antisocial",
+          "url": "https://wikem.org/wiki/Antisocial_personality_disorder"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte abnormality",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormality"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "CNS tumor",
+          "url": "https://wikem.org/wiki/CNS_tumor"
+        },
+        {
+          "text": "Limbic encephalitis",
+          "url": "https://wikem.org/wiki/Limbic_encephalitis"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Cerebrovascular accident",
+          "url": "https://wikem.org/wiki/Cerebrovascular_accident"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Lysergic acid diethylamide (LSD)",
+          "url": "https://wikem.org/wiki/Lysergic_acid_diethylamide_(LSD)"
+        },
+        {
+          "text": "Anticholinergics",
+          "url": "https://wikem.org/wiki/Anticholinergics"
+        },
+        {
+          "text": "hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Screen for acute medical conditions that may contribute to the patient's behavior.\nAlways obtain:\nBlood glucose\nVitals, including pulse oximetry\nConsider:\nMetabolic panel: serum electrolytes, thyroid function\nToxicology screen and blood alcohol levels\nAmmonia level\nUrine analysis\nLumbar puncture\n(CNS infection)\nAspirin and acetaminophen levels (intentional ingestion)\nMedication levels (sub- vs super-therapeutic)\nElectrocardiogram\n(elders, intentional ingestion).\nCranial imaging\nElectroencephalography\nUnnecessary diagnostic testing prolongs ED stay and delays definitive psychiatric care.\nOrganic cause unlikely\n→\nmay not\nrequire further workup\nYounger than 40 years\nPrior psychiatric history\nNormal physical examination\nNormal vital signs\nCalm demeanor\nNormal orientation\nNo physical complaints\nOrganic cause more likely\n→\ndoes\nrequire further workup\nAcute onset of agitated behavior\nBehavior that waxes and wanes over time\nOlder than 40 years with new psychiatric symptoms\nElders (higher risk for delirium)\nHistory of substance abuse (intoxication or withdrawal)\nPersistently abnormal vital signs\nClouding of consciousness\nFocal neurologic findings",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "Electrocardiogram",
+          "url": "https://wikem.org/wiki/Electrocardiogram"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Risk_assessment": {
+          "text": "Screen for weapons and disarm prior to entrance to ED\nViolence may occur without warning\nBe aware of surroundings\nSigns of anger, resistance, aggression, hostility, argumentativeness, violence\nAccessibility of door for escape\nPresence of objects that may be used as weapons",
+          "tables": []
+        },
+        "Verbal_de-escalation_techniques": {
+          "text": "Be honest and straightforward; Ask about violence directly\nSuicidal or homicidal ideations and plans\nPossession of weapons\nHistory of violent behavior\nCurrent use of intoxicants\nBe nonconfrontational, attentive, and receptive\nRespond in a calm and soothing tone\nExpress concern/worry about the patient\nThree Fs framework\n:\nI understand how you could\nfeel\nthat way.\nOthers in that situation have\nfelt\nthat way, too.\nMost have\nfound\nthat _____ helps.\"\nAvoid argumentation, machismo, and condescension\nDo not\nthreaten\nto call security — Invites patient to challenge with violence\nDo not\ndeceive\n(eg, about estimated wait times) — Invites violence when lie is uncovered\nDo not\ncommand\nto calm down — Invites further escalation\nDo not\ndownplay\n,\ndeny\n, or\nignore\nthreatening behavior\nDo not\nhesitate\n— Leave and call for help if necessary",
+          "tables": []
+        },
+        "Chemical_Restraints_(Rapid_Tranquilization)": {
+          "text": "Offer voluntary administration to patient — increased sense of control may calm patient\nIf need to temporary physical restraint the patient: One arm up, one arm down, tie legs to opposite side of bed.\nReference with video\nSuggested protocol for continued agitation: antipsychotic Q5 min x 2, then ketamine IM\nE.g.\nDroperidol\n5mg (or\nhaloperidol\n5mg) IM Q5 min x 2, then\nketamine\n300mg IM\nKetamine\n, at a dose of 4-6 mg/kg IM, achieves sedation in 2-10 minutes. Few medications, if any, reliably achieve effective sedation this quickly following a single dose.\n[1]\n.\nOther protocols involve combination therapy\n[2]\n.\nNeuroleptics (\nAntipsychotics\n)\nAtypical antipsychotics\nLess sedation and\nEPS\n(than typical)\nIncreased mortality in elderly with dementia-related psychosis\nolanzapine\n,\nziprasidone\n, and\naripiprazole\nTypical antipsychotics (low potency)\nGreater sedation, hypotension, anticholinergic effects (than high-potency)\nchlorpromazine\nand\nthioridazine\nTypical antipsychotics (medium potency)\nloxapine\nand\nmolindone\nTypical antipsychotics (high potency)\nGreater\nEPS\n(than low-potency)\nbutyrophenones\n:\nhaloperidol\nand\ndroperidol\nCautions\nNeuroleptic malignant syndrome\n— rare\nExtrapyramidal symptoms\n— treat with\ndiphenhydramine\nor\nbenztropine\nQTc prolongation\nand\ntorsades de pointes\nKetamine\n[3]\n4-6mg/kg IM or 1mg/kg IV\nBenzodiazepines\n\"There is increasing evidence that benzodiazepines alone and in combination with antipsychotics are associated with higher rates of adverse effects.\n[4]\nLorazepam\n— Eliminated without active metabolites\nOnset: 5-20 min (IV), 15-30 min (IM)\nDuration: 6-8 H\nMidazolam\nOnset: 15 min (IM)\nDuration: 2 H\nTypical intramuscular dosing for adult patients:\n[5]\nHaloperidol 5-10mg IM, ziprasidone 20mg IM, olanzapine 10mg IM, and midazolam 5mg IM.\nIn order from slowest to quickest time to effect",
+          "tables": []
+        },
+        "Physical_restraints": {
+          "text": "Not for convenience or punishment\nIndications for seclusion or restraint\nImminent danger to self, others, or environment\nPart of ongoing behavioral treatment\nContraindications to seclusion\nPatient is unstable and requires close monitoring\nPatient is self-harming (suicidal, self-mutilating, toxin ingestion)\nCaveats\nAllow for adequate chest expansion for ventilation\nSudden death has occurred in the prone or hobble position",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "EPS",
+          "url": "https://wikem.org/wiki/EPS"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "EPS",
+          "url": "https://wikem.org/wiki/EPS"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Risk_assessment": {
+      "text": "Screen for weapons and disarm prior to entrance to ED\nViolence may occur without warning\nBe aware of surroundings\nSigns of anger, resistance, aggression, hostility, argumentativeness, violence\nAccessibility of door for escape\nPresence of objects that may be used as weapons",
+      "subsections": {
+        "Verbal_de-escalation_techniques": {
+          "text": "Be honest and straightforward; Ask about violence directly\nSuicidal or homicidal ideations and plans\nPossession of weapons\nHistory of violent behavior\nCurrent use of intoxicants\nBe nonconfrontational, attentive, and receptive\nRespond in a calm and soothing tone\nExpress concern/worry about the patient\nThree Fs framework\n:\nI understand how you could\nfeel\nthat way.\nOthers in that situation have\nfelt\nthat way, too.\nMost have\nfound\nthat _____ helps.\"\nAvoid argumentation, machismo, and condescension\nDo not\nthreaten\nto call security — Invites patient to challenge with violence\nDo not\ndeceive\n(eg, about estimated wait times) — Invites violence when lie is uncovered\nDo not\ncommand\nto calm down — Invites further escalation\nDo not\ndownplay\n,\ndeny\n, or\nignore\nthreatening behavior\nDo not\nhesitate\n— Leave and call for help if necessary",
+          "tables": []
+        },
+        "Chemical_Restraints_(Rapid_Tranquilization)": {
+          "text": "Offer voluntary administration to patient — increased sense of control may calm patient\nIf need to temporary physical restraint the patient: One arm up, one arm down, tie legs to opposite side of bed.\nReference with video\nSuggested protocol for continued agitation: antipsychotic Q5 min x 2, then ketamine IM\nE.g.\nDroperidol\n5mg (or\nhaloperidol\n5mg) IM Q5 min x 2, then\nketamine\n300mg IM\nKetamine\n, at a dose of 4-6 mg/kg IM, achieves sedation in 2-10 minutes. Few medications, if any, reliably achieve effective sedation this quickly following a single dose.\n[1]\n.\nOther protocols involve combination therapy\n[2]\n.\nNeuroleptics (\nAntipsychotics\n)\nAtypical antipsychotics\nLess sedation and\nEPS\n(than typical)\nIncreased mortality in elderly with dementia-related psychosis\nolanzapine\n,\nziprasidone\n, and\naripiprazole\nTypical antipsychotics (low potency)\nGreater sedation, hypotension, anticholinergic effects (than high-potency)\nchlorpromazine\nand\nthioridazine\nTypical antipsychotics (medium potency)\nloxapine\nand\nmolindone\nTypical antipsychotics (high potency)\nGreater\nEPS\n(than low-potency)\nbutyrophenones\n:\nhaloperidol\nand\ndroperidol\nCautions\nNeuroleptic malignant syndrome\n— rare\nExtrapyramidal symptoms\n— treat with\ndiphenhydramine\nor\nbenztropine\nQTc prolongation\nand\ntorsades de pointes\nKetamine\n[3]\n4-6mg/kg IM or 1mg/kg IV\nBenzodiazepines\n\"There is increasing evidence that benzodiazepines alone and in combination with antipsychotics are associated with higher rates of adverse effects.\n[4]\nLorazepam\n— Eliminated without active metabolites\nOnset: 5-20 min (IV), 15-30 min (IM)\nDuration: 6-8 H\nMidazolam\nOnset: 15 min (IM)\nDuration: 2 H\nTypical intramuscular dosing for adult patients:\n[5]\nHaloperidol 5-10mg IM, ziprasidone 20mg IM, olanzapine 10mg IM, and midazolam 5mg IM.\nIn order from slowest to quickest time to effect",
+          "tables": []
+        },
+        "Physical_restraints": {
+          "text": "Not for convenience or punishment\nIndications for seclusion or restraint\nImminent danger to self, others, or environment\nPart of ongoing behavioral treatment\nContraindications to seclusion\nPatient is unstable and requires close monitoring\nPatient is self-harming (suicidal, self-mutilating, toxin ingestion)\nCaveats\nAllow for adequate chest expansion for ventilation\nSudden death has occurred in the prone or hobble position",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "EPS",
+          "url": "https://wikem.org/wiki/EPS"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "EPS",
+          "url": "https://wikem.org/wiki/EPS"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Verbal_de-escalation_techniques": {
+      "text": "Be honest and straightforward; Ask about violence directly\nSuicidal or homicidal ideations and plans\nPossession of weapons\nHistory of violent behavior\nCurrent use of intoxicants\nBe nonconfrontational, attentive, and receptive\nRespond in a calm and soothing tone\nExpress concern/worry about the patient\nThree Fs framework\n:\nI understand how you could\nfeel\nthat way.\nOthers in that situation have\nfelt\nthat way, too.\nMost have\nfound\nthat _____ helps.\"\nAvoid argumentation, machismo, and condescension\nDo not\nthreaten\nto call security — Invites patient to challenge with violence\nDo not\ndeceive\n(eg, about estimated wait times) — Invites violence when lie is uncovered\nDo not\ncommand\nto calm down — Invites further escalation\nDo not\ndownplay\n,\ndeny\n, or\nignore\nthreatening behavior\nDo not\nhesitate\n— Leave and call for help if necessary",
+      "subsections": {
+        "Chemical_Restraints_(Rapid_Tranquilization)": {
+          "text": "Offer voluntary administration to patient — increased sense of control may calm patient\nIf need to temporary physical restraint the patient: One arm up, one arm down, tie legs to opposite side of bed.\nReference with video\nSuggested protocol for continued agitation: antipsychotic Q5 min x 2, then ketamine IM\nE.g.\nDroperidol\n5mg (or\nhaloperidol\n5mg) IM Q5 min x 2, then\nketamine\n300mg IM\nKetamine\n, at a dose of 4-6 mg/kg IM, achieves sedation in 2-10 minutes. Few medications, if any, reliably achieve effective sedation this quickly following a single dose.\n[1]\n.\nOther protocols involve combination therapy\n[2]\n.\nNeuroleptics (\nAntipsychotics\n)\nAtypical antipsychotics\nLess sedation and\nEPS\n(than typical)\nIncreased mortality in elderly with dementia-related psychosis\nolanzapine\n,\nziprasidone\n, and\naripiprazole\nTypical antipsychotics (low potency)\nGreater sedation, hypotension, anticholinergic effects (than high-potency)\nchlorpromazine\nand\nthioridazine\nTypical antipsychotics (medium potency)\nloxapine\nand\nmolindone\nTypical antipsychotics (high potency)\nGreater\nEPS\n(than low-potency)\nbutyrophenones\n:\nhaloperidol\nand\ndroperidol\nCautions\nNeuroleptic malignant syndrome\n— rare\nExtrapyramidal symptoms\n— treat with\ndiphenhydramine\nor\nbenztropine\nQTc prolongation\nand\ntorsades de pointes\nKetamine\n[3]\n4-6mg/kg IM or 1mg/kg IV\nBenzodiazepines\n\"There is increasing evidence that benzodiazepines alone and in combination with antipsychotics are associated with higher rates of adverse effects.\n[4]\nLorazepam\n— Eliminated without active metabolites\nOnset: 5-20 min (IV), 15-30 min (IM)\nDuration: 6-8 H\nMidazolam\nOnset: 15 min (IM)\nDuration: 2 H\nTypical intramuscular dosing for adult patients:\n[5]\nHaloperidol 5-10mg IM, ziprasidone 20mg IM, olanzapine 10mg IM, and midazolam 5mg IM.\nIn order from slowest to quickest time to effect",
+          "tables": []
+        },
+        "Physical_restraints": {
+          "text": "Not for convenience or punishment\nIndications for seclusion or restraint\nImminent danger to self, others, or environment\nPart of ongoing behavioral treatment\nContraindications to seclusion\nPatient is unstable and requires close monitoring\nPatient is self-harming (suicidal, self-mutilating, toxin ingestion)\nCaveats\nAllow for adequate chest expansion for ventilation\nSudden death has occurred in the prone or hobble position",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "EPS",
+          "url": "https://wikem.org/wiki/EPS"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "ziprasidone",
+          "url": "https://wikem.org/wiki/Ziprasidone"
+        },
+        {
+          "text": "aripiprazole",
+          "url": "https://wikem.org/wiki/Aripiprazole"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "EPS",
+          "url": "https://wikem.org/wiki/EPS"
+        },
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "droperidol",
+          "url": "https://wikem.org/wiki/Droperidol"
+        },
+        {
+          "text": "Neuroleptic malignant syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "QTc prolongation",
+          "url": "https://wikem.org/wiki/QTc_prolongation"
+        },
+        {
+          "text": "torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Midazolam",
+          "url": "https://wikem.org/wiki/Midazolam"
+        }
+      ]
+    },
+    "Physical_restraints": {
+      "text": "Not for convenience or punishment\nIndications for seclusion or restraint\nImminent danger to self, others, or environment\nPart of ongoing behavioral treatment\nContraindications to seclusion\nPatient is unstable and requires close monitoring\nPatient is self-harming (suicidal, self-mutilating, toxin ingestion)\nCaveats\nAllow for adequate chest expansion for ventilation\nSudden death has occurred in the prone or hobble position",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admit": {
+          "text": "Admit or commit when...\nHarm to self\nHarm to others\nCannot care for self\nUncooperative, refusing to answer questions\nIntoxicated\nPsychotic\nOrganic brain syndrome",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Consider discharge when...\nTemporary organic syndrome has concluded (eg, intoxication)\nNo other significant problem requiring acute intervention\nPatient is in control and no longer violent",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admit": {
+      "text": "Admit or commit when...\nHarm to self\nHarm to others\nCannot care for self\nUncooperative, refusing to answer questions\nIntoxicated\nPsychotic\nOrganic brain syndrome",
+      "subsections": {
+        "Discharge": {
+          "text": "Consider discharge when...\nTemporary organic syndrome has concluded (eg, intoxication)\nNo other significant problem requiring acute intervention\nPatient is in control and no longer violent",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Consider discharge when...\nTemporary organic syndrome has concluded (eg, intoxication)\nNo other significant problem requiring acute intervention\nPatient is in control and no longer violent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedation (main)\nAltered mental status\nExcited delirium\nAcute psychosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation (main)",
+          "url": "https://wikem.org/wiki/Sedation_(main)"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        }
+      ]
+    },
+    "Further_Reading": {
+      "text": "Heiner JD and Moore GP.  The Combative Patient.  In: Marx J, Walls R, Hockberger R, eds.  Rosen's Emergency Medicine: Concepts and Clinical Practice.  8th ed.  Philadelphia, PA: Elsevier/Saunders; 2014: 188: 2414-2421.\nMoore GP, Pfaff JA.\nAssessment and emergency management of the acutely agitated or violent adult\n.  UpToDate.  Feb 16, 2017.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

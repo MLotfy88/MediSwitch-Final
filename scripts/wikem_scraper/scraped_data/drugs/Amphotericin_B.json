@@ -1,0 +1,149 @@
+{
+  "drug_name": "Amphotericin_B",
+  "url": "https://wikem.org/wiki/Amphotericin_B",
+  "scraped_at": "2026-01-10T07:47:29.434896",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntifungal\nDosage Forms: powder for injection\nDosage Strengths: 50mg/vial\nRoutes of Administration: IV\nCommon Trade Names:  AmBisome, Fungizone \"ampho-terrible\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Dosing is\nNOT\ninterchangeable between different formulations of amphotericin B due to significant variations in pharmacokinetics. Call your institution's pharmacy (or ID) if unsure about correct dose.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Nephrotoxicity/renal failure, hemorrhagic cystitis\nAnaphylaxis\nCardiac arrest",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypokalemia, hypomagnesemia, hyperglycemia (check BMP at least daily)\nRigors\nNausea/vomiting, diarrhea\nAnemia\nRash\nDyspnea\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Nephrotoxicity/renal failure, hemorrhagic cystitis\nAnaphylaxis\nCardiac arrest",
+      "subsections": {
+        "Common": {
+          "text": "Hypokalemia, hypomagnesemia, hyperglycemia (check BMP at least daily)\nRigors\nNausea/vomiting, diarrhea\nAnemia\nRash\nDyspnea\nInsomnia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Hypokalemia, hypomagnesemia, hyperglycemia (check BMP at least daily)\nRigors\nNausea/vomiting, diarrhea\nAnemia\nRash\nDyspnea\nInsomnia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Depends on formulation, 1-14 days\nMetabolism: unknown\nExcretion: urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to ergosterol in fungal cell membranes→ intracellular contents leak out→ cell dies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Amphotericin B is an antifungal agent used to treat severe or disseminated fungal infections (e.g. invasive aspergillosis,\ncryptoccoccal meningitis\n,\ncoccidioidomycosis\n,\nmucormycosis\n, fungemia in neutropenic patients). It comes in several formulations; conventional, cholesteryl sulfate complex, lipid complex, and liposomal. It is usually reserved for serious infection due to significant associated toxicities, though the newer formulations tend to be better tolerated.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cryptoccoccal meningitis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "mucormycosis",
+          "url": "https://wikem.org/wiki/Mucormycosis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Antifungals\nFungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

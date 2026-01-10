@@ -1,0 +1,217 @@
+{
+  "drug_name": "Aliskiren",
+  "url": "https://wikem.org/wiki/Aliskiren",
+  "scraped_at": "2026-01-10T07:47:22.029873",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntihypertensive\nDosage Forms: 150mg, 300mg\nRoutes of Administration: Oral\nCommon Trade Names: Tekturna, Rasilez",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihypertensive",
+          "url": "https://wikem.org/wiki/Antihypertensive"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "150-300 mg PO qd",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension": {
+      "text": "150-300 mg PO qd",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: X\nLactation risk: Consider alternative",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nCrCl > 30: No adjustment\nCrCl < 30: Not Definied\nHD/PD: No Supplement\nPediatric: Safety/efficacy not established in pediatric patients",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Safety/efficacy not established in pediatric patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nCrCl > 30: No adjustment\nCrCl < 30: Not Definied\nHD/PD: No Supplement\nPediatric: Safety/efficacy not established in pediatric patients",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Safety/efficacy not established in pediatric patients",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\n,\nangioedema\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nHypotension\nHyperkalemia\nRenal failure,\nNephrolithiasis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nHyperkalemia\nBUN, Cr elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\n,\nangioedema\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nHypotension\nHyperkalemia\nRenal failure,\nNephrolithiasis",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nHyperkalemia\nBUN, Cr elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nHyperkalemia\nBUN, Cr elevation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 24h\nMetabolism: Liver partially; 3A4 substrate\nExcretion: Urine (25% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Decreases plasma renin activity via direct inhibition\nInterferes with conversion of angiotensinogen to angiotensin I",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Funder JW, Carey RM, Mantero F, et al. The management of primary aldosteronism: case detection, diagnosis, and treatment: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(5):1889-1916. doi: 10.1210/jc.2015-4061. [PubMed 26934393]\nGo AS, Bauman M, King SM, et al. An effective approach to high blood pressure control: a science advisory from the American Heart Association, the American College of Cardiology, and the Centers for Disease Control and Prevention [published online November 15, 2013]. Hypertension. [PubMed 24243703]\nKhadzhynov D, Slowinski T, Lieker I, et al, \"Pharmacokinetics of Aliskiren in Patients With End-Stage Renal Disease Undergoing Haemodialysis,\" Clin Pharmacokinet, 2012, 51(10):661-9. [PubMed 23018529]\nParving HH, Persson F, Lewis JB, et al, “Aliskiren Combined With Losartan in Type 2 Diabetes and Nephropathy,” N Engl J Med, 2008, 358(23):2433-46. [PubMed 18525041]\nRasilez (aliskiren) [product monograph]. Dorval, Quebec, Canada: Novartis Pharmaceuticals Canada Inc; January 2018.\nStraessen JA, Li Y, and Richart T, “Oral Renin Inhibitors,” Lancet, 2006, 368(9545):1449-56. [PubMed 17055947]\nTekturna (aliskiren) [prescribing information]. Boston, MA: Noden Pharma USA Inc; November 2017.\nVaidyanathan S, Bigler H, Yeh C, et al, “Pharmacokinetics of the Oral Direct Renin Inhibitor Aliskiren Alone and in Combination with Irbesartan in Renal Impairment,” Clin Pharmacokinet, 2007, 46(8):661-75. [PubMed 17655373]\nVaidyanathan S, Warren V, Yeh C, et al, “Pharmacokinetics, Safety, and Tolerability of the Oral Renin Inhibitor Aliskiren in Patients With Hepatic Impairment,” J Clin Pharmacol, 2007, 47(2):192-200. [PubMed 17244770]\nWeber MA, Schiffrin EL, White WB, et al. Clinical Practice Guidelines for the Management of Hypertension in the community: a statement by the American Society of Hypertension and the International Society of Hypertension. J Clin Hyperten (Greenwich). 2014;16(1):14-26. [PubMed 24341872]\nWhelton PK, Carey RM, Aronow WS, et al. 2017 ACC/AHA/AAPA/ABC/ACPM/AGS/APhA/ASH/ASPC/NMA/PCNA guideline for the prevention, detection, evaluation, and management of high blood pressure in adults: a report of the American College of Cardiology/American Heart Association Task Force on Clinical Practice Guidelines [published online ahead of print on November 13, 2017.]. Hypertension. 2017. doi: 10.1161/HYP.0000000000000065. [PubMed 29133356]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

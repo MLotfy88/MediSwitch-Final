@@ -1,0 +1,591 @@
+{
+  "drug_name": "Ampicillin/Sulbactam",
+  "url": "https://wikem.org/wiki/Ampicillin/Sulbactam",
+  "scraped_at": "2026-01-10T07:47:33.836442",
+  "sections": {
+    "General": {
+      "text": "Type: Amino-\nPenicillin\nwith a bacterial beta-lactamase inhibitor\nDosage Forms: powder for solution\nDosage Strengths: 1.5g, 3g, 15g\nRoutes of Administration: IM, IV\nCommon Trade Names: Unasyn",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "1.5-3g IV/IM q6 hours\nMax: 12g/day",
+          "tables": []
+        },
+        "Bite_(for_Pasteurella_multocida_Coverage)": {
+          "text": "1.5-3g IM/IV q6 hours",
+          "tables": []
+        },
+        "Orbital_Cellulitis": {
+          "text": "3g IM/IV q6 hours",
+          "tables": []
+        },
+        "Diabetic_Foot_Osteomyelitis": {
+          "text": "3g IM/IV q6 hours",
+          "tables": []
+        },
+        "PID": {
+          "text": "3g IM/IV q6 hours +\ndoxycycline",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "Aspiration or CAP\n1.5-3g  IM/IV q6 hours\nHospital-acquired: 3g IM/IV q6 hours",
+          "tables": []
+        },
+        "UTI,_Pyelonephritis": {
+          "text": "3g IM/IV q6 hours x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "1.5-3g IV/IM q6 hours\nMax: 12g/day",
+      "subsections": {
+        "Bite_(for_Pasteurella_multocida_Coverage)": {
+          "text": "1.5-3g IM/IV q6 hours",
+          "tables": []
+        },
+        "Orbital_Cellulitis": {
+          "text": "3g IM/IV q6 hours",
+          "tables": []
+        },
+        "Diabetic_Foot_Osteomyelitis": {
+          "text": "3g IM/IV q6 hours",
+          "tables": []
+        },
+        "PID": {
+          "text": "3g IM/IV q6 hours +\ndoxycycline",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "Aspiration or CAP\n1.5-3g  IM/IV q6 hours\nHospital-acquired: 3g IM/IV q6 hours",
+          "tables": []
+        },
+        "UTI,_Pyelonephritis": {
+          "text": "3g IM/IV q6 hours x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Orbital_Cellulitis": {
+      "text": "3g IM/IV q6 hours",
+      "subsections": {
+        "Diabetic_Foot_Osteomyelitis": {
+          "text": "3g IM/IV q6 hours",
+          "tables": []
+        },
+        "PID": {
+          "text": "3g IM/IV q6 hours +\ndoxycycline",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "Aspiration or CAP\n1.5-3g  IM/IV q6 hours\nHospital-acquired: 3g IM/IV q6 hours",
+          "tables": []
+        },
+        "UTI,_Pyelonephritis": {
+          "text": "3g IM/IV q6 hours x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Diabetic_Foot_Osteomyelitis": {
+      "text": "3g IM/IV q6 hours",
+      "subsections": {
+        "PID": {
+          "text": "3g IM/IV q6 hours +\ndoxycycline",
+          "tables": []
+        },
+        "Pneumonia": {
+          "text": "Aspiration or CAP\n1.5-3g  IM/IV q6 hours\nHospital-acquired: 3g IM/IV q6 hours",
+          "tables": []
+        },
+        "UTI,_Pyelonephritis": {
+          "text": "3g IM/IV q6 hours x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "PID": {
+      "text": "3g IM/IV q6 hours +\ndoxycycline",
+      "subsections": {
+        "Pneumonia": {
+          "text": "Aspiration or CAP\n1.5-3g  IM/IV q6 hours\nHospital-acquired: 3g IM/IV q6 hours",
+          "tables": []
+        },
+        "UTI,_Pyelonephritis": {
+          "text": "3g IM/IV q6 hours x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        }
+      ]
+    },
+    "Pneumonia": {
+      "text": "Aspiration or CAP\n1.5-3g  IM/IV q6 hours\nHospital-acquired: 3g IM/IV q6 hours",
+      "subsections": {
+        "UTI,_Pyelonephritis": {
+          "text": "3g IM/IV q6 hours x 14 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "UTI,_Pyelonephritis": {
+      "text": "3g IM/IV q6 hours x 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Meningitis": {
+      "text": "400mg ampicillin/kg/day IM/IV divided q6 hours\nFirst Dose: 100mg ampicillin/kg IM/IV x 1 (150mg Unasyn/kg IM/IV x 1)\nMax: 2000mg ampicillin (3000mg Unasyn)",
+      "subsections": {
+        "Endocarditis": {
+          "text": "200mg ampicillin/kg/day IM/IV divided q4-6 hours +/-\ngentamicin\nx 4-6 weeks",
+          "tables": []
+        },
+        "SSTI": {
+          "text": "200mg ampicillin/kg/day IM/IV divided q6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "Endocarditis": {
+      "text": "200mg ampicillin/kg/day IM/IV divided q4-6 hours +/-\ngentamicin\nx 4-6 weeks",
+      "subsections": {
+        "SSTI": {
+          "text": "200mg ampicillin/kg/day IM/IV divided q6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        }
+      ]
+    },
+    "SSTI": {
+      "text": "200mg ampicillin/kg/day IM/IV divided q6 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy\n: B\nLactation: Use caution\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Drugs_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nItching\nNausea\nVomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Anaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nItching\nNausea\nVomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Headache\nItching\nNausea\nVomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: One hour\nMetabolism:\nExcretion: Renal (75% excreted in active form), Bile (very small amount)\n[3]\nMechanism of Action: Bactericidal (Binds to penicillin-binding proteins to block cell wall synthesis), coupled with β-lacatamase inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

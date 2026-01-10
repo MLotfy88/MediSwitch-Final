@@ -1,0 +1,534 @@
+{
+  "drug_name": "Amphetamines",
+  "url": "https://wikem.org/wiki/Amphetamines",
+  "scraped_at": "2026-01-10T07:47:33.321616",
+  "sections": {
+    "Background": {
+      "text": "Class of xenobiotics (Substituted amphetamines) based on a common central structure (ethylamine group attached to a phenol ring)\nAll have mixed serotonergic and dopaminergic activity\nUnlike\ncocaine\n, duration of action may be 12hr or longer\nTime- oral- 30min, inhaled instant\nhepatic and renal excretion- lasts 6- 24 hrs\nif tolerance developes- physical exam may yield normal findings\ndesipramine and amantadine can give false positive for urine amphet test\nhallucinogenic amphetamine derivatives may not show up on tox screen AKA Entactogens- enabling user to touch within",
+      "subsections": {
+        "Methamphetamine": {
+          "text": "More combative\nDelusions of parasites, formication, self-mutilate\nmore dysphoric",
+          "tables": []
+        },
+        "MDMA_Ecstacy": {
+          "text": "Increases serotonin, dopamine\nLasts 3 - 5hrs\nHyponatremia",
+          "tables": []
+        },
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Methamphetamine": {
+      "text": "More combative\nDelusions of parasites, formication, self-mutilate\nmore dysphoric",
+      "subsections": {
+        "MDMA_Ecstacy": {
+          "text": "Increases serotonin, dopamine\nLasts 3 - 5hrs\nHyponatremia",
+          "tables": []
+        },
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "MDMA_Ecstacy": {
+      "text": "Increases serotonin, dopamine\nLasts 3 - 5hrs\nHyponatremia",
+      "subsections": {
+        "Sympathomimetics": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Sympathomimetics": {
+      "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "System": "Cardiovascular",
+            "Minor or moderate overdose": "Cardiac dysrhythmiaHypertension or hypotension",
+            "Severe overdose": "Cardiogenic shockCerebral hemorrhageCirculatory collapse"
+          },
+          {
+            "System": "Central nervoussystem",
+            "Minor or moderate overdose": "ConfusionHyperreflexiaSevere agitationTremor",
+            "Severe overdose": "Acute amphetamine psychosis (e.g., delusions and paranoia)Compulsive and repetitive movementSerotonin syndromeSympathomimetic toxidrome"
+          },
+          {
+            "System": "Musculoskeletal",
+            "Minor or moderate overdose": "Myalgia",
+            "Severe overdose": "Rhabdomyolysis"
+          },
+          {
+            "System": "Respiratory",
+            "Minor or moderate overdose": "Rapid breathing",
+            "Severe overdose": "Pulmonary edemaPulmonary hypertensionRespiratory alkalosis"
+          },
+          {
+            "System": "Urinary",
+            "Minor or moderate overdose": "DysuriaUrinary retention",
+            "Severe overdose": "AnuriaAcute kidney injury"
+          },
+          {
+            "System": "Other",
+            "Minor or moderate overdose": "HyperthermiaMydriasis",
+            "Severe overdose": "HyperkalemiaorhypokalemiaHyperpyrexiaMetabolic acidosis"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sympathomimetics_2": {
+          "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+          "tables": []
+        },
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Sympathomimetics_2": {
+      "text": "Cocaine\nAmphetamines\nSynthetic cathinones\n(khat)\nKetamine\nEcstasy (MDMA)\nSynthetic cannabinoids\nBath salts",
+      "subsections": {
+        "Drugs_of_abuse": {
+          "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Synthetic cathinones",
+          "url": "https://wikem.org/wiki/Synthetic_cathinone_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ecstasy (MDMA)",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Drugs_of_abuse": {
+      "text": "25C-NBOMe‎\nAlcohol\nAmphetamines\nBath salts\nCocaine\nDifluoroethane\nEcstasy\nGamma hydroxybutyrate (GHB)\nHeroin\nInhalant abuse\nHydrocarbon toxicity\nDifluoroethane\n(electronics duster)\nMarijuana\nKratom\nPhencyclidine (PCP)\nPsilocybin\n(\"magic mushrooms\")\nSynthetic cannabinoids\nChloral hydrate\nBody packing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "25C-NBOMe‎",
+          "url": "https://wikem.org/wiki/25C-NBOMe"
+        },
+        {
+          "text": "Alcohol",
+          "url": "https://wikem.org/wiki/Alcohol"
+        },
+        {
+          "text": "Bath salts",
+          "url": "https://wikem.org/wiki/Bath_salts"
+        },
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Ecstasy",
+          "url": "https://wikem.org/wiki/Ecstasy"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Heroin",
+          "url": "https://wikem.org/wiki/Heroin"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Difluoroethane",
+          "url": "https://wikem.org/wiki/Difluoroethane"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Kratom",
+          "url": "https://wikem.org/wiki/Kratom_toxicity"
+        },
+        {
+          "text": "Phencyclidine (PCP)",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Psilocybin",
+          "url": "https://wikem.org/wiki/Psilocybin_toxicity"
+        },
+        {
+          "text": "Synthetic cannabinoids",
+          "url": "https://wikem.org/wiki/Synthetic_cannabinoids"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate"
+        },
+        {
+          "text": "Body packing",
+          "url": "https://wikem.org/wiki/Body_packing"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Benzodiazepines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sympathomimetic Toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic Toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_Toxicity"
+        }
+      ]
+    }
+  }
+}

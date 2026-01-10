@@ -1,0 +1,283 @@
+{
+  "drug_name": "Amniotic_fluid_embolus",
+  "url": "https://wikem.org/wiki/Amniotic_fluid_embolus",
+  "scraped_at": "2026-01-10T07:47:29.861612",
+  "sections": {
+    "Background": {
+      "text": "Maternal mortality rate ~80%\n85% of survivors have neurologic sequelae\nOccurs in 2-8 per 100,000 deliveries\n[1]\nResponsible for ~10% of maternal mortality in US",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Cesarean delivery\nAdvanced maternal age\nAbnormal placental implantation\nUterine rupture\nEclampsia\nAmniocentesis\nTrauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Cesarean delivery\nAdvanced maternal age\nAbnormal placental implantation\nUterine rupture\nEclampsia\nAmniocentesis\nTrauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Typically occurs during labor and delivery or 30 minutes after delivery\nAny of the following:\nRespiratory distress\nPulmonary edema\nHypoxia\nAltered mental status\nSeizures\nSudden maternal\ncardiovascular collapse\nDIC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "cardiovascular collapse",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "3rd_Trimester/Postpartum_Emergencies": {
+          "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "3rd_Trimester/Postpartum_Emergencies": {
+      "text": "Acute fatty liver of pregnancy\nAmniotic fluid embolus\nChorioamnionitis\nEclampsia\nHELLP syndrome\nMastitis\nPeripartum cardiomyopathy\nPostpartum endometritis\n(postpartum PID)\nPostpartum headache\nPostpartum hemorrhage\nPreeclampsia\nResuscitative hysterotomy\nRetained products of conception\nSeptic abortion\nUterine rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Chorioamnionitis",
+          "url": "https://wikem.org/wiki/Chorioamnionitis"
+        },
+        {
+          "text": "Eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Mastitis",
+          "url": "https://wikem.org/wiki/Mastitis"
+        },
+        {
+          "text": "Peripartum cardiomyopathy",
+          "url": "https://wikem.org/wiki/Peripartum_cardiomyopathy"
+        },
+        {
+          "text": "Postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        },
+        {
+          "text": "Postpartum headache",
+          "url": "https://wikem.org/wiki/Postpartum_headache"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Retained products of conception",
+          "url": "https://wikem.org/wiki/Retained_products_of_conception"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis of exclusion\nConsider\nCXR\nand/or chest CT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat hypoxia (may require intubation)\nTreat hypotension →\nPressors\n/\nblood products\nAvoid hypoperfusion → Place patient in left lateral decubitus position\nImmediate delivery of fetus → Emergent c-section\nResuscitative hysterotomy\nwithin 5min of cardiac arrest if mother cannot be resuscitated",
+      "subsections": {
+        "A-OK_Medications": {
+          "text": "Only case reports have described the following three therapies\n[2]\nAtropine\n- 1mg IV\nVagolytic properties may help\nOndansetron\n8 mg IV\nBlocking of serotonin receptors can  inhibits the release of more inflammatory mediators.\nKetorolac\n- 30mg IV\nCan block thromboxane production and prevent coagulopathies.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pressors",
+          "url": "https://wikem.org/wiki/Pressors"
+        },
+        {
+          "text": "blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "Resuscitative hysterotomy",
+          "url": "https://wikem.org/wiki/Resuscitative_hysterotomy"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        }
+      ]
+    },
+    "A-OK_Medications": {
+      "text": "Only case reports have described the following three therapies\n[2]\nAtropine\n- 1mg IV\nVagolytic properties may help\nOndansetron\n8 mg IV\nBlocking of serotonin receptors can  inhibits the release of more inflammatory mediators.\nKetorolac\n- 30mg IV\nCan block thromboxane production and prevent coagulopathies.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Ondansetron",
+          "url": "https://wikem.org/wiki/Ondansetron"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Postpartum emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Postpartum emergencies",
+          "url": "https://wikem.org/wiki/Postpartum_emergencies"
+        }
+      ]
+    }
+  }
+}

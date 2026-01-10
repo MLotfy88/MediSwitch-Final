@@ -1,0 +1,1544 @@
+{
+  "drug_name": "Amebiasis/en",
+  "url": "https://wikem.org/wiki/Amebiasis/en",
+  "scraped_at": "2026-01-10T07:47:28.709324",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Fecal oral transmission of Entamoeba histolytica cyst\nMost infection asymptomatic\nExcystation in intestinal lumen\nTrophozoites adhere and colonizes large intestine forming new cysts or invade the intestinal mucosa to cause colitis or abscesses\nLiver abscess\n- 10x more common in men\nIncubation period usually 2-4 weeks, but may range from a few days to years",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic vs. dysentery vs. extraintestinal abscesses\nIntestinal- several weeks of crampy\nabdominal pain\n, weight loss, watery or bloody\ndiarrhea\nLiver abscess\n-\nfever\n,\ncough\n,\nRUQ\nor\nepigastric pain\n, right-sided\npleural pain\nor referred shoulder pain +/- GI upset\nHepatomegaly\nwith tenderness over the liver a typical finding\nAbscess rupture can involve associated peritoneum, pericardium, or pleural cavity\nExtrahepatic amebic abscesses in the lung, brain, and skin are rare",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dysentery": {
+          "text": "Infectious-\nshigella\n,\nsalmonella\n,\ncampylobacter\n,\nE. Coli\n.\nNoninfectious-\nInflammatory bowel disease\n,\nischemic colitis\n,\ndiverticulitis\n, AV malformation.",
+          "tables": []
+        },
+        "Hepatic_abscess": {
+          "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+          "tables": []
+        },
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Dysentery": {
+      "text": "Infectious-\nshigella\n,\nsalmonella\n,\ncampylobacter\n,\nE. Coli\n.\nNoninfectious-\nInflammatory bowel disease\n,\nischemic colitis\n,\ndiverticulitis\n, AV malformation.",
+      "subsections": {
+        "Hepatic_abscess": {
+          "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+          "tables": []
+        },
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Hepatic_abscess": {
+      "text": "Pyogenic abscess\nAerobic:\nEscherichia coli\n,\nKlebsiella\n,\nPseudomonas\nAnaerobic:\nEnterococcus\n,\nbacteroides\n, anaerobic\nstreptococci\nEchinococcosis\nAmebiasis\nBenign cysts/malignancy\nTuberculosis\nMycosis",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "Pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "Enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        },
+        {
+          "text": "bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "streptococci",
+          "url": "https://wikem.org/wiki/Streptococci"
+        },
+        {
+          "text": "Echinococcosis",
+          "url": "https://wikem.org/wiki/Echinococcosis"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[1]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "CBC\nChem\nLFTs\nStool PCR\nDiagnostic gold standard\n100% sensitive and specific\nStool or abscess microscopy\n<60% SN; unreliable diagnostic test\n[2]\nStool, serum, or abscess fluid antigen\nIndirect hemagglutination (antibody)",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Abdominal Ultrasound\n58-98% SN for liver abscess (depending on size/location)\nAbdominal CT\nAlternative to ultrasound; equally effective in identifying abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Labs": {
+      "text": "CBC\nChem\nLFTs\nStool PCR\nDiagnostic gold standard\n100% sensitive and specific\nStool or abscess microscopy\n<60% SN; unreliable diagnostic test\n[2]\nStool, serum, or abscess fluid antigen\nIndirect hemagglutination (antibody)",
+      "subsections": {
+        "Imaging": {
+          "text": "Abdominal Ultrasound\n58-98% SN for liver abscess (depending on size/location)\nAbdominal CT\nAlternative to ultrasound; equally effective in identifying abscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Abdominal Ultrasound\n58-98% SN for liver abscess (depending on size/location)\nAbdominal CT\nAlternative to ultrasound; equally effective in identifying abscess",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic_colonization": {
+          "text": "Paromomycin\nor diloxanide",
+          "tables": []
+        },
+        "Colitis": {
+          "text": "Metronidazole",
+          "tables": []
+        },
+        "Liver_abscess": {
+          "text": "Flagyl\n,\ntinidazole\n,\nparomomycin\n, or diloxanide\nConsider drainage of abscess by IR if no response to antibiotics in 5 days, abscess > 5cm, or left lobe involvement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asymptomatic_colonization": {
+      "text": "Paromomycin\nor diloxanide",
+      "subsections": {
+        "Colitis": {
+          "text": "Metronidazole",
+          "tables": []
+        },
+        "Liver_abscess": {
+          "text": "Flagyl\n,\ntinidazole\n,\nparomomycin\n, or diloxanide\nConsider drainage of abscess by IR if no response to antibiotics in 5 days, abscess > 5cm, or left lobe involvement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Colitis": {
+      "text": "Metronidazole",
+      "subsections": {
+        "Liver_abscess": {
+          "text": "Flagyl\n,\ntinidazole\n,\nparomomycin\n, or diloxanide\nConsider drainage of abscess by IR if no response to antibiotics in 5 days, abscess > 5cm, or left lobe involvement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Liver_abscess": {
+      "text": "Flagyl\n,\ntinidazole\n,\nparomomycin\n, or diloxanide\nConsider drainage of abscess by IR if no response to antibiotics in 5 days, abscess > 5cm, or left lobe involvement",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission\nAdmit if signs of shock, sepsis, or peritonitis\nPatients with toxic megacolon should be admitted for surgical intervention.\nDischarge\nPatients who are non-toxic and able to tolerate oral hydration/PO meds can be discharged with outpatient follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Merk Manual - Amebiasis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
