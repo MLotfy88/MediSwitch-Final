@@ -1,0 +1,59 @@
+{
+  "drug_name": "Knee_x-rays",
+  "url": "https://wikem.org/wiki/Knee_x-rays",
+  "scraped_at": "2026-01-10T07:56:09.727262",
+  "sections": {
+    "Technique": {
+      "text": "",
+      "subsections": {
+        "Knee_x-rays": {
+          "text": "Anteroposterior and lateral views\nConsider sunrise if pain over patella",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Knee_x-rays": {
+      "text": "Anteroposterior and lateral views\nConsider sunrise if pain over patella",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Examples": {
+      "text": "Lipohemarthrosis with subtle\ntibial plateau fracture\nPatella dislocation\nPatella fracture\nlateral\nPatella fracture\nAP\nSegond fracture\nTibial plateau fracture\nTibial plateau fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        }
+      ]
+    }
+  }
+}

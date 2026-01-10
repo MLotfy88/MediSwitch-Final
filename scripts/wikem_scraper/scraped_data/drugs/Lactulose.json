@@ -1,0 +1,139 @@
+{
+  "drug_name": "Lactulose",
+  "url": "https://wikem.org/wiki/Lactulose",
+  "scraped_at": "2026-01-10T07:56:08.314729",
+  "sections": {
+    "General": {
+      "text": "Type: osmotic\nlaxative\nDosage Forms: 10g/15mL solution\nRoutes of Administration: oral, NG, rectal\nCommon Trade Names: Kristalose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hepatic_encephalopathy": {
+          "text": "30-45mg PO TID or QID or (300mL in 700cc H2O retention enema x30min)\ntitrate for 2-3 soft stools per day",
+          "tables": []
+        },
+        "Constipation": {
+          "text": "15-50mL PO Qday - BID\nmax 60mL/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_encephalopathy": {
+      "text": "30-45mg PO TID or QID or (300mL in 700cc H2O retention enema x30min)\ntitrate for 2-3 soft stools per day",
+      "subsections": {
+        "Constipation": {
+          "text": "15-50mL PO Qday - BID\nmax 60mL/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Constipation": {
+      "text": "15-50mL PO Qday - BID\nmax 60mL/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Portal_systemic_encephalopathy": {
+          "text": "infants\n2.5-10ml/day PO divided TID-QID\ntitrate for 2-3 soft stools per day\nchildren\n40-90ml/day PO divided TID-QID\ntitrate for 2-3 soft stools per day",
+          "tables": []
+        },
+        "Constipation_2": {
+          "text": "1ml/kg PO Qday - BID\nmax 60mL/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Portal_systemic_encephalopathy": {
+      "text": "infants\n2.5-10ml/day PO divided TID-QID\ntitrate for 2-3 soft stools per day\nchildren\n40-90ml/day PO divided TID-QID\ntitrate for 2-3 soft stools per day",
+      "subsections": {
+        "Constipation_2": {
+          "text": "1ml/kg PO Qday - BID\nmax 60mL/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Constipation_2": {
+      "text": "1ml/kg PO Qday - BID\nmax 60mL/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B (no evidence of risk)\nLactation risk\n: safety unknown\nRenal Dosing\nAdult: not defined\nPediatric: not defined\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ngalactosemia\ncaution in DM\ncaution if colorectal electrocautery procedures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "diarrhea, severe (excessive dose)\nelectrolyte disorders (excessive dose)\nmetabolic acidosis (excessive dose)",
+          "tables": []
+        },
+        "Common": {
+          "text": "flatulence\nintestinal cramping\nabdominal distention\nnausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "diarrhea, severe (excessive dose)\nelectrolyte disorders (excessive dose)\nmetabolic acidosis (excessive dose)",
+      "subsections": {
+        "Common": {
+          "text": "flatulence\nintestinal cramping\nabdominal distention\nnausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "flatulence\nintestinal cramping\nabdominal distention\nnausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: unknown\nMetabolism: colon, <3% systemic absorption\nExcretion: feces (100% unchanged), urine < 3%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Undigestible disaccharide consumed by large bowel bacteria and broken down to lactic acid\nAcidification of colonic contents attracts ammonia from bloodstream leading to excretion in stool",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hepatic encephalopathy\nConstipation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "drug_name": "Laryngitis",
+  "url": "https://wikem.org/wiki/Laryngitis",
+  "scraped_at": "2026-01-10T07:56:10.282514",
+  "sections": {
+    "Background": {
+      "text": "a common and self-limited inflammatory condition lasting less than three weeks,\nusually associated with either an upper respiratory tract infection or acute vocal strain",
+      "subsections": {
+        "Causative_Agents": {
+          "text": "Viral\n(most)\nMoraxella catarrhalis\nHaemophilus influenzae\nStreptococcus pneumoniae",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        }
+      ]
+    },
+    "Causative_Agents": {
+      "text": "Viral\n(most)\nMoraxella catarrhalis\nHaemophilus influenzae\nStreptococcus pneumoniae",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hoarseness resulting from an\nupper respiratory tract infection\nOften associated with\nrhinorrhea\n,\ncough\n, and mild\nsore throat",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "upper respiratory tract infection",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "rhinorrhea",
+          "url": "https://wikem.org/wiki/Rhinorrhea"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "sore throat",
+          "url": "https://wikem.org/wiki/Sore_throat"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent/urgent_causes": {
+          "text": "Tracheal injury\n, laryngeal airway trauma,\nStrangulation\nPosterior\nsternoclavicular dislocation\nIatrogenic injury to recurrent laryngeal nerve:\nvagal nerve stimulator complication\n, ENT, thyroid, or thoracic surgery\nForeign body aspiration\nCaustic ingestion\n,\nsmoke inhalation injury\n,\nblister chemical agents\nAngioedema\nHypothyroidism\n/myxedema of vocal cords\nNeck mass\n, squamous cell carcinoma, mediastinal adenopathy\nAortic dissection\n,\nnontraumatic thoracic aortic dissection\nEpiglottitis\n,\ndiphtheria\nLudwig's angina\nLeishmaniasis\nBotulism\nMyasthenia gravis\nAcute flaccid myelitis\nScorpion envenomation\n,\nElapidae\nbites\nStroke\n(lateral medullary infarction)\nParkinson's disease",
+          "tables": []
+        },
+        "Non-emergent_causes": {
+          "text": "Laryngitis\nGERD\nPost\nintubation\n,\nlaryngeal mask airway\n, or\nsupraglottic airway\nVoice overuse/misuse\nVocal cord nodules\nVoice may sound abnormal to you, but be totally normal for that patient!",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "vagal nerve stimulator complication",
+          "url": "https://wikem.org/wiki/Vagal_nerve_stimulator_complication"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Neck mass",
+          "url": "https://wikem.org/wiki/Neck_mass"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "nontraumatic thoracic aortic dissection",
+          "url": "https://wikem.org/wiki/Nontraumatic_thoracic_aortic_dissection"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Elapidae",
+          "url": "https://wikem.org/wiki/Elapidae"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "laryngeal mask airway",
+          "url": "https://wikem.org/wiki/Laryngeal_mask_airway"
+        },
+        {
+          "text": "supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        }
+      ]
+    },
+    "Emergent/urgent_causes": {
+      "text": "Tracheal injury\n, laryngeal airway trauma,\nStrangulation\nPosterior\nsternoclavicular dislocation\nIatrogenic injury to recurrent laryngeal nerve:\nvagal nerve stimulator complication\n, ENT, thyroid, or thoracic surgery\nForeign body aspiration\nCaustic ingestion\n,\nsmoke inhalation injury\n,\nblister chemical agents\nAngioedema\nHypothyroidism\n/myxedema of vocal cords\nNeck mass\n, squamous cell carcinoma, mediastinal adenopathy\nAortic dissection\n,\nnontraumatic thoracic aortic dissection\nEpiglottitis\n,\ndiphtheria\nLudwig's angina\nLeishmaniasis\nBotulism\nMyasthenia gravis\nAcute flaccid myelitis\nScorpion envenomation\n,\nElapidae\nbites\nStroke\n(lateral medullary infarction)\nParkinson's disease",
+      "subsections": {
+        "Non-emergent_causes": {
+          "text": "Laryngitis\nGERD\nPost\nintubation\n,\nlaryngeal mask airway\n, or\nsupraglottic airway\nVoice overuse/misuse\nVocal cord nodules\nVoice may sound abnormal to you, but be totally normal for that patient!",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "vagal nerve stimulator complication",
+          "url": "https://wikem.org/wiki/Vagal_nerve_stimulator_complication"
+        },
+        {
+          "text": "Foreign body aspiration",
+          "url": "https://wikem.org/wiki/Foreign_body_aspiration"
+        },
+        {
+          "text": "Caustic ingestion",
+          "url": "https://wikem.org/wiki/Caustic_ingestion"
+        },
+        {
+          "text": "smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Neck mass",
+          "url": "https://wikem.org/wiki/Neck_mass"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "nontraumatic thoracic aortic dissection",
+          "url": "https://wikem.org/wiki/Nontraumatic_thoracic_aortic_dissection"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "diphtheria",
+          "url": "https://wikem.org/wiki/Diphtheria"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "Elapidae",
+          "url": "https://wikem.org/wiki/Elapidae"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "laryngeal mask airway",
+          "url": "https://wikem.org/wiki/Laryngeal_mask_airway"
+        },
+        {
+          "text": "supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        }
+      ]
+    },
+    "Non-emergent_causes": {
+      "text": "Laryngitis\nGERD\nPost\nintubation\n,\nlaryngeal mask airway\n, or\nsupraglottic airway\nVoice overuse/misuse\nVocal cord nodules\nVoice may sound abnormal to you, but be totally normal for that patient!",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "laryngeal mask airway",
+          "url": "https://wikem.org/wiki/Laryngeal_mask_airway"
+        },
+        {
+          "text": "supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Self-limited",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Home",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Croup",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "drug_name": "Knee_dislocation",
+  "url": "https://wikem.org/wiki/Knee_dislocation",
+  "scraped_at": "2026-01-10T07:56:06.965709",
+  "sections": {
+    "Background": {
+      "text": "Popliteal artery injury\nis common\nAbout 25% of cases\nNeurologic deficit may indicate vascular injury\nSpontaneous reduction common\nAbout 50% self-reduce, usually en route to ED",
+      "subsections": {
+        "Types": {
+          "text": "Anterior (40%)\nHyperextension\nAssociated injuries to PCL, ACL, and medial or lateral ligaments common\nPosterior (33%)\nUsually due to impact with dashboard during motor vehicle collision\nPopliteal artery often injured\nLateral (18%)\nMedial (4%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Popliteal artery injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Anterior (40%)\nHyperextension\nAssociated injuries to PCL, ACL, and medial or lateral ligaments common\nPosterior (33%)\nUsually due to impact with dashboard during motor vehicle collision\nPopliteal artery often injured\nLateral (18%)\nMedial (4%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Instability in multiple directions\nEvidence of collateral ligamentous injury combined with peroneal nerve palsy\nHistory of high-energy mechanism\nPatients with BMI > 40 commonly report low-energy mechanism\nAffected knee may hyperextend relative to unaffected knee when leg is lifted by the foot",
+      "subsections": {
+        "Associated_Injuries": {
+          "text": "Popliteal artery injury\n[1]\nCannot rule out based on normal distal pulses and Ankle Brachial Index (ABI) > 0.9\nRequires definitive vascular imaging or serial exams\nNeurologic injuries\nCommon peroneal nerve injury (25%)\nTest for:\nSensation in 1st dorsal web space\nDorsiflexion of foot\nToe extension\nTibial nerve injured (less common)\nFractures\nFemur and tibia most common\nCheck hip and ankle joints for associated fracture\nAvulsion fractures common\nCompartment syndrome\nrisk high with vascular compromise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Popliteal artery injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Neurologic injuries",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Associated_Injuries": {
+      "text": "Popliteal artery injury\n[1]\nCannot rule out based on normal distal pulses and Ankle Brachial Index (ABI) > 0.9\nRequires definitive vascular imaging or serial exams\nNeurologic injuries\nCommon peroneal nerve injury (25%)\nTest for:\nSensation in 1st dorsal web space\nDorsiflexion of foot\nToe extension\nTibial nerve injured (less common)\nFractures\nFemur and tibia most common\nCheck hip and ankle joints for associated fracture\nAvulsion fractures common\nCompartment syndrome\nrisk high with vascular compromise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Popliteal artery injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Neurologic injuries",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Knee_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute_knee_injury": {
+          "text": "Knee dislocation\nKnee fractures\nPatella fracture\nSegond fracture\nTibial plateau fracture\nMeniscus and ligament knee injuries\nPatella dislocation\nPatellar tendonitis\nPatellar tendon rupture\nQuadriceps tendon rupture",
+          "tables": []
+        },
+        "Nontraumatic/Subacute": {
+          "text": "Arthritis\nGout and Pseudogout\nOsgood-Schlatter disease\nPatellofemoral syndrome\n(Runner's Knee)\nPatellar tendonitis\n(Jumper's knee)\nPes anserine bursitis\nPopliteal cyst\n(Bakers cyst)\nPrepatellar bursitis (nonseptic)\nSeptic bursitis\nSeptic joint\nDVT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee fractures",
+          "url": "https://wikem.org/wiki/Knee_fractures"
+        },
+        {
+          "text": "Patella fracture",
+          "url": "https://wikem.org/wiki/Patella_fracture"
+        },
+        {
+          "text": "Segond fracture",
+          "url": "https://wikem.org/wiki/Segond_fracture"
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Meniscus and ligament knee injuries",
+          "url": "https://wikem.org/wiki/Meniscus_and_ligament_knee_injuries"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Patellar tendon rupture",
+          "url": "https://wikem.org/wiki/Patellar_tendon_rupture"
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "url": "https://wikem.org/wiki/Quadriceps_tendon_rupture"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Gout and Pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_Pseudogout"
+        },
+        {
+          "text": "Osgood-Schlatter disease",
+          "url": "https://wikem.org/wiki/Osgood-Schlatter_disease"
+        },
+        {
+          "text": "Patellofemoral syndrome",
+          "url": "https://wikem.org/wiki/Patellofemoral_syndrome"
+        },
+        {
+          "text": "Patellar tendonitis",
+          "url": "https://wikem.org/wiki/Patellar_tendonitis"
+        },
+        {
+          "text": "Pes anserine bursitis",
+          "url": "https://wikem.org/wiki/Pes_anserine_bursitis"
+        },
+        {
+          "text": "Popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Prepatellar bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Prepatellar_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_arthritis_(general)"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Knee x-ray (to rule-out fracture)\nVascular assessment\nAssess popliteal and distal pulses\nMeasure ABIs\nABI >0.9 - serial exams\nABI <0.9 - arterial duplexes or CT angio\nHard Signs\nObserved pulsatile bleeding\nArterial thrill by manual palpation\nBruit over or near the artery by auscultation\nSigns of distal ischemia\nVisible expanding hematoma\nSoft Signs\nSignificant hemorrhage found on history\nDecreased pulse compared to the other extremity\nBony injury or proximal penetrating wound\nNeurologic abnormality\nConsider CT Angiography:\nAsymmetric pulses\nABI <0.9\nClinical concern of vascular injury (ischemia, hemorrhage, or expanding hematoma)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Reduce immediately\nAvoid additional arterial injury by limiting excessive force during reduction",
+      "subsections": {
+        "Posterior_dislocation": {
+          "text": "Grasp proximal tibia\nHave assistant grasp distal femur and provide gentle counter-traction\nApply longitudinal traction to proximal tibia\nMove proximal tibia anteriorly\nImmobilize in 10-15 degrees of flexion\nAssess neurovascular status\nObtain post-reduction imaging",
+          "tables": []
+        },
+        "Anterior_dislocation": {
+          "text": "Grasp distal femur\nHave assistant grasp proximal tibia and provide gentle counter-traction\nPull distal femur proximally\nMove distal femur anteriorly\nImmobilize in 10-15 degrees of flexion\nAssess neurovascular status\nObtain post-reduction imaging\nMonitor for\ncompartment syndrome\nNo pulses: reduce immediately\nNo pulses post reduction: surgical exploration\nIschemic time >8 hours has amputation rates as high as 86%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Posterior_dislocation": {
+      "text": "Grasp proximal tibia\nHave assistant grasp distal femur and provide gentle counter-traction\nApply longitudinal traction to proximal tibia\nMove proximal tibia anteriorly\nImmobilize in 10-15 degrees of flexion\nAssess neurovascular status\nObtain post-reduction imaging",
+      "subsections": {
+        "Anterior_dislocation": {
+          "text": "Grasp distal femur\nHave assistant grasp proximal tibia and provide gentle counter-traction\nPull distal femur proximally\nMove distal femur anteriorly\nImmobilize in 10-15 degrees of flexion\nAssess neurovascular status\nObtain post-reduction imaging\nMonitor for\ncompartment syndrome\nNo pulses: reduce immediately\nNo pulses post reduction: surgical exploration\nIschemic time >8 hours has amputation rates as high as 86%",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Anterior_dislocation": {
+      "text": "Grasp distal femur\nHave assistant grasp proximal tibia and provide gentle counter-traction\nPull distal femur proximally\nMove distal femur anteriorly\nImmobilize in 10-15 degrees of flexion\nAssess neurovascular status\nObtain post-reduction imaging\nMonitor for\ncompartment syndrome\nNo pulses: reduce immediately\nNo pulses post reduction: surgical exploration\nIschemic time >8 hours has amputation rates as high as 86%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Institution will dictate admission process\nSuggested algorithm\nIf: Strong pulses + ABI >0.9 + normal doppler, admit for obs and serial vascular exams\nIf: Good perfusion + asymmetric pulses or ABI <0.9 or abnormal doppler, consult vascular surgery + obtain CTA\nIf: Weak pulses or signs of ischemia = emergent vascular surgery consult and OR\nConsider trauma consult depending on mechanism and additional injuries",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Knee (Main)\nPatella dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Knee (Main)",
+          "url": "https://wikem.org/wiki/Knee_(Main)"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Standard:  <\nhttps://emergencymedicinecases.com/occult-knee-injuries/\n>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Review of Orthopaedics, 6th Edition, Mark D. Miller MD, Stephen R. Thompson MBBS MEd FRCSC, Jennifer Hart MPAS PA-C ATC, an imprint of Elsevier, Philadelphia, Copyright 2012\nAAOS Comprehensive Orthopaedic Review, Jay R. Leiberman. Published by American Academy of Orthopaedic Surgeons, Rosemont IL. Copyright 2009\nLevy BA, Fanelli GC, Whelan DB, Stannard JP, MacDonald PA, Boyd JL, Marx RG, Stuart MJ. Knee Dislocation Study Group. Controversies in the treatment of knee dislocations and multiligament reconstruction. J Am Acad Orthop Surg. 2009 Apr;17(4):197-206.\nhttp://www.ncbi.nlm.nih.gov/pubmed/19307669",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

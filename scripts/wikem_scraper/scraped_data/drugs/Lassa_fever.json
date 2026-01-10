@@ -1,0 +1,222 @@
+{
+  "drug_name": "Lassa_fever",
+  "url": "https://wikem.org/wiki/Lassa_fever",
+  "scraped_at": "2026-01-10T07:56:12.964499",
+  "sections": {
+    "Background": {
+      "text": "RNA virus of arenaviridae family\nEndemic to parts of West Africa\n100,000-300,000 infections every year\nAnimal vector:  Multimammate rat (\nMastomys natalensis\n)\nA type of\nviral hemorrhagic fever",
+      "subsections": {
+        "Transmission": {
+          "text": "Infected Multimammate rats shed virus in urine and droppings\nInhalation, ingestion, or direct contact of excrement or soiled food\nDirect contact with bodily fluids of infected human",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "viral hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        }
+      ]
+    },
+    "Transmission": {
+      "text": "Infected Multimammate rats shed virus in urine and droppings\nInhalation, ingestion, or direct contact of excrement or soiled food\nDirect contact with bodily fluids of infected human",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Incubation period: 1-3 weeks\n80% of infections are mild\nUndiagnosed or low fever, malaise, headache\n20% of infections are severe\nvomiting, diarrhea, respiratory distress, facial swelling, body pain, hemorrhage, shock\ndeath within 2 weeks due to multi-system organ failure\nOccasional neurologic symptoms: hearing loss, tremors, encephalitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "IgM or IgG ELISA or RT-PCR may be used to diagnose acute infections\nLymphopenia and elevated transaminases are non-specific, but may indicate worse prognosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care is the hallmark of management\nStrict isolation precautions: standard, contact and droplet\nLimit entry and maintain a log of people who enter the room\nRibavirin\nhas been shown to decrease mortality\nMost effective when given early (within 6 days)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ribavirin",
+          "url": "https://wikem.org/wiki/Ribavirin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (consider ICU admission)\nThose that seek medical care are more likely to have serious infections:\nHospital mortality rates can reach 25%\nOveral mortality rates are much less; around 5000 deaths per 100,000-300,000 infections annually",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "CDC Lassa Fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Viral hemorrhagic fevers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        }
+      ]
+    }
+  }
+}

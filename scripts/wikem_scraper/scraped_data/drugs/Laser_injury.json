@@ -1,0 +1,110 @@
+{
+  "drug_name": "Laser_injury",
+  "url": "https://wikem.org/wiki/Laser_injury",
+  "scraped_at": "2026-01-10T07:56:10.628752",
+  "sections": {
+    "Background": {
+      "text": "Use of lasers in civilian and military applications is increasing\nMilitary use -  range finders, target designators, guidance systems, non-lethal denial, and now being used as directed energy weapons\nCivilian use - laser cutter/engraver, precision measurement, pointers, welding, entertainment\nPotential to cause injury is largely dependent upon irradiance and beam wavelength\nIrradiance\nAmount of energy that hits the eye/skin per unit area\nDependent on output power, distance from source to target, and beam divergence\nHuman eye can focus laser to a very small area on the retina increasing the irradiance by a factor of 100,000",
+      "subsections": {
+        "ANSI_Classification_of_Laser": {
+          "text": "Class 1 - non-hazardous\nClass 2 - visible laser, aversion response will protect\nClass 3a - eye hazard with optical aids  that collect or focus beam\nClass 3b - eye hazard, some skin at high power\nClass 4 - eye hazard, skin hazard, fire hazard, diffuse reflection hazard",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ANSI_Classification_of_Laser": {
+      "text": "Class 1 - non-hazardous\nClass 2 - visible laser, aversion response will protect\nClass 3a - eye hazard with optical aids  that collect or focus beam\nClass 3b - eye hazard, some skin at high power\nClass 4 - eye hazard, skin hazard, fire hazard, diffuse reflection hazard",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Eye": {
+          "text": "Main organ of concern; range of effects as below starting with the most severe to the least; damage from  thermal / photochemical / photomechanical process\nTissue vaporization\nRetinal hemorrhage\n/ ocular holes\nRetinal burn / corneal burn / irreversible scotoma/minimal visible lesion\nHistological damage / irreversible scotoma / cataract\nNominal ocular hazard distance (NOHD)\nDistance from laser source which the intensity of a single laser beam becomes safe by not exceeding the maximum permissible exposure\nLaser is dangerous if viewed from a closer distance than this\nCan be calculated if power (mW), divergence (mrad), and diameter at aperture (mm) is known\nFlash blindness / after images / reversible scotoma\nvisual loss\ntemporary\nlasts seconds to minutes\nsimilar to flashbulb effect\nGlare/dazzle\nno permanent damage results\nsimilar to driving into the setting sun\nDistraction",
+          "tables": []
+        },
+        "Skin": {
+          "text": "Second organ of concern; effect more dependent on wavelength of laser\nthermal\nburns\n- IR, visible, UV-A laser\nphotosensitivity - Visible, UV-A laser\ndarkening - UV-A laser\naccelerated skin aging - UV-B\nskin cancer/erythema - UV-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Eye": {
+      "text": "Main organ of concern; range of effects as below starting with the most severe to the least; damage from  thermal / photochemical / photomechanical process\nTissue vaporization\nRetinal hemorrhage\n/ ocular holes\nRetinal burn / corneal burn / irreversible scotoma/minimal visible lesion\nHistological damage / irreversible scotoma / cataract\nNominal ocular hazard distance (NOHD)\nDistance from laser source which the intensity of a single laser beam becomes safe by not exceeding the maximum permissible exposure\nLaser is dangerous if viewed from a closer distance than this\nCan be calculated if power (mW), divergence (mrad), and diameter at aperture (mm) is known\nFlash blindness / after images / reversible scotoma\nvisual loss\ntemporary\nlasts seconds to minutes\nsimilar to flashbulb effect\nGlare/dazzle\nno permanent damage results\nsimilar to driving into the setting sun\nDistraction",
+      "subsections": {
+        "Skin": {
+          "text": "Second organ of concern; effect more dependent on wavelength of laser\nthermal\nburns\n- IR, visible, UV-A laser\nphotosensitivity - Visible, UV-A laser\ndarkening - UV-A laser\naccelerated skin aging - UV-B\nskin cancer/erythema - UV-C",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "visual loss",
+          "url": "https://wikem.org/wiki/Visual_loss"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Skin": {
+      "text": "Second organ of concern; effect more dependent on wavelength of laser\nthermal\nburns\n- IR, visible, UV-A laser\nphotosensitivity - Visible, UV-A laser\ndarkening - UV-A laser\naccelerated skin aging - UV-B\nskin cancer/erythema - UV-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "History\nObtain detailed information as to the nature and characteristic of the laser beam exposure\nIntensity, color, constant or flicker, duration of exposure, location, beam diameter estimate, range, source, location, type of laser, class of laser\nExamination\nExternal exam of skin and adenxa looking for burns or evidence of physical trauma\nVisual acuity near and far\nAmsler grid test\nPupils\nStereopsis\nColor vision\nSlit lamp examination\nRetinal (fundoscopic) examination",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Slit lamp examination",
+          "url": "https://wikem.org/wiki/Slit_lamp_examination"
+        }
+      ]
+    },
+    "Management": {
+      "text": "As appropriate per history and physical exam findings",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge home if normal exam and no persistent symptoms suggestive of laser eye injury\nConsult ophthalmologist if persistent symptoms or positive findings on examination suggesting laser eye injury such as retinal hemorrhage, corneal burn, ocular holes, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

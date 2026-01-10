@@ -1,0 +1,69 @@
+{
+  "drug_name": "Lap_band_complications",
+  "url": "https://wikem.org/wiki/Lap_band_complications",
+  "scraped_at": "2026-01-10T07:56:09.427605",
+  "sections": {
+    "Background": {
+      "text": "Laparoscopic adjustable gastric banding\nBand placed at gastroesophageal junction and inflated to limit food passage\nBand constriction adjustable via reservoir\nSubcutaneous reservoir (~5ml port site) allows adjustment without invasive intervention\nPostoperative complications near 10% over lifetime of patient\nPatients typically discharged same day or POD #1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal\n,\nchest\nor\nneck\n/\nthroat pain\nNausea/vomiting\n, food intolerance\nSepsis\n, abnormal vitals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Early": {
+          "text": "At or near time of banding or adjustment of band\nAcute gastroesophageal obstruction - postop edema at application site forces proximal movement of the band, get KUB\nIntra-abdominal bleeding\nPerforated viscus\nEsophageal pouch dilation – pain, vomiting, nausea",
+          "tables": []
+        },
+        "Late": {
+          "text": "Weeks to years after adjustment or application\nChronic Slippage\nherniation of stomach through band\ncan occur long after surgery\nmay progress to gastric necrosis and perforation\nGastric Erosion\nBand can erode through the full thickness of the gastric wall\ncan present as a port site infection, gastrocutaneous fistula or intra-abdominal sepsis\nPort Complications\nprimary overlying skin infection may represent extension of intra-abdominal process\nneed antibiotic coverage for intra-abdominal and skin flora\nTubing Dislodgement\nPort Ulceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Early": {
+      "text": "At or near time of banding or adjustment of band\nAcute gastroesophageal obstruction - postop edema at application site forces proximal movement of the band, get KUB\nIntra-abdominal bleeding\nPerforated viscus\nEsophageal pouch dilation – pain, vomiting, nausea",
+      "subsections": {
+        "Late": {
+          "text": "Weeks to years after adjustment or application\nChronic Slippage\nherniation of stomach through band\ncan occur long after surgery\nmay progress to gastric necrosis and perforation\nGastric Erosion\nBand can erode through the full thickness of the gastric wall\ncan present as a port site infection, gastrocutaneous fistula or intra-abdominal sepsis\nPort Complications\nprimary overlying skin infection may represent extension of intra-abdominal process\nneed antibiotic coverage for intra-abdominal and skin flora\nTubing Dislodgement\nPort Ulceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Late": {
+      "text": "Weeks to years after adjustment or application\nChronic Slippage\nherniation of stomach through band\ncan occur long after surgery\nmay progress to gastric necrosis and perforation\nGastric Erosion\nBand can erode through the full thickness of the gastric wall\ncan present as a port site infection, gastrocutaneous fistula or intra-abdominal sepsis\nPort Complications\nprimary overlying skin infection may represent extension of intra-abdominal process\nneed antibiotic coverage for intra-abdominal and skin flora\nTubing Dislodgement\nPort Ulceration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Lab workup dictated by presentation\nObtain an upright\nKUB\nto assess band position & slippage\nPhi (φ) angle- Angle between a vertical line oriented through the spine and a second line running on the long axis of the lap band\nNormal is 4-58 degrees\nSwallow Study under fluoroscopy to assess for gastro-esophageal obstruction\nCT Abd/Pelvis to assess for perforation (contained or free), abscess, intra-abdominal fluid or bleeding\nEndoscopy – visualize inner lumen of esophagus and stomach for partial or full erosion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Early surgical consultation key for all patients suspected of having complications\nIntra-abdominal\nsepsis\nmanagement (fluids, antibiotics)\nRemember to dose\nantibiotics\nfor morbid obesity if necessary\nConsider deflating band via port site if impending gastric necrosis due to edema/recent band inflation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Bariatric surgery complications\nMedical device complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

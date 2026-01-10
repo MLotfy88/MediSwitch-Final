@@ -1,0 +1,142 @@
+{
+  "drug_name": "Juvenile_nasopharyngeal_angiofibroma",
+  "url": "https://wikem.org/wiki/Juvenile_nasopharyngeal_angiofibroma",
+  "scraped_at": "2026-01-10T07:56:01.843088",
+  "sections": {
+    "Background": {
+      "text": "Juvenile nasopharyngeal angiofibromas (JNAs) are rare, highly vascular and aggressive tumors that almost exclusively present in adolescent males\n[1]\nPrimary vascular supply in almost all tumors arise from the internal maxillary artery, and some patients may present primarily with recurrent and poorly controlled epistaxis\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Adolescent males most common\nAlmost always unilateral\nOften presenting with history consistent with\nsinusitis\n, though with abnormal elements that may include\ncranial nerve abnormalities\n, or failure of treatment\nCan present with asymmetric\nfacial swelling\n/pain\nTumors can lead to local destruction and invasion, and can extend through ethmoid plate and cause cranial nerve deficits, decreased visual acuity, and abnormal extraocular movements\nAlmost all are primarily in nasopharynx, but extranasal cases have been reported\nHighly prone to\nepistaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "cranial nerve abnormalities",
+          "url": "https://wikem.org/wiki/Cranial_nerve_abnormalities"
+        },
+        {
+          "text": "facial swelling",
+          "url": "https://wikem.org/wiki/Facial_swelling"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Rhinorrhea": {
+          "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Rhinorrhea": {
+      "text": "Upper respiratory infection\n,\ninfluenza\nSinusitis\nJuvenile nasopharyngeal angiofibroma\nNasal polyp\nNasal mass\nNasal foreign body\nCSF leak (e.g.\nbasilar skull fracture\n)\nToxic inhalation (e.g.\nselenium toxicity\n,\nneurotoxic shellfish poisoning\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        },
+        {
+          "text": "Nasal foreign body",
+          "url": "https://wikem.org/wiki/Nasal_foreign_body"
+        },
+        {
+          "text": "basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "In conjunction with consultants, will need MRI preferably, CT if unavailable\nThorough evaluation of\nCN I-XII\n, with emphasis on smell, visual acuity, extraocular movements",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CN I-XII",
+          "url": "https://wikem.org/wiki/CN_I-XII"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Urgent ENT consultation for surgical planning\nThough some cases will resolve later in life, management is generally surgical with prior embolization\n[3]\nIf uncontrolled bleeding, follow standard epistaxis treatments and contact IR for possible embolization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with ENT follow up\nStrict no digital trauma to nose, no foreign bodies, no steroid inhalers-avoid anything that would increase bleeding risk\nIf cranial nerve involvement may consider admission for observation prior to urgent surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

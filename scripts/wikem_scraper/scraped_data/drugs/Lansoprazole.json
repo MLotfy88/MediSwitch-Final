@@ -1,0 +1,87 @@
+{
+  "drug_name": "Lansoprazole",
+  "url": "https://wikem.org/wiki/Lansoprazole",
+  "scraped_at": "2026-01-10T07:56:10.412960",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nPPI\nDosage Forms: Capsule and Tablet; 15mg & 30mg\nRoutes of Administration: oral, IV\nCommon Trade Names: Prevacid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "15-30mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Age 1-11 years, weight <30kg: 15mg daily\nAge >1 year, weight >30kg: 15-30mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: if severe, consider dose reduction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "C. difficile diarrhea\nSJS/TEN\nRhabdomyolysis\nInterstitial nephritis\nFracture\nHypomagnesemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Abdominal pain, diarrhea, nausea, constipation\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "C. difficile diarrhea\nSJS/TEN\nRhabdomyolysis\nInterstitial nephritis\nFracture\nHypomagnesemia",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal pain, diarrhea, nausea, constipation\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Abdominal pain, diarrhea, nausea, constipation\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.5-3 hours\nMetabolism: Hepatic\nExcretion: Mostly biliary/fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits gastric parietal cell H+/K+ proton pump, leading to decreased gastric acid secretion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "PPI",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

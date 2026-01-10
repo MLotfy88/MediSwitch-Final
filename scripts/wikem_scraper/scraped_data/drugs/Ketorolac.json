@@ -1,0 +1,105 @@
+{
+  "drug_name": "Ketorolac",
+  "url": "https://wikem.org/wiki/Ketorolac",
+  "scraped_at": "2026-01-10T07:55:58.446809",
+  "sections": {
+    "General": {
+      "text": "Type:\nNSAID\nDosage Forms: 15mg/mL, 30mg/mL injection\nCommon Trade Names: Toradol\nAlthough standard packaging provides 30mg doses current research demonstrates that the analgesic ceiling for ketorolac appears to be 10 mg if given intravenously\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Acute pain:\nIM: 15mg x 1 or 15mg q6h\nIV: 15mg x 1, then 15mg q6h\nBlack box warning against treatment for > 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Enters breast milk, use caution\nElderly (> 65 yo): Decrease dose by 50%\nRenal Dosing\nMild-Moderate impairment: Decrease dose by 50%\nSevere impairment or HD: Contraindicated\nHepatic Dosing: No dose change, but may increase LFTs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nActive or prior\nPUD\n, recent\nGI bleed\nSevere renal disease or HD\nBleeding diathesis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PUD",
+          "url": "https://wikem.org/wiki/PUD"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bleeding, MI, CVA, GI bleed/perforation, Hyperkalemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dyspepsia, nausea, headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Bleeding, MI, CVA, GI bleed/perforation, Hyperkalemia",
+      "subsections": {
+        "Common": {
+          "text": "Dyspepsia, nausea, headache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Dyspepsia, nausea, headache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset: 20-30 minutes\nPeak: 2-3 hours\nDuration: 4-6 hours\nHalf-life: 2-6 hours, up to 19 hours in renal disease\nMetabolism: Hepatic\nExcretion: Renal\nMechanism of Action: NSAID, Reversible COX-1/2 inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "NSAID toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    }
+  }
+}

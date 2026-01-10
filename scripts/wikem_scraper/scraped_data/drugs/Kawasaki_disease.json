@@ -1,0 +1,1127 @@
+{
+  "drug_name": "Kawasaki_disease",
+  "url": "https://wikem.org/wiki/Kawasaki_disease",
+  "scraped_at": "2026-01-10T07:56:00.251634",
+  "sections": {
+    "Background": {
+      "text": "Also known as: mucocutaneous lymph node syndrome\nVasculitis\nof unknown etiology\nLikely a combination of genetic, infectious, and regional factors\nPeaks at 18-24 months\nRare in <4mo, >5yr\nLeading cause of acquired heart disease in children\nCoronary aneurysm more common in incomplete than in classic KD\nMIS-C\nhas a number of overlapping clinical features, but appears to be a separate diagnosis at this time.",
+      "subsections": {
+        "Vasculitis_Syndrome_Types": {
+          "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        },
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Vasculitis_Syndrome_Types": {
+      "text": "Large vessel\nTakayasu arteritis\nGiant cell arteritis\n(temporal arteritis)\nMedium-vessel\nKawasaki disease\nPolyarteritis nodosa\nThromboangiitis obliterans\n(Buerger's disease)\nPrimary angiitis of the central nervous system\nSmall-vessel\nHenoch-Schönlein purpura\nANCA-associated vasculitides\nGranulomatosis with polyangiitis\n(Wegner's)\nEosinophilic granulomatosis with polyangiitis\n(Churg-Strauss)\nMicroscopic polyangiitis\nCutaneous leukocytoclastic angiitis (“hypersensitivity vasculitis”)\nEssential cryoglobulinemia, cryoglobulinemic vasculitis due to\nhepatitis C\nBehçet's disease\n]\nSecondary vasculitides and other/miscellaneous\nDrug-induced vasculitis\nSerum sickness\nVasculitis associated with other rheumatic diseases (e.g.\nSLE\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Takayasu arteritis",
+          "url": "https://wikem.org/wiki/Takayasu_arteritis"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "Eosinophilic granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Eosinophilic_granulomatosis_with_polyangiitis"
+        },
+        {
+          "text": "hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Behçet's disease",
+          "url": "https://wikem.org/wiki/Beh%C3%A7et%27s_disease"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever\nthat is high, abrupt. Anyone with a fever >5 days should be considered for a Kawasaki workup.\nRash\naccompanies onset of fever\nOften seen in perineum. Presents as erythema and desquamation\nLater there are macular and morbilliform lesions on the trunk, arms, and legs\nNo vescicles or bullae\nMaculopapular most common; vesicles not seen\nConjunctivitis\nBilateral and non-exudative in 90% of patients\nAnterior uveitis with cell and flare in 70% of patients but is more specific and suggestive of KD\nMucositis\n: Cracked lips and strawberry tongue. Vesicles or ulcers suggest a pathology other than KD\nEdema of the hands and feet\nDesquamation around the nails in ~90%\nLymphadenopathy is the least consistent finding in 50-75% of children\nUsually anterior cervical\nLess common in those under one year of age\nCardiac complications develop early on\nCoronary artery aneurysm development is most prevalent as fever lessens\nKD shock syndrome (7%)",
+      "subsections": {
+        "Associated_Symptoms": {
+          "text": "Cardiac\nCoronary aneurysm\nMost develop during 3-4th week of illness\nMay lead to MI (leading cause of death)\nMyocarditis\n/\npericarditis\nPericardial effusion\nLV dysfunction\nValvular dysfunction\nDysrhythmias\nAseptic\nmeningitis\nUrethritis\nAnemia\nRUQ pain\n, large gallbladder (hydrops on US)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Mucositis",
+          "url": "https://wikem.org/wiki/Mucositis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        }
+      ]
+    },
+    "Associated_Symptoms": {
+      "text": "Cardiac\nCoronary aneurysm\nMost develop during 3-4th week of illness\nMay lead to MI (leading cause of death)\nMyocarditis\n/\npericarditis\nPericardial effusion\nLV dysfunction\nValvular dysfunction\nDysrhythmias\nAseptic\nmeningitis\nUrethritis\nAnemia\nRUQ pain\n, large gallbladder (hydrops on US)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "RUQ pain",
+          "url": "https://wikem.org/wiki/RUQ_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_fever": {
+          "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+          "tables": []
+        },
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Pediatric_fever": {
+      "text": "Upper respiratory infection\n(URI)\nUTI\nSepsis\nMeningitis\nFebrile seizure\nJuvenile rheumatoid arthritis\nPneumonia\nAcute otitis media\nWhooping cough\nUnclear source\nKawasaki disease\nNeonatal HSV\nSpecific virus\nCOVID-19 (peds)\nMIS-C",
+      "subsections": {
+        "Erythematous_rash": {
+          "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Upper respiratory infection",
+          "url": "https://wikem.org/wiki/Upper_respiratory_infection"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/Urinary_tract_infection_(peds)"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis_(peds)"
+        },
+        {
+          "text": "Febrile seizure",
+          "url": "https://wikem.org/wiki/Febrile_seizure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Acute otitis media",
+          "url": "https://wikem.org/wiki/Acute_otitis_media"
+        },
+        {
+          "text": "Whooping cough",
+          "url": "https://wikem.org/wiki/Whooping_cough"
+        },
+        {
+          "text": "Unclear source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Neonatal HSV",
+          "url": "https://wikem.org/wiki/Neonatal_HSV"
+        },
+        {
+          "text": "COVID-19 (peds)",
+          "url": "https://wikem.org/wiki/COVID-19_(peds)"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Erythematous_rash": {
+      "text": "Positive\nNikolsky’s sign\nFebrile\nStaphylococcal scalded skin syndrome\n(children)\nToxic epidermal necrolysis\n/\nSJS\n(adults)\nAfebrile\nToxic epidermal necrolysis\nNegative\nNikolsky’s sign\nFebrile\nToxic shock syndrome\nKawasaki disease\nScarlet fever\nDRESS syndrome\nCellulitis\nAcute generalized exanthematous pustulosis\nAfebrile\nAlcohol intoxication\nAnaphylaxis\nCellulitis\nDermatitis\n(multiple types)\nDrug rash\nErysipelas\nErythema multiforme\nExfoliative erythroderma\nScombroid\nVancomycin infusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Staphylococcal scalded skin syndrome",
+          "url": "https://wikem.org/wiki/Staphylococcal_scalded_skin_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "SJS",
+          "url": "https://wikem.org/wiki/SJS"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Nikolsky’s sign",
+          "url": "https://wikem.org/wiki/Nikolsky%E2%80%99s_sign"
+        },
+        {
+          "text": "Toxic shock syndrome",
+          "url": "https://wikem.org/wiki/Toxic_shock_syndrome"
+        },
+        {
+          "text": "Scarlet fever",
+          "url": "https://wikem.org/wiki/Scarlet_fever"
+        },
+        {
+          "text": "DRESS syndrome",
+          "url": "https://wikem.org/wiki/Drug_rash_with_eosinophilia_and_systemic_symptoms_syndrome"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Acute generalized exanthematous pustulosis",
+          "url": "https://wikem.org/wiki/Acute_generalized_exanthematous_pustulosis"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Dermatitis",
+          "url": "https://wikem.org/wiki/Dermatitis"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Vancomycin infusion reaction",
+          "url": "https://wikem.org/wiki/Vancomycin_infusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "CBC\nLeukocytosis\nThrombocytosis\nLabs\nLFTs\n- elevated\nESR, CRP- elevated\nBlood culture\nUrinalysis\nECG\nViral panel: A positive viral PCR does not exclude KD\n42% of children with KD had a +viral respiratory panel on initial presentation\nTTE\n(Coronaries, LV, valves)\nConsider if f ESR≥ 40, CRP≥ 3, or if desquamation occurs\nRed Top \"Kawasaki Serum to CBR\"",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Clinical diagnosis",
+          "tables": [
+            [
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "1. Bilateral nonexudativeconjunctivitis"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "2. Mucous membrane changes (erythema, peeling, cracking of lips, \"strawberry tongue,\" or diffuse oropharyngeal mucosal erythema)"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "3. Changes of the extremities (erythema or swelling of hands/feet, peeling of finger tips/toes in the convalescent stage)"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "4.Rash"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "5. Cervical adenopathy (more than one node >1.5 cm unusually unilateral anterior cervical)"
+              },
+              {
+                "Classic Kawasaki Disease": "Incomplete Kawasaki Disease",
+                "Fever for 5 days or moreplusfour of the following symptoms": "Fever for 5 daysandtwo to three clinical criteria of classic Kawasaki diseaseplus"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "C-reactive protein 3.0 milligrams/L and/or erythrocyte sedimentation rate 40 mm/hpluspositive echocardiogramorthree or more of the following:"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "1. Albumin <3 grams/dL"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "2.Anemia"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "3. Elevated alanine aminotransferase (ALT)"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "4. Platelets >450,000/mm3 7d after fever onset"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "5. White blood cell count >12,000/mm3"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "6. Pyuria"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "CBC\nLeukocytosis\nThrombocytosis\nLabs\nLFTs\n- elevated\nESR, CRP- elevated\nBlood culture\nUrinalysis\nECG\nViral panel: A positive viral PCR does not exclude KD\n42% of children with KD had a +viral respiratory panel on initial presentation\nTTE\n(Coronaries, LV, valves)\nConsider if f ESR≥ 40, CRP≥ 3, or if desquamation occurs\nRed Top \"Kawasaki Serum to CBR\"",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Clinical diagnosis",
+          "tables": [
+            [
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "1. Bilateral nonexudativeconjunctivitis"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "2. Mucous membrane changes (erythema, peeling, cracking of lips, \"strawberry tongue,\" or diffuse oropharyngeal mucosal erythema)"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "3. Changes of the extremities (erythema or swelling of hands/feet, peeling of finger tips/toes in the convalescent stage)"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "4.Rash"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "5. Cervical adenopathy (more than one node >1.5 cm unusually unilateral anterior cervical)"
+              },
+              {
+                "Classic Kawasaki Disease": "Incomplete Kawasaki Disease",
+                "Fever for 5 days or moreplusfour of the following symptoms": "Fever for 5 daysandtwo to three clinical criteria of classic Kawasaki diseaseplus"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "C-reactive protein 3.0 milligrams/L and/or erythrocyte sedimentation rate 40 mm/hpluspositive echocardiogramorthree or more of the following:"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "1. Albumin <3 grams/dL"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "2.Anemia"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "3. Elevated alanine aminotransferase (ALT)"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "4. Platelets >450,000/mm3 7d after fever onset"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "5. White blood cell count >12,000/mm3"
+              },
+              {
+                "Classic Kawasaki Disease": "",
+                "Fever for 5 days or moreplusfour of the following symptoms": "6. Pyuria"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "Thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "1. Bilateral nonexudativeconjunctivitis"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "2. Mucous membrane changes (erythema, peeling, cracking of lips, \"strawberry tongue,\" or diffuse oropharyngeal mucosal erythema)"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "3. Changes of the extremities (erythema or swelling of hands/feet, peeling of finger tips/toes in the convalescent stage)"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "4.Rash"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "5. Cervical adenopathy (more than one node >1.5 cm unusually unilateral anterior cervical)"
+          },
+          {
+            "Classic Kawasaki Disease": "Incomplete Kawasaki Disease",
+            "Fever for 5 days or moreplusfour of the following symptoms": "Fever for 5 daysandtwo to three clinical criteria of classic Kawasaki diseaseplus"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "C-reactive protein 3.0 milligrams/L and/or erythrocyte sedimentation rate 40 mm/hpluspositive echocardiogramorthree or more of the following:"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "1. Albumin <3 grams/dL"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "2.Anemia"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "3. Elevated alanine aminotransferase (ALT)"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "4. Platelets >450,000/mm3 7d after fever onset"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "5. White blood cell count >12,000/mm3"
+          },
+          {
+            "Classic Kawasaki Disease": "",
+            "Fever for 5 days or moreplusfour of the following symptoms": "6. Pyuria"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Assess risk for IVIG resistance (There are 4 scoring systems):\nIVIG\n2gm/kg over 12hr\nRequires inpatient monitoring for allergic reaction\nMay increase ESR as IGs are positively charged which increases RBC sedimentation[1]\nAspirin\n30-100mg/kg/day divided 4 times a day is often used\nHas not been shown to prevent coronary artery aneurysms\n3-5mg/kg/day is appropriate for anti-platelet activity\nReye Syndrome\nhas not been reported in association with KD treatment with aspirin\nSteroids\nFor high-risk patients\nDecreases CAA formation if started with IVIG\nUsing it as a rescue for IVIG-resistant patients is less effective",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Scoring System": "Egami",
+            "Nation": "Japan",
+            "Enrolled patients": "320",
+            "IVIG resistance": "41",
+            "Sensitivity": "78",
+            "Specificity": "76",
+            "Risk Factors": "Age <6 mo",
+            "Point": "1",
+            "Predicted risk (score)": "Low risk (0-2)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Illness <4 days",
+            "Point": "1",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "CRP 8+ mg/dL",
+            "Point": "1",
+            "Predicted risk (score)": "High risk (3+)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "ALT 80+ mg/dL",
+            "Point": "2",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Platelets < 300",
+            "Point": "1",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "Kobayashi",
+            "Nation": "Japan",
+            "Enrolled patients": "528",
+            "IVIG resistance": "148",
+            "Sensitivity": "86",
+            "Specificity": "68",
+            "Risk Factors": "Age <12 mo",
+            "Point": "1",
+            "Predicted risk (score)": "Low risk (0-3)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Illness days <4 days",
+            "Point": "2",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "CRP >10 mg/dL",
+            "Point": "1",
+            "Predicted risk (score)": "High risk (4+)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "ALT >100 mg/dL",
+            "Point": "2",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Platelets < 300",
+            "Point": "1",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Na <133",
+            "Point": "2",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Neutrophils >80%",
+            "Point": "2",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "San Diego",
+            "Nation": "US",
+            "Enrolled patients": "362",
+            "IVIG resistance": "60",
+            "Sensitivity": "73.3",
+            "Specificity": "61.9",
+            "Risk Factors": "Illness <4 days",
+            "Point": "1",
+            "Predicted risk (score)": "Low risk (0-1)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "GGT 60+ IU/L",
+            "Point": "1",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "zHgb < -2",
+            "Point": "1",
+            "Predicted risk (score)": "High risk (2+)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Bands >20",
+            "Point": "2",
+            "Predicted risk (score)": ""
+          },
+          {
+            "Scoring System": "Formosa",
+            "Nation": "Taiwan",
+            "Enrolled patients": "248",
+            "IVIG resistance": "29",
+            "Sensitivity": "86.2",
+            "Specificity": "81.3",
+            "Risk Factors": "Lymphadenopathy",
+            "Point": "1",
+            "Predicted risk (score)": "Low risk (0-2)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Neutrophils >60%",
+            "Point": "2",
+            "Predicted risk (score)": "High risk (3+)"
+          },
+          {
+            "Scoring System": "",
+            "Nation": "",
+            "Enrolled patients": "",
+            "IVIG resistance": "",
+            "Sensitivity": "",
+            "Specificity": "",
+            "Risk Factors": "Albumin <3.5g/dL",
+            "Point": "1",
+            "Predicted risk (score)": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Reye Syndrome",
+          "url": "https://wikem.org/wiki/Reye_Syndrome"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nFollow-up cardiac evaluation for coronary aneurysm screening",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric fever\nMIS-C",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric fever",
+          "url": "https://wikem.org/wiki/Pediatric_fever"
+        },
+        {
+          "text": "MIS-C",
+          "url": "https://wikem.org/wiki/MIS-C"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Kawasaki Disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "1. PMID: 24678327",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

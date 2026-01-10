@@ -1,0 +1,75 @@
+{
+  "drug_name": "Jarisch-Herxheimer_reaction",
+  "url": "https://wikem.org/wiki/Jarisch-Herxheimer_reaction",
+  "scraped_at": "2026-01-10T07:55:57.217805",
+  "sections": {
+    "Background": {
+      "text": "A systemic reaction caused by reaction to endotoxins released by the death of harmful organisms within the body\nOccurs following antibiotic treatment for a number of spirochetal and bacterial infections (classically described in the treatment of syphilis)\nCan also occur following treatment of tick-borne relapsing fever (TBRF) or\nLyme disease\nBoth\npenicillin\nand\ntetracycline\ncan induce JHR\nResembles bacterial sepsis.\nTends to occur within two hours of antibiotic administration\nLasts for a few hours or up to a day\nMortality rate from JHR in louse-borne relapsing fever (LBRF) in the absence of adequate monitoring and resuscitation measures is ~5%.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "tetracycline",
+          "url": "https://wikem.org/wiki/Tetracycline"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Occurs 2 to 6 hours after treatment started; symptoms can last for 24 hours\nMalaise\nFever\nRigors\nFlushing (due to vasodilation)\nHypotension\nTachycardia\nTachycardia and hyperventilation are accompanied by hypertension, and then by a drop in blood pressure due to vasodilation and declining peripheral pulse.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Sepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Reassurance\nAcetaminophen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

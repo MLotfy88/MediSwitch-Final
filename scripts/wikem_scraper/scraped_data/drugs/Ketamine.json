@@ -1,0 +1,240 @@
+{
+  "drug_name": "Ketamine",
+  "url": "https://wikem.org/wiki/Ketamine",
+  "scraped_at": "2026-01-10T07:56:03.618193",
+  "sections": {
+    "General": {
+      "text": "Type:\nDissociative anesthetic\nDosage Forms: 10, 50, 100mg/ml\nRoutes of administration: IV, IM, IN\nCommon Trade Names: Ketalar",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dissociative anesthetic",
+          "url": "https://wikem.org/wiki/Sedation_(main)"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Procedural_Sedation_or_Induction": {
+          "text": "Options:\n1-2 mg/kg IV, followed by 0.5-1 mg/kg IV PRN\n4-5 mg/kg IM → repeat 2-4 mg/kg IM after 10 min if first dose unsuccessful",
+          "tables": []
+        },
+        "Subdissociative_Analgesia": {
+          "text": "0.1-0.3 mg/kg IV PRN\n[1]\n[2]\nConsider giving dose in 100 mL NS bag over 15 min to avoid negative sedation side effects\n[3]",
+          "tables": []
+        },
+        "Combative_patient_and/or_Excited_delirium": {
+          "text": "4-6 mg/kg IM or 1 mg/kg IV\n[4]",
+          "tables": []
+        },
+        "Ketamine_Infusion": {
+          "text": "Post-intubation sedation start at 1-2 mg/kg/hr\nTitrate by 0.5 mg/kg/hr q5 min\nMax dose of 4-6 mg/kg/hr\nField, austere drip\n[6]\nPlace 500 mg ketamine in 500 cc for 1mg/ml\nStandard maxi drip sets between 10-20 ggt/ml\nUsually 20 gtt\nMini drip set has 60 ggt/ml\nFor quick drip set with 20 ggt/ml\nUse patient's weight in kg (70 kg for example)\nDrip in the same number of drops per min (3.5 mg/min = 210 mg/hr = 3 mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedural_Sedation_or_Induction": {
+      "text": "Options:\n1-2 mg/kg IV, followed by 0.5-1 mg/kg IV PRN\n4-5 mg/kg IM → repeat 2-4 mg/kg IM after 10 min if first dose unsuccessful",
+      "subsections": {
+        "Subdissociative_Analgesia": {
+          "text": "0.1-0.3 mg/kg IV PRN\n[1]\n[2]\nConsider giving dose in 100 mL NS bag over 15 min to avoid negative sedation side effects\n[3]",
+          "tables": []
+        },
+        "Combative_patient_and/or_Excited_delirium": {
+          "text": "4-6 mg/kg IM or 1 mg/kg IV\n[4]",
+          "tables": []
+        },
+        "Ketamine_Infusion": {
+          "text": "Post-intubation sedation start at 1-2 mg/kg/hr\nTitrate by 0.5 mg/kg/hr q5 min\nMax dose of 4-6 mg/kg/hr\nField, austere drip\n[6]\nPlace 500 mg ketamine in 500 cc for 1mg/ml\nStandard maxi drip sets between 10-20 ggt/ml\nUsually 20 gtt\nMini drip set has 60 ggt/ml\nFor quick drip set with 20 ggt/ml\nUse patient's weight in kg (70 kg for example)\nDrip in the same number of drops per min (3.5 mg/min = 210 mg/hr = 3 mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Subdissociative_Analgesia": {
+      "text": "0.1-0.3 mg/kg IV PRN\n[1]\n[2]\nConsider giving dose in 100 mL NS bag over 15 min to avoid negative sedation side effects\n[3]",
+      "subsections": {
+        "Combative_patient_and/or_Excited_delirium": {
+          "text": "4-6 mg/kg IM or 1 mg/kg IV\n[4]",
+          "tables": []
+        },
+        "Ketamine_Infusion": {
+          "text": "Post-intubation sedation start at 1-2 mg/kg/hr\nTitrate by 0.5 mg/kg/hr q5 min\nMax dose of 4-6 mg/kg/hr\nField, austere drip\n[6]\nPlace 500 mg ketamine in 500 cc for 1mg/ml\nStandard maxi drip sets between 10-20 ggt/ml\nUsually 20 gtt\nMini drip set has 60 ggt/ml\nFor quick drip set with 20 ggt/ml\nUse patient's weight in kg (70 kg for example)\nDrip in the same number of drops per min (3.5 mg/min = 210 mg/hr = 3 mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Combative_patient_and/or_Excited_delirium": {
+      "text": "4-6 mg/kg IM or 1 mg/kg IV\n[4]",
+      "subsections": {
+        "Ketamine_Infusion": {
+          "text": "Post-intubation sedation start at 1-2 mg/kg/hr\nTitrate by 0.5 mg/kg/hr q5 min\nMax dose of 4-6 mg/kg/hr\nField, austere drip\n[6]\nPlace 500 mg ketamine in 500 cc for 1mg/ml\nStandard maxi drip sets between 10-20 ggt/ml\nUsually 20 gtt\nMini drip set has 60 ggt/ml\nFor quick drip set with 20 ggt/ml\nUse patient's weight in kg (70 kg for example)\nDrip in the same number of drops per min (3.5 mg/min = 210 mg/hr = 3 mg/kg/hr)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ketamine_Infusion": {
+      "text": "Post-intubation sedation start at 1-2 mg/kg/hr\nTitrate by 0.5 mg/kg/hr q5 min\nMax dose of 4-6 mg/kg/hr\nField, austere drip\n[6]\nPlace 500 mg ketamine in 500 cc for 1mg/ml\nStandard maxi drip sets between 10-20 ggt/ml\nUsually 20 gtt\nMini drip set has 60 ggt/ml\nFor quick drip set with 20 ggt/ml\nUse patient's weight in kg (70 kg for example)\nDrip in the same number of drops per min (3.5 mg/min = 210 mg/hr = 3 mg/kg/hr)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Procedural_Sedation_or_Induction_2": {
+          "text": "1.5-2 mg/kg IV\nOR\n4-5 mg/kg IM\n[7]\nOR\n3-6 mg/kg IN\n[8]\nOR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Procedural_Sedation_or_Induction_2": {
+      "text": "1.5-2 mg/kg IV\nOR\n4-5 mg/kg IM\n[7]\nOR\n3-6 mg/kg IN\n[8]\nOR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: not defined\nHepatic dosing: reduce doses, increased duration of action",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {
+        "Absolute": {
+          "text": "<3 month old\nKnown or suspected schizophrenia, even if currently stable or controlled with medications",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Major procedures involving posterior pharynx (e.g. endoscopy)\nTypical minor ED oropharyngeal procedures are okay\nAirway instability (e.g. tracheal stenosis, tracheal surgery)\nActive pulmonary infection, including URI or asthma (unless for induction)\nCAD, hypertension, CHF\nCNS masses, hydrocephalus (head trauma okay)\nGlaucoma/acute globe injury\nThyroid disorder or on thyroid medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Absolute": {
+      "text": "<3 month old\nKnown or suspected schizophrenia, even if currently stable or controlled with medications",
+      "subsections": {
+        "Relative": {
+          "text": "Major procedures involving posterior pharynx (e.g. endoscopy)\nTypical minor ED oropharyngeal procedures are okay\nAirway instability (e.g. tracheal stenosis, tracheal surgery)\nActive pulmonary infection, including URI or asthma (unless for induction)\nCAD, hypertension, CHF\nCNS masses, hydrocephalus (head trauma okay)\nGlaucoma/acute globe injury\nThyroid disorder or on thyroid medication",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Relative": {
+      "text": "Major procedures involving posterior pharynx (e.g. endoscopy)\nTypical minor ED oropharyngeal procedures are okay\nAirway instability (e.g. tracheal stenosis, tracheal surgery)\nActive pulmonary infection, including URI or asthma (unless for induction)\nCAD, hypertension, CHF\nCNS masses, hydrocephalus (head trauma okay)\nGlaucoma/acute globe injury\nThyroid disorder or on thyroid medication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Laryngospasm\n(0.3%)\nUsually associated with large doses or rapid IV push\nTreatment:\nJaw thrust\nPlace pressure on Larson's notch\nIf jaw thrust and pressure are not sufficient, bag valve mask with PEEP\nIf above do not resolve laryngospasm, sedate more deeply (propofol is the traditional choice, 0.5mg/kg)\nIf deeper sedation does not resolve laryngospasm, paralyse and intubate\nApnea or respiratory depression (0.8%)\nAssociated with rapid IV push\nTransient\nHypersalivation (rare)\nCan pretreat with\natropine\nor\nglycopyrrolate\n[10]\nEmesis, usually well into recovery (8.4%)\nRecovery agitation, aka emergence reaction (mild in 6.3%, clinically important in 1.4%)\nCan pretreat with midazolam 0.05mg/kg (2-4mg for most adults)\n[11]\nMuscular hypertonicity and random, purposeless movements (common)\nClonus, hiccuping, or short-lived nonallergic rash of face and neck",
+      "subsections": {
+        "Intracranial_pressure_elevation": {
+          "text": "Cerebral perfusion pressure (CPP) was compromised only in the patients with pre-existing intracranial hypertension and obstruction to the flow of cerebral spinal fluid.\nThis has, however, led to the persistent belief that ketamine is contraindicated in patients with traumatic head injuries. Studies done subsequently have shown, however, that the effects of ketamine on cerebral haemodynamics and ICP are in fact variable and depend on both the presence of additional anaesthetic agents and PaCO2 values.\n[12]\nMeta-analysis also suggests that Ketamine does not increase ICP and provides favorable hemodynamics.\n[13]",
+          "tables": []
+        },
+        "Neurologic_Injury": {
+          "text": "Metaanalysis has shown that when ketamine is used in the presence of controlled ventilation, in conjunction with anaesthetics which reduce cerebral metabolism such as GABA receptor agonists,\nICP is not increased\n.\n[14]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Laryngospasm",
+          "url": "https://wikem.org/wiki/Laryngospasm"
+        },
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "glycopyrrolate",
+          "url": "https://wikem.org/wiki/Glycopyrrolate"
+        }
+      ]
+    },
+    "Intracranial_pressure_elevation": {
+      "text": "Cerebral perfusion pressure (CPP) was compromised only in the patients with pre-existing intracranial hypertension and obstruction to the flow of cerebral spinal fluid.\nThis has, however, led to the persistent belief that ketamine is contraindicated in patients with traumatic head injuries. Studies done subsequently have shown, however, that the effects of ketamine on cerebral haemodynamics and ICP are in fact variable and depend on both the presence of additional anaesthetic agents and PaCO2 values.\n[12]\nMeta-analysis also suggests that Ketamine does not increase ICP and provides favorable hemodynamics.\n[13]",
+      "subsections": {
+        "Neurologic_Injury": {
+          "text": "Metaanalysis has shown that when ketamine is used in the presence of controlled ventilation, in conjunction with anaesthetics which reduce cerebral metabolism such as GABA receptor agonists,\nICP is not increased\n.\n[14]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Neurologic_Injury": {
+      "text": "Metaanalysis has shown that when ketamine is used in the presence of controlled ventilation, in conjunction with anaesthetics which reduce cerebral metabolism such as GABA receptor agonists,\nICP is not increased\n.\n[14]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5 hours\nMetabolism: Hepatic\nExcretion: Urine\nMechanism of Action: NMDA receptor antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Give as a slow IV push bolus over 45-60 seconds (rapid bolus increases risk for apnea and laryngospasm)\nIV preferred over IM (faster recovery, less emesis)\nNystagmus is seen as an effect of the medication\nCauses sympathetic drive leading to hypertension and tachycardia\nCaution in those with HTN or at risk for CAD\n[15]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedation (Main)\nProcedural Sedation\nIntranasal Sedation\nDelayed sequence intubation\nKetofol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation (Main)",
+          "url": "https://wikem.org/wiki/Sedation_(Main)"
+        },
+        {
+          "text": "Procedural Sedation",
+          "url": "https://wikem.org/wiki/Procedural_Sedation"
+        },
+        {
+          "text": "Intranasal Sedation",
+          "url": "https://wikem.org/wiki/Intranasal_Sedation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Ketofol",
+          "url": "https://wikem.org/wiki/Ketofol"
+        }
+      ]
+    }
+  }
+}

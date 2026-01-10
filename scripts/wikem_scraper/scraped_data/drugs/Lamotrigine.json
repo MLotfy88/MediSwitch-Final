@@ -1,0 +1,119 @@
+{
+  "drug_name": "Lamotrigine",
+  "url": "https://wikem.org/wiki/Lamotrigine",
+  "scraped_at": "2026-01-10T07:56:09.696105",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsants\nDosage Forms: 5mg, 25mg, 50mg, 100mg, 150mg, 200mg\nCommon Trade Names: Lamictal (ODT, Starter, XR)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Lennox-Gaustaut: Oral (Immediate release formulation)\nNon-enzyme inducing AED adjuncts: Week 1-2, 25mg qday, week 3-4, 50mg qday, then increased by 50mg qday every 1-2 weeks; maintenance 225-375mg daily in 2 divided doses\nValproate adjunct: Week 1-2, 25mg qod, week 3-4, 25mg qday, then increased by 25-50mg qday every 1-2 weeks; maintenance 100-400mg daily\nEnzyme inducing AED adjunct: Week 1-2, 50mg qday, week 3-4, 50mg bid, then increased by 100mg qday every 1-2 weeks; maintenance 300-500mg daily in 2 divided doses\nPartial seizures and primary generalized tonic-clonic seizures\nImmediate release formulation: same as for Lennox-Gaustaut dosing\nExtended release formulation:\nNon-enzyme inducing AED adjuncts: Week 1-2, 25mg qday, week 3-4, 50mg qday, week 5, 100mg qday, week 6, 150mg qday, week 7, 200mg qday, week 8 and beyond, dose increases should not exceed 100mg qday at weekly intervals; maintenance 300-400mg daily\nValproate adjunct: Week 1-2, 25mg qod, week 3-4, 25mg qday, week 5, 50mg qday, week 6, 100mg qday, week 7, 150mg qday, week 8 and beyond, does increases should not exceed 100mg qday at weekly intervals; maintenance 200-250mg daily\nEnzyme inducing AED adjunct: Week 1-2, 50mg qday, week 3-4, 100mg qday, week 5, 200mg qday, week 6, 300g qday, week 7, 400mg qday, week 8 and beyond, dose increases should not exceed 100mg qday at weekly intervals; maintenance 400-600mg daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Increased risk of developing serious skin rashes\nOral\nChildren 2-12 years: Immediate release formulation\nNon-enzyme inducing AED adjuncts: Week 1-2, 0.3mg/kg/day, week 3-4, 0.6mg/kg/day, then increased by 0.6mg/kg/day every 1-2 weeks; maintenance 4.5-7.5mg/kg/day\nValproate adjunct: Week 1-2, 0.15mg/kg/day, week 3-4, 0.3mg/kg/day, then increased by 0.3mg/kg/day every 1-2 weeks; maintenance 1-5mg/kg/day\nEnzyme inducing AED adjunct: Week 1-2, 0.6mg/kg/day, week 3-4, 1.2mg/kg/day, then increased by 1.2mg/kg/day every 1-2 weeks; maintenance 5-15mg/kg/day\nAdolescents >12 years: Refer to adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: 50% enters breast milk. Apnea, drowsiness, poor sucking.\nRenal Dosing: Decreased dosage may be effective; no adequately studied.\nHepatic Dosing\nMild: no adjustment\nMod-severe without ascites: Decrease by 25%\nMod-severe with ascites: Decrease by 50%",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Serious skin reactions, Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis\nSuicidal ideation\nHypersensitivity reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea, vomiting, abdominal pain\nChest pain\n, edema\nInsomnia, somnolence, fatigue, dizziness\nRash\nDysmenorrhea\nRhinitis\nBlurry vision\nPanctytopenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Serious skin reactions, Stevens-Johnson Syndrome and Toxic Epidermal Necrolysis\nSuicidal ideation\nHypersensitivity reaction",
+      "subsections": {
+        "Common": {
+          "text": "Nausea, vomiting, abdominal pain\nChest pain\n, edema\nInsomnia, somnolence, fatigue, dizziness\nRash\nDysmenorrhea\nRhinitis\nBlurry vision\nPanctytopenia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea, vomiting, abdominal pain\nChest pain\n, edema\nInsomnia, somnolence, fatigue, dizziness\nRash\nDysmenorrhea\nRhinitis\nBlurry vision\nPanctytopenia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 25-33 hours\nMetabolism: Hepatic and renal\nExcretion: Urine (94%), feces (2%)\nMechanism of Action: Inhibits glutamate release and inhibits voltage-sensitive sodium channels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    }
+  }
+}

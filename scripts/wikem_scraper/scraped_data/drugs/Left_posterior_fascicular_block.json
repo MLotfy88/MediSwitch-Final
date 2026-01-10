@@ -1,0 +1,108 @@
+{
+  "drug_name": "Left_posterior_fascicular_block",
+  "url": "https://wikem.org/wiki/Left_posterior_fascicular_block",
+  "scraped_at": "2026-01-10T07:56:14.956700",
+  "sections": {
+    "Criteria": {
+      "text": "Diagnostic criteria include\n[1]\n:\nRight axis deviation (>110)\nQRS < 120ms\nqR in III and aVF\nrS in I and aVL",
+      "subsections": {
+        "LAFB_vs_LPFB": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Axis",
+                "LAFB": "Left axis deviation",
+                "LPFB": "Right axis deviation"
+              },
+              {
+                "": "I and aVL",
+                "LAFB": "Upright QRS",
+                "LPFB": "Downgoing QRS"
+              },
+              {
+                "": "III",
+                "LAFB": "Downgoing QRS",
+                "LPFB": "Upright QRS"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "LAFB_vs_LPFB": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Axis",
+            "LAFB": "Left axis deviation",
+            "LPFB": "Right axis deviation"
+          },
+          {
+            "": "I and aVL",
+            "LAFB": "Upright QRS",
+            "LPFB": "Downgoing QRS"
+          },
+          {
+            "": "III",
+            "LAFB": "Downgoing QRS",
+            "LPFB": "Upright QRS"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Significance": {
+      "text": "Usually associated with disease\nIsolated LPFB associated with\nMI\n[3]\nExclude other causes of RAD (\nPE\n,\nCOPD\n,\nRVH\n, Lateral\nMI\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "RVH",
+          "url": "https://wikem.org/wiki/RVH"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Basics)\nLeft anterior fascicular block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Basics)",
+          "url": "https://wikem.org/wiki/ECG_(Basics)"
+        },
+        {
+          "text": "Left anterior fascicular block",
+          "url": "https://wikem.org/wiki/Left_anterior_fascicular_block"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CanadiEM - The Boring Guide to ECG's: Fascicular Blocks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "drug_name": "Kaposi%27s_sarcoma",
+  "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma",
+  "scraped_at": "2026-01-10T07:56:01.972418",
+  "sections": {
+    "Background": {
+      "text": "Different classifications of Kaposi’s sarcoma based on patient population\nAssociated with\nHHV-8\nMost common cancer in\nHIV\n/\nAIDS\npatients\nKaposi’s Sarcoma can be unmasked or induced by initiation of steroids or HAART\nCutaneous lower extremity lesions most common presentation\nKaposi’s sarcoma is an AIDS-defining illness\nTreat with HAART and/or chemo",
+      "subsections": {
+        "History": {
+          "text": "First described by Hungarian Dr. Moritz Kaposi in 1872; rare until 1980s with emergence of HIV/AIDS (1981 cluster of Kaposi’s sarcoma in young men in NYC and California; 1982 listed as AIDS-defining illness by CDC)\nHuman Herpesvirus 8 (HHV8)\nLarge, double-stranded DNA virus\nNecessary but NOT sufficient to cause disease\nAlso associated with body-cavity based lymphomas, multicentric Castleman’s disease (angiofollicular lymph node hyperplasia)",
+          "tables": []
+        },
+        "Classifications": {
+          "text": "Classic Kaposi’s (CK)\nIndolent, chronic form, rarely disseminated\nSkin most commonly effected, lower extremities\n~3:1 Male:Female, Age > 60 years old with Mediterranean, Eastern European or Middle Eastern origin\nEndemic Kaposi’s sarcoma (Africa)\nMale adults or children of both sexes\nEquatorial/Sub-Saharan Africa\nAggressive form with lymph node involvement (lymphedema)\n27%, 35%, and 24% of total cancer burden in Uganda, Zimbabwe and Mozambique, respectively\nAIDS-KS\nDeveloped countries: Men who have sex with men\nDeveloping countries: Heterosexual men and women (Africa)\nAggressive disease – most commonly in lungs, gastrointestinal tract, mouth, and genitalia\nMost common cancer in HIV/AIDS patients\nIatrogenic due to immunosuppression – Most commonly organ transplant-associated\nIncreased risk after solid organ transplantation\nTransplant itself may transmit HHV-8 infection\nMale > Female (3.3:1), average age 43 yo\nCutaneous lesion presentation most common\nMore common in liver than kidney transplant patients\nImmune Reconstitution Inflammatory Syndrome (IRIS) Phenomenon\nInitiation of retroviral therapy can cause the development of KS\nTrue unmasked KS-IRIS begins within 6 months of initiating therapy, and the rates remain unclear",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HHV-8",
+          "url": "https://wikem.org/wiki/HHV-8"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        }
+      ]
+    },
+    "History": {
+      "text": "First described by Hungarian Dr. Moritz Kaposi in 1872; rare until 1980s with emergence of HIV/AIDS (1981 cluster of Kaposi’s sarcoma in young men in NYC and California; 1982 listed as AIDS-defining illness by CDC)\nHuman Herpesvirus 8 (HHV8)\nLarge, double-stranded DNA virus\nNecessary but NOT sufficient to cause disease\nAlso associated with body-cavity based lymphomas, multicentric Castleman’s disease (angiofollicular lymph node hyperplasia)",
+      "subsections": {
+        "Classifications": {
+          "text": "Classic Kaposi’s (CK)\nIndolent, chronic form, rarely disseminated\nSkin most commonly effected, lower extremities\n~3:1 Male:Female, Age > 60 years old with Mediterranean, Eastern European or Middle Eastern origin\nEndemic Kaposi’s sarcoma (Africa)\nMale adults or children of both sexes\nEquatorial/Sub-Saharan Africa\nAggressive form with lymph node involvement (lymphedema)\n27%, 35%, and 24% of total cancer burden in Uganda, Zimbabwe and Mozambique, respectively\nAIDS-KS\nDeveloped countries: Men who have sex with men\nDeveloping countries: Heterosexual men and women (Africa)\nAggressive disease – most commonly in lungs, gastrointestinal tract, mouth, and genitalia\nMost common cancer in HIV/AIDS patients\nIatrogenic due to immunosuppression – Most commonly organ transplant-associated\nIncreased risk after solid organ transplantation\nTransplant itself may transmit HHV-8 infection\nMale > Female (3.3:1), average age 43 yo\nCutaneous lesion presentation most common\nMore common in liver than kidney transplant patients\nImmune Reconstitution Inflammatory Syndrome (IRIS) Phenomenon\nInitiation of retroviral therapy can cause the development of KS\nTrue unmasked KS-IRIS begins within 6 months of initiating therapy, and the rates remain unclear",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classifications": {
+      "text": "Classic Kaposi’s (CK)\nIndolent, chronic form, rarely disseminated\nSkin most commonly effected, lower extremities\n~3:1 Male:Female, Age > 60 years old with Mediterranean, Eastern European or Middle Eastern origin\nEndemic Kaposi’s sarcoma (Africa)\nMale adults or children of both sexes\nEquatorial/Sub-Saharan Africa\nAggressive form with lymph node involvement (lymphedema)\n27%, 35%, and 24% of total cancer burden in Uganda, Zimbabwe and Mozambique, respectively\nAIDS-KS\nDeveloped countries: Men who have sex with men\nDeveloping countries: Heterosexual men and women (Africa)\nAggressive disease – most commonly in lungs, gastrointestinal tract, mouth, and genitalia\nMost common cancer in HIV/AIDS patients\nIatrogenic due to immunosuppression – Most commonly organ transplant-associated\nIncreased risk after solid organ transplantation\nTransplant itself may transmit HHV-8 infection\nMale > Female (3.3:1), average age 43 yo\nCutaneous lesion presentation most common\nMore common in liver than kidney transplant patients\nImmune Reconstitution Inflammatory Syndrome (IRIS) Phenomenon\nInitiation of retroviral therapy can cause the development of KS\nTrue unmasked KS-IRIS begins within 6 months of initiating therapy, and the rates remain unclear",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Cutaneous\nHeterogeneous appearance\nColor – dark blue, reddish, purple, violaceous, dark brown/black\nLocation – extremities, most commonly the feet\nLesions: macules, plaques, nodules\nAssociated\nlymphedema\nPulmonary\nGradual Onset (2-4 weeks)\nCough\nDyspnea\nFever\nHemoptysis\nAsymptomatic\nGastrointestinal\nBleeding\nObstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cutaneous",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "lymphedema",
+          "url": "https://wikem.org/wiki/Lymphedema"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Bleeding",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "Obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nPulmonary Lesions in HIV/AIDs:\nBacterial\npneumonia\nPCP\nTB\nFungal infections\nAnorectal Lesions in HIV/AIDs:\nCommon:\nAnal fissure\n,\nabscess\nand/or fistula,\nhemorrhoid\n,\n[pilonidal disease\nSTDs:\nGonorrhea\n,\nchlamydia\n,\nherpes\n,\nchancroid\n,\nsyphilis\n,\ncondyloma acuminata\nInfectious:\nTB\n,\nCMV\ninfection,\nactinomycosis\n,\ncryptococcosis\nNeoplastic:\nLymphoma\n,\nKaposi’s sarcoma\n,\nsquamous cell carcinoma",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        },
+        "Dark_raised_skin_lesions": {
+          "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Perianal_abscess"
+        },
+        {
+          "text": "hemorrhoid",
+          "url": "https://wikem.org/wiki/Hemorrhoid"
+        },
+        {
+          "text": "[pilonidal disease",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "herpes",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "actinomycosis",
+          "url": "https://wikem.org/wiki/Actinomyces"
+        },
+        {
+          "text": "cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kaposi’s sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%E2%80%99s_sarcoma"
+        },
+        {
+          "text": "squamous cell carcinoma",
+          "url": "https://wikem.org/wiki/Squamous_cell_carcinoma"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        },
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[1]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {
+        "Dark_raised_skin_lesions": {
+          "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        },
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "Dark_raised_skin_lesions": {
+      "text": "Acanthosis nigricans\nKaposi's sarcoma\nMelanoma\nNevus\nSeborrheic keratosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acanthosis nigricans",
+          "url": "https://wikem.org/wiki/Acanthosis_nigricans"
+        },
+        {
+          "text": "Melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Seborrheic keratosis",
+          "url": "https://wikem.org/wiki/Seborrheic_keratosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical impression\nBiopsy is gold standard for definitive diagnosis\nWHO Clinical Staging of HIV/AIDS\nStage 4: Presumptive Diagnosis of HIV/AIDS can be made from clinical signs of Kaposi’s\nGI manifestations\nUnlikely visible on XR; can be seen on flex sig or colonoscopy\nPulmonary Manifestations\nHeterogeneous on\nCXR\n- nodular, interstitial and/or alveolar infiltrates, pleural effusion, hilar and/or mediastinal adenopathy, or an isolated nodule",
+      "subsections": {
+        "Staging": {
+          "text": "Classic Kaposi's Sarcoma\nNo staging system. It is excluded in TNM Staging of soft tissue sarcomas by American Joint Committee on Cancer (AJCC)\nAIDS-KS Staging",
+          "tables": [
+            [
+              {
+                "": "Tumor, T",
+                "Good Risk (all of the following)": "T0: Skin and/or lymph nodes and/or minimal oral disease",
+                "Poor Risk (any of the following)": "TI: Tumor-associated edema or ulceration, extensive oral KS, GI KS, KS in other non-nodal viscera"
+              },
+              {
+                "": "Immune System, I",
+                "Good Risk (all of the following)": "CD4 > 200",
+                "Poor Risk (any of the following)": "CD4 < 200"
+              },
+              {
+                "": "Systemic Illness, S",
+                "Good Risk (all of the following)": "S0: No history of OI or thrust, No \"B\" Symptoms (fever, night sweats, weight loss, diarrhea > 2 weeks) Karnofsky performance > 70",
+                "Poor Risk (any of the following)": "SI: History of OI and/or thrush, \"B\" symptoms, Karnofsky performance <70, Other HIV-related illness"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Staging": {
+      "text": "Classic Kaposi's Sarcoma\nNo staging system. It is excluded in TNM Staging of soft tissue sarcomas by American Joint Committee on Cancer (AJCC)\nAIDS-KS Staging",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Tumor, T",
+            "Good Risk (all of the following)": "T0: Skin and/or lymph nodes and/or minimal oral disease",
+            "Poor Risk (any of the following)": "TI: Tumor-associated edema or ulceration, extensive oral KS, GI KS, KS in other non-nodal viscera"
+          },
+          {
+            "": "Immune System, I",
+            "Good Risk (all of the following)": "CD4 > 200",
+            "Poor Risk (any of the following)": "CD4 < 200"
+          },
+          {
+            "": "Systemic Illness, S",
+            "Good Risk (all of the following)": "S0: No history of OI or thrust, No \"B\" Symptoms (fever, night sweats, weight loss, diarrhea > 2 weeks) Karnofsky performance > 70",
+            "Poor Risk (any of the following)": "SI: History of OI and/or thrush, \"B\" symptoms, Karnofsky performance <70, Other HIV-related illness"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Highly Active Anti-retroviral therapy (HAART):\nCan achieve remission in 60-90% remission in stage T0 disease\nCan combine with chemotherapy\nChemotherapy:\nFirst-line: Pegylated liposomal doxorubicin (PLD) 20mg/m2 every three weeks (unless cardiac contraindication)\nSecond-line: Vinblastine, Bleomycin, Paclitaxel, Etoposide, Gemcitabine\nCutaneous Specific Treatment:\nAlitretinoin (9-cis-retinoic acid) topical gel 0.1% FDA-approved for cutaneous AIDS-associated KS\nIntralesion Injection: Vinblastine or Bleomycin or INF-alpha\nVinblastine 0.2 – 0.3mg/mL solution with a volume of 1 mL per 0.5 cm2 of lesion\nIFNa - FDA approved for AIDS-associated KS\nRadiation Therapy\n30 Gy in 15 daily 2 Gy fractions\nOther Drug Trials:\nBevacizumab - an anti-VEGF-A\nImatinib - monoclonal antibody tyrosine kinase receptor\nSteroids\nAssociated with generation and exacerbation of KS\nImportant implications because of the high use of steroids in this patient population (HIV/AIDS, transplant)\nOnce steroids are removed, KS can regress",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "HIV - AIDS (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV - AIDS (Main)",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.ncbi.nlm.nih.gov/pubmed/25256409\nhttp://www.ncbi.nlm.nih.gov/pubmed/20413015",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Farge, D. \"Kaposi's Sarcoma in Organ Transplant Recipients. The Collaborative Transplantation Research Group of Ile De France.\" The European Journal of Medicine 2.6 (1993): 339-43.\nFenig, Eyal, Baruch Brenner, Erica Rakowsky, Moshe Lapidoth, Alan Katz, and Aaron Sulkes. \"Classic Kaposi Sarcoma.\" American Journal of Clinical Oncology 21.5 (1998): 498-500.\nKrown, SE, C. Metroka, and JC Wemz. \"Kaposi's Sarcoma in the Acquired Immune Deficiency Syndrome: A Proposal for Uniform Evaluation, Response and Staging Criteria.\" Journal of Clinical Oncology 7.9 (1989): 1201-207.\nKrown, SE, MA Testa, and J. Huang. \"AIDS-related Kaposi's Sarcoma: Prospective Validation of the AIDS Clinical Trials Group Staging Classification. AIDS Clinical Trials Group Oncology Committee.\" Journal of Clinical Oncology 15.9 (1997): 3085-092.\nMoosa, M.r. \"Kaposi's Sarcoma in Kidney Transplant Recipients: A 23-year Experience.\" QJM 98.3 (2005): 205-14.\nOsawa, R., N. Kato, T. Yanagi, and N. Yamane. \"Clearance of Recurrent, Classical Kaposi’s Sarcoma Using Multiple Paclitaxel Treatments.\" Acta Derm Venereol Acta Dermato-Venereologica 87.5 (2007): 435-36. Web.\nRobey, Rebecca C., and Mark Bower. \"Facing up to the Ongoing Challenge of Kaposiʼs Sarcoma.\" Current Opinion in Infectious Diseases 28.31 (2015).\nRosen, Peter, and John A. Marx. Rosen's Emergency Medicine: Concepts and Clinical Practice. 8th ed. Philadelphia: Elsevier Saunders, 2014.\nSafai, B., and R. A. Good. \"Kaposi's Sarcoma: A Review and Recent Developments.\" CA: A Cancer Journal for Clinicians 31.1 (1981): 2-12.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

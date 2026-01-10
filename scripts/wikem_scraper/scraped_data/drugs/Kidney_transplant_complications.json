@@ -1,0 +1,314 @@
+{
+  "drug_name": "Kidney_transplant_complications",
+  "url": "https://wikem.org/wiki/Kidney_transplant_complications",
+  "scraped_at": "2026-01-10T07:56:01.718002",
+  "sections": {
+    "Background": {
+      "text": "most commonly transplanted organ",
+      "subsections": {
+        "Types_of_Transplant_complications": {
+          "text": "Immediate (0-1 week)\nAcute Tubular Necrosis\nMay be post-ischemic, commonly effecting both the proximal tubules and the thick ascending limb. Or it may be immunosupresive drug induced and only effect the proximal tubules.  Granular \"muddy brown asts\" seen on urinalysis result from death and sloughing of tubular cells.\nAntibody mediated rejection\nResults from donor specific antibodies including as ABO isoagglutinins.\nUsually results in graft loss within 24 hours.\nEmbolization and Thrombosis\nMay arise with or without rejection\nMay result from hypotension, anastomotic stenosis, arterial dissection, kinking of transplanted artery, or angulation of the vein\nCalcium Oxalate deposition\nDelayed graft function\nThis is defined as renal failure persisting after transplantation necessitating dialysis.  It my be due to post-ischemic acute tubular necrosis, volume depletion, or volume depletion.\nUrinary bladder dysfunction\nThis complication is especially common in diabetics and may cause hydronephrosis\nEarly (1-12 weeks)\nAcute rejection\nAntibodies against donor kidney develop after transplant\nDense interstitial lymphocytic infiltrate\nPrevent/reverse with immunosuppressants\nImmunosuppressive Cytotoxicity\nUsually caused by calcineurin inhibitor toxicity\nReverse by decrease dosage of immunosuppressants\nInfection\nMost commonly polyoma (BK virus) or cytomegalovirus (CMV)\nPolyoma virus is treated with intravenous immunoglobulins\nCMV is treated with antivirals medications\nRecurrence of primary disease\nLate Acute (greater than 3 months)\nHypertension\nHypertension is common in ESRD/CKD patients and often worsens after transplant\nCan result in decreased allograft survival\nRenal artery stenosis\nImportant to identify because is a correctible cause of post-transplant hypertension\nAcute Rejection\nSame as above\nImmunosuppressive cytotoxicity\nSame as above\nLate Chronic (years later)\nChronic allograft nephropathy\nIrreversible T-cell and antibody mediated damage\nCauses vascular fibrosis\nImmunosuppressive cytotoxicity\nSame as above",
+          "tables": []
+        },
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Types_of_Transplant_complications": {
+      "text": "Immediate (0-1 week)\nAcute Tubular Necrosis\nMay be post-ischemic, commonly effecting both the proximal tubules and the thick ascending limb. Or it may be immunosupresive drug induced and only effect the proximal tubules.  Granular \"muddy brown asts\" seen on urinalysis result from death and sloughing of tubular cells.\nAntibody mediated rejection\nResults from donor specific antibodies including as ABO isoagglutinins.\nUsually results in graft loss within 24 hours.\nEmbolization and Thrombosis\nMay arise with or without rejection\nMay result from hypotension, anastomotic stenosis, arterial dissection, kinking of transplanted artery, or angulation of the vein\nCalcium Oxalate deposition\nDelayed graft function\nThis is defined as renal failure persisting after transplantation necessitating dialysis.  It my be due to post-ischemic acute tubular necrosis, volume depletion, or volume depletion.\nUrinary bladder dysfunction\nThis complication is especially common in diabetics and may cause hydronephrosis\nEarly (1-12 weeks)\nAcute rejection\nAntibodies against donor kidney develop after transplant\nDense interstitial lymphocytic infiltrate\nPrevent/reverse with immunosuppressants\nImmunosuppressive Cytotoxicity\nUsually caused by calcineurin inhibitor toxicity\nReverse by decrease dosage of immunosuppressants\nInfection\nMost commonly polyoma (BK virus) or cytomegalovirus (CMV)\nPolyoma virus is treated with intravenous immunoglobulins\nCMV is treated with antivirals medications\nRecurrence of primary disease\nLate Acute (greater than 3 months)\nHypertension\nHypertension is common in ESRD/CKD patients and often worsens after transplant\nCan result in decreased allograft survival\nRenal artery stenosis\nImportant to identify because is a correctible cause of post-transplant hypertension\nAcute Rejection\nSame as above\nImmunosuppressive cytotoxicity\nSame as above\nLate Chronic (years later)\nChronic allograft nephropathy\nIrreversible T-cell and antibody mediated damage\nCauses vascular fibrosis\nImmunosuppressive cytotoxicity\nSame as above",
+      "subsections": {
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Immunosuppressant_Medications": {
+      "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "The clinical features will depend on the type of complication and the amount of time elapsed post-transplantation.",
+      "subsections": {
+        "Hyperacute_Rejection": {
+          "text": "Little or no urine output\nWidespread thrombosis",
+          "tables": []
+        },
+        "Early_Complications": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Late_Acute": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Late_Chronic": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "May not have classic findings due to immunosupression\nPresentation depends on source of infection",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperacute_Rejection": {
+      "text": "Little or no urine output\nWidespread thrombosis",
+      "subsections": {
+        "Early_Complications": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Late_Acute": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Late_Chronic": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "May not have classic findings due to immunosupression\nPresentation depends on source of infection",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Early_Complications": {
+      "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+      "subsections": {
+        "Late_Acute": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Late_Chronic": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "May not have classic findings due to immunosupression\nPresentation depends on source of infection",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Late_Acute": {
+      "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+      "subsections": {
+        "Late_Chronic": {
+          "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+          "tables": []
+        },
+        "Infection": {
+          "text": "May not have classic findings due to immunosupression\nPresentation depends on source of infection",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Late_Chronic": {
+      "text": "Symptoms of infection\nSymptoms of recurrent disease\nDecreased urine output\nHemorrhagic or non-hemorrhagic cystitis",
+      "subsections": {
+        "Infection": {
+          "text": "May not have classic findings due to immunosupression\nPresentation depends on source of infection",
+          "tables": []
+        },
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infection": {
+      "text": "May not have classic findings due to immunosupression\nPresentation depends on source of infection",
+      "subsections": {
+        "Medication_Adverse_Effects": {
+          "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Medication_Adverse_Effects": {
+      "text": "Prednisone\nHyperglycemia, psychiatric symptoms, poor wound healing, edema, hypertension\nTacrolimus, cyclosporine\nNeurotoxicity, tremor, hyperkalemia, nephrotoxicity, hypertension, hyperglycemia, gout\nMycophenolate\nCytopenias, GI distress\nAzathioprine\nCytopenias, pancreatitis, hepatitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Solid organ rejection\nInfection\nMedication side effect\nGraft-versus-host disease\nPost-operative complications\nDiagnoses related to underlying disease or comorbidities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Graft-versus-host_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Depending on presentation, work-up may include:\nCBC\nBMP for BUN/creatinine\nbest prognostic marker of graft function\nnecessary to dose some empiric antibiotics\nUrinalysis\n(for infection and signs of rejection)\nTacrolimus/cyclosporine levels\nInfectious work-up\nBlood/urine cultures, PCR or other tests for viral/fungal infections as indicated\nCXR\nconsider renal ultrasound for workup of rejection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Empiric antimicrobials for suspected infection\nSee\nimmunocompromised antibiotics\nConsult relevant transplant team\nHigh-dose steroids are usual therapy for rejection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Transplant complications\nNeutropenic fever\nImmunocompromised antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transplant complications",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        }
+      ]
+    }
+  }
+}

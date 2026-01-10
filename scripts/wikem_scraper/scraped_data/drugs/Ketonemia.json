@@ -1,0 +1,73 @@
+{
+  "drug_name": "Ketonemia",
+  "url": "https://wikem.org/wiki/Ketonemia",
+  "scraped_at": "2026-01-10T07:56:00.658155",
+  "sections": {
+    "Background": {
+      "text": "The following conditions will cause elevated serum ketones:\nDiabetic ketoacidosis (DKA)\nStarvation ketosis\nIsopropyl alcohol ingestion\nSalicylate overdose\nPregnancy\nCortisol deficiency\nAlcohol ketoacidosis\nHigh-fat diet\nVomiting\nDiarrhea\nHyperthyroidism\nInborn errors of metabolism\n(cystinuria)\nHypoglycemia",
+      "subsections": {
+        "False_positive_elevations": {
+          "text": "The following conditions spur false-positive results[4, 5] :\nParkinson medications\nEx-Lax use",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Starvation ketosis",
+          "url": "https://wikem.org/wiki/Starvation_ketosis"
+        },
+        {
+          "text": "Isopropyl alcohol ingestion",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_ingestion"
+        },
+        {
+          "text": "Salicylate overdose",
+          "url": "https://wikem.org/wiki/Salicylate_overdose"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Cortisol deficiency",
+          "url": "https://wikem.org/wiki/Cortisol_deficiency"
+        },
+        {
+          "text": "Alcohol ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcohol_ketoacidosis"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        }
+      ]
+    },
+    "False_positive_elevations": {
+      "text": "The following conditions spur false-positive results[4, 5] :\nParkinson medications\nEx-Lax use",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

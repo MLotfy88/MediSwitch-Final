@@ -1,0 +1,310 @@
+{
+  "drug_name": "Ketoconazole",
+  "url": "https://wikem.org/wiki/Ketoconazole",
+  "scraped_at": "2026-01-10T07:56:02.608871",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntifungal\nDosage Forms: Tablet, 200mg\nRoutes of Administration: PO, topical\nCommon Trade Names: Nizoral",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungal",
+          "url": "https://wikem.org/wiki/Antifungal"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Fungal_infections": {
+          "text": "200-400mg PO qday",
+          "tables": []
+        },
+        "Prostate_cancer": {
+          "text": "400mg PO q8h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fungal_infections": {
+      "text": "200-400mg PO qday",
+      "subsections": {
+        "Prostate_cancer": {
+          "text": "400mg PO q8h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prostate_cancer": {
+      "text": "400mg PO q8h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Fungal_infectionss_(2_years_and_up)": {
+          "text": "3.3-6.6mg/kg PO qday",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C, adverse events have been seen in animal studies\nLactation risk\n: Excreted in breast milk, not recommended by manufacturer.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: no adjustment\nPediatric: no adjustment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: contraindicated in liver disease\nPediatric: contraindicated in liver disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: no adjustment\nPediatric: no adjustment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: contraindicated in liver disease\nPediatric: contraindicated in liver disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: contraindicated in liver disease\nPediatric: contraindicated in liver disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nAdrenal insufficiency\nHypersensitivity reaction\nAnaphylaxis\nThrombocytopenia\nLeukopenia\nHemolytic anemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\nAbdominal pain\nDizziness\nDiarrhea\nHeadache\nPruritis\nLethargy\nGynecomastia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Pruritis",
+          "url": "https://wikem.org/wiki/Pruritis"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nAdrenal insufficiency\nHypersensitivity reaction\nAnaphylaxis\nThrombocytopenia\nLeukopenia\nHemolytic anemia",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\nAbdominal pain\nDizziness\nDiarrhea\nHeadache\nPruritis\nLethargy\nGynecomastia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Pruritis",
+          "url": "https://wikem.org/wiki/Pruritis"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\nAbdominal pain\nDizziness\nDiarrhea\nHeadache\nPruritis\nLethargy\nGynecomastia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Pruritis",
+          "url": "https://wikem.org/wiki/Pruritis"
+        },
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8 h\nMetabolism: Liver (CYP450)\nExcretion: feces > urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits synthesis of cell membrane ergosterol",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antifungals\nFungal infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antifungals",
+          "url": "https://wikem.org/wiki/Antifungals"
+        },
+        {
+          "text": "Fungal infections",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        }
+      ]
+    }
+  }
+}

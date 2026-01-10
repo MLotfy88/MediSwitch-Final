@@ -1,0 +1,1089 @@
+{
+  "drug_name": "Laceration_repair",
+  "url": "https://wikem.org/wiki/Laceration_repair",
+  "scraped_at": "2026-01-10T07:56:12.245128",
+  "sections": {
+    "Overview": {
+      "text": "This page is for general approach to lacerations and their repair.\nSee \"See Also\" section below for specific special laceration types.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Skin or mucosal\nlaceration\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Body laceration >12 hours old\nFace/scalp wounds >24 hours old",
+      "subsections": {
+        "When_to_Call_a_Consultant": {
+          "text": "Signs of neurovascular or tendon injury\nFacial wounds that cross cosmetic boundaries\nTissue loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "When_to_Call_a_Consultant": {
+      "text": "Signs of neurovascular or tendon injury\nFacial wounds that cross cosmetic boundaries\nTissue loss",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "",
+      "subsections": {
+        "Suture_Types": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Suture Type": "Chromic Gut",
+                "Days of Tensile Strength": "7-21 days",
+                "Complete Absorption": "90 days",
+                "Descriptions": "Chromium treated to decrease tissue reactivity"
+              },
+              {
+                "Suture Type": "PDS (Polydioxone)",
+                "Days of Tensile Strength": "14 days",
+                "Complete Absorption": "180-240 days",
+                "Descriptions": "Monofilament synthetic absorbable suture"
+              },
+              {
+                "Suture Type": "Vicryl (Polyglactin)",
+                "Days of Tensile Strength": "21 days",
+                "Complete Absorption": "90 days",
+                "Descriptions": "Synthetic"
+              },
+              {
+                "Suture Type": "Vicryl Rapid",
+                "Days of Tensile Strength": "10 days",
+                "Complete Absorption": "42 days",
+                "Descriptions": "Synthetic with radiation treatment for increased absorption"
+              }
+            ],
+            [
+              {
+                "Suture Type": "Nylon",
+                "Tensile Strength": "High",
+                "Body Reactivity": "Low",
+                "Filament": "Monofilament"
+              },
+              {
+                "Suture Type": "Silk",
+                "Tensile Strength": "Low",
+                "Body Reactivity": "High",
+                "Filament": "Multifilament"
+              },
+              {
+                "Suture Type": "Prolene (Polypropylene)",
+                "Tensile Strength": "Moderate",
+                "Body Reactivity": "Low",
+                "Filament": "Monofilament stiff"
+              }
+            ]
+          ]
+        },
+        "Laceration_Areas_and_Their_Common_Suture_Type_and_Duration": {
+          "text": "Note: consider use of Fast Absorbing Gut (5-0/6-0) on Ear, Eyelid, Eyebrow, Nose, Lip and Face if anticipated difficulty with suture removal\nNote: Favor absorbable sutures for facial repair especially in children",
+          "tables": [
+            [
+              {
+                "Area": "Scalp",
+                "Size": "Staples or 4-0 or 5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7"
+              },
+              {
+                "Area": "Ear",
+                "Size": "6-0",
+                "Type": "non absorbable (absorbable for cartilage repair)",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Eyelid",
+                "Size": "6-0 or 7-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Eyebrow",
+                "Size": "5-0 or 6-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Nose",
+                "Size": "6-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Lip",
+                "Size": "6-0",
+                "Type": "absorbable",
+                "Days to Removal": "NA"
+              },
+              {
+                "Area": "Oral mucosa",
+                "Size": "5-0",
+                "Type": "absorbable",
+                "Days to Removal": "NA"
+              },
+              {
+                "Area": "Other face / forehead",
+                "Size": "6-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5"
+              },
+              {
+                "Area": "Chest/abdomen",
+                "Size": "4-0 or 5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "12-14"
+              },
+              {
+                "Area": "Back",
+                "Size": "4-0 or 5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Extremities",
+                "Size": "4-0 or 5-0",
+                "Type": "non absobrable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Hand",
+                "Size": "5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Foot / Sole",
+                "Size": "4-0",
+                "Type": "non absorable",
+                "Days to Removal": "12-14"
+              },
+              {
+                "Area": "Joint (Extensor)",
+                "Size": "4-0",
+                "Type": "non absorable",
+                "Days to Removal": "10-14"
+              },
+              {
+                "Area": "Joint (Flexor)",
+                "Size": "4-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Vagina",
+                "Size": "4-0",
+                "Type": "absorbable",
+                "Days to Removal": "NA"
+              },
+              {
+                "Area": "Penis",
+                "Size": "5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Scrotum",
+                "Size": "5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Suture_Types": {
+      "text": "",
+      "subsections": {
+        "Laceration_Areas_and_Their_Common_Suture_Type_and_Duration": {
+          "text": "Note: consider use of Fast Absorbing Gut (5-0/6-0) on Ear, Eyelid, Eyebrow, Nose, Lip and Face if anticipated difficulty with suture removal\nNote: Favor absorbable sutures for facial repair especially in children",
+          "tables": [
+            [
+              {
+                "Area": "Scalp",
+                "Size": "Staples or 4-0 or 5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7"
+              },
+              {
+                "Area": "Ear",
+                "Size": "6-0",
+                "Type": "non absorbable (absorbable for cartilage repair)",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Eyelid",
+                "Size": "6-0 or 7-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Eyebrow",
+                "Size": "5-0 or 6-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Nose",
+                "Size": "6-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5-7"
+              },
+              {
+                "Area": "Lip",
+                "Size": "6-0",
+                "Type": "absorbable",
+                "Days to Removal": "NA"
+              },
+              {
+                "Area": "Oral mucosa",
+                "Size": "5-0",
+                "Type": "absorbable",
+                "Days to Removal": "NA"
+              },
+              {
+                "Area": "Other face / forehead",
+                "Size": "6-0",
+                "Type": "absorbable or nonabsorbable",
+                "Days to Removal": "5"
+              },
+              {
+                "Area": "Chest/abdomen",
+                "Size": "4-0 or 5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "12-14"
+              },
+              {
+                "Area": "Back",
+                "Size": "4-0 or 5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Extremities",
+                "Size": "4-0 or 5-0",
+                "Type": "non absobrable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Hand",
+                "Size": "5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Foot / Sole",
+                "Size": "4-0",
+                "Type": "non absorable",
+                "Days to Removal": "12-14"
+              },
+              {
+                "Area": "Joint (Extensor)",
+                "Size": "4-0",
+                "Type": "non absorable",
+                "Days to Removal": "10-14"
+              },
+              {
+                "Area": "Joint (Flexor)",
+                "Size": "4-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Vagina",
+                "Size": "4-0",
+                "Type": "absorbable",
+                "Days to Removal": "NA"
+              },
+              {
+                "Area": "Penis",
+                "Size": "5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              },
+              {
+                "Area": "Scrotum",
+                "Size": "5-0",
+                "Type": "non absorbable",
+                "Days to Removal": "7-10"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Suture Type": "Chromic Gut",
+            "Days of Tensile Strength": "7-21 days",
+            "Complete Absorption": "90 days",
+            "Descriptions": "Chromium treated to decrease tissue reactivity"
+          },
+          {
+            "Suture Type": "PDS (Polydioxone)",
+            "Days of Tensile Strength": "14 days",
+            "Complete Absorption": "180-240 days",
+            "Descriptions": "Monofilament synthetic absorbable suture"
+          },
+          {
+            "Suture Type": "Vicryl (Polyglactin)",
+            "Days of Tensile Strength": "21 days",
+            "Complete Absorption": "90 days",
+            "Descriptions": "Synthetic"
+          },
+          {
+            "Suture Type": "Vicryl Rapid",
+            "Days of Tensile Strength": "10 days",
+            "Complete Absorption": "42 days",
+            "Descriptions": "Synthetic with radiation treatment for increased absorption"
+          }
+        ],
+        [
+          {
+            "Suture Type": "Nylon",
+            "Tensile Strength": "High",
+            "Body Reactivity": "Low",
+            "Filament": "Monofilament"
+          },
+          {
+            "Suture Type": "Silk",
+            "Tensile Strength": "Low",
+            "Body Reactivity": "High",
+            "Filament": "Multifilament"
+          },
+          {
+            "Suture Type": "Prolene (Polypropylene)",
+            "Tensile Strength": "Moderate",
+            "Body Reactivity": "Low",
+            "Filament": "Monofilament stiff"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Laceration_Areas_and_Their_Common_Suture_Type_and_Duration": {
+      "text": "Note: consider use of Fast Absorbing Gut (5-0/6-0) on Ear, Eyelid, Eyebrow, Nose, Lip and Face if anticipated difficulty with suture removal\nNote: Favor absorbable sutures for facial repair especially in children",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Area": "Scalp",
+            "Size": "Staples or 4-0 or 5-0",
+            "Type": "non absorbable",
+            "Days to Removal": "7"
+          },
+          {
+            "Area": "Ear",
+            "Size": "6-0",
+            "Type": "non absorbable (absorbable for cartilage repair)",
+            "Days to Removal": "5-7"
+          },
+          {
+            "Area": "Eyelid",
+            "Size": "6-0 or 7-0",
+            "Type": "absorbable or nonabsorbable",
+            "Days to Removal": "5-7"
+          },
+          {
+            "Area": "Eyebrow",
+            "Size": "5-0 or 6-0",
+            "Type": "absorbable or nonabsorbable",
+            "Days to Removal": "5-7"
+          },
+          {
+            "Area": "Nose",
+            "Size": "6-0",
+            "Type": "absorbable or nonabsorbable",
+            "Days to Removal": "5-7"
+          },
+          {
+            "Area": "Lip",
+            "Size": "6-0",
+            "Type": "absorbable",
+            "Days to Removal": "NA"
+          },
+          {
+            "Area": "Oral mucosa",
+            "Size": "5-0",
+            "Type": "absorbable",
+            "Days to Removal": "NA"
+          },
+          {
+            "Area": "Other face / forehead",
+            "Size": "6-0",
+            "Type": "absorbable or nonabsorbable",
+            "Days to Removal": "5"
+          },
+          {
+            "Area": "Chest/abdomen",
+            "Size": "4-0 or 5-0",
+            "Type": "non absorbable",
+            "Days to Removal": "12-14"
+          },
+          {
+            "Area": "Back",
+            "Size": "4-0 or 5-0",
+            "Type": "non absorbable",
+            "Days to Removal": "7-10"
+          },
+          {
+            "Area": "Extremities",
+            "Size": "4-0 or 5-0",
+            "Type": "non absobrable",
+            "Days to Removal": "7-10"
+          },
+          {
+            "Area": "Hand",
+            "Size": "5-0",
+            "Type": "non absorbable",
+            "Days to Removal": "7-10"
+          },
+          {
+            "Area": "Foot / Sole",
+            "Size": "4-0",
+            "Type": "non absorable",
+            "Days to Removal": "12-14"
+          },
+          {
+            "Area": "Joint (Extensor)",
+            "Size": "4-0",
+            "Type": "non absorable",
+            "Days to Removal": "10-14"
+          },
+          {
+            "Area": "Joint (Flexor)",
+            "Size": "4-0",
+            "Type": "non absorbable",
+            "Days to Removal": "7-10"
+          },
+          {
+            "Area": "Vagina",
+            "Size": "4-0",
+            "Type": "absorbable",
+            "Days to Removal": "NA"
+          },
+          {
+            "Area": "Penis",
+            "Size": "5-0",
+            "Type": "non absorbable",
+            "Days to Removal": "7-10"
+          },
+          {
+            "Area": "Scrotum",
+            "Size": "5-0",
+            "Type": "non absorbable",
+            "Days to Removal": "7-10"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Wound_Preparation": {
+          "text": "Debridement is most important step in reducing infection/ promoting healing\nAvoid betadine/chlorhexadine in wound\nNot necessary to remove hair as this can increase chances of infection (if do, avoid using razor)\nCan use antibiotic ointment to help keep hair out of the way",
+          "tables": []
+        },
+        "Anesthesia": {
+          "text": "Can be topical or injected.\nTopical\nLET for open wound, EMLA for intact skin\nEMLA needs to be left on 1-2 hours\n[1]\nLET onset is 20-30 minutes\n[1]\n, area will appear pale\nEvaluate motor/sensation before giving local anesthesia\nTo decrease pain of injection:\nBuffer lidocaine with bicarbonate (1mL bicarb:9mL lidocaine)\nInject slowly\nConsider nerve blocks to avoid tissue distortion for cosmetic areas such as vermillion border\nAlso helpful for extremities, sole of foot\nDigital block for finger lacerations",
+          "tables": []
+        },
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Irrigation": {
+          "text": "High pressure irrigation is best (can be achieved with 18 gauge syringe)\nTap water is as effective as sterile water/ normal saline\n[2]\n[3]\n[4]\nPressure from tap is ~45 psi, higher than syringe\n[5]\nIrrigation optional for face/scalp wound as long as:\nNot a bite wound\nNot a contaminated wound\nNot older than 6 hours\nOften best to avoid irrigation of face and opt for cleaning with gauze to help prevent tissue distortion",
+          "tables": []
+        },
+        "Exploration": {
+          "text": "See\nSoft tissue foreign body\nExplore to base of wound\nIdeally done in bloodless field\nLook for foreign bodies, tendon injury, or fracture\nPossible glass or metal in wound = get XR or US to evaluate",
+          "tables": []
+        },
+        "Suturing": {
+          "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+          "tables": []
+        },
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Wound_Preparation": {
+      "text": "Debridement is most important step in reducing infection/ promoting healing\nAvoid betadine/chlorhexadine in wound\nNot necessary to remove hair as this can increase chances of infection (if do, avoid using razor)\nCan use antibiotic ointment to help keep hair out of the way",
+      "subsections": {
+        "Anesthesia": {
+          "text": "Can be topical or injected.\nTopical\nLET for open wound, EMLA for intact skin\nEMLA needs to be left on 1-2 hours\n[1]\nLET onset is 20-30 minutes\n[1]\n, area will appear pale\nEvaluate motor/sensation before giving local anesthesia\nTo decrease pain of injection:\nBuffer lidocaine with bicarbonate (1mL bicarb:9mL lidocaine)\nInject slowly\nConsider nerve blocks to avoid tissue distortion for cosmetic areas such as vermillion border\nAlso helpful for extremities, sole of foot\nDigital block for finger lacerations",
+          "tables": []
+        },
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Irrigation": {
+          "text": "High pressure irrigation is best (can be achieved with 18 gauge syringe)\nTap water is as effective as sterile water/ normal saline\n[2]\n[3]\n[4]\nPressure from tap is ~45 psi, higher than syringe\n[5]\nIrrigation optional for face/scalp wound as long as:\nNot a bite wound\nNot a contaminated wound\nNot older than 6 hours\nOften best to avoid irrigation of face and opt for cleaning with gauze to help prevent tissue distortion",
+          "tables": []
+        },
+        "Exploration": {
+          "text": "See\nSoft tissue foreign body\nExplore to base of wound\nIdeally done in bloodless field\nLook for foreign bodies, tendon injury, or fracture\nPossible glass or metal in wound = get XR or US to evaluate",
+          "tables": []
+        },
+        "Suturing": {
+          "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+          "tables": []
+        },
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Anesthesia": {
+      "text": "Can be topical or injected.\nTopical\nLET for open wound, EMLA for intact skin\nEMLA needs to be left on 1-2 hours\n[1]\nLET onset is 20-30 minutes\n[1]\n, area will appear pale\nEvaluate motor/sensation before giving local anesthesia\nTo decrease pain of injection:\nBuffer lidocaine with bicarbonate (1mL bicarb:9mL lidocaine)\nInject slowly\nConsider nerve blocks to avoid tissue distortion for cosmetic areas such as vermillion border\nAlso helpful for extremities, sole of foot\nDigital block for finger lacerations",
+      "subsections": {
+        "Maximum_Doses_of_Anesthetic_Agents": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Agent": "Lidocaine",
+                "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+                "WithEpinephrine": "7 mg/kg (max 500mg)",
+                "Duration": "30-90 min",
+                "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+              },
+              {
+                "Agent": "Mepivicaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "8 mg/kg",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Bupivicaine",
+                "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+                "WithEpinephrine": "3 mg/kg (max 225mg)",
+                "Duration": "6-8 hr",
+                "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+              },
+              {
+                "Agent": "Ropivacaine",
+                "WithoutEpinephrine": "3 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Prilocaine",
+                "WithoutEpinephrine": "6 mg/kg",
+                "WithEpinephrine": "",
+                "Duration": "",
+                "Notes": ""
+              },
+              {
+                "Agent": "Tetracaine",
+                "WithoutEpinephrine": "1 mg/kg",
+                "WithEpinephrine": "1.5 mg/kg",
+                "Duration": "3hrs (10hrs with epi)",
+                "Notes": ""
+              },
+              {
+                "Agent": "Procaine",
+                "WithoutEpinephrine": "7 mg/kg",
+                "WithEpinephrine": "10 mg/kg",
+                "Duration": "30min (90min with epi)",
+                "Notes": ""
+              }
+            ]
+          ]
+        },
+        "Irrigation": {
+          "text": "High pressure irrigation is best (can be achieved with 18 gauge syringe)\nTap water is as effective as sterile water/ normal saline\n[2]\n[3]\n[4]\nPressure from tap is ~45 psi, higher than syringe\n[5]\nIrrigation optional for face/scalp wound as long as:\nNot a bite wound\nNot a contaminated wound\nNot older than 6 hours\nOften best to avoid irrigation of face and opt for cleaning with gauze to help prevent tissue distortion",
+          "tables": []
+        },
+        "Exploration": {
+          "text": "See\nSoft tissue foreign body\nExplore to base of wound\nIdeally done in bloodless field\nLook for foreign bodies, tendon injury, or fracture\nPossible glass or metal in wound = get XR or US to evaluate",
+          "tables": []
+        },
+        "Suturing": {
+          "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+          "tables": []
+        },
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Maximum_Doses_of_Anesthetic_Agents": {
+      "text": "",
+      "subsections": {
+        "Irrigation": {
+          "text": "High pressure irrigation is best (can be achieved with 18 gauge syringe)\nTap water is as effective as sterile water/ normal saline\n[2]\n[3]\n[4]\nPressure from tap is ~45 psi, higher than syringe\n[5]\nIrrigation optional for face/scalp wound as long as:\nNot a bite wound\nNot a contaminated wound\nNot older than 6 hours\nOften best to avoid irrigation of face and opt for cleaning with gauze to help prevent tissue distortion",
+          "tables": []
+        },
+        "Exploration": {
+          "text": "See\nSoft tissue foreign body\nExplore to base of wound\nIdeally done in bloodless field\nLook for foreign bodies, tendon injury, or fracture\nPossible glass or metal in wound = get XR or US to evaluate",
+          "tables": []
+        },
+        "Suturing": {
+          "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+          "tables": []
+        },
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Agent": "Lidocaine",
+            "WithoutEpinephrine": "5 mg/kg (max 300mg)",
+            "WithEpinephrine": "7 mg/kg (max 500mg)",
+            "Duration": "30-90 min",
+            "Notes": "1% soln contains 10 mg/ml2% soln contains 20 mg/ml"
+          },
+          {
+            "Agent": "Mepivicaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "8 mg/kg",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Bupivicaine",
+            "WithoutEpinephrine": "2.5 mg/kg (max 175mg)",
+            "WithEpinephrine": "3 mg/kg (max 225mg)",
+            "Duration": "6-8 hr",
+            "Notes": "0.5% soln contains 5 mg/mlMay causecardiac arrestif injected intravascularlyDo not buffer with bicarbonate"
+          },
+          {
+            "Agent": "Ropivacaine",
+            "WithoutEpinephrine": "3 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Prilocaine",
+            "WithoutEpinephrine": "6 mg/kg",
+            "WithEpinephrine": "",
+            "Duration": "",
+            "Notes": ""
+          },
+          {
+            "Agent": "Tetracaine",
+            "WithoutEpinephrine": "1 mg/kg",
+            "WithEpinephrine": "1.5 mg/kg",
+            "Duration": "3hrs (10hrs with epi)",
+            "Notes": ""
+          },
+          {
+            "Agent": "Procaine",
+            "WithoutEpinephrine": "7 mg/kg",
+            "WithEpinephrine": "10 mg/kg",
+            "Duration": "30min (90min with epi)",
+            "Notes": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Irrigation": {
+      "text": "High pressure irrigation is best (can be achieved with 18 gauge syringe)\nTap water is as effective as sterile water/ normal saline\n[2]\n[3]\n[4]\nPressure from tap is ~45 psi, higher than syringe\n[5]\nIrrigation optional for face/scalp wound as long as:\nNot a bite wound\nNot a contaminated wound\nNot older than 6 hours\nOften best to avoid irrigation of face and opt for cleaning with gauze to help prevent tissue distortion",
+      "subsections": {
+        "Exploration": {
+          "text": "See\nSoft tissue foreign body\nExplore to base of wound\nIdeally done in bloodless field\nLook for foreign bodies, tendon injury, or fracture\nPossible glass or metal in wound = get XR or US to evaluate",
+          "tables": []
+        },
+        "Suturing": {
+          "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+          "tables": []
+        },
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Exploration": {
+      "text": "See\nSoft tissue foreign body\nExplore to base of wound\nIdeally done in bloodless field\nLook for foreign bodies, tendon injury, or fracture\nPossible glass or metal in wound = get XR or US to evaluate",
+      "subsections": {
+        "Suturing": {
+          "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+          "tables": []
+        },
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        }
+      ]
+    },
+    "Suturing": {
+      "text": "Simple Interrupted\nLess potential for causing wound edema or impaired circulation\nAllows for alignment adjustments\nSimple Running\nUseful for long, linear wounds\nRisk of dehiscence if suture ruptures\nHorizontal Mattress\nSpreads tension over wound\nUseful for high tension wounds\nVertical Mattress\nGreat for wound eversion, closure of both superior and deep layers\nUseful when there is a contraindication to deep sutures\nIf laceration not closed immediately secondary to age of wound:\nIrrigate and explore wound, then pack with non-adherent or vaseline gauze\nRe-check in 3 days - may suture at that point if wound appears clean.",
+      "subsections": {
+        "Steri-Strips": {
+          "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+          "tables": []
+        },
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Steri-Strips": {
+      "text": "Just as good a suturing according to this\n[6]\nand other articles. Picture on how to do it property from the same article\n[6]\nwhich is under CC BY-NC-SA 4.0 license:",
+      "subsections": {
+        "Skin_Glue": {
+          "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Skin_Glue": {
+      "text": "Useful for areas of low tension and well approximated wounds\nApply 3 layers allowing 30 seconds for first layer to dry\nAvoid in bite wounds, contaminated wounds, puncture wounds, mucosal surfaces, areas of high moisture (groin, axilla)\nAvoid antibiotic ointments which can prematurely dissolve glue\nIf you accidentally glue the eyes shut use dexamethasone, neomycin, polymyxin B eyedrops (brand name Maxitrol in the U.S.) on the glue then gentle rubbing after 45 or 90 seconds\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Aftercare": {
+      "text": "Consider\nantibiotics\nfor\nWounds contaminated by debris or feces\nCaused by punctures or\nbites\nTissue destruction or in avascular areas\nNeglected wounds\nUnderlying systemic immunodeficiency (diabetes, HIV, chronic steroid use, etc)\nImpaired local defenses, such as peripheral arterial disease or lymphedema\nRetained foreign body\nWounds contaminated by fresh water and plantar puncture wounds through athletic shoes should include Pseudomonas coverage\nSplinting\nWounds over flexor surfaces or tension\nTetanus prophylaxis\nTdap 0.5cc IM to patients >7y with no booster within 5 yr\nHypertet 250 u IM at diff site from Tdap if NO history of Td or < 3 doses given\nRequire follow up Tdap at 1mo & 1 yr; age>60 = high risk of poor immunization\nDressing\nKeep moist, not wet\nBandaid, xeroform, or ointment\nWound check\n48-72 hrs ONLY if high risk wound\nNo point in checking before 48hr (takes this long for infection to occur)",
+      "subsections": {
+        "Scar_Minimization": {
+          "text": "Preventing infection\nKeep wound clean and covered\nApply antibiotic ointment twice daily\nOnce healed, encourage daily sunscreen use and Vitamin E creams",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "bites",
+          "url": "https://wikem.org/wiki/Animal_bites"
+        },
+        {
+          "text": "Tetanus prophylaxis",
+          "url": "https://wikem.org/wiki/Tetanus_prophylaxis"
+        }
+      ]
+    },
+    "Scar_Minimization": {
+      "text": "Preventing infection\nKeep wound clean and covered\nApply antibiotic ointment twice daily\nOnce healed, encourage daily sunscreen use and Vitamin E creams",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Billing_Considerations": {
+      "text": "Must document:\nAnatomical location of wound\nSize of wound\nLength (cm) <2.5, 2.6-5.0, 5.1-7.5, 7.6-12.5, 12.5-20.0, 20.1-30.0, >30.0\nComplexity\nSimple, intermediate, or complex (depends on debridement, layers, complex stitch, drain, etc.)\nType and number of sutures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Soft tissue foreign body\nLET\nExtremity trauma",
+      "subsections": {
+        "Special_Lacerations_by_Body_Part": {
+          "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Soft tissue foreign body",
+          "url": "https://wikem.org/wiki/Soft_tissue_foreign_body"
+        },
+        {
+          "text": "LET",
+          "url": "https://wikem.org/wiki/LET"
+        },
+        {
+          "text": "Extremity trauma",
+          "url": "https://wikem.org/wiki/Extremity_trauma"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        }
+      ]
+    },
+    "Special_Lacerations_by_Body_Part": {
+      "text": "Head\nConjunctival laceration\nEar laceration\nEyelid laceration\nLip laceration\nScalp laceration\nTongue laceration\nHand\nFingertip amputation\nNailbed laceration\nOther\nBites\nGeneral\nlaceration repair\n(main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Ear laceration",
+          "url": "https://wikem.org/wiki/Ear_laceration"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fingertip amputation",
+          "url": "https://wikem.org/wiki/Fingertip_amputation"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Bites",
+          "url": "https://wikem.org/wiki/Bites"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merck Manual - How To Repair a Laceration With Simple Interrupted Sutures\nMerck Manual - How To Repair a Laceration With Horizontal Mattress Sutures\nMerck Manual - How To Repair a Laceration With Vertical Mattress Sutures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

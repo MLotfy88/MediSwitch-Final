@@ -1,0 +1,487 @@
+{
+  "drug_name": "Jaundice",
+  "url": "https://wikem.org/wiki/Jaundice",
+  "scraped_at": "2026-01-10T07:55:56.576996",
+  "sections": {
+    "Intro": {
+      "text": "For neonatal jaundice please see the\nNeonatal jaundice\npage\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Bilirubin is end product of heme metabolism\nAll bilirubin products in the body are initially unconjugated and is transported bound to albumin into hepatocytes t o becombined with glucuronic acid into conjugated bilirubin\nConjugated bilirubin is then excreted into biliary tract\nOnly conjugated bilirubin is water-soluble (present in urine)\nNormal bilirubin level is <1.1 (70% unconjugated)",
+      "subsections": {
+        "Jaundice_Types": {
+          "text": "Prehepatic (overproduction):\nHemolysis\nPrimarily unconjugated bili\nHepatic (inadequate processing):\nViral\n,\nalcohol\n, toxin\nPrimarily unconjugated bili\nPosthepatic (underexcretion):\nPancreatic tumor,\ncholedocholithiasis\nPrimarily conjugated bili",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Jaundice_Types": {
+      "text": "Prehepatic (overproduction):\nHemolysis\nPrimarily unconjugated bili\nHepatic (inadequate processing):\nViral\n,\nalcohol\n, toxin\nPrimarily unconjugated bili\nPosthepatic (underexcretion):\nPancreatic tumor,\ncholedocholithiasis\nPrimarily conjugated bili",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Yellow skin, sclera\n+/- dark urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Jaundice": {
+      "text": "",
+      "subsections": {
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Urine pregnancy\nCBC\nChemistry\nLFTs\nHepatocyte injury: AST, ALT, alk phos\nHepatocyte catabolic activity: Bilirubin\nCoags\nHepatocyte synthetic function\nAlbumin\nHepatocyte synthetic function\nAmmonia\nHepatocyte catabolic activity\nAcute hepatitis panel\nLipase\nUrinalysis\n?\nUS\nvs. CT vs MRCP\n?Retic count\n?Haptoglobin/LDH\n?APAP/ASA/Utox/ETOH",
+      "subsections": {
+        "Transaminases": {
+          "text": "Transaminases  in hundreds associated with mild injury; thousands suggests extensive injury\nElevations <5x normal typical of alcoholic liver disease\nAST:ALT ratio > 2 common in\nacute alcoholic hepatitis\n(alcohol stimulates AST production)\nMay be normal in end-stage liver failure\nALT more specific marker of hepatocyte injury than AST",
+          "tables": []
+        },
+        "Alk_phos": {
+          "text": "Mild to moderate elevations accompany virtually all hepatobiliary disease\nElevations > 4x normal suggest cholestasis",
+          "tables": []
+        },
+        "GGT": {
+          "text": "Elevation in setting of hepatitis suggestive of alcoholic etiology",
+          "tables": []
+        },
+        "LDH": {
+          "text": "Moderate elevations are seen in all hepatocellular disorders and cirrhosis\nHemolysis results in elevation of LDH and unconjugated bili",
+          "tables": []
+        },
+        "Ammonia": {
+          "text": "Elevation does NOT correlate with acute worsening of hepatic function in cirrhotic patient\nServes as marker of generalized decline than as diagnostic tool or therapeutic end point",
+          "tables": []
+        },
+        "Coagulation_Markers_(PT/PTT/INR)": {
+          "text": "Marker of synthetic function\nCorrelation between PT prolongation and clinical outcome in fulminant liver disease",
+          "tables": []
+        },
+        "Albumin": {
+          "text": "Marker of synthetic function\nHalf-life is 3 weeks so less useful than PT in evaluating fulminant liver disease\nLow levels also seen in malnutrition",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Liver_function_tests": {
+      "text": "",
+      "subsections": {
+        "Transaminases": {
+          "text": "Transaminases  in hundreds associated with mild injury; thousands suggests extensive injury\nElevations <5x normal typical of alcoholic liver disease\nAST:ALT ratio > 2 common in\nacute alcoholic hepatitis\n(alcohol stimulates AST production)\nMay be normal in end-stage liver failure\nALT more specific marker of hepatocyte injury than AST",
+          "tables": []
+        },
+        "Alk_phos": {
+          "text": "Mild to moderate elevations accompany virtually all hepatobiliary disease\nElevations > 4x normal suggest cholestasis",
+          "tables": []
+        },
+        "GGT": {
+          "text": "Elevation in setting of hepatitis suggestive of alcoholic etiology",
+          "tables": []
+        },
+        "LDH": {
+          "text": "Moderate elevations are seen in all hepatocellular disorders and cirrhosis\nHemolysis results in elevation of LDH and unconjugated bili",
+          "tables": []
+        },
+        "Ammonia": {
+          "text": "Elevation does NOT correlate with acute worsening of hepatic function in cirrhotic patient\nServes as marker of generalized decline than as diagnostic tool or therapeutic end point",
+          "tables": []
+        },
+        "Coagulation_Markers_(PT/PTT/INR)": {
+          "text": "Marker of synthetic function\nCorrelation between PT prolongation and clinical outcome in fulminant liver disease",
+          "tables": []
+        },
+        "Albumin": {
+          "text": "Marker of synthetic function\nHalf-life is 3 weeks so less useful than PT in evaluating fulminant liver disease\nLow levels also seen in malnutrition",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Management is dependent on the diagnosis of either conjugated or unconjugated hyperblirubinemia and the severity of the elevation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "New_Onset_Jaundice_Admission_Criteria": {
+          "text": "Transaminase >1,000 IU/L\nTbil >10mg/dL\nEvidence coagulopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "New_Onset_Jaundice_Admission_Criteria": {
+      "text": "Transaminase >1,000 IU/L\nTbil >10mg/dL\nEvidence coagulopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neonatal Jaundice\nAcute hepatitis\nViral hepatitis\nAcute hepatic failure\nCirrhosis\nAscites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

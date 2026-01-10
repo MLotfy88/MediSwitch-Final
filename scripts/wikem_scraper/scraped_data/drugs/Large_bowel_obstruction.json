@@ -1,0 +1,260 @@
+{
+  "drug_name": "Large_bowel_obstruction",
+  "url": "https://wikem.org/wiki/Large_bowel_obstruction",
+  "scraped_at": "2026-01-10T07:56:10.675986",
+  "sections": {
+    "Background": {
+      "text": "Much less common than\nSBO\n, but more ominous (frequently associated with malignancy)\nLBO more common in elderly, and generally has more insidious onset than SBO\nMost commonly occurs in the left (descending) colon\nObstruction originating from the left colon is likely to manifest with symptoms earlier than obstruction originating from the right colon, because the lumen from the descending colon and the sigmoid is smaller.",
+      "subsections": {
+        "Causes": {
+          "text": "Neoplasm (most common cause)\nAdhesions\nDiverticular disease\nFecal impaction\nHernias\nStrictures\nPseudo-obstruction (e.g.\nOgilvie's Syndrome\n)\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Neoplasm (most common cause)\nAdhesions\nDiverticular disease\nFecal impaction\nHernias\nStrictures\nPseudo-obstruction (e.g.\nOgilvie's Syndrome\n)\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain\nAbdominal distension\nDistention is greater if the ileocecal valve is competent (it creates a closed loop obstruction). If the ileocecal valve is not competent, you are more likely to see some dilation of the small bowel as well\n[2]\nObstipation\nVomiting\nPalpable abdominal mass (could be distended bowel or could be tumor causing obstruction)\nFever\nand\ntachycardia\nshould prompt investigation for gangrene and perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_Abdominal_pain": {
+          "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Diffuse_Abdominal_pain": {
+      "text": "Abdominal aortic aneurysm\nAortocaval fistula\nAcute gastroenteritis\nAortoenteric fisulta\nAppendicitis\n(early)\nBowel obstruction\nLarge bowel obstruction\nOgilvie's syndrome\nSmall bowel obstruction\nMalignant bowel obstruction\nBowel perforation\nDiabetic ketoacidosis\nGastroparesis\nHernia\nHypercalcemia\nInflammatory bowel disease\nMesenteric ischemia\nMesenteric vein thrombosis\nPancreatitis\nPeritonitis\nSickle cell crisis\nSpontaneous bacterial peritonitis\nVolvulus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Aortocaval fistula",
+          "url": "https://wikem.org/wiki/Aortocaval_fistula"
+        },
+        {
+          "text": "Acute gastroenteritis",
+          "url": "https://wikem.org/wiki/Acute_gastroenteritis"
+        },
+        {
+          "text": "Aortoenteric fisulta",
+          "url": "https://wikem.org/wiki/Aortoenteric_fisulta"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "Ogilvie's syndrome",
+          "url": "https://wikem.org/wiki/Ogilvie%27s_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        },
+        {
+          "text": "Malignant bowel obstruction",
+          "url": "https://wikem.org/wiki/Malignant_bowel_obstruction"
+        },
+        {
+          "text": "Bowel perforation",
+          "url": "https://wikem.org/wiki/Bowel_perforation"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Gastroparesis",
+          "url": "https://wikem.org/wiki/Gastroparesis"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Mesenteric vein thrombosis",
+          "url": "https://wikem.org/wiki/Mesenteric_vein_thrombosis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Sickle cell crisis",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nNone are diagnostic\nCheck electrolytes to assess for\ndehydration\nLeukocytosis\ncould indicate gangrene or perforation\nAnemia\ncould indicate malignancy as source of obstruction\nABG\nmay help assess if the patient has respiratory compromise from diaphragmatic compression\n[3]\nImaging\n[4]\nUse the 3/6/9 rule for bowel imaging\nUpper limit of 3cm for small bowel, 6cm for colon, and 9cm for cecum\nXR\nSensitivity of 69% to 80% for detecting bowel obstruction, but insensitive for diagnosing cause or location\nUpright films can detect pneumoperitoneum, hollow viscus perforation\nDistended colon (small bowel may appear distended as well if the ileocecal valve is competent)\nCecal diameter of ≥12cm is associated with higher risk of perforation, ≥9cm is associated with obstruction\nLarge bowel diameter ≥5-6cm is associated with obstruction\nCT\nCan usually identify the cause of obstruction, except in cases of pseudo-obstruction\nSensitivity for diagnosing large bowel obstruction as high as 90% (not as high as for small bowel obstruction)\nCan also diagnose intestinal ischemia\nColonoscopy\nCan be used to rule-out pseudo-obstruction in patients who are not candidates for urgent surgical intervention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "IV hydration\nNPO\nPain management\nPlace\nNGT\nif patient has significant vomiting or evidence of small bowel distension\nAntibiotics\nif gangrene or perforation is suspected (cover gram-negative and anaerobics)\nConsult GI, surgery, IR as appropriate",
+      "subsections": {
+        "Treatment_for_specific_etiologies": {
+          "text": "Diverticular abscess: percutaneous drainage\nVolvulus\n: endoscopic decompression\nPseudo-obstruction\n: endoscopic decompression\nIntussusception\n: surgical intervention",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Treatment_for_specific_etiologies": {
+      "text": "Diverticular abscess: percutaneous drainage\nVolvulus\n: endoscopic decompression\nPseudo-obstruction\n: endoscopic decompression\nIntussusception\n: surgical intervention",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Small bowel obstruction\nOgilvie's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

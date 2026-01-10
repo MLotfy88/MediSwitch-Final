@@ -1,0 +1,81 @@
+{
+  "drug_name": "Keratitis",
+  "url": "https://wikem.org/wiki/Keratitis",
+  "scraped_at": "2026-01-10T07:55:58.124265",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of the cornea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Eye pain\nImpaired\nvisual acuity\nPhotophobia\nEye redness\nForeign body sensation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "visual acuity",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "Eye redness",
+          "url": "https://wikem.org/wiki/Red_eye"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Keratitis": {
+          "text": "Bacterial keratitis\nUltraviolet keratitis\nHerpes keratitis\nFungal keratitis\nAmoebic keratitis\nParasitic keratitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial keratitis",
+          "url": "https://wikem.org/wiki/Bacterial_keratitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        }
+      ]
+    },
+    "Keratitis": {
+      "text": "Bacterial keratitis\nUltraviolet keratitis\nHerpes keratitis\nFungal keratitis\nAmoebic keratitis\nParasitic keratitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial keratitis",
+          "url": "https://wikem.org/wiki/Bacterial_keratitis"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        },
+        {
+          "text": "Herpes keratitis",
+          "url": "https://wikem.org/wiki/Herpes_keratitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat according to the underlying cause\nContact lens users should discontinue use of lens",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

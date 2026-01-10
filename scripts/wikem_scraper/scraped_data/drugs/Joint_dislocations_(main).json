@@ -1,0 +1,454 @@
+{
+  "drug_name": "Joint_dislocations_(main)",
+  "url": "https://wikem.org/wiki/Joint_dislocations_(main)",
+  "scraped_at": "2026-01-10T07:55:57.073880",
+  "sections": {
+    "Head": {
+      "text": "Mandibular dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mandibular dislocation",
+          "url": "https://wikem.org/wiki/Mandibular_dislocation"
+        }
+      ]
+    },
+    "Upper_Extremity": {
+      "text": "",
+      "subsections": {
+        "Proximal_Arm": {
+          "text": "Shoulder dislocation\nAnterior\nPosterior\nInferior",
+          "tables": []
+        },
+        "Distal_Arm": {
+          "text": "Elbow dislocation",
+          "tables": []
+        },
+        "Carpal_Dislocations": {
+          "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+          "tables": []
+        },
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        },
+        {
+          "text": "Anterior",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Proximal_Arm": {
+      "text": "Shoulder dislocation\nAnterior\nPosterior\nInferior",
+      "subsections": {
+        "Distal_Arm": {
+          "text": "Elbow dislocation",
+          "tables": []
+        },
+        "Carpal_Dislocations": {
+          "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+          "tables": []
+        },
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_dislocation"
+        },
+        {
+          "text": "Anterior",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Distal_Arm": {
+      "text": "Elbow dislocation",
+      "subsections": {
+        "Carpal_Dislocations": {
+          "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+          "tables": []
+        },
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Carpal_Dislocations": {
+      "text": "Lunotriquetral ligament instability\nScapholunate dissociation\nPerilunate and lunate dislocations",
+      "subsections": {
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scapholunate dissociation",
+          "url": "https://wikem.org/wiki/Scapholunate_dissociation"
+        },
+        {
+          "text": "Perilunate and lunate dislocations",
+          "url": "https://wikem.org/wiki/Perilunate_and_lunate_dislocations"
+        },
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Hand_and_finger_dislocations": {
+      "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Proximal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        }
+      ]
+    },
+    "Torso": {
+      "text": "Sternoclavicular dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        }
+      ]
+    },
+    "Lower_Extremity": {
+      "text": "",
+      "subsections": {
+        "Proximal_Leg": {
+          "text": "Hip dislocation",
+          "tables": []
+        },
+        "Distal_Leg": {
+          "text": "Patella dislocation\nKnee dislocation\nAnkle dislocation",
+          "tables": []
+        },
+        "Foot": {
+          "text": "Subtalar dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        }
+      ]
+    },
+    "Proximal_Leg": {
+      "text": "Hip dislocation",
+      "subsections": {
+        "Distal_Leg": {
+          "text": "Patella dislocation\nKnee dislocation\nAnkle dislocation",
+          "tables": []
+        },
+        "Foot": {
+          "text": "Subtalar dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        }
+      ]
+    },
+    "Distal_Leg": {
+      "text": "Patella dislocation\nKnee dislocation\nAnkle dislocation",
+      "subsections": {
+        "Foot": {
+          "text": "Subtalar dislocation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Patella dislocation",
+          "url": "https://wikem.org/wiki/Patella_dislocation"
+        },
+        {
+          "text": "Knee dislocation",
+          "url": "https://wikem.org/wiki/Knee_dislocation"
+        },
+        {
+          "text": "Ankle dislocation",
+          "url": "https://wikem.org/wiki/Ankle_dislocation"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        }
+      ]
+    },
+    "Foot": {
+      "text": "Subtalar dislocation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Splinting\nFractures (Main)\nDiagnoses by Body Part (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        },
+        {
+          "text": "Diagnoses by Body Part (Main)",
+          "url": "https://wikem.org/wiki/Diagnoses_by_Body_Part_(Main)"
+        }
+      ]
+    }
+  }
+}

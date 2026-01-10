@@ -1,0 +1,432 @@
+{
+  "drug_name": "Ketoprofen",
+  "url": "https://wikem.org/wiki/Ketoprofen",
+  "scraped_at": "2026-01-10T07:56:00.353032",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nNSAID\nDosage Forms: Cap 50mg, 75mg; ER Cap 200mg\nRoutes of Administration: Oral\nCommon Trade Names: Oruvail",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Pain,_mild-moderate": {
+          "text": "50mg PO q6-8h\nMax: 300mg/day",
+          "tables": []
+        },
+        "Osteoarthritis": {
+          "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+          "tables": []
+        },
+        "Rheumatoid_arthritis": {
+          "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+          "tables": []
+        },
+        "Dysmenorrhea": {
+          "text": "50mg PO q6-8h\nMax: 300mg/day",
+          "tables": []
+        },
+        "Anti-inflammatory_uses": {
+          "text": "50-100mg PO TID x7-14 days\nMax: 300mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pain,_mild-moderate": {
+      "text": "50mg PO q6-8h\nMax: 300mg/day",
+      "subsections": {
+        "Osteoarthritis": {
+          "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+          "tables": []
+        },
+        "Rheumatoid_arthritis": {
+          "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+          "tables": []
+        },
+        "Dysmenorrhea": {
+          "text": "50mg PO q6-8h\nMax: 300mg/day",
+          "tables": []
+        },
+        "Anti-inflammatory_uses": {
+          "text": "50-100mg PO TID x7-14 days\nMax: 300mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Osteoarthritis": {
+      "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+      "subsections": {
+        "Rheumatoid_arthritis": {
+          "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+          "tables": []
+        },
+        "Dysmenorrhea": {
+          "text": "50mg PO q6-8h\nMax: 300mg/day",
+          "tables": []
+        },
+        "Anti-inflammatory_uses": {
+          "text": "50-100mg PO TID x7-14 days\nMax: 300mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Rheumatoid_arthritis": {
+      "text": "75mg PO TID or 50mg PO qid or 200mg ER PO daily\nMax: 300mg/day",
+      "subsections": {
+        "Dysmenorrhea": {
+          "text": "50mg PO q6-8h\nMax: 300mg/day",
+          "tables": []
+        },
+        "Anti-inflammatory_uses": {
+          "text": "50-100mg PO TID x7-14 days\nMax: 300mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Dysmenorrhea": {
+      "text": "50mg PO q6-8h\nMax: 300mg/day",
+      "subsections": {
+        "Anti-inflammatory_uses": {
+          "text": "50-100mg PO TID x7-14 days\nMax: 300mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anti-inflammatory_uses": {
+      "text": "50-100mg PO TID x7-14 days\nMax: 300mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Pediatric safety for this drug has not yet been established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Caution advised in 1st trimester for risk of embryo-fetal toxicity\nAvoid use starting at 30 wk gestation for risk of premature fetal ductus arteriosus closure\nCaution advised in female pts trying to conceive",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Consider alternative while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nMild Impairment: Max 150 mg/day\nCrCl <25: Max 100 mg/day\nHD/PD: No supplement\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Max 100 mg/day with hepatic impairment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Caution advised in 1st trimester for risk of embryo-fetal toxicity\nAvoid use starting at 30 wk gestation for risk of premature fetal ductus arteriosus closure\nCaution advised in female pts trying to conceive",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Consider alternative while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nMild Impairment: Max 150 mg/day\nCrCl <25: Max 100 mg/day\nHD/PD: No supplement\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Max 100 mg/day with hepatic impairment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Consider alternative while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nMild Impairment: Max 150 mg/day\nCrCl <25: Max 100 mg/day\nHD/PD: No supplement\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Max 100 mg/day with hepatic impairment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nMild Impairment: Max 150 mg/day\nCrCl <25: Max 100 mg/day\nHD/PD: No supplement\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Max 100 mg/day with hepatic impairment\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Max 100 mg/day with hepatic impairment\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nASA\nor\nNSAID\n-induced\nasthma\nor\nurticaria\nPregnancy starting at 30wk gestation\nCABG surgery periop use\nAspirin triad",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "GI bleeding, perforation, ulcer\nMI\n,\nStroke\n,\nHTN\n,\nCHF\nThromboembolism\nRenal papillary necrosis, nephrotoxicity, hepatotoxicity\nBronchospasm\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nAnemia\n, blood dyscrasias, prolonged bleeding time\nHyperkalemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Dyspepsia\n,\nnausea\n, abdominal pain\nConstipation\nHeadache\n,\ndizziness\n, somnolence\nRash\n, peripheral edema, fluid retention\nTinnitus\n, photosensitivity\nEcchymosis\nDelayed ovulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "GI bleeding, perforation, ulcer\nMI\n,\nStroke\n,\nHTN\n,\nCHF\nThromboembolism\nRenal papillary necrosis, nephrotoxicity, hepatotoxicity\nBronchospasm\nStevens-Johnson syndrome\n,\nToxic epidermal necrolysis\nAnemia\n, blood dyscrasias, prolonged bleeding time\nHyperkalemia",
+      "subsections": {
+        "Common": {
+          "text": "Dyspepsia\n,\nnausea\n, abdominal pain\nConstipation\nHeadache\n,\ndizziness\n, somnolence\nRash\n, peripheral edema, fluid retention\nTinnitus\n, photosensitivity\nEcchymosis\nDelayed ovulation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "HTN",
+          "url": "https://wikem.org/wiki/HTN"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "Toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Dyspepsia\n,\nnausea\n, abdominal pain\nConstipation\nHeadache\n,\ndizziness\n, somnolence\nRash\n, peripheral edema, fluid retention\nTinnitus\n, photosensitivity\nEcchymosis\nDelayed ovulation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Tinnitus",
+          "url": "https://wikem.org/wiki/Tinnitus"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.1h\nMetabolism: Liver extensively, tissues\nExcretion: Urine 80% (<10% unchanged)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits cyclooxygenase, reducing prostaglandin and thromboxane synthesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "NSAIDs\nNSAID toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    }
+  }
+}

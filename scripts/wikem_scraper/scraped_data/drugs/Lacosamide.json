@@ -1,0 +1,125 @@
+{
+  "drug_name": "Lacosamide",
+  "url": "https://wikem.org/wiki/Lacosamide",
+  "scraped_at": "2026-01-10T07:56:09.138495",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsant\nDosage Forms: 50, 100, 150, 200 PO/IV; 10/mL sol IV\nCommon Trade Names: Vimpat",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsant",
+          "url": "https://wikem.org/wiki/Anticonvulsant"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Monotherapy\n100mg PO/IV q12hr initially, THEN, based on response and tolerability, increase dose at weekly intervals by 50mg PO/IV BID; up to a recommended dose of 150-200mg BID\nAlternate loading dose schedule: 200mg PO/IV as a single dose, followed ~12 hr later by starting 100mg PO/IV BID x 1 week, THEN increase dose at weekly intervals by 50mg BID; up to a recommended dose of 150-200mg BID\nIn patients already taking an antiepileptic drug (AED), maintain lacosamide at recommended maintenance dose of 150-200mg PO BID for at least 3 days before initiating withdrawal of the previous AED\nAdjunctive therapy\nInitial: 50mg PO/IV q12hr\nBased on response and tolerability, increase dose at weekly intervals by 50mg PO/IV BID; up to a recommended dose of 100-200mg BID\nMax 400mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety not established under age 17\n>17 yo, see adult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: saftey unknown\nRenal Dosing\nSevere (CrCl <30 mL/min): Not to exceed 300mg/day\nHemodialysis: Supplement with up to 50% of dose after dialysis\nHepatic Dosing\nMild to moderate: Not to exceed 300mg/day\nSevere: Not recommended",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution in:\nelderly\nrenal impairment\nhepatic impairment\nsevere cardiac disease\ncardiac conduction defects\ndiabetic neuropathy\ndepression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "PR prolongation\nAV block\nAFib\nAFlutter\nSyncope\nSuicidality\nDrug Rash with eosinophilia and systemic sx\nStevens-Johnson\nToxic epidermal necrolysis\nwithdrawal seizures if abrupt discharge\nneutropenia\nagranulocytosis",
+          "tables": []
+        },
+        "Common": {
+          "text": ">10%\nDizziness (31%)\nHeadache (13%)\nDiplopia (11%)\nNausea (11%)\n1-10%\nVomiting (9%)\nAtaxia (8%)\nBlurred vision (8%)\nTremor (7%)\nNystagmus (5%)\nBalance disorder (4%)\nDiarrhea\n(4%)\nInjection site discomfort (2.5%)\nDepression (2%)\nMemory impairment (2%)\nPruritus (2%)\nIncreased ALT (1%)\nLocal irritation (1%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "PR prolongation\nAV block\nAFib\nAFlutter\nSyncope\nSuicidality\nDrug Rash with eosinophilia and systemic sx\nStevens-Johnson\nToxic epidermal necrolysis\nwithdrawal seizures if abrupt discharge\nneutropenia\nagranulocytosis",
+      "subsections": {
+        "Common": {
+          "text": ">10%\nDizziness (31%)\nHeadache (13%)\nDiplopia (11%)\nNausea (11%)\n1-10%\nVomiting (9%)\nAtaxia (8%)\nBlurred vision (8%)\nTremor (7%)\nNystagmus (5%)\nBalance disorder (4%)\nDiarrhea\n(4%)\nInjection site discomfort (2.5%)\nDepression (2%)\nMemory impairment (2%)\nPruritus (2%)\nIncreased ALT (1%)\nLocal irritation (1%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": ">10%\nDizziness (31%)\nHeadache (13%)\nDiplopia (11%)\nNausea (11%)\n1-10%\nVomiting (9%)\nAtaxia (8%)\nBlurred vision (8%)\nTremor (7%)\nNystagmus (5%)\nBalance disorder (4%)\nDiarrhea\n(4%)\nInjection site discomfort (2.5%)\nDepression (2%)\nMemory impairment (2%)\nPruritus (2%)\nIncreased ALT (1%)\nLocal irritation (1%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 13h\nMetabolism: liver; CYP450: 2C9, 2C19, 3A4 substrate\nExcretion: urine 95% (40% unchanged), feces <0.5%\nMechanism of Action: exact mechanism unknown; enhances slow inactivation of voltage-sensitive Na channels, stabilizing neuronal membranes, inhibiting repetitive firing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    },
+    "References": {
+      "text": "epocrates, medscape",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

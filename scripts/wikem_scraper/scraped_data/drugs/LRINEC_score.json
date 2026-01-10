@@ -1,0 +1,24 @@
+{
+  "drug_name": "LRINEC_score",
+  "url": "https://wikem.org/wiki/LRINEC_score",
+  "scraped_at": "2026-01-10T07:56:07.145753",
+  "sections": {
+    "Grouping_by_Scores": {
+      "text": "Low Risk: score 5 (10% of pts with score < 6 still had nec fasc)\nModerate Risk: score 6– 7\nHigh Risk: score >8\nProposed algorithm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Necrotizing fasciitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        }
+      ]
+    }
+  }
+}

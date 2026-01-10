@@ -1,0 +1,99 @@
+{
+  "drug_name": "Labetalol",
+  "url": "https://wikem.org/wiki/Labetalol",
+  "scraped_at": "2026-01-10T07:56:05.928967",
+  "sections": {
+    "General": {
+      "text": "Type:\nBeta blockers\nDosage Forms:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Bolus dosing\n20mg IV followed by 40-80mg q10min up to total of 300mg\nInfusion dosing\n0.5-2mg/min",
+      "subsections": {
+        "Intracranial_hemorrhage": {
+          "text": "Start with labetalol 20mg over 1-2 minutes\nThen, 20mg q3-5 mins until target blood pressure is achieved\nThen, start an infusion of 1-8mg/min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intracranial_hemorrhage": {
+      "text": "Start with labetalol 20mg over 1-2 minutes\nThen, 20mg q3-5 mins until target blood pressure is achieved\nThen, start an infusion of 1-8mg/min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Compatible with breastfeeding\nRenal Dosing\nAdult\nNo renal dosing adjustments necessary. Drug not removed with hemodialysis\nPediatric\nNo renal dosing adjustments necessary. Drug not removed with hemodialysis\nHepatic Dosing\nAdult\nMay need reduced dosing given decreased metabolism and increased oral bioavailability with hepatic impairment however no specific dosing adjustments in manufacturer labeling. Use caution.\nPediatric\nMay need reduced dosing given decreased metabolism and increased oral bioavailability with hepatic impairment however no specific dosing adjustments in manufacturer labeling. Use caution.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "hypertension in setting of myocardial ischemia\nhypertension in setting of neurologic injury\nhypertension in setting of preeclampsia/eclampsia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Orthostatic hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-8hrs\nMetabolism: Hepatic via conjugation\nExcretion: Renal 55-60%\nMechanism of Action:\nClass II - Nonselective β-blocker\nα\n1\n-blocker\nOnset of action = 2-5min (IV)\nDuration of action = 2-4hr (IV)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Beta-blockers\nBeta-blocker toxicity\nAntiarrhythmics\nAntihypertensive medications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-blockers",
+          "url": "https://wikem.org/wiki/Beta-blockers"
+        },
+        {
+          "text": "Beta-blocker toxicity",
+          "url": "https://wikem.org/wiki/Beta-blocker_toxicity"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        },
+        {
+          "text": "Antihypertensive medications",
+          "url": "https://wikem.org/wiki/Antihypertensive_medications"
+        }
+      ]
+    },
+    "References": {
+      "text": "Labetalol: Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

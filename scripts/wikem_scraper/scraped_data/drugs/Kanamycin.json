@@ -1,0 +1,116 @@
+{
+  "drug_name": "Kanamycin",
+  "url": "https://wikem.org/wiki/Kanamycin",
+  "scraped_at": "2026-01-10T07:56:01.148575",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAminoglycoside\nDosage Forms: 1 g/3 mL\nRoutes of Administration: IM, IV",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycoside",
+          "url": "https://wikem.org/wiki/Aminoglycoside"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Bacterial Infections: 7.5mg/kg IM/IV q12h\nFor obese patients, use adjusted wt of IBW + 0.4 x (ABW - IBW)\nAdjust dose based on serum levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Bacterial Infections: 7.5mg/kg IM/IV q12h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor: D",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl 50-80: give q12-24h\nCrCl 10-50: give q24-72h\nCrCl <10: give q48-72h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "CrCl 50-80: give q12-24h\nCrCl 10-50: give q24-72h\nCrCl <10: give q48-72h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution if:\nsulfite hypersensitivity\nrenal impairment, dehydration, concurrent nephrotoxic agent use\nimpaired auditory or vestibular function, concurrent ototoxic or neurotoxic agents\nneuromuscular disease\nelectrolyte abnormalities\nprolonged use, high dose treatment\nneonates/infants or elderly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Nephrotoxicity\nIncreased risk with renal impairment, high dose, prolonged treatment\nMonitor renal function, peak/trough levels\nNeuromuscular Blockade\nRisk of respiratory paralysis possible with any route of administration",
+      "subsections": {
+        "Black_Box_Warnings": {
+          "text": "Neurotoxicity/Ototoxicity\nIncreased risk with renal impairment, high dose, prolonged treatment",
+          "tables": []
+        },
+        "Serious": {
+          "text": "Nephrotoxicity\nOtotoxicity (auditory or vestibular)\nNeurotoxicity, neuromuscular blockade",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hearing loss, tinnitus, vertigo\nBUN, creatinine elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Black_Box_Warnings": {
+      "text": "Neurotoxicity/Ototoxicity\nIncreased risk with renal impairment, high dose, prolonged treatment",
+      "subsections": {
+        "Serious": {
+          "text": "Nephrotoxicity\nOtotoxicity (auditory or vestibular)\nNeurotoxicity, neuromuscular blockade",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hearing loss, tinnitus, vertigo\nBUN, creatinine elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Nephrotoxicity\nOtotoxicity (auditory or vestibular)\nNeurotoxicity, neuromuscular blockade",
+      "subsections": {
+        "Common": {
+          "text": "Hearing loss, tinnitus, vertigo\nBUN, creatinine elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Hearing loss, tinnitus, vertigo\nBUN, creatinine elevated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-4 hrs\nMetabolism: CYP 450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Interferes with protein synthesis in bacterial cell by binding to ribosomal subunit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

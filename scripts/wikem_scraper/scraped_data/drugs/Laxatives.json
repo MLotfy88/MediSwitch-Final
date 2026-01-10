@@ -1,0 +1,161 @@
+{
+  "drug_name": "Laxatives",
+  "url": "https://wikem.org/wiki/Laxatives",
+  "scraped_at": "2026-01-10T07:56:15.021710",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Bulk-forming_agents": {
+          "text": "Substances, such as dietary fiber and hydrophilic agents that add bulk and water to more easily through the intestines.\nSite of action: Small and large intestines\nOnset of action: 12–72 hours\nExamples: dietary fiber,\npsyllium\n(Metamucil),\nmethylcellulose\n(Citrucel),\npolycarbophil\n(FiberCon)",
+          "tables": []
+        },
+        "Dietary_fiber": {
+          "text": "Includes insoluble fiber and soluble fiber, such as:\nFruits, such as bananas, kiwifruits, prunes, apples (with skin), pears (with skin), and raspberries\nVegetables, such as broccoli, string beans, kale, spinach, cooked winter squash, cooked green peas, and baked potatoes (with skin)\nWhole grains\nBran products\nNuts\nLegumes, such as beans, peas, and lentils",
+          "tables": []
+        },
+        "Emollient_agents_(stool_softeners)": {
+          "text": "Anionic surfactants that enable additional water and fats to be incorporated in the stool, making it easier for them to move through the gastrointestinal tract.\nSite of action: small and large intestines\nOnset of action: 12–72 hours\nExamples:\ndocusate\n(Colace, Diocto), Gibs-Eze",
+          "tables": []
+        },
+        "Lubricant_agents": {
+          "text": "Coat the stool with slippery lipids and retard colonic absorption of water so that the stool slides through the colon more easily. Lubricant laxatives also increase the weight of stool and decrease intestinal transit time.\nSite of action: colon\nOnset of action: 6–8 hours\nExample: mineral oil",
+          "tables": []
+        },
+        "Hyperosmotic_agents": {
+          "text": "Substances that cause the intestines to hold more water within and create an osmotic effect that stimulates a bowel movement.\nSite of action: colon\nOnset of Action: 12–72 hours (oral) 0.25 - 1 hour (rectal)\nExamples:\nglycerin\nsuppositories,\nsorbitol\n,\nlactulose\n, and\nPEG\n(Colyte, MiraLax)",
+          "tables": []
+        },
+        "Saline_laxative_agents": {
+          "text": "Non-absorbable osmotic substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.\nSite of action: small and large intestines\nOnset of action: 0.5–3 hours (oral), 2–15 minutes (rectal)\nExamples: sodium phosphate (and variants),\nmagnesium citrate\n,\nmagnesium hydroxide\n(milk of magnesia), and\nmagnesium sulfate\n(Epsom salt)",
+          "tables": []
+        },
+        "Stimulant_agents": {
+          "text": "Act on the intestinal mucosa or nerve plexus, altering water and electrolyte secretion. They also stimulate peristaltic action and can be dangerous under certain circumstances.\nSite of action: colon\nOnset of action: 6–10 hours\nExamples:\nsenna\nglycoside,\nbisacodyl",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Bulk-forming_agents": {
+      "text": "Substances, such as dietary fiber and hydrophilic agents that add bulk and water to more easily through the intestines.\nSite of action: Small and large intestines\nOnset of action: 12–72 hours\nExamples: dietary fiber,\npsyllium\n(Metamucil),\nmethylcellulose\n(Citrucel),\npolycarbophil\n(FiberCon)",
+      "subsections": {
+        "Dietary_fiber": {
+          "text": "Includes insoluble fiber and soluble fiber, such as:\nFruits, such as bananas, kiwifruits, prunes, apples (with skin), pears (with skin), and raspberries\nVegetables, such as broccoli, string beans, kale, spinach, cooked winter squash, cooked green peas, and baked potatoes (with skin)\nWhole grains\nBran products\nNuts\nLegumes, such as beans, peas, and lentils",
+          "tables": []
+        },
+        "Emollient_agents_(stool_softeners)": {
+          "text": "Anionic surfactants that enable additional water and fats to be incorporated in the stool, making it easier for them to move through the gastrointestinal tract.\nSite of action: small and large intestines\nOnset of action: 12–72 hours\nExamples:\ndocusate\n(Colace, Diocto), Gibs-Eze",
+          "tables": []
+        },
+        "Lubricant_agents": {
+          "text": "Coat the stool with slippery lipids and retard colonic absorption of water so that the stool slides through the colon more easily. Lubricant laxatives also increase the weight of stool and decrease intestinal transit time.\nSite of action: colon\nOnset of action: 6–8 hours\nExample: mineral oil",
+          "tables": []
+        },
+        "Hyperosmotic_agents": {
+          "text": "Substances that cause the intestines to hold more water within and create an osmotic effect that stimulates a bowel movement.\nSite of action: colon\nOnset of Action: 12–72 hours (oral) 0.25 - 1 hour (rectal)\nExamples:\nglycerin\nsuppositories,\nsorbitol\n,\nlactulose\n, and\nPEG\n(Colyte, MiraLax)",
+          "tables": []
+        },
+        "Saline_laxative_agents": {
+          "text": "Non-absorbable osmotic substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.\nSite of action: small and large intestines\nOnset of action: 0.5–3 hours (oral), 2–15 minutes (rectal)\nExamples: sodium phosphate (and variants),\nmagnesium citrate\n,\nmagnesium hydroxide\n(milk of magnesia), and\nmagnesium sulfate\n(Epsom salt)",
+          "tables": []
+        },
+        "Stimulant_agents": {
+          "text": "Act on the intestinal mucosa or nerve plexus, altering water and electrolyte secretion. They also stimulate peristaltic action and can be dangerous under certain circumstances.\nSite of action: colon\nOnset of action: 6–10 hours\nExamples:\nsenna\nglycoside,\nbisacodyl",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lubricant_agents": {
+      "text": "Coat the stool with slippery lipids and retard colonic absorption of water so that the stool slides through the colon more easily. Lubricant laxatives also increase the weight of stool and decrease intestinal transit time.\nSite of action: colon\nOnset of action: 6–8 hours\nExample: mineral oil",
+      "subsections": {
+        "Hyperosmotic_agents": {
+          "text": "Substances that cause the intestines to hold more water within and create an osmotic effect that stimulates a bowel movement.\nSite of action: colon\nOnset of Action: 12–72 hours (oral) 0.25 - 1 hour (rectal)\nExamples:\nglycerin\nsuppositories,\nsorbitol\n,\nlactulose\n, and\nPEG\n(Colyte, MiraLax)",
+          "tables": []
+        },
+        "Saline_laxative_agents": {
+          "text": "Non-absorbable osmotic substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.\nSite of action: small and large intestines\nOnset of action: 0.5–3 hours (oral), 2–15 minutes (rectal)\nExamples: sodium phosphate (and variants),\nmagnesium citrate\n,\nmagnesium hydroxide\n(milk of magnesia), and\nmagnesium sulfate\n(Epsom salt)",
+          "tables": []
+        },
+        "Stimulant_agents": {
+          "text": "Act on the intestinal mucosa or nerve plexus, altering water and electrolyte secretion. They also stimulate peristaltic action and can be dangerous under certain circumstances.\nSite of action: colon\nOnset of action: 6–10 hours\nExamples:\nsenna\nglycoside,\nbisacodyl",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperosmotic_agents": {
+      "text": "Substances that cause the intestines to hold more water within and create an osmotic effect that stimulates a bowel movement.\nSite of action: colon\nOnset of Action: 12–72 hours (oral) 0.25 - 1 hour (rectal)\nExamples:\nglycerin\nsuppositories,\nsorbitol\n,\nlactulose\n, and\nPEG\n(Colyte, MiraLax)",
+      "subsections": {
+        "Saline_laxative_agents": {
+          "text": "Non-absorbable osmotic substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.\nSite of action: small and large intestines\nOnset of action: 0.5–3 hours (oral), 2–15 minutes (rectal)\nExamples: sodium phosphate (and variants),\nmagnesium citrate\n,\nmagnesium hydroxide\n(milk of magnesia), and\nmagnesium sulfate\n(Epsom salt)",
+          "tables": []
+        },
+        "Stimulant_agents": {
+          "text": "Act on the intestinal mucosa or nerve plexus, altering water and electrolyte secretion. They also stimulate peristaltic action and can be dangerous under certain circumstances.\nSite of action: colon\nOnset of action: 6–10 hours\nExamples:\nsenna\nglycoside,\nbisacodyl",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Saline_laxative_agents": {
+      "text": "Non-absorbable osmotic substances that attract and retain water in the intestinal lumen, increasing intraluminal pressure that mechanically stimulates evacuation of the bowel. Magnesium-containing agents also cause the release of cholecystokinin, which increases intestinal motility and fluid secretion.\nSite of action: small and large intestines\nOnset of action: 0.5–3 hours (oral), 2–15 minutes (rectal)\nExamples: sodium phosphate (and variants),\nmagnesium citrate\n,\nmagnesium hydroxide\n(milk of magnesia), and\nmagnesium sulfate\n(Epsom salt)",
+      "subsections": {
+        "Stimulant_agents": {
+          "text": "Act on the intestinal mucosa or nerve plexus, altering water and electrolyte secretion. They also stimulate peristaltic action and can be dangerous under certain circumstances.\nSite of action: colon\nOnset of action: 6–10 hours\nExamples:\nsenna\nglycoside,\nbisacodyl",
+          "tables": []
+        },
+        "Miscellaneous": {
+          "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Stimulant_agents": {
+      "text": "Act on the intestinal mucosa or nerve plexus, altering water and electrolyte secretion. They also stimulate peristaltic action and can be dangerous under certain circumstances.\nSite of action: colon\nOnset of action: 6–10 hours\nExamples:\nsenna\nglycoside,\nbisacodyl",
+      "subsections": {
+        "Miscellaneous": {
+          "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Miscellaneous": {
+      "text": "Castor oil is a glyceride that is hydrolyzed by pancreatic lipase to ricinoleic acid, which produces laxative action by an unknown mechanism.\nSite of action: colon\nOnset of action: 2–6 hours\nExamples: castor oil",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Constipation\nConstipation (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

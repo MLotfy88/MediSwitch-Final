@@ -1,0 +1,390 @@
+{
+  "drug_name": "Juvenile_idiopathic_arthritis",
+  "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis",
+  "scraped_at": "2026-01-10T07:56:01.925867",
+  "sections": {
+    "Background": {
+      "text": "Children <16yr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "High\nfever\n(at least 102.2) for minimum of 2 weeks\nFaint erythematous macular coalescing\nrash\non the trunk, palms, soles\nArthritis (usually polyarticular)\nMay also have\nhepatosplenomegaly\n,\nlymphadenopathy\n, pleuritis,\npericardial effusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Pediatric_limp": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        },
+        "Polyarthritis": {
+          "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        },
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Polyarthritis": {
+      "text": "Fibromyalgia\nJuvenile idiopathic arthritis\nLyme disease\nOsteoarthritis\nPsoriatic arthritis\nReactive poststreptococcal arthritis\nRheumatoid arthritis\nRheumatic fever\nSerum sickness\nSystemic lupus erythematosus\nSerum sickness–like reactions\nViral arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fibromyalgia",
+          "url": "https://wikem.org/wiki/Fibromyalgia"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Reactive poststreptococcal arthritis",
+          "url": "https://wikem.org/wiki/Reactive_poststreptococcal_arthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Labs\nCBC (Anemia, leukocytosis, thrombocytosis)\nESR, CRP\nArthrocentesis\nmay be needed to exclude\nseptic arthritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Arthrocentesis",
+          "url": "https://wikem.org/wiki/Arthrocentesis"
+        },
+        {
+          "text": "septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Initial therapy is\nASA\nor\nNSAID\nCorticosteroids\nmay be used if diagnosis certain or for overwhelming systemic illness",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hip Pain (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hip Pain (Peds)",
+          "url": "https://wikem.org/wiki/Hip_Pain_(Peds)"
+        }
+      ]
+    }
+  }
+}

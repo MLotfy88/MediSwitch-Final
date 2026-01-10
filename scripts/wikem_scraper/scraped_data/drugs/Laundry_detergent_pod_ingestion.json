@@ -1,0 +1,768 @@
+{
+  "drug_name": "Laundry_detergent_pod_ingestion",
+  "url": "https://wikem.org/wiki/Laundry_detergent_pod_ingestion",
+  "scraped_at": "2026-01-10T07:56:15.185222",
+  "sections": {
+    "Background": {
+      "text": "Laundry detergent pods that contain more concentrated detergent than liquid detergents, and contain ethoxylated polymers, ethoxylated alcohols, surfactants, as well as other unknown proprietary ingredients\nConsidered to cause caustic hydrocarbon injury\nSize and colorful packaging makes pods a risk for pediatric ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "In a review of 202 cases\n[1]\n[2]\nNo effects - 24%\nVomiting\n- 66%\nRespiratory complaints (\ncough\n,\nstridor\n,\nSOB\n,\npneumonitis\n,\nrespiratory depression\n) - 16%\nAltered mental status\n- 9%\nCan be profound\nEye irritation - 8%\nCause alkaline\ncaustic eye exposure\n,\nconjunctivitis\nSkin irritation - 0.5%\n2nd/3rd degree\nchemical burns\ndescribed\n[3]\nFever\n- 0.6%\nRed flag findings (indicate potential need for endoscopy, risk of perforation)-  stridor, excessive drooling, persistent vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        },
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "respiratory depression",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "caustic eye exposure",
+          "url": "https://wikem.org/wiki/Caustic_eye_exposure"
+        },
+        {
+          "text": "conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperthermia": {
+          "text": "Altered Metabolism\nAspirin (Salicylate) Toxicity\nBenzo\nor\nalcohol withdrawal\nThyroid storm\ndinitrophenols\nIncreased Muscle Activity\nSympathomimetic toxicity\n, alcohol withdrawal\nMAOI Toxicity\nPhencyclidine\n, LSD\nLithium toxicity\nAmoxapine\nSerotonin Syndrome\nImpaired Heat Dissipation\nAnticholinergic toxicity\nAntihistamines\nTCA toxicity\nMalignant Hyperthermia\nanesthetics\nNeuroleptic Malignant Syndrome\nPhenothiazines\n,\nLithium\n, LevoDopa",
+          "tables": []
+        },
+        "Hypothermia": {
+          "text": "Exposure\nEthanol Toxicity\nSedative/Hypnotics\nOpioids\nTCAs\nPhenothiazines\nInsulin\n(\nHypoglycemia\n)",
+          "tables": []
+        },
+        "Increased_Respiratory_Rate": {
+          "text": "Direct Stimulation\nAspirin (Salicylate) Toxicity\nMetabolic acidosis\ndintirophenol, pentachlorophenol\nHepatorenal syndrome\nCNS stimulants (cocaine, amphet, theophylline)\nTissue\nHypoxia\nCO\nCyanide\nHydrogen Sulfide\nMethemoglobinemia",
+          "tables": []
+        },
+        "Respiratory_Depression": {
+          "text": "Central Depression\nAntipsychotics\nChlorinated hydrocarbons\nSedative/Hypnotics\n(\nEthanol Toxicity\n, glycols)\nTricyclic (TCA) Toxicity\nLomotil\nMuscle Failure\nOrganophosphates\nMarine Toxins\nNicotine\nStrychnine\nBotulism\nMojave\nrattlesnake\n, cobra",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Benzo",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "MAOI Toxicity",
+          "url": "https://wikem.org/wiki/MAOI_Toxicity"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Lomotil",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Marine Toxins",
+          "url": "https://wikem.org/wiki/Marine_Toxins"
+        },
+        {
+          "text": "Nicotine",
+          "url": "https://wikem.org/wiki/Nicotine_Poisoning"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "rattlesnake",
+          "url": "https://wikem.org/wiki/Rattlesnake"
+        }
+      ]
+    },
+    "Hyperthermia": {
+      "text": "Altered Metabolism\nAspirin (Salicylate) Toxicity\nBenzo\nor\nalcohol withdrawal\nThyroid storm\ndinitrophenols\nIncreased Muscle Activity\nSympathomimetic toxicity\n, alcohol withdrawal\nMAOI Toxicity\nPhencyclidine\n, LSD\nLithium toxicity\nAmoxapine\nSerotonin Syndrome\nImpaired Heat Dissipation\nAnticholinergic toxicity\nAntihistamines\nTCA toxicity\nMalignant Hyperthermia\nanesthetics\nNeuroleptic Malignant Syndrome\nPhenothiazines\n,\nLithium\n, LevoDopa",
+      "subsections": {
+        "Hypothermia": {
+          "text": "Exposure\nEthanol Toxicity\nSedative/Hypnotics\nOpioids\nTCAs\nPhenothiazines\nInsulin\n(\nHypoglycemia\n)",
+          "tables": []
+        },
+        "Increased_Respiratory_Rate": {
+          "text": "Direct Stimulation\nAspirin (Salicylate) Toxicity\nMetabolic acidosis\ndintirophenol, pentachlorophenol\nHepatorenal syndrome\nCNS stimulants (cocaine, amphet, theophylline)\nTissue\nHypoxia\nCO\nCyanide\nHydrogen Sulfide\nMethemoglobinemia",
+          "tables": []
+        },
+        "Respiratory_Depression": {
+          "text": "Central Depression\nAntipsychotics\nChlorinated hydrocarbons\nSedative/Hypnotics\n(\nEthanol Toxicity\n, glycols)\nTricyclic (TCA) Toxicity\nLomotil\nMuscle Failure\nOrganophosphates\nMarine Toxins\nNicotine\nStrychnine\nBotulism\nMojave\nrattlesnake\n, cobra",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Benzo",
+          "url": "https://wikem.org/wiki/Benzodiazepine_withdrawal"
+        },
+        {
+          "text": "alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "MAOI Toxicity",
+          "url": "https://wikem.org/wiki/MAOI_Toxicity"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "TCA toxicity",
+          "url": "https://wikem.org/wiki/TCA_toxicity"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Neuroleptic Malignant Syndrome",
+          "url": "https://wikem.org/wiki/Neuroleptic_Malignant_Syndrome"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Lomotil",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Marine Toxins",
+          "url": "https://wikem.org/wiki/Marine_Toxins"
+        },
+        {
+          "text": "Nicotine",
+          "url": "https://wikem.org/wiki/Nicotine_Poisoning"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "rattlesnake",
+          "url": "https://wikem.org/wiki/Rattlesnake"
+        }
+      ]
+    },
+    "Hypothermia": {
+      "text": "Exposure\nEthanol Toxicity\nSedative/Hypnotics\nOpioids\nTCAs\nPhenothiazines\nInsulin\n(\nHypoglycemia\n)",
+      "subsections": {
+        "Increased_Respiratory_Rate": {
+          "text": "Direct Stimulation\nAspirin (Salicylate) Toxicity\nMetabolic acidosis\ndintirophenol, pentachlorophenol\nHepatorenal syndrome\nCNS stimulants (cocaine, amphet, theophylline)\nTissue\nHypoxia\nCO\nCyanide\nHydrogen Sulfide\nMethemoglobinemia",
+          "tables": []
+        },
+        "Respiratory_Depression": {
+          "text": "Central Depression\nAntipsychotics\nChlorinated hydrocarbons\nSedative/Hypnotics\n(\nEthanol Toxicity\n, glycols)\nTricyclic (TCA) Toxicity\nLomotil\nMuscle Failure\nOrganophosphates\nMarine Toxins\nNicotine\nStrychnine\nBotulism\nMojave\nrattlesnake\n, cobra",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "Phenothiazines",
+          "url": "https://wikem.org/wiki/Phenothiazines"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Lomotil",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Marine Toxins",
+          "url": "https://wikem.org/wiki/Marine_Toxins"
+        },
+        {
+          "text": "Nicotine",
+          "url": "https://wikem.org/wiki/Nicotine_Poisoning"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "rattlesnake",
+          "url": "https://wikem.org/wiki/Rattlesnake"
+        }
+      ]
+    },
+    "Increased_Respiratory_Rate": {
+      "text": "Direct Stimulation\nAspirin (Salicylate) Toxicity\nMetabolic acidosis\ndintirophenol, pentachlorophenol\nHepatorenal syndrome\nCNS stimulants (cocaine, amphet, theophylline)\nTissue\nHypoxia\nCO\nCyanide\nHydrogen Sulfide\nMethemoglobinemia",
+      "subsections": {
+        "Respiratory_Depression": {
+          "text": "Central Depression\nAntipsychotics\nChlorinated hydrocarbons\nSedative/Hypnotics\n(\nEthanol Toxicity\n, glycols)\nTricyclic (TCA) Toxicity\nLomotil\nMuscle Failure\nOrganophosphates\nMarine Toxins\nNicotine\nStrychnine\nBotulism\nMojave\nrattlesnake\n, cobra",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO",
+          "url": "https://wikem.org/wiki/CO"
+        },
+        {
+          "text": "Cyanide",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Lomotil",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Marine Toxins",
+          "url": "https://wikem.org/wiki/Marine_Toxins"
+        },
+        {
+          "text": "Nicotine",
+          "url": "https://wikem.org/wiki/Nicotine_Poisoning"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "rattlesnake",
+          "url": "https://wikem.org/wiki/Rattlesnake"
+        }
+      ]
+    },
+    "Respiratory_Depression": {
+      "text": "Central Depression\nAntipsychotics\nChlorinated hydrocarbons\nSedative/Hypnotics\n(\nEthanol Toxicity\n, glycols)\nTricyclic (TCA) Toxicity\nLomotil\nMuscle Failure\nOrganophosphates\nMarine Toxins\nNicotine\nStrychnine\nBotulism\nMojave\nrattlesnake\n, cobra",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Sedative/Hypnotics",
+          "url": "https://wikem.org/wiki/Sedative/Hypnotics"
+        },
+        {
+          "text": "Ethanol Toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_Toxicity"
+        },
+        {
+          "text": "Tricyclic (TCA) Toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_Toxicity"
+        },
+        {
+          "text": "Lomotil",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Marine Toxins",
+          "url": "https://wikem.org/wiki/Marine_Toxins"
+        },
+        {
+          "text": "Nicotine",
+          "url": "https://wikem.org/wiki/Nicotine_Poisoning"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "rattlesnake",
+          "url": "https://wikem.org/wiki/Rattlesnake"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "BMP\nVBG\n/\nlactate\nLactic acidosis\nreported\n[4]\nCXR\nif respiratory complaints\nMay be delayed\npneumonitis\nAssess for co-ingestions if there is sufficient concern",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "ABCs\nConsider intubation for significant respiratory compromise\nDecontamination/eye irrigation if external exposure\nIrrigate eye until pH neutralizes\nFluorescein exam for\ncorneal defects\nAntiemetics\nfor nausea\nCorrect electrolyte abnormalities if present\nContact Poison Control\nRed Flag signs: stridor, excessive drooling, persistent vomiting- may need endoscopy within 12-24 hours (after 24 hours, greater risk of perforation)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corneal defects",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Antiemetics",
+          "url": "https://wikem.org/wiki/Antiemetics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Monitor in ED in conjunction with Poison Control recommendations\nConsider 6-hour observation period from time of ingestion, as some symptoms may be delayed\nConsider admission if respiratory compromise, altered mental status, or GI complaints resistant to symptomatic treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "The Poison Review - Laundry ‘pods’: more toxic than your mom’s detergent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
