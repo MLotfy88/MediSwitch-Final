@@ -1,0 +1,75 @@
+{
+  "drug_name": "Cervical_spine_x-ray_interpretation",
+  "url": "https://wikem.org/wiki/Cervical_spine_x-ray_interpretation",
+  "scraped_at": "2026-01-10T07:50:17.642245",
+  "sections": {
+    "Background": {
+      "text": "Disruption of one column is generally stable. Disruption of two or more is unstable.\nMake sure that the C7-T1 junction is adequately visualized\nCervical Spine Radiographic series contains 3 views\nAnteroposterior\nLateral\nOpen mouth odontoid view\nLook for alignment of four parallel vertical columns that follow a slightly lordotic curve without any step offs\nAnterior Vertebral Line: anterior to the vertebral body alternating with intervertebral disks surrouded by anulus fibrosus and anterior longitudinal ligament\nPosterior Vertebral Line: posterior to the vertebral body alternating with intervertebral disks surrouded by anulus fibrosus and posterior longitudinal ligament\nSpinolaminar Line- anterior edge of the spinous process\nPosterior Spinous Line-spinous process, nuchal ligament, interpsinous and supraspinous ligaments, and ligamentum flavum",
+      "subsections": {
+        "Pediatric": {
+          "text": "In patients less than 7 years old, most common mechanism for C-Spine injury was from motor vehicle crashes with injuries in the axial (occiput-C2) region\nIn patients 8-15 years old, sports and motor vehicle crashes account for the most common mechanisms with injuries in the sub axial C3-C7) region. Most pediatric fractures occur higher than C3 (from proportionally larger head)\n[1]\nPseudosubluxation of C2-C3 is common (~40%) in children <8yr\nTo distinguish from true dislocation or fracture:\nDraw line from cortex of post arch of C1 to cortex of posterior arch of C3 (Swischuk line)\nThis line should pass through or be <2mm ant to posterior arch of C2",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric": {
+      "text": "In patients less than 7 years old, most common mechanism for C-Spine injury was from motor vehicle crashes with injuries in the axial (occiput-C2) region\nIn patients 8-15 years old, sports and motor vehicle crashes account for the most common mechanisms with injuries in the sub axial C3-C7) region. Most pediatric fractures occur higher than C3 (from proportionally larger head)\n[1]\nPseudosubluxation of C2-C3 is common (~40%) in children <8yr\nTo distinguish from true dislocation or fracture:\nDraw line from cortex of post arch of C1 to cortex of posterior arch of C3 (Swischuk line)\nThis line should pass through or be <2mm ant to posterior arch of C2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Lateral_View": {
+      "text": "A\nlignment\nDisruption in the anterior, posterior, or spinolaminal lines\nB\nones\nObvious fracture\nDisruption of ring of C1\nDouble facet sign indicates fractured articular facet\nLoss of vertebral height\nC\nartilage\nIntervertebral disc space height and length should be uniform\nNarrowing: disc herniation or adjacent vertebral fracture\nWidening: posterior ligamentous injury\nS\noft tissue\nWidening of the prevertebral soft tissue suggests fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "AP_View": {
+      "text": "Alignment of spinous processes\nDistance between spinous processes\nUniformity and height of vertebrae",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Odontoid_View": {
+      "text": "Spacing of dens and lateral masses\nLateral alignment of C1 and C2\nUniformity of bones",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "X-ray_vs_CT": {
+      "text": "Plain radiographs may be appropriate in low-risk patients\nHigh risk patients requiring CT:\nClosed head injury\nNeurologic deficits\nHigh energy trauma\nUnreliable examination\nPain out of proportion to exam\nInadequate plain films",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Blunt neck trauma\nCervical spine clearance\nCanadian cervical spine rule\nNEXUS cervical spine rule\nX-ray interpretation (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Canadian cervical spine rule",
+          "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule"
+        },
+        {
+          "text": "NEXUS cervical spine rule",
+          "url": "https://wikem.org/wiki/NEXUS_cervical_spine_rule"
+        },
+        {
+          "text": "X-ray interpretation (main)",
+          "url": "https://wikem.org/wiki/X-ray_interpretation_(main)"
+        }
+      ]
+    }
+  }
+}

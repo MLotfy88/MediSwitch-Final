@@ -1,0 +1,658 @@
+{
+  "drug_name": "Chronic_myeloid_leukemia",
+  "url": "https://wikem.org/wiki/Chronic_myeloid_leukemia",
+  "scraped_at": "2026-01-10T07:50:29.236524",
+  "sections": {
+    "Background": {
+      "text": "Also known as chronic myelogenous leukemia, chronic myelocytic leukemia\nMore common in older patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Usually progresses through 3 stages",
+      "subsections": {
+        "Chronic_phase": {
+          "text": "Asymptomatic or indolent, nonspecific symptoms\nMalaise,\nfatigue\n, weight loss, low grade\nfever\nLymphadenopathy\n, splenomegaly",
+          "tables": []
+        },
+        "Accelerated_phase": {
+          "text": "Worsening of above symptoms due to progressive\nleukocytosis\nSigns/symptoms of\nthrombocytopenia\n(e.g.\npetechiae\n,\nbleeding\n) or\nthrombocytosis",
+          "tables": []
+        },
+        "Blast_crisis": {
+          "text": "Behaves like\nacute leukemia\nAssociated with\nLeukostasis and hyperleukocytosis\nand\nHyperviscosity syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        }
+      ]
+    },
+    "Chronic_phase": {
+      "text": "Asymptomatic or indolent, nonspecific symptoms\nMalaise,\nfatigue\n, weight loss, low grade\nfever\nLymphadenopathy\n, splenomegaly",
+      "subsections": {
+        "Accelerated_phase": {
+          "text": "Worsening of above symptoms due to progressive\nleukocytosis\nSigns/symptoms of\nthrombocytopenia\n(e.g.\npetechiae\n,\nbleeding\n) or\nthrombocytosis",
+          "tables": []
+        },
+        "Blast_crisis": {
+          "text": "Behaves like\nacute leukemia\nAssociated with\nLeukostasis and hyperleukocytosis\nand\nHyperviscosity syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        }
+      ]
+    },
+    "Accelerated_phase": {
+      "text": "Worsening of above symptoms due to progressive\nleukocytosis\nSigns/symptoms of\nthrombocytopenia\n(e.g.\npetechiae\n,\nbleeding\n) or\nthrombocytosis",
+      "subsections": {
+        "Blast_crisis": {
+          "text": "Behaves like\nacute leukemia\nAssociated with\nLeukostasis and hyperleukocytosis\nand\nHyperviscosity syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "thrombocytosis",
+          "url": "https://wikem.org/wiki/Thrombocytosis"
+        },
+        {
+          "text": "acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        }
+      ]
+    },
+    "Blast_crisis": {
+      "text": "Behaves like\nacute leukemia\nAssociated with\nLeukostasis and hyperleukocytosis\nand\nHyperviscosity syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        },
+        "Leukocytosis": {
+          "text": "Normally responding bone marrow\nInfection\nInflammation: tissue necrosis, infarction,\nburns\n,\narthritis\nStress: overexertion,\nseizures\n, anxiety, anesthesia\nDrugs:\ncorticosteroids\n,\nlithium\n,\nbeta agonists\nTrauma:\nsplenectomy\nHemolytic anemia\nLeukemoid malignancy\nAbnormal bone marrow\nAcute leukemia\nAcute myeloid leukemia\nAcute lymphocytic leukemia\nChronic leukemia\nChronic myeloid leukemia\nMyeloproliferative disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "beta agonists",
+          "url": "https://wikem.org/wiki/Beta_agonists"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        }
+      ]
+    },
+    "Oncologic_Emergencies": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        },
+        "Leukocytosis": {
+          "text": "Normally responding bone marrow\nInfection\nInflammation: tissue necrosis, infarction,\nburns\n,\narthritis\nStress: overexertion,\nseizures\n, anxiety, anesthesia\nDrugs:\ncorticosteroids\n,\nlithium\n,\nbeta agonists\nTrauma:\nsplenectomy\nHemolytic anemia\nLeukemoid malignancy\nAbnormal bone marrow\nAcute leukemia\nAcute myeloid leukemia\nAcute lymphocytic leukemia\nChronic leukemia\nChronic myeloid leukemia\nMyeloproliferative disorders",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        },
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "beta agonists",
+          "url": "https://wikem.org/wiki/Beta_agonists"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        }
+      ]
+    },
+    "Leukocytosis": {
+      "text": "Normally responding bone marrow\nInfection\nInflammation: tissue necrosis, infarction,\nburns\n,\narthritis\nStress: overexertion,\nseizures\n, anxiety, anesthesia\nDrugs:\ncorticosteroids\n,\nlithium\n,\nbeta agonists\nTrauma:\nsplenectomy\nHemolytic anemia\nLeukemoid malignancy\nAbnormal bone marrow\nAcute leukemia\nAcute myeloid leukemia\nAcute lymphocytic leukemia\nChronic leukemia\nChronic myeloid leukemia\nMyeloproliferative disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "beta agonists",
+          "url": "https://wikem.org/wiki/Beta_agonists"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        },
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nLeukocytosis\n: usually only moderately elevated in chronic phase (20,000-60,000)\nMild-moderate\nanemia\nVariable platelet counts\nPeripheral smear\nDIC\nlabs: coags, d-dimer, fibrinogen\nTumor lysis syndrome\nlabs: BMP, uric acid, phosphate\nInfectious workup\nEvaluate for complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See management of\nLeukostasis and hyperleukocytosis\n,\nneutropenic fever\n,\nhyperviscosity syndrome\n,\nDIC\n,\ntumor lysis syndrome\n,\nthrombocytopenia\n,\nanemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Can consider discharging asymptomatic patients in chronic phase who have no complications and close follow-up. Otherwise, admit.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Oncologic emergencies\nLeukostasis and hyperleukocytosis\nAcute leukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Acute leukemia",
+          "url": "https://wikem.org/wiki/Acute_leukemia"
+        }
+      ]
+    }
+  }
+}

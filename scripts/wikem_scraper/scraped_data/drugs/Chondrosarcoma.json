@@ -1,0 +1,156 @@
+{
+  "drug_name": "Chondrosarcoma",
+  "url": "https://wikem.org/wiki/Chondrosarcoma",
+  "scraped_at": "2026-01-10T07:50:27.147984",
+  "sections": {
+    "Background": {
+      "text": "Third most common primary bone malignancy after\nmultiple myeloma\nand\nosteosarcoma\nAround ninety percent of chondrosarcomas are of low metastatic potential\nOsteochondromas\nand\nenchondromas\ncan be precursors lesions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Overproduction of chondroid matrix in the medullary cavity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Lesions commonly in the pelvis and central skeleton\nOccurs in patients over 40 years-old with a male predominance\nOften will present with local swelling and pain or a pathologic fracture\nVery slow growing tumors",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Bone_tumors_and_their_mimics": {
+      "text": "",
+      "subsections": {
+        "Malignant": {
+          "text": "Multiple myeloma\nChondrosarcoma\nPaget disease\nOsteosarcoma\nAdamantinoma\nChordoma\nPrimary bone lymphoma\nFibrosarcoma\nMyosarcoma",
+          "tables": []
+        },
+        "Benign": {
+          "text": "Giant cell tumor\nChrondroblastoma\nEnchondroma\nLangerhans cell histiocytosis of bone\nOsteoblastoma\nOsteochondroma\nOsteoid osteoma",
+          "tables": []
+        },
+        "Other": {
+          "text": "Septic joint\nFracture\nAbscess",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Paget disease",
+          "url": "https://wikem.org/wiki/Paget%27s_disease_of_bone"
+        },
+        {
+          "text": "Osteosarcoma",
+          "url": "https://wikem.org/wiki/Osteosarcoma"
+        },
+        {
+          "text": "Adamantinoma",
+          "url": "https://wikem.org/wiki/Adamantinoma"
+        },
+        {
+          "text": "Giant cell tumor",
+          "url": "https://wikem.org/wiki/Giant_cell_tumor"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Plain radiographs reveal punctate calcifications and cortical bone destruction\nCT or MRI to assess extent of bone involvement\nBone biopsy for definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Surgery is the definitive treatment\nRadiation and chemotherapy are ineffective as tumor is very slow growing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Home with outpatient follow up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "drug_name": "Chlorate_toxicity",
+  "url": "https://wikem.org/wiki/Chlorate_toxicity",
+  "scraped_at": "2026-01-10T07:50:23.302996",
+  "sections": {
+    "Background": {
+      "text": "Potassium chlorate, barium chlorate, and sodium chlorate found in fireworks, match heads, and weed killers",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Oxidizers and attackers of sulfhydryl groups\nCause methemoglobin formation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Oxidizers and attackers of sulfhydryl groups\nCause methemoglobin formation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Presentation": {
+      "text": "Abdominal pain\nVomiting\nDiarrhea\nMethemoglobinemia\nCoagulopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Co-oximetry\nAdditional evaluation based on clinical presentation and presence of methemoglobinemia\nNo specific serum levels are available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Activated charcoal\nIS recommended\nMethylene blue\nfor\nmethemoglobinemia\n(1-2 mg/kg of 1% solution)\nSodium thiosulfate\nIV may inactivate chlorate ions (anecdotal)\nHemodialysis\nSupportive care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        },
+        {
+          "text": "Methylene blue",
+          "url": "https://wikem.org/wiki/Methylene_blue"
+        },
+        {
+          "text": "methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Sodium thiosulfate",
+          "url": "https://wikem.org/wiki/Sodium_thiosulfate"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

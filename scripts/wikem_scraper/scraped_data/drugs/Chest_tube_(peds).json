@@ -1,0 +1,64 @@
+{
+  "drug_name": "Chest_tube_(peds)",
+  "url": "https://wikem.org/wiki/Chest_tube_(peds)",
+  "scraped_at": "2026-01-10T07:50:18.669651",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nchest tube\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "See\nchest tube\nVentilation\nSigns of\ntension pneumothorax\n>20%\npneumothorax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Sizing": {
+      "text": "Chest tube size = 4 x ET\nSee\ncritical care quick reference\nfor size by weight",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Cautions": {
+      "text": "Avoid midclavicular approach because of risk of future breast deformities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Chest Tube\nCritical care quick reference",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest Tube",
+          "url": "https://wikem.org/wiki/Chest_Tube"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    }
+  }
+}

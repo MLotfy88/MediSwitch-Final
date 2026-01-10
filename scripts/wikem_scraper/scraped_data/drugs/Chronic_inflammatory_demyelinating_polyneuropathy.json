@@ -1,0 +1,480 @@
+{
+  "drug_name": "Chronic_inflammatory_demyelinating_polyneuropathy",
+  "url": "https://wikem.org/wiki/Chronic_inflammatory_demyelinating_polyneuropathy",
+  "scraped_at": "2026-01-10T07:50:27.454259",
+  "sections": {
+    "Background": {
+      "text": "Prevalence of 1 to 2 per 100,000 adults\nAutoimmune condition leading to cellular and humoral immune response to proteins on myelin sheath likely due to molecular mimicry from infectious process\nHas been associated with\nmelanoma\nAcute variant is\nGuillain-Barre syndrome\nGBS is self limited whereas CIPD is progressive for more than two months",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "melanoma",
+          "url": "https://wikem.org/wiki/Melanoma"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Symmetrical proximal and distal muscle\nweakness\nthat is progressive for GREATER than two months\nMuscle weakness more predominant feature than sensory symptoms\nReduced or absent deep tendon\nreflexes\nin upper and lower extremities\nElevated CSF protein without pleocytosis\nElectrodiagnostic evidence of a demyelinating neuropathy\nSegmental nerve demyelination on nerve biopsies\nCan be relapsing or chronic and progressive",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "reflexes",
+          "url": "https://wikem.org/wiki/Reflexes"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Weakness": {
+          "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Weakness": {
+      "text": "Neuromuscular weakness\nUpper motor neuron:\nCVA\nHemorrhagic stroke\nMultiple sclerosis\nAmyotrophic Lateral Sclerosis (ALS)\n(upper and lower motor neuron)\nLower motor neuron:\nSpinal and bulbar muscular atrophy (Kennedy's syndrome)\nSpinal cord disease:\nInfection (\nEpidural abscess\n)\nInfarction/ischemia\nTrauma (\nSpinal Cord Syndromes\n)\nInflammation (\nTransverse Myelitis\n)\nAcute flaccid myelitis\nDegenerative (\nSpinal muscular atrophy\n)\nTumor\nPeripheral nerve disease:\nGuillain-Barre syndrome\nToxins (\nCiguatera\n)\nTick paralysis\nDiabetic peripheral neuropathy\nNeuromuscular junction disease:\nMyasthenia gravis\ncrisis\nBotulism\nOrganophosphate toxicity\nLambert-Eaton myasthenic syndrome\nMuscle disease:\nRhabdomyolysis\nDermatomyositis\nPolymyositis\nAlcoholic myopathy\nNon-neuromuscular weakness\nCan't miss diagnoses:\nACS\nArrhythmia\n/\nSyncope\nSevere infection/\nSepsis\nHypoglycemia\nPeriodic paralysis (\nelectrolyte disturbance\n, K, Mg, Ca)\nHypokalemic periodic paralysis\nThyrotoxic periodic paralysis\nRespiratory failure\nEmergent Diagnoses:\nSymptomatic\nAnemia\nSevere\ndehydration\nHypothyroidism\nPolypharmacy\nMalignancy\nAortic disease - occlusion, stenosis, dissection\nOther causes of weakness and paralysis\nAcute intermittent porphyria\n(ascending weakness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Amyotrophic Lateral Sclerosis (ALS)",
+          "url": "https://wikem.org/wiki/Amyotrophic_Lateral_Sclerosis_(ALS)"
+        },
+        {
+          "text": "Epidural abscess",
+          "url": "https://wikem.org/wiki/Epidural_Abscess_(Spinal)"
+        },
+        {
+          "text": "Spinal Cord Syndromes",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Syndromes"
+        },
+        {
+          "text": "Transverse Myelitis",
+          "url": "https://wikem.org/wiki/Transverse_Myelitis"
+        },
+        {
+          "text": "Acute flaccid myelitis",
+          "url": "https://wikem.org/wiki/Acute_flaccid_myelitis"
+        },
+        {
+          "text": "Spinal muscular atrophy",
+          "url": "https://wikem.org/wiki/Spinal_muscular_atrophy"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Lambert-Eaton myasthenic syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_myasthenic_syndrome"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "electrolyte disturbance",
+          "url": "https://wikem.org/wiki/Electrolyte_disturbance"
+        },
+        {
+          "text": "Hypokalemic periodic paralysis",
+          "url": "https://wikem.org/wiki/Hypokalemic_periodic_paralysis"
+        },
+        {
+          "text": "Thyrotoxic periodic paralysis",
+          "url": "https://wikem.org/wiki/Thyrotoxic_periodic_paralysis"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Acute intermittent porphyria",
+          "url": "https://wikem.org/wiki/Acute_intermittent_porphyria"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis with electrophysiological studies\n3 separate criteria can be used to diagnose CIPD\nOnly the American Academy of Neurology requires a lumbar puncture and nerve-biopsy specimen\nClosest differential is\nGuillain-Barre syndrome\nThe onset of GBS is usually easily identified, while the precise onset of CIDP is typically less clear\nAntecedent events are more frequent with GBS than in CIDP\n~70% of GBS cases are preceded by an infectious illness, vaccination, or surgery by three to four weeks prior to the onset of clinical symptoms.\nBy contrast, most studies have found an antecedent event prior to CIDP in no more than 30% of patients.\nProminent sensory signs (ie, sensory ataxia and impaired vibration and pinprick sensation) favor CIDP\nThe need for ventilator support favors GBS\nAutonomic dysfunction (tachycardia, urinary retention) much more common in GBS than CIPD\nProgression or relapse beyond eight weeks from onset suggests acute-onset CIDP rather than GBS\nMay be difficult to distinguish initially between CIPD and GBS if recognized early but relapsing-remitting course over months with identify CIPD",
+      "subsections": {
+        "Workup": {
+          "text": "Lumbar puncture\ncan be performed inpatient\nWill show elevated protein without pleocytosis\nNerve biopsy will show demyelination and demyelination often with signs of inflammation\nOften unnecessary and of low yield due to proximal nerve involvement, but still performed if diagnosis uncertain\nMRI\nmay show gadolinium enhancement and enlargement of proximal nerves or roots\nElectrophysiological diagnostic procedures with show evidence of demyelination",
+          "tables": [
+            [
+              {
+                "'": "Presentation",
+                "American Academy of Neurology": "Motor and sensory dysfunction in > 1 limb",
+                "Saperstein Criteria": "Major: symetric proximal and distal weakness; Minor: Exclusive distal weakness or sensory loss",
+                "Inflammatory Neuropathy Cause and Treatment Group": "Progressive or relapsing motor and sensory dysfunction of > 1 limb"
+              },
+              {
+                "'": "Time course in months",
+                "American Academy of Neurology": "≥ 2",
+                "Saperstein Criteria": "≥ 2",
+                "Inflammatory Neuropathy Cause and Treatment Group": "> 2"
+              },
+              {
+                "'": "Reflexes",
+                "American Academy of Neurology": "Reduced or absent",
+                "Saperstein Criteria": "Reduced or absent",
+                "Inflammatory Neuropathy Cause and Treatment Group": "Reduced or absent"
+              },
+              {
+                "'": "Electrodiagnostic Criteria",
+                "American Academy of Neurology": "Any 3 of the following 4 criteria: partial conduction block of ≥1 motor nerve, reduced conduction velocity of ≥2 motor nerves, prolonged distal latency of ≥2 motor nerves, or prolonged F-wave latencies of ≥2 motor nerves or the absence of F waves",
+                "Saperstein Criteria": "2 of the 4 AAN electrodiagnostic criteria",
+                "Inflammatory Neuropathy Cause and Treatment Group": "Partial conduction block of ≥2 motor nerves and abnormal conduction velocity or distal latency or F-wave latency in 1 other nerve; or, in the absence of partial conduction block, abnormal conduction velocity, distal latency, or F-wave latency in 3 motor nerves; or electrodiagnostic abnormalities indicating demyelination in 2 nerves and histologic evidence of demyelination"
+              },
+              {
+                "'": "CSF",
+                "American Academy of Neurology": "WBC < 10/mm^3, negative VDRL, elevated protein",
+                "Saperstein Criteria": "Protein > 45mg/dL; WBC <10/mm^3",
+                "Inflammatory Neuropathy Cause and Treatment Group": "Recommended but not mandatory"
+              },
+              {
+                "'": "Biopsy",
+                "American Academy of Neurology": "Demylelination and remyelination",
+                "Saperstein Criteria": "Demyelination",
+                "Inflammatory Neuropathy Cause and Treatment Group": "Not mandatory"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Lumbar puncture\ncan be performed inpatient\nWill show elevated protein without pleocytosis\nNerve biopsy will show demyelination and demyelination often with signs of inflammation\nOften unnecessary and of low yield due to proximal nerve involvement, but still performed if diagnosis uncertain\nMRI\nmay show gadolinium enhancement and enlargement of proximal nerves or roots\nElectrophysiological diagnostic procedures with show evidence of demyelination",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "'": "Presentation",
+            "American Academy of Neurology": "Motor and sensory dysfunction in > 1 limb",
+            "Saperstein Criteria": "Major: symetric proximal and distal weakness; Minor: Exclusive distal weakness or sensory loss",
+            "Inflammatory Neuropathy Cause and Treatment Group": "Progressive or relapsing motor and sensory dysfunction of > 1 limb"
+          },
+          {
+            "'": "Time course in months",
+            "American Academy of Neurology": "≥ 2",
+            "Saperstein Criteria": "≥ 2",
+            "Inflammatory Neuropathy Cause and Treatment Group": "> 2"
+          },
+          {
+            "'": "Reflexes",
+            "American Academy of Neurology": "Reduced or absent",
+            "Saperstein Criteria": "Reduced or absent",
+            "Inflammatory Neuropathy Cause and Treatment Group": "Reduced or absent"
+          },
+          {
+            "'": "Electrodiagnostic Criteria",
+            "American Academy of Neurology": "Any 3 of the following 4 criteria: partial conduction block of ≥1 motor nerve, reduced conduction velocity of ≥2 motor nerves, prolonged distal latency of ≥2 motor nerves, or prolonged F-wave latencies of ≥2 motor nerves or the absence of F waves",
+            "Saperstein Criteria": "2 of the 4 AAN electrodiagnostic criteria",
+            "Inflammatory Neuropathy Cause and Treatment Group": "Partial conduction block of ≥2 motor nerves and abnormal conduction velocity or distal latency or F-wave latency in 1 other nerve; or, in the absence of partial conduction block, abnormal conduction velocity, distal latency, or F-wave latency in 3 motor nerves; or electrodiagnostic abnormalities indicating demyelination in 2 nerves and histologic evidence of demyelination"
+          },
+          {
+            "'": "CSF",
+            "American Academy of Neurology": "WBC < 10/mm^3, negative VDRL, elevated protein",
+            "Saperstein Criteria": "Protein > 45mg/dL; WBC <10/mm^3",
+            "Inflammatory Neuropathy Cause and Treatment Group": "Recommended but not mandatory"
+          },
+          {
+            "'": "Biopsy",
+            "American Academy of Neurology": "Demylelination and remyelination",
+            "Saperstein Criteria": "Demyelination",
+            "Inflammatory Neuropathy Cause and Treatment Group": "Not mandatory"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/MRI"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Requires neurology consult\nTherapy is tailored to each patient, no difference in efficacy between the three treatment options\nIVIG\nPlasma exchange\nCorticosteroids\nMay be placed on\nazathioprine\n,\ncyclophosphamide\n, or\ncyclosporine\nto prevent relapse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "Plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Often require admission for physical therapy, occupation therapy, treatment, and possible placement for rehab if unable to perform ADLs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Köller, H., Kieseier, B. C., Jander, S., & Hartung, H.-P. (2005). Chronic inflammatory demyelinating polyneuropathy. The New England Journal of Medicine, 352(13), 1343–1356.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

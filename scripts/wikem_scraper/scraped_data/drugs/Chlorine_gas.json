@@ -1,0 +1,233 @@
+{
+  "drug_name": "Chlorine_gas",
+  "url": "https://wikem.org/wiki/Chlorine_gas",
+  "scraped_at": "2026-01-10T07:50:25.105487",
+  "sections": {
+    "Background": {
+      "text": "Classified as a\npulmonary chemical agent\n,\nchemical weapon\nMost common exposure is secondary to mixing household cleaners",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "Direct caustic / corrosive effect upon contact with moist tissue",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary chemical agent",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agent"
+        },
+        {
+          "text": "chemical weapon",
+          "url": "https://wikem.org/wiki/Chemical_weapon"
+        }
+      ]
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "Direct caustic / corrosive effect upon contact with moist tissue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Smells of a swimming pool or bleach\nIrritation of conjunctivae, nose, pharynx, larynx, trachea, and bronchi\nRare ocular injury as tears protect mucous membranes from direct damage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Based on clinical history\nSpecific levels are not available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Individuals with gas exposure may not need decontamination, if skin symptoms absent",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary chemical agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        }
+      ]
+    }
+  }
+}

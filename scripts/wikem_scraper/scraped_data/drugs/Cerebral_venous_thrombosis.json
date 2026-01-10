@@ -1,0 +1,990 @@
+{
+  "drug_name": "Cerebral_venous_thrombosis",
+  "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis",
+  "scraped_at": "2026-01-10T07:50:14.144455",
+  "sections": {
+    "Intro": {
+      "text": "The cavernous sinus is one of the several cerebral veins and\ncavernous sinus thrombosis\nis a specific type of cerebral venous (sinus) thrombosis.  See that article for a discussion of that specific clinical entity.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Occlusion of venous sinus (most commonly superior sagittal and lateral sinuses) by thrombus\n[1]\nNo precise prevalence or incidence established due to rarity of condition. However the disease is more prevalent in patients with thrombophilia, oral contraceptive use, and during pregnancy.\n[2]\nMedian Age ~ 37 years\n[2]\nFemale:Male ratio 3:1\n[2]",
+      "subsections": {
+        "Predisposing_factors": {
+          "text": "Mainly a diverse group of hypercoagulable states\nCancer\nLeukemia\nAdenocarcinoma\nPregnancy\n(up to 6 weeks post-partum)\nPolycythemia Vera\nSickle cell\nFactor V Lediden\nProtein S & C deficiency\nHyperhomocysteinemia\nBehcets syndrome\nSevere dehydration in infants and children, mainly in developing countries.\nCOVID-19 vaccines (rare)\n[3]\n1 per 1,000,000 for the Ad26.COV2.S (Johnson & Johnson And Janssen brands)\n1 per 100,000 for the ChAdOx1 nCoV-19 (AstraZeneca brand)\nLocal infections (\notitis media\n,\nsinusitis\n,\ncellulitis\n,\ndental infections\n)\nMastoiditis common cause in developing countries.\nDirect cranial\nTrauma\n& neurosurgical procedures\nCompression of venous sinus (\ntumor\n,\nabscess\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "dental infections",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Predisposing_factors": {
+      "text": "Mainly a diverse group of hypercoagulable states\nCancer\nLeukemia\nAdenocarcinoma\nPregnancy\n(up to 6 weeks post-partum)\nPolycythemia Vera\nSickle cell\nFactor V Lediden\nProtein S & C deficiency\nHyperhomocysteinemia\nBehcets syndrome\nSevere dehydration in infants and children, mainly in developing countries.\nCOVID-19 vaccines (rare)\n[3]\n1 per 1,000,000 for the Ad26.COV2.S (Johnson & Johnson And Janssen brands)\n1 per 100,000 for the ChAdOx1 nCoV-19 (AstraZeneca brand)\nLocal infections (\notitis media\n,\nsinusitis\n,\ncellulitis\n,\ndental infections\n)\nMastoiditis common cause in developing countries.\nDirect cranial\nTrauma\n& neurosurgical procedures\nCompression of venous sinus (\ntumor\n,\nabscess\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "dental infections",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Clinical presentation varies depending on location, acuity, and severity of thrombosis. More gradual onset of symptoms or thrombosis allows for compensatory collateral venous system to develop",
+      "subsections": {
+        "Common_Symptoms": {
+          "text": "Symptoms are variable and may not all be present\n[4]\nHeadache\n74-92%\nUsually progresses during a period of hours or days to severe aching or throbbing over the entire cranium, bifrontally, or at the vertex.\nPain at the vertex of the cranium is infrequent but more specific.\n[5]\nCoughing, bending over, or head movements tend to worsen headaches.\nSeizures\n35-50%\nUsually focal convulsions\nPapilledema\n28-45%\nFocal neurologic sequelae\nOccurs hours to days after headache in about half of patients\ndizziness\n) 25-71%\nEncephalopathy",
+          "tables": []
+        },
+        "Neurodeficits": {
+          "text": "Although presentation can be highly variable, neuro deficits can be correlated with the location of the occlusion\n[4]\nSuperior Sagital sinus\nmotor deficits\nParesis of one or both legs or hemiparesis from infarction in the frontoparietal regions surrounding the vein of Trolard\n[6]\nSeizures\nLeft transverse sinus\nAphasia and confusion from infarction in the temporal lobe surrounding the vein of Labbe\n[7]\nCavernous sinus\nocular pain\n,\nproptosis\n, oculomotor palsies\nCN palsy of 3,4, and 6 as well as the ophthalmic and maxillary divisions of the 5th cranial nerve.\nDeep venous sinus\nDrowsiness or stupor from bilateral thalamic dysfunction and obstructive hydrocephalus.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Cavernous sinus",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "ocular pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "proptosis",
+          "url": "https://wikem.org/wiki/Proptosis"
+        }
+      ]
+    },
+    "Common_Symptoms": {
+      "text": "Symptoms are variable and may not all be present\n[4]\nHeadache\n74-92%\nUsually progresses during a period of hours or days to severe aching or throbbing over the entire cranium, bifrontally, or at the vertex.\nPain at the vertex of the cranium is infrequent but more specific.\n[5]\nCoughing, bending over, or head movements tend to worsen headaches.\nSeizures\n35-50%\nUsually focal convulsions\nPapilledema\n28-45%\nFocal neurologic sequelae\nOccurs hours to days after headache in about half of patients\ndizziness\n) 25-71%\nEncephalopathy",
+      "subsections": {
+        "Neurodeficits": {
+          "text": "Although presentation can be highly variable, neuro deficits can be correlated with the location of the occlusion\n[4]\nSuperior Sagital sinus\nmotor deficits\nParesis of one or both legs or hemiparesis from infarction in the frontoparietal regions surrounding the vein of Trolard\n[6]\nSeizures\nLeft transverse sinus\nAphasia and confusion from infarction in the temporal lobe surrounding the vein of Labbe\n[7]\nCavernous sinus\nocular pain\n,\nproptosis\n, oculomotor palsies\nCN palsy of 3,4, and 6 as well as the ophthalmic and maxillary divisions of the 5th cranial nerve.\nDeep venous sinus\nDrowsiness or stupor from bilateral thalamic dysfunction and obstructive hydrocephalus.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Papilledema",
+          "url": "https://wikem.org/wiki/Papilledema"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Cavernous sinus",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "ocular pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "proptosis",
+          "url": "https://wikem.org/wiki/Proptosis"
+        }
+      ]
+    },
+    "Neurodeficits": {
+      "text": "Although presentation can be highly variable, neuro deficits can be correlated with the location of the occlusion\n[4]\nSuperior Sagital sinus\nmotor deficits\nParesis of one or both legs or hemiparesis from infarction in the frontoparietal regions surrounding the vein of Trolard\n[6]\nSeizures\nLeft transverse sinus\nAphasia and confusion from infarction in the temporal lobe surrounding the vein of Labbe\n[7]\nCavernous sinus\nocular pain\n,\nproptosis\n, oculomotor palsies\nCN palsy of 3,4, and 6 as well as the ophthalmic and maxillary divisions of the 5th cranial nerve.\nDeep venous sinus\nDrowsiness or stupor from bilateral thalamic dysfunction and obstructive hydrocephalus.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "motor deficits",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Cavernous sinus",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "ocular pain",
+          "url": "https://wikem.org/wiki/Eye_pain"
+        },
+        {
+          "text": "proptosis",
+          "url": "https://wikem.org/wiki/Proptosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Headache": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Migraine headache\nTension headache\nCluster headache",
+          "tables": []
+        },
+        "Killers": {
+          "text": "Meningitis\n/\nencephalitis\nNeoplastic meningitis\nMyocardial ischemia\nRetropharyngeal abscess\nIntracranial Hemorrhage (ICH)\nSAH\n/ sentinel bleed\nAcute obstructive\nhydrocephalus\nSpace occupying lesions\nCVA\nCarbon monoxide poisoning\nBasilar artery dissection\nPreeclampsia\nCerebral venous thrombosis\nHypertensive emergency\nDepression",
+          "tables": []
+        },
+        "Maimers": {
+          "text": "Giant cell arteritis\nof temporal artery (temporal arteritis)\nIdiopathic intracranial hypertension\n(Pseudotumor Cerebri)\nAcute Glaucoma\nAcute\nsinusitis\nCavernous sinus thrombosis\nor\ncerebral sinus thrombosis\nCarotid artery dissection",
+          "tables": []
+        },
+        "Others": {
+          "text": "Mild traumatic brain injury\nTrigeminal neuralgia\nTMJ\npain\nPost-lumbar puncture headache\nDehydration\nAnalgesia\nabuse\nVarious ocular and\ndental\nproblems\nHerpes zoster ophthalmicus\nHerpes zoster oticus\nCryptococcosis\nFebrile headache (e.g.\npyelonephritis\n,\nnonspecific viral infection\n)\nOphthalmoplegic\nmigraine\nSuperior Vena Cava Syndrome",
+          "tables": []
+        },
+        "Aseptic_Meningitis": {
+          "text": "Viral\nVaricella\nHerpes\nEnterovirus\nWest Nile\nTuberculosis\nLyme disease\nSyphilis\nLeptospirosis\nFungal\n(\nAIDS\n, transplant, chemotherapy, chronic\nsteroid\nuse)\nNoninfectious\nSarcoidosis\nVasculitis\nConnective tissue disease\nDrug induced aseptic meningitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Migraine headache",
+          "url": "https://wikem.org/wiki/Migraine_headache"
+        },
+        {
+          "text": "Tension headache",
+          "url": "https://wikem.org/wiki/Tension_headache"
+        },
+        {
+          "text": "Cluster headache",
+          "url": "https://wikem.org/wiki/Cluster_headache"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Neoplastic meningitis",
+          "url": "https://wikem.org/wiki/Neoplastic_meningitis"
+        },
+        {
+          "text": "Myocardial ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Retropharyngeal abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_abscess"
+        },
+        {
+          "text": "Intracranial Hemorrhage (ICH)",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage_(ICH)"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "hydrocephalus",
+          "url": "https://wikem.org/wiki/Hydrocephalus"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Carbon monoxide poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_poisoning"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Idiopathic intracranial hypertension",
+          "url": "https://wikem.org/wiki/Idiopathic_intracranial_hypertension"
+        },
+        {
+          "text": "Acute Glaucoma",
+          "url": "https://wikem.org/wiki/Acute_Angle-Closure_Glaucoma"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        },
+        {
+          "text": "Carotid artery dissection",
+          "url": "https://wikem.org/wiki/Carotid_artery_dissection"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Trigeminal neuralgia",
+          "url": "https://wikem.org/wiki/Trigeminal_neuralgia"
+        },
+        {
+          "text": "TMJ",
+          "url": "https://wikem.org/wiki/TMJ"
+        },
+        {
+          "text": "Post-lumbar puncture headache",
+          "url": "https://wikem.org/wiki/Post-lumbar_puncture_headache"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "dental",
+          "url": "https://wikem.org/wiki/Dental_problem"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes zoster oticus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_oticus"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "nonspecific viral infection",
+          "url": "https://wikem.org/wiki/Nonspecific_viral_infection"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Superior Vena Cava Syndrome",
+          "url": "https://wikem.org/wiki/Superior_Vena_Cava_Syndrome"
+        },
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "West Nile",
+          "url": "https://wikem.org/wiki/West_Nile"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Fungal",
+          "url": "https://wikem.org/wiki/Fungal_infections"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "steroid",
+          "url": "https://wikem.org/wiki/Steroid"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Drug induced aseptic meningitis",
+          "url": "https://wikem.org/wiki/Drug_induced_aseptic_meningitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Suspect in patients with headache, signs of increased ICP, or focal neurologic deficits, especially if any of above predisposing factors are present",
+      "subsections": {
+        "Imaging": {
+          "text": "MRI\nand MRV are considered diagnostic study of choice\n[8]\nCT venography is a reasonable alternative if there is a contraindication to MRV and may have a similar sensitivity to MRV in recent studies\n[8]\n[9]\nMay see \"Empty delta sign\" dense triangle in superior sagittal sinus\n[10]\nCord sign: thrombus in the cerebral sinus may appear as a hyperattenuated foci. It is homogenous in nature and appears linear or round based on the affected sinus. This is most commonly seen in the first week.\n[11]\nVein Sign: After two weeks, the thrombus becomes hypoattenuated. When the thrombus is located in the deep vein it is referred to as the vein sign.\n[12]\nNon contrast\nCT\npossesses insufficient sensitivity or specificity to be of diagnostic value in the setting of high clinical suspicion\nMay see \"dense delta sign\" (hyperattenuation consistent with thrombus in the posterior sagittal sinus)",
+          "tables": []
+        },
+        "Labs": {
+          "text": "D-Dimer\nis not a reliable test to rule out a cerebral venous thrombosis\n[13]\n[14]\nIn patients with a concern for\nmeningitis\nthen pursue diagnosis via standard workup which includes a\nCT before lumbar puncture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "D-Dimer",
+          "url": "https://wikem.org/wiki/D-Dimer"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CT before lumbar puncture",
+          "url": "https://wikem.org/wiki/CT_before_lumbar_puncture"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "MRI\nand MRV are considered diagnostic study of choice\n[8]\nCT venography is a reasonable alternative if there is a contraindication to MRV and may have a similar sensitivity to MRV in recent studies\n[8]\n[9]\nMay see \"Empty delta sign\" dense triangle in superior sagittal sinus\n[10]\nCord sign: thrombus in the cerebral sinus may appear as a hyperattenuated foci. It is homogenous in nature and appears linear or round based on the affected sinus. This is most commonly seen in the first week.\n[11]\nVein Sign: After two weeks, the thrombus becomes hypoattenuated. When the thrombus is located in the deep vein it is referred to as the vein sign.\n[12]\nNon contrast\nCT\npossesses insufficient sensitivity or specificity to be of diagnostic value in the setting of high clinical suspicion\nMay see \"dense delta sign\" (hyperattenuation consistent with thrombus in the posterior sagittal sinus)",
+      "subsections": {
+        "Labs": {
+          "text": "D-Dimer\nis not a reliable test to rule out a cerebral venous thrombosis\n[13]\n[14]\nIn patients with a concern for\nmeningitis\nthen pursue diagnosis via standard workup which includes a\nCT before lumbar puncture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI",
+          "url": "https://wikem.org/wiki/Brain_MRI"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "D-Dimer",
+          "url": "https://wikem.org/wiki/D-Dimer"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CT before lumbar puncture",
+          "url": "https://wikem.org/wiki/CT_before_lumbar_puncture"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "D-Dimer\nis not a reliable test to rule out a cerebral venous thrombosis\n[13]\n[14]\nIn patients with a concern for\nmeningitis\nthen pursue diagnosis via standard workup which includes a\nCT before lumbar puncture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D-Dimer",
+          "url": "https://wikem.org/wiki/D-Dimer"
+        },
+        {
+          "text": "meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CT before lumbar puncture",
+          "url": "https://wikem.org/wiki/CT_before_lumbar_puncture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Anticoagulation": {
+          "text": "Heparin\nor\nlow molecular weight heparin\n(Grade 1C)\nOf note, heparin initial bolus is 3000-5000U, lower than the dosing for PE/DVT\nFollowing the acute phase, patients should transition to oral anticoagulation for a 3-6 month duration\nWarfarin\nis recommended as oral anticoagulation of choice\nThere is a controversy regarding the use of direct oral anticoagulants. However, findings from the RE-SPECT CVT trial which was published recently and compared warfarin to dabigatran, suggest that both agents have similar effectiveness and safety for preventing recurrent CVT.",
+          "tables": []
+        },
+        "Seizure_prophylaxis": {
+          "text": "Recommended for patients with seizure at presentation PLUS focal cerebral lesion (edema, infarction or hemorrhage on CT/MRI) (Grade 1B)\nOnly required if the patient has a\nseizure\n[15]\nProphylaxis with antiepileptic is NOT required if the patient has a single seizure with no signs of supratentorial cerebral lesion.",
+          "tables": []
+        },
+        "Supportive_care": {
+          "text": "Frequent neurologic checks and clinical monitoring for\nincreased ICP\nNeurology or neurosurgical consultation depending on institutional resources",
+          "tables": []
+        },
+        "Acute_Decompensation": {
+          "text": "If persistent or severe\nelevated intracranial pressure\na hemicraniectomy may be necessary\nIntravascular\nthrombolytics\n(either catheter guided or systemic) in coordination with neurology may be required if the patient experiences rapidly progressing decompensation\n[16]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    },
+    "Anticoagulation": {
+      "text": "Heparin\nor\nlow molecular weight heparin\n(Grade 1C)\nOf note, heparin initial bolus is 3000-5000U, lower than the dosing for PE/DVT\nFollowing the acute phase, patients should transition to oral anticoagulation for a 3-6 month duration\nWarfarin\nis recommended as oral anticoagulation of choice\nThere is a controversy regarding the use of direct oral anticoagulants. However, findings from the RE-SPECT CVT trial which was published recently and compared warfarin to dabigatran, suggest that both agents have similar effectiveness and safety for preventing recurrent CVT.",
+      "subsections": {
+        "Seizure_prophylaxis": {
+          "text": "Recommended for patients with seizure at presentation PLUS focal cerebral lesion (edema, infarction or hemorrhage on CT/MRI) (Grade 1B)\nOnly required if the patient has a\nseizure\n[15]\nProphylaxis with antiepileptic is NOT required if the patient has a single seizure with no signs of supratentorial cerebral lesion.",
+          "tables": []
+        },
+        "Supportive_care": {
+          "text": "Frequent neurologic checks and clinical monitoring for\nincreased ICP\nNeurology or neurosurgical consultation depending on institutional resources",
+          "tables": []
+        },
+        "Acute_Decompensation": {
+          "text": "If persistent or severe\nelevated intracranial pressure\na hemicraniectomy may be necessary\nIntravascular\nthrombolytics\n(either catheter guided or systemic) in coordination with neurology may be required if the patient experiences rapidly progressing decompensation\n[16]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    },
+    "Seizure_prophylaxis": {
+      "text": "Recommended for patients with seizure at presentation PLUS focal cerebral lesion (edema, infarction or hemorrhage on CT/MRI) (Grade 1B)\nOnly required if the patient has a\nseizure\n[15]\nProphylaxis with antiepileptic is NOT required if the patient has a single seizure with no signs of supratentorial cerebral lesion.",
+      "subsections": {
+        "Supportive_care": {
+          "text": "Frequent neurologic checks and clinical monitoring for\nincreased ICP\nNeurology or neurosurgical consultation depending on institutional resources",
+          "tables": []
+        },
+        "Acute_Decompensation": {
+          "text": "If persistent or severe\nelevated intracranial pressure\na hemicraniectomy may be necessary\nIntravascular\nthrombolytics\n(either catheter guided or systemic) in coordination with neurology may be required if the patient experiences rapidly progressing decompensation\n[16]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "Frequent neurologic checks and clinical monitoring for\nincreased ICP\nNeurology or neurosurgical consultation depending on institutional resources",
+      "subsections": {
+        "Acute_Decompensation": {
+          "text": "If persistent or severe\nelevated intracranial pressure\na hemicraniectomy may be necessary\nIntravascular\nthrombolytics\n(either catheter guided or systemic) in coordination with neurology may be required if the patient experiences rapidly progressing decompensation\n[16]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    },
+    "Acute_Decompensation": {
+      "text": "If persistent or severe\nelevated intracranial pressure\na hemicraniectomy may be necessary\nIntravascular\nthrombolytics\n(either catheter guided or systemic) in coordination with neurology may be required if the patient experiences rapidly progressing decompensation\n[16]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission\nTo a level of care capable of frequent neurologic monitoring.  Inpatient, the patient should also have a evaluation for a coagulopathy.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Headache\nHead CT\nCavernous sinus thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        }
+      ]
+    }
+  }
+}

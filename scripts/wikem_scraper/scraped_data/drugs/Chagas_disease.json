@@ -1,0 +1,258 @@
+{
+  "drug_name": "Chagas_disease",
+  "url": "https://wikem.org/wiki/Chagas_disease",
+  "scraped_at": "2026-01-10T07:50:15.999405",
+  "sections": {
+    "Background": {
+      "text": "Also known as American Trypanosomiasis\nEndemic in rural parts of Cental and South America\nRare cases found in Southern United States\nCaused by the parasite trypanosoma cruzi\nVector: Reduviid (kissing bug)\nThe parasite is transmitted in the feces of the host vector\nWhen the vector bites, it also defecates and the parasites enter the blood stream through the bite wound",
+      "subsections": {
+        "Transmission": {
+          "text": "Disease of poverty\nSpread by the\nTriatominae\nbug (also known as the kissing bug)\nThe Triatomina bug thrives in housing that is old, has thatched roofs and dwellings where the roof does not abut the wall.\nOther methods of transmission\nVertical (mother to child)\nTransfusion/organ donation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Transmission": {
+      "text": "Disease of poverty\nSpread by the\nTriatominae\nbug (also known as the kissing bug)\nThe Triatomina bug thrives in housing that is old, has thatched roofs and dwellings where the roof does not abut the wall.\nOther methods of transmission\nVertical (mother to child)\nTransfusion/organ donation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute_phase": {
+          "text": "Romañas sign\nswelling of the eye thought to be secondary to rubbing the feces into the eye\nChagoma\nLocalized swelling at the area of parasite entry\nNon-specific signs and symptoms\nFever\n,\nfatigue\n,\nmyalgia\n,\nheadache\n, anorexia,\nvomiting\n,\ndiarrhea\nSerious complications\nMyocarditis\n,\narrhythmia\n,\nencephalitis",
+          "tables": []
+        },
+        "Chronic_phase": {
+          "text": "Between 20-40% of patients will develop chronic complications\nCardiac complications\nDilated cardiomyopathy\n(\nCHF\n)\nDysrhythmias\nGI complications\nMegaesophagus\nMegacolon\nAchalasia\nVolvulus\nHepatosplenomegaly\n(secondary to HF)\nNeuro symptoms\nNeuritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Acute_phase": {
+      "text": "Romañas sign\nswelling of the eye thought to be secondary to rubbing the feces into the eye\nChagoma\nLocalized swelling at the area of parasite entry\nNon-specific signs and symptoms\nFever\n,\nfatigue\n,\nmyalgia\n,\nheadache\n, anorexia,\nvomiting\n,\ndiarrhea\nSerious complications\nMyocarditis\n,\narrhythmia\n,\nencephalitis",
+      "subsections": {
+        "Chronic_phase": {
+          "text": "Between 20-40% of patients will develop chronic complications\nCardiac complications\nDilated cardiomyopathy\n(\nCHF\n)\nDysrhythmias\nGI complications\nMegaesophagus\nMegacolon\nAchalasia\nVolvulus\nHepatosplenomegaly\n(secondary to HF)\nNeuro symptoms\nNeuritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Chronic_phase": {
+      "text": "Between 20-40% of patients will develop chronic complications\nCardiac complications\nDilated cardiomyopathy\n(\nCHF\n)\nDysrhythmias\nGI complications\nMegaesophagus\nMegacolon\nAchalasia\nVolvulus\nHepatosplenomegaly\n(secondary to HF)\nNeuro symptoms\nNeuritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dilated cardiomyopathy",
+          "url": "https://wikem.org/wiki/Dilated_cardiomyopathy"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Achalasia",
+          "url": "https://wikem.org/wiki/Achalasia"
+        },
+        {
+          "text": "Volvulus",
+          "url": "https://wikem.org/wiki/Volvulus"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nLFTs\nBlood smear\nCan visualize parasites\nPCR, ELISA, immunofluorescence",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Benznidazole\nor\nNifurtimox\nSymptomatic treatment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benznidazole",
+          "url": "https://wikem.org/wiki/Benznidazole"
+        },
+        {
+          "text": "Nifurtimox",
+          "url": "https://wikem.org/wiki/Nifurtimox"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: American Trypanosomiasis (also known as Chagas Disease)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Parasitic Diseases\nTravel Medicine\nCardiomyopathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        }
+      ]
+    }
+  }
+}

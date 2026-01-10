@@ -1,0 +1,468 @@
+{
+  "drug_name": "Cholestasis_of_pregnancy",
+  "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy",
+  "scraped_at": "2026-01-10T07:50:30.298240",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Caused by combination of hormonal, genetic, and environmental factors --> impaired bile flow --> deposition of bile salts in skin and placenta\nMay predispose mothers to\nvitamin K deficiency\nand increase risk of preterm delivery,\nIUFD\n, and neonatal\nrespiratory distress syndrome\n[1]",
+      "subsections": {
+        "Gallbladder_disease_types": {
+          "text": "Symptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute calculous cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nBiliary atresia\nCholestasis of pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute calculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_calculous_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Biliary atresia",
+          "url": "https://wikem.org/wiki/Biliary_atresia"
+        }
+      ]
+    },
+    "Gallbladder_disease_types": {
+      "text": "Symptomatic cholelithiasis\n(biliary colic)\nCholedocholithiasis\nAcute calculous cholecystitis\nAscending cholangitis\nAcalculous cholecystitis\nBiliary atresia\nCholestasis of pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Symptomatic cholelithiasis",
+          "url": "https://wikem.org/wiki/Symptomatic_cholelithiasis"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Acute calculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acute_calculous_cholecystitis"
+        },
+        {
+          "text": "Ascending cholangitis",
+          "url": "https://wikem.org/wiki/Ascending_cholangitis"
+        },
+        {
+          "text": "Acalculous cholecystitis",
+          "url": "https://wikem.org/wiki/Acalculous_cholecystitis"
+        },
+        {
+          "text": "Biliary atresia",
+          "url": "https://wikem.org/wiki/Biliary_atresia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Typically develops in late second and/or 3rd trimester\nRapidly resolves after delivery\nPruritus\n, starts and predominates on palms and soles\nRUQ pain\nNausea\nJaundice",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        },
+        "Pregnancy-specific_pruritus": {
+          "text": "see also:\nRashes of pregnancy\nPruritus gravidarum\nAtopic eruption of pregnancy\nPolymorphic eruption of pregnancy\nPemphigoid gestationis\nPrurigo of pregnancy\nPruritic folliculitis of pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Jaundice": {
+      "text": "",
+      "subsections": {
+        "Indirect_Hyperbilirubinemia": {
+          "text": "Hemolytic\nG6PD\nDrug related\nAutoimmune hemolytic anemia\nHematoma resorption\nIneffective erythropoiesis\nGilbert's",
+          "tables": []
+        },
+        "Direct_(Conjugated)_Hyperbilirubinemia": {
+          "text": "Choledocholithiasis\nCholecystitis\nAscending\ncholangitis\nAIDS\ncholangiopathy\nStricture\nNeoplasm\nPancreatic head\nGallbladder\nPrimary liver (e.g.\nhepatocellular carcinoma\n)\nMetastatic\nObstructing\nAAA",
+          "tables": []
+        },
+        "Hepatocellular_damage": {
+          "text": "Patient will have severely elevated AST/ALT with often normal Alkaline Phosphatase\nViral hepatitis\nFulminant hepatic failure\nalcoholic hepatitis\nIschemic hepatitis\nToxins\nIsoniazid\nPhenytoin\nacetaminophen\nRitonavir\nHalothane\nSulfonamide\nAutoimmune hepatitis\nPrimary biliary cirrhosis\nHELLP Syndrome\nCongestive Hepatopathy\nCHF\nSepsis\n(\nShock Liver\n)",
+          "tables": []
+        },
+        "Pregnancy_Related": {
+          "text": "HELLP syndrome\nAcute fatty liver of pregnancy\nHyperemesis gravidarum\nCholestasis of pregnancy",
+          "tables": []
+        },
+        "Transplant_Related": {
+          "text": "Transplant rejection\nGraft-vs-host disease",
+          "tables": []
+        },
+        "Pediatric_Related": {
+          "text": "Inborn error of metabolism\nNeonatal jaundice\n(physiologic)",
+          "tables": []
+        },
+        "Additional_Differential_Diagnosis": {
+          "text": "Reye syndrome\nTPN\nHeatstroke\nBudd-Chiari\n(with acute ascites)\nWilson's disease\nSarcoidosis\nAmyloidosis",
+          "tables": []
+        },
+        "Masqueraders": {
+          "text": "Only bilirubin stains the sclera\nCarotenemia\nQuinacrine ingestion\nDinitrophenol, teryl (explosive chemicals)",
+          "tables": []
+        },
+        "Pregnancy-specific_pruritus": {
+          "text": "see also:\nRashes of pregnancy\nPruritus gravidarum\nAtopic eruption of pregnancy\nPolymorphic eruption of pregnancy\nPemphigoid gestationis\nPrurigo of pregnancy\nPruritic folliculitis of pregnancy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "G6PD",
+          "url": "https://wikem.org/wiki/G6PD"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "Choledocholithiasis",
+          "url": "https://wikem.org/wiki/Choledocholithiasis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "cholangitis",
+          "url": "https://wikem.org/wiki/Cholangitis"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "AAA",
+          "url": "https://wikem.org/wiki/AAA"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Fulminant hepatic failure",
+          "url": "https://wikem.org/wiki/Acute_liver_failure"
+        },
+        {
+          "text": "alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Isoniazid",
+          "url": "https://wikem.org/wiki/Isoniazid"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen_(Tylenol)_Toxicity"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "HELLP Syndrome",
+          "url": "https://wikem.org/wiki/HELLP_Syndrome"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock Liver",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Transplant rejection",
+          "url": "https://wikem.org/wiki/Transplant_complications"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Inborn error of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_error_of_metabolism"
+        },
+        {
+          "text": "Neonatal jaundice",
+          "url": "https://wikem.org/wiki/Neonatal_jaundice"
+        },
+        {
+          "text": "Reye syndrome",
+          "url": "https://wikem.org/wiki/Reye_syndrome"
+        },
+        {
+          "text": "Heatstroke",
+          "url": "https://wikem.org/wiki/Heatstroke"
+        },
+        {
+          "text": "Budd-Chiari",
+          "url": "https://wikem.org/wiki/Budd-Chiari"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        }
+      ]
+    },
+    "Pregnancy-specific_pruritus": {
+      "text": "see also:\nRashes of pregnancy\nPruritus gravidarum\nAtopic eruption of pregnancy\nPolymorphic eruption of pregnancy\nPemphigoid gestationis\nPrurigo of pregnancy\nPruritic folliculitis of pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "CBC (rule out thrombocytopenia)\nLFTs\nElevated total bile acid concentration\nAminotransferases usually <2x upper limit of normal\nAlk phos and bili may be elevated\nGGT normal or modestly elevated\nRUQ US\nnormal, no biliary duct dilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ursodeoxycholic acid (\nursodiol\n) 300mg TID until delivery\nOBGYN follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge with OBGYN follow-up",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "https://www.uptodate.com/contents/intrahepatic-cholestasis-of-pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

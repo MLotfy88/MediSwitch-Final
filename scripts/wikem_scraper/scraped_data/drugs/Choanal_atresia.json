@@ -1,0 +1,46 @@
+{
+  "drug_name": "Choanal_atresia",
+  "url": "https://wikem.org/wiki/Choanal_atresia",
+  "scraped_at": "2026-01-10T07:50:25.200278",
+  "sections": {
+    "Background": {
+      "text": "Obliteration or blockage of the posterior nasal aperture\nIncidence is between 1:5000 and 1:8000 live births\nApproximately 60% of cases are unilateral\nMore common in girls than in boys",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Clinical presentation will depend on if unilateral or bilateral\nUnilateral\nTypically present later in life\nCommonly with purulent nasal discharge and obstruction on the affected side and/or a history of chronic sinusitis\nRarely will present with respiratory distress\nBilateral\nTypically will present in early life with episodes of acute respiratory distress with cyanosis that is relieved with crying and with the return of cyanosis with rest (paradoxical cyanosis)\nMay present with feeding difficulty, as they are unable to breathe and feed simultaneously\nMay be an isolated anomaly or associated with a congenital anomaly syndrome (e.g. Treacher-Collins, CHARGE, VACTERL/VATER, Pfeiffer)\nOther congenital anomalies are in present in 50% of individuals with unilateral choanal atresia and 60% of individuals with bilateral choanal atresia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Deviated or dislocated nasal septum\nNasal septal hematoma\nNasal polyp\nChordoma\nIsolated piriform aperture stenosis\nNasal dermoid\nNasolacrimal duct cyst\nTurbinate hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Nasal polyp",
+          "url": "https://wikem.org/wiki/Nasal_polyp"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Examiner can attempt to pass a 5 or 6 fr catheter from the nose to the oropharynx, alternatively the examiner can use a qualitative measure of nasal airflow (i.e. the movement of a wisp of cotton under the nostrils, fogging of a mirror)\nDiagnosis is confirmed with CT imaging with intranasal contrast\nIdeally diagnosis of this condition should be done immediately after birth\nA thorough physical exam should also be performed to detect associated anomalies",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Unilateral\nGenerally does not require emergent surgical repair, but respiratory status should be carefully considered.\nNasal saline can be helpful for keeping the nasal route clear\nBilateral\nIf presenting with respiratory distress, individuals require immediate airway management, either with an oral airway or endotracheal intubation\n[1]\nDefinitive management is surgical repair",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

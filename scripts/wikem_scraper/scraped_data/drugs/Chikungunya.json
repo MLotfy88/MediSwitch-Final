@@ -1,0 +1,1349 @@
+{
+  "drug_name": "Chikungunya",
+  "url": "https://wikem.org/wiki/Chikungunya",
+  "scraped_at": "2026-01-10T07:50:23.396621",
+  "sections": {
+    "Background": {
+      "text": "Aedes mosquito transmitted virus, originally found in West Africa but cases in the Americas beginning in 2013\nFrequently difficult clinically to differentiate from\ndengue\nfever\n\"Chikungunya\" is a Tanzanian derived word meaning “that which bends up”\n[1]",
+      "subsections": {
+        "Geographic_Distribution": {
+          "text": "Countries and territories where chikungunya cases have been reported (as of 10/2014):",
+          "tables": [
+            [
+              {
+                "AFRICA": "Benin",
+                "OCEANIA/PACIFIC ISLANDS": "American Samoa",
+                "AMERICAS": "Anguilla"
+              },
+              {
+                "AFRICA": "Burundi",
+                "OCEANIA/PACIFIC ISLANDS": "Federal States of Micronesia",
+                "AMERICAS": "Antigua and Barbuda"
+              },
+              {
+                "AFRICA": "Cameroon",
+                "OCEANIA/PACIFIC ISLANDS": "New Caledonia",
+                "AMERICAS": "Aruba"
+              },
+              {
+                "AFRICA": "Central African Republic",
+                "OCEANIA/PACIFIC ISLANDS": "Papua New Guinea",
+                "AMERICAS": "Bahamas"
+              },
+              {
+                "AFRICA": "Comoros",
+                "OCEANIA/PACIFIC ISLANDS": "Tonga",
+                "AMERICAS": "Barbados"
+              },
+              {
+                "AFRICA": "Democratic Republic of the Congo",
+                "OCEANIA/PACIFIC ISLANDS": "ASIA",
+                "AMERICAS": "Brazil"
+              },
+              {
+                "AFRICA": "Equatorial Guinea",
+                "OCEANIA/PACIFIC ISLANDS": "Bangladesh",
+                "AMERICAS": "British Virgin Islands"
+              },
+              {
+                "AFRICA": "Gabon",
+                "OCEANIA/PACIFIC ISLANDS": "Bhutan",
+                "AMERICAS": "Cayman Islands"
+              },
+              {
+                "AFRICA": "Guinea",
+                "OCEANIA/PACIFIC ISLANDS": "Cambodia",
+                "AMERICAS": "Colombia"
+              },
+              {
+                "AFRICA": "Kenya",
+                "OCEANIA/PACIFIC ISLANDS": "China",
+                "AMERICAS": "Costa Rica"
+              },
+              {
+                "AFRICA": "Madagascar",
+                "OCEANIA/PACIFIC ISLANDS": "India",
+                "AMERICAS": "Curacao"
+              },
+              {
+                "AFRICA": "Malawi",
+                "OCEANIA/PACIFIC ISLANDS": "Indonesia",
+                "AMERICAS": "Dominica"
+              },
+              {
+                "AFRICA": "Mauritius",
+                "OCEANIA/PACIFIC ISLANDS": "Laos",
+                "AMERICAS": "Dominican Republic"
+              },
+              {
+                "AFRICA": "Mayotte",
+                "OCEANIA/PACIFIC ISLANDS": "Malaysia",
+                "AMERICAS": "El Salvador"
+              },
+              {
+                "AFRICA": "Nigeria",
+                "OCEANIA/PACIFIC ISLANDS": "Maldives",
+                "AMERICAS": "French Guiana"
+              },
+              {
+                "AFRICA": "Republic of Congo",
+                "OCEANIA/PACIFIC ISLANDS": "Myanmar (Burma)",
+                "AMERICAS": "Grenada"
+              },
+              {
+                "AFRICA": "Reunion",
+                "OCEANIA/PACIFIC ISLANDS": "Pakistan",
+                "AMERICAS": "Guadeloupe"
+              },
+              {
+                "AFRICA": "Senegal",
+                "OCEANIA/PACIFIC ISLANDS": "Philippines",
+                "AMERICAS": "Guatemala"
+              },
+              {
+                "AFRICA": "Seychelles",
+                "OCEANIA/PACIFIC ISLANDS": "Saudi Arabia",
+                "AMERICAS": "Guyana"
+              },
+              {
+                "AFRICA": "Sierra Leone",
+                "OCEANIA/PACIFIC ISLANDS": "Singapore",
+                "AMERICAS": "Haiti"
+              },
+              {
+                "AFRICA": "South Africa",
+                "OCEANIA/PACIFIC ISLANDS": "Sri Lanka",
+                "AMERICAS": "Jamaica"
+              },
+              {
+                "AFRICA": "Sudan",
+                "OCEANIA/PACIFIC ISLANDS": "Taiwan",
+                "AMERICAS": "Martinique"
+              },
+              {
+                "AFRICA": "Tanzania",
+                "OCEANIA/PACIFIC ISLANDS": "Thailand",
+                "AMERICAS": "Montserrat"
+              },
+              {
+                "AFRICA": "Uganda",
+                "OCEANIA/PACIFIC ISLANDS": "Timor",
+                "AMERICAS": "Nicaragua"
+              },
+              {
+                "AFRICA": "Zimbabwe",
+                "OCEANIA/PACIFIC ISLANDS": "Vietnam",
+                "AMERICAS": "Panama"
+              },
+              {
+                "AFRICA": "EUROPE",
+                "OCEANIA/PACIFIC ISLANDS": "Yemen",
+                "AMERICAS": "Puerto Rico"
+              },
+              {
+                "AFRICA": "Italy",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Saint Barthelemy"
+              },
+              {
+                "AFRICA": "France",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Saint Kitts and Nevis"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Saint Martin"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Sint Maarten"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Saint Lucia"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Saint Vincent and the Grenadines"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Suriname"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Trinidad and Tobago"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Turks and Caicos Islands"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "United States"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "US Virgin Islands"
+              },
+              {
+                "AFRICA": "",
+                "OCEANIA/PACIFIC ISLANDS": "",
+                "AMERICAS": "Venezuela"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        }
+      ]
+    },
+    "Geographic_Distribution": {
+      "text": "Countries and territories where chikungunya cases have been reported (as of 10/2014):",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "AFRICA": "Benin",
+            "OCEANIA/PACIFIC ISLANDS": "American Samoa",
+            "AMERICAS": "Anguilla"
+          },
+          {
+            "AFRICA": "Burundi",
+            "OCEANIA/PACIFIC ISLANDS": "Federal States of Micronesia",
+            "AMERICAS": "Antigua and Barbuda"
+          },
+          {
+            "AFRICA": "Cameroon",
+            "OCEANIA/PACIFIC ISLANDS": "New Caledonia",
+            "AMERICAS": "Aruba"
+          },
+          {
+            "AFRICA": "Central African Republic",
+            "OCEANIA/PACIFIC ISLANDS": "Papua New Guinea",
+            "AMERICAS": "Bahamas"
+          },
+          {
+            "AFRICA": "Comoros",
+            "OCEANIA/PACIFIC ISLANDS": "Tonga",
+            "AMERICAS": "Barbados"
+          },
+          {
+            "AFRICA": "Democratic Republic of the Congo",
+            "OCEANIA/PACIFIC ISLANDS": "ASIA",
+            "AMERICAS": "Brazil"
+          },
+          {
+            "AFRICA": "Equatorial Guinea",
+            "OCEANIA/PACIFIC ISLANDS": "Bangladesh",
+            "AMERICAS": "British Virgin Islands"
+          },
+          {
+            "AFRICA": "Gabon",
+            "OCEANIA/PACIFIC ISLANDS": "Bhutan",
+            "AMERICAS": "Cayman Islands"
+          },
+          {
+            "AFRICA": "Guinea",
+            "OCEANIA/PACIFIC ISLANDS": "Cambodia",
+            "AMERICAS": "Colombia"
+          },
+          {
+            "AFRICA": "Kenya",
+            "OCEANIA/PACIFIC ISLANDS": "China",
+            "AMERICAS": "Costa Rica"
+          },
+          {
+            "AFRICA": "Madagascar",
+            "OCEANIA/PACIFIC ISLANDS": "India",
+            "AMERICAS": "Curacao"
+          },
+          {
+            "AFRICA": "Malawi",
+            "OCEANIA/PACIFIC ISLANDS": "Indonesia",
+            "AMERICAS": "Dominica"
+          },
+          {
+            "AFRICA": "Mauritius",
+            "OCEANIA/PACIFIC ISLANDS": "Laos",
+            "AMERICAS": "Dominican Republic"
+          },
+          {
+            "AFRICA": "Mayotte",
+            "OCEANIA/PACIFIC ISLANDS": "Malaysia",
+            "AMERICAS": "El Salvador"
+          },
+          {
+            "AFRICA": "Nigeria",
+            "OCEANIA/PACIFIC ISLANDS": "Maldives",
+            "AMERICAS": "French Guiana"
+          },
+          {
+            "AFRICA": "Republic of Congo",
+            "OCEANIA/PACIFIC ISLANDS": "Myanmar (Burma)",
+            "AMERICAS": "Grenada"
+          },
+          {
+            "AFRICA": "Reunion",
+            "OCEANIA/PACIFIC ISLANDS": "Pakistan",
+            "AMERICAS": "Guadeloupe"
+          },
+          {
+            "AFRICA": "Senegal",
+            "OCEANIA/PACIFIC ISLANDS": "Philippines",
+            "AMERICAS": "Guatemala"
+          },
+          {
+            "AFRICA": "Seychelles",
+            "OCEANIA/PACIFIC ISLANDS": "Saudi Arabia",
+            "AMERICAS": "Guyana"
+          },
+          {
+            "AFRICA": "Sierra Leone",
+            "OCEANIA/PACIFIC ISLANDS": "Singapore",
+            "AMERICAS": "Haiti"
+          },
+          {
+            "AFRICA": "South Africa",
+            "OCEANIA/PACIFIC ISLANDS": "Sri Lanka",
+            "AMERICAS": "Jamaica"
+          },
+          {
+            "AFRICA": "Sudan",
+            "OCEANIA/PACIFIC ISLANDS": "Taiwan",
+            "AMERICAS": "Martinique"
+          },
+          {
+            "AFRICA": "Tanzania",
+            "OCEANIA/PACIFIC ISLANDS": "Thailand",
+            "AMERICAS": "Montserrat"
+          },
+          {
+            "AFRICA": "Uganda",
+            "OCEANIA/PACIFIC ISLANDS": "Timor",
+            "AMERICAS": "Nicaragua"
+          },
+          {
+            "AFRICA": "Zimbabwe",
+            "OCEANIA/PACIFIC ISLANDS": "Vietnam",
+            "AMERICAS": "Panama"
+          },
+          {
+            "AFRICA": "EUROPE",
+            "OCEANIA/PACIFIC ISLANDS": "Yemen",
+            "AMERICAS": "Puerto Rico"
+          },
+          {
+            "AFRICA": "Italy",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Saint Barthelemy"
+          },
+          {
+            "AFRICA": "France",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Saint Kitts and Nevis"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Saint Martin"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Sint Maarten"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Saint Lucia"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Saint Vincent and the Grenadines"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Suriname"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Trinidad and Tobago"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Turks and Caicos Islands"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "United States"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "US Virgin Islands"
+          },
+          {
+            "AFRICA": "",
+            "OCEANIA/PACIFIC ISLANDS": "",
+            "AMERICAS": "Venezuela"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Fever\ntypically greater than 39deg\nPolyarthralgias, bilateral and symmetrical\nRash\n- maculopapular\nMyalgias\nNausea and vomiting\nLymphocytopenia\nElevated LFTs\nAKI\n3-7d incubation period\nPossible \"saddle-back fever\"\nFebrile again 1-2 days after afebrile period\nAfebrile period typically 4-10 days",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "May cause long-term symptoms, with long-term musculoskeletal pain from months to years post infection\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Fever\ntypically greater than 39deg\nPolyarthralgias, bilateral and symmetrical\nRash\n- maculopapular\nMyalgias\nNausea and vomiting\nLymphocytopenia\nElevated LFTs\nAKI\n3-7d incubation period\nPossible \"saddle-back fever\"\nFebrile again 1-2 days after afebrile period\nAfebrile period typically 4-10 days",
+      "subsections": {
+        "Chronic": {
+          "text": "May cause long-term symptoms, with long-term musculoskeletal pain from months to years post infection\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "May cause long-term symptoms, with long-term musculoskeletal pain from months to years post infection\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Fever_in_traveler": {
+          "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+          "tables": []
+        },
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        },
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Fever_in_traveler": {
+      "text": "Normal causes of acute\nfever\n!\nMalaria\nDengue\nLeptospirosis\nTyphoid fever\nTyphus\nViral hemorrhagic fevers\nEbola virus disease\nMarburg virus disease\nLassa fever\nCrimean-Congo hemorrhagic fever\nChikungunya\nYellow fever\nRift valley fever\nQ fever\nAmebiasis\nZika virus",
+      "subsections": {
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        },
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "Typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Viral hemorrhagic fevers",
+          "url": "https://wikem.org/wiki/Viral_hemorrhagic_fevers"
+        },
+        {
+          "text": "Ebola virus disease",
+          "url": "https://wikem.org/wiki/Ebola_virus_disease"
+        },
+        {
+          "text": "Marburg virus disease",
+          "url": "https://wikem.org/wiki/Marburg_virus_disease"
+        },
+        {
+          "text": "Lassa fever",
+          "url": "https://wikem.org/wiki/Lassa_fever"
+        },
+        {
+          "text": "Crimean-Congo hemorrhagic fever",
+          "url": "https://wikem.org/wiki/Crimean-Congo_hemorrhagic_fever"
+        },
+        {
+          "text": "Yellow fever",
+          "url": "https://wikem.org/wiki/Yellow_fever"
+        },
+        {
+          "text": "Rift valley fever",
+          "url": "https://wikem.org/wiki/Rift_valley_fever"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Zika virus",
+          "url": "https://wikem.org/wiki/Zika_virus"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Travel-related_skin_conditions": {
+      "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+      "subsections": {
+        "Maculopapular_rashes": {
+          "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Maculopapular_rashes": {
+      "text": "Infectious\nAdenovirus\nArbovirus\nChikungunya\nEBV\nEhrlichiosis\nEnterovirus\nFifths disease\nHSV 6\nLeptospirosis\nLyme\nMeasles\nMeningococcemia\nMycoplasma\nParvovirus (B19)\nPrimary\nHIV\nPsittacosis\nRickettsia\nRubella\nRubeola\nScabies\nSecondary\nsyphilis\nStreptobacillus moniliformis\nTyphoid fever\n/\ntyphus\nNoninfectious\nAcrodermatitis enteropathica\nAllergy\nDermatomyositis\nErythema marginatum\nErythema multiforme\nLupus\nMiliaria\n(Heat Rash))\nSerum sickness\nSweet's syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Arbovirus",
+          "url": "https://wikem.org/wiki/Arbovirus"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Enterovirus",
+          "url": "https://wikem.org/wiki/Enterovirus"
+        },
+        {
+          "text": "Fifths disease",
+          "url": "https://wikem.org/wiki/Fifths_disease"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Parvovirus (B19)",
+          "url": "https://wikem.org/wiki/Parvovirus_(B19)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Rubeola",
+          "url": "https://wikem.org/wiki/Rubeola"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Streptobacillus moniliformis",
+          "url": "https://wikem.org/wiki/Streptobacillus_moniliformis"
+        },
+        {
+          "text": "Typhoid fever",
+          "url": "https://wikem.org/wiki/Typhoid_fever"
+        },
+        {
+          "text": "typhus",
+          "url": "https://wikem.org/wiki/Typhus"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Dermatomyositis",
+          "url": "https://wikem.org/wiki/Dermatomyositis"
+        },
+        {
+          "text": "Erythema marginatum",
+          "url": "https://wikem.org/wiki/Erythema_marginatum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Lupus"
+        },
+        {
+          "text": "Miliaria",
+          "url": "https://wikem.org/wiki/Miliaria"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC w diff, Cr, LFTs\ncontact CDC for specialized testing; recommends tiger top tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Symptomatic treatment: acute symptoms usually resolve in 7-10d",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Normally able to be treated as outpatient, unless complication",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Travel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

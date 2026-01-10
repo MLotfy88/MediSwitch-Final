@@ -1,0 +1,115 @@
+{
+  "drug_name": "Chlordiazepoxide",
+  "url": "https://wikem.org/wiki/Chlordiazepoxide",
+  "scraped_at": "2026-01-10T07:50:19.882819",
+  "sections": {
+    "General": {
+      "text": "Type:\nBenzodiazepines\nDosage Forms: 5,10, 25mg tab\nCommon Trade Names: Librium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "EtOH withdrawal\nExample taper:\nDay 1: 50mg q6h\nDay 2: 25mg q6h\nDay 3: 25mg q12h\nDay 4: 25mg at night\n(Rx fifteen 25mg tabs)\nMax 300mg per 24 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category D\nLactation risk categories\n: L4; enters breast milk, not recommended\nRenal Dosing: CrCl < 10 cc/min : 1/2 normal dose\nHepatic Dosing: No specific guidelines. Use caution as hepatically metabolized",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk categories",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CNS depression\nParadoxical agitation\nDrug induced EPS\nBone marrow suppression, agranulocytosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Drowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "CNS depression\nParadoxical agitation\nDrug induced EPS\nBone marrow suppression, agranulocytosis",
+      "subsections": {
+        "Common": {
+          "text": "Drowsiness",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Drowsiness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Time to peak: 0.5-2 h\nHalf-life: Parent compound 6-28 h, demoxepam (metabolite) 14-95 h\nMetabolism: Hepatic to desmethyldiazepam (active), desmethylchlordiazepoxide, demoxepam\nExcretion: Urine\nMechanism of Action:\nBenzodiazepines",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Alcohol withdrawal\nEBQ:Outpatient use of benzodiazepines for the treatment of acute alcohol withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "EBQ:Outpatient use of benzodiazepines for the treatment of acute alcohol withdrawal",
+          "url": "https://wikem.org/wiki/EBQ:Outpatient_use_of_benzodiazepines_for_the_treatment_of_acute_alcohol_withdrawal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp\n2019 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2019 updated AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults. J Am Geriatr Soc. 2019;67(4):674-694. doi: 10.1111/jgs.15767. [PubMed 30693946]\nAronoff GR, Bennett WM, Berns JS, et al, Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children, 5th ed. Philadelphia, PA: American College of Physicians; 2007, p 125.\nBaskin SI, and Esdale A, “Is Chlordiazepoxide the Rational Choice Among Benzodiazepines?” Pharmacotherapy, 1982, 2(2):110-19. [PubMed 6152590]\nBergman U, Rosa FW, Baum C, et al, \"Effects of Exposure to Benzodiazepine During Fetal Life,\" Lancet, 1992, 340(8821):694-6. [PubMed 1355799]\nChlordiazepoxide [prescribing information]. Cranbury, NJ: Solco Healthcare; December 2017.\nDolder CR, Nelson MH. Hypnosedative-induced complex behaviours: incidence, mechanisms and management. CNS Drugs. 2008;22(12):1021-1036. doi:10.2165/0023210-200822120-00005. [PubMed 18998740]\nIqbal MM, Sobhan T, Ryals T, et al, \"Effects of Commonly Used Benzodiazepines on the Fetus, the Neonate, and the Nursing Infant,\" Psychiatr Serv, 2002, 53(1):39-49. [PubMed 11773648]\nJennum P, Baandrup L, Ibsen R, et al. Increased all-cause mortality with use of psychotropic medication in dementia patients and controls: A population-based register study. Eur Neuropsychopharmacol. 2015;25(11):1906-1913. doi: 10.1016/j.euroneuro.2015.08.014. [PubMed 26342397]\nLibrium (chlordiazepoxide) [prescribing information]. Costa Mesa, CA: ICN Pharmaceuticals Inc; July 2005.\nMancuso CE, Tanzi MG, Gabay M. Paradoxical reactions to benzodiazepines: literature review and treatment options. Pharmacotherapy. 2004;24(9):1177-1185. [PubMed 15460178]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

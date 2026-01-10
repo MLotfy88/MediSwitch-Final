@@ -1,0 +1,161 @@
+{
+  "drug_name": "Chest_pain_(peds)",
+  "url": "https://wikem.org/wiki/Chest_pain_(peds)",
+  "scraped_at": "2026-01-10T07:50:19.590844",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nchest pain\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Common cause of presentation to the ED, especially in adolescents\nThe majority of pediatric chest pain is benign and not cardiac in origin\nThe main cause of cardiac chest pain in pediatrics is\npericarditis\nFamily history plays an important part screening for familial history of sudden death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Chest pain\nPhysical exam\nListen for murmurs\nPalpate\nCompress rib cage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chest_pain_(peds)": {
+          "text": "Idiopathic (most common)\nPrecordial catch syndrome\nSudden, intense pain with deep inspiration, self-resolving\nUsually located to one finger point and the intercostal space (often at apex of heart)\n[1]\nMusculoskeletal\nCostochondritis\n,\ntrauma\nPulmonary\nPneumothorax\nPneumonia (peds)\nPulmonary embolism\nAortic dissection\nUncommon but consider with history of\nconnective tissue disease\nGI\nEsophagitis\nEsophageal spasm\nGastritis\nPsychosomatic\nPanic attack\nAnxiety\nCardiac (1%)\nLeft-sided obstructive lesions\nDysrhythmias\nHOCM\nPericarditis\nPrinzmetal's angina\n(vasospasm)\nMI\nRare, even post-\nKawasaki\nConsider\ncoronary artery dissection\nMitral valve prolapse\nAnomalous coronary arteries\n]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pneumonia (peds)",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Esophagitis",
+          "url": "https://wikem.org/wiki/Esophagitis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Prinzmetal's angina",
+          "url": "https://wikem.org/wiki/Prinzmetal%27s_angina"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Kawasaki",
+          "url": "https://wikem.org/wiki/Kawasaki"
+        },
+        {
+          "text": "coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Anomalous coronary arteries",
+          "url": "https://wikem.org/wiki/Anomalous_coronary_arteries"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nCXR\nConsider\nechocardiography",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Chest pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,533 @@
+{
+  "drug_name": "Chlamydia_trachomatis",
+  "url": "https://wikem.org/wiki/Chlamydia_trachomatis",
+  "scraped_at": "2026-01-10T07:50:21.903441",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\nchlamydophila\n, another genus of pathogenic bacteria\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common\nSTD\nin the United States\n[1]\nAsymptomatic in > 50% of infected individuals\nRisk factors\n[1]\nAge <26 most prevalent group\nCervical ectopy\nNew or multiple sexual partners\nInconsistent or lack of use of barrier protection\nEarly coitarche",
+      "subsections": {
+        "Complications": {
+          "text": "PID\nEctopic Pregnancy\nInfertility",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STD",
+          "url": "https://wikem.org/wiki/STD"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/Pelvic_Inflammatory_Disease"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "PID\nEctopic Pregnancy\nInfertility",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/Pelvic_Inflammatory_Disease"
+        },
+        {
+          "text": "Ectopic Pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_Pregnancy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Vaginal discharge\nIntermenstrual\nvaginal bleeding\nUrethritis\nEpididymitis\nProctitis\nReactive arthritis\n(urethritis,\nchlamydial conjunctivitis\n, arthritis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Reactive arthritis",
+          "url": "https://wikem.org/wiki/Reactive_arthritis"
+        },
+        {
+          "text": "chlamydial conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydial_conjunctivitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        },
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Dysuria": {
+      "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Acute cystitis",
+          "url": "https://wikem.org/wiki/Acute_cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Endocervical or urethral swab\nUrine chlamydia test\nSpeculum exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Presumed_GC/chlamydia_of_cervix,_urethra,_or_rectum_(uncomplicated)": {
+          "text": "Typically, treatment for\nboth\ngonorrhea and chlamydia is indicated, if one entity is suspected.\nStandard\nGonorrhea\nCeftriaxone\nIM x 1\n500 mg, if weight <150 kg\n1 g, if weight ≥150 kg\nChlamydia\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\nCeftriaxone contraindicated\nGonorrhea\nGentamicin\n240 mg IM x 1\nPLUS\nazithromycin\n2 g PO x 1,\nOR\nCefixime\n800 mg PO x 1\nChlamydia^\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\n^Additional chlamydia coverage only needed if treated with cefixime only",
+          "tables": []
+        },
+        "Partner_Treatment": {
+          "text": "Gonorrhea\nCefixime\n800mg PO x 1\nChlamydia\nNonpregnant:\ndoxycycline\n100mg PO BID x 7 days,\nOR\nPregnant:\nazithromycin\n1g PO x 1",
+          "tables": []
+        },
+        "Presumed_GC/chlamydia_of_the_pharynx_(uncomplicated)": {
+          "text": "Standard\nTypically, treatment for\nboth\ngonorrhea and chlamydia is indicated, if one entity is suspected.\nGonorrhea\nCeftriaxone\nIM x 1\n500 mg, if weight <150 kg\n1 g, if weight ≥150 kg\nChlamydia\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\nCeftriaxone contraindicated\nNo reliable alternative treatments are available for pharyngeal gonorrhea\nFor persons with a history of a beta-lactam allergy, a thorough assessment of the reaction is recommended.\n[4]\nFor persons with an anaphylactic or other severe reaction (e.g.\nStevens Johnson syndrome\n) to ceftriaxone, consult an infectious disease specialist for an alternative treatment recommendation.\nTest of Cure\nCDC recommends a repeat culture be obtained 7-14 days after initial treatment only in persons with pharyngeal gonorrhea.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Stevens Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens_Johnson_syndrome"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge\nAvoid sex for 7 days to prevent transmission\nPartners in the previous 60 days should all be notified/tested/treated\n[1]\nRescreen in 3 months",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "STDs\nProctitis\nLymphogranuloma venereum\n(for L1, L2, and L3 serovars)\nChlamydia conjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STDs",
+          "url": "https://wikem.org/wiki/STDs"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Chlamydia conjunctivitis",
+          "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "drug_name": "Chloroform_toxicity",
+  "url": "https://wikem.org/wiki/Chloroform_toxicity",
+  "scraped_at": "2026-01-10T07:50:22.167360",
+  "sections": {
+    "Background": {
+      "text": "Chloroform (Trichloromethane) is a chlorinated hydrocarbon\nSolvent used in chemical and pharmaceutical industries",
+      "subsections": {
+        "Mechanism_of_Toxicity": {
+          "text": "CNS depressant\nHepatic and renal toxicity via free radical formation\nArrhythmogenesis\nCarcinogenesis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Toxicity": {
+      "text": "CNS depressant\nHepatic and renal toxicity via free radical formation\nArrhythmogenesis\nCarcinogenesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Presentation": {
+      "text": "Nausea\nVomiting\nHeadache\nConfusion\nCardiac\narrhythmia\nComa\nRenal/Hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Based on clinical presentation\nSpecific levels rarely available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Decontamination\nAvoid sympathomimetics like epinephrine which may trigger arrhythmia\nN-acetylcysteine\nmay minimize renal and hepatic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "N-acetylcysteine",
+          "url": "https://wikem.org/wiki/N-acetylcysteine"
+        }
+      ]
+    },
+    "References": {
+      "text": "Olson, K. Poisoning and Drug Overdose, 1999.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "drug_name": "Chlamydophila_psittaci",
+  "url": "https://wikem.org/wiki/Chlamydophila_psittaci",
+  "scraped_at": "2026-01-10T07:50:23.737369",
+  "sections": {
+    "Background": {
+      "text": "6 avian serovars (A-F) and 2 mammalian isolates (WC and M56)\nReservoirs: birds (465 species), duck, geese, turkeys, cattle, muskrats\nTransmission: inhalation from aerosolized urine, feather dust, feces, dried feces, eye secretions. Person-to-person transmission is possible but rare.\nIncubation period usually 5-14 days but can be up to 1 month\nAll transmittable to humans with potential for severe disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "High\nfever\n(up to 40.5C)\nCommon:\nBradycardia\n, chills,\nheadache\n,\nmyalgia\n, nonproductive staccato\ncough\nLess common:\nvomiting\n,\nabdominal pain\n,\ndiarrhea\n, trace\nhemoptysis\nExtrapulmonary complications:\nmyocarditis\n,\nendocarditis\n,\nicterus\n,\nencephalitis\n,\nARDS\n, MODs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "myalgia",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "icterus",
+          "url": "https://wikem.org/wiki/Icterus"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        },
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        }
+      ]
+    },
+    "Causes_of_Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Bacteria": {
+          "text": "Gram-positive\nStreptococcus pneumoniae\nStaphylococcus aureus\nGram-negative\nHaemophilus influenzae\nKlebsiella pneumoniae\nEscherichia coli\nPseudomonas aeruginosa\nMoraxella catarrhalis\nAtypical pneumonia\nChlamydophila pneumoniae\nChlamydophila psittaci\nMycoplasma pneumoniae\nCoxiella burnetti\nLegionella pneumophila",
+          "tables": []
+        },
+        "Viral": {
+          "text": "Common\nInfluenza\nRespiratory syncytial virus\nParainfluenza\nRarer\nAdenovirus\nMetapneumovirus\nSevere acute respiratory syndrome\n(SARS)\nMiddle east respiratory syndrome coronavirus\n(MERS)\n2019-nCoV (\nCOVID-19\n)\nCause other diseases, but sometimes cause pneumonia\nHerpes simplex virus\nVaricella-zoster\n(VZV)\nMeasles\nRubella\nCytomegalovirus\nSmallpox\nDengue",
+          "tables": []
+        },
+        "Fungal": {
+          "text": "Histoplasmosis\nCoccidioidomycosis\nBlastomycosis\nPneumocystis jirovecii pneumonia\n(PCP)\nSporotrichosis\nCryptococcosis\nAspergillosis\nCandidiasis",
+          "tables": []
+        },
+        "Parasitic": {
+          "text": "Ascariasis\nSchistosomiasis\nToxoplasma gondii",
+          "tables": []
+        },
+        "Lower_Respiratory_Zoonotic_Infections": {
+          "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gram-positive",
+          "url": "https://wikem.org/wiki/Gram-positive"
+        },
+        {
+          "text": "Streptococcus pneumoniae",
+          "url": "https://wikem.org/wiki/Streptococcus_pneumoniae"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "Haemophilus influenzae",
+          "url": "https://wikem.org/wiki/Haemophilus_influenzae"
+        },
+        {
+          "text": "Klebsiella pneumoniae",
+          "url": "https://wikem.org/wiki/Klebsiella_pneumoniae"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Moraxella catarrhalis",
+          "url": "https://wikem.org/wiki/Moraxella_catarrhalis"
+        },
+        {
+          "text": "Atypical pneumonia",
+          "url": "https://wikem.org/wiki/Atypical_pneumonia"
+        },
+        {
+          "text": "Chlamydophila pneumoniae",
+          "url": "https://wikem.org/wiki/Chlamydophila_pneumoniae"
+        },
+        {
+          "text": "Mycoplasma pneumoniae",
+          "url": "https://wikem.org/wiki/Mycoplasma_pneumoniae"
+        },
+        {
+          "text": "Coxiella burnetti",
+          "url": "https://wikem.org/wiki/Coxiella_burnetti"
+        },
+        {
+          "text": "Legionella pneumophila",
+          "url": "https://wikem.org/wiki/Legionella_pneumophila"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Respiratory syncytial virus",
+          "url": "https://wikem.org/wiki/Respiratory_syncytial_virus"
+        },
+        {
+          "text": "Adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "Severe acute respiratory syndrome",
+          "url": "https://wikem.org/wiki/Severe_acute_respiratory_syndrome"
+        },
+        {
+          "text": "Middle east respiratory syndrome coronavirus",
+          "url": "https://wikem.org/wiki/Middle_east_respiratory_syndrome_coronavirus"
+        },
+        {
+          "text": "COVID-19",
+          "url": "https://wikem.org/wiki/COVID-19"
+        },
+        {
+          "text": "Herpes simplex virus",
+          "url": "https://wikem.org/wiki/Herpes_simplex_virus"
+        },
+        {
+          "text": "Varicella-zoster",
+          "url": "https://wikem.org/wiki/Varicella-zoster"
+        },
+        {
+          "text": "Measles",
+          "url": "https://wikem.org/wiki/Measles"
+        },
+        {
+          "text": "Rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Smallpox",
+          "url": "https://wikem.org/wiki/Smallpox"
+        },
+        {
+          "text": "Dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "Histoplasmosis",
+          "url": "https://wikem.org/wiki/Histoplasmosis"
+        },
+        {
+          "text": "Coccidioidomycosis",
+          "url": "https://wikem.org/wiki/Coccidioidomycosis"
+        },
+        {
+          "text": "Blastomycosis",
+          "url": "https://wikem.org/wiki/Blastomycosis"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "Aspergillosis",
+          "url": "https://wikem.org/wiki/Aspergillosis"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Ascariasis",
+          "url": "https://wikem.org/wiki/Ascariasis"
+        },
+        {
+          "text": "Schistosomiasis",
+          "url": "https://wikem.org/wiki/Schistosomiasis"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        },
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        }
+      ]
+    },
+    "Lower_Respiratory_Zoonotic_Infections": {
+      "text": "Psittacosis\nAnthrax\n(Bacillus anthracis)\nBrucellosis (\nBrucella\nspecies)\nQ fever\n(C. burnetti)\nPasteurellosis (\nPasteurella multocida\n)\nMelioidosis (Burkholderia pseudomallei)\nRocky Mountain Spotted Fever\n(R. rickettsii)\nPulmonic\nPlague\n(Yersinia pestis)\nInfluenza\nA\nHantavirus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        },
+        {
+          "text": "Anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "Brucella",
+          "url": "https://wikem.org/wiki/Brucella"
+        },
+        {
+          "text": "Q fever",
+          "url": "https://wikem.org/wiki/Q_fever"
+        },
+        {
+          "text": "Pasteurella multocida",
+          "url": "https://wikem.org/wiki/Pasteurella_multocida"
+        },
+        {
+          "text": "Rocky Mountain Spotted Fever",
+          "url": "https://wikem.org/wiki/Rocky_Mountain_Spotted_Fever"
+        },
+        {
+          "text": "Plague",
+          "url": "https://wikem.org/wiki/Plague"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC-\nleukopenia\nin 25% of cases\nChemistry\nCRP\nLFTs\nCXR\n-usually lower lobe consolidation, lobar or interstitial infiltrates\nSputum culture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC-\nleukopenia\nin 25% of cases\nChemistry\nCRP\nLFTs\nCXR\n-usually lower lobe consolidation, lobar or interstitial infiltrates\nSputum culture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Doxycycline\n100mg PO Q12h x 10-14 days\nOR\nAzithromycin\n500mg PO Qday x 7 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Generally may be discharged",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Psittacosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psittacosis",
+          "url": "https://wikem.org/wiki/Psittacosis"
+        }
+      ]
+    }
+  }
+}

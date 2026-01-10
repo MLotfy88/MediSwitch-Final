@@ -1,0 +1,257 @@
+{
+  "drug_name": "Chlamydia_conjunctivitis",
+  "url": "https://wikem.org/wiki/Chlamydia_conjunctivitis",
+  "scraped_at": "2026-01-10T07:50:21.501726",
+  "sections": {
+    "Background": {
+      "text": "Caused by\nChlamydia",
+      "subsections": {
+        "Types": {
+          "text": "Trachoma\nSerotypes A through C\nChronic\nkeratoconjunctivitis\nMost common form of preventable blindness in the world\nInclusion conjunctivitis\nSerotypes D through K\nCommon, primarily sexually transmitted disease\nAffects both newborns and adults",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Trachoma\nSerotypes A through C\nChronic\nkeratoconjunctivitis\nMost common form of preventable blindness in the world\nInclusion conjunctivitis\nSerotypes D through K\nCommon, primarily sexually transmitted disease\nAffects both newborns and adults",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Newborns": {
+          "text": "Tearing\nConjunctival inflammation\nEyelid swelling\nModerate discharge\nStarting 5-12 days after birth",
+          "tables": []
+        },
+        "Adults": {
+          "text": "Infection can be subacute or chronic\nMost common in young, sexually active persons aged 18 to 30 years\nUnilateral or bilateral redness\nForeign body sensation\nMucopurulent discharge\nPre-auricular adenopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Newborns": {
+      "text": "Tearing\nConjunctival inflammation\nEyelid swelling\nModerate discharge\nStarting 5-12 days after birth",
+      "subsections": {
+        "Adults": {
+          "text": "Infection can be subacute or chronic\nMost common in young, sexually active persons aged 18 to 30 years\nUnilateral or bilateral redness\nForeign body sensation\nMucopurulent discharge\nPre-auricular adenopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adults": {
+      "text": "Infection can be subacute or chronic\nMost common in young, sexually active persons aged 18 to 30 years\nUnilateral or bilateral redness\nForeign body sensation\nMucopurulent discharge\nPre-auricular adenopathy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Conjunctivitis_Types": {
+          "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Conjunctivitis_Types": {
+      "text": "Viral conjunctivitis\nEpidemic keratoconjunctivitis\nHerpes zoster ophthalmicus\nHerpes simplex keratitis\nBacterial conjunctivitis\nGonorrheal conjunctivitis\nChlamydia conjunctivitis\nAllergic conjunctivitis\nCaustic keratoconjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral conjunctivitis",
+          "url": "https://wikem.org/wiki/Viral_conjunctivitis"
+        },
+        {
+          "text": "Epidemic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Epidemic_keratoconjunctivitis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "Herpes simplex keratitis",
+          "url": "https://wikem.org/wiki/Herpes_simplex_keratitis"
+        },
+        {
+          "text": "Bacterial conjunctivitis",
+          "url": "https://wikem.org/wiki/Bacterial_conjunctivitis"
+        },
+        {
+          "text": "Gonorrheal conjunctivitis",
+          "url": "https://wikem.org/wiki/Gonorrheal_conjunctivitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Adult": {
+          "text": "Systemic antibiotics\nAzithromycin\n1g PO x1 or doxycycline 100 mg BID for 7 days\nTopical antibiotics\nTopical\nerythromycin\nointment BID-TID x2-3 weeks\nConsider\nceftriaxone\nfor empiric gonorrhea coverage",
+          "tables": []
+        },
+        "Neonatal": {
+          "text": "Inclusion conjunctivitis\nSystemic antibiotics\nErythromycin\nelixir 50mg/kg/d divided QID\nTopical antibiotics\nErythromycin\nointment QID\nConsultation with ophthalmology\nSpecial cultures may be required",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Adult": {
+      "text": "Systemic antibiotics\nAzithromycin\n1g PO x1 or doxycycline 100 mg BID for 7 days\nTopical antibiotics\nTopical\nerythromycin\nointment BID-TID x2-3 weeks\nConsider\nceftriaxone\nfor empiric gonorrhea coverage",
+      "subsections": {
+        "Neonatal": {
+          "text": "Inclusion conjunctivitis\nSystemic antibiotics\nErythromycin\nelixir 50mg/kg/d divided QID\nTopical antibiotics\nErythromycin\nointment QID\nConsultation with ophthalmology\nSpecial cultures may be required",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Neonatal": {
+      "text": "Inclusion conjunctivitis\nSystemic antibiotics\nErythromycin\nelixir 50mg/kg/d divided QID\nTopical antibiotics\nErythromycin\nointment QID\nConsultation with ophthalmology\nSpecial cultures may be required",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with ophtho follow-up.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Conjunctivitis\nChlamydia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        }
+      ]
+    }
+  }
+}

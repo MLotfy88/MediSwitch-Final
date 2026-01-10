@@ -1,0 +1,290 @@
+{
+  "drug_name": "Chalazion",
+  "url": "https://wikem.org/wiki/Chalazion",
+  "scraped_at": "2026-01-10T07:50:16.810587",
+  "sections": {
+    "Background": {
+      "text": "Chronic inflammatory lesion due to blockage of Zeis or meibomian tear gland\nAlso known as meibomian gland lipogranuloma\nOften results from healing hordeolum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Eyelid swelling and erythema that evolve into a painless, rubbery, nodular lesion\nMore commonly seen on upper eyelid where density of Meibomian glands is greatest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Periorbital_swelling": {
+      "text": "",
+      "subsections": {
+        "Proptosis": {
+          "text": "Normal\nIOP\nOrbital cellulitis\nOrbital pseudotumor\nOrbital tumor\nIncreased\nIOP\nRetrobulbar\nabscess\nRetrobulbar emphysema\nRetrobulbar hemorrhage\nOcular compartment syndrome\nOrbital tumor",
+          "tables": []
+        },
+        "No_proptosis": {
+          "text": "Periorbital cellulitis\n/\nerysipelas\nDacryocystitis\n(lacrimal duct)\nDacryocele/Dacryocystocele\nDacryostenosis\nDacryoadenitis\n(lacrimal gland)\nAllergic reaction\nNephrotic Syndrome\n(pediatrics)",
+          "tables": []
+        },
+        "Lid_Complications": {
+          "text": "Blepharitis\n(crusts)\nChalazion\n(meibomian gland)\nStye (hordeolum)\n(eyelash folicle)",
+          "tables": []
+        },
+        "Other": {
+          "text": "Subperiosteal\nabscess\nOrbital\nabscess\nCavernous sinus thrombosis\nConjunctivitis\nContact dermatitis\nHerpes zoster\nHerpes simplex\nSarcoidosis\nGranulomatosis with polyangiitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "Orbital cellulitis",
+          "url": "https://wikem.org/wiki/Orbital_cellulitis"
+        },
+        {
+          "text": "Orbital pseudotumor",
+          "url": "https://wikem.org/wiki/Orbital_pseudotumor"
+        },
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/IOP"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Periorbital cellulitis",
+          "url": "https://wikem.org/wiki/Periorbital_cellulitis"
+        },
+        {
+          "text": "erysipelas",
+          "url": "https://wikem.org/wiki/Erysipelas"
+        },
+        {
+          "text": "Dacryocystitis",
+          "url": "https://wikem.org/wiki/Dacryocystitis"
+        },
+        {
+          "text": "Dacryostenosis",
+          "url": "https://wikem.org/wiki/Dacryostenosis"
+        },
+        {
+          "text": "Dacryoadenitis",
+          "url": "https://wikem.org/wiki/Dacryoadenitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "Blepharitis",
+          "url": "https://wikem.org/wiki/Blepharitis"
+        },
+        {
+          "text": "Stye (hordeolum)",
+          "url": "https://wikem.org/wiki/Stye_(hordeolum)"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Granulomatosis with polyangiitis",
+          "url": "https://wikem.org/wiki/Granulomatosis_with_polyangiitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Discontinue eye makeup and contacts until resolved\nHot compresses x15min QID\nAntibiotics\nnot\nindicated: this is a granulomatous condition\nMost resolve without intervention in weeks-months",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Refer to ophthalmology if persistent or recurring",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hordeolum",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hordeolum",
+          "url": "https://wikem.org/wiki/Hordeolum"
+        }
+      ]
+    }
+  }
+}

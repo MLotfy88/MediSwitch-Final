@@ -1,0 +1,577 @@
+{
+  "drug_name": "Chemical_weapons",
+  "url": "https://wikem.org/wiki/Chemical_weapons",
+  "scraped_at": "2026-01-10T07:50:15.152091",
+  "sections": {
+    "Background": {
+      "text": "Can be released via unintended means such as a spill from a damaged railroad tank car or industrial explosion as well as by intentional means as chemical weapons.",
+      "subsections": {
+        "Pediatric_considerations": {
+          "text": "Higher metabolic rate and faster basal respiratory rate, causing more rapid and larger exposures\nSkin is thinner and more permeable\nAgents heavier than air have increased concentrations closer to the ground exposing children > adults",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_considerations": {
+      "text": "Higher metabolic rate and faster basal respiratory rate, causing more rapid and larger exposures\nSkin is thinner and more permeable\nAgents heavier than air have increased concentrations closer to the ground exposing children > adults",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Cyanide inhibits cytochrome oxidase on mitochondria\nCells unable to use oxygen in bloodstream\nCellular asphyxiation",
+      "subsections": {
+        "Symptoms": {
+          "text": "Symptoms can be delayed up to 60 minutes\nSymptoms dependent on concentration, form of cyanide, and route of exposure\nCNS and cardiovascular system most susceptible\nInitially hypertension and tachycardia progressing to bradycardia, hypotension, and arrhythmias late\nAnxiety, dizziness, headache, apnea, seizures, and coma",
+          "tables": []
+        },
+        "Management": {
+          "text": "100% oxygen and antidote therapy\nSodium nitrite (IV) or amyl nitrite (inhaled) to displace cyanide from cytochrome oxidase\nSodium thiosulfate: For conversion of cyanide to excretable thiosulfate\nRepeat sodium nitrite and sodium thiosulfate in 30min at half initial dose if needed\nHydroxocobalamin\n(Vit B12a): makes CN water soluble and non-toxic\nCyanide Antidote Kit: Amyl nitrite pearls, sodium nitrite (IV), sodium thiosulfate (IV)\nCyanokit: Less toxic than cyanide antidote kit and shown effective in cardiac arrest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Symptoms can be delayed up to 60 minutes\nSymptoms dependent on concentration, form of cyanide, and route of exposure\nCNS and cardiovascular system most susceptible\nInitially hypertension and tachycardia progressing to bradycardia, hypotension, and arrhythmias late\nAnxiety, dizziness, headache, apnea, seizures, and coma",
+      "subsections": {
+        "Management": {
+          "text": "100% oxygen and antidote therapy\nSodium nitrite (IV) or amyl nitrite (inhaled) to displace cyanide from cytochrome oxidase\nSodium thiosulfate: For conversion of cyanide to excretable thiosulfate\nRepeat sodium nitrite and sodium thiosulfate in 30min at half initial dose if needed\nHydroxocobalamin\n(Vit B12a): makes CN water soluble and non-toxic\nCyanide Antidote Kit: Amyl nitrite pearls, sodium nitrite (IV), sodium thiosulfate (IV)\nCyanokit: Less toxic than cyanide antidote kit and shown effective in cardiac arrest",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Management": {
+      "text": "100% oxygen and antidote therapy\nSodium nitrite (IV) or amyl nitrite (inhaled) to displace cyanide from cytochrome oxidase\nSodium thiosulfate: For conversion of cyanide to excretable thiosulfate\nRepeat sodium nitrite and sodium thiosulfate in 30min at half initial dose if needed\nHydroxocobalamin\n(Vit B12a): makes CN water soluble and non-toxic\nCyanide Antidote Kit: Amyl nitrite pearls, sodium nitrite (IV), sodium thiosulfate (IV)\nCyanokit: Less toxic than cyanide antidote kit and shown effective in cardiac arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hydroxocobalamin",
+          "url": "https://wikem.org/wiki/Hydroxocobalamin"
+        }
+      ]
+    },
+    "Nerve_Agents": {
+      "text": "Acetylcholinesterase inhibitors\nIncludes household and commercial pesticides (diazinon and parathion)\nG-series (sarin, tabun, soman) and V-series (VX)\nG-series are volatile non-persistent agents that evaporate quickly\nV-series high viscosity with oily consistency\nRapidly absorbed through skin, symptoms generally develop within 1 hour\nVapors are heavier than air and tend to sink into low places\nSarin used in Tokyo subway attack in 1995; 5,000 sought medical attention with 12 deaths.",
+      "subsections": {
+        "Pathophysiology_2": {
+          "text": "Inhibits acetylcholinesterase → excess acetylcholine at both nicotinic and muscarinic receptors",
+          "tables": []
+        },
+        "Symptoms_2": {
+          "text": "DUMBELLS\nD-Diarrhea, U-Urination, M-Miosis, B-Bronchorrhea/Bradycardia, E-Emesis, L-Lacrimation, S-Salivation/Seizures\nCholinergic toxidrome\nToxidromes",
+          "tables": []
+        },
+        "Management_2": {
+          "text": "Nerve agents prolong succinylcholine's paralytic effect\nAtropine for bronchorrhea and bronchoconstriction\nStart at 2-6mg, double the dose q5-30min until control of secretions (no max dose)\nPralidoxime to restore function of acetylcholinesterase (given over approximately 30 minutes; rapid infusion can cause hypertension)\nGive as soon as possible - must be given before \"aging\" occurs to be effective\nBenzodiazepines for seizures (standard AEDs may be ineffective)\nMark 1 Nerve Agent antidote Kit (NAAK): 2 autoinjectors:\n2mg atropine\n600mg pralidoxime\nDuoDote Autoinjector: 2.1mg atropine, 600mg pralidoxime in one autoinjector\nProphylaxis in the military, high risk setting with\npyridostigmine\nReversibly bind acetylcholinesterase before exposure to nerve agents\nPyridostigmine\n30 mg PO q8\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    },
+    "Pathophysiology_2": {
+      "text": "Inhibits acetylcholinesterase → excess acetylcholine at both nicotinic and muscarinic receptors",
+      "subsections": {
+        "Symptoms_2": {
+          "text": "DUMBELLS\nD-Diarrhea, U-Urination, M-Miosis, B-Bronchorrhea/Bradycardia, E-Emesis, L-Lacrimation, S-Salivation/Seizures\nCholinergic toxidrome\nToxidromes",
+          "tables": []
+        },
+        "Management_2": {
+          "text": "Nerve agents prolong succinylcholine's paralytic effect\nAtropine for bronchorrhea and bronchoconstriction\nStart at 2-6mg, double the dose q5-30min until control of secretions (no max dose)\nPralidoxime to restore function of acetylcholinesterase (given over approximately 30 minutes; rapid infusion can cause hypertension)\nGive as soon as possible - must be given before \"aging\" occurs to be effective\nBenzodiazepines for seizures (standard AEDs may be ineffective)\nMark 1 Nerve Agent antidote Kit (NAAK): 2 autoinjectors:\n2mg atropine\n600mg pralidoxime\nDuoDote Autoinjector: 2.1mg atropine, 600mg pralidoxime in one autoinjector\nProphylaxis in the military, high risk setting with\npyridostigmine\nReversibly bind acetylcholinesterase before exposure to nerve agents\nPyridostigmine\n30 mg PO q8\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    },
+    "Symptoms_2": {
+      "text": "DUMBELLS\nD-Diarrhea, U-Urination, M-Miosis, B-Bronchorrhea/Bradycardia, E-Emesis, L-Lacrimation, S-Salivation/Seizures\nCholinergic toxidrome\nToxidromes",
+      "subsections": {
+        "Management_2": {
+          "text": "Nerve agents prolong succinylcholine's paralytic effect\nAtropine for bronchorrhea and bronchoconstriction\nStart at 2-6mg, double the dose q5-30min until control of secretions (no max dose)\nPralidoxime to restore function of acetylcholinesterase (given over approximately 30 minutes; rapid infusion can cause hypertension)\nGive as soon as possible - must be given before \"aging\" occurs to be effective\nBenzodiazepines for seizures (standard AEDs may be ineffective)\nMark 1 Nerve Agent antidote Kit (NAAK): 2 autoinjectors:\n2mg atropine\n600mg pralidoxime\nDuoDote Autoinjector: 2.1mg atropine, 600mg pralidoxime in one autoinjector\nProphylaxis in the military, high risk setting with\npyridostigmine\nReversibly bind acetylcholinesterase before exposure to nerve agents\nPyridostigmine\n30 mg PO q8\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxidromes",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    },
+    "Management_2": {
+      "text": "Nerve agents prolong succinylcholine's paralytic effect\nAtropine for bronchorrhea and bronchoconstriction\nStart at 2-6mg, double the dose q5-30min until control of secretions (no max dose)\nPralidoxime to restore function of acetylcholinesterase (given over approximately 30 minutes; rapid infusion can cause hypertension)\nGive as soon as possible - must be given before \"aging\" occurs to be effective\nBenzodiazepines for seizures (standard AEDs may be ineffective)\nMark 1 Nerve Agent antidote Kit (NAAK): 2 autoinjectors:\n2mg atropine\n600mg pralidoxime\nDuoDote Autoinjector: 2.1mg atropine, 600mg pralidoxime in one autoinjector\nProphylaxis in the military, high risk setting with\npyridostigmine\nReversibly bind acetylcholinesterase before exposure to nerve agents\nPyridostigmine\n30 mg PO q8\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        },
+        {
+          "text": "Pyridostigmine",
+          "url": "https://wikem.org/wiki/Pyridostigmine"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Mass_casualty_incident": {
+          "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+          "tables": []
+        },
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Mass_casualty_incident": {
+      "text": "Radiation exposure (disaster)\nDirty bomb\nBioterrorism\nChemical weapons\nMass\nshooting\nNatural Disaster (e.g. Hurricane, Earthquake, Tornado, Tsunami, etc)\nUnintentional large-scale incident (e.g. building collapse, train derailment, etc)\nMajor\npandemic\nExplosions",
+      "subsections": {
+        "Toxic_gas_exposure": {
+          "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Radiation exposure (disaster)",
+          "url": "https://wikem.org/wiki/Radiation_exposure_(disaster)"
+        },
+        {
+          "text": "Dirty bomb",
+          "url": "https://wikem.org/wiki/Dirty_bomb"
+        },
+        {
+          "text": "Bioterrorism",
+          "url": "https://wikem.org/wiki/Bioterrorism"
+        },
+        {
+          "text": "shooting",
+          "url": "https://wikem.org/wiki/GSW"
+        },
+        {
+          "text": "pandemic",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Explosions",
+          "url": "https://wikem.org/wiki/Explosions"
+        },
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Toxic_gas_exposure": {
+      "text": "Carbon monoxide toxicity\nChemical weapons\nCyanide toxicity\nDichloromethane toxicity\nHydrocarbon toxicity\nHydrogen sulfide toxicity\nInhalant abuse\nDifluoroethane toxicity\nMethane toxicity\nSmoke inhalation injury\nEthylene dibromide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carbon monoxide toxicity",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide_toxicity"
+        },
+        {
+          "text": "Dichloromethane toxicity",
+          "url": "https://wikem.org/wiki/Dichloromethane_toxicity"
+        },
+        {
+          "text": "Hydrocarbon toxicity",
+          "url": "https://wikem.org/wiki/Hydrocarbon_toxicity"
+        },
+        {
+          "text": "Hydrogen sulfide toxicity",
+          "url": "https://wikem.org/wiki/Hydrogen_sulfide_toxicity"
+        },
+        {
+          "text": "Inhalant abuse",
+          "url": "https://wikem.org/wiki/Inhalant_abuse"
+        },
+        {
+          "text": "Difluoroethane toxicity",
+          "url": "https://wikem.org/wiki/Difluoroethane_toxicity"
+        },
+        {
+          "text": "Methane toxicity",
+          "url": "https://wikem.org/wiki/Methane_toxicity"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Ethylene dibromide toxicity",
+          "url": "https://wikem.org/wiki/Ethylene_dibromide_toxicity"
+        }
+      ]
+    },
+    "Management_3": {
+      "text": "Depends on specific agent used\nRegardless of agent, Decontamination and ABCs are of primary importance\nUse appropriate personal protective equipment (PPE)\nDecontamination (should take place pre-hospital or otherwise prior to entering the ED)\nRemove all patient clothing\nBrush off dry agent (e.g. powders), copiously irrigate skin of any liquid contaminant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)\nWeapon of mass destruction\nHazmat exposure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Weapon of mass destruction",
+          "url": "https://wikem.org/wiki/Weapon_of_mass_destruction"
+        },
+        {
+          "text": "Hazmat exposure",
+          "url": "https://wikem.org/wiki/Hazmat_exposure"
+        }
+      ]
+    }
+  }
+}

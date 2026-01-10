@@ -1,0 +1,106 @@
+{
+  "drug_name": "Chest_x-ray_interpretation",
+  "url": "https://wikem.org/wiki/Chest_x-ray_interpretation",
+  "scraped_at": "2026-01-10T07:50:25.523678",
+  "sections": {
+    "ABC_Method": {
+      "text": "A\nirways - ex. FB, trachea deviation\nB\nones and soft tissue - ex.\nRib fractures\n,\nclavicle fracture\nC\nardiac - ex.\nCardiomegaly\nD\niaphragm - ex. Free air\nE\nffusions - ex.\nPleural effusion\nF\nields and\nF\nissures - ex. Congestion, consolidations\nG\nreat vessels - ex. Apical cap\nH\nila and mediastinum -\nWidened mediastinum\nI\nmpression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Cardiomegaly",
+          "url": "https://wikem.org/wiki/Cardiomyopathy"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Widened mediastinum",
+          "url": "https://wikem.org/wiki/Widened_mediastinum"
+        }
+      ]
+    },
+    "DRSABCDE_Method": {
+      "text": "D\netails\nInfo of patient\nPA/AP, Lateral\nR\nIPE - Image quality\nRotation\nInspiration\nPicture\nExposure\nS\noft tissues and bones\nA\nirway & mediastinum\nB\nreathing\nLung fields\nC\nirculation\nHeart position and size\nD\niaphragm\nE\nxtras\nLines, tubes, catheters",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Examples": {
+      "text": "ARDS\nPneumoperitoneum\nProminent wedge-shape area of airspace consolidation in the right lung, characteristic of bacterial\npneumonia\nEsophageal foreign body\n(penny in 12 mo male)\nRight sided\npneumothorax\nPulmonary edema\nwith small\npleural effusions\non both sides.\nLeft sided\ntension pneumothorax\nwith mediastinal shift\nLung abscess\nHyperinflated lungs consistent with\nasthma\n/\nCOPD\nEndotracheal tube\nand\nnasogastric tube\nin correct position.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Esophageal foreign body",
+          "url": "https://wikem.org/wiki/Esophageal_foreign_body"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "pleural effusions",
+          "url": "https://wikem.org/wiki/Pleural_effusions"
+        },
+        {
+          "text": "tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Lung abscess",
+          "url": "https://wikem.org/wiki/Lung_abscess"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Endotracheal tube",
+          "url": "https://wikem.org/wiki/Endotracheal_tube"
+        },
+        {
+          "text": "nasogastric tube",
+          "url": "https://wikem.org/wiki/Nasogastric_tube"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "X-ray interpretation (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "X-ray interpretation (main)",
+          "url": "https://wikem.org/wiki/X-ray_interpretation_(main)"
+        }
+      ]
+    }
+  }
+}

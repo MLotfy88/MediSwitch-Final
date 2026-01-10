@@ -1,0 +1,438 @@
+{
+  "drug_name": "Chest_wall_pain",
+  "url": "https://wikem.org/wiki/Chest_wall_pain",
+  "scraped_at": "2026-01-10T07:50:17.800619",
+  "sections": {
+    "Background": {
+      "text": "Major cause of\nchest pain\nDiagnosis of chest wall pain is given to a vast majority (10-50%) of all ED visits for chest pain",
+      "subsections": {
+        "Types": {
+          "text": "Costochondritis\nInflammation of costal cartilages or sternal articulations\nNo localized swelling\nMay be triggered by wearing backpack on one shoulder\nCrowing Rooster Maneuver\nPatients hands placed behind their head with neck extended. Posterior traction of both abducted shoulders reproduces pain.\nTietze's syndrome\nBenign, painful, localized swelling of costosternal, sternoclavciular, or costochondral joints\nAssociated with excessive coughing\nXiphodynia\nInflammation of xiphoid process\nPrecordial catch syndrome\n1-2 minute lancinating pain near the cardiac apex\nMay occur while bending over or slouching\n[1]\nSternalis syndrome\nTenderness directly over body of sternum or sternalis muscle\nLower rib pain syndromes (Rib tip syndrome, slipping rib)\nTenderness over costal margin\nCan be associated with abdominal pain",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Costochondritis\nInflammation of costal cartilages or sternal articulations\nNo localized swelling\nMay be triggered by wearing backpack on one shoulder\nCrowing Rooster Maneuver\nPatients hands placed behind their head with neck extended. Posterior traction of both abducted shoulders reproduces pain.\nTietze's syndrome\nBenign, painful, localized swelling of costosternal, sternoclavciular, or costochondral joints\nAssociated with excessive coughing\nXiphodynia\nInflammation of xiphoid process\nPrecordial catch syndrome\n1-2 minute lancinating pain near the cardiac apex\nMay occur while bending over or slouching\n[1]\nSternalis syndrome\nTenderness directly over body of sternum or sternalis muscle\nLower rib pain syndromes (Rib tip syndrome, slipping rib)\nTenderness over costal margin\nCan be associated with abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Varying types of pain: sharp, dull, pleuritic\nCan be worsened by inspiration or coughing\nNot typically associated with cardiac disease, erythema, or swelling (except Tietze's syndrome)\nPositive crowing roster maneuver or horizontal arm flexion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nEKG\nif ruling out ACS\nConsider\nCXR\nbased on symptoms and risk factors",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Nonpharmacologic\nAdvise patient to avoid activity that lead to injury\nStretching\nHot or cold packs\nPharmacologic\nTopical\ncapsaicin\nor\ndiclofenac\ncream\nNSAIDs\nAcetaminophen\nApproximately 50% of patients will continue to have chest pain for 6-12 months with moderate limitation of activities\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "capsaicin",
+          "url": "https://wikem.org/wiki/Capsaicin"
+        },
+        {
+          "text": "diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge\nFollow up in 4-6 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Mahler S. Chapter 48: Chest Pain. In: Tintinalli J. Tintinalli's Emergency Medicine. A comprehensive study guide. 8th ed. 2016: 328.\nWise, C. (2017). Major causes of musculoskeletal chest pain in adults. In P. L. Romain (Ed.), UpToDate. Retrieved August 20, 2018, from\nhttps://www.uptodate.com/contents/major-causes-of-musculoskeletal-chest-pain-in-adults",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

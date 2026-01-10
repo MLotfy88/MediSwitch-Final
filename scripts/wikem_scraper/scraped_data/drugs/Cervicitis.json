@@ -1,0 +1,595 @@
+{
+  "drug_name": "Cervicitis",
+  "url": "https://wikem.org/wiki/Cervicitis",
+  "scraped_at": "2026-01-10T07:50:14.658771",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of the cervix most commonly caused by\nChlamydia\n(about 40%) and\nGonorrhea\nLess commonly caused by\nTrichomonas\nand\nHSV-2",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "HSV-2",
+          "url": "https://wikem.org/wiki/HSV-2"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Mucopurulent endocervical discharge\nMay see endocervical bleeding easily induced by cotton swab\nFrequently asymptomatic\nWomen may complain of abnormal\nvaginal discharge\nor post-coital\nvaginal bleeding\nPelvic/Abdominal pain or tenderness to palpation should prompt a diagnosis of\npelvic inflammatory disease\nrather than\ncervicitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[1]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[1]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Swab (for\nGC\n,\nChlamydia\n)\nPatient-obtained vaginal swabs are MORE sensitive than clinician-collected endocervical swabs for\nGC\n/\nChlamydia\n[2]\n[3]\nWet mount\nUrine pregnancy test",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Presumed_GC/chlamydia_of_cervix,_urethra,_or_rectum_(uncomplicated)": {
+          "text": "Typically, treatment for\nboth\ngonorrhea and chlamydia is indicated, if one entity is suspected.\nStandard\nGonorrhea\nCeftriaxone\nIM x 1\n500 mg, if weight <150 kg\n1 g, if weight ≥150 kg\nChlamydia\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\nCeftriaxone contraindicated\nGonorrhea\nGentamicin\n240 mg IM x 1\nPLUS\nazithromycin\n2 g PO x 1,\nOR\nCefixime\n800 mg PO x 1\nChlamydia^\nNonpregnant:\ndoxycycline\n100 mg PO BID x 7 days\nPregnant:\nazithromycin\n1 g PO x 1\n^Additional chlamydia coverage only needed if treated with cefixime only",
+          "tables": []
+        },
+        "Partner_Treatment": {
+          "text": "Gonorrhea\nCefixime\n800mg PO x 1\nChlamydia\nNonpregnant:\ndoxycycline\n100mg PO BID x 7 days,\nOR\nPregnant:\nazithromycin\n1g PO x 1",
+          "tables": []
+        },
+        "Non-Pregnant": {
+          "text": "Metronidazole\n500mg PO BID for 7 days\n[5]\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Only treat if the patient is symptomatic\nMetronidazole\n500mg PO BID for 7 days\n[6]",
+          "tables": []
+        },
+        "Sexual_Partner_Treatment": {
+          "text": "Female: Same as above\nMale:\nMetronidazole\n2 gm PO x1\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefixime",
+          "url": "https://wikem.org/wiki/Cefixime"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Associated_Bacterial_Vaginosis_or_Trichomonas_vaginalis": {
+      "text": "",
+      "subsections": {
+        "Non-Pregnant": {
+          "text": "Metronidazole\n500mg PO BID for 7 days\n[5]\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Only treat if the patient is symptomatic\nMetronidazole\n500mg PO BID for 7 days\n[6]",
+          "tables": []
+        },
+        "Sexual_Partner_Treatment": {
+          "text": "Female: Same as above\nMale:\nMetronidazole\n2 gm PO x1\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sexually transmitted diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sexually transmitted diseases",
+          "url": "https://wikem.org/wiki/Sexually_transmitted_diseases"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "http://www.cdc.gov/std/treatment/2010/urethritis-and-cervicitis.htm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

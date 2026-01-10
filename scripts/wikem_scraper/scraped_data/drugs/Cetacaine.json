@@ -1,0 +1,164 @@
+{
+  "drug_name": "Cetacaine",
+  "url": "https://wikem.org/wiki/Cetacaine",
+  "scraped_at": "2026-01-10T07:50:15.743232",
+  "sections": {
+    "General_Information": {
+      "text": "Brand name of commonly available topical mucosal anesthetic\nCombination of 14%\nbenzocaine\n, 2%\ntetracaine\nhydrochloride, and 2% butamben\nSlightly different from another readily available topical anesthetic, HurriCaine spray, which is 20% benzocaine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzocaine",
+          "url": "https://wikem.org/wiki/Benzocaine"
+        },
+        {
+          "text": "tetracaine",
+          "url": "https://wikem.org/wiki/Tetracaine"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Type: Topical anesthetic\nDosage Forms: Spray, gel, solution\nRoutes of Administration: Mucosal\nCommon Trade Names: Cetacaine; Exactacain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Spray form\nApply maximum 2 second spray\nGel form\nApply a maximum of 1 inch of gel\nSolution form\nApply a maximum of 0.4cc",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "No pediatric dosing established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation risk: Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCholinesterase deficincies\nUse caution in G6PD and Hgb-M patients\nAvoid using on significantly inflamed or macerated tissue",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Methemoglobinemia\nAnaphylaxis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Contact dermatitis\nXeroderma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Methemoglobinemia\nAnaphylaxis",
+      "subsections": {
+        "Common": {
+          "text": "Contact dermatitis\nXeroderma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Contact dermatitis\nXeroderma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Plasma cholinesterase, liver\nExcretion: Urine (minimal systemic absorption)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Ester anesthetic, inhibits Na ion channels and nerve impulse/conduction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Micromedex\nUS FDA benzocaine warning.\nhttp://www.fda.gov/Safety/MedWatch/SafetyInformation/SafetyAlertsforHumanMedicalProducts/ucm250264.htm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

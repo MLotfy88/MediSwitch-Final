@@ -1,0 +1,54 @@
+{
+  "drug_name": "Chylous_leak",
+  "url": "https://wikem.org/wiki/Chylous_leak",
+  "scraped_at": "2026-01-10T07:50:30.187374",
+  "sections": {
+    "Background": {
+      "text": "Most commonly caused by\nlymphoma\n(60%)\nOther causes\nTrauma (25%)\nIatrogenic injury after head and neck surgery (15%)\nThoracic duct enters the neck to the left of the esophagus and arches several centimeters above the clavicle.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Chyle can accumulate in the thoracic and abdominal cavities leading to:\nChyle Fistula\nChylous Effusion\nChylous\nascites\nChylothorax\nChylopericardium\nLeakage of fluid can lead to\nInflammatory reaction\nInfection\nElectrolyte abnormalities\nPoor wound healing\nFistula formation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Chylothorax",
+          "url": "https://wikem.org/wiki/Chylothorax"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Abscess\nMalignancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        }
+      ]
+    },
+    "References": {
+      "text": "Pascual J, Hsiao T, Goldstein S.  Chylous Leak - The abscess doppleganger.  Visual Journal of Emergency Medicine. 9C (2017) pp. 63-64",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

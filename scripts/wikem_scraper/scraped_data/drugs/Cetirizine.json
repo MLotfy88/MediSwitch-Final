@@ -1,0 +1,127 @@
+{
+  "drug_name": "Cetirizine",
+  "url": "https://wikem.org/wiki/Cetirizine",
+  "scraped_at": "2026-01-10T07:50:16.754244",
+  "sections": {
+    "Administration": {
+      "text": "Type: Histamine H1 Antagonist, Second Generation\nDosage Forms:\nRoutes of Administration:\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis": {
+          "text": "10mg IV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anaphylaxis": {
+      "text": "10mg IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Anaphylaxis_2": {
+          "text": ">11 years old: 10mg IV\n6-11 years old: 5-10 mg IV\n6 mo - 5 years: 2.5 mg IV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Anaphylaxis_2": {
+      "text": ">11 years old: 10mg IV\n6-11 years old: 5-10 mg IV\n6 mo - 5 years: 2.5 mg IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "IV and oral are same dosage",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

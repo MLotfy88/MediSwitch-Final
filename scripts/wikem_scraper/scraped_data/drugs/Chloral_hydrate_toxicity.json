@@ -1,0 +1,421 @@
+{
+  "drug_name": "Chloral_hydrate_toxicity",
+  "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity",
+  "scraped_at": "2026-01-10T07:50:21.046351",
+  "sections": {
+    "Background": {
+      "text": "Sedative-hypnotic used for insomnia\nBinds GABA-A receptor\nActive metabolite trichloroethanol (TCE)\nSometimes still used in pediatrics for children undergoing procedures\nRarely used in practice in adult medicine\n‘Mickey Finn’ most commonly refers to a mixture of ethanol and chloral hydrate, aka a \"knockout drink.\"",
+      "subsections": {
+        "Pharmacokinetics": {
+          "text": "Onset: 30-60 min\n[1]\nDuration: 4-8 hr\nHalf-Life: 5 mins (for chloral hydrate)\n8-11 hr (active metabolite)\nMetabolism: Hepatic metabolism\nExcretion: Mostly in urine; some feces\nPotential toxic dose\n<6 years old: 50mg/kg\nAdults: 3-10g",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacokinetics": {
+      "text": "Onset: 30-60 min\n[1]\nDuration: 4-8 hr\nHalf-Life: 5 mins (for chloral hydrate)\n8-11 hr (active metabolite)\nMetabolism: Hepatic metabolism\nExcretion: Mostly in urine; some feces\nPotential toxic dose\n<6 years old: 50mg/kg\nAdults: 3-10g",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Similar to\nbarbiturates\nand\nhydrocarbons\n[2]\nNeuro\nSedation,\nataxia\n,\ncoma\nGI\nErosive\ngastritis\n,\nupper gastrointestinal bleeding\n, strictures\nHepatitis\nBreath smells like pears\nRenal\nNephrotoxicity,\nproteinuria\nCV\nHypotension\nMyocardial depression\nTachyarrhythmias\nsecondary to catecholamine hypersensitivity:\nSinus tachycardia\n,\nPVCs\n,\nventricular tachycardia\n,\nventricular fibrilation\n,\nTorsades\nRespiratory\nRespiratory depression\n, airway obstruction (from muscle relaxation)\nAspiration pneumonitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "gastritis",
+          "url": "https://wikem.org/wiki/Gastritis"
+        },
+        {
+          "text": "upper gastrointestinal bleeding",
+          "url": "https://wikem.org/wiki/Upper_gastrointestinal_bleeding"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "PVCs",
+          "url": "https://wikem.org/wiki/PVCs"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular fibrilation",
+          "url": "https://wikem.org/wiki/Ventricular_fibrilation"
+        },
+        {
+          "text": "Torsades",
+          "url": "https://wikem.org/wiki/Torsades"
+        },
+        {
+          "text": "Respiratory depression",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "Aspiration pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Clinical diagnosis",
+          "tables": []
+        },
+        "Workup": {
+          "text": "ECG\n: Dysrhythmias\nCXR\n:\nPneumonitis\nor\npulmonary edema\nChloral hydrate may be radiopaque\nLFTs\n: monitor for hepatic injury\nBUN/Cr: monitor for renal injury\nTroponin\n: Myocardial injury\nConsider endoscopy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\n: Dysrhythmias\nCXR\n:\nPneumonitis\nor\npulmonary edema\nChloral hydrate may be radiopaque\nLFTs\n: monitor for hepatic injury\nBUN/Cr: monitor for renal injury\nTroponin\n: Myocardial injury\nConsider endoscopy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\n: Dysrhythmias\nCXR\n:\nPneumonitis\nor\npulmonary edema\nChloral hydrate may be radiopaque\nLFTs\n: monitor for hepatic injury\nBUN/Cr: monitor for renal injury\nTroponin\n: Myocardial injury\nConsider endoscopy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Pneumonitis",
+          "url": "https://wikem.org/wiki/Pneumonitis"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Generally supportive care\nAirway management with intubation and ventilation for CNS depression\nBP monitoring\nIVF\nAvoid catecholaminergic\nvasopressors\nMonitor for dysrhythmias\nTreat with beta-blockers to include\nesmolol\ninfusion,\nmetoprolol\n, or\npropranolol\n[3]\nGive or titrate BB until response\nDecontamination not useful for isolated chloral hydrate ingestions due to rapid absorption\nAssume corrosive GI injury until ruled out.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "Observe for 4 hours",
+          "tables": []
+        },
+        "Symptomatic": {
+          "text": "Admit for monitoring\nGI: Endoscopy within 24 hrs\nCV: Telemetry",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Asymptomatic": {
+      "text": "Observe for 4 hours",
+      "subsections": {
+        "Symptomatic": {
+          "text": "Admit for monitoring\nGI: Endoscopy within 24 hrs\nCV: Telemetry",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Symptomatic": {
+      "text": "Admit for monitoring\nGI: Endoscopy within 24 hrs\nCV: Telemetry",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Sedative/hypnotic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedative/hypnotic toxicity",
+          "url": "https://wikem.org/wiki/Sedative/hypnotic_toxicity"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "See\nlife in the fast lane's Chloral hydrate toxicity page",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,551 @@
+{
+  "drug_name": "Chorioamnionitis",
+  "url": "https://wikem.org/wiki/Chorioamnionitis",
+  "scraped_at": "2026-01-10T07:50:27.666060",
+  "sections": {
+    "Background": {
+      "text": "Also known as intra-amniotic infection\n[1]\nBacterial infection of fetal amnion and chorion membranes\nMost commonly an ascending infection from normal vaginal flora",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Young age\nLow socioeconomic status\nMultiple vaginal examinations\nNulliparity\nExtended duration of labor and ruptured membranes\nPre-existing genital tract infections",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Polymicrobial\nGenital mycoplasmas,\nanaerobes\n, enteric\ngram-negative\nbacilli and\ngroup B strep",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "group B strep",
+          "url": "https://wikem.org/wiki/Group_B_strep"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Young age\nLow socioeconomic status\nMultiple vaginal examinations\nNulliparity\nExtended duration of labor and ruptured membranes\nPre-existing genital tract infections",
+      "subsections": {
+        "Microbiology": {
+          "text": "Polymicrobial\nGenital mycoplasmas,\nanaerobes\n, enteric\ngram-negative\nbacilli and\ngroup B strep",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "group B strep",
+          "url": "https://wikem.org/wiki/Group_B_strep"
+        }
+      ]
+    },
+    "Microbiology": {
+      "text": "Polymicrobial\nGenital mycoplasmas,\nanaerobes\n, enteric\ngram-negative\nbacilli and\ngroup B strep",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaerobes",
+          "url": "https://wikem.org/wiki/Anaerobes"
+        },
+        {
+          "text": "gram-negative",
+          "url": "https://wikem.org/wiki/Gram-negative"
+        },
+        {
+          "text": "group B strep",
+          "url": "https://wikem.org/wiki/Group_B_strep"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Signs_and_Symptoms": {
+          "text": "Maternal\nfever\n(intra-partum temperature 102.2°F (≥39.0°C) once, OR two temperatures between >100.4°F - 102.2°F measured 30 min apart) with no other clear infectious source\n[2]\nPLUS\nOne or more of the following\nFetal tachycardia (>160-180 beats/min)\nPurulent or foul-smelling amniotic fluid or\nvaginal discharge\nMaternal\nleukocytosis\n(total blood leukocyte count >15,000/mm3)\nMaternal tachycardia and uterine tenderness, suggestive but not specific.",
+          "tables": []
+        },
+        "Presentation": {
+          "text": "Severity of presentation is broad.  Patient may appear toxic or may have silent chorioamnionitis, which still puts fetus at risk for\nneonatal sepsis\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        }
+      ]
+    },
+    "Signs_and_Symptoms": {
+      "text": "Maternal\nfever\n(intra-partum temperature 102.2°F (≥39.0°C) once, OR two temperatures between >100.4°F - 102.2°F measured 30 min apart) with no other clear infectious source\n[2]\nPLUS\nOne or more of the following\nFetal tachycardia (>160-180 beats/min)\nPurulent or foul-smelling amniotic fluid or\nvaginal discharge\nMaternal\nleukocytosis\n(total blood leukocyte count >15,000/mm3)\nMaternal tachycardia and uterine tenderness, suggestive but not specific.",
+      "subsections": {
+        "Presentation": {
+          "text": "Severity of presentation is broad.  Patient may appear toxic or may have silent chorioamnionitis, which still puts fetus at risk for\nneonatal sepsis\n.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        },
+        {
+          "text": "leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        }
+      ]
+    },
+    "Presentation": {
+      "text": "Severity of presentation is broad.  Patient may appear toxic or may have silent chorioamnionitis, which still puts fetus at risk for\nneonatal sepsis\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Pain_in_Pregnancy": {
+          "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+          "tables": []
+        },
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation\nExtra-amniotic infections such as\npyelonephritis\n,\nappendicitis\n,\npneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Abdominal_Pain_in_Pregnancy": {
+      "text": "The same\nabdominal pain differential\nas non-pregnant patients, plus:",
+      "subsections": {
+        "<20_Weeks": {
+          "text": "Ectopic pregnancy\nFirst trimester abortion\nComplete abortion\nThreatened abortion\nInevitable abortion\nIncomplete abortion\nMissed abortion\nSeptic abortion\nRound ligament stretching\nIncarcerated uterus\nMalposition of the uterus",
+          "tables": []
+        },
+        ">20_Weeks": {
+          "text": "Labor\n/\nPreterm labor\nPlacental abruption\nPlacenta previa\nVasa previa\nUterine rupture\nVaginal trauma\nHELLP syndrome\nCholestasis of pregnancy\nChorioamnionitis\nIncarcerated uterus\nAcute fatty liver of pregnancy\nMalposition of the uterus\nPlacenta accreta\nPlacenta increta\nPlacenta percreta",
+          "tables": []
+        },
+        "Any_time": {
+          "text": "Hemorrhagic ovarian cyst\nFibroid degeneration or torsion\nOvarian torsion\nConstipation\nExtra-amniotic infections such as\npyelonephritis\n,\nappendicitis\n,\npneumonia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "abdominal pain differential",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "First trimester abortion",
+          "url": "https://wikem.org/wiki/First_trimester_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Labor",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Placenta previa",
+          "url": "https://wikem.org/wiki/Placenta_previa"
+        },
+        {
+          "text": "Vasa previa",
+          "url": "https://wikem.org/wiki/Vasa_previa"
+        },
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Cholestasis of pregnancy",
+          "url": "https://wikem.org/wiki/Cholestasis_of_pregnancy"
+        },
+        {
+          "text": "Incarcerated uterus",
+          "url": "https://wikem.org/wiki/Incarcerated_uterus"
+        },
+        {
+          "text": "Acute fatty liver of pregnancy",
+          "url": "https://wikem.org/wiki/Acute_fatty_liver_of_pregnancy"
+        },
+        {
+          "text": "Placenta accreta",
+          "url": "https://wikem.org/wiki/Placenta_accreta"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nBlood cultures\nVaginal fluid for phosphatidylglycerol\nTests for fetal lung maturity\nCervical cultures\nE. coli\nGonorrhea\nVaginal cultures\nChlamydia\nMycoplasma\nGroup B streptococci\nUltrasonography\nfor fetal well-being",
+          "tables": []
+        },
+        "Exam": {
+          "text": "Avoid digital cervical exam\nSpeculum exam should be done with sterile speculum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Group B streptococci",
+          "url": "https://wikem.org/wiki/Group_B_streptococci"
+        },
+        {
+          "text": "Ultrasonography",
+          "url": "https://wikem.org/wiki/Ultrasonography"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC\nBlood cultures\nVaginal fluid for phosphatidylglycerol\nTests for fetal lung maturity\nCervical cultures\nE. coli\nGonorrhea\nVaginal cultures\nChlamydia\nMycoplasma\nGroup B streptococci\nUltrasonography\nfor fetal well-being",
+      "subsections": {
+        "Exam": {
+          "text": "Avoid digital cervical exam\nSpeculum exam should be done with sterile speculum",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "Group B streptococci",
+          "url": "https://wikem.org/wiki/Group_B_streptococci"
+        },
+        {
+          "text": "Ultrasonography",
+          "url": "https://wikem.org/wiki/Ultrasonography"
+        }
+      ]
+    },
+    "Exam": {
+      "text": "Avoid digital cervical exam\nSpeculum exam should be done with sterile speculum",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ampicillin\nIV 2g Q6H AND\nGentamicin\nIV 5mg/kg once daily (adjust based on renal function)\n[3]\n[4]\nAlternative antibiotic regimens:\nAmpicillin-sulbactam\nIV 2g Q6H\nTicarcillin-clavulanate\nIV 3.1g Q4H\nCefoxitin\nIV 2g Q4H\nCan only be considered cured with delivery of infected products of conception\nAfter delivery, treat like\npostpartum endometritis\nwith clindamycin plus gentamycin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ampicillin",
+          "url": "https://wikem.org/wiki/Ampicillin"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "Ticarcillin-clavulanate",
+          "url": "https://wikem.org/wiki/Ticarcillin-clavulanate"
+        },
+        {
+          "text": "Cefoxitin",
+          "url": "https://wikem.org/wiki/Cefoxitin"
+        },
+        {
+          "text": "postpartum endometritis",
+          "url": "https://wikem.org/wiki/Postpartum_endometritis"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit\nDue to concern for\nneonatal sepsis\n; patients should be given for IV\nantibiotics\n, supportive care, and possible early\ndelivery\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "delivery",
+          "url": "https://wikem.org/wiki/Delivery"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Placental abruption\nPremature birth\nNeonatal sepsis\nNeonatal death\nCerebral palsy\nMaternal\nsepsis\nNeed for cesarean delivery\nPostpartum hemorrhage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Placental abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "Premature birth",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Cerebral palsy",
+          "url": "https://wikem.org/wiki/Cerebral_palsy"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Postpartum hemorrhage",
+          "url": "https://wikem.org/wiki/Postpartum_hemorrhage"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Abdominal pain in pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal pain in pregnancy",
+          "url": "https://wikem.org/wiki/Abdominal_pain_in_pregnancy"
+        }
+      ]
+    }
+  }
+}
