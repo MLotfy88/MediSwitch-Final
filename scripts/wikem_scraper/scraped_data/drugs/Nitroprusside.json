@@ -1,0 +1,89 @@
+{
+  "drug_name": "Nitroprusside",
+  "url": "https://wikem.org/wiki/Nitroprusside",
+  "scraped_at": "2026-01-10T07:58:27.889341",
+  "sections": {
+    "Background": {
+      "text": "Sodium nitroprusside is primarily used as a potent vasodilator.\nWorks predominantly in arterioles and venules as a result of its breakdown to nitric oxide (NO).\n[1]\nNitric oxide reduces both total peripheral resistance and venous return, thus decreasing both preload and afterload\nThiocyanate level when checking for toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Start 0.5 mcg/kg/min IV, increasing 0.5 mcg/kg/min q5 min\nUsual dosage 3-4 mcg/kg/min IV\nMax dose 10 mcg/kg/min for 10 min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Start 0.3 mcg/kg/min IV, max 10 mcg/kg/min for 10 min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Pregnancy\nICH\n- theoretical concern for raising\nICP\nvia cerebral vasodilation, consider\nnicardipine\ninstead\n[2]\nAortic coarctation\nArteriovenous shunt\nExisting cyanide toxicity\nHigh output heart failure\nLack of arterial line monitoring",
+      "subsections": {
+        "Maximum_Dose_Rate": {
+          "text": "Infusion at maximum dose rate of 10 mcg/kg/min should never last for more than 10 minutes\nIf blood pressure is not controlled after 10 minutes of infusion at max rate, immediately terminate infusion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        }
+      ]
+    },
+    "Maximum_Dose_Rate": {
+      "text": "Infusion at maximum dose rate of 10 mcg/kg/min should never last for more than 10 minutes\nIf blood pressure is not controlled after 10 minutes of infusion at max rate, immediately terminate infusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Hypertensive emergency\nCHF\n, low output",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Potent arteriolar dilation from its active metabolite, nitric oxide (NO).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Drug_Reactions": {
+      "text": "Cyanide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide"
+        }
+      ]
+    },
+    "Kinetics": {
+      "text": "Cyanide and thiocyanate metabolites potentially toxic\nMetabolized via liver CYP450, excreted via urine\nHalf life 2 min\nHowever, thiocyanate half life is 3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

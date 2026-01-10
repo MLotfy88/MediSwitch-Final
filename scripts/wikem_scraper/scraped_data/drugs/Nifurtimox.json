@@ -1,0 +1,171 @@
+{
+  "drug_name": "Nifurtimox",
+  "url": "https://wikem.org/wiki/Nifurtimox",
+  "scraped_at": "2026-01-10T07:58:23.250789",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiparasitic\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names: Lampit",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiparasitic",
+          "url": "https://wikem.org/wiki/Antiparasitic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "8-10 mg/kg/day PO divided q6-8hr for 90-120 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "1-10 years: 15-20 mg/kg/day PO divided q8hr\n11-16 years: 12.5-15 mg/kg/day PO divided q8hr x90 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Unknown risk, no human data available",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Contraindicated in renal impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Unknown risk, no human data available",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Contraindicated in renal impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Contraindicated in renal impairment",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Contraindicated in renal impairment",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Contraindicated in hepatic impairment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Contraindicated in hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nActive or history of peripheral neuropathy\nActive or history of seizures or cerebral impairment, behavioral disorders, or psychoses\nHepatic impairment\nRenal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Seizures\nPleural effusion",
+          "tables": []
+        },
+        "Common": {
+          "text": "Anorexia (can be significant and limit completion of therapy)\nAtaxia, paresthesia, polyneuritis, tremor\nDepression, fatigue, sleep disorder, weakness\nHeadache\nMemory impairment\nRash, pruritic dermatitis\nGastralgia, vomiting\nMyalgia\nPulmonary infiltrates",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Seizures\nPleural effusion",
+      "subsections": {
+        "Common": {
+          "text": "Anorexia (can be significant and limit completion of therapy)\nAtaxia, paresthesia, polyneuritis, tremor\nDepression, fatigue, sleep disorder, weakness\nHeadache\nMemory impairment\nRash, pruritic dermatitis\nGastralgia, vomiting\nMyalgia\nPulmonary infiltrates",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Anorexia (can be significant and limit completion of therapy)\nAtaxia, paresthesia, polyneuritis, tremor\nDepression, fatigue, sleep disorder, weakness\nHeadache\nMemory impairment\nRash, pruritic dermatitis\nGastralgia, vomiting\nMyalgia\nPulmonary infiltrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:  2.95 +/- 1.19 hr\nMetabolism: Hepatic\nExcretion: Urinary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits trypanothione reductase, a parasite-specific antioxidant defense enzyme",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Investigational status in the US\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Chagas disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chagas disease",
+          "url": "https://wikem.org/wiki/Chagas_disease"
+        }
+      ]
+    }
+  }
+}

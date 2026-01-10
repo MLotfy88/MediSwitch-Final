@@ -1,0 +1,284 @@
+{
+  "drug_name": "Noninvasive_ventilation",
+  "url": "https://wikem.org/wiki/Noninvasive_ventilation",
+  "scraped_at": "2026-01-10T07:58:31.591202",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Augments inspiratory/expiratory pressures throughout a spontaneous respiratory cycle.\nRecruits compressed alveoli to reduce atelectasis.\nPrevents small airway collapse during inspiration.\nCounteracts intrinsic PEEP (Positive End Expiratory Pressure).\nDecreased both preload and afterload in heart failure exacerbations.\nImproves lung compliance and V/Q matching.\nDecreases the work of breathing.\nReduces need for\nintubation\nand mortality in acute cardiogenic\npulmonary edema\n[1]\nand acute\nCOPD exacerbation\n[2]",
+          "tables": []
+        },
+        "CPAP_vs._BPAP": {
+          "text": "CPAP = PEEP = EPAP\nUse for isolated hypoxia\nIncreasing CPAP increases oxygenation\nBPAP = PEEP + (IPAP = Inspiratory Pressure Support)\nUse for hypoxia and hypoventilation (decreases work of breathing)\nIncreasing IPAP (specifically IPAP-CPAP) increases ventilation\nNote: BiPAP is a brand name of one of the BPAP machines. Both names are often used interchangeably.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Augments inspiratory/expiratory pressures throughout a spontaneous respiratory cycle.\nRecruits compressed alveoli to reduce atelectasis.\nPrevents small airway collapse during inspiration.\nCounteracts intrinsic PEEP (Positive End Expiratory Pressure).\nDecreased both preload and afterload in heart failure exacerbations.\nImproves lung compliance and V/Q matching.\nDecreases the work of breathing.\nReduces need for\nintubation\nand mortality in acute cardiogenic\npulmonary edema\n[1]\nand acute\nCOPD exacerbation\n[2]",
+      "subsections": {
+        "CPAP_vs._BPAP": {
+          "text": "CPAP = PEEP = EPAP\nUse for isolated hypoxia\nIncreasing CPAP increases oxygenation\nBPAP = PEEP + (IPAP = Inspiratory Pressure Support)\nUse for hypoxia and hypoventilation (decreases work of breathing)\nIncreasing IPAP (specifically IPAP-CPAP) increases ventilation\nNote: BiPAP is a brand name of one of the BPAP machines. Both names are often used interchangeably.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        }
+      ]
+    },
+    "CPAP_vs._BPAP": {
+      "text": "CPAP = PEEP = EPAP\nUse for isolated hypoxia\nIncreasing CPAP increases oxygenation\nBPAP = PEEP + (IPAP = Inspiratory Pressure Support)\nUse for hypoxia and hypoventilation (decreases work of breathing)\nIncreasing IPAP (specifically IPAP-CPAP) increases ventilation\nNote: BiPAP is a brand name of one of the BPAP machines. Both names are often used interchangeably.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "CHF\nCOPD\nAsthma\nOSA\nPulmonary edema\nPneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Obtunded patients\nUncooperative patients\nVomiting or inability to protect the airway (aspiration risk)\nFacial trauma or burns\nFacial, esophageal, or gastric surgery\nPoor mask fit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Prepare intubation equipment in case of BPAP/CPAP failure.\nPosition the patient in a 30-90° upright position.\nApply the mask.\nSelect the appropriately-sized mask.\nSecure it in place by fastening the Velcro straps.\nNote: Some experts recommend allowing the patient to get used to the mask first, PRIOR TO starting the positive airway pressures.\nPrepare the patient.\nPatients will often require frequent coaching throughout this process.\nIn moderately anxious patients, consider low-dose\nfentanyl\n, a\nbenzodiazepine\nor\nketamine\nto assist with patient-ventilator synchrony.\nAdjust the settings.\nFor BPAP, begin with an IPAP of 8-10 cm H2O and an EPAP of 2-4 cm H2O.\nGradually titrate upward IPAP and EPAP 1-2 cm every 5-15 minutes with a goal IPAP 10-16 cm H2O and EPAP of 8-10 cm H2O depending upon patient response.\nContinue close monitoring.\nA doctor, nurse, or respiratory therapist should be with the patient at all times during BPAP/CPAP use.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Skin irritation\nNasal bridge pain\nMucosal dryness\nEye irritation\nGastric distention\nDecreased cardiac output\nBarotrauma (rarely)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Mechanical_Ventilation_Pages": {
+          "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "Mechanical_Ventilation_Pages": {
+      "text": "Noninvasive ventilation\nIntubation\nIntubation (peds)\nMechanical ventilation (main)\nVentilation modes\nInitial mechanical ventilation settings\nInitial mechanical ventilation settings (peds)\nAdjusting mechanical ventilation settings\nDeterioration after intubation\nLung recruitment maneuver\nVentilator high pressures\nVentilator associated lung injury\nWeaning mechanical ventilation\nExtubation\nMiscellaneous\nARDS\nand\nEBQ:ARDSnet\nAirway pressure release ventilation\nIdeal Body Weight Estimation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Ventilation modes",
+          "url": "https://wikem.org/wiki/Ventilation_modes"
+        },
+        {
+          "text": "Initial mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Adjusting mechanical ventilation settings",
+          "url": "https://wikem.org/wiki/Adjusting_mechanical_ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Lung recruitment maneuver",
+          "url": "https://wikem.org/wiki/Lung_recruitment_maneuver"
+        },
+        {
+          "text": "Ventilator high pressures",
+          "url": "https://wikem.org/wiki/Ventilator_high_pressures"
+        },
+        {
+          "text": "Ventilator associated lung injury",
+          "url": "https://wikem.org/wiki/Ventilator_associated_lung_injury"
+        },
+        {
+          "text": "Weaning mechanical ventilation",
+          "url": "https://wikem.org/wiki/Weaning_mechanical_ventilation"
+        },
+        {
+          "text": "Extubation",
+          "url": "https://wikem.org/wiki/Extubation"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        },
+        {
+          "text": "EBQ:ARDSnet",
+          "url": "https://wikem.org/wiki/EBQ:ARDSnet"
+        },
+        {
+          "text": "Airway pressure release ventilation",
+          "url": "https://wikem.org/wiki/Airway_pressure_release_ventilation"
+        },
+        {
+          "text": "Ideal Body Weight Estimation",
+          "url": "https://wikem.org/wiki/Ideal_body_weight_estimation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Merk Manual - How To Do Noninvasive Positive Pressure Ventilation\nNUEM - Non-Invasive Positive Pressure Ventilation in the ED",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

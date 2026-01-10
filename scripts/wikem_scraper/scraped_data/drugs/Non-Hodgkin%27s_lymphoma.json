@@ -1,0 +1,690 @@
+{
+  "drug_name": "Non-Hodgkin%27s_lymphoma",
+  "url": "https://wikem.org/wiki/Non-Hodgkin%27s_lymphoma",
+  "scraped_at": "2026-01-10T07:58:27.936609",
+  "sections": {
+    "Background": {
+      "text": "Can originate in lymphatic system or any organ in the body\nOccurs in children >5 years old\nImmunosuppression (e.g.\nHIV\n,\ncrohn's\n, chemotherapy) is a risk factor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Lymphadenopathy\nHepatosplenomegaly\n\"B\" symptoms (\nfever\n, night sweats, weight loss)\nGI:\nGI bleed\n,\nintussusception\n,\nnausea/vomiting\nSigns/symptoms of complications:\nSuperior vena cava syndrome\nPleural effusion\n,\npericardial effusion\nMalignant cord compression\nTumor lysis syndrome\n(rare in absence of active treatment)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lymphadenopathy",
+          "url": "https://wikem.org/wiki/Lymphadenopathy"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "GI bleed",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Malignant cord compression",
+          "url": "https://wikem.org/wiki/Malignant_cord_compression"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cervical_Lymphadenopathy": {
+          "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+          "tables": []
+        },
+        "Acute_Leukemia/Lymphoma": {
+          "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Cervical_Lymphadenopathy": {
+      "text": "Hodgkin's lymphoma\nNon-Hodgkin's lymphoma\nMononucleosis\nToxoplasmosis\nBranchial cleft\nlesions\nCat scratch disease\nMycobacterial adenitis",
+      "subsections": {
+        "Acute_Leukemia/Lymphoma": {
+          "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+          "tables": []
+        },
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "Mononucleosis",
+          "url": "https://wikem.org/wiki/Mononucleosis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Branchial cleft",
+          "url": "https://wikem.org/wiki/Branchial_cleft"
+        },
+        {
+          "text": "Cat scratch disease",
+          "url": "https://wikem.org/wiki/Cat_scratch_disease"
+        },
+        {
+          "text": "Mycobacterial adenitis",
+          "url": "https://wikem.org/wiki/Scrofula"
+        },
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Acute_Leukemia/Lymphoma": {
+      "text": "Acute myeloid leukemia\nAcute lymphocytic leukemia\nHodgkin's lymphoma\nNon-Hodgkin's lymphoma",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute myeloid leukemia",
+          "url": "https://wikem.org/wiki/Acute_myeloid_leukemia"
+        },
+        {
+          "text": "Acute lymphocytic leukemia",
+          "url": "https://wikem.org/wiki/Acute_lymphocytic_leukemia"
+        },
+        {
+          "text": "Hodgkin's lymphoma",
+          "url": "https://wikem.org/wiki/Hodgkin%27s_lymphoma"
+        },
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Lymphadenitis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Reactive adenitis\nBacterial\nlymphadenitis\nTuberculous lymphadenitis\nCellulitis\nCat-scratch disease\nParotitis\nSuppurative parotitis\nViral parotitis\nLymphangitis\nToxoplasmosis\nTularemia\nViral disease\nHIV-AIDS\nCytomegalovirus\nEpstein-Barr Virus\nFungal disease\nReactive adenitis",
+          "tables": []
+        },
+        "Non-Infectious": {
+          "text": "Malignancy\nLymphoma\nMetastatic cancer\nRheumatologic Disease\nKawasaki Disease\nSystemic lupus erythematosus\nSarcoidosis\nJuvenile Idiopathic Arthritis\nLangerhans Cell Histiocytosis\nCutaneous Lesions:\nBacillary angiomatosis\nPurpura\nHematomas\nAngiomas\nDermatofibromas\nNevi\nDrug reaction\nPhenytoin\nor\nCarbamazepine\nPostvaccination\nSarcoidosis\nSalivary gland diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lymphadenitis",
+          "url": "https://wikem.org/wiki/Lymphadenitis"
+        },
+        {
+          "text": "Tuberculous lymphadenitis",
+          "url": "https://wikem.org/wiki/Tuberculous_lymphadenitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Cat-scratch disease",
+          "url": "https://wikem.org/wiki/Cat-scratch_disease"
+        },
+        {
+          "text": "Parotitis",
+          "url": "https://wikem.org/wiki/Parotitis"
+        },
+        {
+          "text": "Suppurative parotitis",
+          "url": "https://wikem.org/wiki/Suppurative_parotitis"
+        },
+        {
+          "text": "Viral parotitis",
+          "url": "https://wikem.org/wiki/Viral_parotitis"
+        },
+        {
+          "text": "Lymphangitis",
+          "url": "https://wikem.org/wiki/Lymphangitis"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Tularemia",
+          "url": "https://wikem.org/wiki/Tularemia"
+        },
+        {
+          "text": "HIV-AIDS",
+          "url": "https://wikem.org/wiki/HIV_-_AIDS_(main)"
+        },
+        {
+          "text": "Cytomegalovirus",
+          "url": "https://wikem.org/wiki/Cytomegalovirus"
+        },
+        {
+          "text": "Epstein-Barr Virus",
+          "url": "https://wikem.org/wiki/Infectious_mononucleosis"
+        },
+        {
+          "text": "Fungal disease",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Kawasaki Disease",
+          "url": "https://wikem.org/wiki/Kawasaki_Disease"
+        },
+        {
+          "text": "Systemic lupus erythematosus",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Juvenile Idiopathic Arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_Idiopathic_Arthritis"
+        },
+        {
+          "text": "Purpura",
+          "url": "https://wikem.org/wiki/Purpura"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Salivary gland diagnoses",
+          "url": "https://wikem.org/wiki/Salivary_gland_diagnoses"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nBMP,\nLFTs\n, uric acid\nCXR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See management sections of specific complications:\nSuperior vena cava syndrome\nPleural effusion\n,\npericardial effusion\nMalignant cord compression\nTumor lysis syndrome\nNeutropenic fever\nNausea/vomiting\nGI bleeding\n,\nintussusception",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "pericardial effusion",
+          "url": "https://wikem.org/wiki/Pericardial_effusion"
+        },
+        {
+          "text": "Malignant cord compression",
+          "url": "https://wikem.org/wiki/Malignant_cord_compression"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Lymphoma\nOncologic emergencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        }
+      ]
+    }
+  }
+}

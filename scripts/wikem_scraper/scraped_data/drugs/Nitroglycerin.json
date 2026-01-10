@@ -1,0 +1,132 @@
+{
+  "drug_name": "Nitroglycerin",
+  "url": "https://wikem.org/wiki/Nitroglycerin",
+  "scraped_at": "2026-01-10T07:58:28.030860",
+  "sections": {
+    "General": {
+      "text": "Type: vasodilator; stimulates cGMP production causing vascular smooth muscle relaxation\nDosage Forms: SL, IV\nCommon Trade Names: Nitrolingual, NitroMist, Nitrostat",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Angina,_acute": {
+          "text": "0.3 - 0.6mg SL q5min, max: 3 doses within 15 min\nIV form: 5 mcg/min IV, increase 5-20 mcg/min q3-5min.",
+          "tables": []
+        },
+        "Hypertension": {
+          "text": "5-200 mcg/min IV, start 5 mcg/min IV and increase 5 mcg/min q3-5min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Angina,_acute": {
+      "text": "0.3 - 0.6mg SL q5min, max: 3 doses within 15 min\nIV form: 5 mcg/min IV, increase 5-20 mcg/min q3-5min.",
+      "subsections": {
+        "Hypertension": {
+          "text": "5-200 mcg/min IV, start 5 mcg/min IV and increase 5 mcg/min q3-5min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension": {
+      "text": "5-200 mcg/min IV, start 5 mcg/min IV and increase 5 mcg/min q3-5min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension/CHF": {
+          "text": "1-5 mcg/kg/min IV, start 0.25-0.5 mcg/kg/min, max: 20 mcg/kg/min",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension/CHF": {
+      "text": "1-5 mcg/kg/min IV, start 0.25-0.5 mcg/kg/min, max: 20 mcg/kg/min",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: safety unknown\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPericardial tamponade\nSevere anemia\nSildenafil\nuse within the past 24 hours or tadalafil within the past 48 hours\n[1]\n[2]\nMethemoglobinemia\nCaution in hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sildenafil",
+          "url": "https://wikem.org/wiki/Sildenafil"
+        },
+        {
+          "text": "Methemoglobinemia",
+          "url": "https://wikem.org/wiki/Methemoglobinemia"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "hypotension\nbradycardia\nmethemoglobinemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "headache\ndizziness\nflushing\nhypotension\nreflex tachycardia\nedema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "hypotension\nbradycardia\nmethemoglobinemia",
+      "subsections": {
+        "Common": {
+          "text": "headache\ndizziness\nflushing\nhypotension\nreflex tachycardia\nedema",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "headache\ndizziness\nflushing\nhypotension\nreflex tachycardia\nedema",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-3 min\nMetabolism: liver, erythrocytes, vascular walls\nExcretion: urine\nMechanism of Action: stimulates cGMP production resulting in vascular smooth muscle relaxation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "EMCrit: Sympathetic Crashing Acute Pulmonary Edema (SCAPE)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

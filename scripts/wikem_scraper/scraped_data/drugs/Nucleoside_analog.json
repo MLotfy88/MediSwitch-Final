@@ -1,0 +1,83 @@
+{
+  "drug_name": "Nucleoside_analog",
+  "url": "https://wikem.org/wiki/Nucleoside_analog",
+  "scraped_at": "2026-01-10T07:58:33.916497",
+  "sections": {
+    "Mechanism_of_Action": {
+      "text": "Nucleoside analoges are a class of antiviral medications that mimic the structure of natural nucleosides, interfering with viral DNA or RNA synthesis\nPrimarily used for treatment of herpesvirus infections (e.g., HSV, VZV), HIV, hepatitis B and C, and some other viral infections\nWork by being incorporated into viral nucleic acids, leading to chain termination or mutagenesis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Effects": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Nausea, vomiting, diarrhea\nHeadache, fatigue\nRash or pruritus\nBone marrow suppression (e.g., zidovudine)",
+          "tables": []
+        },
+        "Serious": {
+          "text": "Neurotoxicity (e.g.,\ncidofovir\n,\ntenofovir\n)\nNephrotoxicity (e.g.,\nacyclovir\nin renal impairment)\nLactic acidosis and hepatotoxicity (e.g., nucleoside reverse transcriptase inhibitors like\nzidovudine\n)\nBone density loss (e.g.,\ntenofovir\n)\nTeratogenicity (e.g.,\nribavirin\ncontraindicated in pregnancy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "ribavirin",
+          "url": "https://wikem.org/wiki/Ribavirin"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea, vomiting, diarrhea\nHeadache, fatigue\nRash or pruritus\nBone marrow suppression (e.g., zidovudine)",
+      "subsections": {
+        "Serious": {
+          "text": "Neurotoxicity (e.g.,\ncidofovir\n,\ntenofovir\n)\nNephrotoxicity (e.g.,\nacyclovir\nin renal impairment)\nLactic acidosis and hepatotoxicity (e.g., nucleoside reverse transcriptase inhibitors like\nzidovudine\n)\nBone density loss (e.g.,\ntenofovir\n)\nTeratogenicity (e.g.,\nribavirin\ncontraindicated in pregnancy)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "ribavirin",
+          "url": "https://wikem.org/wiki/Ribavirin"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Neurotoxicity (e.g.,\ncidofovir\n,\ntenofovir\n)\nNephrotoxicity (e.g.,\nacyclovir\nin renal impairment)\nLactic acidosis and hepatotoxicity (e.g., nucleoside reverse transcriptase inhibitors like\nzidovudine\n)\nBone density loss (e.g.,\ntenofovir\n)\nTeratogenicity (e.g.,\nribavirin\ncontraindicated in pregnancy)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        },
+        {
+          "text": "ribavirin",
+          "url": "https://wikem.org/wiki/Ribavirin"
+        }
+      ]
+    },
+    "List_of_Nucleoside_analoges": {
+      "text": "Acyclovir",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acyclovir",
+          "url": "https://wikem.org/wiki/Acyclovir"
+        }
+      ]
+    }
+  }
+}

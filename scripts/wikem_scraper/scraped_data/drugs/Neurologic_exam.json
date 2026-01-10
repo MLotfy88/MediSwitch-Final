@@ -1,0 +1,73 @@
+{
+  "drug_name": "Neurologic_exam",
+  "url": "https://wikem.org/wiki/Neurologic_exam",
+  "scraped_at": "2026-01-10T07:58:20.850447",
+  "sections": {
+    "Exam": {
+      "text": "Mental status\nA&O vs. MMSE\nGCS\nDysarthria (mech) vs. Aphasia\nCranial nerves\nCNs II-XII\nMotor Tone\n(hyper/hypo)\nStrength\n(0-none; 1-trace contraction; 2-moves with out gravity; 3-moves against gravity; 4-moves against some resistance; 5-full)\nAtrophy\nDelts (C5), wrists (C6-8), biceps (C5-6), triceps (C6-8), iliopsoas (L1-2), quads (L3-4), hamstrings (S1), TA (L4), G/S (S1-2)\nSensory exam\nDorsal columns (vibratory/proprioception)\nSpinothalamic (PP/LT)\nRomberg\nCerebellar exam\nFinger-to-nose (dysmetria)\nRapid alternating (dysdiadochokinesia)\nHeel-to-shin\nPronator drift\nReflexes\nGait\nWide-based, sway\nHeel & toe\nTandem",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Cranial nerves",
+          "url": "https://wikem.org/wiki/Cranial_nerves"
+        },
+        {
+          "text": "CNs II-XII",
+          "url": "https://wikem.org/wiki/CNs_II-XII"
+        },
+        {
+          "text": "Motor Tone",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Strength",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Sensory exam",
+          "url": "https://wikem.org/wiki/Sensory_exam"
+        },
+        {
+          "text": "Reflexes",
+          "url": "https://wikem.org/wiki/Reflexes"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Weakness\nSensory exam\nPediatric developmental milestones\nVisual field defects\nFocal neurologic deficits\nUpper extremity peripheral innervation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Sensory exam",
+          "url": "https://wikem.org/wiki/Sensory_exam"
+        },
+        {
+          "text": "Pediatric developmental milestones",
+          "url": "https://wikem.org/wiki/Pediatric_developmental_milestones"
+        },
+        {
+          "text": "Visual field defects",
+          "url": "https://wikem.org/wiki/Visual_field_defects"
+        },
+        {
+          "text": "Focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        },
+        {
+          "text": "Upper extremity peripheral innervation",
+          "url": "https://wikem.org/wiki/Upper_extremity_peripheral_innervation"
+        }
+      ]
+    }
+  }
+}

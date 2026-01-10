@@ -1,0 +1,74 @@
+{
+  "drug_name": "Neuroblastoma_(peds)",
+  "url": "https://wikem.org/wiki/Neuroblastoma_(peds)",
+  "scraped_at": "2026-01-10T07:58:20.925020",
+  "sections": {
+    "Background": {
+      "text": "Arises from primitive ganglion cells of sympathetic nervous system\nSynthesize and secrete catecholamines\nMost common neoplasm in 1st yr of life\nMay arise anywhere along sympathetic nervous system\nAdrenal gland (40%)\nAbdomen (25%)\nChest (15%)\nMets are most common in lymph nodes, bone marrow, cortical bone, dura, orbits, liver, and skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Depends on location\nAbdominal mass\n2/3 of primary neuroblastoma arise in the abdomen\n[1]\nAbdominal pain or constipation\nProptosis or periorbital ecchymoses\nHorner syndrome\n: miosis, ptosis, anhidrosis\nParaspinal mass\nSpinal cord compression, which can cause localized back pain or weakness\nSystemic symptoms, bone pain, anemia\nOpsoclonus\n-myoclonus: rapid, dancing eye movements, rhythmic jerking of trunk or limbs, and/or ataxia\nparaneoplastic\nsyndrome highly associated with neuroblastoma\nNeutropenia\n/\npancytopenia\nsuggests bone marrow involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Opsoclonus",
+          "url": "https://wikem.org/wiki/Opsoclonus"
+        },
+        {
+          "text": "paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Wilms' tumor\nHepatoblastoma\nLymphoma\nOther adrenal gland tumor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wilms' tumor",
+          "url": "https://wikem.org/wiki/Wilms%27_tumor"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Catecholamines; VMA and HVA of serum and urine\nCT or MRI\nAlthough US is often the initial radiologic study of choice for abdominal mass, primary tumor site and possible nodes on are better evaluated on CT or MRI\nCXR\nBiopsy for definitive diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "No acute treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission for tumor biopsy and further workup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

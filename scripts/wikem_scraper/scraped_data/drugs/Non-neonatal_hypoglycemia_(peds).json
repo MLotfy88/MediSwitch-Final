@@ -1,0 +1,361 @@
+{
+  "drug_name": "Non-neonatal_hypoglycemia_(peds)",
+  "url": "https://wikem.org/wiki/Non-neonatal_hypoglycemia_(peds)",
+  "scraped_at": "2026-01-10T07:58:29.303403",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nnon-neonatal pediatric\nhypoglycemia. See\nhypoglycemia\nfor adult patients or\nneonatal hypoglycemia\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Etiology": {
+          "text": "Inadequate oral intake\nExcess insulin\nNewborns of\ndiabetic mothers\nDeficient hyperglycemic hormones (growth or\nadrenal hormone deficiency\n)\nInborn errors of metabolism\n: fatty acid oxidation or carbohydrate metabolism disorders\nPrematurity (inadequate glycogen stores)\nSepsis\nETOH\nexposure (children have low glycogen stores)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetic mothers",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "adrenal hormone deficiency",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        }
+      ]
+    },
+    "Etiology": {
+      "text": "Inadequate oral intake\nExcess insulin\nNewborns of\ndiabetic mothers\nDeficient hyperglycemic hormones (growth or\nadrenal hormone deficiency\n)\nInborn errors of metabolism\n: fatty acid oxidation or carbohydrate metabolism disorders\nPrematurity (inadequate glycogen stores)\nSepsis\nETOH\nexposure (children have low glycogen stores)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetic mothers",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "adrenal hormone deficiency",
+          "url": "https://wikem.org/wiki/CAH"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Most common features:\nVomiting\nAltered mental status\nPoor feeding\nMay also see lethargy, apnea,\nseizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting_(peds)"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Poor feeding",
+          "url": "https://wikem.org/wiki/Failure_to_thrive_(peds)"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Systemic_Illness": {
+          "text": "Critical Illness\nSepsis\nOrgan Failure\nHepatic failure\nRenal failure\nEndocrinopathy\nAdrenal insufficiency\n,\ncongenital adrenal hyperplasia\nSeizure\nInborn errors of metabolism",
+          "tables": []
+        },
+        "Drugs": {
+          "text": "Anti-hyperglycemic\nInsulin\nOral secretagogue\nSulfonylurea toxicity\nOther\nEtOH\nB-blocker\nACEI\nAcetaminophen (OD)",
+          "tables": []
+        },
+        "Malignancy": {
+          "text": "Insulinoma\nNon-islet cell\nInsulin/receptor autoantibodies\nHigh tumor burden",
+          "tables": []
+        },
+        "Other": {
+          "text": "Artifactual\nSpecimen collection\nConsumption\nLeukemia\nErythrocytosis\nHemolytic disease\nStarvation\nAnorexia nervosa",
+          "tables": []
+        },
+        "Precipitants_of_anti-hyperglycemic_induced_hypoglycemia": {
+          "text": "Decreased glucose\nMissed meal\nConsumption (exercise, illness)\nIncreased drug\nError (patient, provider)\nIntentional overdose\nIncreased availability\nHepatic failure\nRenal failure\nDrug interaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "congenital adrenal hyperplasia",
+          "url": "https://wikem.org/wiki/Congenital_adrenal_hyperplasia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        },
+        {
+          "text": "Sulfonylurea toxicity",
+          "url": "https://wikem.org/wiki/Sulfonylurea_toxicity"
+        },
+        {
+          "text": "EtOH",
+          "url": "https://wikem.org/wiki/EtOH"
+        },
+        {
+          "text": "B-blocker",
+          "url": "https://wikem.org/wiki/B-blocker"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        },
+        {
+          "text": "Acetaminophen (OD)",
+          "url": "https://wikem.org/wiki/Acetaminophen_Overdose"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "Hemolytic disease",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "Anorexia nervosa",
+          "url": "https://wikem.org/wiki/Anorexia_nervosa"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Blood glucose level\nUrinalysis\nIf ketones: adrenal or GH deficiency, inborn errors of metabolism\nIf no ketones: Hyperinsulinemia, fatty acid oxidation defects",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Blood glucose <45 in symptomatic neonate\nBlood glucose <35 in asymptomatic neonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Blood glucose level\nUrinalysis\nIf ketones: adrenal or GH deficiency, inborn errors of metabolism\nIf no ketones: Hyperinsulinemia, fatty acid oxidation defects",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Blood glucose <45 in symptomatic neonate\nBlood glucose <35 in asymptomatic neonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Blood glucose <45 in symptomatic neonate\nBlood glucose <35 in asymptomatic neonate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "See\ncritical care quick reference\nfor doses by weight\nGlucose\nBolus\nD10W\n2mL/kg; then infuse D10W at 0.06-0.08mL/kg/min\nGlucagon\nUsed for persistent hypoglycemia despite glucose administration\nWill not work with etoh exposure as glycogen stores are already low\n0.03mg/kg IM/IV",
+      "subsections": {
+        "Pediatric_Hypoglycemia_Dextrose_Chart": {
+          "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+          "tables": [
+            [
+              {
+                "Category": "Neonatal",
+                "Age": "<2mo",
+                "Glucose": "<40",
+                "Treatment": "D10W",
+                "Initial IV Bolus": "2.5-5 mL/kg",
+                "Maintenance Dose": "6 mL/kg/h"
+              },
+              {
+                "Category": "Pediatric",
+                "Age": "2mo-8yrs",
+                "Glucose": "<60",
+                "Treatment": "D25W",
+                "Initial IV Bolus": "2 mL/kg",
+                "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+              },
+              {
+                "Category": "Adult",
+                "Age": ">8yrs",
+                "Glucose": "<70",
+                "Treatment": "D50W",
+                "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+                "Maintenance Dose": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "Glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        },
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "Pediatric_Hypoglycemia_Dextrose_Chart": {
+      "text": "Consider diluting the\nD25W\nor\nD50W\nbolus, with NS 1-to-1, as those concentrations may be sclerosing to veins\nRecheck 5 minutes after dose and repeat dose if low.\nConsider\nglucagon\nIM/SQ if IV access is not readily available",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Neonatal",
+            "Age": "<2mo",
+            "Glucose": "<40",
+            "Treatment": "D10W",
+            "Initial IV Bolus": "2.5-5 mL/kg",
+            "Maintenance Dose": "6 mL/kg/h"
+          },
+          {
+            "Category": "Pediatric",
+            "Age": "2mo-8yrs",
+            "Glucose": "<60",
+            "Treatment": "D25W",
+            "Initial IV Bolus": "2 mL/kg",
+            "Maintenance Dose": "D10W:6 mL/kg/h for first 10 kg+ 3 mL/kg/h for 11–20 kg+ 1.5 mL/kg/h for each additional kg >20 kg"
+          },
+          {
+            "Category": "Adult",
+            "Age": ">8yrs",
+            "Glucose": "<70",
+            "Treatment": "D50W",
+            "Initial IV Bolus": "50mL (1 amp)OR1 mL/kg",
+            "Maintenance Dose": ""
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "D25W",
+          "url": "https://wikem.org/wiki/D25W"
+        },
+        {
+          "text": "D50W",
+          "url": "https://wikem.org/wiki/D50W"
+        },
+        {
+          "text": "glucagon",
+          "url": "https://wikem.org/wiki/Glucagon"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypoglycemia\nNeonatal hypoglycemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Neonatal hypoglycemia",
+          "url": "https://wikem.org/wiki/Neonatal_hypoglycemia"
+        }
+      ]
+    }
+  }
+}

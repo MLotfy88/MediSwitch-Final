@@ -1,0 +1,127 @@
+{
+  "drug_name": "Nitrous_oxide_toxicity",
+  "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity",
+  "scraped_at": "2026-01-10T07:58:25.524312",
+  "sections": {
+    "Background": {
+      "text": "Nitrous oxide toxicity is often associated with inhalation of whipped cream or small nitrous oxide cannisters (\nwhippets\n)\nCommonly abused drug notable for its short-lived euphoric and calming effects through noncompetitive NMDA antagonism and GABA-A agonism.\nNitrous is much more soluble in blood and will quickly diffuse from the blood to a closed space.\nBeyond the gaseous effects nitrous oxide mainly disrupts B12 by oxidizing the cobalt ion which irreversibly inhibits methionine synthase\n[1]\nEpidemiology\nRates of nitrous oxide misuse vary significantly by country and are generally higher in Europe and the United States.\nThe World Drug Report found nitrous oxide use (i.e. at least once in last 12 months) in 16-24 year olds doubled globally between 2015 to 2021, from 10% to 20%.\n[2]\nMost nitrous oxide misuse is sporadic and without significant health consequences. This and its ease of availability may lead users to erroneously view it as safe.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "whippets",
+          "url": "https://wikem.org/wiki/Whippets"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_complications": {
+          "text": "Pneumothorax\n(induced by forceful inhalation or high-pressure tank siphoning)\nTympanic membrane rupture\nTracheal trauma\nAir emboli\nThrombotic events (rare, typically in subacute toxicity from homocysteine elevation)\nVenous thromboembolism\nAcute arterial ischemia",
+          "tables": []
+        },
+        "Chronic_complications": {
+          "text": "Bone marrow suppression (from long term exposure)\nLeukopenia\nMegaloblastic anemia\nThrombocytopenia\nPeripheral neuropathy\nSubacute combined degeneration of the spinal cord",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Acute_complications": {
+      "text": "Pneumothorax\n(induced by forceful inhalation or high-pressure tank siphoning)\nTympanic membrane rupture\nTracheal trauma\nAir emboli\nThrombotic events (rare, typically in subacute toxicity from homocysteine elevation)\nVenous thromboembolism\nAcute arterial ischemia",
+      "subsections": {
+        "Chronic_complications": {
+          "text": "Bone marrow suppression (from long term exposure)\nLeukopenia\nMegaloblastic anemia\nThrombocytopenia\nPeripheral neuropathy\nSubacute combined degeneration of the spinal cord",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Venous thromboembolism",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        },
+        {
+          "text": "Acute arterial ischemia",
+          "url": "https://wikem.org/wiki/Acute_arterial_ischemia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Chronic_complications": {
+      "text": "Bone marrow suppression (from long term exposure)\nLeukopenia\nMegaloblastic anemia\nThrombocytopenia\nPeripheral neuropathy\nSubacute combined degeneration of the spinal cord",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Nitrous oxide use is undetectable by standard drug screens, which makes obtaining a thorough history crucial.\n[3]\nNeuro deficits:\nConsult poison control for recommendations.\nMay be exacerbated in cases of underlying\nB12 deficiency\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Nitrous oxide\nVitamin B12 deficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitrous oxide",
+          "url": "https://wikem.org/wiki/Nitrous_oxide"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        }
+      ]
+    }
+  }
+}

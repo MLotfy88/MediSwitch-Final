@@ -1,0 +1,628 @@
+{
+  "drug_name": "Neurogenic_shock",
+  "url": "https://wikem.org/wiki/Neurogenic_shock",
+  "scraped_at": "2026-01-10T07:58:20.760038",
+  "sections": {
+    "Background": {
+      "text": "Do not confuse with\nspinal shock\nDiagnosis of exclusion\nNever presume hypotension in trauma patient is due to neurogenic shock\nInjury to cervical or thoracic vertebrae causes peripheral sympathetic denervation\nAbove T1:  full sympathetic denervation\nT1-L3:  Partial sympathetic denervation\nBelow L4:  no sympathetic denervation\nLasts 1-3 week",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "spinal shock",
+          "url": "https://wikem.org/wiki/Spinal_shock"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hypotension\nBradycardia\nPeripherally vasodilated, warm extremities\nHowever, this leads to\nhypothermia\nEnsure monitoring of core temperatures and warming of patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Shock": {
+          "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+          "tables": []
+        },
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Shock": {
+      "text": "Cardiogenic\nAcute valvular Regurgitation\n/VSD\nCHF\nDysrhythmia\nACS\nMyocardial Contusion\nMyocarditis\nDrug toxicity (e.g.\nbeta blocker\n,\nCCB\n, or\nbupropion OD\n)\nObstructive\nAir embolism\nAortic Stenosis\nCardiac Tamponade\nPE\nTension pneumothorax\nDistributive\nAdrenal crisis\nAnaphylaxis\nNeurogenic shock\nSepsis\nToxicologic\nHypovolemic\nSevere\ndehydration\nHemorrhagic shock\n(traumatic and non-traumatic)",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic",
+          "url": "https://wikem.org/wiki/Cardiogenic_shock"
+        },
+        {
+          "text": "Acute valvular Regurgitation",
+          "url": "https://wikem.org/wiki/Valvular_emergencies"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dysrhythmia",
+          "url": "https://wikem.org/wiki/Dysrhythmia"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Myocardial Contusion",
+          "url": "https://wikem.org/wiki/Myocardial_Contusion"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "beta blocker",
+          "url": "https://wikem.org/wiki/Beta_blocker_toxicity"
+        },
+        {
+          "text": "CCB",
+          "url": "https://wikem.org/wiki/Calcium_channel_blocker_toxicity"
+        },
+        {
+          "text": "bupropion OD",
+          "url": "https://wikem.org/wiki/Bupropion_toxicity"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Adrenal crisis",
+          "url": "https://wikem.org/wiki/Adrenal_crisis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Toxicologic",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Standard\nATLS\nworkup",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Diagnosis of exclusion after ruling out other causes of hypotension (principally hemorrhagic shock in the setting of trauma)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Standard\nATLS\nworkup",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Diagnosis of exclusion after ruling out other causes of hypotension (principally hemorrhagic shock in the setting of trauma)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/Trauma"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Diagnosis of exclusion after ruling out other causes of hypotension (principally hemorrhagic shock in the setting of trauma)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Neurogenic_Shock_Management": {
+          "text": "Exclude other causes of shock!\nJudicious\nIVF\nwith normal saline, with UOP >30 cc/hr\nHypotonic fluids such as D5W and 0.45% NS\nare contraindicated\nAlbumin is relatively contraindicated as compared to NS\n[1]\nNorepinephrine\nfirst line, with\nMAP goal of 85-90 for the first 5-7 days after spinal cord injury\n[2]\nConsider\nadding\nphenylephrine\nif BP refractory to first line agent\nPhenylephrine\nalone without beta-1 stimulation will cause reflex bradycardia\nAtropine\nif needed, keeping HR 60-100 bpm in NSR\nMay titrate down on norepinephrine and atropine, to favor more phenylephrine α agonism in ICU setting",
+          "tables": []
+        },
+        "Acute_Management_of_Spinal_Cord_Injury": {
+          "text": "Neurogenic shock\nmanagement\nConsider intubation injuries at C5 or above\nManual in-line stabilization reduces cervical movement better than C-collar, but be careful of tracheal pressures inadvertently applied which can worsen laryngeal visualization\n[3]\n[4]\nDirect laryngoscopy causes C-spine extension at atlanto-occipital junction, C1-C2, and C4-C7 in order from most to least\nConsider video laryngoscopy with hyperangulated stylet or bougie assisted DL to intubate higher-grade laryngoscopy views of vocal cords without C-spine overextension\n[5]\nPost-intubation sedation takes into consideration hemodynamics and potential intraoperative EMG and evoked potential monitoring by anesthesia\nOpioids\ndo not impact evoked potential monitoring\nKetamine\nmay enhance evoked potential monitoring\n[6]\nConsider\ndexmedetomidine\nas a\nPropofol\nsparing medication in TIVA\n[7]\nConsider surgical intervention for:\nProgressive neurologic deficits\nUnstable spine fractures\nSteroids are no longer recommended\nAdministration of methylprednisolone (MP) for the treatment of acute spinal cord injury (SCI) is not recommended. Clinicians considering MP therapy should bear in mind that the drug is NOT approved by the FDA for this indication. There is no Class I or Class II medical evidence supporting the clinical benefit of MP in the treatment of acute SCI. Scattered reports of Class III evidence claim inconsistent effects likely related to random chance or selection bias. However, Class I, II, and III evidence exists that high-dose steroids are associated with harmful side effects including death.\n[8]\nSee\nEBQ:High Dose Steroids in Cord Injury\nfor further discussion",
+          "tables": []
+        },
+        "Additional_Considerations": {
+          "text": "Prevent\nhypothermia\n- consider temperature probe Foley\nHigh risk of\nVTE\nin paraparesis or tetraparesis\nUp to 40% in non-prophylaxed\nMust weigh benefits of VTE prophylaxis and risk of bleed from LMWH\nLow dose SC\nheparin\nat 500 units q8hrs plus SCDs may be alternative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Unstable spine fractures",
+          "url": "https://wikem.org/wiki/Unstable_spine_fractures"
+        },
+        {
+          "text": "EBQ:High Dose Steroids in Cord Injury",
+          "url": "https://wikem.org/wiki/EBQ:High_Dose_Steroids_in_Cord_Injury"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Neurogenic_Shock_Management": {
+      "text": "Exclude other causes of shock!\nJudicious\nIVF\nwith normal saline, with UOP >30 cc/hr\nHypotonic fluids such as D5W and 0.45% NS\nare contraindicated\nAlbumin is relatively contraindicated as compared to NS\n[1]\nNorepinephrine\nfirst line, with\nMAP goal of 85-90 for the first 5-7 days after spinal cord injury\n[2]\nConsider\nadding\nphenylephrine\nif BP refractory to first line agent\nPhenylephrine\nalone without beta-1 stimulation will cause reflex bradycardia\nAtropine\nif needed, keeping HR 60-100 bpm in NSR\nMay titrate down on norepinephrine and atropine, to favor more phenylephrine α agonism in ICU setting",
+      "subsections": {
+        "Acute_Management_of_Spinal_Cord_Injury": {
+          "text": "Neurogenic shock\nmanagement\nConsider intubation injuries at C5 or above\nManual in-line stabilization reduces cervical movement better than C-collar, but be careful of tracheal pressures inadvertently applied which can worsen laryngeal visualization\n[3]\n[4]\nDirect laryngoscopy causes C-spine extension at atlanto-occipital junction, C1-C2, and C4-C7 in order from most to least\nConsider video laryngoscopy with hyperangulated stylet or bougie assisted DL to intubate higher-grade laryngoscopy views of vocal cords without C-spine overextension\n[5]\nPost-intubation sedation takes into consideration hemodynamics and potential intraoperative EMG and evoked potential monitoring by anesthesia\nOpioids\ndo not impact evoked potential monitoring\nKetamine\nmay enhance evoked potential monitoring\n[6]\nConsider\ndexmedetomidine\nas a\nPropofol\nsparing medication in TIVA\n[7]\nConsider surgical intervention for:\nProgressive neurologic deficits\nUnstable spine fractures\nSteroids are no longer recommended\nAdministration of methylprednisolone (MP) for the treatment of acute spinal cord injury (SCI) is not recommended. Clinicians considering MP therapy should bear in mind that the drug is NOT approved by the FDA for this indication. There is no Class I or Class II medical evidence supporting the clinical benefit of MP in the treatment of acute SCI. Scattered reports of Class III evidence claim inconsistent effects likely related to random chance or selection bias. However, Class I, II, and III evidence exists that high-dose steroids are associated with harmful side effects including death.\n[8]\nSee\nEBQ:High Dose Steroids in Cord Injury\nfor further discussion",
+          "tables": []
+        },
+        "Additional_Considerations": {
+          "text": "Prevent\nhypothermia\n- consider temperature probe Foley\nHigh risk of\nVTE\nin paraparesis or tetraparesis\nUp to 40% in non-prophylaxed\nMust weigh benefits of VTE prophylaxis and risk of bleed from LMWH\nLow dose SC\nheparin\nat 500 units q8hrs plus SCDs may be alternative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "Norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Unstable spine fractures",
+          "url": "https://wikem.org/wiki/Unstable_spine_fractures"
+        },
+        {
+          "text": "EBQ:High Dose Steroids in Cord Injury",
+          "url": "https://wikem.org/wiki/EBQ:High_Dose_Steroids_in_Cord_Injury"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Acute_Management_of_Spinal_Cord_Injury": {
+      "text": "Neurogenic shock\nmanagement\nConsider intubation injuries at C5 or above\nManual in-line stabilization reduces cervical movement better than C-collar, but be careful of tracheal pressures inadvertently applied which can worsen laryngeal visualization\n[3]\n[4]\nDirect laryngoscopy causes C-spine extension at atlanto-occipital junction, C1-C2, and C4-C7 in order from most to least\nConsider video laryngoscopy with hyperangulated stylet or bougie assisted DL to intubate higher-grade laryngoscopy views of vocal cords without C-spine overextension\n[5]\nPost-intubation sedation takes into consideration hemodynamics and potential intraoperative EMG and evoked potential monitoring by anesthesia\nOpioids\ndo not impact evoked potential monitoring\nKetamine\nmay enhance evoked potential monitoring\n[6]\nConsider\ndexmedetomidine\nas a\nPropofol\nsparing medication in TIVA\n[7]\nConsider surgical intervention for:\nProgressive neurologic deficits\nUnstable spine fractures\nSteroids are no longer recommended\nAdministration of methylprednisolone (MP) for the treatment of acute spinal cord injury (SCI) is not recommended. Clinicians considering MP therapy should bear in mind that the drug is NOT approved by the FDA for this indication. There is no Class I or Class II medical evidence supporting the clinical benefit of MP in the treatment of acute SCI. Scattered reports of Class III evidence claim inconsistent effects likely related to random chance or selection bias. However, Class I, II, and III evidence exists that high-dose steroids are associated with harmful side effects including death.\n[8]\nSee\nEBQ:High Dose Steroids in Cord Injury\nfor further discussion",
+      "subsections": {
+        "Additional_Considerations": {
+          "text": "Prevent\nhypothermia\n- consider temperature probe Foley\nHigh risk of\nVTE\nin paraparesis or tetraparesis\nUp to 40% in non-prophylaxed\nMust weigh benefits of VTE prophylaxis and risk of bleed from LMWH\nLow dose SC\nheparin\nat 500 units q8hrs plus SCDs may be alternative",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Unstable spine fractures",
+          "url": "https://wikem.org/wiki/Unstable_spine_fractures"
+        },
+        {
+          "text": "EBQ:High Dose Steroids in Cord Injury",
+          "url": "https://wikem.org/wiki/EBQ:High_Dose_Steroids_in_Cord_Injury"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "Additional_Considerations": {
+      "text": "Prevent\nhypothermia\n- consider temperature probe Foley\nHigh risk of\nVTE\nin paraparesis or tetraparesis\nUp to 40% in non-prophylaxed\nMust weigh benefits of VTE prophylaxis and risk of bleed from LMWH\nLow dose SC\nheparin\nat 500 units q8hrs plus SCDs may be alternative",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Spinal cord injury\nSpinal cord compression (non-traumatic)\nAutonomic dysreflexia\nSpinal shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Spinal cord compression (non-traumatic)",
+          "url": "https://wikem.org/wiki/Spinal_cord_compression_(non-traumatic)"
+        },
+        {
+          "text": "Autonomic dysreflexia",
+          "url": "https://wikem.org/wiki/Autonomic_dysreflexia"
+        },
+        {
+          "text": "Spinal shock",
+          "url": "https://wikem.org/wiki/Spinal_shock"
+        }
+      ]
+    }
+  }
+}

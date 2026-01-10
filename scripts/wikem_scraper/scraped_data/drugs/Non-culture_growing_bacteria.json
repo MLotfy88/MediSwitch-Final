@@ -1,0 +1,575 @@
+{
+  "drug_name": "Non-culture_growing_bacteria",
+  "url": "https://wikem.org/wiki/Non-culture_growing_bacteria",
+  "scraped_at": "2026-01-10T07:58:26.502231",
+  "sections": {
+    "Antibiogram": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Penicillins",
+            "Organism": "Penicillin G",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Penicillin V",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Anti-Staphylocccal Penicillins",
+            "Organism": "Methicillin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Nafcillin/Oxacillin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cloxacillin/Diclox.",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Amino-Penicillins",
+            "Organism": "AMP/Amox",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Amox-Clav",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "AMP-Sulb",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Anti-PseudomonalPenicillins",
+            "Organism": "Ticarcillin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Ticar-Clav",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Pip-Tazo",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Piperacillin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Carbapenems",
+            "Organism": "Doripenem",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Ertapenem",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Imipenem",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Meropenem",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Aztreonam",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Fluroquinolones",
+            "Organism": "Ciprofloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Ofloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Pefloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Levofloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Moxifloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Gemifloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Gatifloxacin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "1st GCephalo",
+            "Organism": "Cefazolin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "2nd G.Cephalo",
+            "Organism": "Cefotetan",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefoxitin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefuroxime",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "3rd/4th G.Cephalo",
+            "Organism": "Cefotaxime",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefizoxime",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "CefTRIAXone",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Ceftaroline",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "CefTAZidime",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefepime",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Oral 1st G.Cephalo",
+            "Organism": "Cefadroxil",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cephalexin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Oral 2nd G.Cephalo",
+            "Organism": "Cefaclor/Loracarbef",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefproxil",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefuroxime axetil",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Oral 3rd G.Cephalo",
+            "Organism": "Cefixime",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Ceftibuten",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Cefpodox/Cefdinir/Cefditoren",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Aminoglycosides",
+            "Organism": "Gentamicin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Tobramycin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Amikacin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "S"
+          },
+          {
+            "Category": "",
+            "Organism": "Chloramphenicol",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "S",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Clindamycin",
+            "Chlamydophila sp": "I",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Macrolides",
+            "Organism": "Erythromycin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "I",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Azithromycin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "S"
+          },
+          {
+            "Category": "",
+            "Organism": "Clarithromycin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "S"
+          },
+          {
+            "Category": "Ketolide",
+            "Organism": "Telithromycin",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "S",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Tetracyclines",
+            "Organism": "Doxycycline",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "S",
+            "Mycobacterium avium": "R"
+          },
+          {
+            "Category": "",
+            "Organism": "Minocycline",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "S",
+            "Mycobacterium avium": "R"
+          },
+          {
+            "Category": "Glycylcycline",
+            "Organism": "Tigecycline",
+            "Chlamydophila sp": "S",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "R"
+          },
+          {
+            "Category": "",
+            "Organism": "Daptomycin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Glyco/Lipoclycopeptides",
+            "Organism": "Vancomycin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Teicoplanin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Telavancin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Fusidic Acid",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Trimethoprim",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "TMP-SMX",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Urinary Agents",
+            "Organism": "Nitrofurantoin",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Fosfomycin",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "Other",
+            "Organism": "Rifampin",
+            "Chlamydophila sp": "X2",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          },
+          {
+            "Category": "",
+            "Organism": "Metronidazole",
+            "Chlamydophila sp": "R",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "R",
+            "Mycobacterium avium": "R"
+          },
+          {
+            "Category": "",
+            "Organism": "Quinupristin dalfoppristin",
+            "Chlamydophila sp": "X2",
+            "Mycoplasm pneumoniae": "S",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "R"
+          },
+          {
+            "Category": "",
+            "Organism": "Linezolid",
+            "Chlamydophila sp": "X2",
+            "Mycoplasm pneumoniae": "R",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "R"
+          },
+          {
+            "Category": "",
+            "Organism": "Colistimethate",
+            "Chlamydophila sp": "X1",
+            "Mycoplasm pneumoniae": "X1",
+            "Rickettsia sp": "X1",
+            "Mycobacterium avium": "X1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Microbiology (Main)\nAntibiogram",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        },
+        {
+          "text": "Antibiogram",
+          "url": "https://wikem.org/wiki/Antibiogram"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "drug_name": "Niacin",
+  "url": "https://wikem.org/wiki/Niacin",
+  "scraped_at": "2026-01-10T07:58:21.317524",
+  "sections": {
+    "Administration": {
+      "text": "Type: Vitamin B3\nDosage Forms:\nRoutes of Administration: PO\nCommon Trade Names: Niaspan (extended release)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Recommended daily allowance: 16mg/day (men), 14mg/day (women)\nCAD, HLD: 250-6000mg PO daily in 2-3 divided doses\nPellagra: 150-500mg PO daily in divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing: contraindicated in active liver disease/hepatic impairment or unexplained LFT abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nActive liver disease or unexplained LFT abnormalities\nPeptic ulcer disease\nArterial bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nRhabdomyolysis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Flushing (88%)\nNausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nRhabdomyolysis",
+      "subsections": {
+        "Common": {
+          "text": "Flushing (88%)\nNausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Flushing (88%)\nNausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 20-45m\nMetabolism: Hepatic\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertriglyceridemia\nVitamin B3 deficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertriglyceridemia",
+          "url": "https://wikem.org/wiki/Hypertriglyceridemia"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "drug_name": "Nifedipine",
+  "url": "https://wikem.org/wiki/Nifedipine",
+  "scraped_at": "2026-01-10T07:58:21.708837",
+  "sections": {
+    "General": {
+      "text": "Type:\nCalcium Channel Blocker\n, Dihydropyridine\nDosage Forms: 10,20; 30,60,90 ER PO\nCommon Trade Names: Procardia, Nifediac, Nifedical, Adalat, Afeditab",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium Channel Blocker",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Preterm_labor/Tocolysis": {
+          "text": "20mg x1, additional 20mg dose in 90min if ctx persist, followed by 20mg q3-8 hrs PRN ctx",
+          "tables": []
+        },
+        "Hypertension,_Angina,_Pulmonary_hypertension": {
+          "text": "30-60mg ER PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Preterm_labor/Tocolysis": {
+      "text": "20mg x1, additional 20mg dose in 90min if ctx persist, followed by 20mg q3-8 hrs PRN ctx",
+      "subsections": {
+        "Hypertension,_Angina,_Pulmonary_hypertension": {
+          "text": "30-60mg ER PO daily",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension,_Angina,_Pulmonary_hypertension": {
+      "text": "30-60mg ER PO daily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertensive_emergency": {
+          "text": "0.25-0.5mg/kg PO q4-6h\nMax: 10mg/dose up to 1-2mg/kg/day",
+          "tables": []
+        },
+        "Hypertrophic_cardiomyopathy": {
+          "text": "0.6-0.9mg/kg/day PO divided tid-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertensive_emergency": {
+      "text": "0.25-0.5mg/kg PO q4-6h\nMax: 10mg/dose up to 1-2mg/kg/day",
+      "subsections": {
+        "Hypertrophic_cardiomyopathy": {
+          "text": "0.6-0.9mg/kg/day PO divided tid-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertrophic_cardiomyopathy": {
+      "text": "0.6-0.9mg/kg/day PO divided tid-QID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Probably safe\nRenal Dosing\nAdult: no adjustment\nPediatric: no adjustment\nHepatic Dosing\nAdult: not defined\nPediatric: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ngalactose intolerance (lactose-containing forms)\nhypertensive crisis (IR form)\nhypertension (IR form)\ncaution if CHF\ncaution if aortic stenosis\ncaution if hypotension\ncaution if renal impairment\ncaution if hepatic impairment\ncaution if anesthesia or surgery\ncaution if concurrent or recent β-blocker use\ncaution if GI stricture, severe (XL form)\ncaution if GI hypomotility disorder (XL form)\ncaution in elderly patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "CHF\npulmonary edema\nMI\narrhythmias\nhypotension, severe\ncholestasis\nallergic hepatitis\nangioedema\nanaphylaxis\nStevens-Johnson syndrome\nexfoliative dermatitis\ntoxic epidermal necrolysis\nexanthematous pustulosis, acute generalized\nGI obstruction (XL form)\nGI ulcer (XL form)",
+          "tables": []
+        },
+        "Common": {
+          "text": "peripheral edema\nheadache\ndizziness\nflushing\nfatigue/weakness\nnausea\nconstipation\nmuscle cramps\nnervousness\npalpitations\ndyspnea\nnasal congestion\nhypotension, transient\neczematous eruptions (chronic use, elderly patients)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "CHF\npulmonary edema\nMI\narrhythmias\nhypotension, severe\ncholestasis\nallergic hepatitis\nangioedema\nanaphylaxis\nStevens-Johnson syndrome\nexfoliative dermatitis\ntoxic epidermal necrolysis\nexanthematous pustulosis, acute generalized\nGI obstruction (XL form)\nGI ulcer (XL form)",
+      "subsections": {
+        "Common": {
+          "text": "peripheral edema\nheadache\ndizziness\nflushing\nfatigue/weakness\nnausea\nconstipation\nmuscle cramps\nnervousness\npalpitations\ndyspnea\nnasal congestion\nhypotension, transient\neczematous eruptions (chronic use, elderly patients)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Common": {
+      "text": "peripheral edema\nheadache\ndizziness\nflushing\nfatigue/weakness\nnausea\nconstipation\nmuscle cramps\nnervousness\npalpitations\ndyspnea\nnasal congestion\nhypotension, transient\neczematous eruptions (chronic use, elderly patients)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2h, 7h (ER)\nMetabolism: liver, CYP450: 3A4 substrate\nExcretion: urine 60-80% (<0.1% unchanged), bile/feces 20%\nMechanism of Action: inhibits calcium ion influx into vascular smooth muscle and myocardium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Raynaud’s disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        }
+      ]
+    }
+  }
+}

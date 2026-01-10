@@ -1,0 +1,283 @@
+{
+  "drug_name": "Nine_line_CASEVAC",
+  "url": "https://wikem.org/wiki/Nine_line_CASEVAC",
+  "scraped_at": "2026-01-10T07:58:24.629014",
+  "sections": {
+    "Background": {
+      "text": "A method to provide clear and concise instructions for a CASEVAC\nStandard format used in the US military",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Format": {
+      "text": "",
+      "subsections": {
+        "Line_1": {
+          "text": "Landing zone (LZ) coordinates using 8 digit grid system",
+          "tables": []
+        },
+        "Line_2": {
+          "text": "Call sign and frequency used by the unit at the LZ",
+          "tables": []
+        },
+        "Line_3": {
+          "text": "Patient priority status and patient count\nPriority status includes:\nAlpha - Urgent\nBravo - Urgent Surgical\nCharlie - Priority\nDelta - Routine\nEcho - Convenience",
+          "tables": []
+        },
+        "Line_4": {
+          "text": "Special equipement\nExamples include:\nAlpha – none\nBravo – hoist\nCharlie – extraction equipment\nDelta - ventilator",
+          "tables": []
+        },
+        "Line_5": {
+          "text": "Number of patients by type for aircraft configuration\nTypes:\nLima – Litter patients\nAlpha – Ambulatory patients",
+          "tables": []
+        },
+        "Line_6": {
+          "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+          "tables": []
+        },
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_1": {
+      "text": "Landing zone (LZ) coordinates using 8 digit grid system",
+      "subsections": {
+        "Line_2": {
+          "text": "Call sign and frequency used by the unit at the LZ",
+          "tables": []
+        },
+        "Line_3": {
+          "text": "Patient priority status and patient count\nPriority status includes:\nAlpha - Urgent\nBravo - Urgent Surgical\nCharlie - Priority\nDelta - Routine\nEcho - Convenience",
+          "tables": []
+        },
+        "Line_4": {
+          "text": "Special equipement\nExamples include:\nAlpha – none\nBravo – hoist\nCharlie – extraction equipment\nDelta - ventilator",
+          "tables": []
+        },
+        "Line_5": {
+          "text": "Number of patients by type for aircraft configuration\nTypes:\nLima – Litter patients\nAlpha – Ambulatory patients",
+          "tables": []
+        },
+        "Line_6": {
+          "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+          "tables": []
+        },
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_2": {
+      "text": "Call sign and frequency used by the unit at the LZ",
+      "subsections": {
+        "Line_3": {
+          "text": "Patient priority status and patient count\nPriority status includes:\nAlpha - Urgent\nBravo - Urgent Surgical\nCharlie - Priority\nDelta - Routine\nEcho - Convenience",
+          "tables": []
+        },
+        "Line_4": {
+          "text": "Special equipement\nExamples include:\nAlpha – none\nBravo – hoist\nCharlie – extraction equipment\nDelta - ventilator",
+          "tables": []
+        },
+        "Line_5": {
+          "text": "Number of patients by type for aircraft configuration\nTypes:\nLima – Litter patients\nAlpha – Ambulatory patients",
+          "tables": []
+        },
+        "Line_6": {
+          "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+          "tables": []
+        },
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_3": {
+      "text": "Patient priority status and patient count\nPriority status includes:\nAlpha - Urgent\nBravo - Urgent Surgical\nCharlie - Priority\nDelta - Routine\nEcho - Convenience",
+      "subsections": {
+        "Line_4": {
+          "text": "Special equipement\nExamples include:\nAlpha – none\nBravo – hoist\nCharlie – extraction equipment\nDelta - ventilator",
+          "tables": []
+        },
+        "Line_5": {
+          "text": "Number of patients by type for aircraft configuration\nTypes:\nLima – Litter patients\nAlpha – Ambulatory patients",
+          "tables": []
+        },
+        "Line_6": {
+          "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+          "tables": []
+        },
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_4": {
+      "text": "Special equipement\nExamples include:\nAlpha – none\nBravo – hoist\nCharlie – extraction equipment\nDelta - ventilator",
+      "subsections": {
+        "Line_5": {
+          "text": "Number of patients by type for aircraft configuration\nTypes:\nLima – Litter patients\nAlpha – Ambulatory patients",
+          "tables": []
+        },
+        "Line_6": {
+          "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+          "tables": []
+        },
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_5": {
+      "text": "Number of patients by type for aircraft configuration\nTypes:\nLima – Litter patients\nAlpha – Ambulatory patients",
+      "subsections": {
+        "Line_6": {
+          "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+          "tables": []
+        },
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_6": {
+      "text": "Security at the landing zone\nCodes:\nNovember - no enemy troops\nPapa - possible enemy troops (approach with caution)\nEcho - enemy troops in area (approach with caution)\nX-Ray - enemy troops in area (armed escort required)",
+      "subsections": {
+        "Line_7": {
+          "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+          "tables": []
+        },
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_7": {
+      "text": "Methods used to mark landing zone\nMethods:\nAlpha - panels\nBravo - pyrotechnic signal\nCharlie - smoke signal\nDelta - none\nEcho - other",
+      "subsections": {
+        "Line_8": {
+          "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+          "tables": []
+        },
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_8": {
+      "text": "Patient’s nationality\nCodes:\nAlpha - US military\nBravo - US civilian\nCharlie - non US military\nDelta - non US civilian\nEcho - enemy prisoner of war",
+      "subsections": {
+        "Line_9": {
+          "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Line_9": {
+      "text": "Contamination with nuclear, biologic, or chemical weapons\nTypes of contamination:\nNovember - nuclear\nBravo - biological\nCharlie - chemical",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Example": {
+      "text": "During a recon mission you are within 1 km of an insurgent strong hold. Your team has been discovered and has taken on fire. A marine and non-US assess are critically wounded. You grid location location for the most optimal LZ is GT01299938. Your call sign is Obs Alpha, and you are operating on frequency 99.25.\nLine 1: GT01299938\nLine 2: Obs Alpha on 99.25\nLine 3: 2 Bravos\nLine 4: Alpha\nLine 5: 2 Lima\nLine 6: X-ray\nLine 7: Delta\nLine 8: 1 Alpha, 1 Charlie\nLine 9: None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tactical combat casualty care\nTactical evacuation care",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tactical combat casualty care",
+          "url": "https://wikem.org/wiki/Tactical_combat_casualty_care"
+        },
+        {
+          "text": "Tactical evacuation care",
+          "url": "https://wikem.org/wiki/Tactical_evacuation_care"
+        }
+      ]
+    }
+  }
+}

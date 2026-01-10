@@ -1,0 +1,263 @@
+{
+  "drug_name": "Non-thumb_metacarpal_fracture_(head)",
+  "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)",
+  "scraped_at": "2026-01-10T07:58:27.429783",
+  "sections": {
+    "Background": {
+      "text": "Intra-articular fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Swelling, decreased ROM, and TTP of MCP joint",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Physical": {
+          "text": "Assess for rotational alignment (rotational malalignment is not tolerated)\nAssess for skin integrity (maintain high index of suspicion for\nClosed fist infection\n)\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Physical": {
+      "text": "Assess for rotational alignment (rotational malalignment is not tolerated)\nAssess for skin integrity (maintain high index of suspicion for\nClosed fist infection\n)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "AP, lateral, oblique\nAngulation assessed on lateral view\nConsider \"\nBrewerton view (X-Ray)\n\" if collateral ligament avulsion fracture suspected",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Brewerton view (X-Ray)",
+          "url": "https://wikem.org/wiki/Brewerton_view_(X-Ray)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Ulnar Gutter Splint\nor Short arm cast that extends to the PIP joint\nIn a comparison of the typical 4th and 5th digit flexed at the MCP joint and a short arm, there was no significant benefit to the intrinsic plus position of the fingers\n[2]\nRemove restrictive clothing, jewelry, etc.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Ulnar Gutter Splint\nor Short arm cast that extends to the PIP joint\nIn a comparison of the typical 4th and 5th digit flexed at the MCP joint and a short arm, there was no significant benefit to the intrinsic plus position of the fingers\n[2]\nRemove restrictive clothing, jewelry, etc.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Ulnar Gutter Splint\nor Short arm cast that extends to the PIP joint\nIn a comparison of the typical 4th and 5th digit flexed at the MCP joint and a short arm, there was no significant benefit to the intrinsic plus position of the fingers\n[2]\nRemove restrictive clothing, jewelry, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Almost always refer because are intraarticular and typically comminuted\nDorsal MCP wounds and lacerations should be treated as open and contaminated\n[1]\nNon-displaced fracture can be splinted for 2-3 weeks followed by ROM exercises",
+      "subsections": {
+        "Indications_for_Subsequent_Out-Patient_Orthopedic_Surgery": {
+          "text": "Majority are operative, as no degree of articular displacement is acceptable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Indications_for_Subsequent_Out-Patient_Orthopedic_Surgery": {
+      "text": "Majority are operative, as no degree of articular displacement is acceptable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger fractures\nBoxer's fracture\nClosed fist infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Closed fist infection",
+          "url": "https://wikem.org/wiki/Closed_fist_infection"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "drug_name": "Nicardipine",
+  "url": "https://wikem.org/wiki/Nicardipine",
+  "scraped_at": "2026-01-10T07:58:20.561258",
+  "sections": {
+    "General": {
+      "text": "Type:\nCalcium Channel Blocker\n, dihydropyridine\nDosage Forms: Capsule, Infusion solution, Injectable solution\nCommon Trade Names:\nCardene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium Channel Blocker",
+          "url": "https://wikem.org/wiki/Calcium_Channel_Blocker"
+        },
+        {
+          "text": "Cardene",
+          "url": "https://wikem.org/wiki/Cardene"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension": {
+          "text": "PO: 20-40mg q8hr, or 30-60mg (extended release) q12hr\nIV: 5mg/hr by slow infusion (50ml/hr), titrate to maximum of 30mg/hr, then maintenance of 2.0 - 15.5mg/hr\nIV bolus dose of 2mg, then continuous infusion achieves same control of hypertension as starting infusion without bolus\n[1]",
+          "tables": []
+        },
+        "Intracranial_hemorrhage": {
+          "text": "Start at 5mg/hr\nIncrease q5min by 2.5mg until the target blood pressure is achieved\nThen, immediately titrate down to maintenance infusion of 3mg/hr",
+          "tables": []
+        },
+        "Chronic_Stable_Angina": {
+          "text": "20-40mg PO q8hr\nAllow 3 days between dose increase",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension": {
+      "text": "PO: 20-40mg q8hr, or 30-60mg (extended release) q12hr\nIV: 5mg/hr by slow infusion (50ml/hr), titrate to maximum of 30mg/hr, then maintenance of 2.0 - 15.5mg/hr\nIV bolus dose of 2mg, then continuous infusion achieves same control of hypertension as starting infusion without bolus\n[1]",
+      "subsections": {
+        "Intracranial_hemorrhage": {
+          "text": "Start at 5mg/hr\nIncrease q5min by 2.5mg until the target blood pressure is achieved\nThen, immediately titrate down to maintenance infusion of 3mg/hr",
+          "tables": []
+        },
+        "Chronic_Stable_Angina": {
+          "text": "20-40mg PO q8hr\nAllow 3 days between dose increase",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intracranial_hemorrhage": {
+      "text": "Start at 5mg/hr\nIncrease q5min by 2.5mg until the target blood pressure is achieved\nThen, immediately titrate down to maintenance infusion of 3mg/hr",
+      "subsections": {
+        "Chronic_Stable_Angina": {
+          "text": "20-40mg PO q8hr\nAllow 3 days between dose increase",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_Stable_Angina": {
+      "text": "20-40mg PO q8hr\nAllow 3 days between dose increase",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hypertension_2": {
+          "text": "0.5-3 mcg/kg/min IV\nNot approved by FDA; limited date available",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hypertension_2": {
+      "text": "0.5-3 mcg/kg/min IV\nNot approved by FDA; limited date available",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation: Unknown wether drug is excreted in breast milk; avoid use\nRenal Dosing\nAdult\nPO: 20 mg TID (immediate release) or 30 mg BID (sustained release) with slow titration\nIV: not defined, slow titration\nPediatric\nIV: not defined, slow titration\nHepatic Dosing\nAdult\nPO: 20 mg BID (immediate release) with slow titration\nIV: not defined, slow titration\nPediatric\nIV: not defined, slow titration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Headache\n(IV, 15%)",
+          "tables": []
+        },
+        "Common": {
+          "text": "Flushing\nPeripheral Edema\nPedal Edema\nHypotension\nExacerbation of\nangina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "angina",
+          "url": "https://wikem.org/wiki/Angina"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Headache\n(IV, 15%)",
+      "subsections": {
+        "Common": {
+          "text": "Flushing\nPeripheral Edema\nPedal Edema\nHypotension\nExacerbation of\nangina",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "angina",
+          "url": "https://wikem.org/wiki/Angina"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Flushing\nPeripheral Edema\nPedal Edema\nHypotension\nExacerbation of\nangina",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "angina",
+          "url": "https://wikem.org/wiki/Angina"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2-4 hr\nMetabolism: Metabolized in liver b CYP3A4 (first pass)\nExcretion: urine (60%), feces (35%)\nMechanism of Action:\ninhibits trasmembrane influx of extracellular calcium ions across membranes of myocardial cells and vascular smooth muscle cells without changing serum calcium concentrations; this inhibit cardiac and vascular smooth muscle contractions, thereby dilating maincoronary and systemic arteries.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Subarachnoid hemorrhage\nHemorrhagic stroke\nHypertensive emergency\nClevidipine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Clevidipine",
+          "url": "https://wikem.org/wiki/Clevidipine"
+        }
+      ]
+    },
+    "References": {
+      "text": "Nicardipine: Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

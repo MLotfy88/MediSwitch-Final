@@ -1,0 +1,66 @@
+{
+  "drug_name": "Normal_urine_output",
+  "url": "https://wikem.org/wiki/Normal_urine_output",
+  "scraped_at": "2026-01-10T07:58:32.532120",
+  "sections": {
+    "Intro": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Adult",
+            "Output": ">0.5 mL/kg/hr",
+            "Comments": ""
+          },
+          {
+            "Age": "Child",
+            "Output": ">1 mL/kg/hr",
+            "Comments": ""
+          },
+          {
+            "Age": "Neonate",
+            "Output": ">2 mL/kg/hr",
+            "Comments": "<1 year old"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Normal_Urine_Output": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Adult",
+            "Output": ">0.5 mL/kg/hr",
+            "Comments": ""
+          },
+          {
+            "Age": "Child",
+            "Output": ">1 mL/kg/hr",
+            "Comments": ""
+          },
+          {
+            "Age": "Neonate",
+            "Output": ">2 mL/kg/hr",
+            "Comments": "<1 year old"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vital signs",
+          "url": "https://wikem.org/wiki/Vital_signs"
+        }
+      ]
+    }
+  }
+}

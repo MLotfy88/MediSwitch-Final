@@ -1,0 +1,1052 @@
+{
+  "drug_name": "Newborn_resuscitation",
+  "url": "https://wikem.org/wiki/Newborn_resuscitation",
+  "scraped_at": "2026-01-10T07:58:21.911451",
+  "sections": {
+    "Intro": {
+      "text": "Use this note for immediate after-delivery resuscitation; see\nneonatal resuscitation\nfor the non-delivery related resuscitation of the newborn.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Newborn_Vital_Signs": {
+          "text": "^Fever directly causes an increase in heart rate of 10 beats per minute per degree centigrade\n[2]\n^^Hyperoxia can be harmful",
+          "tables": [
+            [
+              {
+                "Age": "Preterm < 1 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "36-58"
+              },
+              {
+                "Age": "Preterm 1 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "42-66"
+              },
+              {
+                "Age": "Preterm 2 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "50-72"
+              },
+              {
+                "Age": "Newborn",
+                "Pulse^": "126-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "60-70"
+              }
+            ],
+            [
+              {
+                "Min of life": "1 min",
+                "Target sat^^": "60-65%"
+              },
+              {
+                "Min of life": "2 min",
+                "Target sat^^": "65-70%"
+              },
+              {
+                "Min of life": "3 min",
+                "Target sat^^": "70-75%"
+              },
+              {
+                "Min of life": "4 min",
+                "Target sat^^": "75-80%"
+              },
+              {
+                "Min of life": "5 min",
+                "Target sat^^": "80-85%"
+              },
+              {
+                "Min of life": "10 min",
+                "Target sat^^": "85-95%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Newborn_Vital_Signs": {
+      "text": "^Fever directly causes an increase in heart rate of 10 beats per minute per degree centigrade\n[2]\n^^Hyperoxia can be harmful",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Preterm < 1 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "36-58"
+          },
+          {
+            "Age": "Preterm 1 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "42-66"
+          },
+          {
+            "Age": "Preterm 2 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "50-72"
+          },
+          {
+            "Age": "Newborn",
+            "Pulse^": "126-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "60-70"
+          }
+        ],
+        [
+          {
+            "Min of life": "1 min",
+            "Target sat^^": "60-65%"
+          },
+          {
+            "Min of life": "2 min",
+            "Target sat^^": "65-70%"
+          },
+          {
+            "Min of life": "3 min",
+            "Target sat^^": "70-75%"
+          },
+          {
+            "Min of life": "4 min",
+            "Target sat^^": "75-80%"
+          },
+          {
+            "Min of life": "5 min",
+            "Target sat^^": "80-85%"
+          },
+          {
+            "Min of life": "10 min",
+            "Target sat^^": "85-95%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Newborn_Problems": {
+          "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Infant scalp hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Newborn_Problems": {
+      "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Infant scalp hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Assessment_Triad": {
+          "text": "Term?\nTone?\nBreathing or crying?\nIf yes, stay with mother for routine care (clear secretions, dry, warm and maintain temperature)\nIf no:\nRespiration: adequacy, difficulty\nCirculation: HR >100, palpate at umbilical base or auscultate for HR\nColor - central cyanosis?",
+          "tables": []
+        },
+        "Apgar_score": {
+          "text": "Score at 1 minute and 5 minutes post delivery.",
+          "tables": [
+            [
+              {
+                "": "Appearance",
+                "Score of 0": "blue or pale all over(central cyanosis)",
+                "Score of 1": "peripheral cyanosis (acrocyanosis)body pink",
+                "Score of 2": "no cyanosisbody and extremities pink"
+              },
+              {
+                "": "Pulse",
+                "Score of 0": "absent",
+                "Score of 1": "<100 beats per minute",
+                "Score of 2": "≥100 beats per minute"
+              },
+              {
+                "": "Grimace",
+                "Score of 0": "no response to stimulation",
+                "Score of 1": "grimace on suction or aggressive stimulation",
+                "Score of 2": "cry on stimulation"
+              },
+              {
+                "": "Activity",
+                "Score of 0": "none",
+                "Score of 1": "some flexion",
+                "Score of 2": "flexed arms and legs that resist extension"
+              },
+              {
+                "": "Respiration",
+                "Score of 0": "absent",
+                "Score of 1": "weak, irregular, gasping",
+                "Score of 2": "strong, lusty cry"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Assessment_Triad": {
+      "text": "Term?\nTone?\nBreathing or crying?\nIf yes, stay with mother for routine care (clear secretions, dry, warm and maintain temperature)\nIf no:\nRespiration: adequacy, difficulty\nCirculation: HR >100, palpate at umbilical base or auscultate for HR\nColor - central cyanosis?",
+      "subsections": {
+        "Apgar_score": {
+          "text": "Score at 1 minute and 5 minutes post delivery.",
+          "tables": [
+            [
+              {
+                "": "Appearance",
+                "Score of 0": "blue or pale all over(central cyanosis)",
+                "Score of 1": "peripheral cyanosis (acrocyanosis)body pink",
+                "Score of 2": "no cyanosisbody and extremities pink"
+              },
+              {
+                "": "Pulse",
+                "Score of 0": "absent",
+                "Score of 1": "<100 beats per minute",
+                "Score of 2": "≥100 beats per minute"
+              },
+              {
+                "": "Grimace",
+                "Score of 0": "no response to stimulation",
+                "Score of 1": "grimace on suction or aggressive stimulation",
+                "Score of 2": "cry on stimulation"
+              },
+              {
+                "": "Activity",
+                "Score of 0": "none",
+                "Score of 1": "some flexion",
+                "Score of 2": "flexed arms and legs that resist extension"
+              },
+              {
+                "": "Respiration",
+                "Score of 0": "absent",
+                "Score of 1": "weak, irregular, gasping",
+                "Score of 2": "strong, lusty cry"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Apgar_score": {
+      "text": "Score at 1 minute and 5 minutes post delivery.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Appearance",
+            "Score of 0": "blue or pale all over(central cyanosis)",
+            "Score of 1": "peripheral cyanosis (acrocyanosis)body pink",
+            "Score of 2": "no cyanosisbody and extremities pink"
+          },
+          {
+            "": "Pulse",
+            "Score of 0": "absent",
+            "Score of 1": "<100 beats per minute",
+            "Score of 2": "≥100 beats per minute"
+          },
+          {
+            "": "Grimace",
+            "Score of 0": "no response to stimulation",
+            "Score of 1": "grimace on suction or aggressive stimulation",
+            "Score of 2": "cry on stimulation"
+          },
+          {
+            "": "Activity",
+            "Score of 0": "none",
+            "Score of 1": "some flexion",
+            "Score of 2": "flexed arms and legs that resist extension"
+          },
+          {
+            "": "Respiration",
+            "Score of 0": "absent",
+            "Score of 1": "weak, irregular, gasping",
+            "Score of 2": "strong, lusty cry"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "See\nnewborn critical care quick reference\nfor drug doses and equipment sizes.",
+      "subsections": {
+        "Evaluate_for_Tone,_Term,_and_Breathing": {
+          "text": "If yes, stay with mother for routine care (clear secretions, dry, warm and maintain temperature)\nDelay cord clamping/cutting for 30-60 seconds\nPresence of meconium no longer changes care (i.e. is not an indication for intubation)\nIf no:\nRespiration: adequacy, difficulty\nCirculation: HR >100, palpate at umbilical base or auscultate for HR\nColor - central cyanosis?",
+          "tables": []
+        },
+        "Patient_have_poor_tone_or_is_apneic?": {
+          "text": "Dry, warm, position, suction, stimulate\nGently dry newborn with warm towel\nPosition: neutral (sniffing position)\nConsider slight extension with rolled diaper or small towel under the infant's shoulders to maximize air entry and avoid obstruction. (Do not place under neck; Do not hyperextend which can cause airway obstruction as well!)\n[3]\nSuction: oral then nasal\nMouth before nose (remember: M before N in alphabet)\nSuctioning in this order avoids aspiration if infant takes breath after suctioning nose\n[4]\nStimulate: along spine or feet\nCheck glucose\nD10W\n(2-4 mL/kg = 0.2gm/kg)\nIf patient >2.5 kg and glucose <40mg/dL\nIf patient <2.5 kg and glucose <30mg/dL\nReexamine patient:\nContinue to be apneic or gasping? HR below 100?\n(assess HR by: auscultation, 3 lead ECG, or umbilical cord palpation)\nPPV/BVM x 30 seconds (40-60 breaths/min @ 20-25 cmH20)\nSpO2 monitor: Place O2 sat monitor preductal (right hand or wrist)\nInitial resuscitation >35 weeks 21% FiO2, < 35 weeks 21-30% FiO2\nTitrate O2 to target sat (see table above; hyperoxia can be harmful)\nIf patient on reexam just has persistent cyanosis or labored breathing:\nFor improving ineffective ventilation, think\nMRSOPA\nM\nask is tightly applied to the face\nR\ne-position the head into the “sniffing” orientation\nS\nuction the nares and the pharynx\nO\npen the mouth\nP\nressure of PPV can be increased to a max of 40 cm H2O\nA\nlternate airway, i.e. ET, should be considered and planned for",
+          "tables": []
+        },
+        "On_reassessment_after_30_seconds_of_above_intervention": {
+          "text": "If HR continues to be below 100\nCheck chest movement and make sure patient is being ventilated appropriately\nVentilation corrective steps (\nMRSOPA\n)\nIf ventilation not improving,\nintubate\npatient and continue resuscitation until HR > 100 BPM\nET (indications); ETT size = Gest age (wks) / 10^^\nLaryngeal mask airway\nalternative\nIf patient HR < 60 BPM on reassessment\nIntubate if not already done\nChest Compressions\nAim for 120 compressions per min (Respirations 3:1), stop when HR > 60\nFor compressions, wrap hands around patient's thorax and use thumbs to compress anterior chest wall\nConsider\nEpi\n(0.01-0.03mg/kg) if:\nHR<60 despite above intervention\nUse only 1:10,000 (0.1mg/kg concentration)\nFor prolonged code (HR < 60) consider\nhypovolemia\nand\npneumothorax",
+          "tables": []
+        },
+        "Medications_to_consider": {
+          "text": "D10W\n(2-4 mL/kg = 0.2gm/kg)\nNS\n(10 mL/kg boluses)\nPRBC\n10mL/kg if abruption with anemia\nDopamine\ndrip\n(5-20 mcg/kg/min)\nNaHCO3\n- prolonged resuscitation\n(1-2 meQ/kg)\nNaloxone\nIn past, used for\nopioid\nuse <4hrs, however no longer recommended as can precipitate acute withdrawal and seizures if prolonged intrauterine exposure. Overall effect unknown, therefore respiratory support preferred to using naloxone\n[5]\n.",
+          "tables": []
+        },
+        "Newborn_Vent_Settings": {
+          "text": "Pressure Cycled: RR 30+, PIP 20/2 (Preemie 15/2)",
+          "tables": []
+        },
+        "Airway": {
+          "text": "Optimize\nPosition head in sniffing position\nSuction mouth then nose\nIntubate\nIndicated if patient is poorly responsive or fails\nBVM\nIf have time precut ET tube at 13cm mark\nLip placement = 6 + wt (kg)\nOr, lip placement = measure nasal septum to tragus length (NTL) in cm + 1\nAfter intubation suction trachea to prevent aspiration (if +\nmeconium\n; however, meconium is no longer an indication for intubation)",
+          "tables": [
+            [
+              {
+                "Tube Size / age / wt": "2.5 / <28 / <1000",
+                "Blade": "Miller 0",
+                "Suction Catheter": "5F or 6F",
+                "Insertion Depth (cm)": "6-7"
+              },
+              {
+                "Tube Size / age / wt": "3.0 / 28-34 / 1000-2000",
+                "Blade": "Miller 0",
+                "Suction Catheter": "6F or 8F",
+                "Insertion Depth (cm)": "7-8"
+              },
+              {
+                "Tube Size / age / wt": "3.5 / 34-38 / 2000-3000",
+                "Blade": "Miller 0",
+                "Suction Catheter": "8F",
+                "Insertion Depth (cm)": "8-9"
+              },
+              {
+                "Tube Size / age / wt": "3.5-4.0 />38 / >3000",
+                "Blade": "Miller 0-1",
+                "Suction Catheter": "8F or 10F",
+                "Insertion Depth (cm)": "9-10"
+              }
+            ]
+          ]
+        },
+        "Vascular_Access": {
+          "text": "Umbilical vein\nis site of choice",
+          "tables": []
+        },
+        "Volume_Expansion": {
+          "text": "NS\n10mL/kg IV or umb vein over 5-10min\nO Rh-negative\nblood\nif\nabruption\n/\nanemic",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Epinephrine\nIndicated for asystole or HR < 60 despite CPR >30s\n0.01-0.03mg/kg IVP q3-5min\nSodium bicarbonate\nHelps to counteract negative inotropy/pulmonary hypertension caused by acidosis\nOnly give once adequate ventilation is established\n1-2 mEq/kg of 4.2% solution (2-4 mL/kg)\nNaloxone\nPreviously given if persistent respiratory depression AND maternal opioids within 4hr\nNo longer recommended; assist ventilations as needed until opioids wear off\n0.1-0.4mg/kg IV\nDelay cord clamping 30-60 seconds if able\nKeep infant warm; heat loss leads to apnea, acidosis\nConsider placing body in plastic bag to prevent heat loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "newborn critical care quick reference",
+          "url": "https://wikem.org/wiki/3.5kg_(newborn)"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Neonatal_intubation"
+        },
+        {
+          "text": "Laryngeal mask airway",
+          "url": "https://wikem.org/wiki/Laryngeal_mask_airway"
+        },
+        {
+          "text": "Epi",
+          "url": "https://wikem.org/wiki/Epi"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "NaHCO3",
+          "url": "https://wikem.org/wiki/NaHCO3"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Neonatal_intubation"
+        },
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "meconium",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Umbilical vein",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "anemic",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Resuscitation_Algorithm": {
+      "text": "",
+      "subsections": {
+        "Evaluate_for_Tone,_Term,_and_Breathing": {
+          "text": "If yes, stay with mother for routine care (clear secretions, dry, warm and maintain temperature)\nDelay cord clamping/cutting for 30-60 seconds\nPresence of meconium no longer changes care (i.e. is not an indication for intubation)\nIf no:\nRespiration: adequacy, difficulty\nCirculation: HR >100, palpate at umbilical base or auscultate for HR\nColor - central cyanosis?",
+          "tables": []
+        },
+        "Patient_have_poor_tone_or_is_apneic?": {
+          "text": "Dry, warm, position, suction, stimulate\nGently dry newborn with warm towel\nPosition: neutral (sniffing position)\nConsider slight extension with rolled diaper or small towel under the infant's shoulders to maximize air entry and avoid obstruction. (Do not place under neck; Do not hyperextend which can cause airway obstruction as well!)\n[3]\nSuction: oral then nasal\nMouth before nose (remember: M before N in alphabet)\nSuctioning in this order avoids aspiration if infant takes breath after suctioning nose\n[4]\nStimulate: along spine or feet\nCheck glucose\nD10W\n(2-4 mL/kg = 0.2gm/kg)\nIf patient >2.5 kg and glucose <40mg/dL\nIf patient <2.5 kg and glucose <30mg/dL\nReexamine patient:\nContinue to be apneic or gasping? HR below 100?\n(assess HR by: auscultation, 3 lead ECG, or umbilical cord palpation)\nPPV/BVM x 30 seconds (40-60 breaths/min @ 20-25 cmH20)\nSpO2 monitor: Place O2 sat monitor preductal (right hand or wrist)\nInitial resuscitation >35 weeks 21% FiO2, < 35 weeks 21-30% FiO2\nTitrate O2 to target sat (see table above; hyperoxia can be harmful)\nIf patient on reexam just has persistent cyanosis or labored breathing:\nFor improving ineffective ventilation, think\nMRSOPA\nM\nask is tightly applied to the face\nR\ne-position the head into the “sniffing” orientation\nS\nuction the nares and the pharynx\nO\npen the mouth\nP\nressure of PPV can be increased to a max of 40 cm H2O\nA\nlternate airway, i.e. ET, should be considered and planned for",
+          "tables": []
+        },
+        "On_reassessment_after_30_seconds_of_above_intervention": {
+          "text": "If HR continues to be below 100\nCheck chest movement and make sure patient is being ventilated appropriately\nVentilation corrective steps (\nMRSOPA\n)\nIf ventilation not improving,\nintubate\npatient and continue resuscitation until HR > 100 BPM\nET (indications); ETT size = Gest age (wks) / 10^^\nLaryngeal mask airway\nalternative\nIf patient HR < 60 BPM on reassessment\nIntubate if not already done\nChest Compressions\nAim for 120 compressions per min (Respirations 3:1), stop when HR > 60\nFor compressions, wrap hands around patient's thorax and use thumbs to compress anterior chest wall\nConsider\nEpi\n(0.01-0.03mg/kg) if:\nHR<60 despite above intervention\nUse only 1:10,000 (0.1mg/kg concentration)\nFor prolonged code (HR < 60) consider\nhypovolemia\nand\npneumothorax",
+          "tables": []
+        },
+        "Medications_to_consider": {
+          "text": "D10W\n(2-4 mL/kg = 0.2gm/kg)\nNS\n(10 mL/kg boluses)\nPRBC\n10mL/kg if abruption with anemia\nDopamine\ndrip\n(5-20 mcg/kg/min)\nNaHCO3\n- prolonged resuscitation\n(1-2 meQ/kg)\nNaloxone\nIn past, used for\nopioid\nuse <4hrs, however no longer recommended as can precipitate acute withdrawal and seizures if prolonged intrauterine exposure. Overall effect unknown, therefore respiratory support preferred to using naloxone\n[5]\n.",
+          "tables": []
+        },
+        "Newborn_Vent_Settings": {
+          "text": "Pressure Cycled: RR 30+, PIP 20/2 (Preemie 15/2)",
+          "tables": []
+        },
+        "Airway": {
+          "text": "Optimize\nPosition head in sniffing position\nSuction mouth then nose\nIntubate\nIndicated if patient is poorly responsive or fails\nBVM\nIf have time precut ET tube at 13cm mark\nLip placement = 6 + wt (kg)\nOr, lip placement = measure nasal septum to tragus length (NTL) in cm + 1\nAfter intubation suction trachea to prevent aspiration (if +\nmeconium\n; however, meconium is no longer an indication for intubation)",
+          "tables": [
+            [
+              {
+                "Tube Size / age / wt": "2.5 / <28 / <1000",
+                "Blade": "Miller 0",
+                "Suction Catheter": "5F or 6F",
+                "Insertion Depth (cm)": "6-7"
+              },
+              {
+                "Tube Size / age / wt": "3.0 / 28-34 / 1000-2000",
+                "Blade": "Miller 0",
+                "Suction Catheter": "6F or 8F",
+                "Insertion Depth (cm)": "7-8"
+              },
+              {
+                "Tube Size / age / wt": "3.5 / 34-38 / 2000-3000",
+                "Blade": "Miller 0",
+                "Suction Catheter": "8F",
+                "Insertion Depth (cm)": "8-9"
+              },
+              {
+                "Tube Size / age / wt": "3.5-4.0 />38 / >3000",
+                "Blade": "Miller 0-1",
+                "Suction Catheter": "8F or 10F",
+                "Insertion Depth (cm)": "9-10"
+              }
+            ]
+          ]
+        },
+        "Vascular_Access": {
+          "text": "Umbilical vein\nis site of choice",
+          "tables": []
+        },
+        "Volume_Expansion": {
+          "text": "NS\n10mL/kg IV or umb vein over 5-10min\nO Rh-negative\nblood\nif\nabruption\n/\nanemic",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Epinephrine\nIndicated for asystole or HR < 60 despite CPR >30s\n0.01-0.03mg/kg IVP q3-5min\nSodium bicarbonate\nHelps to counteract negative inotropy/pulmonary hypertension caused by acidosis\nOnly give once adequate ventilation is established\n1-2 mEq/kg of 4.2% solution (2-4 mL/kg)\nNaloxone\nPreviously given if persistent respiratory depression AND maternal opioids within 4hr\nNo longer recommended; assist ventilations as needed until opioids wear off\n0.1-0.4mg/kg IV\nDelay cord clamping 30-60 seconds if able\nKeep infant warm; heat loss leads to apnea, acidosis\nConsider placing body in plastic bag to prevent heat loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "intubate",
+          "url": "https://wikem.org/wiki/Neonatal_intubation"
+        },
+        {
+          "text": "Laryngeal mask airway",
+          "url": "https://wikem.org/wiki/Laryngeal_mask_airway"
+        },
+        {
+          "text": "Epi",
+          "url": "https://wikem.org/wiki/Epi"
+        },
+        {
+          "text": "hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "D10W",
+          "url": "https://wikem.org/wiki/D10W"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "PRBC",
+          "url": "https://wikem.org/wiki/PRBC"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "NaHCO3",
+          "url": "https://wikem.org/wiki/NaHCO3"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Neonatal_intubation"
+        },
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "meconium",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Umbilical vein",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "anemic",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Airway": {
+      "text": "Optimize\nPosition head in sniffing position\nSuction mouth then nose\nIntubate\nIndicated if patient is poorly responsive or fails\nBVM\nIf have time precut ET tube at 13cm mark\nLip placement = 6 + wt (kg)\nOr, lip placement = measure nasal septum to tragus length (NTL) in cm + 1\nAfter intubation suction trachea to prevent aspiration (if +\nmeconium\n; however, meconium is no longer an indication for intubation)",
+      "subsections": {
+        "Vascular_Access": {
+          "text": "Umbilical vein\nis site of choice",
+          "tables": []
+        },
+        "Volume_Expansion": {
+          "text": "NS\n10mL/kg IV or umb vein over 5-10min\nO Rh-negative\nblood\nif\nabruption\n/\nanemic",
+          "tables": []
+        },
+        "Medications": {
+          "text": "Epinephrine\nIndicated for asystole or HR < 60 despite CPR >30s\n0.01-0.03mg/kg IVP q3-5min\nSodium bicarbonate\nHelps to counteract negative inotropy/pulmonary hypertension caused by acidosis\nOnly give once adequate ventilation is established\n1-2 mEq/kg of 4.2% solution (2-4 mL/kg)\nNaloxone\nPreviously given if persistent respiratory depression AND maternal opioids within 4hr\nNo longer recommended; assist ventilations as needed until opioids wear off\n0.1-0.4mg/kg IV\nDelay cord clamping 30-60 seconds if able\nKeep infant warm; heat loss leads to apnea, acidosis\nConsider placing body in plastic bag to prevent heat loss",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Tube Size / age / wt": "2.5 / <28 / <1000",
+            "Blade": "Miller 0",
+            "Suction Catheter": "5F or 6F",
+            "Insertion Depth (cm)": "6-7"
+          },
+          {
+            "Tube Size / age / wt": "3.0 / 28-34 / 1000-2000",
+            "Blade": "Miller 0",
+            "Suction Catheter": "6F or 8F",
+            "Insertion Depth (cm)": "7-8"
+          },
+          {
+            "Tube Size / age / wt": "3.5 / 34-38 / 2000-3000",
+            "Blade": "Miller 0",
+            "Suction Catheter": "8F",
+            "Insertion Depth (cm)": "8-9"
+          },
+          {
+            "Tube Size / age / wt": "3.5-4.0 />38 / >3000",
+            "Blade": "Miller 0-1",
+            "Suction Catheter": "8F or 10F",
+            "Insertion Depth (cm)": "9-10"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Neonatal_intubation"
+        },
+        {
+          "text": "BVM",
+          "url": "https://wikem.org/wiki/BVM"
+        },
+        {
+          "text": "meconium",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Umbilical vein",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "blood",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "abruption",
+          "url": "https://wikem.org/wiki/Placental_abruption"
+        },
+        {
+          "text": "anemic",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Sodium bicarbonate",
+          "url": "https://wikem.org/wiki/Sodium_bicarbonate"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {
+        "Withholding_Resuscitation": {
+          "text": "Consider if:\n<22wk or <400g\nNo signs of life after 10min of CPR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Withholding_Resuscitation": {
+      "text": "Consider if:\n<22wk or <400g\nNo signs of life after 10min of CPR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Problems": {
+      "text": "",
+      "subsections": {
+        "Cyanosis": {
+          "text": "Must distinguish between central and peripheral\nConsider\nProstaglandin E1\n0.05-0.1 mcg/kg/min for cyanotic\ncongenital heart disease\nand ductus closing\nBeware of three common side effects that may require further resuscitation\n[6]\n[7]\n:\nApnea, 12%, which requires respiratory monitoring with ETCO2 capnography, potential mechanical ventilation, and/or ALS/PALS transport if needing transfer to higher level of care\nPeripheral flushing with or without hypotension, 10%, which requires fluid resuscitation\nFever, 14%\nSee\nprostaglandin E1\nfor more",
+          "tables": []
+        },
+        "Pneumothorax": {
+          "text": "Tension\npneumothorax\nis highly related to subsequent\nICH\nPlace 18-20ga catheter into 4th intracostal space, anterior axillary line",
+          "tables": []
+        },
+        "Hypoglycemia": {
+          "text": "<30-35 in preterm newborn\n<35-40 in term newborn\nTreatment\nD10W 2mL/kg IV",
+          "tables": []
+        },
+        "Congenital_Diaphragmatic_Hernia": {
+          "text": "Persistent\nrespiratory distress\nwith \"seesaw\" pattern\nTreat via immediate intubation, OG tube placement\nUse lowest peak inspiratory pressure that allows for adequate chest rise\nTransfer to tertiary center with NICU and pediatric surgeon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prostaglandin E1",
+          "url": "https://wikem.org/wiki/Prostaglandin_E1"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "prostaglandin E1",
+          "url": "https://wikem.org/wiki/Prostaglandin_E1"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Cyanosis": {
+      "text": "Must distinguish between central and peripheral\nConsider\nProstaglandin E1\n0.05-0.1 mcg/kg/min for cyanotic\ncongenital heart disease\nand ductus closing\nBeware of three common side effects that may require further resuscitation\n[6]\n[7]\n:\nApnea, 12%, which requires respiratory monitoring with ETCO2 capnography, potential mechanical ventilation, and/or ALS/PALS transport if needing transfer to higher level of care\nPeripheral flushing with or without hypotension, 10%, which requires fluid resuscitation\nFever, 14%\nSee\nprostaglandin E1\nfor more",
+      "subsections": {
+        "Pneumothorax": {
+          "text": "Tension\npneumothorax\nis highly related to subsequent\nICH\nPlace 18-20ga catheter into 4th intracostal space, anterior axillary line",
+          "tables": []
+        },
+        "Hypoglycemia": {
+          "text": "<30-35 in preterm newborn\n<35-40 in term newborn\nTreatment\nD10W 2mL/kg IV",
+          "tables": []
+        },
+        "Congenital_Diaphragmatic_Hernia": {
+          "text": "Persistent\nrespiratory distress\nwith \"seesaw\" pattern\nTreat via immediate intubation, OG tube placement\nUse lowest peak inspiratory pressure that allows for adequate chest rise\nTransfer to tertiary center with NICU and pediatric surgeon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Prostaglandin E1",
+          "url": "https://wikem.org/wiki/Prostaglandin_E1"
+        },
+        {
+          "text": "congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "prostaglandin E1",
+          "url": "https://wikem.org/wiki/Prostaglandin_E1"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Pneumothorax": {
+      "text": "Tension\npneumothorax\nis highly related to subsequent\nICH\nPlace 18-20ga catheter into 4th intracostal space, anterior axillary line",
+      "subsections": {
+        "Hypoglycemia": {
+          "text": "<30-35 in preterm newborn\n<35-40 in term newborn\nTreatment\nD10W 2mL/kg IV",
+          "tables": []
+        },
+        "Congenital_Diaphragmatic_Hernia": {
+          "text": "Persistent\nrespiratory distress\nwith \"seesaw\" pattern\nTreat via immediate intubation, OG tube placement\nUse lowest peak inspiratory pressure that allows for adequate chest rise\nTransfer to tertiary center with NICU and pediatric surgeon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Hypoglycemia": {
+      "text": "<30-35 in preterm newborn\n<35-40 in term newborn\nTreatment\nD10W 2mL/kg IV",
+      "subsections": {
+        "Congenital_Diaphragmatic_Hernia": {
+          "text": "Persistent\nrespiratory distress\nwith \"seesaw\" pattern\nTreat via immediate intubation, OG tube placement\nUse lowest peak inspiratory pressure that allows for adequate chest rise\nTransfer to tertiary center with NICU and pediatric surgeon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "Congenital_Diaphragmatic_Hernia": {
+      "text": "Persistent\nrespiratory distress\nwith \"seesaw\" pattern\nTreat via immediate intubation, OG tube placement\nUse lowest peak inspiratory pressure that allows for adequate chest rise\nTransfer to tertiary center with NICU and pediatric surgeon",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Emergent delivery\nUmbilical vein catheterization\nTransient tachypnea of the newborn",
+      "subsections": {
+        "Pediatric_Critical_Care": {
+          "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Emergent delivery",
+          "url": "https://wikem.org/wiki/Emergent_delivery"
+        },
+        {
+          "text": "Umbilical vein catheterization",
+          "url": "https://wikem.org/wiki/Umbilical_vein_catheterization"
+        },
+        {
+          "text": "Transient tachypnea of the newborn",
+          "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        }
+      ]
+    },
+    "Pediatric_Critical_Care": {
+      "text": "Critical care quick reference\nNeonatal resuscitation\nNewborn resuscitation\nPALS (Main)\nIntubation (peds)\nInitial mechanical ventilation settings (peds)\nVital signs (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Neonatal resuscitation",
+          "url": "https://wikem.org/wiki/Neonatal_resuscitation"
+        },
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Initial mechanical ventilation settings (peds)",
+          "url": "https://wikem.org/wiki/Initial_mechanical_ventilation_settings_(peds)"
+        },
+        {
+          "text": "Vital signs (peds)",
+          "url": "https://wikem.org/wiki/Vital_signs_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EM Cases - Neonatal Resuscitation May 2020",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

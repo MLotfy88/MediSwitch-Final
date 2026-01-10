@@ -1,0 +1,58 @@
+{
+  "drug_name": "Non_anion_gap_acidosis",
+  "url": "https://wikem.org/wiki/Non_anion_gap_acidosis",
+  "scraped_at": "2026-01-10T07:58:25.912590",
+  "sections": {
+    "Differential_Diagnosis": {
+      "text": "Hyperkalemia\nResolving\nDKA\nEarly\nuremic\nacidosis\nEarly obstructive uropathy\nRTA Type IV\nHypoaldosteronism\nK-sparing\ndiuretics\nHypokalemia\nRTA Type I\nRTA Type II\nAcetazolamide\nAcute\ndiarrhea\n(May be assoc with gap if hypoperfusion -> lactic acidosis)\nCKD\nIntestinal, pancreatic, biliary fistula\nHyperchloremic\nIVF\ninfusions\nHyperalimentation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "uremic",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "RTA Type IV",
+          "url": "https://wikem.org/wiki/RTA_Type_IV"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "RTA Type I",
+          "url": "https://wikem.org/wiki/RTA_Type_I"
+        },
+        {
+          "text": "RTA Type II",
+          "url": "https://wikem.org/wiki/RTA_Type_II"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    }
+  }
+}

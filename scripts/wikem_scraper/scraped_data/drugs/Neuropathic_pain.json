@@ -1,0 +1,71 @@
+{
+  "drug_name": "Neuropathic_pain",
+  "url": "https://wikem.org/wiki/Neuropathic_pain",
+  "scraped_at": "2026-01-10T07:58:20.729546",
+  "sections": {
+    "Background": {
+      "text": "Neuropathic pain responds best to multifaceted approach - not to\nopioids\nIf opioids can be avoided, it helps primary care providers and pain management specialists create a better regimen\nCornerstone of pain management is activity (exercise, PT, aquatherapy), but opioids/benzodiazepines restrict this",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioids",
+          "url": "https://wikem.org/wiki/Opioids"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Do not consider starting patients on medications unless they will definitely obtain good follow-up\nFirst line medication options (all have NNT from ~2-3 or better)\nAntiepileptics\n- gabapentin, topiramate\nTCAs\n-\namitriptyline\n,\nnortriptyline\nDuloxetine\n(especially if TCAs contraindicated)\nPregabalin\nNSAIDs\nand\nTylenol\nSecond line medications (temporary relief, not long term)\nTramadol\nMuscle relaxants - cyclobenzaprine, methocarbamol,\ndiazepam\nRefer to pain specialist for multidisciplinary approach\nPain specialists can offer (discussion with patient in ED):\nInjections - trigger point, epidural steroid injections, facet injections, medial branch blocks, joint steroid injections\nRadiofrequency ablations\nSpinal implants\nDetermination of long-term opioids\nPain psychology\nSpinal manipulation\nLifestyle changes\nWeight loss\nSobriety, reduction of polypharmacy, smoking cessation\nExercise, avoidance of bed rest, core strengthening",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "TCAs",
+          "url": "https://wikem.org/wiki/TCAs"
+        },
+        {
+          "text": "amitriptyline",
+          "url": "https://wikem.org/wiki/Amitriptyline"
+        },
+        {
+          "text": "nortriptyline",
+          "url": "https://wikem.org/wiki/Nortriptyline"
+        },
+        {
+          "text": "Duloxetine",
+          "url": "https://wikem.org/wiki/Duloxetine"
+        },
+        {
+          "text": "Pregabalin",
+          "url": "https://wikem.org/wiki/Pregabalin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "Tramadol",
+          "url": "https://wikem.org/wiki/Tramadol"
+        },
+        {
+          "text": "diazepam",
+          "url": "https://wikem.org/wiki/Diazepam"
+        }
+      ]
+    },
+    "References": {
+      "text": "Rathmell JP. A 50-year-old man with chronic low back pain. JAMA. 2008;299(17):2066-77.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

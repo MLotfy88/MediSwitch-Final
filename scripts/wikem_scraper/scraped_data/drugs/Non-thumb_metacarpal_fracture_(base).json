@@ -1,0 +1,157 @@
+{
+  "drug_name": "Non-thumb_metacarpal_fracture_(base)",
+  "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)",
+  "scraped_at": "2026-01-10T07:58:27.319032",
+  "sections": {
+    "Background": {
+      "text": "Reverse Bennett: fracture of fifth metacarpal base, with extensor carpi ulnaris traction on distal metacarpal while proximal fragment still algined with carpals\nSee\nThumb fracture\nfor Bennett fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Movement at the wrist elicits pain\nAssess for ulnar deficits (finger abduction/adduction)\nAssess for rotational alignment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Xray hand: AP, lateral, oblique\n30 deg obliques pronated and supinated if usual films unable to visualize the MC bases\nConsider CT if index of suspicion high for occult fracture despite \"negative\" plain films",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Dorsal and\nForearm Volar Splint‎\nwith the wrist in 30 deg of extension and MCP joints free",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Forearm Volar Splint‎",
+          "url": "https://wikem.org/wiki/Forearm_Volar_Splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Refer for:\nIntraarticular fracture\nExtraarticular fracture with malrotation\nDislocation of metacarpal base CMC joint;\nUlnar nerve injury\n5th metacarpal base fracture (typically require surgery)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        }
+      ]
+    }
+  }
+}

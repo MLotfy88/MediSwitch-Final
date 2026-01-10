@@ -1,0 +1,201 @@
+{
+  "drug_name": "Nonketotic_hyperglycemia",
+  "url": "https://wikem.org/wiki/Nonketotic_hyperglycemia",
+  "scraped_at": "2026-01-10T07:58:34.030249",
+  "sections": {
+    "Background": {
+      "text": "Typically defined as glucose >180",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Asymptomatic\nPolyuria\nPolydipsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Polyuria",
+          "url": "https://wikem.org/wiki/Polyuria"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hyperglycemia": {
+          "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Hyperglycemia": {
+      "text": "Physiologic stress response (rarely causes glucose >200 mg/dL)\nDiabetes mellitus (main)\nNonketotic hyperglycemia\nHyperosmolar hyperglycemic state\n(HHS/HONC)\nDiabetic ketoacidosis\n(adult)\nDiabetic ketoacidosis (peds)\nCerebral edema in DKA\nDiabetic foot infection\nDiabetic peripheral neuropathy\nHemochromatosis\nIron toxicity\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus (main)",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus_(main)"
+        },
+        {
+          "text": "Hyperosmolar hyperglycemic state",
+          "url": "https://wikem.org/wiki/Hyperosmolar_hyperglycemic_state"
+        },
+        {
+          "text": "Diabetic ketoacidosis",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Cerebral edema in DKA",
+          "url": "https://wikem.org/wiki/Cerebral_edema_in_DKA"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_peripheral_neuropathy"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Elevated glucose\nMay check:\nCBC\nChemistry (gap)\nKetones",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "There is no need to treat the glucose \"number\" in the emergency setting (i.e. with insulin)\nHigher discharge glucose levels are not associated with a greater risk of repeated ED visits, hospitalization, or other adverse outcomes.",
+      "subsections": {
+        "Type_II_Diabetes_Outpatient_Management": {
+          "text": "1st line:\nMetformin\n500mg BID → 1000mg BID, do not give in people with abnormal LFT's, CHF Stage 3/4 and ARI, CKD\n2nd Agent:\nGlipizide\nstart 2.5mg BID → 5mg BID, need to monitor for hypoglycemia\n3rd Agent:\nPioglitazone\nAfter 3 agents: need to start\ninsulin\nif not controlled\nNPH BID or Lantus Qday (0.1 to 0.2mg/kg) and titrate to Fasting Blood Sugar",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Higher discharge glucose levels are not associated with a greater risk of repeated ED visits, hospitalization, or other adverse outcomes.",
+          "url": "https://wikem.org/wiki/EBQ:Relevance_of_Discharge_Glucose_Levels"
+        },
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Glipizide",
+          "url": "https://wikem.org/wiki/Glipizide"
+        },
+        {
+          "text": "Pioglitazone",
+          "url": "https://wikem.org/wiki/Pioglitazone"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        }
+      ]
+    },
+    "Type_II_Diabetes_Outpatient_Management": {
+      "text": "1st line:\nMetformin\n500mg BID → 1000mg BID, do not give in people with abnormal LFT's, CHF Stage 3/4 and ARI, CKD\n2nd Agent:\nGlipizide\nstart 2.5mg BID → 5mg BID, need to monitor for hypoglycemia\n3rd Agent:\nPioglitazone\nAfter 3 agents: need to start\ninsulin\nif not controlled\nNPH BID or Lantus Qday (0.1 to 0.2mg/kg) and titrate to Fasting Blood Sugar",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metformin",
+          "url": "https://wikem.org/wiki/Metformin"
+        },
+        {
+          "text": "Glipizide",
+          "url": "https://wikem.org/wiki/Glipizide"
+        },
+        {
+          "text": "Pioglitazone",
+          "url": "https://wikem.org/wiki/Pioglitazone"
+        },
+        {
+          "text": "insulin",
+          "url": "https://wikem.org/wiki/Insulin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Asymptomatic patients can be discharged with follow up with primary care physician\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "EBQ:Relevance of Discharge Glucose Levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "EBQ:Relevance of Discharge Glucose Levels",
+          "url": "https://wikem.org/wiki/EBQ:Relevance_of_Discharge_Glucose_Levels"
+        }
+      ]
+    }
+  }
+}

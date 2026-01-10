@@ -1,0 +1,264 @@
+{
+  "drug_name": "Nonsteroidal_anti-inflammatory_drugs",
+  "url": "https://wikem.org/wiki/Nonsteroidal_anti-inflammatory_drugs",
+  "scraped_at": "2026-01-10T07:58:30.230186",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: NSAIDs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Salicylates": {
+          "text": "Aspirin\n(\nacetylsalicylic acid\n)\nSalicylic acid and other\nsalicylates",
+          "tables": []
+        },
+        "Propionic_acid_derivatives": {
+          "text": "Ibuprofen\nNaproxen\nKetoprofen",
+          "tables": []
+        },
+        "Acetic_acid_derivatives": {
+          "text": "Indomethacin\nKetorolac\nDiclofenac",
+          "tables": []
+        },
+        "Selective_COX-2_inhibitors_(Coxibs)": {
+          "text": "Celecoxib\n(FDA alert\n[1]\n)",
+          "tables": []
+        },
+        "Enolic_acid_(Oxicam)_derivatives": {
+          "text": "Piroxicam\nMeloxicam\nTenoxicam\nDroxicam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "acetylsalicylic acid",
+          "url": "https://wikem.org/wiki/Acetylsalicylic_acid"
+        },
+        {
+          "text": "salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Ketoprofen",
+          "url": "https://wikem.org/wiki/Ketoprofen"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Celecoxib",
+          "url": "https://wikem.org/wiki/Celecoxib"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        }
+      ]
+    },
+    "Salicylates": {
+      "text": "Aspirin\n(\nacetylsalicylic acid\n)\nSalicylic acid and other\nsalicylates",
+      "subsections": {
+        "Propionic_acid_derivatives": {
+          "text": "Ibuprofen\nNaproxen\nKetoprofen",
+          "tables": []
+        },
+        "Acetic_acid_derivatives": {
+          "text": "Indomethacin\nKetorolac\nDiclofenac",
+          "tables": []
+        },
+        "Selective_COX-2_inhibitors_(Coxibs)": {
+          "text": "Celecoxib\n(FDA alert\n[1]\n)",
+          "tables": []
+        },
+        "Enolic_acid_(Oxicam)_derivatives": {
+          "text": "Piroxicam\nMeloxicam\nTenoxicam\nDroxicam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "acetylsalicylic acid",
+          "url": "https://wikem.org/wiki/Acetylsalicylic_acid"
+        },
+        {
+          "text": "salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Ketoprofen",
+          "url": "https://wikem.org/wiki/Ketoprofen"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Celecoxib",
+          "url": "https://wikem.org/wiki/Celecoxib"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        }
+      ]
+    },
+    "Propionic_acid_derivatives": {
+      "text": "Ibuprofen\nNaproxen\nKetoprofen",
+      "subsections": {
+        "Acetic_acid_derivatives": {
+          "text": "Indomethacin\nKetorolac\nDiclofenac",
+          "tables": []
+        },
+        "Selective_COX-2_inhibitors_(Coxibs)": {
+          "text": "Celecoxib\n(FDA alert\n[1]\n)",
+          "tables": []
+        },
+        "Enolic_acid_(Oxicam)_derivatives": {
+          "text": "Piroxicam\nMeloxicam\nTenoxicam\nDroxicam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ibuprofen",
+          "url": "https://wikem.org/wiki/Ibuprofen"
+        },
+        {
+          "text": "Naproxen",
+          "url": "https://wikem.org/wiki/Naproxen"
+        },
+        {
+          "text": "Ketoprofen",
+          "url": "https://wikem.org/wiki/Ketoprofen"
+        },
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Celecoxib",
+          "url": "https://wikem.org/wiki/Celecoxib"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        }
+      ]
+    },
+    "Acetic_acid_derivatives": {
+      "text": "Indomethacin\nKetorolac\nDiclofenac",
+      "subsections": {
+        "Selective_COX-2_inhibitors_(Coxibs)": {
+          "text": "Celecoxib\n(FDA alert\n[1]\n)",
+          "tables": []
+        },
+        "Enolic_acid_(Oxicam)_derivatives": {
+          "text": "Piroxicam\nMeloxicam\nTenoxicam\nDroxicam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Indomethacin",
+          "url": "https://wikem.org/wiki/Indomethacin"
+        },
+        {
+          "text": "Ketorolac",
+          "url": "https://wikem.org/wiki/Ketorolac"
+        },
+        {
+          "text": "Diclofenac",
+          "url": "https://wikem.org/wiki/Diclofenac"
+        },
+        {
+          "text": "Celecoxib",
+          "url": "https://wikem.org/wiki/Celecoxib"
+        },
+        {
+          "text": "Meloxicam",
+          "url": "https://wikem.org/wiki/Meloxicam"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "NSAID toxicity\nAcetaminophen (tylenol) toxicity\nAspirin (Salicylate) Toxicity\nToxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        },
+        {
+          "text": "Acetaminophen (tylenol) toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_(tylenol)_toxicity"
+        },
+        {
+          "text": "Aspirin (Salicylate) Toxicity",
+          "url": "https://wikem.org/wiki/Aspirin_(Salicylate)_Toxicity"
+        },
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    }
+  }
+}

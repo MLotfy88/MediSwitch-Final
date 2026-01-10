@@ -1,0 +1,770 @@
+{
+  "drug_name": "Neuroleptic_malignant_syndrome",
+  "url": "https://wikem.org/wiki/Neuroleptic_malignant_syndrome",
+  "scraped_at": "2026-01-10T07:58:20.901150",
+  "sections": {
+    "Background": {
+      "text": "Life threatening neurologic emergency associated with the use of neuroleptic agents\n[1]\n[2]\nCan occur with single dose, increasing dose, or same dose as usual\n[3]\nMost often seen with \"typical\" high potency antipsychotics (\nhaloperidol\n)\nalso occurs with newer \"atypicals\" (\nrisperidone\n,\nolanzapine\n)\nantiemetics (\nmetoclopramide\n,\npromethazine\n)\nwithdrawal of anti-Parkinson medication\nDevelops over 1-3 days\nMajority of deaths occur from complications of muscle rigidity\nMortality rates up to 5 to 20%\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "olanzapine",
+          "url": "https://wikem.org/wiki/Olanzapine"
+        },
+        {
+          "text": "metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "promethazine",
+          "url": "https://wikem.org/wiki/Promethazine"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Develops over 1-3 days\nTetrad of:\n[5]\nAltered mental status\n-\nagitated delirium\nprogressing to stupor/\ncoma\nMuscle rigidity - generalized, \"lead pipe\" rigidity\nHyperthermia\n>38C (87%); >40C (40%)\nAutonomic instability -\ntachycardia\n,\nhypertension\n, diaphoresis",
+      "subsections": {
+        "Complications": {
+          "text": "Dehydration\nElectrolyte imbalance\nAcute renal failure\n(\nrhabdomyolysis\n)\nDysrhythmias\nACS\nRespiratory failure\nChest wall rigidity, aspiration\npneumonia\n,\nPE\nDIC\nSeizure\n(\nhyperthermia\n,\nelectrolyte derangements\n)\nHepatic failure\nSepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "agitated delirium",
+          "url": "https://wikem.org/wiki/Agitated_delirium"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Electrolyte imbalance",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalance"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "electrolyte derangements",
+          "url": "https://wikem.org/wiki/Electrolyte_derangements"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Dehydration\nElectrolyte imbalance\nAcute renal failure\n(\nrhabdomyolysis\n)\nDysrhythmias\nACS\nRespiratory failure\nChest wall rigidity, aspiration\npneumonia\n,\nPE\nDIC\nSeizure\n(\nhyperthermia\n,\nelectrolyte derangements\n)\nHepatic failure\nSepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Electrolyte imbalance",
+          "url": "https://wikem.org/wiki/Electrolyte_imbalance"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "Respiratory failure",
+          "url": "https://wikem.org/wiki/Respiratory_failure"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "electrolyte derangements",
+          "url": "https://wikem.org/wiki/Electrolyte_derangements"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Serotonin Syndrome\nSerotonin syndrome more likely to have hyperreflexia, myoclonus, ataxia, nausea and vomiting, diarrhea\nRigidity and hyperthermia, if present, is less severe than in NMS; more commonly presents with clonus and hyperreflexia\nMalignant Hyperthermia\nDistinguish by clinical setting (use of inhalational anesthetics or sux)\nHyperthermia, muscle rigidity, and dysautonomia is similar to NMS though more fulminant\nAnticholinergic Toxicity\nDiaphoresis, rigidity, elevated CK are absent\nFlushing, mydriasis, bladder distension are common\nSympathomimetics\nRigidity is not seen",
+      "subsections": {
+        "Movement_Disorders_and_Other_Abnormal_Contractions": {
+          "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+          "tables": []
+        },
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Malignant Hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_Hyperthermia"
+        },
+        {
+          "text": "Anticholinergic Toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_Toxicity"
+        },
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Movement_Disorders_and_Other_Abnormal_Contractions": {
+      "text": "Chorea\nSydenham's chorea\nNeuroleptic malignant syndrome\nSerotonin syndrome\nHypocalcemia\nStrychnine\ntoxicity\nAcute tetanus\nParkinson's disease\nMono amine oxidase inhibitor toxicity\nPhencyclidine toxicity\nAnti-NMDA receptor encephalitis\nHuntington disease\nWilson's disease\nCVA\nSchizophrenia\nPsychotic agitation\nDementia\nLewy body dementia\nVascular dementia\nFrontotemporal dementia\nDystonic reaction\nExtrapyramidal reaction\nTorticollis\nIdiopathic movement disorder",
+      "subsections": {
+        "Altered_mental_status_and_fever": {
+          "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chorea",
+          "url": "https://wikem.org/wiki/Chorea"
+        },
+        {
+          "text": "Sydenham's chorea",
+          "url": "https://wikem.org/wiki/Sydenham%27s_chorea"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Strychnine",
+          "url": "https://wikem.org/wiki/Strychnine"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Mono amine oxidase inhibitor toxicity",
+          "url": "https://wikem.org/wiki/Mono_amine_oxidase_inhibitor_toxicity"
+        },
+        {
+          "text": "Phencyclidine toxicity",
+          "url": "https://wikem.org/wiki/Phencyclidine_toxicity"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Huntington disease",
+          "url": "https://wikem.org/wiki/Huntington_disease"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Schizophrenia",
+          "url": "https://wikem.org/wiki/Schizophrenia"
+        },
+        {
+          "text": "Psychotic agitation",
+          "url": "https://wikem.org/wiki/Psychotic_agitation"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Dystonic reaction",
+          "url": "https://wikem.org/wiki/Dystonic_reaction"
+        },
+        {
+          "text": "Extrapyramidal reaction",
+          "url": "https://wikem.org/wiki/Extrapyramidal_reaction"
+        },
+        {
+          "text": "Torticollis",
+          "url": "https://wikem.org/wiki/Torticollis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Altered_mental_status_and_fever": {
+      "text": "Infectious\nSepsis\nMeningitis\nEncephalitis\nCerebral\nmalaria\nBrain abscess\nOther\nNeuroleptic malignant syndrome\nSerotonin syndrome\nMalignant hyperthermia\nSympathomimetic toxicity\n(\ncocaine\n,\namphetamine\n,\nketamine\n)\nAnticholinergic toxicity\nHeat stroke\nDelirium tremens\nHypothalamic\nstroke\nPheochromocytoma\nThyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Brain abscess",
+          "url": "https://wikem.org/wiki/Brain_abscess"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "amphetamine",
+          "url": "https://wikem.org/wiki/Amphetamine"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "Heat stroke",
+          "url": "https://wikem.org/wiki/Heat_stroke"
+        },
+        {
+          "text": "Delirium tremens",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        },
+        {
+          "text": "Thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Total CK\nTypically >1000\nCorrelates with degree of rigidity\nCBC\nWBC >10K\nis typical\nChemistry\nMay show\nhypocalcemia\n,\nhypomagnesemia\n,\nhyperkalemia\n,\nmetabolic acidosis\nUrinalysis\nMyoglobinuria (from rhabdo)\nLFTs\nTransaminitis\nCT\n/\nLP\nCSF may have mildly elevated protein",
+      "subsections": {
+        "Serotonin_syndrome_vs_Neuroleptic_malignant_syndrome": {
+          "text": "History of a new serotonergic drug or a dose increase of a serotonergic drug are helpful\nSerotonin syndrome is usually much more acute in onset than NMS which may develop over days or weeks\nPresence of ‘lead pipe’ rigidity is typical of NMS, while serotonin syndrome typically manifests with tremor and hyperreflexia\nElevations in CK, LFTs, and WBC, coupled with a low iron level, distinguishes NMS from serotonin syndrome among patients taking both neuroleptic and serotonin agonist medications simultaneously",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "WBC >10K",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "hypomagnesemia",
+          "url": "https://wikem.org/wiki/Hypomagnesemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Serotonin_syndrome_vs_Neuroleptic_malignant_syndrome": {
+      "text": "History of a new serotonergic drug or a dose increase of a serotonergic drug are helpful\nSerotonin syndrome is usually much more acute in onset than NMS which may develop over days or weeks\nPresence of ‘lead pipe’ rigidity is typical of NMS, while serotonin syndrome typically manifests with tremor and hyperreflexia\nElevations in CK, LFTs, and WBC, coupled with a low iron level, distinguishes NMS from serotonin syndrome among patients taking both neuroleptic and serotonin agonist medications simultaneously",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "The causative agent should be stopped\nDiscontinue all dopamine blocking agents\nIf precipitant is a dopaminergic therapy (L-dopa or Carbidopa) it can be restarted later at lower doses as an outpatient",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "Agitation should be controlled with\nBenzodiazepines\nLorazepam 2 mg IV q5 min until agitation and muscle rigidity resolves\nFluid resuscitation\nCooling measures\nIntubation and paralysis for severe cases, chest wall rigidity or respiratory failure\nUse NON-DEPOLARIZING paralytic agent",
+          "tables": []
+        },
+        "Directed_Medical_Therapy": {
+          "text": "Controversial with unclear and disputed efficacy\nDantrolene\n(skeletal muscle relaxant) - Consider only in patients with severe rigidity\nMay cause hepatotoxicity in patients with liver disease\n0.25-2mg/kg IV q6-12hr, max dose 10mg/kg/day\nBromocriptine\n(dopamine agonist)\n2.5mg PO q6-8hr, max dose 40mg/day\nAmantadine\n(alternative to bromocriptine)\n100mg PO initially; titrate up as needed to max dose 200mg q12hr",
+          "tables": []
+        },
+        "Electroconvulsive_Therapy": {
+          "text": "Limited case series suggest that ECT can be effective in NMS refractory to pharmacotherapy\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "Agitation should be controlled with\nBenzodiazepines\nLorazepam 2 mg IV q5 min until agitation and muscle rigidity resolves\nFluid resuscitation\nCooling measures\nIntubation and paralysis for severe cases, chest wall rigidity or respiratory failure\nUse NON-DEPOLARIZING paralytic agent",
+      "subsections": {
+        "Directed_Medical_Therapy": {
+          "text": "Controversial with unclear and disputed efficacy\nDantrolene\n(skeletal muscle relaxant) - Consider only in patients with severe rigidity\nMay cause hepatotoxicity in patients with liver disease\n0.25-2mg/kg IV q6-12hr, max dose 10mg/kg/day\nBromocriptine\n(dopamine agonist)\n2.5mg PO q6-8hr, max dose 40mg/day\nAmantadine\n(alternative to bromocriptine)\n100mg PO initially; titrate up as needed to max dose 200mg q12hr",
+          "tables": []
+        },
+        "Electroconvulsive_Therapy": {
+          "text": "Limited case series suggest that ECT can be effective in NMS refractory to pharmacotherapy\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Fluid resuscitation",
+          "url": "https://wikem.org/wiki/Fluid_resuscitation"
+        },
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        }
+      ]
+    },
+    "Directed_Medical_Therapy": {
+      "text": "Controversial with unclear and disputed efficacy\nDantrolene\n(skeletal muscle relaxant) - Consider only in patients with severe rigidity\nMay cause hepatotoxicity in patients with liver disease\n0.25-2mg/kg IV q6-12hr, max dose 10mg/kg/day\nBromocriptine\n(dopamine agonist)\n2.5mg PO q6-8hr, max dose 40mg/day\nAmantadine\n(alternative to bromocriptine)\n100mg PO initially; titrate up as needed to max dose 200mg q12hr",
+      "subsections": {
+        "Electroconvulsive_Therapy": {
+          "text": "Limited case series suggest that ECT can be effective in NMS refractory to pharmacotherapy\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dantrolene",
+          "url": "https://wikem.org/wiki/Dantrolene"
+        },
+        {
+          "text": "Bromocriptine",
+          "url": "https://wikem.org/wiki/Bromocriptine"
+        },
+        {
+          "text": "Amantadine",
+          "url": "https://wikem.org/wiki/Amantadine"
+        }
+      ]
+    },
+    "Electroconvulsive_Therapy": {
+      "text": "Limited case series suggest that ECT can be effective in NMS refractory to pharmacotherapy\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit, usually to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

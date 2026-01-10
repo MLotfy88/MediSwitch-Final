@@ -1,0 +1,82 @@
+{
+  "drug_name": "Obstructive_sleep_apnea",
+  "url": "https://wikem.org/wiki/Obstructive_sleep_apnea",
+  "scraped_at": "2026-01-10T07:58:33.820958",
+  "sections": {
+    "Background": {
+      "text": "Obstructive sleep apnea (OSA)\nis a common, potentially serious sleep disorder\nCharacterized by repetitive collapse of the upper airway leading to intermittent pauses in breathing during sleep\nMost common in adult males and postmenopausal women\nRisk factors include older age, male gender, obesity, and upper airway abnormalities\nComplications include drowsy driving/motor vehicle accidents, neuropsychiatric dysfunction, cardiovascular morbidity,\npulmonary hypertension\n, and right\nheart failure\n.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Daytime sleepiness\nMay be underestimated due to chronic nature, insidious onset\nLoud snoring, gasping, interruptions in breathing while sleeping\nMorning\nheadaches\nUsually bifrontal, squeezing\nPossibly secondary to\nhypercapnia\n, vasodilation,\nincreased intracranial pressure\n, and impaired sleep quality",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headaches",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "increased intracranial pressure",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Excessive daytime sleepiness\nInsufficient sleep - shift work, underlying comorbidity, medication affects\nSleep disorders - circadian rhythm sleep-wake disorder, narcolepsy\nSleep related movement disorder - restless legs syndrome, periodic limb movement disorder\nAbrupt awakening or abnormal sounds during sleep\nPrimary snoring - Most patients who have OSA snore, but most patients who snore do not have OSA.\nGERD\n- can produce a choking sensation and dyspnea at night\nNocturnal\nasthma\nNocturnal\nseizure\nEarly morning headaches\nSpace occupying lesions\nof the brain\nObesity hypoventilation - would potentially show hypercapnia/hypercarbia on venous blood gas",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Space occupying lesions",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Not typically an ED diagnosis\nEvaluate for alternative, emergent etiology of symptoms\nNot a clinical diagnosis and objective testing must be performed for diagnosis\nConsider diagnostic testing with patients with excessive day time sleepiness (EDS) on most days\nand\ntwo of the following clinical features: habitual loud snoring, witnessed apnea or gasping or choking during sleep, and diagnosed systemic hypertension.\nEvaluation tool parameters: No evaluation tools have been shown to be superior to history and physical examination and their poor accuracy make them imperfect diagnostic tools, but are often used in preoperative evaluation to assess risk of undiagnosed OSA\nSTOP-Bang questionnaire\nEpworth Sleepiness Scale\nPolysomnography: gold standard diagnostic test for OSA. Preferred in-lab testing for those with suspected concomitant respiratory disorder (e.g. COPD), concomitant sleep disorder(e.g. narcolepsy), mild disease, negative or inconclusive home testing\nHome sleep apnea testing: Good for patients with high pretest probability for moderate to severe uncomplicated OSA.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Patient education\nBehavioral modification\nLosing weight if overweight\nExercise\nChanging sleep position if positional\nAbstaining from alcohol or certain sedative medications\nPositive airway pressure during sleep\nOral appliance is reasonable second line for mild-moderate OSA\nSurgical therapy\nSurgical resection of obstructing lesion\nHypoglossal nerve stimulation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge- consider sleep medicine referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

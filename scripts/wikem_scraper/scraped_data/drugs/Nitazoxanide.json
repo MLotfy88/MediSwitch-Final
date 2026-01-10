@@ -1,0 +1,95 @@
+{
+  "drug_name": "Nitazoxanide",
+  "url": "https://wikem.org/wiki/Nitazoxanide",
+  "scraped_at": "2026-01-10T07:58:21.246918",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiparasitic\n, active against\ngiardia\nand\ncryptosporidium\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiparasitic",
+          "url": "https://wikem.org/wiki/Antiparasitic"
+        },
+        {
+          "text": "giardia",
+          "url": "https://wikem.org/wiki/Giardia"
+        },
+        {
+          "text": "cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "500mg PO BID x 3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "1-3yo: 100mg BID x 3 days\n4-11yo: 200mg BID x 3 days\n>11yo: 500mg BID x 3 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk: infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal pain, nausea\nHeadache\nAbnormal color of urine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "",
+      "subsections": {
+        "Common": {
+          "text": "Abdominal pain, nausea\nHeadache\nAbnormal color of urine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Abdominal pain, nausea\nHeadache\nAbnormal color of urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1-1.6h\nMetabolism:\nExcretion: Mostly fecal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "inhibits pyruvate ferredoxin oxidoreductase, which is essential to anaerobic energy metabolism",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

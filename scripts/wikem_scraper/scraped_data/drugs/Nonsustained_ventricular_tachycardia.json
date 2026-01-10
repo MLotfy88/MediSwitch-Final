@@ -1,0 +1,591 @@
+{
+  "drug_name": "Nonsustained_ventricular_tachycardia",
+  "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia",
+  "scraped_at": "2026-01-10T07:58:35.695163",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Definition[1]": {
+          "text": ">3-5 consecutive beats originating below the AV node\nRate > 100bpm\nDuration <30s\nPatient remains hemodynamically stable",
+          "tables": []
+        },
+        "Epidemiology": {
+          "text": "Occurs in 0-4% of ambulatory patients\nIncreased frequency in males and with increasing age",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "Occurs in 0-4% of ambulatory patients\nIncreased frequency in males and with increasing age",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Often asymptomatic\nIn some patients, NSVT is associated with an increased risk of sustained\ntachyarrhythmias\nand sudden cardiac death. In others it is of little prognostic significance.\n[3]\n[4]\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "All patients\nHistory: including arrhythmogenic medications/substances, pertinent family history\nPhysical examination\nECG\n/\nCXR\nTTE\nIn selected patients\nExercise testing\nAdvanced imaging (CT/C-MR)\nElectrophysiologic studies\nGenetic testing",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Based on\nECG\nMost important distinction is whether dysrhythmia is associated with underlying structural heart disease.",
+          "tables": []
+        },
+        "NSVT_in_the_absence_of_apparent_structural_heart_disease": {
+          "text": "Idiopathic\nVentricular Tachycardia\n: Ventricular outflow arrhythmias (RVOT > LVOT). Good prognosis, rarely associated with tachycardia-induced cardiomyopathy and sudden cardiac death (SCD).\nPolymorphic ventricular tachycardia\n: Inherited or acquired\nlong QT syndrome\n, familial catecholaminergic PMVT\nIncreased risk of sudden cardiac death, consideration for ICD if symptomatic (syncope, arrest) or asymptomatic QTc > 550ms.\nArrhythmogenic Right Ventricular Cardiomyopathy: Fibro-fatty deposition in RVIT/RVOT/RV apex. Increased risk of SCD, consideration for catheter ablation with ICD backup.",
+          "tables": []
+        },
+        "NSVT_with_apparent_structural_heart_disease": {
+          "text": "Hypertension and LVH: warrants evaluation for ischemic heart disease, aggressive medical management of hypertension (including beta-blockade). Prognosis unclear.\nValvular disease\n: Highest incidence in AS and MR. No evidence that occurrence of NSVT associated with SCD.\nIschemic heart disease: Monomorphic NSVT around myocardial scars, active ischemia associated with both mono/polymorphic VT and VF. In ED, early NSVT (<24h) after NSTEMI/STEMI common and not associated with adverse outcomes.\nHypertrophic cardiomyopathy\n; myocyte disarray produces arrhythmogenic substrate. NSVT associated with increased risk of SCD.\nOther conditions:\nNon-ischemic dilated cardiomyopathy\nGiant-cell\nmyocarditis\nRepaired\nTOF\nAmyloidosis\nSarcoidosis\nChagas\ncardiomyopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Ventricular Tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_Tachycardia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_disease"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "TOF",
+          "url": "https://wikem.org/wiki/TOF"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "All patients\nHistory: including arrhythmogenic medications/substances, pertinent family history\nPhysical examination\nECG\n/\nCXR\nTTE\nIn selected patients\nExercise testing\nAdvanced imaging (CT/C-MR)\nElectrophysiologic studies\nGenetic testing",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Based on\nECG\nMost important distinction is whether dysrhythmia is associated with underlying structural heart disease.",
+          "tables": []
+        },
+        "NSVT_in_the_absence_of_apparent_structural_heart_disease": {
+          "text": "Idiopathic\nVentricular Tachycardia\n: Ventricular outflow arrhythmias (RVOT > LVOT). Good prognosis, rarely associated with tachycardia-induced cardiomyopathy and sudden cardiac death (SCD).\nPolymorphic ventricular tachycardia\n: Inherited or acquired\nlong QT syndrome\n, familial catecholaminergic PMVT\nIncreased risk of sudden cardiac death, consideration for ICD if symptomatic (syncope, arrest) or asymptomatic QTc > 550ms.\nArrhythmogenic Right Ventricular Cardiomyopathy: Fibro-fatty deposition in RVIT/RVOT/RV apex. Increased risk of SCD, consideration for catheter ablation with ICD backup.",
+          "tables": []
+        },
+        "NSVT_with_apparent_structural_heart_disease": {
+          "text": "Hypertension and LVH: warrants evaluation for ischemic heart disease, aggressive medical management of hypertension (including beta-blockade). Prognosis unclear.\nValvular disease\n: Highest incidence in AS and MR. No evidence that occurrence of NSVT associated with SCD.\nIschemic heart disease: Monomorphic NSVT around myocardial scars, active ischemia associated with both mono/polymorphic VT and VF. In ED, early NSVT (<24h) after NSTEMI/STEMI common and not associated with adverse outcomes.\nHypertrophic cardiomyopathy\n; myocyte disarray produces arrhythmogenic substrate. NSVT associated with increased risk of SCD.\nOther conditions:\nNon-ischemic dilated cardiomyopathy\nGiant-cell\nmyocarditis\nRepaired\nTOF\nAmyloidosis\nSarcoidosis\nChagas\ncardiomyopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Ventricular Tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_Tachycardia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_disease"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "TOF",
+          "url": "https://wikem.org/wiki/TOF"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Based on\nECG\nMost important distinction is whether dysrhythmia is associated with underlying structural heart disease.",
+      "subsections": {
+        "NSVT_in_the_absence_of_apparent_structural_heart_disease": {
+          "text": "Idiopathic\nVentricular Tachycardia\n: Ventricular outflow arrhythmias (RVOT > LVOT). Good prognosis, rarely associated with tachycardia-induced cardiomyopathy and sudden cardiac death (SCD).\nPolymorphic ventricular tachycardia\n: Inherited or acquired\nlong QT syndrome\n, familial catecholaminergic PMVT\nIncreased risk of sudden cardiac death, consideration for ICD if symptomatic (syncope, arrest) or asymptomatic QTc > 550ms.\nArrhythmogenic Right Ventricular Cardiomyopathy: Fibro-fatty deposition in RVIT/RVOT/RV apex. Increased risk of SCD, consideration for catheter ablation with ICD backup.",
+          "tables": []
+        },
+        "NSVT_with_apparent_structural_heart_disease": {
+          "text": "Hypertension and LVH: warrants evaluation for ischemic heart disease, aggressive medical management of hypertension (including beta-blockade). Prognosis unclear.\nValvular disease\n: Highest incidence in AS and MR. No evidence that occurrence of NSVT associated with SCD.\nIschemic heart disease: Monomorphic NSVT around myocardial scars, active ischemia associated with both mono/polymorphic VT and VF. In ED, early NSVT (<24h) after NSTEMI/STEMI common and not associated with adverse outcomes.\nHypertrophic cardiomyopathy\n; myocyte disarray produces arrhythmogenic substrate. NSVT associated with increased risk of SCD.\nOther conditions:\nNon-ischemic dilated cardiomyopathy\nGiant-cell\nmyocarditis\nRepaired\nTOF\nAmyloidosis\nSarcoidosis\nChagas\ncardiomyopathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Ventricular Tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_Tachycardia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Valvular disease",
+          "url": "https://wikem.org/wiki/Valvular_disease"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "TOF",
+          "url": "https://wikem.org/wiki/TOF"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "AHA_Guidelines": {
+          "text": "Nonsustained Repetitive Monomorphic VT: amiodarone, beta-blockade (if tolerated), procainamide (IIA, C)\nNonsustained Polymorphic VT: Cardioversion for hemodynamic compromise (I, B), B-blockade (I, B), amiodarone if no LQTS (I, C), urgent angiography if ischemia not excluded (I, C)\nCorrection of electrolyte abnormalities (specifically hypokalemia) may decrease progression to VF.\n[8]",
+          "tables": []
+        },
+        "Symptomatic_Patients": {
+          "text": "Beta blockers\nInitial therapy\nMay benefit patients with coexisiting cardiac conditions (CAD, CHF)\nVerapamil\n,\ndiltiazem\nSecond line therapies\nDo not use in patients with uncontrolled heart failure.\nAntiarrhythmic medications are generally reserved for patients that have failed beta blocker or calcium channel blocking who are NOT candidates for ablation procedures.  Expert consultation is advised.",
+          "tables": []
+        },
+        "Asymptomatic_patients": {
+          "text": "Do note require any specific therapy\nOptimize underlying cardiac comorbidities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        }
+      ]
+    },
+    "AHA_Guidelines": {
+      "text": "Nonsustained Repetitive Monomorphic VT: amiodarone, beta-blockade (if tolerated), procainamide (IIA, C)\nNonsustained Polymorphic VT: Cardioversion for hemodynamic compromise (I, B), B-blockade (I, B), amiodarone if no LQTS (I, C), urgent angiography if ischemia not excluded (I, C)\nCorrection of electrolyte abnormalities (specifically hypokalemia) may decrease progression to VF.\n[8]",
+      "subsections": {
+        "Symptomatic_Patients": {
+          "text": "Beta blockers\nInitial therapy\nMay benefit patients with coexisiting cardiac conditions (CAD, CHF)\nVerapamil\n,\ndiltiazem\nSecond line therapies\nDo not use in patients with uncontrolled heart failure.\nAntiarrhythmic medications are generally reserved for patients that have failed beta blocker or calcium channel blocking who are NOT candidates for ablation procedures.  Expert consultation is advised.",
+          "tables": []
+        },
+        "Asymptomatic_patients": {
+          "text": "Do note require any specific therapy\nOptimize underlying cardiac comorbidities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        }
+      ]
+    },
+    "Symptomatic_Patients": {
+      "text": "Beta blockers\nInitial therapy\nMay benefit patients with coexisiting cardiac conditions (CAD, CHF)\nVerapamil\n,\ndiltiazem\nSecond line therapies\nDo not use in patients with uncontrolled heart failure.\nAntiarrhythmic medications are generally reserved for patients that have failed beta blocker or calcium channel blocking who are NOT candidates for ablation procedures.  Expert consultation is advised.",
+      "subsections": {
+        "Asymptomatic_patients": {
+          "text": "Do note require any specific therapy\nOptimize underlying cardiac comorbidities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "Verapamil",
+          "url": "https://wikem.org/wiki/Verapamil"
+        },
+        {
+          "text": "diltiazem",
+          "url": "https://wikem.org/wiki/Diltiazem"
+        }
+      ]
+    },
+    "Asymptomatic_patients": {
+      "text": "Do note require any specific therapy\nOptimize underlying cardiac comorbidities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit:\nHigh-risk patients\nAge >45 years\nSymptomatic\nKnown structural heart disease\nConcerning family history",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tachyarrhymias\nWide Tachycardia\nVentricular Tachycardia\nPolymorphic ventricular tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachyarrhymias",
+          "url": "https://wikem.org/wiki/Tachyarrhymias"
+        },
+        {
+          "text": "Wide Tachycardia",
+          "url": "https://wikem.org/wiki/Wide_Tachycardia"
+        },
+        {
+          "text": "Ventricular Tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_Tachycardia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Differential Diagnosis of Nonsustained Ventricular Tachycardia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

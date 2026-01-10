@@ -1,0 +1,388 @@
+{
+  "drug_name": "Non-thumb_metacarpal_fracture_(neck)",
+  "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)",
+  "scraped_at": "2026-01-10T07:58:29.526747",
+  "sections": {
+    "Clinical_Features": {
+      "text": "TTP or ecchymosis on the palmar bony surface is highly suggestive of fracture\nLoss of the normal knuckle contour\nDue to dorsal angulation of fracture apex due to pull of the interosseous muscles",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Thumb fracture",
+          "url": "https://wikem.org/wiki/Thumb_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Examination": {
+      "text": "Hand xrays",
+      "subsections": {
+        "Hand_Examination": {
+          "text": "Assess angulation\n[1]\nHead-to-neck angle of the metacarpals is normally 15 degrees\nFracture angulation = measured angle minus 15 deg\nAngle toleration (below which there is no adverse functional outcome)\n2nd MC < 10 deg\n3rd MC < 20 deg\n4th MC < 30 deg\n5th MC < 30-40 deg\nAssess rotational alignment by looking for overlap of the 5th over the 4th digit (scissoring or psuedoscissoring)\nAssess extensor apparatus\nAssess skin integrity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand_Examination": {
+      "text": "Assess angulation\n[1]\nHead-to-neck angle of the metacarpals is normally 15 degrees\nFracture angulation = measured angle minus 15 deg\nAngle toleration (below which there is no adverse functional outcome)\n2nd MC < 10 deg\n3rd MC < 20 deg\n4th MC < 30 deg\n5th MC < 30-40 deg\nAssess rotational alignment by looking for overlap of the 5th over the 4th digit (scissoring or psuedoscissoring)\nAssess extensor apparatus\nAssess skin integrity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Acute_Reduction": {
+          "text": "Acute reduction indicated:\nPseudo-clawing\nSignificant angulation (>10-15 degrees of the 2nd through 4th fingers, 20-30 degrees of the 5th)\n[2]\nAny rotational misalignment\nReduction technique:\nPain control and/or\nHematoma block\nFlex MCP joint to 90 degrees then apply axial traction while placing pressure over metacarpal shaft\nRadial gutter splint\nif 2nd/3rd MCP fractures,\nUlnar gutter splint\nif 4th/5th. Immobilize with wrist extended 20-30 degrees and MCP flexed 90 degrees\nCan be difficult to reduce or maintain reduction. Early hand referral if not successful",
+          "tables": []
+        },
+        "Metacarpal_Fracture_(Post-Reduction)_Goals": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finger": "Index & Long Finger",
+                "Shaft Angulation (degrees)": "10-20",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "10-15",
+                "Rotational Deformity": "None"
+              },
+              {
+                "Finger": "Ring Finger",
+                "Shaft Angulation (degrees)": "30",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "30-40",
+                "Rotational Deformity": "None"
+              },
+              {
+                "Finger": "Little Finger",
+                "Shaft Angulation (degrees)": "40",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "50-60",
+                "Rotational Deformity": "None"
+              }
+            ]
+          ]
+        },
+        "Immobilization": {
+          "text": "Ulnar Gutter Splint\nor\nRadial Gutter Splint\nMCP joints in 70-90 deg flexion, wrist in 20-30 deg extension, PIP and DIP joints in 5-10 deg of flexion\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "Radial gutter splint",
+          "url": "https://wikem.org/wiki/Radial_gutter_splint"
+        },
+        {
+          "text": "Ulnar gutter splint",
+          "url": "https://wikem.org/wiki/Ulnar_gutter_splint"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Acute_Reduction": {
+          "text": "Acute reduction indicated:\nPseudo-clawing\nSignificant angulation (>10-15 degrees of the 2nd through 4th fingers, 20-30 degrees of the 5th)\n[2]\nAny rotational misalignment\nReduction technique:\nPain control and/or\nHematoma block\nFlex MCP joint to 90 degrees then apply axial traction while placing pressure over metacarpal shaft\nRadial gutter splint\nif 2nd/3rd MCP fractures,\nUlnar gutter splint\nif 4th/5th. Immobilize with wrist extended 20-30 degrees and MCP flexed 90 degrees\nCan be difficult to reduce or maintain reduction. Early hand referral if not successful",
+          "tables": []
+        },
+        "Metacarpal_Fracture_(Post-Reduction)_Goals": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finger": "Index & Long Finger",
+                "Shaft Angulation (degrees)": "10-20",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "10-15",
+                "Rotational Deformity": "None"
+              },
+              {
+                "Finger": "Ring Finger",
+                "Shaft Angulation (degrees)": "30",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "30-40",
+                "Rotational Deformity": "None"
+              },
+              {
+                "Finger": "Little Finger",
+                "Shaft Angulation (degrees)": "40",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "50-60",
+                "Rotational Deformity": "None"
+              }
+            ]
+          ]
+        },
+        "Immobilization": {
+          "text": "Ulnar Gutter Splint\nor\nRadial Gutter Splint\nMCP joints in 70-90 deg flexion, wrist in 20-30 deg extension, PIP and DIP joints in 5-10 deg of flexion\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "Radial gutter splint",
+          "url": "https://wikem.org/wiki/Radial_gutter_splint"
+        },
+        {
+          "text": "Ulnar gutter splint",
+          "url": "https://wikem.org/wiki/Ulnar_gutter_splint"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "Acute_Reduction": {
+      "text": "Acute reduction indicated:\nPseudo-clawing\nSignificant angulation (>10-15 degrees of the 2nd through 4th fingers, 20-30 degrees of the 5th)\n[2]\nAny rotational misalignment\nReduction technique:\nPain control and/or\nHematoma block\nFlex MCP joint to 90 degrees then apply axial traction while placing pressure over metacarpal shaft\nRadial gutter splint\nif 2nd/3rd MCP fractures,\nUlnar gutter splint\nif 4th/5th. Immobilize with wrist extended 20-30 degrees and MCP flexed 90 degrees\nCan be difficult to reduce or maintain reduction. Early hand referral if not successful",
+      "subsections": {
+        "Metacarpal_Fracture_(Post-Reduction)_Goals": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Finger": "Index & Long Finger",
+                "Shaft Angulation (degrees)": "10-20",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "10-15",
+                "Rotational Deformity": "None"
+              },
+              {
+                "Finger": "Ring Finger",
+                "Shaft Angulation (degrees)": "30",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "30-40",
+                "Rotational Deformity": "None"
+              },
+              {
+                "Finger": "Little Finger",
+                "Shaft Angulation (degrees)": "40",
+                "Shaft Shortening (mm)": "2-5",
+                "Neck Angulation (degrees)": "50-60",
+                "Rotational Deformity": "None"
+              }
+            ]
+          ]
+        },
+        "Immobilization": {
+          "text": "Ulnar Gutter Splint\nor\nRadial Gutter Splint\nMCP joints in 70-90 deg flexion, wrist in 20-30 deg extension, PIP and DIP joints in 5-10 deg of flexion\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hematoma block",
+          "url": "https://wikem.org/wiki/Hematoma_block"
+        },
+        {
+          "text": "Radial gutter splint",
+          "url": "https://wikem.org/wiki/Radial_gutter_splint"
+        },
+        {
+          "text": "Ulnar gutter splint",
+          "url": "https://wikem.org/wiki/Ulnar_gutter_splint"
+        },
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "Ulnar Gutter Splint\nor\nRadial Gutter Splint\nMCP joints in 70-90 deg flexion, wrist in 20-30 deg extension, PIP and DIP joints in 5-10 deg of flexion\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ulnar Gutter Splint",
+          "url": "https://wikem.org/wiki/Ulnar_Gutter_Splint"
+        },
+        {
+          "text": "Radial Gutter Splint",
+          "url": "https://wikem.org/wiki/Radial_Gutter_Splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {
+        "Refer_for": {
+          "text": "Comminution\nRotational malalignment\nUnsuccessful reduction if required\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Refer_for": {
+      "text": "Comminution\nRotational malalignment\nUnsuccessful reduction if required\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        }
+      ]
+    }
+  }
+}

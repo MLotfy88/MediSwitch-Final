@@ -1,0 +1,573 @@
+{
+  "drug_name": "Neutropenic_enterocolitis",
+  "url": "https://wikem.org/wiki/Neutropenic_enterocolitis",
+  "scraped_at": "2026-01-10T07:58:20.651466",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"typhlitis\"\nNecrosis of bowel wall secondary to polymicrobial invasion\nInvolves terminal ileum and colon\nMay progress to full-thickness infarction/perforation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Typically presents 10-14d after cytotoxic therapy\nFever\nRLQ pain\nNausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        },
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "Oncologic_Emergencies": {
+      "text": "",
+      "subsections": {
+        "Related_to_Local_Tumor_Effects": {
+          "text": "Malignant airway obstruction\nBone metastases and pathologic\nfractures\nMalignant spinal cord compression\nMalignant\nPericardial Effusion and Tamponade\nSuperior vena cava syndrome",
+          "tables": []
+        },
+        "Related_to_Biochemical_Derangement": {
+          "text": "Hypercalcemia of malignancy\nHyponatremia\ndue to\nSIADH\nAdrenal insufficiency\nTumor lysis syndrome\nCarcinoid syndrome",
+          "tables": []
+        },
+        "Related_to_Hematologic_Derangement": {
+          "text": "Neutropenic fever\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism",
+          "tables": []
+        },
+        "Related_to_Therapy": {
+          "text": "Chemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen\nOncologic therapy related adverse events",
+          "tables": []
+        },
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Malignant spinal cord compression",
+          "url": "https://wikem.org/wiki/Malignant_spinal_cord_compression"
+        },
+        {
+          "text": "Pericardial Effusion and Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_Effusion_and_Tamponade"
+        },
+        {
+          "text": "Superior vena cava syndrome",
+          "url": "https://wikem.org/wiki/Superior_vena_cava_syndrome"
+        },
+        {
+          "text": "Hypercalcemia of malignancy",
+          "url": "https://wikem.org/wiki/Hypercalcemia_of_malignancy"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "SIADH",
+          "url": "https://wikem.org/wiki/SIADH"
+        },
+        {
+          "text": "Adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Oncologic therapy related adverse events",
+          "url": "https://wikem.org/wiki/Oncologic_therapy_related_adverse_events"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "RLQ_Pain": {
+      "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC with\nneutropenia\n,\nthrombocytopenia\nBlood cultures positive in ~25-85%, frequently bowel organisms\nCT A/P: cecal distention, wall thickening, pneumatosis intestinalis, intestinal perforation, fat stranding\nAvoid endoscopic evaluation due to risk of perforation, hemorrhage, bacterial translocation, worsening sepsis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC with\nneutropenia\n,\nthrombocytopenia\nBlood cultures positive in ~25-85%, frequently bowel organisms\nCT A/P: cecal distention, wall thickening, pneumatosis intestinalis, intestinal perforation, fat stranding\nAvoid endoscopic evaluation due to risk of perforation, hemorrhage, bacterial translocation, worsening sepsis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Bowel rest\nNG tube\nto suction\nIVF\nTPN\nConsider G-CSF, particularly neutropenia < 100/ml and severe disease\n[3]\nBroad spectrum antimicrobials, in particular against gut microbiota to include\n[4]\n:\nMetronidazole\nplus\ncefepime\nPiperacillin-tazobactam\nAmphotericin B\nwhen patient remains febrile, neutropenic for greater than 5 days despite broad spectrum antibiotics\nSurgical consult (possible need for right hemicolectomy)\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Neutropenic fever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

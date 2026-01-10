@@ -1,0 +1,181 @@
+{
+  "drug_name": "Nitrous_oxide",
+  "url": "https://wikem.org/wiki/Nitrous_oxide",
+  "scraped_at": "2026-01-10T07:58:26.989889",
+  "sections": {
+    "Overview": {
+      "text": "For minimal\nsedation\nor anxiolysis\nIt may be used as an adjunct with local anesthetics for more painful procedures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Older than 4 years and/or weighing greater than 15 kg\nASA Class 1 or 2\nSole Nitrous Oxide use examples include:\nPeripheral or Central IV placement\nUrinary catheter insertion\nIntramuscular injections\nJoint aspiration\nor injection\nLumbar puncture\nLaceration repair\nAbscess\nincision and drainage\nNail removal\nWound packing or dressing change\nForeign body removal\nNitrous Oxide +\nopioid\nor\nbenzodiazepine\nexamples include (smaller dosages should be used initially and titrated PRN)\nLumbar puncture\nLaceration repair\nAbscess\nincision and drainage\nForeign body removal\nSimple or minimally displaced fracture reduction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Joint aspiration",
+          "url": "https://wikem.org/wiki/Joint_aspiration"
+        },
+        {
+          "text": "Laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "incision and drainage",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        },
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        },
+        {
+          "text": "benzodiazepine",
+          "url": "https://wikem.org/wiki/Benzodiazepine"
+        },
+        {
+          "text": "Lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        },
+        {
+          "text": "Laceration repair",
+          "url": "https://wikem.org/wiki/Laceration_repair"
+        },
+        {
+          "text": "incision and drainage",
+          "url": "https://wikem.org/wiki/Incision_and_drainage"
+        },
+        {
+          "text": "Foreign body removal",
+          "url": "https://wikem.org/wiki/Foreign_body_removal"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Nitrous accumulates in potential spaces and is potentially problematic when there are recent lung or ocular surgery.\nCaution should be used when combined with\nbenzodiazepines\nor other\nsedatives\nAge less than 4 years and/or weight less than 15 kg\nASA Class 3 or above\nClosed head injury, recent craniotomy,\naltered level of consciousness\nor suspicion of elevated intracranial pressure\nPenetrating\nglobe injury\nor recent eye surgery\nComplex upper respiratory infection (obstructive\nsinusitis\n, bullous\notitis media\n)\nMaxillofacial injuries\nAcute\nasthma\n, bullous emphysema or\npneumonia\nPneumothorax\nor\nchest trauma\nPulmonary hypertension\nCongenital heart disease\nBowel obstruction\nor ileus\nRecent\nSCUBA diving\n,\nbarotrauma\nor\ndecompression illness\nPregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "sedatives",
+          "url": "https://wikem.org/wiki/Sedatives"
+        },
+        {
+          "text": "altered level of consciousness",
+          "url": "https://wikem.org/wiki/Altered_level_of_consciousness"
+        },
+        {
+          "text": "globe injury",
+          "url": "https://wikem.org/wiki/Globe_injury"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Maxillofacial injuries",
+          "url": "https://wikem.org/wiki/Maxillofacial_injuries"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "chest trauma",
+          "url": "https://wikem.org/wiki/Chest_trauma"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_obstruction"
+        },
+        {
+          "text": "SCUBA diving",
+          "url": "https://wikem.org/wiki/SCUBA_diving"
+        },
+        {
+          "text": "barotrauma",
+          "url": "https://wikem.org/wiki/Barotrauma"
+        },
+        {
+          "text": "decompression illness",
+          "url": "https://wikem.org/wiki/Decompression_illness"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Pre-sedation establishment of an IV is not required\nGeneral monitoring procedures shall be followed\nNitrous oxide administration should be limited to 30 minutes\nAdminister 100%\noxygen\nfor 2-5 minutes after discontinuing nitrous oxide or if nitrous oxide / oxygen administration is interrupted for > 30 seconds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "oxygen",
+          "url": "https://wikem.org/wiki/Oxygen"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "See\nNitrous oxide toxicity\nAsphyxia\n, if oxygen is not given with the gas\nHeadache\nDizziness\nConfusion\nSyncope\nSeizures\nChronic toxicity results from B12 inactivation\nMegaloblastic anemia\nThrombocytopenia\nPeripheral neuropathy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitrous oxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        },
+        {
+          "text": "Asphyxia",
+          "url": "https://wikem.org/wiki/Asphyxia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Nitrous oxide toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitrous oxide toxicity",
+          "url": "https://wikem.org/wiki/Nitrous_oxide_toxicity"
+        }
+      ]
+    }
+  }
+}

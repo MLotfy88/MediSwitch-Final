@@ -1,0 +1,957 @@
+{
+  "drug_name": "Nonaccidental_trauma",
+  "url": "https://wikem.org/wiki/Nonaccidental_trauma",
+  "scraped_at": "2026-01-10T07:58:29.096609",
+  "sections": {
+    "Background": {
+      "text": "Newer term that encompasses child abuse\nInfant and children with disabilities are at higher risk\nIn >80% of cases, the parent or primary guardian is the abuser\nReport suspicion\nTransparent, frank discussion with caregivers\nSocial work or child protection agency involvement\nProtect the child first, admit if suspicious\nSocial work may follow-up as outpatient for very low risk cases",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Domestic violence\nMaternal\ndepression\nDrug\nand\nalcohol abuse\nPremature birth\nChildren with disabilities or children who require significant medical care\nUnrealistic expectations for the child",
+          "tables": []
+        },
+        "Red_flags": {
+          "text": "History given is inconsistent with the mechanism of injury\nChanges in caregivers report\nSignificant delays in care\nAny injury to a young, pre-ambulatory infant\nInjuries to multiple organ systems\nInjuries in different stages of healing;\nPatterned injuries\nInjuries to non-bony or other unusual locations, (torso, ears, face, neck, or upper arms)\nSignificant injuries that are unexplained\nOther evidence of child neglect.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Domestic violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Drug",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "alcohol abuse",
+          "url": "https://wikem.org/wiki/Alcohol_Abuse"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Domestic violence\nMaternal\ndepression\nDrug\nand\nalcohol abuse\nPremature birth\nChildren with disabilities or children who require significant medical care\nUnrealistic expectations for the child",
+      "subsections": {
+        "Red_flags": {
+          "text": "History given is inconsistent with the mechanism of injury\nChanges in caregivers report\nSignificant delays in care\nAny injury to a young, pre-ambulatory infant\nInjuries to multiple organ systems\nInjuries in different stages of healing;\nPatterned injuries\nInjuries to non-bony or other unusual locations, (torso, ears, face, neck, or upper arms)\nSignificant injuries that are unexplained\nOther evidence of child neglect.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Domestic violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Drug",
+          "url": "https://wikem.org/wiki/Substance_abuse"
+        },
+        {
+          "text": "alcohol abuse",
+          "url": "https://wikem.org/wiki/Alcohol_Abuse"
+        }
+      ]
+    },
+    "Red_flags": {
+      "text": "History given is inconsistent with the mechanism of injury\nChanges in caregivers report\nSignificant delays in care\nAny injury to a young, pre-ambulatory infant\nInjuries to multiple organ systems\nInjuries in different stages of healing;\nPatterned injuries\nInjuries to non-bony or other unusual locations, (torso, ears, face, neck, or upper arms)\nSignificant injuries that are unexplained\nOther evidence of child neglect.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Bruises": {
+          "text": "Bruises, ecchymosis, and soft-tissue injuries on the face, cheeks, buttocks, ears, torso, neck if the child is not cruising yet\nBruises in clusters or patterned marks\nBruising of any child less than or equal to 6 months of age (or non-ambulatory) warrants a full child abuse work-up",
+          "tables": []
+        },
+        "Oral_injuries": {
+          "text": "Torn frenulum in premobile children is highly associated with physical abuse\nOther reported oral injuries include laceration/bruising to the\nlips\n, mucosal lacerations,\ndental trauma\n,\ntongue injuries\n, and gingival lesions",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Most commonly immersion injuries of the extremities, buttocks, or perineum\nMore likely symmetrical with clear upper margins\nMany will also have occult fractures; children <24mo should undergo a skeletal survey",
+          "tables": []
+        },
+        "Fractures": {
+          "text": "Fractures\nhighly suspicious of abuse:\nRib fracture\n, especially posterior\nMetaphyseal or\nCorner Fracture (Bucket Handle)\nScapula fracture\nSpinous process fractures\nSternum fracture\nFracture not consistent with developmental stage (any fracture in non-ambulatory child)\nFractures moderately suspicious of abuse:\nLong-bone transverse or spiral fracture of the diaphysis of the\nfemur\n,\nhumerus\n,\ntibia\nMultiple bilateral fractures\nDifferent stages of healing with multiple fractures\nEpiphyseal separations\nVertebral body separation\nComplex\nskull fractures\n(i.e. depressed or cross suture lines)\nPelvic fractures",
+          "tables": []
+        },
+        "Head_Trauma": {
+          "text": "Leading cause of death in abused children <2 years old\nShaken baby syndrome\n-\nRetinal hemorrhages\nPresent in up to 75% of cases and are virtually pathognomonic\nDescribed as “dot and blot” hemorrhages or flame or splinter hemorrhages",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+          "tables": []
+        },
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lips",
+          "url": "https://wikem.org/wiki/Lip_Laceration"
+        },
+        {
+          "text": "dental trauma",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "tongue injuries",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "femur",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "humerus",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "tibia",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "skull fractures",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Bruises": {
+      "text": "Bruises, ecchymosis, and soft-tissue injuries on the face, cheeks, buttocks, ears, torso, neck if the child is not cruising yet\nBruises in clusters or patterned marks\nBruising of any child less than or equal to 6 months of age (or non-ambulatory) warrants a full child abuse work-up",
+      "subsections": {
+        "Oral_injuries": {
+          "text": "Torn frenulum in premobile children is highly associated with physical abuse\nOther reported oral injuries include laceration/bruising to the\nlips\n, mucosal lacerations,\ndental trauma\n,\ntongue injuries\n, and gingival lesions",
+          "tables": []
+        },
+        "Burns": {
+          "text": "Most commonly immersion injuries of the extremities, buttocks, or perineum\nMore likely symmetrical with clear upper margins\nMany will also have occult fractures; children <24mo should undergo a skeletal survey",
+          "tables": []
+        },
+        "Fractures": {
+          "text": "Fractures\nhighly suspicious of abuse:\nRib fracture\n, especially posterior\nMetaphyseal or\nCorner Fracture (Bucket Handle)\nScapula fracture\nSpinous process fractures\nSternum fracture\nFracture not consistent with developmental stage (any fracture in non-ambulatory child)\nFractures moderately suspicious of abuse:\nLong-bone transverse or spiral fracture of the diaphysis of the\nfemur\n,\nhumerus\n,\ntibia\nMultiple bilateral fractures\nDifferent stages of healing with multiple fractures\nEpiphyseal separations\nVertebral body separation\nComplex\nskull fractures\n(i.e. depressed or cross suture lines)\nPelvic fractures",
+          "tables": []
+        },
+        "Head_Trauma": {
+          "text": "Leading cause of death in abused children <2 years old\nShaken baby syndrome\n-\nRetinal hemorrhages\nPresent in up to 75% of cases and are virtually pathognomonic\nDescribed as “dot and blot” hemorrhages or flame or splinter hemorrhages",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+          "tables": []
+        },
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lips",
+          "url": "https://wikem.org/wiki/Lip_Laceration"
+        },
+        {
+          "text": "dental trauma",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "tongue injuries",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "femur",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "humerus",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "tibia",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "skull fractures",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Oral_injuries": {
+      "text": "Torn frenulum in premobile children is highly associated with physical abuse\nOther reported oral injuries include laceration/bruising to the\nlips\n, mucosal lacerations,\ndental trauma\n,\ntongue injuries\n, and gingival lesions",
+      "subsections": {
+        "Burns": {
+          "text": "Most commonly immersion injuries of the extremities, buttocks, or perineum\nMore likely symmetrical with clear upper margins\nMany will also have occult fractures; children <24mo should undergo a skeletal survey",
+          "tables": []
+        },
+        "Fractures": {
+          "text": "Fractures\nhighly suspicious of abuse:\nRib fracture\n, especially posterior\nMetaphyseal or\nCorner Fracture (Bucket Handle)\nScapula fracture\nSpinous process fractures\nSternum fracture\nFracture not consistent with developmental stage (any fracture in non-ambulatory child)\nFractures moderately suspicious of abuse:\nLong-bone transverse or spiral fracture of the diaphysis of the\nfemur\n,\nhumerus\n,\ntibia\nMultiple bilateral fractures\nDifferent stages of healing with multiple fractures\nEpiphyseal separations\nVertebral body separation\nComplex\nskull fractures\n(i.e. depressed or cross suture lines)\nPelvic fractures",
+          "tables": []
+        },
+        "Head_Trauma": {
+          "text": "Leading cause of death in abused children <2 years old\nShaken baby syndrome\n-\nRetinal hemorrhages\nPresent in up to 75% of cases and are virtually pathognomonic\nDescribed as “dot and blot” hemorrhages or flame or splinter hemorrhages",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+          "tables": []
+        },
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "lips",
+          "url": "https://wikem.org/wiki/Lip_Laceration"
+        },
+        {
+          "text": "dental trauma",
+          "url": "https://wikem.org/wiki/Dental_fracture"
+        },
+        {
+          "text": "tongue injuries",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "femur",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "humerus",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "tibia",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "skull fractures",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Burns": {
+      "text": "Most commonly immersion injuries of the extremities, buttocks, or perineum\nMore likely symmetrical with clear upper margins\nMany will also have occult fractures; children <24mo should undergo a skeletal survey",
+      "subsections": {
+        "Fractures": {
+          "text": "Fractures\nhighly suspicious of abuse:\nRib fracture\n, especially posterior\nMetaphyseal or\nCorner Fracture (Bucket Handle)\nScapula fracture\nSpinous process fractures\nSternum fracture\nFracture not consistent with developmental stage (any fracture in non-ambulatory child)\nFractures moderately suspicious of abuse:\nLong-bone transverse or spiral fracture of the diaphysis of the\nfemur\n,\nhumerus\n,\ntibia\nMultiple bilateral fractures\nDifferent stages of healing with multiple fractures\nEpiphyseal separations\nVertebral body separation\nComplex\nskull fractures\n(i.e. depressed or cross suture lines)\nPelvic fractures",
+          "tables": []
+        },
+        "Head_Trauma": {
+          "text": "Leading cause of death in abused children <2 years old\nShaken baby syndrome\n-\nRetinal hemorrhages\nPresent in up to 75% of cases and are virtually pathognomonic\nDescribed as “dot and blot” hemorrhages or flame or splinter hemorrhages",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+          "tables": []
+        },
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "femur",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "humerus",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "tibia",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "skull fractures",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Fractures": {
+      "text": "Fractures\nhighly suspicious of abuse:\nRib fracture\n, especially posterior\nMetaphyseal or\nCorner Fracture (Bucket Handle)\nScapula fracture\nSpinous process fractures\nSternum fracture\nFracture not consistent with developmental stage (any fracture in non-ambulatory child)\nFractures moderately suspicious of abuse:\nLong-bone transverse or spiral fracture of the diaphysis of the\nfemur\n,\nhumerus\n,\ntibia\nMultiple bilateral fractures\nDifferent stages of healing with multiple fractures\nEpiphyseal separations\nVertebral body separation\nComplex\nskull fractures\n(i.e. depressed or cross suture lines)\nPelvic fractures",
+      "subsections": {
+        "Head_Trauma": {
+          "text": "Leading cause of death in abused children <2 years old\nShaken baby syndrome\n-\nRetinal hemorrhages\nPresent in up to 75% of cases and are virtually pathognomonic\nDescribed as “dot and blot” hemorrhages or flame or splinter hemorrhages",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+          "tables": []
+        },
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "femur",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "humerus",
+          "url": "https://wikem.org/wiki/Humerus_fracture_(peds)"
+        },
+        {
+          "text": "tibia",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        },
+        {
+          "text": "skull fractures",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Head_Trauma": {
+      "text": "Leading cause of death in abused children <2 years old\nShaken baby syndrome\n-\nRetinal hemorrhages\nPresent in up to 75% of cases and are virtually pathognomonic\nDescribed as “dot and blot” hemorrhages or flame or splinter hemorrhages",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+          "tables": []
+        },
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Shaken baby syndrome",
+          "url": "https://wikem.org/wiki/Shaken_baby_syndrome"
+        },
+        {
+          "text": "Retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Most from a direct blow or from being thrown\nAny abrasion or bruise on the abdominal area should prompt an evaluation for possible trauma\nConsider abuse in preschool aged children with any hollow viscus or pancreatic injury",
+      "subsections": {
+        "Sexual_Trauma": {
+          "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sexual_Trauma": {
+      "text": "Even among children who report vaginal or anal penetration, the rate of abnormal physical examination findings is only 5 to 15%\nConsult your local sexual assault response team or transfer to an appropriate facility as indicated.\nFemales\nPreferred positioning for adequate examination: child lying supine with her hips externally rotated and knees flexed (frog-leg) or the prone knee-chest position.\nExamine hymen for lacerations, transections, and bruising.\nPrepubertal females do not require a speculum exam unless there is active bleeding.\nVaginal discharge in a prepubertal female should prompt testing for sexually transmitted infections.\nThe diameter of the hymenal orifice is not a marker for whether or not vaginal penetration occurred.\nMales\nExamine for lacerations, burns, bite marks, and bruises to the genital region. Penile and anal injuries are more common than scrotal injuries.\nSwab any anal or penile discharge for sexually transmitted infections.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Bruising\nMongolian spots (congenital dermal melanosis)\nBleeding disorders\nHemangiomas\nPhytophotodermatitis\nMalignancy\nConnective tissue disease\nCultural healing practices (eg, coining and cupping)\nOsteogenesis imperfecta\nVasculitis\n(\nHenoch-Schönlein purpura\n)\nInk stains (e.g. caused by new clothing)\nBurns\nHypersensitivity reaction\nFriction blisters\nImpetigo\n(may be confused with cigarette burns)\nPhytophotodermatitis\nDermatitis herpetiformis\nAccidental\nlaxative\ningestion\nHealing practices (eg, coining, cupping, and moxibustion)\nFractures\nRickets\nCongenital\nsyphilis\n(can cause periosteal elevation)\nBirth trauma\nCPR\n(rarely causes rib fractures and very rarely causes posterior rib fractures)\nOsteogenesis imperfecta\nCaffey disease\nOsteomyelitis\nSubdural hematoma\nBleeding disorders\nVascular malformations\nGlutaric aciduria type 153\nBenign extra-axial fluid\nMenkes disease\nRetinal hemorrhage\nVasculitis\nVascular obstruction\nVaginal delivery (generally disappear by 4 weeks of age)\nCPR (retinal hemorrhages are rare after chest compressions and, if present, are usually in the presence of other risk factors for hemorrhage)",
+      "subsections": {
+        "Crying_Infant": {
+          "text": "Occult infection\nSepsis\nMeningitis\nUTI\nOtitis media\nPneumonia\nGI\nIntussusception\nGERD\nIncarcerated\nhernia\nMilk protein intolerance\nAnal fissure\nOphtho\nCorneal abrasion\nOccult trauma\nHair tourniquet\n(on extremities, penis)\nNon-accidental trauma\nDiaper pin\nInsect bites\nBurns\nin mouth\nMisc\nColic\nScorpion envenomation\nSVT\nTesticular torsion\nDrug exposure/\noverdose\n(commonly\nmethamphetamine\nor\ncocaine\n)\nNeonatal abstinence syndrome\n, drug withdrawal",
+          "tables": []
+        },
+        "Psychosocial_and_Related": {
+          "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bleeding disorders",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Connective tissue disease",
+          "url": "https://wikem.org/wiki/Connective_tissue_disease"
+        },
+        {
+          "text": "Osteogenesis imperfecta",
+          "url": "https://wikem.org/wiki/Osteogenesis_imperfecta"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Henoch-Schönlein purpura",
+          "url": "https://wikem.org/wiki/Henoch-Sch%C3%B6nlein_purpura"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Impetigo",
+          "url": "https://wikem.org/wiki/Impetigo"
+        },
+        {
+          "text": "Phytophotodermatitis",
+          "url": "https://wikem.org/wiki/Phytophotodermatitis"
+        },
+        {
+          "text": "Dermatitis herpetiformis",
+          "url": "https://wikem.org/wiki/Dermatitis_herpetiformis"
+        },
+        {
+          "text": "laxative",
+          "url": "https://wikem.org/wiki/Laxative"
+        },
+        {
+          "text": "Fractures",
+          "url": "https://wikem.org/wiki/Fractures_and_dislocations_(peds)"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Osteogenesis imperfecta",
+          "url": "https://wikem.org/wiki/Osteogenesis_imperfecta"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "Bleeding disorders",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Retinal hemorrhage",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI_(peds)"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Hair tourniquet",
+          "url": "https://wikem.org/wiki/Hair_tourniquet"
+        },
+        {
+          "text": "Non-accidental trauma",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "overdose",
+          "url": "https://wikem.org/wiki/Overdose"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Crying_Infant": {
+      "text": "Occult infection\nSepsis\nMeningitis\nUTI\nOtitis media\nPneumonia\nGI\nIntussusception\nGERD\nIncarcerated\nhernia\nMilk protein intolerance\nAnal fissure\nOphtho\nCorneal abrasion\nOccult trauma\nHair tourniquet\n(on extremities, penis)\nNon-accidental trauma\nDiaper pin\nInsect bites\nBurns\nin mouth\nMisc\nColic\nScorpion envenomation\nSVT\nTesticular torsion\nDrug exposure/\noverdose\n(commonly\nmethamphetamine\nor\ncocaine\n)\nNeonatal abstinence syndrome\n, drug withdrawal",
+      "subsections": {
+        "Psychosocial_and_Related": {
+          "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI_(peds)"
+        },
+        {
+          "text": "Otitis media",
+          "url": "https://wikem.org/wiki/Otitis_media"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Intussusception",
+          "url": "https://wikem.org/wiki/Intussusception"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Hair tourniquet",
+          "url": "https://wikem.org/wiki/Hair_tourniquet"
+        },
+        {
+          "text": "Non-accidental trauma",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "Colic",
+          "url": "https://wikem.org/wiki/Colic"
+        },
+        {
+          "text": "Scorpion envenomation",
+          "url": "https://wikem.org/wiki/Scorpion_envenomation"
+        },
+        {
+          "text": "SVT",
+          "url": "https://wikem.org/wiki/SVT"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "overdose",
+          "url": "https://wikem.org/wiki/Overdose"
+        },
+        {
+          "text": "methamphetamine",
+          "url": "https://wikem.org/wiki/Methamphetamine"
+        },
+        {
+          "text": "cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Psychosocial_and_Related": {
+      "text": "Drugs of abuse\nElder abuse\nHuman trafficking\nHomelessness\nInterpersonal Violence\nMandatory reporting\nNonaccidental trauma\nSexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Elder abuse",
+          "url": "https://wikem.org/wiki/Elder_abuse"
+        },
+        {
+          "text": "Human trafficking",
+          "url": "https://wikem.org/wiki/Human_trafficking"
+        },
+        {
+          "text": "Interpersonal Violence",
+          "url": "https://wikem.org/wiki/Interpersonal_Violence"
+        },
+        {
+          "text": "Mandatory reporting",
+          "url": "https://wikem.org/wiki/Mandatory_reporting"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Skeletal survey for all children < 2 years of age, non-verbal, or severe developmental delay. Note: Follow-up skeletal survey should be performed within 10 to 14 days\nSkull AP and lateral view (left and right)\nChest\nAP and lateral view\nRight and left oblique of the chest\nAP of the\nabdomen\nto include pelvis and hips\nAP and lateral spine to include cervical, thoracic, and lumbar vertebrae\nAP bilateral humerus\nAP bilateral forearms\nAP bilateral femurs\nAP bilateral tibia and fibula\nPosterior view of the hands\nDorsoplantar view of the feet\nHead CT\nwithout contrast for any child < 1 year with suspicion of abuse or >1 year with concerning signs of head trauma\nTrauma labs: CBC, CMP, PT, PTT, lipase, and urinalysis (looking for blood; use bag specimen). Consider urine tox screen\nConsider CPK and platelet function studies if extensive bruising is present\nIf trauma labs are abnormal (AST or ALT > 80, lipase > 100), obtain a CT of abdomen/pelvis with IV contrast\nConsider a dilated\nfundoscopic exam\nif under 2 years\nPhotograph injuries\nObtain a social work consult",
+      "subsections": {
+        "Inpatient_Workup": {
+          "text": "Ophtho consult for\nretinal hemorrhages\nCBC\nCMP, Mg, phos\nPT/INR/aPTT, fibrinogen\nPTH, iCa, 25-hydroxy-Vit D, 1,25-dihydroxy-Vit D\nvW panel (vW AT, ristocetin cofactors, factor VIII)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "abdomen",
+          "url": "https://wikem.org/wiki/KUB"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "fundoscopic exam",
+          "url": "https://wikem.org/wiki/Fundoscopic_exam"
+        },
+        {
+          "text": "retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Inpatient_Workup": {
+      "text": "Ophtho consult for\nretinal hemorrhages\nCBC\nCMP, Mg, phos\nPT/INR/aPTT, fibrinogen\nPTH, iCa, 25-hydroxy-Vit D, 1,25-dihydroxy-Vit D\nvW panel (vW AT, ristocetin cofactors, factor VIII)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "retinal hemorrhages",
+          "url": "https://wikem.org/wiki/Retinal_hemorrhage"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat injuries as indicated\nKeep alleged perpetrator separate from the patient if possible and/or keep patient supervised at all times\nReport abuse to the appropriate state child protection authority",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit for medical treatment or if any question of child's safety",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Trauma (peds)\nAbusive head trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma (peds)",
+          "url": "https://wikem.org/wiki/Trauma_(peds)"
+        },
+        {
+          "text": "Abusive head trauma",
+          "url": "https://wikem.org/wiki/Abusive_head_trauma"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook -- Vomiting in the Young Child: Nothing or Nightmare\nhttps://www.childhelp.org/wp-content/uploads/2019/02/CPS-Phone-Numbers-2.1.19.pdf\nPediatric EM Morsels: Abuse",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

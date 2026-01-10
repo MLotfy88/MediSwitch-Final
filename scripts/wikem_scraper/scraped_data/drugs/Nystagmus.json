@@ -1,0 +1,496 @@
+{
+  "drug_name": "Nystagmus",
+  "url": "https://wikem.org/wiki/Nystagmus",
+  "scraped_at": "2026-01-10T07:58:35.157833",
+  "sections": {
+    "Background": {
+      "text": "Nystagmus = involuntary eye movement\nThe semicircular canals of the vestibules and the extraocular muscles of the eye function together physiologically to help control gaze when the head is in motion\nNystagmus is an aberration in this stabilization of the ocular muscles when the head is in motion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Rapid, uncontrolled, rhythmic oscillation of the eye\nMay be horizontal, vertical, and/or rotary",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Congenital_Nystagmus": {
+          "text": "Optic nerve hypoplasia\nMacular disease\nNoonan syndrome",
+          "tables": []
+        },
+        "Acquired_Nystagmus": {
+          "text": "Head trauma\n,\ntympanic membrane rupture\nBrain tumor\nStroke\nChiari malformation\nMeniere's disease\n,\nBPPV\n,\nlabyrinthitis\n,\nVestibular Neuritis\nMultiple sclerosis\nWernicke-Korsakoff syndrome\n,\nthiamine deficiency\nTox causes:\nAlcohol intoxication\n,\nbenzodiazepines\n,\nbarbiturates\n,\nGHB\nKetamine\n,\nPhencyclidine\nAmphetamines\n,\nMDMA\nMarijuana\nLithium\nPhenytoin\n,\nfosphenytoin\n,\ncarbamazepine\n,\noxcarbazepine\n,\nlacosamide\n,\ngabapentin\nSalicylates\n,\nNSAID toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noonan syndrome",
+          "url": "https://wikem.org/wiki/Eponyms_(M-P)#Noonan's_syndrome"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "BPPV",
+          "url": "https://wikem.org/wiki/BPPV"
+        },
+        {
+          "text": "labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular Neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_Neuritis"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "GHB",
+          "url": "https://wikem.org/wiki/GHB"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "MDMA",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)_toxicity"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "oxcarbazepine",
+          "url": "https://wikem.org/wiki/Oxcarbazepine"
+        },
+        {
+          "text": "lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    },
+    "Congenital_Nystagmus": {
+      "text": "Optic nerve hypoplasia\nMacular disease\nNoonan syndrome",
+      "subsections": {
+        "Acquired_Nystagmus": {
+          "text": "Head trauma\n,\ntympanic membrane rupture\nBrain tumor\nStroke\nChiari malformation\nMeniere's disease\n,\nBPPV\n,\nlabyrinthitis\n,\nVestibular Neuritis\nMultiple sclerosis\nWernicke-Korsakoff syndrome\n,\nthiamine deficiency\nTox causes:\nAlcohol intoxication\n,\nbenzodiazepines\n,\nbarbiturates\n,\nGHB\nKetamine\n,\nPhencyclidine\nAmphetamines\n,\nMDMA\nMarijuana\nLithium\nPhenytoin\n,\nfosphenytoin\n,\ncarbamazepine\n,\noxcarbazepine\n,\nlacosamide\n,\ngabapentin\nSalicylates\n,\nNSAID toxicity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Noonan syndrome",
+          "url": "https://wikem.org/wiki/Eponyms_(M-P)#Noonan's_syndrome"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "BPPV",
+          "url": "https://wikem.org/wiki/BPPV"
+        },
+        {
+          "text": "labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular Neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_Neuritis"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "GHB",
+          "url": "https://wikem.org/wiki/GHB"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "MDMA",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)_toxicity"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "oxcarbazepine",
+          "url": "https://wikem.org/wiki/Oxcarbazepine"
+        },
+        {
+          "text": "lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    },
+    "Acquired_Nystagmus": {
+      "text": "Head trauma\n,\ntympanic membrane rupture\nBrain tumor\nStroke\nChiari malformation\nMeniere's disease\n,\nBPPV\n,\nlabyrinthitis\n,\nVestibular Neuritis\nMultiple sclerosis\nWernicke-Korsakoff syndrome\n,\nthiamine deficiency\nTox causes:\nAlcohol intoxication\n,\nbenzodiazepines\n,\nbarbiturates\n,\nGHB\nKetamine\n,\nPhencyclidine\nAmphetamines\n,\nMDMA\nMarijuana\nLithium\nPhenytoin\n,\nfosphenytoin\n,\ncarbamazepine\n,\noxcarbazepine\n,\nlacosamide\n,\ngabapentin\nSalicylates\n,\nNSAID toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "tympanic membrane rupture",
+          "url": "https://wikem.org/wiki/Tympanic_membrane_rupture"
+        },
+        {
+          "text": "Brain tumor",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Meniere's disease",
+          "url": "https://wikem.org/wiki/Meniere%27s_disease"
+        },
+        {
+          "text": "BPPV",
+          "url": "https://wikem.org/wiki/BPPV"
+        },
+        {
+          "text": "labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Vestibular Neuritis",
+          "url": "https://wikem.org/wiki/Vestibular_Neuritis"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "thiamine deficiency",
+          "url": "https://wikem.org/wiki/Thiamine_deficiency"
+        },
+        {
+          "text": "Alcohol intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_intoxication"
+        },
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturates"
+        },
+        {
+          "text": "GHB",
+          "url": "https://wikem.org/wiki/GHB"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Phencyclidine",
+          "url": "https://wikem.org/wiki/Phencyclidine"
+        },
+        {
+          "text": "Amphetamines",
+          "url": "https://wikem.org/wiki/Amphetamines"
+        },
+        {
+          "text": "MDMA",
+          "url": "https://wikem.org/wiki/Ecstasy_(MDMA)_toxicity"
+        },
+        {
+          "text": "Marijuana",
+          "url": "https://wikem.org/wiki/Marijuana"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine"
+        },
+        {
+          "text": "oxcarbazepine",
+          "url": "https://wikem.org/wiki/Oxcarbazepine"
+        },
+        {
+          "text": "lacosamide",
+          "url": "https://wikem.org/wiki/Lacosamide"
+        },
+        {
+          "text": "gabapentin",
+          "url": "https://wikem.org/wiki/Gabapentin"
+        },
+        {
+          "text": "Salicylates",
+          "url": "https://wikem.org/wiki/Salicylates"
+        },
+        {
+          "text": "NSAID toxicity",
+          "url": "https://wikem.org/wiki/NSAID_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Differentiate monocular vs. binocular\nMonocular suggests medial pontine stroke or medial longitudinal fasciculus damage\nLook for contralateral\ninternuclear opthalmoplegia\n(INO)\nDifferentiate between central versus peripheral lesions\n[1]",
+      "subsections": {
+        "Optokinetic_Drum_Test": {
+          "text": "Optokinetic reflex develops ~6 months of age\nSlow pursuit of eyes towards direction of vertical bar movement with quick saccade towards the opposite side to find the next bar to fixate on\nAbnormal in congenital nystagmus\nIn parietal or parietal-occipital lesions, optokinetic nystagmus is impaired when the drum is rotated towards side of lesion\nSee\nOKN drum to the right\nSee\nOKN drum to the left",
+          "tables": []
+        },
+        "\"H_in_space\"_Test": {
+          "text": "Trace H in space",
+          "tables": []
+        },
+        "Caloric_Reflex_Test_(also_known_as_Vestibular_Caloric_Stimulation)": {
+          "text": "The best clinical test for the Vestibulo-Optic reflex\nWater irrigated into the external auditory canal will exaggerate nystagmus if present\nTemperature of the irrigated water will control the direction.\nCold water will exaggerate a nystagmus to move contralaterally\nWarm water will exaggerate a nystagmus to move ipsilaterally\nCOWS\n:\nC\nold\nO\npposite,\nW\narm\nS\name.",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Central": "Pure vertical, pendular, or rotary",
+            "Peripheral": "Horizontal"
+          },
+          {
+            "Central": "Fast beat towards lesions",
+            "Peripheral": "Fast beat away from lesion"
+          },
+          {
+            "Central": "Not relieved by gaze fixation",
+            "Peripheral": "Relieved by gaze fixation"
+          },
+          {
+            "Central": "Cerebellar signs",
+            "Peripheral": "No cerebellar signs"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "internuclear opthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_opthalmoplegia"
+        }
+      ]
+    },
+    "Optokinetic_Drum_Test": {
+      "text": "Optokinetic reflex develops ~6 months of age\nSlow pursuit of eyes towards direction of vertical bar movement with quick saccade towards the opposite side to find the next bar to fixate on\nAbnormal in congenital nystagmus\nIn parietal or parietal-occipital lesions, optokinetic nystagmus is impaired when the drum is rotated towards side of lesion\nSee\nOKN drum to the right\nSee\nOKN drum to the left",
+      "subsections": {
+        "\"H_in_space\"_Test": {
+          "text": "Trace H in space",
+          "tables": []
+        },
+        "Caloric_Reflex_Test_(also_known_as_Vestibular_Caloric_Stimulation)": {
+          "text": "The best clinical test for the Vestibulo-Optic reflex\nWater irrigated into the external auditory canal will exaggerate nystagmus if present\nTemperature of the irrigated water will control the direction.\nCold water will exaggerate a nystagmus to move contralaterally\nWarm water will exaggerate a nystagmus to move ipsilaterally\nCOWS\n:\nC\nold\nO\npposite,\nW\narm\nS\name.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "\"H_in_space\"_Test": {
+      "text": "Trace H in space",
+      "subsections": {
+        "Caloric_Reflex_Test_(also_known_as_Vestibular_Caloric_Stimulation)": {
+          "text": "The best clinical test for the Vestibulo-Optic reflex\nWater irrigated into the external auditory canal will exaggerate nystagmus if present\nTemperature of the irrigated water will control the direction.\nCold water will exaggerate a nystagmus to move contralaterally\nWarm water will exaggerate a nystagmus to move ipsilaterally\nCOWS\n:\nC\nold\nO\npposite,\nW\narm\nS\name.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stabilize patient and manage primary cause of illness.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Focal neurologic deficits",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Focal neurologic deficits",
+          "url": "https://wikem.org/wiki/Focal_neurologic_deficits"
+        }
+      ]
+    }
+  }
+}

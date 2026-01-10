@@ -1,0 +1,357 @@
+{
+  "drug_name": "Nickel_toxicity",
+  "url": "https://wikem.org/wiki/Nickel_toxicity",
+  "scraped_at": "2026-01-10T07:58:21.933739",
+  "sections": {
+    "Background": {
+      "text": "Nickel is a white, lustrous metal\nHas extensive industrial and occupational uses, especially in the production of metal alloys\nElemental nickel, as well as nickel oxide and sulfate compound exposures, are common during the incineration, smelting, and refining of metal ores\nNickel carbonyl exposures occur during nickel refining and petroleum processing.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Distinction should be made between non-carbonyl nickel and nickel carbonyl, Ni(CO)\n4\n, exposures",
+      "subsections": {
+        "Non-carbonyl_nickel": {
+          "text": "Most commonly presents with contact dermatitis\nNickel is not antigenic but acts as a hapten by binding to larger proteins, inducing conformational changes and resulting in non-self antigen recognition (type IV delayed hypersensivity immune reaction)\nWidespread allergic dermatitis (non-contact) may occur when non-carbonyl nickel is ingested or inhaled\nSevere exposures may result in interstitial lung disease and acute tubular necrosis",
+          "tables": []
+        },
+        "Nickel_carbonyl": {
+          "text": "Most toxic form of nickel\nCommonly described as having a musty or sooty odor\nDoes not cause carbon monoxide toxicity despite the\nin vivo\nliberation of CO\nSymptoms may be rapid or delayed; however, most serious toxicities occur within 2 days of exposure\nShortness of breath, headache, dizziness, and vague symptoms are generally first reported, these may progress to acute respiratory distress, myocarditis, seizures, cerebral edema, and death\nDeaths typically result from interstitial pneumonitis or cerebral edema and typically occur within 2 weeks of exposure\nSequelae include a prolonged neurasthenic syndrome",
+          "tables": []
+        },
+        "Nickel_contact_dermatitis": {
+          "text": "Basal cell carcinoma\nOther type IV delayed hypersensitivity immune reactions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-carbonyl_nickel": {
+      "text": "Most commonly presents with contact dermatitis\nNickel is not antigenic but acts as a hapten by binding to larger proteins, inducing conformational changes and resulting in non-self antigen recognition (type IV delayed hypersensivity immune reaction)\nWidespread allergic dermatitis (non-contact) may occur when non-carbonyl nickel is ingested or inhaled\nSevere exposures may result in interstitial lung disease and acute tubular necrosis",
+      "subsections": {
+        "Nickel_carbonyl": {
+          "text": "Most toxic form of nickel\nCommonly described as having a musty or sooty odor\nDoes not cause carbon monoxide toxicity despite the\nin vivo\nliberation of CO\nSymptoms may be rapid or delayed; however, most serious toxicities occur within 2 days of exposure\nShortness of breath, headache, dizziness, and vague symptoms are generally first reported, these may progress to acute respiratory distress, myocarditis, seizures, cerebral edema, and death\nDeaths typically result from interstitial pneumonitis or cerebral edema and typically occur within 2 weeks of exposure\nSequelae include a prolonged neurasthenic syndrome",
+          "tables": []
+        },
+        "Nickel_contact_dermatitis": {
+          "text": "Basal cell carcinoma\nOther type IV delayed hypersensitivity immune reactions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nickel_carbonyl": {
+      "text": "Most toxic form of nickel\nCommonly described as having a musty or sooty odor\nDoes not cause carbon monoxide toxicity despite the\nin vivo\nliberation of CO\nSymptoms may be rapid or delayed; however, most serious toxicities occur within 2 days of exposure\nShortness of breath, headache, dizziness, and vague symptoms are generally first reported, these may progress to acute respiratory distress, myocarditis, seizures, cerebral edema, and death\nDeaths typically result from interstitial pneumonitis or cerebral edema and typically occur within 2 weeks of exposure\nSequelae include a prolonged neurasthenic syndrome",
+      "subsections": {
+        "Nickel_contact_dermatitis": {
+          "text": "Basal cell carcinoma\nOther type IV delayed hypersensitivity immune reactions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nickel_contact_dermatitis": {
+      "text": "Basal cell carcinoma\nOther type IV delayed hypersensitivity immune reactions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nickel_Carbonyl_Differential": {
+          "text": "Nickel carbonyl exposures should be considered in all relevant occupational or industrial exposures presenting with significant pulmonary, cardiac, or neurological findings. Other occupational and toxicological exposures that should be considered.\nManganese\nCadmium\nElemental mercury\nVanadium pentoxide\nZinc chloride\nDinitrophenol / pentachlorophenol\nMassive type II pyrethroid exposure\nOrganophosphates / carbamates\nHydrocarbon aspiration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nickel_Carbonyl_Differential": {
+      "text": "Nickel carbonyl exposures should be considered in all relevant occupational or industrial exposures presenting with significant pulmonary, cardiac, or neurological findings. Other occupational and toxicological exposures that should be considered.\nManganese\nCadmium\nElemental mercury\nVanadium pentoxide\nZinc chloride\nDinitrophenol / pentachlorophenol\nMassive type II pyrethroid exposure\nOrganophosphates / carbamates\nHydrocarbon aspiration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Diagnostics should be directed based on symptoms.  Non-carbonyl nickel exposures are typically benign and limited to skin complaints; these may require no further work up.\nNickel carbonyl exposures require more intensive evaluations including but not limited to:\nArterial blood gas\nanalysis,\nCXR\nin the setting of shortness of breath\nEKG\nLiver enzymes\nSerum electrolytes, including serum creatinine\nNon-contrast CT head in the setting of significant neurological findings to rule out cerebral edema",
+      "subsections": {
+        "Nickel_concentrations": {
+          "text": "May be obtained from the urine, blood, and serum\nAlways collect in metal-free, acid-washed container\nAverage serum [Ni] = 0.3 mcg/L\nUrine nickel concentrations are preferentially obtained over 8 hours\nupper limit of normal = 5 mcg/L\n< 100 mcg/L = mild nickel toxicity\n100 -  500 mcg/L = moderate toxicity\n> 500 mcg/L = severe poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "EKG",
+          "url": "https://wikem.org/wiki/EKG"
+        }
+      ]
+    },
+    "Nickel_concentrations": {
+      "text": "May be obtained from the urine, blood, and serum\nAlways collect in metal-free, acid-washed container\nAverage serum [Ni] = 0.3 mcg/L\nUrine nickel concentrations are preferentially obtained over 8 hours\nupper limit of normal = 5 mcg/L\n< 100 mcg/L = mild nickel toxicity\n100 -  500 mcg/L = moderate toxicity\n> 500 mcg/L = severe poisoning",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_2": {
+      "text": "As with all toxicological exposures, primary efforts after patient stabilization should be directed at decontamination to prevent further exposure.\nSupportive care should be directed at airway support.  This may include supplemental oxygen, nebulized bronchodilators, and corticosteroids.\nHemodialysis is\nineffective\ndue to high protein binding",
+      "subsections": {
+        "Chelation": {
+          "text": "If severe poisoning from nickel carbonyl is suspected give 1 gram diethyldithiocarbamate  (DDC) in divided doses (not available in the United States)\nThere is limited evidence for the use of\ndisulfiram\nin the treatment of nickel carbonyl.  No established dosing exists; however, disulfiram is metabolized to two molecules of DDC.  Contact your local toxicologist for further guidance in the use of chelators.  It is important to note that chelation with disulfiram in the setting of nickel carbonyl is not standard of care.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chelation": {
+      "text": "If severe poisoning from nickel carbonyl is suspected give 1 gram diethyldithiocarbamate  (DDC) in divided doses (not available in the United States)\nThere is limited evidence for the use of\ndisulfiram\nin the treatment of nickel carbonyl.  No established dosing exists; however, disulfiram is metabolized to two molecules of DDC.  Contact your local toxicologist for further guidance in the use of chelators.  It is important to note that chelation with disulfiram in the setting of nickel carbonyl is not standard of care.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition_2": {
+      "text": "",
+      "subsections": {
+        "Non-carbonyl_nickel_2": {
+          "text": "Symptomatic care and discharge is acceptable in those with nickel contact dermitis.  Educate on the need to avoid jewelry containing nickel.\nMinor respiratory symptoms may be dispositioned similar to others with reactive airway disease\nSignificant respiratory symptoms should be admitted for observation",
+          "tables": []
+        },
+        "Nickel_carbonyl_2": {
+          "text": "Admit all known or suspected nickel carbonyl exposures due to the potential for delayed pulmonary injury and ARDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-carbonyl_nickel_2": {
+      "text": "Symptomatic care and discharge is acceptable in those with nickel contact dermitis.  Educate on the need to avoid jewelry containing nickel.\nMinor respiratory symptoms may be dispositioned similar to others with reactive airway disease\nSignificant respiratory symptoms should be admitted for observation",
+      "subsections": {
+        "Nickel_carbonyl_2": {
+          "text": "Admit all known or suspected nickel carbonyl exposures due to the potential for delayed pulmonary injury and ARDS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Nickel_carbonyl_2": {
+      "text": "Admit all known or suspected nickel carbonyl exposures due to the potential for delayed pulmonary injury and ARDS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also_2": {
+      "text": "Heavy metals\nToxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        },
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    }
+  }
+}
