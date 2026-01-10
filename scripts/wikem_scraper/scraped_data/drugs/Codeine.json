@@ -1,0 +1,62 @@
+{
+  "drug_name": "Codeine",
+  "url": "https://wikem.org/wiki/Codeine",
+  "scraped_at": "2026-01-10T03:10:22.567984",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Mild to moderate pain: 15-60mg PO q4-6h PRN\nMax: 360mg/day\nGive with food\nDoses >60mg are rarely more effective in opioid-naive patients\nCough: 15-30mg PO q4-6h PRN\nMax: 120mg/day\nDiarrhea\n: 45-270mg/day PO divided q4-6h PRN\nStart: 30-60mg/day PO divided QD-bid, then increase by 30-60mg/day PRN\nMax: 60mg/dose up to 270mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Pain, mild-moderate\n3-6 yo: 0.5-1mg/kg PO q4-6h PRN\n7-12 yo: 15-30mg PO q4-6h PRN\n13-17 yo: 15-60mg PO q4-6h PRN\nMax: 60mg/dose up to 360mg/day\nCough\n2-5 yo: 1-1.5mg/kg/day PO divided q4-6h PRN; Max: 30mg/day\n6-11 yo: 1-1.5mg/kg/day PO divided q4-6h PRN; Max: 60mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy risk factor: C",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "CrCl 10-50: decrease dose 25%; CrCl <10: decrease dose 50%; HD/PD: no supplement",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "hypersensitivity to codeine\nrespiratory depression\nparalytic ileus\npost-tonsillectomy or adenoidectomy (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "respiratory depression\nCNS depression\nhypotension\nbradycardia\nsyncope\nanaphylactoid reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "lightheadedness\ndizziness\nsedation\nnausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.5-4 hours\nMetabolism: Liver\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

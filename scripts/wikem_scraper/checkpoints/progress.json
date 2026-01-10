@@ -164,7 +164,26 @@
     "Acute_asthma_exacerbation_(peds)",
     "Acute_bronchitis",
     "Acute_calculous_cholecystitis",
-    "Acute_calculous_cholecystitis/en"
+    "Acute_calculous_cholecystitis/en",
+    "Acute_calculous_cholecystitis/es",
+    "Acute_chest_pain",
+    "Acute_chest_syndrome",
+    "Acute_coronary_syndrome_(main)",
+    "Acute_cystitis",
+    "Acute_diarrhea",
+    "Acute_diarrhea/en",
+    "Acute_diarrhea/es",
+    "Acute_dyspnea",
+    "Acute_dyspnea_(peds)",
+    "Acute_fatty_liver_of_pregnancy",
+    "Acute_fatty_liver_of_pregnancy/en",
+    "Acute_fever",
+    "Acute_flaccid_myelitis",
+    "Acute_gastric_dilatation",
+    "Acute_gastric_dilatation/en",
+    "Acute_gastric_dilatation/es",
+    "Acute_gastroenteritis",
+    "Acute_gastroenteritis/en"
   ],
   "failed_drugs": [
     {
@@ -173,7 +192,7 @@
       "timestamp": "2026-01-10T03:01:57.094205"
     }
   ],
-  "last_updated": "2026-01-10T03:09:52.180179",
-  "total_scraped": 165,
+  "last_updated": "2026-01-10T03:11:30.870454",
+  "total_scraped": 184,
   "total_failed": 1
 }

@@ -1,0 +1,70 @@
+{
+  "drug_name": "Clotrimazole",
+  "url": "https://wikem.org/wiki/Clotrimazole",
+  "scraped_at": "2026-01-10T03:10:01.801331",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Topical\nCandidiasis, cutaneous\nApply bid\nTinea\nApply bid\n2-4 weeks for best results with corporis, cruris, pedis, versicolor\nVulvovaginal\ncandidiasis, vulvovaginal\n200mg PV qhs x3 days\nAlt: 100mg PV qhs x7 days\nAlt: 1 applicatorful 2% PV qhs x3 days\nAlt: 1 applicatorful 1% PV qhs x7-14 days\nOropharyngeal\ncandidiasis treatment, oropharyngeal\n10mg PO 5x/day x14 days\nslowly dissolve in mouth; do not chew or swallow whole\ncandidiasis prophylaxis, oropharyngeal\n10mg PO tid\ncontinue for duration of chemo or high-dose steroid; slowly dissolve in mouth; do not chew or swallow whole",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Same as adult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B (topical, vulvovaginal), C (oropharyngeal)\nLactation risk\n: Probably safe (topical, vulvovaginal), Safety unknown (oropharyngeal)",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Precaution with troches. Monitor LFTs.\nPediatric:",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "may occur but none reported",
+          "tables": []
+        },
+        "Common": {
+          "text": "Topical\nirritation\nburning/stinging\npruritus\nerythema\nlocalized edema\nurticaria\npeeling\nblistering\nVulvovaginal\nvulvovaginal burning\nvulvovaginal pruritus\nvulvovaginal soreness\nvulvovaginal swelling\npelvic pain\npelvic cramps\nabdominal pain\nOropharyngeal\nvomiting\nnausea\nabdominal cramps\nabnormal LFTs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: liver; CYP450: unknown; Info: minimal systemic absorption\nExcretion: bile/feces primarily, urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
