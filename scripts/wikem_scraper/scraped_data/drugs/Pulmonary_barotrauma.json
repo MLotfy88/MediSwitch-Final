@@ -1,0 +1,292 @@
+{
+  "drug_name": "Pulmonary_barotrauma",
+  "url": "https://wikem.org/wiki/Pulmonary_barotrauma",
+  "scraped_at": "2026-01-10T08:00:53.426745",
+  "sections": {
+    "Background": {
+      "text": "Occurs when diver breathing compressed air ascends too rapidly",
+      "subsections": {
+        "Barotrauma_Types": {
+          "text": "Otic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)",
+          "tables": []
+        },
+        "Diving_Physiology": {
+          "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        }
+      ]
+    },
+    "Barotrauma_Types": {
+      "text": "Otic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)",
+      "subsections": {
+        "Diving_Physiology": {
+          "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        }
+      ]
+    },
+    "Diving_Physiology": {
+      "text": "Pascals Law\napplies to the diving body (without air filled areas such as lungs) states that the pressure applied to any part of the enclosed liquid will be transmitted equally in all directions through the liquid.\nBoyles Law\napplies to the diving body's air filled areas such as lungs, sinuses, middle ear, and states that the volume and pressure of a gas at a given temperature are inversely related.\nAt 2 ATA (10m/33ft) a given gas would be 1/2 it's volume, at 3 ATA (20m/66ft) it would be 1/3 it's volume and so on.\nDalton's Law\napplies to the total pressure of an ideal gas mixture being the sum of the partial pressures of each individual gas.\nDivers may used Enriched Air NITROX mixtures to proportionally increase partial pressures of oxygen and reduce partial pressures of nitrogen while diving.\nAt extremes of depth, additional inert gasses such as helium in TRIMIX are used to further reduce partial pressures of both oxygen and nitrogen below toxic levels.\nHenry's Law\napplies to the dissolvability of gasses into fluids, including body tissues, being proportional to the partial pressure of the gas.\nThe increased pressure at depth causes divers to breath their gas mix at increased pressure to defeat the external water pressure.\nIncreased inhaled partial pressures of nitrogen increase risk of nitrogen narcosis, and dissolved nitrogen in tissues re-expanding in micro-bubbles on ascent is the essential cause of decompression sickness. This can affect divers at any depth, including commonly-seen recreational diving depths of 20m/60ft or less.\nIncreased inhaled partial pressures of oxygen, generally beyond 1.4-1.6atm, increases risk of oxygen toxicity. This is typically not a substantial risk in common depths of recreational divers at 20m/60ft of depth or less, but can be for more advanced divers at deeper depths.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms occur minutes to hours after surfacing\nCan occur without rapid ascent in patients with obstructive lung disease\nLung rupture can lead to:\nPneumomediastinum\nPneumothorax\nAir embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diving_Emergencies": {
+          "text": "Barotrauma of descent\nOtic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)\nBarotrauma of ascent\nPulmonary barotrauma\n(\npulmonary overpressurization syndrome\n)\nDecompression sickness\n(DCS)\nArterial gas embolism\nAlternobaric vertigo\nFacial baroparesis (Bells Palsy)\nAt depth injuries\nOxygen toxicity\nNitrogen narcosis\nHypothermia\nContaminated gas mixture (e.g.\nCO toxicity\n)\nCaustic cocktail\nfrom rebreathing circuit",
+          "tables": []
+        },
+        "Barotrauma_Types_2": {
+          "text": "Otic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        },
+        {
+          "text": "pulmonary overpressurization syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_overpressurization_syndrome"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Arterial gas embolism",
+          "url": "https://wikem.org/wiki/Arterial_gas_embolism"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "CO toxicity",
+          "url": "https://wikem.org/wiki/CO_toxicity"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        }
+      ]
+    },
+    "Diving_Emergencies": {
+      "text": "Barotrauma of descent\nOtic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)\nBarotrauma of ascent\nPulmonary barotrauma\n(\npulmonary overpressurization syndrome\n)\nDecompression sickness\n(DCS)\nArterial gas embolism\nAlternobaric vertigo\nFacial baroparesis (Bells Palsy)\nAt depth injuries\nOxygen toxicity\nNitrogen narcosis\nHypothermia\nContaminated gas mixture (e.g.\nCO toxicity\n)\nCaustic cocktail\nfrom rebreathing circuit",
+      "subsections": {
+        "Barotrauma_Types_2": {
+          "text": "Otic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        },
+        {
+          "text": "pulmonary overpressurization syndrome",
+          "url": "https://wikem.org/wiki/Pulmonary_overpressurization_syndrome"
+        },
+        {
+          "text": "Decompression sickness",
+          "url": "https://wikem.org/wiki/Decompression_sickness"
+        },
+        {
+          "text": "Arterial gas embolism",
+          "url": "https://wikem.org/wiki/Arterial_gas_embolism"
+        },
+        {
+          "text": "Oxygen toxicity",
+          "url": "https://wikem.org/wiki/Oxygen_toxicity"
+        },
+        {
+          "text": "Nitrogen narcosis",
+          "url": "https://wikem.org/wiki/Nitrogen_narcosis"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "CO toxicity",
+          "url": "https://wikem.org/wiki/CO_toxicity"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        },
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        }
+      ]
+    },
+    "Barotrauma_Types_2": {
+      "text": "Otic barotrauma\nPulmonary barotrauma\nSinus barotrauma\nMask squeeze\nBarodentalgia (trapped dental air causing squeeze)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Otic barotrauma",
+          "url": "https://wikem.org/wiki/Otic_barotrauma"
+        },
+        {
+          "text": "Sinus barotrauma",
+          "url": "https://wikem.org/wiki/Sinus_barotrauma"
+        },
+        {
+          "text": "Mask squeeze",
+          "url": "https://wikem.org/wiki/Mask_squeeze"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis; do not delay intervention for studies\nCXR\nAssess for alternate etiologies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Pneumomediastinum\nand\npneumothorax\ndo\nnot\nrequire recompression; see management section on those pages\nAir embolism\nIVF (increases tissue perfusion)\nRapid recompression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pneumomediastinum\nScuba diving emergencies\nDiving medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Scuba diving emergencies",
+          "url": "https://wikem.org/wiki/Scuba_diving_emergencies"
+        },
+        {
+          "text": "Diving medicine",
+          "url": "https://wikem.org/wiki/Diving_medicine"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "drug_name": "Protozoa",
+  "url": "https://wikem.org/wiki/Protozoa",
+  "scraped_at": "2026-01-10T08:00:44.554253",
+  "sections": {
+    "Intro": {
+      "text": "African Sleeping Sickness\nBalantidium coli\nChagas Disease\nCryptosporidium\nEntamoeba histolytica\nGiardia lamblia\nLeishmania\nMalaria\nMicrosporidium\nToxoplasma gondii\nTrichomonas vaginalis\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Protozoa": {
+      "text": "African Sleeping Sickness\nBalantidium coli\nChagas Disease\nCryptosporidium\nEntamoeba histolytica\nGiardia lamblia\nLeishmania\nMalaria\nMicrosporidium\nToxoplasma gondii\nTrichomonas vaginalis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "African Sleeping Sickness",
+          "url": "https://wikem.org/wiki/African_Sleeping_Sickness"
+        },
+        {
+          "text": "Balantidium coli",
+          "url": "https://wikem.org/wiki/Balantidium_coli"
+        },
+        {
+          "text": "Chagas Disease",
+          "url": "https://wikem.org/wiki/Chagas_Disease"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Leishmania",
+          "url": "https://wikem.org/wiki/Leishmania"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Toxoplasma gondii",
+          "url": "https://wikem.org/wiki/Toxoplasma_gondii"
+        },
+        {
+          "text": "Trichomonas vaginalis",
+          "url": "https://wikem.org/wiki/Trichomonas_vaginalis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Parasitic diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic diseases",
+          "url": "https://wikem.org/wiki/Parasitic_diseases"
+        }
+      ]
+    }
+  }
+}

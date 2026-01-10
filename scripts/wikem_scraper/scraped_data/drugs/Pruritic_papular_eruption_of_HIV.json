@@ -1,0 +1,295 @@
+{
+  "drug_name": "Pruritic_papular_eruption_of_HIV",
+  "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV",
+  "scraped_at": "2026-01-10T08:00:48.530557",
+  "sections": {
+    "Background": {
+      "text": "Most common\nrash\nof\nHIV\n[1]\nPresenting symptom of HIV in up to ~80% cases\n3x more common when CD4 count < 200\nUp to 46% of HIV patients have this rash at some time of disease course\nDiagnosis of exclusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Pruritic\nDiffusely, symmetrically distributed\nrash\nDiscrete red bumps initially\nExtremities/trunk > face\nMucous membrane sparing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Folliculitis\nCellulitis\nFungal infection\nHSV\ninfection\nHPV\nwarts\nDrug reaction\nInsect bites\nPorphyria",
+      "subsections": {
+        "HIV_associated_conditions": {
+          "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Folliculitis",
+          "url": "https://wikem.org/wiki/Folliculitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Fungal infection",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "HPV",
+          "url": "https://wikem.org/wiki/HPV"
+        },
+        {
+          "text": "Drug reaction",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Insect bites",
+          "url": "https://wikem.org/wiki/Insect_bites"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "HIV_associated_conditions": {
+      "text": "HIV neurologic complications\nToxoplasmosis\nCryptococcosis\nAIDS Dementia\nSeizures in patients with HIV-AIDS\nPrimary CNS lymphoma\nHIV pulmonary complications\nPneumocystis jirovecii pneumonia\n(PCP)\nTuberculosis (TB)\nCMV pneumonia\nOphthalmologic complications\nCMV Retinitis\nHerpes Zoster Ophthalmicus\nOther\nAIDS fever of unknown origin\nImmune reconstitution inflammatory syndrome\nHIV diarrhea\nEsophageal candidiasis\nKaposi's sarcoma\nPruritic papular eruption of HIV\nHairy oral leukoplakia\nHAART medication side effects\n[2]\nHAART-induced lactic acidosis\nNeuropyschiatric effects\nHepatic toxicity\nRenal toxicity\nSteven-Johnson's\nCytopenias\nGI symptoms\nEndocrine abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HIV neurologic complications",
+          "url": "https://wikem.org/wiki/HIV_neurologic_complications"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Cryptococcosis",
+          "url": "https://wikem.org/wiki/Cryptococcosis"
+        },
+        {
+          "text": "AIDS Dementia",
+          "url": "https://wikem.org/wiki/AIDS_Dementia"
+        },
+        {
+          "text": "Seizures in patients with HIV-AIDS",
+          "url": "https://wikem.org/wiki/Seizures_in_patients_with_HIV-AIDS"
+        },
+        {
+          "text": "Primary CNS lymphoma",
+          "url": "https://wikem.org/wiki/Primary_CNS_lymphoma"
+        },
+        {
+          "text": "HIV pulmonary complications",
+          "url": "https://wikem.org/wiki/HIV_pulmonary_complications"
+        },
+        {
+          "text": "Pneumocystis jirovecii pneumonia",
+          "url": "https://wikem.org/wiki/Pneumocystis_jirovecii_pneumonia"
+        },
+        {
+          "text": "Tuberculosis (TB)",
+          "url": "https://wikem.org/wiki/Tuberculosis_(TB)"
+        },
+        {
+          "text": "CMV pneumonia",
+          "url": "https://wikem.org/wiki/CMV_pneumonia"
+        },
+        {
+          "text": "CMV Retinitis",
+          "url": "https://wikem.org/wiki/CMV_Retinitis"
+        },
+        {
+          "text": "Herpes Zoster Ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_Zoster_Ophthalmicus"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Immune reconstitution inflammatory syndrome",
+          "url": "https://wikem.org/wiki/Immune_reconstitution_inflammatory_syndrome"
+        },
+        {
+          "text": "HIV diarrhea",
+          "url": "https://wikem.org/wiki/HIV_diarrhea"
+        },
+        {
+          "text": "Esophageal candidiasis",
+          "url": "https://wikem.org/wiki/Esophageal_candidiasis"
+        },
+        {
+          "text": "Kaposi's sarcoma",
+          "url": "https://wikem.org/wiki/Kaposi%27s_sarcoma"
+        },
+        {
+          "text": "Hairy oral leukoplakia",
+          "url": "https://wikem.org/wiki/Hairy_oral_leukoplakia"
+        },
+        {
+          "text": "HAART-induced lactic acidosis",
+          "url": "https://wikem.org/wiki/HAART-induced_lactic_acidosis"
+        },
+        {
+          "text": "Hepatic toxicity",
+          "url": "https://wikem.org/wiki/Acute_hepatic_failure#Drug_or_Toxin_Related_Liver_Disease"
+        },
+        {
+          "text": "Renal toxicity",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury#Intrinsic"
+        },
+        {
+          "text": "Steven-Johnson's",
+          "url": "https://wikem.org/wiki/Steven-Johnson%27s"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Appropriate clinical setting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Initially\ntopical steroids\n, emollients, PO\nantihistamines\nDoxepin\n25 mg QHS later line PO med for those without TCA contraindication\n[3]\nUV phototherapy for refractory cases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        },
+        {
+          "text": "antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient dermatology follow up\nAverage time for recurrence of skin condition ~8 wks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,552 @@
+{
+  "drug_name": "Pulmonary_contusion",
+  "url": "https://wikem.org/wiki/Pulmonary_contusion",
+  "scraped_at": "2026-01-10T08:00:54.336158",
+  "sections": {
+    "Background": {
+      "text": "Direct injury to lung resulting in hemorrhage and edema in absence of lung laceration\nFlail chest almost always associated with contusion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dyspnea\nTachypnea\nChest pain\nCoarse breath sounds\nHypoxia\nWidened A-a gradient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        },
+        "Pulmonary_Edema_Types": {
+          "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {
+        "Pulmonary_Edema_Types": {
+          "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Pulmonary_Edema_Types": {
+      "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Areas of lung opacification on chest imaging within 6hr of blunt trauma is diagnostic\nCXR\nPatchy irregular infiltrates\nCT\nGround-glass opacities in mild-moderate contusions, widespread consolidation if severe\nMay pick up 70% of contusions not seen on CXR\nContusion >20% of lung volume associated with 80% risk of developing ARDS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Ensure adequate ventilation\nAnalgesia\nVentilatory Assistance\nPatients with >25% of lung involvement frequently require ventilatory assistance\nNIV\nmay be tried\nIntubate\nif NIV fails\nLow tidal volume, high PEEP\nAvoid unnecessary fluid administration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Analgesia",
+          "url": "https://wikem.org/wiki/Analgesia"
+        },
+        {
+          "text": "NIV",
+          "url": "https://wikem.org/wiki/NIPPV"
+        },
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Rib Fracture\nTraumatic Pneumothorax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rib Fracture",
+          "url": "https://wikem.org/wiki/Rib_Fracture"
+        },
+        {
+          "text": "Traumatic Pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_Pneumothorax"
+        }
+      ]
+    }
+  }
+}

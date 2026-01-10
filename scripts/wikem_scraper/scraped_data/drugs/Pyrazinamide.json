@@ -1,0 +1,102 @@
+{
+  "drug_name": "Pyrazinamide",
+  "url": "https://wikem.org/wiki/Pyrazinamide",
+  "scraped_at": "2026-01-10T08:01:00.509358",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntibiotic\n, anti-TB\nDosage Forms:\nRoutes of Administration: Oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "40-55 kg: 1000mg PO daily\nOR\n1500mg PO 3 times per week\nOR\n2000mg PO 2 times per week in combination with other agents\n56-75kg: 1500mg PO daily\nOR\n2500mg PO 3 times per week\nOR\n3000mg PO 2 times per week in combination with other agents\n76-90kg: 2000mg PO daily\nOR\n3000mg PO 3 times per week\nOR\n4000mg PO 2 times per week in combination with other agents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "15 to 30 mg/kg PO daily (max 2000mg/day)\nOR\n50mg/kg PO 2 times per week in combination with other agents",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Infant risk cannot be ruled out\nRenal dosing, CrCl <30mL/min: 25-35mg/kg 3 times per week (after HD, if applicable)\nHepatic dosing: contraindicated in severe liver damage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nSevere hepatic damage\nAcute gout",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nAnemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\nArthralgia\nHyperuricemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nAnemia",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\nArthralgia\nHyperuricemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Nausea/vomiting\nArthralgia\nHyperuricemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6.7-12.3h, longer in cirrhosis and/or ESRD\nMetabolism: hepatic\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Nicotinamide analogue, exact antitubercular mechanism unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tuberculosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "drug_name": "Pulmonary_embolism_in_pregnancy",
+  "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy",
+  "scraped_at": "2026-01-10T08:00:57.383907",
+  "sections": {
+    "Background": {
+      "text": "Incidence of\nVTE\nin pregnancy and postpartum is 1.72 per 1000\n[1]\nRisk significantly elevated in the 6 weeks postpartum\nRisk of\nDVT\nequal in 1st and 2nd trimesters, higher risk in 3rd trimester and 3 weeks postpartum\n[2]\nPE\nmost commonly occurs in postpartum.\n[2]\nCommon risk factors include:\nAdvanced maternal age\nC-Section\nObesity\nMultiple gestations\nThrombophilia\nPrior\nVTE\nRisk returns to baseline by 12 weeks postpartum\n[3]\nConsider MI in differential as risk can increase 3-6 times during the postpartum period",
+      "subsections": {
+        "Clinical_Spectrum_of_Venous_thromboembolism": {
+          "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[4]\n[5]",
+          "tables": []
+        },
+        "Massive:_High-risk": {
+          "text": "Hemodynamically unstable with symptoms of shock\nACCP 2016 CHEST Guidelines: Sustained hypotension ONLY criteria (systolic BP <90 for at least 15min or requiring inotropic support)\nPrevious definitions (e.g. AHA 2011) include cardiac arrest/pulselessness or persistent profound bradycardia (HR <40 with signs of shock)",
+          "tables": []
+        },
+        "Submassive:_Intermediate-risk": {
+          "text": "Right ventricular dysfunction (RVD) and/or myocardial necrosis in the absence of persistent hypotension or shock (SBP >90)\n[7]\nRV dysfunction\nRV dilation or dysfunction on TTE\n\"D Sign\" on bedside echo (LV takes on a \"D\" shape due to RV dilation)\nRV dysfunction on CT defined as RV/LV ratio >0.9\n[8]\nElevation of BNP (>90)\nECG findings of right heart strain (see diagnosis below)\nMyocardial necrosis: Troponin I >0.4",
+          "tables": []
+        },
+        "Non-Massive:_Low-risk": {
+          "text": "No hemodynamic compromise and no RV strain",
+          "tables": []
+        },
+        "Sub-Segmental": {
+          "text": "Limited to the subsegmental pulmonary arteries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/VTE"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Clinical_Spectrum_of_Venous_thromboembolism": {
+      "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[4]\n[5]",
+      "subsections": {
+        "Massive:_High-risk": {
+          "text": "Hemodynamically unstable with symptoms of shock\nACCP 2016 CHEST Guidelines: Sustained hypotension ONLY criteria (systolic BP <90 for at least 15min or requiring inotropic support)\nPrevious definitions (e.g. AHA 2011) include cardiac arrest/pulselessness or persistent profound bradycardia (HR <40 with signs of shock)",
+          "tables": []
+        },
+        "Submassive:_Intermediate-risk": {
+          "text": "Right ventricular dysfunction (RVD) and/or myocardial necrosis in the absence of persistent hypotension or shock (SBP >90)\n[7]\nRV dysfunction\nRV dilation or dysfunction on TTE\n\"D Sign\" on bedside echo (LV takes on a \"D\" shape due to RV dilation)\nRV dysfunction on CT defined as RV/LV ratio >0.9\n[8]\nElevation of BNP (>90)\nECG findings of right heart strain (see diagnosis below)\nMyocardial necrosis: Troponin I >0.4",
+          "tables": []
+        },
+        "Non-Massive:_Low-risk": {
+          "text": "No hemodynamic compromise and no RV strain",
+          "tables": []
+        },
+        "Sub-Segmental": {
+          "text": "Limited to the subsegmental pulmonary arteries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Pulmonary_Embolism_Categorization": {
+      "text": "",
+      "subsections": {
+        "Massive:_High-risk": {
+          "text": "Hemodynamically unstable with symptoms of shock\nACCP 2016 CHEST Guidelines: Sustained hypotension ONLY criteria (systolic BP <90 for at least 15min or requiring inotropic support)\nPrevious definitions (e.g. AHA 2011) include cardiac arrest/pulselessness or persistent profound bradycardia (HR <40 with signs of shock)",
+          "tables": []
+        },
+        "Submassive:_Intermediate-risk": {
+          "text": "Right ventricular dysfunction (RVD) and/or myocardial necrosis in the absence of persistent hypotension or shock (SBP >90)\n[7]\nRV dysfunction\nRV dilation or dysfunction on TTE\n\"D Sign\" on bedside echo (LV takes on a \"D\" shape due to RV dilation)\nRV dysfunction on CT defined as RV/LV ratio >0.9\n[8]\nElevation of BNP (>90)\nECG findings of right heart strain (see diagnosis below)\nMyocardial necrosis: Troponin I >0.4",
+          "tables": []
+        },
+        "Non-Massive:_Low-risk": {
+          "text": "No hemodynamic compromise and no RV strain",
+          "tables": []
+        },
+        "Sub-Segmental": {
+          "text": "Limited to the subsegmental pulmonary arteries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms": {
+          "text": "According to the PIOPED II study, these are the most common presenting signs\n[9]\nDyspnea\nat rest or with exertion (73%)\nPleuritic\nchest pain\n(44%)\nCough\n(37%)\nOrthopnea (28%)\nCalf or thigh pain and/or swelling (44%)\nWheezing\n(21%)\nHemoptysis\n(13%)",
+          "tables": []
+        },
+        "Signs": {
+          "text": "Tachypnea\n(54%)\nCalf or thigh swelling, erythema, edema, tenderness, palpable cord (47%)\nTachycardia\n(24%)\nRales (18%)\nDecreased breath sounds (17%)\nAccentuated pulmonic component of the second heart sound (15%)\nJVD (14%)\nFever\n(3%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "According to the PIOPED II study, these are the most common presenting signs\n[9]\nDyspnea\nat rest or with exertion (73%)\nPleuritic\nchest pain\n(44%)\nCough\n(37%)\nOrthopnea (28%)\nCalf or thigh pain and/or swelling (44%)\nWheezing\n(21%)\nHemoptysis\n(13%)",
+      "subsections": {
+        "Signs": {
+          "text": "Tachypnea\n(54%)\nCalf or thigh swelling, erythema, edema, tenderness, palpable cord (47%)\nTachycardia\n(24%)\nRales (18%)\nDecreased breath sounds (17%)\nAccentuated pulmonic component of the second heart sound (15%)\nJVD (14%)\nFever\n(3%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Signs": {
+      "text": "Tachypnea\n(54%)\nCalf or thigh swelling, erythema, edema, tenderness, palpable cord (47%)\nTachycardia\n(24%)\nRales (18%)\nDecreased breath sounds (17%)\nAccentuated pulmonic component of the second heart sound (15%)\nJVD (14%)\nFever\n(3%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Clinical_Decision_Rules": {
+          "text": "YEARS Algorithm\n[10]\n.\nMDCalc link\n.\nAppears to be possible viable clinical decision tool to rule out PE in pregnant patients\nUtilizes D-dimer and presence/absence of three YEARS criteria: (1) clinical signs of DVT, (2) hemoptysis, (3) PE as most likely diagnosis\nClinical signs of DVT? If yes, obtain LE US to rule out DVT:\nPositive US LE ➟ initiate anticoagulant treatment\nNegative US LE ➟ continue algorithm\nZero YEARS criteria (\nno\nsigns of DVT,\nno\nhemoptysis, PE is\nnot\nmost likely diagnosis):\nD-dimer <1,000 ng/mL FEU ➟ PE excluded\nD-dimer ≥1,000 ng/mL FEU ➟ PE not excluded (YEARS algorithm recommends CTPA)\nPresence of ≥1 YEARS criteria (signs of DVT, hemoptysis, and/or PE is most likely diagnosis):\nD-dimer <500 ng/mL FEU ➟ PE excluded\nD-dimer ≥500 ng/mL FEU ➟ PE not excluded (YEARS algorithm recommends CTPA)",
+          "tables": []
+        },
+        "If_clinical_features_suggestive_of_PE_and_lower_extremity_swelling": {
+          "text": "Begin with bilateral lower extremity duplex scan\nif positive→treat empirically for PE\nif negative→CTA\nCTA and V/Q scans yield approximately 0.025 rad and 0.040 rad respectively to the fetus\n[11]\n>5 rads is considered teratogenic\n[12]\nHowever, 20-100 times more radiation is delivered to maternal breast tissue with CT, increasing the risk of breast cancer\n[13]\nUp to 17% of pregnant patients have isolated pelvic\nDVT\n(not found with ultrasound)\n[14]\nCT (with shield) vs. V/Q is roughly equivalent radiation exposure to fetus, but CT confers increased radiation to maternal breast tissue",
+          "tables": []
+        },
+        "American_Thoracic_Society_In_Pregnancy": {
+          "text": "D-dimer is not recommended for excluding PE (weak recommendation, very-low-quality evidence).\nIf signs and symptoms of deep venous thrombosis (DVT), first perform bilateral venous compression ultrasound (CUS) of lower extremities, followed by anticoagulation treatment if positive and by further testing if negative (weak recommendation, very-low-quality evidence).\nIf no signs and symptoms of DVT, pulmonary vascular imaging should be used over bilateral lower extremity ultrasounds(weak recommendation, very-low-quality evidence).",
+          "tables": []
+        },
+        "D-Dimer": {
+          "text": "D-Dimer MAY BE used with following limits with\nvery poor evidence\n[16]\n[17]\n[18]\n1st trimester: <750 ng/mL (+50% increase from normal lab threshold)\n2nd trimester: <1000 ng/mL (+100% from normal)\n3rd trimester: <1250 ng/mL (+150% from normal)\nYEARS Algorithm\n3-month incidence of VTE of pregnant patients without CTPA was 0.43%\n[19]\nPregnancy-adapted YEARS algorithm recommends initiation of anticoagulation in positive US compression of symptomatic leg should there be signs of DVT\nPregnancy-adapted YEARS algorithm\n[20]\n“Pulmonary embolism was safely ruled out by the pregnancy-adapted YEARS diagnostic algorithm across all trimesters of pregnancy. CT pulmonary angiography was avoided in 32 to 65% of patients\"\nefficiency of algorithm highest during first trimester and lowest during third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Clinical_Decision_Rules": {
+      "text": "YEARS Algorithm\n[10]\n.\nMDCalc link\n.\nAppears to be possible viable clinical decision tool to rule out PE in pregnant patients\nUtilizes D-dimer and presence/absence of three YEARS criteria: (1) clinical signs of DVT, (2) hemoptysis, (3) PE as most likely diagnosis\nClinical signs of DVT? If yes, obtain LE US to rule out DVT:\nPositive US LE ➟ initiate anticoagulant treatment\nNegative US LE ➟ continue algorithm\nZero YEARS criteria (\nno\nsigns of DVT,\nno\nhemoptysis, PE is\nnot\nmost likely diagnosis):\nD-dimer <1,000 ng/mL FEU ➟ PE excluded\nD-dimer ≥1,000 ng/mL FEU ➟ PE not excluded (YEARS algorithm recommends CTPA)\nPresence of ≥1 YEARS criteria (signs of DVT, hemoptysis, and/or PE is most likely diagnosis):\nD-dimer <500 ng/mL FEU ➟ PE excluded\nD-dimer ≥500 ng/mL FEU ➟ PE not excluded (YEARS algorithm recommends CTPA)",
+      "subsections": {
+        "If_clinical_features_suggestive_of_PE_and_lower_extremity_swelling": {
+          "text": "Begin with bilateral lower extremity duplex scan\nif positive→treat empirically for PE\nif negative→CTA\nCTA and V/Q scans yield approximately 0.025 rad and 0.040 rad respectively to the fetus\n[11]\n>5 rads is considered teratogenic\n[12]\nHowever, 20-100 times more radiation is delivered to maternal breast tissue with CT, increasing the risk of breast cancer\n[13]\nUp to 17% of pregnant patients have isolated pelvic\nDVT\n(not found with ultrasound)\n[14]\nCT (with shield) vs. V/Q is roughly equivalent radiation exposure to fetus, but CT confers increased radiation to maternal breast tissue",
+          "tables": []
+        },
+        "American_Thoracic_Society_In_Pregnancy": {
+          "text": "D-dimer is not recommended for excluding PE (weak recommendation, very-low-quality evidence).\nIf signs and symptoms of deep venous thrombosis (DVT), first perform bilateral venous compression ultrasound (CUS) of lower extremities, followed by anticoagulation treatment if positive and by further testing if negative (weak recommendation, very-low-quality evidence).\nIf no signs and symptoms of DVT, pulmonary vascular imaging should be used over bilateral lower extremity ultrasounds(weak recommendation, very-low-quality evidence).",
+          "tables": []
+        },
+        "D-Dimer": {
+          "text": "D-Dimer MAY BE used with following limits with\nvery poor evidence\n[16]\n[17]\n[18]\n1st trimester: <750 ng/mL (+50% increase from normal lab threshold)\n2nd trimester: <1000 ng/mL (+100% from normal)\n3rd trimester: <1250 ng/mL (+150% from normal)\nYEARS Algorithm\n3-month incidence of VTE of pregnant patients without CTPA was 0.43%\n[19]\nPregnancy-adapted YEARS algorithm recommends initiation of anticoagulation in positive US compression of symptomatic leg should there be signs of DVT\nPregnancy-adapted YEARS algorithm\n[20]\n“Pulmonary embolism was safely ruled out by the pregnancy-adapted YEARS diagnostic algorithm across all trimesters of pregnancy. CT pulmonary angiography was avoided in 32 to 65% of patients\"\nefficiency of algorithm highest during first trimester and lowest during third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "If_clinical_features_suggestive_of_PE_and_lower_extremity_swelling": {
+      "text": "Begin with bilateral lower extremity duplex scan\nif positive→treat empirically for PE\nif negative→CTA\nCTA and V/Q scans yield approximately 0.025 rad and 0.040 rad respectively to the fetus\n[11]\n>5 rads is considered teratogenic\n[12]\nHowever, 20-100 times more radiation is delivered to maternal breast tissue with CT, increasing the risk of breast cancer\n[13]\nUp to 17% of pregnant patients have isolated pelvic\nDVT\n(not found with ultrasound)\n[14]\nCT (with shield) vs. V/Q is roughly equivalent radiation exposure to fetus, but CT confers increased radiation to maternal breast tissue",
+      "subsections": {
+        "American_Thoracic_Society_In_Pregnancy": {
+          "text": "D-dimer is not recommended for excluding PE (weak recommendation, very-low-quality evidence).\nIf signs and symptoms of deep venous thrombosis (DVT), first perform bilateral venous compression ultrasound (CUS) of lower extremities, followed by anticoagulation treatment if positive and by further testing if negative (weak recommendation, very-low-quality evidence).\nIf no signs and symptoms of DVT, pulmonary vascular imaging should be used over bilateral lower extremity ultrasounds(weak recommendation, very-low-quality evidence).",
+          "tables": []
+        },
+        "D-Dimer": {
+          "text": "D-Dimer MAY BE used with following limits with\nvery poor evidence\n[16]\n[17]\n[18]\n1st trimester: <750 ng/mL (+50% increase from normal lab threshold)\n2nd trimester: <1000 ng/mL (+100% from normal)\n3rd trimester: <1250 ng/mL (+150% from normal)\nYEARS Algorithm\n3-month incidence of VTE of pregnant patients without CTPA was 0.43%\n[19]\nPregnancy-adapted YEARS algorithm recommends initiation of anticoagulation in positive US compression of symptomatic leg should there be signs of DVT\nPregnancy-adapted YEARS algorithm\n[20]\n“Pulmonary embolism was safely ruled out by the pregnancy-adapted YEARS diagnostic algorithm across all trimesters of pregnancy. CT pulmonary angiography was avoided in 32 to 65% of patients\"\nefficiency of algorithm highest during first trimester and lowest during third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "American_Thoracic_Society_In_Pregnancy": {
+      "text": "D-dimer is not recommended for excluding PE (weak recommendation, very-low-quality evidence).\nIf signs and symptoms of deep venous thrombosis (DVT), first perform bilateral venous compression ultrasound (CUS) of lower extremities, followed by anticoagulation treatment if positive and by further testing if negative (weak recommendation, very-low-quality evidence).\nIf no signs and symptoms of DVT, pulmonary vascular imaging should be used over bilateral lower extremity ultrasounds(weak recommendation, very-low-quality evidence).",
+      "subsections": {
+        "D-Dimer": {
+          "text": "D-Dimer MAY BE used with following limits with\nvery poor evidence\n[16]\n[17]\n[18]\n1st trimester: <750 ng/mL (+50% increase from normal lab threshold)\n2nd trimester: <1000 ng/mL (+100% from normal)\n3rd trimester: <1250 ng/mL (+150% from normal)\nYEARS Algorithm\n3-month incidence of VTE of pregnant patients without CTPA was 0.43%\n[19]\nPregnancy-adapted YEARS algorithm recommends initiation of anticoagulation in positive US compression of symptomatic leg should there be signs of DVT\nPregnancy-adapted YEARS algorithm\n[20]\n“Pulmonary embolism was safely ruled out by the pregnancy-adapted YEARS diagnostic algorithm across all trimesters of pregnancy. CT pulmonary angiography was avoided in 32 to 65% of patients\"\nefficiency of algorithm highest during first trimester and lowest during third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "D-Dimer": {
+      "text": "D-Dimer MAY BE used with following limits with\nvery poor evidence\n[16]\n[17]\n[18]\n1st trimester: <750 ng/mL (+50% increase from normal lab threshold)\n2nd trimester: <1000 ng/mL (+100% from normal)\n3rd trimester: <1250 ng/mL (+150% from normal)\nYEARS Algorithm\n3-month incidence of VTE of pregnant patients without CTPA was 0.43%\n[19]\nPregnancy-adapted YEARS algorithm recommends initiation of anticoagulation in positive US compression of symptomatic leg should there be signs of DVT\nPregnancy-adapted YEARS algorithm\n[20]\n“Pulmonary embolism was safely ruled out by the pregnancy-adapted YEARS diagnostic algorithm across all trimesters of pregnancy. CT pulmonary angiography was avoided in 32 to 65% of patients\"\nefficiency of algorithm highest during first trimester and lowest during third",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Heparin\nand\nEnoxaparin\nare safe (coumadin is not)\nHeparin\n80 units/kg IV bolus followed by continuous infusion 18 units/kg/hr\n[21]\nEnoxaparin\n1 milligram/kg (100 IU/kg) SC every 12 or 24 h\n[21]\nPerimortem cesarean delivery\nwith cardiac arrest with no ROSC in 5 min\nConsider\nthrombolysis\nin severely unstable post-partum pulmonary embolism\n[22]\n(see\nthrombolytics for pulmonary embolism\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "Perimortem cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        },
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_pulmonary_embolism"
+        },
+        {
+          "text": "thrombolytics for pulmonary embolism",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_pulmonary_embolism"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary Embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism"
+        }
+      ]
+    }
+  }
+}

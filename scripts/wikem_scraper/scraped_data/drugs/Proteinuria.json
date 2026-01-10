@@ -1,0 +1,883 @@
+{
+  "drug_name": "Proteinuria",
+  "url": "https://wikem.org/wiki/Proteinuria",
+  "scraped_at": "2026-01-10T08:00:45.267247",
+  "sections": {
+    "Background": {
+      "text": "Normal protein excretion 150mg/24 hours or 10mg/100mL\n>3.5g/24h considered nephrotic range\nDipstick: more sensitive to albumin, less sensitive to Bence-Jones protein and globulins\n\"Trace\" protein ≈ 10mg/100mL (i.e. upper limit of normal)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Causes/Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Functional": {
+          "text": "Benign:\nfever\n/acute illness, cold exposure, orthostatic proteinuria, strenuous exercise,\nhypertension\nCHF\n,\nshock\nPreeclampsia\n/\neclampsia\n/\nHELLP\n, [[acute fatty liver of pregnancy",
+          "tables": []
+        },
+        "Renal": {
+          "text": "Tubular dysfunction\nGlomerular disease (e.g.\nglomerulonephritis\n,\ndiabetes\n,\nHIV\n,\nSLE\n,\namyloidosis\n,\nIgA nephropathy\nor membranous nephropathy)\nNephrotic syndrome\nPyelonephritis\nMalignant hypertension\nAlport syndrome",
+          "tables": []
+        },
+        "Drugs": {
+          "text": "Aminoglycosides\n, [[penicillin]s,\namphotericin\n,\npenicillamine\n,\ndeferasirox\nNSAIDs\n, gold\nChloral hydrate toxicity\nLead toxicity",
+          "tables": []
+        },
+        "Protein_overload": {
+          "text": "Note: bence-jones globulins NOT detected on dipstick\nMultiple myeloma\n,\nlymphoma\n,\nleukemia\nRhabdomyolysis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Gout\nHypokalemia\n,\nCushing's syndrome\nElectrocution\nPolycystic kidney disease\nHepatorenal syndrome\nLeptospirosis\nPolyarteritis nodosa\nSerum sickness\nScleroderma",
+          "tables": []
+        },
+        "False_Positives": {
+          "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "deferasirox",
+          "url": "https://wikem.org/wiki/Deferasirox"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Chloral hydrate toxicity",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Functional": {
+      "text": "Benign:\nfever\n/acute illness, cold exposure, orthostatic proteinuria, strenuous exercise,\nhypertension\nCHF\n,\nshock\nPreeclampsia\n/\neclampsia\n/\nHELLP\n, [[acute fatty liver of pregnancy",
+      "subsections": {
+        "Renal": {
+          "text": "Tubular dysfunction\nGlomerular disease (e.g.\nglomerulonephritis\n,\ndiabetes\n,\nHIV\n,\nSLE\n,\namyloidosis\n,\nIgA nephropathy\nor membranous nephropathy)\nNephrotic syndrome\nPyelonephritis\nMalignant hypertension\nAlport syndrome",
+          "tables": []
+        },
+        "Drugs": {
+          "text": "Aminoglycosides\n, [[penicillin]s,\namphotericin\n,\npenicillamine\n,\ndeferasirox\nNSAIDs\n, gold\nChloral hydrate toxicity\nLead toxicity",
+          "tables": []
+        },
+        "Protein_overload": {
+          "text": "Note: bence-jones globulins NOT detected on dipstick\nMultiple myeloma\n,\nlymphoma\n,\nleukemia\nRhabdomyolysis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Gout\nHypokalemia\n,\nCushing's syndrome\nElectrocution\nPolycystic kidney disease\nHepatorenal syndrome\nLeptospirosis\nPolyarteritis nodosa\nSerum sickness\nScleroderma",
+          "tables": []
+        },
+        "False_Positives": {
+          "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Preeclampsia",
+          "url": "https://wikem.org/wiki/Preeclampsia"
+        },
+        {
+          "text": "eclampsia",
+          "url": "https://wikem.org/wiki/Eclampsia"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "deferasirox",
+          "url": "https://wikem.org/wiki/Deferasirox"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Chloral hydrate toxicity",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Renal": {
+      "text": "Tubular dysfunction\nGlomerular disease (e.g.\nglomerulonephritis\n,\ndiabetes\n,\nHIV\n,\nSLE\n,\namyloidosis\n,\nIgA nephropathy\nor membranous nephropathy)\nNephrotic syndrome\nPyelonephritis\nMalignant hypertension\nAlport syndrome",
+      "subsections": {
+        "Drugs": {
+          "text": "Aminoglycosides\n, [[penicillin]s,\namphotericin\n,\npenicillamine\n,\ndeferasirox\nNSAIDs\n, gold\nChloral hydrate toxicity\nLead toxicity",
+          "tables": []
+        },
+        "Protein_overload": {
+          "text": "Note: bence-jones globulins NOT detected on dipstick\nMultiple myeloma\n,\nlymphoma\n,\nleukemia\nRhabdomyolysis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Gout\nHypokalemia\n,\nCushing's syndrome\nElectrocution\nPolycystic kidney disease\nHepatorenal syndrome\nLeptospirosis\nPolyarteritis nodosa\nSerum sickness\nScleroderma",
+          "tables": []
+        },
+        "False_Positives": {
+          "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "glomerulonephritis",
+          "url": "https://wikem.org/wiki/Glomerulonephritis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "IgA nephropathy",
+          "url": "https://wikem.org/wiki/IgA_nephropathy"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "deferasirox",
+          "url": "https://wikem.org/wiki/Deferasirox"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Chloral hydrate toxicity",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Drugs": {
+      "text": "Aminoglycosides\n, [[penicillin]s,\namphotericin\n,\npenicillamine\n,\ndeferasirox\nNSAIDs\n, gold\nChloral hydrate toxicity\nLead toxicity",
+      "subsections": {
+        "Protein_overload": {
+          "text": "Note: bence-jones globulins NOT detected on dipstick\nMultiple myeloma\n,\nlymphoma\n,\nleukemia\nRhabdomyolysis",
+          "tables": []
+        },
+        "Other": {
+          "text": "Gout\nHypokalemia\n,\nCushing's syndrome\nElectrocution\nPolycystic kidney disease\nHepatorenal syndrome\nLeptospirosis\nPolyarteritis nodosa\nSerum sickness\nScleroderma",
+          "tables": []
+        },
+        "False_Positives": {
+          "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aminoglycosides",
+          "url": "https://wikem.org/wiki/Aminoglycosides"
+        },
+        {
+          "text": "amphotericin",
+          "url": "https://wikem.org/wiki/Amphotericin"
+        },
+        {
+          "text": "penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "deferasirox",
+          "url": "https://wikem.org/wiki/Deferasirox"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "Chloral hydrate toxicity",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Protein_overload": {
+      "text": "Note: bence-jones globulins NOT detected on dipstick\nMultiple myeloma\n,\nlymphoma\n,\nleukemia\nRhabdomyolysis",
+      "subsections": {
+        "Other": {
+          "text": "Gout\nHypokalemia\n,\nCushing's syndrome\nElectrocution\nPolycystic kidney disease\nHepatorenal syndrome\nLeptospirosis\nPolyarteritis nodosa\nSerum sickness\nScleroderma",
+          "tables": []
+        },
+        "False_Positives": {
+          "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "Other": {
+      "text": "Gout\nHypokalemia\n,\nCushing's syndrome\nElectrocution\nPolycystic kidney disease\nHepatorenal syndrome\nLeptospirosis\nPolyarteritis nodosa\nSerum sickness\nScleroderma",
+      "subsections": {
+        "False_Positives": {
+          "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Cushing's syndrome",
+          "url": "https://wikem.org/wiki/Cushing%27s_syndrome"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "Polycystic kidney disease",
+          "url": "https://wikem.org/wiki/Polycystic_kidney_disease"
+        },
+        {
+          "text": "Hepatorenal syndrome",
+          "url": "https://wikem.org/wiki/Hepatorenal_syndrome"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Serum sickness",
+          "url": "https://wikem.org/wiki/Serum_sickness"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "False_Positives": {
+      "text": "Menses or other\nvaginal bleeding\nHighly concentrated urine\nAlkaline urine\nAcetazolamide\n,\ncephalosporins\n,\nbicarbonate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "bicarbonate",
+          "url": "https://wikem.org/wiki/Bicarbonate"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Urine analysis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urine analysis",
+          "url": "https://wikem.org/wiki/Urine_analysis"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "drug_name": "Pterygium",
+  "url": "https://wikem.org/wiki/Pterygium",
+  "scraped_at": "2026-01-10T08:00:53.926483",
+  "sections": {
+    "Background": {
+      "text": "Also known as \"Surfer's eye\"\nBenign scleral growth\nMass of collagen degeneration and fibroblastic proliferation\nBegins near the medial canthus and grows laterally",
+      "subsections": {
+        "Risk_factors": {
+          "text": "Sunlight (UV) exposure\nWindy, sandy and dusty environments\nMore common near the equator",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors": {
+      "text": "Sunlight (UV) exposure\nWindy, sandy and dusty environments\nMore common near the equator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Triangular visible white-colored mass on medial side of sclera\nForeign body sensation with irritation,\npruritus\n, tearing, dryness\nVision impairment\n(when pterygium has crossed the limbus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Vision impairment",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ocular_Diagnoses": {
+          "text": "Acute angle-closure glaucoma\nConjunctival abrasion\nCorneal foreign body\nCorneal ulcer\nEpiscleritis\nPainful eyes with normal exam\nPterygium\nScleritis\nTraumatic hyphema\nUveitis\nPinguecula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Conjunctival abrasion",
+          "url": "https://wikem.org/wiki/Conjunctival_abrasion"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        }
+      ]
+    },
+    "Ocular_Diagnoses": {
+      "text": "Acute angle-closure glaucoma\nConjunctival abrasion\nCorneal foreign body\nCorneal ulcer\nEpiscleritis\nPainful eyes with normal exam\nPterygium\nScleritis\nTraumatic hyphema\nUveitis\nPinguecula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute angle-closure glaucoma",
+          "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma"
+        },
+        {
+          "text": "Conjunctival abrasion",
+          "url": "https://wikem.org/wiki/Conjunctival_abrasion"
+        },
+        {
+          "text": "Corneal foreign body",
+          "url": "https://wikem.org/wiki/Corneal_foreign_body"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Painful eyes with normal exam",
+          "url": "https://wikem.org/wiki/Painful_eyes_with_normal_exam"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis, based on history and physical exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Naphazoline/ketorolac (\nNSAID\n) drops (if symptomatic)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with ophtho follow-up\nIrradiation and surgical excision.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye Algorithm (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Algorithm (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithm_(Main)"
+        }
+      ]
+    }
+  }
+}

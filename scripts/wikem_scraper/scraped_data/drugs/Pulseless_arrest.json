@@ -1,0 +1,225 @@
+{
+  "drug_name": "Pulseless_arrest",
+  "url": "https://wikem.org/wiki/Pulseless_arrest",
+  "scraped_at": "2026-01-10T08:00:58.873683",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\npulseless arrest (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Immediate": {
+      "text": "Call for Help/activate Code Blue\nStart\nCPR\nGive oxygen\nAttach monitor/\ndefibrillator\nRhythm shockable?",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "defibrillator",
+          "url": "https://wikem.org/wiki/Defibrillation"
+        }
+      ]
+    },
+    "PEA_Evaluation_by_QRS": {
+      "text": "Differential based on QRS being narrow or wide and aided by ultrasound",
+      "subsections": {
+        "QRS_Narrow": {
+          "text": "Mechanical RV Problem – Ultrasound should show hyperdynamic LV and potential cause\nCardiac tamponade\nTension pneumothorax\nMechanical hyperinflation\nPulmonary embolism\nAcute MI with myocardial rupture",
+          "tables": []
+        },
+        "QRS_Widened": {
+          "text": "Metabolic LV Problem – Ultrasound should show hypokinetic LV\nSevere hyperkalemia\nSodium-channel blocker toxicity (Ex.\nTricyclic (TCA) toxicity\n)\nAgonal rhythm\nAcute MI with pump failure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Mechanical hyperinflation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Acute MI with myocardial rupture",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        },
+        {
+          "text": "Severe hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Acute MI with pump failure",
+          "url": "https://wikem.org/wiki/ST-Elevation_Myocardial_Infarction_(STEMI)"
+        }
+      ]
+    },
+    "General": {
+      "text": "A\n(adjunct) - Place oropharyngeal airway\nB\n(breathing) - place on\nVentilator\nto assure slow ventilation rate (attach to BVM mask)\n10-12 bpm, 500cc tidal volume, Fio2 100%\nC\n(compressions) - Switch out providers q pulse check; use metronome\n100-120 compressions/min\nCompress to a depth between 2-2.4 inches (5-6 cm)\nAllow full recoil between compressions\nD\n- defibrillation\nMay be ok to shock during compressions if wearing gloves and using biphasic device\n[1]\nPrecharge prior to pulse & rhythm check to increase overall compression time\nA\n(advanced airway)\nUse\nLMA\n(NOT ET tube - no break in compressions required)\nB\n(advanced breathing)\nConnect\nLMA\nto\nVentilator\nPressure control 20, RR 10, insp rate 1.5-2s\nC\n(advanced circulation)\nPlace\nIO\ninstead of central line\nD\n(differential)\nUltrasound: In Shock and Hypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ventilator",
+          "url": "https://wikem.org/wiki/Ventilator"
+        },
+        {
+          "text": "LMA",
+          "url": "https://wikem.org/wiki/LMA"
+        },
+        {
+          "text": "LMA",
+          "url": "https://wikem.org/wiki/LMA"
+        },
+        {
+          "text": "Ventilator",
+          "url": "https://wikem.org/wiki/Ventilator"
+        },
+        {
+          "text": "IO",
+          "url": "https://wikem.org/wiki/IO"
+        },
+        {
+          "text": "Ultrasound: In Shock and Hypotension",
+          "url": "https://wikem.org/wiki/Ultrasound:_In_Shock_and_Hypotension"
+        }
+      ]
+    },
+    "Refractory_Ventricular_Fibrillation": {
+      "text": "A patient is considered refractory after ≥3 defib,  ≥3mg\nepinephrine\n, and 300mg\namiodarone\nThe following therapies are largely based on case studies or case series",
+      "subsections": {
+        "Dual_Sequential_Defibrillation[2]_": {
+          "text": "Continue high quality CPR. Consider using devices such as LUCAS CPR to avoid ineffective CPR due to rescuer fatigue\nPlace a second set of defib pads in an alternative location on the chest (anterior/posterior and right upper chest/left lateral)\nDeliver 200J (or 360J if monophasic) simultaneously from both defibrillators\nContinue CPR",
+          "tables": []
+        },
+        "Esmolol_for_Electrical_Storm_[4][5]": {
+          "text": "Administer\nEsmolol\nbolus 500 mcg/kg IVP over 30 seconds (typical dose ranges 35-50 mg)\nIf ROSC, initiate 50 mcg/kg/min infusion\n[7]\nDeliver 200J (or 360J if monophasic) simultaneously from both defibrillators\nContinue CPR\nConsider holding further epinephrine (\nThe Current State of Refractory VF\n)",
+          "tables": []
+        },
+        "Stellate_Ganglion_Nerve_Block_": {
+          "text": "Place probe over left anterior neck\nIdentify thyroid gland, carotid artery, C6/C7, longus colli muscle, and prevertebral fascia\nAdvance needle to stellate ganglion which is deep to prevertebral fascia and superficial to longus colli muscle\nInject 1-2 ml of 1% lidocaine without epinephrine and observe dissection of the muscle and fascia layers to confirm placement\nWith placement confirmed, inject the rest of the anesthetic for a total of 10ml of volume",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        }
+      ]
+    },
+    "Stellate_Ganglion_Nerve_Block_": {
+      "text": "Place probe over left anterior neck\nIdentify thyroid gland, carotid artery, C6/C7, longus colli muscle, and prevertebral fascia\nAdvance needle to stellate ganglion which is deep to prevertebral fascia and superficial to longus colli muscle\nInject 1-2 ml of 1% lidocaine without epinephrine and observe dissection of the muscle and fascia layers to confirm placement\nWith placement confirmed, inject the rest of the anesthetic for a total of 10ml of volume",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Fibrinolytics": {
+      "text": "",
+      "subsections": {
+        "Dosing": {
+          "text": "Alteplase 0.6mg/kg IV push x1 given over 15 min (± heparin 5000 unit bolus), and then repeated 30 min after if still no ROSC\n[10]\nHeparin may be bolused with tPA or after ROSC obtained\nMax doses of 50mg may be as efficacious as 100mg\nConsider at least 20min of CPR after last dose of tPA before ending code",
+          "tables": []
+        },
+        "Guidelines_and_Recommendations": {
+          "text": "ACLS 2010 does not yet recommend routine thrombolytics (Class III)\nCHEST 2012 and ACLS 2010 recommends in acute\nPE\nor high suspicion\n[11]\nClass IIc and Class IIa, respectively\n2 hr infusion time recommended over long, 24hr (CHEST Class IIc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Dosing": {
+      "text": "Alteplase 0.6mg/kg IV push x1 given over 15 min (± heparin 5000 unit bolus), and then repeated 30 min after if still no ROSC\n[10]\nHeparin may be bolused with tPA or after ROSC obtained\nMax doses of 50mg may be as efficacious as 100mg\nConsider at least 20min of CPR after last dose of tPA before ending code",
+      "subsections": {
+        "Guidelines_and_Recommendations": {
+          "text": "ACLS 2010 does not yet recommend routine thrombolytics (Class III)\nCHEST 2012 and ACLS 2010 recommends in acute\nPE\nor high suspicion\n[11]\nClass IIc and Class IIa, respectively\n2 hr infusion time recommended over long, 24hr (CHEST Class IIc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "Guidelines_and_Recommendations": {
+      "text": "ACLS 2010 does not yet recommend routine thrombolytics (Class III)\nCHEST 2012 and ACLS 2010 recommends in acute\nPE\nor high suspicion\n[11]\nClass IIc and Class IIa, respectively\n2 hr infusion time recommended over long, 24hr (CHEST Class IIc)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ACLS (Main)\nDouble simultaneous external defibrillation\nBrain death\nPost cardiac arrest\nPediatric pulseless arrest",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        },
+        {
+          "text": "Double simultaneous external defibrillation",
+          "url": "https://wikem.org/wiki/Double_simultaneous_external_defibrillation"
+        },
+        {
+          "text": "Brain death",
+          "url": "https://wikem.org/wiki/Brain_death"
+        },
+        {
+          "text": "Post cardiac arrest",
+          "url": "https://wikem.org/wiki/Post_cardiac_arrest"
+        },
+        {
+          "text": "Pediatric pulseless arrest",
+          "url": "https://wikem.org/wiki/Pediatric_pulseless_arrest"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: Simplified ACLS Algorithms\nNumose EMed: The Pulseless Patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

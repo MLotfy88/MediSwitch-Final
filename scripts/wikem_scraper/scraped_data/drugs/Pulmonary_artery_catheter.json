@@ -1,0 +1,18 @@
+{
+  "drug_name": "Pulmonary_artery_catheter",
+  "url": "https://wikem.org/wiki/Pulmonary_artery_catheter",
+  "scraped_at": "2026-01-10T08:00:52.238566",
+  "sections": {
+    "Overview": {
+      "text": "7 French catheter inserted through\nsheath introducer\ninto the right side of the heart to measure CVP and pulmonary artery pressures\nUses the principle of\nballoon flotation\nSmall balloon inflated at tip of catheter\nAllows tip to travel through right atrium to right ventricle to pulmonary artery\nHas two ports; one rests in right atrium and second rests in pulmonary artery\nNormal pressures:\nRA: 2-6 mmHg\nRV: 20-30/0-5 mmHg\nPA: 20-30/5-15 mmHg\nPCWP: 4-12 mmHg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sheath introducer",
+          "url": "https://wikem.org/wiki/Sheath_introducer"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "drug_name": "Purpura_fulminans",
+  "url": "https://wikem.org/wiki/Purpura_fulminans",
+  "scraped_at": "2026-01-10T08:00:58.971735",
+  "sections": {
+    "Background": {
+      "text": "Life-threatening syndrome of intravascular coagulation and hemmorrhagic skin infarction→\nDIC\nand vascular collapse\nUsually occurs in children, but can occur in adults\nMost commonly in the setting of overwhelming sepsis\nOR\n7-10 days after infection",
+      "subsections": {
+        "Causes": {
+          "text": "Meningococcus\nStreptococcus\nspecies\nVaricella\nRickettsia sp\nVenom-induced consumptive coagulopathy (VICC) due to\nsnake bites\nProtein C, protein S, or antithrombin III deficiency\nDrug-induced",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Meningococcus",
+          "url": "https://wikem.org/wiki/Meningococcus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Rickettsia sp",
+          "url": "https://wikem.org/wiki/Rickettsia_sp"
+        },
+        {
+          "text": "snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Meningococcus\nStreptococcus\nspecies\nVaricella\nRickettsia sp\nVenom-induced consumptive coagulopathy (VICC) due to\nsnake bites\nProtein C, protein S, or antithrombin III deficiency\nDrug-induced",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningococcus",
+          "url": "https://wikem.org/wiki/Meningococcus"
+        },
+        {
+          "text": "Streptococcus",
+          "url": "https://wikem.org/wiki/Streptococcus"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Rickettsia sp",
+          "url": "https://wikem.org/wiki/Rickettsia_sp"
+        },
+        {
+          "text": "snake bites",
+          "url": "https://wikem.org/wiki/Snake_bites"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Erythematous\nmacules\nrapidly progress→ Large, purpuric lesions\nDIC\nHypotension\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "macules",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Petechiae/Purpura_(by_findings)": {
+          "text": "Febrile, toxic\nPalpable\nMeningococcemia\nDisseminated\ngonococcal\ninfection\nEndocarditis\nRocky mountain spotted fever\nHSP\nNon-palpable\nPurpura fulminans\nDIC\nTTP\nAfebrile, nontoxic\nPalpable\nAutoimmune\nvasculitis\nNon-palpable\nITP",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Meningococcemia",
+          "url": "https://wikem.org/wiki/Meningococcemia"
+        },
+        {
+          "text": "gonococcal",
+          "url": "https://wikem.org/wiki/Gonococcal"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Rocky mountain spotted fever",
+          "url": "https://wikem.org/wiki/Rocky_mountain_spotted_fever"
+        },
+        {
+          "text": "HSP",
+          "url": "https://wikem.org/wiki/HSP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "DIC\nwork up\nCBC, PT/PTT, fibrinogen, d-dimer, FDP\nInfectious work up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat\nshock\nTreat underlying infection\nNecrotic tissue may require debridement\nCoagulopathy\ncorrection, in some cases\nTypically only if bleeding or need for procedure\nException:\nFFP\nusually indicated for neonatal purpura fulminans\nCryoprecipitate\n: consider if fibrinogen <100\nPlatelets\n: consider repletion if <50K with bleeding or <20K without bleeding\nFFP\n: consider repletion to goal of PT and PTT < 1.5 times the normal limit\nVitamin K\n,\nfolate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "folate",
+          "url": "https://wikem.org/wiki/Folate"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit!",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nDIC",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    }
+  }
+}

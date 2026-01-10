@@ -1,0 +1,26 @@
+{
+  "drug_name": "Proton-pump_inhibitor",
+  "url": "https://wikem.org/wiki/Proton-pump_inhibitor",
+  "scraped_at": "2026-01-10T08:00:47.188604",
+  "sections": {
+    "Examples": {
+      "text": "Omeprazole\n(Gasec, Losec, Prilosec, Zegerid, ocid, Lomac, Omepral, Zolppi, Omez, Omepep, UlcerGard, GastroGard, Altosec)\nLansoprazole\n(Prevacid, Zoton, Monolitum, Inhibitol, Levant, Lupizole)\nDexlansoprazole\n(Kapidex, Dexilant)\nEsomeprazole\n(Nexium, Esotrex, esso)\nPantoprazole\n(Protonix, Somac, Forppi, Pantoloc, Pantozol, Pantomed, Zurcal, Zentro, Pan, Controloc, Tecta)\nRabeprazole\n(AcipHex, Pariet, Erraz, Zechin, Rabecid, Nzole-D, Rabeloc, Razo, Superia. Dorafem: combination with\ndomperidone\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Omeprazole",
+          "url": "https://wikem.org/wiki/Omeprazole"
+        },
+        {
+          "text": "Lansoprazole",
+          "url": "https://wikem.org/wiki/Lansoprazole"
+        },
+        {
+          "text": "Pantoprazole",
+          "url": "https://wikem.org/wiki/Pantoprazole"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2443 @@
+{
+  "drug_name": "Pulmonary_embolism",
+  "url": "https://wikem.org/wiki/Pulmonary_embolism",
+  "scraped_at": "2026-01-10T08:00:57.917454",
+  "sections": {
+    "Intro": {
+      "text": "See\npulmonary embolism in pregnancy\nfor pregnancy specific information.\n[1]\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Clinical_Spectrum_of_Venous_thromboembolism": {
+          "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[2]\n[3]",
+          "tables": []
+        },
+        "Massive:_High-risk": {
+          "text": "Hemodynamically unstable with symptoms of shock\nACCP 2016 CHEST Guidelines: Sustained hypotension ONLY criteria (systolic BP <90 for at least 15min or requiring inotropic support)\nPrevious definitions (e.g. AHA 2011) include cardiac arrest/pulselessness or persistent profound bradycardia (HR <40 with signs of shock)",
+          "tables": []
+        },
+        "Submassive:_Intermediate-risk": {
+          "text": "Right ventricular dysfunction (RVD) and/or myocardial necrosis in the absence of persistent hypotension or shock (SBP >90)\n[5]\nRV dysfunction\nRV dilation or dysfunction on TTE\n\"D Sign\" on bedside echo (LV takes on a \"D\" shape due to RV dilation)\nRV dysfunction on CT defined as RV/LV ratio >0.9\n[6]\nElevation of BNP (>90)\nECG findings of right heart strain (see diagnosis below)\nMyocardial necrosis: Troponin I >0.4",
+          "tables": []
+        },
+        "Non-Massive:_Low-risk": {
+          "text": "No hemodynamic compromise and no RV strain",
+          "tables": []
+        },
+        "Sub-Segmental": {
+          "text": "Limited to the subsegmental pulmonary arteries",
+          "tables": []
+        },
+        "Epidemiology": {
+          "text": "The best estimates indicate that 350,000 to 600,000 Americans each year suffer from DVT and PE\n[7]\nSurvival\n[8]\nPE is the 3rd leading cause of cardiovascular morbidity and mortality\nAt least 100,000 deaths per year may be directly or indirectly related to DVT and PE\nFor almost one quarter of PE patients, the initial clinical presentation is sudden death\nPE is an independent predictor of reduced survival for ≤3 months\nOne of the leading causes of out-of-hospital, non-trauma related sudden deaths\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Clinical_Spectrum_of_Venous_thromboembolism": {
+      "text": "Deep venous thrombosis\n(uncomplicated)\nPhlegmasia alba dolens\nPhlegmasia cerulea dolens\nVenous gangrene\nPulmonary embolism\nPulmonary embolism in pregnancy\nIsolated distal deep venous thrombosis\nOnly 40% of ambulatory ED patients with\nPE\nhave concomitant\nDVT\n[2]\n[3]",
+      "subsections": {
+        "Massive:_High-risk": {
+          "text": "Hemodynamically unstable with symptoms of shock\nACCP 2016 CHEST Guidelines: Sustained hypotension ONLY criteria (systolic BP <90 for at least 15min or requiring inotropic support)\nPrevious definitions (e.g. AHA 2011) include cardiac arrest/pulselessness or persistent profound bradycardia (HR <40 with signs of shock)",
+          "tables": []
+        },
+        "Submassive:_Intermediate-risk": {
+          "text": "Right ventricular dysfunction (RVD) and/or myocardial necrosis in the absence of persistent hypotension or shock (SBP >90)\n[5]\nRV dysfunction\nRV dilation or dysfunction on TTE\n\"D Sign\" on bedside echo (LV takes on a \"D\" shape due to RV dilation)\nRV dysfunction on CT defined as RV/LV ratio >0.9\n[6]\nElevation of BNP (>90)\nECG findings of right heart strain (see diagnosis below)\nMyocardial necrosis: Troponin I >0.4",
+          "tables": []
+        },
+        "Non-Massive:_Low-risk": {
+          "text": "No hemodynamic compromise and no RV strain",
+          "tables": []
+        },
+        "Sub-Segmental": {
+          "text": "Limited to the subsegmental pulmonary arteries",
+          "tables": []
+        },
+        "Epidemiology": {
+          "text": "The best estimates indicate that 350,000 to 600,000 Americans each year suffer from DVT and PE\n[7]\nSurvival\n[8]\nPE is the 3rd leading cause of cardiovascular morbidity and mortality\nAt least 100,000 deaths per year may be directly or indirectly related to DVT and PE\nFor almost one quarter of PE patients, the initial clinical presentation is sudden death\nPE is an independent predictor of reduced survival for ≤3 months\nOne of the leading causes of out-of-hospital, non-trauma related sudden deaths\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Phlegmasia alba dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_alba_dolens"
+        },
+        {
+          "text": "Phlegmasia cerulea dolens",
+          "url": "https://wikem.org/wiki/Phlegmasia_cerulea_dolens"
+        },
+        {
+          "text": "Venous gangrene",
+          "url": "https://wikem.org/wiki/Venous_gangrene"
+        },
+        {
+          "text": "Pulmonary embolism in pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism_in_pregnancy"
+        },
+        {
+          "text": "Isolated distal deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Isolated_distal_deep_venous_thrombosis"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Pulmonary_Embolism_Categorization": {
+      "text": "",
+      "subsections": {
+        "Massive:_High-risk": {
+          "text": "Hemodynamically unstable with symptoms of shock\nACCP 2016 CHEST Guidelines: Sustained hypotension ONLY criteria (systolic BP <90 for at least 15min or requiring inotropic support)\nPrevious definitions (e.g. AHA 2011) include cardiac arrest/pulselessness or persistent profound bradycardia (HR <40 with signs of shock)",
+          "tables": []
+        },
+        "Submassive:_Intermediate-risk": {
+          "text": "Right ventricular dysfunction (RVD) and/or myocardial necrosis in the absence of persistent hypotension or shock (SBP >90)\n[5]\nRV dysfunction\nRV dilation or dysfunction on TTE\n\"D Sign\" on bedside echo (LV takes on a \"D\" shape due to RV dilation)\nRV dysfunction on CT defined as RV/LV ratio >0.9\n[6]\nElevation of BNP (>90)\nECG findings of right heart strain (see diagnosis below)\nMyocardial necrosis: Troponin I >0.4",
+          "tables": []
+        },
+        "Non-Massive:_Low-risk": {
+          "text": "No hemodynamic compromise and no RV strain",
+          "tables": []
+        },
+        "Sub-Segmental": {
+          "text": "Limited to the subsegmental pulmonary arteries",
+          "tables": []
+        },
+        "Epidemiology": {
+          "text": "The best estimates indicate that 350,000 to 600,000 Americans each year suffer from DVT and PE\n[7]\nSurvival\n[8]\nPE is the 3rd leading cause of cardiovascular morbidity and mortality\nAt least 100,000 deaths per year may be directly or indirectly related to DVT and PE\nFor almost one quarter of PE patients, the initial clinical presentation is sudden death\nPE is an independent predictor of reduced survival for ≤3 months\nOne of the leading causes of out-of-hospital, non-trauma related sudden deaths\n[9]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Epidemiology": {
+      "text": "The best estimates indicate that 350,000 to 600,000 Americans each year suffer from DVT and PE\n[7]\nSurvival\n[8]\nPE is the 3rd leading cause of cardiovascular morbidity and mortality\nAt least 100,000 deaths per year may be directly or indirectly related to DVT and PE\nFor almost one quarter of PE patients, the initial clinical presentation is sudden death\nPE is an independent predictor of reduced survival for ≤3 months\nOne of the leading causes of out-of-hospital, non-trauma related sudden deaths\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Symptoms": {
+          "text": "According to the PIOPED II study, these are the most common presenting signs\n[10]\nDyspnea\nat rest or with exertion (73%)\nPleuritic\nchest pain\n(44%)\nCough\n(37%)\nOrthopnea (28%)\nCalf or thigh pain and/or swelling (44%)\nWheezing\n(21%)\nHemoptysis\n(13%)",
+          "tables": []
+        },
+        "Signs": {
+          "text": "Tachypnea\n(54%)\nCalf or thigh swelling, erythema, edema, tenderness, palpable cord (47%)\nTachycardia\n(24%)\nRales (18%)\nDecreased breath sounds (17%)\nAccentuated pulmonic component of the second heart sound (15%)\nJVD (14%)\nFever\n(3%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "According to the PIOPED II study, these are the most common presenting signs\n[10]\nDyspnea\nat rest or with exertion (73%)\nPleuritic\nchest pain\n(44%)\nCough\n(37%)\nOrthopnea (28%)\nCalf or thigh pain and/or swelling (44%)\nWheezing\n(21%)\nHemoptysis\n(13%)",
+      "subsections": {
+        "Signs": {
+          "text": "Tachypnea\n(54%)\nCalf or thigh swelling, erythema, edema, tenderness, palpable cord (47%)\nTachycardia\n(24%)\nRales (18%)\nDecreased breath sounds (17%)\nAccentuated pulmonic component of the second heart sound (15%)\nJVD (14%)\nFever\n(3%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Signs": {
+      "text": "Tachypnea\n(54%)\nCalf or thigh swelling, erythema, edema, tenderness, palpable cord (47%)\nTachycardia\n(24%)\nRales (18%)\nDecreased breath sounds (17%)\nAccentuated pulmonic component of the second heart sound (15%)\nJVD (14%)\nFever\n(3%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        },
+        "Emergent_2": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        },
+        "Emergent_2": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Acute_dyspnea": {
+      "text": "",
+      "subsections": {
+        "Emergent_2": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Assessing_Pretest_Probability": {
+          "text": "Objective criteria (Geneva, Wells, etc.) is equal to gestalt in assessing pre-test probability\n[11]\n(ACEP Level B)\nInitial Wells study and prospective validation\n[12]\nused a three tier system (low 0-1, intermediate 2-6, high >6) to establish pretest probability with a small sample size\nThe larger Christopher Study group used a larger sample size to derive the simplified dichotomized/two tier model below\n[13]",
+          "tables": []
+        },
+        "Wells_Criteria": {
+          "text": "Score 0-4 = PE Unlikely (12.1% incidence of PE)\nCheck\nD-dimer\nIf D-dimer positive then obtain CTPA or V/Q scan\nIf D-dimer negative, no further workup needed (0.5% incidence of PE at 3 month follow up)\nScore >4 = PE Likely (37.1% incidence of PE)\nObtain CT Pulmonary Angiography or V/Q Scan\nNew evidence suggests lower Wells Score with D-dimer <1000 ng/mL is effective at ruling out PE without imaging",
+          "tables": [
+            [
+              {
+                "Clinical Features": "Symptoms ofDVT(leg swelling and pain with palpation)",
+                "Points": "3.0"
+              },
+              {
+                "Clinical Features": "PEas likely as or more likely than an alternative diagnosis",
+                "Points": "3.0"
+              },
+              {
+                "Clinical Features": "HR >100 bpm",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "Immobilization for >3 consecutive days or surgery in the previous 4 weeks",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "PreviousDVTor PE",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "Hemoptysis",
+                "Points": "1.0"
+              },
+              {
+                "Clinical Features": "Malignancy (receiving treatment, treatment stopped within 6 mon, palliative care)",
+                "Points": "1.0"
+              }
+            ]
+          ]
+        },
+        "Low-Probability_Testing_in_the_ED": {
+          "text": "PERC Rule\nnegative\n, then no further workup\n[11]\n(ACEP Level B)\nAvoid CT pulmonary angiography in low pretest probability patients that are either PERC rule negative or have a negative d-dimer (\nACEP choosing wisely\n)\nD-dimer NPV is 99.5%\n[14]\nPERC Rule\npositive\n, then\nD-dimer\n(see Moderate-Probability Testing below)\n[11]\n(ACEP Level B)\nCan also consider using Wells score as above to determine further testing",
+          "tables": []
+        },
+        "Adjusted_D-Dimer_to_Higher_Threshold": {
+          "text": "For certain patients a higher d-dimer can be used\n[15]\nAge Adjusted D-Dimer\nYEARS Algorithm\nPEGeD",
+          "tables": []
+        },
+        "Less_common_risk_factors": {
+          "text": "HIV (protein wasting nephropathy)\nNephrotic Syndrome\nSLE\nwith anti-cardiolipin Ab\nExogenous hormones (specifically estrogen)\nhomozygous\nFactor V Leiden\nAntithrombin III deficiency\nProtein C deficiency\nProtein S deficiency\nHyperhomocysteinemia\nSickle cell anemia\n(S/S and S/beta thalassemia)\n[16]",
+          "tables": []
+        },
+        "Evaluate_bleeding_risk_(HAS-BLED)": {
+          "text": "HAS-BLED score (developed to evaluate bleeding risk for anticoagulation in Afib) can also identify patients with acute VTE at high risk for bleeding complications within 6 months\n[17]\nWhen applied to VTE patients on vitamin K-antagonists, NOT DOACs (in first 6 months of treatment):\nScore 0-2 = 1.3% incidence of major bleeds\nScore 3+ = 9.6% incidence of major bleeds\nOther bleeding risk models include the RIETE score (validated in patients taking VKA or rivaroxaban) and VTE-BLEED score (validated in patients taking warfarin and edoxaban).",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Hypertension",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Abnormal renal and/or hepatic function",
+                "Point": "1 point each"
+              },
+              {
+                "Risk Factor": "Stroke",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Bleeding tendency/predisposition",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Labile INR on warfarin",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Elderly (age >65 years)",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Drugs (aspirin or NSAIDs) and/or alcohol",
+                "Point": "1 point each"
+              }
+            ]
+          ]
+        },
+        "Initial_Management_While_Awaiting_Workup": {
+          "text": "based on ACCP 2016 Guidelines",
+          "tables": [
+            [
+              {
+                "Clinical suspicion": "Low",
+                "Management": "Do not treat with anticoagulation while awaiting diagnostic test results"
+              },
+              {
+                "Clinical suspicion": "Medium",
+                "Management": "Treat with parenteral anticoagulation if the results of diagnostic tests are expected to be delayed ≥ 4 hours"
+              },
+              {
+                "Clinical suspicion": "High",
+                "Management": "Treat with parenteral anticoagulation while awaiting diagnostic test results"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "PERC Rule",
+          "url": "https://wikem.org/wiki/PERC_Rule"
+        },
+        {
+          "text": "ACEP choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "PERC Rule",
+          "url": "https://wikem.org/wiki/PERC_Rule"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Factor V Leiden",
+          "url": "https://wikem.org/wiki/Factor_V_Leiden"
+        },
+        {
+          "text": "Sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "Assessing_Pretest_Probability": {
+      "text": "Objective criteria (Geneva, Wells, etc.) is equal to gestalt in assessing pre-test probability\n[11]\n(ACEP Level B)\nInitial Wells study and prospective validation\n[12]\nused a three tier system (low 0-1, intermediate 2-6, high >6) to establish pretest probability with a small sample size\nThe larger Christopher Study group used a larger sample size to derive the simplified dichotomized/two tier model below\n[13]",
+      "subsections": {
+        "Wells_Criteria": {
+          "text": "Score 0-4 = PE Unlikely (12.1% incidence of PE)\nCheck\nD-dimer\nIf D-dimer positive then obtain CTPA or V/Q scan\nIf D-dimer negative, no further workup needed (0.5% incidence of PE at 3 month follow up)\nScore >4 = PE Likely (37.1% incidence of PE)\nObtain CT Pulmonary Angiography or V/Q Scan\nNew evidence suggests lower Wells Score with D-dimer <1000 ng/mL is effective at ruling out PE without imaging",
+          "tables": [
+            [
+              {
+                "Clinical Features": "Symptoms ofDVT(leg swelling and pain with palpation)",
+                "Points": "3.0"
+              },
+              {
+                "Clinical Features": "PEas likely as or more likely than an alternative diagnosis",
+                "Points": "3.0"
+              },
+              {
+                "Clinical Features": "HR >100 bpm",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "Immobilization for >3 consecutive days or surgery in the previous 4 weeks",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "PreviousDVTor PE",
+                "Points": "1.5"
+              },
+              {
+                "Clinical Features": "Hemoptysis",
+                "Points": "1.0"
+              },
+              {
+                "Clinical Features": "Malignancy (receiving treatment, treatment stopped within 6 mon, palliative care)",
+                "Points": "1.0"
+              }
+            ]
+          ]
+        },
+        "Low-Probability_Testing_in_the_ED": {
+          "text": "PERC Rule\nnegative\n, then no further workup\n[11]\n(ACEP Level B)\nAvoid CT pulmonary angiography in low pretest probability patients that are either PERC rule negative or have a negative d-dimer (\nACEP choosing wisely\n)\nD-dimer NPV is 99.5%\n[14]\nPERC Rule\npositive\n, then\nD-dimer\n(see Moderate-Probability Testing below)\n[11]\n(ACEP Level B)\nCan also consider using Wells score as above to determine further testing",
+          "tables": []
+        },
+        "Adjusted_D-Dimer_to_Higher_Threshold": {
+          "text": "For certain patients a higher d-dimer can be used\n[15]\nAge Adjusted D-Dimer\nYEARS Algorithm\nPEGeD",
+          "tables": []
+        },
+        "Less_common_risk_factors": {
+          "text": "HIV (protein wasting nephropathy)\nNephrotic Syndrome\nSLE\nwith anti-cardiolipin Ab\nExogenous hormones (specifically estrogen)\nhomozygous\nFactor V Leiden\nAntithrombin III deficiency\nProtein C deficiency\nProtein S deficiency\nHyperhomocysteinemia\nSickle cell anemia\n(S/S and S/beta thalassemia)\n[16]",
+          "tables": []
+        },
+        "Evaluate_bleeding_risk_(HAS-BLED)": {
+          "text": "HAS-BLED score (developed to evaluate bleeding risk for anticoagulation in Afib) can also identify patients with acute VTE at high risk for bleeding complications within 6 months\n[17]\nWhen applied to VTE patients on vitamin K-antagonists, NOT DOACs (in first 6 months of treatment):\nScore 0-2 = 1.3% incidence of major bleeds\nScore 3+ = 9.6% incidence of major bleeds\nOther bleeding risk models include the RIETE score (validated in patients taking VKA or rivaroxaban) and VTE-BLEED score (validated in patients taking warfarin and edoxaban).",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Hypertension",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Abnormal renal and/or hepatic function",
+                "Point": "1 point each"
+              },
+              {
+                "Risk Factor": "Stroke",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Bleeding tendency/predisposition",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Labile INR on warfarin",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Elderly (age >65 years)",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Drugs (aspirin or NSAIDs) and/or alcohol",
+                "Point": "1 point each"
+              }
+            ]
+          ]
+        },
+        "Initial_Management_While_Awaiting_Workup": {
+          "text": "based on ACCP 2016 Guidelines",
+          "tables": [
+            [
+              {
+                "Clinical suspicion": "Low",
+                "Management": "Do not treat with anticoagulation while awaiting diagnostic test results"
+              },
+              {
+                "Clinical suspicion": "Medium",
+                "Management": "Treat with parenteral anticoagulation if the results of diagnostic tests are expected to be delayed ≥ 4 hours"
+              },
+              {
+                "Clinical suspicion": "High",
+                "Management": "Treat with parenteral anticoagulation while awaiting diagnostic test results"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "PERC Rule",
+          "url": "https://wikem.org/wiki/PERC_Rule"
+        },
+        {
+          "text": "ACEP choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "PERC Rule",
+          "url": "https://wikem.org/wiki/PERC_Rule"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Factor V Leiden",
+          "url": "https://wikem.org/wiki/Factor_V_Leiden"
+        },
+        {
+          "text": "Sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "Low-Probability_Testing_in_the_ED": {
+      "text": "PERC Rule\nnegative\n, then no further workup\n[11]\n(ACEP Level B)\nAvoid CT pulmonary angiography in low pretest probability patients that are either PERC rule negative or have a negative d-dimer (\nACEP choosing wisely\n)\nD-dimer NPV is 99.5%\n[14]\nPERC Rule\npositive\n, then\nD-dimer\n(see Moderate-Probability Testing below)\n[11]\n(ACEP Level B)\nCan also consider using Wells score as above to determine further testing",
+      "subsections": {
+        "Adjusted_D-Dimer_to_Higher_Threshold": {
+          "text": "For certain patients a higher d-dimer can be used\n[15]\nAge Adjusted D-Dimer\nYEARS Algorithm\nPEGeD",
+          "tables": []
+        },
+        "Less_common_risk_factors": {
+          "text": "HIV (protein wasting nephropathy)\nNephrotic Syndrome\nSLE\nwith anti-cardiolipin Ab\nExogenous hormones (specifically estrogen)\nhomozygous\nFactor V Leiden\nAntithrombin III deficiency\nProtein C deficiency\nProtein S deficiency\nHyperhomocysteinemia\nSickle cell anemia\n(S/S and S/beta thalassemia)\n[16]",
+          "tables": []
+        },
+        "Evaluate_bleeding_risk_(HAS-BLED)": {
+          "text": "HAS-BLED score (developed to evaluate bleeding risk for anticoagulation in Afib) can also identify patients with acute VTE at high risk for bleeding complications within 6 months\n[17]\nWhen applied to VTE patients on vitamin K-antagonists, NOT DOACs (in first 6 months of treatment):\nScore 0-2 = 1.3% incidence of major bleeds\nScore 3+ = 9.6% incidence of major bleeds\nOther bleeding risk models include the RIETE score (validated in patients taking VKA or rivaroxaban) and VTE-BLEED score (validated in patients taking warfarin and edoxaban).",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Hypertension",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Abnormal renal and/or hepatic function",
+                "Point": "1 point each"
+              },
+              {
+                "Risk Factor": "Stroke",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Bleeding tendency/predisposition",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Labile INR on warfarin",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Elderly (age >65 years)",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Drugs (aspirin or NSAIDs) and/or alcohol",
+                "Point": "1 point each"
+              }
+            ]
+          ]
+        },
+        "Initial_Management_While_Awaiting_Workup": {
+          "text": "based on ACCP 2016 Guidelines",
+          "tables": [
+            [
+              {
+                "Clinical suspicion": "Low",
+                "Management": "Do not treat with anticoagulation while awaiting diagnostic test results"
+              },
+              {
+                "Clinical suspicion": "Medium",
+                "Management": "Treat with parenteral anticoagulation if the results of diagnostic tests are expected to be delayed ≥ 4 hours"
+              },
+              {
+                "Clinical suspicion": "High",
+                "Management": "Treat with parenteral anticoagulation while awaiting diagnostic test results"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PERC Rule",
+          "url": "https://wikem.org/wiki/PERC_Rule"
+        },
+        {
+          "text": "ACEP choosing wisely",
+          "url": "https://wikem.org/wiki/Choosing_wisely_ACEP"
+        },
+        {
+          "text": "PERC Rule",
+          "url": "https://wikem.org/wiki/PERC_Rule"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Factor V Leiden",
+          "url": "https://wikem.org/wiki/Factor_V_Leiden"
+        },
+        {
+          "text": "Sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "Adjusted_D-Dimer_to_Higher_Threshold": {
+      "text": "For certain patients a higher d-dimer can be used\n[15]\nAge Adjusted D-Dimer\nYEARS Algorithm\nPEGeD",
+      "subsections": {
+        "Less_common_risk_factors": {
+          "text": "HIV (protein wasting nephropathy)\nNephrotic Syndrome\nSLE\nwith anti-cardiolipin Ab\nExogenous hormones (specifically estrogen)\nhomozygous\nFactor V Leiden\nAntithrombin III deficiency\nProtein C deficiency\nProtein S deficiency\nHyperhomocysteinemia\nSickle cell anemia\n(S/S and S/beta thalassemia)\n[16]",
+          "tables": []
+        },
+        "Evaluate_bleeding_risk_(HAS-BLED)": {
+          "text": "HAS-BLED score (developed to evaluate bleeding risk for anticoagulation in Afib) can also identify patients with acute VTE at high risk for bleeding complications within 6 months\n[17]\nWhen applied to VTE patients on vitamin K-antagonists, NOT DOACs (in first 6 months of treatment):\nScore 0-2 = 1.3% incidence of major bleeds\nScore 3+ = 9.6% incidence of major bleeds\nOther bleeding risk models include the RIETE score (validated in patients taking VKA or rivaroxaban) and VTE-BLEED score (validated in patients taking warfarin and edoxaban).",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Hypertension",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Abnormal renal and/or hepatic function",
+                "Point": "1 point each"
+              },
+              {
+                "Risk Factor": "Stroke",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Bleeding tendency/predisposition",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Labile INR on warfarin",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Elderly (age >65 years)",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Drugs (aspirin or NSAIDs) and/or alcohol",
+                "Point": "1 point each"
+              }
+            ]
+          ]
+        },
+        "Initial_Management_While_Awaiting_Workup": {
+          "text": "based on ACCP 2016 Guidelines",
+          "tables": [
+            [
+              {
+                "Clinical suspicion": "Low",
+                "Management": "Do not treat with anticoagulation while awaiting diagnostic test results"
+              },
+              {
+                "Clinical suspicion": "Medium",
+                "Management": "Treat with parenteral anticoagulation if the results of diagnostic tests are expected to be delayed ≥ 4 hours"
+              },
+              {
+                "Clinical suspicion": "High",
+                "Management": "Treat with parenteral anticoagulation while awaiting diagnostic test results"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Factor V Leiden",
+          "url": "https://wikem.org/wiki/Factor_V_Leiden"
+        },
+        {
+          "text": "Sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "Less_common_risk_factors": {
+      "text": "HIV (protein wasting nephropathy)\nNephrotic Syndrome\nSLE\nwith anti-cardiolipin Ab\nExogenous hormones (specifically estrogen)\nhomozygous\nFactor V Leiden\nAntithrombin III deficiency\nProtein C deficiency\nProtein S deficiency\nHyperhomocysteinemia\nSickle cell anemia\n(S/S and S/beta thalassemia)\n[16]",
+      "subsections": {
+        "Evaluate_bleeding_risk_(HAS-BLED)": {
+          "text": "HAS-BLED score (developed to evaluate bleeding risk for anticoagulation in Afib) can also identify patients with acute VTE at high risk for bleeding complications within 6 months\n[17]\nWhen applied to VTE patients on vitamin K-antagonists, NOT DOACs (in first 6 months of treatment):\nScore 0-2 = 1.3% incidence of major bleeds\nScore 3+ = 9.6% incidence of major bleeds\nOther bleeding risk models include the RIETE score (validated in patients taking VKA or rivaroxaban) and VTE-BLEED score (validated in patients taking warfarin and edoxaban).",
+          "tables": [
+            [
+              {
+                "Risk Factor": "Hypertension",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Abnormal renal and/or hepatic function",
+                "Point": "1 point each"
+              },
+              {
+                "Risk Factor": "Stroke",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Bleeding tendency/predisposition",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Labile INR on warfarin",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Elderly (age >65 years)",
+                "Point": "1"
+              },
+              {
+                "Risk Factor": "Drugs (aspirin or NSAIDs) and/or alcohol",
+                "Point": "1 point each"
+              }
+            ]
+          ]
+        },
+        "Initial_Management_While_Awaiting_Workup": {
+          "text": "based on ACCP 2016 Guidelines",
+          "tables": [
+            [
+              {
+                "Clinical suspicion": "Low",
+                "Management": "Do not treat with anticoagulation while awaiting diagnostic test results"
+              },
+              {
+                "Clinical suspicion": "Medium",
+                "Management": "Treat with parenteral anticoagulation if the results of diagnostic tests are expected to be delayed ≥ 4 hours"
+              },
+              {
+                "Clinical suspicion": "High",
+                "Management": "Treat with parenteral anticoagulation while awaiting diagnostic test results"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrotic Syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_Syndrome"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Factor V Leiden",
+          "url": "https://wikem.org/wiki/Factor_V_Leiden"
+        },
+        {
+          "text": "Sickle cell anemia",
+          "url": "https://wikem.org/wiki/Sickle_cell_crisis"
+        }
+      ]
+    },
+    "Initial_Management_While_Awaiting_Workup": {
+      "text": "based on ACCP 2016 Guidelines",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Clinical suspicion": "Low",
+            "Management": "Do not treat with anticoagulation while awaiting diagnostic test results"
+          },
+          {
+            "Clinical suspicion": "Medium",
+            "Management": "Treat with parenteral anticoagulation if the results of diagnostic tests are expected to be delayed ≥ 4 hours"
+          },
+          {
+            "Clinical suspicion": "High",
+            "Management": "Treat with parenteral anticoagulation while awaiting diagnostic test results"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Definitive_Diagnostic_Imaging": {
+          "text": "CTA Chest if GFR >60\nV/Q scan if GFR <60\nWill be nondiagnostic if patient has effusion, pneumonia, or other airspace disease\nIf imaging negative, perform additional diagnostic testing (e.g. lower extremity Doppler US, V/Q scan, and/or traditional pulmonary angiogram) prior to exclusion of VTE\n[11]\n(ACEP Level C)\nA negative d-dimer in combination with a negative CTA theoretically provides a post-test probability of VTE less than 1%",
+          "tables": []
+        },
+        "Other_Possible_Diagnostic_Findings": {
+          "text": "ECG\n(abnormal in 70% of PE\n[20]\nand associated with an adverse prognosis\n[21]\n)\nT-wave inversions (34%)\n[22]\nAnterior/septal leads (V1-V4) and inferior leads\n[23]\nT-wave flattening (30%)\nSinus Tachycardia (27%)\nRight axis deviation (11%)\nST-segment changes in V1-V4 (9%)\nS1Q3T3 RV strain pattern (4%)\nNew-onset atrial arrhythmias (e.g. atrial fibrillation)\nNew RBBB (complete or incomplete)\n[24]\nQR pattern in V1\nCXR\n(abnormal in 70%)\nAtelectasis is most common (esp >24 hrs after onset of symptoms)\nPleural effusion\nHampton's Hump\nWestermark's sign\n[25]\nFormal transthoracic echo\nor\nbedside cardiac ultrasound\nCan help diagnosis in equivocal cases\nMay see signs of right heart strain (bowing of septum into LV; Aka D Sign)\nRight ventricular strain is associated with statistically significant worse outcome\n[26]\nMcConnell's sign- Right ventricular free wall akinesis that spares the apex\nLateral right ventricular wall diameter of <5mm is suggestive of acute pulmonary hypertension while >5mm is suggestive of chronic pulmonary hypertension\n[27]\nSPECT\nCombination of non-contrast CT chest with V/Q scan\nAvoidance of contrast for patients with renal injury\nAs sensitive as CTPA and more sensitive than planar V/Q scanning\n[28]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Formal transthoracic echo",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        },
+        {
+          "text": "bedside cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        }
+      ]
+    },
+    "Definitive_Diagnostic_Imaging": {
+      "text": "CTA Chest if GFR >60\nV/Q scan if GFR <60\nWill be nondiagnostic if patient has effusion, pneumonia, or other airspace disease\nIf imaging negative, perform additional diagnostic testing (e.g. lower extremity Doppler US, V/Q scan, and/or traditional pulmonary angiogram) prior to exclusion of VTE\n[11]\n(ACEP Level C)\nA negative d-dimer in combination with a negative CTA theoretically provides a post-test probability of VTE less than 1%",
+      "subsections": {
+        "Other_Possible_Diagnostic_Findings": {
+          "text": "ECG\n(abnormal in 70% of PE\n[20]\nand associated with an adverse prognosis\n[21]\n)\nT-wave inversions (34%)\n[22]\nAnterior/septal leads (V1-V4) and inferior leads\n[23]\nT-wave flattening (30%)\nSinus Tachycardia (27%)\nRight axis deviation (11%)\nST-segment changes in V1-V4 (9%)\nS1Q3T3 RV strain pattern (4%)\nNew-onset atrial arrhythmias (e.g. atrial fibrillation)\nNew RBBB (complete or incomplete)\n[24]\nQR pattern in V1\nCXR\n(abnormal in 70%)\nAtelectasis is most common (esp >24 hrs after onset of symptoms)\nPleural effusion\nHampton's Hump\nWestermark's sign\n[25]\nFormal transthoracic echo\nor\nbedside cardiac ultrasound\nCan help diagnosis in equivocal cases\nMay see signs of right heart strain (bowing of septum into LV; Aka D Sign)\nRight ventricular strain is associated with statistically significant worse outcome\n[26]\nMcConnell's sign- Right ventricular free wall akinesis that spares the apex\nLateral right ventricular wall diameter of <5mm is suggestive of acute pulmonary hypertension while >5mm is suggestive of chronic pulmonary hypertension\n[27]\nSPECT\nCombination of non-contrast CT chest with V/Q scan\nAvoidance of contrast for patients with renal injury\nAs sensitive as CTPA and more sensitive than planar V/Q scanning\n[28]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Formal transthoracic echo",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        },
+        {
+          "text": "bedside cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        }
+      ]
+    },
+    "Other_Possible_Diagnostic_Findings": {
+      "text": "ECG\n(abnormal in 70% of PE\n[20]\nand associated with an adverse prognosis\n[21]\n)\nT-wave inversions (34%)\n[22]\nAnterior/septal leads (V1-V4) and inferior leads\n[23]\nT-wave flattening (30%)\nSinus Tachycardia (27%)\nRight axis deviation (11%)\nST-segment changes in V1-V4 (9%)\nS1Q3T3 RV strain pattern (4%)\nNew-onset atrial arrhythmias (e.g. atrial fibrillation)\nNew RBBB (complete or incomplete)\n[24]\nQR pattern in V1\nCXR\n(abnormal in 70%)\nAtelectasis is most common (esp >24 hrs after onset of symptoms)\nPleural effusion\nHampton's Hump\nWestermark's sign\n[25]\nFormal transthoracic echo\nor\nbedside cardiac ultrasound\nCan help diagnosis in equivocal cases\nMay see signs of right heart strain (bowing of septum into LV; Aka D Sign)\nRight ventricular strain is associated with statistically significant worse outcome\n[26]\nMcConnell's sign- Right ventricular free wall akinesis that spares the apex\nLateral right ventricular wall diameter of <5mm is suggestive of acute pulmonary hypertension while >5mm is suggestive of chronic pulmonary hypertension\n[27]\nSPECT\nCombination of non-contrast CT chest with V/Q scan\nAvoidance of contrast for patients with renal injury\nAs sensitive as CTPA and more sensitive than planar V/Q scanning\n[28]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Formal transthoracic echo",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        },
+        {
+          "text": "bedside cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_care": {
+          "text": "Oxygen therapy (maintain SpO2 ≥90% unless otherwise indicated)\nHemodynamic support (e.g. IVF, pressors)\nConsider gentle fluid challenge of 500ml normal saline bolus to improve cardiac index in select patients\n[29]\nExperimental studies suggest that aggressive volume expansion provides little benefit and may worsen RV function in those with acutely elevated RV afterload and acutely increased pulmonary HTN\n[30]",
+          "tables": []
+        },
+        "Anticoagulation": {
+          "text": "Always consider\nbleeding risk\nwhen determining risks/benefits of initiating anticoagulation\nTreatment options include any of the following anticoagulations which are indicated for all patients with confirmed\nPE\nor high clinical suspicion (do not wait for imaging).\nDuration\n3-6 mo, if time limited risk factor (post-op, trauma, estrogen use)\n6 mo to life, if idiopathic etiology or recurrent",
+          "tables": [
+            [
+              {
+                "Name": "Initial Dose",
+                "LMWHSC": "Enoxaparin1mg/kg SC q12hDalteparin200 IU/kg SC q24h, max 18,000 IU",
+                "Unfractionated Heparin": "80 units/kg bolus; then 18 units/kg/hr continuous infusion",
+                "Dabigatran": "Parenteral anticoagulation for 5-10 days; then 150mg twice daily",
+                "Rivaroxaban": "15mg twice daily for 3 weeks, then 20mg once daily",
+                "Apixaban": "10mg twice daily for 1 week, then 5mg twice daily",
+                "Coumadin": "Cannot be administered alone for acute PE. Usual starting dose 5mg PO"
+              },
+              {
+                "Name": "Benefits",
+                "LMWHSC": "1st line for most hemodynamically stable patientsPreferred in those with cancer, liver disease, coagulopathy, pregnancy",
+                "Unfractionated Heparin": "Short half-lifePreferred if rapid reversal is needed (e.g. considering thrombolytics or with bleeding risk/trauma)No need for renal dosing",
+                "Dabigatran": "Noninferior to warfarin in reducingDVTand PE[31]",
+                "Rivaroxaban": "Preferred if parenteral therapy to be avoidedAssociated with less bleeding, particularly in elderly patients and those with moderate renal impairment compared to standard treatments[32]",
+                "Apixaban": "Preferred if parenteral therapy to be avoided or if history of GI bleedingStudies show 16% reduction in VTE related death compared to standard therapy[33]",
+                "Coumadin": "Preferred in renal disease, history of poor compliance, or history of GI bleed"
+              },
+              {
+                "Name": "Contraindications",
+                "LMWHSC": "Severe renal impairment (CrCl <30 mL/min)Patients with morbid obesity or anasarca may have poor absorption",
+                "Unfractionated Heparin": "Use with caution in patients >60yoPrevious history of HIT",
+                "Dabigatran": "Avoid in CAD and in severe renal impairment",
+                "Rivaroxaban": "Avoid in hepatic disease (Child-Pugh Class B/C)",
+                "Apixaban": "Avoid in severe hepatic disease and renal impairment",
+                "Coumadin": "Temporary hypercoagulable state for approx 5 days"
+              },
+              {
+                "Name": "Comments",
+                "LMWHSC": "Dose adjustments may be necessary in obese patients",
+                "Unfractionated Heparin": "Check PTT after 6hr; adjust infusion to maintain PTT at 1.5-2.5x control",
+                "Dabigatran": "",
+                "Rivaroxaban": "Consider interactions with CYP3A4 inhibitors (e.g. -azoles)",
+                "Apixaban": "Consider interactions with CYP3A4 inhibitors",
+                "Coumadin": "INR target 2.5Consider many drug-drug interactions with CYP450 inhibitors or inducers"
+              }
+            ]
+          ]
+        },
+        "Subsegmental_PE": {
+          "text": "Evaluate for proximal DVT in legs with ultrasound\nIf low risk for recurrent VTE: Clinical surveillance recommended over anticoagulation (\nLevel 2C\nevidence)\n[34]\nIf high risk for recurrent VTE: anticoagulation recommended over surveillance",
+          "tables": []
+        },
+        "Catheter-directed_Therapy_for_intermediate-risk_(submassive)_PE": {
+          "text": "Includes catheter-directed thrombolysis and mechanical thrombus removal without thrombolysis\nStill no large prospective cohort or randomized trial evaluating CDT, so limited evidence recommendations from ACCP 2016 are weak\nPrimary outcome measure in study of 59 patients was improved RV function at 24 hours, but not mortality\nGiven broad clinical spectrum of intermediate-risk PE, CDT can be considered in a subset of patients with following characteristics:\nIntermediate-risk PE with more severe degree of RV dysfunction and positive biomarkers\nIntermediate-risk PE with severe hypoxemia\nHigh-risk (massive) PE with contraindications to systemic thrombolysis\nComplications include major access site bleeding, significant arrhythmias, pulmonary artery dissection, tamponade, worsening hemodynamics",
+          "tables": []
+        },
+        "Thrombolysis": {
+          "text": "See\nThrombolysis for PE",
+          "tables": []
+        },
+        "IVC_Filter": {
+          "text": "Indications\nanticoagulation contraindicated in patient with PE\nfailure to attain adequate anticoagulation during treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bleeding risk",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Evaluate_bleeding_risk_.28HAS-BLED.29"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Level 2C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "Oxygen therapy (maintain SpO2 ≥90% unless otherwise indicated)\nHemodynamic support (e.g. IVF, pressors)\nConsider gentle fluid challenge of 500ml normal saline bolus to improve cardiac index in select patients\n[29]\nExperimental studies suggest that aggressive volume expansion provides little benefit and may worsen RV function in those with acutely elevated RV afterload and acutely increased pulmonary HTN\n[30]",
+      "subsections": {
+        "Anticoagulation": {
+          "text": "Always consider\nbleeding risk\nwhen determining risks/benefits of initiating anticoagulation\nTreatment options include any of the following anticoagulations which are indicated for all patients with confirmed\nPE\nor high clinical suspicion (do not wait for imaging).\nDuration\n3-6 mo, if time limited risk factor (post-op, trauma, estrogen use)\n6 mo to life, if idiopathic etiology or recurrent",
+          "tables": [
+            [
+              {
+                "Name": "Initial Dose",
+                "LMWHSC": "Enoxaparin1mg/kg SC q12hDalteparin200 IU/kg SC q24h, max 18,000 IU",
+                "Unfractionated Heparin": "80 units/kg bolus; then 18 units/kg/hr continuous infusion",
+                "Dabigatran": "Parenteral anticoagulation for 5-10 days; then 150mg twice daily",
+                "Rivaroxaban": "15mg twice daily for 3 weeks, then 20mg once daily",
+                "Apixaban": "10mg twice daily for 1 week, then 5mg twice daily",
+                "Coumadin": "Cannot be administered alone for acute PE. Usual starting dose 5mg PO"
+              },
+              {
+                "Name": "Benefits",
+                "LMWHSC": "1st line for most hemodynamically stable patientsPreferred in those with cancer, liver disease, coagulopathy, pregnancy",
+                "Unfractionated Heparin": "Short half-lifePreferred if rapid reversal is needed (e.g. considering thrombolytics or with bleeding risk/trauma)No need for renal dosing",
+                "Dabigatran": "Noninferior to warfarin in reducingDVTand PE[31]",
+                "Rivaroxaban": "Preferred if parenteral therapy to be avoidedAssociated with less bleeding, particularly in elderly patients and those with moderate renal impairment compared to standard treatments[32]",
+                "Apixaban": "Preferred if parenteral therapy to be avoided or if history of GI bleedingStudies show 16% reduction in VTE related death compared to standard therapy[33]",
+                "Coumadin": "Preferred in renal disease, history of poor compliance, or history of GI bleed"
+              },
+              {
+                "Name": "Contraindications",
+                "LMWHSC": "Severe renal impairment (CrCl <30 mL/min)Patients with morbid obesity or anasarca may have poor absorption",
+                "Unfractionated Heparin": "Use with caution in patients >60yoPrevious history of HIT",
+                "Dabigatran": "Avoid in CAD and in severe renal impairment",
+                "Rivaroxaban": "Avoid in hepatic disease (Child-Pugh Class B/C)",
+                "Apixaban": "Avoid in severe hepatic disease and renal impairment",
+                "Coumadin": "Temporary hypercoagulable state for approx 5 days"
+              },
+              {
+                "Name": "Comments",
+                "LMWHSC": "Dose adjustments may be necessary in obese patients",
+                "Unfractionated Heparin": "Check PTT after 6hr; adjust infusion to maintain PTT at 1.5-2.5x control",
+                "Dabigatran": "",
+                "Rivaroxaban": "Consider interactions with CYP3A4 inhibitors (e.g. -azoles)",
+                "Apixaban": "Consider interactions with CYP3A4 inhibitors",
+                "Coumadin": "INR target 2.5Consider many drug-drug interactions with CYP450 inhibitors or inducers"
+              }
+            ]
+          ]
+        },
+        "Subsegmental_PE": {
+          "text": "Evaluate for proximal DVT in legs with ultrasound\nIf low risk for recurrent VTE: Clinical surveillance recommended over anticoagulation (\nLevel 2C\nevidence)\n[34]\nIf high risk for recurrent VTE: anticoagulation recommended over surveillance",
+          "tables": []
+        },
+        "Catheter-directed_Therapy_for_intermediate-risk_(submassive)_PE": {
+          "text": "Includes catheter-directed thrombolysis and mechanical thrombus removal without thrombolysis\nStill no large prospective cohort or randomized trial evaluating CDT, so limited evidence recommendations from ACCP 2016 are weak\nPrimary outcome measure in study of 59 patients was improved RV function at 24 hours, but not mortality\nGiven broad clinical spectrum of intermediate-risk PE, CDT can be considered in a subset of patients with following characteristics:\nIntermediate-risk PE with more severe degree of RV dysfunction and positive biomarkers\nIntermediate-risk PE with severe hypoxemia\nHigh-risk (massive) PE with contraindications to systemic thrombolysis\nComplications include major access site bleeding, significant arrhythmias, pulmonary artery dissection, tamponade, worsening hemodynamics",
+          "tables": []
+        },
+        "Thrombolysis": {
+          "text": "See\nThrombolysis for PE",
+          "tables": []
+        },
+        "IVC_Filter": {
+          "text": "Indications\nanticoagulation contraindicated in patient with PE\nfailure to attain adequate anticoagulation during treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bleeding risk",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Evaluate_bleeding_risk_.28HAS-BLED.29"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Level 2C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        }
+      ]
+    },
+    "Anticoagulation": {
+      "text": "Always consider\nbleeding risk\nwhen determining risks/benefits of initiating anticoagulation\nTreatment options include any of the following anticoagulations which are indicated for all patients with confirmed\nPE\nor high clinical suspicion (do not wait for imaging).\nDuration\n3-6 mo, if time limited risk factor (post-op, trauma, estrogen use)\n6 mo to life, if idiopathic etiology or recurrent",
+      "subsections": {
+        "Subsegmental_PE": {
+          "text": "Evaluate for proximal DVT in legs with ultrasound\nIf low risk for recurrent VTE: Clinical surveillance recommended over anticoagulation (\nLevel 2C\nevidence)\n[34]\nIf high risk for recurrent VTE: anticoagulation recommended over surveillance",
+          "tables": []
+        },
+        "Catheter-directed_Therapy_for_intermediate-risk_(submassive)_PE": {
+          "text": "Includes catheter-directed thrombolysis and mechanical thrombus removal without thrombolysis\nStill no large prospective cohort or randomized trial evaluating CDT, so limited evidence recommendations from ACCP 2016 are weak\nPrimary outcome measure in study of 59 patients was improved RV function at 24 hours, but not mortality\nGiven broad clinical spectrum of intermediate-risk PE, CDT can be considered in a subset of patients with following characteristics:\nIntermediate-risk PE with more severe degree of RV dysfunction and positive biomarkers\nIntermediate-risk PE with severe hypoxemia\nHigh-risk (massive) PE with contraindications to systemic thrombolysis\nComplications include major access site bleeding, significant arrhythmias, pulmonary artery dissection, tamponade, worsening hemodynamics",
+          "tables": []
+        },
+        "Thrombolysis": {
+          "text": "See\nThrombolysis for PE",
+          "tables": []
+        },
+        "IVC_Filter": {
+          "text": "Indications\nanticoagulation contraindicated in patient with PE\nfailure to attain adequate anticoagulation during treatment",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Name": "Initial Dose",
+            "LMWHSC": "Enoxaparin1mg/kg SC q12hDalteparin200 IU/kg SC q24h, max 18,000 IU",
+            "Unfractionated Heparin": "80 units/kg bolus; then 18 units/kg/hr continuous infusion",
+            "Dabigatran": "Parenteral anticoagulation for 5-10 days; then 150mg twice daily",
+            "Rivaroxaban": "15mg twice daily for 3 weeks, then 20mg once daily",
+            "Apixaban": "10mg twice daily for 1 week, then 5mg twice daily",
+            "Coumadin": "Cannot be administered alone for acute PE. Usual starting dose 5mg PO"
+          },
+          {
+            "Name": "Benefits",
+            "LMWHSC": "1st line for most hemodynamically stable patientsPreferred in those with cancer, liver disease, coagulopathy, pregnancy",
+            "Unfractionated Heparin": "Short half-lifePreferred if rapid reversal is needed (e.g. considering thrombolytics or with bleeding risk/trauma)No need for renal dosing",
+            "Dabigatran": "Noninferior to warfarin in reducingDVTand PE[31]",
+            "Rivaroxaban": "Preferred if parenteral therapy to be avoidedAssociated with less bleeding, particularly in elderly patients and those with moderate renal impairment compared to standard treatments[32]",
+            "Apixaban": "Preferred if parenteral therapy to be avoided or if history of GI bleedingStudies show 16% reduction in VTE related death compared to standard therapy[33]",
+            "Coumadin": "Preferred in renal disease, history of poor compliance, or history of GI bleed"
+          },
+          {
+            "Name": "Contraindications",
+            "LMWHSC": "Severe renal impairment (CrCl <30 mL/min)Patients with morbid obesity or anasarca may have poor absorption",
+            "Unfractionated Heparin": "Use with caution in patients >60yoPrevious history of HIT",
+            "Dabigatran": "Avoid in CAD and in severe renal impairment",
+            "Rivaroxaban": "Avoid in hepatic disease (Child-Pugh Class B/C)",
+            "Apixaban": "Avoid in severe hepatic disease and renal impairment",
+            "Coumadin": "Temporary hypercoagulable state for approx 5 days"
+          },
+          {
+            "Name": "Comments",
+            "LMWHSC": "Dose adjustments may be necessary in obese patients",
+            "Unfractionated Heparin": "Check PTT after 6hr; adjust infusion to maintain PTT at 1.5-2.5x control",
+            "Dabigatran": "",
+            "Rivaroxaban": "Consider interactions with CYP3A4 inhibitors (e.g. -azoles)",
+            "Apixaban": "Consider interactions with CYP3A4 inhibitors",
+            "Coumadin": "INR target 2.5Consider many drug-drug interactions with CYP450 inhibitors or inducers"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "bleeding risk",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Evaluate_bleeding_risk_.28HAS-BLED.29"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Level 2C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        }
+      ]
+    },
+    "Subsegmental_PE": {
+      "text": "Evaluate for proximal DVT in legs with ultrasound\nIf low risk for recurrent VTE: Clinical surveillance recommended over anticoagulation (\nLevel 2C\nevidence)\n[34]\nIf high risk for recurrent VTE: anticoagulation recommended over surveillance",
+      "subsections": {
+        "Catheter-directed_Therapy_for_intermediate-risk_(submassive)_PE": {
+          "text": "Includes catheter-directed thrombolysis and mechanical thrombus removal without thrombolysis\nStill no large prospective cohort or randomized trial evaluating CDT, so limited evidence recommendations from ACCP 2016 are weak\nPrimary outcome measure in study of 59 patients was improved RV function at 24 hours, but not mortality\nGiven broad clinical spectrum of intermediate-risk PE, CDT can be considered in a subset of patients with following characteristics:\nIntermediate-risk PE with more severe degree of RV dysfunction and positive biomarkers\nIntermediate-risk PE with severe hypoxemia\nHigh-risk (massive) PE with contraindications to systemic thrombolysis\nComplications include major access site bleeding, significant arrhythmias, pulmonary artery dissection, tamponade, worsening hemodynamics",
+          "tables": []
+        },
+        "Thrombolysis": {
+          "text": "See\nThrombolysis for PE",
+          "tables": []
+        },
+        "IVC_Filter": {
+          "text": "Indications\nanticoagulation contraindicated in patient with PE\nfailure to attain adequate anticoagulation during treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Level 2C",
+          "url": "https://wikem.org/wiki/EBQ:Evidence_Levels"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        }
+      ]
+    },
+    "Thrombolysis": {
+      "text": "See\nThrombolysis for PE",
+      "subsections": {
+        "IVC_Filter": {
+          "text": "Indications\nanticoagulation contraindicated in patient with PE\nfailure to attain adequate anticoagulation during treatment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        }
+      ]
+    },
+    "IVC_Filter": {
+      "text": "Indications\nanticoagulation contraindicated in patient with PE\nfailure to attain adequate anticoagulation during treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Patients with significant clot burden generally require admission for anticoagulation\nConsider discharge in low risk patients with peripheral PE\n[36]\nRisk stratify which patients can be discharged using HESTIA\n[37]\n, sPESI, or PESI scores\n[38]\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "The Pulmonary Embolism Severity Index (PESI)\n[39]\nPE patients with PESI class I or II seem safe to manage as outpatients.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Prognosis Variable": "Demographics",
+            "Points Assigned": ""
+          },
+          {
+            "Prognosis Variable": "Age",
+            "Points Assigned": "+Age in years"
+          },
+          {
+            "Prognosis Variable": "Male",
+            "Points Assigned": "+10"
+          },
+          {
+            "Prognosis Variable": "Comorbid Conditions",
+            "Points Assigned": ""
+          },
+          {
+            "Prognosis Variable": "Cancer",
+            "Points Assigned": "+30"
+          },
+          {
+            "Prognosis Variable": "Heart Failure",
+            "Points Assigned": "+10"
+          },
+          {
+            "Prognosis Variable": "Chronic Lung Disease",
+            "Points Assigned": "+10"
+          },
+          {
+            "Prognosis Variable": "Clincal Findings",
+            "Points Assigned": ""
+          },
+          {
+            "Prognosis Variable": "Pulse >110 b/min",
+            "Points Assigned": "+20"
+          },
+          {
+            "Prognosis Variable": "sBP < 100",
+            "Points Assigned": "+30"
+          },
+          {
+            "Prognosis Variable": "RR > 30",
+            "Points Assigned": "+20"
+          },
+          {
+            "Prognosis Variable": "Temp <36 C",
+            "Points Assigned": "+20"
+          },
+          {
+            "Prognosis Variable": "AMS",
+            "Points Assigned": "+60"
+          },
+          {
+            "Prognosis Variable": "Art O2 Saturation <90%",
+            "Points Assigned": "+20"
+          }
+        ],
+        [
+          {
+            "Risk Class": "I",
+            "30-Day Mortality": "1.60%",
+            "Total Point Score": "<65"
+          },
+          {
+            "Risk Class": "II",
+            "30-Day Mortality": "3.50%",
+            "Total Point Score": "66-85"
+          },
+          {
+            "Risk Class": "III",
+            "30-Day Mortality": "7.10%",
+            "Total Point Score": "86-105"
+          },
+          {
+            "Risk Class": "IV",
+            "30-Day Mortality": "11.40%",
+            "Total Point Score": "106-125"
+          },
+          {
+            "Risk Class": "V",
+            "30-Day Mortality": "23.90%",
+            "Total Point Score": ">125"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pulmonary Embolism in Pregnancy\nIVC Filter\nCardiac ultrasound",
+      "subsections": {
+        "Thrombolytics_for_pulmonary_embolism": {
+          "text": "Clinical Page\nThrombolysis for PE\nResearch summary page:\nEBQ:Thrombolysis in Pulmonary Embolism Metanalysis\nPEITHO Trial\nTOPCOAT Trial\nMOPETT Trial",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Embolism in Pregnancy",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism_in_Pregnancy"
+        },
+        {
+          "text": "IVC Filter",
+          "url": "https://wikem.org/wiki/IVC_Filter"
+        },
+        {
+          "text": "Cardiac ultrasound",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        },
+        {
+          "text": "EBQ:Thrombolysis in Pulmonary Embolism Metanalysis",
+          "url": "https://wikem.org/wiki/EBQ:Thrombolysis_in_Pulmonary_Embolism_Metanalysis"
+        },
+        {
+          "text": "PEITHO Trial",
+          "url": "https://wikem.org/wiki/EBQ:PEITHO_Trial"
+        },
+        {
+          "text": "TOPCOAT Trial",
+          "url": "https://wikem.org/wiki/EBQ:TOPCOAT_Trial"
+        },
+        {
+          "text": "MOPETT Trial",
+          "url": "https://wikem.org/wiki/EBQ:MOPETT_Trial"
+        }
+      ]
+    },
+    "Thrombolytics_for_pulmonary_embolism": {
+      "text": "Clinical Page\nThrombolysis for PE\nResearch summary page:\nEBQ:Thrombolysis in Pulmonary Embolism Metanalysis\nPEITHO Trial\nTOPCOAT Trial\nMOPETT Trial",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        },
+        {
+          "text": "EBQ:Thrombolysis in Pulmonary Embolism Metanalysis",
+          "url": "https://wikem.org/wiki/EBQ:Thrombolysis_in_Pulmonary_Embolism_Metanalysis"
+        },
+        {
+          "text": "PEITHO Trial",
+          "url": "https://wikem.org/wiki/EBQ:PEITHO_Trial"
+        },
+        {
+          "text": "TOPCOAT Trial",
+          "url": "https://wikem.org/wiki/EBQ:TOPCOAT_Trial"
+        },
+        {
+          "text": "MOPETT Trial",
+          "url": "https://wikem.org/wiki/EBQ:MOPETT_Trial"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP Clinical Policy: Acute Venous Thromboembolic Disease (Feb 2018)\nMDCalc Simplified PESI\nMDCalc - Well's Criteria for Pulmonary Embolism\nMDCalc - PERC Rule for Pulmonary Embolism\nMDCalc - Geneva Score for Pulmonary Embolism\nMDCalc - PESI - Pulmonary Embolism Severity Index\nMDCalc - Hestia Criteria for Pulmonary Embolism\nMDCalc - HAS-BLED Score for major bleeding risk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

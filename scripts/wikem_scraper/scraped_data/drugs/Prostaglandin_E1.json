@@ -1,0 +1,87 @@
+{
+  "drug_name": "Prostaglandin_E1",
+  "url": "https://wikem.org/wiki/Prostaglandin_E1",
+  "scraped_at": "2026-01-10T08:00:44.851810",
+  "sections": {
+    "General": {
+      "text": "AKA: aloprostadil\nType: smooth muscle relaxer, vasodilator\nDosage Forms: intravenous, penile injection, penile suppository\nCommon Trade Names:\nAlprostadil\n, Prostin VR, Caverject, Muse, Edex\nUses: maintenance of\npatent ductus arteriosus\nin neonates with duct-dependent congenital heart defects; treatment of erectile dysfunction in adults",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Start infusion at 0.05 mcg/kg/min IV\nTitrate to 0.1 mcg/kg/min as tolerated, monitoring for hypotension (and apnea)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: infant risk cannot be ruled out\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Beware of three common side effects that may require further resuscitation\n[2]\n[3]\n:\nApnea (12%), which requires respiratory monitoring with ETCO2 capnography, potential mechanical ventilation, and/or ALS/PALS transport if needing transfer to higher level of care\nPeripheral flushing with or without hypotension (10%), which requires fluid resuscitation\nFever\n(14%)\nOthers:\nHypotension\nBradycardia\nSeizures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 5-10m\nMetabolism: Lung\nExcretion: Renal\nMechanism of Action: synthetic of endogenous prostaglandin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Cyanotic neonates with ductal-dependent lesions typically respond within 10-15 minutes, but may not show response until several hours after the start of infusion.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tetralogy of fallot",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    }
+  }
+}

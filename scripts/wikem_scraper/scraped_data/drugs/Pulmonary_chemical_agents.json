@@ -1,0 +1,297 @@
+{
+  "drug_name": "Pulmonary_chemical_agents",
+  "url": "https://wikem.org/wiki/Pulmonary_chemical_agents",
+  "scraped_at": "2026-01-10T08:00:52.507375",
+  "sections": {
+    "Background": {
+      "text": "Include\nammonia\n,\nmethyl isocyanate\n,\nmethyl bromide\n,\nhydrochloric acid\nand\nchlorine gas\n,\nphosgene\nCommon toxic industrial chemicals, transported widely across country\nCan affect central or peripheral airways\nburning and irritation to epithelial lining causing airway edema or\npulmonary edema\n,\nhypoxia\n, and\nhypotension",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Choking agents combine with water in respiratory tract to form acids\nBoth chlorine and phosgene react with water in respiratory tract to form hydrochloric acid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ammonia",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Choking agents combine with water in respiratory tract to form acids\nBoth chlorine and phosgene react with water in respiratory tract to form hydrochloric acid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Symptoms dependent on the water solubility of the chemical\nHighly water-soluble\nAnhydrous, ammonia, Hydrogen chloride, Sulfur dioxide, Formaldehyde\nRapidly react with water causing damage to upper airway to vocal cords\nDirect tissue damage causing bronchiolar/alveolar edema/airway obstruction and laryngospasm\nNasopharyngeal and tracheal\nchemical burns\n, upper airway obstruction\nLaryngospasm (can occur immediately upon exposure)\nRespiratory distress\n/failure,\nhypoxia\nCough\nChest pain\nArrhythmias\n(hydrochloric acid)\nModerately water-soluble\nDamage to moderate-sized airways (bronchioles)\nBronchospasm and wheezing\nPoorly water-soluble\nPhosgene, Nitrogen dioxide\nInhaled deeply into alveoli\nLack of irritation of mucous membranes can cause them to go undetected\nRespiratory distress\n, tachypnea,\ncough\n,\npulmonary edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "chemical burns",
+          "url": "https://wikem.org/wiki/Chemical_burns"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Chemical_weapons": {
+          "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Chemical_weapons": {
+      "text": "Blister chemical agents\n(Vesicants)\nLewisite\n(L)\nSulfur mustard\n(H)\nPhosgene oxime\n(CX)\nPulmonary chemical agents\n(Choking agents)\nAmmonia toxicity\nMethyl isocyanate\nMethyl bromide\nHydrochloric acid\nChlorine gas\nPhosgene\nIncendiary agents\nAgent orange\nWhite phosphorus\nCyanide chemical weapon agents\n(Blood agents)\nPrussic acid (AKA hydrogen cyanide, hydrocyanic acid, or formonitrile)\nNerve Agents\n(\norganophosphates\n)\nAcetylcholinesterase inhibitors\nHousehold and commercial pesticides (diazinon and parathion)\nG-series (\nsarin\n, tabun, soman)\nV-series (\nVX\n)\nLacrimating or riot-control agents\nPepper spray\nChloroacetophenone\nCS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Lewisite",
+          "url": "https://wikem.org/wiki/Lewisite"
+        },
+        {
+          "text": "Sulfur mustard",
+          "url": "https://wikem.org/wiki/Sulfur_mustard"
+        },
+        {
+          "text": "Phosgene oxime",
+          "url": "https://wikem.org/wiki/Phosgene_oxime"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Methyl isocyanate",
+          "url": "https://wikem.org/wiki/Methyl_isocyanate"
+        },
+        {
+          "text": "Methyl bromide",
+          "url": "https://wikem.org/wiki/Methyl_bromide"
+        },
+        {
+          "text": "Hydrochloric acid",
+          "url": "https://wikem.org/wiki/Hydrochloric_acid"
+        },
+        {
+          "text": "Chlorine gas",
+          "url": "https://wikem.org/wiki/Chlorine_gas"
+        },
+        {
+          "text": "Phosgene",
+          "url": "https://wikem.org/wiki/Phosgene"
+        },
+        {
+          "text": "Agent orange",
+          "url": "https://wikem.org/wiki/Agent_orange"
+        },
+        {
+          "text": "White phosphorus",
+          "url": "https://wikem.org/wiki/White_phosphorus"
+        },
+        {
+          "text": "Cyanide chemical weapon agents",
+          "url": "https://wikem.org/wiki/Cyanide"
+        },
+        {
+          "text": "Nerve Agents",
+          "url": "https://wikem.org/wiki/Nerve_Agents"
+        },
+        {
+          "text": "organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        },
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "sarin",
+          "url": "https://wikem.org/wiki/Sarin"
+        },
+        {
+          "text": "VX",
+          "url": "https://wikem.org/wiki/VX"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Decontaminate\npatient!\nLiquid phosgene can cause off-gassing with release of toxin from clothes post-exposure\nDo not allow patient to be active as it worsens condition\nInhaled\nbeta agonists\nfor bronchoconstriction\nDiuretics and corticosteroids\nnot\nshown to be effective",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "beta agonists",
+          "url": "https://wikem.org/wiki/Bronchodilators"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Chemical weapons",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chemical weapons",
+          "url": "https://wikem.org/wiki/Chemical_weapons"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "drug_name": "Pruritus",
+  "url": "https://wikem.org/wiki/Pruritus",
+  "scraped_at": "2026-01-10T08:00:50.994555",
+  "sections": {
+    "Background": {
+      "text": "i.e. itchiness",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Excoriations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Dermatologic/Immunologic_Disorders": {
+          "text": "Xerosis\nAtopic dermatitis\nAllergic reaction\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nAllergic conjunctivitis\nBullous pemphigoid\nExfoliative erythroderma\nMiliaria (Heat Rash)\nLichen sclerosus\nBlister chemical agents",
+          "tables": []
+        },
+        "Infection,_Infection-associated,_and_Other_Critters": {
+          "text": "Varicella\nPityriasis rosea\n,\nErythema infectiosum\nPruritic papular eruption of HIV\nCandida vulvovaginitis\n,\nCandida dermatitis\nTinea\nCercarial dermatitis\nScabies\n,\nLice\n,\nBed bugs\nHerpes simplex\nCondyloma acuminata\nStrongyloides stercoralis\n,\nEnterobius\n,\nFasciola hepatica\n,\nLoa loa\n,\nDracunculiasis\nHymenoptera stings",
+          "tables": []
+        },
+        "Systemic_Conditions": {
+          "text": "Uremia\nHyperbilirubinemia\n/cholestasis\nHepatitis C\nLeukemia\n,\nLymphoma\nPolycythemia vera\nMedication or drug of abuse adverse effect\nPsychiatric/psychogenic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Miliaria (Heat Rash)",
+          "url": "https://wikem.org/wiki/Miliaria_(Heat_Rash)"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Candida vulvovaginitis",
+          "url": "https://wikem.org/wiki/Candida_vulvovaginitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        }
+      ]
+    },
+    "Pruritus": {
+      "text": "",
+      "subsections": {
+        "Dermatologic/Immunologic_Disorders": {
+          "text": "Xerosis\nAtopic dermatitis\nAllergic reaction\nContact dermatitis\nPoison Oak, Ivy, Sumac dermatitis\nAllergic conjunctivitis\nBullous pemphigoid\nExfoliative erythroderma\nMiliaria (Heat Rash)\nLichen sclerosus\nBlister chemical agents",
+          "tables": []
+        },
+        "Infection,_Infection-associated,_and_Other_Critters": {
+          "text": "Varicella\nPityriasis rosea\n,\nErythema infectiosum\nPruritic papular eruption of HIV\nCandida vulvovaginitis\n,\nCandida dermatitis\nTinea\nCercarial dermatitis\nScabies\n,\nLice\n,\nBed bugs\nHerpes simplex\nCondyloma acuminata\nStrongyloides stercoralis\n,\nEnterobius\n,\nFasciola hepatica\n,\nLoa loa\n,\nDracunculiasis\nHymenoptera stings",
+          "tables": []
+        },
+        "Systemic_Conditions": {
+          "text": "Uremia\nHyperbilirubinemia\n/cholestasis\nHepatitis C\nLeukemia\n,\nLymphoma\nPolycythemia vera\nMedication or drug of abuse adverse effect\nPsychiatric/psychogenic",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Contact dermatitis",
+          "url": "https://wikem.org/wiki/Contact_dermatitis"
+        },
+        {
+          "text": "Poison Oak, Ivy, Sumac dermatitis",
+          "url": "https://wikem.org/wiki/Poison_Oak,_Ivy,_Sumac_dermatitis"
+        },
+        {
+          "text": "Allergic conjunctivitis",
+          "url": "https://wikem.org/wiki/Allergic_conjunctivitis"
+        },
+        {
+          "text": "Bullous pemphigoid",
+          "url": "https://wikem.org/wiki/Bullous_pemphigoid"
+        },
+        {
+          "text": "Exfoliative erythroderma",
+          "url": "https://wikem.org/wiki/Exfoliative_erythroderma"
+        },
+        {
+          "text": "Miliaria (Heat Rash)",
+          "url": "https://wikem.org/wiki/Miliaria_(Heat_Rash)"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Blister chemical agents",
+          "url": "https://wikem.org/wiki/Blister_chemical_agents"
+        },
+        {
+          "text": "Varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Erythema infectiosum",
+          "url": "https://wikem.org/wiki/Erythema_infectiosum"
+        },
+        {
+          "text": "Pruritic papular eruption of HIV",
+          "url": "https://wikem.org/wiki/Pruritic_papular_eruption_of_HIV"
+        },
+        {
+          "text": "Candida vulvovaginitis",
+          "url": "https://wikem.org/wiki/Candida_vulvovaginitis"
+        },
+        {
+          "text": "Candida dermatitis",
+          "url": "https://wikem.org/wiki/Candida_dermatitis"
+        },
+        {
+          "text": "Tinea",
+          "url": "https://wikem.org/wiki/Tinea"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Lice",
+          "url": "https://wikem.org/wiki/Lice"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Herpes simplex",
+          "url": "https://wikem.org/wiki/Herpes_simplex"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Strongyloides stercoralis",
+          "url": "https://wikem.org/wiki/Strongyloides_stercoralis"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Fasciola hepatica",
+          "url": "https://wikem.org/wiki/Fasciola_hepatica"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Hymenoptera stings",
+          "url": "https://wikem.org/wiki/Hymenoptera_stings"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Hyperbilirubinemia",
+          "url": "https://wikem.org/wiki/Hyperbilirubinemia"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying condition\nAntihistamines\n,\ntopical steroids\noften helpful",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Rash\nPruritus ani\nAllergic reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Pruritus ani",
+          "url": "https://wikem.org/wiki/Pruritus_ani"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        }
+      ]
+    }
+  }
+}

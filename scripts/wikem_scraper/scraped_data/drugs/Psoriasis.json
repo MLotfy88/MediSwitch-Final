@@ -1,0 +1,143 @@
+{
+  "drug_name": "Psoriasis",
+  "url": "https://wikem.org/wiki/Psoriasis",
+  "scraped_at": "2026-01-10T08:00:53.820947",
+  "sections": {
+    "Background": {
+      "text": "Psoriasis is a chronic and relapsing disease\nOften begins in the 2nd or 3rd decade of life",
+      "subsections": {
+        "Types": {
+          "text": "Plaque:\nalso known as psoriasis vulgaris, makes up about 90% of cases. It typically presents as red patches with white scales on top. Areas of the body most commonly affected are the back of the forearms, shins, navel area, and scalp.\nGuttate:\ndrop-shaped lesions.\nInverse:\nred patches in skin folds\nPustular:\npresents as small non-infectious pus-filled blisters\nErythrodermic:\noccurs when the rash becomes very widespread, and can develop from any of the other types. Fingernails and toenails are affected in most people with psoriasis at some point in time. This may include pits in the nails or changes in nail color.",
+          "tables": []
+        },
+        "Triggers": {
+          "text": "Stress\nTrauma\nDrugs: NSAIDs, B-blockers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Plaque:\nalso known as psoriasis vulgaris, makes up about 90% of cases. It typically presents as red patches with white scales on top. Areas of the body most commonly affected are the back of the forearms, shins, navel area, and scalp.\nGuttate:\ndrop-shaped lesions.\nInverse:\nred patches in skin folds\nPustular:\npresents as small non-infectious pus-filled blisters\nErythrodermic:\noccurs when the rash becomes very widespread, and can develop from any of the other types. Fingernails and toenails are affected in most people with psoriasis at some point in time. This may include pits in the nails or changes in nail color.",
+      "subsections": {
+        "Triggers": {
+          "text": "Stress\nTrauma\nDrugs: NSAIDs, B-blockers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Triggers": {
+      "text": "Stress\nTrauma\nDrugs: NSAIDs, B-blockers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Well-demarcated erythematous\nplaques\nand papules with silvery white scales\nEpidermal hyperproliferation\nCommonly found on the trunk, scalp, nail pitting, and extensor surfaces\nAuspitz sign: plaque removal reveals pinpoint-bleeding areas\nAssociated with\npsoriatic arthritis\n, especially in nail involvement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "plaques",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "psoriatic arthritis",
+          "url": "https://wikem.org/wiki/Psoriatic_arthritis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Plaques": {
+          "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Plaques": {
+      "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Lichen planus",
+          "url": "https://wikem.org/wiki/Lichen_planus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Generally a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Ketoconazole\n2% shampoo\nHydrocortisone\ncream 2.5% Neck, Intertriginous Sites\nTriamcinalone\nointment or cream 0.1% Extremities, Trunk, and Scalp\nSteroids should not be used for more than 2 weeks\nSystemic steroids should be avoided due to the risk of developing rebound or induction of pustular psoriasis\nSevere pustular psoriasis cases can be treated with infliximab (TNFa inhibitor) or cyclosporine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketoconazole",
+          "url": "https://wikem.org/wiki/Ketoconazole"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Generalized rashes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Generalized rashes",
+          "url": "https://wikem.org/wiki/Generalized_rashes"
+        }
+      ]
+    }
+  }
+}

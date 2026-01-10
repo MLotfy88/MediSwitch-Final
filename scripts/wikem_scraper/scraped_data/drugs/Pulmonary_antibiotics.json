@@ -1,0 +1,1302 @@
+{
+  "drug_name": "Pulmonary_antibiotics",
+  "url": "https://wikem.org/wiki/Pulmonary_antibiotics",
+  "scraped_at": "2026-01-10T08:00:49.466622",
+  "sections": {
+    "Pneumonia": {
+      "text": "",
+      "subsections": {
+        "Outpatient": {
+          "text": "Coverage targeted at\nS. pneumoniae\n,\nH. influenzae\n.\nM. pneumoniae\n,\nC. pneumoniae\n, and\nLegionella",
+          "tables": []
+        },
+        "Healthy": {
+          "text": "No comorbidities (chronic heart, lung, liver, or renal disease; diabetes mellitus; alcoholism; malignancy; or asplenia) and no or risk factors for\nMRSA\nor\nPseudomonas aeruginosa\n(include prior respiratory isolation of MRSA or P. aeruginosa or recent hospitalization AND receipt of parenteral antibiotics (in the last 90 d))\nAmoxicillin\n1 g three times daily (strong recommendation, moderate quality of evidence), OR\nDoxycycline\n100 mg twice daily (conditional recommendation, low quality of evidence), OR\nMacrolide\nin areas with pneumococcal resistance to macrolides <25% (conditional recommendation, moderate quality of evidence).\nAzithromycin\n500 mg on first day then 250 mg daily OR\nClarithromycin\n500 mg BID or clarithromycin ER 1,000 mg daily\nDuration of therapy 5 days minimum",
+          "tables": []
+        },
+        "Unhealthy": {
+          "text": "If patient has comorbidities or risk factors for MRSA or Pseudomonas aeruginosa\nCombination therapy:\nAmoxicillin/Clavulanate\n500 mg/125 mg TID OR amox/clav 875 mg/125 mg BID OR 2,000 mg/125 mg BID. Duration is for a minimum of 5 days and varies based on disease severity and response to therapy; patients should be afebrile for ≥48 hours and clinically stable before therapy is discontinued\n[3]\nOR\ncephalosporin\nCefpodoxime\n200 mg BID OR\ncefuroxime\n500 mg BID\nAND\nmacrolide\nAzithromycin\n500 mg on first day then 250 mg daily\nOR\nclarithromycin\n500 mg BID OR clarithromycin ER 1,000 mg daily]) (strong recommendation, moderate quality of evidence for combination therapy)\nOR\ndoxycycline\n100 mg BID (conditional recommendation, low quality of evidence for combination therapy)\nMonotherapy: respiratory\nfluoroquinolone\n(strong recommendation, moderate quality of evidence):\nLevofloxacin\n750 mg daily OR\nMoxifloxacin\n400 mg daily OR\nGemifloxacin\n320 mg daily",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Monotherapy or combination therapy is acceptable\nCombination therapy includes a\ncephalosporin\nand\nmacrolide\ntargeting atypicals and Strep Pneumonia\n[4]\nThe use of adjunctive corticosteroids (\nmethylprednisolone\n0.5 mg/kg IV BID x 5d) in CAP of moderate-high severity (PSI Score IV or V;\nCURB-65\n≥ 2) is associated with:\n[5]\n↓ mortality (3%)\n↓ need for mechanical ventilation (5%)\n↓ length of hospital stay (1d)",
+          "tables": []
+        },
+        "Community_Acquired_(Non-ICU)": {
+          "text": "Coverage against community acquired organisms plus\nM. catarrhalis\n,\nKlebsiella\n,\nS. aureus\nβ-lactam\n(e.g.\nceftriaxone\n1–2g daily OR\nampicillin-sulbactam\n1.5–3g q6h OR\ncefotaxime\n1–2g q8h OR\nceftaroline\n600mg q12h)\nPLUS\nMacrolide\n(e.g.\nazithromycin\n500 mg daily or\nclarithromycin\n500 mg BID)\nOR\nDoxycycline\n100mg IV/PO BID (if contraindications to both macrolides and fluoroquinolones )\nOR\nLevofloxacin\n750mg IV/PO once daily\nOR\nMoxifloxacin\n400mg IV/PO once daily",
+          "tables": []
+        },
+        "Hospital_Acquired_or_Ventilator_Associated_Pneumonia": {
+          "text": "3-drug regimen recommended options:\nCefepime\n1-2gm q8-12h\nOR\nceftazidime\n2gm q8h +\nLevofloxacin\n750 mg PO/IV every 24 hours +\nVancomycin\n15mg/kg q12\nOR\nImipenem\n500mg q6hr +\ncipro\n400mg q8hr +\nvanco\n15mg/kg q12\nOR\nPiperacillin-Tazobactam\n4.5gm q6h +\ncipro\n400mg q8h +\nvanco\n15mg/kg q12\nConsider\ntobramycin\nin place of fluoroquinolones given FDA 2016 warnings\nOf note, the combination of\nvanco\n+\npiperacillin-tazobactam\ncarries higher risk of\nAKI\nwhen compared to\ncefepime\n+\nvanco\n’’’\n[6]",
+          "tables": []
+        },
+        "Ventilator_Associated_Pneumnoia": {
+          "text": "High Risk of MRSA: Use 3-Drug Regimen. Several options are available, but recommendation is to include an antibiotic from each of these categories:\n[7]\n1.\nMRSA Antibiotic:\nVancomycin\n15mg/kg q12h OR\nLinezolid\n600 mg IV q12h\nPLUS\n2.\nAntipseudomonal Antibiotic:\nPiperacillin-Tazobactam\n4.5gm q6h OR\nCefepime\n2 g IV q8h OR\nImipenem\n500 mg IV q6h OR\nAztreonam\n2 g IV q8h\nPLUS\n3.\nGN Antibiotic With Antipseudomonal Activity:\nCipro\n400 mg IV q8h",
+          "tables": []
+        },
+        "ICU,_low_risk_of_pseudomonas": {
+          "text": "Ceftriaxone\n1gm IV +\nAzithromycin\n500mg IV\nOR\nCeftriaxone\n1gm IV + (\nmoxifloxacin\n400mg IV or\nlevofloxacin\n750mg IV)\nPenicillin allergy\n(\nMoxifloxacin\nor\nlevofloxacin\n) + (\naztreonam\n1-2gm IV or\nclindamycin\n600mg IV)",
+          "tables": []
+        },
+        "ICU,_risk_of_pseudomonas": {
+          "text": "Cefepime\n,\nImipenem\n,\nOR\nPiperacillin/Tazobactam\n+ IV\ncipro\n/\nlevo\nCefepime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\nazithromycin\nCefepime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\ncipro\n/\nlevo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "M. pneumoniae",
+          "url": "https://wikem.org/wiki/M._pneumoniae"
+        },
+        {
+          "text": "C. pneumoniae",
+          "url": "https://wikem.org/wiki/C._pneumoniae"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "CURB-65",
+          "url": "https://wikem.org/wiki/CURB-65"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "β-lactam",
+          "url": "https://wikem.org/wiki/%CE%92-lactam"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftaroline",
+          "url": "https://wikem.org/wiki/Ceftaroline"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        }
+      ]
+    },
+    "Outpatient": {
+      "text": "Coverage targeted at\nS. pneumoniae\n,\nH. influenzae\n.\nM. pneumoniae\n,\nC. pneumoniae\n, and\nLegionella",
+      "subsections": {
+        "Healthy": {
+          "text": "No comorbidities (chronic heart, lung, liver, or renal disease; diabetes mellitus; alcoholism; malignancy; or asplenia) and no or risk factors for\nMRSA\nor\nPseudomonas aeruginosa\n(include prior respiratory isolation of MRSA or P. aeruginosa or recent hospitalization AND receipt of parenteral antibiotics (in the last 90 d))\nAmoxicillin\n1 g three times daily (strong recommendation, moderate quality of evidence), OR\nDoxycycline\n100 mg twice daily (conditional recommendation, low quality of evidence), OR\nMacrolide\nin areas with pneumococcal resistance to macrolides <25% (conditional recommendation, moderate quality of evidence).\nAzithromycin\n500 mg on first day then 250 mg daily OR\nClarithromycin\n500 mg BID or clarithromycin ER 1,000 mg daily\nDuration of therapy 5 days minimum",
+          "tables": []
+        },
+        "Unhealthy": {
+          "text": "If patient has comorbidities or risk factors for MRSA or Pseudomonas aeruginosa\nCombination therapy:\nAmoxicillin/Clavulanate\n500 mg/125 mg TID OR amox/clav 875 mg/125 mg BID OR 2,000 mg/125 mg BID. Duration is for a minimum of 5 days and varies based on disease severity and response to therapy; patients should be afebrile for ≥48 hours and clinically stable before therapy is discontinued\n[3]\nOR\ncephalosporin\nCefpodoxime\n200 mg BID OR\ncefuroxime\n500 mg BID\nAND\nmacrolide\nAzithromycin\n500 mg on first day then 250 mg daily\nOR\nclarithromycin\n500 mg BID OR clarithromycin ER 1,000 mg daily]) (strong recommendation, moderate quality of evidence for combination therapy)\nOR\ndoxycycline\n100 mg BID (conditional recommendation, low quality of evidence for combination therapy)\nMonotherapy: respiratory\nfluoroquinolone\n(strong recommendation, moderate quality of evidence):\nLevofloxacin\n750 mg daily OR\nMoxifloxacin\n400 mg daily OR\nGemifloxacin\n320 mg daily",
+          "tables": []
+        },
+        "Inpatient": {
+          "text": "Monotherapy or combination therapy is acceptable\nCombination therapy includes a\ncephalosporin\nand\nmacrolide\ntargeting atypicals and Strep Pneumonia\n[4]\nThe use of adjunctive corticosteroids (\nmethylprednisolone\n0.5 mg/kg IV BID x 5d) in CAP of moderate-high severity (PSI Score IV or V;\nCURB-65\n≥ 2) is associated with:\n[5]\n↓ mortality (3%)\n↓ need for mechanical ventilation (5%)\n↓ length of hospital stay (1d)",
+          "tables": []
+        },
+        "Community_Acquired_(Non-ICU)": {
+          "text": "Coverage against community acquired organisms plus\nM. catarrhalis\n,\nKlebsiella\n,\nS. aureus\nβ-lactam\n(e.g.\nceftriaxone\n1–2g daily OR\nampicillin-sulbactam\n1.5–3g q6h OR\ncefotaxime\n1–2g q8h OR\nceftaroline\n600mg q12h)\nPLUS\nMacrolide\n(e.g.\nazithromycin\n500 mg daily or\nclarithromycin\n500 mg BID)\nOR\nDoxycycline\n100mg IV/PO BID (if contraindications to both macrolides and fluoroquinolones )\nOR\nLevofloxacin\n750mg IV/PO once daily\nOR\nMoxifloxacin\n400mg IV/PO once daily",
+          "tables": []
+        },
+        "Hospital_Acquired_or_Ventilator_Associated_Pneumonia": {
+          "text": "3-drug regimen recommended options:\nCefepime\n1-2gm q8-12h\nOR\nceftazidime\n2gm q8h +\nLevofloxacin\n750 mg PO/IV every 24 hours +\nVancomycin\n15mg/kg q12\nOR\nImipenem\n500mg q6hr +\ncipro\n400mg q8hr +\nvanco\n15mg/kg q12\nOR\nPiperacillin-Tazobactam\n4.5gm q6h +\ncipro\n400mg q8h +\nvanco\n15mg/kg q12\nConsider\ntobramycin\nin place of fluoroquinolones given FDA 2016 warnings\nOf note, the combination of\nvanco\n+\npiperacillin-tazobactam\ncarries higher risk of\nAKI\nwhen compared to\ncefepime\n+\nvanco\n’’’\n[6]",
+          "tables": []
+        },
+        "Ventilator_Associated_Pneumnoia": {
+          "text": "High Risk of MRSA: Use 3-Drug Regimen. Several options are available, but recommendation is to include an antibiotic from each of these categories:\n[7]\n1.\nMRSA Antibiotic:\nVancomycin\n15mg/kg q12h OR\nLinezolid\n600 mg IV q12h\nPLUS\n2.\nAntipseudomonal Antibiotic:\nPiperacillin-Tazobactam\n4.5gm q6h OR\nCefepime\n2 g IV q8h OR\nImipenem\n500 mg IV q6h OR\nAztreonam\n2 g IV q8h\nPLUS\n3.\nGN Antibiotic With Antipseudomonal Activity:\nCipro\n400 mg IV q8h",
+          "tables": []
+        },
+        "ICU,_low_risk_of_pseudomonas": {
+          "text": "Ceftriaxone\n1gm IV +\nAzithromycin\n500mg IV\nOR\nCeftriaxone\n1gm IV + (\nmoxifloxacin\n400mg IV or\nlevofloxacin\n750mg IV)\nPenicillin allergy\n(\nMoxifloxacin\nor\nlevofloxacin\n) + (\naztreonam\n1-2gm IV or\nclindamycin\n600mg IV)",
+          "tables": []
+        },
+        "ICU,_risk_of_pseudomonas": {
+          "text": "Cefepime\n,\nImipenem\n,\nOR\nPiperacillin/Tazobactam\n+ IV\ncipro\n/\nlevo\nCefepime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\nazithromycin\nCefepime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\ncipro\n/\nlevo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. pneumoniae",
+          "url": "https://wikem.org/wiki/S._pneumoniae"
+        },
+        {
+          "text": "H. influenzae",
+          "url": "https://wikem.org/wiki/H._influenzae"
+        },
+        {
+          "text": "M. pneumoniae",
+          "url": "https://wikem.org/wiki/M._pneumoniae"
+        },
+        {
+          "text": "C. pneumoniae",
+          "url": "https://wikem.org/wiki/C._pneumoniae"
+        },
+        {
+          "text": "Legionella",
+          "url": "https://wikem.org/wiki/Legionella"
+        },
+        {
+          "text": "MRSA",
+          "url": "https://wikem.org/wiki/MRSA"
+        },
+        {
+          "text": "Pseudomonas aeruginosa",
+          "url": "https://wikem.org/wiki/Pseudomonas_aeruginosa"
+        },
+        {
+          "text": "Amoxicillin",
+          "url": "https://wikem.org/wiki/Amoxicillin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Amoxicillin/Clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "cefuroxime",
+          "url": "https://wikem.org/wiki/Cefuroxime"
+        },
+        {
+          "text": "macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "fluoroquinolone",
+          "url": "https://wikem.org/wiki/Fluoroquinolone"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Gemifloxacin",
+          "url": "https://wikem.org/wiki/Gemifloxacin"
+        },
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "CURB-65",
+          "url": "https://wikem.org/wiki/CURB-65"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "β-lactam",
+          "url": "https://wikem.org/wiki/%CE%92-lactam"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftaroline",
+          "url": "https://wikem.org/wiki/Ceftaroline"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        }
+      ]
+    },
+    "Inpatient": {
+      "text": "Monotherapy or combination therapy is acceptable\nCombination therapy includes a\ncephalosporin\nand\nmacrolide\ntargeting atypicals and Strep Pneumonia\n[4]\nThe use of adjunctive corticosteroids (\nmethylprednisolone\n0.5 mg/kg IV BID x 5d) in CAP of moderate-high severity (PSI Score IV or V;\nCURB-65\n≥ 2) is associated with:\n[5]\n↓ mortality (3%)\n↓ need for mechanical ventilation (5%)\n↓ length of hospital stay (1d)",
+      "subsections": {
+        "Community_Acquired_(Non-ICU)": {
+          "text": "Coverage against community acquired organisms plus\nM. catarrhalis\n,\nKlebsiella\n,\nS. aureus\nβ-lactam\n(e.g.\nceftriaxone\n1–2g daily OR\nampicillin-sulbactam\n1.5–3g q6h OR\ncefotaxime\n1–2g q8h OR\nceftaroline\n600mg q12h)\nPLUS\nMacrolide\n(e.g.\nazithromycin\n500 mg daily or\nclarithromycin\n500 mg BID)\nOR\nDoxycycline\n100mg IV/PO BID (if contraindications to both macrolides and fluoroquinolones )\nOR\nLevofloxacin\n750mg IV/PO once daily\nOR\nMoxifloxacin\n400mg IV/PO once daily",
+          "tables": []
+        },
+        "Hospital_Acquired_or_Ventilator_Associated_Pneumonia": {
+          "text": "3-drug regimen recommended options:\nCefepime\n1-2gm q8-12h\nOR\nceftazidime\n2gm q8h +\nLevofloxacin\n750 mg PO/IV every 24 hours +\nVancomycin\n15mg/kg q12\nOR\nImipenem\n500mg q6hr +\ncipro\n400mg q8hr +\nvanco\n15mg/kg q12\nOR\nPiperacillin-Tazobactam\n4.5gm q6h +\ncipro\n400mg q8h +\nvanco\n15mg/kg q12\nConsider\ntobramycin\nin place of fluoroquinolones given FDA 2016 warnings\nOf note, the combination of\nvanco\n+\npiperacillin-tazobactam\ncarries higher risk of\nAKI\nwhen compared to\ncefepime\n+\nvanco\n’’’\n[6]",
+          "tables": []
+        },
+        "Ventilator_Associated_Pneumnoia": {
+          "text": "High Risk of MRSA: Use 3-Drug Regimen. Several options are available, but recommendation is to include an antibiotic from each of these categories:\n[7]\n1.\nMRSA Antibiotic:\nVancomycin\n15mg/kg q12h OR\nLinezolid\n600 mg IV q12h\nPLUS\n2.\nAntipseudomonal Antibiotic:\nPiperacillin-Tazobactam\n4.5gm q6h OR\nCefepime\n2 g IV q8h OR\nImipenem\n500 mg IV q6h OR\nAztreonam\n2 g IV q8h\nPLUS\n3.\nGN Antibiotic With Antipseudomonal Activity:\nCipro\n400 mg IV q8h",
+          "tables": []
+        },
+        "ICU,_low_risk_of_pseudomonas": {
+          "text": "Ceftriaxone\n1gm IV +\nAzithromycin\n500mg IV\nOR\nCeftriaxone\n1gm IV + (\nmoxifloxacin\n400mg IV or\nlevofloxacin\n750mg IV)\nPenicillin allergy\n(\nMoxifloxacin\nor\nlevofloxacin\n) + (\naztreonam\n1-2gm IV or\nclindamycin\n600mg IV)",
+          "tables": []
+        },
+        "ICU,_risk_of_pseudomonas": {
+          "text": "Cefepime\n,\nImipenem\n,\nOR\nPiperacillin/Tazobactam\n+ IV\ncipro\n/\nlevo\nCefepime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\nazithromycin\nCefepime\n,\nimipenem\n,\nOR\npiperacillin-tazobactam\n+\ngent\n+\ncipro\n/\nlevo",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cephalosporin",
+          "url": "https://wikem.org/wiki/Cephalosporin"
+        },
+        {
+          "text": "macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "CURB-65",
+          "url": "https://wikem.org/wiki/CURB-65"
+        },
+        {
+          "text": "M. catarrhalis",
+          "url": "https://wikem.org/wiki/M._catarrhalis"
+        },
+        {
+          "text": "Klebsiella",
+          "url": "https://wikem.org/wiki/Klebsiella"
+        },
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "β-lactam",
+          "url": "https://wikem.org/wiki/%CE%92-lactam"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "ampicillin-sulbactam",
+          "url": "https://wikem.org/wiki/Ampicillin-sulbactam"
+        },
+        {
+          "text": "cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "ceftaroline",
+          "url": "https://wikem.org/wiki/Ceftaroline"
+        },
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Doxycycline",
+          "url": "https://wikem.org/wiki/Doxycycline"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "ceftazidime",
+          "url": "https://wikem.org/wiki/Ceftazidime"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "tobramycin",
+          "url": "https://wikem.org/wiki/Tobramycin"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "AKI",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "vanco",
+          "url": "https://wikem.org/wiki/Vanco"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Linezolid",
+          "url": "https://wikem.org/wiki/Linezolid"
+        },
+        {
+          "text": "Piperacillin-Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "Cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "Moxifloxacin",
+          "url": "https://wikem.org/wiki/Moxifloxacin"
+        },
+        {
+          "text": "levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "aztreonam",
+          "url": "https://wikem.org/wiki/Aztreonam"
+        },
+        {
+          "text": "clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        },
+        {
+          "text": "piperacillin-tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin-tazobactam"
+        },
+        {
+          "text": "gent",
+          "url": "https://wikem.org/wiki/Gent"
+        },
+        {
+          "text": "cipro",
+          "url": "https://wikem.org/wiki/Cipro"
+        },
+        {
+          "text": "levo",
+          "url": "https://wikem.org/wiki/Levo"
+        }
+      ]
+    },
+    "Pertussis": {
+      "text": "Antibiotics do not help with severity or duration but may decrease infectivity.\nA reasonable guideline is to treat persons aged >1 year within 3 weeks of cough onset and infants aged <1 year and pregnant women (especially near term) within 6 weeks of cough onset.\n[8]\nTMP--SMZ should not be administered to pregnant women, nursing mothers, or infants aged <2 months.\n[9]\nThe following regemins are for active disease or postexposure prophylaxis.  If a patient is has confirmed disease and is likely to be in contact with infants or pregnant women then the patient should be treated as up to 6-8 weeks after the onset of their illness.",
+      "subsections": {
+        "<_1_month_old": {
+          "text": "Same antibiotics for active disease and postexposure prophylaxis\nAzithromycin\n10mg/kg (max 500mg/day) daily x 5 days",
+          "tables": []
+        },
+        ">1_month_old": {
+          "text": "Azithromycin\n10mg/kg (max 500mg/day) daily x 5 days\nif > 6 months old then day 2-5 of treatment should be reduced to 5mg/kg (250mg/day max)\nTMP/SMX\n4mg/kg PO BID daily for 14 days (if > 2 months old)",
+          "tables": []
+        },
+        "Adults": {
+          "text": "any of the following antibiotics are acceptable although azithromycin is most commonly prescribed\nAzithromycin\n500mg PO once daily for day #1 then 250mg PO once daily for days #2-5\nClarithromycin\n500mg BID x7 days\nErythromycin\n500mg QID x7 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Clarithromycin",
+          "url": "https://wikem.org/wiki/Clarithromycin"
+        },
+        {
+          "text": "Erythromycin",
+          "url": "https://wikem.org/wiki/Erythromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Antibiotics_by_diagnosis": {
+          "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    },
+    "Antibiotics_by_diagnosis": {
+      "text": "Bone and joint antibiotics\nCardiovascular antibiotics\nENT antibiotics\nEye antibiotics\nGI antibiotics\nGU antibiotics\nNeuro antibiotics\nOB/GYN antibiotics\nPulmonary antibiotics\nSkin and soft tissue antibiotics\nBioterrorism antibiotics\nEnvironmental exposure antibiotics\nImmunocompromised antibiotics\nPost exposure prophylaxis antibiotics\nPediatric antibiotics\nSepsis antibiotics\nArthropod and parasitic antibiotics\nFor antibiotics by organism see\nMicrobiology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bone and joint antibiotics",
+          "url": "https://wikem.org/wiki/Bone_and_joint_antibiotics"
+        },
+        {
+          "text": "Cardiovascular antibiotics",
+          "url": "https://wikem.org/wiki/Cardiovascular_antibiotics"
+        },
+        {
+          "text": "ENT antibiotics",
+          "url": "https://wikem.org/wiki/ENT_antibiotics"
+        },
+        {
+          "text": "Eye antibiotics",
+          "url": "https://wikem.org/wiki/Eye_antibiotics"
+        },
+        {
+          "text": "GI antibiotics",
+          "url": "https://wikem.org/wiki/GI_antibiotics"
+        },
+        {
+          "text": "GU antibiotics",
+          "url": "https://wikem.org/wiki/GU_antibiotics"
+        },
+        {
+          "text": "Neuro antibiotics",
+          "url": "https://wikem.org/wiki/Neuro_antibiotics"
+        },
+        {
+          "text": "OB/GYN antibiotics",
+          "url": "https://wikem.org/wiki/OB/GYN_antibiotics"
+        },
+        {
+          "text": "Skin and soft tissue antibiotics",
+          "url": "https://wikem.org/wiki/Skin_and_soft_tissue_antibiotics"
+        },
+        {
+          "text": "Bioterrorism antibiotics",
+          "url": "https://wikem.org/wiki/Bioterrorism_antibiotics"
+        },
+        {
+          "text": "Environmental exposure antibiotics",
+          "url": "https://wikem.org/wiki/Environmental_exposure_antibiotics"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Post exposure prophylaxis antibiotics",
+          "url": "https://wikem.org/wiki/Post_exposure_prophylaxis_antibiotics"
+        },
+        {
+          "text": "Pediatric antibiotics",
+          "url": "https://wikem.org/wiki/Pediatric_antibiotics"
+        },
+        {
+          "text": "Sepsis antibiotics",
+          "url": "https://wikem.org/wiki/Sepsis_antibiotics"
+        },
+        {
+          "text": "Arthropod and parasitic antibiotics",
+          "url": "https://wikem.org/wiki/Arthropod_and_parasitic_antibiotics"
+        },
+        {
+          "text": "Microbiology (Main)",
+          "url": "https://wikem.org/wiki/Microbiology_(Main)"
+        }
+      ]
+    }
+  }
+}

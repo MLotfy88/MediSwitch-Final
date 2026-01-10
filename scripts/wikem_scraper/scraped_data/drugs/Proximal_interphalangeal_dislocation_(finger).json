@@ -1,0 +1,595 @@
+{
+  "drug_name": "Proximal_interphalangeal_dislocation_(finger)",
+  "url": "https://wikem.org/wiki/Proximal_interphalangeal_dislocation_(finger)",
+  "scraped_at": "2026-01-10T08:00:50.397491",
+  "sections": {
+    "Background": {
+      "text": "Most common finger dislocation\nVolar plate ruptures in both dorsal and volar PIP dislocations\n[1]\nLateral dislocations occur when one of collateral ligaments ruptures with at least partial avulsion of volar plate from middle phalanx",
+      "subsections": {
+        "Hand_Anatomy": {
+          "text": "Volar = anterior = palmar\nDorsal = posterior",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hand_Anatomy": {
+      "text": "Volar = anterior = palmar\nDorsal = posterior",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Mechanism: Due to axial load and hyperextension\nFinger pain/deformity\nEvaluate for extension into joint as open dislocations are common",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_finger_dislocations": {
+          "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+          "tables": []
+        },
+        "Hand_and_finger_injuries": {
+          "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Hand_and_finger_dislocations": {
+      "text": "Finger dislocations\nDistal interphalangeal dislocation (finger)\n(DIP)\nProximal interphalangeal dislocation (finger)\n(PIP)\nMetacarpophalangeal dislocation (finger)\n(MCP)\nThumb dislocations\nInterphalangeal dislocation (thumb)\n(IP)\nMetacarpophalangeal dislocation (thumb)\n(MCP)\nHand dislocations\nCarpometacarpal dislocation",
+      "subsections": {
+        "Hand_and_finger_injuries": {
+          "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal interphalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Distal_interphalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (finger)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(finger)"
+        },
+        {
+          "text": "Interphalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Interphalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Metacarpophalangeal dislocation (thumb)",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_dislocation_(thumb)"
+        },
+        {
+          "text": "Carpometacarpal dislocation",
+          "url": "https://wikem.org/wiki/Carpometacarpal_dislocation"
+        },
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Hand_and_finger_injuries": {
+      "text": "Distal finger\nFinger amputation\nFingertip laceration\nNail avulsion\nNailbed laceration\nSubungual hematoma\nOther finger/thumb\nBoutonniere deformity\nMallet finger\nSwan neck deformity\nJammed finger\nJersey finger\nTrigger finger\nRing avulsion injury\nDe Quervain tenosynovitis\nInfiltrative tenosynovitis\nMetacarpophalangeal ulnar ligament rupture\n(Gamekeeper's thumb)\nHand\nDupuytren contracture\nWrist\nDrummer's wrist\nGanglion cyst\nLunotriquetral ligament instability\nScaphoid fracture\nExtensor digitorum tenosynovitis\nCompressive neuropathy (\"bracelet syndrome\")\nIntersection syndrome\nSnapping Extensor Carpi Ulnaris\nVaughn Jackson syndrome\nGeneral\nHand and finger dislocations\nHand and finger fractures\nHand and finger infections\nGout and pseudogout\nHand and finger tendon injuries\nHigh-pressure injection injury\nOsteoarthritis\nRheumatoid arthritis\nRing removal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Finger amputation",
+          "url": "https://wikem.org/wiki/Finger_amputation"
+        },
+        {
+          "text": "Fingertip laceration",
+          "url": "https://wikem.org/wiki/Fingertip_laceration"
+        },
+        {
+          "text": "Nail avulsion",
+          "url": "https://wikem.org/wiki/Nail_avulsion"
+        },
+        {
+          "text": "Nailbed laceration",
+          "url": "https://wikem.org/wiki/Nailbed_laceration"
+        },
+        {
+          "text": "Subungual hematoma",
+          "url": "https://wikem.org/wiki/Subungual_hematoma"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Mallet finger",
+          "url": "https://wikem.org/wiki/Mallet_finger"
+        },
+        {
+          "text": "Swan neck deformity",
+          "url": "https://wikem.org/wiki/Swan_neck_deformity"
+        },
+        {
+          "text": "Jammed finger",
+          "url": "https://wikem.org/wiki/Jammed_finger"
+        },
+        {
+          "text": "Jersey finger",
+          "url": "https://wikem.org/wiki/Jersey_finger"
+        },
+        {
+          "text": "Trigger finger",
+          "url": "https://wikem.org/wiki/Trigger_finger"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "De Quervain tenosynovitis",
+          "url": "https://wikem.org/wiki/De_Quervain_tenosynovitis"
+        },
+        {
+          "text": "Metacarpophalangeal ulnar ligament rupture",
+          "url": "https://wikem.org/wiki/Metacarpophalangeal_ulnar_ligament_rupture"
+        },
+        {
+          "text": "Dupuytren contracture",
+          "url": "https://wikem.org/wiki/Eponyms_(C-E)#Dupuytren's_contracture"
+        },
+        {
+          "text": "Drummer's wrist",
+          "url": "https://wikem.org/wiki/Drummer%27s_wrist"
+        },
+        {
+          "text": "Ganglion cyst",
+          "url": "https://wikem.org/wiki/Ganglion_cyst"
+        },
+        {
+          "text": "Lunotriquetral ligament instability",
+          "url": "https://wikem.org/wiki/Lunotriquetral_ligament_instability"
+        },
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Extensor digitorum tenosynovitis",
+          "url": "https://wikem.org/wiki/Extensor_digitorum_tenosynovitis"
+        },
+        {
+          "text": "Intersection syndrome",
+          "url": "https://wikem.org/wiki/Intersection_syndrome"
+        },
+        {
+          "text": "Snapping Extensor Carpi Ulnaris",
+          "url": "https://wikem.org/wiki/Snapping_Extensor_Carpi_Ulnaris"
+        },
+        {
+          "text": "Vaughn Jackson syndrome",
+          "url": "https://wikem.org/wiki/Vaughn_Jackson_syndrome"
+        },
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        },
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Hand and finger infections",
+          "url": "https://wikem.org/wiki/Hand_and_finger_infections"
+        },
+        {
+          "text": "Gout and pseudogout",
+          "url": "https://wikem.org/wiki/Gout_and_pseudogout"
+        },
+        {
+          "text": "Hand and finger tendon injuries",
+          "url": "https://wikem.org/wiki/Hand_and_finger_tendon_injuries"
+        },
+        {
+          "text": "High-pressure injection injury",
+          "url": "https://wikem.org/wiki/High-pressure_injection_injury"
+        },
+        {
+          "text": "Osteoarthritis",
+          "url": "https://wikem.org/wiki/Osteoarthritis"
+        },
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        },
+        {
+          "text": "Ring removal",
+          "url": "https://wikem.org/wiki/Ring_removal"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "X-ray finger (PA and lateral)\nTrue lateral of only the finger instead of hand will help detect subtle avulsion fractures\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consider\ndigital block\nfor pain control",
+      "subsections": {
+        "Dorsal/Posterior": {
+          "text": "Flex wrist, then hyperextend the joint\nApply longitudinal traction followed by dorsal pressure to phalanx base\nIrreducible dislocation likely due to entrapment of avulsion fracture, profundus tendor or volar plate\nWithout initial hyperextension, can be difficult to disengage from any trapped soft tissue\nPost reduction, look for central slip rupture, which may lead to\nBoutonniere deformity",
+          "tables": []
+        },
+        "Volar/Anterior": {
+          "text": "Flex wrist then hyperflex the affected joint\nApply gentle traction then extend the joint\nOften need open reduction due to volar plate entrapment",
+          "tables": []
+        },
+        "Splinting": {
+          "text": "Place Alumifoam splint on side of dislocation\nStable dorsal reduction: 3wk of immobilization in 20-30 deg of flexion\nIf volar dislocation, may have injury to central slip of the extensor tendons, so must be splinted in full extension for 3 weeks to prevent\nBoutonniere deformity\nSplint should never extend onto the palm\nUnstable reduction: Surgery\nDisplacement occurs during active range of motion or passive stressing of joint\n>20 deg of deformity and instability with lateral testing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "digital block",
+          "url": "https://wikem.org/wiki/Digital_block"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Dorsal/Posterior": {
+      "text": "Flex wrist, then hyperextend the joint\nApply longitudinal traction followed by dorsal pressure to phalanx base\nIrreducible dislocation likely due to entrapment of avulsion fracture, profundus tendor or volar plate\nWithout initial hyperextension, can be difficult to disengage from any trapped soft tissue\nPost reduction, look for central slip rupture, which may lead to\nBoutonniere deformity",
+      "subsections": {
+        "Volar/Anterior": {
+          "text": "Flex wrist then hyperflex the affected joint\nApply gentle traction then extend the joint\nOften need open reduction due to volar plate entrapment",
+          "tables": []
+        },
+        "Splinting": {
+          "text": "Place Alumifoam splint on side of dislocation\nStable dorsal reduction: 3wk of immobilization in 20-30 deg of flexion\nIf volar dislocation, may have injury to central slip of the extensor tendons, so must be splinted in full extension for 3 weeks to prevent\nBoutonniere deformity\nSplint should never extend onto the palm\nUnstable reduction: Surgery\nDisplacement occurs during active range of motion or passive stressing of joint\n>20 deg of deformity and instability with lateral testing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        },
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Volar/Anterior": {
+      "text": "Flex wrist then hyperflex the affected joint\nApply gentle traction then extend the joint\nOften need open reduction due to volar plate entrapment",
+      "subsections": {
+        "Splinting": {
+          "text": "Place Alumifoam splint on side of dislocation\nStable dorsal reduction: 3wk of immobilization in 20-30 deg of flexion\nIf volar dislocation, may have injury to central slip of the extensor tendons, so must be splinted in full extension for 3 weeks to prevent\nBoutonniere deformity\nSplint should never extend onto the palm\nUnstable reduction: Surgery\nDisplacement occurs during active range of motion or passive stressing of joint\n>20 deg of deformity and instability with lateral testing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Splinting": {
+      "text": "Place Alumifoam splint on side of dislocation\nStable dorsal reduction: 3wk of immobilization in 20-30 deg of flexion\nIf volar dislocation, may have injury to central slip of the extensor tendons, so must be splinted in full extension for 3 weeks to prevent\nBoutonniere deformity\nSplint should never extend onto the palm\nUnstable reduction: Surgery\nDisplacement occurs during active range of motion or passive stressing of joint\n>20 deg of deformity and instability with lateral testing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Boutonniere deformity",
+          "url": "https://wikem.org/wiki/Boutonniere_deformity"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient\nIf reduced, with follow up within two weeks with hand specialist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger dislocations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger dislocations",
+          "url": "https://wikem.org/wiki/Hand_and_finger_dislocations"
+        }
+      ]
+    }
+  }
+}

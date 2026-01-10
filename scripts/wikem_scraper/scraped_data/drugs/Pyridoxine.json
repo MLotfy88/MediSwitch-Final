@@ -1,0 +1,111 @@
+{
+  "drug_name": "Pyridoxine",
+  "url": "https://wikem.org/wiki/Pyridoxine",
+  "scraped_at": "2026-01-10T08:01:01.119633",
+  "sections": {
+    "Administration": {
+      "text": "Type: Water soluble vitamin\nRoutes of Administration: Oral, IV/IM\nCommon Trade Names: Vitamin B6",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hyperemesis_gravidarum": {
+          "text": "10-25mg q6-8hrs",
+          "tables": []
+        },
+        "Seizures_associated_with_overdose_of_INH_or_ingestion_of_gyromitra_mushrooms_[1]_": {
+          "text": "Known quantity ingested: Give IV pyridoxine 1:1 with amount ingested, up to 5 grams\nUnknown quantity ingested: 5 grams\nIV Infusion rate is 0.5 g/min until the seizures stop or the maximum dose is reached. Remainder of dose infused over 4 to 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hyperemesis_gravidarum": {
+      "text": "10-25mg q6-8hrs",
+      "subsections": {
+        "Seizures_associated_with_overdose_of_INH_or_ingestion_of_gyromitra_mushrooms_[1]_": {
+          "text": "Known quantity ingested: Give IV pyridoxine 1:1 with amount ingested, up to 5 grams\nUnknown quantity ingested: 5 grams\nIV Infusion rate is 0.5 g/min until the seizures stop or the maximum dose is reached. Remainder of dose infused over 4 to 6 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Seizures_associated_with_overdose_of_INH": {
+          "text": "Known  quantity ingested: Give IV pyridoxine 1:1 with amount ingested, up to 5 grams\nUnknown quantity ingested: 70mg/kg up to 5 gm (adult dose)\n[3]\nThen give 1 gram IM q30min until total dose required reached\n[4]",
+          "tables": []
+        },
+        "Gyromitra_ingestion": {
+          "text": "70mg/kg initial dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Seizures_associated_with_overdose_of_INH": {
+      "text": "Known  quantity ingested: Give IV pyridoxine 1:1 with amount ingested, up to 5 grams\nUnknown quantity ingested: 70mg/kg up to 5 gm (adult dose)\n[3]\nThen give 1 gram IM q30min until total dose required reached\n[4]",
+      "subsections": {
+        "Gyromitra_ingestion": {
+          "text": "70mg/kg initial dose",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gyromitra_ingestion": {
+      "text": "70mg/kg initial dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: A\nLactation risk\n: May inhibit lactation when given in high amounts",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antidotes\nINH\nVitamin deficiencies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidotes",
+          "url": "https://wikem.org/wiki/Antidotes"
+        },
+        {
+          "text": "INH",
+          "url": "https://wikem.org/wiki/INH"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    }
+  }
+}

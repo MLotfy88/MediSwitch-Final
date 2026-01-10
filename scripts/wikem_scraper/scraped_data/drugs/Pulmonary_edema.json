@@ -1,0 +1,779 @@
+{
+  "drug_name": "Pulmonary_edema",
+  "url": "https://wikem.org/wiki/Pulmonary_edema",
+  "scraped_at": "2026-01-10T08:00:56.948887",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Pulmonary_Edema_Types": {
+          "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Pulmonary_Edema_Types": {
+      "text": "Pulmonary capillary wedge pressure <18 mmHg differentiates noncardiogenic from cardiogenic pulmonary edema\n[1]\nCardiogenic pulmonary edema\nNoncardiogenic pulmonary edema\nNegative pressure pulmonary edema\nUpper airway obstruction\nReexpansion pulmonary edema\nStrangulation\nNeurogenic causes\nSeizure\nHead trauma\nSubarachnoid hemorrhage\nElectrocution\nIatrogenic fluid overload\nMultiple blood\ntransfusions\nIV fluid\nInhalation injury\nPulmonary contusion\nAspiration pneumonia and pneumonitis\nOther\nHigh altitude pulmonary edema\nHypertensive emergency\nARDS\nFlash pulmonary edema\nImmersion pulmonary edema\nHantavirus\npulmonary syndrome\nMissed dialysis in kidney failure\nNaloxone\nreversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Cardiogenic_pulmonary_edema"
+        },
+        {
+          "text": "Negative pressure pulmonary edema",
+          "url": "https://wikem.org/wiki/Negative_pressure_pulmonary_edema"
+        },
+        {
+          "text": "Reexpansion pulmonary edema",
+          "url": "https://wikem.org/wiki/Reexpansion_pulmonary_edema"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma_(Main)"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Electrocution",
+          "url": "https://wikem.org/wiki/Electrocution"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Inhalation injury",
+          "url": "https://wikem.org/wiki/Inhalation_injury"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Aspiration pneumonia and pneumonitis",
+          "url": "https://wikem.org/wiki/Aspiration_pneumonia_and_pneumonitis"
+        },
+        {
+          "text": "High altitude pulmonary edema",
+          "url": "https://wikem.org/wiki/High_altitude_pulmonary_edema"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/Acute_respiratory_distress_syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        },
+        {
+          "text": "Immersion pulmonary edema",
+          "url": "https://wikem.org/wiki/Immersion_pulmonary_edema"
+        },
+        {
+          "text": "Hantavirus",
+          "url": "https://wikem.org/wiki/Hantavirus"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Crackles\nRespiratory distress\nIncreased jugular venous distension\nSigns of poor organ perfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Respiratory_distress"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Acute_dyspnea": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC (rule out anemia)\nChem\nAlbumin level\nECG\nCXR\nCephalization\nInterstitial edema\nPulmonary venous congestion\nPleural effusion\nAlveolar edema\nCardiomegaly\nTroponin\n+/- BNP\nUltrasound\nBedside to assess\nglobal function\n,\nB lines\n,\nassessment of IVC\nFormal TTE/TEE",
+      "subsections": {
+        "Brain_natriuretic_peptide_(BNP)": {
+          "text": "Measurement\n<100 pg/mL\n: Negative for acute CHF (Sn 90%, NPV 89%)\n100-500 pg/mL\n: Indeterminate (Consider differential diagnosis and pre-test probability)\n>500 pg/mL\n: Positive for acute CHF (Sp 87%, PPV 90%)\nCombination of BNP with clinician judgment 94% sensitive 70% specific (compared to 49% sn and 96% spec clinical judgement alone)\n[4]",
+          "tables": []
+        },
+        "NT-proBNP[5][6]": {
+          "text": "<300 pg/mL →\nCHF\nunlikely\nCHF\nlikely in:\n>450 pg/mL\nin age < 50 years old\n>900 pg/mL\nin 50-75 years old\n>1800 pg/mL\nin > 75 years old",
+          "tables": []
+        },
+        "Lung_ultrasound_of_pulmonary_edema": {
+          "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "global function",
+          "url": "https://wikem.org/wiki/Cardiac_ultrasound"
+        },
+        {
+          "text": "B lines",
+          "url": "https://wikem.org/wiki/Ultrasound:_lungs"
+        },
+        {
+          "text": "assessment of IVC",
+          "url": "https://wikem.org/wiki/IVC_ultrasound"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Lung_ultrasound_of_pulmonary_edema": {
+      "text": "A lines and B lines\nA lines:\nAppear as horizontal lines\nIndicate dry interlobular septa.\nPredominance of A lines has 90% sensitivity, 67% specificity for pulmonary artery wedge pressure <= 13mm Hg\nA line predominance suggests that intravenous fluids may be safely given without concern for pulmonary edema\nB lines (\"comets\"):\nWhite lines from the pleura to the bottom of the screen\nHighly sensitive for pulmonary edema, but can be present at low wedge pressures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "CPAP/\nBiPAP\nwith PEEP 6-8; titrate up to PEEP of 10-12\nNitroglycerin\nDosing Options\nSublingual 0.4mg q5min\nNitropaste (better bioavailability than oral Nitroglycerin)\nIntravenous: 0.1mcg/kg/min - 5mcg/kg/min\nGenerally start IV nitroglycerin 50mcg/min and titrate rapidly (150mcg/min or higher) to symptom relief as long as patient's blood pressure tolerates\nIf\nnitroglycerin\nfails to reduce work of breathing, consider nitroprusside (reduces both preload and afterload) or ACE-inhibitiors (preload reducer)\nAfter patient improves, titrate down\nnitroglycerin\nas\nenalaprilat\n(0.625 - 1.25mg IV) or\ncaptopril\nare started\nMorphine is no longer recommended due to increased morbidity\n[8]\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BiPAP",
+          "url": "https://wikem.org/wiki/BiPAP"
+        },
+        {
+          "text": "Nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "enalaprilat",
+          "url": "https://wikem.org/wiki/Enalaprilat"
+        },
+        {
+          "text": "captopril",
+          "url": "https://wikem.org/wiki/Captopril"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on underlying cause, hemodynamic stability, and response to treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congestive heart failure\nAcute Respiratory Distress Syndrome\nFlash pulmonary edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Acute Respiratory Distress Syndrome",
+          "url": "https://wikem.org/wiki/Acute_Respiratory_Distress_Syndrome"
+        },
+        {
+          "text": "Flash pulmonary edema",
+          "url": "https://wikem.org/wiki/Flash_pulmonary_edema"
+        }
+      ]
+    }
+  }
+}

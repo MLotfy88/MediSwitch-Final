@@ -1,0 +1,152 @@
+{
+  "drug_name": "Pulseless_arrest_(peds)",
+  "url": "https://wikem.org/wiki/Pulseless_arrest_(peds)",
+  "scraped_at": "2026-01-10T08:00:59.540552",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\npulseless arrest\n. See\ncritical care quick reference\nfor drug doses and equipment sizes by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Asystole_and_PEA": {
+      "text": "Give\nEpi\n0.01mg/kg (0.1 mL/kg 1:10,000) (max 1mg) q3-5min\nRhythm check q2min\nPrioritize adequate oxygenation and ventilation, as respiratory arrest is the most common cause of pediatric cardiac arrest\nConsider H's and T's\nHypoglycemia\nHypovolemia\nHypoxia\n(most common cause of pediatric arrest)\nHydrogen ion\nHypokalemia\nor\nhyperkalemia\nHypothermia\nTension pneumothorax\nTamponade\nToxins\nThrombosis, pulmonary\nThrombosis, coronary",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Epi",
+          "url": "https://wikem.org/wiki/Epi"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hydrogen ion",
+          "url": "https://wikem.org/wiki/Acid-base_disorders"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Thrombosis, pulmonary",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Thrombosis, coronary",
+          "url": "https://wikem.org/wiki/ACS"
+        }
+      ]
+    },
+    "Ventricular_fibrillation/Pulseless_Ventricular_Tachycardia": {
+      "text": "Shock\nas quickly as possible and resume\nCPR\nimmediately\nFirst shock 2 J/kg\nSecond shock 4 J/kg\nSubsequent shocks ≥ 4 J/kg (max 10 J/kg)\nGive\nEpi\nif (shock + 2min\nCPR\n) fails to convert rhythm\nPerform pulse check/shock if appropriate q2min\nGive\nantiarrhythmic\nif (2nd shock + 2min\nCPR\n) again fails\n1st line:\nAmiodarone\n5mg/kg (max 300mg)\nMay repeat twice up to 15mg/kg\n2nd line:\nLidocaine\n1mg/kg\nMagnesium\n25-50mg/kg (max 2g) IV\nOnly for polymorphic\nV-tach",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Epi",
+          "url": "https://wikem.org/wiki/Epi"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "antiarrhythmic",
+          "url": "https://wikem.org/wiki/Antiarrhythmic"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "Lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "Magnesium",
+          "url": "https://wikem.org/wiki/Magnesium"
+        },
+        {
+          "text": "V-tach",
+          "url": "https://wikem.org/wiki/V-tach"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "PALS (Main)\nAdult Pulseless Arrest\nPost Cardiac Arrest\nBrain Death\nCritical care quick reference",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PALS (Main)",
+          "url": "https://wikem.org/wiki/PALS_(Main)"
+        },
+        {
+          "text": "Adult Pulseless Arrest",
+          "url": "https://wikem.org/wiki/Adult_Pulseless_Arrest"
+        },
+        {
+          "text": "Post Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Post_Cardiac_Arrest"
+        },
+        {
+          "text": "Brain Death",
+          "url": "https://wikem.org/wiki/Brain_Death"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "References": {
+      "text": "AHA 2010 Guidelines for PALS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

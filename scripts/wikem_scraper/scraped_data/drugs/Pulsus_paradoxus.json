@@ -1,0 +1,130 @@
+{
+  "drug_name": "Pulsus_paradoxus",
+  "url": "https://wikem.org/wiki/Pulsus_paradoxus",
+  "scraped_at": "2026-01-10T08:00:57.710721",
+  "sections": {
+    "Background": {
+      "text": "Definition:\nAn exaggerated drop in systemic arterial pressure during inspiration (>10mmHg)",
+      "subsections": {
+        "Physiology": {
+          "text": "Inspiration is performed by decreasing intrathoracic pressure\nBecause the heart is in the thorax, this pressure is transmitted to the heart and causes a bigger gradient between the pressure in the veins outside of the thorax and the right atrium/ventricle\nAs such, with each inhalation, more blood flows into the right side of the heart\nWhen this occurs, the interventricular septum subtly bulges into the LV cavity, lowering LV filling, and therefore lowering systemic stroke volume/BP\nBecause the ventricle can normally also expand outward, this septal shift is usually small, and the difference in the blood pressure is therefore small between inspiration and expiration (<10 mmHg)\nIn states in which the ventricle cannot expand outward (e.g. tamponade) or in which the drop in intrathoracic pressure with inspiration is profound (e.g. status asthmaticus), the septal shift is exaggerated and the difference in BP is larger",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Physiology": {
+      "text": "Inspiration is performed by decreasing intrathoracic pressure\nBecause the heart is in the thorax, this pressure is transmitted to the heart and causes a bigger gradient between the pressure in the veins outside of the thorax and the right atrium/ventricle\nAs such, with each inhalation, more blood flows into the right side of the heart\nWhen this occurs, the interventricular septum subtly bulges into the LV cavity, lowering LV filling, and therefore lowering systemic stroke volume/BP\nBecause the ventricle can normally also expand outward, this septal shift is usually small, and the difference in the blood pressure is therefore small between inspiration and expiration (<10 mmHg)\nIn states in which the ventricle cannot expand outward (e.g. tamponade) or in which the drop in intrathoracic pressure with inspiration is profound (e.g. status asthmaticus), the septal shift is exaggerated and the difference in BP is larger",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_pulsus_paradoxus": {
+          "text": "Moderate to severe\ncardiac tamponade\nConstrictive pericarditis\nActive\nCOPD\n/\nasthma\nexacerbation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Causes_of_pulsus_paradoxus": {
+      "text": "Moderate to severe\ncardiac tamponade\nConstrictive pericarditis\nActive\nCOPD\n/\nasthma\nexacerbation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Constrictive pericarditis",
+          "url": "https://wikem.org/wiki/Constrictive_pericarditis"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Measurement": {
+          "text": "Intermitent Korotkoff Sounds - All Korotkoff Sounds = Pulsus Pressure (normal = <10mmHg)\nInflate manual BP cuff until Korotkoff sounds disappear\nSlowly deflate the cuff until Korotkoff sounds re-appear\nAt the highest BP when you hear sounds intermittently (rather than with every heart beat), note the blood pressure\nThis corresponds to the systemic blood pressure occurring during expiration\nKeep slowly deflating the cuff until you reach the highest BP when you hear sounds with every beat (no longer intermittent)\nThis corresponds to the systemic blood pressure during inspiration\nThe difference between two pressures is the \"pulsus paradoxus\"\n>10 mmH is considered significant\nSevere pulsus paradoxus can be palpated in the pulse as a weakening or disappearance of the pulse during inspiration",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Abnormal = >10mmHg\nTamponade\nSensitivty = 80%\n+LR = 3.3\n-LR = 0.03",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Measurement": {
+      "text": "Intermitent Korotkoff Sounds - All Korotkoff Sounds = Pulsus Pressure (normal = <10mmHg)\nInflate manual BP cuff until Korotkoff sounds disappear\nSlowly deflate the cuff until Korotkoff sounds re-appear\nAt the highest BP when you hear sounds intermittently (rather than with every heart beat), note the blood pressure\nThis corresponds to the systemic blood pressure occurring during expiration\nKeep slowly deflating the cuff until you reach the highest BP when you hear sounds with every beat (no longer intermittent)\nThis corresponds to the systemic blood pressure during inspiration\nThe difference between two pressures is the \"pulsus paradoxus\"\n>10 mmH is considered significant\nSevere pulsus paradoxus can be palpated in the pulse as a weakening or disappearance of the pulse during inspiration",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Abnormal = >10mmHg\nTamponade\nSensitivty = 80%\n+LR = 3.3\n-LR = 0.03",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Abnormal = >10mmHg\nTamponade\nSensitivty = 80%\n+LR = 3.3\n-LR = 0.03",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cardiac Tamponade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cardiac Tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_Tamponade"
+        }
+      ]
+    },
+    "References": {
+      "text": "Stanford 25 Medical Blog (\nhttp://stanfordmedicine25.stanford.edu/the25/bppp.html\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "drug_name": "Prothrombin_complex_concentrates",
+  "url": "https://wikem.org/wiki/Prothrombin_complex_concentrates",
+  "scraped_at": "2026-01-10T08:00:45.788939",
+  "sections": {
+    "General": {
+      "text": "Type: Hemostatics,\nblood components\nDosage Forms:lypophilized concentrate for reconstitution 500u/vial and 1000u/vial\nCommon Trade Names: Kcentra\n3 factor PCC (Factors II, IX, and X), would need to supplement with factor VII for reversal if using 3 factor PCC\nApproved for treatment of hemophilia B (factor IX deficiency)\n4 factor PCC (Factors II, VII, IX, and X)\nApproved for reversal of vitamin K antagonists\nDoes not require thawing or ABO-compatibility testing, and less risk for volume overload (in contrast to\nFFP\n)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "blood components",
+          "url": "https://wikem.org/wiki/Blood_components"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Based on pretreatment INR, units based on factor 9 content\nINR 2-4: 25units/kg, not to exceed 2500 units\nINR 4-6: 35units/kg, not to exceed 3500 units\nINR >6: 50units/kg, not to exceed 5000 units\nConsider rechecking INR after 15 minutes to determine need for redosing\nFixed dose Kcentra equivalent to weight based (while being easier to administer and less expensive)\n[2]\n[3]\nBaseline INR ≤7.5 and ≤100 kg: 1500 units of Kcentra\nBaseline INR >7.5 or >100 kg: 2000 units of Kcentra",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety and efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Unknown, breast feeding not advised\nRenal Dosing\nAdult-N/A\nPediatric-N/A\nHepatic Dosing\nAdult-N/A\nPediatric-N/A",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nDIC\nknown\nHIT\n(Heparin induced thrombocytopenia)",
+      "subsections": {
+        "Serious": {
+          "text": "Patients receiving PCC for reversal of a vitamin K antagonist (\nWarfarin\n) due to life-threatening bleeding have a rate of thromboembolism which is similar to the rate in patients who receive\nFresh frozen plasma\n(7.3% v 7.1%).\n[4]",
+          "tables": []
+        },
+        "Common": {
+          "text": "Thromboembolic events\nHeadache\nHypotension\n(4.9%)\nNausea/vomiting\nArthralgia\nICH\n(2.9%)\nMental status change\nHypertension (2.9%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Patients receiving PCC for reversal of a vitamin K antagonist (\nWarfarin\n) due to life-threatening bleeding have a rate of thromboembolism which is similar to the rate in patients who receive\nFresh frozen plasma\n(7.3% v 7.1%).\n[4]",
+      "subsections": {
+        "Common": {
+          "text": "Thromboembolic events\nHeadache\nHypotension\n(4.9%)\nNausea/vomiting\nArthralgia\nICH\n(2.9%)\nMental status change\nHypertension (2.9%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Warfarin",
+          "url": "https://wikem.org/wiki/Warfarin"
+        },
+        {
+          "text": "Fresh frozen plasma",
+          "url": "https://wikem.org/wiki/Fresh_frozen_plasma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Thromboembolic events\nHeadache\nHypotension\n(4.9%)\nNausea/vomiting\nArthralgia\nICH\n(2.9%)\nMental status change\nHypertension (2.9%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 4-60 hours, depending on clotting factor\nMetabolism:\nExcretion:\nMechanism of Action: 4 factor PCC contains factors II, VII, XI, X, protein C and S",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anticoagulant reversal for life-threatening bleeds\nAnti-platelet agent reversal\nBlood products\nWarfarin reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "Anti-platelet agent reversal",
+          "url": "https://wikem.org/wiki/Anti-platelet_agent_reversal"
+        },
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "Warfarin reversal",
+          "url": "https://wikem.org/wiki/Warfarin_reversal"
+        }
+      ]
+    }
+  }
+}

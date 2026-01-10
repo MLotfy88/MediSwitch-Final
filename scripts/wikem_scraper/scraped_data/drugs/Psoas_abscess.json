@@ -1,0 +1,961 @@
+{
+  "drug_name": "Psoas_abscess",
+  "url": "https://wikem.org/wiki/Psoas_abscess",
+  "scraped_at": "2026-01-10T08:00:55.284173",
+  "sections": {
+    "Background": {
+      "text": "Primary infection\nPsoas muscle is susceptible to infection from distant sites due to rich blood supply, proximity to overlying retroperitoneal lymphatic channels\nSecondary infection\nDirect spread/extension via adjacent infection\nS. aureus\nis most common pathogen (80%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Abdominal pain radiating to hip, flank\nPain with thigh flexion (esp against resistance)\nLimp\nFever\nNausea\nBack pain\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hip_pain": {
+          "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+          "tables": []
+        },
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        },
+        "LLQ_Pain": {
+          "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "Hip_pain": {
+      "text": "Acute Trauma\nFemur fracture\nProximal\nIntracapsular\nFemoral head fracture\nFemoral neck fracture\nExtracapsular\nIntertrochanteric femur fracture\nTrochanteric femur fracture\nShaft\nMid-shaft femur fracture\n(all subtrochanteric)\nHip dislocation\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nChronic/Atraumatic\nHip bursitis\nPsoas abscess\nPiriformis syndrome\nMeralgia paresthetica\nSeptic arthritis\nSeptic arthritis of the hip (peds)\nObturator nerve entrapment\nAvascular necrosis of hip",
+      "subsections": {
+        "RLQ_Pain": {
+          "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+          "tables": []
+        },
+        "LLQ_Pain": {
+          "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Femoral head fracture",
+          "url": "https://wikem.org/wiki/Femoral_head_fracture"
+        },
+        {
+          "text": "Femoral neck fracture",
+          "url": "https://wikem.org/wiki/Femoral_neck_fracture"
+        },
+        {
+          "text": "Intertrochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Intertrochanteric_femur_fracture"
+        },
+        {
+          "text": "Trochanteric femur fracture",
+          "url": "https://wikem.org/wiki/Trochanteric_femur_fracture"
+        },
+        {
+          "text": "Mid-shaft femur fracture",
+          "url": "https://wikem.org/wiki/Mid-shaft_femur_fracture"
+        },
+        {
+          "text": "Hip dislocation",
+          "url": "https://wikem.org/wiki/Hip_dislocation"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Hip bursitis",
+          "url": "https://wikem.org/wiki/Hip_bursitis"
+        },
+        {
+          "text": "Piriformis syndrome",
+          "url": "https://wikem.org/wiki/Piriformis_syndrome"
+        },
+        {
+          "text": "Meralgia paresthetica",
+          "url": "https://wikem.org/wiki/Meralgia_paresthetica"
+        },
+        {
+          "text": "Septic arthritis",
+          "url": "https://wikem.org/wiki/Septic_arthritis"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Obturator nerve entrapment",
+          "url": "https://wikem.org/wiki/Obturator_nerve_entrapment"
+        },
+        {
+          "text": "Avascular necrosis of hip",
+          "url": "https://wikem.org/wiki/Avascular_necrosis_of_hip"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "RLQ_Pain": {
+      "text": "GI\nAppendicitis\nPerforated\nappendicitis\nPeritonitis\nCrohn's disease\n(terminal ileitis)\nDiverticulitis\n(cecal, Asian patients)\nInguinal hernia\nMesenteric ischemia\nIschemic colitis\nMeckel's diverticulum\nNeutropenic enterocolitis (typhlitis)\nGU\nEctopic\nEndometriosis\nKidney stone\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPyelonephritis\nOther\nAbdominal aortic aneurysm\nEpiploic appendagitis\nMesenteric lymphadenitis\nHerpes zoster\nPsoas abscess\nTesticular torsion",
+      "subsections": {
+        "LLQ_Pain": {
+          "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Peritonitis",
+          "url": "https://wikem.org/wiki/Peritonitis"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Ischemic colitis",
+          "url": "https://wikem.org/wiki/Ischemic_colitis"
+        },
+        {
+          "text": "Meckel's diverticulum",
+          "url": "https://wikem.org/wiki/Meckel%27s_diverticulum"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mesenteric lymphadenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_lymphadenitis"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "LLQ_Pain": {
+      "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work_Up": {
+          "text": "Lab Studies\nCBC\nChem-10\nLactic\nBlood cultures\nCT abdomen/pelvis with contrast (imaging study of choice)\n[3]\nMRI has higher sensitivity (if available)\n[4]\nLower accuracy with US\nMRI or US preferred in pregnant patients",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically on imaging",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work_Up": {
+      "text": "Lab Studies\nCBC\nChem-10\nLactic\nBlood cultures\nCT abdomen/pelvis with contrast (imaging study of choice)\n[3]\nMRI has higher sensitivity (if available)\n[4]\nLower accuracy with US\nMRI or US preferred in pregnant patients",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically on imaging",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically on imaging",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Antibiotics\nVancomycin\nplus\nPiperacillin/tazobactam\n3.375g,\nOR\nCeftriaxone\n+\nMetronidazole\nUltimate treatment is surgical drainage: Surgery or IR consultation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics",
+          "url": "https://wikem.org/wiki/Antibiotics"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Piperacillin/tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/tazobactam"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Abdominal Pain",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        }
+      ]
+    }
+  }
+}

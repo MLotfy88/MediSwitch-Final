@@ -1,0 +1,349 @@
+{
+  "drug_name": "Pruritus_ani",
+  "url": "https://wikem.org/wiki/Pruritus_ani",
+  "scraped_at": "2026-01-10T08:00:48.692264",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Causes": {
+          "text": "Anorectal disease\nPoor hygiene\nLocal infection\nPinworms\n,\nstrep\nLocal irritants\nDermatologic conditions\nSystemic illness\nPsychogenic factors",
+          "tables": []
+        },
+        "Associations": {
+          "text": "Anal Fissure\nAnal Fistula\nHemorrhoids\nRectal Prolapse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anorectal disease",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "Pinworms",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Perianal_strep"
+        },
+        {
+          "text": "Anal Fissure",
+          "url": "https://wikem.org/wiki/Anal_Fissure"
+        },
+        {
+          "text": "Anal Fistula",
+          "url": "https://wikem.org/wiki/Anal_Fistula"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Rectal Prolapse",
+          "url": "https://wikem.org/wiki/Rectal_Prolapse"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Anorectal disease\nPoor hygiene\nLocal infection\nPinworms\n,\nstrep\nLocal irritants\nDermatologic conditions\nSystemic illness\nPsychogenic factors",
+      "subsections": {
+        "Associations": {
+          "text": "Anal Fissure\nAnal Fistula\nHemorrhoids\nRectal Prolapse",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anorectal disease",
+          "url": "https://wikem.org/wiki/Anorectal_disorders"
+        },
+        {
+          "text": "Pinworms",
+          "url": "https://wikem.org/wiki/Pinworm"
+        },
+        {
+          "text": "strep",
+          "url": "https://wikem.org/wiki/Perianal_strep"
+        },
+        {
+          "text": "Anal Fissure",
+          "url": "https://wikem.org/wiki/Anal_Fissure"
+        },
+        {
+          "text": "Anal Fistula",
+          "url": "https://wikem.org/wiki/Anal_Fistula"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Rectal Prolapse",
+          "url": "https://wikem.org/wiki/Rectal_Prolapse"
+        }
+      ]
+    },
+    "Associations": {
+      "text": "Anal Fissure\nAnal Fistula\nHemorrhoids\nRectal Prolapse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal Fissure",
+          "url": "https://wikem.org/wiki/Anal_Fissure"
+        },
+        {
+          "text": "Anal Fistula",
+          "url": "https://wikem.org/wiki/Anal_Fistula"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Rectal Prolapse",
+          "url": "https://wikem.org/wiki/Rectal_Prolapse"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Skin appears normal with early, mild cases\nAcute, severe exacerbations associated with reddened, edematous, excoriated, skin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Anorectal_Disorders": {
+          "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+          "tables": []
+        },
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Anorectal_Disorders": {
+      "text": "Anal fissure\nAnal fistula\nAnal malignancy\nAnal tags\nAnorectal abscess\nCoccydynia\nColorectal malignancy\nCondyloma acuminata\nConstipation\nCrohn's disease\nCryptitis\nGC\n/\nChlamydia\nFecal impaction\nHemorrhoids\nInternal hemorrhoid\nExternal hemorrhoid\nLevator ani syndrome\nPedunculated polyp\nPilonidal cyst\nProctalgia fugax\nProctitis\nPruritus ani\nEnterobius\n(pinworms)\nRectal foreign body\nRectal prolapse\nSyphilitic\nfissure",
+      "subsections": {
+        "Non-GI_Look-a-Likes": {
+          "text": "Prostatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anal fissure",
+          "url": "https://wikem.org/wiki/Anal_fissure"
+        },
+        {
+          "text": "Anal fistula",
+          "url": "https://wikem.org/wiki/Anal_fistula"
+        },
+        {
+          "text": "Anal tags",
+          "url": "https://wikem.org/wiki/Anal_tags"
+        },
+        {
+          "text": "Anorectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_abscess"
+        },
+        {
+          "text": "Colorectal malignancy",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Condyloma acuminata",
+          "url": "https://wikem.org/wiki/Condyloma_acuminata"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Cryptitis",
+          "url": "https://wikem.org/wiki/Cryptitis"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Fecal impaction",
+          "url": "https://wikem.org/wiki/Fecal_impaction"
+        },
+        {
+          "text": "Hemorrhoids",
+          "url": "https://wikem.org/wiki/Hemorrhoids"
+        },
+        {
+          "text": "Internal hemorrhoid",
+          "url": "https://wikem.org/wiki/Internal_hemorrhoid"
+        },
+        {
+          "text": "External hemorrhoid",
+          "url": "https://wikem.org/wiki/External_hemorrhoid"
+        },
+        {
+          "text": "Pilonidal cyst",
+          "url": "https://wikem.org/wiki/Pilonidal_cyst"
+        },
+        {
+          "text": "Proctalgia fugax",
+          "url": "https://wikem.org/wiki/Proctalgia_fugax"
+        },
+        {
+          "text": "Proctitis",
+          "url": "https://wikem.org/wiki/Proctitis"
+        },
+        {
+          "text": "Enterobius",
+          "url": "https://wikem.org/wiki/Enterobius"
+        },
+        {
+          "text": "Rectal foreign body",
+          "url": "https://wikem.org/wiki/Rectal_foreign_body"
+        },
+        {
+          "text": "Rectal prolapse",
+          "url": "https://wikem.org/wiki/Rectal_prolapse"
+        },
+        {
+          "text": "Syphilitic",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying cause\nTo avoid scratching at night patient can wear gloves at bedtime\nSitz baths 15min TID\nZinc oxide can provide protective covering for the skin and may enhance healing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Anorectal Disorders",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anorectal Disorders",
+          "url": "https://wikem.org/wiki/Anorectal_Disorders"
+        }
+      ]
+    }
+  }
+}
