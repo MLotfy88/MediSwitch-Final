@@ -1,0 +1,471 @@
+{
+  "drug_name": "Clavicle_fracture_(peds)",
+  "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)",
+  "scraped_at": "2026-01-10T07:50:38.432896",
+  "sections": {
+    "Intro": {
+      "text": "This page is for pediatric patients; see\nclavicle fracture\nfor adult patients\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Newborn\nUsually result from birth injury (0.5% normal deliveries; 1.6% breech deliveries)\nFracture in <2 year-old should raise possibility of\nabuse",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Newborn": {
+          "text": "Upper extremity palsy (\nbrachial plexus injury\n)\n\"Pseudoparalysis\" secondary to pain\nCallous at clavicle during first 2-3wk of life",
+          "tables": []
+        },
+        "Non-Newborn_Presentation": {
+          "text": "Swelling, deformity, and tenderness overlying the clavicle\nAffected arm may be supported by the contralateral arm",
+          "tables": []
+        },
+        "Associated_Injuries": {
+          "text": "Type I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        }
+      ]
+    },
+    "Newborn": {
+      "text": "Upper extremity palsy (\nbrachial plexus injury\n)\n\"Pseudoparalysis\" secondary to pain\nCallous at clavicle during first 2-3wk of life",
+      "subsections": {
+        "Non-Newborn_Presentation": {
+          "text": "Swelling, deformity, and tenderness overlying the clavicle\nAffected arm may be supported by the contralateral arm",
+          "tables": []
+        },
+        "Associated_Injuries": {
+          "text": "Type I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        }
+      ]
+    },
+    "Non-Newborn_Presentation": {
+      "text": "Swelling, deformity, and tenderness overlying the clavicle\nAffected arm may be supported by the contralateral arm",
+      "subsections": {
+        "Associated_Injuries": {
+          "text": "Type I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Associated_Injuries": {
+      "text": "Type I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Assess distal pulse, motor, and sensation\nX-ray\nMay be seen on\nchest x-ray\n, shoulder x-ray, or dedicated clavicle films (preferred)\nIf high suspicion and no fracture on plain films, consider CT",
+          "tables": []
+        },
+        "Allman_Classification": {
+          "text": "Type I: Middle third\nType II: Lateral third\nType III: Medial third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Assess distal pulse, motor, and sensation\nX-ray\nMay be seen on\nchest x-ray\n, shoulder x-ray, or dedicated clavicle films (preferred)\nIf high suspicion and no fracture on plain films, consider CT",
+      "subsections": {
+        "Allman_Classification": {
+          "text": "Type I: Middle third\nType II: Lateral third\nType III: Medial third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Allman_Classification": {
+          "text": "Type I: Middle third\nType II: Lateral third\nType III: Medial third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Newborn_2": {
+          "text": "No treatment necessary",
+          "tables": []
+        },
+        "Non-Newborn": {
+          "text": "Pain management\nPlace the affected extremity in a\nsling\nor shoulder immobilizer\nOrthopedic surgery consultation in the ED for:\nDisplaced fracture with skin tenting\nOpen fracture\nNeurovascular compromise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sling",
+          "url": "https://wikem.org/wiki/Sling_and_swathe_splint"
+        }
+      ]
+    },
+    "Newborn_2": {
+      "text": "No treatment necessary",
+      "subsections": {
+        "Non-Newborn": {
+          "text": "Pain management\nPlace the affected extremity in a\nsling\nor shoulder immobilizer\nOrthopedic surgery consultation in the ED for:\nDisplaced fracture with skin tenting\nOpen fracture\nNeurovascular compromise",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "sling",
+          "url": "https://wikem.org/wiki/Sling_and_swathe_splint"
+        }
+      ]
+    },
+    "Non-Newborn": {
+      "text": "Pain management\nPlace the affected extremity in a\nsling\nor shoulder immobilizer\nOrthopedic surgery consultation in the ED for:\nDisplaced fracture with skin tenting\nOpen fracture\nNeurovascular compromise",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sling",
+          "url": "https://wikem.org/wiki/Sling_and_swathe_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Newborn_3": {
+          "text": "Discharge home",
+          "tables": []
+        },
+        "Non-Newborn_2": {
+          "text": "Almost all may be discharged with orthopedic surgery follow-up (if no indications for immediate surgical management; see above)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Newborn_3": {
+      "text": "Discharge home",
+      "subsections": {
+        "Non-Newborn_2": {
+          "text": "Almost all may be discharged with orthopedic surgery follow-up (if no indications for immediate surgical management; see above)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Non-Newborn_2": {
+      "text": "Almost all may be discharged with orthopedic surgery follow-up (if no indications for immediate surgical management; see above)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Speciality_Care": {
+      "text": "For <12 years of age, almost all fractures are treated nonoperatively (due to high remodeling potential)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fractures and dislocations (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures and dislocations (peds)",
+          "url": "https://wikem.org/wiki/Fractures_and_dislocations_(peds)"
+        }
+      ]
+    }
+  }
+}

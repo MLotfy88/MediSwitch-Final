@@ -1,0 +1,61 @@
+{
+  "drug_name": "Coaptation_splint",
+  "url": "https://wikem.org/wiki/Coaptation_splint",
+  "scraped_at": "2026-01-10T07:50:46.310409",
+  "sections": {
+    "Indications": {
+      "text": "Humerus shaft fracture\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Humerus shaft fracture",
+          "url": "https://wikem.org/wiki/Humerus_shaft_fracture"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "Splint_Application_General_Procedure": {
+          "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[2]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+          "tables": []
+        },
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure, followed by sling\nSplint course:\nWhile maintaining traction, apply padding and splint material as shown\nSplint should extend from the medial aspect of the arm near the axilla around the elbow and up to the acromioclavicular joint\nUse a generous amount of padding on the arm to prevent discomfort in the axilla\nMaintain position while splint material hardens and secure to arm (e.g. with ace wraps)\nWrap proximal to distal\nApply sling to arm\nKey anatomic positions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint_Application_General_Procedure": {
+      "text": "Assess pre-procedure neurovascular status (i.e., distal pulse, motor, and sensation)\n[2]\nMeasure and prepare the splinting material\nMay use contralateral extremity if easier\nMost splints use a width slightly greater than the diameter of the limb\nApply stockinette (if applicable)\nExtend 2\" beyond estimated the splinting material length\nApply padding (if applicable)\nUse 2–3 layers over the area to be splinted / between digits (when applicable)\nAdd an extra 2–3 layers over bony prominences\nApply splinting material\nLightly moisten the splinting material.\nPlace as appropriate to specific splint type\nOnce finished, if applicable fold the ends of stockinette back over the splinting material if there is excess\nApply elastic bandaging (e.g., ace wrap)\nWhile still wet\nMay further mold the splint to the desired shape\nMaintain position until splint material has hardened\nRe-check and document repeat neurovascular status",
+      "subsections": {
+        "Splint-Specific_Details": {
+          "text": "Apply padding and splint material as shown in figure, followed by sling\nSplint course:\nWhile maintaining traction, apply padding and splint material as shown\nSplint should extend from the medial aspect of the arm near the axilla around the elbow and up to the acromioclavicular joint\nUse a generous amount of padding on the arm to prevent discomfort in the axilla\nMaintain position while splint material hardens and secure to arm (e.g. with ace wraps)\nWrap proximal to distal\nApply sling to arm\nKey anatomic positions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Splint-Specific_Details": {
+      "text": "Apply padding and splint material as shown in figure, followed by sling\nSplint course:\nWhile maintaining traction, apply padding and splint material as shown\nSplint should extend from the medial aspect of the arm near the axilla around the elbow and up to the acromioclavicular joint\nUse a generous amount of padding on the arm to prevent discomfort in the axilla\nMaintain position while splint material hardens and secure to arm (e.g. with ace wraps)\nWrap proximal to distal\nApply sling to arm\nKey anatomic positions",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Splinting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "drug_name": "Clotting_of_AV_fistula",
+  "url": "https://wikem.org/wiki/Clotting_of_AV_fistula",
+  "scraped_at": "2026-01-10T07:50:45.129866",
+  "sections": {
+    "Background": {
+      "text": "AV shunt/fistula for dialysis\nMost common causes of inadequate dialysis flow\nLoss of bruit and thrill over access",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hard clot palpated in normally soft AV shunt\nLessened or absent thrill",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_Fistula_Complications": {
+          "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        }
+      ]
+    },
+    "AV_Fistula_Complications": {
+      "text": "Clotting of AV fistula\nInfection of AV fistula\nHemorrhage of AV fistula\nVascular insufficiency from AV fistula\nAV fistula aneurysm/pseudoaneurysm\nHigh-output heart failure from AV fistula",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Infection of AV fistula",
+          "url": "https://wikem.org/wiki/Infection_of_AV_fistula"
+        },
+        {
+          "text": "Hemorrhage of AV fistula",
+          "url": "https://wikem.org/wiki/Hemorrhage_of_AV_fistula"
+        },
+        {
+          "text": "Vascular insufficiency from AV fistula",
+          "url": "https://wikem.org/wiki/Vascular_insufficiency_from_AV_fistula"
+        },
+        {
+          "text": "AV fistula aneurysm/pseudoaneurysm",
+          "url": "https://wikem.org/wiki/AV_fistula_aneurysm/pseudoaneurysm"
+        },
+        {
+          "text": "High-output heart failure from AV fistula",
+          "url": "https://wikem.org/wiki/High-output_heart_failure_from_AV_fistula"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Consider\nultrasound\nof AV shunt\nCBC\nChem 7\nPT/PTT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Stenosis and even thrombosis are not emergencies, but must be intervened on within 48 hours\n[1]\nConsider discussing with vascular surgeon that placed AV shunt\nConsult Interventional Radiology for clot\nthrombolysis\nCan be treated within 24hr by angiographic clot removal or angioplasty\nThrombosis of vascular access can be treated with direct injection of\nalteplase\n2.2mg",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombolysis",
+          "url": "https://wikem.org/wiki/Thrombolysis"
+        },
+        {
+          "text": "alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Home, if resolved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyperkalemia\nDialysis complications",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Dialysis complications",
+          "url": "https://wikem.org/wiki/Dialysis_complications"
+        }
+      ]
+    }
+  }
+}

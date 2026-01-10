@@ -1,0 +1,114 @@
+{
+  "drug_name": "Cocaine",
+  "url": "https://wikem.org/wiki/Cocaine",
+  "scraped_at": "2026-01-10T07:50:43.824357",
+  "sections": {
+    "Intro": {
+      "text": "This page is for the drug cocaine; for clinical effects see\ncocaine toxicity\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "Type: Local anesthetic\nDosage Forms: 4% solution; 10% solution\nRoutes of Administration: Topical\nCommon Trade Names: Cocaine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "1-3 mg/kg, max dose of 200 mg\nSome literature suggests maximum dose of 100 mg\nIdeally use lowest effective dose",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "1 mg/kg\nNo clear safe dose established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation risk: Infant risk has been demonstrated",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: N/A\nPediatric: N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: N/A\nPediatric: N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Cocaine-associated chest pain\nSympathomimetic qualities\nTachycardia\nFever\nAgitation\nDiaphoresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 50 to 75 minutes (5.5 hours benzoylecgonine metabolite)\nMetabolism: Plasma cholinesterase; liver\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Blocks reuptake of serotonin, dopamine and norepinephrine\nAnesthetic effects achieved through sodium channel blockade",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cocaine toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine toxicity",
+          "url": "https://wikem.org/wiki/Cocaine_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "Micromedex",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

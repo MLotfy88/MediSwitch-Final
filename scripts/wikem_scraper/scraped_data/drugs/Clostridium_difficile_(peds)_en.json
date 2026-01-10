@@ -1,0 +1,885 @@
+{
+  "drug_name": "Clostridium_difficile_(peds)/en",
+  "url": "https://wikem.org/wiki/Clostridium_difficile_(peds)/en",
+  "scraped_at": "2026-01-10T07:50:43.516936",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\nThis page is for\npediatric\npatients; for adult patients see\nclostridium difficile\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Clostridium\nis a genus of\nGram-positive bacteria\nMost common cause of infectious diarrhea in hospitalized patients\nUse contact isolation if suspect\nAlcohol-based hand sanitizers do not reduce spores, but good hand washing does\n[1]",
+      "subsections": {
+        "Pediatric_Risk_Factors": {
+          "text": "Antibiotic\nexposure, particularly\npenicillins\n,\ncephalosporins\n,\nclindamycin\n,\nfluoroquinolones\nPPIs\nGI feeding tubes\nComorbidities - cancer, recent surgery, hospitalizations",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Risk_Factors": {
+      "text": "Antibiotic\nexposure, particularly\npenicillins\n,\ncephalosporins\n,\nclindamycin\n,\nfluoroquinolones\nPPIs\nGI feeding tubes\nComorbidities - cancer, recent surgery, hospitalizations",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Varies according to severity and intrinsic host factors (immunosuppression, etc.).\nDiarrhea\nthat develops during antibiotic use or within 2 weeks of discontinuation\nUsually occurs after 7-10 days of antibiotics, as diarrhea before that time is more often poor tolerance to antibiotic\nRecent discharge from hospital\nProfuse watery diarrhea\nAbdominal pain\n/tenderness\nFever\nAt the extreme, may present with\nsepsis\nsecondary to intestinal perforation or\ntoxic megacolon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[2]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[2]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Labs": {
+          "text": "C. diff toxin assay\nSn 63-94%, Sp 75-100%\nCulture\nPositive culture only means C. diff present, not necessarily that it is causing disease",
+          "tables": []
+        },
+        "Testing_Algorithm": {
+          "text": "For patients with suspected Clostridium difficile associated diarrhea (CDAD)\nLow\nsuspicion\nSend stool for C. diff toxin assay\nPositive → treat (no further testing indicated)\nNegative → do not treat (no further testing indicated)\nHigh\nsuspicion\nSend stool for C. diff toxin assay AND treat empirically\nPositive → treat (no further testing indicated)\nNegative → Consider discussion with ID (false negative tests may occur); eval for other causes of diarrhea",
+          "tables": []
+        },
+        "Repeat_testing": {
+          "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Testing in infants < 1 year of age not recommended due to high rates of colonization\n~40% of infants < 1 month are colonized and asymptomatic\n[3]\n~15% in infants 6-12 months\nBy 2 years of age, normal flora is established, similar to adults\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Labs": {
+      "text": "C. diff toxin assay\nSn 63-94%, Sp 75-100%\nCulture\nPositive culture only means C. diff present, not necessarily that it is causing disease",
+      "subsections": {
+        "Testing_Algorithm": {
+          "text": "For patients with suspected Clostridium difficile associated diarrhea (CDAD)\nLow\nsuspicion\nSend stool for C. diff toxin assay\nPositive → treat (no further testing indicated)\nNegative → do not treat (no further testing indicated)\nHigh\nsuspicion\nSend stool for C. diff toxin assay AND treat empirically\nPositive → treat (no further testing indicated)\nNegative → Consider discussion with ID (false negative tests may occur); eval for other causes of diarrhea",
+          "tables": []
+        },
+        "Repeat_testing": {
+          "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Testing in infants < 1 year of age not recommended due to high rates of colonization\n~40% of infants < 1 month are colonized and asymptomatic\n[3]\n~15% in infants 6-12 months\nBy 2 years of age, normal flora is established, similar to adults\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Testing_Algorithm": {
+      "text": "For patients with suspected Clostridium difficile associated diarrhea (CDAD)\nLow\nsuspicion\nSend stool for C. diff toxin assay\nPositive → treat (no further testing indicated)\nNegative → do not treat (no further testing indicated)\nHigh\nsuspicion\nSend stool for C. diff toxin assay AND treat empirically\nPositive → treat (no further testing indicated)\nNegative → Consider discussion with ID (false negative tests may occur); eval for other causes of diarrhea",
+      "subsections": {
+        "Repeat_testing": {
+          "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Testing in infants < 1 year of age not recommended due to high rates of colonization\n~40% of infants < 1 month are colonized and asymptomatic\n[3]\n~15% in infants 6-12 months\nBy 2 years of age, normal flora is established, similar to adults\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Repeat_testing": {
+      "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+      "subsections": {
+        "Pediatrics": {
+          "text": "Testing in infants < 1 year of age not recommended due to high rates of colonization\n~40% of infants < 1 month are colonized and asymptomatic\n[3]\n~15% in infants 6-12 months\nBy 2 years of age, normal flora is established, similar to adults\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatrics": {
+      "text": "Testing in infants < 1 year of age not recommended due to high rates of colonization\n~40% of infants < 1 month are colonized and asymptomatic\n[3]\n~15% in infants 6-12 months\nBy 2 years of age, normal flora is established, similar to adults\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Stop offending antimicrobial agents, if possible\nInitial occurrence and first recurrence of mild-moderate disease:\n[5]\nPO\nmetronidazole\n30 mg/kg/d in four divided doses, max 2 g/day\nSevere infection or second recurrence:\nPO\nvancomycin\n40 mg/kg/d in four divided doses, max 500 mg/day\nIf no improvement after 24-48 hours, oral\nvancomycin\nmax dose may be increased to 2 g/d\nQ6hr IV\nmetronidazole\n, 30 mg/kg/d, may be added to intracolonic/enema\nvancomycin\nfor ileus, inability to tolerate PO antibiotics\n1-3 year old -- 250 mg\nvancomycin\nin 50 mL NS\n4-9 year old -- 375 mg\nvancomycin\nin 75 mL NS\n> 9 year old -- 500 mg\nvancomycin\nin 100 mL NS\nMultiple recurrences, other strategies, in consult with pediatric GI:\nMay benefit from tapering and pulse oral\nvancomycin\nover 1.5-2 months, as done in adults\nConsider PO\nfidaxomicin\nin ≥ 6 year old patients at 200 mg twice daily for 10 dats",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit:\nSevere\ndiarrhea\nOutpatient antibiotic failure\nSystemic response (\nfever\n,\nleukocytosis\n, severe\nabdominal pain\n)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Penicillins",
+            "Antibiotic": "Penicillin G",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Penicillin V",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Anti-StaphylocccalPenicillins",
+            "Antibiotic": "Methicillin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Nafcillin/Oxacillin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cloxacillin/Diclox.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Amino-Penicillins",
+            "Antibiotic": "AMP/Amox",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Amox-Clav",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "AMP-Sulb",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "Anti-PseudomonalPenicillins",
+            "Antibiotic": "Ticarcillin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ticar-Clav",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Pip-Tazo",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Piperacillin",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "Carbapenems",
+            "Antibiotic": "Doripenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ertapenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Imipenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Meropenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Aztreonam",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "Fluroquinolones",
+            "Antibiotic": "Ciprofloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ofloxacin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Pefloxacin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Levofloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Moxifloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Gemifloxacin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Gatifloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "1st GCephalo",
+            "Antibiotic": "Cefazolin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "2nd G.Cephalo",
+            "Antibiotic": "Cefotetan",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefoxitin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefuroxime",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "3rd/4th G.Cephalo",
+            "Antibiotic": "Cefotaxime",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefizoxime",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "CefTRIAXone",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ceftaroline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "CefTAZidime",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefepime",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "Oral 1st G.Cephalo",
+            "Antibiotic": "Cefadroxil",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cephalexin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Oral 2nd G.Cephalo",
+            "Antibiotic": "Cefaclor/Loracarbef",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefproxil",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefuroxime axetil",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Oral 3rd G.Cephalo",
+            "Antibiotic": "Cefixime",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ceftibuten",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefpodox/Cefdinir/Cefditoren",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Aminoglycosides",
+            "Antibiotic": "Gentamicin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Tobramycin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Amikacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Chloramphenicol",
+            "Sensitivity": "I"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Clindamycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Macrolides",
+            "Antibiotic": "Erythromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Azithromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Clarithromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Ketolide",
+            "Antibiotic": "Telithromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Tetracyclines",
+            "Antibiotic": "Doxycycline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Minocycline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Glycylcycline",
+            "Antibiotic": "Tigecycline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Daptomycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Glyco/Lipoclycopeptides",
+            "Antibiotic": "Vancomycin",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Teicoplanin",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Telavancin",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Fusidic Acid",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Trimethoprim",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "TMP-SMX",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Urinary Agents",
+            "Antibiotic": "Nitrofurantoin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Fosfomycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Other",
+            "Antibiotic": "Rifampin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Metronidazole",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Quinupristin dalfoppristin",
+            "Sensitivity": "I"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Linezolid",
+            "Sensitivity": "I"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Colistimethate",
+            "Sensitivity": "X1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diarrhea\nClostridium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

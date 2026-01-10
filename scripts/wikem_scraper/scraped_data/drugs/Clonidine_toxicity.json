@@ -1,0 +1,271 @@
+{
+  "drug_name": "Clonidine_toxicity",
+  "url": "https://wikem.org/wiki/Clonidine_toxicity",
+  "scraped_at": "2026-01-10T07:50:39.592072",
+  "sections": {
+    "Background": {
+      "text": "Class: Imidazolines\nClonidine\nGuanfacine\nOxymetazoline\n(Afrin)\nTetrahydrolozine (Visine)\nNaphazoline (Naphcon)\nApraclonidine\nα-2, imidazoline, and opioid receptor agonist\nα2-agonism leads to activation of inhibitory neurons in the nucleus tractus solitarius causing decreased norepinephrine release, precipitating decreased sympathetic outflow\nAgonism of imidazoline receptors in the brain can cause unconsciousness, hypotension, and bradycardia\nClonidine is used therapeutically for hypertension, opioid abuse, PTSD, and tobacco withdrawal; criminally, it has been used for drug-facilitated sexual assault",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clonidine",
+          "url": "https://wikem.org/wiki/Clonidine"
+        },
+        {
+          "text": "Oxymetazoline",
+          "url": "https://wikem.org/wiki/Oxymetazoline"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Note that initial presentation may stem from non-specific peripheral alpha1 agonism, and produce hypertension and reflex tachycardia - will transition to bradycardia and hypotension when central effects take over\nCardiac (alpha2)\nBradycardia\nHypotension\nNeuro\nCNS depression (most common)\nLethargy (may progress to apnea)\nMiotic pupils\nRespiratory depression\nRespiratory\nHypoventilation\nHypoxia\nCheynes-Stokes respiration\nPeriodic apnea\nHypothermia\nCan mimic opioid overdose\nobtundation, miosis, respiratory depression, and hypothermia\nCan mimic digoxin, Beta-blocker, or CCB toxicity with hypotension and bradycardia\nWithdrawal from clonidine presents with tachycardia, hypertension, tremors, and agitation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Toxidrome_Chart": {
+          "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+          "tables": [
+            [
+              {
+                "Finding": "Example",
+                "Cholinergic": "Organophosphates",
+                "Anticholinergic": "TCAs",
+                "Sympathomimetic": "Cocaine",
+                "Sympatholytic^": "Clonidine",
+                "Sedative/Hypnotic": "ETOH"
+              },
+              {
+                "Finding": "Temp",
+                "Cholinergic": "Nl",
+                "Anticholinergic": "Nl / ↑",
+                "Sympathomimetic": "Nl / ↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "RR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Nl / ↓",
+                "Sympathomimetic": "Variable",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "HR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑ (sig)",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "BP",
+                "Cholinergic": "↑",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "LOC",
+                "Cholinergic": "Nl / Lethargic",
+                "Anticholinergic": "Nl, agitated, psychotic, comatose",
+                "Sympathomimetic": "Nl, agitated, psychotic",
+                "Sympatholytic^": "Nl, Lethargic, or Comatose",
+                "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+              },
+              {
+                "Finding": "Pupils",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Mydriatic",
+                "Sympathomimetic": "Mydriatic",
+                "Sympatholytic^": "Nl / Miotic",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Motor",
+                "Cholinergic": "Fasciculations, Flacid Paralysis",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl / Agitated",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Skin",
+                "Cholinergic": "Sweating (sig)",
+                "Anticholinergic": "Hot, dry",
+                "Sympathomimetic": "Sweating",
+                "Sympatholytic^": "Dry",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Lungs",
+                "Cholinergic": "Bronchospasm / rhinorrhea",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Bowel Sounds",
+                "Cholinergic": "Hyperactive (SLUDGE)",
+                "Anticholinergic": "↓ / Absent",
+                "Sympathomimetic": "Nl / ↓",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Toxidrome_Chart": {
+      "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Example",
+            "Cholinergic": "Organophosphates",
+            "Anticholinergic": "TCAs",
+            "Sympathomimetic": "Cocaine",
+            "Sympatholytic^": "Clonidine",
+            "Sedative/Hypnotic": "ETOH"
+          },
+          {
+            "Finding": "Temp",
+            "Cholinergic": "Nl",
+            "Anticholinergic": "Nl / ↑",
+            "Sympathomimetic": "Nl / ↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "RR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Nl / ↓",
+            "Sympathomimetic": "Variable",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "HR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑ (sig)",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "BP",
+            "Cholinergic": "↑",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "LOC",
+            "Cholinergic": "Nl / Lethargic",
+            "Anticholinergic": "Nl, agitated, psychotic, comatose",
+            "Sympathomimetic": "Nl, agitated, psychotic",
+            "Sympatholytic^": "Nl, Lethargic, or Comatose",
+            "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+          },
+          {
+            "Finding": "Pupils",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Mydriatic",
+            "Sympathomimetic": "Mydriatic",
+            "Sympatholytic^": "Nl / Miotic",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Motor",
+            "Cholinergic": "Fasciculations, Flacid Paralysis",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl / Agitated",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Skin",
+            "Cholinergic": "Sweating (sig)",
+            "Anticholinergic": "Hot, dry",
+            "Sympathomimetic": "Sweating",
+            "Sympatholytic^": "Dry",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Lungs",
+            "Cholinergic": "Bronchospasm / rhinorrhea",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Bowel Sounds",
+            "Cholinergic": "Hyperactive (SLUDGE)",
+            "Anticholinergic": "↓ / Absent",
+            "Sympathomimetic": "Nl / ↓",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Diagnosis is largely based on history and clinical picture; there is no readily available serum test\nSerial ECGs\nContinuous cardiac monitoring\nClonidine itself does not cause electrolyte derangements",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Respiratory/neuro depression\nNaloxone\nHigh dose may be required (up to 10mg)\n[1]\nNot always effective\nMay require infusion, typically 2/3 effective treatment dose per hour\nBradycardia\nAtropine\nHypotension\nIVF\nVasopressors if not responsive to fluids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Toxicology (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    }
+  }
+}

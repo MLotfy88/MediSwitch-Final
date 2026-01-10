@@ -1,0 +1,797 @@
+{
+  "drug_name": "Cirrhosis/en",
+  "url": "https://wikem.org/wiki/Cirrhosis/en",
+  "scraped_at": "2026-01-10T07:50:36.964390",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "A generally irreversible fibrotic scarring of the liver parenchyma resulting in liver failure\nThe twelfth leading cause of death in men and women in 2013\n[1]",
+      "subsections": {
+        "Causes": {
+          "text": "Hepatitis\nchronic B and C\nAlcoholic liver disease\nNon-alcoholic steatohepatitis\nDrug induced (ie.\nTylenol\n.\namiodarone\n, NRTIs])\nCardiac Cirrhosis\nPrimary biliary cirrhosis\nPrimary sclerosing cholangitis\nAutoimmune hepatitis\nAlpha1 anti-trypsin Deficiency\nCystic Fibrosis",
+          "tables": []
+        },
+        "Sites_of_Portalcaval_Anastomosis": {
+          "text": "Clinical presentations of portal hypertension include:\nA dilated inferior mesenteric vein may or may not be related to portal hypertension.\nOther areas of anastomosis include the bare area of the liver as it connects to the diaphragm, the posterior portion of the gastrointestinal tract as it touches the posterior abdominal wall, the posterior surface of the pancreas, and the inferior part of the esophagus.",
+          "tables": [
+            [
+              {
+                "Region": "Esophageal",
+                "Name of clinical condition": "Esophageal varices",
+                "Portal circulation": "Esophageal branch of left gastric vein",
+                "Systemic circulation": "Esophageal branches of azygos vein"
+              },
+              {
+                "Region": "Rectal",
+                "Name of clinical condition": "Rectal varices",
+                "Portal circulation": "Superior rectal vein",
+                "Systemic circulation": "Middle rectal veins and inferior rectal veins"
+              },
+              {
+                "Region": "Paraumbilical",
+                "Name of clinical condition": "Caput medusae",
+                "Portal circulation": "Paraumbilical veins",
+                "Systemic circulation": "Superficial epigastric vein"
+              },
+              {
+                "Region": "Retroperitoneal",
+                "Name of clinical condition": "Splenorenal shunt",
+                "Portal circulation": "Splenic vein",
+                "Systemic circulation": "Renal vein, suprarenal vein, paravertebral vein, and gonadal vein"
+              },
+              {
+                "Region": "(no clinical name)",
+                "Name of clinical condition": "Right colic vein, middle colic vein, left colic vein",
+                "Portal circulation": "Retroperitoneal veins of Retzius"
+              },
+              {
+                "Region": "Intrahepatic",
+                "Name of clinical condition": "Hepatic pseudolesions",
+                "Portal circulation": "Perihepatic veins of Sappey",
+                "Systemic circulation": "Superior epigastric vein"
+              },
+              {
+                "Region": "Patent ductus venosus",
+                "Name of clinical condition": "Left branch of portal vein",
+                "Portal circulation": "Inferior vena cava"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Causes": {
+      "text": "Hepatitis\nchronic B and C\nAlcoholic liver disease\nNon-alcoholic steatohepatitis\nDrug induced (ie.\nTylenol\n.\namiodarone\n, NRTIs])\nCardiac Cirrhosis\nPrimary biliary cirrhosis\nPrimary sclerosing cholangitis\nAutoimmune hepatitis\nAlpha1 anti-trypsin Deficiency\nCystic Fibrosis",
+      "subsections": {
+        "Sites_of_Portalcaval_Anastomosis": {
+          "text": "Clinical presentations of portal hypertension include:\nA dilated inferior mesenteric vein may or may not be related to portal hypertension.\nOther areas of anastomosis include the bare area of the liver as it connects to the diaphragm, the posterior portion of the gastrointestinal tract as it touches the posterior abdominal wall, the posterior surface of the pancreas, and the inferior part of the esophagus.",
+          "tables": [
+            [
+              {
+                "Region": "Esophageal",
+                "Name of clinical condition": "Esophageal varices",
+                "Portal circulation": "Esophageal branch of left gastric vein",
+                "Systemic circulation": "Esophageal branches of azygos vein"
+              },
+              {
+                "Region": "Rectal",
+                "Name of clinical condition": "Rectal varices",
+                "Portal circulation": "Superior rectal vein",
+                "Systemic circulation": "Middle rectal veins and inferior rectal veins"
+              },
+              {
+                "Region": "Paraumbilical",
+                "Name of clinical condition": "Caput medusae",
+                "Portal circulation": "Paraumbilical veins",
+                "Systemic circulation": "Superficial epigastric vein"
+              },
+              {
+                "Region": "Retroperitoneal",
+                "Name of clinical condition": "Splenorenal shunt",
+                "Portal circulation": "Splenic vein",
+                "Systemic circulation": "Renal vein, suprarenal vein, paravertebral vein, and gonadal vein"
+              },
+              {
+                "Region": "(no clinical name)",
+                "Name of clinical condition": "Right colic vein, middle colic vein, left colic vein",
+                "Portal circulation": "Retroperitoneal veins of Retzius"
+              },
+              {
+                "Region": "Intrahepatic",
+                "Name of clinical condition": "Hepatic pseudolesions",
+                "Portal circulation": "Perihepatic veins of Sappey",
+                "Systemic circulation": "Superior epigastric vein"
+              },
+              {
+                "Region": "Patent ductus venosus",
+                "Name of clinical condition": "Left branch of portal vein",
+                "Portal circulation": "Inferior vena cava"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sites_of_Portalcaval_Anastomosis": {
+      "text": "Clinical presentations of portal hypertension include:\nA dilated inferior mesenteric vein may or may not be related to portal hypertension.\nOther areas of anastomosis include the bare area of the liver as it connects to the diaphragm, the posterior portion of the gastrointestinal tract as it touches the posterior abdominal wall, the posterior surface of the pancreas, and the inferior part of the esophagus.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Region": "Esophageal",
+            "Name of clinical condition": "Esophageal varices",
+            "Portal circulation": "Esophageal branch of left gastric vein",
+            "Systemic circulation": "Esophageal branches of azygos vein"
+          },
+          {
+            "Region": "Rectal",
+            "Name of clinical condition": "Rectal varices",
+            "Portal circulation": "Superior rectal vein",
+            "Systemic circulation": "Middle rectal veins and inferior rectal veins"
+          },
+          {
+            "Region": "Paraumbilical",
+            "Name of clinical condition": "Caput medusae",
+            "Portal circulation": "Paraumbilical veins",
+            "Systemic circulation": "Superficial epigastric vein"
+          },
+          {
+            "Region": "Retroperitoneal",
+            "Name of clinical condition": "Splenorenal shunt",
+            "Portal circulation": "Splenic vein",
+            "Systemic circulation": "Renal vein, suprarenal vein, paravertebral vein, and gonadal vein"
+          },
+          {
+            "Region": "(no clinical name)",
+            "Name of clinical condition": "Right colic vein, middle colic vein, left colic vein",
+            "Portal circulation": "Retroperitoneal veins of Retzius"
+          },
+          {
+            "Region": "Intrahepatic",
+            "Name of clinical condition": "Hepatic pseudolesions",
+            "Portal circulation": "Perihepatic veins of Sappey",
+            "Systemic circulation": "Superior epigastric vein"
+          },
+          {
+            "Region": "Patent ductus venosus",
+            "Name of clinical condition": "Left branch of portal vein",
+            "Portal circulation": "Inferior vena cava"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "May be asymptomatic initially\nMalaise,\nweakness\n(from\nelectrolyte derangements\n)\nAbdominal pain\nAscites\n,\nSBP\n(fever, abdominal tenderness)\nAltered mental status\ndue to\nhepatic encephalopathy\nCoagulopathy\nGI bleed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_distention": {
+          "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+          "tables": []
+        },
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[2]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Abdominal_distention": {
+      "text": "Obesity\nIntestinal obstruction\nPregnancy\nAscites\nCirrhosis\nMalignancy\nHeart failure\nTuberculosis\nSpontaneous bacterial peritonitis\nPeritoneal dialysis-associated peritonitis\nDistended bladder /\nAcute urinary retention\nConstipation\n/ fecal impaction\nLarge tumor(s) (e.g. ovarian, lymphoma)\nOrganomegaly",
+      "subsections": {
+        "Hepatic_Dysfunction": {
+          "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[2]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intestinal obstruction",
+          "url": "https://wikem.org/wiki/Intestinal_obstruction"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Spontaneous bacterial peritonitis",
+          "url": "https://wikem.org/wiki/Spontaneous_bacterial_peritonitis"
+        },
+        {
+          "text": "Peritoneal dialysis-associated peritonitis",
+          "url": "https://wikem.org/wiki/Peritoneal_dialysis-associated_peritonitis"
+        },
+        {
+          "text": "Acute urinary retention",
+          "url": "https://wikem.org/wiki/Acute_urinary_retention"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Hepatic_Dysfunction": {
+      "text": "Infectious\nHepatitis\nViral hepatitis\nMalaria\nHIV\n(present in 50% of AIDS patients)\n[2]\nEBV\nBabesiosis\n,\nleptospirosis\nTyphoid\nHepatic abscess\n,\namebiasis\nNeoplastic\nMetastases\nHepatocellular carcinoma\nMultiple myeloma\nLeukemia\nLymphoma\nMyeloproliferative disorders\nMetabolic\nHemochromatosis\nWilson's disease\nNon-alcoholic steatohepatitis\nInborn errors of metabolism\nBiliary\nBiliary cirrhosis\nDrugs\nAlcoholic\ncirrhosis\nAlcoholic hepatitis\nHepatotoxic drugs\nMiscellaneous\nOther causes of\ncirrhosis\nAutoimmune hepatitis\nVeno-occlusive disease\nCHF\n(right heart failure)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "Hepatic abscess",
+          "url": "https://wikem.org/wiki/Hepatic_abscess"
+        },
+        {
+          "text": "amebiasis",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Hepatocellular carcinoma",
+          "url": "https://wikem.org/wiki/Hepatocellular_carcinoma"
+        },
+        {
+          "text": "Multiple myeloma",
+          "url": "https://wikem.org/wiki/Multiple_myeloma"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "Myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Non-alcoholic steatohepatitis",
+          "url": "https://wikem.org/wiki/Non-alcoholic_steatohepatitis"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Alcoholic_hepatitis"
+        },
+        {
+          "text": "Hepatotoxic drugs",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC\nChem 7\nPT/PTT\nLFTs\n+ lipase\nFAST\nSee workup, if positive for\nascites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "CBC\nChem 7\nPT/PTT\nLFTs\n+ lipase\nFAST\nSee workup, if positive for\nascites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Complications of cirrhosis\nAscites\nEsophageal\nvarices\nHepatic encephalopathy\nSpontaneous bacterial peritonitis\nHepatorenal syndrome\nPortal hypertension\nUpper gastrointestinal bleed\nHepatocellular carcinoma\nPain management in cirrhotic patients\nAcetaminophen\nis safe for short-term use at reduced dose of 2 grams total per day\nGabapentin\nor\npregabalin\nfor neuropathic pain\nAvoid\nNSAIDs\nAvoid\nopioids\nunpredictable effects if liver function impaired due to hepatic metabolism\nif necessary,\nfentanyl\nor\ntramadol\nprobably safest",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Often complex and should be based on presence/absence of acute complications\nIf no complications present, discussion with patient's primary care provider or gastroenterologist recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Child-Pugh_Score": {
+          "text": "Score ≤ 7 = Class A = 100% and 85% one and two-year patient survival\nScore 7 - 9 = Class B = 80% and 60% one and two-year patient survival\nScore ≥ 10 = Class c = 45% and 35% one and two-year patient survival",
+          "tables": [
+            [
+              {
+                "": "Bilirubin",
+                "+1": "<2mg/dL",
+                "+2": "2-3mg/dL",
+                "+3": ">3 Mg/dL"
+              },
+              {
+                "": "Albumin",
+                "+1": ">3.5mg/dL",
+                "+2": "2.8-3.5mg/dL",
+                "+3": "<2.8mg/dL"
+              },
+              {
+                "": "INR",
+                "+1": "<1.7",
+                "+2": "1.7-2.2",
+                "+3": ">2.2"
+              },
+              {
+                "": "Ascites",
+                "+1": "No ascites",
+                "+2": "Ascites, medically controlled",
+                "+3": "Ascites, poorly controlled"
+              },
+              {
+                "": "Encephalopathy",
+                "+1": "No encephalopathy",
+                "+2": "Encephalopathy, medically controlled",
+                "+3": "Encephalopathy, poorly controlled"
+              }
+            ]
+          ]
+        },
+        "MELD_Score": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "MELD-Na Score": "40",
+                "3-month mortality": "71.3%"
+              },
+              {
+                "MELD-Na Score": "30-39",
+                "3-month mortality": "52.6%"
+              },
+              {
+                "MELD-Na Score": "20-29",
+                "3-month mortality": "19.6%"
+              },
+              {
+                "MELD-Na Score": "10-19",
+                "3-month mortality": "6.0%"
+              },
+              {
+                "MELD-Na Score": "<9",
+                "3-month mortality": "1.9%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Child-Pugh_Score": {
+      "text": "Score ≤ 7 = Class A = 100% and 85% one and two-year patient survival\nScore 7 - 9 = Class B = 80% and 60% one and two-year patient survival\nScore ≥ 10 = Class c = 45% and 35% one and two-year patient survival",
+      "subsections": {
+        "MELD_Score": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "MELD-Na Score": "40",
+                "3-month mortality": "71.3%"
+              },
+              {
+                "MELD-Na Score": "30-39",
+                "3-month mortality": "52.6%"
+              },
+              {
+                "MELD-Na Score": "20-29",
+                "3-month mortality": "19.6%"
+              },
+              {
+                "MELD-Na Score": "10-19",
+                "3-month mortality": "6.0%"
+              },
+              {
+                "MELD-Na Score": "<9",
+                "3-month mortality": "1.9%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "": "Bilirubin",
+            "+1": "<2mg/dL",
+            "+2": "2-3mg/dL",
+            "+3": ">3 Mg/dL"
+          },
+          {
+            "": "Albumin",
+            "+1": ">3.5mg/dL",
+            "+2": "2.8-3.5mg/dL",
+            "+3": "<2.8mg/dL"
+          },
+          {
+            "": "INR",
+            "+1": "<1.7",
+            "+2": "1.7-2.2",
+            "+3": ">2.2"
+          },
+          {
+            "": "Ascites",
+            "+1": "No ascites",
+            "+2": "Ascites, medically controlled",
+            "+3": "Ascites, poorly controlled"
+          },
+          {
+            "": "Encephalopathy",
+            "+1": "No encephalopathy",
+            "+2": "Encephalopathy, medically controlled",
+            "+3": "Encephalopathy, poorly controlled"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "MELD_Score": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "MELD-Na Score": "40",
+            "3-month mortality": "71.3%"
+          },
+          {
+            "MELD-Na Score": "30-39",
+            "3-month mortality": "52.6%"
+          },
+          {
+            "MELD-Na Score": "20-29",
+            "3-month mortality": "19.6%"
+          },
+          {
+            "MELD-Na Score": "10-19",
+            "3-month mortality": "6.0%"
+          },
+          {
+            "MELD-Na Score": "<9",
+            "3-month mortality": "1.9%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Viral hepatitis\nAcute hepatic failure\nJaundice\nAscites",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "drug_name": "Coagulation_studies",
+  "url": "https://wikem.org/wiki/Coagulation_studies",
+  "scraped_at": "2026-01-10T07:50:45.541143",
+  "sections": {
+    "Core_Labs": {
+      "text": "",
+      "subsections": {
+        "PT_(Prothrombin_Time)": {
+          "text": "Measures extrinsic & common pathways (factors I, II, V, VII, X)\nNormal: 11–13.5 sec\nProlonged in: warfarin use, liver disease, vitamin K deficiency, DIC",
+          "tables": []
+        },
+        "INR_(International_Normalized_Ratio)": {
+          "text": "Standardized PT\nNormal: 0.8–1.2\nTarget therapeutic: 2–3 (DVT/PE/AF); 2.5–3.5 (mechanical valves)\n>1.5 with bleeding or planned procedure may warrant reversal",
+          "tables": []
+        },
+        "aPTT_(Activated_Partial_Thromboplastin_Time)": {
+          "text": "Measures intrinsic & common pathways (factors I, II, V, VIII, IX, X, XI, XII)\nNormal: 25–35 sec\nProlonged in: heparin, hemophilia A/B, lupus anticoagulant, DIC",
+          "tables": []
+        },
+        "Fibrinogen": {
+          "text": "Acute phase reactant; substrate for clot formation\nNormal: 200–400 mg/dL\nLow in: DIC, liver disease, fibrinolysis",
+          "tables": []
+        },
+        "D-Dimer": {
+          "text": "Marker of fibrin degradation\nNormal: <500 ng/mL (varies by assay/age)\nElevated in: VTE, trauma, infection, cancer, pregnancy, DIC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fibrinogen": {
+      "text": "Acute phase reactant; substrate for clot formation\nNormal: 200–400 mg/dL\nLow in: DIC, liver disease, fibrinolysis",
+      "subsections": {
+        "D-Dimer": {
+          "text": "Marker of fibrin degradation\nNormal: <500 ng/mL (varies by assay/age)\nElevated in: VTE, trauma, infection, cancer, pregnancy, DIC",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "D-Dimer": {
+      "text": "Marker of fibrin degradation\nNormal: <500 ng/mL (varies by assay/age)\nElevated in: VTE, trauma, infection, cancer, pregnancy, DIC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Red_Flags_in_the_ED": {
+      "text": "Bleeding with elevated PT/INR only: Think warfarin, liver disease, vitamin K deficiency.\nBleeding with elevated aPTT only: Think heparin, hemophilia, lupus anticoagulant.\nBoth PT and aPTT elevated: Consider DIC, liver failure, anticoagulant overdose.\nNormal PT/aPTT with bleeding: Platelet dysfunction, von Willebrand disease, factor XIII deficiency.\nElevated D-dimer: Not specific — never diagnostic, but sensitive for VTE when combined with low Wells score.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Urgent_Reversals": {
+      "text": "",
+      "subsections": {
+        "Warfarin_(INR_≥3_or_bleeding)": {
+          "text": "Vitamin K IV + PCC (e.g., Kcentra)\nFFP if PCC unavailable",
+          "tables": []
+        },
+        "Heparin": {
+          "text": "Protamine sulfate (1 mg per 100 units heparin given in last 2–3 hrs)",
+          "tables": []
+        },
+        "DOACs_(apixaban,_rivaroxaban)": {
+          "text": "Consider andexanet alfa (if available)\nActivated charcoal if <2 hrs from ingestion\nPCC off-label if bleeding and drug unknown",
+          "tables": [
+            [
+              {
+                "PT": "↑",
+                "aPTT": "Normal",
+                "Diagnosis": "Warfarin, early liver disease"
+              },
+              {
+                "PT": "Normal",
+                "aPTT": "↑",
+                "Diagnosis": "Heparin, hemophilia, lupus inhibitor"
+              },
+              {
+                "PT": "↑",
+                "aPTT": "↑",
+                "Diagnosis": "DIC, advanced liver disease, vitamin K deficiency"
+              },
+              {
+                "PT": "Normal",
+                "aPTT": "Normal",
+                "Diagnosis": "Platelet disorder, von Willebrand disease"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Heparin": {
+      "text": "Protamine sulfate (1 mg per 100 units heparin given in last 2–3 hrs)",
+      "subsections": {
+        "DOACs_(apixaban,_rivaroxaban)": {
+          "text": "Consider andexanet alfa (if available)\nActivated charcoal if <2 hrs from ingestion\nPCC off-label if bleeding and drug unknown",
+          "tables": [
+            [
+              {
+                "PT": "↑",
+                "aPTT": "Normal",
+                "Diagnosis": "Warfarin, early liver disease"
+              },
+              {
+                "PT": "Normal",
+                "aPTT": "↑",
+                "Diagnosis": "Heparin, hemophilia, lupus inhibitor"
+              },
+              {
+                "PT": "↑",
+                "aPTT": "↑",
+                "Diagnosis": "DIC, advanced liver disease, vitamin K deficiency"
+              },
+              {
+                "PT": "Normal",
+                "aPTT": "Normal",
+                "Diagnosis": "Platelet disorder, von Willebrand disease"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "When_to_Order_What": {
+      "text": "PT/INR: On all bleeding patients, before procedures, warfarin monitoring\naPTT: If patient is on heparin or has unexplained bleeding\nD-dimer: Rule out\nVTE\nin low-pretest probability\nFibrinogen/D-dimer: Suspect\nDIC\n, trauma,\nsepsis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VTE",
+          "url": "https://wikem.org/wiki/Venous_thromboembolism"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/Disseminated_intravascular_coagulation"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        }
+      ]
+    }
+  }
+}

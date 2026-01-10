@@ -1,0 +1,154 @@
+{
+  "drug_name": "Clogged_G-tube",
+  "url": "https://wikem.org/wiki/Clogged_G-tube",
+  "scraped_at": "2026-01-10T07:50:38.671993",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "The percutaneous gastrostomy tube (PEG) is commonly indicated in:\npatients with impaired ability to tolerate PO for caloric supplementation, hydration, frequent enteral medication dosing\noropharyngeal or esophageal obstruction\nmajor facial trauma\npassive gastric decompression\nmechanical apposition of the stomach to the abdominal wall to prevent hiatal herniation.\nMost PEGs are 18F to 28F and may be used for 12-24mo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "G-tube can be clogged with medications or feeding solution\nInability to pass feeds or aspirate from g-tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "G-tube_complications": {
+          "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Displaced G-tube",
+          "url": "https://wikem.org/wiki/Displaced_G-tube"
+        },
+        {
+          "text": "Infected G-tube",
+          "url": "https://wikem.org/wiki/Infected_G-tube"
+        },
+        {
+          "text": "Leaking G-tube",
+          "url": "https://wikem.org/wiki/Leaking_G-tube"
+        }
+      ]
+    },
+    "G-tube_complications": {
+      "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Displaced G-tube",
+          "url": "https://wikem.org/wiki/Displaced_G-tube"
+        },
+        {
+          "text": "Infected G-tube",
+          "url": "https://wikem.org/wiki/Infected_G-tube"
+        },
+        {
+          "text": "Leaking G-tube",
+          "url": "https://wikem.org/wiki/Leaking_G-tube"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nAttempts should not be made to clear tube if uncertain position/integrity of tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Mechanical_Interventions": {
+          "text": "Attempt to milk back cheesy precipitants, if the tube is pliant\nGentle back-and-forth flushing with saline: be patient, continue pumping back and forth (even if you feel no forward flow or change) for a few minutes\nThis will often dislodge just enough residue to allow for a proper flush\nUse guidewire or small stylet in proximal tube\nDo not attempt to clear subcutaneous portion of tube with guidewire or stylet secondary to to risk of puncture of tube, injure the pt, or create a tube leak.\nUse fogarty catheter to clear obstruction\nUse a No 4 embolectemy cath for a 10-12F tube or a No 5 embolectemy cath for a 14F tube\nInsert until obstruction met, then inflate and deflate and then continue insertion. Stop insertion just proximal to internal opening of feeding tube. Inflate and deflate while withdrawing catheter. Repeat as necessary.\nDo not withdraw with balloon inflated because the tube and catheter will move together as a unit\nConfirm position/integrity of tube with contrast radiography after procedure\nAttempt to flush with warm water\nThe smaller the syringe used, the greater the force that can be applied (pascal's principle)\nCatheters are prone to aneurysm and rupture (especially Broviaks) therefore, always confirm tube integrity with contrast radiography if this method is used",
+          "tables": []
+        },
+        "Pharmacologic_Interventions": {
+          "text": "Coca-cola has not been shown to be superior to water and may result in precipitants and further blockage\nMeat tenderizer and cranberry juice no better than warm water\nUse commercially available declogger (Bionix), Clog Zapper\nUse catheter to instill pancreatic enzymes and allow 30-60 minutes to dissolve obstruction, then flush with water\n[1]\nCrush 1 pancrelipase tab (lipase, amylase, protease) to fine powder\nCrush 1 non-enteric sodium bicarbonate 324mg tab to fine powder\nDissolve powder mix in 5 cc warm water to achieve activated pancrelipase ~pH 8 sln",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Catheter perforation, aneurysm, or displacement\nInternal catheter leak\nStomach perforation",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Ensure patency and placement with KUB with 20-30ml of water soluble contrast (ie gastrografin) post flushing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanical_Interventions": {
+      "text": "Attempt to milk back cheesy precipitants, if the tube is pliant\nGentle back-and-forth flushing with saline: be patient, continue pumping back and forth (even if you feel no forward flow or change) for a few minutes\nThis will often dislodge just enough residue to allow for a proper flush\nUse guidewire or small stylet in proximal tube\nDo not attempt to clear subcutaneous portion of tube with guidewire or stylet secondary to to risk of puncture of tube, injure the pt, or create a tube leak.\nUse fogarty catheter to clear obstruction\nUse a No 4 embolectemy cath for a 10-12F tube or a No 5 embolectemy cath for a 14F tube\nInsert until obstruction met, then inflate and deflate and then continue insertion. Stop insertion just proximal to internal opening of feeding tube. Inflate and deflate while withdrawing catheter. Repeat as necessary.\nDo not withdraw with balloon inflated because the tube and catheter will move together as a unit\nConfirm position/integrity of tube with contrast radiography after procedure\nAttempt to flush with warm water\nThe smaller the syringe used, the greater the force that can be applied (pascal's principle)\nCatheters are prone to aneurysm and rupture (especially Broviaks) therefore, always confirm tube integrity with contrast radiography if this method is used",
+      "subsections": {
+        "Pharmacologic_Interventions": {
+          "text": "Coca-cola has not been shown to be superior to water and may result in precipitants and further blockage\nMeat tenderizer and cranberry juice no better than warm water\nUse commercially available declogger (Bionix), Clog Zapper\nUse catheter to instill pancreatic enzymes and allow 30-60 minutes to dissolve obstruction, then flush with water\n[1]\nCrush 1 pancrelipase tab (lipase, amylase, protease) to fine powder\nCrush 1 non-enteric sodium bicarbonate 324mg tab to fine powder\nDissolve powder mix in 5 cc warm water to achieve activated pancrelipase ~pH 8 sln",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Catheter perforation, aneurysm, or displacement\nInternal catheter leak\nStomach perforation",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Ensure patency and placement with KUB with 20-30ml of water soluble contrast (ie gastrografin) post flushing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacologic_Interventions": {
+      "text": "Coca-cola has not been shown to be superior to water and may result in precipitants and further blockage\nMeat tenderizer and cranberry juice no better than warm water\nUse commercially available declogger (Bionix), Clog Zapper\nUse catheter to instill pancreatic enzymes and allow 30-60 minutes to dissolve obstruction, then flush with water\n[1]\nCrush 1 pancrelipase tab (lipase, amylase, protease) to fine powder\nCrush 1 non-enteric sodium bicarbonate 324mg tab to fine powder\nDissolve powder mix in 5 cc warm water to achieve activated pancrelipase ~pH 8 sln",
+      "subsections": {
+        "Complications": {
+          "text": "Catheter perforation, aneurysm, or displacement\nInternal catheter leak\nStomach perforation",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Ensure patency and placement with KUB with 20-30ml of water soluble contrast (ie gastrografin) post flushing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Catheter perforation, aneurysm, or displacement\nInternal catheter leak\nStomach perforation",
+      "subsections": {
+        "Imaging": {
+          "text": "Ensure patency and placement with KUB with 20-30ml of water soluble contrast (ie gastrografin) post flushing",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Ensure patency and placement with KUB with 20-30ml of water soluble contrast (ie gastrografin) post flushing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "G-tube complications",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

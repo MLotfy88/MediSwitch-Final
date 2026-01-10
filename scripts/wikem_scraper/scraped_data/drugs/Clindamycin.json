@@ -1,0 +1,844 @@
+{
+  "drug_name": "Clindamycin",
+  "url": "https://wikem.org/wiki/Clindamycin",
+  "scraped_at": "2026-01-10T07:50:36.833734",
+  "sections": {
+    "General": {
+      "text": "Type: Other\nantibiotic\nDosage Forms: IM, IV, PO (75mg; 150mg; 300mg; 75mg/5mL)\nCommon Trade Names: Cleocin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_2": {
+          "text": "PO:\n150-450mg PO q6h\nFirst Dose: 150-450mg PO x 1\nMax: 450mg/dose PO (increased risk of\nC. diff\nat higher doses)\nIM:\n1200-2700mg/day IM divided q6-12h\nFirst Dose: 600mg IM x 1\nMax: 600mg/dose IM\nIV\n1200-2700mg/day IV divided q6-12h\nFirst Dose: 600-900mg IV x 1\n4800mg/day IV",
+          "tables": []
+        },
+        "Cellulitis_Possibly_due_to_MRSA_(Unlabled_Use)": {
+          "text": "60-120 kg: 300 mg Q8H. >120kg: 450 mg Q8H.\n[2]",
+          "tables": []
+        },
+        "Strep._Pharyngitis": {
+          "text": "300mg PO q8 x 10 days",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "Clindamycin\n300mg PO BID x 7 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "PO (Mild-mod)\n450mg PO q6h x 14 days\nUse with\nceftriaxone\nor cefoxitin/probenecid if no proceeding IV treatment\nIV (Severe)\n900mg IV q8\nUse with\ngentamicin\nand switch to PO after 24h of clinical improvement",
+          "tables": []
+        },
+        "Babesiosis": {
+          "text": "600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        }
+      ]
+    },
+    "General_2": {
+      "text": "PO:\n150-450mg PO q6h\nFirst Dose: 150-450mg PO x 1\nMax: 450mg/dose PO (increased risk of\nC. diff\nat higher doses)\nIM:\n1200-2700mg/day IM divided q6-12h\nFirst Dose: 600mg IM x 1\nMax: 600mg/dose IM\nIV\n1200-2700mg/day IV divided q6-12h\nFirst Dose: 600-900mg IV x 1\n4800mg/day IV",
+      "subsections": {
+        "Cellulitis_Possibly_due_to_MRSA_(Unlabled_Use)": {
+          "text": "60-120 kg: 300 mg Q8H. >120kg: 450 mg Q8H.\n[2]",
+          "tables": []
+        },
+        "Strep._Pharyngitis": {
+          "text": "300mg PO q8 x 10 days",
+          "tables": []
+        },
+        "Bacterial_Vaginosis": {
+          "text": "Clindamycin\n300mg PO BID x 7 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "PO (Mild-mod)\n450mg PO q6h x 14 days\nUse with\nceftriaxone\nor cefoxitin/probenecid if no proceeding IV treatment\nIV (Severe)\n900mg IV q8\nUse with\ngentamicin\nand switch to PO after 24h of clinical improvement",
+          "tables": []
+        },
+        "Babesiosis": {
+          "text": "600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        }
+      ]
+    },
+    "Strep._Pharyngitis": {
+      "text": "300mg PO q8 x 10 days",
+      "subsections": {
+        "Bacterial_Vaginosis": {
+          "text": "Clindamycin\n300mg PO BID x 7 days",
+          "tables": []
+        },
+        "PID": {
+          "text": "PO (Mild-mod)\n450mg PO q6h x 14 days\nUse with\nceftriaxone\nor cefoxitin/probenecid if no proceeding IV treatment\nIV (Severe)\n900mg IV q8\nUse with\ngentamicin\nand switch to PO after 24h of clinical improvement",
+          "tables": []
+        },
+        "Babesiosis": {
+          "text": "600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        }
+      ]
+    },
+    "Bacterial_Vaginosis": {
+      "text": "Clindamycin\n300mg PO BID x 7 days",
+      "subsections": {
+        "PID": {
+          "text": "PO (Mild-mod)\n450mg PO q6h x 14 days\nUse with\nceftriaxone\nor cefoxitin/probenecid if no proceeding IV treatment\nIV (Severe)\n900mg IV q8\nUse with\ngentamicin\nand switch to PO after 24h of clinical improvement",
+          "tables": []
+        },
+        "Babesiosis": {
+          "text": "600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        }
+      ]
+    },
+    "PID": {
+      "text": "PO (Mild-mod)\n450mg PO q6h x 14 days\nUse with\nceftriaxone\nor cefoxitin/probenecid if no proceeding IV treatment\nIV (Severe)\n900mg IV q8\nUse with\ngentamicin\nand switch to PO after 24h of clinical improvement",
+      "subsections": {
+        "Babesiosis": {
+          "text": "600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        }
+      ]
+    },
+    "Babesiosis": {
+      "text": "600 mg PO q8h x 7-10 days\nAlt: 300-600mg IV q6h x 7-10 days\nFirst Dose: 300-600mg IV x 1\nGive with\nQuinine\n(650mg TID); use IV for severe infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinine",
+          "url": "https://wikem.org/wiki/Quinine"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "General_Infection_(Severe)": {
+          "text": "<1 week old\n<2kg\n10mg/kg/day IM/IV divided q12\nFirst Dose: 5mg/kg IM/IV x 1\n>2kg\n15mg/kg/day IM/IV divided q8h\nFirst Dose: 5mg/kg IM/IV x 1\n1 week - 1 month\n<1.2kg\n10mg/kg/day IM/IV divided q12h\nFirst Dose: 5mg/kg IM/IV x 1\n1.2-2kg\n15mg/kg/day IM/IV divided q8h\nFirst Dose: 5mg/kg IM/IV x 1\n>2kg\n20mg/kg/day IM/IV divided q6-8h\nAlt: 30mg/kg/day IM/IV divided q6h\nFirst Dose: 5-7.5mg/kg IM/IV x 1\n>1 Month - Children\n25-40mg/kg/day IM/IV divided q6-8h\nFirst Dose: 6.25-13.3mg/kg IM/IV x 1\nMax: 4.8 g/day IM/IV\nAdolescents\n25-40mg/kg/day IM/IV divided q6-8h\nFirst Dose: 6.25-13.3mg/kg IM/IV x 1\nMax: 4.8 g/day IM/IV",
+          "tables": []
+        },
+        "General_Infection_(Mild-Moderate)": {
+          "text": "Infants & Children\nPO:\n10-25mg/kg/day PO divided q6-8h\nFirst Dose: 2.5-8.3mg/kg PO x 1\nMax: 1.8 g/day PO\nIM/IV:\n15-25mg/kg/day IM/IV divided q6-8\nFirst Dose: 3.75-8.3mg/kg IM/IV x 1\n4.8 g/day IM/IV\nAdolescents\nPO:\n150-300mg PO q6h\nFirst Dose: 150-300mg PO x 1\nMax: 1.8 g/day PO\nIM/IV:\n25-40mg/kg/day IM/IV divided q6-8h\nFirst Dose: 6.25-13.3mg/kg IM/IV x 1\nMax: 4.8 g/day IM/IV",
+          "tables": []
+        },
+        "Cellulitis_Possibly_due_to_MRSA_(Unlabeled_Use)": {
+          "text": "10-13mg/kg/dose q6-8hrs PO x 5-10 days\nFirst Dose: 2.5-4.3mg/kg PO x 1\nMax: 40mg/kg/day",
+          "tables": []
+        },
+        "Otitis_Media,_Acute": {
+          "text": "2mo-5yo\n30-40mg/kg/day PO divided q8h x 10 days\n6-12yo\n30-40mg/kg/day PO divided q8h x 5-10 days",
+          "tables": []
+        },
+        "Sinusitis": {
+          "text": "30-40mg/kg/day PO divided q8h x 10-14 days\nUse with cefixime or cefpodoxime",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis": {
+          "text": "7mg/kg PO q8h x 10 days\nMax: 300mg/dose",
+          "tables": []
+        },
+        "Community-Acquired_Pneumonia_(>3mo)": {
+          "text": "IV (Mod-Severe):\n40mg/kg/day IV divided q6-8h x 10-14 days\nPO (Mild):\n30-40mg/kg/day PO divided q6-8h x 7-10 days",
+          "tables": []
+        },
+        "Babesiosis_2": {
+          "text": "20-40mg/kg/day PO/IV divided q6-8h x 7-10 days\nMax: 600mg/dose\nInfo: Use with quinine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Otitis_Media,_Acute": {
+      "text": "2mo-5yo\n30-40mg/kg/day PO divided q8h x 10 days\n6-12yo\n30-40mg/kg/day PO divided q8h x 5-10 days",
+      "subsections": {
+        "Sinusitis": {
+          "text": "30-40mg/kg/day PO divided q8h x 10-14 days\nUse with cefixime or cefpodoxime",
+          "tables": []
+        },
+        "Streptococcal_Pharyngitis": {
+          "text": "7mg/kg PO q8h x 10 days\nMax: 300mg/dose",
+          "tables": []
+        },
+        "Community-Acquired_Pneumonia_(>3mo)": {
+          "text": "IV (Mod-Severe):\n40mg/kg/day IV divided q6-8h x 10-14 days\nPO (Mild):\n30-40mg/kg/day PO divided q6-8h x 7-10 days",
+          "tables": []
+        },
+        "Babesiosis_2": {
+          "text": "20-40mg/kg/day PO/IV divided q6-8h x 7-10 days\nMax: 600mg/dose\nInfo: Use with quinine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sinusitis": {
+      "text": "30-40mg/kg/day PO divided q8h x 10-14 days\nUse with cefixime or cefpodoxime",
+      "subsections": {
+        "Streptococcal_Pharyngitis": {
+          "text": "7mg/kg PO q8h x 10 days\nMax: 300mg/dose",
+          "tables": []
+        },
+        "Community-Acquired_Pneumonia_(>3mo)": {
+          "text": "IV (Mod-Severe):\n40mg/kg/day IV divided q6-8h x 10-14 days\nPO (Mild):\n30-40mg/kg/day PO divided q6-8h x 7-10 days",
+          "tables": []
+        },
+        "Babesiosis_2": {
+          "text": "20-40mg/kg/day PO/IV divided q6-8h x 7-10 days\nMax: 600mg/dose\nInfo: Use with quinine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Streptococcal_Pharyngitis": {
+      "text": "7mg/kg PO q8h x 10 days\nMax: 300mg/dose",
+      "subsections": {
+        "Community-Acquired_Pneumonia_(>3mo)": {
+          "text": "IV (Mod-Severe):\n40mg/kg/day IV divided q6-8h x 10-14 days\nPO (Mild):\n30-40mg/kg/day PO divided q6-8h x 7-10 days",
+          "tables": []
+        },
+        "Babesiosis_2": {
+          "text": "20-40mg/kg/day PO/IV divided q6-8h x 7-10 days\nMax: 600mg/dose\nInfo: Use with quinine",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Babesiosis_2": {
+      "text": "20-40mg/kg/day PO/IV divided q6-8h x 7-10 days\nMax: 600mg/dose\nInfo: Use with quinine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation risk categories\n: L4; enters breast milk/not recommended\nRenal Dosing (Adult & Pediatric)\nNo adjustment\nNo supplement for hemodialysis or peritoneal dialysis\nHepatic Dosing (Adult & Pediatric)\nNo adjustment\nGeriatric: See adult dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Pregnancy_Rating"
+        },
+        {
+          "text": "Lactation risk categories",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Black_Box": {
+          "text": "High risk for\nC. difficile\nassociated diarrhea\nReserve for serious infections where there is not alternative\nDiscontinue immediately if significant diarrhea, abdominal cramps, or passage of blood or mucus with use",
+          "tables": []
+        },
+        "General_3": {
+          "text": "Allergy to class/drug\nUlcerative colitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        }
+      ]
+    },
+    "Black_Box": {
+      "text": "High risk for\nC. difficile\nassociated diarrhea\nReserve for serious infections where there is not alternative\nDiscontinue immediately if significant diarrhea, abdominal cramps, or passage of blood or mucus with use",
+      "subsections": {
+        "General_3": {
+          "text": "Allergy to class/drug\nUlcerative colitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        }
+      ]
+    },
+    "General_3": {
+      "text": "Allergy to class/drug\nUlcerative colitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "C. difficile\nassociated diarrhea\nThrombocytopenia\nAnaphylaxis\nStevens-Johnson Syndrome\nGranulocytopenia\nEsophagitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Diarrhea\nNausea and Vomiting\nAbdominal Pain\nRash\nPuritis\nJaundice\nUrticaria\nHypotension\nThrombophlebitis (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "C. difficile\nassociated diarrhea\nThrombocytopenia\nAnaphylaxis\nStevens-Johnson Syndrome\nGranulocytopenia\nEsophagitis",
+      "subsections": {
+        "Common": {
+          "text": "Diarrhea\nNausea and Vomiting\nAbdominal Pain\nRash\nPuritis\nJaundice\nUrticaria\nHypotension\nThrombophlebitis (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Diarrhea\nNausea and Vomiting\nAbdominal Pain\nRash\nPuritis\nJaundice\nUrticaria\nHypotension\nThrombophlebitis (IV use)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Nausea and Vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_Vomiting"
+        },
+        {
+          "text": "Abdominal Pain",
+          "url": "https://wikem.org/wiki/Abdominal_Pain"
+        },
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2.4-3h\nMetabolism: Liver; CYP450\nExcretion: Urine, feces\nMechanism of Action: Bacteriostatic or bactericidal, depending on bug/concentration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Administration": {
+      "text": "PO:\nGive with full glass of water (minimize esophageal ulceration)\nGive spread around the day to promote constant serum levels\nIM:\nGive to deep I.M. sites\nRotate sites\nDo not exceed 600mg per injection\nIV:\nDo NOT give as bolus\nGive by intermittent infusion over >10-60 minutes\nMax rate: 30mg/minute (do not exceed 1200mg/hour)\nFinal concentration should not exceed 18mg/mL",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Disrupts protein synthesis by binding the 50s ribosome subunit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

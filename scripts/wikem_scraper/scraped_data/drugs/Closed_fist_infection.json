@@ -1,0 +1,252 @@
+{
+  "drug_name": "Closed_fist_infection",
+  "url": "https://wikem.org/wiki/Closed_fist_infection",
+  "scraped_at": "2026-01-10T07:50:43.049408",
+  "sections": {
+    "Background": {
+      "text": "Also known as a \"Fight Bite\" or \"Reverse Bite Injury\"\nResult of striking another individual's teeth with clenched fist\nAlthough may appear benign, significant morbidity can result from late presentation or inadequate initial management\nComplications are frequent and include joint violation (68%), tendon injury (20%), and fracture (17%)\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Laceration over dorsal aspect of MCP joint (most commonly third, fourth, and/or fifth MCP joints)\nMany patients present 5-7 days after injury with healing wound, pain/swelling, erythema, limited ROM\n[2]\nMay also have systemic symptoms such as fever, lymphadenopathy, etc.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Hand and finger fractures",
+      "subsections": {
+        "Hand_and_finger_infections": {
+          "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+          "tables": []
+        },
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        },
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Hand_and_finger_infections": {
+      "text": "Bed bugs\nClosed fist infection\n(Fight Bite)\nHand cellulitis\nHand deep space infection\nHand-foot-and-mouth disease\nHerpetic whitlow\nFelon\nFlexor tenosynovitis\nParonychia\nScabies\nSporotrichosis",
+      "subsections": {
+        "Look-Alikes": {
+          "text": "Digital mixoid cyst",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bed bugs",
+          "url": "https://wikem.org/wiki/Bed_bugs"
+        },
+        {
+          "text": "Hand cellulitis",
+          "url": "https://wikem.org/wiki/Hand_cellulitis"
+        },
+        {
+          "text": "Hand deep space infection",
+          "url": "https://wikem.org/wiki/Hand_deep_space_infection"
+        },
+        {
+          "text": "Hand-foot-and-mouth disease",
+          "url": "https://wikem.org/wiki/Hand-foot-and-mouth_disease"
+        },
+        {
+          "text": "Herpetic whitlow",
+          "url": "https://wikem.org/wiki/Herpetic_whitlow"
+        },
+        {
+          "text": "Felon",
+          "url": "https://wikem.org/wiki/Felon"
+        },
+        {
+          "text": "Flexor tenosynovitis",
+          "url": "https://wikem.org/wiki/Flexor_tenosynovitis"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Sporotrichosis",
+          "url": "https://wikem.org/wiki/Sporotrichosis"
+        },
+        {
+          "text": "Digital mixoid cyst",
+          "url": "https://wikem.org/wiki/Digital_mixoid_cyst"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-up": {
+          "text": "Hand x-ray to evaluate for fracture, tooth fragments",
+          "tables": []
+        },
+        "Evaluation_2": {
+          "text": "Clinical diagnosis, based on history and physical exam\nNeed to maintain high clinical suspicion due to frequent delayed presentation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Work-up": {
+      "text": "Hand x-ray to evaluate for fracture, tooth fragments",
+      "subsections": {
+        "Evaluation_2": {
+          "text": "Clinical diagnosis, based on history and physical exam\nNeed to maintain high clinical suspicion due to frequent delayed presentation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Evaluation_2": {
+      "text": "Clinical diagnosis, based on history and physical exam\nNeed to maintain high clinical suspicion due to frequent delayed presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Copious irrigation\nTdap (if >10 years since last booster\n[2]\n)\nWound left open to heal by secondary intention\nMay require loose approximation if gaping",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Prophylactic antibiotics should be initiated for all but the most superficial wounds\nRequires polymicrobial coverage for:\nS. aureus\n,\nStrep Viridans\n,\nBacteroides\n, Coagulase-neg\nStaph\n,\nEikenella\n,\nFusobacterium\n,\nCornebacterium\n,\npeptostreptococus\nAmoxicilin-clavulanate\n875mg PO BID x 5-7days\nOR\nClindamycin\n450mg (5mg/kg) PO q8hrs daily x7 days\nPLUS\nCiprofloxacin\n500mg PO q12hrs x 7 days\nOR\nTMP/SMX\n2DS tabs (5mg/kg) PO q12hrs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "S. aureus",
+          "url": "https://wikem.org/wiki/S._aureus"
+        },
+        {
+          "text": "Strep Viridans",
+          "url": "https://wikem.org/wiki/Strep_Viridans"
+        },
+        {
+          "text": "Bacteroides",
+          "url": "https://wikem.org/wiki/Bacteroides"
+        },
+        {
+          "text": "Staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "Eikenella",
+          "url": "https://wikem.org/wiki/Eikenella"
+        },
+        {
+          "text": "Fusobacterium",
+          "url": "https://wikem.org/wiki/Fusobacterium"
+        },
+        {
+          "text": "Cornebacterium",
+          "url": "https://wikem.org/wiki/Cornebacterium"
+        },
+        {
+          "text": "peptostreptococus",
+          "url": "https://wikem.org/wiki/Peptostreptococus"
+        },
+        {
+          "text": "Amoxicilin-clavulanate",
+          "url": "https://wikem.org/wiki/Amoxicillin/Clavulanate"
+        },
+        {
+          "text": "Clindamycin",
+          "url": "https://wikem.org/wiki/Clindamycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit with IV antibiotics and hand surgery consultation if:\nDelayed presentation, evidence of local infection, systemic symptoms\nOtherwise, discharge with PO antibiotics, close follow-up, and strict return precautions.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand infection\nAnimal bites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand infection",
+          "url": "https://wikem.org/wiki/Hand_infection"
+        },
+        {
+          "text": "Animal bites",
+          "url": "https://wikem.org/wiki/Animal_bites"
+        }
+      ]
+    }
+  }
+}

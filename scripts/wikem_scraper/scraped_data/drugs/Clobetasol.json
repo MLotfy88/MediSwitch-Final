@@ -1,0 +1,112 @@
+{
+  "drug_name": "Clobetasol",
+  "url": "https://wikem.org/wiki/Clobetasol",
+  "scraped_at": "2026-01-10T07:50:35.549824",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nTopical steroid\nDosage Forms: cream, emollient, foam, gel, lotion, ointment, spray, shampoo\nRoutes of Administration: topical\nCommon Trade Names: Olux, Temovate, Clobex, Cormax",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroid",
+          "url": "https://wikem.org/wiki/Topical_steroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Most indications: apply to affected area of skin BID, max 50g/week\nGenital lichen sclerosus: apply to vulva once daily\nScalp psoriasis: apply shampoo to affected areas dry scalp once daily; leave in place 15 minutes before lathering and rinsing. Max 50ml/week x 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in children <12yo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPrimary scalp infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Secondary hypocortisolism (higher risk in pediatrics)\nIntracranial hypertension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Skin atrophy, asteatotic eczema\nSkin irritation, burning, discomfort, dryness\nPruritus\nTelangiectasia\nUpper respiratory infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Secondary hypocortisolism (higher risk in pediatrics)\nIntracranial hypertension",
+      "subsections": {
+        "Common": {
+          "text": "Skin atrophy, asteatotic eczema\nSkin irritation, burning, discomfort, dryness\nPruritus\nTelangiectasia\nUpper respiratory infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Skin atrophy, asteatotic eczema\nSkin irritation, burning, discomfort, dryness\nPruritus\nTelangiectasia\nUpper respiratory infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "High potency synthetic corticosteroid, anti-inflammatory",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Topical steroids",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical steroids",
+          "url": "https://wikem.org/wiki/Topical_steroids"
+        }
+      ]
+    },
+    "References": {
+      "text": "Bae YS, Van Voorhees AS, Hsu S, et al.; National Psoriasis Foundation. Review of treatment options for psoriasis in pregnant or lactating women: from the Medical Board of the National Psoriasis Foundation. J Am Acad Dermatol. 2012;67(3):459-477. doi: 10.1016/j.jaad.2011.07.039. [PubMed 22018758]\nButler DC, Heller MM, Murase JE. Safety of dermatologic medications in pregnancy and lactation: Part II. Lactation. J Am Acad Dermatol. 2014;70(3):417.e1-10; quiz 427. doi: 10.1016/j.jaad.2013.09.009. [PubMed 24528912]\nCarrillo Dde L. Vegetating darier's disease during pregnancy. Acta Derm Venereol. 2006;86(3):259-260. [PubMed 16710592]\nChi CC, Kirtschig G, Aberer W, et al. Updated evidence-based (S2e) European Dermatology Forum guideline on topical corticosteroids in pregnancy. J Eur Acad Dermatol Venereol. 2017;31(5):761-773. doi: 10.1111/jdv.14101. [PubMed 28233354]\nChi CC, Wang SH, Kirtschig G. Safety of Topical Corticosteroids in Pregnancy. JAMA Dermatol. 2016;152(8):934-935. doi: 10.1001/jamadermatol.2016.1009. [PubMed 27366995]\nClobex Lotion (clobetasol) [prescribing information]. Fort Worth, TX: Galderma Laboratories; July 2014.\nClobex shampoo (clobetasol) [prescribing information]. Fort Worth, TX: Galderma Laboratories; November 2012.\nClobex Shampoo (clobetasol) [product monograph]. Thornhill, ON: Galderma Canada INC; November 2017.\nClobex Spray (clobetasol) [product monograph]. Thornhill, ON: Galderma Canada INC; December 2018.\nClodan (clobetasol) [prescribing information]. Fairfield, NJ: Medimetriks Pharmaceuticals; January 2016.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "drug_name": "Clopidogrel",
+  "url": "https://wikem.org/wiki/Clopidogrel",
+  "scraped_at": "2026-01-10T07:50:40.298272",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: 75mg, 300mg PO\nCommon Trade Names: Plavix",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Age_and_Indication_Related_Dosages[1][2]": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "STEMIwith fibrinolysis",
+                "Trial": "CLARITY",
+                "Age < 75": "300 mg",
+                "Age > 75": "75 mg"
+              },
+              {
+                "": "STEMIwith PCI",
+                "Trial": "OASIS-7",
+                "Age < 75": "600 mg",
+                "Age > 75": "300 mg"
+              },
+              {
+                "": "NSTEMI/UAwith ischemic EKG changes",
+                "Trial": "CURE",
+                "Age < 75": "300 mg",
+                "Age > 75": "75 mg"
+              }
+            ]
+          ]
+        },
+        "Post-Acute_coronary_syndrome": {
+          "text": "Unstable angina\n,\nNSTEMI\n: Start 300mg PO x 1, then 75mg PO QD\nSTEMI\n: 75mg/day PO (in combination with\naspirin\n162-325mg/day\nRecent MI,\nStroke\n, or\nPeripheral Arterial Disease\n: 75mg PO QD",
+          "tables": []
+        },
+        "Thrombotic_event_prevention": {
+          "text": "75mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Post-Acute_coronary_syndrome": {
+      "text": "Unstable angina\n,\nNSTEMI\n: Start 300mg PO x 1, then 75mg PO QD\nSTEMI\n: 75mg/day PO (in combination with\naspirin\n162-325mg/day\nRecent MI,\nStroke\n, or\nPeripheral Arterial Disease\n: 75mg PO QD",
+      "subsections": {
+        "Thrombotic_event_prevention": {
+          "text": "75mg PO QD",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "NSTEMI",
+          "url": "https://wikem.org/wiki/NSTEMI"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Thrombotic_event_prevention": {
+      "text": "75mg PO QD",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Not Recommended",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B\nLactation: Safety Unknown\nRenal Dosing\nAdult: not defined\nPediatric\nHepatic Dosing\nAdult: no adjustment\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nactive bleeding\ncaution if trauma\ncaution if elective surgery within 5 days\ncaution if GI disorder\ncaution if ocular disease\ncaution if poor or intermediate CYP2C19 metabolizer\ncaution if renal impairment, mod-severe",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "bleeding, severe,\nhemorrhage\nTTP\nagranulocytosis\nhypersensitivity reaction\nanaphylactoid reaction\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nerythema multiforme\ndrug rash with eosinophilia and systemic symptoms\nEosinophilic pneumonia",
+          "tables": []
+        },
+        "Common": {
+          "text": "bleeding\npruritus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "bleeding, severe,\nhemorrhage\nTTP\nagranulocytosis\nhypersensitivity reaction\nanaphylactoid reaction\nStevens-Johnson syndrome\ntoxic epidermal necrolysis\nerythema multiforme\ndrug rash with eosinophilia and systemic symptoms\nEosinophilic pneumonia",
+      "subsections": {
+        "Common": {
+          "text": "bleeding\npruritus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Stevens-Johnson syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_syndrome"
+        },
+        {
+          "text": "toxic epidermal necrolysis",
+          "url": "https://wikem.org/wiki/Toxic_epidermal_necrolysis"
+        },
+        {
+          "text": "erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        }
+      ]
+    },
+    "Common": {
+      "text": "bleeding\npruritus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 8h\nMetabolism: liver, CYP450: 1A2, 2C9, 2C19 (primary), 3A4 substrate\nExcretion: urine 50%, feces 46%\nMechanism of Action: irreversibly binds to P2Y12 adenosine diphosphate receptors, reducing platelet activation and aggregation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    }
+  }
+}

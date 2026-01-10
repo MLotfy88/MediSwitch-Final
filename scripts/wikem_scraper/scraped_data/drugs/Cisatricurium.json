@@ -1,0 +1,230 @@
+{
+  "drug_name": "Cisatricurium",
+  "url": "https://wikem.org/wiki/Cisatricurium",
+  "scraped_at": "2026-01-10T07:50:30.692402",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nNeuromuscular blocker\nDosage Forms: Injection\nRoutes of Administration: IV\nCommon Trade Names: Nimbex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuromuscular blocker",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Induction\n150-200 mcg/kg IV x 1\nMaintenance\nIntermittent\n30 mcg/kg IV q20 min PRN (Start ~50 min after induction dose)\nContinuous\n1-2 mcg/kg/min IV (though rates may vary widely)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Induction\n1-23 months: 150 mcg/kg IVx1\n2-12 years old: 100-150 mcg/kg IV x1\n>12 years old: 150-200 mcg/kg IV x1\nMaintenance\n>2 years old: 1-2 mcg/kg min (though rates may vary widely)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Caution advised, insufficient data",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised, insufficient data",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined, consider extended interval between dose administration and intubation if\nESRD\nPediatric: Not defined, consider extended interval between dose administration and intubation if\nESRD",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, onset 1 minute faster than healthy controls\nPediatric: Not defined, onset 1 minute faster than healthy controls",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        }
+      ]
+    },
+    "Pregnancy_Rating": {
+      "text": "Caution advised, insufficient data",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Caution advised, insufficient data",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined, consider extended interval between dose administration and intubation if\nESRD\nPediatric: Not defined, consider extended interval between dose administration and intubation if\nESRD",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, onset 1 minute faster than healthy controls\nPediatric: Not defined, onset 1 minute faster than healthy controls",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        }
+      ]
+    },
+    "Lactation_risk": {
+      "text": "Caution advised, insufficient data",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined, consider extended interval between dose administration and intubation if\nESRD\nPediatric: Not defined, consider extended interval between dose administration and intubation if\nESRD",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, onset 1 minute faster than healthy controls\nPediatric: Not defined, onset 1 minute faster than healthy controls",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined, consider extended interval between dose administration and intubation if\nESRD\nPediatric: Not defined, consider extended interval between dose administration and intubation if\nESRD",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined, onset 1 minute faster than healthy controls\nPediatric: Not defined, onset 1 minute faster than healthy controls",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        },
+        {
+          "text": "ESRD",
+          "url": "https://wikem.org/wiki/ESRD"
+        }
+      ]
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined, onset 1 minute faster than healthy controls\nPediatric: Not defined, onset 1 minute faster than healthy controls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nNeonates (benzyl alcohol-containing forms)\nCaution if neuromuscular disease, burns, asthma, electrolyte abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hypersensitivity reaction\nAnaphylaxis\n/\nAnaphylactoid reaction\nBronchospasm\nHypotension\nRespiratory depression\nProlonged paralysis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Bradycardia\nHypotension\nFlushing\nBronchospasm\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Anaphylactoid reaction",
+          "url": "https://wikem.org/wiki/Anaphylactoid_reaction"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hypersensitivity reaction\nAnaphylaxis\n/\nAnaphylactoid reaction\nBronchospasm\nHypotension\nRespiratory depression\nProlonged paralysis",
+      "subsections": {
+        "Common": {
+          "text": "Bradycardia\nHypotension\nFlushing\nBronchospasm\nRash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Anaphylactoid reaction",
+          "url": "https://wikem.org/wiki/Anaphylactoid_reaction"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Bradycardia\nHypotension\nFlushing\nBronchospasm\nRash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 22-29 minutes\nMetabolism: Liver\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Binds to motor end-plate cholinergic receptor, antagonizing acetylcholine activity and producing neuromuscular blockade",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Cisatricurium can also be used as adjunct therapy for\nARDS\n. Clinical practice guidelines recommend a short course for patients with early \nsepsis-related ARDS with a PaO2/FiO2 less than 150 mmHg.\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Neuromuscular blocker",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neuromuscular blocker",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocker"
+        }
+      ]
+    }
+  }
+}

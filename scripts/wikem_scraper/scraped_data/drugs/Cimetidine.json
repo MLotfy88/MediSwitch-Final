@@ -1,0 +1,353 @@
+{
+  "drug_name": "Cimetidine",
+  "url": "https://wikem.org/wiki/Cimetidine",
+  "scraped_at": "2026-01-10T07:50:32.005261",
+  "sections": {
+    "General": {
+      "text": "Type:\nH2 blocker\nDosage Forms: 200, 300, 400, 800mg\nCommon Trade Names: Tagamet HB 200",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Duodenal_Ulcer,_Active": {
+          "text": "800mg PO QHS x 4-8 weeks",
+          "tables": []
+        },
+        "Duodenal_Ulcer,_Maintenance": {
+          "text": "400mg PO QHS",
+          "tables": []
+        },
+        "Gastric_Ulcer,_active_benign": {
+          "text": "800mg PO QHS x 6 weeks",
+          "tables": []
+        },
+        "H._Pylori_Infection": {
+          "text": "400mg PO BID x 10-28 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Duodenal_Ulcer,_Active": {
+      "text": "800mg PO QHS x 4-8 weeks",
+      "subsections": {
+        "Duodenal_Ulcer,_Maintenance": {
+          "text": "400mg PO QHS",
+          "tables": []
+        },
+        "Gastric_Ulcer,_active_benign": {
+          "text": "800mg PO QHS x 6 weeks",
+          "tables": []
+        },
+        "H._Pylori_Infection": {
+          "text": "400mg PO BID x 10-28 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Duodenal_Ulcer,_Maintenance": {
+      "text": "400mg PO QHS",
+      "subsections": {
+        "Gastric_Ulcer,_active_benign": {
+          "text": "800mg PO QHS x 6 weeks",
+          "tables": []
+        },
+        "H._Pylori_Infection": {
+          "text": "400mg PO BID x 10-28 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Gastric_Ulcer,_active_benign": {
+      "text": "800mg PO QHS x 6 weeks",
+      "subsections": {
+        "H._Pylori_Infection": {
+          "text": "400mg PO BID x 10-28 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "H._Pylori_Infection": {
+      "text": "400mg PO BID x 10-28 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "GERD/PUD": {
+          "text": "Neonates: 5- 10mg/kg/day PO divided q8-12h\nInfants: 10-20mg/kg/day PO divided q8-12h\nChildren: 20-40mg/kg/day PO divided q6H",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "GERD/PUD": {
+      "text": "Neonates: 5- 10mg/kg/day PO divided q8-12h\nInfants: 10-20mg/kg/day PO divided q8-12h\nChildren: 20-40mg/kg/day PO divided q6H",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: B (animal studies show no risk for adverse fetal effects, human fetal harm possible but unlikely)\nLactation: Probably Safe\nRenal Dosing\nAdult: CrCL 10-50: decrease dose 50%, CrCl <10, decrease dose 75%\nPediatric: CrCl 20-40, decrease dose 25% or give q8h, CrCL <20: decrease dose 50%\nHepatic Dosing\nAdult: Not Defined\nPediatric not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\ncaution if renal impairment\ncaution if hepatic impairment\ncaution in elderly patients\ncaution if chronic pulmonary disease\ncaution if\nDM\ncaution if immunocompromised",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anticholinergic toxicity\nneutropenia\nthrombocytopenia\nagranulocytosis\naplastic anemia\npneumonia\ndepression\npsychosis\nhallucinations\npancreatitis\ninterstital nephritis\nbradycardia\ntachycardia\nAV block\nskin reaction",
+          "tables": []
+        },
+        "Common": {
+          "text": "headache\ndiarrhea\ndizziness\ngynecomastia\nnausea\nvomiting\nconfusion\nagitation\ndrowsiness\nrash\nALT,AST elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anticholinergic toxicity\nneutropenia\nthrombocytopenia\nagranulocytosis\naplastic anemia\npneumonia\ndepression\npsychosis\nhallucinations\npancreatitis\ninterstital nephritis\nbradycardia\ntachycardia\nAV block\nskin reaction",
+      "subsections": {
+        "Common": {
+          "text": "headache\ndiarrhea\ndizziness\ngynecomastia\nnausea\nvomiting\nconfusion\nagitation\ndrowsiness\nrash\nALT,AST elevation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        },
+        {
+          "text": "neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Common": {
+      "text": "headache\ndiarrhea\ndizziness\ngynecomastia\nnausea\nvomiting\nconfusion\nagitation\ndrowsiness\nrash\nALT,AST elevation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "rash",
+          "url": "https://wikem.org/wiki/Rash"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 2H\nMetabolism: Liver; CYP450, 1A2, 2C19, 2D6 Inhibitor\nExcretion: urine\nMechanism of Action: Histamine H2 Receptor blocker",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antihistamines\nAnticholinergic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antihistamines",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Anticholinergic toxicity",
+          "url": "https://wikem.org/wiki/Anticholinergic_toxicity"
+        }
+      ]
+    },
+    "References": {
+      "text": "2019 American Geriatrics Society Beers Criteria Update Expert Panel. American Geriatrics Society 2019 Updated AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults. J Am Geriatr Soc. 2019;67(4):674-694. doi: 10.1111/jgs.15767. [PubMed 30693946]\nAmerican Society of Anesthesiologists Task Force on Obstetric Anesthesia. Practice guidelines for obstetric anesthesia: an updated report by the American Society of Anesthesiologists Task Force on Obstetric Anesthesia. Anesthesiology. 2007;106(4):843-863. [PubMed 17413923]\nAndreev E, Koopman M, Arisz L. A rise in plasma creatinine that is not a sign of renal failure: which drugs can be responsible? J Intern Med. 1999;246(3):247-252. [PubMed 10475992]\nASHP Therapeutic Guidelines on Stress Ulcer Prophylaxis. ASHP Commission on Therapeutics and approved by the ASHP Board of Directors on November 14, 1998. Am J Health Syst Pharm. 1999;56(4):347-379. [PubMed 10690219]\nAronoff GR, Bennett WM, Berns JS, et al, eds. Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children. 5th ed. Philadelphia, PA: American College of Physicians; 2007.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

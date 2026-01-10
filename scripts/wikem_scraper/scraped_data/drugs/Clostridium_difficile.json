@@ -1,0 +1,1060 @@
+{
+  "drug_name": "Clostridium_difficile",
+  "url": "https://wikem.org/wiki/Clostridium_difficile",
+  "scraped_at": "2026-01-10T07:50:45.842715",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\nThis page is for\nadult\npatients; for pediatric patients see\nclostridium difficile (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Clostridium\nis a genus of\ngram-positive bacteria\nMost common cause of infectious diarrhea in hospitalized patients\nUse contact isolation if suspect\nAlcohol-based hand sanitizers do not reduce spores, but good hand washing does\n[1]",
+      "subsections": {
+        "Risk_factors_for_Pseudomembranous_Colitis": {
+          "text": "Recent antibiotic use (any)\nGI surgery\nSevere underlying medical illness\nChemo\nElderly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_factors_for_Pseudomembranous_Colitis": {
+      "text": "Recent antibiotic use (any)\nGI surgery\nSevere underlying medical illness\nChemo\nElderly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Varies according to severity and intrinsic host factors (immunosuppression, etc.).\nProfuse watery\ndiarrhea\nUsually develops after 7-10 days of antibiotics use or within 2 weeks of discontinuation\nHistory of risk factor(s) (see Background)\nMay report diffuse\nabdominal pain\n/cramping\nAt the extreme, may present with\nsepsis\nsecondary to intestinal perforation or\ntoxic megacolon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[2]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[2]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider testing patients with unexplained and new-onset ≥3 unformed stools within 24 hours\n[3]\nInstitutions should have an agreed protocol using a stool toxin test as part of a multistep algorithm (e.g. glutamate dehydrogenase [GDH] plus toxin; GDH plus toxin, arbitrated by nucleic acid amplification test [NAAT])\nor NAAT plus toxin) rather than a NAAT alone for all specimens received in the clinical laboratory when there are no preagreed institutional criteria for patient stool submission (Figure 2) (weak recommendation, low quality of evidence).\nC. diff toxin assay\nSn 63-94%, Sp 75-100%\nCulture\nPositive culture only means C. diff present, not necessarily that it is causing disease",
+          "tables": []
+        },
+        "Testing_Algorithm": {
+          "text": "For patients with suspected Clostridium difficile associated diarrhea (CDAD)\nLow\nsuspicion\nSend stool for C. diff toxin assay\nPositive → treat (no further testing indicated)\nNegative → do not treat (no further testing indicated)\nHigh\nsuspicion\nSend stool for C. diff toxin assay AND treat empirically\nPositive → treat (no further testing indicated)\nNegative → Consider discussion with ID (false negative tests may occur); eval for other causes of diarrhea",
+          "tables": []
+        },
+        "Repeat_testing": {
+          "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+          "tables": []
+        },
+        "Severe_Criteria[4][5]": {
+          "text": "Leukocytosis with a white blood cell count of ≥15000 cells/mL\nSerum creatinine level >1.5 mg/dL\nSerum\nlactate\nlevels >2.2 mmol/l\nMental status changes\nWBC\n≥35,000 cells/mm3 or <2,000 cells/mm3\nPatient requiring ICU admission\nEnd organ failure (\nmechanical ventilation\n,\nrenal failure\n, etc.)",
+          "tables": []
+        },
+        "Severe_Fulminant_Criteria": {
+          "text": "Hypotension\nwith or without required use of vasopressors\nIleus\nor significant abdominal distention\nMegacolon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Consider testing patients with unexplained and new-onset ≥3 unformed stools within 24 hours\n[3]\nInstitutions should have an agreed protocol using a stool toxin test as part of a multistep algorithm (e.g. glutamate dehydrogenase [GDH] plus toxin; GDH plus toxin, arbitrated by nucleic acid amplification test [NAAT])\nor NAAT plus toxin) rather than a NAAT alone for all specimens received in the clinical laboratory when there are no preagreed institutional criteria for patient stool submission (Figure 2) (weak recommendation, low quality of evidence).\nC. diff toxin assay\nSn 63-94%, Sp 75-100%\nCulture\nPositive culture only means C. diff present, not necessarily that it is causing disease",
+      "subsections": {
+        "Testing_Algorithm": {
+          "text": "For patients with suspected Clostridium difficile associated diarrhea (CDAD)\nLow\nsuspicion\nSend stool for C. diff toxin assay\nPositive → treat (no further testing indicated)\nNegative → do not treat (no further testing indicated)\nHigh\nsuspicion\nSend stool for C. diff toxin assay AND treat empirically\nPositive → treat (no further testing indicated)\nNegative → Consider discussion with ID (false negative tests may occur); eval for other causes of diarrhea",
+          "tables": []
+        },
+        "Repeat_testing": {
+          "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+          "tables": []
+        },
+        "Severe_Criteria[4][5]": {
+          "text": "Leukocytosis with a white blood cell count of ≥15000 cells/mL\nSerum creatinine level >1.5 mg/dL\nSerum\nlactate\nlevels >2.2 mmol/l\nMental status changes\nWBC\n≥35,000 cells/mm3 or <2,000 cells/mm3\nPatient requiring ICU admission\nEnd organ failure (\nmechanical ventilation\n,\nrenal failure\n, etc.)",
+          "tables": []
+        },
+        "Severe_Fulminant_Criteria": {
+          "text": "Hypotension\nwith or without required use of vasopressors\nIleus\nor significant abdominal distention\nMegacolon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Testing_Algorithm": {
+      "text": "For patients with suspected Clostridium difficile associated diarrhea (CDAD)\nLow\nsuspicion\nSend stool for C. diff toxin assay\nPositive → treat (no further testing indicated)\nNegative → do not treat (no further testing indicated)\nHigh\nsuspicion\nSend stool for C. diff toxin assay AND treat empirically\nPositive → treat (no further testing indicated)\nNegative → Consider discussion with ID (false negative tests may occur); eval for other causes of diarrhea",
+      "subsections": {
+        "Repeat_testing": {
+          "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+          "tables": []
+        },
+        "Severe_Criteria[4][5]": {
+          "text": "Leukocytosis with a white blood cell count of ≥15000 cells/mL\nSerum creatinine level >1.5 mg/dL\nSerum\nlactate\nlevels >2.2 mmol/l\nMental status changes\nWBC\n≥35,000 cells/mm3 or <2,000 cells/mm3\nPatient requiring ICU admission\nEnd organ failure (\nmechanical ventilation\n,\nrenal failure\n, etc.)",
+          "tables": []
+        },
+        "Severe_Fulminant_Criteria": {
+          "text": "Hypotension\nwith or without required use of vasopressors\nIleus\nor significant abdominal distention\nMegacolon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Repeat_testing": {
+      "text": "Never a need for repeat testing within 7 days of a previous test\nNO NEED to repeat positive tests as symptoms resolve as a “test of cure”\nNO NEED to repeat test soon after initial negative test (more likely to be a false positive test than a true positive test)",
+      "subsections": {
+        "Severe_Criteria[4][5]": {
+          "text": "Leukocytosis with a white blood cell count of ≥15000 cells/mL\nSerum creatinine level >1.5 mg/dL\nSerum\nlactate\nlevels >2.2 mmol/l\nMental status changes\nWBC\n≥35,000 cells/mm3 or <2,000 cells/mm3\nPatient requiring ICU admission\nEnd organ failure (\nmechanical ventilation\n,\nrenal failure\n, etc.)",
+          "tables": []
+        },
+        "Severe_Fulminant_Criteria": {
+          "text": "Hypotension\nwith or without required use of vasopressors\nIleus\nor significant abdominal distention\nMegacolon",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Severe_Fulminant_Criteria": {
+      "text": "Hypotension\nwith or without required use of vasopressors\nIleus\nor significant abdominal distention\nMegacolon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "No diagnostic testing or treatment required\n[8]\nConsider discontinuing offending antibiotics",
+          "tables": []
+        },
+        "Non-Severe": {
+          "text": "Fidaxomicin first line per 2018 IDSA guidelines\n[9]\nVancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days\nMetronidazole\n500mg PO or IV three times daily for 10 days (third line therapy)",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+          "tables": []
+        },
+        "Severe_Fulminant": {
+          "text": "See criteria above (Evaluation section)\nVancomycin\n500 mg PO or NG four times daily for 10 days\nConsidered rectal instillation of\nVancomycin\nMetronidazole\n500 mg IV every 8 hours, particularly if ileus is present.\nConsider emergency colectomy if:\nWBC >20K\nLactate\n>5\nAge >75\nImmunosuppression\nToxic megacolon\nColonic perforation\nMulti-organ system failure",
+          "tables": []
+        },
+        "Recurrent_Infection": {
+          "text": "Relapse occurs in 10-25% of patients\nOccurs <=4 weeks after the completion of therapy\nOtherwise consider other (more common) causes\n1st recurrence: Fidaxomicin first line therapy\n2nd recurrence: tapered\nvancomycin\nwith pulse doses\n3rd recurrence: PO\nvancomycin\n10-14 days followed immediately by\nrifaximin\n\"chaser\" 400mg TID x20 days\n[10]\nOther options:\nIVIG\nFecal transplant\nFidaxomicin\n200mg BID x10 days noninferior to PO\nvancomycin\n, and reduces recurrences at 4 weeks after treatment (~15% vs 25%)\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Asymptomatic": {
+      "text": "No diagnostic testing or treatment required\n[8]\nConsider discontinuing offending antibiotics",
+      "subsections": {
+        "Non-Severe": {
+          "text": "Fidaxomicin first line per 2018 IDSA guidelines\n[9]\nVancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days\nMetronidazole\n500mg PO or IV three times daily for 10 days (third line therapy)",
+          "tables": []
+        },
+        "Severe": {
+          "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+          "tables": []
+        },
+        "Severe_Fulminant": {
+          "text": "See criteria above (Evaluation section)\nVancomycin\n500 mg PO or NG four times daily for 10 days\nConsidered rectal instillation of\nVancomycin\nMetronidazole\n500 mg IV every 8 hours, particularly if ileus is present.\nConsider emergency colectomy if:\nWBC >20K\nLactate\n>5\nAge >75\nImmunosuppression\nToxic megacolon\nColonic perforation\nMulti-organ system failure",
+          "tables": []
+        },
+        "Recurrent_Infection": {
+          "text": "Relapse occurs in 10-25% of patients\nOccurs <=4 weeks after the completion of therapy\nOtherwise consider other (more common) causes\n1st recurrence: Fidaxomicin first line therapy\n2nd recurrence: tapered\nvancomycin\nwith pulse doses\n3rd recurrence: PO\nvancomycin\n10-14 days followed immediately by\nrifaximin\n\"chaser\" 400mg TID x20 days\n[10]\nOther options:\nIVIG\nFecal transplant\nFidaxomicin\n200mg BID x10 days noninferior to PO\nvancomycin\n, and reduces recurrences at 4 weeks after treatment (~15% vs 25%)\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Non-Severe": {
+      "text": "Fidaxomicin first line per 2018 IDSA guidelines\n[9]\nVancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days\nMetronidazole\n500mg PO or IV three times daily for 10 days (third line therapy)",
+      "subsections": {
+        "Severe": {
+          "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+          "tables": []
+        },
+        "Severe_Fulminant": {
+          "text": "See criteria above (Evaluation section)\nVancomycin\n500 mg PO or NG four times daily for 10 days\nConsidered rectal instillation of\nVancomycin\nMetronidazole\n500 mg IV every 8 hours, particularly if ileus is present.\nConsider emergency colectomy if:\nWBC >20K\nLactate\n>5\nAge >75\nImmunosuppression\nToxic megacolon\nColonic perforation\nMulti-organ system failure",
+          "tables": []
+        },
+        "Recurrent_Infection": {
+          "text": "Relapse occurs in 10-25% of patients\nOccurs <=4 weeks after the completion of therapy\nOtherwise consider other (more common) causes\n1st recurrence: Fidaxomicin first line therapy\n2nd recurrence: tapered\nvancomycin\nwith pulse doses\n3rd recurrence: PO\nvancomycin\n10-14 days followed immediately by\nrifaximin\n\"chaser\" 400mg TID x20 days\n[10]\nOther options:\nIVIG\nFecal transplant\nFidaxomicin\n200mg BID x10 days noninferior to PO\nvancomycin\n, and reduces recurrences at 4 weeks after treatment (~15% vs 25%)\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Severe": {
+      "text": "Vancomycin\n125 mg PO four times daily for 10 days\nFidaxomicin\n200 mg PO two times daily for 10 days",
+      "subsections": {
+        "Severe_Fulminant": {
+          "text": "See criteria above (Evaluation section)\nVancomycin\n500 mg PO or NG four times daily for 10 days\nConsidered rectal instillation of\nVancomycin\nMetronidazole\n500 mg IV every 8 hours, particularly if ileus is present.\nConsider emergency colectomy if:\nWBC >20K\nLactate\n>5\nAge >75\nImmunosuppression\nToxic megacolon\nColonic perforation\nMulti-organ system failure",
+          "tables": []
+        },
+        "Recurrent_Infection": {
+          "text": "Relapse occurs in 10-25% of patients\nOccurs <=4 weeks after the completion of therapy\nOtherwise consider other (more common) causes\n1st recurrence: Fidaxomicin first line therapy\n2nd recurrence: tapered\nvancomycin\nwith pulse doses\n3rd recurrence: PO\nvancomycin\n10-14 days followed immediately by\nrifaximin\n\"chaser\" 400mg TID x20 days\n[10]\nOther options:\nIVIG\nFecal transplant\nFidaxomicin\n200mg BID x10 days noninferior to PO\nvancomycin\n, and reduces recurrences at 4 weeks after treatment (~15% vs 25%)\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        },
+        {
+          "text": "Fidaxomicin",
+          "url": "https://wikem.org/wiki/Fidaxomicin"
+        }
+      ]
+    },
+    "Severe_Fulminant": {
+      "text": "See criteria above (Evaluation section)\nVancomycin\n500 mg PO or NG four times daily for 10 days\nConsidered rectal instillation of\nVancomycin\nMetronidazole\n500 mg IV every 8 hours, particularly if ileus is present.\nConsider emergency colectomy if:\nWBC >20K\nLactate\n>5\nAge >75\nImmunosuppression\nToxic megacolon\nColonic perforation\nMulti-organ system failure",
+      "subsections": {
+        "Recurrent_Infection": {
+          "text": "Relapse occurs in 10-25% of patients\nOccurs <=4 weeks after the completion of therapy\nOtherwise consider other (more common) causes\n1st recurrence: Fidaxomicin first line therapy\n2nd recurrence: tapered\nvancomycin\nwith pulse doses\n3rd recurrence: PO\nvancomycin\n10-14 days followed immediately by\nrifaximin\n\"chaser\" 400mg TID x20 days\n[10]\nOther options:\nIVIG\nFecal transplant\nFidaxomicin\n200mg BID x10 days noninferior to PO\nvancomycin\n, and reduces recurrences at 4 weeks after treatment (~15% vs 25%)\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Recurrent_Infection": {
+      "text": "Relapse occurs in 10-25% of patients\nOccurs <=4 weeks after the completion of therapy\nOtherwise consider other (more common) causes\n1st recurrence: Fidaxomicin first line therapy\n2nd recurrence: tapered\nvancomycin\nwith pulse doses\n3rd recurrence: PO\nvancomycin\n10-14 days followed immediately by\nrifaximin\n\"chaser\" 400mg TID x20 days\n[10]\nOther options:\nIVIG\nFecal transplant\nFidaxomicin\n200mg BID x10 days noninferior to PO\nvancomycin\n, and reduces recurrences at 4 weeks after treatment (~15% vs 25%)\n[11]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit:\nSevere diarrhea\nOutpatient antibiotic failure\nSystemic response (fever, leukocytosis, severe abdominal pain)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Penicillins",
+            "Antibiotic": "Penicillin G",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Penicillin V",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Anti-StaphylocccalPenicillins",
+            "Antibiotic": "Methicillin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Nafcillin/Oxacillin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cloxacillin/Diclox.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Amino-Penicillins",
+            "Antibiotic": "AMP/Amox",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Amox-Clav",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "AMP-Sulb",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "Anti-PseudomonalPenicillins",
+            "Antibiotic": "Ticarcillin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ticar-Clav",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Pip-Tazo",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Piperacillin",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "Carbapenems",
+            "Antibiotic": "Doripenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ertapenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Imipenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Meropenem",
+            "Sensitivity": "X2"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Aztreonam",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "Fluroquinolones",
+            "Antibiotic": "Ciprofloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ofloxacin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Pefloxacin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Levofloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Moxifloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Gemifloxacin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Gatifloxacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "1st GCephalo",
+            "Antibiotic": "Cefazolin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "2nd G.Cephalo",
+            "Antibiotic": "Cefotetan",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefoxitin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefuroxime",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "3rd/4th G.Cephalo",
+            "Antibiotic": "Cefotaxime",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefizoxime",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "CefTRIAXone",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ceftaroline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "CefTAZidime",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefepime",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "Oral 1st G.Cephalo",
+            "Antibiotic": "Cefadroxil",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cephalexin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Oral 2nd G.Cephalo",
+            "Antibiotic": "Cefaclor/Loracarbef",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefproxil",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefuroxime axetil",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Oral 3rd G.Cephalo",
+            "Antibiotic": "Cefixime",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Ceftibuten",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Cefpodox/Cefdinir/Cefditoren",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Aminoglycosides",
+            "Antibiotic": "Gentamicin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Tobramycin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Amikacin",
+            "Sensitivity": "R"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Chloramphenicol",
+            "Sensitivity": "I"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Clindamycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Macrolides",
+            "Antibiotic": "Erythromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Azithromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Clarithromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Ketolide",
+            "Antibiotic": "Telithromycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Tetracyclines",
+            "Antibiotic": "Doxycycline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Minocycline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Glycylcycline",
+            "Antibiotic": "Tigecycline",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Daptomycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Glyco/Lipoclycopeptides",
+            "Antibiotic": "Vancomycin",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Teicoplanin",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Telavancin",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Fusidic Acid",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Trimethoprim",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "TMP-SMX",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Urinary Agents",
+            "Antibiotic": "Nitrofurantoin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Fosfomycin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "Other",
+            "Antibiotic": "Rifampin",
+            "Sensitivity": "X1"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Metronidazole",
+            "Sensitivity": "S"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Quinupristin dalfoppristin",
+            "Sensitivity": "I"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Linezolid",
+            "Sensitivity": "I"
+          },
+          {
+            "Category": "",
+            "Antibiotic": "Colistimethate",
+            "Sensitivity": "X1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diarrhea\nClostridium",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

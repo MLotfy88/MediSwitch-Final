@@ -1,0 +1,247 @@
+{
+  "drug_name": "Chronic_urticaria",
+  "url": "https://wikem.org/wiki/Chronic_urticaria",
+  "scraped_at": "2026-01-10T07:50:32.293772",
+  "sections": {
+    "Background": {
+      "text": "Recurrent urticaria at least twice per week for 6 weeks\n[1]\nOften autoimmune etiology",
+      "subsections": {
+        "Types": {
+          "text": "Physical\n[2]\nContact\nDermatographism\nCold\nCholinergic (heat, exercise, stress)\nAutoimmune\nSLE\nJuvenile rheumatoid arthritis\nGraves disease\nMalignant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Juvenile rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Graves disease",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Physical\n[2]\nContact\nDermatographism\nCold\nCholinergic (heat, exercise, stress)\nAutoimmune\nSLE\nJuvenile rheumatoid arthritis\nGraves disease\nMalignant",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/Systemic_lupus_erythematosus"
+        },
+        {
+          "text": "Juvenile rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Graves disease",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Hives\nand/or\nangioedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hives",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        },
+        {
+          "text": "angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Rule out\nanaphylaxis\nIdentify any causative agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Acute_allergic_reaction"
+        }
+      ]
+    },
+    "Management": {
+      "text": "H1/H2 blockers\nDiphenhydramine\nFamotidine\n2nd line agents: antidepressants\nDoxepin\n[3]\nStart at 10 mg daily and increase to 10 mg TID\n[4]\nAvoid if recent MI\nAvoid if liver dysfunction\nMirtazapine\n15 mg daily\n[5]\nConsider\ncorticosteroids\nmethylprednisolone\n125mg IV/IM OR\nprednisone\n60mg PO",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "H1/H2 blockers",
+          "url": "https://wikem.org/wiki/Antihistamines"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "Doxepin",
+          "url": "https://wikem.org/wiki/Doxepin"
+        },
+        {
+          "text": "Mirtazapine",
+          "url": "https://wikem.org/wiki/Mirtazapine"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge if no concern for anaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Urticaria\nAngioedema\nAnaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    }
+  }
+}

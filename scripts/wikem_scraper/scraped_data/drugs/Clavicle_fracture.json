@@ -1,0 +1,755 @@
+{
+  "drug_name": "Clavicle_fracture",
+  "url": "https://wikem.org/wiki/Clavicle_fracture",
+  "scraped_at": "2026-01-10T07:50:36.284829",
+  "sections": {
+    "Intro": {
+      "text": "This page is for adult patients; see\nClavicle fracture (peds)\nfor pediatric patients\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Generally secondary to shoulder trauma (direct trauma over the clavicle is less common)\nFractured segment:\nType I: Middle third (80% of fractures)\nType II: Lateral third (15% of fractures)\nType III: Medial third (5% of fractures)\nDistal fracture may be associated with coracoclavicular ligament rupture\nMedial fracture may be associated with intrathoracic injuries",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Presentation": {
+          "text": "Direct trauma to lateral shoulder/clavicle or fall on outstretched arm\nSwelling, deformity, and tenderness overlying the clavicle\nAffected arm may be supported by the contralateral arm",
+          "tables": []
+        },
+        "Associated_Injuries": {
+          "text": "Rare, but important to evaluate for\nType I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Presentation": {
+      "text": "Direct trauma to lateral shoulder/clavicle or fall on outstretched arm\nSwelling, deformity, and tenderness overlying the clavicle\nAffected arm may be supported by the contralateral arm",
+      "subsections": {
+        "Associated_Injuries": {
+          "text": "Rare, but important to evaluate for\nType I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Associated_Injuries": {
+      "text": "Rare, but important to evaluate for\nType I (middle)\nSubclavian artery/vein injury\nNerve root and/or brachial plexus injury\nType II (lateral)\nCoracoclavicular ligament injury\nAC joint dislocation/subluxation\nType III (medial)\nIntrathoracic injury\nRib fracutre\nSternal fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        },
+        "Shoulder_and_Upper_Arm_Diagnoses": {
+          "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {
+        "Shoulder_and_Upper_Arm_Diagnoses": {
+          "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Shoulder_and_Upper_Arm_Diagnoses": {
+      "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Triceps tendon rupture",
+          "url": "https://wikem.org/wiki/Triceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Assess distal pulse, motor, and sensation\nX-ray\nMay be seen on\nchest x-ray\n, shoulder x-ray, or dedicated clavicle films (preferred)\nIf high suspicion and no fracture on plain films, consider CT",
+          "tables": []
+        },
+        "Allman_Classification": {
+          "text": "Type I: Middle third\nType II: Lateral third\nType III: Medial third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Assess distal pulse, motor, and sensation\nX-ray\nMay be seen on\nchest x-ray\n, shoulder x-ray, or dedicated clavicle films (preferred)\nIf high suspicion and no fracture on plain films, consider CT",
+      "subsections": {
+        "Allman_Classification": {
+          "text": "Type I: Middle third\nType II: Lateral third\nType III: Medial third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest x-ray",
+          "url": "https://wikem.org/wiki/Chest_x-ray"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Allman_Classification": {
+          "text": "Type I: Middle third\nType II: Lateral third\nType III: Medial third",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Pain management\nPlace the affected extremity in a\nsling\nor shoulder immobilizer\nOrthopedic surgery consultation in the ED for:\nDisplaced fracture with skin tenting\nOpen fracture\nNeurovascular compromise\nAdolescent fractures with significant shortening (>2cm)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "sling",
+          "url": "https://wikem.org/wiki/Sling_and_swathe_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Almost all may be discharged with orthopedic surgery follow-up (if no indications for immediate surgical management; see above)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Speciality_Care": {
+      "text": "Type I (middle)\nAlmost all non-operative\nType II (lateral)\nDepends on stable vs unstable clasification pattern (e.g. Neer IIA, IIB, V)\nType III (medial)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Clavicle fracture (peds)\nFractures (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Fractures (main)",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        }
+      ]
+    }
+  }
+}

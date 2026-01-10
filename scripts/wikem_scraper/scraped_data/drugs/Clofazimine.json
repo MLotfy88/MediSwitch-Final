@@ -1,0 +1,321 @@
+{
+  "drug_name": "Clofazimine",
+  "url": "https://wikem.org/wiki/Clofazimine",
+  "scraped_at": "2026-01-10T07:50:38.687921",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntibiotic\nDosage Forms: CAP 50mg\nRoutes of Administration: Oral\nCommon Trade Names: Lamprene",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hansen's_disease,_multibacillary": {
+          "text": "50mg PO qd x 12mo in combination with\nrifampin\nand\ndapsone\nGive 300mg PO qmo x 12mo in addition to daily dose",
+          "tables": []
+        },
+        "Erythema_nodosum_leprosum": {
+          "text": "100mg PO bid x12wk, then 100mg PO qd 12-24wk\nStart 100mg PO tid x12wek",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        }
+      ]
+    },
+    "Hansen's_disease,_multibacillary": {
+      "text": "50mg PO qd x 12mo in combination with\nrifampin\nand\ndapsone\nGive 300mg PO qmo x 12mo in addition to daily dose",
+      "subsections": {
+        "Erythema_nodosum_leprosum": {
+          "text": "100mg PO bid x12wk, then 100mg PO qd 12-24wk\nStart 100mg PO tid x12wek",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        }
+      ]
+    },
+    "Erythema_nodosum_leprosum": {
+      "text": "100mg PO bid x12wk, then 100mg PO qd 12-24wk\nStart 100mg PO tid x12wek",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Hansen's_disease,_multibacillary_2": {
+          "text": "10-14 yo: 50mg PO qod AND 150mg PO qmo x12mo in combination with\nrifampin\nand\ndapsone\n>15 yo: 50mg PO qd AND 300mg PO qmo x 12mo in combination with\nrifampin\nand\ndapsone",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        }
+      ]
+    },
+    "Hansen's_disease,_multibacillary_2": {
+      "text": "10-14 yo: 50mg PO qod AND 150mg PO qmo x12mo in combination with\nrifampin\nand\ndapsone\n>15 yo: 50mg PO qd AND 300mg PO qmo x 12mo in combination with\nrifampin\nand\ndapsone",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk: Caution advised\nRenal dosing: not defined\nHepatic dosing: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCaution:\nElectrolyte abnormality\nCongenital long QT syndrome,\nQT prolongation\nor family history of long QT\nTorsades de pointes\n, ventricular arrhythmias\nBradycardia\nRecent MI\nCHF",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Severe abdominal symptoms\nHepatitis\n,\nJaundice\nIntestinal obstruction\nGI Bleeding\nSplenic infarction\nThromboembolism\nQT Prolongation\n,\nTorsades de pointes",
+          "tables": []
+        },
+        "Common": {
+          "text": "Skin discoloration\nNausea\n/\nVomiting\n,\ndiarrhea\n, abdominal/epigastric pain\nIchthyosis/xeroderma\nPruritus\n/rash\nDiscolored urine/feces/sputum/sweat\nOcular pigmentation, ocular irritation\nHyperglycemia\nESR elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI Bleeding",
+          "url": "https://wikem.org/wiki/GI_Bleeding"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Severe abdominal symptoms\nHepatitis\n,\nJaundice\nIntestinal obstruction\nGI Bleeding\nSplenic infarction\nThromboembolism\nQT Prolongation\n,\nTorsades de pointes",
+      "subsections": {
+        "Common": {
+          "text": "Skin discoloration\nNausea\n/\nVomiting\n,\ndiarrhea\n, abdominal/epigastric pain\nIchthyosis/xeroderma\nPruritus\n/rash\nDiscolored urine/feces/sputum/sweat\nOcular pigmentation, ocular irritation\nHyperglycemia\nESR elevated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatitis",
+          "url": "https://wikem.org/wiki/Hepatitis"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "GI Bleeding",
+          "url": "https://wikem.org/wiki/GI_Bleeding"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "QT Prolongation",
+          "url": "https://wikem.org/wiki/QT_Prolongation"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Skin discoloration\nNausea\n/\nVomiting\n,\ndiarrhea\n, abdominal/epigastric pain\nIchthyosis/xeroderma\nPruritus\n/rash\nDiscolored urine/feces/sputum/sweat\nOcular pigmentation, ocular irritation\nHyperglycemia\nESR elevated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Pruritus",
+          "url": "https://wikem.org/wiki/Pruritus"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 70 days\nMetabolism: Unknown\nExcretion: Feces primarily",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Bacteriostatic or bactericidal: Binds to mycobacterial DNA, inhibiting growth",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hansen's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hansen's disease",
+          "url": "https://wikem.org/wiki/Hansen%27s_disease"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp\nAronoff GR, Bennett WM, Berns JS, et al, Drug Prescribing in Renal Failure: Dosing Guidelines for Adults and Children, 5th ed. Philadelphia, PA: American College of Physicians; 2007.\nFDA Safety Alert. Med Watch. Lamprene (Clofazimine). Food and Drug Administration website. Available at\nhttp://www.fda.gov/Safety/MedWatch/SafetyInformation/ucm514749.htm\n. Accessed November 11, 2016.\nFreerksen E, Seydel JK. Critical comments on the treatment of leprosy and other mycobacterial infections with clofazimine. Arzneimittelforschung. 1992;42(10):1243-5. Review. [PubMed 1472145]\nHealth Resources and Services Administration (HRSA). National Hansen's Disease (Leprosy) Program: Recommended Treatment Regimens.\nhttp://www.hansensdisease/diagnosis/recommendedtreatment.html\n. Accessed on March 31, 2016.\nHoldiness MR. Clinical pharmacokinetics of clofazimine. A review. Clin Pharmacokinet. 1989;16(2):74-85. [PubMed 2656045]\nLamprene (clofazimine) [prescribing information]. East Hanover, NJ: Novartis Pharmaceuticals; January 2019.\nLegendre DP, Muzny CA, Swiatlo E. Hansen's disease (Leprosy): current and future pharmacotherapy and treatment of disease-related immunologic reactions. Pharmacotherapy. 2012;32(1):27-37. [PubMed 22392826]\nSzeto W, Garcia-Buitrago MT, Abbo L, Rosenblatt JD, Moshiree B, Morris MI. Clofazimine enteropathy: a rare and underrecognized complication of mycobacterial therapy. Open Forum Infect Dis. 2016;3(3):ofw004. [PubMed 27800519]\nWorld Health Organization. Drugs Used in Leprosy.\nhttp://apps.who.int/medicinedocs/pdf/h2988e/h2988e.pdf\n. Accessed April 6, 2016.\nWorld Health Organization. WHO Expert Committee on Leprosy. World Health Organ Tech Rep Ser. 2012;(968):1-61, 1 p following 61. [PubMed 22970604]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

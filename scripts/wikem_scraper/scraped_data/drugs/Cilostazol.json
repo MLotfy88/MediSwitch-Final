@@ -1,0 +1,330 @@
+{
+  "drug_name": "Cilostazol",
+  "url": "https://wikem.org/wiki/Cilostazol",
+  "scraped_at": "2026-01-10T07:50:35.251220",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: 50 mg, 100 mg\nRoutes of Administration: Oral\nCommon Trade Names: Pletal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Intermittent_claudication": {
+          "text": "100 mg PO bid",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intermittent_claudication": {
+      "text": "100 mg PO bid",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in pediatric patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Caution advised during pregnancy\nNo risk of fetal harm, teratogenicity, or death\nIncreased risk of maternal bleeding during delivery",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Caution advised during pregnancy\nNo risk of fetal harm, teratogenicity, or death\nIncreased risk of maternal bleeding during delivery",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Caution advised while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Unavailable",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: Unavailable",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: Unavailable",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nCHF\nHemostatic disorders\nActive bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bleeding\nAngina\n,\nMI\nTachyarrhythmia\nThrombocytopenia\nLeukopenia\n,\nAgranulocytosis\nAnaphylaxis\nStevens-Johnson Syndrome",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nDiarrhea\n, Abnormal stools, abdominal pain\nPalpitations\n,\ndizziness\n,\ntachycardia\nPeripheral edema\nDyspepsia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Tachyarrhythmia",
+          "url": "https://wikem.org/wiki/Tachyarrhythmia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bleeding\nAngina\n,\nMI\nTachyarrhythmia\nThrombocytopenia\nLeukopenia\n,\nAgranulocytosis\nAnaphylaxis\nStevens-Johnson Syndrome",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nDiarrhea\n, Abnormal stools, abdominal pain\nPalpitations\n,\ndizziness\n,\ntachycardia\nPeripheral edema\nDyspepsia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "Tachyarrhythmia",
+          "url": "https://wikem.org/wiki/Tachyarrhythmia"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukopenia",
+          "url": "https://wikem.org/wiki/Leukopenia"
+        },
+        {
+          "text": "Agranulocytosis",
+          "url": "https://wikem.org/wiki/Agranulocytosis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Stevens-Johnson Syndrome",
+          "url": "https://wikem.org/wiki/Stevens-Johnson_Syndrome"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\nDiarrhea\n, Abnormal stools, abdominal pain\nPalpitations\n,\ndizziness\n,\ntachycardia\nPeripheral edema\nDyspepsia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Dyspepsia",
+          "url": "https://wikem.org/wiki/Dyspepsia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 11-13 hours; active metabolites\nMetabolism: Liver; CYP450: 2C19, 3A4\nExcretion: Urine 74%, feces 20%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Inhibits phosphodiesterase type 3, reducing platelet aggregation\nSuppresses cAMP degradation, producing vasodilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Lexicomp\nBramer SL, Forbes WP. Effect of hepatic impairment on the pharmacokinetics of a single dose of cilostazol. Clin Pharmacokinet. 1999;37 S(suppl 2):25-32. [PubMed 10702884]\nDouglas JS Jr, Holmes DR Jr, Kereiakes DJ, et al, “Coronary Stent Restenosis in Patients Treated With Cilostazol,” Circulation, 2005, 112(18 ):2826-32. [PubMed 16246948]\nFerraris VA, Saha SP, Oestreich JH, et al, “2012 Update to the Society of Thoracic Surgeons Guideline on Use of Antiplatelet Drugs in Patients Having Cardiac and Noncardiac Operations,” Ann Thorac Surg, 2012, 94(5):1761-81. [PubMed 23098967]\nFrontera JA, Lewin JJ 3rd, Rabinstein AA, et al; Guideline for reversal of antithrombotics in intracranial hemorrhage: a statement for healthcare professionals from the Neurocritical Care Society and Society of Critical Care Medicine. Neurocrit Care. 2016;24(1):6-46. [PubMed 26714677]\nGuyatt GH, Akl EA, Crowther M, et al, “Executive Summary: Antithrombotic Therapy and Prevention of Thrombosis, 9th ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines,” Chest, 2012, 141(2 Suppl):7-47. [PubMed 22315257]\nHirsch AT, Haskal ZJ, Hertzer NR, et al, “ACC/AHA Guidelines for the Management of Patients With Peripheral Arterial Disease (Lower Extremity, Renal, Mesenteric, and Abdominal Aortic): Executive Summary. A Collaborative Report of the American Association for Vascular Surgery/Society for Vascular Surgery, Society for Cardiovascular Angiography and Interventions, Society for Vascular Medicine and Biology, Society of Interventional Radiology, and the ACC/AHA Task Force on Practice Guidelines (Writing Committee to Develop Guidelines for the Management of Patients With Peripheral Arterial Disease),” Circulation , 2006, 113(11):e463-654. Available at\nhttp://www.acc.org/clinical/guidelines/pad/index.pdf16549646\nKim JS, Lee KS, Kim YI, Tamai Y, Nakahata R, Takami H. A randomized crossover comparative study of aspirin, cilostazol and clopidogrel in normal controls: analysis with quantitative bleeding time and platelet aggregation test. J Clin Neurosci. 2004;11(6):600-602. [PubMed 15261228]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "drug_name": "Ciclesonide",
+  "url": "https://wikem.org/wiki/Ciclesonide",
+  "scraped_at": "2026-01-10T07:50:31.744217",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nInhaled corticosteroid\nDosage Forms: 80, 160 mcg/spray MDI\nRoutes of Administration: Inhalation\nCommon Trade Names: Alvesco",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Inhaled corticosteroid",
+          "url": "https://wikem.org/wiki/Inhaled_corticosteroid"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Prior bronchodilator alone\n1 puff (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 320 mcg/day\nTaper to lowest effective dose\nPrior inhaled steroid\n1-2 puffs (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 640 mcg/day\nTaper to lowest effective dose\nPrior oral steroid\n2 puffs (160 mcg per spray) BID\nMax: 640 mcg/day\nTaper to lowest effective dose. Taper oral steroids gradually after >1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "12+ yo, Prior bronchodilator alone\n1 puff (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 320 mcg/day\nTaper to lowest effective dose\n12+ yo, Prior inhaled steroid\n1-2 puffs (80 mcg per spray) BID\nStart: 1 puff inhaled BID\nMax: 640 mcg/day\nTaper to lowest effective dose\n12+ yo, Prior oral steroid\n2 puffs (160 mcg per spray) BID\nMax: 640 mcg/day\nTaper to lowest effective dose. Taper oral steroids gradually after >1 week",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C; Risk of teratogenicity low based on animal data at 10x MRHD\nLactation risk\n: L3; Safety unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: No adjustment\nPediatric: No adjustment",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: No adjustment\nPediatric: No adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAsthma\n, acute\nBronchospasm\nAvoid abrupt withdrawal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Bronchospasm\nHypersensitivity reaction\nAngioedema\nAdrenal suppression\nHypercorticism\nGrowth suppression (peds pts)\nGlaucoma\nIOP increase\nCataracts",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nNasopharyngitis\nURI\nSinusitis\nNasal congestion\nPharyngolaryngeal pain\nArthralgia\nExtremity pain\nBack pain\nHoarseness\nCandidiasis\n, oral\nInfluenza\nPneumonia\nMusculoskeletal chest pain\nUrticaria\nDizziness\nGastroenteritis\nFacial edema\nFatigue\nConjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Bronchospasm\nHypersensitivity reaction\nAngioedema\nAdrenal suppression\nHypercorticism\nGrowth suppression (peds pts)\nGlaucoma\nIOP increase\nCataracts",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nNasopharyngitis\nURI\nSinusitis\nNasal congestion\nPharyngolaryngeal pain\nArthralgia\nExtremity pain\nBack pain\nHoarseness\nCandidiasis\n, oral\nInfluenza\nPneumonia\nMusculoskeletal chest pain\nUrticaria\nDizziness\nGastroenteritis\nFacial edema\nFatigue\nConjunctivitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_reaction"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Glaucoma",
+          "url": "https://wikem.org/wiki/Glaucoma"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\nNasopharyngitis\nURI\nSinusitis\nNasal congestion\nPharyngolaryngeal pain\nArthralgia\nExtremity pain\nBack pain\nHoarseness\nCandidiasis\n, oral\nInfluenza\nPneumonia\nMusculoskeletal chest pain\nUrticaria\nDizziness\nGastroenteritis\nFacial edema\nFatigue\nConjunctivitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Urticaria",
+          "url": "https://wikem.org/wiki/Urticaria"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 0.71 hr (parent); 6-7 hr (active metabolite)\nMetabolism: Liver; CYP450: 2D6, 3A4 (primary) substrate\nExcretion: Bile/feces 66%, urine <20%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Exact mechanism of anti-inflammatory action unknown; inhibits multiple inflammatory cytokines and produces multiple glucocorticoid and mineral corticoid effects",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Lexicomp\nACOG Committee on Practice Bulletins-Obstetrics, \"ACOG Practice Bulletin: Clinical Management Guidelines for Obstetrician-Gynecologists Number 90, February 2008: Asthma in Pregnancy,\" Obstet Gynecol, 2008, 111(2 Pt 1):457-64. [PubMed 18238988]\nAlvesco (ciclesonide) [prescribing information]. Marlborough, MA: Sunovion Pharmaceuticals; March 2018.\nAlvesco (ciclesonide) [product monograph]. Mississauga, Ontario, Canada: AstraZeneca Canada; January 2017.\nBakhireva LN, Jones KL, Schatz M, et al, “Asthma Medication Use in Pregnancy and Fetal Growth,” J Allergy Clin Immunol, 2005, 116(3):503-9. [PubMed 16159616]\nBateman E, Karpel J, Casale T, et al, “Ciclesonide Reduces the Need for Oral Steroid Use in Adult Patients With Severe, Persistent Asthma,” Chest, 2006, 129(5):1176-87. [PubMed 16685007]\nChmielewska M, Akst LM. Dysphonia associated with the use of inhaled corticosteroids. Curr Opin Otolaryngol Head Neck Surg. 2015; 23(3):255-259. [PubMed 25887975]\nDerendorf H, “Pharmacokinetic and Pharmacodynamic Properties of Inhaled Ciclesonide,” J Clin Pharmacol, 2007, 47(6):782-9 [PubMed 17412829]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

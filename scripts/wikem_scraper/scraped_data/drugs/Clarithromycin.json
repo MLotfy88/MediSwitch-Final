@@ -1,0 +1,791 @@
+{
+  "drug_name": "Clarithromycin",
+  "url": "https://wikem.org/wiki/Clarithromycin",
+  "scraped_at": "2026-01-10T07:50:35.087638",
+  "sections": {
+    "General": {
+      "text": "Type:\nMacrolide\nDosage Forms: 250, 500, 500ER; 125, 250/5ml\nCommon Trade Names: Biaxin, Biaxin XL",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Macrolide",
+          "url": "https://wikem.org/wiki/Macrolide"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infections,_bacterial": {
+          "text": "250-500mg PO q12h x 7-14d\nAlt: 1000mg ER PO QD x 7-14d",
+          "tables": []
+        },
+        "Chronic_bronchitis,_acute_bacterial_exacerbation": {
+          "text": "1000mg ER PO q24 x 7d (with food, do not cut/crush/chew)\nAlt: 250-500mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Pharyngitis/tonsillitis,_streptococcal": {
+          "text": "250mg PO q12h x 10d",
+          "tables": []
+        },
+        "MAC_primary_prophylaxis": {
+          "text": "500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatment,_disseminated": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infections,_bacterial": {
+      "text": "250-500mg PO q12h x 7-14d\nAlt: 1000mg ER PO QD x 7-14d",
+      "subsections": {
+        "Chronic_bronchitis,_acute_bacterial_exacerbation": {
+          "text": "1000mg ER PO q24 x 7d (with food, do not cut/crush/chew)\nAlt: 250-500mg PO q12h x 7-14d",
+          "tables": []
+        },
+        "Pharyngitis/tonsillitis,_streptococcal": {
+          "text": "250mg PO q12h x 10d",
+          "tables": []
+        },
+        "MAC_primary_prophylaxis": {
+          "text": "500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatment,_disseminated": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Chronic_bronchitis,_acute_bacterial_exacerbation": {
+      "text": "1000mg ER PO q24 x 7d (with food, do not cut/crush/chew)\nAlt: 250-500mg PO q12h x 7-14d",
+      "subsections": {
+        "Pharyngitis/tonsillitis,_streptococcal": {
+          "text": "250mg PO q12h x 10d",
+          "tables": []
+        },
+        "MAC_primary_prophylaxis": {
+          "text": "500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatment,_disseminated": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharyngitis/tonsillitis,_streptococcal": {
+      "text": "250mg PO q12h x 10d",
+      "subsections": {
+        "MAC_primary_prophylaxis": {
+          "text": "500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatment,_disseminated": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MAC_primary_prophylaxis": {
+      "text": "500mg PO q12h",
+      "subsections": {
+        "MAC_secondary_prophylaxis,_HIV": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatment,_disseminated": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MAC_secondary_prophylaxis,_HIV": {
+      "text": "500mg PO q12h (use with ethambutol)",
+      "subsections": {
+        "MAC_treatment,_disseminated": {
+          "text": "500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MAC_treatment,_disseminated": {
+      "text": "500mg PO q12h (use with ethambutol)",
+      "subsections": {
+        "H._pylori_infection": {
+          "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+          "tables": []
+        },
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "H._pylori_infection": {
+      "text": "triple treatment: 500mg PO q12hr x 7-14d\ndual treatment: 500mg PO q8h x 14d (give with Omeprazole 40mg QD x 14d)",
+      "subsections": {
+        "Endocarditis_prophylaxis,_dental": {
+          "text": "500mg PO x1 (30-60min before procedure)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Endocarditis_prophylaxis,_dental": {
+      "text": "500mg PO x1 (30-60min before procedure)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Infections,_bacteria": {
+          "text": "> 6 months: 15mg/kg/day PO divided q12h, max 1000mg/day",
+          "tables": []
+        },
+        "Otitis_media,_acute": {
+          "text": "2mo-5yrs: 15mg/kg/day PO divided q12h x 10d\n6-12yrs: 15mg/kg/day PO divided q12 x 5-10d",
+          "tables": []
+        },
+        "Pharyngitis/tonsillitis,_streptococcal_2": {
+          "text": ">6mo: 15mg/kg/day PO divided q12h x 7-10d",
+          "tables": []
+        },
+        "MAC_primary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose\n>13yrs: 500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatments": {
+          "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Infections,_bacteria": {
+      "text": "> 6 months: 15mg/kg/day PO divided q12h, max 1000mg/day",
+      "subsections": {
+        "Otitis_media,_acute": {
+          "text": "2mo-5yrs: 15mg/kg/day PO divided q12h x 10d\n6-12yrs: 15mg/kg/day PO divided q12 x 5-10d",
+          "tables": []
+        },
+        "Pharyngitis/tonsillitis,_streptococcal_2": {
+          "text": ">6mo: 15mg/kg/day PO divided q12h x 7-10d",
+          "tables": []
+        },
+        "MAC_primary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose\n>13yrs: 500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatments": {
+          "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Otitis_media,_acute": {
+      "text": "2mo-5yrs: 15mg/kg/day PO divided q12h x 10d\n6-12yrs: 15mg/kg/day PO divided q12 x 5-10d",
+      "subsections": {
+        "Pharyngitis/tonsillitis,_streptococcal_2": {
+          "text": ">6mo: 15mg/kg/day PO divided q12h x 7-10d",
+          "tables": []
+        },
+        "MAC_primary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose\n>13yrs: 500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatments": {
+          "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharyngitis/tonsillitis,_streptococcal_2": {
+      "text": ">6mo: 15mg/kg/day PO divided q12h x 7-10d",
+      "subsections": {
+        "MAC_primary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose\n>13yrs: 500mg PO q12h",
+          "tables": []
+        },
+        "MAC_secondary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatments": {
+          "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MAC_primary_prophylaxis,_HIV_patients": {
+      "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose\n>13yrs: 500mg PO q12h",
+      "subsections": {
+        "MAC_secondary_prophylaxis,_HIV_patients": {
+          "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "MAC_treatments": {
+          "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MAC_secondary_prophylaxis,_HIV_patients": {
+      "text": "20mo-12yrs: 15mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+      "subsections": {
+        "MAC_treatments": {
+          "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+          "tables": []
+        },
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "MAC_treatments": {
+      "text": "20mo-12yrs: 15-30mg/kg/day PO divided q12h; max 500mg/dose (use with ethambutol)\n>13yrs: 500mg PO q12h (use with ethambutol)",
+      "subsections": {
+        "endocarditis_prophylaxis,_dental_2": {
+          "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+          "tables": []
+        },
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "endocarditis_prophylaxis,_dental_2": {
+      "text": "15mg/kg PO x1; max 500mg (30-60min before procedure)",
+      "subsections": {
+        "H._pylori_infection_2": {
+          "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "H._pylori_infection_2": {
+      "text": "20mg/kg/day PO divided BID x 7-14d; max 1000mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy: C (risk cannot be ruled out)\nLactation: safety unknown\nRenal Dosing\nAdult\nall uses with out ritonavir or atazanavir\nGFR < 30: decrease dose 50% or give IR form q24h or ER form q48h\nHD/PD: no supplement\nconcomitant ritonavir or atazanavir\nGFR 30-60: decrease dose 50%\nGFR < 30: decrease dose 75%\nHD/PD: no supplement\nPediatric\nall uses without ritonavir or atazanavir\nGFR < 30: decrease dose 50% or give q24h\nHD/PD: no supplement\nconcomitant ritonavir or atazanavir\nnot defined\nHepatic Dosing\nAdult: no adjustment\nPediatric: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nLiver disease\nRenal disease\nprolonged QT\nventricular arrythmias or history of\nhistory of torsades de pointes\nuncorrected electrolyte abnormalities\nsignificant bradycardia\ncaution if recent MI\ncaution if CHF\ncaution in female and elderly\ncaution in myasthenia gravis\ncaution with digoxin co-administration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "superinfection\nC-difficile-associated diarrhea\nhepatotoxicity\ninterstitial nephritis\npancreatitis\nQT prolongation\nventricular arrhythmias\ntorsades de pointes\nthrombocytopenia\nleukopenia\nneutropenia\nhearing loss, reversible\nseizures\nbehavioral disturbances\npsychosis\nhallucinations\npsychiatric disturbance\nanaphylaxis\nerythema multiforme\nStevens-Johnson Syndrome\ndrug rash with eosinophilia and systemic sx\nmyasthenia gravis exacerbation\nrhabdomyolysis",
+          "tables": []
+        },
+        "Common": {
+          "text": "diarrhea\nnausea and vomiting\ntaste changes\nabdominal pain\ndyspepsia\nheadache\nrash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "superinfection\nC-difficile-associated diarrhea\nhepatotoxicity\ninterstitial nephritis\npancreatitis\nQT prolongation\nventricular arrhythmias\ntorsades de pointes\nthrombocytopenia\nleukopenia\nneutropenia\nhearing loss, reversible\nseizures\nbehavioral disturbances\npsychosis\nhallucinations\npsychiatric disturbance\nanaphylaxis\nerythema multiforme\nStevens-Johnson Syndrome\ndrug rash with eosinophilia and systemic sx\nmyasthenia gravis exacerbation\nrhabdomyolysis",
+      "subsections": {
+        "Common": {
+          "text": "diarrhea\nnausea and vomiting\ntaste changes\nabdominal pain\ndyspepsia\nheadache\nrash",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "diarrhea\nnausea and vomiting\ntaste changes\nabdominal pain\ndyspepsia\nheadache\nrash",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 3-4 hours (increased with dosage increase)\n[1]\nMetabolism: hepatic (rapid first-pass metabolism), CYP3A4\nExcretion: renal\nMechanism of Action: interferes with bacterial protein synthesis by binding to a component of the 50S subunit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "I"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

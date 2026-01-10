@@ -1,0 +1,351 @@
+{
+  "drug_name": "Clinical_decision_rules_for_head_CT_in_trauma",
+  "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma",
+  "scraped_at": "2026-01-10T07:50:38.745057",
+  "sections": {
+    "Background": {
+      "text": "Clinical decision rules to guide providers when determining which patients require urgent CT neuroimaging.",
+      "subsections": {
+        "Decision_Rule_Performance": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Sensitivity",
+                "Canadian Head CT Rule[1]": "99%",
+                "New Orleans": "99%",
+                "NEXUS II": "97%",
+                "ACEP Clinical Policy": "Unknown"
+              },
+              {
+                "": "Specificity",
+                "Canadian Head CT Rule[1]": "47%",
+                "New Orleans": "33%",
+                "NEXUS II": "47%",
+                "ACEP Clinical Policy": "Unknown"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Decision_Rule_Performance": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Sensitivity",
+            "Canadian Head CT Rule[1]": "99%",
+            "New Orleans": "99%",
+            "NEXUS II": "97%",
+            "ACEP Clinical Policy": "Unknown"
+          },
+          {
+            "": "Specificity",
+            "Canadian Head CT Rule[1]": "47%",
+            "New Orleans": "33%",
+            "NEXUS II": "47%",
+            "ACEP Clinical Policy": "Unknown"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Canadian_CT_Head_Rule": {
+      "text": "",
+      "subsections": {
+        "Inclusion_Criteria": {
+          "text": "Blunt head trauma causing loss of consciousness, amnesia, or disorientation\nGCS\n13-15\nAge ≥ 16yr\nNo coagulopathy nor on anti-coagulation\nNo seizure",
+          "tables": []
+        },
+        "Rule": {
+          "text": "Head CT\nnot required if NONE of the following are present\nAge ≥ 65 years\nVomiting\n> 2 episodes\nSuspected open or depressed\nSkull Fracture\nSigns suggesting basal skull fracture:\nHemotympanum\nRacoon eyes\nCSF otorrhea or rhinorrhea\nBattle's sign (bruising around mastoid process)\nGCS\n< 15 at 2 hours post injury\nRetrograde Amnesia > 30min\nDangerous mechanism\nPedestrian struck by vehicle\nEjection from motor vehicle\nFall from elevation >3 feet or 5 stairs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        }
+      ]
+    },
+    "Inclusion_Criteria": {
+      "text": "Blunt head trauma causing loss of consciousness, amnesia, or disorientation\nGCS\n13-15\nAge ≥ 16yr\nNo coagulopathy nor on anti-coagulation\nNo seizure",
+      "subsections": {
+        "Rule": {
+          "text": "Head CT\nnot required if NONE of the following are present\nAge ≥ 65 years\nVomiting\n> 2 episodes\nSuspected open or depressed\nSkull Fracture\nSigns suggesting basal skull fracture:\nHemotympanum\nRacoon eyes\nCSF otorrhea or rhinorrhea\nBattle's sign (bruising around mastoid process)\nGCS\n< 15 at 2 hours post injury\nRetrograde Amnesia > 30min\nDangerous mechanism\nPedestrian struck by vehicle\nEjection from motor vehicle\nFall from elevation >3 feet or 5 stairs",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        }
+      ]
+    },
+    "Rule": {
+      "text": "Head CT\nnot required if NONE of the following are present\nAge ≥ 65 years\nVomiting\n> 2 episodes\nSuspected open or depressed\nSkull Fracture\nSigns suggesting basal skull fracture:\nHemotympanum\nRacoon eyes\nCSF otorrhea or rhinorrhea\nBattle's sign (bruising around mastoid process)\nGCS\n< 15 at 2 hours post injury\nRetrograde Amnesia > 30min\nDangerous mechanism\nPedestrian struck by vehicle\nEjection from motor vehicle\nFall from elevation >3 feet or 5 stairs",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        }
+      ]
+    },
+    "New_Orleans_Rule": {
+      "text": "",
+      "subsections": {
+        "Inclusion_Criteria_2": {
+          "text": "Age >18\nGCS\n15\nBlunt head trauma occurring within previous 24hr causing LOC, amnesia, or disorientation",
+          "tables": []
+        },
+        "Rule_2": {
+          "text": "Head CT\nnot required if NONE of the following are present\nHeadache\nVomiting\nAge >60yr\nDrug or\nAlcohol Intoxication\nPersistent anterograde amnesia (deficits in short-term memory)\nVisible trauma above the clavicles\nSeizure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Alcohol Intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_Intoxication"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Inclusion_Criteria_2": {
+      "text": "Age >18\nGCS\n15\nBlunt head trauma occurring within previous 24hr causing LOC, amnesia, or disorientation",
+      "subsections": {
+        "Rule_2": {
+          "text": "Head CT\nnot required if NONE of the following are present\nHeadache\nVomiting\nAge >60yr\nDrug or\nAlcohol Intoxication\nPersistent anterograde amnesia (deficits in short-term memory)\nVisible trauma above the clavicles\nSeizure",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "GCS",
+          "url": "https://wikem.org/wiki/GCS"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Alcohol Intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_Intoxication"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Rule_2": {
+      "text": "Head CT\nnot required if NONE of the following are present\nHeadache\nVomiting\nAge >60yr\nDrug or\nAlcohol Intoxication\nPersistent anterograde amnesia (deficits in short-term memory)\nVisible trauma above the clavicles\nSeizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Alcohol Intoxication",
+          "url": "https://wikem.org/wiki/Alcohol_Intoxication"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Nexus_II_Rule": {
+      "text": "",
+      "subsections": {
+        "Rule_3": {
+          "text": "Head CT\nnot required if NONE of the following are present\nAge ≥ 65yr\nEvidence of significant\nSkull Fracture\nScalp hematoma\nNeurologic deficit\nAltered Level of Alertness\nAbnormal behavior\nCoagulopathy\nRecurrent or forceful vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Altered Level of Alertness",
+          "url": "https://wikem.org/wiki/Altered_Level_of_Alertness"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Rule_3": {
+      "text": "Head CT\nnot required if NONE of the following are present\nAge ≥ 65yr\nEvidence of significant\nSkull Fracture\nScalp hematoma\nNeurologic deficit\nAltered Level of Alertness\nAbnormal behavior\nCoagulopathy\nRecurrent or forceful vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Skull Fracture",
+          "url": "https://wikem.org/wiki/Skull_Fracture"
+        },
+        {
+          "text": "Altered Level of Alertness",
+          "url": "https://wikem.org/wiki/Altered_Level_of_Alertness"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "See\nHead Trauma (Peds)\nSee\nPECARN Head CT Rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head Trauma (Peds)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Peds)"
+        },
+        {
+          "text": "PECARN Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:PECARN_Pediatric_Head_CT_Rule"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Head trauma (main)\nCT Before Lumbar Puncture\nHead CT\nHead Trauma (Peds)\nEBQ:Canadian Head CT Rule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "CT Before Lumbar Puncture",
+          "url": "https://wikem.org/wiki/CT_Before_Lumbar_Puncture"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "Head Trauma (Peds)",
+          "url": "https://wikem.org/wiki/Head_Trauma_(Peds)"
+        },
+        {
+          "text": "EBQ:Canadian Head CT Rule",
+          "url": "https://wikem.org/wiki/EBQ:Canadian_Head_CT_Rule"
+        }
+      ]
+    },
+    "Resources": {
+      "text": "Clinical policy: neuroimaging and decisionmaking in adult mild traumatic brain injury in the acute setting; Ann Emerg Med, 2008\nAnnals of Emerg Med 2009; 53, 2:180-188.\nhttp://www.ohri.ca/emerg/cdr/cthead.html\nHaydel  MJ, Preston  CA, Mills  TJ, Luber  S, Blaudeau  E, DeBlieux  PM.  Indications for computed tomography in patients with minor head injury.  N Engl J Med.  2000;343:100–5.\nPapa L et al. Performance of the Canadian CT Head Rule and the New Orleans Criteria for predicting any traumatic intracranial injury on computed tomography in a United States level I trauma center. Acad Emerg Med 2012 Jan; 19:2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

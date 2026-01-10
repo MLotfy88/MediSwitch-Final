@@ -1,0 +1,217 @@
+{
+  "drug_name": "Clevidipine",
+  "url": "https://wikem.org/wiki/Clevidipine",
+  "scraped_at": "2026-01-10T07:50:35.755631",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nCalcium channel blockers\n, anti-hypertensive, dihydropyridine\nDosage Forms: 0.5 mg/mL (50 mL, 100 mL) emulsion\nRoutes of Administration: IV\nCommon Trade Names: Cleviprex",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium channel blockers",
+          "url": "https://wikem.org/wiki/Calcium_channel_blockers"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Hypertension\n1-2 mg IV per hour\nTitration: Double dose at 90 second intervals toward blood pressure goal.\nFor every 1-2 mg/hour increase should see 2-4 mm Hg reduction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Unknown",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "None",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "None",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAllergy to soybeans, soy products, eggs, egg products\nSevere aortic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Atrial fibrillation\nRenal failure\nMI (<1%)\nIntestinal obstruction (<1%)\nHypertriglyceridemia\n- similar to\npropofol\n, formulated with 20% fat emulsion, risk of developing\npancreatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Insomnia\nNausea\nFever\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Hypertriglyceridemia",
+          "url": "https://wikem.org/wiki/Hypertriglyceridemia"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Atrial fibrillation\nRenal failure\nMI (<1%)\nIntestinal obstruction (<1%)\nHypertriglyceridemia\n- similar to\npropofol\n, formulated with 20% fat emulsion, risk of developing\npancreatitis",
+      "subsections": {
+        "Common": {
+          "text": "Insomnia\nNausea\nFever\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Hypertriglyceridemia",
+          "url": "https://wikem.org/wiki/Hypertriglyceridemia"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Insomnia\nNausea\nFever\nHeadache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Onset: 2-4 minutes\nHalf-life: 1 minute\nMetabolism: hydrolysis by esterases in blood\nExcretion: Urine (63-74%); feces (7 to 22%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Dihydropyridine CCB with arterial vasodilating activity. Inhibits calcium ion influx through L-type calcium channels. Decreases MAP and systemic vascular resistance.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "$1.67 per mL (25 mg/50mL or 50 mg/100 mL)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Subarachnoid hemorrhage\nHemorrhagic stroke\nHypertensive emergency\nNicardipine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Hypertensive emergency",
+          "url": "https://wikem.org/wiki/Hypertensive_emergency"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        }
+      ]
+    },
+    "References": {
+      "text": "American College of Obstetricians and Gynecologists; Task Force on Hypertension in Pregnancy. Hypertension in pregnancy. Report of the American College of Obstetricians and Gynecologists’ Task Force on Hypertension in Pregnancy. Obstet Gynecol. 2013;122(5):1122-1131. doi: 10.1097/01.AOG.0000437382.03963.88. [PubMed 24150027]\nAronson S, Dyke CM, Stierer KA, et al, “The ECLIPSE Trials: Comparative Studies of Clevidipine to Nitroglycerin, Sodium Nitroprusside, and Nicardipine for Acute Hypertension Treatment in Cardiac Surgery Patients,” Anesth Analg, 2008, 107(4):1110-21. [PubMed 18806012]\nCleviprex (clevidipine) [prescribing information]. Cary, NC: Chiesi USA, Inc; October 2017.\nFunder JW, Carey RM, Mantero F, et al. The management of primary aldosteronism: case detection, diagnosis, and treatment: an Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016;101(5):1889-1916. doi: 10.1210/jc.2015-4061. [PubMed 26934393]\nKeating GM. Clevidipine: a review of its use for managing blood pressure in perioperative and intensive care settings. Drugs. 2014;74(16):1947-1960. [PubMed 25312594]\nLevy JH, Mancao MY, Gitter R, et al, “Clevidipine Effectively and Rapidly Controls Blood Pressure Preoperatively in Cardiac Surgery Patients: The Results of the Randomized, Placebo-Controlled Efficacy Study of Clevidipine Assessing Its Preoperative Antihypertensive Effect in Cardiac Surgery-1,” Anesth Analg, 2007, 105(4):918-25. [PubMed 17898366]\nMarik PE and Varon J, “Hypertensive Crises: Challenges and Management,” Chest, 2007, 131(6); 1949-62. [PubMed 17565029]\nPeacock WF, Varon J, Garrison N, et al, “IV Clevidipine for Hypertension: Safety, Efficacy, and Transition to Oral Therapy,” Ann Emerg Med, 2007, 50(3 Suppl 1):8-9.\nSingla N, Warltier DC, Gandhi SD, et al, “Treatment of Acute Postoperative Hypertension in Cardiac Surgery Patients: An Efficacy Study of Clevidipine Assessing Its Postoperative Antihypertensive Effect in Cardiac Surgery-2 (ESCAPE-2), a Randomized, Double- Blind, Placebo-Controlled Trial,” Anesth Analg, 2008, 107(1):59-67. [PubMed 18635468]\nVaron J, “Treatment of Acute Severe Hypertension: Current and Newer Agents,” Drugs, 2008, 68(3):283-97. [PubMed 18257607]\nYancy CW, Jessup M, Bozkurt B, et al; American College of Cardiology Foundation/American Heart Association Task Force on Practice Guidelines. 2013 ACCF/AHA guideline for the management of heart failure: a report of the American College of Cardiology Foundation/American Heart Association Task Force on practice guidelines. Circulation. 2013;128(16):e240-e327. [PubMed 23741058]\nZhang JG, Dehal SS, Ho T, et al, “Human Cytochrome P450 Induction and Inhibition Potential of Clevidipine and Its Primary Metabolite H152/81,” Drug Metab Dispos, 2006, 34(5):734-37. [PubMed 16501008]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
