@@ -1,0 +1,538 @@
+{
+  "drug_name": "Therapeutic_hypothermia",
+  "url": "https://wikem.org/wiki/Therapeutic_hypothermia",
+  "scraped_at": "2026-01-10T08:03:28.385584",
+  "sections": {
+    "Background": {
+      "text": "Determination of Neurologic Prognosis is unreliable before at least 72 hours after ROSC\nDo not neuroprognosticate until 72 hours post rewarming.\nGreatest benefit in out-of-hospital V-fib, though may help in other dysrhythmias\n[1]\nTwo most likely mechanisms of action:\nReduces cerebral metabolism by 6-8% per degree C\nReduces oxygen free radical production and lipid peroxidation\nCooling to 32-34ºC in initial studies, current studies suggest 36ºC equally beneficial\n[2]\nTreatment should be initiated immediately after ROSC\nPatient may be cooled concurrently with cardiac catheterization\nCooling should occur prior to CT scan if there is need for intracranial pathology workup\nAHA recommends 12-24 hrs of cooling\nNNT of ~6\nPediatrics\n[3]\n[4]\nTwo large RTCs for TH, one in out-of-hospital and another in in-hospital arrests\nTherapeutic hypothermia does not appear to provide a survival or improved neurological benefit\n[5]\nIn both studies,\nno difference\nin survival, function at 12 months post-arrest, blood product use, infection rates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Vfib\narrest\nOther pulseless\ndysrhythmias\n(relative)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vfib",
+          "url": "https://wikem.org/wiki/Vfib"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        }
+      ]
+    },
+    "Contraindications/Exclusions": {
+      "text": ">12hrs since ROSC\nGlasgow Motor score  >5\nMinimal pre-morbid cognitive status\nUnable to maintain\nSBP > 90 mmHg\n, with or without pressors, after CPR\nOther reason for coma\nIntracranial pathology (i.e.\nintracranial hemorrhage\n, ischemic\nstroke\n)\nSubarachnoid hemorrhage\nSedation\nDrug overdose\nStatus epilepticus\nSepsis\nas etiology for arrest\nDNR/DNI status, terminal illness\nUncontrollable bleeding or known\nbleeding diathesis\nwith active bleeding\nSignificant\ntrauma\n(especially intra-abdominal)\nPregnancy\nTherapeutic hypothermia may be safe for postpartum cardiac arrest\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SBP > 90 mmHg",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "Drug overdose",
+          "url": "https://wikem.org/wiki/Drug_overdose"
+        },
+        {
+          "text": "Status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Cooling": {
+      "text": "Cool to 32-34ºC as soon as possible (within 4 hours)\nStrict maintenance of temperature at 36ºC may have similar benefits\nInitiate rewarming 24 hrs after target temperature was reached\nCooling methods\nMaintain at 32-34ºC with 2 cooling blankets to sandwich the pt, with sheets covering the blankets to protect skin\nAlternatively, use heat exchange device (Icy Cath) or 4°C IVF at 30 cc/kg over 30 min\nCooling pads on the thighs and abdomen (Arctic Sun)\nSupplement with ice packs to groin, chest, axillae, neck until 34ºC reached\nPrevention of shivering and paralysis\nUse\nbenzodiazepines\nParalytics only if needed, and ensure patient fully sedated",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Maintenance": {
+      "text": "",
+      "subsections": {
+        "Sedation": {
+          "text": "Fentanyl\nbolus 50 mcg IV every hour as needed for pain\nFentanyl IV infusion NSS\nPropofol\nIV infusion\nLorazepam\nIV infusion\nLorazepam bolus 1mg IV every 2 hours as needed for agitation",
+          "tables": []
+        },
+        "Shivering": {
+          "text": "Prevention of shivering is important to avoid warming and needless oxygen consumption\nMay require train of four monitor with goal of 1-2/4 twitches with neuromuscular blockade\nLower doses of NMB work against shivering\nHigher doses of NMB used to paralyze the diaphragm in these scenarios:\nNeed to decrease O2 consumption\nDecrease plateau pressures\nHypoxemia is present\nConsider\nmeperidine\nq2hrs\n[7]\n[8]\n:\n50mg for normal renal function\n25mg if CrCl < 30ml/min\nPancuronium\nIV infusion\nInitiate before initiating cooling. Dosing recommendations: 0.1mg/kg loading dose followed by a continuous infusion of 0.33-2 mcg/kg/minute\nDo not use in patients with renal and/or hepatic insufficiency\nCisatracurium for renal/hepatic impairment\n0.2mg/kg IV bolus\nFollowed by infusion at 1 mcg/kg/min, max of 3 mcg/kg/min\nColumbia University anti-shivering protocol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Pancuronium",
+          "url": "https://wikem.org/wiki/Pancuronium"
+        }
+      ]
+    },
+    "Sedation": {
+      "text": "Fentanyl\nbolus 50 mcg IV every hour as needed for pain\nFentanyl IV infusion NSS\nPropofol\nIV infusion\nLorazepam\nIV infusion\nLorazepam bolus 1mg IV every 2 hours as needed for agitation",
+      "subsections": {
+        "Shivering": {
+          "text": "Prevention of shivering is important to avoid warming and needless oxygen consumption\nMay require train of four monitor with goal of 1-2/4 twitches with neuromuscular blockade\nLower doses of NMB work against shivering\nHigher doses of NMB used to paralyze the diaphragm in these scenarios:\nNeed to decrease O2 consumption\nDecrease plateau pressures\nHypoxemia is present\nConsider\nmeperidine\nq2hrs\n[7]\n[8]\n:\n50mg for normal renal function\n25mg if CrCl < 30ml/min\nPancuronium\nIV infusion\nInitiate before initiating cooling. Dosing recommendations: 0.1mg/kg loading dose followed by a continuous infusion of 0.33-2 mcg/kg/minute\nDo not use in patients with renal and/or hepatic insufficiency\nCisatracurium for renal/hepatic impairment\n0.2mg/kg IV bolus\nFollowed by infusion at 1 mcg/kg/min, max of 3 mcg/kg/min\nColumbia University anti-shivering protocol",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Pancuronium",
+          "url": "https://wikem.org/wiki/Pancuronium"
+        }
+      ]
+    },
+    "Shivering": {
+      "text": "Prevention of shivering is important to avoid warming and needless oxygen consumption\nMay require train of four monitor with goal of 1-2/4 twitches with neuromuscular blockade\nLower doses of NMB work against shivering\nHigher doses of NMB used to paralyze the diaphragm in these scenarios:\nNeed to decrease O2 consumption\nDecrease plateau pressures\nHypoxemia is present\nConsider\nmeperidine\nq2hrs\n[7]\n[8]\n:\n50mg for normal renal function\n25mg if CrCl < 30ml/min\nPancuronium\nIV infusion\nInitiate before initiating cooling. Dosing recommendations: 0.1mg/kg loading dose followed by a continuous infusion of 0.33-2 mcg/kg/minute\nDo not use in patients with renal and/or hepatic insufficiency\nCisatracurium for renal/hepatic impairment\n0.2mg/kg IV bolus\nFollowed by infusion at 1 mcg/kg/min, max of 3 mcg/kg/min\nColumbia University anti-shivering protocol",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "meperidine",
+          "url": "https://wikem.org/wiki/Meperidine"
+        },
+        {
+          "text": "Pancuronium",
+          "url": "https://wikem.org/wiki/Pancuronium"
+        }
+      ]
+    },
+    "Rewarming": {
+      "text": "If severe dysrhythmia/BP instability/bleeding develops, rewarm\nDiscontinue K infusions (extracellular K increases)\nKeep paralytic and sedative until rewarmed\nSlow rewarm at 0.5°C to target of 36°C",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General_Management": {
+      "text": "",
+      "subsections": {
+        "Other_Concerns": {
+          "text": "Head of bed at 30 degrees\nGoal MAP 80 - 100 mmhg\nTitrate with\nnorepinephrine\n(start 2-4 mcg/min) if EF > 50%\nTitrate with\ndobutamine\n(start 2.5-20 mcg/kg/min) if EF < 50%\nIV\nnitroglycerin\nstarting at 10 mcg/min if hypertensive\nCheck skin q2-6 hrs for cold injury\nMaintain normoglycemia\nDo not treat\nhyperglycemia\naggressively, as enzymatic functions are decreased at low temperatures, and rebound hypoglycaemia possible with rewarming\nReplete K, Mg, Phos, Ca (hypothermia induced diuresis is expected)\nCommon unconcerning ECG findings during cooling - Osborne wave, HR < 40 bpm\nConsider continuous EEG within 6 hrs, no later than 12 hrs after onset of cooling\nStress dose\nsteroids\nfor adrenal insufficiency\n?\nSeizure\nprophylaxis",
+          "tables": []
+        },
+        "Labs": {
+          "text": "ABG q6 hrs for duration of hypothermia\nCBC, Coags, BMP, Mg, Phos q6 hrs for duration of hypothermia\nExpect decreased K, Ca, Mg, Phos during, and rebound at rewarming\nHyperglycemia as metabolism slows at low temperature and body develops insulin resistance\nTroponins\n, CK-MB q6 hrs x2 days\nLipase, LFTs (if abnormal, no need to intervene unless persistent after rewarming)\nOther - Cortisol, UA, Pan-cultures, tox screen",
+          "tables": []
+        },
+        "ABG_Interpretation": {
+          "text": "Rewarm ABG to 37C for analysis (controversial)\nA warmed ABG from a hypothermic patient will show a  higher PaO2, higher PaCO2, and a lower pH than that actually present in the patient’s blood\nin vivo\nPaO2 is decreased by 5 mmHg for each degree below 37C\nPaCO2 is decreased by 2 mmHg for each degree below 37C\nChange in pH = 0.015 pH units per degree C change in temperature\nIf measured pH is 7.360 at 37C, then the pH at 34C is calculated as follows:\npH = [7.360 + (37-34)(0.015)] = 7.405",
+          "tables": []
+        },
+        "Monitoring": {
+          "text": "ECG\nq8 rule out ACS\nArterial line\nFoley with temperature probe\nCVP, ScvO2",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider head CT\nConsider CTPE study",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Troponins",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "Other_Concerns": {
+      "text": "Head of bed at 30 degrees\nGoal MAP 80 - 100 mmhg\nTitrate with\nnorepinephrine\n(start 2-4 mcg/min) if EF > 50%\nTitrate with\ndobutamine\n(start 2.5-20 mcg/kg/min) if EF < 50%\nIV\nnitroglycerin\nstarting at 10 mcg/min if hypertensive\nCheck skin q2-6 hrs for cold injury\nMaintain normoglycemia\nDo not treat\nhyperglycemia\naggressively, as enzymatic functions are decreased at low temperatures, and rebound hypoglycaemia possible with rewarming\nReplete K, Mg, Phos, Ca (hypothermia induced diuresis is expected)\nCommon unconcerning ECG findings during cooling - Osborne wave, HR < 40 bpm\nConsider continuous EEG within 6 hrs, no later than 12 hrs after onset of cooling\nStress dose\nsteroids\nfor adrenal insufficiency\n?\nSeizure\nprophylaxis",
+      "subsections": {
+        "Labs": {
+          "text": "ABG q6 hrs for duration of hypothermia\nCBC, Coags, BMP, Mg, Phos q6 hrs for duration of hypothermia\nExpect decreased K, Ca, Mg, Phos during, and rebound at rewarming\nHyperglycemia as metabolism slows at low temperature and body develops insulin resistance\nTroponins\n, CK-MB q6 hrs x2 days\nLipase, LFTs (if abnormal, no need to intervene unless persistent after rewarming)\nOther - Cortisol, UA, Pan-cultures, tox screen",
+          "tables": []
+        },
+        "ABG_Interpretation": {
+          "text": "Rewarm ABG to 37C for analysis (controversial)\nA warmed ABG from a hypothermic patient will show a  higher PaO2, higher PaCO2, and a lower pH than that actually present in the patient’s blood\nin vivo\nPaO2 is decreased by 5 mmHg for each degree below 37C\nPaCO2 is decreased by 2 mmHg for each degree below 37C\nChange in pH = 0.015 pH units per degree C change in temperature\nIf measured pH is 7.360 at 37C, then the pH at 34C is calculated as follows:\npH = [7.360 + (37-34)(0.015)] = 7.405",
+          "tables": []
+        },
+        "Monitoring": {
+          "text": "ECG\nq8 rule out ACS\nArterial line\nFoley with temperature probe\nCVP, ScvO2",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider head CT\nConsider CTPE study",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "norepinephrine",
+          "url": "https://wikem.org/wiki/Norepinephrine"
+        },
+        {
+          "text": "dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "nitroglycerin",
+          "url": "https://wikem.org/wiki/Nitroglycerin"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Troponins",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "Labs": {
+      "text": "ABG q6 hrs for duration of hypothermia\nCBC, Coags, BMP, Mg, Phos q6 hrs for duration of hypothermia\nExpect decreased K, Ca, Mg, Phos during, and rebound at rewarming\nHyperglycemia as metabolism slows at low temperature and body develops insulin resistance\nTroponins\n, CK-MB q6 hrs x2 days\nLipase, LFTs (if abnormal, no need to intervene unless persistent after rewarming)\nOther - Cortisol, UA, Pan-cultures, tox screen",
+      "subsections": {
+        "ABG_Interpretation": {
+          "text": "Rewarm ABG to 37C for analysis (controversial)\nA warmed ABG from a hypothermic patient will show a  higher PaO2, higher PaCO2, and a lower pH than that actually present in the patient’s blood\nin vivo\nPaO2 is decreased by 5 mmHg for each degree below 37C\nPaCO2 is decreased by 2 mmHg for each degree below 37C\nChange in pH = 0.015 pH units per degree C change in temperature\nIf measured pH is 7.360 at 37C, then the pH at 34C is calculated as follows:\npH = [7.360 + (37-34)(0.015)] = 7.405",
+          "tables": []
+        },
+        "Monitoring": {
+          "text": "ECG\nq8 rule out ACS\nArterial line\nFoley with temperature probe\nCVP, ScvO2",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider head CT\nConsider CTPE study",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponins",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "ABG_Interpretation": {
+      "text": "Rewarm ABG to 37C for analysis (controversial)\nA warmed ABG from a hypothermic patient will show a  higher PaO2, higher PaCO2, and a lower pH than that actually present in the patient’s blood\nin vivo\nPaO2 is decreased by 5 mmHg for each degree below 37C\nPaCO2 is decreased by 2 mmHg for each degree below 37C\nChange in pH = 0.015 pH units per degree C change in temperature\nIf measured pH is 7.360 at 37C, then the pH at 34C is calculated as follows:\npH = [7.360 + (37-34)(0.015)] = 7.405",
+      "subsections": {
+        "Monitoring": {
+          "text": "ECG\nq8 rule out ACS\nArterial line\nFoley with temperature probe\nCVP, ScvO2",
+          "tables": []
+        },
+        "Imaging": {
+          "text": "Consider head CT\nConsider CTPE study",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "Monitoring": {
+      "text": "ECG\nq8 rule out ACS\nArterial line\nFoley with temperature probe\nCVP, ScvO2",
+      "subsections": {
+        "Imaging": {
+          "text": "Consider head CT\nConsider CTPE study",
+          "tables": []
+        },
+        "Other_Considerations": {
+          "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Consider head CT\nConsider CTPE study",
+      "subsections": {
+        "Other_Considerations": {
+          "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "Other_Considerations": {
+      "text": "GI prophylaxis\nModify prophylactic\nheparin\nor\nLMWH\ndosing as there is hypothermic coagulopathy\n[9]\nNo clear best way for monitoring of anticoagulation until further studies\nConsider modified dosing:\nHeparin 40 units IV bolus\nFollowed by 7 u/kg/hr during TH with scheduled repeated coags, plus or minus heparin levels",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "ICU admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Focus On: Therapeutic Hypothermia\nEMRAP:Therapeutic\nHypothermiawith\nAmal Mattu, MD FAAEM",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermiawith",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Hypothermia_Cardiac_Arrest_Links": {
+          "text": "Therapeutic Hypothermia\nTTM Trial\nCardiac Arrest\nPost Cardiac Arrest\nHypothermia\nHACA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Therapeutic Hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_Hypothermia"
+        },
+        {
+          "text": "TTM Trial",
+          "url": "https://wikem.org/wiki/EBQ:TTM_Trial"
+        },
+        {
+          "text": "Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Cardiac_Arrest"
+        },
+        {
+          "text": "Post Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Post_Cardiac_Arrest"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "HACA",
+          "url": "https://wikem.org/wiki/EBQ:HACA"
+        }
+      ]
+    },
+    "Hypothermia_Cardiac_Arrest_Links": {
+      "text": "Therapeutic Hypothermia\nTTM Trial\nCardiac Arrest\nPost Cardiac Arrest\nHypothermia\nHACA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Therapeutic Hypothermia",
+          "url": "https://wikem.org/wiki/Therapeutic_Hypothermia"
+        },
+        {
+          "text": "TTM Trial",
+          "url": "https://wikem.org/wiki/EBQ:TTM_Trial"
+        },
+        {
+          "text": "Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Cardiac_Arrest"
+        },
+        {
+          "text": "Post Cardiac Arrest",
+          "url": "https://wikem.org/wiki/Post_Cardiac_Arrest"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "HACA",
+          "url": "https://wikem.org/wiki/EBQ:HACA"
+        }
+      ]
+    }
+  }
+}

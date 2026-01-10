@@ -1,0 +1,165 @@
+{
+  "drug_name": "Thoracotomy",
+  "url": "https://wikem.org/wiki/Thoracotomy",
+  "scraped_at": "2026-01-10T08:03:29.308899",
+  "sections": {
+    "Indications": {
+      "text": "",
+      "subsections": {
+        "Penetrating_chest_trauma": {
+          "text": "Signs of Life (pre or in-hospital)\nPulse, BP, pupil reactivity, purposeful movement, respiratory effort\nCardiac Activity\nPEA is acceptable\nUnresponsive\nhypotension\nSBP<70 despite treatment",
+          "tables": []
+        },
+        "Blunt_chest_trauma": {
+          "text": "Witnessed signs of life (pre or in-hospital)\nRapid exsanguination\n>1000-1500mL initial drainage or >200mL/hr from Chest tube\nConsider for exsanguinating abdominal vascular injuries with witnessed signs of life\nUnresponsive hypotension\nSBP<70 despite treatment",
+          "tables": []
+        },
+        "OR_Thoracotomy": {
+          "text": "Thoracoabdominal trauma patients with persistent SBP < 70-80 despite aggressive resuscitation\nEvidence of\ncardiac tamponade\nor progressively increasing\nhemothorax\nChest tube\ndrainage\n> 20ml/kg initially (> 1500ml in adult)\n> 3 ml/kg/hr for 2-4hrs (> 200 mL/hr for 2-4hr in adult)\nPersistent bleeding > 7 ml/kg/hr\nPersistent air leak (bronchopleural fistula)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    },
+    "ED_Thoracotomy": {
+      "text": "",
+      "subsections": {
+        "Penetrating_chest_trauma": {
+          "text": "Signs of Life (pre or in-hospital)\nPulse, BP, pupil reactivity, purposeful movement, respiratory effort\nCardiac Activity\nPEA is acceptable\nUnresponsive\nhypotension\nSBP<70 despite treatment",
+          "tables": []
+        },
+        "Blunt_chest_trauma": {
+          "text": "Witnessed signs of life (pre or in-hospital)\nRapid exsanguination\n>1000-1500mL initial drainage or >200mL/hr from Chest tube\nConsider for exsanguinating abdominal vascular injuries with witnessed signs of life\nUnresponsive hypotension\nSBP<70 despite treatment",
+          "tables": []
+        },
+        "OR_Thoracotomy": {
+          "text": "Thoracoabdominal trauma patients with persistent SBP < 70-80 despite aggressive resuscitation\nEvidence of\ncardiac tamponade\nor progressively increasing\nhemothorax\nChest tube\ndrainage\n> 20ml/kg initially (> 1500ml in adult)\n> 3 ml/kg/hr for 2-4hrs (> 200 mL/hr for 2-4hr in adult)\nPersistent bleeding > 7 ml/kg/hr\nPersistent air leak (bronchopleural fistula)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    },
+    "OR_Thoracotomy": {
+      "text": "Thoracoabdominal trauma patients with persistent SBP < 70-80 despite aggressive resuscitation\nEvidence of\ncardiac tamponade\nor progressively increasing\nhemothorax\nChest tube\ndrainage\n> 20ml/kg initially (> 1500ml in adult)\n> 3 ml/kg/hr for 2-4hrs (> 200 mL/hr for 2-4hr in adult)\nPersistent bleeding > 7 ml/kg/hr\nPersistent air leak (bronchopleural fistula)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    },
+    "Goals": {
+      "text": "Release\ntamponade\nControl intrathoracic/cardiac bleeding\nControl air embolism\nCardiac massage\nTemporary occlusion of descending aorta (optimize flow to brain and heart)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tamponade",
+          "url": "https://wikem.org/wiki/Tamponade"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "No absolute contraindications to ED thoracotomy (emergent procedure)\nRelative Contraindications\nBlunt injury without witness cardiac activity\nPenetrating abdominal trauma without cardiac activity\nNon-traumatic cardiac arrest\nSevere head injury\nSevere multi-system injury\nImproper Setting\nUnderstaffed ER/Improperly trained staff/Insufficient equipment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "PPE\nThoracotomy Tray\nRib Spreader\n#10 or #21 Scalpel, Scissors, Forceps\nVascular Clamps, Curved Artery Forceps, Needle Driver\nInternal Defibrillation Paddles\nSkin Stapler, Suture Material",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Intubate\nand place NGT\nAlways start with left-sided approach (even if penetrating injury is on right side)\nIf possible, should have concurrent right sided chest tube being placed\nIncise from sternum to to posterior axillary line (4th or 5th intercostal space)\nCut through skin, soft tissue, and muscle in one pass\nMay scissors can be used to cut the intercostal muscle\nRib spreader with rachet bar down\nPush lung out of way to access pericardium\nPericardiotomy\nPick up pericardium just anterior to phrenic nerve\nIncise from apex to root of aorta parallel to phrenic nerve\nInspect myocardium for lacerations\nDigital occlusion\nSkin stapler - if coronary artery stapled, it can be removed in the OR\nFoley catheter with purse-string suture around it (closes wound when foley removed)\nHorizontal mattress (can be difficult with beating heart)\nCardiac Massage\none-handed vs two-handed\nIntracardiac epinephrine\nInternal Defibrillation\nLower voltages than external defibrillation\nStart at 5J to a max of 50J\nCross Clamp Aorta\nUp to 30 min is tolerated\nIndicated after persistent hypotension after pericardiotomy and fluid resus\nAorta posterior to NGT\nAutotransfuse\nthoracic blood\nIf no evidence of injury to L-side, but possible R-sided injury, extend to R side (clam shelling)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubate",
+          "url": "https://wikem.org/wiki/Intubate"
+        },
+        {
+          "text": "Autotransfuse",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Risk of percutaneous injury and exposure to blood-borne pathogens to operator",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Survival rates are uniformly poor with guidelines reporting:\n[1]\nBlunt trauma survival as great as 2%\nPenetrating trauma survival as great 16%\nMeta-analysis reports overall rates closer to 1.5% with favorable neurologic outcome\n[2]\nBest outcomes occur if the patient arrested less than 15 minutes before the procedure.\nFor blunt trauma survival rate may be closer to 0.8%\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracotomy (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracotomy (Peds)",
+          "url": "https://wikem.org/wiki/Thoracotomy_(Peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit: Crack to Cure\nREBEL EM: The Clamshell Thoracotomy\nCriticalCareNow: A Cracking Way to Start the New Year",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

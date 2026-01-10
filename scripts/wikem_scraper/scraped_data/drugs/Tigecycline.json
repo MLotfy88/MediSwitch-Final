@@ -1,0 +1,537 @@
+{
+  "drug_name": "Tigecycline",
+  "url": "https://wikem.org/wiki/Tigecycline",
+  "scraped_at": "2026-01-10T08:03:39.682130",
+  "sections": {
+    "General": {
+      "text": "Type:\nGlycylcycline\n(\nTetracyclines\n)\nDosage Forms: IV\nCommon Trade Names: Tygacil",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetracyclines",
+          "url": "https://wikem.org/wiki/Tetracyclines"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Intra-Abdominal_Infections": {
+          "text": "50mg IV q12h x5-14 days\nStart: 100mg IV x1",
+          "tables": []
+        },
+        "Skin_Infections,_complicated": {
+          "text": "50mg IV q12h x5-14 days\nStart: 100mg IV x1",
+          "tables": []
+        },
+        "Pneumonia,_Community_acquired": {
+          "text": "50mg IV q12h for at least 5 days\nStart 100mg IV x1\nMay D/C after 5 days if afebrile 48-72h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intra-Abdominal_Infections": {
+      "text": "50mg IV q12h x5-14 days\nStart: 100mg IV x1",
+      "subsections": {
+        "Skin_Infections,_complicated": {
+          "text": "50mg IV q12h x5-14 days\nStart: 100mg IV x1",
+          "tables": []
+        },
+        "Pneumonia,_Community_acquired": {
+          "text": "50mg IV q12h for at least 5 days\nStart 100mg IV x1\nMay D/C after 5 days if afebrile 48-72h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Skin_Infections,_complicated": {
+      "text": "50mg IV q12h x5-14 days\nStart: 100mg IV x1",
+      "subsections": {
+        "Pneumonia,_Community_acquired": {
+          "text": "50mg IV q12h for at least 5 days\nStart 100mg IV x1\nMay D/C after 5 days if afebrile 48-72h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pneumonia,_Community_acquired": {
+      "text": "50mg IV q12h for at least 5 days\nStart 100mg IV x1\nMay D/C after 5 days if afebrile 48-72h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Intra-abdominal_Infections_2": {
+          "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+          "tables": []
+        },
+        "Skin_Infections,_complicated_2": {
+          "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+          "tables": []
+        },
+        "Pneumonia,_Community_Acquired_2": {
+          "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Intra-abdominal_Infections_2": {
+      "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+      "subsections": {
+        "Skin_Infections,_complicated_2": {
+          "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+          "tables": []
+        },
+        "Pneumonia,_Community_Acquired_2": {
+          "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Skin_Infections,_complicated_2": {
+      "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+      "subsections": {
+        "Pneumonia,_Community_Acquired_2": {
+          "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pneumonia,_Community_Acquired_2": {
+      "text": "8-11yo\n1.2 mg/kg IV q12h\nMax: 50 mg/12h\n12-17 yo\n50mg IV 112h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Drug rating in pregnancy\n: D\nLactation risk category\n: Possibly Unsafe; consider alternatives\nRenal Dosing\nAdult: No adjustment\nPediatric: No adjustment\nHepatic Dosing\nAdult:\nChild-Pugh Class C: Decrease maintenance dose 50%\nPediatric:\nNot defined, but may be required. See adult dosing.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Drug rating in pregnancy",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk category",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPregnancy\nAge <8 years\nHospital-acquired pneumonia\nDiabetic foot infection\nCaution:\nChild bearing potential\nHepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Tooth discoloration children <8 years old\nPhotosensitivity\nHypersensitivity reaction\nSkin reaction\nVasculitis\nPericarditis\nAutoimmune hepatitis\nHepatotoxicity\nNephrotoxicity\nEsophagitis/ulcer\nPancreatitis\nThrombocytopenia\nNeutropenia\nHemolytic anemia\nPseudotumor cerebri\nBulging fontanelles\nJarisch-Herxheimer reaction\nFetal harm",
+          "tables": []
+        },
+        "Common": {
+          "text": "Headache\nNausea\nDyspepsia\nArthralgia\nDiarrhea\nRash\nDysmenorrhea\nPhotosensitivity\nVulvovaginal candidiasis\nSkin discoloration\nElevated BUN",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Tooth discoloration children <8 years old\nPhotosensitivity\nHypersensitivity reaction\nSkin reaction\nVasculitis\nPericarditis\nAutoimmune hepatitis\nHepatotoxicity\nNephrotoxicity\nEsophagitis/ulcer\nPancreatitis\nThrombocytopenia\nNeutropenia\nHemolytic anemia\nPseudotumor cerebri\nBulging fontanelles\nJarisch-Herxheimer reaction\nFetal harm",
+      "subsections": {
+        "Common": {
+          "text": "Headache\nNausea\nDyspepsia\nArthralgia\nDiarrhea\nRash\nDysmenorrhea\nPhotosensitivity\nVulvovaginal candidiasis\nSkin discoloration\nElevated BUN",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Pseudotumor cerebri",
+          "url": "https://wikem.org/wiki/Pseudotumor_cerebri"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Headache\nNausea\nDyspepsia\nArthralgia\nDiarrhea\nRash\nDysmenorrhea\nPhotosensitivity\nVulvovaginal candidiasis\nSkin discoloration\nElevated BUN",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Minimal\nExcretion: Bile/feces - 59%; Urine 33%\nMechanism of Action: Bacteriostatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

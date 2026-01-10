@@ -1,0 +1,905 @@
+{
+  "drug_name": "Tetralogy_of_Fallot",
+  "url": "https://wikem.org/wiki/Tetralogy_of_Fallot",
+  "scraped_at": "2026-01-10T08:03:22.574087",
+  "sections": {
+    "Background": {
+      "text": "Most common cyanotic CHD manifesting in post-infancy period\nAcute episodes of hypoxia and cyanosis caused by right-to-left shunting across the\nVSD\n('Tet Spells')\nPatients may present with irritability, agitation, grunting, crying, and central cyanosis\nMay have history of squatting during spells (increases systemic vascular resistance)\nDuring cyanotic spells, there is either:\nIncreased pulmonary outflow obstruction or\nDecreased systemic vascular resistance leading to right-to-left shunting\nDuring the spell there is hypercarbia and hypoxemia (which further increases pulmonary vascular resistance).  The process compounds itself creating worsening right-to-left shunting, hyperpnea, right outflow tract obstruction and increased systemic venous return",
+      "subsections": {
+        "Tetralogy": {
+          "text": "VSD\nRV outflow obstruction (pulmonic stenosis)\nOverriding aorta\nRV hypertrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "Tetralogy": {
+      "text": "VSD\nRV outflow obstruction (pulmonic stenosis)\nOverriding aorta\nRV hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Systolic ejection\nmurmur\nalong the left sternal border\n[1]\nCyanosis worse during feeding and crying\n[1]\nMay squat to relieve symptoms: increases afterload and decreases shunt\n[1]\nAcute\nrespiratory distress\n(Tet Spells) due to increased right outflow tract obstruction\n[1]\nChronic\nhypoxemia\ncauses a compensatory polycythemia and clubbing of the fingers and toes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Syncope_(peds)": {
+          "text": "Seizure\nBreath-holding spell\nHyperventilation syndrome\nPregnancy\n(especially\nectopic\n)\nHypoglycemia\nCardiac disease\nTet spell\nHypertrophic cardiomyopathy\nBrugada Syndrome\nDysrhythmias\nLong QT syndrome\nAnomalous coronary arteries\nToxicologic exposure\n(stimulants or depressant)\nCO poisoning\nEthanol toxicity\nDrugs of abuse",
+          "tables": []
+        },
+        "Congenital_Heart_Disease_Types": {
+          "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[2]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure_(peds)"
+        },
+        {
+          "text": "Breath-holding spell",
+          "url": "https://wikem.org/wiki/Breath-holding_spell"
+        },
+        {
+          "text": "Hyperventilation syndrome",
+          "url": "https://wikem.org/wiki/Hyperventilation_syndrome"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "ectopic",
+          "url": "https://wikem.org/wiki/Ectopic"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Cardiac disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Brugada Syndrome",
+          "url": "https://wikem.org/wiki/Brugada_Syndrome"
+        },
+        {
+          "text": "Dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Long QT syndrome",
+          "url": "https://wikem.org/wiki/Long_QT_syndrome"
+        },
+        {
+          "text": "Anomalous coronary arteries",
+          "url": "https://wikem.org/wiki/Anomalous_coronary_arteries"
+        },
+        {
+          "text": "Toxicologic exposure",
+          "url": "https://wikem.org/wiki/Toxicologic_exposure"
+        },
+        {
+          "text": "CO poisoning",
+          "url": "https://wikem.org/wiki/CO_poisoning"
+        },
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Congenital_Heart_Disease_Types": {
+      "text": "Cyanotic\nTetralogy of fallot\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTricuspid atresia\nTruncus arteriosus\nEbstein anomaly\nHypoplastic left heart syndrome\nAcyanotic\nAV canal defect\nAtrial septal defect\n(ASD)\nVentricular septal defect\n(VSD)\nCor triatriatum\nPatent ductus arteriosus\n(PDA)\nPulmonary/\naortic stenosis\nCoarctation of the aorta\nDifferentiation by pulmonary vascularity on CXR\n[2]\nIncreased pulmonary vascularity\nLarge\nASD\nLarge\nVSD\nTotal anomalous pulmonary venous return\nTransposition of the great arteries\nTruncus arteriosus\nDecreased pulmonary vascularity\nTetralogy of fallot\nRare heart diseases with pulmonic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Tricuspid atresia",
+          "url": "https://wikem.org/wiki/Tricuspid_atresia"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Ebstein anomaly",
+          "url": "https://wikem.org/wiki/Ebstein_anomaly"
+        },
+        {
+          "text": "Hypoplastic left heart syndrome",
+          "url": "https://wikem.org/wiki/Hypoplastic_left_heart_syndrome"
+        },
+        {
+          "text": "Atrial septal defect",
+          "url": "https://wikem.org/wiki/Atrial_septal_defect"
+        },
+        {
+          "text": "Ventricular septal defect",
+          "url": "https://wikem.org/wiki/Ventricular_septal_defect"
+        },
+        {
+          "text": "Cor triatriatum",
+          "url": "https://wikem.org/wiki/Cor_triatriatum"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Coarctation of the aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_aorta"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "VSD",
+          "url": "https://wikem.org/wiki/VSD"
+        },
+        {
+          "text": "Total anomalous pulmonary venous return",
+          "url": "https://wikem.org/wiki/Total_anomalous_pulmonary_venous_return"
+        },
+        {
+          "text": "Transposition of the great arteries",
+          "url": "https://wikem.org/wiki/Transposition_of_the_great_arteries"
+        },
+        {
+          "text": "Truncus arteriosus",
+          "url": "https://wikem.org/wiki/Truncus_arteriosus"
+        },
+        {
+          "text": "Tetralogy of fallot",
+          "url": "https://wikem.org/wiki/Tetralogy_of_fallot"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Echocardiography\n: Gold standard\nCXR\n: shows the classic “boot-shaped” heart\nDecreased pulmonary vascularity (due to pulmonic stenosis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Echocardiography",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Acute Presentation (Tet spell):",
+      "subsections": {
+        "Knee-to-Chest_Position": {
+          "text": "Two-fold mechanism to reduce right to left shunt\nReduces systemic venous return\nIncreases systemic vascular resistance\nDone in the parent's arms or while lifting the patient onto the parents shoulders and tucking the knees underneath the chest",
+          "tables": []
+        },
+        "Conservative_Measures": {
+          "text": "Avoid needle sticks if possible as crying worsens pulmonary vascular resistance and right-to-left shunt\nConsider intranasal or intramuscular medications if needed\nPermit child to remain with parents\nMaintain calm, quiet, dim room to reduce agitation\nConsider\nIO line\nas resuscitation tool",
+          "tables": []
+        },
+        "Analgesia": {
+          "text": "Morphine\n0.1-0.2mg/kg IV or IM\nGoal is to ideally avoid IV placement if possible\nDecreases ventilatory drive, thus decreasing systemic venous return\nCaveat is decrease in vascular resistance\nIntranasal Fentanyl\n1.5-2 mcg/kg range\n[4]\nOnly one case report but IN administration may avoid the pain from a needle stick",
+          "tables": []
+        },
+        "Ketamine": {
+          "text": "0.25 - 1.0mg/kg IV or 3-5 mg/kg IM\nBenefit of sedation without decrease in vascular resistance",
+          "tables": []
+        },
+        "Phenylephrine": {
+          "text": "Dose: 0.2mg/kg IV\nIncreases SVR similar to knee to chest positioning",
+          "tables": []
+        },
+        "Sodium_bicarbonate": {
+          "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IO line",
+          "url": "https://wikem.org/wiki/IO_line"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Intranasal Fentanyl",
+          "url": "https://wikem.org/wiki/Intranasal_Sedation#Intranasal_Medications"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Knee-to-Chest_Position": {
+      "text": "Two-fold mechanism to reduce right to left shunt\nReduces systemic venous return\nIncreases systemic vascular resistance\nDone in the parent's arms or while lifting the patient onto the parents shoulders and tucking the knees underneath the chest",
+      "subsections": {
+        "Conservative_Measures": {
+          "text": "Avoid needle sticks if possible as crying worsens pulmonary vascular resistance and right-to-left shunt\nConsider intranasal or intramuscular medications if needed\nPermit child to remain with parents\nMaintain calm, quiet, dim room to reduce agitation\nConsider\nIO line\nas resuscitation tool",
+          "tables": []
+        },
+        "Analgesia": {
+          "text": "Morphine\n0.1-0.2mg/kg IV or IM\nGoal is to ideally avoid IV placement if possible\nDecreases ventilatory drive, thus decreasing systemic venous return\nCaveat is decrease in vascular resistance\nIntranasal Fentanyl\n1.5-2 mcg/kg range\n[4]\nOnly one case report but IN administration may avoid the pain from a needle stick",
+          "tables": []
+        },
+        "Ketamine": {
+          "text": "0.25 - 1.0mg/kg IV or 3-5 mg/kg IM\nBenefit of sedation without decrease in vascular resistance",
+          "tables": []
+        },
+        "Phenylephrine": {
+          "text": "Dose: 0.2mg/kg IV\nIncreases SVR similar to knee to chest positioning",
+          "tables": []
+        },
+        "Sodium_bicarbonate": {
+          "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IO line",
+          "url": "https://wikem.org/wiki/IO_line"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Intranasal Fentanyl",
+          "url": "https://wikem.org/wiki/Intranasal_Sedation#Intranasal_Medications"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Conservative_Measures": {
+      "text": "Avoid needle sticks if possible as crying worsens pulmonary vascular resistance and right-to-left shunt\nConsider intranasal or intramuscular medications if needed\nPermit child to remain with parents\nMaintain calm, quiet, dim room to reduce agitation\nConsider\nIO line\nas resuscitation tool",
+      "subsections": {
+        "Analgesia": {
+          "text": "Morphine\n0.1-0.2mg/kg IV or IM\nGoal is to ideally avoid IV placement if possible\nDecreases ventilatory drive, thus decreasing systemic venous return\nCaveat is decrease in vascular resistance\nIntranasal Fentanyl\n1.5-2 mcg/kg range\n[4]\nOnly one case report but IN administration may avoid the pain from a needle stick",
+          "tables": []
+        },
+        "Ketamine": {
+          "text": "0.25 - 1.0mg/kg IV or 3-5 mg/kg IM\nBenefit of sedation without decrease in vascular resistance",
+          "tables": []
+        },
+        "Phenylephrine": {
+          "text": "Dose: 0.2mg/kg IV\nIncreases SVR similar to knee to chest positioning",
+          "tables": []
+        },
+        "Sodium_bicarbonate": {
+          "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IO line",
+          "url": "https://wikem.org/wiki/IO_line"
+        },
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Intranasal Fentanyl",
+          "url": "https://wikem.org/wiki/Intranasal_Sedation#Intranasal_Medications"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Analgesia": {
+      "text": "Morphine\n0.1-0.2mg/kg IV or IM\nGoal is to ideally avoid IV placement if possible\nDecreases ventilatory drive, thus decreasing systemic venous return\nCaveat is decrease in vascular resistance\nIntranasal Fentanyl\n1.5-2 mcg/kg range\n[4]\nOnly one case report but IN administration may avoid the pain from a needle stick",
+      "subsections": {
+        "Ketamine": {
+          "text": "0.25 - 1.0mg/kg IV or 3-5 mg/kg IM\nBenefit of sedation without decrease in vascular resistance",
+          "tables": []
+        },
+        "Phenylephrine": {
+          "text": "Dose: 0.2mg/kg IV\nIncreases SVR similar to knee to chest positioning",
+          "tables": []
+        },
+        "Sodium_bicarbonate": {
+          "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Morphine",
+          "url": "https://wikem.org/wiki/Morphine"
+        },
+        {
+          "text": "Intranasal Fentanyl",
+          "url": "https://wikem.org/wiki/Intranasal_Sedation#Intranasal_Medications"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Ketamine": {
+      "text": "0.25 - 1.0mg/kg IV or 3-5 mg/kg IM\nBenefit of sedation without decrease in vascular resistance",
+      "subsections": {
+        "Phenylephrine": {
+          "text": "Dose: 0.2mg/kg IV\nIncreases SVR similar to knee to chest positioning",
+          "tables": []
+        },
+        "Sodium_bicarbonate": {
+          "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Phenylephrine": {
+      "text": "Dose: 0.2mg/kg IV\nIncreases SVR similar to knee to chest positioning",
+      "subsections": {
+        "Sodium_bicarbonate": {
+          "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+          "tables": []
+        },
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Sodium_bicarbonate": {
+      "text": "1-2 mEq/kg IV slowly\nCorrects\nmetabolic acidosis\nReduces hyperpnea",
+      "subsections": {
+        "IV_fluids": {
+          "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+          "tables": []
+        },
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "IV_fluids": {
+      "text": "10-20 cc/kg bolus NS initially\nImproves RV filling in the context of restrictive RV physiology",
+      "subsections": {
+        "Beta_blockers": {
+          "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+          "tables": []
+        },
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Beta_blockers": {
+      "text": "Should be administered in consultation with cardiology and pediatric surgery\nRelax spasm causing RV outflow obstruction\nSlows HR, decrease right to left shunting\nPropranolol\nIV 0.1-0.2mg/kg over 5min (preferred)\nAlternatives when IV propranolol not available (switch to PO propranolol after)\nMetoprolol\nIV 0.1mg/kg over 5 min, q5 min to max dose of 3x\nThen may start infusion 1-5 mcg/kg/min\nEsmolol\n0.5mg/kg over 1 min, then 50 mcg/kg/min over 4 min",
+      "subsections": {
+        "Transfusion": {
+          "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+          "tables": []
+        },
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Metoprolol",
+          "url": "https://wikem.org/wiki/Metoprolol"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Transfusion": {
+      "text": "pRBCs\n5-10 cc/kg IV over 5hrs",
+      "subsections": {
+        "Prostaglandin_E1": {
+          "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+          "tables": []
+        },
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Prostaglandin_E1": {
+      "text": "Appropriate in neonatal period only (prior to closure of ductus arteriosus)\nStart infusion at 0.05 mcg/kg/min IV and titrate up to 0.1 mcg/kg/min, monitoring for hypotension (and apnea)\n[5]\nMaintains the ductus (which completely seals by ~3 wks)\nSide Effects:  Hypotension, Bradycardia, Seizures and Apnea",
+      "subsections": {
+        "Definitive_Treatment": {
+          "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Definitive_Treatment": {
+      "text": "Cardiothoracic surgery to repair the defects early before significant pulmonary hypertension develops\nOften staged repair, completed over several surgeries\nOptimal age for correction controversial, but if elective repair, 3-11 months of age may be best\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Congenital Heart Disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Congenital Heart Disease",
+          "url": "https://wikem.org/wiki/Congenital_Heart_Disease"
+        }
+      ]
+    }
+  }
+}

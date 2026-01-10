@@ -1,0 +1,169 @@
+{
+  "drug_name": "Theophylline_toxicity",
+  "url": "https://wikem.org/wiki/Theophylline_toxicity",
+  "scraped_at": "2026-01-10T08:03:24.026847",
+  "sections": {
+    "Intro": {
+      "text": "See\ntheophylline\nfor general drug information.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Primarily used as a bronchodilator, however rarely used now due to better available options\nAlso studied for treatment of\nAcute Mountain Sickness\nand\nContrast-Induced Nephropathy\nPO available as elixer and capsule (12 or 24-hour extended release)\nIV as aminophylline (shorter acting than PO)\nMechanism of action\n[1]\n:\nRelease of endogenous catecholamines → β2 agonism → bronchodilation\nPDE inhibition → increases cAMP\nAdenosine antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Mountain Sickness",
+          "url": "https://wikem.org/wiki/Acute_Mountain_Sickness"
+        },
+        {
+          "text": "Contrast-Induced Nephropathy",
+          "url": "https://wikem.org/wiki/Contrast-Induced_Nephropathy"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cardiovascular\nSinus Tachycardia\nAtrial/Ventricular\narrhythmias\nHypotension\n(due to β2-mediated vasodilation)\nMetabolic\nHypokalemia\nMetabolic Acidosis\nHyperthermia\nHyperglycemia\nNeurologic\nTremor\nAgitation\nSeizure\nGI\nNausea/Vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sinus Tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_Tachycardia"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Metabolic Acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_Acidosis"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Nausea/Vomiting",
+          "url": "https://wikem.org/wiki/Nausea/Vomiting"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Beta-2 agonist\ntoxicity\nSympathomimetic toxicity\nIron toxicity\nSalicylate toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beta-2 agonist",
+          "url": "https://wikem.org/wiki/Beta-2_agonist"
+        },
+        {
+          "text": "Sympathomimetic toxicity",
+          "url": "https://wikem.org/wiki/Sympathomimetic_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Theophylline level\n[2]\n10–20 μg/mL - Therapeutic\n20-80 μg/mL - Toxic level\n80-100 μg/mL - Severe toxicity or death\nECG\nMetabolic panel\nLactic acid level\nCK\nEvaluate for co-ingestion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Supportive care is the mainstay of treatment\nCardiovascular\nNorepinephrine (alpha-agonist) for hypotension resistant to IVF\nRefractory hypotension may respond to non-selective beta-blockers\n[1]\nBeta-blockers (esmolol preferred due to short half-life) for tachydysrhythmias\nGI decontamination (\nMultidose Activated Charcoal\n,\nWhole Bowel Irrigation\n)\nConsider in recent severe overdose\nContraindications: unsecured airway,\nnausea\n/\nvomiting\n, ileus,\nBowel Obstruction\n, or need for emergent endoscopy\nSeizures\nLorazepam\n(Ativan) 1st line\nPhenobarbital if\nlorazepam\nineffective\nPhenytoin (Dilantin) contraindicated as increases seizure in animal studies\nDialysis or plasmapheresis\nIndicated in\nseizures\n, severe\narrhythmias\n, hypotension, serum level >90 μg/mL (>40 μg/mL in chronic ingestion)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Multidose Activated Charcoal",
+          "url": "https://wikem.org/wiki/Multidose_Activated_Charcoal"
+        },
+        {
+          "text": "Whole Bowel Irrigation",
+          "url": "https://wikem.org/wiki/Whole_Bowel_Irrigation"
+        },
+        {
+          "text": "nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Bowel Obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "arrhythmias",
+          "url": "https://wikem.org/wiki/Arrhythmias"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Almost all patients will require admission\nCan consider discharge with close followup (in conjunction with toxicology) if unintentional overdose, asymptomatic, and normal vital signs",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Toxicology (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        }
+      ]
+    }
+  }
+}

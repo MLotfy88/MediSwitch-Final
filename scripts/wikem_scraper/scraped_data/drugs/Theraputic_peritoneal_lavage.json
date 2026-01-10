@@ -1,0 +1,49 @@
+{
+  "drug_name": "Theraputic_peritoneal_lavage",
+  "url": "https://wikem.org/wiki/Theraputic_peritoneal_lavage",
+  "scraped_at": "2026-01-10T08:03:26.014424",
+  "sections": {
+    "Overview": {
+      "text": "Active internal re-warming for hypothermic patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Consider in:\nSevere Hypothermia\nCardiovascular instability / life-threatening dysrhythmias\nModerate hypothermia which fails to respond to less aggressive measures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "Catheter placement is similar to that used for\ndiagnostic peritoneal lavage\n.\nMay consider two catheters, one for installation and one for drainage\n[1]\nInfuse 10 to 20 mL/kg of isotonic saline warmed to approximately 42°C\nLeave fluid in the peritoneal cavity for 20 minutes, then remove\nOverall exchange rate is 6 L/hour",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diagnostic peritoneal lavage",
+          "url": "https://wikem.org/wiki/Diagnostic_peritoneal_lavage"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Hypothermia\nThoracic lavage\nDiagnostic peritoneal lavage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Thoracic lavage",
+          "url": "https://wikem.org/wiki/Thoracic_lavage"
+        },
+        {
+          "text": "Diagnostic peritoneal lavage",
+          "url": "https://wikem.org/wiki/Diagnostic_peritoneal_lavage"
+        }
+      ]
+    }
+  }
+}

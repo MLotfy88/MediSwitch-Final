@@ -1,0 +1,1599 @@
+{
+  "drug_name": "Thyroid_storm",
+  "url": "https://wikem.org/wiki/Thyroid_storm",
+  "scraped_at": "2026-01-10T08:03:36.625495",
+  "sections": {
+    "Background": {
+      "text": "Mortality\nWithout treatment: 80-100%\nWith treatment: 10-30%\n[1]\nDifference between severe thyrotoxicosis and thyroid storm is clinical diagnosis\n[2]\nMust empirically treat before laboratory confirmation\nDeath caused by multi-organ dysfunction,\ncongestive heart failure\n, respiratory failure,\ndysrhythmias\n,\nDIC\n, hypoxic brain injury, or\nsepsis\n[3]",
+      "subsections": {
+        "Precipitants": {
+          "text": "Long-standing untreated\nhyperthyroidism\nInfection\nTrauma\nRecent thyroid manipulation (physical or surgical)\nBurns\nSurgery (non-thyroid)\nDKA\nWithdrawal of thyroid medication\nLithium\nwithdrawal\nIodine load (contrast media or\namiodarone\n[4]\n)\nMI\nCVA\nPE\nInterferon-α\ntreatment\nRecent\nparturition\nMolar pregnancy\nHypoglycemia\nHyperemesis gravidarum\n[5]\nToxemia of pregnancy\n[6]",
+          "tables": []
+        },
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "parturition",
+          "url": "https://wikem.org/wiki/Delivery"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "Precipitants": {
+      "text": "Long-standing untreated\nhyperthyroidism\nInfection\nTrauma\nRecent thyroid manipulation (physical or surgical)\nBurns\nSurgery (non-thyroid)\nDKA\nWithdrawal of thyroid medication\nLithium\nwithdrawal\nIodine load (contrast media or\namiodarone\n[4]\n)\nMI\nCVA\nPE\nInterferon-α\ntreatment\nRecent\nparturition\nMolar pregnancy\nHypoglycemia\nHyperemesis gravidarum\n[5]\nToxemia of pregnancy\n[6]",
+      "subsections": {
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Burns",
+          "url": "https://wikem.org/wiki/Burns"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "parturition",
+          "url": "https://wikem.org/wiki/Delivery"
+        },
+        {
+          "text": "Molar pregnancy",
+          "url": "https://wikem.org/wiki/Molar_pregnancy"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyperemesis gravidarum",
+          "url": "https://wikem.org/wiki/Hyperemesis_gravidarum"
+        },
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "Spectrum_of_Thyroid_Disease": {
+      "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Classic_Triad": {
+          "text": "Hyperthermia\nOften marked (40 - 41C)\n[7]\nTachycardia\nOften out of proportion to fever\n[8]\nAltered mental status\n(agitation, confusion,\ndelirium\nstupor,\ncoma\n,\nseizure\n)\nMay also have:\nGoiter\nThyrotoxic stare, lid retraction\nHyperhidrosis\nThermoregulatory dysfunction\nFever\nCentral nervous system dysfunction\nAgitation\n,\ntremor\nDelirium\n,\npsychosis\n, extreme lethargy\nSeizure\n,\ncoma\nGastrointestinal-hepatic dysfunction\nDiarrhea\n,\nnausea and vomiting\n,\nabdominal pain\nUnexplained\njaundice\n,\nhepatomegaly\nCardiovascular dysfunction\nTachycardia\n,\npalpitations\nCongestive heart failure\n,\ndyspnea\nPedal edema\nA. fib\nWidened pulse pressure",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Cardiovascular collapse\n[9]\nCongestive heart failure\nHypotension\nCardiac\ndysrhythmias\nHypovolemia\n,\nhypotension\nDue to nausea,\nvomiting\n,\ndiarrhea\nHepatic failure\nwith cholestatic jaundice\n[10]\nRare but carries poor prognosis",
+          "tables": []
+        },
+        "Apathetic_Hyperthyroidism": {
+          "text": "Strikingly different rare form, dominated by depressed mental status, cardiac complications\n[11]\nTreatment with antithyroid therapy is still mainstay\nMore common in elderly patients\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pedal edema",
+          "url": "https://wikem.org/wiki/Pedal_edema"
+        },
+        {
+          "text": "A. fib",
+          "url": "https://wikem.org/wiki/A._fib"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        }
+      ]
+    },
+    "Classic_Triad": {
+      "text": "Hyperthermia\nOften marked (40 - 41C)\n[7]\nTachycardia\nOften out of proportion to fever\n[8]\nAltered mental status\n(agitation, confusion,\ndelirium\nstupor,\ncoma\n,\nseizure\n)\nMay also have:\nGoiter\nThyrotoxic stare, lid retraction\nHyperhidrosis\nThermoregulatory dysfunction\nFever\nCentral nervous system dysfunction\nAgitation\n,\ntremor\nDelirium\n,\npsychosis\n, extreme lethargy\nSeizure\n,\ncoma\nGastrointestinal-hepatic dysfunction\nDiarrhea\n,\nnausea and vomiting\n,\nabdominal pain\nUnexplained\njaundice\n,\nhepatomegaly\nCardiovascular dysfunction\nTachycardia\n,\npalpitations\nCongestive heart failure\n,\ndyspnea\nPedal edema\nA. fib\nWidened pulse pressure",
+      "subsections": {
+        "Complications": {
+          "text": "Cardiovascular collapse\n[9]\nCongestive heart failure\nHypotension\nCardiac\ndysrhythmias\nHypovolemia\n,\nhypotension\nDue to nausea,\nvomiting\n,\ndiarrhea\nHepatic failure\nwith cholestatic jaundice\n[10]\nRare but carries poor prognosis",
+          "tables": []
+        },
+        "Apathetic_Hyperthyroidism": {
+          "text": "Strikingly different rare form, dominated by depressed mental status, cardiac complications\n[11]\nTreatment with antithyroid therapy is still mainstay\nMore common in elderly patients\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Delirium",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "palpitations",
+          "url": "https://wikem.org/wiki/Palpitations"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Pedal edema",
+          "url": "https://wikem.org/wiki/Pedal_edema"
+        },
+        {
+          "text": "A. fib",
+          "url": "https://wikem.org/wiki/A._fib"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Cardiovascular collapse\n[9]\nCongestive heart failure\nHypotension\nCardiac\ndysrhythmias\nHypovolemia\n,\nhypotension\nDue to nausea,\nvomiting\n,\ndiarrhea\nHepatic failure\nwith cholestatic jaundice\n[10]\nRare but carries poor prognosis",
+      "subsections": {
+        "Apathetic_Hyperthyroidism": {
+          "text": "Strikingly different rare form, dominated by depressed mental status, cardiac complications\n[11]\nTreatment with antithyroid therapy is still mainstay\nMore common in elderly patients\n[12]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "dysrhythmias",
+          "url": "https://wikem.org/wiki/Dysrhythmias"
+        },
+        {
+          "text": "Hypovolemia",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hepatic failure",
+          "url": "https://wikem.org/wiki/Hepatic_failure"
+        }
+      ]
+    },
+    "Apathetic_Hyperthyroidism": {
+      "text": "Strikingly different rare form, dominated by depressed mental status, cardiac complications\n[11]\nTreatment with antithyroid therapy is still mainstay\nMore common in elderly patients\n[12]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Sympathomimetic\ningestion\nAtherosclerosis\nAortic regurgitation\nThyrotoxicosis\nFever\nAnemia\nPregnancy\nAnxiety\nPatent ductus arteriosus\nHeart block\nAortic dissection\nEndocarditis\nIncreased ICP\nVasodilating drugs\nBeriberi\nPheochromocytoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sympathomimetic",
+          "url": "https://wikem.org/wiki/Sympathomimetic"
+        },
+        {
+          "text": "Aortic regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_regurgitation"
+        },
+        {
+          "text": "Thyrotoxicosis",
+          "url": "https://wikem.org/wiki/Thyrotoxicosis"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Anxiety",
+          "url": "https://wikem.org/wiki/Anxiety"
+        },
+        {
+          "text": "Patent ductus arteriosus",
+          "url": "https://wikem.org/wiki/Patent_ductus_arteriosus"
+        },
+        {
+          "text": "Heart block",
+          "url": "https://wikem.org/wiki/Heart_block"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Increased ICP",
+          "url": "https://wikem.org/wiki/Increased_ICP"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Pheochromocytoma",
+          "url": "https://wikem.org/wiki/Pheochromocytoma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "TSH\nLow or undetectable\nFree T3/T4\nElevated\nChemistry\nCalcium\nmay be elevated\nHyperglycemia\noften present\n[13]\nCBC\nMay have\nthrombocytopenia\nLeukocytosis\ncommon\n[14]\nLFTs\nMild elevation in AST, ALT, LDH, bilirubin, ALP may be seen\n[15]\nCortisol level (rule-out concurrent adrenal insufficiency)\nECG\nRule out infection:\nCXR\nBlood culture\nUA\nConsider\nlumbar puncture\nafter CTH",
+          "tables": []
+        },
+        "Burch_&_Wartofsky_Diagnostic_Criteria": {
+          "text": "Scoring\n[16]\n>45 = Highly suggestive of thyroid storm\n25-44 = Suggestive of impending storm\n<25 = Unlikely to represent storm",
+          "tables": [
+            [
+              {
+                "Category": "Thermoregulatory dysfunction (°F)"
+              },
+              {
+                "Category": "Tmax= 99-99.9",
+                "Points": "5"
+              },
+              {
+                "Category": "Tmax= 100-100.9",
+                "Points": "10"
+              },
+              {
+                "Category": "Tmax= 101-101.9",
+                "Points": "15"
+              },
+              {
+                "Category": "Tmax= 102-102.9",
+                "Points": "20"
+              },
+              {
+                "Category": "Tmax= 103-103.9",
+                "Points": "25"
+              },
+              {
+                "Category": "Tmax= 104",
+                "Points": "30"
+              },
+              {
+                "Category": "Central nervous system effects"
+              },
+              {
+                "Category": "Mild (Agitation)",
+                "Points": "10"
+              },
+              {
+                "Category": "Moderate (delirium, psychosis, extreme lethargy)",
+                "Points": "20"
+              },
+              {
+                "Category": "Severe (seizure, coma)",
+                "Points": "30"
+              },
+              {
+                "Category": "Gastrointestinal-hepatic dysfunction"
+              },
+              {
+                "Category": "Moderate (diarrhea,nausea and vomiting,abdominal pain)",
+                "Points": "10"
+              },
+              {
+                "Category": "Severe (unexplainedjaundice)",
+                "Points": "20"
+              },
+              {
+                "Category": "Cardiovascular dysfunction (tachycardia)"
+              },
+              {
+                "Category": "HR= 99-109",
+                "Points": "5"
+              },
+              {
+                "Category": "HR= 110-119",
+                "Points": "10"
+              },
+              {
+                "Category": "HR= 120-129",
+                "Points": "15"
+              },
+              {
+                "Category": "HR= 130-139",
+                "Points": "20"
+              },
+              {
+                "Category": "HR= 140",
+                "Points": "25"
+              },
+              {
+                "Category": "Congestive Heart Failure"
+              },
+              {
+                "Category": "Mild (pedal edema)",
+                "Points": "5"
+              },
+              {
+                "Category": "Moderate (bibasilar rales)",
+                "Points": "10"
+              },
+              {
+                "Category": "Severe (pulmonary edema,A. fib)",
+                "Points": "15"
+              },
+              {
+                "Category": "Precipitant history"
+              },
+              {
+                "Category": "Negative",
+                "Points": "0"
+              },
+              {
+                "Category": "Positive",
+                "Points": "10"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "TSH\nLow or undetectable\nFree T3/T4\nElevated\nChemistry\nCalcium\nmay be elevated\nHyperglycemia\noften present\n[13]\nCBC\nMay have\nthrombocytopenia\nLeukocytosis\ncommon\n[14]\nLFTs\nMild elevation in AST, ALT, LDH, bilirubin, ALP may be seen\n[15]\nCortisol level (rule-out concurrent adrenal insufficiency)\nECG\nRule out infection:\nCXR\nBlood culture\nUA\nConsider\nlumbar puncture\nafter CTH",
+      "subsections": {
+        "Burch_&_Wartofsky_Diagnostic_Criteria": {
+          "text": "Scoring\n[16]\n>45 = Highly suggestive of thyroid storm\n25-44 = Suggestive of impending storm\n<25 = Unlikely to represent storm",
+          "tables": [
+            [
+              {
+                "Category": "Thermoregulatory dysfunction (°F)"
+              },
+              {
+                "Category": "Tmax= 99-99.9",
+                "Points": "5"
+              },
+              {
+                "Category": "Tmax= 100-100.9",
+                "Points": "10"
+              },
+              {
+                "Category": "Tmax= 101-101.9",
+                "Points": "15"
+              },
+              {
+                "Category": "Tmax= 102-102.9",
+                "Points": "20"
+              },
+              {
+                "Category": "Tmax= 103-103.9",
+                "Points": "25"
+              },
+              {
+                "Category": "Tmax= 104",
+                "Points": "30"
+              },
+              {
+                "Category": "Central nervous system effects"
+              },
+              {
+                "Category": "Mild (Agitation)",
+                "Points": "10"
+              },
+              {
+                "Category": "Moderate (delirium, psychosis, extreme lethargy)",
+                "Points": "20"
+              },
+              {
+                "Category": "Severe (seizure, coma)",
+                "Points": "30"
+              },
+              {
+                "Category": "Gastrointestinal-hepatic dysfunction"
+              },
+              {
+                "Category": "Moderate (diarrhea,nausea and vomiting,abdominal pain)",
+                "Points": "10"
+              },
+              {
+                "Category": "Severe (unexplainedjaundice)",
+                "Points": "20"
+              },
+              {
+                "Category": "Cardiovascular dysfunction (tachycardia)"
+              },
+              {
+                "Category": "HR= 99-109",
+                "Points": "5"
+              },
+              {
+                "Category": "HR= 110-119",
+                "Points": "10"
+              },
+              {
+                "Category": "HR= 120-129",
+                "Points": "15"
+              },
+              {
+                "Category": "HR= 130-139",
+                "Points": "20"
+              },
+              {
+                "Category": "HR= 140",
+                "Points": "25"
+              },
+              {
+                "Category": "Congestive Heart Failure"
+              },
+              {
+                "Category": "Mild (pedal edema)",
+                "Points": "5"
+              },
+              {
+                "Category": "Moderate (bibasilar rales)",
+                "Points": "10"
+              },
+              {
+                "Category": "Severe (pulmonary edema,A. fib)",
+                "Points": "15"
+              },
+              {
+                "Category": "Precipitant history"
+              },
+              {
+                "Category": "Negative",
+                "Points": "0"
+              },
+              {
+                "Category": "Positive",
+                "Points": "10"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcium",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Leukocytosis",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Blood culture",
+          "url": "https://wikem.org/wiki/Blood_culture"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "lumbar puncture",
+          "url": "https://wikem.org/wiki/Lumbar_puncture"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Burch_&_Wartofsky_Diagnostic_Criteria": {
+          "text": "Scoring\n[16]\n>45 = Highly suggestive of thyroid storm\n25-44 = Suggestive of impending storm\n<25 = Unlikely to represent storm",
+          "tables": [
+            [
+              {
+                "Category": "Thermoregulatory dysfunction (°F)"
+              },
+              {
+                "Category": "Tmax= 99-99.9",
+                "Points": "5"
+              },
+              {
+                "Category": "Tmax= 100-100.9",
+                "Points": "10"
+              },
+              {
+                "Category": "Tmax= 101-101.9",
+                "Points": "15"
+              },
+              {
+                "Category": "Tmax= 102-102.9",
+                "Points": "20"
+              },
+              {
+                "Category": "Tmax= 103-103.9",
+                "Points": "25"
+              },
+              {
+                "Category": "Tmax= 104",
+                "Points": "30"
+              },
+              {
+                "Category": "Central nervous system effects"
+              },
+              {
+                "Category": "Mild (Agitation)",
+                "Points": "10"
+              },
+              {
+                "Category": "Moderate (delirium, psychosis, extreme lethargy)",
+                "Points": "20"
+              },
+              {
+                "Category": "Severe (seizure, coma)",
+                "Points": "30"
+              },
+              {
+                "Category": "Gastrointestinal-hepatic dysfunction"
+              },
+              {
+                "Category": "Moderate (diarrhea,nausea and vomiting,abdominal pain)",
+                "Points": "10"
+              },
+              {
+                "Category": "Severe (unexplainedjaundice)",
+                "Points": "20"
+              },
+              {
+                "Category": "Cardiovascular dysfunction (tachycardia)"
+              },
+              {
+                "Category": "HR= 99-109",
+                "Points": "5"
+              },
+              {
+                "Category": "HR= 110-119",
+                "Points": "10"
+              },
+              {
+                "Category": "HR= 120-129",
+                "Points": "15"
+              },
+              {
+                "Category": "HR= 130-139",
+                "Points": "20"
+              },
+              {
+                "Category": "HR= 140",
+                "Points": "25"
+              },
+              {
+                "Category": "Congestive Heart Failure"
+              },
+              {
+                "Category": "Mild (pedal edema)",
+                "Points": "5"
+              },
+              {
+                "Category": "Moderate (bibasilar rales)",
+                "Points": "10"
+              },
+              {
+                "Category": "Severe (pulmonary edema,A. fib)",
+                "Points": "15"
+              },
+              {
+                "Category": "Precipitant history"
+              },
+              {
+                "Category": "Negative",
+                "Points": "0"
+              },
+              {
+                "Category": "Positive",
+                "Points": "10"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Burch_&_Wartofsky_Diagnostic_Criteria": {
+      "text": "Scoring\n[16]\n>45 = Highly suggestive of thyroid storm\n25-44 = Suggestive of impending storm\n<25 = Unlikely to represent storm",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Thermoregulatory dysfunction (°F)"
+          },
+          {
+            "Category": "Tmax= 99-99.9",
+            "Points": "5"
+          },
+          {
+            "Category": "Tmax= 100-100.9",
+            "Points": "10"
+          },
+          {
+            "Category": "Tmax= 101-101.9",
+            "Points": "15"
+          },
+          {
+            "Category": "Tmax= 102-102.9",
+            "Points": "20"
+          },
+          {
+            "Category": "Tmax= 103-103.9",
+            "Points": "25"
+          },
+          {
+            "Category": "Tmax= 104",
+            "Points": "30"
+          },
+          {
+            "Category": "Central nervous system effects"
+          },
+          {
+            "Category": "Mild (Agitation)",
+            "Points": "10"
+          },
+          {
+            "Category": "Moderate (delirium, psychosis, extreme lethargy)",
+            "Points": "20"
+          },
+          {
+            "Category": "Severe (seizure, coma)",
+            "Points": "30"
+          },
+          {
+            "Category": "Gastrointestinal-hepatic dysfunction"
+          },
+          {
+            "Category": "Moderate (diarrhea,nausea and vomiting,abdominal pain)",
+            "Points": "10"
+          },
+          {
+            "Category": "Severe (unexplainedjaundice)",
+            "Points": "20"
+          },
+          {
+            "Category": "Cardiovascular dysfunction (tachycardia)"
+          },
+          {
+            "Category": "HR= 99-109",
+            "Points": "5"
+          },
+          {
+            "Category": "HR= 110-119",
+            "Points": "10"
+          },
+          {
+            "Category": "HR= 120-129",
+            "Points": "15"
+          },
+          {
+            "Category": "HR= 130-139",
+            "Points": "20"
+          },
+          {
+            "Category": "HR= 140",
+            "Points": "25"
+          },
+          {
+            "Category": "Congestive Heart Failure"
+          },
+          {
+            "Category": "Mild (pedal edema)",
+            "Points": "5"
+          },
+          {
+            "Category": "Moderate (bibasilar rales)",
+            "Points": "10"
+          },
+          {
+            "Category": "Severe (pulmonary edema,A. fib)",
+            "Points": "15"
+          },
+          {
+            "Category": "Precipitant history"
+          },
+          {
+            "Category": "Negative",
+            "Points": "0"
+          },
+          {
+            "Category": "Positive",
+            "Points": "10"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Identify precipitant (i.e. med noncompliance,\nDKA\n, infection).\nWhen in doubt of diagnosis, the EP should treat given the high mortality rate, as a few doses of anti-thyroid medication are unlikely to harm euthyroid patient\n[18]",
+      "subsections": {
+        "Supportive_care": {
+          "text": "Fever\nDo not aggressively cool as this can lead to vasoconstriction\n[19]\nCareful cooling measures (ice packs & cooling blankets)\nAcetaminophen\n(\navoid aspirin or NSAIDS\nbecause they displace thyroid hormone from TBG)\nDehydration\n/\nhypoglycemia\nD5NS (most patients have depleted glycogen stores)\nCrackles in lungs are likely\nhigh output heart failure\n, NOT fluid overload\nCardiac decompensation (\nCHF\n,\nA-fib\n)\nRate control, inotropes, diuretics as needed (short acting always better)\nAgitation\nBenzodiazepines\nare the preferred agent",
+          "tables": []
+        },
+        "Treat_Increased_Adrenergic_Tone": {
+          "text": "Propranolol\nPO 60-80 mg q4hr (if can tolerate PO, no PR form)\nor\nPropranolol\nIV 1-2mg over 10 min; if tolerates then 1-2mg boluses q15 minutes until HR <100\n[20]\nFollowed by drip at dose required for heart rate control (3-5mg/hr)\nRelative contraindications are same as for other medical conditions (e.g.\nCHF\n,\nReactive Airway Disease\n, see alternative therapies)\nIn addition to decreasing peripheral conversion, propranolol will improve tremor, hyperpyrexia, and agitation\nUnlike other beta-blockers, propranolol also partially blocks conversion of T4 to T3\nor\nEsmolol\n250-500mcg/kg loading dose, then 50-100mcg/kg/min\n[21]\nB1 selective so can be used with active CHF, asthma, etc\nDoes not have T4 to T3 blocking properties of propranolol\nor\nReserpine 2.5 - 5 mg IM q4h\nOption for patients in whom beta-blockers are contraindicated\n[22]",
+          "tables": []
+        },
+        "Block_New_Hormone_Synthesis": {
+          "text": "Thionamides are the main class of medications which prevent new hormone synthesis by inhibiting the iodination of tyrosine residues by thyroid peroxidase (TPO) enzymes. Propylthiouracil (PTU) is prefered over methimazole because it will also bock T4→T3 conversion\nPTU\n500-1000mg PO or NG followed by 250mg q4hr\nMay provide PR, but PO or NG are preferred routes (IV formulations not available in US)\nPTU recommended in the first trimester of pregnancy with transition to methimazole afterwards\n[24]\nNote black box warning of hepatotoxicity so check LFTs prior\nAvoid in patients with significant liver disease; use methimazole instead\nTheoretically first line and offers advantage over methimazole\nPTU has earlier onset of action and capacity to inhibit peripheral conversion of T4 to T3\nHowever, no significant difference in mortality between PTU and methimazole\n[25]\nMethimazole\n20-25mg q4hr (80 - 100 mg daily in divided doses)\nLonger acting than PTU\nIV formulations may be available in Europe\nShould be avoided in first trimester of pregnancy (freely crosses placenta, birth defects)\n[26]\nAvailable in IV formulations outside America, but use supported by case reports only\n[27]\nPotassium iodide\n(SSKI)\nGive 1hr after PTU or methimazole to prevent increased hormone production (Jod-Basedow effect)\n[28]\nBlock hormone release: (Wolff-Chaikoff effect) only after hormone synthesis is inhibited. Iodine concentration leads to transient decrease of T3/T4\n5 drops (0.25 mL or 250mg) orally every 6 hours\nAvoid potassium iodide if patient is on amiodarone\nCan substitute radiocontrast dyes (Iopanoic acid, ipodate and iopanoate), PO Lugol solution,\nOR\nIV sodium iodide\n[29]\nLithium\ncarbonate\n[30]\nConsider if iodine allergic\nLithium carbonate\n300mg PO q8hr\nLithium inhibits thyroid hormone release from the gland and reduces iodination of tyrosine residues, but its use is complicated by the toxicity that can ensue\nTreatment of choice for iodine-induced hyperthyroidism as the result of contrast load or amiodarone\nLugol’s Solution 8 drops PO q 6\n(alternative iodine source)\nSodium Iodide 0.5mg IV Q 12 hours\n(alternative iodine source)\nCholestyramine 1-4g BID PO\nInhibits enterohepatic circulation of thyroid hormone by binding to conjugated products and promote excretion",
+          "tables": []
+        },
+        "Adrenal_Insufficiency_Treatment": {
+          "text": "Often there may be associated\nadrenal insufficiency\n(also blocks T4>T3)\nHydrocortisone\n300mg IV bolus, followed by 100mg TID for several days\nOR\nDexamethasone\n4mg IV q6hr\nNote that corticosteroids also inhibit conversion of T4 to T3 and block release of hormone from thyroid gland",
+          "tables": []
+        },
+        "Plasmapheresis": {
+          "text": "For recalcitrant thyroid storm, with remaining cardiac and neurologic symptoms\nEspecially in the case of fulminant liver failure, in which anti-thyroid drugs are contraindicated\n[32]\nRepeat sessions until TFTs normalize\nRemoves cytokines, auto-antibodies, thyroid hormones, thyroid hormone bound proteins",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+          "tables": []
+        },
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "high output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "PTU",
+          "url": "https://wikem.org/wiki/PTU"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Supportive_care": {
+      "text": "Fever\nDo not aggressively cool as this can lead to vasoconstriction\n[19]\nCareful cooling measures (ice packs & cooling blankets)\nAcetaminophen\n(\navoid aspirin or NSAIDS\nbecause they displace thyroid hormone from TBG)\nDehydration\n/\nhypoglycemia\nD5NS (most patients have depleted glycogen stores)\nCrackles in lungs are likely\nhigh output heart failure\n, NOT fluid overload\nCardiac decompensation (\nCHF\n,\nA-fib\n)\nRate control, inotropes, diuretics as needed (short acting always better)\nAgitation\nBenzodiazepines\nare the preferred agent",
+      "subsections": {
+        "Treat_Increased_Adrenergic_Tone": {
+          "text": "Propranolol\nPO 60-80 mg q4hr (if can tolerate PO, no PR form)\nor\nPropranolol\nIV 1-2mg over 10 min; if tolerates then 1-2mg boluses q15 minutes until HR <100\n[20]\nFollowed by drip at dose required for heart rate control (3-5mg/hr)\nRelative contraindications are same as for other medical conditions (e.g.\nCHF\n,\nReactive Airway Disease\n, see alternative therapies)\nIn addition to decreasing peripheral conversion, propranolol will improve tremor, hyperpyrexia, and agitation\nUnlike other beta-blockers, propranolol also partially blocks conversion of T4 to T3\nor\nEsmolol\n250-500mcg/kg loading dose, then 50-100mcg/kg/min\n[21]\nB1 selective so can be used with active CHF, asthma, etc\nDoes not have T4 to T3 blocking properties of propranolol\nor\nReserpine 2.5 - 5 mg IM q4h\nOption for patients in whom beta-blockers are contraindicated\n[22]",
+          "tables": []
+        },
+        "Block_New_Hormone_Synthesis": {
+          "text": "Thionamides are the main class of medications which prevent new hormone synthesis by inhibiting the iodination of tyrosine residues by thyroid peroxidase (TPO) enzymes. Propylthiouracil (PTU) is prefered over methimazole because it will also bock T4→T3 conversion\nPTU\n500-1000mg PO or NG followed by 250mg q4hr\nMay provide PR, but PO or NG are preferred routes (IV formulations not available in US)\nPTU recommended in the first trimester of pregnancy with transition to methimazole afterwards\n[24]\nNote black box warning of hepatotoxicity so check LFTs prior\nAvoid in patients with significant liver disease; use methimazole instead\nTheoretically first line and offers advantage over methimazole\nPTU has earlier onset of action and capacity to inhibit peripheral conversion of T4 to T3\nHowever, no significant difference in mortality between PTU and methimazole\n[25]\nMethimazole\n20-25mg q4hr (80 - 100 mg daily in divided doses)\nLonger acting than PTU\nIV formulations may be available in Europe\nShould be avoided in first trimester of pregnancy (freely crosses placenta, birth defects)\n[26]\nAvailable in IV formulations outside America, but use supported by case reports only\n[27]\nPotassium iodide\n(SSKI)\nGive 1hr after PTU or methimazole to prevent increased hormone production (Jod-Basedow effect)\n[28]\nBlock hormone release: (Wolff-Chaikoff effect) only after hormone synthesis is inhibited. Iodine concentration leads to transient decrease of T3/T4\n5 drops (0.25 mL or 250mg) orally every 6 hours\nAvoid potassium iodide if patient is on amiodarone\nCan substitute radiocontrast dyes (Iopanoic acid, ipodate and iopanoate), PO Lugol solution,\nOR\nIV sodium iodide\n[29]\nLithium\ncarbonate\n[30]\nConsider if iodine allergic\nLithium carbonate\n300mg PO q8hr\nLithium inhibits thyroid hormone release from the gland and reduces iodination of tyrosine residues, but its use is complicated by the toxicity that can ensue\nTreatment of choice for iodine-induced hyperthyroidism as the result of contrast load or amiodarone\nLugol’s Solution 8 drops PO q 6\n(alternative iodine source)\nSodium Iodide 0.5mg IV Q 12 hours\n(alternative iodine source)\nCholestyramine 1-4g BID PO\nInhibits enterohepatic circulation of thyroid hormone by binding to conjugated products and promote excretion",
+          "tables": []
+        },
+        "Adrenal_Insufficiency_Treatment": {
+          "text": "Often there may be associated\nadrenal insufficiency\n(also blocks T4>T3)\nHydrocortisone\n300mg IV bolus, followed by 100mg TID for several days\nOR\nDexamethasone\n4mg IV q6hr\nNote that corticosteroids also inhibit conversion of T4 to T3 and block release of hormone from thyroid gland",
+          "tables": []
+        },
+        "Plasmapheresis": {
+          "text": "For recalcitrant thyroid storm, with remaining cardiac and neurologic symptoms\nEspecially in the case of fulminant liver failure, in which anti-thyroid drugs are contraindicated\n[32]\nRepeat sessions until TFTs normalize\nRemoves cytokines, auto-antibodies, thyroid hormones, thyroid hormone bound proteins",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+          "tables": []
+        },
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "high output heart failure",
+          "url": "https://wikem.org/wiki/High_output_heart_failure"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "PTU",
+          "url": "https://wikem.org/wiki/PTU"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Treat_Increased_Adrenergic_Tone": {
+      "text": "Propranolol\nPO 60-80 mg q4hr (if can tolerate PO, no PR form)\nor\nPropranolol\nIV 1-2mg over 10 min; if tolerates then 1-2mg boluses q15 minutes until HR <100\n[20]\nFollowed by drip at dose required for heart rate control (3-5mg/hr)\nRelative contraindications are same as for other medical conditions (e.g.\nCHF\n,\nReactive Airway Disease\n, see alternative therapies)\nIn addition to decreasing peripheral conversion, propranolol will improve tremor, hyperpyrexia, and agitation\nUnlike other beta-blockers, propranolol also partially blocks conversion of T4 to T3\nor\nEsmolol\n250-500mcg/kg loading dose, then 50-100mcg/kg/min\n[21]\nB1 selective so can be used with active CHF, asthma, etc\nDoes not have T4 to T3 blocking properties of propranolol\nor\nReserpine 2.5 - 5 mg IM q4h\nOption for patients in whom beta-blockers are contraindicated\n[22]",
+      "subsections": {
+        "Block_New_Hormone_Synthesis": {
+          "text": "Thionamides are the main class of medications which prevent new hormone synthesis by inhibiting the iodination of tyrosine residues by thyroid peroxidase (TPO) enzymes. Propylthiouracil (PTU) is prefered over methimazole because it will also bock T4→T3 conversion\nPTU\n500-1000mg PO or NG followed by 250mg q4hr\nMay provide PR, but PO or NG are preferred routes (IV formulations not available in US)\nPTU recommended in the first trimester of pregnancy with transition to methimazole afterwards\n[24]\nNote black box warning of hepatotoxicity so check LFTs prior\nAvoid in patients with significant liver disease; use methimazole instead\nTheoretically first line and offers advantage over methimazole\nPTU has earlier onset of action and capacity to inhibit peripheral conversion of T4 to T3\nHowever, no significant difference in mortality between PTU and methimazole\n[25]\nMethimazole\n20-25mg q4hr (80 - 100 mg daily in divided doses)\nLonger acting than PTU\nIV formulations may be available in Europe\nShould be avoided in first trimester of pregnancy (freely crosses placenta, birth defects)\n[26]\nAvailable in IV formulations outside America, but use supported by case reports only\n[27]\nPotassium iodide\n(SSKI)\nGive 1hr after PTU or methimazole to prevent increased hormone production (Jod-Basedow effect)\n[28]\nBlock hormone release: (Wolff-Chaikoff effect) only after hormone synthesis is inhibited. Iodine concentration leads to transient decrease of T3/T4\n5 drops (0.25 mL or 250mg) orally every 6 hours\nAvoid potassium iodide if patient is on amiodarone\nCan substitute radiocontrast dyes (Iopanoic acid, ipodate and iopanoate), PO Lugol solution,\nOR\nIV sodium iodide\n[29]\nLithium\ncarbonate\n[30]\nConsider if iodine allergic\nLithium carbonate\n300mg PO q8hr\nLithium inhibits thyroid hormone release from the gland and reduces iodination of tyrosine residues, but its use is complicated by the toxicity that can ensue\nTreatment of choice for iodine-induced hyperthyroidism as the result of contrast load or amiodarone\nLugol’s Solution 8 drops PO q 6\n(alternative iodine source)\nSodium Iodide 0.5mg IV Q 12 hours\n(alternative iodine source)\nCholestyramine 1-4g BID PO\nInhibits enterohepatic circulation of thyroid hormone by binding to conjugated products and promote excretion",
+          "tables": []
+        },
+        "Adrenal_Insufficiency_Treatment": {
+          "text": "Often there may be associated\nadrenal insufficiency\n(also blocks T4>T3)\nHydrocortisone\n300mg IV bolus, followed by 100mg TID for several days\nOR\nDexamethasone\n4mg IV q6hr\nNote that corticosteroids also inhibit conversion of T4 to T3 and block release of hormone from thyroid gland",
+          "tables": []
+        },
+        "Plasmapheresis": {
+          "text": "For recalcitrant thyroid storm, with remaining cardiac and neurologic symptoms\nEspecially in the case of fulminant liver failure, in which anti-thyroid drugs are contraindicated\n[32]\nRepeat sessions until TFTs normalize\nRemoves cytokines, auto-antibodies, thyroid hormones, thyroid hormone bound proteins",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+          "tables": []
+        },
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "Propranolol",
+          "url": "https://wikem.org/wiki/Propranolol"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Esmolol",
+          "url": "https://wikem.org/wiki/Esmolol"
+        },
+        {
+          "text": "PTU",
+          "url": "https://wikem.org/wiki/PTU"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Block_New_Hormone_Synthesis": {
+      "text": "Thionamides are the main class of medications which prevent new hormone synthesis by inhibiting the iodination of tyrosine residues by thyroid peroxidase (TPO) enzymes. Propylthiouracil (PTU) is prefered over methimazole because it will also bock T4→T3 conversion\nPTU\n500-1000mg PO or NG followed by 250mg q4hr\nMay provide PR, but PO or NG are preferred routes (IV formulations not available in US)\nPTU recommended in the first trimester of pregnancy with transition to methimazole afterwards\n[24]\nNote black box warning of hepatotoxicity so check LFTs prior\nAvoid in patients with significant liver disease; use methimazole instead\nTheoretically first line and offers advantage over methimazole\nPTU has earlier onset of action and capacity to inhibit peripheral conversion of T4 to T3\nHowever, no significant difference in mortality between PTU and methimazole\n[25]\nMethimazole\n20-25mg q4hr (80 - 100 mg daily in divided doses)\nLonger acting than PTU\nIV formulations may be available in Europe\nShould be avoided in first trimester of pregnancy (freely crosses placenta, birth defects)\n[26]\nAvailable in IV formulations outside America, but use supported by case reports only\n[27]\nPotassium iodide\n(SSKI)\nGive 1hr after PTU or methimazole to prevent increased hormone production (Jod-Basedow effect)\n[28]\nBlock hormone release: (Wolff-Chaikoff effect) only after hormone synthesis is inhibited. Iodine concentration leads to transient decrease of T3/T4\n5 drops (0.25 mL or 250mg) orally every 6 hours\nAvoid potassium iodide if patient is on amiodarone\nCan substitute radiocontrast dyes (Iopanoic acid, ipodate and iopanoate), PO Lugol solution,\nOR\nIV sodium iodide\n[29]\nLithium\ncarbonate\n[30]\nConsider if iodine allergic\nLithium carbonate\n300mg PO q8hr\nLithium inhibits thyroid hormone release from the gland and reduces iodination of tyrosine residues, but its use is complicated by the toxicity that can ensue\nTreatment of choice for iodine-induced hyperthyroidism as the result of contrast load or amiodarone\nLugol’s Solution 8 drops PO q 6\n(alternative iodine source)\nSodium Iodide 0.5mg IV Q 12 hours\n(alternative iodine source)\nCholestyramine 1-4g BID PO\nInhibits enterohepatic circulation of thyroid hormone by binding to conjugated products and promote excretion",
+      "subsections": {
+        "Adrenal_Insufficiency_Treatment": {
+          "text": "Often there may be associated\nadrenal insufficiency\n(also blocks T4>T3)\nHydrocortisone\n300mg IV bolus, followed by 100mg TID for several days\nOR\nDexamethasone\n4mg IV q6hr\nNote that corticosteroids also inhibit conversion of T4 to T3 and block release of hormone from thyroid gland",
+          "tables": []
+        },
+        "Plasmapheresis": {
+          "text": "For recalcitrant thyroid storm, with remaining cardiac and neurologic symptoms\nEspecially in the case of fulminant liver failure, in which anti-thyroid drugs are contraindicated\n[32]\nRepeat sessions until TFTs normalize\nRemoves cytokines, auto-antibodies, thyroid hormones, thyroid hormone bound proteins",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+          "tables": []
+        },
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PTU",
+          "url": "https://wikem.org/wiki/PTU"
+        },
+        {
+          "text": "Methimazole",
+          "url": "https://wikem.org/wiki/Methimazole"
+        },
+        {
+          "text": "Potassium iodide",
+          "url": "https://wikem.org/wiki/Potassium_iodide"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Adrenal_Insufficiency_Treatment": {
+      "text": "Often there may be associated\nadrenal insufficiency\n(also blocks T4>T3)\nHydrocortisone\n300mg IV bolus, followed by 100mg TID for several days\nOR\nDexamethasone\n4mg IV q6hr\nNote that corticosteroids also inhibit conversion of T4 to T3 and block release of hormone from thyroid gland",
+      "subsections": {
+        "Plasmapheresis": {
+          "text": "For recalcitrant thyroid storm, with remaining cardiac and neurologic symptoms\nEspecially in the case of fulminant liver failure, in which anti-thyroid drugs are contraindicated\n[32]\nRepeat sessions until TFTs normalize\nRemoves cytokines, auto-antibodies, thyroid hormones, thyroid hormone bound proteins",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+          "tables": []
+        },
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "adrenal insufficiency",
+          "url": "https://wikem.org/wiki/Adrenal_insufficiency"
+        },
+        {
+          "text": "Hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        }
+      ]
+    },
+    "Plasmapheresis": {
+      "text": "For recalcitrant thyroid storm, with remaining cardiac and neurologic symptoms\nEspecially in the case of fulminant liver failure, in which anti-thyroid drugs are contraindicated\n[32]\nRepeat sessions until TFTs normalize\nRemoves cytokines, auto-antibodies, thyroid hormones, thyroid hormone bound proteins",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+          "tables": []
+        },
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Antibiotics": {
+      "text": "Second most common etiology of thyroid storm (after medication noncompliance) is infection\n[33]\nLow threshold to start broad spectrum antibiotics",
+      "subsections": {
+        "Additional_Interventions": {
+          "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Additional_Interventions": {
+      "text": "Consider L-Carnitine (1 g PO q 12h) - blocks T3 & T4 entry into cell nuclei peripherally\n[34]\nConsider Cholestyramine (4g PO q 6h) - decreases GI hormone recycling",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admission to ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hyperthyroidism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Thyroid Storm YouTube Video\nEMCrit - Thryoid Storm (149)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

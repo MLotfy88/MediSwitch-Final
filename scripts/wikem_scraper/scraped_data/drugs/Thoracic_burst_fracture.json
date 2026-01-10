@@ -1,0 +1,456 @@
+{
+  "drug_name": "Thoracic_burst_fracture",
+  "url": "https://wikem.org/wiki/Thoracic_burst_fracture",
+  "scraped_at": "2026-01-10T08:03:32.054579",
+  "sections": {
+    "Background": {
+      "text": "Unstable (usually)\nMechanism: axial loading with flexion compromising anterior and middle column\nRetropulsion of bone causes damage to the spinal canal and neurologic deficits that often cause stable neurologic deterioration.\nCan occur with or without injury to posterior elements (posterior involvement increases risk for neuro deficits)\nBe certain not to mistakenly call a burst fracture a wedge fracture",
+      "subsections": {
+        "Vertebral_fractures_and_dislocations_types": {
+          "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Vertebral_fractures_and_dislocations_types": {
+      "text": "Cervical fractures and dislocations\nAtlanto-occipital dissociation\nC1\nJefferson fracture\nC1 isolated anterior arch fracture\nC1 isolated posterior arch fracture\nC2\nOdontoid fracture\nHangman's fracture\nC3-C7\nCervical burst fracture\nCervical spinous process fracture\nExtension cervical teardrop fracture\nFlexion cervical teardrop fracture\nAnterior cervical wedge fracture\nCervical facet dislocation\nIsolated transverse process fracture\nThoracic and lumbar fractures and dislocations\nChance fracture\nThoracic burst fracture\nLumbar burst fracture\nIsolated transverse process fracture\nThoracic and lumbar compression fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Atlanto-occipital dissociation",
+          "url": "https://wikem.org/wiki/Atlanto-occipital_dissociation"
+        },
+        {
+          "text": "Jefferson fracture",
+          "url": "https://wikem.org/wiki/Jefferson_fracture"
+        },
+        {
+          "text": "C1 isolated anterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_anterior_arch_fracture"
+        },
+        {
+          "text": "C1 isolated posterior arch fracture",
+          "url": "https://wikem.org/wiki/C1_isolated_posterior_arch_fracture"
+        },
+        {
+          "text": "Odontoid fracture",
+          "url": "https://wikem.org/wiki/Odontoid_fracture"
+        },
+        {
+          "text": "Hangman's fracture",
+          "url": "https://wikem.org/wiki/Hangman%27s_fracture"
+        },
+        {
+          "text": "Cervical burst fracture",
+          "url": "https://wikem.org/wiki/Cervical_burst_fracture"
+        },
+        {
+          "text": "Cervical spinous process fracture",
+          "url": "https://wikem.org/wiki/Cervical_spinous_process_fracture"
+        },
+        {
+          "text": "Extension cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Extension_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Flexion cervical teardrop fracture",
+          "url": "https://wikem.org/wiki/Flexion_cervical_teardrop_fracture"
+        },
+        {
+          "text": "Anterior cervical wedge fracture",
+          "url": "https://wikem.org/wiki/Anterior_cervical_wedge_fracture"
+        },
+        {
+          "text": "Cervical facet dislocation",
+          "url": "https://wikem.org/wiki/Cervical_facet_dislocation"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        },
+        {
+          "text": "Lumbar burst fracture",
+          "url": "https://wikem.org/wiki/Lumbar_burst_fracture"
+        },
+        {
+          "text": "Isolated transverse process fracture",
+          "url": "https://wikem.org/wiki/Isolated_transverse_process_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar compression fractures",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_compression_fractures"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Obtain CT if unsure (vs. wedge)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Consult Orthopedics or Neurosurgery (Institution dependent)\nDepending on neurologic symptoms and features of the fracture- can be managed nonoperatively",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracic and lumbar spine trauma\nVertebral burst fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic and lumbar spine trauma",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_spine_trauma"
+        },
+        {
+          "text": "Vertebral burst fractures",
+          "url": "https://wikem.org/wiki/Vertebral_burst_fractures"
+        }
+      ]
+    }
+  }
+}

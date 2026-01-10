@@ -1,0 +1,407 @@
+{
+  "drug_name": "Third_nerve_palsy",
+  "url": "https://wikem.org/wiki/Third_nerve_palsy",
+  "scraped_at": "2026-01-10T08:03:29.244367",
+  "sections": {
+    "Background": {
+      "text": "Third (oculomotor) nerve, innervates eyelid muscles and external ocular muscles (except lateral rectus and superior oblique)\n[1]\nNerve also carries parasympathetic fibers on external surface allowing for pupillary constriction\nPalsy causes\ndiplopia\nexcept in lateral gaze (lateral rectus innervated by CN VI)\nPtosis,\nheadache",
+      "subsections": {
+        "Causes": {
+          "text": "Posterior Communicating Artery (PCOM) Aneurysm\n(compresses nerve)\nIschemia\nDiabetes\nTrauma\nTemporal lobe\nherniation\nthrough tentorium\nMyasthenia Gravis\n[2]\nCavernous Sinus Thrombosis\noften associated with other\ncranial nerve deficits\nNeurosyphilis\nAutoimmune\nvasculitis\n(\nLupus\n)\nAneurysm\n[3]\nCarotid-cavernous fistula\nMass\nMyasthenia gravis\nThyroid\nassociated orbitopathy\nInternuclear ophthalmoplegia\nGiant cell arteritis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Posterior Communicating Artery (PCOM) Aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "cranial nerve deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "Carotid-cavernous fistula",
+          "url": "https://wikem.org/wiki/Carotid-cavernous_fistula"
+        },
+        {
+          "text": "Mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Posterior Communicating Artery (PCOM) Aneurysm\n(compresses nerve)\nIschemia\nDiabetes\nTrauma\nTemporal lobe\nherniation\nthrough tentorium\nMyasthenia Gravis\n[2]\nCavernous Sinus Thrombosis\noften associated with other\ncranial nerve deficits\nNeurosyphilis\nAutoimmune\nvasculitis\n(\nLupus\n)\nAneurysm\n[3]\nCarotid-cavernous fistula\nMass\nMyasthenia gravis\nThyroid\nassociated orbitopathy\nInternuclear ophthalmoplegia\nGiant cell arteritis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior Communicating Artery (PCOM) Aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "cranial nerve deficits",
+          "url": "https://wikem.org/wiki/Cranial_nerve_palsies"
+        },
+        {
+          "text": "Neurosyphilis",
+          "url": "https://wikem.org/wiki/Neurosyphilis"
+        },
+        {
+          "text": "vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Lupus",
+          "url": "https://wikem.org/wiki/Systemic_Lupus_Erythematosus"
+        },
+        {
+          "text": "Carotid-cavernous fistula",
+          "url": "https://wikem.org/wiki/Carotid-cavernous_fistula"
+        },
+        {
+          "text": "Mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Thyroid",
+          "url": "https://wikem.org/wiki/Thyroid"
+        },
+        {
+          "text": "Internuclear ophthalmoplegia",
+          "url": "https://wikem.org/wiki/Internuclear_ophthalmoplegia"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Eye deviates laterally and down\nPupil exam:\nIf dilated/nonreactive likely secondary to space occupying lesion\nIf pupil is spared likely ischemic etiology\nLoss of accommodation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Monocular_Diplopia": {
+          "text": "Cataract\nLens dislocation\nMacular disruption",
+          "tables": []
+        },
+        "Binocular_Diplopia": {
+          "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[4]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[5]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior communicating artery (PCOM) aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        }
+      ]
+    },
+    "Monocular_Diplopia": {
+      "text": "Cataract\nLens dislocation\nMacular disruption",
+      "subsections": {
+        "Binocular_Diplopia": {
+          "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[4]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[5]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Posterior communicating artery (PCOM) aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        }
+      ]
+    },
+    "Binocular_Diplopia": {
+      "text": "Basilar Artery Thrombosis\nPosterior communicating artery (PCOM) aneurysm\nVertebral artery dissection\nMyasthenia Gravis\n[4]\nLambert-Eaton Syndrome\nBotulism\nCavernous sinus thrombosis\nIntracranial mass\n, brainstem mass\nMiller Fischer variant\nGuillain-Barre\n[5]\nMS\nHyperthyroid\nProptosis\nBasilar\nMeningitis\nCVA\nMuscular Entrapment from\nTrauma\nThird nerve palsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Posterior communicating artery (PCOM) aneurysm",
+          "url": "https://wikem.org/wiki/Posterior_Communicating_Artery_(PCOM)_Aneurysm"
+        },
+        {
+          "text": "Vertebral artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Myasthenic_Syndrome"
+        },
+        {
+          "text": "Botulism",
+          "url": "https://wikem.org/wiki/Botulism"
+        },
+        {
+          "text": "Cavernous sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_sinus_thrombosis"
+        },
+        {
+          "text": "Intracranial mass",
+          "url": "https://wikem.org/wiki/Intracranial_mass"
+        },
+        {
+          "text": "Guillain-Barre",
+          "url": "https://wikem.org/wiki/Guillain-Barre"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_Sclerosis_(MS)"
+        },
+        {
+          "text": "Hyperthyroid",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_Trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "If complete CNIII involvement with ptosis, mydriasis, and ophtalmoplegia:\nAssume a compressive etiology from an intracranial aneurysm (PCOM aneurysm for example)\nProceed to a CTA brain\nIf complete oculomotor nerve palsy without pupil involvement then strongly favor an ischemic process\nConsider a CTA brain\nCoronal reconstruction on CT will allow visualization of orbits to rule out compressive process\nIf associated with other neurologic deficits:\nCTA brain followed by MRI/MRA brain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If ischemic cause\nMedical management, plus or minus\nASA\n, with most self resolving in 6-8 weeks\nOphthalmology follow up\nIf aneurysm/mass\nNeurosurgery consult\nIf\ndiplopia\nNo driving or operating heavy machinery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Cranial nerves\nDiplopia\nOcular palsy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cranial nerves",
+          "url": "https://wikem.org/wiki/Cranial_nerves"
+        },
+        {
+          "text": "Diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "Ocular palsy",
+          "url": "https://wikem.org/wiki/Ocular_palsy"
+        }
+      ]
+    }
+  }
+}

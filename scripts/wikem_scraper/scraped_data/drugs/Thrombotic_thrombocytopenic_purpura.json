@@ -1,0 +1,758 @@
+{
+  "drug_name": "Thrombotic_thrombocytopenic_purpura",
+  "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura",
+  "scraped_at": "2026-01-10T08:03:36.239655",
+  "sections": {
+    "Background": {
+      "text": "Untreated mortality is >90%\nSimilar clinical symptoms but different pathophysiology than\nHUS\nHUS\nmore common in pediatrics\nMicroangiopathic Hemolytic Anemia (MAHA)\n+\nlow Platelets\nis TTP until proven otherwise\nMAHA is non-immune hemolysis (Coomb's-negative hemolysis) causing RBC fragmentation producing schistocytes\nCan occur as a result of\nPlavix\n(clopidogrel) use, especially within the first 2 weeks",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Insufficient ADAMTS-13 activity allows vWF multimers to accumulate in microcirculation which leads to platelet aggregation/thrombocytopenia and hemolysis of RBCs.  Platelet clots are transient, but the symptoms especially neuro, can be in flux.",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Congenitally deficient ADAMTS-13 activity AND:\nPregnancy\nOR\nInfection\nOR\nInflammation\nOR\nMedication use (\nquinolones\n,\nticlopidine\n,\nclopidogrel\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "low Platelets",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Plavix",
+          "url": "https://wikem.org/wiki/Plavix"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Insufficient ADAMTS-13 activity allows vWF multimers to accumulate in microcirculation which leads to platelet aggregation/thrombocytopenia and hemolysis of RBCs.  Platelet clots are transient, but the symptoms especially neuro, can be in flux.",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Congenitally deficient ADAMTS-13 activity AND:\nPregnancy\nOR\nInfection\nOR\nInflammation\nOR\nMedication use (\nquinolones\n,\nticlopidine\n,\nclopidogrel\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Congenitally deficient ADAMTS-13 activity AND:\nPregnancy\nOR\nInfection\nOR\nInflammation\nOR\nMedication use (\nquinolones\n,\nticlopidine\n,\nclopidogrel\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "quinolones",
+          "url": "https://wikem.org/wiki/Quinolones"
+        },
+        {
+          "text": "ticlopidine",
+          "url": "https://wikem.org/wiki/Ticlopidine"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Pentad_(rarely_all_present)": {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)\nThrombocytopenia\nFever\nRenal pathology\nCNS abnormalities (\nheadache\n,\nseizure\n,\naltered mental status\n,\nCVA\n,\ncoma\n)\nNeuro symptoms are often transient, may not be present in ED\nTTP pentad mnemonic =\nFAT RN\nFever, Anemia, Thrombocytopenia, Renal, Neuro Symptoms\nAll features DO NOT need to be present at the same time\nConsider diagnosis without the full pentad",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Renal pathology",
+          "url": "https://wikem.org/wiki/AKI"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Other MAHAs (eg,\nHUS\n,\nDIC\n,\nmalignant hypertension\n)\nITP\nSepsis\nSLE\nHELLP\nsyndrome\nAnemia, platelet count, and LDH tend to be more severe in TTP; LFTs more severe in HELLP",
+      "subsections": {
+        "Microangiopathic_Hemolytic_Anemia_(MAHA)": {
+          "text": "Disseminated Intravascular Coagulation (DIC)\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nHELLP syndrome\nHeparin-Induced Thrombocytopenia (HIT)\nHereditary spherocytosis\nParoxysmal nocturnal hemoglobinuria\n(PNH)\nMalignant hypertension\nScleroderma\nAntiphospholipid Syndrome (APS)\nOther medical causes: malignancy, renal allograft rejection, vasculitides like\npolyarteritis nodosa\nand\nWegener's granulomatosis\nDrugs: chemotherapy;\nClopidogrel\n(Plavix) associated with\nTTP\nNonvascular causes: prosthetic valve (more common with mechanical, more common at aortic valve),\nLVAD\n,\nTIPS\n, coil embolization, patched AV shunt,\nAVM",
+          "tables": []
+        },
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "HELLP syndrome",
+          "url": "https://wikem.org/wiki/HELLP_syndrome"
+        },
+        {
+          "text": "Heparin-Induced Thrombocytopenia (HIT)",
+          "url": "https://wikem.org/wiki/Heparin-Induced_Thrombocytopenia_(HIT)"
+        },
+        {
+          "text": "Hereditary spherocytosis",
+          "url": "https://wikem.org/wiki/Hereditary_spherocytosis"
+        },
+        {
+          "text": "Paroxysmal nocturnal hemoglobinuria",
+          "url": "https://wikem.org/wiki/Paroxysmal_nocturnal_hemoglobinuria"
+        },
+        {
+          "text": "Malignant hypertension",
+          "url": "https://wikem.org/wiki/Malignant_hypertension"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "polyarteritis nodosa",
+          "url": "https://wikem.org/wiki/Polyarteritis_nodosa"
+        },
+        {
+          "text": "Wegener's granulomatosis",
+          "url": "https://wikem.org/wiki/Wegener%27s_granulomatosis"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "LVAD",
+          "url": "https://wikem.org/wiki/LVAD"
+        },
+        {
+          "text": "TIPS",
+          "url": "https://wikem.org/wiki/TIPS"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        }
+      ]
+    },
+    "Thrombocytopenia": {
+      "text": "",
+      "subsections": {
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CBC with peripheral smear (anemia,\nmicrospherocytes\n, thrombocytopenia are suggestive findings)\nMicroangiopathic hemolytic anemia produces\nschistocytes\nLDH (elevated)\nHaptoglobin (decreased)\nReticulocyte count (appropriate)\nUrinalysis\n(hemoglobinuria)\nCreatinine (possibly elevated)\nLFTs\n(increased bilirubin)\nPT/PTT/INR (normal; differentiates from\nDIC\n)\nUrine pregnancy (significant association between pregnancy and TTP)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Plasma ADAMTS-13 Level:\nIdeally drawn prior to initiation of treatment, but results rarely available in the ER.\nLevel Interpretation\n<10 IU/dL Confirms the diagnosis\n10-20 IU/dL Equivocal result\n>20 IU/dL within normal, consider other diagnoses\nPLASMIC Score: <5 features effectively rules out TTP (99% NPV)\n[2]\nPlatelets <30 x 10\n9\n/L\nHemolysis with reticulocye count >2.5%, indirect bilirubin >2mg/dL, or low haptoglobin\nMCV <90fL\nINR <1.5\nCreatinine <2mg/dL\nNo Current Cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CBC with peripheral smear (anemia,\nmicrospherocytes\n, thrombocytopenia are suggestive findings)\nMicroangiopathic hemolytic anemia produces\nschistocytes\nLDH (elevated)\nHaptoglobin (decreased)\nReticulocyte count (appropriate)\nUrinalysis\n(hemoglobinuria)\nCreatinine (possibly elevated)\nLFTs\n(increased bilirubin)\nPT/PTT/INR (normal; differentiates from\nDIC\n)\nUrine pregnancy (significant association between pregnancy and TTP)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Plasma ADAMTS-13 Level:\nIdeally drawn prior to initiation of treatment, but results rarely available in the ER.\nLevel Interpretation\n<10 IU/dL Confirms the diagnosis\n10-20 IU/dL Equivocal result\n>20 IU/dL within normal, consider other diagnoses\nPLASMIC Score: <5 features effectively rules out TTP (99% NPV)\n[2]\nPlatelets <30 x 10\n9\n/L\nHemolysis with reticulocye count >2.5%, indirect bilirubin >2mg/dL, or low haptoglobin\nMCV <90fL\nINR <1.5\nCreatinine <2mg/dL\nNo Current Cancer",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Plasma ADAMTS-13 Level:\nIdeally drawn prior to initiation of treatment, but results rarely available in the ER.\nLevel Interpretation\n<10 IU/dL Confirms the diagnosis\n10-20 IU/dL Equivocal result\n>20 IU/dL within normal, consider other diagnoses\nPLASMIC Score: <5 features effectively rules out TTP (99% NPV)\n[2]\nPlatelets <30 x 10\n9\n/L\nHemolysis with reticulocye count >2.5%, indirect bilirubin >2mg/dL, or low haptoglobin\nMCV <90fL\nINR <1.5\nCreatinine <2mg/dL\nNo Current Cancer",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Management ideally done in consultation with heme/onc\n[3]\nPlasma exchange\n(plasmapheresis)\nReplaces defective or insufficient ADAMTS-13 and clears vWF multimers\nFFP\nTransfusion\nContains ADAMTS-13\nShould only be initiated if delay in plasmapheresis\nGlucocorticoids\nConsider 1 mg/kg\nprednisone\nPO or\nmethylprednisolone\n125 mg IV\n[4]\n[5]\nBiologic Therapies:\nISTH guidelines now recommend adding both empiric rituximab and caplacizumab for patients with high pretest probability while awaiting ADAMTS-13 levels.\n[6]\nRituximab is a monoclonal antibody against CD20 and is used in many autoimmune disorders\nCaplacizumab is a monoclonal antibody blocking platelet-vWF interactions and thus formation of microvascular thrombosis.\nCaplacizumab may be withheld in patients with whom no ADAMTS-13 can be obtained as there are concerns for increased bleeding risk with this therapy\nIn patients with low pretest probability, consider empiric plasma exchange and steroids and withhold these biologics pending ADAMTS-13 results.\nTransfusion of\npRBCs\n(only severe bleeding)\nGenerally only indicated if plasma exchange cannot be performed immediately\nSplenectomy\n- 2nd line therapy after stabilization\nInhibitor antibody is made in the spleen\nPlatelet transfusion\nis\nAVOIDED\nOnly used for life-threatening bleeding or intracranial hemorrhage under guidance from hematologist\nPlatelet infusion may lead to acutely worsened thrombosis, renal failure, and death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Plasma exchange",
+          "url": "https://wikem.org/wiki/Plasma_exchange"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "Platelet transfusion",
+          "url": "https://wikem.org/wiki/Platelet_transfusion"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for plasma exchange",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Microangiopathic Hemolytic Anemia (MAHA)\nHUS\nDIC\nHELLP\n,\nSLE\n,\nAntiphospholipid Syndrome (APS)\nITP",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "HUS",
+          "url": "https://wikem.org/wiki/HUS"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Antiphospholipid Syndrome (APS)",
+          "url": "https://wikem.org/wiki/Antiphospholipid_Syndrome_(APS)"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        }
+      ]
+    }
+  }
+}

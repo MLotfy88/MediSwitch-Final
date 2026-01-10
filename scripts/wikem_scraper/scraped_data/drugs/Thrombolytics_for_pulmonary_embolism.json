@@ -1,0 +1,418 @@
+{
+  "drug_name": "Thrombolytics_for_pulmonary_embolism",
+  "url": "https://wikem.org/wiki/Thrombolytics_for_pulmonary_embolism",
+  "scraped_at": "2026-01-10T08:03:35.833865",
+  "sections": {
+    "Overview": {
+      "text": "For most hemodynamically stable patients, thrombolytic therapy is NOT indicated\nMajor controversy exists regarding thrombolytic therapy in submassive PE.\n[1]\n[2]\n[3]\nThe mortality benefit may be greatest in patients with right ventricular dysfunction.\n[4]\nBleeding risk is increased with increasing age especially in the group ≥ 65 yo\n[5]\nThere is no evidence suggesting administering thrombolytics within a certain window of time improves outcomes\n[6]\nThere is no evidence suggesting administering thrombolytics\nempirically\nduring cardiac arrest improves outcomes\nIn patients with PEA secondary to\nconfirmed\nPE, administration of thrombolytics may be indicated\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Patients with\nmassive PE\n(i.e. persistent\nhypotension\nSBP <90 for ≥15 mins or requiring inotropic support) and acceptable risk of bleeding complications\n[8]\nCan be considered in initially hemodynamically stable patients (i.e. submassive PE) who acutely decompensate despite anticoagulation\ndevelop persistent\nhypotension\n(massive PE)\nincreasing\nheart rate\nJVD or worsening right\nheart failure\nworsening gas exchange\nsigns of\nshock",
+      "subsections": {
+        "Evaluation": {
+          "text": "See\nPulmonary Embolism (PE)\nMassive PE\n[9]\nAcute with\nSustained hypotension (systolic blood pressure <90 mm Hg for at least 15 minutes or requiring inotropic support, not due to a cause other than PE, such as arrhythmia, hypovolemia, sepsis, or left ventricular [LV] dysfunction) - ACCP 2016\nOther definitions include pulselessness or persistent profound bradycardia (heart rate <40 bpm with signs or symptoms of shock)\nSubmassive PE\n[10]\nAcute without systemic hypotension (see above) but with either RV dysfunction or myocardial necrosis\nRV dysfunction means the presence of at least 1 of the following:\nRV dilation (apical 4-chamber RV diameter divided by LV diameter >0.9) or RV systolic dysfunction on echocardiography\nRV dilation (4-chamber RV diameter divided by LV diameter >0.9) on CT\nElevation of BNP (>90 pg/mL)\nElevation of N-terminal pro-BNP (>500 pg/mL); or\nElectrocardiographic\nchanges (new complete or incomplete right bundle-branch block, anteroseptal ST elevation or depression, or anteroseptal T-wave inversion)\nMyocardial necrosis is defined as either of the following:\nElevation of troponin I (>0.4 ng/mL) or\nElevation of troponin T (>0.1 ng/mL)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "massive PE",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Massive:_High-risk"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "heart rate",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Pulmonary Embolism (PE)",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism_(PE)"
+        },
+        {
+          "text": "Electrocardiographic",
+          "url": "https://wikem.org/wiki/EKG"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nPulmonary Embolism (PE)\nMassive PE\n[9]\nAcute with\nSustained hypotension (systolic blood pressure <90 mm Hg for at least 15 minutes or requiring inotropic support, not due to a cause other than PE, such as arrhythmia, hypovolemia, sepsis, or left ventricular [LV] dysfunction) - ACCP 2016\nOther definitions include pulselessness or persistent profound bradycardia (heart rate <40 bpm with signs or symptoms of shock)\nSubmassive PE\n[10]\nAcute without systemic hypotension (see above) but with either RV dysfunction or myocardial necrosis\nRV dysfunction means the presence of at least 1 of the following:\nRV dilation (apical 4-chamber RV diameter divided by LV diameter >0.9) or RV systolic dysfunction on echocardiography\nRV dilation (4-chamber RV diameter divided by LV diameter >0.9) on CT\nElevation of BNP (>90 pg/mL)\nElevation of N-terminal pro-BNP (>500 pg/mL); or\nElectrocardiographic\nchanges (new complete or incomplete right bundle-branch block, anteroseptal ST elevation or depression, or anteroseptal T-wave inversion)\nMyocardial necrosis is defined as either of the following:\nElevation of troponin I (>0.4 ng/mL) or\nElevation of troponin T (>0.1 ng/mL)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary Embolism (PE)",
+          "url": "https://wikem.org/wiki/Pulmonary_Embolism_(PE)"
+        },
+        {
+          "text": "Electrocardiographic",
+          "url": "https://wikem.org/wiki/EKG"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute_contraindications": {
+          "text": "Any prior\nintracranial hemorrhage\nKnown structural intracranial cerebrovascular disease (e.g.\nAVM\n)\nKnown malignant\nintracranial neoplasm\nIschemic stroke\nwithin last 3 months\nSuspected\naortic dissection\nActive\nbleeding\nor\nbleeding diathesis\nRecent surgery encroaching on the spinal canal or brain\nRecent closed-\nhead\nor\nfacial trauma\nwith radiographic evidence of bony\nfracture\nor brain injury",
+          "tables": []
+        },
+        "Relative_contraindications": {
+          "text": "Age >75 years\nCurrent use of\nanticoagulation\nPE in Pregnancy\nNoncompressible vascular punctures\nTraumatic or prolonged\nCPR\n(>10min)\nRecent internal bleeding (within 2 to 4 weeks)\nHistory of chronic, severe, and poorly controlled\nhypertension\nSevere uncontrolled\nhypertension\non presentation (sys BP >180 or dia BP >110)\nDementia\nRemote (>3 months)\nischemic stroke\nMajor surgery within 3 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "intracranial neoplasm",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "head",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "PE in Pregnancy",
+          "url": "https://wikem.org/wiki/PE_in_Pregnancy"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        }
+      ]
+    },
+    "Absolute_contraindications": {
+      "text": "Any prior\nintracranial hemorrhage\nKnown structural intracranial cerebrovascular disease (e.g.\nAVM\n)\nKnown malignant\nintracranial neoplasm\nIschemic stroke\nwithin last 3 months\nSuspected\naortic dissection\nActive\nbleeding\nor\nbleeding diathesis\nRecent surgery encroaching on the spinal canal or brain\nRecent closed-\nhead\nor\nfacial trauma\nwith radiographic evidence of bony\nfracture\nor brain injury",
+      "subsections": {
+        "Relative_contraindications": {
+          "text": "Age >75 years\nCurrent use of\nanticoagulation\nPE in Pregnancy\nNoncompressible vascular punctures\nTraumatic or prolonged\nCPR\n(>10min)\nRecent internal bleeding (within 2 to 4 weeks)\nHistory of chronic, severe, and poorly controlled\nhypertension\nSevere uncontrolled\nhypertension\non presentation (sys BP >180 or dia BP >110)\nDementia\nRemote (>3 months)\nischemic stroke\nMajor surgery within 3 weeks",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "intracranial neoplasm",
+          "url": "https://wikem.org/wiki/Brain_tumor"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "head",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "facial trauma",
+          "url": "https://wikem.org/wiki/Facial_trauma"
+        },
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "PE in Pregnancy",
+          "url": "https://wikem.org/wiki/PE_in_Pregnancy"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        }
+      ]
+    },
+    "Relative_contraindications": {
+      "text": "Age >75 years\nCurrent use of\nanticoagulation\nPE in Pregnancy\nNoncompressible vascular punctures\nTraumatic or prolonged\nCPR\n(>10min)\nRecent internal bleeding (within 2 to 4 weeks)\nHistory of chronic, severe, and poorly controlled\nhypertension\nSevere uncontrolled\nhypertension\non presentation (sys BP >180 or dia BP >110)\nDementia\nRemote (>3 months)\nischemic stroke\nMajor surgery within 3 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        },
+        {
+          "text": "PE in Pregnancy",
+          "url": "https://wikem.org/wiki/PE_in_Pregnancy"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "Standard dose:\nAlteplase\n100mg over 2 hours\n[11]\n[12]\nAlternative dose (preferred):\nAlteplase\n50mg over 2 hours (efficacy equal with fewer complications than 100mg)\n[13]\nor alternatively for crashing patients, 20mg IV bolus followed by infusion over two hours for the remaining medication\n[14]\nHalf-dose regimen can be considered in patients >65yo, higher bleeding risk, or submassive PE (see\nMOPETT trial\n)\nSystemic therapy is recommended over catheter-directed therapy\nCardiac arrest dose:\n[15]\nTenecteplase\n(not FDA approved for PE) - 50 mg bolus or 0.5 mg/kg bolus has been used for PEA arrest\n[16]\n[17]\n[18]\nOR\nAlteplase\n- 50 mg of  by IV Push over ~60 seconds\nContinue CPR for 30-60 minutes after lytic administration.",
+      "subsections": {
+        "Related_Instructions": {
+          "text": "Review\ncontraindications\nSeveral trials continued unfractionated heparin (UFH) to target aPTT 1.5-2.5x baseline during thrombolytic administration so this would be standard\n[19]\n[20]\nHowever, discontinuing anticoagulation can be considered while administering thrombolytics\nAlways obtain serial aPTT every 4 hours after completion of thrombolytic\nIf heparin was discontinued during thrombolysis, resume heparin without a loading dose when aPTT <2x upper limit of normal\nOngoing CPR from 2010 AHA Guidelines is not an absolute contraindication, and some studies suggest permitting 15 min of CPR to allow thrombolysis to work\n[21]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        },
+        {
+          "text": "Alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        },
+        {
+          "text": "MOPETT trial",
+          "url": "https://wikem.org/wiki/EBQ:MOPETT_Trial"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        },
+        {
+          "text": "Alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        },
+        {
+          "text": "contraindications",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_pulmonary_embolism#Contraindications"
+        }
+      ]
+    },
+    "Related_Instructions": {
+      "text": "Review\ncontraindications\nSeveral trials continued unfractionated heparin (UFH) to target aPTT 1.5-2.5x baseline during thrombolytic administration so this would be standard\n[19]\n[20]\nHowever, discontinuing anticoagulation can be considered while administering thrombolytics\nAlways obtain serial aPTT every 4 hours after completion of thrombolytic\nIf heparin was discontinued during thrombolysis, resume heparin without a loading dose when aPTT <2x upper limit of normal\nOngoing CPR from 2010 AHA Guidelines is not an absolute contraindication, and some studies suggest permitting 15 min of CPR to allow thrombolysis to work\n[21]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "contraindications",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_pulmonary_embolism#Contraindications"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Major bleeding\n[22]\nMajor bleeding OR 2.73 (9.24% vs 3.42%) compared to anticoagulant alone\nIntracranial hemorrhage\nOR 4.63 (1.46% vs 0.19%)\nThere was no statistically significant increase in major bleeding risk in patients 65yo or younger\nNo standard or evidence-based reversal regimen exists but general guidelines include:\n[23]\nSupportive care (e.g.\ntransfusion\n)\nCryoprecipitate\n(contains fibrinogen) 10 units or more to achieve fibrinogen level >150 mg/dL\nTXA\nor aminocaproic acid are antifibrinolytics, but limited data\nPCC\nor\nFFP\ncan be considered, but generally as adjuncts to cryoprecipitate\nConsider\nvitamin K\nPlatelets\ncontroversial (theoretical benefit, but a small study showed worsening ICH with platelets)\nConsider neurosurgical intervention if large ICH is found on CT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "transfusion",
+          "url": "https://wikem.org/wiki/Transfusion"
+        },
+        {
+          "text": "Cryoprecipitate",
+          "url": "https://wikem.org/wiki/Cryoprecipitate"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "vitamin K",
+          "url": "https://wikem.org/wiki/Vitamin_K"
+        },
+        {
+          "text": "Platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pulmonary embolism\n(main)",
+      "subsections": {
+        "Thrombolytics_for_pulmonary_embolism": {
+          "text": "Clinical Page\nThrombolysis for PE\nResearch summary page:\nEBQ:Thrombolysis in Pulmonary Embolism Metanalysis\nPEITHO Trial\nTOPCOAT Trial\nMOPETT Trial",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        },
+        {
+          "text": "EBQ:Thrombolysis in Pulmonary Embolism Metanalysis",
+          "url": "https://wikem.org/wiki/EBQ:Thrombolysis_in_Pulmonary_Embolism_Metanalysis"
+        },
+        {
+          "text": "PEITHO Trial",
+          "url": "https://wikem.org/wiki/EBQ:PEITHO_Trial"
+        },
+        {
+          "text": "TOPCOAT Trial",
+          "url": "https://wikem.org/wiki/EBQ:TOPCOAT_Trial"
+        },
+        {
+          "text": "MOPETT Trial",
+          "url": "https://wikem.org/wiki/EBQ:MOPETT_Trial"
+        }
+      ]
+    },
+    "Thrombolytics_for_pulmonary_embolism": {
+      "text": "Clinical Page\nThrombolysis for PE\nResearch summary page:\nEBQ:Thrombolysis in Pulmonary Embolism Metanalysis\nPEITHO Trial\nTOPCOAT Trial\nMOPETT Trial",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolysis for PE",
+          "url": "https://wikem.org/wiki/Thrombolysis_for_PE"
+        },
+        {
+          "text": "EBQ:Thrombolysis in Pulmonary Embolism Metanalysis",
+          "url": "https://wikem.org/wiki/EBQ:Thrombolysis_in_Pulmonary_Embolism_Metanalysis"
+        },
+        {
+          "text": "PEITHO Trial",
+          "url": "https://wikem.org/wiki/EBQ:PEITHO_Trial"
+        },
+        {
+          "text": "TOPCOAT Trial",
+          "url": "https://wikem.org/wiki/EBQ:TOPCOAT_Trial"
+        },
+        {
+          "text": "MOPETT Trial",
+          "url": "https://wikem.org/wiki/EBQ:MOPETT_Trial"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Example of decision making guide factoring in size of PE and lytics contraindications:\nhttps://emcrit.org/ibcc/pe/#algorithm\nhttp://emcrit.org/emcrit/aha-pulmonary-embolism-guidelines-2011/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

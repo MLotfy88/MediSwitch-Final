@@ -1,0 +1,540 @@
+{
+  "drug_name": "Tianeptine_toxicity",
+  "url": "https://wikem.org/wiki/Tianeptine_toxicity",
+  "scraped_at": "2026-01-10T08:03:34.930677",
+  "sections": {
+    "Background": {
+      "text": "Tianeptine is an atypical antidepressant that has different effects on multiple neurochemicals and receptors including serotonin, glutamate, NMDA, and opioid\nFull μ-opioid receptor agonism can lead to effects similar to\nopioid\ntoxicity and overdose\nFrom 2014-2017 the USA saw a large increase in reported cases of\ntianeptine toxicity\nthought to be due to the discovery of its opioid effects and its ability to induce euophoria; it can be purchased online as a dietary supplement or research chemical\n[1]\n[2]\nNot FDA approved in the USA, still used in other countries as a treatment for depression",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid",
+          "url": "https://wikem.org/wiki/Opioid"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May share features of different toxicologic syndromes due to multiple receptors/neurotransmitters affected including\nopioid overdose\nand\nserotonin syndrome\nAMS\nAgitation\nComa\nRespiratory depression\nDiaphoresis\nNausea\nVomiting\nDiarrhea\nTachycardia\nHypertension\nMydriasis or miosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "opioid overdose",
+          "url": "https://wikem.org/wiki/Opioid_overdose"
+        },
+        {
+          "text": "serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "AMS",
+          "url": "https://wikem.org/wiki/AMS"
+        },
+        {
+          "text": "Agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        },
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Sedative/hypnotic_toxicity": {
+          "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+          "tables": []
+        },
+        "Toxidrome_Chart": {
+          "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+          "tables": [
+            [
+              {
+                "Finding": "Example",
+                "Cholinergic": "Organophosphates",
+                "Anticholinergic": "TCAs",
+                "Sympathomimetic": "Cocaine",
+                "Sympatholytic^": "Clonidine",
+                "Sedative/Hypnotic": "ETOH"
+              },
+              {
+                "Finding": "Temp",
+                "Cholinergic": "Nl",
+                "Anticholinergic": "Nl / ↑",
+                "Sympathomimetic": "Nl / ↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "RR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Nl / ↓",
+                "Sympathomimetic": "Variable",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "HR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑ (sig)",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "BP",
+                "Cholinergic": "↑",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "LOC",
+                "Cholinergic": "Nl / Lethargic",
+                "Anticholinergic": "Nl, agitated, psychotic, comatose",
+                "Sympathomimetic": "Nl, agitated, psychotic",
+                "Sympatholytic^": "Nl, Lethargic, or Comatose",
+                "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+              },
+              {
+                "Finding": "Pupils",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Mydriatic",
+                "Sympathomimetic": "Mydriatic",
+                "Sympatholytic^": "Nl / Miotic",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Motor",
+                "Cholinergic": "Fasciculations, Flacid Paralysis",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl / Agitated",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Skin",
+                "Cholinergic": "Sweating (sig)",
+                "Anticholinergic": "Hot, dry",
+                "Sympathomimetic": "Sweating",
+                "Sympatholytic^": "Dry",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Lungs",
+                "Cholinergic": "Bronchospasm / rhinorrhea",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Bowel Sounds",
+                "Cholinergic": "Hyperactive (SLUDGE)",
+                "Anticholinergic": "↓ / Absent",
+                "Sympathomimetic": "Nl / ↓",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Sedative/hypnotic_toxicity": {
+      "text": "Absinthe\nBarbiturates\nBenzodiazepines\nFlunitrazepam (Rohypnol)\nChloral hydrate\nGamma hydroxybutyrate (GHB)\nBaclofen toxicity\nOpioids\nLomotil toxicity\nLoperamide toxicity\nToxic alcohols\nEthanol\nEthylene glycol\nIsopropyl alcohol\nMethanol\nXylazine toxicity",
+      "subsections": {
+        "Toxidrome_Chart": {
+          "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+          "tables": [
+            [
+              {
+                "Finding": "Example",
+                "Cholinergic": "Organophosphates",
+                "Anticholinergic": "TCAs",
+                "Sympathomimetic": "Cocaine",
+                "Sympatholytic^": "Clonidine",
+                "Sedative/Hypnotic": "ETOH"
+              },
+              {
+                "Finding": "Temp",
+                "Cholinergic": "Nl",
+                "Anticholinergic": "Nl / ↑",
+                "Sympathomimetic": "Nl / ↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "RR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Nl / ↓",
+                "Sympathomimetic": "Variable",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "HR",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑ (sig)",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "BP",
+                "Cholinergic": "↑",
+                "Anticholinergic": "↑",
+                "Sympathomimetic": "↑",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": "Nl / ↓"
+              },
+              {
+                "Finding": "LOC",
+                "Cholinergic": "Nl / Lethargic",
+                "Anticholinergic": "Nl, agitated, psychotic, comatose",
+                "Sympathomimetic": "Nl, agitated, psychotic",
+                "Sympatholytic^": "Nl, Lethargic, or Comatose",
+                "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+              },
+              {
+                "Finding": "Pupils",
+                "Cholinergic": "Variable",
+                "Anticholinergic": "Mydriatic",
+                "Sympathomimetic": "Mydriatic",
+                "Sympatholytic^": "Nl / Miotic",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Motor",
+                "Cholinergic": "Fasciculations, Flacid Paralysis",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl / Agitated",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Skin",
+                "Cholinergic": "Sweating (sig)",
+                "Anticholinergic": "Hot, dry",
+                "Sympathomimetic": "Sweating",
+                "Sympatholytic^": "Dry",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Lungs",
+                "Cholinergic": "Bronchospasm / rhinorrhea",
+                "Anticholinergic": "Nl",
+                "Sympathomimetic": "Nl",
+                "Sympatholytic^": "Nl",
+                "Sedative/Hypnotic": ""
+              },
+              {
+                "Finding": "Bowel Sounds",
+                "Cholinergic": "Hyperactive (SLUDGE)",
+                "Anticholinergic": "↓ / Absent",
+                "Sympathomimetic": "Nl / ↓",
+                "Sympatholytic^": "Nl / ↓",
+                "Sedative/Hypnotic": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Absinthe",
+          "url": "https://wikem.org/wiki/Absinthe"
+        },
+        {
+          "text": "Barbiturates",
+          "url": "https://wikem.org/wiki/Barbiturate_toxicity"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepine_toxicity"
+        },
+        {
+          "text": "Flunitrazepam (Rohypnol)",
+          "url": "https://wikem.org/wiki/Flunitrazepam_toxicity"
+        },
+        {
+          "text": "Chloral hydrate",
+          "url": "https://wikem.org/wiki/Chloral_hydrate_toxicity"
+        },
+        {
+          "text": "Gamma hydroxybutyrate (GHB)",
+          "url": "https://wikem.org/wiki/Gamma_hydroxybutyrate_toxicity"
+        },
+        {
+          "text": "Baclofen toxicity",
+          "url": "https://wikem.org/wiki/Baclofen_toxicity"
+        },
+        {
+          "text": "Opioids",
+          "url": "https://wikem.org/wiki/Opioid_toxicity"
+        },
+        {
+          "text": "Lomotil toxicity",
+          "url": "https://wikem.org/wiki/Lomotil_toxicity"
+        },
+        {
+          "text": "Loperamide toxicity",
+          "url": "https://wikem.org/wiki/Loperamide_toxicity"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Ethanol",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol_toxicity"
+        },
+        {
+          "text": "Isopropyl alcohol",
+          "url": "https://wikem.org/wiki/Isopropyl_alcohol_toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_toxicity"
+        },
+        {
+          "text": "Xylazine toxicity",
+          "url": "https://wikem.org/wiki/Xylazine_toxicity"
+        }
+      ]
+    },
+    "Toxidrome_Chart": {
+      "text": "^Consider Sympatholytic when looking at Sedative OD or someone who doesn't respond to Narcan\nWithdrawal from substances have the opposite effect",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Finding": "Example",
+            "Cholinergic": "Organophosphates",
+            "Anticholinergic": "TCAs",
+            "Sympathomimetic": "Cocaine",
+            "Sympatholytic^": "Clonidine",
+            "Sedative/Hypnotic": "ETOH"
+          },
+          {
+            "Finding": "Temp",
+            "Cholinergic": "Nl",
+            "Anticholinergic": "Nl / ↑",
+            "Sympathomimetic": "Nl / ↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "RR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Nl / ↓",
+            "Sympathomimetic": "Variable",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "HR",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑ (sig)",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "BP",
+            "Cholinergic": "↑",
+            "Anticholinergic": "↑",
+            "Sympathomimetic": "↑",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": "Nl / ↓"
+          },
+          {
+            "Finding": "LOC",
+            "Cholinergic": "Nl / Lethargic",
+            "Anticholinergic": "Nl, agitated, psychotic, comatose",
+            "Sympathomimetic": "Nl, agitated, psychotic",
+            "Sympatholytic^": "Nl, Lethargic, or Comatose",
+            "Sedative/Hypnotic": "Nl, Lethargic, or Comatose"
+          },
+          {
+            "Finding": "Pupils",
+            "Cholinergic": "Variable",
+            "Anticholinergic": "Mydriatic",
+            "Sympathomimetic": "Mydriatic",
+            "Sympatholytic^": "Nl / Miotic",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Motor",
+            "Cholinergic": "Fasciculations, Flacid Paralysis",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl / Agitated",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Skin",
+            "Cholinergic": "Sweating (sig)",
+            "Anticholinergic": "Hot, dry",
+            "Sympathomimetic": "Sweating",
+            "Sympatholytic^": "Dry",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Lungs",
+            "Cholinergic": "Bronchospasm / rhinorrhea",
+            "Anticholinergic": "Nl",
+            "Sympathomimetic": "Nl",
+            "Sympatholytic^": "Nl",
+            "Sedative/Hypnotic": ""
+          },
+          {
+            "Finding": "Bowel Sounds",
+            "Cholinergic": "Hyperactive (SLUDGE)",
+            "Anticholinergic": "↓ / Absent",
+            "Sympathomimetic": "Nl / ↓",
+            "Sympatholytic^": "Nl / ↓",
+            "Sedative/Hypnotic": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Mainly a clinical diagnosis\nAssess airway first to determine need for\nintubation\nPOC glucose\nEKG - look for widened QRS,\nprolonged QTc\nBasic labs\nUrine tox screen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "prolonged QTc",
+          "url": "https://wikem.org/wiki/Prolonged_QTc"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Airway management\nIntubation\nif necessary\nOxygen for hypoxia\nNaloxone\nhas been successfully used to treat at least one case in the literature but data is limited\n[3]\nBenzodiazepines\nfor agitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Naloxone",
+          "url": "https://wikem.org/wiki/Naloxone"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on severity of toxicity\nAdmit to floor vs ICU",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

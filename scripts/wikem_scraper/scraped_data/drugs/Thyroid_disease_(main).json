@@ -1,0 +1,87 @@
+{
+  "drug_name": "Thyroid_disease_(main)",
+  "url": "https://wikem.org/wiki/Thyroid_disease_(main)",
+  "scraped_at": "2026-01-10T08:03:34.523587",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Spectrum_of_Thyroid_Disease": {
+          "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "Spectrum_of_Thyroid_Disease": {
+      "text": "Myxedema coma\n<<\nhypothyroidism\n<\neuthyroid\n>\nhyperthyroidism\n>>\nthyroid storm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Thyroid Storm\nHyperthyroidism\nMyxedema Coma\nHypothyroidism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Myxedema Coma",
+          "url": "https://wikem.org/wiki/Myxedema_Coma"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        }
+      ]
+    },
+    "References": {
+      "text": "Sharma AN, Levy DL; Thyroid and Adrenal Disorders; in Marx JA, Hockberger RS, Walls RM, et al (eds): Rosen’s Emergency Medicine: Concepts and Clinical Practice, ed 8. St. Louis, Mosby, Inc., 2014, (Ch) 128: p 1676-1693.\nAgus, MSD: Chapter 86 – Endocrine Emergencies, in Fleisher & Ludwig’s Textbook of Pediatric EM, 6th Ed., Lippincott Williams & Williams, 2010, p. 779-780",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

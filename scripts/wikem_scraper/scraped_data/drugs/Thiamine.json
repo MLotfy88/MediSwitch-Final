@@ -1,0 +1,160 @@
+{
+  "drug_name": "Thiamine",
+  "url": "https://wikem.org/wiki/Thiamine",
+  "scraped_at": "2026-01-10T08:03:25.884845",
+  "sections": {
+    "Administration": {
+      "text": "Dosage Forms: 50,100,250,500mg\nRoutes of Administration: IM, IV\nIm or IV routres require: Intradermal skin test before use if hypersensitivity risk\nCommon Trade Names: Vitamin B1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Beriberi\n10-20mg IM tid x 2wk\nThen 5-30mg PO QD x1mo\nWet beriberi with CHF\n10-30mg IV tid\nWernicke's encephalopathy\nHigh-dose parenteral regimen: 500mg IV TID x 2 days\nThen 250mg IM/IV QD x 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke's encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: A (according to dietary reference intake)\nLactation risk\n: Safe",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anaphylaxis\nangioedema\ncyanosis",
+          "tables": []
+        },
+        "Common": {
+          "text": "injection site pain\npruritus\nwarmth sensation\nurticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "anaphylaxis\nangioedema\ncyanosis",
+      "subsections": {
+        "Common": {
+          "text": "injection site pain\npruritus\nwarmth sensation\nurticaria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "injection site pain\npruritus\nwarmth sensation\nurticaria",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Liver, CYP450, Unknown\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Physiologic cofactor",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "",
+      "subsections": {
+        "Thiamine_deficiency_types": {
+          "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        }
+      ]
+    },
+    "Thiamine_deficiency_types": {
+      "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        }
+      ]
+    },
+    "References": {
+      "text": "Epocrates: Vitamin B1",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

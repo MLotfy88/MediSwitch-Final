@@ -1,0 +1,253 @@
+{
+  "drug_name": "Thrombolytics_for_STEMI",
+  "url": "https://wikem.org/wiki/Thrombolytics_for_STEMI",
+  "scraped_at": "2026-01-10T08:03:33.069785",
+  "sections": {
+    "Overview": {
+      "text": "Fibrinolytic treatment within 3hr resulted in >30 lives saved per 1000 patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Absolute": {
+          "text": "Any prior\nICH\nKnown structural cerebral vascular lesion (\nAVM\n)\nKnown\nintracranial neoplasm\nIschemic stroke\nwithin 3 mo\nActive internal\nbleeding\n(excluding menses)\nSuspected\naortic dissection\nor\npericarditis",
+          "tables": []
+        },
+        "Relative": {
+          "text": "Severe uncontrolled\nBP\n(>180/110)\nHistory of chronic severe poorly controlled\nhypertension\nHistory of prior\nischemic stroke\n>3 mo\nKnown intracranial pathology not covered in absolute contraindications\nCurrent use of\nanticoagulants\nwith known INR >2–3\nKnown\nbleeding diathesis\nRecent\ntrauma\n(past 2 wk)\nProlonged\nCPR\n(>10 min)\nMajor surgery (<3 wk)\nNoncompressible vascular punctures (e.g. IJ, subclavian)\nRecent internal bleeding (within 2–4 wk)\nPatients treated previously with streptokinase should not receive streptokinase a 2nd time\nPregnancy\nActive\npeptic ulcer disease\nOther medical conditions likely to increase risk of bleeding (diabetic retinopathy, etc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "intracranial neoplasm",
+          "url": "https://wikem.org/wiki/Intracranial_neoplasm"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "BP",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        }
+      ]
+    },
+    "Absolute": {
+      "text": "Any prior\nICH\nKnown structural cerebral vascular lesion (\nAVM\n)\nKnown\nintracranial neoplasm\nIschemic stroke\nwithin 3 mo\nActive internal\nbleeding\n(excluding menses)\nSuspected\naortic dissection\nor\npericarditis",
+      "subsections": {
+        "Relative": {
+          "text": "Severe uncontrolled\nBP\n(>180/110)\nHistory of chronic severe poorly controlled\nhypertension\nHistory of prior\nischemic stroke\n>3 mo\nKnown intracranial pathology not covered in absolute contraindications\nCurrent use of\nanticoagulants\nwith known INR >2–3\nKnown\nbleeding diathesis\nRecent\ntrauma\n(past 2 wk)\nProlonged\nCPR\n(>10 min)\nMajor surgery (<3 wk)\nNoncompressible vascular punctures (e.g. IJ, subclavian)\nRecent internal bleeding (within 2–4 wk)\nPatients treated previously with streptokinase should not receive streptokinase a 2nd time\nPregnancy\nActive\npeptic ulcer disease\nOther medical conditions likely to increase risk of bleeding (diabetic retinopathy, etc)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "intracranial neoplasm",
+          "url": "https://wikem.org/wiki/Intracranial_neoplasm"
+        },
+        {
+          "text": "Ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "bleeding",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "BP",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        }
+      ]
+    },
+    "Relative": {
+      "text": "Severe uncontrolled\nBP\n(>180/110)\nHistory of chronic severe poorly controlled\nhypertension\nHistory of prior\nischemic stroke\n>3 mo\nKnown intracranial pathology not covered in absolute contraindications\nCurrent use of\nanticoagulants\nwith known INR >2–3\nKnown\nbleeding diathesis\nRecent\ntrauma\n(past 2 wk)\nProlonged\nCPR\n(>10 min)\nMajor surgery (<3 wk)\nNoncompressible vascular punctures (e.g. IJ, subclavian)\nRecent internal bleeding (within 2–4 wk)\nPatients treated previously with streptokinase should not receive streptokinase a 2nd time\nPregnancy\nActive\npeptic ulcer disease\nOther medical conditions likely to increase risk of bleeding (diabetic retinopathy, etc)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "BP",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ischemic stroke",
+          "url": "https://wikem.org/wiki/Ischemic_stroke"
+        },
+        {
+          "text": "anticoagulants",
+          "url": "https://wikem.org/wiki/Anticoagulants"
+        },
+        {
+          "text": "bleeding diathesis",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "CPR",
+          "url": "https://wikem.org/wiki/CPR"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "If receive fibrinolytics also give anticoagulants for minimum of 48hr, and preferable the length of the hospitalization",
+      "subsections": {
+        "Alteplase_(TPA)": {
+          "text": "Dosing based on patient weight:\n67kg:\nInfuse 1\n5mg IV over 1-2min\n; then\n50mg over 30min\n; then 35mg over next 60min (i.e. 100mg over 1.5hr)\n≤67kg:\nInfuse\n15mg IV over 1-2min;\nthen\n0.75 mg/kg\n(max 50mg) over 30 min; then 0.5 mg/kg over 60min (max 35 mg)",
+          "tables": []
+        },
+        "Tenecteplase_(TNKase)": {
+          "text": "Reconstitute 50 mg vial in 10 mL sterile water (5 mg/mL)\n< 60 kg = 30 mg IV push over 5 seconds\n60-69 kg = 35 mg IV push over 5 seconds\n70-79 kg = 40 mg IV push over 5 seconds\n80-89 kg = 45 mg IV push over 5 seconds\n>\n90 kg = 50 mg IV push over 5 seconds",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "0.5-1% of patients suffer\nICH",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "STEMI\nThrombolytics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,630 @@
+{
+  "drug_name": "Thrombocytosis",
+  "url": "https://wikem.org/wiki/Thrombocytosis",
+  "scraped_at": "2026-01-10T08:03:29.360181",
+  "sections": {
+    "Background": {
+      "text": "Defined as a platelet count >450,000/microL.",
+      "subsections": {
+        "Reactive_thrombocytosis_(RT)": {
+          "text": "Most common cause of thrombocytosis, accounting for 85% of cases.\nA reaction to another process, such as inflammation, infection, cancer, or iron deficiency.\nRarely causes complications even with extremely elevated platelet counts (>1,000,000/microL).",
+          "tables": []
+        },
+        "Autonomous_thrombocytosis_(AT)": {
+          "text": "Accounts for 15% of cases\nA primary problem that results from\nmyeloproliferative disorders\nor\nmyelodysplastic syndromes\n, such as essential\nthrombocytopenia\nor\npolycythemia vera\n.\nComplications, such as bleeding and/or thrombosis, are more likely with AT than with RT so it is clinically important to differentiate reactive thrombocytosis versus autonomous thrombocytosis.\nThere are no diagnostic studies to differentiate RT versus AT.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "myelodysplastic syndromes",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Generally asymptomatic and found on routine lab testing; complications are typically from AT disorders\nThrombosis (leading cause of morbidity and mortality)\nArteries (more common)\nStroke\n,\nTIA\n,\nMI\n,\nunstable angina\nVenous system\nDVT\n,\nPE\n,\nBudd-Chiari syndrome\nSerious bleeding (less common)\nGenerally in the nasal and bucchal mucosa and the GI tract\nVasomotor symptoms (due to microvascular disturbances)\nHeadache\n, lightheadedness,\nsyncope\n, acral\nparesthesia\n, atypical\nchest pain\n, livedo reticularis, erythromelalgia, and transient\nvisual disturbances",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "TIA",
+          "url": "https://wikem.org/wiki/TIA"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Budd-Chiari syndrome",
+          "url": "https://wikem.org/wiki/Budd-Chiari_syndrome"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "paresthesia",
+          "url": "https://wikem.org/wiki/Paresthesia"
+        },
+        {
+          "text": "chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Reactive_thrombocytosis": {
+          "text": "Acute\nblood loss\nAcute\nhemolytic anemia\nIron deficiency\nanemia\nTreatment of\nvitamin B12 deficiency\nRebound effect after\nthrombocytopenia\ntreatment\nMetastatic cancer\nLymphoma\nRheumatologic disorders\nIBD\nCeliac disease\nKawasaki disease\nNephrotic syndrome\nPOEMS syndrome\nThermal\nburn\nMI\nSevere\ntrauma\nAcute pancreatitis\nPost-surgery, especially\nsplenectomy\nCABG\nTB\nAcute\nbacterial\n/\nviral\ninfections\nAsplenia\nAllergic reaction\nMedication reactions: vincristine,\nepinephrine\n,\nglucocorticoids\n, IL-1B, ATRA, thrombopoietin,\nLMWH\n[4]",
+          "tables": []
+        },
+        "Autonomous_thrombocytosis": {
+          "text": "Essential thrombocytosis\nPolycythemia vera\nMixed\nmyelodysplastic\nand/or\nmyeloproliferative syndrome",
+          "tables": []
+        },
+        "Spurious_(false)_thrombocytosis": {
+          "text": "Mixed cryoglobulinemia\nCytoplasmic fragments\nBacteremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood loss",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Acute pancreatitis",
+          "url": "https://wikem.org/wiki/Acute_pancreatitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "bacterial",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Asplenia",
+          "url": "https://wikem.org/wiki/Asplenic_patient"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "myelodysplastic",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative syndrome",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Reactive_thrombocytosis": {
+      "text": "Acute\nblood loss\nAcute\nhemolytic anemia\nIron deficiency\nanemia\nTreatment of\nvitamin B12 deficiency\nRebound effect after\nthrombocytopenia\ntreatment\nMetastatic cancer\nLymphoma\nRheumatologic disorders\nIBD\nCeliac disease\nKawasaki disease\nNephrotic syndrome\nPOEMS syndrome\nThermal\nburn\nMI\nSevere\ntrauma\nAcute pancreatitis\nPost-surgery, especially\nsplenectomy\nCABG\nTB\nAcute\nbacterial\n/\nviral\ninfections\nAsplenia\nAllergic reaction\nMedication reactions: vincristine,\nepinephrine\n,\nglucocorticoids\n, IL-1B, ATRA, thrombopoietin,\nLMWH\n[4]",
+      "subsections": {
+        "Autonomous_thrombocytosis": {
+          "text": "Essential thrombocytosis\nPolycythemia vera\nMixed\nmyelodysplastic\nand/or\nmyeloproliferative syndrome",
+          "tables": []
+        },
+        "Spurious_(false)_thrombocytosis": {
+          "text": "Mixed cryoglobulinemia\nCytoplasmic fragments\nBacteremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "blood loss",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lymphoma",
+          "url": "https://wikem.org/wiki/Lymphoma"
+        },
+        {
+          "text": "IBD",
+          "url": "https://wikem.org/wiki/IBD"
+        },
+        {
+          "text": "Kawasaki disease",
+          "url": "https://wikem.org/wiki/Kawasaki_disease"
+        },
+        {
+          "text": "Nephrotic syndrome",
+          "url": "https://wikem.org/wiki/Nephrotic_syndrome"
+        },
+        {
+          "text": "burn",
+          "url": "https://wikem.org/wiki/Burn"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Acute pancreatitis",
+          "url": "https://wikem.org/wiki/Acute_pancreatitis"
+        },
+        {
+          "text": "splenectomy",
+          "url": "https://wikem.org/wiki/Splenectomy"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "bacterial",
+          "url": "https://wikem.org/wiki/Bacterial_disease"
+        },
+        {
+          "text": "viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "Asplenia",
+          "url": "https://wikem.org/wiki/Asplenic_patient"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "Essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "myelodysplastic",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative syndrome",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Autonomous_thrombocytosis": {
+      "text": "Essential thrombocytosis\nPolycythemia vera\nMixed\nmyelodysplastic\nand/or\nmyeloproliferative syndrome",
+      "subsections": {
+        "Spurious_(false)_thrombocytosis": {
+          "text": "Mixed cryoglobulinemia\nCytoplasmic fragments\nBacteremia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Essential thrombocytosis",
+          "url": "https://wikem.org/wiki/Essential_thrombocytosis"
+        },
+        {
+          "text": "Polycythemia vera",
+          "url": "https://wikem.org/wiki/Polycythemia_vera"
+        },
+        {
+          "text": "myelodysplastic",
+          "url": "https://wikem.org/wiki/Myelodysplastic_syndrome"
+        },
+        {
+          "text": "myeloproliferative syndrome",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "Bacteremia",
+          "url": "https://wikem.org/wiki/Bacteremia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Labs\nCBC, ESR, CRP, iron studies, LDH\nCXR\nFecal occult blood test",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "platelet count >450,000/microL.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Labs\nCBC, ESR, CRP, iron studies, LDH\nCXR\nFecal occult blood test",
+      "subsections": {
+        "Diagnosis": {
+          "text": "platelet count >450,000/microL.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "platelet count >450,000/microL.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Reactive_thrombocytosis_2": {
+          "text": "Treat underlying disease.",
+          "tables": []
+        },
+        "Asymptomatic": {
+          "text": "81mg\nASA\nPO daily.\nIf high risk  for thrombotic event (>60 yrs, history of thrombosis, or known JAK2 mutation), consider 15mg/kg\nhydroxyurea\nPO daily.  Consult if available.\nSecond line agents include\ninterferon-α\n, anagrelide, and pipobroman.",
+          "tables": []
+        },
+        "Thrombosis_due_to_AT": {
+          "text": "Anticoagulation with\nLMWH\n.\n81mg\nASA\nPO daily.\nConsult heme/onc\nConsider 3-5 million U\ninterferon-α\nSQ daily if <40 years old.  15mg/kg\nhydroxyurea\nPO daily if >40 years old.  Goal platelet count <400,000/microL.\nPlatelet apheresis if platelet count >800,000/microL.",
+          "tables": []
+        },
+        "Bleeding_due_to_AT": {
+          "text": "Discontinue antiplatelet medications.\nConsult.\nConsider 3-5 million U\ninterferon-α\nSQ daily if <40 years old.  15mg/kg\nhydroxyurea\nPO daily if >40 years old.  Goal platelet count <400,000/microL.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        }
+      ]
+    },
+    "Reactive_thrombocytosis_2": {
+      "text": "Treat underlying disease.",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "81mg\nASA\nPO daily.\nIf high risk  for thrombotic event (>60 yrs, history of thrombosis, or known JAK2 mutation), consider 15mg/kg\nhydroxyurea\nPO daily.  Consult if available.\nSecond line agents include\ninterferon-α\n, anagrelide, and pipobroman.",
+          "tables": []
+        },
+        "Thrombosis_due_to_AT": {
+          "text": "Anticoagulation with\nLMWH\n.\n81mg\nASA\nPO daily.\nConsult heme/onc\nConsider 3-5 million U\ninterferon-α\nSQ daily if <40 years old.  15mg/kg\nhydroxyurea\nPO daily if >40 years old.  Goal platelet count <400,000/microL.\nPlatelet apheresis if platelet count >800,000/microL.",
+          "tables": []
+        },
+        "Bleeding_due_to_AT": {
+          "text": "Discontinue antiplatelet medications.\nConsult.\nConsider 3-5 million U\ninterferon-α\nSQ daily if <40 years old.  15mg/kg\nhydroxyurea\nPO daily if >40 years old.  Goal platelet count <400,000/microL.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        }
+      ]
+    },
+    "Autonomous_thrombocytosis_2": {
+      "text": "",
+      "subsections": {
+        "Asymptomatic": {
+          "text": "81mg\nASA\nPO daily.\nIf high risk  for thrombotic event (>60 yrs, history of thrombosis, or known JAK2 mutation), consider 15mg/kg\nhydroxyurea\nPO daily.  Consult if available.\nSecond line agents include\ninterferon-α\n, anagrelide, and pipobroman.",
+          "tables": []
+        },
+        "Thrombosis_due_to_AT": {
+          "text": "Anticoagulation with\nLMWH\n.\n81mg\nASA\nPO daily.\nConsult heme/onc\nConsider 3-5 million U\ninterferon-α\nSQ daily if <40 years old.  15mg/kg\nhydroxyurea\nPO daily if >40 years old.  Goal platelet count <400,000/microL.\nPlatelet apheresis if platelet count >800,000/microL.",
+          "tables": []
+        },
+        "Bleeding_due_to_AT": {
+          "text": "Discontinue antiplatelet medications.\nConsult.\nConsider 3-5 million U\ninterferon-α\nSQ daily if <40 years old.  15mg/kg\nhydroxyurea\nPO daily if >40 years old.  Goal platelet count <400,000/microL.\n[5]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "LMWH",
+          "url": "https://wikem.org/wiki/LMWH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "interferon-α",
+          "url": "https://wikem.org/wiki/Interferon-%CE%B1"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Reactive_thrombocytosis_3": {
+          "text": "Disposition is based on underlying disorder.",
+          "tables": []
+        },
+        "Autonomous_thrombocytosis_3": {
+          "text": "If asymptomatic, consider outpatient treatment with close follow up.\nIf thrombosis or bleeding complications, should be admitted for stabilization and further work up.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reactive_thrombocytosis_3": {
+      "text": "Disposition is based on underlying disorder.",
+      "subsections": {
+        "Autonomous_thrombocytosis_3": {
+          "text": "If asymptomatic, consider outpatient treatment with close follow up.\nIf thrombosis or bleeding complications, should be admitted for stabilization and further work up.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Autonomous_thrombocytosis_3": {
+      "text": "If asymptomatic, consider outpatient treatment with close follow up.\nIf thrombosis or bleeding complications, should be admitted for stabilization and further work up.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "EMDocs, \"Thrombocytosis in the ED.\"",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

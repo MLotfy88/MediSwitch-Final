@@ -1,0 +1,375 @@
+{
+  "drug_name": "Thalassemia",
+  "url": "https://wikem.org/wiki/Thalassemia",
+  "scraped_at": "2026-01-10T08:03:25.403395",
+  "sections": {
+    "Background": {
+      "text": "A group of hereditary disorders resulting in microcytic, hypochromic, hemolytic\nanemia\nMost common in Mediterranean, Middle Eastern, African and Southeast Asian population",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Categorized depending on globin chain affected or the abnormal Hb produced\nβ-globin gene mutations cause β-thalassemia; ɑ-globin mutations cause ɑ-thalassema",
+      "subsections": {
+        "ɑ-Thalassemia_Carrier_and_Trait": {
+          "text": "No clinical symptoms or physical findings\nMicrocytic RBCs and normal Hb level",
+          "tables": []
+        },
+        "Hemoglobin_H_Disease_(HbH_disease)": {
+          "text": "One ɑ-globin chain gene is still functional\nTypically presents in neonatal period with severe hypochromic\nanemia\nHypochromic, microcytic anemia with\njaundice\nand\nhepatosplenomegaly\nMay not require regular\ntransfusions\nTransfusions\nmay be necessary in setting of increased oxidative stress or infection which may precipitate\nhemolysis\nNote that alpha thalassemia major (Hb Bart) results in\nhydrops fetalis\n, and thus is not an adult disease process",
+          "tables": []
+        },
+        "β-Thalassemia_Minor_(β-Thalassemia_Trait)": {
+          "text": "Heterozygous for β-globin mutation\nMild microcytic\nanemia\nSplenomegaly uncommon\nMicrocytosis, hypochromia, basophilic stippling on blood smear\nCo clinical symptoms",
+          "tables": []
+        },
+        "β-Thalassemia_Major_(Cooley_Anemia)": {
+          "text": "Both β-globin genes defective; β-globin chain production severely impaired\nTypically presents >6mos of life (HbF production replaced with β-globin to form HbA)\nHepatosplenomegaly\n,\njaundice\n, expansion of erythroid marrow causing bone changes and osteoporosis, susceptible to\ninfection\nSevere\nanemia\nrequiring regular and lifelong blood\ntransfusions\nIron overload\nsecondary to frequent transfusions is etiology of most of morbidity and mortality\nLow MCV with microcytic and hypochromic RBC",
+          "tables": []
+        },
+        "Sickle_Cell-β-Thalassemia_Disease": {
+          "text": "Gene for sickle Hb is inherited from one parent and gene for β-thalassemia is inherited from the other parent\n1 per 1600 African American births\nSeverity depends on type of β-thalassemia gene inherited\n80-90% inherit β-thalassemia gene that has some normal β-chain production; these patients have mild hemolytic anemia with near-normal Hb levels, few crises\n10-20% inherit β-thalassemia gene that produces no-chains; these patients have severe\nhemolytic anemia\nand\nvaso-occlusive symptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "hydrops fetalis",
+          "url": "https://wikem.org/wiki/Hydrops_fetalis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Iron overload",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "vaso-occlusive symptoms",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        }
+      ]
+    },
+    "ɑ-Thalassemia_Carrier_and_Trait": {
+      "text": "No clinical symptoms or physical findings\nMicrocytic RBCs and normal Hb level",
+      "subsections": {
+        "Hemoglobin_H_Disease_(HbH_disease)": {
+          "text": "One ɑ-globin chain gene is still functional\nTypically presents in neonatal period with severe hypochromic\nanemia\nHypochromic, microcytic anemia with\njaundice\nand\nhepatosplenomegaly\nMay not require regular\ntransfusions\nTransfusions\nmay be necessary in setting of increased oxidative stress or infection which may precipitate\nhemolysis\nNote that alpha thalassemia major (Hb Bart) results in\nhydrops fetalis\n, and thus is not an adult disease process",
+          "tables": []
+        },
+        "β-Thalassemia_Minor_(β-Thalassemia_Trait)": {
+          "text": "Heterozygous for β-globin mutation\nMild microcytic\nanemia\nSplenomegaly uncommon\nMicrocytosis, hypochromia, basophilic stippling on blood smear\nCo clinical symptoms",
+          "tables": []
+        },
+        "β-Thalassemia_Major_(Cooley_Anemia)": {
+          "text": "Both β-globin genes defective; β-globin chain production severely impaired\nTypically presents >6mos of life (HbF production replaced with β-globin to form HbA)\nHepatosplenomegaly\n,\njaundice\n, expansion of erythroid marrow causing bone changes and osteoporosis, susceptible to\ninfection\nSevere\nanemia\nrequiring regular and lifelong blood\ntransfusions\nIron overload\nsecondary to frequent transfusions is etiology of most of morbidity and mortality\nLow MCV with microcytic and hypochromic RBC",
+          "tables": []
+        },
+        "Sickle_Cell-β-Thalassemia_Disease": {
+          "text": "Gene for sickle Hb is inherited from one parent and gene for β-thalassemia is inherited from the other parent\n1 per 1600 African American births\nSeverity depends on type of β-thalassemia gene inherited\n80-90% inherit β-thalassemia gene that has some normal β-chain production; these patients have mild hemolytic anemia with near-normal Hb levels, few crises\n10-20% inherit β-thalassemia gene that produces no-chains; these patients have severe\nhemolytic anemia\nand\nvaso-occlusive symptoms",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "hemolysis",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "hydrops fetalis",
+          "url": "https://wikem.org/wiki/Hydrops_fetalis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hepatosplenomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Iron overload",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        },
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "vaso-occlusive symptoms",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        }
+      ]
+    },
+    "Sickle_Cell-β-Thalassemia_Disease": {
+      "text": "Gene for sickle Hb is inherited from one parent and gene for β-thalassemia is inherited from the other parent\n1 per 1600 African American births\nSeverity depends on type of β-thalassemia gene inherited\n80-90% inherit β-thalassemia gene that has some normal β-chain production; these patients have mild hemolytic anemia with near-normal Hb levels, few crises\n10-20% inherit β-thalassemia gene that produces no-chains; these patients have severe\nhemolytic anemia\nand\nvaso-occlusive symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hemolytic anemia",
+          "url": "https://wikem.org/wiki/Hemolytic_anemia"
+        },
+        {
+          "text": "vaso-occlusive symptoms",
+          "url": "https://wikem.org/wiki/Vaso-occlusive_crisis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nSickle cell disease\nGlucose-6-phosphate deficiency\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12/folate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Glucose-6-phosphate deficiency",
+          "url": "https://wikem.org/wiki/Glucose-6-phosphate_deficiency"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Anemia": {
+      "text": "",
+      "subsections": {
+        "RBC_Loss": {
+          "text": "Hemorrhage",
+          "tables": []
+        },
+        "RBC_consumption_(Destruction/hemolytic)": {
+          "text": "Hereditary\nSickle cell disease\nGlucose-6-phosphate deficiency\nAcquired\nMicroangiopathic Hemolytic Anemia (MAHA)\nAutoimmune hemolytic anemia",
+          "tables": []
+        },
+        "Impaired_Production_(Hypochromic/microcytic)": {
+          "text": "Iron deficiency\nAnemia of chronic disease\nThalassemia\nSideroblastic anemia",
+          "tables": []
+        },
+        "Aplastic/myelodysplastic_(normocytic)": {
+          "text": "Marrow failure\nChemicals (e.g.\nETOH\n)\nRadiation\nInfection (\nHIV\n,\nparvo\n)",
+          "tables": []
+        },
+        "Megaloblastic_(macrocytic)": {
+          "text": "Vitamin B12/folate deficiency\nDrugs (chemo)\nHIV",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Glucose-6-phosphate deficiency",
+          "url": "https://wikem.org/wiki/Glucose-6-phosphate_deficiency"
+        },
+        {
+          "text": "Microangiopathic Hemolytic Anemia (MAHA)",
+          "url": "https://wikem.org/wiki/Microangiopathic_Hemolytic_Anemia_(MAHA)"
+        },
+        {
+          "text": "Autoimmune hemolytic anemia",
+          "url": "https://wikem.org/wiki/Autoimmune_hemolytic_anemia"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nCMP\nBlood smear\nReticulocyte count\nLDH\nHaptoglobin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Identify and discontinue precipitating agent\nSupportive care\nBlood transfusions\nfor severe anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood transfusions",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "References": {
+      "text": "Tintinalli's Emergency Medicine 7th Edition, pg1486-7",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

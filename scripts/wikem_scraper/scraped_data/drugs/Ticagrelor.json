@@ -1,0 +1,150 @@
+{
+  "drug_name": "Ticagrelor",
+  "url": "https://wikem.org/wiki/Ticagrelor",
+  "scraped_at": "2026-01-10T08:03:37.800043",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntiplatelet\nDosage Forms: Pill\nCommon Trade Names: Brilenta",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "ACS: 180mg (two 90mg tablets) loading dose\nPO vs OG vs NG (depending on mental status)\nACS patients who have received a loading dose of\nClopidogrel\nmay be started on Ticagrelor\nMaintenance: 90mg twice daily",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Undetermined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: Category C\nLactation: Undetermined\nRenal Dosing\nAdult\nNo adjustment necessary\nPediatric\nHepatic Dosing\nAdult\nMild impairment - no adjustment necessary\nModerate impairment - not defined but use caution as undergoes hepatic metabolism\nSevere impairment - avoid use\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nHistory of:\nIntracranial hemorrhage\nActive pathological bleeding, such as peptic ulcer or intracranial hemorrhage\nSevere hepatic impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Major coronary artery bypass graft (CABG)–related bleeding (86%)\n[1]\nDigoxin: Because of inhibition of the P-gp transporter, digoxin concentrations may be elevated, increasing the risk of toxicity.\nMonitor digoxin concentrations with initiation of, or any change in, ticagrelor therapy",
+          "tables": []
+        },
+        "Common": {
+          "text": "Cardiovascular\nVentricular pause (6%)\nAtrial fibrillation\nHypertension (4%)\nChest pain\nHypotension\n(3%)\nCNS\nHeadache (7%)\nDizziness (5%)\nFatigue (3%)\nSyncope/pre-syncope/loss of consciousness (2%)\nGI\nDiarrhea\n, nausea (4%).\nHematologic\nNon–CABG-related bleeding (9%)\nPulmonary\nDyspnea (14%)\nCough (5%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Major coronary artery bypass graft (CABG)–related bleeding (86%)\n[1]\nDigoxin: Because of inhibition of the P-gp transporter, digoxin concentrations may be elevated, increasing the risk of toxicity.\nMonitor digoxin concentrations with initiation of, or any change in, ticagrelor therapy",
+      "subsections": {
+        "Common": {
+          "text": "Cardiovascular\nVentricular pause (6%)\nAtrial fibrillation\nHypertension (4%)\nChest pain\nHypotension\n(3%)\nCNS\nHeadache (7%)\nDizziness (5%)\nFatigue (3%)\nSyncope/pre-syncope/loss of consciousness (2%)\nGI\nDiarrhea\n, nausea (4%).\nHematologic\nNon–CABG-related bleeding (9%)\nPulmonary\nDyspnea (14%)\nCough (5%)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Cardiovascular\nVentricular pause (6%)\nAtrial fibrillation\nHypertension (4%)\nChest pain\nHypotension\n(3%)\nCNS\nHeadache (7%)\nDizziness (5%)\nFatigue (3%)\nSyncope/pre-syncope/loss of consciousness (2%)\nGI\nDiarrhea\n, nausea (4%).\nHematologic\nNon–CABG-related bleeding (9%)\nPulmonary\nDyspnea (14%)\nCough (5%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7 hours (ticagrelor) and 9 hours (active metabolite)\nMetabolism: liver (CYP3A4)\nExcretion: 26% excreted in urine (less than 1% as ticagrelor and the active metabolite); 58% excreted in feces\nMechanism of Action: Reversibly binds to the P2Y 12 class of adenosine diphosphate (ADP) receptors on platelets to prevent signal transduction and platelet activation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antiplatelet medications\nAntiplatelet agent reversal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiplatelet medications",
+          "url": "https://wikem.org/wiki/Antiplatelet_medications"
+        },
+        {
+          "text": "Antiplatelet agent reversal",
+          "url": "https://wikem.org/wiki/Antiplatelet_agent_reversal"
+        }
+      ]
+    },
+    "References": {
+      "text": "Ticagrelor: Drug information. UpToDate. www.uptodate.com. Accessed April 2, 2019.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

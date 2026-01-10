@@ -1,0 +1,127 @@
+{
+  "drug_name": "Tetanus_prophylaxis",
+  "url": "https://wikem.org/wiki/Tetanus_prophylaxis",
+  "scraped_at": "2026-01-10T08:03:23.494084",
+  "sections": {
+    "Background": {
+      "text": "Tetanus immunoglobulin (TIG) and the tetanus vaccine (Td) are both crucial in preventing symptomatic tetanus infection\nIncubation period for a tetanus infection: 1 day - 2 months\n70% of wounds are prone to tetanus. These include contaminated wounds or puncture wounds but 30% are clean wounds.  There are also case reports of surgically created wounds with autoclaved instruments resulting in tetanus\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prophylaxis": {
+      "text": "Past vac unknown or <3 total\nClean wound → Td\nDirty wound → Td & TIG\nPast vac 3 or more total\nClean wound → Td Q10yrs\nDirty wound → Td Q5yrs",
+      "subsections": {
+        "Tetanus_Vaccine_Selection_Guide": {
+          "text": "Caveats\nAdolescents who have already gotten a booster dose of Td are encouraged to get a dose of Tdap as well. Waiting 5 years after their last Td is encouraged but not required. A period of at least 2 years between Td and Tdap is recommended in these cases.\nPregnancy is not a contraindication to Tdap. The only true contraindication to tetanus immunization is a history of neurologic or severe hypersensitivity to a previous dose.\nStable neurologic disorders and family history of vaccine reactions are not contraindications to receiving these vaccines.\nNo vaccine has ever been shown to play any role in the development of autism or autism spectrum disorders.",
+          "tables": [
+            [
+              {
+                "Age": "2mo - 7yrs",
+                "If No Pertussis Contraindications": "DTaP",
+                "If Pertussis Contraindicated": "DT",
+                "Comments": "DT available from pharmacy"
+              },
+              {
+                "Age": "7yrs - 10yrs",
+                "If No Pertussis Contraindications": "Td",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": ""
+              },
+              {
+                "Age": "10yrs",
+                "If No Pertussis Contraindications": "Tdap(Adacel)^",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "^Off label use, but appears safe and immunogenic"
+              },
+              {
+                "Age": "11yrs - 16yrs",
+                "If No Pertussis Contraindications": "Tdap(Adacel)",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": ""
+              },
+              {
+                "Age": "16yrs - 65",
+                "If No Pertussis Contraindications": "Tdap(Adacel)^^",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "^^Use Td if patient is known to have received prior Tdap"
+              },
+              {
+                "Age": "65yrs +",
+                "If No Pertussis Contraindications": "Td",
+                "If Pertussis Contraindicated": "Td",
+                "Comments": "Consider TIG for tetanus prone wound plus Td(tetanus immune globulin)"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tetanus_Vaccine_Selection_Guide": {
+      "text": "Caveats\nAdolescents who have already gotten a booster dose of Td are encouraged to get a dose of Tdap as well. Waiting 5 years after their last Td is encouraged but not required. A period of at least 2 years between Td and Tdap is recommended in these cases.\nPregnancy is not a contraindication to Tdap. The only true contraindication to tetanus immunization is a history of neurologic or severe hypersensitivity to a previous dose.\nStable neurologic disorders and family history of vaccine reactions are not contraindications to receiving these vaccines.\nNo vaccine has ever been shown to play any role in the development of autism or autism spectrum disorders.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "2mo - 7yrs",
+            "If No Pertussis Contraindications": "DTaP",
+            "If Pertussis Contraindicated": "DT",
+            "Comments": "DT available from pharmacy"
+          },
+          {
+            "Age": "7yrs - 10yrs",
+            "If No Pertussis Contraindications": "Td",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": ""
+          },
+          {
+            "Age": "10yrs",
+            "If No Pertussis Contraindications": "Tdap(Adacel)^",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "^Off label use, but appears safe and immunogenic"
+          },
+          {
+            "Age": "11yrs - 16yrs",
+            "If No Pertussis Contraindications": "Tdap(Adacel)",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": ""
+          },
+          {
+            "Age": "16yrs - 65",
+            "If No Pertussis Contraindications": "Tdap(Adacel)^^",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "^^Use Td if patient is known to have received prior Tdap"
+          },
+          {
+            "Age": "65yrs +",
+            "If No Pertussis Contraindications": "Td",
+            "If Pertussis Contraindicated": "Td",
+            "Comments": "Consider TIG for tetanus prone wound plus Td(tetanus immune globulin)"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tdap (Pertussis Vaccine)\nfor new recommendations from CDC\nTetanus (Acute)\nVaccination schedule",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tdap (Pertussis Vaccine)",
+          "url": "https://wikem.org/wiki/Tdap_(Pertussis_Vaccine)"
+        },
+        {
+          "text": "Tetanus (Acute)",
+          "url": "https://wikem.org/wiki/Tetanus_(Acute)"
+        },
+        {
+          "text": "Vaccination schedule",
+          "url": "https://wikem.org/wiki/Vaccination_schedule"
+        }
+      ]
+    }
+  }
+}

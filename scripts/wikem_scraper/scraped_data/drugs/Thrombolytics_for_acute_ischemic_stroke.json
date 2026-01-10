@@ -1,0 +1,491 @@
+{
+  "drug_name": "Thrombolytics_for_acute_ischemic_stroke",
+  "url": "https://wikem.org/wiki/Thrombolytics_for_acute_ischemic_stroke",
+  "scraped_at": "2026-01-10T08:03:34.061883",
+  "sections": {
+    "Background": {
+      "text": "see list of all thrombolytic trials in CVA for more details",
+      "subsections": {
+        "NINDS_Trial_(treated_within_3hrs)": {
+          "text": "Benefits:\n12% absolute risk reduction benefit (NNT = 8-9) at 3 months\nLower percentage of patients who left hospital severely disabled\nComparable 3-month mortality rate (even with increased rate of ICH)\nRisks:\n1% increase in mortality\n5% increase in nonfatal intracranial hemorrhage",
+          "tables": []
+        },
+        "ECASS_Trial_(treated_within_4.5hrs)": {
+          "text": "Confirmed NINDS findings even when therapeutic window extended to 4.5hr\nAs a result AHA/ASA now recommends tPA for patients presenting up to 4.5hr after symptom onset",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "see list of all thrombolytic trials in CVA for more details",
+          "url": "https://wikem.org/wiki/EBQ:Studies_List_of_Thrombolytics_for_Acute_Stroke"
+        }
+      ]
+    },
+    "Studies_Required": {
+      "text": "Physical exam:\nNIH Stroke Scale\nHead CT\nCBC (hemoglobin, plt)\nPT/PTT/INR\nOnly need to wait for result if suspicion of abnormal value, patient has received heparin or warfarin, or use of anticoagulants is unknown\nGlucose\nECG\nUrine pregnancy (pregnancy is relative contraindication)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NIH Stroke Scale",
+          "url": "https://wikem.org/wiki/NIH_Stroke_Scale"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "tPA_<3hr": {
+      "text": "",
+      "subsections": {
+        "Inclusion_Criteria": {
+          "text": "Diagnosis of ischemic stroke causing measurable neuro deficit\nClear onset (last witnessed well) <3hr (see below for extension to <4.5hr)\nAge >18yr",
+          "tables": []
+        },
+        "Exclusion_Criteria": {
+          "text": "Historical\nStroke\nor\nhead trauma\nin previous 3 months\nAny history of\nintracranial hemorrhage\nMajor surgery in the previous 14 days\nGI\nor\nurinary tract\nbleeding in previous 21 days\nMyocardial infarction\nin previous 3 months\nArterial puncture at noncompressible site in previous 7 days\nClinical\nSpontaneously clearing stroke symptoms\nOnly minor and isolated neurologic signs\nSeizure\nat stroke onset\nPersistent\nSBP >185\nor DBP >110 despite treatment\nUse of direct thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n) or direct factor Xa inhibitors (e.g.\nrivaroxaban\n,\napixaban\n) with elevated aPTT, INR, or factor Xa assay\nActive bleeding or acute\ntrauma\n(\nfracture\n) on exam\nLabs\nPlatelets <100K\nSerum glucose <50, >400\nINR >1.7 or PT >15 sec if on warfarin\nElevated PTT if on heparin\nHead CT\nEvidence of\nhemorrhage\nEvidence of multilobar infarction with hypodensity involving >33% of cerebral hemisphere\nIntracranial neoplasm,\nAVM\n, or aneurysm\nUse of dabigatran within 48hrs is relative contraindication",
+          "tables": []
+        },
+        "Relative_Exclusion_Criteria": {
+          "text": "Minor or rapidly improving stroke symptoms\nPregnancy\nSeizure\nat onset with postictal residual neuro impairments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "GI",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "urinary tract",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "SBP >185",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Inclusion_Criteria": {
+      "text": "Diagnosis of ischemic stroke causing measurable neuro deficit\nClear onset (last witnessed well) <3hr (see below for extension to <4.5hr)\nAge >18yr",
+      "subsections": {
+        "Exclusion_Criteria": {
+          "text": "Historical\nStroke\nor\nhead trauma\nin previous 3 months\nAny history of\nintracranial hemorrhage\nMajor surgery in the previous 14 days\nGI\nor\nurinary tract\nbleeding in previous 21 days\nMyocardial infarction\nin previous 3 months\nArterial puncture at noncompressible site in previous 7 days\nClinical\nSpontaneously clearing stroke symptoms\nOnly minor and isolated neurologic signs\nSeizure\nat stroke onset\nPersistent\nSBP >185\nor DBP >110 despite treatment\nUse of direct thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n) or direct factor Xa inhibitors (e.g.\nrivaroxaban\n,\napixaban\n) with elevated aPTT, INR, or factor Xa assay\nActive bleeding or acute\ntrauma\n(\nfracture\n) on exam\nLabs\nPlatelets <100K\nSerum glucose <50, >400\nINR >1.7 or PT >15 sec if on warfarin\nElevated PTT if on heparin\nHead CT\nEvidence of\nhemorrhage\nEvidence of multilobar infarction with hypodensity involving >33% of cerebral hemisphere\nIntracranial neoplasm,\nAVM\n, or aneurysm\nUse of dabigatran within 48hrs is relative contraindication",
+          "tables": []
+        },
+        "Relative_Exclusion_Criteria": {
+          "text": "Minor or rapidly improving stroke symptoms\nPregnancy\nSeizure\nat onset with postictal residual neuro impairments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "GI",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "urinary tract",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "SBP >185",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Exclusion_Criteria": {
+      "text": "Historical\nStroke\nor\nhead trauma\nin previous 3 months\nAny history of\nintracranial hemorrhage\nMajor surgery in the previous 14 days\nGI\nor\nurinary tract\nbleeding in previous 21 days\nMyocardial infarction\nin previous 3 months\nArterial puncture at noncompressible site in previous 7 days\nClinical\nSpontaneously clearing stroke symptoms\nOnly minor and isolated neurologic signs\nSeizure\nat stroke onset\nPersistent\nSBP >185\nor DBP >110 despite treatment\nUse of direct thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n) or direct factor Xa inhibitors (e.g.\nrivaroxaban\n,\napixaban\n) with elevated aPTT, INR, or factor Xa assay\nActive bleeding or acute\ntrauma\n(\nfracture\n) on exam\nLabs\nPlatelets <100K\nSerum glucose <50, >400\nINR >1.7 or PT >15 sec if on warfarin\nElevated PTT if on heparin\nHead CT\nEvidence of\nhemorrhage\nEvidence of multilobar infarction with hypodensity involving >33% of cerebral hemisphere\nIntracranial neoplasm,\nAVM\n, or aneurysm\nUse of dabigatran within 48hrs is relative contraindication",
+      "subsections": {
+        "Relative_Exclusion_Criteria": {
+          "text": "Minor or rapidly improving stroke symptoms\nPregnancy\nSeizure\nat onset with postictal residual neuro impairments",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "head trauma",
+          "url": "https://wikem.org/wiki/Head_trauma"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "GI",
+          "url": "https://wikem.org/wiki/GI_bleed"
+        },
+        {
+          "text": "urinary tract",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "SBP >185",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "AVM",
+          "url": "https://wikem.org/wiki/AVM"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Relative_Exclusion_Criteria": {
+      "text": "Minor or rapidly improving stroke symptoms\nPregnancy\nSeizure\nat onset with postictal residual neuro impairments",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "tPA_between_3-4.5hrs": {
+      "text": "",
+      "subsections": {
+        "Inclusion_Criteria_2": {
+          "text": "Same as for <3hr",
+          "tables": []
+        },
+        "Exclusion_Criteria_2": {
+          "text": "All of the above plus:\nAge >80yr\nCombination of both previous stroke and DM\nNIHSS score >25\nOral\nanticoagulant\nuse regardless of INR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Inclusion_Criteria_2": {
+      "text": "Same as for <3hr",
+      "subsections": {
+        "Exclusion_Criteria_2": {
+          "text": "All of the above plus:\nAge >80yr\nCombination of both previous stroke and DM\nNIHSS score >25\nOral\nanticoagulant\nuse regardless of INR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Exclusion_Criteria_2": {
+      "text": "All of the above plus:\nAge >80yr\nCombination of both previous stroke and DM\nNIHSS score >25\nOral\nanticoagulant\nuse regardless of INR",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "",
+      "subsections": {
+        "Alteplase": {
+          "text": "NOTE - in stroke, do not give\naspirin\nuntil 24 hours after giving tPA, as ASA with tPA does not improve outcomes and increases bleed risk\n[1]\nDo not give acutely heparin (or any anticoagulation) if giving tPA\n[2]\nDosing:\n0.9mg/kg IV (max 90mg total)\n10% of dose is administered as bolus; rest is given over 60min\nNeuro check Q15min x 2hr\nNo anticoagulation/antiplatelets x 24hr\nBlood pressure (keep SBP <180, DBP <105)\nIf SBP is >180-230 or DBP is >120:\nNicardipine\n5 mg/hr by slow infusion (50 mL/hr) initially; may be increased by 2.5 mg/hr every 15 minutes; not to exceed 15 mg/hr OR\nLabetalol\n10mg IV over 1–2 min; repeat dose q10–20min up to 300mg max OR\nLabetalol\n10mg IV followed by infusion at 2–8 mg/min\nIf BP not controlled by above measures:\nNitroprusside\n0.5–10mcg/kg/min\nContinuous arterial monitoring advised\nUse with caution in patients with hepatic or renal insufficiency",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "Alteplase": {
+      "text": "NOTE - in stroke, do not give\naspirin\nuntil 24 hours after giving tPA, as ASA with tPA does not improve outcomes and increases bleed risk\n[1]\nDo not give acutely heparin (or any anticoagulation) if giving tPA\n[2]\nDosing:\n0.9mg/kg IV (max 90mg total)\n10% of dose is administered as bolus; rest is given over 60min\nNeuro check Q15min x 2hr\nNo anticoagulation/antiplatelets x 24hr\nBlood pressure (keep SBP <180, DBP <105)\nIf SBP is >180-230 or DBP is >120:\nNicardipine\n5 mg/hr by slow infusion (50 mL/hr) initially; may be increased by 2.5 mg/hr every 15 minutes; not to exceed 15 mg/hr OR\nLabetalol\n10mg IV over 1–2 min; repeat dose q10–20min up to 300mg max OR\nLabetalol\n10mg IV followed by infusion at 2–8 mg/min\nIf BP not controlled by above measures:\nNitroprusside\n0.5–10mcg/kg/min\nContinuous arterial monitoring advised\nUse with caution in patients with hepatic or renal insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "Nitroprusside",
+          "url": "https://wikem.org/wiki/Nitroprusside"
+        }
+      ]
+    },
+    "tPA_Complications": {
+      "text": "Post-tPA Hemorrhage\nAngioedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Post-tPA Hemorrhage",
+          "url": "https://wikem.org/wiki/Post-tPA_Hemorrhage"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "CVA (Main)\nPost-tPA Hemorrhage in CVA\nNIH Stroke Scale\nList of studies: Thrombolytics in CVA\nThrombolytics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "Post-tPA Hemorrhage in CVA",
+          "url": "https://wikem.org/wiki/Post-tPA_Hemorrhage_in_CVA"
+        },
+        {
+          "text": "NIH Stroke Scale",
+          "url": "https://wikem.org/wiki/NIH_Stroke_Scale"
+        },
+        {
+          "text": "List of studies: Thrombolytics in CVA",
+          "url": "https://wikem.org/wiki/EBQ:Studies_List_of_Thrombolytics_for_Acute_Stroke"
+        },
+        {
+          "text": "Thrombolytics",
+          "url": "https://wikem.org/wiki/Thrombolytics"
+        }
+      ]
+    },
+    "References": {
+      "text": "Hacke W, Kaste M, Bluhmi E, et al: Thrombolysis with alteplase 3 to 4.5 h after acute ischemic stroke. N Engl J Med 359(13): 1317, 2008\nACEP/AAN Guidelines\nAHA/ASA Guidelines",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

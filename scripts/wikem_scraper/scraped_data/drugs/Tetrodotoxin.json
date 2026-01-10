@@ -1,0 +1,288 @@
+{
+  "drug_name": "Tetrodotoxin",
+  "url": "https://wikem.org/wiki/Tetrodotoxin",
+  "scraped_at": "2026-01-10T08:03:23.239885",
+  "sections": {
+    "Background": {
+      "text": "Neurotoxin found in several marine animals (pufferfish, certain angelfish, blue-ringed octopus)\nHeat-stable toxin not destroyed by washing, freezing or cooking\nBlocks neuronal action potential by blocking voltage-gated sodium channels\nConsumption of improperly prepared pufferfish responsible for vast majority of human toxicity (e.g. fugu restaurants)",
+      "subsections": {
+        "Mechanism_of_Injury": {
+          "text": "Tetrodotoxin binds to and blocks fast-gated sodium channels, blocking conduction of nerve signals.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Injury": {
+      "text": "Tetrodotoxin binds to and blocks fast-gated sodium channels, blocking conduction of nerve signals.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Onset of symptoms usually within 30 min to 4 hours after eating pufferfish\nParesthesias, body numbness\nDysarthria, dysphagia\nHeadache\nVomiting\n,\ndiarrhea\n,\nabdominal pain\nAscending paralysis\nRespiratory failure\nDeath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Marine_toxins,_envenomations,_and_bites": {
+          "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        }
+      ]
+    },
+    "Marine_toxins,_envenomations,_and_bites": {
+      "text": "Toxins\nCiguatera\nScombroid\nTetrodotoxin\n(e.g. pufferfish)\nShellfish poisoning\nAmnesic shellfish poisoning\nDiarrheal shellfish poisoning\nNeurotoxic shellfish poisoning\nParalytic shellfish poisoning\nStingers\nStingray injury\nVenomous fish\nCone shell\nLionfish\nSea urchins\nCrown-of-Thorns Starfish\nStonefish\nOther: Catfish, zebrafish, scorpion fish\nNematocysts\nCoral reef\nFire coral\nJellyfish (Cnidaria)\nBox jellyfish\nIrukandji syndrome\nSea wasp\nPortuguese man-of-war\nSea anemones\nSeabather's eruption\nPhylum porifera\n(sponges)\nBites\nAlligator and crocodile attacks\nOctopus bite\nShark bite\nInfections\nVibrio\nspecies in saltwater\nAeromonas\nspecies in freshwater",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Stingray injury",
+          "url": "https://wikem.org/wiki/Stingray_injury"
+        },
+        {
+          "text": "Cone shell",
+          "url": "https://wikem.org/wiki/Cone_shell_envenomation"
+        },
+        {
+          "text": "Lionfish",
+          "url": "https://wikem.org/wiki/Lionfish_envenomation"
+        },
+        {
+          "text": "Sea urchins",
+          "url": "https://wikem.org/wiki/Sea_urchins"
+        },
+        {
+          "text": "Crown-of-Thorns Starfish",
+          "url": "https://wikem.org/wiki/Crown-of-Thorns_Starfish"
+        },
+        {
+          "text": "Stonefish",
+          "url": "https://wikem.org/wiki/Stonefish"
+        },
+        {
+          "text": "Nematocysts",
+          "url": "https://wikem.org/wiki/Nematocysts"
+        },
+        {
+          "text": "Fire coral",
+          "url": "https://wikem.org/wiki/Fire_coral"
+        },
+        {
+          "text": "Box jellyfish",
+          "url": "https://wikem.org/wiki/Box_jellyfish"
+        },
+        {
+          "text": "Irukandji syndrome",
+          "url": "https://wikem.org/wiki/Irukandji_syndrome"
+        },
+        {
+          "text": "Sea wasp",
+          "url": "https://wikem.org/wiki/Sea_wasp_sting"
+        },
+        {
+          "text": "Sea anemones",
+          "url": "https://wikem.org/wiki/Sea_anemones"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Phylum porifera",
+          "url": "https://wikem.org/wiki/Phylum_porifera"
+        },
+        {
+          "text": "Alligator and crocodile attacks",
+          "url": "https://wikem.org/wiki/Alligator_and_crocodile_attacks"
+        },
+        {
+          "text": "Octopus bite",
+          "url": "https://wikem.org/wiki/Octopus_bite"
+        },
+        {
+          "text": "Shark bite",
+          "url": "https://wikem.org/wiki/Shark_bite"
+        },
+        {
+          "text": "Vibrio",
+          "url": "https://wikem.org/wiki/Vibrio"
+        },
+        {
+          "text": "Aeromonas",
+          "url": "https://wikem.org/wiki/Aeromonas"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pufferfish can be tested for the toxin, but decision to treat should be based on clinical picture\nEvaluate for other treatable causes of symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Supportive care is mainstay of treatment\nMay require intubation if concern for progressive paralysis\nAcetylcholinesterase inhibitors\n(e.g.\nneostigmine\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetylcholinesterase inhibitors",
+          "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors"
+        },
+        {
+          "text": "neostigmine",
+          "url": "https://wikem.org/wiki/Neostigmine"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (may need ICU)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Marine toxins and envenomations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Marine toxins and envenomations",
+          "url": "https://wikem.org/wiki/Marine_toxins_and_envenomations"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "drug_name": "Tianeptine",
+  "url": "https://wikem.org/wiki/Tianeptine",
+  "scraped_at": "2026-01-10T08:03:37.511007",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antidepressant\nDosage Forms: 12.5mg tablet\nRoutes of Administration: Oral\nCommon Trade Names: Coaxil, Stablon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "12.5mg PO three times daily before meals\n>70 years old - 12.5mg PO two times daily before meals",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "N/A",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "N/A",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "N/A",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "N/A",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "N/A",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:N/A\nPediatric:N/A",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult:N/A\nPediatric:N/A",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult:N/A\nPediatric:N/A",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Hepatotoxicity\nRespiratory depression\nAltered mental status\nComa",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea\nConstipation\nAbdominal pain\nHeadache\nDizziness\nChanges in dreaming\nAnticholinergic\neffects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Hepatotoxicity\nRespiratory depression\nAltered mental status\nComa",
+      "subsections": {
+        "Common": {
+          "text": "Nausea\nConstipation\nAbdominal pain\nHeadache\nDizziness\nChanges in dreaming\nAnticholinergic\neffects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatotoxicity",
+          "url": "https://wikem.org/wiki/Hepatotoxicity"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "Coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea\nConstipation\nAbdominal pain\nHeadache\nDizziness\nChanges in dreaming\nAnticholinergic\neffects",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Anticholinergic",
+          "url": "https://wikem.org/wiki/Anticholinergic"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 1.5 hours\nMetabolism: Hepatic\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Serotonin reuptake enhancement, glutamate receptor inhibitor, μ-opioid receptor agonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Not FDA approved",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

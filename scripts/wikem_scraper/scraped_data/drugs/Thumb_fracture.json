@@ -1,0 +1,284 @@
+{
+  "drug_name": "Thumb_fracture",
+  "url": "https://wikem.org/wiki/Thumb_fracture",
+  "scraped_at": "2026-01-10T08:03:37.309902",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Thumb_fracture_classification": {
+          "text": "Type I (Bennett's fracture)\nFracture-dislocation of the base of the metacarpal (intra-articular)\nBase fragment is aligned with trapezium, but distal portion is subluxed by abductor pollicis longus\nMost common type of thumb fracture; nearly always accompanied by some subluxation or dislocation of CMC\nType II (Rolando's fracture)\nComminuted version of a Bennett's fracture (intra-articular)\nType III\nExtra-articular (transverse or oblique)\nType IV\nExtra-articular pediatric fracture involving the proximal physis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thumb_fracture_classification": {
+      "text": "Type I (Bennett's fracture)\nFracture-dislocation of the base of the metacarpal (intra-articular)\nBase fragment is aligned with trapezium, but distal portion is subluxed by abductor pollicis longus\nMost common type of thumb fracture; nearly always accompanied by some subluxation or dislocation of CMC\nType II (Rolando's fracture)\nComminuted version of a Bennett's fracture (intra-articular)\nType III\nExtra-articular (transverse or oblique)\nType IV\nExtra-articular pediatric fracture involving the proximal physis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Important to distinguish tenderness at base of 1st MC from injury to scaphoid, trapezium, or distal radius\nIf pain or ecchymosis occurs more distally at the MCP (particularly on the ulnar side) consider ulnar collateral ligament injury (\nGamekeeper's Thumb\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gamekeeper's Thumb",
+          "url": "https://wikem.org/wiki/Gamekeeper%27s_Thumb"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hand_and_Finger_Fracture_Types": {
+          "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Hand_and_Finger_Fracture_Types": {
+      "text": "Non-thumb metacarpal fractures\nHead\nNeck\nShaft\nBase\nBoxer's fracture\nThumb fracture\nFinger (Phalanx) Fracture\nProximal\nMiddle\nDistal",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-thumb metacarpal fractures",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fractures"
+        },
+        {
+          "text": "Head",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(head)"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(neck)"
+        },
+        {
+          "text": "Shaft",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(shaft)"
+        },
+        {
+          "text": "Base",
+          "url": "https://wikem.org/wiki/Non-thumb_metacarpal_fracture_(base)"
+        },
+        {
+          "text": "Boxer's fracture",
+          "url": "https://wikem.org/wiki/Boxer%27s_fracture"
+        },
+        {
+          "text": "Finger (Phalanx) Fracture",
+          "url": "https://wikem.org/wiki/Finger_(Phalanx)_Fracture"
+        },
+        {
+          "text": "Proximal",
+          "url": "https://wikem.org/wiki/Proximal_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Middle",
+          "url": "https://wikem.org/wiki/Middle_phalanx_(finger)_fracture"
+        },
+        {
+          "text": "Distal",
+          "url": "https://wikem.org/wiki/Distal_phalanx_(finger)_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Imaging plain films\nAP, lateral, oblique",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome\nRICE\nSignificant swelling or overly aggressive icing to radial side of thumb may result in temporary palsy to the superficial radial nerve (numbness over the dorsum of the thumb)",
+          "tables": []
+        },
+        "Acute_Reduction": {
+          "text": "Indicated for angulated (more than 20-30 degrees), extraarticular fracture if clinician is comfortable with the procedure\n[1]",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Splinting\nType I, II -\nThumb Spica Splint\nwith the IP joint free and wrist in 30 deg of extension\nType III - Short arm\nThumb Spica Splint\nextending to the IP joint and wrist in 30 deg of extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome\nRICE\nSignificant swelling or overly aggressive icing to radial side of thumb may result in temporary palsy to the superficial radial nerve (numbness over the dorsum of the thumb)",
+      "subsections": {
+        "Acute_Reduction": {
+          "text": "Indicated for angulated (more than 20-30 degrees), extraarticular fracture if clinician is comfortable with the procedure\n[1]",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Splinting\nType I, II -\nThumb Spica Splint\nwith the IP joint free and wrist in 30 deg of extension\nType III - Short arm\nThumb Spica Splint\nextending to the IP joint and wrist in 30 deg of extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        }
+      ]
+    },
+    "Acute_Reduction": {
+      "text": "Indicated for angulated (more than 20-30 degrees), extraarticular fracture if clinician is comfortable with the procedure\n[1]",
+      "subsections": {
+        "Immobilization": {
+          "text": "Splinting\nType I, II -\nThumb Spica Splint\nwith the IP joint free and wrist in 30 deg of extension\nType III - Short arm\nThumb Spica Splint\nextending to the IP joint and wrist in 30 deg of extension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "Splinting\nType I, II -\nThumb Spica Splint\nwith the IP joint free and wrist in 30 deg of extension\nType III - Short arm\nThumb Spica Splint\nextending to the IP joint and wrist in 30 deg of extension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Splinting",
+          "url": "https://wikem.org/wiki/Splinting"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        },
+        {
+          "text": "Thumb Spica Splint",
+          "url": "https://wikem.org/wiki/Thumb_Spica_Splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Refer within 3-5 days:\nAll intraarticular fractures warrant referral (most require surgery)\nExtraarticular fractures that cannot be adequately reduced",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hand and finger fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hand and finger fractures",
+          "url": "https://wikem.org/wiki/Hand_and_finger_fractures"
+        }
+      ]
+    }
+  }
+}

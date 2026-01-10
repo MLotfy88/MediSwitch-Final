@@ -1,0 +1,66 @@
+{
+  "drug_name": "Thoracic_lavage",
+  "url": "https://wikem.org/wiki/Thoracic_lavage",
+  "scraped_at": "2026-01-10T08:03:28.153725",
+  "sections": {
+    "Overview": {
+      "text": "Active internal re-warming for hypothermic patients\nAvoid left sided tubes in a perfusing patient since the heart is irritable.\nRewarms at a rate of 3°C/hr",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Consider in:\nSevere Hypothermia\nCardiovascular instability / life-threatening dysrhythmias\nModerate hypothermia which fails to respond to less aggressive measures",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Procedure": {
+      "text": "",
+      "subsections": {
+        "One_Tube_System": {
+          "text": "Single Lateral Thoracostomy Tube\nIntroduce large bolus of warmed saline\nAllow fluid to sit for 15-20 mins and then drain",
+          "tables": []
+        },
+        "Two_Tube_System": {
+          "text": "Anterior Tube\nSite at 2nd-3rd intercostal space at the midclavicular line\nAttach to a high rate infuser at 40-45°C\nInfuse 200 to 300mL\nThis tube can be a pigtail\nLateral Tube\n4-6th Intercostal space at post-axillary line\nAttach to continuous drainage via pleur-evac or auto-transfuser (if using autotranfuser can re-attach to warming line for closed circuit)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "One_Tube_System": {
+      "text": "Single Lateral Thoracostomy Tube\nIntroduce large bolus of warmed saline\nAllow fluid to sit for 15-20 mins and then drain",
+      "subsections": {
+        "Two_Tube_System": {
+          "text": "Anterior Tube\nSite at 2nd-3rd intercostal space at the midclavicular line\nAttach to a high rate infuser at 40-45°C\nInfuse 200 to 300mL\nThis tube can be a pigtail\nLateral Tube\n4-6th Intercostal space at post-axillary line\nAttach to continuous drainage via pleur-evac or auto-transfuser (if using autotranfuser can re-attach to warming line for closed circuit)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Two_Tube_System": {
+      "text": "Anterior Tube\nSite at 2nd-3rd intercostal space at the midclavicular line\nAttach to a high rate infuser at 40-45°C\nInfuse 200 to 300mL\nThis tube can be a pigtail\nLateral Tube\n4-6th Intercostal space at post-axillary line\nAttach to continuous drainage via pleur-evac or auto-transfuser (if using autotranfuser can re-attach to warming line for closed circuit)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypothermia\nChest tube",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        }
+      ]
+    }
+  }
+}

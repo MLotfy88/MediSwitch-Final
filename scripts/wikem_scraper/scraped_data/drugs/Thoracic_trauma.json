@@ -1,0 +1,467 @@
+{
+  "drug_name": "Thoracic_trauma",
+  "url": "https://wikem.org/wiki/Thoracic_trauma",
+  "scraped_at": "2026-01-10T08:03:28.579548",
+  "sections": {
+    "Background": {
+      "text": "Must determine if injury also traverses the diaphragm (intra-abdominal injury)\nMost deaths in thoracic trauma patients are due to non-cardiothoracic injuries\nExcessive positive pressure ventilation can lead to reduced venous return,\ntension pneumothorax\n(avoid excess bagging)\nPlace central lines on the SAME side as existing injury or\npneumothorax\n(prevent bilateral\npneumothorax\n)\nHypotensive resuscitation in chest trauma may be beneficial",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Inspection": {
+          "text": "Seat-belt sign indicates possible deceleration or vascular injury\ndetermine seatbelt placement (if worn improperly or abnormal body habitus)\nParadoxical wall movement indicates\nflail chest\nNeck veins\nDistended\nTamponade\nTension pneumothorax\nCongestive heart failure\nFlat\nCirculatory shock\nHemothorax\nSwollen face\nConjunctival injection + facial edema + mechanism conducive to traumatic asphyxia may indicate SVC compression\nalso consider judicial/non-judicial hanging and strangulation\nSubcutaneous emphysema\nAnterior neck/supraclavicular\nTracheobronchial tree\nEsophagus (Boerhaave's syndrome)\nChest wall\nVisceral/parietal pleura",
+          "tables": []
+        },
+        "Palpation": {
+          "text": "Neck\nTrachea midline or displaced\nChest wall\nLocalized tenderness or crepitus due to\nrib fracture\nor subcutaneous emphysema\nSternum\nLocalized tenderness, crepitus, or mobile segment suggests\nfracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        }
+      ]
+    },
+    "Inspection": {
+      "text": "Seat-belt sign indicates possible deceleration or vascular injury\ndetermine seatbelt placement (if worn improperly or abnormal body habitus)\nParadoxical wall movement indicates\nflail chest\nNeck veins\nDistended\nTamponade\nTension pneumothorax\nCongestive heart failure\nFlat\nCirculatory shock\nHemothorax\nSwollen face\nConjunctival injection + facial edema + mechanism conducive to traumatic asphyxia may indicate SVC compression\nalso consider judicial/non-judicial hanging and strangulation\nSubcutaneous emphysema\nAnterior neck/supraclavicular\nTracheobronchial tree\nEsophagus (Boerhaave's syndrome)\nChest wall\nVisceral/parietal pleura",
+      "subsections": {
+        "Palpation": {
+          "text": "Neck\nTrachea midline or displaced\nChest wall\nLocalized tenderness or crepitus due to\nrib fracture\nor subcutaneous emphysema\nSternum\nLocalized tenderness, crepitus, or mobile segment suggests\nfracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        }
+      ]
+    },
+    "Palpation": {
+      "text": "Neck\nTrachea midline or displaced\nChest wall\nLocalized tenderness or crepitus due to\nrib fracture\nor subcutaneous emphysema\nSternum\nLocalized tenderness, crepitus, or mobile segment suggests\nfracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Imaging": {
+          "text": "Ultrasound\nCan diagnosis hemothorax, pneumothorax, tamponade, rib fracture, sternum fracture\nCXR\nCan diagnosis hemothorax, pneumothorax, rib fracture, pulmonary contusion, diaphragmatic rupture\nFrequently underestimates the severity/extent of chest trauma\nCT\nGold-standard",
+          "tables": []
+        },
+        "Nexus_chest_CT_in_trauma_rule_(major_injury)": {
+          "text": "CT if any one of the following:\nAbnormal CXR\nDistracting injury\nTenderness of:\nChest wall\nSternum\nThoracic spine\nScapula\nSensitivity\n99% for major injuries\n90% for minor injuries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_lungs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Imaging": {
+      "text": "Ultrasound\nCan diagnosis hemothorax, pneumothorax, tamponade, rib fracture, sternum fracture\nCXR\nCan diagnosis hemothorax, pneumothorax, rib fracture, pulmonary contusion, diaphragmatic rupture\nFrequently underestimates the severity/extent of chest trauma\nCT\nGold-standard",
+      "subsections": {
+        "Nexus_chest_CT_in_trauma_rule_(major_injury)": {
+          "text": "CT if any one of the following:\nAbnormal CXR\nDistracting injury\nTenderness of:\nChest wall\nSternum\nThoracic spine\nScapula\nSensitivity\n99% for major injuries\n90% for minor injuries",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound:_lungs"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Asymptomatic thoracic stab wound\nRepeat CXR in 4-6hr; if no delayed pneumothorax seen, patient can be discharged\nDisposition otherwise home, to OR, to ward, or to ICU depending on injuries",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "",
+      "subsections": {
+        "Aspiration": {
+          "text": "Common after severe trauma, especially if patient was unconscious at any time\nRadiologic changes may be delayed up to 24hr (consolidation)\nDue to chemical pneumonitis from gastric contents\nNo evidence to support prophylactic antibiotics to prevent pulmonary infection",
+          "tables": []
+        },
+        "Systemic_air_embolism": {
+          "text": "Patients with penetrating chest wounds who require PPV are at risk\nMay lead to dysrhythmias or CVA\nTreatment\n100% NRB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Aspiration": {
+      "text": "Common after severe trauma, especially if patient was unconscious at any time\nRadiologic changes may be delayed up to 24hr (consolidation)\nDue to chemical pneumonitis from gastric contents\nNo evidence to support prophylactic antibiotics to prevent pulmonary infection",
+      "subsections": {
+        "Systemic_air_embolism": {
+          "text": "Patients with penetrating chest wounds who require PPV are at risk\nMay lead to dysrhythmias or CVA\nTreatment\n100% NRB",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Systemic_air_embolism": {
+      "text": "Patients with penetrating chest wounds who require PPV are at risk\nMay lead to dysrhythmias or CVA\nTreatment\n100% NRB",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracotomy\nChest tube\nNEXUS Chest CT Rule\nTrauma (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "Chest tube",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "NEXUS Chest CT Rule",
+          "url": "https://wikem.org/wiki/NEXUS_Chest_CT_Rule"
+        },
+        {
+          "text": "Trauma (main)",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "drug_name": "Thrombolytics",
+  "url": "https://wikem.org/wiki/Thrombolytics",
+  "scraped_at": "2026-01-10T08:03:29.884269",
+  "sections": {
+    "Indications": {
+      "text": "Thrombolytics for acute ischemic stroke\nThrombolytics for pulmonary embolism\nThrombolytics for STEMI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thrombolytics for acute ischemic stroke",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_acute_ischemic_stroke"
+        },
+        {
+          "text": "Thrombolytics for pulmonary embolism",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_pulmonary_embolism"
+        },
+        {
+          "text": "Thrombolytics for STEMI",
+          "url": "https://wikem.org/wiki/Thrombolytics_for_STEMI"
+        }
+      ]
+    },
+    "Medications": {
+      "text": "Alteplase\n(TPA)\nTenecteplase\n(TNKase)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Alteplase",
+          "url": "https://wikem.org/wiki/Alteplase"
+        },
+        {
+          "text": "Tenecteplase",
+          "url": "https://wikem.org/wiki/Tenecteplase"
+        }
+      ]
+    }
+  }
+}

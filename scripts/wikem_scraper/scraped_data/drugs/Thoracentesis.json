@@ -1,0 +1,123 @@
+{
+  "drug_name": "Thoracentesis",
+  "url": "https://wikem.org/wiki/Thoracentesis",
+  "scraped_at": "2026-01-10T08:03:28.829430",
+  "sections": {
+    "Indications": {
+      "text": "New-onset pleural effusion (except obvious\nCHF\n-induced effusion)\nSymptomatic pleural effusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "",
+      "subsections": {
+        "Thoracentesis_if_coagulopathic": {
+          "text": "Platelets <50K\n[1]\nINR >2x normal\n[1]\nMechanical ventilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thoracentesis_if_coagulopathic": {
+      "text": "Platelets <50K\n[1]\nINR >2x normal\n[1]\nMechanical ventilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Equipment_Needed": {
+      "text": "Thoracentesis kit\nSterile gloves\nChlorhexidine or betadine scrub\nEvacuated container\nUltrasound",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Choose insertion site/positioning\nUpright position in mid-scapular or posterior axillary line (usual technique)\nLateral decubitus position with fluid side down in post axillary line (if cannot sit up)\nSupine with head elevated as much as possible in midaxillary line (chest tube location)\nCleanse skin with chlorhexidine or betadine\nAnesthetize skin and subcutaneous tissue - raise wheal and advance/inject along superior aspect of lower rib (avoid NV bundle)\nMake small skin nick with scalpel\nInsert/advance needle while continuously aspirating until pleural space is entered\nAdvance catheter into pleural space while removing needle\nConnect tubing to catheter and to evacuated container and remove desired amount of fluid\nObtain post-procedure CXR if:\nMultiple needle passes required\nAir is aspirated\nRisk of adhesions\nNew-onset of symptoms during the procedure (chest pain, dyspnea)\nPatient at high risk for decompensation from small pneumothorax (lung disease, positive pressure ventilation)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Ultrasound-guidance significantly reduces complication rates\n[2]\nvideo\n[3]\nPneumothorax\n(4-19%)\nCough (9%)\nInfection (2%)\nHemothorax\nSplenic injury\nDiaphragmatic injury\nHepatic injury\nVascular injury\n/bleeding\nAir embolism\nReexpansion\npulmonary edema\nTreatment should include supportive care with\nnoninvasive ventilation\nas needed\nDiuresis is not a primary treatment for reexpansion pulmonary edema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Splenic injury",
+          "url": "https://wikem.org/wiki/Splenic_injury"
+        },
+        {
+          "text": "Diaphragmatic injury",
+          "url": "https://wikem.org/wiki/Diaphragmatic_injury"
+        },
+        {
+          "text": "Hepatic injury",
+          "url": "https://wikem.org/wiki/Hepatic_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Air embolism",
+          "url": "https://wikem.org/wiki/Air_embolism"
+        },
+        {
+          "text": "pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "noninvasive ventilation",
+          "url": "https://wikem.org/wiki/Noninvasive_ventilation"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pleural Effusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pleural Effusion",
+          "url": "https://wikem.org/wiki/Pleural_Effusion"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "",
+      "subsections": {
+        "Videos": {
+          "text": "{{#widget:YouTube|id=pwOwmauhANQ}}",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Videos": {
+      "text": "{{#widget:YouTube|id=pwOwmauhANQ}}",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

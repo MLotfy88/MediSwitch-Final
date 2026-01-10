@@ -1,0 +1,172 @@
+{
+  "drug_name": "Thromboelastography_(TEG)",
+  "url": "https://wikem.org/wiki/Thromboelastography_(TEG)",
+  "scraped_at": "2026-01-10T08:03:31.466360",
+  "sections": {
+    "Intro": {
+      "text": "Lack of evidence suggests that these tests currently should be used ONLY FOR RESEARCH purposes in regards to trauma-induced coagulopathy.\n[1]\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Thromboelastography is used to identify acute coagulopathies in both traumatic and nontraumatic patients. This may enable focused use of blood products during resuscitation.\nQuantifies the interaction of platelets with the coagulation cascade (aggregation, clot strengthening, fibrin cross linking and fibrinolysis).\n0.36mL of clotted blood from the patient is spun in a small cup with changes in the clot strength recorded electrically.\nTwo commercial types of viscoelastic tests are available:\nThromboelastography =TEG\nRotational thromboelastogram = ROTEM\nHeparinase to deactivate heparin is now employed in the TEG(r) technology to prevent interference from heparin in samples\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Nomenclature_Differences_for_ROTEM": {
+      "text": "Although TEG and ROTEM measure the same coagulation functions there is a different naming convention for each device.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "ROTEM": "Clotting time (CT)",
+            "TEG": "R value (reaction time)"
+          },
+          {
+            "ROTEM": "α angle and clot formation time (CFT)",
+            "TEG": "K value and α angle"
+          },
+          {
+            "ROTEM": "Maximum clot firmness (MCF)",
+            "TEG": "Maximum amplitude (MA)"
+          },
+          {
+            "ROTEM": "Clot lysis (CL)",
+            "TEG": "LY30"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Features_of_a_TEG_Curve": {
+      "text": "",
+      "subsections": {
+        "Initiation_(R)": {
+          "text": "Represents period of time of latency from start to initial fibrin formation due to effects of Factor VIIa and Tissue Factor.",
+          "tables": []
+        },
+        "Amplification_(K)": {
+          "text": "Represents time taken to achieve a certain level of clot strength due to thrombin and activation of platelets (where r-time = time zero)",
+          "tables": []
+        },
+        "Propagation_(α-Angle)": {
+          "text": "Measures the speed at which fibrin build-up and cross-linking takes place (clot strengthening), and hence assesses the rate of clot formation.",
+          "tables": []
+        },
+        "Maximum_Amplitude_(MA)": {
+          "text": "A function of the maximum dynamic properties of fibrin and platelet bonding via GPIIb/IIIa and represents the strongest point of fibrin clot and correlates to platelet function: 80% platelets; 20% fibrinogen.",
+          "tables": []
+        },
+        "Clot_stability_(LY_30%)": {
+          "text": "This is percentage decrease in amplitude 30 minutes post-MA and gives measure of degree of fibrinolysis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Normal_Values": {
+      "text": "R:\n4-8 min\nK:\n1-4 min\nα-Angle:\n47-74°\nMA:\n55-73mm\nLY 30%:\n0-8%",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Abnormal_Values": {
+      "text": "",
+      "subsections": {
+        "Prolonged_R": {
+          "text": "Factor deficiency (ie hemophilia)\nTreat with FFP or protamine",
+          "tables": []
+        },
+        "Prolonged_K/Reduced_α-Angle": {
+          "text": "Fibrinogen deficiency (ie DIC)\nTreat with cryoprecipitate",
+          "tables": []
+        },
+        "Reduced_MA": {
+          "text": "Thrombocytopenia, platelet dysfunction (ie patient on clopidogrel)\nTreat with platelets or DDAVP",
+          "tables": []
+        },
+        "Elevated_LY_30%": {
+          "text": "Rapid clot lysis (ie tPA given)\nTreat with TXA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prolonged_R": {
+      "text": "Factor deficiency (ie hemophilia)\nTreat with FFP or protamine",
+      "subsections": {
+        "Prolonged_K/Reduced_α-Angle": {
+          "text": "Fibrinogen deficiency (ie DIC)\nTreat with cryoprecipitate",
+          "tables": []
+        },
+        "Reduced_MA": {
+          "text": "Thrombocytopenia, platelet dysfunction (ie patient on clopidogrel)\nTreat with platelets or DDAVP",
+          "tables": []
+        },
+        "Elevated_LY_30%": {
+          "text": "Rapid clot lysis (ie tPA given)\nTreat with TXA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prolonged_K/Reduced_α-Angle": {
+      "text": "Fibrinogen deficiency (ie DIC)\nTreat with cryoprecipitate",
+      "subsections": {
+        "Reduced_MA": {
+          "text": "Thrombocytopenia, platelet dysfunction (ie patient on clopidogrel)\nTreat with platelets or DDAVP",
+          "tables": []
+        },
+        "Elevated_LY_30%": {
+          "text": "Rapid clot lysis (ie tPA given)\nTreat with TXA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Reduced_MA": {
+      "text": "Thrombocytopenia, platelet dysfunction (ie patient on clopidogrel)\nTreat with platelets or DDAVP",
+      "subsections": {
+        "Elevated_LY_30%": {
+          "text": "Rapid clot lysis (ie tPA given)\nTreat with TXA",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Elevated_LY_30%": {
+      "text": "Rapid clot lysis (ie tPA given)\nTreat with TXA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nTransfusions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Maryland CC Project - TEG\nLife In the Fast Lane - TEG",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

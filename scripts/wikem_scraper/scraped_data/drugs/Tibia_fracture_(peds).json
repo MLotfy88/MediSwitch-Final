@@ -1,0 +1,144 @@
+{
+  "drug_name": "Tibia_fracture_(peds)",
+  "url": "https://wikem.org/wiki/Tibia_fracture_(peds)",
+  "scraped_at": "2026-01-10T08:03:37.644465",
+  "sections": {
+    "Types": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Tibial_Fractures": {
+          "text": "Toddler's fracture\nTibial spine fracture\nTibial tuberosity fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tibial spine fracture",
+          "url": "https://wikem.org/wiki/Tibial_spine_fracture"
+        },
+        {
+          "text": "Tibial tuberosity fracture",
+          "url": "https://wikem.org/wiki/Tibial_tuberosity_fracture"
+        }
+      ]
+    },
+    "Pediatric_Tibial_Fractures": {
+      "text": "Toddler's fracture\nTibial spine fracture\nTibial tuberosity fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tibial spine fracture",
+          "url": "https://wikem.org/wiki/Tibial_spine_fracture"
+        },
+        {
+          "text": "Tibial tuberosity fracture",
+          "url": "https://wikem.org/wiki/Tibial_tuberosity_fracture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Distal_Leg_Fracture_Types": {
+          "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "Distal_Leg_Fracture_Types": {
+      "text": "Tibial plateau fracture\nTibial shaft fracture\nPilon fracture\nMaisonneuve fracture\nTibia fracture (peds)\nAnkle fracture\nAnkle fracture (peds)\nTillaux fracture\nFoot and toe fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibial plateau fracture",
+          "url": "https://wikem.org/wiki/Tibial_plateau_fracture"
+        },
+        {
+          "text": "Tibial shaft fracture",
+          "url": "https://wikem.org/wiki/Tibial_shaft_fracture"
+        },
+        {
+          "text": "Pilon fracture",
+          "url": "https://wikem.org/wiki/Pilon_fracture"
+        },
+        {
+          "text": "Maisonneuve fracture",
+          "url": "https://wikem.org/wiki/Maisonneuve_fracture"
+        },
+        {
+          "text": "Ankle fracture",
+          "url": "https://wikem.org/wiki/Ankle_fracture"
+        },
+        {
+          "text": "Ankle fracture (peds)",
+          "url": "https://wikem.org/wiki/Ankle_fracture_(peds)"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Fractures (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fractures (Main)",
+          "url": "https://wikem.org/wiki/Fractures_(Main)"
+        }
+      ]
+    }
+  }
+}

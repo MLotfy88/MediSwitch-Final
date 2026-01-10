@@ -1,0 +1,183 @@
+{
+  "drug_name": "Third_degree_AV_block",
+  "url": "https://wikem.org/wiki/Third_degree_AV_block",
+  "scraped_at": "2026-01-10T08:03:27.667164",
+  "sections": {
+    "Background": {
+      "text": "Also known as complete heart block\nNo conduction through the AV node, causing the atria and ventricles beat completely independently from each other\nThe ventricular beat is an escape rhythm anywhere from the AV node to the bundle-branches (normally slow, varying from 35 to 45 beats per minute)",
+      "subsections": {
+        "Causes": {
+          "text": "Congenital\nAcquired\nIschemia\nIncreased vagal tone\nHypothyroidism\nHyperkalemia\nDrugs\nStructural heart disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Drugs",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Congenital\nAcquired\nIschemia\nIncreased vagal tone\nHypothyroidism\nHyperkalemia\nDrugs\nStructural heart disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ischemia",
+          "url": "https://wikem.org/wiki/Myocardial_ischemia"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Drugs",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Dizziness\nSyncope\nHypotension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "AV_blocks": {
+          "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        }
+      ]
+    },
+    "AV_blocks": {
+      "text": "First degree AV block\nSecond degree\nSecond degree AV block type I\n(Wenkebach)\nSecond degree AV block type II\nThird degree AV block\nAV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "First degree AV block",
+          "url": "https://wikem.org/wiki/First_degree_AV_block"
+        },
+        {
+          "text": "Second degree AV block type I",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_I"
+        },
+        {
+          "text": "Second degree AV block type II",
+          "url": "https://wikem.org/wiki/Second_degree_AV_block_type_II"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "No atrial impulses are conducted\nP waves normal and regular P-P intervals unrelated to slower regular R-R intervals\nQRS narrow if block above bundle of His\nQRS wide if block below bundle of His\nPR variable\nDifferentiate from AV dissociation without complete heart block",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "If symptomatic, standard\nACLS guidelines for symptomatic bradycardia\nto include\n[1]\nAtropine\n0.5mg IV q3-5min PRN total dose of 3mg\nTranscutaneous pacing\n, followed by\ntransvenous pacing\nDopamine\nIV consider for low BP 3mcg/kg/minute titrate up to 20 mcg/kg/minute\nDobutamine\nIV consider for heart failure at 5mcg/kg/minute titrate up to 20mcg/kg/minute if needed for HR and BP augmentation\nTreat underlying etiology\nAvoid AV nodal blocking agents (e.g.\nβ-blockers\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS guidelines for symptomatic bradycardia",
+          "url": "https://wikem.org/wiki/ACLS_guidelines_for_symptomatic_bradycardia"
+        },
+        {
+          "text": "Atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        },
+        {
+          "text": "Transcutaneous pacing",
+          "url": "https://wikem.org/wiki/Transcutaneous_pacing"
+        },
+        {
+          "text": "transvenous pacing",
+          "url": "https://wikem.org/wiki/Transvenous_pacing"
+        },
+        {
+          "text": "Dopamine",
+          "url": "https://wikem.org/wiki/Dopamine"
+        },
+        {
+          "text": "Dobutamine",
+          "url": "https://wikem.org/wiki/Dobutamine"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/%CE%92-blockers"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission for\npacemaker\nplacement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pacemaker",
+          "url": "https://wikem.org/wiki/Pacemaker_(Basics)"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "drug_name": "Tibial_tuberosity_fracture",
+  "url": "https://wikem.org/wiki/Tibial_tuberosity_fracture",
+  "scraped_at": "2026-01-10T08:03:37.416116",
+  "sections": {
+    "Background": {
+      "text": "Due to contraction of quadriceps against fixed leg",
+      "subsections": {
+        "Types": {
+          "text": "Type I\nFracture through the small distal portion of the tibial tuberosity\nType II\nOccur after coalescence of secondary ossification centers of tuberosity to the metaphysis\nType III\nSplits epiphysis of the tuberosity from the epiphysis of the proximal tibia\nAt risk for compartment syndrome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Types": {
+      "text": "Type I\nFracture through the small distal portion of the tibial tuberosity\nType II\nOccur after coalescence of secondary ossification centers of tuberosity to the metaphysis\nType III\nSplits epiphysis of the tuberosity from the epiphysis of the proximal tibia\nAt risk for compartment syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Tibial_Fractures": {
+          "text": "Toddler's fracture\nTibial spine fracture\nTibial tuberosity fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tibial spine fracture",
+          "url": "https://wikem.org/wiki/Tibial_spine_fracture"
+        }
+      ]
+    },
+    "Pediatric_Tibial_Fractures": {
+      "text": "Toddler's fracture\nTibial spine fracture\nTibial tuberosity fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tibial spine fracture",
+          "url": "https://wikem.org/wiki/Tibial_spine_fracture"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Specific_Management": {
+          "text": "Types I and II\nImmobilization\nDisplaced type II and type III\nImmediate ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Specific_Management": {
+          "text": "Types I and II\nImmobilization\nDisplaced type II and type III\nImmediate ortho consult",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        }
+      ]
+    },
+    "Specific_Management": {
+      "text": "Types I and II\nImmobilization\nDisplaced type II and type III\nImmediate ortho consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Tibia fracture (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tibia fracture (peds)",
+          "url": "https://wikem.org/wiki/Tibia_fracture_(peds)"
+        }
+      ]
+    }
+  }
+}

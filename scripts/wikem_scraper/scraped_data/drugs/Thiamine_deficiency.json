@@ -1,0 +1,480 @@
+{
+  "drug_name": "Thiamine_deficiency",
+  "url": "https://wikem.org/wiki/Thiamine_deficiency",
+  "scraped_at": "2026-01-10T08:03:27.543504",
+  "sections": {
+    "Background": {
+      "text": "Most common cause: chronic\nalcohol abuse\nOther causes: malabsorption,\nhemodialysis\n, chronic\nprotein-calorie undernutrition\nIV\ndextrose\ncan precipitate in patients with marginal thiamine stores",
+      "subsections": {
+        "Thiamine_deficiency_types": {
+          "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alcohol abuse",
+          "url": "https://wikem.org/wiki/Alcohol_Abuse"
+        },
+        {
+          "text": "hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "protein-calorie undernutrition",
+          "url": "https://wikem.org/wiki/Malnutrition"
+        },
+        {
+          "text": "dextrose",
+          "url": "https://wikem.org/wiki/Dextrose"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        }
+      ]
+    },
+    "Thiamine_deficiency_types": {
+      "text": "Wernicke-Korsakoff syndrome\nBeriberi",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Early/mild features:\nAnorexia\nMuscle cramps\nParesthesias\nIrritability\nAdvanced/severe deficiency\nSee\nberiberi\nSee\nWernicke-Korsakoff syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        },
+        {
+          "text": "beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Ethanol_related_disease_processes": {
+          "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+          "tables": []
+        },
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Ethanol_related_disease_processes": {
+      "text": "Ethanol toxicity\nAlcohol use disorder\nAlcohol withdrawal\nAlcohol withdrawal seizures\nDelerium tremens\nElectrolyte/acid-base disorder\nAlcoholic ketoacidosis\nBeer potomania syndrome\nBeriberi\nThiamine deficiency\nWernicke-Korsakoff syndrome",
+      "subsections": {
+        "Vitamin_deficiencies": {
+          "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ethanol toxicity",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Alcohol use disorder",
+          "url": "https://wikem.org/wiki/Alcohol_use_disorder"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "Alcohol withdrawal seizures",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal_seizures"
+        },
+        {
+          "text": "Delerium tremens",
+          "url": "https://wikem.org/wiki/Delerium_tremens"
+        },
+        {
+          "text": "Alcoholic ketoacidosis",
+          "url": "https://wikem.org/wiki/Alcoholic_ketoacidosis"
+        },
+        {
+          "text": "Beer potomania syndrome",
+          "url": "https://wikem.org/wiki/Beer_potomania_syndrome"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Vitamin_deficiencies": {
+      "text": "Vitamin A deficiency\nVitamin B deficiencies\nVitamin B1 deficiency\n(Thiamine)\nBeriberi\nWernicke-Korsakoff syndrome\nVitamin B3 deficiency\n(\nPellagra\n)\nVitamin B9 deficiency\n(Folate)\nVitamin B7 deficiency\n(Biotin)\nVitamin B12 deficiency\nVitamin C deficiency (\nScurvy\n)\nVitamin D deficiency\n(\nRickets\n)\nVitamin E deficiency\nVitamin K deficiency\nZinc deficiency\nAcrodermatitis enteropathica",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vitamin A deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_A_deficiency"
+        },
+        {
+          "text": "Vitamin B1 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B1_deficiency"
+        },
+        {
+          "text": "Beriberi",
+          "url": "https://wikem.org/wiki/Beriberi"
+        },
+        {
+          "text": "Wernicke-Korsakoff syndrome",
+          "url": "https://wikem.org/wiki/Wernicke-Korsakoff_syndrome"
+        },
+        {
+          "text": "Vitamin B3 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B3_deficiency"
+        },
+        {
+          "text": "Pellagra",
+          "url": "https://wikem.org/wiki/Pellagra"
+        },
+        {
+          "text": "Vitamin B9 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B9_deficiency"
+        },
+        {
+          "text": "Vitamin B7 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B7_deficiency"
+        },
+        {
+          "text": "Vitamin B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Scurvy",
+          "url": "https://wikem.org/wiki/Scurvy"
+        },
+        {
+          "text": "Vitamin D deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "Rickets",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Vitamin E deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_E_deficiency"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Acrodermatitis enteropathica",
+          "url": "https://wikem.org/wiki/Acrodermatitis_enteropathica"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Thiamine\n50–100 mg IV for first few days, followed by 5-10mg PO daily\nReplete other vitamins/electrolytes that may also be depleted (i.e.\nbanana bag\n)\nReplete thiamine\nbefore\ngiving IV dextrose!",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        }
+      ]
+    },
+    "Prevention": {
+      "text": "",
+      "subsections": {
+        "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+          "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+          "tables": []
+        },
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[1]\n[2]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "Vitamin_Prophylaxis_for_Chronic_alcoholics": {
+      "text": "At risk for\nthiamine deficiency\n, but no symptoms:\nthiamine\n100mg PO q day\nGive multivitamin PO; patient at risk for other vitamin deficiencies",
+      "subsections": {
+        "Banana_bag": {
+          "text": "The majority of chronic\nalcoholics\ndo\nNOT\nrequire a\nbanana bag\n[1]\n[2]\nThiamine\n100mg IV\nFolate\n1mg IV (cheaper PO)\nMultivitamin 1 tab IV (cheaper PO)\nMagnesium sulfate\n2mg IV\nNormal saline\nas needed for hydration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "alcoholics",
+          "url": "https://wikem.org/wiki/Alcoholics"
+        },
+        {
+          "text": "banana bag",
+          "url": "https://wikem.org/wiki/Banana_bag"
+        },
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        },
+        {
+          "text": "Folate",
+          "url": "https://wikem.org/wiki/Folate"
+        },
+        {
+          "text": "Magnesium sulfate",
+          "url": "https://wikem.org/wiki/Magnesium_sulfate"
+        },
+        {
+          "text": "Normal saline",
+          "url": "https://wikem.org/wiki/Normal_saline"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Thiamine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thiamine",
+          "url": "https://wikem.org/wiki/Thiamine"
+        }
+      ]
+    }
+  }
+}

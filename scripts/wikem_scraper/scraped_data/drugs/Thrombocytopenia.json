@@ -1,0 +1,842 @@
+{
+  "drug_name": "Thrombocytopenia",
+  "url": "https://wikem.org/wiki/Thrombocytopenia",
+  "scraped_at": "2026-01-10T08:03:35.143261",
+  "sections": {
+    "Background": {
+      "text": "Thrombocytopenia is defined as platelets of less than 150 x 10\n3\n/mcL.  Symptoms such as bruising and petechiae usually occur at counts at 50 x 10\n3\n/mcL and between 5-10x 10\n3\n/mcL there is a high risk of spontaneous bleeding.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Nonpalpable\npetechiae\n/purpura\nMucosal bleeding (gingival,\nepistaxis\n)\nMenorrhagia\n,\nhemoptysis\n,\nhematuria\n,\nhematochezia\nDeep tissue/joint bleeding is less common (more likely due to\ncoagulopathies\n)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "petechiae",
+          "url": "https://wikem.org/wiki/Petechiae"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Menorrhagia",
+          "url": "https://wikem.org/wiki/Vaginal_Bleed_Non-Pregnant"
+        },
+        {
+          "text": "hemoptysis",
+          "url": "https://wikem.org/wiki/Hemoptysis"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "hematochezia",
+          "url": "https://wikem.org/wiki/Rectal_bleeding"
+        },
+        {
+          "text": "coagulopathies",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        },
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Thrombocytopenia": {
+      "text": "",
+      "subsections": {
+        "Decreased_production": {
+          "text": "Marrow infiltration (tumor or infection)\nViral infections (\nrubella\n,\nHIV\n)\nMarrow suppression (commonly chemotherapy or radiation)\nCongenital thrombocytopenia\nFanconi anemia\nAlport syndrome\nBernand Soulier\nVitamin B12\nand/or\nfolate deficiency",
+          "tables": []
+        },
+        "Increased_platelet_destruction_or_use": {
+          "text": "Idiopathic thrombocytopenic purpura\nThrombotic Thrombocytopenic Purpura (TTP)\nHemolytic Uremic Syndrome (HUS)\nDisseminated Intravascular Coagulation (DIC)\nViral infections (\nHIV\n,\nmumps\n,\nvaricella\n,\nEBV\n)\nDrugs (\nheparin\n,\nprotamine\n)\nPostransfusion or Posttransplantation\nAutoimmune destruction (\nSLE\nor\nSarcoidosis\n)\nMechanical destruction\nArtificial valves\nECMO\nHELLP\nsyndrome\nExcessive\nhemorrhage\nHemodialysis\n, extracorporeal circulation\nSplenic Sequestration\nOccurs in\nSickle cell disease\nand\nCirrhosis",
+          "tables": []
+        },
+        "Drug_Induced": {
+          "text": "sulfa antibiotics,\nETOH\n,\nASA\n, thiazide\ndiuretics\n/\nfurosemide",
+          "tables": []
+        },
+        "Comparison_by_Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "↓ PLT",
+                "ITP": "Yes",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "Yes",
+                "DIC": "Yes"
+              },
+              {
+                "": "↑PT/INR",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "+/-",
+                "DIC": "Yes"
+              },
+              {
+                "": "MAHA",
+                "ITP": "No",
+                "TTP": "Yes",
+                "HUS": "Yes",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "↓ Fibrinogen",
+                "ITP": "No",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              },
+              {
+                "": "Ok to give PLT",
+                "ITP": "Yes",
+                "TTP": "No",
+                "HUS": "No",
+                "HIT": "No",
+                "DIC": "Yes"
+              }
+            ]
+          ]
+        },
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "rubella",
+          "url": "https://wikem.org/wiki/Rubella"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Alport syndrome",
+          "url": "https://wikem.org/wiki/Alport_syndrome"
+        },
+        {
+          "text": "Vitamin B12",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Idiopathic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Idiopathic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Thrombotic Thrombocytopenic Purpura (TTP)",
+          "url": "https://wikem.org/wiki/Thrombotic_Thrombocytopenic_Purpura_(TTP)"
+        },
+        {
+          "text": "Hemolytic Uremic Syndrome (HUS)",
+          "url": "https://wikem.org/wiki/Hemolytic_Uremic_Syndrome_(HUS)"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "mumps",
+          "url": "https://wikem.org/wiki/Mumps"
+        },
+        {
+          "text": "varicella",
+          "url": "https://wikem.org/wiki/Varicella"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "protamine",
+          "url": "https://wikem.org/wiki/Protamine"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        },
+        {
+          "text": "HELLP",
+          "url": "https://wikem.org/wiki/HELLP"
+        },
+        {
+          "text": "hemorrhage",
+          "url": "https://wikem.org/wiki/Hemorrhage"
+        },
+        {
+          "text": "Hemodialysis",
+          "url": "https://wikem.org/wiki/Hemodialysis"
+        },
+        {
+          "text": "Sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "ETOH",
+          "url": "https://wikem.org/wiki/ETOH"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "furosemide",
+          "url": "https://wikem.org/wiki/Furosemide"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Coagulopathy": {
+      "text": "",
+      "subsections": {
+        "Platelet_Related": {
+          "text": "Too few\nThrombocytopenia\nNonfunctional\nAspirin\nVon Willebrand disease",
+          "tables": []
+        },
+        "Factor_Related": {
+          "text": "Acquired (Drug Related)\nWarfarin (Coumadin)\nUnfractionated heparin\nLow molecular weight heparin\n(i.e.\nenoxaparin\n(Lovenox),\ndalteparin\n)\nFactor Xa Inhibitors (e.g.\nrivaroxaban\n,\napixaban\n,\nfondaparinux\n,\nedoxaban\n)\nDirect thrombin inhibitors (e.g.\ndabigatran\n,\nargatroban\n,\nbivalirudin\n)\nIllness induced\nVitamin K deficiency\nDisseminated Intravascular Coagulation (DIC)\nLiver disease induced coagulopathy\nUremic bleeding syndrome\nGenetic\nHemophilia\nFactor VIII inhibitor\nLupus anticoagulant",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "Warfarin (Coumadin)",
+          "url": "https://wikem.org/wiki/Warfarin_(Coumadin)"
+        },
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "Low molecular weight heparin",
+          "url": "https://wikem.org/wiki/Low_molecular_weight_heparin"
+        },
+        {
+          "text": "enoxaparin",
+          "url": "https://wikem.org/wiki/Enoxaparin"
+        },
+        {
+          "text": "dalteparin",
+          "url": "https://wikem.org/wiki/Dalteparin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "apixaban",
+          "url": "https://wikem.org/wiki/Apixaban"
+        },
+        {
+          "text": "fondaparinux",
+          "url": "https://wikem.org/wiki/Fondaparinux"
+        },
+        {
+          "text": "edoxaban",
+          "url": "https://wikem.org/wiki/Edoxaban"
+        },
+        {
+          "text": "dabigatran",
+          "url": "https://wikem.org/wiki/Dabigatran"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "bivalirudin",
+          "url": "https://wikem.org/wiki/Bivalirudin"
+        },
+        {
+          "text": "Vitamin K deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_K_deficiency"
+        },
+        {
+          "text": "Disseminated Intravascular Coagulation (DIC)",
+          "url": "https://wikem.org/wiki/Disseminated_Intravascular_Coagulation_(DIC)"
+        },
+        {
+          "text": "Liver disease induced coagulopathy",
+          "url": "https://wikem.org/wiki/Liver_disease_induced_coagulopathy"
+        },
+        {
+          "text": "Uremic bleeding syndrome",
+          "url": "https://wikem.org/wiki/Uremic_bleeding_syndrome"
+        },
+        {
+          "text": "Hemophilia",
+          "url": "https://wikem.org/wiki/Hemophilia"
+        },
+        {
+          "text": "Factor VIII inhibitor",
+          "url": "https://wikem.org/wiki/Factor_VIII_inhibitor"
+        },
+        {
+          "text": "Lupus anticoagulant",
+          "url": "https://wikem.org/wiki/Lupus_anticoagulant"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Platelet count (CBC)\nAdditional workup per clinical presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Patient treatments are stratified by the presence or absence of bleeding and in the non bleeding patient by the platelet number and the presumed cause of the thrombocytopenia",
+      "subsections": {
+        "Platelet_Transfusion_Thresholds": {
+          "text": "most if not all of the following thresholds are based on weak recommendations with low quality evidence\n[1]\n<50K if planned lumbar puncture or neurosurgical procedure\n[2]\n<20K if planned for central venous catheter placement (preference toward compressible site), or febrile patient\n<10K in asymptomatic patients (unless due to\nITP\n,\nTTP\n, or\nHIT\n)\nThere are no firm recommendations for transfusion thresholds in acute traumatic bleeding but many providers will opt for a goal of 100K, especially if there is evidence of\nICH",
+          "tables": []
+        },
+        "Transfusion_contraindications": {
+          "text": "TTP\n,\nDIC\n,\nHIT",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "1 unit of\nplatelets\nper 5kg body weight raises count by 50k",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        }
+      ]
+    },
+    "Platelet_Transfusion_Thresholds": {
+      "text": "most if not all of the following thresholds are based on weak recommendations with low quality evidence\n[1]\n<50K if planned lumbar puncture or neurosurgical procedure\n[2]\n<20K if planned for central venous catheter placement (preference toward compressible site), or febrile patient\n<10K in asymptomatic patients (unless due to\nITP\n,\nTTP\n, or\nHIT\n)\nThere are no firm recommendations for transfusion thresholds in acute traumatic bleeding but many providers will opt for a goal of 100K, especially if there is evidence of\nICH",
+      "subsections": {
+        "Transfusion_contraindications": {
+          "text": "TTP\n,\nDIC\n,\nHIT",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "1 unit of\nplatelets\nper 5kg body weight raises count by 50k",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        }
+      ]
+    },
+    "Transfusion_contraindications": {
+      "text": "TTP\n,\nDIC\n,\nHIT",
+      "subsections": {
+        "Pediatrics": {
+          "text": "1 unit of\nplatelets\nper 5kg body weight raises count by 50k",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        },
+        {
+          "text": "HIT",
+          "url": "https://wikem.org/wiki/HIT"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "1 unit of\nplatelets\nper 5kg body weight raises count by 50k",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Coagulopathy (Main)\nPlatelet Transfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy (Main)",
+          "url": "https://wikem.org/wiki/Coagulopathy_(Main)"
+        },
+        {
+          "text": "Platelet Transfusion",
+          "url": "https://wikem.org/wiki/Platelet_Transfusion"
+        }
+      ]
+    }
+  }
+}
