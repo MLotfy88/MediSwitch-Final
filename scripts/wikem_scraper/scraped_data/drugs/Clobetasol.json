@@ -1,0 +1,61 @@
+{
+  "drug_name": "Clobetasol",
+  "url": "https://wikem.org/wiki/Clobetasol",
+  "scraped_at": "2026-01-10T03:09:39.929720",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Most indications: apply to affected area of skin BID, max 50g/week\nGenital lichen sclerosus: apply to vulva once daily\nScalp psoriasis: apply shampoo to affected areas dry scalp once daily; leave in place 15 minutes before lathering and rinsing. Max 50ml/week x 2 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in children <12yo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing:\nHepatic dosing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPrimary scalp infection",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Secondary hypocortisolism (higher risk in pediatrics)\nIntracranial hypertension",
+          "tables": []
+        },
+        "Common": {
+          "text": "Skin atrophy, asteatotic eczema\nSkin irritation, burning, discomfort, dryness\nPruritus\nTelangiectasia\nUpper respiratory infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life:\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
