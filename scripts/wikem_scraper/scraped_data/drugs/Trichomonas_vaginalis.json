@@ -1,0 +1,339 @@
+{
+  "drug_name": "Trichomonas_vaginalis",
+  "url": "https://wikem.org/wiki/Trichomonas_vaginalis",
+  "scraped_at": "2026-01-10T08:04:15.338054",
+  "sections": {
+    "Background": {
+      "text": "Is\nconsidered an\nSTI\nMost cases are asymptomatic (in both men and women).\nMay persist for months to years in infected patients, thus making it difficult to identify whether a patient’s last sexual partner is the source of the infection.\nAssociated with preterm birth,\nPID\n, cervical cancer, increased transmission of other\nSTIs\ninflammation of vaginal leads to increased\nHIV\nsusceptibility\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "STIs",
+          "url": "https://wikem.org/wiki/STIs"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Yellow/green, malodorous\nvaginal discharge\nVaginal erythema or edema\n\"Strawberry Cervix\" on speculum examination.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "vaginal discharge",
+          "url": "https://wikem.org/wiki/Vaginal_discharge"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Vulvovaginitis": {
+          "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+          "tables": []
+        },
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Vulvovaginitis": {
+      "text": "Bacterial vaginosis\nCandida vaginitis\nTrichomonas vaginalis\nContact vulvovaginitis\nBubble baths and soaps\nDeodorants, powders, and douches\nClothing\nAtrophic vaginitis\ndue to lack of estrogen (AKA Vulvovaginal atrophy)\nLichen sclerosus\nTinea cruris\nChlamydia\n/\nGonorrhea\ninfection\nPinworms\nVaginal foreign body\nToilet paper\nOther\nGenitourinary syndrome of menopause\nForeign body\nAllergic reaction\nNormal physiologic discharge",
+      "subsections": {
+        "Sexually_transmitted_diseases": {
+          "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bacterial vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_vaginosis"
+        },
+        {
+          "text": "Candida vaginitis",
+          "url": "https://wikem.org/wiki/Candida_vaginitis"
+        },
+        {
+          "text": "Contact vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Lichen sclerosus",
+          "url": "https://wikem.org/wiki/Lichen_sclerosus"
+        },
+        {
+          "text": "Tinea cruris",
+          "url": "https://wikem.org/wiki/Tinea_cruris"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Gonorrhea",
+          "url": "https://wikem.org/wiki/Gonorrhea"
+        },
+        {
+          "text": "Vaginal foreign body",
+          "url": "https://wikem.org/wiki/Vaginal_foreign_body"
+        },
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Sexually_transmitted_diseases": {
+      "text": "Chancroid\nChlamydia trachomatis\nGranuloma inguinale\nHepatitis B\nHerpes Simplex Virus-2\nHIV\nHuman papillomavirus\nLymphogranuloma venereum\nNeisseria gonorrhoeae\nTrichomonas\nSyphilis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chancroid",
+          "url": "https://wikem.org/wiki/Chancroid"
+        },
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "Granuloma inguinale",
+          "url": "https://wikem.org/wiki/Granuloma_inguinale"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Herpes Simplex Virus-2",
+          "url": "https://wikem.org/wiki/Herpes_Simplex_Virus-2"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "Human papillomavirus",
+          "url": "https://wikem.org/wiki/Human_papillomavirus"
+        },
+        {
+          "text": "Lymphogranuloma venereum",
+          "url": "https://wikem.org/wiki/Lymphogranuloma_venereum"
+        },
+        {
+          "text": "Neisseria gonorrhoeae",
+          "url": "https://wikem.org/wiki/Neisseria_gonorrhoeae"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Wet mount shows mobile trichomonads",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Non-Pregnant": {
+          "text": "Metronidazole\n500mg PO BID for 7 days\n[2]\nTinidazole\n2g PO once",
+          "tables": []
+        },
+        "Pregnant": {
+          "text": "Only treat if the patient is symptomatic\nMetronidazole\n500mg PO BID for 7 days\n[3]",
+          "tables": []
+        },
+        "Sexual_Partner_Treatment": {
+          "text": "Female: Same as above\nMale:\nMetronidazole\n2 gm PO x1\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Tinidazole",
+          "url": "https://wikem.org/wiki/Tinidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        },
+        {
+          "text": "Metronidazole",
+          "url": "https://wikem.org/wiki/Metronidazole"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Vulvovaginitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        }
+      ]
+    }
+  }
+}

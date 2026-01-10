@@ -1,0 +1,792 @@
+{
+  "drug_name": "Transfusion-related_acute_lung_injury",
+  "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury",
+  "scraped_at": "2026-01-10T08:04:01.777484",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Leading cause of transfusion related mortality in the US – 5-8%\n[1]\n[2]\nOccurs at a rate of 0.04-0.1%, or 1/5000, transfused blood components\n[3]\n[4]\n[5]\n[6]\nHigher in critically ill",
+          "tables": []
+        },
+        "Pathophysiology": {
+          "text": "Two-hit mechanism\n[3]\n[7]\n[8]\nNeutrophil sequestration and priming in lung microvasculature\nRecipient neutrophil activation by factor in the blood product\n(i.e. antibodies in blood component directed at recipient antigens, bioactive lipids, etc.)\nNeutrophils release cytokines, reactive oxygen species, etc. that damage pulmonary capillary endothelium\nLeads to\ninflammatory pulmonary edema",
+          "tables": []
+        },
+        "Recipient_factors[9][10][11]": {
+          "text": "Liver disease\nHematologic malignancy\nAlcohol abuse\nHigh peak airway pressures on mechanical ventilation\nCurrent smoking\nPositive fluid balance\nMassive transfusion\nCritical illness\nSepsis\nShock",
+          "tables": []
+        },
+        "Blood_component_factors": {
+          "text": "Plasma or whole blood from female donor\nVolume of HLA class II antibody reactive to recipient HLA antigen\nVolume of transfused anti-human neutrophil antigen antibody\nHighest risk components (though can occur with any, including pRBC)\nPlasma\nApheresis platelet concentrates\nWhole blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol abuse",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Leading cause of transfusion related mortality in the US – 5-8%\n[1]\n[2]\nOccurs at a rate of 0.04-0.1%, or 1/5000, transfused blood components\n[3]\n[4]\n[5]\n[6]\nHigher in critically ill",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Two-hit mechanism\n[3]\n[7]\n[8]\nNeutrophil sequestration and priming in lung microvasculature\nRecipient neutrophil activation by factor in the blood product\n(i.e. antibodies in blood component directed at recipient antigens, bioactive lipids, etc.)\nNeutrophils release cytokines, reactive oxygen species, etc. that damage pulmonary capillary endothelium\nLeads to\ninflammatory pulmonary edema",
+          "tables": []
+        },
+        "Recipient_factors[9][10][11]": {
+          "text": "Liver disease\nHematologic malignancy\nAlcohol abuse\nHigh peak airway pressures on mechanical ventilation\nCurrent smoking\nPositive fluid balance\nMassive transfusion\nCritical illness\nSepsis\nShock",
+          "tables": []
+        },
+        "Blood_component_factors": {
+          "text": "Plasma or whole blood from female donor\nVolume of HLA class II antibody reactive to recipient HLA antigen\nVolume of transfused anti-human neutrophil antigen antibody\nHighest risk components (though can occur with any, including pRBC)\nPlasma\nApheresis platelet concentrates\nWhole blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol abuse",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Pathophysiology": {
+      "text": "Two-hit mechanism\n[3]\n[7]\n[8]\nNeutrophil sequestration and priming in lung microvasculature\nRecipient neutrophil activation by factor in the blood product\n(i.e. antibodies in blood component directed at recipient antigens, bioactive lipids, etc.)\nNeutrophils release cytokines, reactive oxygen species, etc. that damage pulmonary capillary endothelium\nLeads to\ninflammatory pulmonary edema",
+      "subsections": {
+        "Recipient_factors[9][10][11]": {
+          "text": "Liver disease\nHematologic malignancy\nAlcohol abuse\nHigh peak airway pressures on mechanical ventilation\nCurrent smoking\nPositive fluid balance\nMassive transfusion\nCritical illness\nSepsis\nShock",
+          "tables": []
+        },
+        "Blood_component_factors": {
+          "text": "Plasma or whole blood from female donor\nVolume of HLA class II antibody reactive to recipient HLA antigen\nVolume of transfused anti-human neutrophil antigen antibody\nHighest risk components (though can occur with any, including pRBC)\nPlasma\nApheresis platelet concentrates\nWhole blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol abuse",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Risk_factors": {
+      "text": "",
+      "subsections": {
+        "Recipient_factors[9][10][11]": {
+          "text": "Liver disease\nHematologic malignancy\nAlcohol abuse\nHigh peak airway pressures on mechanical ventilation\nCurrent smoking\nPositive fluid balance\nMassive transfusion\nCritical illness\nSepsis\nShock",
+          "tables": []
+        },
+        "Blood_component_factors": {
+          "text": "Plasma or whole blood from female donor\nVolume of HLA class II antibody reactive to recipient HLA antigen\nVolume of transfused anti-human neutrophil antigen antibody\nHighest risk components (though can occur with any, including pRBC)\nPlasma\nApheresis platelet concentrates\nWhole blood",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Alcohol abuse",
+          "url": "https://wikem.org/wiki/Ethanol_toxicity"
+        },
+        {
+          "text": "Massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Shock"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Acute onset hypoxemic respiratory failure due to non-cardiogenic pulmonary edema occurring during or shortly after transfusion\nMajority of cases present within minutes of initiating transfusion\n[3]\nSome present 1-2 hours post-transfusion and up to 6 hours after\n[13]\n[14]\nMost common signs/symptoms\n[15]\nHypoxemia\nNew pulmonary infiltrates\nPink frothy secretions via ETT\nFever\n(as opposed to\nTACO\n, where fever is uncommon)\nHypotension\nCyanosis\nOther Symptoms\nTachypnea\nTachycardia\nElevated peak/plateau pressures on ventilator\nTransient drip in peripheral neutrophil count (from neutrophil sequestration in lung)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "TACO",
+          "url": "https://wikem.org/wiki/TACO"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Tachypnea",
+          "url": "https://wikem.org/wiki/Tachypnea"
+        },
+        {
+          "text": "Tachycardia",
+          "url": "https://wikem.org/wiki/Tachycardia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        },
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Transfusion_Reaction_Types": {
+      "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-associated graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ABG\nCXR\nRule out other possible etiologies (i.e. CHF, TACO, anaphylaxis, sepsis, etc.)",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Clinical diagnosis\nConsider in any patient during/post-transfusion who develops hypoxemic respiratory insufficiency\nDiagnostic criteria (NHLBI working group and Canadian Consensus Conference on TRALI):\n[13]\n[16]",
+          "tables": []
+        },
+        "TRALI_and_Possible_TRALI": {
+          "text": "ALI/\nARDS\nrisk factor*- aspiration, toxic inhalation, pneumonia, pulmonary contusion, near drowning, shock, severe sepsis, multiple trauma, burn injury, acute pancreatitis, cardiopulmonary bypass, drug overdose\nDiagnosis of \"possible TRALI\" (aka \"transfused ARDS\") made when temporal relationship to an alternative cause for ARDS exists",
+          "tables": []
+        },
+        "TRALI_vs_TACO": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Onset",
+                "TRALI": "Acute, within 6hrs",
+                "TACO": "Often more gradual"
+              },
+              {
+                "": "BP",
+                "TRALI": "Low",
+                "TACO": "High"
+              },
+              {
+                "": "Temp",
+                "TRALI": "Febrile",
+                "TACO": "Normal"
+              },
+              {
+                "": "JVD/pedal edema",
+                "TRALI": "Unlikely",
+                "TACO": "Likely"
+              },
+              {
+                "": "CVP/PAWP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "BNP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "Resp",
+                "TRALI": "Dyspneic",
+                "TACO": "Dyspneic"
+              },
+              {
+                "": "CXR",
+                "TRALI": "B/l infiltrates",
+                "TACO": "B/l infiltrates"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ABG\nCXR\nRule out other possible etiologies (i.e. CHF, TACO, anaphylaxis, sepsis, etc.)",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Clinical diagnosis\nConsider in any patient during/post-transfusion who develops hypoxemic respiratory insufficiency\nDiagnostic criteria (NHLBI working group and Canadian Consensus Conference on TRALI):\n[13]\n[16]",
+          "tables": []
+        },
+        "TRALI_and_Possible_TRALI": {
+          "text": "ALI/\nARDS\nrisk factor*- aspiration, toxic inhalation, pneumonia, pulmonary contusion, near drowning, shock, severe sepsis, multiple trauma, burn injury, acute pancreatitis, cardiopulmonary bypass, drug overdose\nDiagnosis of \"possible TRALI\" (aka \"transfused ARDS\") made when temporal relationship to an alternative cause for ARDS exists",
+          "tables": []
+        },
+        "TRALI_vs_TACO": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Onset",
+                "TRALI": "Acute, within 6hrs",
+                "TACO": "Often more gradual"
+              },
+              {
+                "": "BP",
+                "TRALI": "Low",
+                "TACO": "High"
+              },
+              {
+                "": "Temp",
+                "TRALI": "Febrile",
+                "TACO": "Normal"
+              },
+              {
+                "": "JVD/pedal edema",
+                "TRALI": "Unlikely",
+                "TACO": "Likely"
+              },
+              {
+                "": "CVP/PAWP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "BNP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "Resp",
+                "TRALI": "Dyspneic",
+                "TACO": "Dyspneic"
+              },
+              {
+                "": "CXR",
+                "TRALI": "B/l infiltrates",
+                "TACO": "B/l infiltrates"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis\nConsider in any patient during/post-transfusion who develops hypoxemic respiratory insufficiency\nDiagnostic criteria (NHLBI working group and Canadian Consensus Conference on TRALI):\n[13]\n[16]",
+      "subsections": {
+        "TRALI_and_Possible_TRALI": {
+          "text": "ALI/\nARDS\nrisk factor*- aspiration, toxic inhalation, pneumonia, pulmonary contusion, near drowning, shock, severe sepsis, multiple trauma, burn injury, acute pancreatitis, cardiopulmonary bypass, drug overdose\nDiagnosis of \"possible TRALI\" (aka \"transfused ARDS\") made when temporal relationship to an alternative cause for ARDS exists",
+          "tables": []
+        },
+        "TRALI_vs_TACO": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Onset",
+                "TRALI": "Acute, within 6hrs",
+                "TACO": "Often more gradual"
+              },
+              {
+                "": "BP",
+                "TRALI": "Low",
+                "TACO": "High"
+              },
+              {
+                "": "Temp",
+                "TRALI": "Febrile",
+                "TACO": "Normal"
+              },
+              {
+                "": "JVD/pedal edema",
+                "TRALI": "Unlikely",
+                "TACO": "Likely"
+              },
+              {
+                "": "CVP/PAWP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "BNP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "Resp",
+                "TRALI": "Dyspneic",
+                "TACO": "Dyspneic"
+              },
+              {
+                "": "CXR",
+                "TRALI": "B/l infiltrates",
+                "TACO": "B/l infiltrates"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "TRALI_and_Possible_TRALI": {
+      "text": "ALI/\nARDS\nrisk factor*- aspiration, toxic inhalation, pneumonia, pulmonary contusion, near drowning, shock, severe sepsis, multiple trauma, burn injury, acute pancreatitis, cardiopulmonary bypass, drug overdose\nDiagnosis of \"possible TRALI\" (aka \"transfused ARDS\") made when temporal relationship to an alternative cause for ARDS exists",
+      "subsections": {
+        "TRALI_vs_TACO": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Onset",
+                "TRALI": "Acute, within 6hrs",
+                "TACO": "Often more gradual"
+              },
+              {
+                "": "BP",
+                "TRALI": "Low",
+                "TACO": "High"
+              },
+              {
+                "": "Temp",
+                "TRALI": "Febrile",
+                "TACO": "Normal"
+              },
+              {
+                "": "JVD/pedal edema",
+                "TRALI": "Unlikely",
+                "TACO": "Likely"
+              },
+              {
+                "": "CVP/PAWP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "BNP",
+                "TRALI": "Normal",
+                "TACO": "Elevated"
+              },
+              {
+                "": "Resp",
+                "TRALI": "Dyspneic",
+                "TACO": "Dyspneic"
+              },
+              {
+                "": "CXR",
+                "TRALI": "B/l infiltrates",
+                "TACO": "B/l infiltrates"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ARDS",
+          "url": "https://wikem.org/wiki/ARDS"
+        }
+      ]
+    },
+    "TRALI_vs_TACO": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Onset",
+            "TRALI": "Acute, within 6hrs",
+            "TACO": "Often more gradual"
+          },
+          {
+            "": "BP",
+            "TRALI": "Low",
+            "TACO": "High"
+          },
+          {
+            "": "Temp",
+            "TRALI": "Febrile",
+            "TACO": "Normal"
+          },
+          {
+            "": "JVD/pedal edema",
+            "TRALI": "Unlikely",
+            "TACO": "Likely"
+          },
+          {
+            "": "CVP/PAWP",
+            "TRALI": "Normal",
+            "TACO": "Elevated"
+          },
+          {
+            "": "BNP",
+            "TRALI": "Normal",
+            "TACO": "Elevated"
+          },
+          {
+            "": "Resp",
+            "TRALI": "Dyspneic",
+            "TACO": "Dyspneic"
+          },
+          {
+            "": "CXR",
+            "TRALI": "B/l infiltrates",
+            "TACO": "B/l infiltrates"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "STOP the transfusion\nand report to the blood bank for transfusion reaction work-up\nTypically includes CBC, bilirubin, haptaglobin, direct Coombs test, BNP, HLA antigen typing\nSupportive care (i.e. treat like ARDS)\nO2\nsupplementation\nNIV\npressure support or\nmechanical ventilation\nIf mechanical ventilation required, ARDSnet guidelines for ventilator management\nBP support\nConsider\ndiuresis\nonly\nafter demonstrated hemodynamic stability\nno early empiric administration\n- associated with hypotension\n[2]\n[17]\nECMO\n[18]\nAdditional transfusions\nFor those who recover,\nno increased risk for recurrent episode from other donors\nTransfusion of needed blood products from other donors should not be withheld",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "NIV",
+          "url": "https://wikem.org/wiki/NIPPV"
+        },
+        {
+          "text": "mechanical ventilation",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation"
+        },
+        {
+          "text": "diuresis",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "ECMO",
+          "url": "https://wikem.org/wiki/ECMO"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Majority require ICU admission and mechanical ventilation\n[9]\nMean duration of mechanical ventilation 40 hours, upwards of 10 days\n[3]\n[9]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Mortality\nNon-critically ill with TRALI - 5-7%\n[19]\n[20]\n[21]\nCritically ill with TRALI - 41-67%\n[6]\n[9]\n[10]\n[22]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Transfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    }
+  }
+}

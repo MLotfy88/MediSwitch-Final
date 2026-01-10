@@ -1,0 +1,207 @@
+{
+  "drug_name": "Trientine",
+  "url": "https://wikem.org/wiki/Trientine",
+  "scraped_at": "2026-01-10T08:04:15.550722",
+  "sections": {
+    "Administration": {
+      "text": "Type:\nAntidote\nDosage Forms: Capsule 250mg\nRoutes of Administration: Oral\nCommon Trade Names: Syprine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Wilson's_disease": {
+          "text": "750-1250 mg/day PO divided BID-QID\nMax: 2000 mg/day",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Wilson's_disease": {
+      "text": "750-1250 mg/day PO divided BID-QID\nMax: 2000 mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Wilson's_disease_2": {
+          "text": "< 13 yo\n20 mg/kg/day PO divided BID-TID\n13 yo +\n750-1250 mg/day divided BID-QID",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Wilson's_disease_2": {
+      "text": "< 13 yo\n20 mg/kg/day PO divided BID-TID\n13 yo +\n750-1250 mg/day divided BID-QID",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Category C; clinical caution advised during pregnancy",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Category C; clinical caution advised during pregnancy",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Caution advised while breastfeeding",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Caution advised while breastfeeding",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not defined\nPediatric: Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nRheumatoid arthritis\nBiliary cirrhosis\nCystinuria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rheumatoid arthritis",
+          "url": "https://wikem.org/wiki/Rheumatoid_arthritis"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "May occur, but none have been reported",
+          "tables": []
+        },
+        "Common": {
+          "text": "Iron-deficient\nanemia\nLupus erythematosus\nContact dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "May occur, but none have been reported",
+      "subsections": {
+        "Common": {
+          "text": "Iron-deficient\nanemia\nLupus erythematosus\nContact dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Iron-deficient\nanemia\nLupus erythematosus\nContact dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: Unknown\nMetabolism: Unknown\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Chelates copper for excretion from the body",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Copper toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        }
+      ]
+    }
+  }
+}

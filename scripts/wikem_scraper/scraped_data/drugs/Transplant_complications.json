@@ -1,0 +1,404 @@
+{
+  "drug_name": "Transplant_complications",
+  "url": "https://wikem.org/wiki/Transplant_complications",
+  "scraped_at": "2026-01-10T08:04:03.418034",
+  "sections": {
+    "Background": {
+      "text": "Transplanted (solid) organ frequency: kidney > liver > heart > lung > pancreas > other (combined and intestines)\nMost transplant-related emergencies due to one of the following:\nInfection\nMedication side effect\nGraft-versus-host disease\nPostoperative complications\nAltered physiology due to transplanted organ",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Types of presentations\nInfection (39%)\nNoninfectious GI/GU pathology (15%)\nDehydration (15%)\nElectrolyte disturbances (10%)\nCardiopulmonary pathology (10%)\nInjury (8%)\nRejection (6%)\nAcute graft-versus-host disease occurs in 20% to 80% of patients post-hematopoietic stem cell transplantation (HSCT); rarely occurs in solid organ transplant\n[1]",
+          "tables": []
+        },
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        },
+        "Infections": {
+          "text": "Time from transplantation affects the risk and type of infection.\nEarly (within the first month)\nDonor-derived - bacterial, fungal, parasitic\nNosocomial & surgical-site -\nC. diff\n,\naspiration Pneumonia\n,\nUTI\n, surgical-site, superinfection of graft tissue\nIntermediate (1-6 months after)\nHighest risk for opportunistic infections\n-\nPCP\n,\nTB\n, fungal (\ncryptococcus\n,\nhistoplasma\n), viral (BK virus,\nhepatitis B\n/\nC\n,\nCMV\n)\nDormant host infection reactivation -\nHSV\n,\nVZV\n,\nEBV\nLate (more than 6 months after)\nCommunity-acquired infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Graft-versus-host_disease"
+        },
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "aspiration Pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Types of presentations\nInfection (39%)\nNoninfectious GI/GU pathology (15%)\nDehydration (15%)\nElectrolyte disturbances (10%)\nCardiopulmonary pathology (10%)\nInjury (8%)\nRejection (6%)\nAcute graft-versus-host disease occurs in 20% to 80% of patients post-hematopoietic stem cell transplantation (HSCT); rarely occurs in solid organ transplant\n[1]",
+      "subsections": {
+        "Immunosuppressant_Medications": {
+          "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+          "tables": []
+        },
+        "Infections": {
+          "text": "Time from transplantation affects the risk and type of infection.\nEarly (within the first month)\nDonor-derived - bacterial, fungal, parasitic\nNosocomial & surgical-site -\nC. diff\n,\naspiration Pneumonia\n,\nUTI\n, surgical-site, superinfection of graft tissue\nIntermediate (1-6 months after)\nHighest risk for opportunistic infections\n-\nPCP\n,\nTB\n, fungal (\ncryptococcus\n,\nhistoplasma\n), viral (BK virus,\nhepatitis B\n/\nC\n,\nCMV\n)\nDormant host infection reactivation -\nHSV\n,\nVZV\n,\nEBV\nLate (more than 6 months after)\nCommunity-acquired infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "aspiration Pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        }
+      ]
+    },
+    "Immunosuppressant_Medications": {
+      "text": "Balance between immune suppression, rejection and susceptibility to infection\nTypical regimen includes: calcineurin inhibitor + antimetabolite + steroid\nCalcineurin inhibitor\nCyclosporine\nTacrolimus\nSteroids\nPrednisone\n/\nPrednisolone\n+/- Antimetabolite\nAzathioprine\nMycophenolate mofetil\n(MMF)",
+      "subsections": {
+        "Infections": {
+          "text": "Time from transplantation affects the risk and type of infection.\nEarly (within the first month)\nDonor-derived - bacterial, fungal, parasitic\nNosocomial & surgical-site -\nC. diff\n,\naspiration Pneumonia\n,\nUTI\n, surgical-site, superinfection of graft tissue\nIntermediate (1-6 months after)\nHighest risk for opportunistic infections\n-\nPCP\n,\nTB\n, fungal (\ncryptococcus\n,\nhistoplasma\n), viral (BK virus,\nhepatitis B\n/\nC\n,\nCMV\n)\nDormant host infection reactivation -\nHSV\n,\nVZV\n,\nEBV\nLate (more than 6 months after)\nCommunity-acquired infection",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyclosporine",
+          "url": "https://wikem.org/wiki/Cyclosporine"
+        },
+        {
+          "text": "Tacrolimus",
+          "url": "https://wikem.org/wiki/Tacrolimus"
+        },
+        {
+          "text": "Steroids",
+          "url": "https://wikem.org/wiki/Steroids"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Azathioprine",
+          "url": "https://wikem.org/wiki/Azathioprine"
+        },
+        {
+          "text": "Mycophenolate mofetil",
+          "url": "https://wikem.org/wiki/Mycophenolate_mofetil"
+        },
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "aspiration Pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        }
+      ]
+    },
+    "Infections": {
+      "text": "Time from transplantation affects the risk and type of infection.\nEarly (within the first month)\nDonor-derived - bacterial, fungal, parasitic\nNosocomial & surgical-site -\nC. diff\n,\naspiration Pneumonia\n,\nUTI\n, surgical-site, superinfection of graft tissue\nIntermediate (1-6 months after)\nHighest risk for opportunistic infections\n-\nPCP\n,\nTB\n, fungal (\ncryptococcus\n,\nhistoplasma\n), viral (BK virus,\nhepatitis B\n/\nC\n,\nCMV\n)\nDormant host infection reactivation -\nHSV\n,\nVZV\n,\nEBV\nLate (more than 6 months after)\nCommunity-acquired infection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "C. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "aspiration Pneumonia",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "PCP",
+          "url": "https://wikem.org/wiki/PCP"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "cryptococcus",
+          "url": "https://wikem.org/wiki/Cryptococcus"
+        },
+        {
+          "text": "histoplasma",
+          "url": "https://wikem.org/wiki/Histoplasma"
+        },
+        {
+          "text": "hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "VZV",
+          "url": "https://wikem.org/wiki/VZV"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        }
+      ]
+    },
+    "Types": {
+      "text": "Graft-vs-host disease\nStem cell transplant complications\nKidney transplant complications\nLiver transplant complications\nHeart transplant complications\nLung transplant complications\nPancreas transplant complications\nMore severe or opportunistic infections due to immunocompromise\nMay be afebrile due to immunosuppression, have low treshhold for infectious work-up",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        },
+        {
+          "text": "Kidney transplant complications",
+          "url": "https://wikem.org/wiki/Kidney_transplant_complications"
+        },
+        {
+          "text": "Liver transplant complications",
+          "url": "https://wikem.org/wiki/Liver_transplant_complications"
+        },
+        {
+          "text": "Heart transplant complications",
+          "url": "https://wikem.org/wiki/Heart_transplant_complications"
+        },
+        {
+          "text": "Lung transplant complications",
+          "url": "https://wikem.org/wiki/Lung_transplant_complications"
+        },
+        {
+          "text": "Pancreas transplant complications",
+          "url": "https://wikem.org/wiki/Pancreas_transplant_complications"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Immunocompromised antibiotics",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        }
+      ]
+    }
+  }
+}

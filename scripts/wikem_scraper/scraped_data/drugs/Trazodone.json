@@ -1,0 +1,101 @@
+{
+  "drug_name": "Trazodone",
+  "url": "https://wikem.org/wiki/Trazodone",
+  "scraped_at": "2026-01-10T08:04:12.781593",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antidepressant\nDosage Forms:\nRoutes of Administration: oral\nCommon Trade Names: Desyrel",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Insomnia: 50-100mg PO at bedtime\nDepression: 150-600 mg/day in divided doses",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation risk\n: Infant risk cannot be ruled out\nRenal dosing: no adjustment\nHepatic dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMAOI use currently or in past 2 weeks\nConcomitant use of saquinavir/ritonavir",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Prolonged QT, Torsades de pointes\nHypotension\nSerotonin syndrome\nSuicidal thoughts/behavior\nSeizure\nPriapism",
+          "tables": []
+        },
+        "Common": {
+          "text": "Somnolence, dizziness, confusion, insomnia, anxiety, dream disorder\nHeadache, blurred vision\nConstipation, nausea/vomiting, xerostomia\nBackache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Prolonged QT, Torsades de pointes\nHypotension\nSerotonin syndrome\nSuicidal thoughts/behavior\nSeizure\nPriapism",
+      "subsections": {
+        "Common": {
+          "text": "Somnolence, dizziness, confusion, insomnia, anxiety, dream disorder\nHeadache, blurred vision\nConstipation, nausea/vomiting, xerostomia\nBackache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Somnolence, dizziness, confusion, insomnia, anxiety, dream disorder\nHeadache, blurred vision\nConstipation, nausea/vomiting, xerostomia\nBackache",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 7h\nMetabolism: Hepatic, CYP3A4\nExcretion: Mostly renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Not well understood. May act like a SSRI. Also an α-1 adrenergic antagonist",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Trazodone toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trazodone toxicity",
+          "url": "https://wikem.org/wiki/Trazodone_toxicity"
+        }
+      ]
+    }
+  }
+}

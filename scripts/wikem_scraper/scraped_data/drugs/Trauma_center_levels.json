@@ -1,0 +1,131 @@
+{
+  "drug_name": "Trauma_center_levels",
+  "url": "https://wikem.org/wiki/Trauma_center_levels",
+  "scraped_at": "2026-01-10T08:04:06.633839",
+  "sections": {
+    "Back_Ground": {
+      "text": "Trauma centers are categorized from Level I-V with designation of adult and pediatric care\nCenters are evaluated and verified by the ACS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "US_Trauma_Center_Levels": {
+      "text": "",
+      "subsections": {
+        "Level_I": {
+          "text": "24-hour in-house coverage by gen surg, and prompt availability of care in ortho, NS, anesthesiology, EM, IM, rads, plastics, OMFS, and critical care\nReferral center\nCommunity leadership and education\nContinuing education\nQA program\nOperates an organized teaching and research effort",
+          "tables": []
+        },
+        "Level_II": {
+          "text": "24-hour immediate coverage by gen surg, as well as coverage by ortho, NS, anesthesiology, EM, rads, and critical care\nTertiary care needs such as CT surg, need for HD, vasc surgery may be referred to a Level I Trauma Center\nProvides trauma prevention and to continuing education programs\nQA program",
+          "tables": []
+        },
+        "Level_III": {
+          "text": "24-hour immediate coverage by EM providers and the prompt availability of gen surgery and anesthesiology\nQA program\nTransfer agreements with Level I and/or Level II Trauma Centers\nProvides back-up care for rural and community hospitals\nContinuing education",
+          "tables": []
+        },
+        "Level_IV": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\n24-hour labs\nMay provide surgery and critical-care services\nTransfer agreements with Level I and/or Level II Trauma Centers\nQA program",
+          "tables": []
+        },
+        "Level_V": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\nAfter-hours activation protocols if facility is not open 24-hours a day\nMay provide surgery and critical-care services if available\nTransfer agreements with Level I and/or Level II Trauma Centers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Level_I": {
+      "text": "24-hour in-house coverage by gen surg, and prompt availability of care in ortho, NS, anesthesiology, EM, IM, rads, plastics, OMFS, and critical care\nReferral center\nCommunity leadership and education\nContinuing education\nQA program\nOperates an organized teaching and research effort",
+      "subsections": {
+        "Level_II": {
+          "text": "24-hour immediate coverage by gen surg, as well as coverage by ortho, NS, anesthesiology, EM, rads, and critical care\nTertiary care needs such as CT surg, need for HD, vasc surgery may be referred to a Level I Trauma Center\nProvides trauma prevention and to continuing education programs\nQA program",
+          "tables": []
+        },
+        "Level_III": {
+          "text": "24-hour immediate coverage by EM providers and the prompt availability of gen surgery and anesthesiology\nQA program\nTransfer agreements with Level I and/or Level II Trauma Centers\nProvides back-up care for rural and community hospitals\nContinuing education",
+          "tables": []
+        },
+        "Level_IV": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\n24-hour labs\nMay provide surgery and critical-care services\nTransfer agreements with Level I and/or Level II Trauma Centers\nQA program",
+          "tables": []
+        },
+        "Level_V": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\nAfter-hours activation protocols if facility is not open 24-hours a day\nMay provide surgery and critical-care services if available\nTransfer agreements with Level I and/or Level II Trauma Centers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Level_II": {
+      "text": "24-hour immediate coverage by gen surg, as well as coverage by ortho, NS, anesthesiology, EM, rads, and critical care\nTertiary care needs such as CT surg, need for HD, vasc surgery may be referred to a Level I Trauma Center\nProvides trauma prevention and to continuing education programs\nQA program",
+      "subsections": {
+        "Level_III": {
+          "text": "24-hour immediate coverage by EM providers and the prompt availability of gen surgery and anesthesiology\nQA program\nTransfer agreements with Level I and/or Level II Trauma Centers\nProvides back-up care for rural and community hospitals\nContinuing education",
+          "tables": []
+        },
+        "Level_IV": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\n24-hour labs\nMay provide surgery and critical-care services\nTransfer agreements with Level I and/or Level II Trauma Centers\nQA program",
+          "tables": []
+        },
+        "Level_V": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\nAfter-hours activation protocols if facility is not open 24-hours a day\nMay provide surgery and critical-care services if available\nTransfer agreements with Level I and/or Level II Trauma Centers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Level_III": {
+      "text": "24-hour immediate coverage by EM providers and the prompt availability of gen surgery and anesthesiology\nQA program\nTransfer agreements with Level I and/or Level II Trauma Centers\nProvides back-up care for rural and community hospitals\nContinuing education",
+      "subsections": {
+        "Level_IV": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\n24-hour labs\nMay provide surgery and critical-care services\nTransfer agreements with Level I and/or Level II Trauma Centers\nQA program",
+          "tables": []
+        },
+        "Level_V": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\nAfter-hours activation protocols if facility is not open 24-hours a day\nMay provide surgery and critical-care services if available\nTransfer agreements with Level I and/or Level II Trauma Centers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Level_IV": {
+      "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\n24-hour labs\nMay provide surgery and critical-care services\nTransfer agreements with Level I and/or Level II Trauma Centers\nQA program",
+      "subsections": {
+        "Level_V": {
+          "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\nAfter-hours activation protocols if facility is not open 24-hours a day\nMay provide surgery and critical-care services if available\nTransfer agreements with Level I and/or Level II Trauma Centers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Level_V": {
+      "text": "Basic ED which can implement ATLS protocols (\"trauma nurse\" and physician)\nAfter-hours activation protocols if facility is not open 24-hours a day\nMay provide surgery and critical-care services if available\nTransfer agreements with Level I and/or Level II Trauma Centers",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Field trauma triage",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Field trauma triage",
+          "url": "https://wikem.org/wiki/Field_trauma_triage"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "American Trauma Society - Trauma Levels",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

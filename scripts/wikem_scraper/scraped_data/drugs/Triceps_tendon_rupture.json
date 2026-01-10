@@ -1,0 +1,615 @@
+{
+  "drug_name": "Triceps_tendon_rupture",
+  "url": "https://wikem.org/wiki/Triceps_tendon_rupture",
+  "scraped_at": "2026-01-10T08:04:16.289859",
+  "sections": {
+    "Background": {
+      "text": "Injury is rare and almost always occurs distally\nResults from FOOSH causing flexion of extended elbow or direct blow to olecranon",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pain and swelling posteriorly just proximal to the olecranon\nSulcus with a more proximal mass (retracted triceps) may be palpated\nWith complete rupture ability to extend the elbow is lost",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Radiograph-Positive": {
+          "text": "Distal humerus fracture\nRadial head fracture\nEssex-Lopresti fracture\nCapitellum fracture\nOlecranon fracture\nElbow dislocation",
+          "tables": []
+        },
+        "Radiograph-Negative": {
+          "text": "Biceps tendon rupture\n/dislocation\nLateral epicondylitis\nMedial epicondylitis\nOlecranon bursitis (nonseptic)\nPronator teres syndrome\nSeptic bursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Nursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture\nMedial epicondyle fracture\nOlecranon fracture\nRadial head fracture\nSalter-Harris fractures",
+          "tables": []
+        },
+        "Shoulder_and_Upper_Arm_Diagnoses": {
+          "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Essex-Lopresti fracture",
+          "url": "https://wikem.org/wiki/Essex-Lopresti_fracture"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        },
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Elbow_Diagnoses": {
+      "text": "",
+      "subsections": {
+        "Radiograph-Positive": {
+          "text": "Distal humerus fracture\nRadial head fracture\nEssex-Lopresti fracture\nCapitellum fracture\nOlecranon fracture\nElbow dislocation",
+          "tables": []
+        },
+        "Radiograph-Negative": {
+          "text": "Biceps tendon rupture\n/dislocation\nLateral epicondylitis\nMedial epicondylitis\nOlecranon bursitis (nonseptic)\nPronator teres syndrome\nSeptic bursitis",
+          "tables": []
+        },
+        "Pediatric": {
+          "text": "Nursemaid's elbow\nSupracondylar fracture\nLateral epicondyle fracture\nMedial epicondyle fracture\nOlecranon fracture\nRadial head fracture\nSalter-Harris fractures",
+          "tables": []
+        },
+        "Shoulder_and_Upper_Arm_Diagnoses": {
+          "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Distal humerus fracture",
+          "url": "https://wikem.org/wiki/Distal_humerus_fracture"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture"
+        },
+        {
+          "text": "Essex-Lopresti fracture",
+          "url": "https://wikem.org/wiki/Essex-Lopresti_fracture"
+        },
+        {
+          "text": "Capitellum fracture",
+          "url": "https://wikem.org/wiki/Capitellum_fracture"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture"
+        },
+        {
+          "text": "Elbow dislocation",
+          "url": "https://wikem.org/wiki/Elbow_dislocation"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Lateral epicondylitis",
+          "url": "https://wikem.org/wiki/Lateral_epicondylitis"
+        },
+        {
+          "text": "Medial epicondylitis",
+          "url": "https://wikem.org/wiki/Medial_epicondylitis"
+        },
+        {
+          "text": "Olecranon bursitis (nonseptic)",
+          "url": "https://wikem.org/wiki/Olecranon_bursitis_(nonseptic)"
+        },
+        {
+          "text": "Pronator teres syndrome",
+          "url": "https://wikem.org/wiki/Pronator_teres_syndrome"
+        },
+        {
+          "text": "Septic bursitis",
+          "url": "https://wikem.org/wiki/Septic_bursitis"
+        },
+        {
+          "text": "Nursemaid's elbow",
+          "url": "https://wikem.org/wiki/Nursemaid%27s_elbow"
+        },
+        {
+          "text": "Supracondylar fracture",
+          "url": "https://wikem.org/wiki/Supracondylar_fracture"
+        },
+        {
+          "text": "Lateral epicondyle fracture",
+          "url": "https://wikem.org/wiki/Lateral_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Medial epicondyle fracture",
+          "url": "https://wikem.org/wiki/Medial_epicondyle_fracture_(peds)"
+        },
+        {
+          "text": "Olecranon fracture",
+          "url": "https://wikem.org/wiki/Olecranon_fracture_(peds)"
+        },
+        {
+          "text": "Radial head fracture",
+          "url": "https://wikem.org/wiki/Radial_head_fracture_(peds)"
+        },
+        {
+          "text": "Salter-Harris fractures",
+          "url": "https://wikem.org/wiki/Salter-Harris_fractures"
+        },
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Shoulder_and_Upper_Arm_Diagnoses": {
+      "text": "Traumatic/Acute:\nShoulder Dislocation\nAnterior shoulder dislocation\nPosterior shoulder dislocation\nInferior shoulder dislocation\nClavicle fracture\nHumerus fracture\nScapula fracture\nAcromioclavicular joint injury\nGlenohumeral instability\nRotator cuff tear\nBiceps tendon rupture\nTriceps tendon rupture\nSeptic joint\nNontraumatic/Chronic:\nRotator cuff tear\nImpingement syndrome\nCalcific tendinitis\nAdhesive capsulitis\nBiceps tendinitis\nSubacromial bursitis\nCervical radiculopathy\nRefered pain & non-orthopedic causes:\nReferred pain from\nNeck\nDiaphragm (e.g.\ngallbladder disease\n)\nBrachial plexus injury\nRucksack paralysis\nAxillary artery thrombosis\nThoracic outlet syndrome\nSubclavian steal syndrome\nPancoast tumor\nMyocardial infarction\nPneumonia\nPulmonary embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Shoulder Dislocation",
+          "url": "https://wikem.org/wiki/Shoulder_Dislocation"
+        },
+        {
+          "text": "Anterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Anterior_shoulder_dislocation"
+        },
+        {
+          "text": "Posterior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Posterior_shoulder_dislocation"
+        },
+        {
+          "text": "Inferior shoulder dislocation",
+          "url": "https://wikem.org/wiki/Inferior_shoulder_dislocation"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Humerus fracture",
+          "url": "https://wikem.org/wiki/Humerus_fracture"
+        },
+        {
+          "text": "Scapula fracture",
+          "url": "https://wikem.org/wiki/Scapula_fracture"
+        },
+        {
+          "text": "Acromioclavicular joint injury",
+          "url": "https://wikem.org/wiki/Acromioclavicular_joint_injury"
+        },
+        {
+          "text": "Glenohumeral instability",
+          "url": "https://wikem.org/wiki/Glenohumeral_instability"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Biceps tendon rupture",
+          "url": "https://wikem.org/wiki/Biceps_tendon_rupture"
+        },
+        {
+          "text": "Septic joint",
+          "url": "https://wikem.org/wiki/Septic_joint"
+        },
+        {
+          "text": "Rotator cuff tear",
+          "url": "https://wikem.org/wiki/Rotator_cuff_tear"
+        },
+        {
+          "text": "Impingement syndrome",
+          "url": "https://wikem.org/wiki/Impingement_syndrome"
+        },
+        {
+          "text": "Calcific tendinitis",
+          "url": "https://wikem.org/wiki/Calcific_tendinitis"
+        },
+        {
+          "text": "Adhesive capsulitis",
+          "url": "https://wikem.org/wiki/Adhesive_capsulitis"
+        },
+        {
+          "text": "Biceps tendinitis",
+          "url": "https://wikem.org/wiki/Biceps_tendinitis"
+        },
+        {
+          "text": "Subacromial bursitis",
+          "url": "https://wikem.org/wiki/Subacromial_bursitis"
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "url": "https://wikem.org/wiki/Cervical_radiculopathy"
+        },
+        {
+          "text": "Neck",
+          "url": "https://wikem.org/wiki/Neck_diagnoses"
+        },
+        {
+          "text": "gallbladder disease",
+          "url": "https://wikem.org/wiki/Gallbladder_disease"
+        },
+        {
+          "text": "Brachial plexus injury",
+          "url": "https://wikem.org/wiki/Brachial_plexus_injury"
+        },
+        {
+          "text": "Rucksack paralysis",
+          "url": "https://wikem.org/wiki/Rucksack_paralysis"
+        },
+        {
+          "text": "Axillary artery thrombosis",
+          "url": "https://wikem.org/wiki/Axillary_artery_thrombosis"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Subclavian steal syndrome",
+          "url": "https://wikem.org/wiki/Subclavian_steal_syndrome"
+        },
+        {
+          "text": "Pancoast tumor",
+          "url": "https://wikem.org/wiki/Pancoast_syndrome"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Obtain radiographs to rule-out avulsion fracture",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Sling, ice, and referral to ortho\nMost partial tears can be treated conservatively with immobilization",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Outpatient management",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Elbow diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Elbow diagnoses",
+          "url": "https://wikem.org/wiki/Elbow_diagnoses"
+        }
+      ]
+    }
+  }
+}

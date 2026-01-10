@@ -1,0 +1,2529 @@
+{
+  "drug_name": "Trauma_(main)",
+  "url": "https://wikem.org/wiki/Trauma_(main)",
+  "scraped_at": "2026-01-10T08:04:06.590850",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nTrauma (peds)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "The emergency clinician plays a critical role in coordinating a multi-disciplinary team to stabilize, resuscitate, and manage multiple trauma patients\nA structured assessment, namely the ABCDE method, can be used to systematically assess the trauma patient to quickly identify and prioritize injuries, simplifying the thought process in a chaotic environment\nMultiple trauma (i.e. polytrauma) is defined as any trauma associated with two or more injuries, of which, one injury is classified as life threatening\nThe two most common mechanisms of multiple trauma are blunt and penetrating trauma\nThe ABCDE method is used to assess these trauma patients: airway and cervical stabilization, breathing, circulation, disability, and exposure/environmental control\nGeneral Approach to Multiple Trauma Patients\nPre-hospital and Triage\nPrimary Survey\nSecondary Survey\nLaboratory and Radiographic Evaluation\nDisposition",
+      "subsections": {
+        "Locations_of_Possible_Life-Threatening_Bleeding": {
+          "text": "External\nInternal\nThoracic cavity\nPeritoneal cavity\nRetroperitoneal space (i.e.\npelvic fracture\n)\nFemur fracture\n(into muscle/subcutaneous tissue)",
+          "tables": []
+        },
+        "Lethal_Triad_of_Major_Trauma": {
+          "text": "Hypothermia\nCoagulopathy\nAcidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic cavity",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Peritoneal cavity",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Locations_of_Possible_Life-Threatening_Bleeding": {
+      "text": "External\nInternal\nThoracic cavity\nPeritoneal cavity\nRetroperitoneal space (i.e.\npelvic fracture\n)\nFemur fracture\n(into muscle/subcutaneous tissue)",
+      "subsections": {
+        "Lethal_Triad_of_Major_Trauma": {
+          "text": "Hypothermia\nCoagulopathy\nAcidosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic cavity",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Peritoneal cavity",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Lethal_Triad_of_Major_Trauma": {
+      "text": "Hypothermia\nCoagulopathy\nAcidosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        },
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        },
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        },
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {
+        "Neck_Trauma": {
+          "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+          "tables": []
+        },
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        },
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Traumatic intracerebral hemorrhage",
+          "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Neck_Trauma": {
+      "text": "Penetrating neck trauma\nBlunt neck trauma\nVertebral and carotid artery dissection\nStrangulation\nWhiplash injury\nCervical injury\nCervical fractures and dislocations\nCervical injury (peds)\nCervical spine clearance\nNeurogenic shock\nSpinal cord injury",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        },
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        },
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penetrating neck trauma",
+          "url": "https://wikem.org/wiki/Penetrating_neck_trauma"
+        },
+        {
+          "text": "Blunt neck trauma",
+          "url": "https://wikem.org/wiki/Blunt_neck_trauma"
+        },
+        {
+          "text": "Vertebral and carotid artery dissection",
+          "url": "https://wikem.org/wiki/Vertebral_and_carotid_artery_dissection"
+        },
+        {
+          "text": "Strangulation",
+          "url": "https://wikem.org/wiki/Strangulation"
+        },
+        {
+          "text": "Whiplash injury",
+          "url": "https://wikem.org/wiki/Whiplash_injury"
+        },
+        {
+          "text": "Cervical fractures and dislocations",
+          "url": "https://wikem.org/wiki/Cervical_fractures_and_dislocations"
+        },
+        {
+          "text": "Cervical injury (peds)",
+          "url": "https://wikem.org/wiki/Cervical_injury_(peds)"
+        },
+        {
+          "text": "Cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        },
+        {
+          "text": "Neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        },
+        {
+          "text": "Spinal cord injury",
+          "url": "https://wikem.org/wiki/Spinal_cord_injury"
+        },
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        },
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Traumatic aortic transection",
+          "url": "https://wikem.org/wiki/Traumatic_aortic_transection"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        },
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {
+        "Genitourinary_Trauma": {
+          "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+          "tables": []
+        },
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Genitourinary_Trauma": {
+      "text": "Urinary system\nRenal trauma\nUreter trauma\nBladder trauma\nUrethral trauma\nTraumatic foley catheter removal\nGenital\nPenile trauma\nTraumatic foley catheter removal\nTesticular trauma\nVaginal trauma\nOther\nChild abuse\nPelvic fracture\n(often accompanies)\nSexual assault",
+      "subsections": {
+        "Extremity_trauma": {
+          "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        },
+        {
+          "text": "Bladder trauma",
+          "url": "https://wikem.org/wiki/Bladder_trauma"
+        },
+        {
+          "text": "Urethral trauma",
+          "url": "https://wikem.org/wiki/Urethral_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Penile trauma",
+          "url": "https://wikem.org/wiki/Penile_trauma"
+        },
+        {
+          "text": "Traumatic foley catheter removal",
+          "url": "https://wikem.org/wiki/Traumatic_foley_catheter_removal"
+        },
+        {
+          "text": "Testicular trauma",
+          "url": "https://wikem.org/wiki/Testicular_trauma"
+        },
+        {
+          "text": "Vaginal trauma",
+          "url": "https://wikem.org/wiki/Vaginal_trauma"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "Pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Extremity_trauma": {
+      "text": "Compartment syndrome\nContusion\nCrush syndrome\nDegloving injury\nMorel-Lavallée lesion\nRing avulsion injury\nFracture\nOpen fracture\nLaceration\nMyositis ossificans\nOpen joint injury\nPeripheral nerve injury\nRhabdomyolysis\nTendon injury\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Crush syndrome",
+          "url": "https://wikem.org/wiki/Crush_syndrome"
+        },
+        {
+          "text": "Degloving injury",
+          "url": "https://wikem.org/wiki/Degloving_injury"
+        },
+        {
+          "text": "Morel-Lavallée lesion",
+          "url": "https://wikem.org/wiki/Morel-Lavall%C3%A9e_lesion"
+        },
+        {
+          "text": "Ring avulsion injury",
+          "url": "https://wikem.org/wiki/Ring_avulsion_injury"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fractures_(main)"
+        },
+        {
+          "text": "Open fracture",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "Laceration",
+          "url": "https://wikem.org/wiki/Laceration"
+        },
+        {
+          "text": "Myositis ossificans",
+          "url": "https://wikem.org/wiki/Myositis_ossificans"
+        },
+        {
+          "text": "Open joint injury",
+          "url": "https://wikem.org/wiki/Open_joint_injury"
+        },
+        {
+          "text": "Peripheral nerve injury",
+          "url": "https://wikem.org/wiki/Peripheral_nerve_syndromes"
+        },
+        {
+          "text": "Rhabdomyolysis",
+          "url": "https://wikem.org/wiki/Rhabdomyolysis"
+        },
+        {
+          "text": "Tendon injury",
+          "url": "https://wikem.org/wiki/Tendon_injury"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Laboratory_Evaluation": {
+          "text": "Clinical assessment and presentation should guide which diagnostic tests to order\nLab testing can provide a baseline assessment of metabolic derangements to guide resuscitation (e.g., base deficit and lactate)",
+          "tables": [
+            [
+              {
+                "Laboratory Test": "Complete blood count",
+                "Clinical Importance": "Hemoglobin and hematocrit (but note that value may be falsely reassuring, due to time necessary to equilibrate); thrombocytopenia"
+              },
+              {
+                "Laboratory Test": "Electrolyte panel",
+                "Clinical Importance": "Potassium in CKD, often elevated in crush injuries; sodium in head injury or altered mental status"
+              },
+              {
+                "Laboratory Test": "Liver function tests and lipase",
+                "Clinical Importance": "Determine blunt injury to these organs, underlying liver disease, or shock liver in setting of hypoperfusion"
+              },
+              {
+                "Laboratory Test": "PT/INR and PTT",
+                "Clinical Importance": "Determine developing or underlying coagulopathies; provide clues to anti-coagulation use and need for reversal such as INR and coumadin"
+              },
+              {
+                "Laboratory Test": "Pregnancy test in women",
+                "Clinical Importance": "May change medication management; may need to consult OBGYN"
+              },
+              {
+                "Laboratory Test": "Blood type and screen or type and cross depending on injury severity",
+                "Clinical Importance": "Prevent transfusion reactions; prevent Rho antibody formation in women of childbearing age"
+              },
+              {
+                "Laboratory Test": "Urine studies",
+                "Clinical Importance": "Gross hematuria or microscopic hematuria > 20-50 RBC in urine suggests urinary tract injury; toxicology screen may indentify cause of AMS"
+              },
+              {
+                "Laboratory Test": "Lactate, arterial blood gas, base excess, anion gap",
+                "Clinical Importance": "Assess tissue perfusion and help guide fluid resuscitation; assess pH"
+              },
+              {
+                "Laboratory Test": "Troponin",
+                "Clinical Importance": "Myocardial damage if concern for cardiac contusion"
+              }
+            ]
+          ]
+        },
+        "Radiographic_Evaluation": {
+          "text": "Radiographic evaluation of the multiple trauma patient is crucial in identifying acute injuries that may not be elucidated on physical exam\nChest X-rays and pelvic X-rays are standard exams for multiple trauma patients\neFAST\nshould be performed as part of the primary survey\neFAST\nis not appropriate (sensitivity is low) to assess for retroperitoneal fluid\nUltrasound can help to examine the inferior vena cava during the secondary survey to assess volume status\nAlthough operator dependent, ultrasound is superior to chest X-ray to screen for hemothorax, pneumothorax and tamponade\nPerform CT scans based on clinical judgment after completion of the primary and secondary survey\nIf c-spine injury is suspected, apply decision rules such as National Emergency X-Radiography Utilization Study (\nNEXUS\n) criteria or\nCanadian cervical spine rule\n(CCR) to help determine if a CT C-spine is indicated",
+          "tables": []
+        },
+        "Classes_of_hemorrhagic_shock": {
+          "text": "^Base excess is the quantity of base (HCO3-, in mEq/L) that is above or below the normal range in the body. A negative number is called a base deficit and indicates metabolic acidosis.",
+          "tables": [
+            [
+              {
+                "Class": "Approximate blood loss",
+                "I": "<15%",
+                "II": "15-30%",
+                "III": "30-40%",
+                "IV": ">40%"
+              },
+              {
+                "Class": "Heart rate",
+                "I": "↔",
+                "II": "↔/↑",
+                "III": "↑",
+                "IV": "↑↑"
+              },
+              {
+                "Class": "Blood pressure",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Pulse Pressure (mmHg)",
+                "I": "↔",
+                "II": "↓",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Respiratory Rate (per min)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↑",
+                "IV": "↑"
+              },
+              {
+                "Class": "Urine Output (mL/hr)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓↓"
+              },
+              {
+                "Class": "Glasgow coma scale score",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Base deficit^",
+                "I": "0 to -2 mEq/L",
+                "II": "-2 to -6 mEq/L",
+                "III": "-6 to -10 mEq/L",
+                "IV": "-10 or less mEq/L"
+              },
+              {
+                "Class": "Need for blood products",
+                "I": "Monitor",
+                "II": "Possible",
+                "III": "Yes",
+                "IV": "Massive transfusion protocol"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "eFAST",
+          "url": "https://wikem.org/wiki/EFAST"
+        },
+        {
+          "text": "eFAST",
+          "url": "https://wikem.org/wiki/EFAST"
+        },
+        {
+          "text": "NEXUS",
+          "url": "https://wikem.org/wiki/NEXUS"
+        },
+        {
+          "text": "Canadian cervical spine rule",
+          "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule"
+        }
+      ]
+    },
+    "Laboratory_Evaluation": {
+      "text": "Clinical assessment and presentation should guide which diagnostic tests to order\nLab testing can provide a baseline assessment of metabolic derangements to guide resuscitation (e.g., base deficit and lactate)",
+      "subsections": {
+        "Radiographic_Evaluation": {
+          "text": "Radiographic evaluation of the multiple trauma patient is crucial in identifying acute injuries that may not be elucidated on physical exam\nChest X-rays and pelvic X-rays are standard exams for multiple trauma patients\neFAST\nshould be performed as part of the primary survey\neFAST\nis not appropriate (sensitivity is low) to assess for retroperitoneal fluid\nUltrasound can help to examine the inferior vena cava during the secondary survey to assess volume status\nAlthough operator dependent, ultrasound is superior to chest X-ray to screen for hemothorax, pneumothorax and tamponade\nPerform CT scans based on clinical judgment after completion of the primary and secondary survey\nIf c-spine injury is suspected, apply decision rules such as National Emergency X-Radiography Utilization Study (\nNEXUS\n) criteria or\nCanadian cervical spine rule\n(CCR) to help determine if a CT C-spine is indicated",
+          "tables": []
+        },
+        "Classes_of_hemorrhagic_shock": {
+          "text": "^Base excess is the quantity of base (HCO3-, in mEq/L) that is above or below the normal range in the body. A negative number is called a base deficit and indicates metabolic acidosis.",
+          "tables": [
+            [
+              {
+                "Class": "Approximate blood loss",
+                "I": "<15%",
+                "II": "15-30%",
+                "III": "30-40%",
+                "IV": ">40%"
+              },
+              {
+                "Class": "Heart rate",
+                "I": "↔",
+                "II": "↔/↑",
+                "III": "↑",
+                "IV": "↑↑"
+              },
+              {
+                "Class": "Blood pressure",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Pulse Pressure (mmHg)",
+                "I": "↔",
+                "II": "↓",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Respiratory Rate (per min)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↑",
+                "IV": "↑"
+              },
+              {
+                "Class": "Urine Output (mL/hr)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓↓"
+              },
+              {
+                "Class": "Glasgow coma scale score",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Base deficit^",
+                "I": "0 to -2 mEq/L",
+                "II": "-2 to -6 mEq/L",
+                "III": "-6 to -10 mEq/L",
+                "IV": "-10 or less mEq/L"
+              },
+              {
+                "Class": "Need for blood products",
+                "I": "Monitor",
+                "II": "Possible",
+                "III": "Yes",
+                "IV": "Massive transfusion protocol"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Laboratory Test": "Complete blood count",
+            "Clinical Importance": "Hemoglobin and hematocrit (but note that value may be falsely reassuring, due to time necessary to equilibrate); thrombocytopenia"
+          },
+          {
+            "Laboratory Test": "Electrolyte panel",
+            "Clinical Importance": "Potassium in CKD, often elevated in crush injuries; sodium in head injury or altered mental status"
+          },
+          {
+            "Laboratory Test": "Liver function tests and lipase",
+            "Clinical Importance": "Determine blunt injury to these organs, underlying liver disease, or shock liver in setting of hypoperfusion"
+          },
+          {
+            "Laboratory Test": "PT/INR and PTT",
+            "Clinical Importance": "Determine developing or underlying coagulopathies; provide clues to anti-coagulation use and need for reversal such as INR and coumadin"
+          },
+          {
+            "Laboratory Test": "Pregnancy test in women",
+            "Clinical Importance": "May change medication management; may need to consult OBGYN"
+          },
+          {
+            "Laboratory Test": "Blood type and screen or type and cross depending on injury severity",
+            "Clinical Importance": "Prevent transfusion reactions; prevent Rho antibody formation in women of childbearing age"
+          },
+          {
+            "Laboratory Test": "Urine studies",
+            "Clinical Importance": "Gross hematuria or microscopic hematuria > 20-50 RBC in urine suggests urinary tract injury; toxicology screen may indentify cause of AMS"
+          },
+          {
+            "Laboratory Test": "Lactate, arterial blood gas, base excess, anion gap",
+            "Clinical Importance": "Assess tissue perfusion and help guide fluid resuscitation; assess pH"
+          },
+          {
+            "Laboratory Test": "Troponin",
+            "Clinical Importance": "Myocardial damage if concern for cardiac contusion"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "eFAST",
+          "url": "https://wikem.org/wiki/EFAST"
+        },
+        {
+          "text": "eFAST",
+          "url": "https://wikem.org/wiki/EFAST"
+        },
+        {
+          "text": "NEXUS",
+          "url": "https://wikem.org/wiki/NEXUS"
+        },
+        {
+          "text": "Canadian cervical spine rule",
+          "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule"
+        }
+      ]
+    },
+    "Radiographic_Evaluation": {
+      "text": "Radiographic evaluation of the multiple trauma patient is crucial in identifying acute injuries that may not be elucidated on physical exam\nChest X-rays and pelvic X-rays are standard exams for multiple trauma patients\neFAST\nshould be performed as part of the primary survey\neFAST\nis not appropriate (sensitivity is low) to assess for retroperitoneal fluid\nUltrasound can help to examine the inferior vena cava during the secondary survey to assess volume status\nAlthough operator dependent, ultrasound is superior to chest X-ray to screen for hemothorax, pneumothorax and tamponade\nPerform CT scans based on clinical judgment after completion of the primary and secondary survey\nIf c-spine injury is suspected, apply decision rules such as National Emergency X-Radiography Utilization Study (\nNEXUS\n) criteria or\nCanadian cervical spine rule\n(CCR) to help determine if a CT C-spine is indicated",
+      "subsections": {
+        "Classes_of_hemorrhagic_shock": {
+          "text": "^Base excess is the quantity of base (HCO3-, in mEq/L) that is above or below the normal range in the body. A negative number is called a base deficit and indicates metabolic acidosis.",
+          "tables": [
+            [
+              {
+                "Class": "Approximate blood loss",
+                "I": "<15%",
+                "II": "15-30%",
+                "III": "30-40%",
+                "IV": ">40%"
+              },
+              {
+                "Class": "Heart rate",
+                "I": "↔",
+                "II": "↔/↑",
+                "III": "↑",
+                "IV": "↑↑"
+              },
+              {
+                "Class": "Blood pressure",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Pulse Pressure (mmHg)",
+                "I": "↔",
+                "II": "↓",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Respiratory Rate (per min)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↔/↑",
+                "IV": "↑"
+              },
+              {
+                "Class": "Urine Output (mL/hr)",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓↓"
+              },
+              {
+                "Class": "Glasgow coma scale score",
+                "I": "↔",
+                "II": "↔",
+                "III": "↓",
+                "IV": "↓"
+              },
+              {
+                "Class": "Base deficit^",
+                "I": "0 to -2 mEq/L",
+                "II": "-2 to -6 mEq/L",
+                "III": "-6 to -10 mEq/L",
+                "IV": "-10 or less mEq/L"
+              },
+              {
+                "Class": "Need for blood products",
+                "I": "Monitor",
+                "II": "Possible",
+                "III": "Yes",
+                "IV": "Massive transfusion protocol"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "eFAST",
+          "url": "https://wikem.org/wiki/EFAST"
+        },
+        {
+          "text": "eFAST",
+          "url": "https://wikem.org/wiki/EFAST"
+        },
+        {
+          "text": "NEXUS",
+          "url": "https://wikem.org/wiki/NEXUS"
+        },
+        {
+          "text": "Canadian cervical spine rule",
+          "url": "https://wikem.org/wiki/Canadian_cervical_spine_rule"
+        }
+      ]
+    },
+    "Classes_of_hemorrhagic_shock": {
+      "text": "^Base excess is the quantity of base (HCO3-, in mEq/L) that is above or below the normal range in the body. A negative number is called a base deficit and indicates metabolic acidosis.",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Class": "Approximate blood loss",
+            "I": "<15%",
+            "II": "15-30%",
+            "III": "30-40%",
+            "IV": ">40%"
+          },
+          {
+            "Class": "Heart rate",
+            "I": "↔",
+            "II": "↔/↑",
+            "III": "↑",
+            "IV": "↑↑"
+          },
+          {
+            "Class": "Blood pressure",
+            "I": "↔",
+            "II": "↔",
+            "III": "↔/↓",
+            "IV": "↓"
+          },
+          {
+            "Class": "Pulse Pressure (mmHg)",
+            "I": "↔",
+            "II": "↓",
+            "III": "↓",
+            "IV": "↓"
+          },
+          {
+            "Class": "Respiratory Rate (per min)",
+            "I": "↔",
+            "II": "↔",
+            "III": "↔/↑",
+            "IV": "↑"
+          },
+          {
+            "Class": "Urine Output (mL/hr)",
+            "I": "↔",
+            "II": "↔",
+            "III": "↓",
+            "IV": "↓↓"
+          },
+          {
+            "Class": "Glasgow coma scale score",
+            "I": "↔",
+            "II": "↔",
+            "III": "↓",
+            "IV": "↓"
+          },
+          {
+            "Class": "Base deficit^",
+            "I": "0 to -2 mEq/L",
+            "II": "-2 to -6 mEq/L",
+            "III": "-6 to -10 mEq/L",
+            "IV": "-10 or less mEq/L"
+          },
+          {
+            "Class": "Need for blood products",
+            "I": "Monitor",
+            "II": "Possible",
+            "III": "Yes",
+            "IV": "Massive transfusion protocol"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Initial_evaluation_objectives": {
+          "text": "Rapidly identify life-threatening injuries\nInitiate supportive therapy\nOrganize definitive therapy",
+          "tables": []
+        },
+        "Specific_Treatments": {
+          "text": "Massive transfusion protocol",
+          "tables": []
+        },
+        "Reassessment": {
+          "text": "Continually reassess all multiple trauma patients as their disposition is fluid and their clinical status can change rapidly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Massive transfusion protocol",
+          "url": "https://wikem.org/wiki/Massive_transfusion_protocol"
+        }
+      ]
+    },
+    "Initial_evaluation_objectives": {
+      "text": "Rapidly identify life-threatening injuries\nInitiate supportive therapy\nOrganize definitive therapy",
+      "subsections": {
+        "Specific_Treatments": {
+          "text": "Massive transfusion protocol",
+          "tables": []
+        },
+        "Reassessment": {
+          "text": "Continually reassess all multiple trauma patients as their disposition is fluid and their clinical status can change rapidly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Massive transfusion protocol",
+          "url": "https://wikem.org/wiki/Massive_transfusion_protocol"
+        }
+      ]
+    },
+    "Specific_Treatments": {
+      "text": "Massive transfusion protocol",
+      "subsections": {
+        "Reassessment": {
+          "text": "Continually reassess all multiple trauma patients as their disposition is fluid and their clinical status can change rapidly",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Massive transfusion protocol",
+          "url": "https://wikem.org/wiki/Massive_transfusion_protocol"
+        }
+      ]
+    },
+    "Reassessment": {
+      "text": "Continually reassess all multiple trauma patients as their disposition is fluid and their clinical status can change rapidly",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Depends on underlying injury\nDecide whether to observe in the emergency department, admit to inpatient, transfer to a tertiary care facility with resources that the current facility does not have, or redline to the OR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Hypothermia\nAcidosis\n(Dilutional)\ncoagulopathy\nHypocalcemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Trauma sedation\nTrauma in pregnancy\nTrauma center levels\nHemorrhagic shock\nGun shot wounds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma sedation",
+          "url": "https://wikem.org/wiki/Trauma_sedation"
+        },
+        {
+          "text": "Trauma in pregnancy",
+          "url": "https://wikem.org/wiki/Trauma_in_pregnancy"
+        },
+        {
+          "text": "Trauma center levels",
+          "url": "https://wikem.org/wiki/Trauma_center_levels"
+        },
+        {
+          "text": "Hemorrhagic shock",
+          "url": "https://wikem.org/wiki/Hemorrhagic_shock"
+        },
+        {
+          "text": "Gun shot wounds",
+          "url": "https://wikem.org/wiki/Gun_shot_wounds"
+        }
+      ]
+    }
+  }
+}

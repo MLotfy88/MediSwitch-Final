@@ -1,0 +1,199 @@
+{
+  "drug_name": "Trapezium_fracture",
+  "url": "https://wikem.org/wiki/Trapezium_fracture",
+  "scraped_at": "2026-01-10T08:04:06.800221",
+  "sections": {
+    "Background": {
+      "text": "Occurs via direct blow to thumb or dorsiflexion and radial deviation force\nMajor complication is nonunion",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Painful thumb movement\nWeak pinch\nTTP at apex of anatomic snuffbox, base of thenar eminence",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Carpal_fractures": {
+          "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Carpal_fractures": {
+      "text": "Scaphoid fracture\nLunate fracture\nTriquetrum fracture\nPisiform fracture\nTrapezium fracture\nTrapezoid fracture\nCapitate fracture\nHamate fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scaphoid fracture",
+          "url": "https://wikem.org/wiki/Scaphoid_fracture"
+        },
+        {
+          "text": "Lunate fracture",
+          "url": "https://wikem.org/wiki/Lunate_fracture"
+        },
+        {
+          "text": "Triquetrum fracture",
+          "url": "https://wikem.org/wiki/Triquetrum_fracture"
+        },
+        {
+          "text": "Pisiform fracture",
+          "url": "https://wikem.org/wiki/Pisiform_fracture"
+        },
+        {
+          "text": "Trapezoid fracture",
+          "url": "https://wikem.org/wiki/Trapezoid_fracture"
+        },
+        {
+          "text": "Capitate fracture",
+          "url": "https://wikem.org/wiki/Capitate_fracture"
+        },
+        {
+          "text": "Hamate fracture",
+          "url": "https://wikem.org/wiki/Hamate_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Hand x-ray (best seen on 20-degree pronated oblique view)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "General_Fracture_Management": {
+          "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+          "tables": []
+        },
+        "Immobilization": {
+          "text": "Short arm\nthumb spica splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        }
+      ]
+    },
+    "General_Fracture_Management": {
+      "text": "Acute pain management\nOpen fractures\nrequire immediate IV antibiotics and urgent surgical washout\nNeurovascular compromise from fracture requires emergent reduction and/or orthopedic intervention\nConsider risk for\ncompartment syndrome",
+      "subsections": {
+        "Immobilization": {
+          "text": "Short arm\nthumb spica splint",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute pain management",
+          "url": "https://wikem.org/wiki/Acute_pain_management"
+        },
+        {
+          "text": "Open fractures",
+          "url": "https://wikem.org/wiki/Open_fracture"
+        },
+        {
+          "text": "compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        }
+      ]
+    },
+    "Immobilization": {
+      "text": "Short arm\nthumb spica splint",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "thumb spica splint",
+          "url": "https://wikem.org/wiki/Thumb_spica_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with close hand/ortho follow up",
+      "subsections": {
+        "Specialty_Care": {
+          "text": "Displaced fracture >1mm or diastasis >2mm require surgery",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Specialty_Care": {
+      "text": "Displaced fracture >1mm or diastasis >2mm require surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Carpal fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Carpal fractures",
+          "url": "https://wikem.org/wiki/Carpal_fractures"
+        }
+      ]
+    }
+  }
+}

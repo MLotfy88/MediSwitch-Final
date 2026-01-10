@@ -1,0 +1,86 @@
+{
+  "drug_name": "Traumatic_epididymitis",
+  "url": "https://wikem.org/wiki/Traumatic_epididymitis",
+  "scraped_at": "2026-01-10T08:04:08.735322",
+  "sections": {
+    "Background": {
+      "text": "Noninfectious inflammatory condition that occurs within few days after trauma to testis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Penile_trauma_types": {
+          "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Penile_trauma_types": {
+      "text": "Penile amputation\nPenile contusion\nPenile fracture\nTraumatic epididymitis\nZipper injury to penis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile amputation",
+          "url": "https://wikem.org/wiki/Penile_amputation"
+        },
+        {
+          "text": "Penile contusion",
+          "url": "https://wikem.org/wiki/Penile_contusion"
+        },
+        {
+          "text": "Penile fracture",
+          "url": "https://wikem.org/wiki/Penile_fracture"
+        },
+        {
+          "text": "Zipper injury to penis",
+          "url": "https://wikem.org/wiki/Zipper_injury_to_penis"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treatment is similar to that for nontraumatic\nepididymitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Penile Trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penile Trauma",
+          "url": "https://wikem.org/wiki/Penile_Trauma"
+        }
+      ]
+    }
+  }
+}

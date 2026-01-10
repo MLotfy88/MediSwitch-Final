@@ -1,0 +1,123 @@
+{
+  "drug_name": "Tracheostomy_complications",
+  "url": "https://wikem.org/wiki/Tracheostomy_complications",
+  "scraped_at": "2026-01-10T08:03:59.352397",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Tracheostomy_Sizes": {
+          "text": "Average size:\nAdult: 5-10mm\nPeds: 2.5-6.5mm",
+          "tables": []
+        },
+        "Tracheostomy_vs_laryngectomy": {
+          "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tracheostomy_Sizes": {
+      "text": "Average size:\nAdult: 5-10mm\nPeds: 2.5-6.5mm",
+      "subsections": {
+        "Tracheostomy_vs_laryngectomy": {
+          "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Tracheostomy_vs_laryngectomy": {
+      "text": "It is important to differentiate between tracheostomy vs laryngectomy\nIf laryngectomy\n[1]\n:\nThe stoma is the only way to ventilate the patient.\nPatient cannot be orally intubated",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Tracheostomy_complications": {
+          "text": "Tracheostomy obstruction\nTracheostomy dislodgement\nTracheostomy infection\nTracheostomy bleeding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheostomy obstruction",
+          "url": "https://wikem.org/wiki/Tracheostomy_obstruction"
+        },
+        {
+          "text": "Tracheostomy dislodgement",
+          "url": "https://wikem.org/wiki/Tracheostomy_dislodgement"
+        },
+        {
+          "text": "Tracheostomy infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        },
+        {
+          "text": "Tracheostomy bleeding",
+          "url": "https://wikem.org/wiki/Tracheostomy_bleeding"
+        }
+      ]
+    },
+    "Tracheostomy_complications": {
+      "text": "Tracheostomy obstruction\nTracheostomy dislodgement\nTracheostomy infection\nTracheostomy bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tracheostomy obstruction",
+          "url": "https://wikem.org/wiki/Tracheostomy_obstruction"
+        },
+        {
+          "text": "Tracheostomy dislodgement",
+          "url": "https://wikem.org/wiki/Tracheostomy_dislodgement"
+        },
+        {
+          "text": "Tracheostomy infection",
+          "url": "https://wikem.org/wiki/Tracheostomy_infection"
+        },
+        {
+          "text": "Tracheostomy bleeding",
+          "url": "https://wikem.org/wiki/Tracheostomy_bleeding"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Attempt to find out if patient has a tracheostomy vs laryngectomy from history. If the latter is present, the stoma is the only way to ventilate the patient.\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Call for airway expert help\nSit patient up or in a position of comfort\nPlace on trach collar oxygen or place non-rebreather mask mask on trachesostmy while preparing\nIf any doubt about tracheosomy vs. laryngectomy, be sure to oxygenate nasal/oral airway in addition to stoma\nDon faceshield, have suction, oxygen, flushes (possibly surgical airway supplies)\nRemove speaking valve or cap (if present)\nRemove inner cannula\nIf unable to pass suction catheter at this point, deflate cuff and consider removing tracheostomy tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Medical device complications\nSurgical airways",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Need-to-Know ED Tricks for Airway Emergencies in Tracheostomy Patients\nJustin Morgenstern, \"﻿Respiratory distress in the patient with a tracheostomy (update)\", First10EM blog, July 25, 2018. Available at:\nhttps://first10em.com/tracheostomy/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

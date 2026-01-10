@@ -1,0 +1,445 @@
+{
+  "drug_name": "Transient_tachypnea_of_the_newborn",
+  "url": "https://wikem.org/wiki/Transient_tachypnea_of_the_newborn",
+  "scraped_at": "2026-01-10T08:04:03.488770",
+  "sections": {
+    "Intro": {
+      "text": "See\nNewborn Resuscitation\nfor immediate after-delivery resuscitation\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Respiratory distress affects 1% of neonates:\nRespiratory distress syndrome\n(hyaline membrane disease) ~50%\nTransient tachypnea of the newborn ~50%\nSelf-limiting disease that resolves with days as retained lung fluid at birth is removed by lymphatics and breathing\nMost common cause of respiratory distress immediately following delivery in late preterm or term infants\n1/3 of fluid cleared days before birth, 1/3 during active labor, 1/3 during crying/breathing\nRisk factors\nPrematurity\nC-section and rapidly born infants (lack of active labor)\nInfants of diabetic mothers or obese mothers\nsmall for gestational age, preterm infants",
+      "subsections": {
+        "Newborn_Vital_Signs": {
+          "text": "^Fever directly causes an increase in heart rate of 10 beats per minute per degree centigrade\n[2]\n^^Hyperoxia can be harmful",
+          "tables": [
+            [
+              {
+                "Age": "Preterm < 1 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "36-58"
+              },
+              {
+                "Age": "Preterm 1 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "42-66"
+              },
+              {
+                "Age": "Preterm 2 kg",
+                "Pulse^": "120-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "50-72"
+              },
+              {
+                "Age": "Newborn",
+                "Pulse^": "126-160",
+                "Respiratory Rate": "30-60",
+                "Systolic BP": "60-70"
+              }
+            ],
+            [
+              {
+                "Min of life": "1 min",
+                "Target sat^^": "60-65%"
+              },
+              {
+                "Min of life": "2 min",
+                "Target sat^^": "65-70%"
+              },
+              {
+                "Min of life": "3 min",
+                "Target sat^^": "70-75%"
+              },
+              {
+                "Min of life": "4 min",
+                "Target sat^^": "75-80%"
+              },
+              {
+                "Min of life": "5 min",
+                "Target sat^^": "80-85%"
+              },
+              {
+                "Min of life": "10 min",
+                "Target sat^^": "85-95%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        }
+      ]
+    },
+    "Newborn_Vital_Signs": {
+      "text": "^Fever directly causes an increase in heart rate of 10 beats per minute per degree centigrade\n[2]\n^^Hyperoxia can be harmful",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "Preterm < 1 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "36-58"
+          },
+          {
+            "Age": "Preterm 1 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "42-66"
+          },
+          {
+            "Age": "Preterm 2 kg",
+            "Pulse^": "120-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "50-72"
+          },
+          {
+            "Age": "Newborn",
+            "Pulse^": "126-160",
+            "Respiratory Rate": "30-60",
+            "Systolic BP": "60-70"
+          }
+        ],
+        [
+          {
+            "Min of life": "1 min",
+            "Target sat^^": "60-65%"
+          },
+          {
+            "Min of life": "2 min",
+            "Target sat^^": "65-70%"
+          },
+          {
+            "Min of life": "3 min",
+            "Target sat^^": "70-75%"
+          },
+          {
+            "Min of life": "4 min",
+            "Target sat^^": "75-80%"
+          },
+          {
+            "Min of life": "5 min",
+            "Target sat^^": "80-85%"
+          },
+          {
+            "Min of life": "10 min",
+            "Target sat^^": "85-95%"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Respiratory distress\nin first few hours of life\nTachypnea > 40-60 breaths/min, grunting, flaring, retractions with clear breath sounds (no rales or rhonchi)\nMay have cyanosis\nMay have \"quiet\" tachypnea, not appearing in distress\nIncreased\nO2 requirement\n- > 60% or mechanical ventilation need consideration of other differentials\nNormal CBC\nNormal to mildly abnormal\nABGs\n(acceptable ranges/expected progression below at bottom):\nMild\nrespiratory acidosis\nMild-mod\nhypoxemia\nand mild\nhypercapnia\npossible",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Respiratory distress",
+          "url": "https://wikem.org/wiki/Shortness_of_breath_(peds)"
+        },
+        {
+          "text": "O2 requirement",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "ABGs",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "hypercapnia",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Newborn_Problems": {
+          "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Infant scalp hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Newborn_Problems": {
+      "text": "Newborn resuscitation\nHypoxia\nPrimary apnea\nSecondary apnea\nHypothermia\nHypoglycemia\nMeconium aspiration syndrome\nAnemia (abruption)\nInfant scalp hematoma\nTransient tachypnea of the newborn\nRespiratory distress syndrome\nCongenital\npneumonia\nCongenital heart disease\nNeonatal sepsis\nPneumothorax\nPulmonary hypertension",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia_(peds)"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Infant scalp hematoma",
+          "url": "https://wikem.org/wiki/Infant_scalp_hematoma"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Neonatal sepsis",
+          "url": "https://wikem.org/wiki/Neonatal_sepsis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension_(peds)"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "ABG, with consideration of intraarterial line in umbilical artery if FiO2 > 40%\nContinuous pulse oximetry\nCXR\n- perihilar streaking (lymph system engorgement), fluid in fissures, increase lung volumes with flat diaphragms",
+      "subsections": {
+        "Newborn_Normal_ABG_Parameters": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Subject": "< 28 wks",
+                "PO2 mmHg": "50-65",
+                "PCO2 mmHg": "40-50",
+                "pH": ">7.28",
+                "Bicarb": "18-24"
+              },
+              {
+                "Subject": "38-49 wks",
+                "PO2 mmHg": "50-70",
+                "PCO2 mmHg": "40-50",
+                "pH": ">7.3",
+                "Bicarb": "20-24"
+              },
+              {
+                "Subject": "Term (10 min)",
+                "PO2 mmHg": "50",
+                "PCO2 mmHg": "48",
+                "pH": "7.2",
+                "Bicarb": "-"
+              },
+              {
+                "Subject": "Term (1 hr)",
+                "PO2 mmHg": "70",
+                "PCO2 mmHg": "35",
+                "pH": "7.35",
+                "Bicarb": "-"
+              },
+              {
+                "Subject": "Term (1 wk)",
+                "PO2 mmHg": "75",
+                "PCO2 mmHg": "35",
+                "pH": "7.4",
+                "Bicarb": "-"
+              },
+              {
+                "Subject": "Preterm 1.5 kg",
+                "PO2 mmHg": "60",
+                "PCO2 mmHg": "38",
+                "pH": "7.37",
+                "Bicarb": "-"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Newborn_Normal_ABG_Parameters": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Subject": "< 28 wks",
+            "PO2 mmHg": "50-65",
+            "PCO2 mmHg": "40-50",
+            "pH": ">7.28",
+            "Bicarb": "18-24"
+          },
+          {
+            "Subject": "38-49 wks",
+            "PO2 mmHg": "50-70",
+            "PCO2 mmHg": "40-50",
+            "pH": ">7.3",
+            "Bicarb": "20-24"
+          },
+          {
+            "Subject": "Term (10 min)",
+            "PO2 mmHg": "50",
+            "PCO2 mmHg": "48",
+            "pH": "7.2",
+            "Bicarb": "-"
+          },
+          {
+            "Subject": "Term (1 hr)",
+            "PO2 mmHg": "70",
+            "PCO2 mmHg": "35",
+            "pH": "7.35",
+            "Bicarb": "-"
+          },
+          {
+            "Subject": "Term (1 wk)",
+            "PO2 mmHg": "75",
+            "PCO2 mmHg": "35",
+            "pH": "7.4",
+            "Bicarb": "-"
+          },
+          {
+            "Subject": "Preterm 1.5 kg",
+            "PO2 mmHg": "60",
+            "PCO2 mmHg": "38",
+            "pH": "7.37",
+            "Bicarb": "-"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "See also\nnewborn resuscitation\nTTN is a benign, self-limited condition; treat with supportive care\nSupplemental\nO2\n, maintain SpO2 > 90%\nIf > 40% FiO2 or increasing work of breathing, consider:\nNasal\nCPAP\nSurfactant replacement\nIV fluids\nbut some suggest fluid restriction in the first day of life, gavage feedings until respiratory rate decreases enough for oral feedings (usually <60)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        },
+        {
+          "text": "O2",
+          "url": "https://wikem.org/wiki/O2"
+        },
+        {
+          "text": "CPAP",
+          "url": "https://wikem.org/wiki/CPAP"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IV_fluids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Newborn resuscitation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Newborn resuscitation",
+          "url": "https://wikem.org/wiki/Newborn_resuscitation"
+        }
+      ]
+    },
+    "References": {
+      "text": "Guglani L, Lakshminrusimha S, Ryan R. Transient Tachypnea of the Newborn. Pediatrics in Review. 2008 e59-e65.\nJohnson, Karen E. Transient Tachypnea of the newborn. UpToDate. Aug 30 2021. Accessed via:\nhttps://www.uptodate.com/contents/transient-tachypnea-of-the-newborn?search=transient%20tachypnea%20of%20the%20newborn&source=search_result&selectedTitle=1~34&usage_type=default&display_rank=1#H8\n.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

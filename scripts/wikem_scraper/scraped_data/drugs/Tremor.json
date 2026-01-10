@@ -1,0 +1,104 @@
+{
+  "drug_name": "Tremor",
+  "url": "https://wikem.org/wiki/Tremor",
+  "scraped_at": "2026-01-10T08:04:14.888681",
+  "sections": {
+    "Background": {
+      "text": "Involuntary, rhythmic, oscillatory movement of a body part\n[1]\nClinical classification commonly distinguished by whether tremor occurs at rest or with action",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Enhanced physiologic tremor (e.g. anxiety)\nEssential tremor (familital)\nParkinson's disease\nHyperthyroidism\nHepatic encephalopathy\nCerebellar dysfunction\nWilson's disease\nHypoglycemia\nToxicology:\nCaffeine\n,\ntheophylline\nSympathomimetics\nETOH withdrawal\nAntipsychotics\nMetoclopramide\nLithium\nLevothyroxine\nTricyclic antidepressants\nValproic acid\nHydrogen Sulfide\nSerotonin syndrome\nSalicylate toxicity\nBupropion\nHeavy metal toxicity\nWest Nile virus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parkinson's disease",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Hyperthyroidism",
+          "url": "https://wikem.org/wiki/Hyperthyroidism"
+        },
+        {
+          "text": "Hepatic encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_encephalopathy"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Caffeine",
+          "url": "https://wikem.org/wiki/Caffeine"
+        },
+        {
+          "text": "theophylline",
+          "url": "https://wikem.org/wiki/Theophylline"
+        },
+        {
+          "text": "Sympathomimetics",
+          "url": "https://wikem.org/wiki/Sympathomimetics"
+        },
+        {
+          "text": "ETOH withdrawal",
+          "url": "https://wikem.org/wiki/ETOH_withdrawal"
+        },
+        {
+          "text": "Antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Metoclopramide",
+          "url": "https://wikem.org/wiki/Metoclopramide"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Levothyroxine",
+          "url": "https://wikem.org/wiki/Levothyroxine"
+        },
+        {
+          "text": "Tricyclic antidepressants",
+          "url": "https://wikem.org/wiki/Tricyclic_antidepressants"
+        },
+        {
+          "text": "Valproic acid",
+          "url": "https://wikem.org/wiki/Valproic_acid"
+        },
+        {
+          "text": "Hydrogen Sulfide",
+          "url": "https://wikem.org/wiki/Hydrogen_Sulfide"
+        },
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Bupropion",
+          "url": "https://wikem.org/wiki/Bupropion"
+        },
+        {
+          "text": "Heavy metal toxicity",
+          "url": "https://wikem.org/wiki/Heavy_metal_toxicity"
+        },
+        {
+          "text": "West Nile virus",
+          "url": "https://wikem.org/wiki/West_Nile_virus"
+        }
+      ]
+    }
+  }
+}

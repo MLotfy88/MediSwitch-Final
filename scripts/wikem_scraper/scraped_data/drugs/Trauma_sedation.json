@@ -1,0 +1,111 @@
+{
+  "drug_name": "Trauma_sedation",
+  "url": "https://wikem.org/wiki/Trauma_sedation",
+  "scraped_at": "2026-01-10T08:04:07.889452",
+  "sections": {
+    "Trauma": {
+      "text": "5mg\nHaloperidol\n+\nDiphenhydramine\n50mg IV/IM\n5mg\nHaloperidol\n5mg\nHaloperidol\nthen\nLorazepam\nOR\nKetamine\n1mg/kg IV or 5 mg/kg IM",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        }
+      ]
+    },
+    "Psych": {
+      "text": "2mg\nBenztropine\n50mg\nDiphenhydramine\n2mg\nLorazepam",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Benztropine",
+          "url": "https://wikem.org/wiki/Benztropine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Lorazepam",
+          "url": "https://wikem.org/wiki/Lorazepam"
+        }
+      ]
+    },
+    "Pediatric_Chemical_Sedation": {
+      "text": "Anti-histamine\n(first line):\nDiphenhydramine\nat 1mg/kg/dose IM (max 50mg)\nTypical\nantipsychotics\n(second line):\nHaloperidol\nat 0.025-0.075mg/kg/dose IM (max 2.5 if < 12 years; 2-5mg if > 12 years)\nAtypical\nantipsychotics\n(third line):\nRisperidone\nat 0.01mg/kg/dose IM (typically 0.25-4mg/dose)\nBenzodiazepines\nreserved for children that do not respond to above agents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anti-histamine",
+          "url": "https://wikem.org/wiki/Anti-histamine"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Haloperidol",
+          "url": "https://wikem.org/wiki/Haloperidol"
+        },
+        {
+          "text": "antipsychotics",
+          "url": "https://wikem.org/wiki/Antipsychotics"
+        },
+        {
+          "text": "Risperidone",
+          "url": "https://wikem.org/wiki/Risperidone"
+        },
+        {
+          "text": "Benzodiazepines",
+          "url": "https://wikem.org/wiki/Benzodiazepines"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Sedation (main)\nIntranasal sedation\nCombative patient",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sedation (main)",
+          "url": "https://wikem.org/wiki/Sedation_(main)"
+        },
+        {
+          "text": "Intranasal sedation",
+          "url": "https://wikem.org/wiki/Intranasal_sedation"
+        },
+        {
+          "text": "Combative patient",
+          "url": "https://wikem.org/wiki/Combative_patient"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "drug_name": "Traumatic_aortic_transection",
+  "url": "https://wikem.org/wiki/Traumatic_aortic_transection",
+  "scraped_at": "2026-01-10T08:04:10.159086",
+  "sections": {
+    "Intro": {
+      "text": "Not to be confused with\nnontraumatic thoracic aortic dissection\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Blunt traumatic mechanism, rapid deceleration\nMost common location is isthmus (90%) just distal to the left subclavian artery\n[1]\nWhere the ligamentum arteriosum tethers the aorta and pulmonary artery\nOther locations are:\nAscending aorta (5%)\nDiaphragmatic hiatus (5%)\nOften asymptomatic but die without warning (80% die at scene)\nDo NOT have\nHypotension\n(just die, but may have initial hypertension in upper extremities)\nNeed high suspicion to diagnose",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "No signs or symptoms are sufficiently sensitive for dignosis\n[2]",
+      "subsections": {
+        "Symptoms": {
+          "text": "Chest pain\nBack pain\nShortness of breath\nDysphagia",
+          "tables": []
+        },
+        "Physical_exam": {
+          "text": "Seatbelt or steering wheel sign\nNew\nmurmur\nSubclavian hematoma\nFemoral pulse discrepancy\nUpper extremity\nhypertension\nif isolated traumatic aortic transection\nAortic hematoma stretches sympathetic fibers, increasing systemic vascular resistance\nPatients either have moderately elevated BP or no blood pressure at all, as true rupture leads quickly to death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Symptoms": {
+      "text": "Chest pain\nBack pain\nShortness of breath\nDysphagia",
+      "subsections": {
+        "Physical_exam": {
+          "text": "Seatbelt or steering wheel sign\nNew\nmurmur\nSubclavian hematoma\nFemoral pulse discrepancy\nUpper extremity\nhypertension\nif isolated traumatic aortic transection\nAortic hematoma stretches sympathetic fibers, increasing systemic vascular resistance\nPatients either have moderately elevated BP or no blood pressure at all, as true rupture leads quickly to death",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Back pain",
+          "url": "https://wikem.org/wiki/Back_pain"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Physical_exam": {
+      "text": "Seatbelt or steering wheel sign\nNew\nmurmur\nSubclavian hematoma\nFemoral pulse discrepancy\nUpper extremity\nhypertension\nif isolated traumatic aortic transection\nAortic hematoma stretches sympathetic fibers, increasing systemic vascular resistance\nPatients either have moderately elevated BP or no blood pressure at all, as true rupture leads quickly to death",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Thoracic_Trauma": {
+          "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Thoracic_Trauma": {
+      "text": "Airway/Pulmonary\nBronchial injury\nDiaphragmatic trauma\nHemothorax\nPneumomediastinum\nPulmonary contusion\nTracheal injury\nTrachobronchial injury\nTraumatic pneumothorax\nTension pneumothorax\nCardiac/Vascular\nCardiac injury\nBlunt cardiac injury\nCardiac contusion\nCommotio cordis\nPenetrating cardiac injury\nCardiac tamponade\nTraumatic aortic transection\nMusculoskeletal\nClavicle fracture\nClavicle fracture (peds)\nRib fracture\nFlail chest\nScapular fracture\nScapulothoracic dissociation\nSternoclavicular dislocation\nSternum fracture\nThoracic and lumbar fractures and dislocations\nOther\nEsophageal injury\nor\nPerforation\nPneumomediastinum\nPneumopericardium\nTraumatic asphyxia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bronchial injury",
+          "url": "https://wikem.org/wiki/Bronchial_injury"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Tracheal injury",
+          "url": "https://wikem.org/wiki/Tracheal_injury"
+        },
+        {
+          "text": "Trachobronchial injury",
+          "url": "https://wikem.org/wiki/Trachobronchial_injury"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Blunt cardiac injury",
+          "url": "https://wikem.org/wiki/Blunt_cardiac_injury"
+        },
+        {
+          "text": "Cardiac contusion",
+          "url": "https://wikem.org/wiki/Cardiac_contusion"
+        },
+        {
+          "text": "Commotio cordis",
+          "url": "https://wikem.org/wiki/Commotio_cordis"
+        },
+        {
+          "text": "Penetrating cardiac injury",
+          "url": "https://wikem.org/wiki/Penetrating_cardiac_injury"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Clavicle fracture",
+          "url": "https://wikem.org/wiki/Clavicle_fracture"
+        },
+        {
+          "text": "Clavicle fracture (peds)",
+          "url": "https://wikem.org/wiki/Clavicle_fracture_(peds)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Scapular fracture",
+          "url": "https://wikem.org/wiki/Scapular_fracture"
+        },
+        {
+          "text": "Scapulothoracic dissociation",
+          "url": "https://wikem.org/wiki/Scapulothoracic_dissociation"
+        },
+        {
+          "text": "Sternoclavicular dislocation",
+          "url": "https://wikem.org/wiki/Sternoclavicular_dislocation"
+        },
+        {
+          "text": "Sternum fracture",
+          "url": "https://wikem.org/wiki/Sternum_fracture"
+        },
+        {
+          "text": "Thoracic and lumbar fractures and dislocations",
+          "url": "https://wikem.org/wiki/Thoracic_and_lumbar_fractures_and_dislocations"
+        },
+        {
+          "text": "Esophageal injury",
+          "url": "https://wikem.org/wiki/Esophageal_injury"
+        },
+        {
+          "text": "Perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumopericardium",
+          "url": "https://wikem.org/wiki/Pneumopericardium"
+        },
+        {
+          "text": "Traumatic asphyxia",
+          "url": "https://wikem.org/wiki/Traumatic_asphyxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "CT\nDiagnostic study of choice\nGood for aorta but not for branch vessels\nCXR\n(may be an initial screening study, but is not sensitive)\nWidened mediastinum (>8cm on supine film)\nLeft apical cap\nEnlarged aortic knob\nLeft hemothorax\nRightward tracheal/esophageal deviation\nDepression of left mainstem bronchus\nElevation of right mainstem bronchus\nWidened paratracheal stripe\nWidened paraspinal interfaces\nAortography\nNo longer routinely performed, although previously the gold standard\n25% have complications (i.e. infection & hematoma)",
+          "tables": []
+        },
+        "Classification": {
+          "text": "Based on CT findings\nType I: Intimal tear\nType II: Intramural hematoma\nType III: Pseudoaneurysm\nType IV: Rupture (free rupture, periaortic hematoma)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "CT\nDiagnostic study of choice\nGood for aorta but not for branch vessels\nCXR\n(may be an initial screening study, but is not sensitive)\nWidened mediastinum (>8cm on supine film)\nLeft apical cap\nEnlarged aortic knob\nLeft hemothorax\nRightward tracheal/esophageal deviation\nDepression of left mainstem bronchus\nElevation of right mainstem bronchus\nWidened paratracheal stripe\nWidened paraspinal interfaces\nAortography\nNo longer routinely performed, although previously the gold standard\n25% have complications (i.e. infection & hematoma)",
+      "subsections": {
+        "Classification": {
+          "text": "Based on CT findings\nType I: Intimal tear\nType II: Intramural hematoma\nType III: Pseudoaneurysm\nType IV: Rupture (free rupture, periaortic hematoma)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Classification": {
+          "text": "Based on CT findings\nType I: Intimal tear\nType II: Intramural hematoma\nType III: Pseudoaneurysm\nType IV: Rupture (free rupture, periaortic hematoma)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Management per\nATLS\nfor multiple injuries, hypotension\nInitial medical management similar to\nNontraumatic thoracic aortic dissection\nKeep SBP <120, HR 60-80 with α/\nβ-blockers\n,\ncalcium-channel blockers\nType I injuries may be managed conservatively\n[4]\nSurgical management for type II and greater",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        },
+        {
+          "text": "Nontraumatic thoracic aortic dissection",
+          "url": "https://wikem.org/wiki/Nontraumatic_thoracic_aortic_dissection"
+        },
+        {
+          "text": "β-blockers",
+          "url": "https://wikem.org/wiki/Beta_blockers"
+        },
+        {
+          "text": "calcium-channel blockers",
+          "url": "https://wikem.org/wiki/Calcium-channel_blockers"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Thoracic trauma\nNontraumatic thoracic aortic dissection",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic trauma",
+          "url": "https://wikem.org/wiki/Thoracic_trauma"
+        },
+        {
+          "text": "Nontraumatic thoracic aortic dissection",
+          "url": "https://wikem.org/wiki/Nontraumatic_thoracic_aortic_dissection"
+        }
+      ]
+    }
+  }
+}

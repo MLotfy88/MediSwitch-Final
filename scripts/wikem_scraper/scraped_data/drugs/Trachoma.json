@@ -1,0 +1,128 @@
+{
+  "drug_name": "Trachoma",
+  "url": "https://wikem.org/wiki/Trachoma",
+  "scraped_at": "2026-01-10T08:04:01.387957",
+  "sections": {
+    "Background": {
+      "text": "Most common cause of infectious blindness worldwide\nCaused by\nChlamydia trachomatis\nSpread by direct contact, fomites (towels, clothes, bed covers), and flies (those that have landed on or near the mouth or eyes of other infected individuals)\nMore than 6 million blind secondary to trachoma and more than 150 million in need of treatment\nTypically affects most marginalized populations in the world\nThose with limited access to clean water and sanitation\nPart of the group of diseases known as\nneglected tropical diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Chlamydia trachomatis",
+          "url": "https://wikem.org/wiki/Chlamydia_trachomatis"
+        },
+        {
+          "text": "neglected tropical diseases",
+          "url": "https://wikem.org/wiki/Neglected_tropical_diseases"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Conjunctivitis\n-like symptoms\nConjunctival follicles (white lumps) on the inner upper eyelid\nNon-specific inflammation and thickening of the conjunctiva",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Known as the \"quiet disease\" because of its slow chronic course\nBlindness after repeated infections\nCaused by structural changes to the inner eyelid\nScarring of the inner eyelid that leads to buckling of the lid\nThis causes the eyelashes to turn inwards\n(Trichiasis)\nand rub on the cornea causing repetitive trauma that leads to opacities and scarring of the cornea\nMajor complications include\ncorneal ulcers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "corneal ulcers",
+          "url": "https://wikem.org/wiki/Corneal_ulcers"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Conjunctivitis\n-like symptoms\nConjunctival follicles (white lumps) on the inner upper eyelid\nNon-specific inflammation and thickening of the conjunctiva",
+      "subsections": {
+        "Chronic": {
+          "text": "Known as the \"quiet disease\" because of its slow chronic course\nBlindness after repeated infections\nCaused by structural changes to the inner eyelid\nScarring of the inner eyelid that leads to buckling of the lid\nThis causes the eyelashes to turn inwards\n(Trichiasis)\nand rub on the cornea causing repetitive trauma that leads to opacities and scarring of the cornea\nMajor complications include\ncorneal ulcers",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "corneal ulcers",
+          "url": "https://wikem.org/wiki/Corneal_ulcers"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Known as the \"quiet disease\" because of its slow chronic course\nBlindness after repeated infections\nCaused by structural changes to the inner eyelid\nScarring of the inner eyelid that leads to buckling of the lid\nThis causes the eyelashes to turn inwards\n(Trichiasis)\nand rub on the cornea causing repetitive trauma that leads to opacities and scarring of the cornea\nMajor complications include\ncorneal ulcers",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corneal ulcers",
+          "url": "https://wikem.org/wiki/Corneal_ulcers"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {
+        "WHO_classification": {
+          "text": "Simplified grading system composed of 5 clinical signs of infection\nFollicular trachomatous inflammation (TF)\n≥5 follicles >0.5mm on the superior tarsal conjunctiva\nIntense trachomatous inflammation (TI)\nHypertrophy of the papilla and inflammatory thickening of the superior tarsal conjunctiva (must obscure more than half of the deep vessels)\nTrachomatous scarring (TS)\nScarring in the superior tarsal conjunctiva\nTrachomatous trichiasis (TT)\nOne or more ingrown eyelash in contact with the globe or evidence of eyelash loss (epilation)\nCorneal opacity\nMust blur part of the pupil margin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "S.A.F.E.\nstrategy proposed by WHO\nS\n- Surgery\nBilamellar tarsal rotation procedure recommended by WHO\nA\n- Antibiotics\nTetracycline 1% eye ointment\nAdherence issues\nsecondary to difficulty in use and uncomfortable to apply\nAzithromycin\n(20mg/kg) single dose\nRelatively expensive in resource poor settings\nF\n- Facial cleanliness\nHelps decrease disease transmission\nE\n- Environmental management\nWHO emphasizes access to latrine and clean water",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Parasites\nTravel Medicine\nNeglected Tropical Diseases\nOnchocerciasis (River Blindness)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasites",
+          "url": "https://wikem.org/wiki/Parasites"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        },
+        {
+          "text": "Neglected Tropical Diseases",
+          "url": "https://wikem.org/wiki/Neglected_Tropical_Diseases"
+        },
+        {
+          "text": "Onchocerciasis (River Blindness)",
+          "url": "https://wikem.org/wiki/Onchocerciasis_(River_Blindness)"
+        }
+      ]
+    },
+    "References": {
+      "text": "http://www.cdc.gov/healthywater/hygiene/disease/trachoma.html\nhttp://www.cartercenter.org/health/trachoma/index.html\nhttp://webcache.googleusercontent.com/search?q=cache:http://whqlibdoc.who.int/publications/2006/9241546905_eng.pdf\nhttp://www.who.int/topics/trachoma/en/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

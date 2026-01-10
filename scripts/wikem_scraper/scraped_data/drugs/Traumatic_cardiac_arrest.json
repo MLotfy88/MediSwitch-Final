@@ -1,0 +1,120 @@
+{
+  "drug_name": "Traumatic_cardiac_arrest",
+  "url": "https://wikem.org/wiki/Traumatic_cardiac_arrest",
+  "scraped_at": "2026-01-10T08:04:05.121699",
+  "sections": {
+    "Background": {
+      "text": "Classically thought to invariably lead to death\nHowever, recent data suggests that survival from traumatic cardiac arrest is similar to that of medical causes of\ncardiac arrest\n[1]\nOne military study demonstrated 24% survival of patients who underwent resuscitation after traumatic arrest\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "cardiac arrest",
+          "url": "https://wikem.org/wiki/Cardiac_arrest"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Initial rhythm usually\nPEA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "PEA",
+          "url": "https://wikem.org/wiki/PEA"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Differential diagnosis should be thought of in terms of reversible causes\nMassive hemorrhage and hypovolemia\nTension pneumothorax\nHemothorax\nCardiac tamponade\nHypoxia\nand airway compromise\nPelvic trauma\nHemodynamically compromising long bone fractures",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Hemothorax",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Pelvic trauma",
+          "url": "https://wikem.org/wiki/Pelvic_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Pre-operation labs\nBase excess, ABG/VBG, lactate\nType and cross\nCXR\nPelvic XR\neFAST",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "General approach per\nATLS\nguidelines\nLarge bore PIV or central line access with blood products,\nmassive transfusion\nEstablishing resuscitation airway\nBilateral\nthoracostomy\n, can do finger thoracostomies instead of tube or needle.\n[3]\nEmergency\nthoracotomy\nIf thoracotomy not indicated then pericardiocentesis or cardiac ultrasound to evaluate for tamponade.\nConsider\nREBOA\ncatherization and balloon inflation\nLong bone fracture reduction, if there is suspicion of significant enough hemorrhage\nPelvic binding\nSurgical stabilization\nStandard\nACLS\nand BLS may delay critical interventions\nNo definitive animal or human evidence to support external chest compressions in traumatic cardiac arrest\n[4]\nNo evidence to support IV epinephrine in traumatic arrest, with the exception of\nneurogenic shock",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        },
+        {
+          "text": "massive transfusion",
+          "url": "https://wikem.org/wiki/Massive_transfusion"
+        },
+        {
+          "text": "thoracostomy",
+          "url": "https://wikem.org/wiki/Thoracostomy"
+        },
+        {
+          "text": "thoracotomy",
+          "url": "https://wikem.org/wiki/Thoracotomy"
+        },
+        {
+          "text": "REBOA",
+          "url": "https://wikem.org/wiki/REBOA"
+        },
+        {
+          "text": "ACLS",
+          "url": "https://wikem.org/wiki/ACLS"
+        },
+        {
+          "text": "neurogenic shock",
+          "url": "https://wikem.org/wiki/Neurogenic_shock"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Emergency surgery",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Trauma (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Trauma (main)",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Scott Weingart. EMCrit Podcast 135 – Trauma Thoughts with John Hinds. EMCrit Blog. Published on October 19, 2014. Accessed on December 14th 2019. Available at\nhttps://emcrit.org/emcrit/trauma-thoughts-john-hinds/",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

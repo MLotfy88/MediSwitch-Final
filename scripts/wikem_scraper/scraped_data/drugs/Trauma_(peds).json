@@ -1,0 +1,270 @@
+{
+  "drug_name": "Trauma_(peds)",
+  "url": "https://wikem.org/wiki/Trauma_(peds)",
+  "scraped_at": "2026-01-10T08:04:06.940838",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nTrauma (main)\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Key is to recognize and treat\nshock\nearly (before blood pressure decreases),\nonce child has signs and symptoms of shock, may have lost 25% of blood volume\nBP not usually helpful sign of blood loss in pediatric patients\nCan have high, low, or normal BP in shock\npulse pressure is helpful\n80% of pediatric trauma deaths associated with neurological injury (see\npediatric head trauma\n)",
+      "subsections": {
+        "Locations_of_Possible_Life-Threatening_Bleeding": {
+          "text": "External\nInternal\nThoracic cavity\nPeritoneal cavity\nRetroperitoneal space (i.e.\npelvic fracture\n)\nFemur fracture\n(into muscle/subcutaneous tissue)",
+          "tables": []
+        },
+        "Pediatric_car_seat_rules": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Age": "<2 years old",
+                "Type of Car Seat": "Infant-only or convertible car seat",
+                "Position": "Back seat, rear-facing",
+                "Comments": "If child height or weight > seat limit (usually ~40-65lbs), go to next age up"
+              },
+              {
+                "Age": "2-8 years old",
+                "Type of Car Seat": "Convertible or combination car seat",
+                "Position": "Back seat, forward-facing",
+                "Comments": "If child height or weight > seat limit, go to next age up"
+              },
+              {
+                "Age": "8-12 years old",
+                "Type of Car Seat": "Booster seat",
+                "Position": "Back seat, forward-facing",
+                "Comments": "If child height or weight > seat limit (usually 4' 9\"), go to next age up"
+              },
+              {
+                "Age": "12-13 years old",
+                "Type of Car Seat": "Lap and shoulder seat belt",
+                "Position": "Front or back seat, forward-facing",
+                "Comments": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "Thoracic cavity",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Peritoneal cavity",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        }
+      ]
+    },
+    "Locations_of_Possible_Life-Threatening_Bleeding": {
+      "text": "External\nInternal\nThoracic cavity\nPeritoneal cavity\nRetroperitoneal space (i.e.\npelvic fracture\n)\nFemur fracture\n(into muscle/subcutaneous tissue)",
+      "subsections": {
+        "Pediatric_car_seat_rules": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Age": "<2 years old",
+                "Type of Car Seat": "Infant-only or convertible car seat",
+                "Position": "Back seat, rear-facing",
+                "Comments": "If child height or weight > seat limit (usually ~40-65lbs), go to next age up"
+              },
+              {
+                "Age": "2-8 years old",
+                "Type of Car Seat": "Convertible or combination car seat",
+                "Position": "Back seat, forward-facing",
+                "Comments": "If child height or weight > seat limit, go to next age up"
+              },
+              {
+                "Age": "8-12 years old",
+                "Type of Car Seat": "Booster seat",
+                "Position": "Back seat, forward-facing",
+                "Comments": "If child height or weight > seat limit (usually 4' 9\"), go to next age up"
+              },
+              {
+                "Age": "12-13 years old",
+                "Type of Car Seat": "Lap and shoulder seat belt",
+                "Position": "Front or back seat, forward-facing",
+                "Comments": ""
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Thoracic cavity",
+          "url": "https://wikem.org/wiki/Hemothorax"
+        },
+        {
+          "text": "Peritoneal cavity",
+          "url": "https://wikem.org/wiki/Abdominal_trauma"
+        },
+        {
+          "text": "pelvic fracture",
+          "url": "https://wikem.org/wiki/Pelvic_fracture"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture"
+        }
+      ]
+    },
+    "Pediatric_car_seat_rules": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Age": "<2 years old",
+            "Type of Car Seat": "Infant-only or convertible car seat",
+            "Position": "Back seat, rear-facing",
+            "Comments": "If child height or weight > seat limit (usually ~40-65lbs), go to next age up"
+          },
+          {
+            "Age": "2-8 years old",
+            "Type of Car Seat": "Convertible or combination car seat",
+            "Position": "Back seat, forward-facing",
+            "Comments": "If child height or weight > seat limit, go to next age up"
+          },
+          {
+            "Age": "8-12 years old",
+            "Type of Car Seat": "Booster seat",
+            "Position": "Back seat, forward-facing",
+            "Comments": "If child height or weight > seat limit (usually 4' 9\"), go to next age up"
+          },
+          {
+            "Age": "12-13 years old",
+            "Type of Car Seat": "Lap and shoulder seat belt",
+            "Position": "Front or back seat, forward-facing",
+            "Comments": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Peds assessment triad: appearance, work of breathing & circulation (skin color)\nChild's size allows for distribution of injuries\nmulti-system trauma is common\ninternal organs more susceptible to injury due to anterior placement of liver and spleen (as well as less protective muscle & fat)\nKidneys also less well protected and more mobile, prone to decelleration injury\nWadell Triad in auto vs. pedestrian child= femoral shaft fracture, intraabdominal/intrathoracic injury, and contralateral head injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Standard trauma injuries\nplus:\nChild abuse\nSCIWORA\nChance fracture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Standard trauma injuries",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        },
+        {
+          "text": "Child abuse",
+          "url": "https://wikem.org/wiki/Child_abuse"
+        },
+        {
+          "text": "SCIWORA",
+          "url": "https://wikem.org/wiki/SCIWORA"
+        },
+        {
+          "text": "Chance fracture",
+          "url": "https://wikem.org/wiki/Chance_fracture"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "FAST\nexam\nConsider as indicated:\nCBC, coags, T&S,\nLFTs\nfor abdominal trauma\n[2]\nPlain films\nCT head\n,\ncervical spine clearance\nclinically or with imaging\nCT abdomen/pelvis\n[3]\nSignificant intra-abdominal injury after blunt torso trauma highly unlikely (0.1%) if all of the following are true:\nGlasgow coma scale ≥14\nNo evidence of abdominal wall trauma or seat belt sign\nNo abdominal tenderness, abdominal pain, or vomiting\nNo thoracic wall trauma or decreased breath sounds",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CT head",
+          "url": "https://wikem.org/wiki/CT_head"
+        },
+        {
+          "text": "cervical spine clearance",
+          "url": "https://wikem.org/wiki/Cervical_spine_clearance"
+        }
+      ]
+    },
+    "Management": {
+      "text": "ATLS\nIn ED give\nIVF\nat 20cc/kg, if unresponsive after 40cc/kg give\nPRBCs\nat 10cc/kg (can start with PRBC if presents in decompensated shock & multiple injuries suspected)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on underlying injury",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric head trauma\nPECARN head trauma rule\nTrauma (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Trauma (main)",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast -- Multisystem Trauma in Children Part One: Airway, Chest Tubes, and Resuscitative Thoracotomy\nPediatric Emergency Playbook Podcast -- Multisystem Trauma in Children Part Two: Massive Transfusion, Trauma Imaging, and Resuscitative Pearls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

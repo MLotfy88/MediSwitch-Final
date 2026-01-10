@@ -1,0 +1,556 @@
+{
+  "drug_name": "Transient_ischemic_attack",
+  "url": "https://wikem.org/wiki/Transient_ischemic_attack",
+  "scraped_at": "2026-01-10T08:04:04.305895",
+  "sections": {
+    "Background": {
+      "text": "Abbreviation: TIA\nNew Definition:\na brief episode of neurologic dysfunction caused by focal brain, spinal cord or retinal ischemia, with clinical symptoms typically lasting less than one hour, and without evidence of acute infarction.\n[1]\nShould be viewed as analogous to unstable angina\nClassic Definition:\nA sudden, focal neurologic deficit that lasts for less than 24 hours, is presumed to be of vascular origin, and is confined to an area of the brain or eye perfused by a specific artery\n[1]\nSince 15% of strokes are preceded by TIA, timely eval of high risk conditions like\nAtrial Fibrillation\nand\nCarotid Stenosis\nis important",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial Fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_Fibrillation"
+        },
+        {
+          "text": "Carotid Stenosis",
+          "url": "https://wikem.org/wiki/Carotid_stenosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Focal\nweakness\n(Paralysis or paresis of the face, arm, or leg and typically unilateral)\nDysarthria\nor dysphasia or aphasia\nVision changes\n(Field deficits,\nblindness\n, or\ndiplopia\n)\nChanges in balance or\ncoordination",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "Vision changes",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "blindness",
+          "url": "https://wikem.org/wiki/Vision_loss"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "coordination",
+          "url": "https://wikem.org/wiki/Ataxia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Stroke-like_Symptoms": {
+          "text": "Stroke\nSeizures\n/postictal paralysis (Todd paralysis)\nSyncope\nSubdural hemorrhage\nEpidural hemorrhage\nHypoglycemia\nHyponatremia\nMeningitis\n/\nencephalitis\nHyperosmotic Coma\nLabyrinthitis\nDrug toxicity\nLithium\n,\nphenytoin\n,\ncarbamazepine\nBell's Palsy\nComplicated\nmigraine\nMeniere Disease\nDemyelinating disease (\nMS\n)\nConversion disorder\nTransient global amnesia\nGiant cell arteritis\nCerebral sinus thrombosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Hyperosmotic Coma",
+          "url": "https://wikem.org/wiki/Hyperosmotic_Coma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Drug_toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_toxicity"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Transient global amnesia",
+          "url": "https://wikem.org/wiki/Transient_global_amnesia"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        }
+      ]
+    },
+    "Stroke-like_Symptoms": {
+      "text": "Stroke\nSeizures\n/postictal paralysis (Todd paralysis)\nSyncope\nSubdural hemorrhage\nEpidural hemorrhage\nHypoglycemia\nHyponatremia\nMeningitis\n/\nencephalitis\nHyperosmotic Coma\nLabyrinthitis\nDrug toxicity\nLithium\n,\nphenytoin\n,\ncarbamazepine\nBell's Palsy\nComplicated\nmigraine\nMeniere Disease\nDemyelinating disease (\nMS\n)\nConversion disorder\nTransient global amnesia\nGiant cell arteritis\nCerebral sinus thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Syncope",
+          "url": "https://wikem.org/wiki/Syncope"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Hyperosmotic Coma",
+          "url": "https://wikem.org/wiki/Hyperosmotic_Coma"
+        },
+        {
+          "text": "Labyrinthitis",
+          "url": "https://wikem.org/wiki/Labyrinthitis"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Drug_toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin_toxicity"
+        },
+        {
+          "text": "carbamazepine",
+          "url": "https://wikem.org/wiki/Carbamazepine_toxicity"
+        },
+        {
+          "text": "Bell's Palsy",
+          "url": "https://wikem.org/wiki/Bell%27s_Palsy"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "Meniere Disease",
+          "url": "https://wikem.org/wiki/Meniere_Disease"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        },
+        {
+          "text": "Conversion disorder",
+          "url": "https://wikem.org/wiki/Conversion_disorder"
+        },
+        {
+          "text": "Transient global amnesia",
+          "url": "https://wikem.org/wiki/Transient_global_amnesia"
+        },
+        {
+          "text": "Giant cell arteritis",
+          "url": "https://wikem.org/wiki/Giant_cell_arteritis"
+        },
+        {
+          "text": "Cerebral sinus thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_sinus_thrombosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Stroke_Work-Up": {
+          "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[2]\nIn acute ICH the sensitivity is 95-100%\n[3]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[4]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+          "tables": []
+        },
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[5]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[6]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Stroke_Work-Up": {
+      "text": "Labs\nPOC glucose\nCBC\nChemistry\nCoags\nTroponin\nT&S\nECG\nIn large ICH or stroke, may see deep TWI and prolong QT, occ ST changes\nHead CT\n(non-contrast)\nIn ischemia stroke CT has sensitivity 42%, specificity 91%\n[2]\nIn acute ICH the sensitivity is 95-100%\n[3]\nThe goal of CTH is to identify stroke mimics (ICH, mass lesions, etc .)\n[4]\nAlso consider:\nCTA brain and neck\nTo check for large vessel occlusion for potential thrombectomy\nDetermine if there is carotid stenosis that warrants endarterectomy urgently\nPregnancy test\nCXR\n(if infection suspected)\nUA\n(if infection suspected)\nUtox\n(if ingestion suspected)",
+      "subsections": {
+        "MR_Imaging_(for_Rule-Out_CVA_or_TIA)": {
+          "text": "MRI Brain\nwith DWI, ADC (without contrast)\nAND\nCervical vascular imaging (ACEP Level B in patients with high short-term risk for stroke):\n[5]\nMRA brain (without contrast)\nAND\nMRA neck (without contrast)\nMay instead use Carotid CTA or US (Carotid US slightly less sensitive than MRA)\n[6]\n(ACEP Level C)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "Utox",
+          "url": "https://wikem.org/wiki/Utox"
+        },
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Little acute management (given normally resolution of symptoms)\nConsider\nAspirin\n325 mg PO (once hemorrhage ruled-out) for low risk TIA (ABCD2 score < 4)\nConsider dual\nantiplatelet\ntherapy for high risk TIA (ABCD2 score ≥ 4)\n[7]\nLoad with\nAspirin\n325 mg chewed, followed by ASA 81 mg PO daily\nLoad with\nClopidogrel\n300 mg PO followed by 75 mg daily for 3 weeks only",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "Clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "ACEP_Guidelines": {
+          "text": "Level B: In adult patients with suspected TIA, do not rely on current existing risk stratification instruments (eg, age, blood pressure, clinical features, duration of TIA and presence of diabetes [ABCD2] score) to identify TIA patients who can be safely discharged from the ED.\nIn contrast to the 2009 AHA/ASA recommendations that were based on limited research, the ABCD2 does not sufficiently identify the short-term risk for stroke to use alone as a risk-stratification instrument.\nMultiple other risk-stratification instruments have been evaluated less frequently than the ABCD2 score. None have demonstrated the ability to identify individual patients at sufficiently low short-term risk for stroke to use alone as a risk-stratification instrument.\nLevel B: A rapid ED based diagnostic protocol can be used to safely identify patients at short-term risk for stroke.\nStudy based on observation units and outpatient TIA clinics\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ACEP_Guidelines": {
+      "text": "Level B: In adult patients with suspected TIA, do not rely on current existing risk stratification instruments (eg, age, blood pressure, clinical features, duration of TIA and presence of diabetes [ABCD2] score) to identify TIA patients who can be safely discharged from the ED.\nIn contrast to the 2009 AHA/ASA recommendations that were based on limited research, the ABCD2 does not sufficiently identify the short-term risk for stroke to use alone as a risk-stratification instrument.\nMultiple other risk-stratification instruments have been evaluated less frequently than the ABCD2 score. None have demonstrated the ability to identify individual patients at sufficiently low short-term risk for stroke to use alone as a risk-stratification instrument.\nLevel B: A rapid ED based diagnostic protocol can be used to safely identify patients at short-term risk for stroke.\nStudy based on observation units and outpatient TIA clinics\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Canadian_TIA_Score": {
+          "text": "The score offers better performance than ABCD2 in predicting stroke risk after TIA, particularly low risk.\n[9]\nItem Scoring\nClinical Findings:\n1. First TIA (in lifetime) (2 pt)\n2. Symptoms ≥10 minutes (2 pt)\n3. Past history of carotid stenosis (2 pt)\n4. Already on antiplatelet therapy (3 pt)\n5. History of gait disturbance (1 pt)\n6. History of unilateral weakness (1 pt)\n7. History of vertigo (-3 pts)\n8. Initial triage diastolic blood pressure ≥110 mm Hg (3 pt)\n9. Dysarthria or aphasia (history or examination) (3 pt)\nInvestigations in the emergency department:\n1.Atrial fibrillation on electrocardiogram (2 pt)\n2.Infarction (new or old) on computed tomography (1 pt)\n3.Platelet count≥400×109/L (2 pt)\n4.Glucose ≥15 mmol/L (3pt)",
+          "tables": [
+            [
+              {
+                "Points": "-3-3",
+                "Stroke Risk": "Low",
+                "Risk of Stroke or Carotid Revascularization in 7 Days": ".5%"
+              },
+              {
+                "Points": "4-8",
+                "Stroke Risk": "Medium Risk",
+                "Risk of Stroke or Carotid Revascularization in 7 Days": "2.3%"
+              },
+              {
+                "Points": "≥9",
+                "Stroke Risk": "High",
+                "Risk of Stroke or Carotid Revascularization in 7 Days": "5.9%"
+              }
+            ]
+          ]
+        },
+        "ABCD2_Score": {
+          "text": "Risk of stroke at 2d, 7d, and 90d from TIA\nAlthough prognostic, evidence-based admission thresholds have not been determined\nNone with score <3 had CVA within one week in study\nStudies have failed to validate the ABCD2 score, and may cause physicians to incorrectly classify ~8% of patients as low risk, with sensitivity of the score for high risk patients only ~30%\n[11]\n[12]\nScoring\nAge >60yr (1 pt)\nBP (SBP >140 OR diastolic >90) (1 pt)\nClinical Features\nIsolated speech disturbance (1 pt)\nUnilateral weakness (2 pts)\nDuration of symptoms\n10-59 min (1 pt)\n>60 min (2 pts)\nDiabetes mellitus\n(1 pt)\nAccording to the 2018 Canadian Heart and Stroke Guideline, the\nClinical\ncomponent of the ABCD2 score is the most important prognostic feature\n[13]\nVery high risk for recurrent stroke are the following symptoms that have occurred within the last 48 hours\nTransient, fluctuating or persistent unilateral weakness (face, arm and/or leg)\nTransient, fluctuating or persistent language/speech disturbance\nAnd/or fluctuating or persistent symptoms without motor weakness or language/speech disturbance",
+          "tables": [
+            [
+              {
+                "Points": "0-3",
+                "Stroke Risk": "Low",
+                "Two Days": "1.0%",
+                "Seven Days": "1.2%",
+                "90 Days": "3.1%"
+              },
+              {
+                "Points": "4-5",
+                "Stroke Risk": "Moderate",
+                "Two Days": "4.1%",
+                "Seven Days": "5.9%",
+                "90 Days": "9.8%"
+              },
+              {
+                "Points": "6-7",
+                "Stroke Risk": "High",
+                "Two Days": "8.1%",
+                "Seven Days": "11.7%",
+                "90 Days": "17.8%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "Canadian_TIA_Score": {
+      "text": "The score offers better performance than ABCD2 in predicting stroke risk after TIA, particularly low risk.\n[9]\nItem Scoring\nClinical Findings:\n1. First TIA (in lifetime) (2 pt)\n2. Symptoms ≥10 minutes (2 pt)\n3. Past history of carotid stenosis (2 pt)\n4. Already on antiplatelet therapy (3 pt)\n5. History of gait disturbance (1 pt)\n6. History of unilateral weakness (1 pt)\n7. History of vertigo (-3 pts)\n8. Initial triage diastolic blood pressure ≥110 mm Hg (3 pt)\n9. Dysarthria or aphasia (history or examination) (3 pt)\nInvestigations in the emergency department:\n1.Atrial fibrillation on electrocardiogram (2 pt)\n2.Infarction (new or old) on computed tomography (1 pt)\n3.Platelet count≥400×109/L (2 pt)\n4.Glucose ≥15 mmol/L (3pt)",
+      "subsections": {
+        "ABCD2_Score": {
+          "text": "Risk of stroke at 2d, 7d, and 90d from TIA\nAlthough prognostic, evidence-based admission thresholds have not been determined\nNone with score <3 had CVA within one week in study\nStudies have failed to validate the ABCD2 score, and may cause physicians to incorrectly classify ~8% of patients as low risk, with sensitivity of the score for high risk patients only ~30%\n[11]\n[12]\nScoring\nAge >60yr (1 pt)\nBP (SBP >140 OR diastolic >90) (1 pt)\nClinical Features\nIsolated speech disturbance (1 pt)\nUnilateral weakness (2 pts)\nDuration of symptoms\n10-59 min (1 pt)\n>60 min (2 pts)\nDiabetes mellitus\n(1 pt)\nAccording to the 2018 Canadian Heart and Stroke Guideline, the\nClinical\ncomponent of the ABCD2 score is the most important prognostic feature\n[13]\nVery high risk for recurrent stroke are the following symptoms that have occurred within the last 48 hours\nTransient, fluctuating or persistent unilateral weakness (face, arm and/or leg)\nTransient, fluctuating or persistent language/speech disturbance\nAnd/or fluctuating or persistent symptoms without motor weakness or language/speech disturbance",
+          "tables": [
+            [
+              {
+                "Points": "0-3",
+                "Stroke Risk": "Low",
+                "Two Days": "1.0%",
+                "Seven Days": "1.2%",
+                "90 Days": "3.1%"
+              },
+              {
+                "Points": "4-5",
+                "Stroke Risk": "Moderate",
+                "Two Days": "4.1%",
+                "Seven Days": "5.9%",
+                "90 Days": "9.8%"
+              },
+              {
+                "Points": "6-7",
+                "Stroke Risk": "High",
+                "Two Days": "8.1%",
+                "Seven Days": "11.7%",
+                "90 Days": "17.8%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Points": "-3-3",
+            "Stroke Risk": "Low",
+            "Risk of Stroke or Carotid Revascularization in 7 Days": ".5%"
+          },
+          {
+            "Points": "4-8",
+            "Stroke Risk": "Medium Risk",
+            "Risk of Stroke or Carotid Revascularization in 7 Days": "2.3%"
+          },
+          {
+            "Points": "≥9",
+            "Stroke Risk": "High",
+            "Risk of Stroke or Carotid Revascularization in 7 Days": "5.9%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "ABCD2_Score": {
+      "text": "Risk of stroke at 2d, 7d, and 90d from TIA\nAlthough prognostic, evidence-based admission thresholds have not been determined\nNone with score <3 had CVA within one week in study\nStudies have failed to validate the ABCD2 score, and may cause physicians to incorrectly classify ~8% of patients as low risk, with sensitivity of the score for high risk patients only ~30%\n[11]\n[12]\nScoring\nAge >60yr (1 pt)\nBP (SBP >140 OR diastolic >90) (1 pt)\nClinical Features\nIsolated speech disturbance (1 pt)\nUnilateral weakness (2 pts)\nDuration of symptoms\n10-59 min (1 pt)\n>60 min (2 pts)\nDiabetes mellitus\n(1 pt)\nAccording to the 2018 Canadian Heart and Stroke Guideline, the\nClinical\ncomponent of the ABCD2 score is the most important prognostic feature\n[13]\nVery high risk for recurrent stroke are the following symptoms that have occurred within the last 48 hours\nTransient, fluctuating or persistent unilateral weakness (face, arm and/or leg)\nTransient, fluctuating or persistent language/speech disturbance\nAnd/or fluctuating or persistent symptoms without motor weakness or language/speech disturbance",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Points": "0-3",
+            "Stroke Risk": "Low",
+            "Two Days": "1.0%",
+            "Seven Days": "1.2%",
+            "90 Days": "3.1%"
+          },
+          {
+            "Points": "4-5",
+            "Stroke Risk": "Moderate",
+            "Two Days": "4.1%",
+            "Seven Days": "5.9%",
+            "90 Days": "9.8%"
+          },
+          {
+            "Points": "6-7",
+            "Stroke Risk": "High",
+            "Two Days": "8.1%",
+            "Seven Days": "11.7%",
+            "90 Days": "17.8%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc ABCD2 Score\nACEP Clinical Policy: Suspected Transient Ischemic Attack",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "CVA (Main)\nACEP clinical policies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CVA (Main)",
+          "url": "https://wikem.org/wiki/CVA_(Main)"
+        },
+        {
+          "text": "ACEP clinical policies",
+          "url": "https://wikem.org/wiki/ACEP_clinical_policies"
+        }
+      ]
+    }
+  }
+}

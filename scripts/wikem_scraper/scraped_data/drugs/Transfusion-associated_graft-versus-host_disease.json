@@ -1,0 +1,205 @@
+{
+  "drug_name": "Transfusion-associated_graft-versus-host_disease",
+  "url": "https://wikem.org/wiki/Transfusion-associated_graft-versus-host_disease",
+  "scraped_at": "2026-01-10T08:03:58.317432",
+  "sections": {
+    "Background": {
+      "text": "> 24 hr, delayed complication of transfusion\nMortality > 90%, usually within 1-3 weeks of onset\nDonor lymphocytes mount response against recipient tissue\nRisk factors (see also\nBlood products\n):\nCellular components (whole blood,\npRBCs\n)\nLess incidence in\nplatelet products\nAlmost none in\nFFP\nRecipient immunodeficiency\nNon-leukocyte irradiated blood products\nDonor HLA homozygosity with recipient heterozygosity\nNon-HLA matched blood products\nBlood products stored less than 11 days\nLonger shelf time associated with less incidence\nIn review of ~350 cases, only 10 identified between 11-14 days\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Blood products",
+          "url": "https://wikem.org/wiki/Blood_products"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "platelet products",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Signs and symptoms include\n[1]\n:\nRash\n~70-80%\nDiarrhea\n~40%\nHepatomegaly\n~15%\nLiver injury\n~70%\nPancytopenia\n~65%\nTransfusion usually within 1-2 weeks prior to symptom onset\nBy definition, can be between 2 days - 6 weeks from transfusion",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Rash",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "Liver injury",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        }
+      ]
+    },
+    "Differential": {
+      "text": "",
+      "subsections": {
+        "Transfusion_Reaction_Types": {
+          "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Transfusion_Reaction_Types": {
+      "text": "Acute\nIntravascular hemolytic tranfusion reaction\nFebrile nonhemolytic tranfusion reaction\nAllergic tranfusion reaction\nTransfusion-associated circulatory overload\n(TACO)\nTransfusion-related acute lung injury\n(TRALI)\nTransfusion-associated graft-versus-host disease\nFluid overload\nSepsis\nDelayed\nExtravascular hemolytic tranfusion reaction\nGraft-vs-host disease\nTransfusion infections",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Intravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Intravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Febrile nonhemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Febrile_nonhemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Allergic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Allergic_tranfusion_reaction"
+        },
+        {
+          "text": "Transfusion-associated circulatory overload",
+          "url": "https://wikem.org/wiki/Transfusion-associated_circulatory_overload"
+        },
+        {
+          "text": "Transfusion-related acute lung injury",
+          "url": "https://wikem.org/wiki/Transfusion-related_acute_lung_injury"
+        },
+        {
+          "text": "Fluid overload",
+          "url": "https://wikem.org/wiki/Fluid_overload"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Extravascular hemolytic tranfusion reaction",
+          "url": "https://wikem.org/wiki/Extravascular_hemolytic_tranfusion_reaction"
+        },
+        {
+          "text": "Graft-vs-host disease",
+          "url": "https://wikem.org/wiki/Graft-vs-host_disease"
+        },
+        {
+          "text": "Transfusion infections",
+          "url": "https://wikem.org/wiki/Transfusion_infections"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Skin biopsy will suggest this pathology\nDefinitive diagnosis if patient's lymphocytes are found to have a different HLA phenotype from host tissue cells",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Skin biopsy will suggest this pathology\nDefinitive diagnosis if patient's lymphocytes are found to have a different HLA phenotype from host tissue cells",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Preventative\nIdentify vulnerable populations\nUse leukocyte reduced, irradiated blood products\nSupportive\nImmunosuppressants,\ncorticosteroids\n, cytotoxic agents have questionable efficacy\nStem cell transplantation rescue",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Acute transfusion reaction\nGVHD",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute transfusion reaction",
+          "url": "https://wikem.org/wiki/Acute_transfusion_reaction"
+        },
+        {
+          "text": "GVHD",
+          "url": "https://wikem.org/wiki/GVHD"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Bloody Easy 3: Blood Transfusions, Blood Alternatives and Transfusion Reactions - A Guide to Transfusion Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

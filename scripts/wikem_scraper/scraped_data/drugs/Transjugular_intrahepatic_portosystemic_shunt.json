@@ -1,0 +1,43 @@
+{
+  "drug_name": "Transjugular_intrahepatic_portosystemic_shunt",
+  "url": "https://wikem.org/wiki/Transjugular_intrahepatic_portosystemic_shunt",
+  "scraped_at": "2026-01-10T08:04:01.630208",
+  "sections": {
+    "Background": {
+      "text": "Mnimally invasive procedure performed by IR\nCreation of a stent connection between the right hepatic vein and portal vein\nShunts blood flow from the portal venous system to systemic circulation\nDecreases portal venous pressure to <12 mmHg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Portal venous hypertension\nRefractory variceal bleeding after endoscopic (sclerotherapy or band ligation) and pharmacologic (octreotide or vasopressin) therapy\nRecurrent cirrhotic\nascites\nthat is not responsive to medical treatment and requires frequent large volume paracentesis\nControversial indications include Budd-Chiari Syndrome,\nhepatorenal syndrome\n, hepatic hydrothorax, hepatopulmonary syndrome and bridge therapy while awaiting liver transplantation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Congestive heart failure\nTricuspid valve regurgitation\nPulmonary hypertension\nSepsis\nHepatic malignancy, large masses or cysts\nSevere coagulopathy\nBiliary obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Portosystemic encephalopathy\nMost common complication\nPresents as extreme sleep disturbance, altered mental status, and coma\nHyperammonemia\nCan be precipitated by many factors including increased protein intake, infection, gastrointestinal bleed, poor medication compliance, and dehydration\nOccurs approximately 6 weeks or more after TIPS\nTreatment is medical management – lactulose, neomycin, rifaximin, protein restriction\nTIPS thrombosis\n~4 weeks after TIPS\nDoppler sonography or angiography shows thrombus and/or occlusion\nTreatment: anticoagulation, thrombolysis, or thrombectomy\nTIPS stenosis\nMay present with recurrent variceal bleeding or worsening portal hypertension\n~3 months to 2 years after TIPS\nAngiography is the gold standard for diagnosis\nTreatment is dilation or placement of new or additional stents\nTIPS-associated hemolysis\nPresentation includes anemia, increased bilirubin, and increased reticulocyte count\n<1-2 weeks after TIPS\nSelf-limiting and resolves within 8-12 weeks\nInfection\nFever and bacteremia\nOccurs within weeks to months after TIPS\nDoppler sonography shows vegetations or venous thrombus\nTreatment is intravenous antibiotics\nIntraperitoneal hemorrhage\nSeen primarily during the immediate post-procedure period\nOccurs due to injury to nearby vasculature during TIPS\nRare occurrence\nStent migration\nStent may travel into the Inferior Vena Cava\nMost serious complication is migration into the heart\nECG\n, Doppler sonography, and echocardiogram helpful for diagnosis\nTreatment is surgery or Interventional Radiology for retrieval",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Outcomes": {
+      "text": "TIPS provides salvage therapy for variceal bleeding, refractory ascites, and portal hypertension when medical therapy fails\nDespite providing improvement in portal hypertension, the procedure does not decrease overall mortality in end stage liver disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Boyer TD, Haskal ZJ. American Association for the Study of Liver Diseases. The Role of Transjugular Intrahepatic Portosystemic Shunt (TIPS) in the Management of Portal Hypertension: update 2009. Hepatology. 2010;51(1:1-16).\nSubramanian R, McCashland T. Chapter 82. Gastrointestinal Hemorrhage. In: Hall JB, Schmidt GA, Wood LH. eds. Principles of Critical Care, 3e. New York, NY: McGraw-Hill; 2005.\nWendler C, Shoenberger JM, Mailhot T. Transjugular Intrahepatic Portosystemic Shunt (TIPS) Migration to the Heart Diagnosed by Emergency Department Ultrasound. West J Emerg Med. 2012;13(6:525-6).",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

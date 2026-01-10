@@ -1,0 +1,2077 @@
+{
+  "drug_name": "Traumatic_intracerebral_hemorrhage",
+  "url": "https://wikem.org/wiki/Traumatic_intracerebral_hemorrhage",
+  "scraped_at": "2026-01-10T08:04:11.935223",
+  "sections": {
+    "Background": {
+      "text": "The pathological accumulation of blood within the cranium.\nMay occur within the brain parenchyma or the surrounding meningeal spaces.",
+      "subsections": {
+        "Intracranial_Hemorrhage_Types": {
+          "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Intracranial_Hemorrhage_Types": {
+      "text": "Intra-axial\nHemorrhagic stroke\n(Spontaneous intracerebral hemorrhage)\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\n(aneurysmal intracranial hemorrhage)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hemorrhagic stroke",
+          "url": "https://wikem.org/wiki/Hemorrhagic_stroke"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Adult_GCS": {
+          "text": "14-15: Mild\n9-13: Moderate\n3-8:\nSevere",
+          "tables": [
+            [
+              {
+                "Eye Opening": "",
+                "Verbal": "",
+                "Motor": "6:  Obeys commands"
+              },
+              {
+                "Eye Opening": "",
+                "Verbal": "5:  Oriented",
+                "Motor": "5:  Localizes to pain"
+              },
+              {
+                "Eye Opening": "4: Spontaneously opens",
+                "Verbal": "4:  Confused speech",
+                "Motor": "4:  Withdraws from pain (normal flexion)"
+              },
+              {
+                "Eye Opening": "3: Opens to command",
+                "Verbal": "3:Inappropriate words",
+                "Motor": "3:  Decorticate posturing (abnormal flexion)"
+              },
+              {
+                "Eye Opening": "2: Opens to pain",
+                "Verbal": "2: Incomprehensible sounds",
+                "Motor": "2:  Decerebrate posturing (extension)"
+              },
+              {
+                "Eye Opening": "1: Does not open",
+                "Verbal": "1: No response",
+                "Motor": "1:  No response"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Severe",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        }
+      ]
+    },
+    "Adult_GCS": {
+      "text": "14-15: Mild\n9-13: Moderate\n3-8:\nSevere",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Eye Opening": "",
+            "Verbal": "",
+            "Motor": "6:  Obeys commands"
+          },
+          {
+            "Eye Opening": "",
+            "Verbal": "5:  Oriented",
+            "Motor": "5:  Localizes to pain"
+          },
+          {
+            "Eye Opening": "4: Spontaneously opens",
+            "Verbal": "4:  Confused speech",
+            "Motor": "4:  Withdraws from pain (normal flexion)"
+          },
+          {
+            "Eye Opening": "3: Opens to command",
+            "Verbal": "3:Inappropriate words",
+            "Motor": "3:  Decorticate posturing (abnormal flexion)"
+          },
+          {
+            "Eye Opening": "2: Opens to pain",
+            "Verbal": "2: Incomprehensible sounds",
+            "Motor": "2:  Decerebrate posturing (extension)"
+          },
+          {
+            "Eye Opening": "1: Does not open",
+            "Verbal": "1: No response",
+            "Motor": "1:  No response"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Severe",
+          "url": "https://wikem.org/wiki/Severe_traumatic_brain_injury"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Head_trauma": {
+          "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+          "tables": []
+        },
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Head_trauma": {
+      "text": "Traumatic brain injury\nIntracranial hemorrhage\nIntra-axial\nTraumatic intracerebral hemorrhage\nExtra-axial\nEpidural hemorrhage\nSubdural hemorrhage\nSubarachnoid hemorrhage\nModerate-to-severe traumatic brain injury\nElevated intracranial pressure\nMild traumatic brain injury\nClinical decision rules for head CT in trauma\nPost-concussive syndrome\nOrbital trauma\nMaxillofacial trauma\nScalp laceration\nSkull fracture\nBasilar skull fracture\nSkull fracture (peds)\nPediatric head trauma\nPECARN head trauma rule",
+      "subsections": {
+        "Maxillofacial_Trauma": {
+          "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "Epidural hemorrhage",
+          "url": "https://wikem.org/wiki/Epidural_hemorrhage"
+        },
+        {
+          "text": "Subdural hemorrhage",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "Moderate-to-severe traumatic brain injury",
+          "url": "https://wikem.org/wiki/Moderate-to-severe_traumatic_brain_injury"
+        },
+        {
+          "text": "Elevated intracranial pressure",
+          "url": "https://wikem.org/wiki/Elevated_intracranial_pressure"
+        },
+        {
+          "text": "Mild traumatic brain injury",
+          "url": "https://wikem.org/wiki/Mild_traumatic_brain_injury"
+        },
+        {
+          "text": "Clinical decision rules for head CT in trauma",
+          "url": "https://wikem.org/wiki/Clinical_decision_rules_for_head_CT_in_trauma"
+        },
+        {
+          "text": "Post-concussive syndrome",
+          "url": "https://wikem.org/wiki/Post-concussive_syndrome"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Maxillofacial trauma",
+          "url": "https://wikem.org/wiki/Maxillofacial_trauma"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Pediatric head trauma",
+          "url": "https://wikem.org/wiki/Pediatric_head_trauma"
+        },
+        {
+          "text": "PECARN head trauma rule",
+          "url": "https://wikem.org/wiki/PECARN_head_trauma_rule"
+        },
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Maxillofacial_Trauma": {
+      "text": "Ears\nAuricular hematoma\nNose\nNasal fracture\nNasal septal hematoma\nOral\nDental trauma\nLip laceration\nTongue laceration\nOther face\nLe Fort fractures\nMandible fracture\nZygomatic arch fracture\nZygomaticomaxillary (tripod) fracture\nRelated\nHead trauma (main)\nSkull fracture\nSkull fracture (peds)\nBasilar skull fracture\nOrbital trauma\nEyelid laceration\nScalp laceration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Auricular hematoma",
+          "url": "https://wikem.org/wiki/Auricular_hematoma"
+        },
+        {
+          "text": "Nasal fracture",
+          "url": "https://wikem.org/wiki/Nasal_fracture"
+        },
+        {
+          "text": "Nasal septal hematoma",
+          "url": "https://wikem.org/wiki/Nasal_septal_hematoma"
+        },
+        {
+          "text": "Dental trauma",
+          "url": "https://wikem.org/wiki/Dental_problems"
+        },
+        {
+          "text": "Lip laceration",
+          "url": "https://wikem.org/wiki/Lip_laceration"
+        },
+        {
+          "text": "Tongue laceration",
+          "url": "https://wikem.org/wiki/Tongue_laceration"
+        },
+        {
+          "text": "Le Fort fractures",
+          "url": "https://wikem.org/wiki/Le_Fort_fractures"
+        },
+        {
+          "text": "Mandible fracture",
+          "url": "https://wikem.org/wiki/Mandible_fracture"
+        },
+        {
+          "text": "Zygomatic arch fracture",
+          "url": "https://wikem.org/wiki/Zygomatic_arch_fracture"
+        },
+        {
+          "text": "Zygomaticomaxillary (tripod) fracture",
+          "url": "https://wikem.org/wiki/Zygomaticomaxillary_(tripod)_fracture"
+        },
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        },
+        {
+          "text": "Skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Skull fracture (peds)",
+          "url": "https://wikem.org/wiki/Skull_fracture_(peds)"
+        },
+        {
+          "text": "Basilar skull fracture",
+          "url": "https://wikem.org/wiki/Basilar_skull_fracture"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Eyelid laceration",
+          "url": "https://wikem.org/wiki/Eyelid_laceration"
+        },
+        {
+          "text": "Scalp laceration",
+          "url": "https://wikem.org/wiki/Scalp_laceration"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Monitor for\nincreased ICP\nheadache\n,\nnausea and vomiting\n,\nseizure\n,\nlethargy\n,\nhypertension\n,\nbradycardia\n, agonal respirations, posturing\nMonitor for\nherniation\nIpsilateral fixed and dilated pupil\nContralateral motor\nparalysis\nBilateral pinpoint pupils suggests opiate use or pontine lesion",
+      "subsections": {
+        "Workup": {
+          "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[1]\nConsider cervical and/or facial CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "increased ICP",
+          "url": "https://wikem.org/wiki/Elevated_ICP"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "herniation",
+          "url": "https://wikem.org/wiki/Herniation_Syndromes"
+        },
+        {
+          "text": "paralysis",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider\nhead CT\n(rule out\nintracranial hemorrhage\n)\nUse\nvalidated decision rule\nto determine need\nAvoid CT in patients with minor head injury who are at low risk based on validated decision rules.\n[1]\nConsider cervical and/or facial CT",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage"
+        },
+        {
+          "text": "validated decision rule",
+          "url": "https://wikem.org/wiki/Head_CT_in_Trauma_(Clinical_Decision_Rules)"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Pretreatment with lidocaine has not been shown to improve outcomes\nSeizure prophylaxis in Head Trauma]]\nManagement of Elevated Intracranial Pressure",
+      "subsections": {
+        "Prevent_further_brain_injury": {
+          "text": "Head of bed at 30 degrees\nPrevent:\nHypotension\nHypoxia\nAnemia\nHyperthermia\nCoagulopathy\nSeizure",
+          "tables": []
+        },
+        "Elevating_head_of_bed": {
+          "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[2]",
+          "tables": []
+        },
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[3]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[4]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[5]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[6]\n, but more recent work has found no difference between SBP <140 and <180\n[7]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[8]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[9]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Management of Elevated Intracranial Pressure",
+          "url": "https://wikem.org/wiki/Management_of_Elevated_Intracranial_Pressure"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Prevent_further_brain_injury": {
+      "text": "Head of bed at 30 degrees\nPrevent:\nHypotension\nHypoxia\nAnemia\nHyperthermia\nCoagulopathy\nSeizure",
+      "subsections": {
+        "Elevating_head_of_bed": {
+          "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[2]",
+          "tables": []
+        },
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[3]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[4]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[5]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[6]\n, but more recent work has found no difference between SBP <140 and <180\n[7]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[8]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[9]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Hypotension"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Elevating_head_of_bed": {
+      "text": "30 degree elevation will help decrease ICP by increasing venous outflow\n[2]",
+      "subsections": {
+        "Seizure_Prophylaxis_and_Treatment": {
+          "text": "Prophylactic antiepileptics\nnot\nrecommended\n[3]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[4]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[5]",
+          "tables": []
+        },
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[6]\n, but more recent work has found no difference between SBP <140 and <180\n[7]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[8]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[9]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Seizure_Prophylaxis_and_Treatment": {
+      "text": "Prophylactic antiepileptics\nnot\nrecommended\n[3]\nContinuous EEG monitoring probably indicated in ICH patients with depressed mental status that is out of proportion fo degree of brain injury\n[4]\nAntiepileptics\nindicated for clinical seizures or seizures on EEG in patients with altered mental status\n[5]",
+      "subsections": {
+        "Blood_Pressure": {
+          "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[6]\n, but more recent work has found no difference between SBP <140 and <180\n[7]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+          "tables": []
+        },
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[8]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[9]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Antiepileptics",
+          "url": "https://wikem.org/wiki/Antiepileptics"
+        },
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Blood_Pressure": {
+      "text": "Rapid SBP lowering <140 has been advocated with early research showing improved functional outcome\n[6]\n, but more recent work has found no difference between SBP <140 and <180\n[7]\nSBP >200 or MAP >150\nConsider aggressive reduction w/ continuous IV infusion\nSBP >180 or MAP >130 and evidence or suspicion of elevated ICP\nConsider reducing BP using intermittent or continuous IV meds to keep CPP >60-80\nSBP >180 or MAP >130 and NO evidence or suspicion of elevated ICP\nConsider modest reduction of BP (e.g. MAP of 110 or target BP of 160/90)\nNicardipine\nin ICH: Start at 5mg/hr, increase 2.5mg q5min until the target blood pressure is achieved and then immediately titrate down to maintenance infusion of 3mg/hr.\nLabetalol\nin ICH: 20mg bolus over 1-2 minutes, repeat q3-5 mins until target blood pressure is achieved and then start an infusion of 1-8mg/min.",
+      "subsections": {
+        "Reverse_coagulopathy": {
+          "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[8]",
+          "tables": []
+        },
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[9]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nicardipine",
+          "url": "https://wikem.org/wiki/Nicardipine"
+        },
+        {
+          "text": "Labetalol",
+          "url": "https://wikem.org/wiki/Labetalol"
+        },
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Reverse_coagulopathy": {
+      "text": "See\nanticoagulant reversal for life-threatening bleeds\nif on a known anticoagulant (e.g.\nheparin\n,\ncoumadin\n,\nrivaroxaban\n)\nTranexamic acid\n1g (if within 3 hours of event), followed by an additional 1g infused over 8 hours\n[8]",
+      "subsections": {
+        "Antiplatelet_Reversal": {
+          "text": "Includes\naspirin\n,\nprasugrel\n,\nclopidogrel\nConsider\ndesmopressin\n(0.3mcg/kg)\nPlatelet transfusion\nNo known thrombocytopenia:\nincreases\nmortality; do\nNOT\ngive\n[9]\nKnown or diagnosed thrombocytopenia: consider if platelets <50,000\nSome hematologists and neurosurgeons recommend for <100,000, despite lack of evidence for improved outcomes",
+          "tables": []
+        },
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anticoagulant reversal for life-threatening bleeds",
+          "url": "https://wikem.org/wiki/Anticoagulant_reversal_for_life-threatening_bleeds"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "coumadin",
+          "url": "https://wikem.org/wiki/Coumadin"
+        },
+        {
+          "text": "rivaroxaban",
+          "url": "https://wikem.org/wiki/Rivaroxaban"
+        },
+        {
+          "text": "Tranexamic acid",
+          "url": "https://wikem.org/wiki/Tranexamic_acid"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "prasugrel",
+          "url": "https://wikem.org/wiki/Prasugrel"
+        },
+        {
+          "text": "clopidogrel",
+          "url": "https://wikem.org/wiki/Clopidogrel"
+        },
+        {
+          "text": "desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Increased_ICP_Treatment": {
+      "text": "",
+      "subsections": {
+        "Head_of_Bed_elevation": {
+          "text": "30 degrees or reverse Trendelenburg will lower ICP\n[11]\nKeep head and neck in neutral position, improving cerebral venous drainage\nAvoid compressing IVJ or EVJ with tight C-collars or fixation of ETT",
+          "tables": []
+        },
+        "Maintain_cerebral_perfusion": {
+          "text": "CPP = MAP-ICP\nIf MAP <80, then CPP<60\nUltimately no Class 1 evidence for optimal CPP\nTransfuse\nPRBCs\nwith goal Hb > 10 mg/dL in severe TBI\n[12]\nProvide fluids and\nvasopressors\nif needed for goal cerebral perfusion pressure (CPP) of 70-80 mmHg\n[13]\n[14]\n[15]\nMortality increases 20% for each 10 mmHg loss of CPP\nAvoid dips in CPP < 70 mmHg, which is associated with cerebral ischemia and glutamate increase\n[16]\nVasopressors\nPhenylephrine\nincreases CPP without increasing ICP in animal models\n[17]\n[18]\nMay be beneficial when patient is tachycardic (reflex bradycardia), but avoid phenylephrine if patient is already bradycardic (Cushing's reflex)\nPhenylephrine may be associated with less cell injury as compared to norepinephrine in TBI\n[19]\nIV fluids\n[20]\nMaintain euvolemia, initially resuscitate with Normal Saline\nThen consider hypertonic saline and/or mannitol\nDo not use free water, low osmolal, dextrose-alone solutions, and colloids\nDo not use Ringer's lactate as it is slightly hypotonic\nPrefer NS over D5-NS if possible, but D5-NS may be necessary to avoid hypoglycemia, especially in younger pediatric patients\nCorrection of severe hypernatremia > 160 mmol/L (hypothalamic-pituitary injury,\ndiabetes insipidus\n) should be gradual to not worsen cerebral edema",
+          "tables": []
+        },
+        "Osmotherapies": {
+          "text": "Therapies include either mannitol or hypertonic saline. In choosing the appropriate agent, coordinate with neurosurgery and take into account the patient's blood pressure. Mannitol may cause hypotension due to the osmotic diuresis.\nMannitol\n[21]\nIf SBP > 90 mmHg\nBolus 20% at 0.25-1 gm/kg as rapid infusion over 15-20 min\nTarget Osm 300-320 mOsm/kg\nReduces ICP within 30min, duration of action of 6-8hr\nMonitor I/O to maintain euvolemia during expected diuresis and use normal saline to volume replace\nDo not use continuous infusions, as mannitol crosses the BBB after prolonged administration and contributes to cerebral edema\nConsider hypertonic saline for further boluses\nHypertonic saline has higher osmotic gradient and is less permeable across BBB than mannitol\nHypertonic saline\nmay be more effective than mannitol, current standard of care\n[22]\nObtain baseline serum osmolarity and sodium\nMost studies used 250 mL bolus of 7.5% saline with dextran\n[23]\nInitial 250 cc bolus of 3% will reduce ICP and can be delivered through a peripheral line\nTarget sodium 145-155 mmol/dL",
+          "tables": []
+        },
+        "Prevent_Cerebral_Vasoconstriction": {
+          "text": "Hyperventilation does not improve mortality, used only as temporizing measure\nShould only be used if reduction in ICP necessary without any other means or ICP elevation refractory to all other treatments:\nSedation\nParalytics\nCSF drainage\nHypertonic saline, osmotic diuretics\nMaintain PaCO\n2\n35-40 mmHg for only up to 30 minutes, no longer if it can be avoided\n[24]\nHyperventilation to PaCO2 < 30 mmHg not indicated, and decreases cerebral blood flow to ischemic levels\n[25]\n[26]",
+          "tables": []
+        },
+        "Seizure_Control": {
+          "text": "Treat immediately with benzodiazepines and antiepileptic drugs (AEDs)\nConsider propofol for post-intubation sedation\nSeizure prophylaxis reduces seizures but does not improve long-term outcomes\n[27]\nAEDs\nprevent early seizures (which occur between 24 hrs - 7 days), with NNT = 10 by Cochrane Review\n[28]\nRisk factors for post-traumatic seizures:\nGCS < 10 initially\nCortical contusion\nDepressed\nskull fracture\nSubdural hematoma\n,\nepidural hematoma\nSubarachnoid hemorrhage\nor\nICH\nPenetrating head injury\nSeizure within 24 hours of injury (immediate seizure)\nTreat any clinically apparent and EEG confirmed seizures\nConsider prophylaxis in patients with any risk factors as above\nPhenytoin\nor\nfosphenytoin\nfirst line agent by BTF guidelines\n[29]\nLoad 20 PE/kg IV, then 100 PE IV q8hrs for 7 days\nMeasure serum levels to titrate to therapeutic levels\nLevetiracetam\nmay be used as alternative\n[30]\n20 mg/kg load IV, followed by 1000 mg IV q12h for 7 days\nLevetiracetam may have less frequent and severe adverse drug side effects events as compared to phenytoin\nIn many EDs, levetiracetam is current first line therapy",
+          "tables": []
+        },
+        "Intubation_Pretreatment": {
+          "text": "Goal cerebral perfusion pressure (CPP) ~70mmHg\nIf need for\nRSI\n, consider pretreatment with\nlidocaine\nand/or\nfentanyl\nMay contribute to peri-intubation hypotension\nAlso ensure adequate sedation (prevent gag reflex)\nEtomidate\nmay cause adrenal insufficiency especially in head injured patients, so consider\nhydrocortisone\nif refractory hypotension post-intubation\n[31]",
+          "tables": []
+        },
+        "Decrease_metabolic_rate": {
+          "text": "Provide adequate sedation and analgesia\nAvoid\nHYPERthermia\nand treat fever aggressively\nHowever, hypothermia is not a necessary goal\nModerate\nhypothermia\n32°C to 34°C controversial, large RCT showed no effect\n[32]",
+          "tables": []
+        },
+        "Other_Critical_Care_Measures": {
+          "text": "DVT prophylaxis with SCDs, no anticoagulation\nStress ulcer prophylaxis with\nH2 blocker\n/\nPPI\nand sucralfate to avoid Cushing's ulcers\nGood glycemic control, but tight maintenance not supported\n[33]\nSteroids, methylprednisolone contraindicated in severe TBI (risk of death increased in CRASH 2004 trial)\n[34]\nRoutine paralysis not indicated\n[35]\nIncreased risk of pneumonia and ICU length of stay\nHowever, may be used for refractory ICP elevation\nFor ICP refractory to maximal medical and surgical therapy\nOnly for hemodynamically stable patients\nInduce with the following:\nPentobarbital\n10 mg/kg over 30 min\nThen 5 mg/kg/hr for 3 hrs\nFollowed by 1 mg/kg/hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "PRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "vasopressors",
+          "url": "https://wikem.org/wiki/Vasopressors"
+        },
+        {
+          "text": "Phenylephrine",
+          "url": "https://wikem.org/wiki/Phenylephrine"
+        },
+        {
+          "text": "IV fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "diabetes insipidus",
+          "url": "https://wikem.org/wiki/Diabetes_insipidus"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Hypertonic saline",
+          "url": "https://wikem.org/wiki/Hypertonic_saline"
+        },
+        {
+          "text": "Sedation",
+          "url": "https://wikem.org/wiki/Sedation"
+        },
+        {
+          "text": "AEDs",
+          "url": "https://wikem.org/wiki/AEDs"
+        },
+        {
+          "text": "skull fracture",
+          "url": "https://wikem.org/wiki/Skull_fracture"
+        },
+        {
+          "text": "Subdural hematoma",
+          "url": "https://wikem.org/wiki/Subdural_hematoma"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Subarachnoid hemorrhage",
+          "url": "https://wikem.org/wiki/Subarachnoid_hemorrhage"
+        },
+        {
+          "text": "ICH",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "fosphenytoin",
+          "url": "https://wikem.org/wiki/Fosphenytoin"
+        },
+        {
+          "text": "Levetiracetam",
+          "url": "https://wikem.org/wiki/Levetiracetam"
+        },
+        {
+          "text": "RSI",
+          "url": "https://wikem.org/wiki/RSI"
+        },
+        {
+          "text": "lidocaine",
+          "url": "https://wikem.org/wiki/Lidocaine"
+        },
+        {
+          "text": "fentanyl",
+          "url": "https://wikem.org/wiki/Fentanyl"
+        },
+        {
+          "text": "Etomidate",
+          "url": "https://wikem.org/wiki/Etomidate"
+        },
+        {
+          "text": "hydrocortisone",
+          "url": "https://wikem.org/wiki/Hydrocortisone"
+        },
+        {
+          "text": "HYPERthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "H2 blocker",
+          "url": "https://wikem.org/wiki/H2_blocker"
+        },
+        {
+          "text": "PPI",
+          "url": "https://wikem.org/wiki/PPI"
+        },
+        {
+          "text": "Pentobarbital",
+          "url": "https://wikem.org/wiki/Pentobarbital"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit (most frequently to ICU)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Repeat_Imaging_in_Traumatic_Subarachnoid_Hemorrhage[37]": {
+          "text": "Patients with normal neurologic exam NOT on anticoagulation do not need a repeat head CT\nRecommend 6 hour observation\nPatients with GCS 13 or higher may not need a NSGY consult, regardless of antiplatelet or anticoagulation, as long as agent properly reversed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Head trauma (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head trauma (main)",
+          "url": "https://wikem.org/wiki/Head_trauma_(main)"
+        }
+      ]
+    }
+  }
+}

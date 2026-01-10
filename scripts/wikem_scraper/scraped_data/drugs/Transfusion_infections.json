@@ -1,0 +1,76 @@
+{
+  "drug_name": "Transfusion_infections",
+  "url": "https://wikem.org/wiki/Transfusion_infections",
+  "scraped_at": "2026-01-10T08:04:00.405823",
+  "sections": {
+    "Background": {
+      "text": "Absolute risk of nosocomial infection in conservatively vs liberally transfused patients: 12% vs 17%\n[1]\nBacterial contamination of products, especially platelets\n1 of 2000-3000 platelet transfusions results in bacterial infection\n[2]\nGram-positive bacteria (e.g.\nstaph\ndue to contamination with skin puncture during collection\nGram-negative bacteria (e.g.\ne. coli\n) due to asymptomatic bacteremia in donor\nAnaplasmosis,\nbrucellosis\n,\nehrlichiosis\nhave all been documented\n[3]\n[4]\n[5]\nParasitic infection\n: rare but reported. Those reporting recent travel to malaria-endemic regions are barred from donation\nBabesiosis\n,\nChagas\n,\nLeishmaniasis\n,\nMalaria\nViral infections\nRisk of infection from single transfusion\n[6]\nin the US:\nHIV\ninfection: 1 in 2 million\nHBV\n: 1 in 300,000\nHCV\n: 1 in 1.5 million\nWest nile virus\n: 1 in 350,000\nPrion disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "staph",
+          "url": "https://wikem.org/wiki/Staph"
+        },
+        {
+          "text": "e. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "brucellosis",
+          "url": "https://wikem.org/wiki/Brucellosis"
+        },
+        {
+          "text": "ehrlichiosis",
+          "url": "https://wikem.org/wiki/Ehrlichiosis"
+        },
+        {
+          "text": "Parasitic infection",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "Babesiosis",
+          "url": "https://wikem.org/wiki/Babesiosis"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        },
+        {
+          "text": "Leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HBV",
+          "url": "https://wikem.org/wiki/HBV"
+        },
+        {
+          "text": "HCV",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "West nile virus",
+          "url": "https://wikem.org/wiki/West_nile_virus"
+        },
+        {
+          "text": "Prion disease",
+          "url": "https://wikem.org/wiki/Prion_disease"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "CDC: Blood Safety",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

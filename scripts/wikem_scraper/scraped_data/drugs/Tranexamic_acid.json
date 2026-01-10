@@ -1,0 +1,138 @@
+{
+  "drug_name": "Tranexamic_acid",
+  "url": "https://wikem.org/wiki/Tranexamic_acid",
+  "scraped_at": "2026-01-10T08:03:58.315504",
+  "sections": {
+    "Background": {
+      "text": "Action: Antifibrinolytic agent\nCompetitive inhibitor of plasminogen activation to plasmin\nDosing Availability:\nAmpule of 1 Gm in 10 mL\nFormulations: IV and PO; can use IV as topical\nCommon Trade Names: Cyklokapron",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indication": {
+      "text": "FDA-approved only for:\nPostpartum bleeding\nPeriprocedural hemorrhage in hemophiliacs.\nMore common off-label uses:\nSeverely bleeding trauma patient, systolic blood pressure of <90 and/or heart rate > 110 beats/min, or with expected requirement for massive transfusion\nEpistaxis, especially in anticoagulated patients\nUnder investigation for use in\nintracranial hemorrhage\nand\nGI bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intracranial hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_hemorrhage_(main)"
+        },
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/Undifferentiated_upper_gastrointestinal_bleeding"
+        }
+      ]
+    },
+    "Contraindication/Exclusion_Criteria": {
+      "text": "Greater than 3 hours from injury\nKnown sensitivity to TXA\nPrevious\nDVT\nor Pulmonary Embolism",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        }
+      ]
+    },
+    "Administration": {
+      "text": "",
+      "subsections": {
+        "Adult_dose": {
+          "text": "Total of 2 Grams\nInitial bolus of 1 Gm over 10 minutes (Slow IV push). Draw up with filter needle.\nMaintenance: additional 1 Gm over next 8 hours (mix in 50 mL of NS). Call Pharmacy to mix and deliver the continuous infusion.\n[1]",
+          "tables": []
+        },
+        "Pediatric_dose": {
+          "text": "Weight based\nInitial bolus of 20mg/kg IV Bolus over 10 minutes\nMaintenance: 10 mL/kg/hr over next 8 hours\nNo additional laboratory tests required.",
+          "tables": []
+        },
+        "Topical_use": {
+          "text": "Epistaxis: 500mg-1g IV applied to packing or pressure device, some practitioners mix 1:1 with NS in a basin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Adult_dose": {
+      "text": "Total of 2 Grams\nInitial bolus of 1 Gm over 10 minutes (Slow IV push). Draw up with filter needle.\nMaintenance: additional 1 Gm over next 8 hours (mix in 50 mL of NS). Call Pharmacy to mix and deliver the continuous infusion.\n[1]",
+      "subsections": {
+        "Pediatric_dose": {
+          "text": "Weight based\nInitial bolus of 20mg/kg IV Bolus over 10 minutes\nMaintenance: 10 mL/kg/hr over next 8 hours\nNo additional laboratory tests required.",
+          "tables": []
+        },
+        "Topical_use": {
+          "text": "Epistaxis: 500mg-1g IV applied to packing or pressure device, some practitioners mix 1:1 with NS in a basin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_dose": {
+      "text": "Weight based\nInitial bolus of 20mg/kg IV Bolus over 10 minutes\nMaintenance: 10 mL/kg/hr over next 8 hours\nNo additional laboratory tests required.",
+      "subsections": {
+        "Topical_use": {
+          "text": "Epistaxis: 500mg-1g IV applied to packing or pressure device, some practitioners mix 1:1 with NS in a basin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Topical_use": {
+      "text": "Epistaxis: 500mg-1g IV applied to packing or pressure device, some practitioners mix 1:1 with NS in a basin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "Thrombotic events\nHypotensionwith\nrapid injection\nNausea, vomiting, diarrhea\nImpaired color vision and other visual disturbances",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypotensionwith",
+          "url": "https://wikem.org/wiki/Hypotension"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "MATTERs Study\nCrash-2 Trial\nCrash-3 Trial\nHalt it\ntrial\nWOMAN trial -\nhttps://rebelem.com/the-woman-trial-early-txa-in-post-partum-hemorrhage/\nTransfusions\nTransfusion Reactions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MATTERs Study",
+          "url": "https://wikem.org/wiki/EBQ:MATTERs_Study"
+        },
+        {
+          "text": "Crash-2 Trial",
+          "url": "https://wikem.org/wiki/EBQ:CRASH-2_Trial"
+        },
+        {
+          "text": "Crash-3 Trial",
+          "url": "https://wikem.org/wiki/EBQ:CRASH-3_Trial"
+        },
+        {
+          "text": "Halt it",
+          "url": "https://wikem.org/wiki/Halt_it"
+        },
+        {
+          "text": "Transfusions",
+          "url": "https://wikem.org/wiki/Transfusions"
+        },
+        {
+          "text": "Transfusion Reactions",
+          "url": "https://wikem.org/wiki/Transfusion_Reactions"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCurious - TXA Trauma Lit Review\nEMDocs TXA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

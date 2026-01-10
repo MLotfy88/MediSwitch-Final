@@ -1,0 +1,143 @@
+{
+  "drug_name": "Transient_global_amnesia",
+  "url": "https://wikem.org/wiki/Transient_global_amnesia",
+  "scraped_at": "2026-01-10T08:03:59.843708",
+  "sections": {
+    "Background": {
+      "text": "Paroxysmal, transient anterograde amnesia lasting several hours\n[1]\nMost common in female 40-60yo\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Anterograde amnesia\nUnaware of their memory loss\nNormal attention and social skills\nStruggle with delayed recall\nPeriods of time typically less than 24 hrs, but typically lasts 4-6 hrs\n[3]\nNo localizing symptoms\nIf localizing symptoms, consider alternative diagnosis",
+      "subsections": {
+        "Diagnostic_Criteria": {
+          "text": "Attack must be witnessed.\nAcute onset of anterograde amnesia\nNo alteration in consciousness.\nNo cognitive impairment other than amnesia.\nNo loss of personal identity.\nNo focal neurology or epileptic features .\nNo head trauma attributing amnesia to a\nconcussion\nMust resolve within 24 hours\nNo other causes of amnesia\n[4]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        }
+      ]
+    },
+    "Diagnostic_Criteria": {
+      "text": "Attack must be witnessed.\nAcute onset of anterograde amnesia\nNo alteration in consciousness.\nNo cognitive impairment other than amnesia.\nNo loss of personal identity.\nNo focal neurology or epileptic features .\nNo head trauma attributing amnesia to a\nconcussion\nMust resolve within 24 hours\nNo other causes of amnesia\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "concussion",
+          "url": "https://wikem.org/wiki/Concussion"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Hypoglycemia\nHyponatremia\nMeningitis\n/\nencephalitis\nSeizure\nCVA\nHyperosmotic Coma\nDrug toxicity\nLithium,\nphenytoin\n, carbamazepine\nComplicated\nmigraine\nDemyelinating disease (\nMS\n)\nConversion disorder\nAlcohol blackout",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "Hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Hyperosmotic Coma",
+          "url": "https://wikem.org/wiki/Hyperosmotic_Coma"
+        },
+        {
+          "text": "Drug toxicity",
+          "url": "https://wikem.org/wiki/Drug_toxicity"
+        },
+        {
+          "text": "phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "migraine",
+          "url": "https://wikem.org/wiki/Migraine"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/MS"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Depending on presentation, consider CVA workup\nBedside glucose\nBedside hemoglobin (polycythemia)\nCBC\nChemistry\nCoags\nTroponin\nECG (esp A-fib)\nHead CT\nPrimarily used to exclude intracranial bleeding, abscess, tumor, other stroke mimics\nAlso consider:\nPregnancy test\nCXR\n(if infection suspected)\nUrinalysis\n(if infection suspected)\nUrine toxicology screen\n(if ingestion suspected)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Head CT",
+          "url": "https://wikem.org/wiki/Head_CT"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "Urinalysis",
+          "url": "https://wikem.org/wiki/Urinalysis"
+        },
+        {
+          "text": "Urine toxicology screen",
+          "url": "https://wikem.org/wiki/Urine_toxicology_screen"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Rule out CVA (clinically or with further workup)\nNeurology referral\nOnce diagnosed, no specific treatment needed\n[5]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge home with neurology follow up\nConsider admission for equivocal cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "Full recovery with amnesia of event\nAnnual recurrence rate was 4.7%\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Stroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "drug_name": "Transcutaneous_pacing",
+  "url": "https://wikem.org/wiki/Transcutaneous_pacing",
+  "scraped_at": "2026-01-10T08:04:01.029624",
+  "sections": {
+    "Indications": {
+      "text": "Bradyarrythmias\ncausing hemodynamic impairment:\n[1]\nAV block\nSinus node dysfunction\nA-fib\nwith slow ventricular response\nMalfunction of implanted pacemaker\nTachyarrhythmias\ncausing hemodynamic impairment\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Bradyarrythmias",
+          "url": "https://wikem.org/wiki/Bradyarrythmia"
+        },
+        {
+          "text": "AV block",
+          "url": "https://wikem.org/wiki/AV_block"
+        },
+        {
+          "text": "A-fib",
+          "url": "https://wikem.org/wiki/A-fib"
+        },
+        {
+          "text": "Tachyarrhythmias",
+          "url": "https://wikem.org/wiki/Tachyarrhythmias"
+        }
+      ]
+    },
+    "Procedure": {
+      "text": "Pad placement:\nPad on apex of heart and on right upper chest\nPad on lead V3 position and between left scapula and T-spine\nSet: HR 80, pacing threshold usually between 40-80 mA\nIf hemodynamically unstable or with evidence of end organ poor perfusion start at 80 mA and titrate down as tolerated.\nLook for clear QRS complex and T-wave following pacer spike\nCheck pulse to confirm mechanical capture\nFinal current set 5-10 mA above threshold level for patient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "ACLS: Bradycardia\nTransvenous pacing",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACLS: Bradycardia",
+          "url": "https://wikem.org/wiki/ACLS:_Bradycardia"
+        },
+        {
+          "text": "Transvenous pacing",
+          "url": "https://wikem.org/wiki/Transvenous_pacing"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "ACEP - Transcutaneous and Transvenous Cardiac Pacing\nDowneast EM - Transcutaneous Pacing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

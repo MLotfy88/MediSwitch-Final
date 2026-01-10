@@ -1,0 +1,290 @@
+{
+  "drug_name": "Trauma_in_pregnancy",
+  "url": "https://wikem.org/wiki/Trauma_in_pregnancy",
+  "scraped_at": "2026-01-10T08:04:04.910033",
+  "sections": {
+    "Background": {
+      "text": "Concern for trauma, premature labor, and abruption\nViable = >23-24wk (~fundus above umbilicus)\nnl FHR = 110-160 beats/min\nThe leading cause of death in women during their reproductive years\nThe leading non-obstetric cause of death and disability in pregnant women\nTrauma or accidental injury complicates up to 7% of all pregnancies\nFor maternal vitals see\nMaternal Vitals and Labs in Pregnancy",
+      "subsections": {
+        "Risk_Factors_for_Severity_(ATLS)": {
+          "text": "Maternal heart rate > 100\nInjury  Severity Score > 9\nEvidence of placental abruption\nFetal heart rate  > 160 or  <120\nEjection during a motor vehicle crash\nMotorcycle or pedestrian collisions",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Maternal Vitals and Labs in Pregnancy",
+          "url": "https://wikem.org/wiki/Maternal_Vitals_and_Labs_in_Pregnancy"
+        }
+      ]
+    },
+    "Assessment": {
+      "text": "Airway\nPrepare for potentially difficult airway\nIncreased soft tissue edema, breast enlargement, weight gain\nPregnant women at increased risk of aspiration due to delayed gastric emptying\nFailed intubations 8 times more likely in pregnant trauma patients\nBreathing\nIncreased basal O2 requirement\nFetus is highly sensitive to maternal hypoxia\nKeep maternal SpO2 >95%\nSome recommend placement of thoracostomy tube 1-2 intercostal spaces higher than usual, when indicated\n[1]\nCirculation\nFluid and blood product resuscitation should proceed according to ATLS\nPlacenta is highly responsive to vasopressors and can result in decreased placental perfusion\nCompression of IVC by gravid uterus can decreased CO by 30%\nIf must be kept supine, allow patient to lay in left lateral position\nMay also manually displace uterus to the left if patient must be kept on backboard\nFetal risks from defibrillation of mother are small",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Uterine rupture\nMore common with direct abdominal trauma in second half of pregnancy\nOccurs in severe MVAs resulting in pelvic fractures, penetrating trauma\nSigns and Sx\nmaternal\nshock\nabdominal distension\nabnormal uterine contour\nabnormal fetal lie (oblique or transverse)\npalpable fetal parts\nsudden abnormal FHR pattern\nascent of fetal presenting part\nPlacental Abruption\nMost common cause of fetal demise in blunt trauma\nUS alone not sensitive → do not delay treatment for\nultrasound\nif abruption suspected\nSigns and Sx\nabdominal pain\nuterine tenderness\nvaginal bleeding (70%, may be absent if retroplacental)\nuterine contractions or hypertonicity\nsigns of fetal distress on toco monitor are often the earliest indicator\ndecelerations, tachycardia, bradycardia, and loss of variability\nPreterm labor\nTrauma in pregnancy is associated with 2x higher risk of preterm delivery",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Uterine rupture",
+          "url": "https://wikem.org/wiki/Uterine_rupture"
+        },
+        {
+          "text": "shock",
+          "url": "https://wikem.org/wiki/Shock"
+        },
+        {
+          "text": "Placental Abruption",
+          "url": "https://wikem.org/wiki/Placental_Abruption"
+        },
+        {
+          "text": "ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Preterm labor",
+          "url": "https://wikem.org/wiki/Preterm_labor"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Abdominal_Trauma": {
+          "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Abdominal_Trauma": {
+      "text": "Abdominal compartment syndrome\nDiaphragmatic trauma\nDuodenal hematoma\nGenitourinary trauma\nLiver trauma\nPelvic fractures\nAcetabular pelvic fractures\nOpen book pelvic fracture\nStraddle pelvic fracture\nPelvic avulsion fracture\nRetroperitoneal hemorrhage\nRenal trauma\nSplenic trauma\nTrauma in pregnancy\nUreter trauma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abdominal compartment syndrome",
+          "url": "https://wikem.org/wiki/Abdominal_compartment_syndrome"
+        },
+        {
+          "text": "Diaphragmatic trauma",
+          "url": "https://wikem.org/wiki/Diaphragmatic_trauma"
+        },
+        {
+          "text": "Duodenal hematoma",
+          "url": "https://wikem.org/wiki/Duodenal_hematoma"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Liver trauma",
+          "url": "https://wikem.org/wiki/Liver_trauma"
+        },
+        {
+          "text": "Pelvic fractures",
+          "url": "https://wikem.org/wiki/Pelvic_fractures"
+        },
+        {
+          "text": "Acetabular pelvic fractures",
+          "url": "https://wikem.org/wiki/Acetabular_pelvic_fractures"
+        },
+        {
+          "text": "Open book pelvic fracture",
+          "url": "https://wikem.org/wiki/Open_book_pelvic_fracture"
+        },
+        {
+          "text": "Straddle pelvic fracture",
+          "url": "https://wikem.org/wiki/Straddle_pelvic_fracture"
+        },
+        {
+          "text": "Pelvic avulsion fracture",
+          "url": "https://wikem.org/wiki/Pelvic_avulsion_fracture"
+        },
+        {
+          "text": "Retroperitoneal hemorrhage",
+          "url": "https://wikem.org/wiki/Retroperitoneal_hemorrhage"
+        },
+        {
+          "text": "Renal trauma",
+          "url": "https://wikem.org/wiki/Renal_trauma"
+        },
+        {
+          "text": "Splenic trauma",
+          "url": "https://wikem.org/wiki/Splenic_trauma"
+        },
+        {
+          "text": "Ureter trauma",
+          "url": "https://wikem.org/wiki/Ureter_trauma"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Trauma labs\nRh factor\nCoag studies\nD-dimer\nFibrinogen\nFAST\n- sensitivity similar to non-pregnant trauma population\nRadiographic imaging as directed by\nATLS\nassesment\n[2]\nRadiographic imaging should not be delayed or deferred due to concern for fetal radiation exposure in the trauma setting\nTocographic and fetal monitoring -\nVEAL CHOP\nV\nariable -\nC\nord compression\nE\narly -\nH\nead compression\nA\nccelerations -\nO\nkay\nL\nate -\nP\nlacental insufficiency",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "FAST",
+          "url": "https://wikem.org/wiki/FAST"
+        },
+        {
+          "text": "ATLS",
+          "url": "https://wikem.org/wiki/ATLS"
+        }
+      ]
+    },
+    "Treatment_&_Disposition": {
+      "text": "Assessment and stabilization of the mother should take first priority\nNonviable fetus (<23-24wks)\nStandard treatment for trauma\nNo obstetric intervention will alter the outcome of a pre-viable fetus\nConsider\nRhoGAM\n50mcg in Rh negative patients\nViable fetus (>23-24wks)\nConsider\nRhoGAM\n300mcg in Rh negative patients\nAvoid pressors - compromises blood flow to uterus leading to decreased fetal O2 delivery\nFetal monitoring (continuous cardiotocographic monitoring)\nIf no risk factors for fetal loss, minimum 4-6 hours\nIf risk factors for fetal loss/abruption, monitor for 24 hours\nThe duration of cardiotocographic monitoring should be extended to 24 hours if, during the first 4 hours, she develops > 4 contractions per hour, persistent uterine tenderness, a worrisome fetal monitor strip, vaginal bleeding, or rupture of the membranes.\n[3]\nAllow patient to roll onto left side to unload uterine compression of IVC → increases venous return to heart\nIn the setting of maternal cardiac arrest, consider\nPerimortem Cesarean delivery\nif no ROSC within 4 minutes",
+      "subsections": {
+        "Abnormal_Monitoring": {
+          "text": ">3 contractions/hr\nPersistent uterine TTP\nWorrisome strip\nVaginal bleeding\nPROM\nSerious maternal injury\nPartial abruption with stable mom/fetus and <32wk may have expectant care (with easy access to emergent C-section)\nAbruption\n= risk\nDIC\nFrequent uterine activity more predictive of abruption than US\n>8 contractions/hr for 4hrs - high risk for abruption\n3-7 contractions/hr for 4hrs - extend monitoring for 24hrs\n<3 contractions/hr for 4hrs - safe for discharge",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "RhoGAM",
+          "url": "https://wikem.org/wiki/RhoGAM"
+        },
+        {
+          "text": "RhoGAM",
+          "url": "https://wikem.org/wiki/RhoGAM"
+        },
+        {
+          "text": "Perimortem Cesarean delivery",
+          "url": "https://wikem.org/wiki/Perimortem_cesarean_delivery"
+        },
+        {
+          "text": "Abruption",
+          "url": "https://wikem.org/wiki/Abruption"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Abnormal_Monitoring": {
+      "text": ">3 contractions/hr\nPersistent uterine TTP\nWorrisome strip\nVaginal bleeding\nPROM\nSerious maternal injury\nPartial abruption with stable mom/fetus and <32wk may have expectant care (with easy access to emergent C-section)\nAbruption\n= risk\nDIC\nFrequent uterine activity more predictive of abruption than US\n>8 contractions/hr for 4hrs - high risk for abruption\n3-7 contractions/hr for 4hrs - extend monitoring for 24hrs\n<3 contractions/hr for 4hrs - safe for discharge",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Abruption",
+          "url": "https://wikem.org/wiki/Abruption"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Pregnancy Due Dates Calculation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Fetal Maternal Hemorrhage (RhoGAM)\nPerimortum C-Section\nAbruption\nMaternal Vitals and Labs in Pregnancy\nTrauma (main)\nPregnancy (main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fetal Maternal Hemorrhage (RhoGAM)",
+          "url": "https://wikem.org/wiki/Fetal_Maternal_Hemorrhage_(RhoGAM)"
+        },
+        {
+          "text": "Perimortum C-Section",
+          "url": "https://wikem.org/wiki/Perimortum_C-Section"
+        },
+        {
+          "text": "Abruption",
+          "url": "https://wikem.org/wiki/Abruption"
+        },
+        {
+          "text": "Maternal Vitals and Labs in Pregnancy",
+          "url": "https://wikem.org/wiki/Maternal_Vitals_and_Labs_in_Pregnancy"
+        },
+        {
+          "text": "Trauma (main)",
+          "url": "https://wikem.org/wiki/Trauma_(main)"
+        },
+        {
+          "text": "Pregnancy (main)",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        }
+      ]
+    }
+  }
+}

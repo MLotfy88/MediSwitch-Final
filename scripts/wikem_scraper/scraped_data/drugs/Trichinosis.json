@@ -1,0 +1,88 @@
+{
+  "drug_name": "Trichinosis",
+  "url": "https://wikem.org/wiki/Trichinosis",
+  "scraped_at": "2026-01-10T08:04:14.662813",
+  "sections": {
+    "Background": {
+      "text": "Caused by roundworm\nTrichinella\nTransmitted by eating undercooked pork, polar bear, walrus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Enteral phase: 2-7d after ingestion\nNausea\nHeartburn/dyspepsia\nDiarrhea\nEnteral phase\nInflammatory response to larvae migrating through tissues\nVasculitis\nSplinter hemorrhage\nMyalgia, weakness\nFever\nPeriorbital edema\nCerebral venous thrombosis\nEncephalitis\nPneumonia\nMyocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Cerebral venous thrombosis",
+          "url": "https://wikem.org/wiki/Cerebral_venous_thrombosis"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Diagnosis is clinical\nCBC may show eosinophilia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Mebendazole\nor\nalbendazole",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Mebendazole",
+          "url": "https://wikem.org/wiki/Mebendazole"
+        },
+        {
+          "text": "albendazole",
+          "url": "https://wikem.org/wiki/Albendazole"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Parasitic Diseases\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        },
+        {
+          "text": "Travel Medicine",
+          "url": "https://wikem.org/wiki/Travel_Medicine"
+        }
+      ]
+    }
+  }
+}

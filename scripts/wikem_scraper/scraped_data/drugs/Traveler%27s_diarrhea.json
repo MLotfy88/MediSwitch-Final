@@ -1,0 +1,800 @@
+{
+  "drug_name": "Traveler%27s_diarrhea",
+  "url": "https://wikem.org/wiki/Traveler%27s_diarrhea",
+  "scraped_at": "2026-01-10T08:04:09.941695",
+  "sections": {
+    "Background": {
+      "text": "A diarrheal syndrome which may be caused by a variety of intestinal pathogens contracted while traveling, particularly in low-income countries\nBacteria account for a majority of cases, but traveler's diarrhea may also be caused by parasites or viruses.\nIs the most common\ntravel-associated disease\nGreatest contributor to illness poor hygiene in restaurants\n[1]\nMost cases of traveler’s diarrhea are caused by bacterial enteropathogens, whereas bacterial pathogens cause less than 15% of endemic diarrhea cases in adults living in their home country\n[2]\nMost cases respond to antibiotics (as opposed to non-traveler's\nacute gastroenteritis\n, which is most commonly caused by viruses)\nAs duration of diarrhea increases, higher chance of parasitic cause\nAt risk populations- Immunosuppressed, diabetes, taking meds to suppress acid production",
+      "subsections": {
+        "Etiology": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Organism": "EnterotoxigenicEscherichia coli",
+                "Latin America and Caribbean": "≥35",
+                "Africa": "25-35",
+                "South Asia": "15-25",
+                "Southeast Asia": "5-15"
+              },
+              {
+                "Organism": "EnteroaggregativeE coli",
+                "Latin America and Caribbean": "25-35",
+                "Africa": "<5",
+                "South Asia": "15-25",
+                "Southeast Asia": "No data"
+              },
+              {
+                "Organism": "Campylobacter",
+                "Latin America and Caribbean": "<5",
+                "Africa": "<5",
+                "South Asia": "15-25",
+                "Southeast Asia": "25-35"
+              },
+              {
+                "Organism": "Salmonella",
+                "Latin America and Caribbean": "<5",
+                "Africa": "5-15",
+                "South Asia": "<5",
+                "Southeast Asia": "5-15"
+              },
+              {
+                "Organism": "Shigella",
+                "Latin America and Caribbean": "5-15",
+                "Africa": "5-15",
+                "South Asia": "5-15",
+                "Southeast Asia": "<5"
+              },
+              {
+                "Organism": "Norovirus",
+                "Latin America and Caribbean": "15-25",
+                "Africa": "15-25",
+                "South Asia": "5-15",
+                "Southeast Asia": "<5"
+              },
+              {
+                "Organism": "Rotavirus",
+                "Latin America and Caribbean": "15-25",
+                "Africa": "5-15",
+                "South Asia": "5-15",
+                "Southeast Asia": "<5"
+              },
+              {
+                "Organism": "Giardia",
+                "Latin America and Caribbean": "<5",
+                "Africa": "<5",
+                "South Asia": "5-15",
+                "Southeast Asia": "5-15"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Etiology": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Organism": "EnterotoxigenicEscherichia coli",
+            "Latin America and Caribbean": "≥35",
+            "Africa": "25-35",
+            "South Asia": "15-25",
+            "Southeast Asia": "5-15"
+          },
+          {
+            "Organism": "EnteroaggregativeE coli",
+            "Latin America and Caribbean": "25-35",
+            "Africa": "<5",
+            "South Asia": "15-25",
+            "Southeast Asia": "No data"
+          },
+          {
+            "Organism": "Campylobacter",
+            "Latin America and Caribbean": "<5",
+            "Africa": "<5",
+            "South Asia": "15-25",
+            "Southeast Asia": "25-35"
+          },
+          {
+            "Organism": "Salmonella",
+            "Latin America and Caribbean": "<5",
+            "Africa": "5-15",
+            "South Asia": "<5",
+            "Southeast Asia": "5-15"
+          },
+          {
+            "Organism": "Shigella",
+            "Latin America and Caribbean": "5-15",
+            "Africa": "5-15",
+            "South Asia": "5-15",
+            "Southeast Asia": "<5"
+          },
+          {
+            "Organism": "Norovirus",
+            "Latin America and Caribbean": "15-25",
+            "Africa": "15-25",
+            "South Asia": "5-15",
+            "Southeast Asia": "<5"
+          },
+          {
+            "Organism": "Rotavirus",
+            "Latin America and Caribbean": "15-25",
+            "Africa": "5-15",
+            "South Asia": "5-15",
+            "Southeast Asia": "<5"
+          },
+          {
+            "Organism": "Giardia",
+            "Latin America and Caribbean": "<5",
+            "Africa": "<5",
+            "South Asia": "5-15",
+            "Southeast Asia": "5-15"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Characterized by the following:\n[2]\nTravel\n3 or more unformed stools per 24 hours\nPlus (at least 1 of the following):\nAbdominal cramps\nTenesmus\nNausea\nVomiting\nFever\nFecal urgency\nThe average duration of untreated traveler’s diarrhea is 4 to 5 days\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[3]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Acute_diarrhea": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Viral\n(e.g.\nrotavirus\n)\nBacterial\nCampylobacter\nShigella\nSalmonella\n(non-typhi)\nEscherichia coli\nE. coli 0157:H7\nYersinia enterocolitica\nVibrio cholerae\nClostridium difficile\nParasitic\nGiardia lamblia\nCryptosporidium\nEntamoeba histolytica\nCyclospora\nMicrosporidium\nToxin\nStaphylococcus aureus\nBacillus cereus",
+          "tables": []
+        },
+        "Noninfectious": {
+          "text": "GI Bleed\nAppendicitis\nMesenteric Ischemia\nDiverticulitis\nAdrenal Crisis\nThyroid Storm\nToxicologic exposures\nAntibiotic\nor drug-associated\nInflammatory bowel disease\nCrohn's disease\nUlcerative colitis",
+          "tables": []
+        },
+        "Watery_Diarrhea": {
+          "text": "Enterotoxigenic\nE. coli\n(most common cause of watery diarrhea)\n[3]\nNorovirus\n(often has prominent vomiting)\nCampylobacter\nNon-typhoidal\nSalmonella\nEnteroaggregative\nE. coli\n(EAEC)\nEnterotoxigenic\nBacteroides fragilis",
+          "tables": []
+        },
+        "Traveler's_Diarrhea": {
+          "text": "Giardia lamblia\nCryptosporidiosis\nEntamoeba histolytica\nCyclospora\nClostridium perfringens\nListeriosis\nHelminth infections\nMarine toxins\nCiguatera\nScombroid poisoning\nParalytic shellfish poisoning\nNeurotoxic shellfish poisoning\nDiarrheal shellfish poisoning",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral",
+          "url": "https://wikem.org/wiki/Viruses"
+        },
+        {
+          "text": "rotavirus",
+          "url": "https://wikem.org/wiki/Rotavirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Escherichia coli",
+          "url": "https://wikem.org/wiki/Escherichia_coli"
+        },
+        {
+          "text": "Yersinia enterocolitica",
+          "url": "https://wikem.org/wiki/Yersinia_enterocolitica"
+        },
+        {
+          "text": "Vibrio cholerae",
+          "url": "https://wikem.org/wiki/Cholera"
+        },
+        {
+          "text": "Clostridium difficile",
+          "url": "https://wikem.org/wiki/Clostridium_difficile"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidium",
+          "url": "https://wikem.org/wiki/Cryptosporidium"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Amebiasis"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Microsporidium",
+          "url": "https://wikem.org/wiki/Microsporidium"
+        },
+        {
+          "text": "Staphylococcus aureus",
+          "url": "https://wikem.org/wiki/Staphylococcus_aureus"
+        },
+        {
+          "text": "Bacillus cereus",
+          "url": "https://wikem.org/wiki/Bacillus_cereus"
+        },
+        {
+          "text": "GI Bleed",
+          "url": "https://wikem.org/wiki/GI_Bleed"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Adrenal Crisis",
+          "url": "https://wikem.org/wiki/Adrenal_Crisis"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Toxicologic exposures",
+          "url": "https://wikem.org/wiki/Toxidromes"
+        },
+        {
+          "text": "Antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "Crohn's disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_disease"
+        },
+        {
+          "text": "Ulcerative colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_colitis"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Norovirus",
+          "url": "https://wikem.org/wiki/Norovirus"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Bacteroides fragilis",
+          "url": "https://wikem.org/wiki/Bacteroides_fragilis"
+        },
+        {
+          "text": "Giardia lamblia",
+          "url": "https://wikem.org/wiki/Giardia_lamblia"
+        },
+        {
+          "text": "Cryptosporidiosis",
+          "url": "https://wikem.org/wiki/Cryptosporidiosis"
+        },
+        {
+          "text": "Entamoeba histolytica",
+          "url": "https://wikem.org/wiki/Entamoeba_histolytica"
+        },
+        {
+          "text": "Cyclospora",
+          "url": "https://wikem.org/wiki/Cyclospora"
+        },
+        {
+          "text": "Clostridium perfringens",
+          "url": "https://wikem.org/wiki/Clostridium_perfringens"
+        },
+        {
+          "text": "Listeriosis",
+          "url": "https://wikem.org/wiki/Listeriosis"
+        },
+        {
+          "text": "Helminth infections",
+          "url": "https://wikem.org/wiki/Helminth_infections"
+        },
+        {
+          "text": "Marine toxins",
+          "url": "https://wikem.org/wiki/Marine_toxins"
+        },
+        {
+          "text": "Ciguatera",
+          "url": "https://wikem.org/wiki/Ciguatera"
+        },
+        {
+          "text": "Scombroid poisoning",
+          "url": "https://wikem.org/wiki/Scombroid_poisoning"
+        },
+        {
+          "text": "Paralytic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Paralytic_shellfish_poisoning"
+        },
+        {
+          "text": "Neurotoxic shellfish poisoning",
+          "url": "https://wikem.org/wiki/Neurotoxic_shellfish_poisoning"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is typically made clinically",
+      "subsections": {
+        "Uncomplicated_Diarrhea": {
+          "text": "No workup\n[2]",
+          "tables": []
+        },
+        "Fever,_Bloody_Stools,_or_Ill_Appearing": {
+          "text": "Stool culture\n[2]\nSystemic toxicity\nExtended workup including blood cultures",
+          "tables": []
+        },
+        "Persistent_or_Refractory_Diarrhea_(>14_days)": {
+          "text": "Typically not done in the ER (at follow-up)\nStool culture (including\nSalmonella\n,\nShigella\n, and\nCampylobacter\n)\nStool O&P (including testing for protozoal parasites,\nGiardia\n,\nCryptosporidium\n)\n[2]\nFecal leukocytes, giardia antigen, C. difficile PCR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uncomplicated_Diarrhea": {
+      "text": "No workup\n[2]",
+      "subsections": {
+        "Fever,_Bloody_Stools,_or_Ill_Appearing": {
+          "text": "Stool culture\n[2]\nSystemic toxicity\nExtended workup including blood cultures",
+          "tables": []
+        },
+        "Persistent_or_Refractory_Diarrhea_(>14_days)": {
+          "text": "Typically not done in the ER (at follow-up)\nStool culture (including\nSalmonella\n,\nShigella\n, and\nCampylobacter\n)\nStool O&P (including testing for protozoal parasites,\nGiardia\n,\nCryptosporidium\n)\n[2]\nFecal leukocytes, giardia antigen, C. difficile PCR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Fever,_Bloody_Stools,_or_Ill_Appearing": {
+      "text": "Stool culture\n[2]\nSystemic toxicity\nExtended workup including blood cultures",
+      "subsections": {
+        "Persistent_or_Refractory_Diarrhea_(>14_days)": {
+          "text": "Typically not done in the ER (at follow-up)\nStool culture (including\nSalmonella\n,\nShigella\n, and\nCampylobacter\n)\nStool O&P (including testing for protozoal parasites,\nGiardia\n,\nCryptosporidium\n)\n[2]\nFecal leukocytes, giardia antigen, C. difficile PCR",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Supportive_Care": {
+          "text": "PO hydration and consider\noral rehydration fluids\nConsider\nondansetron\nif concurrent nausea/vomiting\nBismuth subsalicylate\n(Pepto Bismol) ~524 mg every 30 to 60 minutes or 1,050 mg every 60 minutes as needed (maximum: ~4,200 mg/24 hours)\n[4]\nConsider\nIVF\nif dehydrated\nConsider\nloperamide\n4mg PO followed by 2mg after each loose stool (Max: 16mg/day)\n[2]\nIf very frequent stools and no contra-indication:\nNot pregnant\n>2 years old\nFever\nor bloody stools without concomitant antibiotics (do not use as sole therapy)",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Ciprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Antibiotic Options:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Supportive_Care": {
+      "text": "PO hydration and consider\noral rehydration fluids\nConsider\nondansetron\nif concurrent nausea/vomiting\nBismuth subsalicylate\n(Pepto Bismol) ~524 mg every 30 to 60 minutes or 1,050 mg every 60 minutes as needed (maximum: ~4,200 mg/24 hours)\n[4]\nConsider\nIVF\nif dehydrated\nConsider\nloperamide\n4mg PO followed by 2mg after each loose stool (Max: 16mg/day)\n[2]\nIf very frequent stools and no contra-indication:\nNot pregnant\n>2 years old\nFever\nor bloody stools without concomitant antibiotics (do not use as sole therapy)",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Ciprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed",
+          "tables": []
+        },
+        "Pediatrics": {
+          "text": "Antibiotic Options:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Ciprofloxacin\n750mg PO once daily x 1-3 days\n[5]\nFirst choice for use except in South and Southeast Asia\n[6]\nAzithromycin\n500mg PO q24h x 3 days OR 1000mg PO x 1\n[7]\nNausea is a frequent adverse event\n[8]\nFirst choice for use in South and Southeast Asia\n[9]\nRifaximin\n200mg PO TID x 3 days\n[10]\nIneffective against mucosally invasive pathogens (\nShigella\n,\nSalmonella\n,\nCampylobacter\n)\nConsidered very safe as it is not absorbed",
+      "subsections": {
+        "Pediatrics": {
+          "text": "Antibiotic Options:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Rifaximin",
+          "url": "https://wikem.org/wiki/Rifaximin"
+        },
+        {
+          "text": "Shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Salmonella",
+          "url": "https://wikem.org/wiki/Salmonella"
+        },
+        {
+          "text": "Campylobacter",
+          "url": "https://wikem.org/wiki/Campylobacter"
+        },
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Pediatrics": {
+      "text": "Antibiotic Options:\nAvoid\nfluroquinolones\nAzithromycin\n10mg/kg/day once daily x 3 days OR\n[11]\nCeftriaxone\n50mg/kg/day once daily x 3 days",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fluroquinolones",
+          "url": "https://wikem.org/wiki/Fluroquinolones"
+        },
+        {
+          "text": "Azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient for the vast majority\nConsider admission if systemic toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Postinfectious irritable bowel syndrome\nReactive arthritis\nGuillain-Barre syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Diarrhea\nDiarrhea (Peds)\nTravel Medicine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "CDC - Travelers Diarrhea",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
