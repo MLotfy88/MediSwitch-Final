@@ -388,21 +388,23 @@ class WikEMScraper:
             "links": []
         }
         
-        # Start from content div
+        # Start from content div, default to soup if not found
         content_div = soup.find('div', class_='mw-parser-output')
-        if content_div:
-            for child in content_div.children:
-                if child.name == 'h2':
-                    break
-                
-                if child.name == 'table':
-                    table_data = self.extract_table(child)
-                    if table_data:
-                        intro_content["tables"].append(table_data)
-                elif child.name in ['p', 'ul', 'ol', 'dl']:
-                    text = child.get_text(separator='\n', strip=True)
-                    if text:
-                        intro_content["text"] += text + "\n"
+        if not content_div:
+            content_div = soup
+            
+        for child in content_div.children:
+            if child.name == 'h2':
+                break
+            
+            if child.name == 'table':
+                table_data = self.extract_table(child)
+                if table_data:
+                    intro_content["tables"].append(table_data)
+            elif child.name in ['p', 'ul', 'ol', 'dl']:
+                text = child.get_text(separator='\n', strip=True)
+                if text:
+                    intro_content["text"] += text + "\n"
         
         if intro_content["text"] or intro_content["tables"]:
             drug_data["sections"]["Intro"] = intro_content
@@ -423,6 +425,10 @@ class WikEMScraper:
             content = self.extract_section_content(soup, clean_section_id)
             if content:
                 drug_data["sections"][clean_section_id] = content
+                
+        # DEBUG: If still empty, log why
+        if not drug_data["sections"]:
+            logger.warning(f"⚠️ Empty sections for {drug_name}. HTML Snippet: {soup.prettify()[:200]}")
         
         return drug_data
     
