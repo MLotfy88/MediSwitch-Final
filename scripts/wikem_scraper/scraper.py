@@ -55,6 +55,8 @@ COMMIT_EVERY = 50  # auto-commit every N drugs
 # LOGGING SETUP
 # ============================================================================
 
+LOG_FILE.parent.mkdir(parents=True, exist_ok=True)  # Ensure log dir exists
+
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
