@@ -1,0 +1,105 @@
+{
+  "drug_name": "Acute_abdominal_series/en",
+  "url": "https://wikem.org/wiki/Acute_abdominal_series/en",
+  "scraped_at": "2026-01-10T07:46:50.228239",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Technique": {
+      "text": "3 Films:\nUpright chest film\nRule-out free air\nUpright abdominal film\nLook for air-fluid levels\nSupine abdominal film (\nKUB = just supine film\n)\nWidth of bowel loops most visible (estimate of amount of distention)\nIf patient does not tolerate upright position, left lateral decubitus abdominal film can substitute",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Interpretation": {
+      "text": "Normal\nSmall bowel obstruction\nLarge bowel obstruction (Cecal\nvolvulus\n; black arrows).\nFree intra-abdominal air below the diaphragm.\nBody-packing with multiple foreign bodies (\"balls\" of hashish).\nButton battery in stomach.\nGallstones\n(not sensitive)\nToxic megacolon\nRectal foreign body",
+      "subsections": {
+        "Differentiating_large_and_small_bowel": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Location": "Small bowel",
+                "Size": "3 cm",
+                "Lines": "All the way through the bowel (plica circulares)"
+              },
+              {
+                "Location": "Colon",
+                "Size": "6 cm",
+                "Lines": "Only halfway through the bowel (haustra)"
+              },
+              {
+                "Location": "Cecum",
+                "Size": "9 cm",
+                "Lines": ""
+              }
+            ]
+          ]
+        },
+        "Small_bowel_obstruction": {
+          "text": "Air in colon or rectum makes complete obstruction less likely (esp if symptoms >24hr)\nAbdominal x-ray has poor Sn and Sp for\nSBO\nIf concerned need CT",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differentiating_large_and_small_bowel": {
+      "text": "",
+      "subsections": {
+        "Small_bowel_obstruction": {
+          "text": "Air in colon or rectum makes complete obstruction less likely (esp if symptoms >24hr)\nAbdominal x-ray has poor Sn and Sp for\nSBO\nIf concerned need CT",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Location": "Small bowel",
+            "Size": "3 cm",
+            "Lines": "All the way through the bowel (plica circulares)"
+          },
+          {
+            "Location": "Colon",
+            "Size": "6 cm",
+            "Lines": "Only halfway through the bowel (haustra)"
+          },
+          {
+            "Location": "Cecum",
+            "Size": "9 cm",
+            "Lines": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Small_bowel_obstruction": {
+      "text": "Air in colon or rectum makes complete obstruction less likely (esp if symptoms >24hr)\nAbdominal x-ray has poor Sn and Sp for\nSBO\nIf concerned need CT",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indications": {
+      "text": "Ruling out free air under the diaphragm (e.g. perforated ulcer)\nRuling out radio-opaque abdominal foreign body (e.g. swallowed battery)\nRuling\nin\nbowel obstruction (i.e. to avoid need for subsequent CT scan)\nDo NOT use as the sole study to rule out bowel obstruction (poor sensitivity)\nDo NOT use to rule out generalized peritonitis (almost no sensitivity for diagnoses such as\nappendicitis\n)\nDo NOT use to diagnose constipation (many patient with acute abdomen will have \"copious stool\")",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Incidental_findings": {
+      "text": "Gallstones\n(not always radiodense)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

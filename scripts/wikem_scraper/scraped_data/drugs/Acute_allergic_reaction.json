@@ -1,0 +1,231 @@
+{
+  "drug_name": "Acute_allergic_reaction",
+  "url": "https://wikem.org/wiki/Acute_allergic_reaction",
+  "scraped_at": "2026-01-10T07:46:48.099019",
+  "sections": {
+    "Background": {
+      "text": "Similar to\nAnaphylaxis\nbut does not meet all the requirements (i.e. just skin manifestations)\nType I\nhypersensitivity reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "hypersensitivity reaction",
+          "url": "https://wikem.org/wiki/Hypersensitivity_Reaction"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Presentation can be delayed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_allergic_reaction": {
+          "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Acute_allergic_reaction": {
+      "text": "Allergic reaction\n/urticaria\nAnaphylaxis\nAngioedema\nAnxiety attack\nAsthma\nexacerbation\nCarcinoid syndrome\nCold urticaria\nContrast induced allergic reaction\nScombroid\nShock\nTransfusion reaction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Anxiety attack",
+          "url": "https://wikem.org/wiki/Anxiety_attack"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Carcinoid syndrome",
+          "url": "https://wikem.org/wiki/Carcinoid_syndrome"
+        },
+        {
+          "text": "Cold urticaria",
+          "url": "https://wikem.org/wiki/Cold_urticaria"
+        },
+        {
+          "text": "Contrast induced allergic reaction",
+          "url": "https://wikem.org/wiki/Contrast_induced_allergic_reaction"
+        },
+        {
+          "text": "Scombroid",
+          "url": "https://wikem.org/wiki/Scombroid"
+        },
+        {
+          "text": "Shock",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Transfusion reaction",
+          "url": "https://wikem.org/wiki/Transfusion_reaction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical\nRule out\nAnaphylaxis\nDifficult to differentiate from\nAngioedema",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        }
+      ]
+    },
+    "Management": {
+      "text": "H1 antagonist\n:\nDiphenhydramine\n50mg IV/IM/PO\nH1 antagonists with low sedating activity, such as fexofenadine, loratadine, cetirizine, are preferred over\ndiphenhydramine\nand hydroxyzine when appropriate\n[1]\nCetirizine\n10mg IV/PO (6-11 years old: 5-10 mg IV; 6 mo - 5 years: 2.5 mg IV)\nH2 antagonist\n:\nFamotidine\n40mg\nOR\nranitidine\n150mg IV/IM/PO\nImproves urticaria but not angioedema at 2 hours\n[2]\nConsider\ncorticosteroid\n:\nmethylprednisolone\n125mg IV/IM\nOR\nprednisone\n60mg PO\nContinue steroid burst if outpatient (40mg\nprednisone\nPO x 5 days)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "H1 antagonist",
+          "url": "https://wikem.org/wiki/H1_antagonist"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        },
+        {
+          "text": "Cetirizine",
+          "url": "https://wikem.org/wiki/Cetirizine"
+        },
+        {
+          "text": "H2 antagonist",
+          "url": "https://wikem.org/wiki/H2_antagonist"
+        },
+        {
+          "text": "Famotidine",
+          "url": "https://wikem.org/wiki/Famotidine"
+        },
+        {
+          "text": "ranitidine",
+          "url": "https://wikem.org/wiki/Ranitidine"
+        },
+        {
+          "text": "corticosteroid",
+          "url": "https://wikem.org/wiki/Corticosteroid"
+        },
+        {
+          "text": "methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Consider brief observation in the ED for improvement of symptoms\nSend home with an\nanaphylaxis\nemergency plan and\nepinephrine\nautoinjector! (Epi-Pen)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Anaphylaxis\nChronic urticaria",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Chronic urticaria",
+          "url": "https://wikem.org/wiki/Chronic_urticaria"
+        }
+      ]
+    }
+  }
+}

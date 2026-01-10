@@ -1,0 +1,227 @@
+{
+  "drug_name": "Activated_charcoal",
+  "url": "https://wikem.org/wiki/Activated_charcoal",
+  "scraped_at": "2026-01-10T07:46:46.873696",
+  "sections": {
+    "General": {
+      "text": "Type:\nAntidote\nA fine, black, odorless powder recognized for more than 2 centuries as an effective adsorbent of many substances\nCommon Trade Names: Actidose-Aqua [OTC]; Actidose/Sorbitol [OTC]; Char-Flo with Sorbitol [OTC]; EZ Char [OTC]; Kerr Insta-Char in Sorbitol [OTC]; Kerr Insta-Char [OTC]\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antidote",
+          "url": "https://wikem.org/wiki/Antidote"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "25-100gm PO\n[2]\nCommon standard dose is 50gm\n10:1 ratio of charcoal to xenobiotic typically recommended\nIf not pre-mixed best administered in a 1:8 ratio of AC to liquid (water, coke)\nAC alone comparably effective to AC to cathartic (sorbitol, Mg citrate)\nif cathartic is used, it should only be a single time (avoid in\nmultidose activated charcoal\ntherapy)\nrepeated dosages associated with dehydration, hypotension, electrolyte derangements",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "0.5-1 gm/kg PO\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: not absorbed\nLactation risk\n: not absorbed\nRenal Dosing\nAdult\nPediatric\nHepatic Dosing\nAdult\nPediatric",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Pregnancy_and_lactation_drug_labeling"
+        }
+      ]
+    },
+    "Indications": {
+      "text": "Should be considered for a poisoned or overdosed patient after risk-to-benefit assessment of the ingested substance and patient-specific factors\nIngested drug is adsorbed by charcoal AND one of the following:\nTime since ingestion is less than 1-2hr\nDrug has significant enterohepatic circulation\nDrug delays gastric emptying AND time since ingestion is <4hr\nDrug is a controlled release preparation AND time since ingestion is <12-18hr\nTHE KILLER CS\nCyanide\nColchicine\nCalcium channel blockers\nCyclic antidepressants\nCardioglycosides\nCyclopeptide mushrooms (\nAmanita phalloides\n)\nCocaine\nCicutoxin (water hemlock)\nSalicylates",
+      "subsections": {
+        "AACT_recommendations": {
+          "text": "Activated charcoal \"should not be administered routinely in the management of poisoned patients.\"\n[2]\nConsider if patient presents within one hour of an ingestion of a toxic amount of a substance known to be absorbed by charcoal\nAdministration of charcoal after an hour may continue to be beneficial\nThey emphasize that there is no definitive data that activated charcoal improves clinical outcome",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "AACT_recommendations": {
+      "text": "Activated charcoal \"should not be administered routinely in the management of poisoned patients.\"\n[2]\nConsider if patient presents within one hour of an ingestion of a toxic amount of a substance known to be absorbed by charcoal\nAdministration of charcoal after an hour may continue to be beneficial\nThey emphasize that there is no definitive data that activated charcoal improves clinical outcome",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Altered mental status\nIntestinal\nobstruction\nIncreased risk of aspiration\nIngestion of substances not absorbed by charcoal\nInstances where urgent endoscopy will be needed (eg. Ingestion of caustic material)",
+      "subsections": {
+        "Limitations": {
+          "text": "Does not work with:\nHeavy metals (\nIron\n,\nLead\n,\nArsenic\n,\nMercury\n, Zinc)\nInorganic ions (\nLithium\n, Potassium, Sodium, Fluoride and Iodine)\nHydrocarbons\n/essential oils\nToxic alcohols (\nEthylene Glycol\n,\nMethanol\n,\nIsopropanol\n)\nAcids/bases\nOrganophosphates",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "obstruction",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "Lead",
+          "url": "https://wikem.org/wiki/Lead_Toxicity"
+        },
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "Mercury",
+          "url": "https://wikem.org/wiki/Mercury"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Toxicity"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropyl_Alcohol_Toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        }
+      ]
+    },
+    "Limitations": {
+      "text": "Does not work with:\nHeavy metals (\nIron\n,\nLead\n,\nArsenic\n,\nMercury\n, Zinc)\nInorganic ions (\nLithium\n, Potassium, Sodium, Fluoride and Iodine)\nHydrocarbons\n/essential oils\nToxic alcohols (\nEthylene Glycol\n,\nMethanol\n,\nIsopropanol\n)\nAcids/bases\nOrganophosphates",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Iron",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "Lead",
+          "url": "https://wikem.org/wiki/Lead_Toxicity"
+        },
+        {
+          "text": "Arsenic",
+          "url": "https://wikem.org/wiki/Arsenic"
+        },
+        {
+          "text": "Mercury",
+          "url": "https://wikem.org/wiki/Mercury"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Hydrocarbons",
+          "url": "https://wikem.org/wiki/Hydrocarbons"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol_Toxicity"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropyl_Alcohol_Toxicity"
+        },
+        {
+          "text": "Organophosphates",
+          "url": "https://wikem.org/wiki/Organophosphates"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "Aspiration\nBowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aspiration",
+          "url": "https://wikem.org/wiki/Aspiration_Pneumonia_and_Pneumonitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_Bowel_Obstruction_(SBO)"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: not absorbed\nMetabolism: not absorbed\nExcretion: excreted whole in feces\nAdsorption begins within about 1 minute but may not achieve equilibrium for 10-25 minutes\nClinical efficacy inversely related to time elapsed after ingestion and depends on rate of adsorption of xenobiotic",
+      "subsections": {
+        "Mechanism_of_action": {
+          "text": "Large surface area of the charcoal binds toxins and prevents their absorption\nInterrupts enteroenteric/enterohepatic circulation of drugs\n[3]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_action": {
+      "text": "Large surface area of the charcoal binds toxins and prevents their absorption\nInterrupts enteroenteric/enterohepatic circulation of drugs\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Created by heating wood and other natural materials in an airless environment\n\"Activated\" by turning into fine powder, which ↑ surface area",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Gastric Lavage\nMultidose Activated Charcoal (MDAC)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Gastric Lavage",
+          "url": "https://wikem.org/wiki/Gastric_Lavage"
+        },
+        {
+          "text": "Multidose Activated Charcoal (MDAC)",
+          "url": "https://wikem.org/wiki/Multidose_Activated_Charcoal_(MDAC)"
+        }
+      ]
+    }
+  }
+}

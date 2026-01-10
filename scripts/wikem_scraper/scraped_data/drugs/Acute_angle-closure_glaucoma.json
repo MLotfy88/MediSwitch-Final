@@ -1,0 +1,554 @@
+{
+  "drug_name": "Acute_angle-closure_glaucoma",
+  "url": "https://wikem.org/wiki/Acute_angle-closure_glaucoma",
+  "scraped_at": "2026-01-10T07:46:48.718136",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Pathophysiology": {
+          "text": "Obstructed aqueous outflow tract → aqueous humor builds up → increased intraocular pressure (IOP) → optic nerve damage → vision loss\nIncreased posterior chamber pressure causes iris to bulge forward (iris bombé) → further obstruction of outflow tract  → further increase IOP\nAcute attack is usually precipitated by pupillary dilation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pathophysiology": {
+      "text": "Obstructed aqueous outflow tract → aqueous humor builds up → increased intraocular pressure (IOP) → optic nerve damage → vision loss\nIncreased posterior chamber pressure causes iris to bulge forward (iris bombé) → further obstruction of outflow tract  → further increase IOP\nAcute attack is usually precipitated by pupillary dilation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Abrupt onset of severe (usually\nunilateral) eye pain\nBlurred vision\nHalos around lights\nFrontal or supraorbital\nheadache\nNausea\n/\nvomiting\n/\nabdominal pain\nFixed, midposition pupil\nHazy cornea\nConjunctival injection most prominent at limbus (ciliary flush)\nRock-hard globe",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "unilateral) eye pain",
+          "url": "https://wikem.org/wiki/Red_Eye_(Unilateral)"
+        },
+        {
+          "text": "Blurred vision",
+          "url": "https://wikem.org/wiki/Blurred_vision"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Unilateral_red_eye": {
+          "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Unilateral_red_eye": {
+      "text": "Nontraumatic\nAcute angle-closure glaucoma\n^\nAnterior uveitis\nConjunctivitis\nCorneal erosion\nCorneal ulcer\n^\nEndophthalmitis\n^\nEpiscleritis\nHerpes zoster ophthalmicus\nInflamed\npinguecula\nInflamed\npterygium\nKeratoconjunctivitis\nKeratoconus\nNontraumatic\niritis\nScleritis\n^\nSubconjunctival hemorrhage\nOrbital trauma\nCaustic keratoconjunctivitis\n^^\nCorneal abrasion\n,\nCorneal laceration\nConjunctival hemorrhage\nConjunctival laceration\nGlobe rupture\n^\nHemorrhagic chemosis\nLens dislocation\nOcular foreign body\nPosterior vitreous detachment\nRetinal detachment\nRetrobulbar hemorrhage\nOcular compartment syndrome\nTraumatic hyphema\nTraumatic iritis\nTraumatic mydriasis\nTraumatic optic neuropathy\nVitreous detachment\nVitreous hemorrhage\nUltraviolet keratitis\n^Emergent diagnoses\n^^Critical diagnoses",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anterior uveitis",
+          "url": "https://wikem.org/wiki/Uveitis"
+        },
+        {
+          "text": "Conjunctivitis",
+          "url": "https://wikem.org/wiki/Conjunctivitis"
+        },
+        {
+          "text": "Corneal ulcer",
+          "url": "https://wikem.org/wiki/Corneal_ulcer"
+        },
+        {
+          "text": "Endophthalmitis",
+          "url": "https://wikem.org/wiki/Endophthalmitis"
+        },
+        {
+          "text": "Episcleritis",
+          "url": "https://wikem.org/wiki/Episcleritis"
+        },
+        {
+          "text": "Herpes zoster ophthalmicus",
+          "url": "https://wikem.org/wiki/Herpes_zoster_ophthalmicus"
+        },
+        {
+          "text": "pinguecula",
+          "url": "https://wikem.org/wiki/Pinguecula"
+        },
+        {
+          "text": "pterygium",
+          "url": "https://wikem.org/wiki/Pterygium"
+        },
+        {
+          "text": "Keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Keratoconjunctivitis"
+        },
+        {
+          "text": "iritis",
+          "url": "https://wikem.org/wiki/Iritis"
+        },
+        {
+          "text": "Scleritis",
+          "url": "https://wikem.org/wiki/Scleritis"
+        },
+        {
+          "text": "Subconjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Subconjunctival_hemorrhage"
+        },
+        {
+          "text": "Orbital trauma",
+          "url": "https://wikem.org/wiki/Orbital_trauma"
+        },
+        {
+          "text": "Caustic keratoconjunctivitis",
+          "url": "https://wikem.org/wiki/Caustic_keratoconjunctivitis"
+        },
+        {
+          "text": "Corneal abrasion",
+          "url": "https://wikem.org/wiki/Corneal_abrasion"
+        },
+        {
+          "text": "Corneal laceration",
+          "url": "https://wikem.org/wiki/Corneal_laceration"
+        },
+        {
+          "text": "Conjunctival hemorrhage",
+          "url": "https://wikem.org/wiki/Conjunctival_hemorrhage"
+        },
+        {
+          "text": "Conjunctival laceration",
+          "url": "https://wikem.org/wiki/Conjunctival_laceration"
+        },
+        {
+          "text": "Globe rupture",
+          "url": "https://wikem.org/wiki/Globe_rupture"
+        },
+        {
+          "text": "Hemorrhagic chemosis",
+          "url": "https://wikem.org/wiki/Hemorrhagic_chemosis"
+        },
+        {
+          "text": "Lens dislocation",
+          "url": "https://wikem.org/wiki/Lens_dislocation"
+        },
+        {
+          "text": "Ocular foreign body",
+          "url": "https://wikem.org/wiki/Ocular_foreign_body"
+        },
+        {
+          "text": "Posterior vitreous detachment",
+          "url": "https://wikem.org/wiki/Posterior_vitreous_detachment"
+        },
+        {
+          "text": "Retinal detachment",
+          "url": "https://wikem.org/wiki/Retinal_detachment"
+        },
+        {
+          "text": "Retrobulbar hemorrhage",
+          "url": "https://wikem.org/wiki/Retrobulbar_hemorrhage"
+        },
+        {
+          "text": "Ocular compartment syndrome",
+          "url": "https://wikem.org/wiki/Ocular_compartment_syndrome"
+        },
+        {
+          "text": "Traumatic hyphema",
+          "url": "https://wikem.org/wiki/Traumatic_hyphema"
+        },
+        {
+          "text": "Traumatic iritis",
+          "url": "https://wikem.org/wiki/Traumatic_iritis"
+        },
+        {
+          "text": "Traumatic mydriasis",
+          "url": "https://wikem.org/wiki/Traumatic_mydriasis"
+        },
+        {
+          "text": "Traumatic optic neuropathy",
+          "url": "https://wikem.org/wiki/Traumatic_optic_neuropathy"
+        },
+        {
+          "text": "Vitreous detachment",
+          "url": "https://wikem.org/wiki/Vitreous_detachment"
+        },
+        {
+          "text": "Vitreous hemorrhage",
+          "url": "https://wikem.org/wiki/Vitreous_hemorrhage"
+        },
+        {
+          "text": "Ultraviolet keratitis",
+          "url": "https://wikem.org/wiki/Ultraviolet_keratitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "IOP\n>20 mm Hg\nSlit lamp exam\nshows shallow anterior chamber and\ncell and flare",
+      "subsections": {
+        "Definition:_3_signs_+_2_symptoms": {
+          "text": "At least 3 of these signs:\nIOP >21 mm Hg\nConjunctival injection\nCorneal epithelial edema\nMid-dilated nonreactive pupil\nShallow anterior chamber with occlusion\nAt least 2 of these symptoms:\nOcular pain\nNausea/vomiting\nHistory of intermittent blurring of vision with halos",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IOP",
+          "url": "https://wikem.org/wiki/Intraocular_pressure"
+        },
+        {
+          "text": "Slit lamp exam",
+          "url": "https://wikem.org/wiki/Slit_lamp_exam"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Goal of medical therapy is to 'break the attack' in order to prepare the patient for laser iridotomy.\n[1]\nEmergent ophthalmology consult\nRecheck IOP at least hourly\nElevate head of bed to decrease IOP\nPlace patient in a well lit room (prevent pupillary dilation)\nStart with a topical beta-blocker, α-agonist and PO\nacetazolamide\nif no contraindications",
+      "subsections": {
+        "Decrease_production_of_aqueous_humor": {
+          "text": "Timolol\n0.5%\n:\nBlocks beta receptors on ciliary epithelium\n1 drop in affected eye, repeat in 1 hour if needed.\nAcetazolamide\n:\nBlocks productions of HCO3-, which draws Na+ into the eye; water follows by osmosis to form aqueous humour\n500mg IV or PO (PO preferred unless patient is nauseated)\nCan substitute methazolamide 100mg if patient has renal failure.\nContraindicated in sickle cell patients\nDorzolamide (Trusopt) 2%:\ntopical carbonic anhydrase inhibitor\n1 drop in affected eye",
+          "tables": []
+        },
+        "α2_agonist": {
+          "text": "Brimonidine ophthalmic (alphagan) 0.2%\nOR\nApraclonidine ophthalmic 1%\n:\nα agonist will increase trabecular outflow\n1 drop in affected eye",
+          "tables": []
+        },
+        "Facilitate_outflow_of_aqueous_humor": {
+          "text": "Pilocarpine 1%–2%:\nParasympathomimetic acts on muscarinic receptors found on iris sphincter muscle → causes muscle to contract → miosis → pulls iris away from trabecular network\n1 drop in affected eye every 15 minutes x 2-4 doses, then every 4 to 6 hours\nLikely does not work until IOP drops below 40-50 mmHg, but still give immediately upon diagnosis\nHigh-concentration pilocarpine (4%) should NOT be given because it can cause forward displacement of the iris-lens diaphragm.\nNote:\nmay make fundoscopic evaluation more difficult for ophtho consultant due to miosis",
+          "tables": []
+        },
+        "Reduce_volume_of_aqueous_humor": {
+          "text": "These therapies are usually reserved for failure of other treatments. Hyper osmotic agents such as mannitol are effective but are contraindicated in renal failure and can cause hypotension in the volume depleted patient.\nMannitol\n: 1-2 g/kg IV given over 45 minutes to minimize cerebral effecfts (most common)\n50% glycerin (Osmoglyn)\nOR\n45% isosorbide (Ismotic)\n: 1.5 mL/kg PO (rarely used)",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Topical steroids not indicated during acute attack, but may help inflammation after IOP under control.\nPrednisolone\nacetate 1% 1 gtt every 15 to 30 minutes four times, then q1h\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Decrease_production_of_aqueous_humor": {
+      "text": "Timolol\n0.5%\n:\nBlocks beta receptors on ciliary epithelium\n1 drop in affected eye, repeat in 1 hour if needed.\nAcetazolamide\n:\nBlocks productions of HCO3-, which draws Na+ into the eye; water follows by osmosis to form aqueous humour\n500mg IV or PO (PO preferred unless patient is nauseated)\nCan substitute methazolamide 100mg if patient has renal failure.\nContraindicated in sickle cell patients\nDorzolamide (Trusopt) 2%:\ntopical carbonic anhydrase inhibitor\n1 drop in affected eye",
+      "subsections": {
+        "α2_agonist": {
+          "text": "Brimonidine ophthalmic (alphagan) 0.2%\nOR\nApraclonidine ophthalmic 1%\n:\nα agonist will increase trabecular outflow\n1 drop in affected eye",
+          "tables": []
+        },
+        "Facilitate_outflow_of_aqueous_humor": {
+          "text": "Pilocarpine 1%–2%:\nParasympathomimetic acts on muscarinic receptors found on iris sphincter muscle → causes muscle to contract → miosis → pulls iris away from trabecular network\n1 drop in affected eye every 15 minutes x 2-4 doses, then every 4 to 6 hours\nLikely does not work until IOP drops below 40-50 mmHg, but still give immediately upon diagnosis\nHigh-concentration pilocarpine (4%) should NOT be given because it can cause forward displacement of the iris-lens diaphragm.\nNote:\nmay make fundoscopic evaluation more difficult for ophtho consultant due to miosis",
+          "tables": []
+        },
+        "Reduce_volume_of_aqueous_humor": {
+          "text": "These therapies are usually reserved for failure of other treatments. Hyper osmotic agents such as mannitol are effective but are contraindicated in renal failure and can cause hypotension in the volume depleted patient.\nMannitol\n: 1-2 g/kg IV given over 45 minutes to minimize cerebral effecfts (most common)\n50% glycerin (Osmoglyn)\nOR\n45% isosorbide (Ismotic)\n: 1.5 mL/kg PO (rarely used)",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Topical steroids not indicated during acute attack, but may help inflammation after IOP under control.\nPrednisolone\nacetate 1% 1 gtt every 15 to 30 minutes four times, then q1h\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Timolol",
+          "url": "https://wikem.org/wiki/Timolol"
+        },
+        {
+          "text": "Acetazolamide",
+          "url": "https://wikem.org/wiki/Acetazolamide"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "α2_agonist": {
+      "text": "Brimonidine ophthalmic (alphagan) 0.2%\nOR\nApraclonidine ophthalmic 1%\n:\nα agonist will increase trabecular outflow\n1 drop in affected eye",
+      "subsections": {
+        "Facilitate_outflow_of_aqueous_humor": {
+          "text": "Pilocarpine 1%–2%:\nParasympathomimetic acts on muscarinic receptors found on iris sphincter muscle → causes muscle to contract → miosis → pulls iris away from trabecular network\n1 drop in affected eye every 15 minutes x 2-4 doses, then every 4 to 6 hours\nLikely does not work until IOP drops below 40-50 mmHg, but still give immediately upon diagnosis\nHigh-concentration pilocarpine (4%) should NOT be given because it can cause forward displacement of the iris-lens diaphragm.\nNote:\nmay make fundoscopic evaluation more difficult for ophtho consultant due to miosis",
+          "tables": []
+        },
+        "Reduce_volume_of_aqueous_humor": {
+          "text": "These therapies are usually reserved for failure of other treatments. Hyper osmotic agents such as mannitol are effective but are contraindicated in renal failure and can cause hypotension in the volume depleted patient.\nMannitol\n: 1-2 g/kg IV given over 45 minutes to minimize cerebral effecfts (most common)\n50% glycerin (Osmoglyn)\nOR\n45% isosorbide (Ismotic)\n: 1.5 mL/kg PO (rarely used)",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Topical steroids not indicated during acute attack, but may help inflammation after IOP under control.\nPrednisolone\nacetate 1% 1 gtt every 15 to 30 minutes four times, then q1h\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Facilitate_outflow_of_aqueous_humor": {
+      "text": "Pilocarpine 1%–2%:\nParasympathomimetic acts on muscarinic receptors found on iris sphincter muscle → causes muscle to contract → miosis → pulls iris away from trabecular network\n1 drop in affected eye every 15 minutes x 2-4 doses, then every 4 to 6 hours\nLikely does not work until IOP drops below 40-50 mmHg, but still give immediately upon diagnosis\nHigh-concentration pilocarpine (4%) should NOT be given because it can cause forward displacement of the iris-lens diaphragm.\nNote:\nmay make fundoscopic evaluation more difficult for ophtho consultant due to miosis",
+      "subsections": {
+        "Reduce_volume_of_aqueous_humor": {
+          "text": "These therapies are usually reserved for failure of other treatments. Hyper osmotic agents such as mannitol are effective but are contraindicated in renal failure and can cause hypotension in the volume depleted patient.\nMannitol\n: 1-2 g/kg IV given over 45 minutes to minimize cerebral effecfts (most common)\n50% glycerin (Osmoglyn)\nOR\n45% isosorbide (Ismotic)\n: 1.5 mL/kg PO (rarely used)",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Topical steroids not indicated during acute attack, but may help inflammation after IOP under control.\nPrednisolone\nacetate 1% 1 gtt every 15 to 30 minutes four times, then q1h\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Reduce_volume_of_aqueous_humor": {
+      "text": "These therapies are usually reserved for failure of other treatments. Hyper osmotic agents such as mannitol are effective but are contraindicated in renal failure and can cause hypotension in the volume depleted patient.\nMannitol\n: 1-2 g/kg IV given over 45 minutes to minimize cerebral effecfts (most common)\n50% glycerin (Osmoglyn)\nOR\n45% isosorbide (Ismotic)\n: 1.5 mL/kg PO (rarely used)",
+      "subsections": {
+        "Steroids": {
+          "text": "Topical steroids not indicated during acute attack, but may help inflammation after IOP under control.\nPrednisolone\nacetate 1% 1 gtt every 15 to 30 minutes four times, then q1h\n[2]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Topical steroids not indicated during acute attack, but may help inflammation after IOP under control.\nPrednisolone\nacetate 1% 1 gtt every 15 to 30 minutes four times, then q1h\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for definitive therapy with iridotomy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Eye Algorithm (Main)\nTono-Pen use\nOpen-angle glaucoma",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Eye Algorithm (Main)",
+          "url": "https://wikem.org/wiki/Eye_Algorithm_(Main)"
+        },
+        {
+          "text": "Tono-Pen use",
+          "url": "https://wikem.org/wiki/Tono-Pen_use"
+        },
+        {
+          "text": "Open-angle glaucoma",
+          "url": "https://wikem.org/wiki/Open-angle_glaucoma"
+        }
+      ]
+    }
+  }
+}

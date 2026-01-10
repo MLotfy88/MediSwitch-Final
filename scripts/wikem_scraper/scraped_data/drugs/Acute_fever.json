@@ -1,0 +1,658 @@
+{
+  "drug_name": "Acute_fever",
+  "url": "https://wikem.org/wiki/Acute_fever",
+  "scraped_at": "2026-01-10T07:46:55.879373",
+  "sections": {
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Definition": {
+          "text": "Defined as\ntemperature\n≥38°C (100.4°F).\nPeripheral temperature is not clinically accurate and central measurements are the preferred means of determining fever.\nRectal or oral\nRectal temperatures should not be performed in neutropenic patients\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "temperature",
+          "url": "https://wikem.org/wiki/Celsius_Fahrenheit_Temperature_Conversion"
+        }
+      ]
+    },
+    "Definition": {
+      "text": "Defined as\ntemperature\n≥38°C (100.4°F).\nPeripheral temperature is not clinically accurate and central measurements are the preferred means of determining fever.\nRectal or oral\nRectal temperatures should not be performed in neutropenic patients\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "temperature",
+          "url": "https://wikem.org/wiki/Celsius_Fahrenheit_Temperature_Conversion"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Fever directly causes an increase in:\n[2]\nHeart rate: 10 beats per minute per degree centigrade\nRespiratory rate",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        },
+        "DDx_by_Heart_Rate": {
+          "text": "Every 0.55°C increase in temperature should → increase HR by ~10BPM\nIf patient has relative bradycardia, consider:\nConcomitant medication\nDrug fever\nTyphoid Fever\nBrucellosis\nLeptospirosis\nIf patient has frank bradycardia, consider:\nRheumatic Fever\nLyme Disease\nViral Myocarditis\nEndocarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Typhoid Fever",
+          "url": "https://wikem.org/wiki/Typhoid_Fever"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Rheumatic Fever",
+          "url": "https://wikem.org/wiki/Rheumatic_Fever"
+        },
+        {
+          "text": "Lyme Disease",
+          "url": "https://wikem.org/wiki/Lyme_Disease"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Fever": {
+      "text": "",
+      "subsections": {
+        "Infectious": {
+          "text": "Critical\nSepsis\nPNA\nwith respiratory failure\nPeritonitis\nMeningitis\nCavernous Sinus Thrombosis\nNecrotizing Fasciitis\nEmergent\nPNA\nPeritonsillar Abscess\nRetropharyngeal Abscess\nEpiglottitis\nEndocarditis\nPericarditis\nAppendicitis\nCholecystitis\nDiverticulitis\nIntra-abdominal abscess\nPyelonephritis\nTubo-ovarian abscess\nEncephalitis\nBrain abscess\nCellulitis\nAbscess\nMalaria\nNon-emergent\nViral syndrome\nOtitis Media\nSinusitis\nPharyngitis\nInfluenza\nTB\nUTI\nEpididymitis\nProstatitis",
+          "tables": []
+        },
+        "Non-infectious": {
+          "text": "Critical\nAMI\nPE\nIntracranial Hemorrhage\nCVA\nNMS\nThyroid Storm\nAcute Adrenal Insufficiency\nTransfusion Rx\nPulmonary Edema\nHeat Stroke\nMalignant hyperthermia\nEmergent\nCHF\nDehydration\nRecent\nSeizure\nSickle Cell Dz\nTransplant rejection\nPancreatitis\nDVT\nSerotonin Syndrome\nNon-emergent\nDrug fever\n(except as in\nNMS\nand\nSerotonin Syndrome\n)\nMalignancy\nGout\nSarcoidosis\nCrohn's Disease\nPostmyocardiotomy syndrome\nSweet's syndrome",
+          "tables": []
+        },
+        "DDx_by_Heart_Rate": {
+          "text": "Every 0.55°C increase in temperature should → increase HR by ~10BPM\nIf patient has relative bradycardia, consider:\nConcomitant medication\nDrug fever\nTyphoid Fever\nBrucellosis\nLeptospirosis\nIf patient has frank bradycardia, consider:\nRheumatic Fever\nLyme Disease\nViral Myocarditis\nEndocarditis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Cavernous Sinus Thrombosis",
+          "url": "https://wikem.org/wiki/Cavernous_Sinus_Thrombosis"
+        },
+        {
+          "text": "Necrotizing Fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_Fasciitis"
+        },
+        {
+          "text": "PNA",
+          "url": "https://wikem.org/wiki/PNA"
+        },
+        {
+          "text": "Peritonsillar Abscess",
+          "url": "https://wikem.org/wiki/Peritonsillar_Abscess"
+        },
+        {
+          "text": "Retropharyngeal Abscess",
+          "url": "https://wikem.org/wiki/Retropharyngeal_Abscess"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Abscess",
+          "url": "https://wikem.org/wiki/Abscess"
+        },
+        {
+          "text": "Malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "Viral syndrome",
+          "url": "https://wikem.org/wiki/Viral_syndrome"
+        },
+        {
+          "text": "Otitis Media",
+          "url": "https://wikem.org/wiki/Otitis_Media"
+        },
+        {
+          "text": "Sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Pharyngitis",
+          "url": "https://wikem.org/wiki/Pharyngitis"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "AMI",
+          "url": "https://wikem.org/wiki/AMI"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Intracranial Hemorrhage",
+          "url": "https://wikem.org/wiki/Intracranial_Hemorrhage"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Thyroid Storm",
+          "url": "https://wikem.org/wiki/Thyroid_Storm"
+        },
+        {
+          "text": "Acute Adrenal Insufficiency",
+          "url": "https://wikem.org/wiki/Acute_Adrenal_Insufficiency"
+        },
+        {
+          "text": "Transfusion Rx",
+          "url": "https://wikem.org/wiki/Transfusion_Rx"
+        },
+        {
+          "text": "Pulmonary Edema",
+          "url": "https://wikem.org/wiki/Pulmonary_Edema"
+        },
+        {
+          "text": "Heat Stroke",
+          "url": "https://wikem.org/wiki/Heat_Stroke"
+        },
+        {
+          "text": "Malignant hyperthermia",
+          "url": "https://wikem.org/wiki/Malignant_hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Dehydration",
+          "url": "https://wikem.org/wiki/Dehydration"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Sickle Cell Dz",
+          "url": "https://wikem.org/wiki/Sickle_Cell_Dz"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "DVT",
+          "url": "https://wikem.org/wiki/DVT"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Drug fever",
+          "url": "https://wikem.org/wiki/Drug_fever"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Gout",
+          "url": "https://wikem.org/wiki/Gout"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Sweet's syndrome",
+          "url": "https://wikem.org/wiki/Sweet%27s_syndrome"
+        },
+        {
+          "text": "Typhoid Fever",
+          "url": "https://wikem.org/wiki/Typhoid_Fever"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Rheumatic Fever",
+          "url": "https://wikem.org/wiki/Rheumatic_Fever"
+        },
+        {
+          "text": "Lyme Disease",
+          "url": "https://wikem.org/wiki/Lyme_Disease"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "DDx_by_Heart_Rate": {
+      "text": "Every 0.55°C increase in temperature should → increase HR by ~10BPM\nIf patient has relative bradycardia, consider:\nConcomitant medication\nDrug fever\nTyphoid Fever\nBrucellosis\nLeptospirosis\nIf patient has frank bradycardia, consider:\nRheumatic Fever\nLyme Disease\nViral Myocarditis\nEndocarditis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Typhoid Fever",
+          "url": "https://wikem.org/wiki/Typhoid_Fever"
+        },
+        {
+          "text": "Leptospirosis",
+          "url": "https://wikem.org/wiki/Leptospirosis"
+        },
+        {
+          "text": "Rheumatic Fever",
+          "url": "https://wikem.org/wiki/Rheumatic_Fever"
+        },
+        {
+          "text": "Lyme Disease",
+          "url": "https://wikem.org/wiki/Lyme_Disease"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See individual notes for specific workup:\nFever and Rash\nFever of Unknown Origin\nNeutropenic Fever\nAIDS Fever of Unknown Origin\nHeat Emergencies\nFever in Traveler",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fever and Rash",
+          "url": "https://wikem.org/wiki/Fever_and_Rash"
+        },
+        {
+          "text": "Fever of Unknown Origin",
+          "url": "https://wikem.org/wiki/Fever_of_Unknown_Origin"
+        },
+        {
+          "text": "Neutropenic Fever",
+          "url": "https://wikem.org/wiki/Neutropenic_Fever"
+        },
+        {
+          "text": "AIDS Fever of Unknown Origin",
+          "url": "https://wikem.org/wiki/AIDS_Fever_of_Unknown_Origin"
+        },
+        {
+          "text": "Heat Emergencies",
+          "url": "https://wikem.org/wiki/Heat_Emergencies"
+        },
+        {
+          "text": "Fever in Traveler",
+          "url": "https://wikem.org/wiki/Fever_in_Traveler"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consider\ntylenol\nor\nibuprophen\nfor fever relief\nTreat the underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "tylenol",
+          "url": "https://wikem.org/wiki/Tylenol"
+        },
+        {
+          "text": "ibuprophen",
+          "url": "https://wikem.org/wiki/Ibuprophen"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on underlying etiology",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pediatric fever of uncertain source\nFever and rash\nFever of unknown origin\nNeutropenic fever\nAIDS fever of unknown origin\nEnvironmental heat diagnoses\nFever in traveler",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric fever of uncertain source",
+          "url": "https://wikem.org/wiki/Pediatric_fever_of_uncertain_source"
+        },
+        {
+          "text": "Fever and rash",
+          "url": "https://wikem.org/wiki/Fever_and_rash"
+        },
+        {
+          "text": "Fever of unknown origin",
+          "url": "https://wikem.org/wiki/Fever_of_unknown_origin"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "AIDS fever of unknown origin",
+          "url": "https://wikem.org/wiki/AIDS_fever_of_unknown_origin"
+        },
+        {
+          "text": "Environmental heat diagnoses",
+          "url": "https://wikem.org/wiki/Environmental_heat_diagnoses"
+        },
+        {
+          "text": "Fever in traveler",
+          "url": "https://wikem.org/wiki/Fever_in_traveler"
+        }
+      ]
+    }
+  }
+}

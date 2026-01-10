@@ -1,0 +1,966 @@
+{
+  "drug_name": "Acid-base_disorders",
+  "url": "https://wikem.org/wiki/Acid-base_disorders",
+  "scraped_at": "2026-01-10T07:46:39.204244",
+  "sections": {
+    "Background": {
+      "text": "Determiners of acid-base status are:\nCO2\nWeak acids (primarily albumin)\nIf albumin goes up more acidotic (since albumin is an acid)\nStrong ions\nPrimarily Na-Cl\nNormal difference is ~38 (140-102)\nIf difference shrinks (i.e. more Cl) more acidotic\nPrinciple of electrical neutrality requires more H+ to offset the additional Cl\nIf difference increases (i.e. more Na) more alkalotic\nPrinciple of electrical neutrality requires more bicarb to offset the additional Na",
+      "subsections": {
+        "Strong_ion_gap_(SIG)": {
+          "text": "Equivalent to anion gap\nStrong ions include Na, Cl, lactate, ketoacid, toxic alcohols",
+          "tables": []
+        },
+        "Base_Deficit_(BD)": {
+          "text": "Eliminates the respiratory component of acidosis so only left with the metabolic component\nIs equivalent to the amount of base (or acid) you would have to add to get to pH 7.4\nBase excess of -6 = base deficit of 6\nNormal = -2 to +2\nIf base deficit is normal but patient is acidotic must all be from CO2\nIf base deficit is abnormal must explain by SID, weak acids, or unmeasured strong ions\nIf no BD is available 24.2 – serum bicarb can be used as okay substitute",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acid-base_disorders": {
+          "text": "Metabolic acidosis\nMetabolic alkalosis\nRespiratory acidosis\nRespiratory alkalosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "Respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        }
+      ]
+    },
+    "Acid-base_disorders": {
+      "text": "Metabolic acidosis\nMetabolic alkalosis\nRespiratory acidosis\nRespiratory alkalosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "Respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis is based on clinical history as well as labs:\nVBG\n/\nABG\nLactate\nAlbumin\nAcetone\nChemistry\nSerum Osmolarity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VBG",
+          "url": "https://wikem.org/wiki/VBG"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        },
+        {
+          "text": "Lactate",
+          "url": "https://wikem.org/wiki/Lactate"
+        }
+      ]
+    },
+    "Stuart_Step_Wise_Approach": {
+      "text": "Based on a stepwise approach taught about by Dr. Weingart based on the Stewart's Strong Ion Difference\n[1]\n[2]",
+      "subsections": {
+        "Determine_pH": {
+          "text": "If pH >7.45 then patient's primary problem is\nalkalosis\nIf pH <7.35 the patient's primary problem is\nacidosis\nThe body never over-corrects any acid-base disorder!",
+          "tables": []
+        },
+        "Evaluate_blood_gas": {
+          "text": "If pCO2 >45 then\nrespiratory acidosis\nIf pCO2 <35\nrespiratory alkalosis",
+          "tables": []
+        },
+        "Calculate_Strong_Ion_Difference_(SID)": {
+          "text": "SID = Na - Cl\nLow SID is <38 and indicates a strong ion acidosis = hyperchloremic acidosis = non-gap acidosis and causes include\nFluid administration\nAny fluid that has SID of <24 can cause acidosis (e.g.\nNS\n, 1/2NS, D5W)\nRenal tubular acidosis\nCalculate Urine Anion Gap: (Urine Na + K – Cl); if negative, not RTA\nType I: Urine pH <5.55\nType II: Urine pH >5.55\nType IV:\nHyperkalemic\n; from aldosterone deficiency, diabetes\nDiarrhea\nHigh SID is >38 and indicates a metabolic alkalosis and causes include:\nNasogastric suction\nDiuretics\nHyperaldosteronism\nVolume depletion",
+          "tables": []
+        },
+        "Evaluate_the_Lactate": {
+          "text": "If >2 then the patient has hyperlactatemia\nIf >4 and the patient has an infection they should be considered\nSevere Sepsis\nAlways consider the differential for a\nLactic Acidosis (Lactate)\nCalculate the strong ion gap (SIG) to explain the base deficit\nSIG = (Base Deficit) + (SID – 38) + 2.5 (4.2 ‐ Albumin (g/dL)) – lactate\nIf SIG >2 this is a SIG metabolic acidosis = anion gap acidosis and the causes include:\nUremia\nDKA\nAKA\nASA\nEthylene Glycol\n, methanol, propylene glycol\nIron Toxicity\nINH toxicity\nParaldehyde\nLactic Acidosis\n(from short gut/blind loop - will not show on lactate assay)\nIf SIG is negative (very rare) the differential includes:\nHypercalcemia\nHypermagnesemia\nHyperkalemia\nImmunoglobulins\nBromide\nNitrates\nLithium",
+          "tables": []
+        },
+        "Calculate_the_osmolar_gap": {
+          "text": "Indicated if have elevated SIG without explanation\nOsm Gap = Measured Osmal – (2 Na + Gluc/18 + BUN/2.8 + ETOH/3.7)\nPositive if osm gap >10 and differential includes:\nToxic alcohols\n(if Osm gap >50)\nMethanol\nEthylene glycol\nMannitol\nIsopropanol\n(isopropyl alcohol)\nPropylene glycol\nLithium",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "Fluid administration",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Renal tubular acidosis",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Hyperkalemic",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Volume depletion",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Severe Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Lactic Acidosis (Lactate)",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis_(Lactate)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "AKA",
+          "url": "https://wikem.org/wiki/Alcohol_ketoacidosis"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Iron Toxicity",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropanol_Toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        }
+      ]
+    },
+    "Determine_pH": {
+      "text": "If pH >7.45 then patient's primary problem is\nalkalosis\nIf pH <7.35 the patient's primary problem is\nacidosis\nThe body never over-corrects any acid-base disorder!",
+      "subsections": {
+        "Evaluate_blood_gas": {
+          "text": "If pCO2 >45 then\nrespiratory acidosis\nIf pCO2 <35\nrespiratory alkalosis",
+          "tables": []
+        },
+        "Calculate_Strong_Ion_Difference_(SID)": {
+          "text": "SID = Na - Cl\nLow SID is <38 and indicates a strong ion acidosis = hyperchloremic acidosis = non-gap acidosis and causes include\nFluid administration\nAny fluid that has SID of <24 can cause acidosis (e.g.\nNS\n, 1/2NS, D5W)\nRenal tubular acidosis\nCalculate Urine Anion Gap: (Urine Na + K – Cl); if negative, not RTA\nType I: Urine pH <5.55\nType II: Urine pH >5.55\nType IV:\nHyperkalemic\n; from aldosterone deficiency, diabetes\nDiarrhea\nHigh SID is >38 and indicates a metabolic alkalosis and causes include:\nNasogastric suction\nDiuretics\nHyperaldosteronism\nVolume depletion",
+          "tables": []
+        },
+        "Evaluate_the_Lactate": {
+          "text": "If >2 then the patient has hyperlactatemia\nIf >4 and the patient has an infection they should be considered\nSevere Sepsis\nAlways consider the differential for a\nLactic Acidosis (Lactate)\nCalculate the strong ion gap (SIG) to explain the base deficit\nSIG = (Base Deficit) + (SID – 38) + 2.5 (4.2 ‐ Albumin (g/dL)) – lactate\nIf SIG >2 this is a SIG metabolic acidosis = anion gap acidosis and the causes include:\nUremia\nDKA\nAKA\nASA\nEthylene Glycol\n, methanol, propylene glycol\nIron Toxicity\nINH toxicity\nParaldehyde\nLactic Acidosis\n(from short gut/blind loop - will not show on lactate assay)\nIf SIG is negative (very rare) the differential includes:\nHypercalcemia\nHypermagnesemia\nHyperkalemia\nImmunoglobulins\nBromide\nNitrates\nLithium",
+          "tables": []
+        },
+        "Calculate_the_osmolar_gap": {
+          "text": "Indicated if have elevated SIG without explanation\nOsm Gap = Measured Osmal – (2 Na + Gluc/18 + BUN/2.8 + ETOH/3.7)\nPositive if osm gap >10 and differential includes:\nToxic alcohols\n(if Osm gap >50)\nMethanol\nEthylene glycol\nMannitol\nIsopropanol\n(isopropyl alcohol)\nPropylene glycol\nLithium",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "alkalosis",
+          "url": "https://wikem.org/wiki/Alkalosis"
+        },
+        {
+          "text": "acidosis",
+          "url": "https://wikem.org/wiki/Acidosis"
+        },
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "Fluid administration",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Renal tubular acidosis",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Hyperkalemic",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Volume depletion",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Severe Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Lactic Acidosis (Lactate)",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis_(Lactate)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "AKA",
+          "url": "https://wikem.org/wiki/Alcohol_ketoacidosis"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Iron Toxicity",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropanol_Toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        }
+      ]
+    },
+    "Evaluate_blood_gas": {
+      "text": "If pCO2 >45 then\nrespiratory acidosis\nIf pCO2 <35\nrespiratory alkalosis",
+      "subsections": {
+        "Calculate_Strong_Ion_Difference_(SID)": {
+          "text": "SID = Na - Cl\nLow SID is <38 and indicates a strong ion acidosis = hyperchloremic acidosis = non-gap acidosis and causes include\nFluid administration\nAny fluid that has SID of <24 can cause acidosis (e.g.\nNS\n, 1/2NS, D5W)\nRenal tubular acidosis\nCalculate Urine Anion Gap: (Urine Na + K – Cl); if negative, not RTA\nType I: Urine pH <5.55\nType II: Urine pH >5.55\nType IV:\nHyperkalemic\n; from aldosterone deficiency, diabetes\nDiarrhea\nHigh SID is >38 and indicates a metabolic alkalosis and causes include:\nNasogastric suction\nDiuretics\nHyperaldosteronism\nVolume depletion",
+          "tables": []
+        },
+        "Evaluate_the_Lactate": {
+          "text": "If >2 then the patient has hyperlactatemia\nIf >4 and the patient has an infection they should be considered\nSevere Sepsis\nAlways consider the differential for a\nLactic Acidosis (Lactate)\nCalculate the strong ion gap (SIG) to explain the base deficit\nSIG = (Base Deficit) + (SID – 38) + 2.5 (4.2 ‐ Albumin (g/dL)) – lactate\nIf SIG >2 this is a SIG metabolic acidosis = anion gap acidosis and the causes include:\nUremia\nDKA\nAKA\nASA\nEthylene Glycol\n, methanol, propylene glycol\nIron Toxicity\nINH toxicity\nParaldehyde\nLactic Acidosis\n(from short gut/blind loop - will not show on lactate assay)\nIf SIG is negative (very rare) the differential includes:\nHypercalcemia\nHypermagnesemia\nHyperkalemia\nImmunoglobulins\nBromide\nNitrates\nLithium",
+          "tables": []
+        },
+        "Calculate_the_osmolar_gap": {
+          "text": "Indicated if have elevated SIG without explanation\nOsm Gap = Measured Osmal – (2 Na + Gluc/18 + BUN/2.8 + ETOH/3.7)\nPositive if osm gap >10 and differential includes:\nToxic alcohols\n(if Osm gap >50)\nMethanol\nEthylene glycol\nMannitol\nIsopropanol\n(isopropyl alcohol)\nPropylene glycol\nLithium",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        },
+        {
+          "text": "Fluid administration",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "NS",
+          "url": "https://wikem.org/wiki/NS"
+        },
+        {
+          "text": "Renal tubular acidosis",
+          "url": "https://wikem.org/wiki/Renal_tubular_acidosis"
+        },
+        {
+          "text": "Hyperkalemic",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "Volume depletion",
+          "url": "https://wikem.org/wiki/Hypovolemia"
+        },
+        {
+          "text": "Severe Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Lactic Acidosis (Lactate)",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis_(Lactate)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "AKA",
+          "url": "https://wikem.org/wiki/Alcohol_ketoacidosis"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Iron Toxicity",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropanol_Toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        }
+      ]
+    },
+    "Evaluate_the_Lactate": {
+      "text": "If >2 then the patient has hyperlactatemia\nIf >4 and the patient has an infection they should be considered\nSevere Sepsis\nAlways consider the differential for a\nLactic Acidosis (Lactate)\nCalculate the strong ion gap (SIG) to explain the base deficit\nSIG = (Base Deficit) + (SID – 38) + 2.5 (4.2 ‐ Albumin (g/dL)) – lactate\nIf SIG >2 this is a SIG metabolic acidosis = anion gap acidosis and the causes include:\nUremia\nDKA\nAKA\nASA\nEthylene Glycol\n, methanol, propylene glycol\nIron Toxicity\nINH toxicity\nParaldehyde\nLactic Acidosis\n(from short gut/blind loop - will not show on lactate assay)\nIf SIG is negative (very rare) the differential includes:\nHypercalcemia\nHypermagnesemia\nHyperkalemia\nImmunoglobulins\nBromide\nNitrates\nLithium",
+      "subsections": {
+        "Calculate_the_osmolar_gap": {
+          "text": "Indicated if have elevated SIG without explanation\nOsm Gap = Measured Osmal – (2 Na + Gluc/18 + BUN/2.8 + ETOH/3.7)\nPositive if osm gap >10 and differential includes:\nToxic alcohols\n(if Osm gap >50)\nMethanol\nEthylene glycol\nMannitol\nIsopropanol\n(isopropyl alcohol)\nPropylene glycol\nLithium",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Severe Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Lactic Acidosis (Lactate)",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis_(Lactate)"
+        },
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        },
+        {
+          "text": "AKA",
+          "url": "https://wikem.org/wiki/Alcohol_ketoacidosis"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        },
+        {
+          "text": "Ethylene Glycol",
+          "url": "https://wikem.org/wiki/Ethylene_Glycol_Toxicity"
+        },
+        {
+          "text": "Iron Toxicity",
+          "url": "https://wikem.org/wiki/Iron_Toxicity"
+        },
+        {
+          "text": "INH toxicity",
+          "url": "https://wikem.org/wiki/INH_toxicity"
+        },
+        {
+          "text": "Lactic Acidosis",
+          "url": "https://wikem.org/wiki/Lactic_Acidosis"
+        },
+        {
+          "text": "Hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hypermagnesemia",
+          "url": "https://wikem.org/wiki/Hypermagnesemia"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropanol_Toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        }
+      ]
+    },
+    "Calculate_the_osmolar_gap": {
+      "text": "Indicated if have elevated SIG without explanation\nOsm Gap = Measured Osmal – (2 Na + Gluc/18 + BUN/2.8 + ETOH/3.7)\nPositive if osm gap >10 and differential includes:\nToxic alcohols\n(if Osm gap >50)\nMethanol\nEthylene glycol\nMannitol\nIsopropanol\n(isopropyl alcohol)\nPropylene glycol\nLithium",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxic alcohols",
+          "url": "https://wikem.org/wiki/Toxic_alcohols"
+        },
+        {
+          "text": "Methanol",
+          "url": "https://wikem.org/wiki/Methanol"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Mannitol",
+          "url": "https://wikem.org/wiki/Mannitol"
+        },
+        {
+          "text": "Isopropanol",
+          "url": "https://wikem.org/wiki/Isopropanol_Toxicity"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        }
+      ]
+    },
+    "Traditional_step-wise_approach": {
+      "text": "",
+      "subsections": {
+        "Determine_pH_2": {
+          "text": "If pH < 7.35, then acidemia\nIf pH > 7.45, then alkalemia\nIf pH within normal range, then acid base disorder not likely present.\npH may be normal in the presence of a mixed acid base disorder,  particularly if other parameters of the ABG are abnormal.",
+          "tables": []
+        },
+        "Determine_the_Primary_Diagnosis": {
+          "text": "Acidemia\n↓HCO3 -\nMetabolic acidosis\n↑PaCO2-\nRespiratory acidosis\nAlkalemia\n↑HCO3-\nMetabolic alkalosis\n↓PaCO2 -\nRespiratory alkalosis",
+          "tables": []
+        },
+        "Calculate_the_Anion_gap": {
+          "text": "Anion gap = [Na+]– [HCO3-] – [Cl-]",
+          "tables": []
+        },
+        "Calculate_the_delta_gap": {
+          "text": "∆gap = anion gap - 12\nThis is to determine a coexistent metabolic alkalosis or non-gap acidosis",
+          "tables": [
+            [
+              {
+                "Delta Ratio": "< 0.4",
+                "Assessment Guideline": "Hyperchloremicnormal anion gap acidosis"
+              },
+              {
+                "Delta Ratio": "0.4 - 0.8",
+                "Assessment Guideline": "Consider combined high AG & normal AG acidosis BUT note that the ratio is often <1 in acidosis associated with renal failure"
+              },
+              {
+                "Delta Ratio": "1 to 2",
+                "Assessment Guideline": "Usual for uncomplicatedhigh-AG acidosis.Lactic acidosis: average value 1.6DKAmore likely to have a ratio closer to 1 due to urine ketone loss (esp if patient not dehydrated)"
+              },
+              {
+                "Delta Ratio": "> 2",
+                "Assessment Guideline": "Suggests a pre-existing elevated HCO3 level so consider:a concurrent metabolic alkalosisa pre-existing compensated respiratory acidosis"
+              }
+            ]
+          ]
+        },
+        "Calculate_the_starting_bicarbonate": {
+          "text": "∆gap + (HCO3) = “starting bicarbonate”\nThe purpose of this calculation is to assess the body’s ability to change HCO3 in response to a metabolic acid. In cases with a pure anion gap metabolic acidosis, the rise in anion gap from 12 should equal the fall in HCO3 from from 24",
+          "tables": []
+        },
+        "Calculate_compensations": {
+          "text": "Will allow for identification of a secondary process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        }
+      ]
+    },
+    "Determine_pH_2": {
+      "text": "If pH < 7.35, then acidemia\nIf pH > 7.45, then alkalemia\nIf pH within normal range, then acid base disorder not likely present.\npH may be normal in the presence of a mixed acid base disorder,  particularly if other parameters of the ABG are abnormal.",
+      "subsections": {
+        "Determine_the_Primary_Diagnosis": {
+          "text": "Acidemia\n↓HCO3 -\nMetabolic acidosis\n↑PaCO2-\nRespiratory acidosis\nAlkalemia\n↑HCO3-\nMetabolic alkalosis\n↓PaCO2 -\nRespiratory alkalosis",
+          "tables": []
+        },
+        "Calculate_the_Anion_gap": {
+          "text": "Anion gap = [Na+]– [HCO3-] – [Cl-]",
+          "tables": []
+        },
+        "Calculate_the_delta_gap": {
+          "text": "∆gap = anion gap - 12\nThis is to determine a coexistent metabolic alkalosis or non-gap acidosis",
+          "tables": [
+            [
+              {
+                "Delta Ratio": "< 0.4",
+                "Assessment Guideline": "Hyperchloremicnormal anion gap acidosis"
+              },
+              {
+                "Delta Ratio": "0.4 - 0.8",
+                "Assessment Guideline": "Consider combined high AG & normal AG acidosis BUT note that the ratio is often <1 in acidosis associated with renal failure"
+              },
+              {
+                "Delta Ratio": "1 to 2",
+                "Assessment Guideline": "Usual for uncomplicatedhigh-AG acidosis.Lactic acidosis: average value 1.6DKAmore likely to have a ratio closer to 1 due to urine ketone loss (esp if patient not dehydrated)"
+              },
+              {
+                "Delta Ratio": "> 2",
+                "Assessment Guideline": "Suggests a pre-existing elevated HCO3 level so consider:a concurrent metabolic alkalosisa pre-existing compensated respiratory acidosis"
+              }
+            ]
+          ]
+        },
+        "Calculate_the_starting_bicarbonate": {
+          "text": "∆gap + (HCO3) = “starting bicarbonate”\nThe purpose of this calculation is to assess the body’s ability to change HCO3 in response to a metabolic acid. In cases with a pure anion gap metabolic acidosis, the rise in anion gap from 12 should equal the fall in HCO3 from from 24",
+          "tables": []
+        },
+        "Calculate_compensations": {
+          "text": "Will allow for identification of a secondary process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        }
+      ]
+    },
+    "Determine_the_Primary_Diagnosis": {
+      "text": "Acidemia\n↓HCO3 -\nMetabolic acidosis\n↑PaCO2-\nRespiratory acidosis\nAlkalemia\n↑HCO3-\nMetabolic alkalosis\n↓PaCO2 -\nRespiratory alkalosis",
+      "subsections": {
+        "Calculate_the_Anion_gap": {
+          "text": "Anion gap = [Na+]– [HCO3-] – [Cl-]",
+          "tables": []
+        },
+        "Calculate_the_delta_gap": {
+          "text": "∆gap = anion gap - 12\nThis is to determine a coexistent metabolic alkalosis or non-gap acidosis",
+          "tables": [
+            [
+              {
+                "Delta Ratio": "< 0.4",
+                "Assessment Guideline": "Hyperchloremicnormal anion gap acidosis"
+              },
+              {
+                "Delta Ratio": "0.4 - 0.8",
+                "Assessment Guideline": "Consider combined high AG & normal AG acidosis BUT note that the ratio is often <1 in acidosis associated with renal failure"
+              },
+              {
+                "Delta Ratio": "1 to 2",
+                "Assessment Guideline": "Usual for uncomplicatedhigh-AG acidosis.Lactic acidosis: average value 1.6DKAmore likely to have a ratio closer to 1 due to urine ketone loss (esp if patient not dehydrated)"
+              },
+              {
+                "Delta Ratio": "> 2",
+                "Assessment Guideline": "Suggests a pre-existing elevated HCO3 level so consider:a concurrent metabolic alkalosisa pre-existing compensated respiratory acidosis"
+              }
+            ]
+          ]
+        },
+        "Calculate_the_starting_bicarbonate": {
+          "text": "∆gap + (HCO3) = “starting bicarbonate”\nThe purpose of this calculation is to assess the body’s ability to change HCO3 in response to a metabolic acid. In cases with a pure anion gap metabolic acidosis, the rise in anion gap from 12 should equal the fall in HCO3 from from 24",
+          "tables": []
+        },
+        "Calculate_compensations": {
+          "text": "Will allow for identification of a secondary process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Respiratory acidosis",
+          "url": "https://wikem.org/wiki/Respiratory_acidosis"
+        },
+        {
+          "text": "Metabolic alkalosis",
+          "url": "https://wikem.org/wiki/Metabolic_alkalosis"
+        },
+        {
+          "text": "Respiratory alkalosis",
+          "url": "https://wikem.org/wiki/Respiratory_alkalosis"
+        }
+      ]
+    },
+    "Calculate_the_Anion_gap": {
+      "text": "Anion gap = [Na+]– [HCO3-] – [Cl-]",
+      "subsections": {
+        "Calculate_the_delta_gap": {
+          "text": "∆gap = anion gap - 12\nThis is to determine a coexistent metabolic alkalosis or non-gap acidosis",
+          "tables": [
+            [
+              {
+                "Delta Ratio": "< 0.4",
+                "Assessment Guideline": "Hyperchloremicnormal anion gap acidosis"
+              },
+              {
+                "Delta Ratio": "0.4 - 0.8",
+                "Assessment Guideline": "Consider combined high AG & normal AG acidosis BUT note that the ratio is often <1 in acidosis associated with renal failure"
+              },
+              {
+                "Delta Ratio": "1 to 2",
+                "Assessment Guideline": "Usual for uncomplicatedhigh-AG acidosis.Lactic acidosis: average value 1.6DKAmore likely to have a ratio closer to 1 due to urine ketone loss (esp if patient not dehydrated)"
+              },
+              {
+                "Delta Ratio": "> 2",
+                "Assessment Guideline": "Suggests a pre-existing elevated HCO3 level so consider:a concurrent metabolic alkalosisa pre-existing compensated respiratory acidosis"
+              }
+            ]
+          ]
+        },
+        "Calculate_the_starting_bicarbonate": {
+          "text": "∆gap + (HCO3) = “starting bicarbonate”\nThe purpose of this calculation is to assess the body’s ability to change HCO3 in response to a metabolic acid. In cases with a pure anion gap metabolic acidosis, the rise in anion gap from 12 should equal the fall in HCO3 from from 24",
+          "tables": []
+        },
+        "Calculate_compensations": {
+          "text": "Will allow for identification of a secondary process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Calculate_the_delta_gap": {
+      "text": "∆gap = anion gap - 12\nThis is to determine a coexistent metabolic alkalosis or non-gap acidosis",
+      "subsections": {
+        "Calculate_the_starting_bicarbonate": {
+          "text": "∆gap + (HCO3) = “starting bicarbonate”\nThe purpose of this calculation is to assess the body’s ability to change HCO3 in response to a metabolic acid. In cases with a pure anion gap metabolic acidosis, the rise in anion gap from 12 should equal the fall in HCO3 from from 24",
+          "tables": []
+        },
+        "Calculate_compensations": {
+          "text": "Will allow for identification of a secondary process",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Delta Ratio": "< 0.4",
+            "Assessment Guideline": "Hyperchloremicnormal anion gap acidosis"
+          },
+          {
+            "Delta Ratio": "0.4 - 0.8",
+            "Assessment Guideline": "Consider combined high AG & normal AG acidosis BUT note that the ratio is often <1 in acidosis associated with renal failure"
+          },
+          {
+            "Delta Ratio": "1 to 2",
+            "Assessment Guideline": "Usual for uncomplicatedhigh-AG acidosis.Lactic acidosis: average value 1.6DKAmore likely to have a ratio closer to 1 due to urine ketone loss (esp if patient not dehydrated)"
+          },
+          {
+            "Delta Ratio": "> 2",
+            "Assessment Guideline": "Suggests a pre-existing elevated HCO3 level so consider:a concurrent metabolic alkalosisa pre-existing compensated respiratory acidosis"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Calculate_the_starting_bicarbonate": {
+      "text": "∆gap + (HCO3) = “starting bicarbonate”\nThe purpose of this calculation is to assess the body’s ability to change HCO3 in response to a metabolic acid. In cases with a pure anion gap metabolic acidosis, the rise in anion gap from 12 should equal the fall in HCO3 from from 24",
+      "subsections": {
+        "Calculate_compensations": {
+          "text": "Will allow for identification of a secondary process",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Calculate_compensations": {
+      "text": "Will allow for identification of a secondary process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Determinants_of_compensation": {
+      "text": "Metabolic acidosis:\nPaCO2 = 1.5 (HCO3) + 8 ± 2\nPaCO2 = last two digits of pH\nPaCO2= ↓ 1.0–1.5per ↓ 1mEq/L HCO3\nMetabolic alkalosis\nPaCO2 = 0.9 (HCO3) + 9\nPaCO2= ↑ 0.5–1.0 mm per ↑ 1mEq/L HCO3\nRespiratory acidosis and alkalosis (acute acid-base changes based on PCO2 and HCO3):\n∆H+=0.8 (∆PaCO2)\nFor every ↑ or ↓ of PCO2 by 1 the pH changes by 0.008\nFor every ↑ or ↓ of HCO3 by 1 the  pH changes by 0.015\nEstimate of baseline PCO2 in patients with Acute Respiratory Acidosis:\nEstimated baseline PCO2 = 2.4 (admission measured HCO3 – 22)\nChronic respiratory acidosis\n[3]\nHCO3 increases by 4 for every 10 mmHg ↑ in pCO2 above 40\n∆H+=0.4 (∆PaCO2)\nIn chronic respiratory acidosis, kidneys retain HCO3, which takes a few days\nChronic respiratory alkalosis\nHCO3 decreases by 5 for every 10 mmHg decrease in pCO2 below 40\n∆H+=0.5 (∆PaCO2)\nTakes few days also\nMaximal compensation is HCO3 ~12-15 mEq/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "IV_Fluids": {
+          "text": "Normal SID (Na-Cl) is 38\nFluid that has SID of 38 would be basic b/c it would dilute out the albumin (weak acid)\nFluid that has SID identical to patient's serum bicarb is pH neutral\nIf SID of fluid is greater than patient's bicarb level then it is alkalotic\nIf SID of fluid is less than patient's bicarb level then it is acidotic",
+          "tables": []
+        },
+        "Examples": {
+          "text": "NS or 1/2NS\n(SID = 0) so is acidotic so causes hyperchloremic acidosis\nLR\nSID of 24-28\nD5W\nSID of 0\nNaBicarb\nSID is 892 (very alkalotic) is 8.4%\n^Consider balanced solution (LR) in patients with low pH (e.g.\nDKA\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "IV_Fluids": {
+      "text": "Normal SID (Na-Cl) is 38\nFluid that has SID of 38 would be basic b/c it would dilute out the albumin (weak acid)\nFluid that has SID identical to patient's serum bicarb is pH neutral\nIf SID of fluid is greater than patient's bicarb level then it is alkalotic\nIf SID of fluid is less than patient's bicarb level then it is acidotic",
+      "subsections": {
+        "Examples": {
+          "text": "NS or 1/2NS\n(SID = 0) so is acidotic so causes hyperchloremic acidosis\nLR\nSID of 24-28\nD5W\nSID of 0\nNaBicarb\nSID is 892 (very alkalotic) is 8.4%\n^Consider balanced solution (LR) in patients with low pH (e.g.\nDKA\n)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "DKA",
+          "url": "https://wikem.org/wiki/DKA"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Electrolyte Abnormalities (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Electrolyte Abnormalities (Main)",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities_(Main)"
+        }
+      ]
+    }
+  }
+}

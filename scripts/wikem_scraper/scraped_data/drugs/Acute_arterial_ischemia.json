@@ -1,0 +1,747 @@
+{
+  "drug_name": "Acute_arterial_ischemia",
+  "url": "https://wikem.org/wiki/Acute_arterial_ischemia",
+  "scraped_at": "2026-01-10T07:46:46.811639",
+  "sections": {
+    "Background": {
+      "text": "Sudden decrease in perfusion that may result in irreversible limb loss\nAmputation occurs in 10%-15% of patients during hospitalization\n[1]\nEtiology may be thrombotic (80%) or embolic (20%)\n[2]\nThrombosis occurs in vessels with existing atherosclerosis\nGenerally have formed collateral circulation\nEmbolism\noccurs in vessels usually free of atherosclerosis\nGenerally do not have existing collateral circulation\nResults in higher level of limb ischemia than thrombosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Embolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "6_Ps": {
+          "text": "P\nain - Claudication or pain with leg elevation; typically earliest sign\nP\naraesthesia - May be associated with weakness; preservation of light touch is good guide to viability\nP\nallor\nP\naralysis\nP\nulselessness - May be accompanied by skin changes; late finding\nP\noikilothermia - Limb is cool to touch when compared to other side; late finding",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "6_Ps": {
+      "text": "P\nain - Claudication or pain with leg elevation; typically earliest sign\nP\naraesthesia - May be associated with weakness; preservation of light touch is good guide to viability\nP\nallor\nP\naralysis\nP\nulselessness - May be accompanied by skin changes; late finding\nP\noikilothermia - Limb is cool to touch when compared to other side; late finding",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Peripheral artery disease\nVascular injury",
+      "subsections": {
+        "Blue_Digit": {
+          "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+          "tables": []
+        },
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        },
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Blue_Digit": {
+      "text": "Acute arterial ischemia\nAtheroembolism (AKA Blue Toe Syndrome)\nArterial embolism\nArterial thrombosis\nVasospastic Disorders\nRaynaud’s disease\nPrimary erythromelalgia\nAutoimmune\nScleroderma\nSLE\nIdiopathic\nThromboangiitis obliterans\n(Buerger's disease)\nChronic\nperipheral artery disease\nAtherosclerosis obliterans",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Raynaud’s disease",
+          "url": "https://wikem.org/wiki/Raynaud%E2%80%99s_disease"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Thromboangiitis obliterans",
+          "url": "https://wikem.org/wiki/Thromboangiitis_obliterans"
+        },
+        {
+          "text": "peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Foot_diagnoses": {
+      "text": "",
+      "subsections": {
+        "Acute": {
+          "text": "Foot and toe fractures\nSubtalar dislocation\nMetatarsophalangeal joint sprain\n(turf toe)\nAcute arterial ischemia\nCalcaneal bursitis",
+          "tables": []
+        },
+        "Subacute/Chronic": {
+          "text": "Diabetic foot infection\nPeripheral artery disease\nPlantar fasciitis\nTrench foot\nIngrown toenail\nParonychia\nTinea pedis\nMorton's neuroma\nDiabetic neuropathy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Foot and toe fractures",
+          "url": "https://wikem.org/wiki/Foot_and_toe_fractures"
+        },
+        {
+          "text": "Subtalar dislocation",
+          "url": "https://wikem.org/wiki/Subtalar_dislocation"
+        },
+        {
+          "text": "Metatarsophalangeal joint sprain",
+          "url": "https://wikem.org/wiki/Metatarsophalangeal_joint_sprain"
+        },
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Diabetic foot infection",
+          "url": "https://wikem.org/wiki/Diabetic_foot_infection"
+        },
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Plantar fasciitis",
+          "url": "https://wikem.org/wiki/Plantar_fasciitis"
+        },
+        {
+          "text": "Trench foot",
+          "url": "https://wikem.org/wiki/Trench_foot"
+        },
+        {
+          "text": "Ingrown toenail",
+          "url": "https://wikem.org/wiki/Ingrown_toenail"
+        },
+        {
+          "text": "Paronychia",
+          "url": "https://wikem.org/wiki/Paronychia"
+        },
+        {
+          "text": "Tinea pedis",
+          "url": "https://wikem.org/wiki/Tinea_pedis"
+        },
+        {
+          "text": "Morton's neuroma",
+          "url": "https://wikem.org/wiki/Morton%27s_neuroma"
+        },
+        {
+          "text": "Diabetic neuropathy",
+          "url": "https://wikem.org/wiki/Diabetic_neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Ankle-brachial_index_(ABI)": {
+          "text": "How to measure:\nPosition patient supine\nMeasure SBP from both brachial arteries using cuff and handheld Doppler over the AC fossa\nMeasure SBP from both DP and PT arteries using cuff placed just proximal to the malleoli with Doppler over artery (5-8% of normal patients have absent DP pulse)\nCalculate ABI on each leg by taking the highest ankle SBP (between DP and PT) on that leg divided by the highest brachial SBP and record to 2 decimal places",
+          "tables": [
+            [
+              {
+                "ABI": "<0.40",
+                "Meaning": "Severe occlusion"
+              },
+              {
+                "ABI": "0.40–0.69",
+                "Meaning": "Moderate occlusion"
+              },
+              {
+                "ABI": "0.70–0.90",
+                "Meaning": "Mild occlusion"
+              },
+              {
+                "ABI": "0.91–1.30",
+                "Meaning": "Normal"
+              },
+              {
+                "ABI": ">1.30",
+                "Meaning": "Poorly compressible/calcified vessels"
+              }
+            ]
+          ]
+        },
+        "Imaging": {
+          "text": "Formal angiogram considered gold standard\nCTA as a diagnostic is near the level of formal angiography (96% sensitive, 95% specific)\n[3]\nUS is sensitive for proximal extremity occlusions, but sensitivity markedly falls off distally and is operator dependent",
+          "tables": []
+        },
+        "Laboratory_Evaluation": {
+          "text": "Not useful for diagnosis, but essential for monitoring co-existing conditions and response to anticoagulant therapy. Should include:\nCBC\nBMP\nPT/PTT\nCreatine kinase",
+          "tables": []
+        },
+        "Thrombosis_vs_Embolus": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Key features": "Source",
+                "Thrombosis": "Usually unknown",
+                "Embolus": "Heart (A-fib most common)"
+              },
+              {
+                "Key features": "History",
+                "Thrombosis": "PAD, claudication",
+                "Embolus": "Less likely to have PAD and claudication"
+              },
+              {
+                "Key features": "Physical exam",
+                "Thrombosis": "Absent pulse. Consistent with PAD: hair loss, thickened nails etc",
+                "Embolus": "Absent pulse. Usually no evidence of PAD"
+              },
+              {
+                "Key features": "Degree of arthersclerosis",
+                "Thrombosis": "Diffuse",
+                "Embolus": "Minimal"
+              },
+              {
+                "Key features": "Collaterals",
+                "Thrombosis": "Well-developed",
+                "Embolus": "Few"
+              }
+            ]
+          ]
+        },
+        "Rutherford_Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Viable (I)",
+                "Description/Prognosis": "Not immediately threatened",
+                "Sensory Loss": "None",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Audible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Marginally threatened (IIa)",
+                "Description/Prognosis": "Salvageable if promptly threatened",
+                "Sensory Loss": "Minimal (toes) or none",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Often inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Immediately threatened (IIb)",
+                "Description/Prognosis": "Salvageable with immediate revascularization",
+                "Sensory Loss": "Extends beyond toes; pain at rest",
+                "Muscle Weakness": "Mild to moderate",
+                "Arterial Doppler": "Usually inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Irreversible damage (III)",
+                "Description/Prognosis": "Major tissue loss or permanent nerve damage inevitable",
+                "Sensory Loss": "Profound, anesthetic",
+                "Muscle Weakness": "Profound, paralysis or rigor",
+                "Arterial Doppler": "Inaudible",
+                "Venous Doppler": "Inaudible"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Imaging": {
+      "text": "Formal angiogram considered gold standard\nCTA as a diagnostic is near the level of formal angiography (96% sensitive, 95% specific)\n[3]\nUS is sensitive for proximal extremity occlusions, but sensitivity markedly falls off distally and is operator dependent",
+      "subsections": {
+        "Laboratory_Evaluation": {
+          "text": "Not useful for diagnosis, but essential for monitoring co-existing conditions and response to anticoagulant therapy. Should include:\nCBC\nBMP\nPT/PTT\nCreatine kinase",
+          "tables": []
+        },
+        "Thrombosis_vs_Embolus": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Key features": "Source",
+                "Thrombosis": "Usually unknown",
+                "Embolus": "Heart (A-fib most common)"
+              },
+              {
+                "Key features": "History",
+                "Thrombosis": "PAD, claudication",
+                "Embolus": "Less likely to have PAD and claudication"
+              },
+              {
+                "Key features": "Physical exam",
+                "Thrombosis": "Absent pulse. Consistent with PAD: hair loss, thickened nails etc",
+                "Embolus": "Absent pulse. Usually no evidence of PAD"
+              },
+              {
+                "Key features": "Degree of arthersclerosis",
+                "Thrombosis": "Diffuse",
+                "Embolus": "Minimal"
+              },
+              {
+                "Key features": "Collaterals",
+                "Thrombosis": "Well-developed",
+                "Embolus": "Few"
+              }
+            ]
+          ]
+        },
+        "Rutherford_Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Viable (I)",
+                "Description/Prognosis": "Not immediately threatened",
+                "Sensory Loss": "None",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Audible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Marginally threatened (IIa)",
+                "Description/Prognosis": "Salvageable if promptly threatened",
+                "Sensory Loss": "Minimal (toes) or none",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Often inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Immediately threatened (IIb)",
+                "Description/Prognosis": "Salvageable with immediate revascularization",
+                "Sensory Loss": "Extends beyond toes; pain at rest",
+                "Muscle Weakness": "Mild to moderate",
+                "Arterial Doppler": "Usually inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Irreversible damage (III)",
+                "Description/Prognosis": "Major tissue loss or permanent nerve damage inevitable",
+                "Sensory Loss": "Profound, anesthetic",
+                "Muscle Weakness": "Profound, paralysis or rigor",
+                "Arterial Doppler": "Inaudible",
+                "Venous Doppler": "Inaudible"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Laboratory_Evaluation": {
+      "text": "Not useful for diagnosis, but essential for monitoring co-existing conditions and response to anticoagulant therapy. Should include:\nCBC\nBMP\nPT/PTT\nCreatine kinase",
+      "subsections": {
+        "Thrombosis_vs_Embolus": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Key features": "Source",
+                "Thrombosis": "Usually unknown",
+                "Embolus": "Heart (A-fib most common)"
+              },
+              {
+                "Key features": "History",
+                "Thrombosis": "PAD, claudication",
+                "Embolus": "Less likely to have PAD and claudication"
+              },
+              {
+                "Key features": "Physical exam",
+                "Thrombosis": "Absent pulse. Consistent with PAD: hair loss, thickened nails etc",
+                "Embolus": "Absent pulse. Usually no evidence of PAD"
+              },
+              {
+                "Key features": "Degree of arthersclerosis",
+                "Thrombosis": "Diffuse",
+                "Embolus": "Minimal"
+              },
+              {
+                "Key features": "Collaterals",
+                "Thrombosis": "Well-developed",
+                "Embolus": "Few"
+              }
+            ]
+          ]
+        },
+        "Rutherford_Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Viable (I)",
+                "Description/Prognosis": "Not immediately threatened",
+                "Sensory Loss": "None",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Audible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Marginally threatened (IIa)",
+                "Description/Prognosis": "Salvageable if promptly threatened",
+                "Sensory Loss": "Minimal (toes) or none",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Often inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Immediately threatened (IIb)",
+                "Description/Prognosis": "Salvageable with immediate revascularization",
+                "Sensory Loss": "Extends beyond toes; pain at rest",
+                "Muscle Weakness": "Mild to moderate",
+                "Arterial Doppler": "Usually inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Irreversible damage (III)",
+                "Description/Prognosis": "Major tissue loss or permanent nerve damage inevitable",
+                "Sensory Loss": "Profound, anesthetic",
+                "Muscle Weakness": "Profound, paralysis or rigor",
+                "Arterial Doppler": "Inaudible",
+                "Venous Doppler": "Inaudible"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Thrombosis_vs_Embolus": {
+      "text": "",
+      "subsections": {
+        "Rutherford_Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Category": "Viable (I)",
+                "Description/Prognosis": "Not immediately threatened",
+                "Sensory Loss": "None",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Audible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Marginally threatened (IIa)",
+                "Description/Prognosis": "Salvageable if promptly threatened",
+                "Sensory Loss": "Minimal (toes) or none",
+                "Muscle Weakness": "None",
+                "Arterial Doppler": "Often inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Immediately threatened (IIb)",
+                "Description/Prognosis": "Salvageable with immediate revascularization",
+                "Sensory Loss": "Extends beyond toes; pain at rest",
+                "Muscle Weakness": "Mild to moderate",
+                "Arterial Doppler": "Usually inaudible",
+                "Venous Doppler": "Audible"
+              },
+              {
+                "Category": "Irreversible damage (III)",
+                "Description/Prognosis": "Major tissue loss or permanent nerve damage inevitable",
+                "Sensory Loss": "Profound, anesthetic",
+                "Muscle Weakness": "Profound, paralysis or rigor",
+                "Arterial Doppler": "Inaudible",
+                "Venous Doppler": "Inaudible"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [
+        [
+          {
+            "Key features": "Source",
+            "Thrombosis": "Usually unknown",
+            "Embolus": "Heart (A-fib most common)"
+          },
+          {
+            "Key features": "History",
+            "Thrombosis": "PAD, claudication",
+            "Embolus": "Less likely to have PAD and claudication"
+          },
+          {
+            "Key features": "Physical exam",
+            "Thrombosis": "Absent pulse. Consistent with PAD: hair loss, thickened nails etc",
+            "Embolus": "Absent pulse. Usually no evidence of PAD"
+          },
+          {
+            "Key features": "Degree of arthersclerosis",
+            "Thrombosis": "Diffuse",
+            "Embolus": "Minimal"
+          },
+          {
+            "Key features": "Collaterals",
+            "Thrombosis": "Well-developed",
+            "Embolus": "Few"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Rutherford_Classification": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Category": "Viable (I)",
+            "Description/Prognosis": "Not immediately threatened",
+            "Sensory Loss": "None",
+            "Muscle Weakness": "None",
+            "Arterial Doppler": "Audible",
+            "Venous Doppler": "Audible"
+          },
+          {
+            "Category": "Marginally threatened (IIa)",
+            "Description/Prognosis": "Salvageable if promptly threatened",
+            "Sensory Loss": "Minimal (toes) or none",
+            "Muscle Weakness": "None",
+            "Arterial Doppler": "Often inaudible",
+            "Venous Doppler": "Audible"
+          },
+          {
+            "Category": "Immediately threatened (IIb)",
+            "Description/Prognosis": "Salvageable with immediate revascularization",
+            "Sensory Loss": "Extends beyond toes; pain at rest",
+            "Muscle Weakness": "Mild to moderate",
+            "Arterial Doppler": "Usually inaudible",
+            "Venous Doppler": "Audible"
+          },
+          {
+            "Category": "Irreversible damage (III)",
+            "Description/Prognosis": "Major tissue loss or permanent nerve damage inevitable",
+            "Sensory Loss": "Profound, anesthetic",
+            "Muscle Weakness": "Profound, paralysis or rigor",
+            "Arterial Doppler": "Inaudible",
+            "Venous Doppler": "Inaudible"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Unfractionated heparin\n80 units/kg bolus → 18units/kg/hr gtt\nASA\nDependent positioning\nPain control\nVascular surgery consultation (clot retrieval, balloon angioplasty, intraarterial tPA, stenting, bypass)\nManagement of embolism = embolectomy (limb salvage decreases after 4-6 hours)\nManagement of thrombus = intra-arterial thrombolysis (if non-limb threatening), thrombectomy (if limb-threatening ischmia)\nInterventional radiology if delay in vascular surgery intervention or if unavailable",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Unfractionated heparin",
+          "url": "https://wikem.org/wiki/Unfractionated_heparin"
+        },
+        {
+          "text": "ASA",
+          "url": "https://wikem.org/wiki/ASA"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Admission": {
+          "text": "Patients with an ABI of <0.5 warrant admission after immediate consultation with vascular surgery",
+          "tables": []
+        },
+        "Discharge": {
+          "text": "Patients with stable ABI measurements, resolved pain, and chronic occlusive disease can be discharged with vascular surgical follow-up.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Admission": {
+      "text": "Patients with an ABI of <0.5 warrant admission after immediate consultation with vascular surgery",
+      "subsections": {
+        "Discharge": {
+          "text": "Patients with stable ABI measurements, resolved pain, and chronic occlusive disease can be discharged with vascular surgical follow-up.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Discharge": {
+      "text": "Patients with stable ABI measurements, resolved pain, and chronic occlusive disease can be discharged with vascular surgical follow-up.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Peripheral artery disease\nVascular injury",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Peripheral artery disease",
+          "url": "https://wikem.org/wiki/Peripheral_artery_disease"
+        },
+        {
+          "text": "Vascular injury",
+          "url": "https://wikem.org/wiki/Vascular_injury"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDOCS - Acute Limb Ischemia: Pearls and Pitfalls",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

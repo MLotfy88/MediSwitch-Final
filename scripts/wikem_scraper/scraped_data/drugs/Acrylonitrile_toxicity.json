@@ -1,0 +1,44 @@
+{
+  "drug_name": "Acrylonitrile_toxicity",
+  "url": "https://wikem.org/wiki/Acrylonitrile_toxicity",
+  "scraped_at": "2026-01-10T07:46:43.800659",
+  "sections": {
+    "Background": {
+      "text": "Unique type of\nCyanide toxicity\nUsed in the production of plastics\nStructure:\nNitrile group linked to a Vinyl group",
+      "subsections": {
+        "Mechanism_of_Action": {
+          "text": "Chemical itself is hepatotoxic\nAlso metabolized to form cyanide molecule",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide toxicity",
+          "url": "https://wikem.org/wiki/Cyanide"
+        }
+      ]
+    },
+    "Mechanism_of_Action": {
+      "text": "Chemical itself is hepatotoxic\nAlso metabolized to form cyanide molecule",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Cyanide Antidotes\nN-Acetylcysteine",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cyanide Antidotes",
+          "url": "https://wikem.org/wiki/Cyanide#Treatment"
+        },
+        {
+          "text": "N-Acetylcysteine",
+          "url": "https://wikem.org/wiki/N-Acetylcysteine"
+        }
+      ]
+    }
+  }
+}

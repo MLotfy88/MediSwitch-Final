@@ -1,0 +1,2185 @@
+{
+  "drug_name": "Acute_asthma_exacerbation",
+  "url": "https://wikem.org/wiki/Acute_asthma_exacerbation",
+  "scraped_at": "2026-01-10T07:46:48.527423",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\nadult\npatients. For pediatric patients, see:\nasthma (peds)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Establish severity of current presentation based of vital signs, clinical presentation, and history of prior severe exacerbations (e.g. need for hospitalization, ICU admission,\nintubation\n, etc.)\nIdentify any treatable precipitant (e.g.\npneumonia\n,\nURI\n,\nGERD\n, exposure to irritants,\naspirin\n/\nNSAIDs\n)\nStatus asthmaticus\nis a life-threatening form of asthma in which progressively worsening reactive airways are unresponsive to usual appropriate therapy leading to pulmonary insufficiency.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Dyspnea\n,\nwheezing\n, and\ncough\n(+/- sputum production)\nProlonged expiration\nAccessory muscle use\nSign of impending ventilatory failure:\nParadoxical respiration (chest deflation and abdominal protrusion during inspiration)\nAltered mental status\n\"Silent chest\"\nLow peak flows\nCyanosis is uncommon (respiratory alkalosis -> left shift of the oxyhemoglobin dissociation curve)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Bronchoconstriction": {
+          "text": "COPD\nAsthma\nBronchiolitis (peds)\nOthers\nIntrathoracic lower airway\nAspirated foreign body\nBronchiectasis\nBronchiolitis\nBronchiolitis obliterans\nCHF\n(\"Cardiac asthma\")\nCarcinoid\ntumors\nEnvironmental - silo farmers\nParasitic\nin endemic\nReactive airway\nIntrathoracic central airway\nForeign body\nTracheal stenosis/tumors\nTracheomalacia\nMucus plugs\nVascular rings\n/aneurysms\nMediastinal mass\nExtra-thoracic\nForeign body\nAnaphylaxis\nVocal cord edema/paralysis\nParadoxical vocal cord motion\nLaryngeal stenosis\nTonsillar hypertrophy\nGoiter\nPostnasal drip",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Carcinoid",
+          "url": "https://wikem.org/wiki/Carcinoid"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Vascular rings",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Bronchoconstriction": {
+      "text": "COPD\nAsthma\nBronchiolitis (peds)\nOthers\nIntrathoracic lower airway\nAspirated foreign body\nBronchiectasis\nBronchiolitis\nBronchiolitis obliterans\nCHF\n(\"Cardiac asthma\")\nCarcinoid\ntumors\nEnvironmental - silo farmers\nParasitic\nin endemic\nReactive airway\nIntrathoracic central airway\nForeign body\nTracheal stenosis/tumors\nTracheomalacia\nMucus plugs\nVascular rings\n/aneurysms\nMediastinal mass\nExtra-thoracic\nForeign body\nAnaphylaxis\nVocal cord edema/paralysis\nParadoxical vocal cord motion\nLaryngeal stenosis\nTonsillar hypertrophy\nGoiter\nPostnasal drip",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Bronchiectasis",
+          "url": "https://wikem.org/wiki/Bronchiectasis"
+        },
+        {
+          "text": "Bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Carcinoid",
+          "url": "https://wikem.org/wiki/Carcinoid"
+        },
+        {
+          "text": "Parasitic",
+          "url": "https://wikem.org/wiki/Parasitic_infection"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Vascular rings",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Acute_dyspnea": {
+      "text": "",
+      "subsections": {
+        "Emergent": {
+          "text": "Pulmonary\nAirway obstruction\nAnaphylaxis\nAngioedema\nAspiration\nAsthma\nCor pulmonale\nInhalation exposure\nNoncardiogenic pulmonary edema\nPneumonia\nPneumocystis Pneumonia (PCP)\nPulmonary embolism\nPulmonary hypertension\nTension pneumothorax\nIdiopathic pulmonary fibrosis\nacute exacerbation\nCystic fibrosis\nexacerbation\nCardiac\nCardiac tamponade\nCardiogenic pulmonary edema (CHF)\nMyocardial Infarction\nPericarditis\nMyocarditis\nOther Associated with Normal/↑ Respiratory Effort\nAbdominal distension\nAnemia\nCO Poisoning\nSalicylate toxicity\nDiabetic ketoacidosis (DKA)\nDiaphragm injury\nElectrolyte abnormalities\nEpiglottitis\nFlail chest\nHypotension\nMetabolic acidosis\nPneumonia\nPneumothorax\n/hemothorax\nRenal Failure\nSepsis\nToxic ingestion\nOther Associated with ↓ Respiratory Effort\nGuillain-Barre syndrome\nMultiple sclerosis\nMyasthenia Gravis\nLambert-Eaton Syndrome\nOrganophosphate toxicity\nStroke (Main)\nTick paralysis",
+          "tables": []
+        },
+        "Non-Emergent": {
+          "text": "ALS\nAscites\nUncorrected\nASD\nCongenital heart disease\nCOPD exacerbation\nFever\nHyperventilation\nInterstitial lung disease\nNeoplasm\nObesity\nPanic attack\nPleural effusion\nPolymyositis\nPorphyria\nPregnancy\nRib fracture\nSpontaneous pneumothorax\nThyroid Disease\nURI",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Noncardiogenic pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(main)"
+        },
+        {
+          "text": "Pneumocystis Pneumonia (PCP)",
+          "url": "https://wikem.org/wiki/Pneumocystis_Pneumonia_(PCP)"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Idiopathic pulmonary fibrosis",
+          "url": "https://wikem.org/wiki/Idiopathic_pulmonary_fibrosis"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Cardiogenic pulmonary edema (CHF)",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Myocardial Infarction",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome_(main)"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "Diabetic ketoacidosis (DKA)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(DKA)"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Hypotension",
+          "url": "https://wikem.org/wiki/Undifferentiated_shock"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(Main)"
+        },
+        {
+          "text": "Toxic ingestion",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Guillain-Barre syndrome",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "Multiple sclerosis",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Myasthenia Gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_Gravis"
+        },
+        {
+          "text": "Lambert-Eaton Syndrome",
+          "url": "https://wikem.org/wiki/Lambert-Eaton_Syndrome"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Stroke (Main)",
+          "url": "https://wikem.org/wiki/Stroke_(Main)"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "ALS",
+          "url": "https://wikem.org/wiki/ALS"
+        },
+        {
+          "text": "Ascites",
+          "url": "https://wikem.org/wiki/Ascites"
+        },
+        {
+          "text": "ASD",
+          "url": "https://wikem.org/wiki/ASD"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Acute_fever"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Pleural effusion",
+          "url": "https://wikem.org/wiki/Pleural_effusion"
+        },
+        {
+          "text": "Polymyositis",
+          "url": "https://wikem.org/wiki/Polymyositis"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy_(main)"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Thyroid Disease",
+          "url": "https://wikem.org/wiki/Thyroid_(Main)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "For uncomplicated exacerbations in patients with known asthma,\nCXR\nis\nnot\nroutinely indicated.\n[1]\n[2]\nConsider\nCXR\nif:\nAsymmetric lung auscultation findings, after treatment with albuterol\nPoor response to medications/treatment, if history and exam are not consistent with asthma\nWorsening symptoms\nUnexplained\nfever\nChest pain",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Normally a clinical diagnosis\nABG\nunlikely to add to clinical decision making unless pulse oximetry unavailable\nHowever, a blood gas with a normal or elevated CO2 suggest impending respiratory failure (asthmatics typically hypocapneic during exacerbation)",
+          "tables": []
+        },
+        "Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Severity": "Intermittent",
+                "Symptom frequency": "≤2/week",
+                "Night-time symptoms": "≤2/month",
+                "%FEV1of predicted": "≥80%",
+                "FEV1variability": "<20%",
+                "SABA use": "≤2 days/week"
+              },
+              {
+                "Severity": "Mild persistent",
+                "Symptom frequency": ">2/week",
+                "Night-time symptoms": "3–4/month",
+                "%FEV1of predicted": "≥80%",
+                "FEV1variability": "20–30%",
+                "SABA use": ">2 days/week"
+              },
+              {
+                "Severity": "Moderate persistent",
+                "Symptom frequency": "Daily",
+                "Night-time symptoms": ">1/week",
+                "%FEV1of predicted": "60–80%",
+                "FEV1variability": ">30%",
+                "SABA use": "daily"
+              },
+              {
+                "Severity": "Severe persistent",
+                "Symptom frequency": "Continuously",
+                "Night-time symptoms": "Frequent (7/week)",
+                "%FEV1of predicted": "<60%",
+                "FEV1variability": ">30%",
+                "SABA use": "≥twice/day"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "For uncomplicated exacerbations in patients with known asthma,\nCXR\nis\nnot\nroutinely indicated.\n[1]\n[2]\nConsider\nCXR\nif:\nAsymmetric lung auscultation findings, after treatment with albuterol\nPoor response to medications/treatment, if history and exam are not consistent with asthma\nWorsening symptoms\nUnexplained\nfever\nChest pain",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Normally a clinical diagnosis\nABG\nunlikely to add to clinical decision making unless pulse oximetry unavailable\nHowever, a blood gas with a normal or elevated CO2 suggest impending respiratory failure (asthmatics typically hypocapneic during exacerbation)",
+          "tables": []
+        },
+        "Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Severity": "Intermittent",
+                "Symptom frequency": "≤2/week",
+                "Night-time symptoms": "≤2/month",
+                "%FEV1of predicted": "≥80%",
+                "FEV1variability": "<20%",
+                "SABA use": "≤2 days/week"
+              },
+              {
+                "Severity": "Mild persistent",
+                "Symptom frequency": ">2/week",
+                "Night-time symptoms": "3–4/month",
+                "%FEV1of predicted": "≥80%",
+                "FEV1variability": "20–30%",
+                "SABA use": ">2 days/week"
+              },
+              {
+                "Severity": "Moderate persistent",
+                "Symptom frequency": "Daily",
+                "Night-time symptoms": ">1/week",
+                "%FEV1of predicted": "60–80%",
+                "FEV1variability": ">30%",
+                "SABA use": "daily"
+              },
+              {
+                "Severity": "Severe persistent",
+                "Symptom frequency": "Continuously",
+                "Night-time symptoms": "Frequent (7/week)",
+                "%FEV1of predicted": "<60%",
+                "FEV1variability": ">30%",
+                "SABA use": "≥twice/day"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Normally a clinical diagnosis\nABG\nunlikely to add to clinical decision making unless pulse oximetry unavailable\nHowever, a blood gas with a normal or elevated CO2 suggest impending respiratory failure (asthmatics typically hypocapneic during exacerbation)",
+      "subsections": {
+        "Classification": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Severity": "Intermittent",
+                "Symptom frequency": "≤2/week",
+                "Night-time symptoms": "≤2/month",
+                "%FEV1of predicted": "≥80%",
+                "FEV1variability": "<20%",
+                "SABA use": "≤2 days/week"
+              },
+              {
+                "Severity": "Mild persistent",
+                "Symptom frequency": ">2/week",
+                "Night-time symptoms": "3–4/month",
+                "%FEV1of predicted": "≥80%",
+                "FEV1variability": "20–30%",
+                "SABA use": ">2 days/week"
+              },
+              {
+                "Severity": "Moderate persistent",
+                "Symptom frequency": "Daily",
+                "Night-time symptoms": ">1/week",
+                "%FEV1of predicted": "60–80%",
+                "FEV1variability": ">30%",
+                "SABA use": "daily"
+              },
+              {
+                "Severity": "Severe persistent",
+                "Symptom frequency": "Continuously",
+                "Night-time symptoms": "Frequent (7/week)",
+                "%FEV1of predicted": "<60%",
+                "FEV1variability": ">30%",
+                "SABA use": "≥twice/day"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ABG",
+          "url": "https://wikem.org/wiki/ABG"
+        }
+      ]
+    },
+    "Classification": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Severity": "Intermittent",
+            "Symptom frequency": "≤2/week",
+            "Night-time symptoms": "≤2/month",
+            "%FEV1of predicted": "≥80%",
+            "FEV1variability": "<20%",
+            "SABA use": "≤2 days/week"
+          },
+          {
+            "Severity": "Mild persistent",
+            "Symptom frequency": ">2/week",
+            "Night-time symptoms": "3–4/month",
+            "%FEV1of predicted": "≥80%",
+            "FEV1variability": "20–30%",
+            "SABA use": ">2 days/week"
+          },
+          {
+            "Severity": "Moderate persistent",
+            "Symptom frequency": "Daily",
+            "Night-time symptoms": ">1/week",
+            "%FEV1of predicted": "60–80%",
+            "FEV1variability": ">30%",
+            "SABA use": "daily"
+          },
+          {
+            "Severity": "Severe persistent",
+            "Symptom frequency": "Continuously",
+            "Night-time symptoms": "Frequent (7/week)",
+            "%FEV1of predicted": "<60%",
+            "FEV1variability": ">30%",
+            "SABA use": "≥twice/day"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Oxygen_PRN": {
+          "text": "Titrate to an arterial oxygen saturation >90% (>95% in pregnant women and with coexistent heart disease)",
+          "tables": []
+        },
+        "Albuterol": {
+          "text": "Favor continuous nebulization to decrease the chance of admission when compared to intermittent dosing\n[4]\nNebulizer\nIntermittent: 2.5-5mg q20min x3, then 2.5-10mg q1-4hr as needed\nOR\nContinuous: 0.5mg/kg/hr (max 15mg/hr)\n[5]\nIf using intermitent nebs at home PTA, start on continuous\nMDI\n6-12 puffs q20min up to 4h, then q1-4hr as needed\nLevalbuterol is pure R-enantiomer, whereas racemic albuterol as above is 50:50 mix of R and S albuterol\nMost clinical studies fail to show benefit over racemic albuterol\n[6]\n[7]\nLevalbuterol at 5x the cost, may not warrant the small benefits seen in some studies\nIn severe asthma exacerbation, be aware of lactic acidosis that develops due to pathology and the added lactic acidosis from\nalbuterol\n,\nManifests as worsening respiratory distress, tachypnea, compensatory increase in ventilation\nEnsure adequate intravascular volume, but carefully volume expand as acute asthma may increase ADH secretion\n[8]\nRarely, clinically important\nhypokalemia\n, alongside hyperglycemia and leukocytosis, may result from repeated beta agonists and sympathomimetics\n[9]",
+          "tables": []
+        },
+        "Ipratropium[10]": {
+          "text": "0.25-0.5mg q20min x2-3 doses\nOnly shown to be effective in the acute setting to reduce hospitalization rates and improve lung function\nNo benefit of adding to inpatient, hospitalized regimens",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be given in the first hour with effects to reduce admission and rate of relapses\n[12]\nOptions include:\nDexamethasone\nAs effective as\nprednisone\nespecially in children\n[13]\nSingle dose dexamethasone may be equally effective to 5 days of\nprednisone\nin adults\n[14]\n0.6mg/kg IV or PO (max 16mg); 2nd dose 24hr later may be an equally good option as single dose therapy\n[15]\nPrednisone\n40-60mg /day x5d\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[16]\nOral and IV steroids are safe during pregnancy (though technically\nCategory C\n)\nInhaled corticosteroids may be considered as a rescue effort for severe asthma, given over a 90 min period\n[17]\n[18]\nNebulized\nfluticasone\n500 µg q15 min\nNebulized\nbudesonide\n800 µg q30 min",
+          "tables": []
+        },
+        "Magnesium": {
+          "text": "25-75 mg/kg over 30 min (2-3 g IV in most adults)\nDuration of action approximately 20 min, beware of hypotension in rapid administration due to smooth muscle relaxation mechanism\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[12]\nHigh-dose, prolonged magnesium may expedite discharge from the ED in non-infectious asthma in pediatric study\n[19]\n50 mg/kg/hr for 4 hours\nMAX 8,000 mg for 4 hours, monitor for cardiopulmonary complications\nNo interventions or discontinuations of magnesium sulfate due to adverse events in the study\nNNT of 2-3, for hospital discharge before 24 hours",
+          "tables": []
+        },
+        "Other_Beta-Agonists": {
+          "text": "Inhalation is preferred route of administration, but adequate drug delivery to small airways may be hampered in severe attacks\nTerbutaline and epinephrine can be administered IM/IV/SubQ\nNeed to monitor for arrhythmias, tachycardia, hypertension, cardiac ischemia\n[20]",
+          "tables": []
+        },
+        "Epinephrine": {
+          "text": "1:1000 0.01 mg/kg (max 0.5mg) subQ  or IM Q20min x3\nNebulized racemic epinephrine 0.03 mL/kg (2.25% solution) diluted in 3-5 mL NS via jet nebulizer q3-4hr PRN shown to be as safe as nebulized albuterol\n[21]\nIn severe, life-threatening asthma, IV epinephrine may be safe to consider, substantiated only by a case series of adults in 2003, however\n[22]\nEpinephrine infusion for adults at 5mcg/min (0.05mcg/kg/min for pediatrics) after requiring multiple epinephrine doses.",
+          "tables": []
+        },
+        "Terbutaline": {
+          "text": "Longer-acting beta2-agonist promoting bronchodilation\nCaution in elderly/CHF with greater potential for cardiotoxicity\n0.25mg subQ/IM q20min x 3\nThen followed by infusion at 1 µg/kg/min, titrated up by increments of 1 to max of 10 1 µg/kg/min\nElevated troponins q4hrs during infusion, more common in cTnI vs. cTnT, with EKG changes of ischemia should prompt re-evaluation for stopping infusion\n[23]\nSome experts have nebulized IV form\n[24]\n[25]\nTerbutaline\n5 mg IV\nMore expensive than albuterol",
+          "tables": []
+        },
+        "Non-invasive_ventilation": {
+          "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+          "tables": []
+        },
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Category C",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        },
+        {
+          "text": "fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Oxygen_PRN": {
+      "text": "Titrate to an arterial oxygen saturation >90% (>95% in pregnant women and with coexistent heart disease)",
+      "subsections": {
+        "Albuterol": {
+          "text": "Favor continuous nebulization to decrease the chance of admission when compared to intermittent dosing\n[4]\nNebulizer\nIntermittent: 2.5-5mg q20min x3, then 2.5-10mg q1-4hr as needed\nOR\nContinuous: 0.5mg/kg/hr (max 15mg/hr)\n[5]\nIf using intermitent nebs at home PTA, start on continuous\nMDI\n6-12 puffs q20min up to 4h, then q1-4hr as needed\nLevalbuterol is pure R-enantiomer, whereas racemic albuterol as above is 50:50 mix of R and S albuterol\nMost clinical studies fail to show benefit over racemic albuterol\n[6]\n[7]\nLevalbuterol at 5x the cost, may not warrant the small benefits seen in some studies\nIn severe asthma exacerbation, be aware of lactic acidosis that develops due to pathology and the added lactic acidosis from\nalbuterol\n,\nManifests as worsening respiratory distress, tachypnea, compensatory increase in ventilation\nEnsure adequate intravascular volume, but carefully volume expand as acute asthma may increase ADH secretion\n[8]\nRarely, clinically important\nhypokalemia\n, alongside hyperglycemia and leukocytosis, may result from repeated beta agonists and sympathomimetics\n[9]",
+          "tables": []
+        },
+        "Ipratropium[10]": {
+          "text": "0.25-0.5mg q20min x2-3 doses\nOnly shown to be effective in the acute setting to reduce hospitalization rates and improve lung function\nNo benefit of adding to inpatient, hospitalized regimens",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be given in the first hour with effects to reduce admission and rate of relapses\n[12]\nOptions include:\nDexamethasone\nAs effective as\nprednisone\nespecially in children\n[13]\nSingle dose dexamethasone may be equally effective to 5 days of\nprednisone\nin adults\n[14]\n0.6mg/kg IV or PO (max 16mg); 2nd dose 24hr later may be an equally good option as single dose therapy\n[15]\nPrednisone\n40-60mg /day x5d\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[16]\nOral and IV steroids are safe during pregnancy (though technically\nCategory C\n)\nInhaled corticosteroids may be considered as a rescue effort for severe asthma, given over a 90 min period\n[17]\n[18]\nNebulized\nfluticasone\n500 µg q15 min\nNebulized\nbudesonide\n800 µg q30 min",
+          "tables": []
+        },
+        "Magnesium": {
+          "text": "25-75 mg/kg over 30 min (2-3 g IV in most adults)\nDuration of action approximately 20 min, beware of hypotension in rapid administration due to smooth muscle relaxation mechanism\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[12]\nHigh-dose, prolonged magnesium may expedite discharge from the ED in non-infectious asthma in pediatric study\n[19]\n50 mg/kg/hr for 4 hours\nMAX 8,000 mg for 4 hours, monitor for cardiopulmonary complications\nNo interventions or discontinuations of magnesium sulfate due to adverse events in the study\nNNT of 2-3, for hospital discharge before 24 hours",
+          "tables": []
+        },
+        "Other_Beta-Agonists": {
+          "text": "Inhalation is preferred route of administration, but adequate drug delivery to small airways may be hampered in severe attacks\nTerbutaline and epinephrine can be administered IM/IV/SubQ\nNeed to monitor for arrhythmias, tachycardia, hypertension, cardiac ischemia\n[20]",
+          "tables": []
+        },
+        "Epinephrine": {
+          "text": "1:1000 0.01 mg/kg (max 0.5mg) subQ  or IM Q20min x3\nNebulized racemic epinephrine 0.03 mL/kg (2.25% solution) diluted in 3-5 mL NS via jet nebulizer q3-4hr PRN shown to be as safe as nebulized albuterol\n[21]\nIn severe, life-threatening asthma, IV epinephrine may be safe to consider, substantiated only by a case series of adults in 2003, however\n[22]\nEpinephrine infusion for adults at 5mcg/min (0.05mcg/kg/min for pediatrics) after requiring multiple epinephrine doses.",
+          "tables": []
+        },
+        "Terbutaline": {
+          "text": "Longer-acting beta2-agonist promoting bronchodilation\nCaution in elderly/CHF with greater potential for cardiotoxicity\n0.25mg subQ/IM q20min x 3\nThen followed by infusion at 1 µg/kg/min, titrated up by increments of 1 to max of 10 1 µg/kg/min\nElevated troponins q4hrs during infusion, more common in cTnI vs. cTnT, with EKG changes of ischemia should prompt re-evaluation for stopping infusion\n[23]\nSome experts have nebulized IV form\n[24]\n[25]\nTerbutaline\n5 mg IV\nMore expensive than albuterol",
+          "tables": []
+        },
+        "Non-invasive_ventilation": {
+          "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+          "tables": []
+        },
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Category C",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        },
+        {
+          "text": "fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Albuterol": {
+      "text": "Favor continuous nebulization to decrease the chance of admission when compared to intermittent dosing\n[4]\nNebulizer\nIntermittent: 2.5-5mg q20min x3, then 2.5-10mg q1-4hr as needed\nOR\nContinuous: 0.5mg/kg/hr (max 15mg/hr)\n[5]\nIf using intermitent nebs at home PTA, start on continuous\nMDI\n6-12 puffs q20min up to 4h, then q1-4hr as needed\nLevalbuterol is pure R-enantiomer, whereas racemic albuterol as above is 50:50 mix of R and S albuterol\nMost clinical studies fail to show benefit over racemic albuterol\n[6]\n[7]\nLevalbuterol at 5x the cost, may not warrant the small benefits seen in some studies\nIn severe asthma exacerbation, be aware of lactic acidosis that develops due to pathology and the added lactic acidosis from\nalbuterol\n,\nManifests as worsening respiratory distress, tachypnea, compensatory increase in ventilation\nEnsure adequate intravascular volume, but carefully volume expand as acute asthma may increase ADH secretion\n[8]\nRarely, clinically important\nhypokalemia\n, alongside hyperglycemia and leukocytosis, may result from repeated beta agonists and sympathomimetics\n[9]",
+      "subsections": {
+        "Ipratropium[10]": {
+          "text": "0.25-0.5mg q20min x2-3 doses\nOnly shown to be effective in the acute setting to reduce hospitalization rates and improve lung function\nNo benefit of adding to inpatient, hospitalized regimens",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be given in the first hour with effects to reduce admission and rate of relapses\n[12]\nOptions include:\nDexamethasone\nAs effective as\nprednisone\nespecially in children\n[13]\nSingle dose dexamethasone may be equally effective to 5 days of\nprednisone\nin adults\n[14]\n0.6mg/kg IV or PO (max 16mg); 2nd dose 24hr later may be an equally good option as single dose therapy\n[15]\nPrednisone\n40-60mg /day x5d\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[16]\nOral and IV steroids are safe during pregnancy (though technically\nCategory C\n)\nInhaled corticosteroids may be considered as a rescue effort for severe asthma, given over a 90 min period\n[17]\n[18]\nNebulized\nfluticasone\n500 µg q15 min\nNebulized\nbudesonide\n800 µg q30 min",
+          "tables": []
+        },
+        "Magnesium": {
+          "text": "25-75 mg/kg over 30 min (2-3 g IV in most adults)\nDuration of action approximately 20 min, beware of hypotension in rapid administration due to smooth muscle relaxation mechanism\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[12]\nHigh-dose, prolonged magnesium may expedite discharge from the ED in non-infectious asthma in pediatric study\n[19]\n50 mg/kg/hr for 4 hours\nMAX 8,000 mg for 4 hours, monitor for cardiopulmonary complications\nNo interventions or discontinuations of magnesium sulfate due to adverse events in the study\nNNT of 2-3, for hospital discharge before 24 hours",
+          "tables": []
+        },
+        "Other_Beta-Agonists": {
+          "text": "Inhalation is preferred route of administration, but adequate drug delivery to small airways may be hampered in severe attacks\nTerbutaline and epinephrine can be administered IM/IV/SubQ\nNeed to monitor for arrhythmias, tachycardia, hypertension, cardiac ischemia\n[20]",
+          "tables": []
+        },
+        "Epinephrine": {
+          "text": "1:1000 0.01 mg/kg (max 0.5mg) subQ  or IM Q20min x3\nNebulized racemic epinephrine 0.03 mL/kg (2.25% solution) diluted in 3-5 mL NS via jet nebulizer q3-4hr PRN shown to be as safe as nebulized albuterol\n[21]\nIn severe, life-threatening asthma, IV epinephrine may be safe to consider, substantiated only by a case series of adults in 2003, however\n[22]\nEpinephrine infusion for adults at 5mcg/min (0.05mcg/kg/min for pediatrics) after requiring multiple epinephrine doses.",
+          "tables": []
+        },
+        "Terbutaline": {
+          "text": "Longer-acting beta2-agonist promoting bronchodilation\nCaution in elderly/CHF with greater potential for cardiotoxicity\n0.25mg subQ/IM q20min x 3\nThen followed by infusion at 1 µg/kg/min, titrated up by increments of 1 to max of 10 1 µg/kg/min\nElevated troponins q4hrs during infusion, more common in cTnI vs. cTnT, with EKG changes of ischemia should prompt re-evaluation for stopping infusion\n[23]\nSome experts have nebulized IV form\n[24]\n[25]\nTerbutaline\n5 mg IV\nMore expensive than albuterol",
+          "tables": []
+        },
+        "Non-invasive_ventilation": {
+          "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+          "tables": []
+        },
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Category C",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        },
+        {
+          "text": "fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Should be given in the first hour with effects to reduce admission and rate of relapses\n[12]\nOptions include:\nDexamethasone\nAs effective as\nprednisone\nespecially in children\n[13]\nSingle dose dexamethasone may be equally effective to 5 days of\nprednisone\nin adults\n[14]\n0.6mg/kg IV or PO (max 16mg); 2nd dose 24hr later may be an equally good option as single dose therapy\n[15]\nPrednisone\n40-60mg /day x5d\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[16]\nOral and IV steroids are safe during pregnancy (though technically\nCategory C\n)\nInhaled corticosteroids may be considered as a rescue effort for severe asthma, given over a 90 min period\n[17]\n[18]\nNebulized\nfluticasone\n500 µg q15 min\nNebulized\nbudesonide\n800 µg q30 min",
+      "subsections": {
+        "Magnesium": {
+          "text": "25-75 mg/kg over 30 min (2-3 g IV in most adults)\nDuration of action approximately 20 min, beware of hypotension in rapid administration due to smooth muscle relaxation mechanism\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[12]\nHigh-dose, prolonged magnesium may expedite discharge from the ED in non-infectious asthma in pediatric study\n[19]\n50 mg/kg/hr for 4 hours\nMAX 8,000 mg for 4 hours, monitor for cardiopulmonary complications\nNo interventions or discontinuations of magnesium sulfate due to adverse events in the study\nNNT of 2-3, for hospital discharge before 24 hours",
+          "tables": []
+        },
+        "Other_Beta-Agonists": {
+          "text": "Inhalation is preferred route of administration, but adequate drug delivery to small airways may be hampered in severe attacks\nTerbutaline and epinephrine can be administered IM/IV/SubQ\nNeed to monitor for arrhythmias, tachycardia, hypertension, cardiac ischemia\n[20]",
+          "tables": []
+        },
+        "Epinephrine": {
+          "text": "1:1000 0.01 mg/kg (max 0.5mg) subQ  or IM Q20min x3\nNebulized racemic epinephrine 0.03 mL/kg (2.25% solution) diluted in 3-5 mL NS via jet nebulizer q3-4hr PRN shown to be as safe as nebulized albuterol\n[21]\nIn severe, life-threatening asthma, IV epinephrine may be safe to consider, substantiated only by a case series of adults in 2003, however\n[22]\nEpinephrine infusion for adults at 5mcg/min (0.05mcg/kg/min for pediatrics) after requiring multiple epinephrine doses.",
+          "tables": []
+        },
+        "Terbutaline": {
+          "text": "Longer-acting beta2-agonist promoting bronchodilation\nCaution in elderly/CHF with greater potential for cardiotoxicity\n0.25mg subQ/IM q20min x 3\nThen followed by infusion at 1 µg/kg/min, titrated up by increments of 1 to max of 10 1 µg/kg/min\nElevated troponins q4hrs during infusion, more common in cTnI vs. cTnT, with EKG changes of ischemia should prompt re-evaluation for stopping infusion\n[23]\nSome experts have nebulized IV form\n[24]\n[25]\nTerbutaline\n5 mg IV\nMore expensive than albuterol",
+          "tables": []
+        },
+        "Non-invasive_ventilation": {
+          "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+          "tables": []
+        },
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Category C",
+          "url": "https://wikem.org/wiki/Drug_pregnancy_categories"
+        },
+        {
+          "text": "fluticasone",
+          "url": "https://wikem.org/wiki/Fluticasone_propionate"
+        },
+        {
+          "text": "budesonide",
+          "url": "https://wikem.org/wiki/Budesonide"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Magnesium": {
+      "text": "25-75 mg/kg over 30 min (2-3 g IV in most adults)\nDuration of action approximately 20 min, beware of hypotension in rapid administration due to smooth muscle relaxation mechanism\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[12]\nHigh-dose, prolonged magnesium may expedite discharge from the ED in non-infectious asthma in pediatric study\n[19]\n50 mg/kg/hr for 4 hours\nMAX 8,000 mg for 4 hours, monitor for cardiopulmonary complications\nNo interventions or discontinuations of magnesium sulfate due to adverse events in the study\nNNT of 2-3, for hospital discharge before 24 hours",
+      "subsections": {
+        "Other_Beta-Agonists": {
+          "text": "Inhalation is preferred route of administration, but adequate drug delivery to small airways may be hampered in severe attacks\nTerbutaline and epinephrine can be administered IM/IV/SubQ\nNeed to monitor for arrhythmias, tachycardia, hypertension, cardiac ischemia\n[20]",
+          "tables": []
+        },
+        "Epinephrine": {
+          "text": "1:1000 0.01 mg/kg (max 0.5mg) subQ  or IM Q20min x3\nNebulized racemic epinephrine 0.03 mL/kg (2.25% solution) diluted in 3-5 mL NS via jet nebulizer q3-4hr PRN shown to be as safe as nebulized albuterol\n[21]\nIn severe, life-threatening asthma, IV epinephrine may be safe to consider, substantiated only by a case series of adults in 2003, however\n[22]\nEpinephrine infusion for adults at 5mcg/min (0.05mcg/kg/min for pediatrics) after requiring multiple epinephrine doses.",
+          "tables": []
+        },
+        "Terbutaline": {
+          "text": "Longer-acting beta2-agonist promoting bronchodilation\nCaution in elderly/CHF with greater potential for cardiotoxicity\n0.25mg subQ/IM q20min x 3\nThen followed by infusion at 1 µg/kg/min, titrated up by increments of 1 to max of 10 1 µg/kg/min\nElevated troponins q4hrs during infusion, more common in cTnI vs. cTnT, with EKG changes of ischemia should prompt re-evaluation for stopping infusion\n[23]\nSome experts have nebulized IV form\n[24]\n[25]\nTerbutaline\n5 mg IV\nMore expensive than albuterol",
+          "tables": []
+        },
+        "Non-invasive_ventilation": {
+          "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+          "tables": []
+        },
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Other_Beta-Agonists": {
+      "text": "Inhalation is preferred route of administration, but adequate drug delivery to small airways may be hampered in severe attacks\nTerbutaline and epinephrine can be administered IM/IV/SubQ\nNeed to monitor for arrhythmias, tachycardia, hypertension, cardiac ischemia\n[20]",
+      "subsections": {
+        "Epinephrine": {
+          "text": "1:1000 0.01 mg/kg (max 0.5mg) subQ  or IM Q20min x3\nNebulized racemic epinephrine 0.03 mL/kg (2.25% solution) diluted in 3-5 mL NS via jet nebulizer q3-4hr PRN shown to be as safe as nebulized albuterol\n[21]\nIn severe, life-threatening asthma, IV epinephrine may be safe to consider, substantiated only by a case series of adults in 2003, however\n[22]\nEpinephrine infusion for adults at 5mcg/min (0.05mcg/kg/min for pediatrics) after requiring multiple epinephrine doses.",
+          "tables": []
+        },
+        "Terbutaline": {
+          "text": "Longer-acting beta2-agonist promoting bronchodilation\nCaution in elderly/CHF with greater potential for cardiotoxicity\n0.25mg subQ/IM q20min x 3\nThen followed by infusion at 1 µg/kg/min, titrated up by increments of 1 to max of 10 1 µg/kg/min\nElevated troponins q4hrs during infusion, more common in cTnI vs. cTnT, with EKG changes of ischemia should prompt re-evaluation for stopping infusion\n[23]\nSome experts have nebulized IV form\n[24]\n[25]\nTerbutaline\n5 mg IV\nMore expensive than albuterol",
+          "tables": []
+        },
+        "Non-invasive_ventilation": {
+          "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+          "tables": []
+        },
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Non-invasive_ventilation": {
+      "text": "Consider as alternative to intubation or pre-oxygenation prior to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMay drive nebulized treatments deeper into airways\nMaximize inspiratory support\nInspiratory pressure 8\nPEEP 0-3, only enough to match patient's auto-PEEP",
+      "subsections": {
+        "Intubation_and_Invasive_Ventilation": {
+          "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+          "tables": []
+        },
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Intubation_and_Invasive_Ventilation": {
+      "text": "Relative indications include worsening hypercapnea, exhaustion, altered mental status, CO\n2\nnarcosis without any specific number endpoint on blood gases, refractory hypoxemia, status asthmaticus\nConsider induction with\nKetamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine\nis the preferred induction agent for intubation in an asthmatic.\nDosing 1-2mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\npropofol\n, or\nketamine\n(1mg/kg/hr)\nAvoid long-term administration of neuromuscular blocking agents such as succinylcholine for prolonged periods in ICU (>12 hours), if possible, given higher rates of complication\n[26]\nA large ET tube is preferred (>8.0 mm)\nInitial\nventilation settings\n- severe asthma\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping\nRR ~ 8-10 in adults\nGoal: obtaining a pH above 7.2 and plateau pressure below 30 cmH\n2\nO\n[27]\nIf Pplat >30 must lower respiratory rate\nIf Pplat under 30 cannot be maintained, other causes of decreased respiratory system compliance must be considered (i.e. pneumothorax, misplaced endotracheal tube, pulmonary edema, etc.)\nMay require \"permissive hypoventilation\"\nSacrifice MV for full exhalation\nLower I:E ratio\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[28]\nTidal volume 6-8mL/kg ideal wt\nPEEP 0-5 cmH\n2\nO\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMonitor for breath stacking (inspiratory holds, plateau pressures)\nMost common cause of post-intubation hypotension\n[29]\nCheck ventilator tracing",
+      "subsections": {
+        "Asthma_Arrest": {
+          "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+          "tables": []
+        },
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Asthma_Arrest": {
+      "text": "Disconnect ventilator\nDecompress chest\nConsider empiric bilateral\nchest tubes\nor rapid ultrasound to identify\npneumothorax\nIVF\nbolus",
+      "subsections": {
+        "Antibiotics": {
+          "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+          "tables": []
+        },
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "chest tubes",
+          "url": "https://wikem.org/wiki/Chest_tube"
+        },
+        {
+          "text": "pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Antibiotics": {
+      "text": "Administration of antibiotics only when physical exam or ancillary testing supportive of bacterial infection\nAntibiotics may be considered for select patients and may improve symptoms and peak expiratory flow, further understanding needed to identify which patients may be most likely to benefit\n[30]",
+      "subsections": {
+        "Heliox": {
+          "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+          "tables": []
+        },
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Heliox": {
+      "text": "60 to 80% helium is blended with 20 to 40% oxygen\nHeliox improves laminar flow and may increase the diffusion of carbon dioxide by improving ventilation\n[31]",
+      "subsections": {
+        "Leukotriene_Modifiers": {
+          "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Leukotriene_Modifiers": {
+      "text": "Not\nindicated for acute treatment\nZafirlukast (20 mg bid) and\nmontelukast\n(10 mg/day)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "montelukast",
+          "url": "https://wikem.org/wiki/Montelukast"
+        }
+      ]
+    },
+    "Outpatient_Treatment": {
+      "text": "New guidelines by Global Initiative for Asthma (GINA) 2019 endorse the use of an ICS-LABA combined product as both rescue and maintenance inhaler based off of a 2018 meta analysis\n[32]\nGINA recommends budesonide or beclomethasone as the inhaled corticosteroid, and formoterol as the long acting beta agonist. The only U.S. formulation meeting this recommendation is\nSymbicort\n(budesonide-formoterol).",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Severity": "Mild intermittent, > 80% peak flow",
+            "Day Sx": "< 2/wk",
+            "Night Sx": "< 2/mo",
+            "Treatment (WHO 2008 Formulary)[33]": "AlbuterolMDI 100-200 mcg PRN QID"
+          },
+          {
+            "Severity": "Mild persistent, > 80% peak flow",
+            "Day Sx": ">2/wk",
+            "Night Sx": ">2/mo",
+            "Treatment (WHO 2008 Formulary)[33]": "AlbuterolMDI 100-200 mcg PRN QIDANDBeclometasone100-250 mcg bid"
+          },
+          {
+            "Severity": "Moderate persistent, 60-80% peak flow",
+            "Day Sx": "Daily with exacerbations weekly",
+            "Night Sx": "> 1/wk",
+            "Treatment (WHO 2008 Formulary)[33]": "AlbuterolMDI 100-200 mcg PRN QIDANDBeclometasone100-500 mcg BIDANDSalmeterolinhaled 50 mcg bid"
+          },
+          {
+            "Severity": "Severe persistent, < 60% peak flow",
+            "Day Sx": "Continuous daily",
+            "Night Sx": "Frequent",
+            "Treatment (WHO 2008 Formulary)[33]": "AlbuterolMDI 100-200 mcg PRN QIDANDBeclometasone1mg BID (high dose)ANDSalmeterolinhaled 50 mcg BIDAND (if needed)theophylline, leukotriene antagonist, or POprednisolonewith taper"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Symbicort",
+          "url": "https://wikem.org/wiki/Symbicort"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Discharge": {
+          "text": "If symptoms resolve\nOften, patients will still have mild wheezing, but should have complete resolution of tachypnea, hypoxia, and work of breathing if being discharged\nA short course of glucocorticoids decreases chance of relapse\n[34]\n-\nprednisone\nin adults (40-60 mg/day for 5-10 days without tapering) or dexamethasone (0.6mg/kg) in children",
+          "tables": []
+        },
+        "Admit": {
+          "text": "If symptoms persist or are severe\nClassically disposition is based on peak flow measurements - however, these measurements are often not available in the ED\nPredicted = (30 x age (yrs)) + 30\nPEF >70% predicted → high likelihood of successful discharge\nPEF <40% predicted → should be admitted",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Discharge": {
+      "text": "If symptoms resolve\nOften, patients will still have mild wheezing, but should have complete resolution of tachypnea, hypoxia, and work of breathing if being discharged\nA short course of glucocorticoids decreases chance of relapse\n[34]\n-\nprednisone\nin adults (40-60 mg/day for 5-10 days without tapering) or dexamethasone (0.6mg/kg) in children",
+      "subsections": {
+        "Admit": {
+          "text": "If symptoms persist or are severe\nClassically disposition is based on peak flow measurements - however, these measurements are often not available in the ED\nPredicted = (30 x age (yrs)) + 30\nPEF >70% predicted → high likelihood of successful discharge\nPEF <40% predicted → should be admitted",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        }
+      ]
+    },
+    "Admit": {
+      "text": "If symptoms persist or are severe\nClassically disposition is based on peak flow measurements - however, these measurements are often not available in the ED\nPredicted = (30 x age (yrs)) + 30\nPEF >70% predicted → high likelihood of successful discharge\nPEF <40% predicted → should be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Asthma (peds)\nModified pulmonary index score\nVentilation settings\nDeterioration after intubation\nCOPD exacerbation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma (peds)",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Modified pulmonary index score",
+          "url": "https://wikem.org/wiki/Modified_pulmonary_index_score"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "COPD exacerbation",
+          "url": "https://wikem.org/wiki/COPD_exacerbation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Internet Book of Critical Care - Asthma\nEMCrit - The Severe Asthmatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

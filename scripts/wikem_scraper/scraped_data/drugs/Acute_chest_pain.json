@@ -1,0 +1,552 @@
+{
+  "drug_name": "Acute_chest_pain",
+  "url": "https://wikem.org/wiki/Acute_chest_pain",
+  "scraped_at": "2026-01-10T07:46:50.662843",
+  "sections": {
+    "Intro": {
+      "text": "See\nAcute coronary syndrome (main)\nfor ACS specific workup and risk stratification; see\nChest pain (peds)\nfor pediatric patients.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Risk_of_Acute_Coronary_Syndrome": {
+          "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[1]\n[2]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[3]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[4]\nLess likely to undergo cardiac catheterization\n[4]\nLess likely to receive timely reperfusion therapy\n[4]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[4]\nalthough some studies have found fewer differences in presentation\n[5]\nMore likely to delay presentation\n[4]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[4]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_of_Acute_Coronary_Syndrome": {
+      "text": "Clinical factors that\nincrease\nlikelihood of ACS/AMI:\n[1]\n[2]\nChest pain radiating to both arms > R arm > L arm\nChest pain associated with diaphoresis\nChest pain associated with nausea OR vomiting\nChest pain with exertion that is improved with rest\nClinical factors that\ndecrease\nlikelihood of ACS/AMI:\n[3]\nPleuritic chest pain\nPositional chest pain\nSharp, stabbing chest pain\nChest pain reproducible with palpation\nGender differences in ACS\nWomen with ACS:\nLess likely to be treated with guideline-directed medical therapies\n[4]\nLess likely to undergo cardiac catheterization\n[4]\nLess likely to receive timely reperfusion therapy\n[4]\nMore likely to report fatigue, dyspnea, indigestion, nausea or vomiting, palpitations, or weakness,\n[4]\nalthough some studies have found fewer differences in presentation\n[5]\nMore likely to delay presentation\n[4]\nMen with ACS:\nMore likely to report central chest pain\nFactors associated with delayed presentation\n[4]\nFemale sex\nOlder age\nBlack or Hispanic race\nLow educational achievement\nLow socioeconomic status",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Chest_pain": {
+      "text": "",
+      "subsections": {
+        "Critical": {
+          "text": "Acute coronary syndromes\n(ACS)\nSTEMI\nNon-STEMI\nUnstable angina\nAortic dissection\nCardiac tamponade\nCoronary artery dissection\nEsophageal perforation\n(Boerhhaave's syndrome)\nPulmonary embolism\nTension pneumothorax",
+          "tables": []
+        },
+        "Emergent": {
+          "text": "Cholecystitis\nCocaine-associated chest pain\nMediastinitis\nMyocardial rupture\nMyocarditis\nPancreatitis\nPericarditis\nPneumothorax",
+          "tables": []
+        },
+        "Nonemergent": {
+          "text": "Aortic stenosis\nArthritis\nAsthma\nexacerbation\nBiliary colic\nCostochondritis\nEsophageal spasm\nGastroesophageal reflux disease\nHerpes zoster\n/ Postherpetic Neuralgia\nHypertrophic cardiomyopathy\nHyperventilation\nMitral valve prolapse\nPanic attack\nPeptic ulcer disease\nPleuritis\nPneumomediastinum\nPneumonia\nRib fracture\nStable angina\nThoracic outlet syndrome\nValvular heart disease\nMuscle sprain\nPsychologic / Somatic Chest Pain\nSpinal Root Compression\nTumor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute coronary syndromes",
+          "url": "https://wikem.org/wiki/Acute_coronary_syndrome"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "Non-STEMI",
+          "url": "https://wikem.org/wiki/Non_ST-Elevation_Myocardial_Infarction_(NSTEMI)"
+        },
+        {
+          "text": "Unstable angina",
+          "url": "https://wikem.org/wiki/Unstable_angina"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Cardiac_tamponade"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Esophageal perforation",
+          "url": "https://wikem.org/wiki/Esophageal_perforation"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Tension pneumothorax",
+          "url": "https://wikem.org/wiki/Tension_pneumothorax"
+        },
+        {
+          "text": "Cholecystitis",
+          "url": "https://wikem.org/wiki/Cholecystitis"
+        },
+        {
+          "text": "Cocaine-associated chest pain",
+          "url": "https://wikem.org/wiki/Cocaine-associated_chest_pain"
+        },
+        {
+          "text": "Mediastinitis",
+          "url": "https://wikem.org/wiki/Mediastinitis"
+        },
+        {
+          "text": "Myocardial rupture",
+          "url": "https://wikem.org/wiki/Myocardial_rupture"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Aortic stenosis",
+          "url": "https://wikem.org/wiki/Aortic_stenosis"
+        },
+        {
+          "text": "Arthritis",
+          "url": "https://wikem.org/wiki/Arthritis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Biliary colic",
+          "url": "https://wikem.org/wiki/Biliary_colic"
+        },
+        {
+          "text": "Costochondritis",
+          "url": "https://wikem.org/wiki/Costochondritis"
+        },
+        {
+          "text": "Esophageal spasm",
+          "url": "https://wikem.org/wiki/Esophageal_spasm"
+        },
+        {
+          "text": "Gastroesophageal reflux disease",
+          "url": "https://wikem.org/wiki/Gastroesophageal_reflux_disease"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Hypertrophic cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_cardiomyopathy"
+        },
+        {
+          "text": "Hyperventilation",
+          "url": "https://wikem.org/wiki/Hyperventilation"
+        },
+        {
+          "text": "Mitral valve prolapse",
+          "url": "https://wikem.org/wiki/Mitral_valve_prolapse"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Peptic ulcer disease",
+          "url": "https://wikem.org/wiki/Peptic_ulcer_disease"
+        },
+        {
+          "text": "Pleuritis",
+          "url": "https://wikem.org/wiki/Pleuritis"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Rib fracture",
+          "url": "https://wikem.org/wiki/Rib_fracture"
+        },
+        {
+          "text": "Stable angina",
+          "url": "https://wikem.org/wiki/Stable_angina"
+        },
+        {
+          "text": "Thoracic outlet syndrome",
+          "url": "https://wikem.org/wiki/Thoracic_outlet_syndrome"
+        },
+        {
+          "text": "Valvular heart disease",
+          "url": "https://wikem.org/wiki/Valvular_heart_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Younger_patients/less_concerning_story": {
+          "text": "ECG\nCXR",
+          "tables": []
+        },
+        "Older_patients/more_concerning_story": {
+          "text": "ECG\nCBC\nChemistry\nPT/PTT\nTroponin\nCXR\nConsider:\nBNP\nD-dimer\nvs. CTA chest",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Consider differential diagnosis (see above) and rule out emergent causes\nACS\n: Consider using\nHEART Pathway\nPE\n: See\nPulmonary embolism by pretest probability",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pulmonary embolism by pretest probability",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Workup_by_Pretest_Probability"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "",
+      "subsections": {
+        "Younger_patients/less_concerning_story": {
+          "text": "ECG\nCXR",
+          "tables": []
+        },
+        "Older_patients/more_concerning_story": {
+          "text": "ECG\nCBC\nChemistry\nPT/PTT\nTroponin\nCXR\nConsider:\nBNP\nD-dimer\nvs. CTA chest",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Consider differential diagnosis (see above) and rule out emergent causes\nACS\n: Consider using\nHEART Pathway\nPE\n: See\nPulmonary embolism by pretest probability",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "Troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "D-dimer",
+          "url": "https://wikem.org/wiki/D-dimer"
+        },
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pulmonary embolism by pretest probability",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Workup_by_Pretest_Probability"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Consider differential diagnosis (see above) and rule out emergent causes\nACS\n: Consider using\nHEART Pathway\nPE\n: See\nPulmonary embolism by pretest probability",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACS",
+          "url": "https://wikem.org/wiki/ACS"
+        },
+        {
+          "text": "PE",
+          "url": "https://wikem.org/wiki/PE"
+        },
+        {
+          "text": "Pulmonary embolism by pretest probability",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism#Workup_by_Pretest_Probability"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Based on underlying cause",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Based on underlying cause\nHEART score may assist in determining low risk discharge vs admission for further ACS evaluation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Acute Coronary Syndrome (Main)\nChest pain\nChest Pain (Peds)\nCocaine chest pain\nHEART Score",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute Coronary Syndrome (Main)",
+          "url": "https://wikem.org/wiki/Acute_Coronary_Syndrome_(Main)"
+        },
+        {
+          "text": "Chest pain",
+          "url": "https://wikem.org/wiki/Chest_pain"
+        },
+        {
+          "text": "Chest Pain (Peds)",
+          "url": "https://wikem.org/wiki/Chest_Pain_(Peds)"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "HEART Score",
+          "url": "https://wikem.org/wiki/HEART_Score"
+        }
+      ]
+    }
+  }
+}

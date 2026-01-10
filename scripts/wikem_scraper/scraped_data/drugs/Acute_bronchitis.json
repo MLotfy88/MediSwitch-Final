@@ -1,0 +1,365 @@
+{
+  "drug_name": "Acute_bronchitis",
+  "url": "https://wikem.org/wiki/Acute_bronchitis",
+  "scraped_at": "2026-01-10T07:46:51.822483",
+  "sections": {
+    "Background": {
+      "text": "Inflammation of large airways of the lung\nPneumonia\nmust be excluded by clinical evaluation or by CXR\nIf all 5 are negative pneumonia is safely excluded:\nHR >100\nRR >24\nTemperature >38 (100.4)\nExam findings consistent with focal consolidation, egophony, or fremitus\nAge >64yr",
+      "subsections": {
+        "Epidemiology": {
+          "text": "Viruses are most common cause\nInfluenza\n, paraflu,\nRSV\n,\ncoronavirus\n,\nadenovirus\n,\nrhinovirus\nBacterial cause occurs in <10% of cases\nMycoplasma\n,\nC. pneumoniae\n,\npertussis\n(1% of bronchitis cases)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "C. pneumoniae",
+          "url": "https://wikem.org/wiki/C._pneumoniae"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        }
+      ]
+    },
+    "Epidemiology": {
+      "text": "Viruses are most common cause\nInfluenza\n, paraflu,\nRSV\n,\ncoronavirus\n,\nadenovirus\n,\nrhinovirus\nBacterial cause occurs in <10% of cases\nMycoplasma\n,\nC. pneumoniae\n,\npertussis\n(1% of bronchitis cases)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "RSV",
+          "url": "https://wikem.org/wiki/RSV"
+        },
+        {
+          "text": "coronavirus",
+          "url": "https://wikem.org/wiki/Coronavirus"
+        },
+        {
+          "text": "adenovirus",
+          "url": "https://wikem.org/wiki/Adenovirus"
+        },
+        {
+          "text": "rhinovirus",
+          "url": "https://wikem.org/wiki/Rhinovirus"
+        },
+        {
+          "text": "Mycoplasma",
+          "url": "https://wikem.org/wiki/Mycoplasma"
+        },
+        {
+          "text": "C. pneumoniae",
+          "url": "https://wikem.org/wiki/C._pneumoniae"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Cough\n, with or without sputum, without evidence of\npneumonia\n, common cold, or\nasthma\nCough >5d is more suggestive of bronchitis than common cold\nCough may persist for 10-20d\nCough >3wk suggests\nasthma\n,\nCOPD\n,\npertussis\n, postnasal drip,\nGERD\nOften follows\nURI",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "COPD",
+          "url": "https://wikem.org/wiki/COPD"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Cough": {
+      "text": "",
+      "subsections": {
+        "Acute_(<_3_wks)": {
+          "text": "URI\n(rhinitis,\nsinusitis\n,\npertussis\n)\nLRI (\nbronchitis\n,\npneumonia\n)\nInfluenza\nAllergy\nAsthma\nEnvironmental irritants\nTransient airway hyperresponsiveness\nForeign body\nSARS",
+          "tables": []
+        },
+        "Chronic_(>_8_wks)": {
+          "text": "Postinfectious;\npertussis\nSmoking and/or chronic\nbronchitis\nPostnasal discharge\nAsthma\nGERD\nACEI\n/ARB\nCHF\nLung cancer or intrathoracic mass\nEmphysema\nInterstitial lung disease\nPsychiatric",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "Allergy",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "SARS",
+          "url": "https://wikem.org/wiki/SARS"
+        },
+        {
+          "text": "pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "bronchitis",
+          "url": "https://wikem.org/wiki/Bronchitis"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Emphysema",
+          "url": "https://wikem.org/wiki/Emphysema"
+        },
+        {
+          "text": "Interstitial lung disease",
+          "url": "https://wikem.org/wiki/Interstitial_lung_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nCXR\nonly indicated in elderly or suspicion for\npneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "American_College_of_Chest_Physicians_2006_Guidelines": {
+          "text": "Routine treatment with antibiotics is NOT necessary\nAntitussive agents can be useful (\ncodeine\n,\ndextromethorphan\n)\nIn individuals without comorbidities, antibiotics have NO IMPROVEMENT in symptoms or duration\n[2]\nDo not treat patients with antibiotics unless:\n[3]\nolder than 65 years\nRecent hospitalizations in the past year\nDiabetes\nOn chronic steroids\nIf treating based upon the above criteria then a 5 day treatment is preferred\n[4]\nBronchodilators only useful if there is wheezing\nDespite the recommendations for no antibiotics in the non complicated course of acute bronchitis, patients continue to receive antibiotic prescriptions\n[5]\nOral Steroids do not reduce duration or severity of symptoms in patients with acute bronchitis\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        }
+      ]
+    },
+    "American_College_of_Chest_Physicians_2006_Guidelines": {
+      "text": "Routine treatment with antibiotics is NOT necessary\nAntitussive agents can be useful (\ncodeine\n,\ndextromethorphan\n)\nIn individuals without comorbidities, antibiotics have NO IMPROVEMENT in symptoms or duration\n[2]\nDo not treat patients with antibiotics unless:\n[3]\nolder than 65 years\nRecent hospitalizations in the past year\nDiabetes\nOn chronic steroids\nIf treating based upon the above criteria then a 5 day treatment is preferred\n[4]\nBronchodilators only useful if there is wheezing\nDespite the recommendations for no antibiotics in the non complicated course of acute bronchitis, patients continue to receive antibiotic prescriptions\n[5]\nOral Steroids do not reduce duration or severity of symptoms in patients with acute bronchitis\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "codeine",
+          "url": "https://wikem.org/wiki/Codeine"
+        },
+        {
+          "text": "dextromethorphan",
+          "url": "https://wikem.org/wiki/Dextromethorphan"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Typically outpatient",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

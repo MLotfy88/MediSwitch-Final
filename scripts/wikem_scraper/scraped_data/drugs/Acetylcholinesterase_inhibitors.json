@@ -1,0 +1,24 @@
+{
+  "drug_name": "Acetylcholinesterase_inhibitors",
+  "url": "https://wikem.org/wiki/Acetylcholinesterase_inhibitors",
+  "scraped_at": "2026-01-10T07:46:40.019805",
+  "sections": {
+    "Intro": {
+      "text": "Inhibit acetylcholinesterase, which breaks down acetylcholine, thereby increasing level and duration of action of acetylcholine in synapses\nPhysostigmine\nPyridostigmine\nNeostigmine\nOrganophosphates\n,\ncarbamates\nCaffeine\nDonepezil\n(Alzheimer's treatment) - common side effects are nausea & vomiting, diarrhea, difficulty sleeping, and muscle cramping\nEdrophonium\n(Myasthenic crisis, diagnosis)\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cholinergic crisis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cholinergic crisis",
+          "url": "https://wikem.org/wiki/Cholinergic_crisis"
+        }
+      ]
+    }
+  }
+}

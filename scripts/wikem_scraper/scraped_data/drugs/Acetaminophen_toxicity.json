@@ -1,0 +1,1149 @@
+{
+  "drug_name": "Acetaminophen_toxicity",
+  "url": "https://wikem.org/wiki/Acetaminophen_toxicity",
+  "scraped_at": "2026-01-10T07:46:38.840484",
+  "sections": {
+    "Background": {
+      "text": "Includes Tylenol and numerous brands and products including\nacetaminophen\nNow the most common cause of acute liver failure in the US\n[1]",
+      "subsections": {
+        "Maximal_acetaminophen_daily_doses": {
+          "text": "Adults: 4 g/day\nPeds: 75 mg/kg/day",
+          "tables": []
+        },
+        "Toxic_dose": {
+          "text": ">10 g or >200 mg/kg as single ingestion or over 24hr period\nOR\n>6 g or >150 mg/kg per 24hr period x 2days\n200 mg/kg in healthy children 1-6 years of age",
+          "tables": []
+        },
+        "The_150_Rule": {
+          "text": "Toxic dose is 150 mg/kg\nGive\nNAC\nif level is >150 mcg/mL four hours post-ingestion\nInitial loading dose of\nNAC\nis 150 mg/kg IV (140 mg/kg PO)",
+          "tables": []
+        },
+        "Mechanism_of_action": {
+          "text": "Poorly understood\nPossibly through inhibition of Cyclooxygenase-3 (COX-3)\nDecreases synthesis of prostaglandins\nAntipyresis through inhibition of hypothalamic heat center",
+          "tables": []
+        },
+        "Pharmacokinetics": {
+          "text": "A - Rapid and near complete absorption\nD - Vd = 0.95 L/kg\nM - T 1/2 = 1.5-2 hrs\n40-60% - Glucuronidation\n20-40% - Sulfuronidation\n5-10% - Metabolism through CYP450/CYP2E1\n(Forms NAPQI)\n[2]\nMetabolized by first-order kinetics\nE - Conjugated and unconjugated excreted through kidneys",
+          "tables": []
+        },
+        "Toxicologic_Pathophysiology": {
+          "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "acetaminophen",
+          "url": "https://wikem.org/wiki/Acetaminophen"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Maximal_acetaminophen_daily_doses": {
+      "text": "Adults: 4 g/day\nPeds: 75 mg/kg/day",
+      "subsections": {
+        "Toxic_dose": {
+          "text": ">10 g or >200 mg/kg as single ingestion or over 24hr period\nOR\n>6 g or >150 mg/kg per 24hr period x 2days\n200 mg/kg in healthy children 1-6 years of age",
+          "tables": []
+        },
+        "The_150_Rule": {
+          "text": "Toxic dose is 150 mg/kg\nGive\nNAC\nif level is >150 mcg/mL four hours post-ingestion\nInitial loading dose of\nNAC\nis 150 mg/kg IV (140 mg/kg PO)",
+          "tables": []
+        },
+        "Mechanism_of_action": {
+          "text": "Poorly understood\nPossibly through inhibition of Cyclooxygenase-3 (COX-3)\nDecreases synthesis of prostaglandins\nAntipyresis through inhibition of hypothalamic heat center",
+          "tables": []
+        },
+        "Pharmacokinetics": {
+          "text": "A - Rapid and near complete absorption\nD - Vd = 0.95 L/kg\nM - T 1/2 = 1.5-2 hrs\n40-60% - Glucuronidation\n20-40% - Sulfuronidation\n5-10% - Metabolism through CYP450/CYP2E1\n(Forms NAPQI)\n[2]\nMetabolized by first-order kinetics\nE - Conjugated and unconjugated excreted through kidneys",
+          "tables": []
+        },
+        "Toxicologic_Pathophysiology": {
+          "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Toxic_dose": {
+      "text": ">10 g or >200 mg/kg as single ingestion or over 24hr period\nOR\n>6 g or >150 mg/kg per 24hr period x 2days\n200 mg/kg in healthy children 1-6 years of age",
+      "subsections": {
+        "The_150_Rule": {
+          "text": "Toxic dose is 150 mg/kg\nGive\nNAC\nif level is >150 mcg/mL four hours post-ingestion\nInitial loading dose of\nNAC\nis 150 mg/kg IV (140 mg/kg PO)",
+          "tables": []
+        },
+        "Mechanism_of_action": {
+          "text": "Poorly understood\nPossibly through inhibition of Cyclooxygenase-3 (COX-3)\nDecreases synthesis of prostaglandins\nAntipyresis through inhibition of hypothalamic heat center",
+          "tables": []
+        },
+        "Pharmacokinetics": {
+          "text": "A - Rapid and near complete absorption\nD - Vd = 0.95 L/kg\nM - T 1/2 = 1.5-2 hrs\n40-60% - Glucuronidation\n20-40% - Sulfuronidation\n5-10% - Metabolism through CYP450/CYP2E1\n(Forms NAPQI)\n[2]\nMetabolized by first-order kinetics\nE - Conjugated and unconjugated excreted through kidneys",
+          "tables": []
+        },
+        "Toxicologic_Pathophysiology": {
+          "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "The_150_Rule": {
+      "text": "Toxic dose is 150 mg/kg\nGive\nNAC\nif level is >150 mcg/mL four hours post-ingestion\nInitial loading dose of\nNAC\nis 150 mg/kg IV (140 mg/kg PO)",
+      "subsections": {
+        "Mechanism_of_action": {
+          "text": "Poorly understood\nPossibly through inhibition of Cyclooxygenase-3 (COX-3)\nDecreases synthesis of prostaglandins\nAntipyresis through inhibition of hypothalamic heat center",
+          "tables": []
+        },
+        "Pharmacokinetics": {
+          "text": "A - Rapid and near complete absorption\nD - Vd = 0.95 L/kg\nM - T 1/2 = 1.5-2 hrs\n40-60% - Glucuronidation\n20-40% - Sulfuronidation\n5-10% - Metabolism through CYP450/CYP2E1\n(Forms NAPQI)\n[2]\nMetabolized by first-order kinetics\nE - Conjugated and unconjugated excreted through kidneys",
+          "tables": []
+        },
+        "Toxicologic_Pathophysiology": {
+          "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Mechanism_of_action": {
+      "text": "Poorly understood\nPossibly through inhibition of Cyclooxygenase-3 (COX-3)\nDecreases synthesis of prostaglandins\nAntipyresis through inhibition of hypothalamic heat center",
+      "subsections": {
+        "Pharmacokinetics": {
+          "text": "A - Rapid and near complete absorption\nD - Vd = 0.95 L/kg\nM - T 1/2 = 1.5-2 hrs\n40-60% - Glucuronidation\n20-40% - Sulfuronidation\n5-10% - Metabolism through CYP450/CYP2E1\n(Forms NAPQI)\n[2]\nMetabolized by first-order kinetics\nE - Conjugated and unconjugated excreted through kidneys",
+          "tables": []
+        },
+        "Toxicologic_Pathophysiology": {
+          "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Pharmacokinetics": {
+      "text": "A - Rapid and near complete absorption\nD - Vd = 0.95 L/kg\nM - T 1/2 = 1.5-2 hrs\n40-60% - Glucuronidation\n20-40% - Sulfuronidation\n5-10% - Metabolism through CYP450/CYP2E1\n(Forms NAPQI)\n[2]\nMetabolized by first-order kinetics\nE - Conjugated and unconjugated excreted through kidneys",
+      "subsections": {
+        "Toxicologic_Pathophysiology": {
+          "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Toxicologic_Pathophysiology": {
+      "text": "Acetaminophen is metabolized by sulfation and glucuronide conjugation. This process becomes overwhelmed in overdose and metabolism is shifted to the CYP 450 pathway generating toxic NAPQI.\nAPAP toxic metabolite NAPQI usually quickly detoxified by glutathione stores in liver\nIn overdose, glutathione runs out, NAPQI accumulates → liver injury\nNAC\nincreases availability of glutathione\nNAC\nis a precursor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Stage_1_(first_24hr)": {
+          "text": "Mild nausea and vomiting/malaise\nHypokalemia\n(associated with  high 4-hr level)\nMassive Ingestion\n(>500 mg/kg) may present with acidemia, coma, hemodynamic changes shortly after ingestion and prior to hepatic necrosis\n[3]\n[4]",
+          "tables": []
+        },
+        "Stage_2_(days_2-3)": {
+          "text": "Improvement in symptoms\nRUQ abdominal pain\nElevated transaminases\nElevated bilirubin, PT (if severe)",
+          "tables": []
+        },
+        "Stage_3_(days_3-4)": {
+          "text": "Recurrence of\nnausea and vomiting\nAcute liver necrosis → liver failure\nJaundice\nCoagulopathy\nEncephalopathy (esp with massive ingestions)\nAcute renal failure\n(1-2%; usually after hepatic failure is evident)\nPancreatitis\n(rare)",
+          "tables": []
+        },
+        "Stage_4_(after_day_5,_up_to_2_weeks)": {
+          "text": "Clinical improvement and recovery (7-8 d)\nOR\nDeterioration to multi-organ failure and death\nOR\nContinued deterioration",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypokalemia",
+          "url": "https://wikem.org/wiki/Hypokalemia"
+        },
+        {
+          "text": "Massive Ingestion",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity#Massive_Ingestion"
+        },
+        {
+          "text": "RUQ abdominal pain",
+          "url": "https://wikem.org/wiki/RUQ_abdominal_pain"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Jaundice",
+          "url": "https://wikem.org/wiki/Jaundice"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Acute renal failure",
+          "url": "https://wikem.org/wiki/Acute_renal_failure"
+        },
+        {
+          "text": "Pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[5]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[5]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Acetaminophen (APAP) level\nObtain 4 hrs post-ingestion and compare level to Rumack-Matthew nomogram\nObtaining level between 2-4 hrs post ingestion is helpful if level is undetectable (essentially zero risk of progressing to toxic levels), but anything other than undetectable requires a repeat draw at 4 hrs\n[6]\nObtaining multiple levels is rarely indicated in the absence of hepatotoxicity\nChemistry\nMetabolic acidosis\nseen with extremely large ingestion\nLactic acid and blood gas\n[7]\nLFT\nAST and ALT elevation more specific than GGT and alkaline phosphatase\nAST levels > 1000 IU/L are more likely to result from acetaminophen poisoning than from chronic hepatitis or alcoholic liver disease\n[8]\nPT/PTT/INR\nAspirin\nlevels and other co-ingestants",
+          "tables": []
+        },
+        "Rumack-Matthew_Nomogram": {
+          "text": "Only indicated for single, acute ingestion occurring <24 hr prior to presentation\nNot useful for chronic ingestion (patients who take supratherapeutic doses for several days) or if time of ingestion is unknown\nMake sure you use the correct units!\nDotted line should be used for those at higher-risk of liver toxicity (eg alcoholics, those on enzyme-inducing drugs)\nCo-ingestion of drugs that reduce GI motility should prompt repeating acetaminophen level at 8 hrs:\nOpiates\nAnticholinergics (\ndiphenhydramine\n, etc.)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Acetaminophen (APAP) level\nObtain 4 hrs post-ingestion and compare level to Rumack-Matthew nomogram\nObtaining level between 2-4 hrs post ingestion is helpful if level is undetectable (essentially zero risk of progressing to toxic levels), but anything other than undetectable requires a repeat draw at 4 hrs\n[6]\nObtaining multiple levels is rarely indicated in the absence of hepatotoxicity\nChemistry\nMetabolic acidosis\nseen with extremely large ingestion\nLactic acid and blood gas\n[7]\nLFT\nAST and ALT elevation more specific than GGT and alkaline phosphatase\nAST levels > 1000 IU/L are more likely to result from acetaminophen poisoning than from chronic hepatitis or alcoholic liver disease\n[8]\nPT/PTT/INR\nAspirin\nlevels and other co-ingestants",
+      "subsections": {
+        "Rumack-Matthew_Nomogram": {
+          "text": "Only indicated for single, acute ingestion occurring <24 hr prior to presentation\nNot useful for chronic ingestion (patients who take supratherapeutic doses for several days) or if time of ingestion is unknown\nMake sure you use the correct units!\nDotted line should be used for those at higher-risk of liver toxicity (eg alcoholics, those on enzyme-inducing drugs)\nCo-ingestion of drugs that reduce GI motility should prompt repeating acetaminophen level at 8 hrs:\nOpiates\nAnticholinergics (\ndiphenhydramine\n, etc.)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Aspirin",
+          "url": "https://wikem.org/wiki/Aspirin"
+        },
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Rumack-Matthew_Nomogram": {
+      "text": "Only indicated for single, acute ingestion occurring <24 hr prior to presentation\nNot useful for chronic ingestion (patients who take supratherapeutic doses for several days) or if time of ingestion is unknown\nMake sure you use the correct units!\nDotted line should be used for those at higher-risk of liver toxicity (eg alcoholics, those on enzyme-inducing drugs)\nCo-ingestion of drugs that reduce GI motility should prompt repeating acetaminophen level at 8 hrs:\nOpiates\nAnticholinergics (\ndiphenhydramine\n, etc.)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Very important to identify time of ingestion.  The Rumack-Matthew Nomogram is only for acute acetaminophen ingestions and not useful for chronic ingestions",
+      "subsections": {
+        "<4_hr_after_ingestion": {
+          "text": "GI decontamination\nActivated Charcoal\nif <3 hr post-ingestion (no role for\nmultidose activated charcoal\n)\nGastric Lavage\nif high-morbidity coingestants and <1 hr post-ingestion\nSend 4hr APAP level\nToxic level: Give\nNAC\nNontoxic level: No treatment necessary",
+          "tables": []
+        },
+        "Between_4-24_hr_after_ingestion": {
+          "text": "Send APAP level\nIf level will be available within 8hr post-ingestion: wait for level before treating\nIf level will not be available within 8hr post-ingestion: do not wait for level before treating\nDiscontinue treatment if level returns non-toxic",
+          "tables": []
+        },
+        "Unknown_or_>24_hr_after_ingestion": {
+          "text": "Consider GI decontamination for unknown ingestion time\nGive 1st dose of\nNAC\nSend APAP level, LFT, coags\nAPAP level >10\nOR\nelevated transaminases? If yes then continue\nNAC\npH <7.3 or PT >100 or creatinine >3.3 or\naltered mental status\n? If yes refer to liver transplant unit\nAPAP level <10 and LFT both normal? If yes then stop\nNAC\n(treatment not indicated)",
+          "tables": []
+        },
+        "Chronic_Ingestion": {
+          "text": "Initiate\nNAC\nin any patient with evidence of ongoing hepatotoxicity (lft abnormalities)\nOR\n'positive' tylenol level (>20 mcg/mL)\nIf patient has normal LFT and 'negative' tylenol level (<20 mcg/mL), NAC treatment NOT required",
+          "tables": []
+        },
+        "Overdose_in_Pregnancy": {
+          "text": "Both IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[9]\nIV formulation may be preferred to increase fetal NAC concentrations",
+          "tables": []
+        },
+        "Extended_release_overdose": {
+          "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+          "tables": []
+        },
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        },
+        {
+          "text": "Gastric Lavage",
+          "url": "https://wikem.org/wiki/Gastric_Lavage"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "<4_hr_after_ingestion": {
+      "text": "GI decontamination\nActivated Charcoal\nif <3 hr post-ingestion (no role for\nmultidose activated charcoal\n)\nGastric Lavage\nif high-morbidity coingestants and <1 hr post-ingestion\nSend 4hr APAP level\nToxic level: Give\nNAC\nNontoxic level: No treatment necessary",
+      "subsections": {
+        "Between_4-24_hr_after_ingestion": {
+          "text": "Send APAP level\nIf level will be available within 8hr post-ingestion: wait for level before treating\nIf level will not be available within 8hr post-ingestion: do not wait for level before treating\nDiscontinue treatment if level returns non-toxic",
+          "tables": []
+        },
+        "Unknown_or_>24_hr_after_ingestion": {
+          "text": "Consider GI decontamination for unknown ingestion time\nGive 1st dose of\nNAC\nSend APAP level, LFT, coags\nAPAP level >10\nOR\nelevated transaminases? If yes then continue\nNAC\npH <7.3 or PT >100 or creatinine >3.3 or\naltered mental status\n? If yes refer to liver transplant unit\nAPAP level <10 and LFT both normal? If yes then stop\nNAC\n(treatment not indicated)",
+          "tables": []
+        },
+        "Chronic_Ingestion": {
+          "text": "Initiate\nNAC\nin any patient with evidence of ongoing hepatotoxicity (lft abnormalities)\nOR\n'positive' tylenol level (>20 mcg/mL)\nIf patient has normal LFT and 'negative' tylenol level (<20 mcg/mL), NAC treatment NOT required",
+          "tables": []
+        },
+        "Overdose_in_Pregnancy": {
+          "text": "Both IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[9]\nIV formulation may be preferred to increase fetal NAC concentrations",
+          "tables": []
+        },
+        "Extended_release_overdose": {
+          "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+          "tables": []
+        },
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Activated Charcoal",
+          "url": "https://wikem.org/wiki/Activated_Charcoal"
+        },
+        {
+          "text": "multidose activated charcoal",
+          "url": "https://wikem.org/wiki/Multidose_activated_charcoal"
+        },
+        {
+          "text": "Gastric Lavage",
+          "url": "https://wikem.org/wiki/Gastric_Lavage"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Between_4-24_hr_after_ingestion": {
+      "text": "Send APAP level\nIf level will be available within 8hr post-ingestion: wait for level before treating\nIf level will not be available within 8hr post-ingestion: do not wait for level before treating\nDiscontinue treatment if level returns non-toxic",
+      "subsections": {
+        "Unknown_or_>24_hr_after_ingestion": {
+          "text": "Consider GI decontamination for unknown ingestion time\nGive 1st dose of\nNAC\nSend APAP level, LFT, coags\nAPAP level >10\nOR\nelevated transaminases? If yes then continue\nNAC\npH <7.3 or PT >100 or creatinine >3.3 or\naltered mental status\n? If yes refer to liver transplant unit\nAPAP level <10 and LFT both normal? If yes then stop\nNAC\n(treatment not indicated)",
+          "tables": []
+        },
+        "Chronic_Ingestion": {
+          "text": "Initiate\nNAC\nin any patient with evidence of ongoing hepatotoxicity (lft abnormalities)\nOR\n'positive' tylenol level (>20 mcg/mL)\nIf patient has normal LFT and 'negative' tylenol level (<20 mcg/mL), NAC treatment NOT required",
+          "tables": []
+        },
+        "Overdose_in_Pregnancy": {
+          "text": "Both IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[9]\nIV formulation may be preferred to increase fetal NAC concentrations",
+          "tables": []
+        },
+        "Extended_release_overdose": {
+          "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+          "tables": []
+        },
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Unknown_or_>24_hr_after_ingestion": {
+      "text": "Consider GI decontamination for unknown ingestion time\nGive 1st dose of\nNAC\nSend APAP level, LFT, coags\nAPAP level >10\nOR\nelevated transaminases? If yes then continue\nNAC\npH <7.3 or PT >100 or creatinine >3.3 or\naltered mental status\n? If yes refer to liver transplant unit\nAPAP level <10 and LFT both normal? If yes then stop\nNAC\n(treatment not indicated)",
+      "subsections": {
+        "Chronic_Ingestion": {
+          "text": "Initiate\nNAC\nin any patient with evidence of ongoing hepatotoxicity (lft abnormalities)\nOR\n'positive' tylenol level (>20 mcg/mL)\nIf patient has normal LFT and 'negative' tylenol level (<20 mcg/mL), NAC treatment NOT required",
+          "tables": []
+        },
+        "Overdose_in_Pregnancy": {
+          "text": "Both IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[9]\nIV formulation may be preferred to increase fetal NAC concentrations",
+          "tables": []
+        },
+        "Extended_release_overdose": {
+          "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+          "tables": []
+        },
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Chronic_Ingestion": {
+      "text": "Initiate\nNAC\nin any patient with evidence of ongoing hepatotoxicity (lft abnormalities)\nOR\n'positive' tylenol level (>20 mcg/mL)\nIf patient has normal LFT and 'negative' tylenol level (<20 mcg/mL), NAC treatment NOT required",
+      "subsections": {
+        "Overdose_in_Pregnancy": {
+          "text": "Both IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[9]\nIV formulation may be preferred to increase fetal NAC concentrations",
+          "tables": []
+        },
+        "Extended_release_overdose": {
+          "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+          "tables": []
+        },
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Overdose_in_Pregnancy": {
+      "text": "Both IV or oral\nNAC\nmay be used in pregnant patients with Acetaminophen toxicity.\n[9]\nIV formulation may be preferred to increase fetal NAC concentrations",
+      "subsections": {
+        "Extended_release_overdose": {
+          "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+          "tables": []
+        },
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Extended_release_overdose": {
+      "text": "Extended-release acetaminophen (Tylenol ER) consists of acetaminophen 325 mg in immediate release (IR) form surrounding a matrix of acetaminophen 325mg\nSeveral studies show that the elimination of ER and IR APAP preparations is nearly identical after 4 hours. However, some case reports have documented APAP levels that are above the potential toxicity and treatment line on the nomogram as late as 11-14 hours after the ingestion of the ER preparation.\nRecommended management includes the measurement of 4-, 6-, and 8-hour APAP concentrations. Begin\nNAC\ntherapy if any level crosses above the nomogram treatment line. If the 6-hour level is greater than the 4-hour level, begin\nNAC\ntherapy.",
+      "subsections": {
+        "Massive_Ingestion": {
+          "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+          "tables": []
+        },
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Massive_Ingestion": {
+      "text": ">500mg/kg\nMay have early acidemia, coma, hemodynamic changes (does not necessarily indicate hepatic damage)\nSupportive care (IVF, pressors, intubation PRN)\nEarly consultation with poison control, prior to 4 hour level\nMay consider early or increased\nNAC\ndosage, dialysis in extreme cases\n[10]",
+      "subsections": {
+        "NAC_Treatment": {
+          "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+          "tables": []
+        },
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        },
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "NAC_Treatment": {
+      "text": "Should begin if:\nThe patient's history suggests:acetaminophen ingestion of ≥ 150mg/kg in children or 7.5 g in adults and the results of blood tests will not be available within 8 hours of the ingestion or\nSerum acetaminophen concentration falls on or above the Rumack-Matthew nomogram treatment line or\nWhile waiting for AST/ALT levels of a patient with a chronic overdose\nSerum levels may not reach peak until up to 4 hours post-ingestion",
+      "subsections": {
+        "Anaphylactoid_reactions_to_IV_NAC": {
+          "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Anaphylactoid_reactions_to_IV_NAC": {
+      "text": "Generally the reactions are self limited with symptoms such as pruritis treated with\nDiphenhydramine\n. If angioedema develops NAC infusion should be stopped and restarted an hour after symptom resolution.\n[11]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diphenhydramine",
+          "url": "https://wikem.org/wiki/Diphenhydramine"
+        }
+      ]
+    },
+    "Adult_N-Acetylcysteine_Dosing": {
+      "text": "See above guidelines for when to dose\nNAC",
+      "subsections": {
+        "PO": {
+          "text": "Less preferred than IV route due to unpleasant taste and smell\n140 mg/kg PO load\n70 mg/kg PO q4hr x17 doses additional; dilute to 5% soln",
+          "tables": []
+        },
+        "IV": {
+          "text": "Loading dose: 150mg/kg in 100 mL D5W over 60min\nSecond (maintenance) dose: 50mg/kg in 250 mL D5W over 4hr\nThird dose: 100mg/kg in 500 mL D5W over 16hr",
+          "tables": []
+        },
+        "Comments": {
+          "text": "Almost 100% effective if given <8 hr post-ingestion; less effective if 16-24 hr post-ingestion\nMay still be useful >24 hr post-ingestion, even with fulminant hepatic failure. Give NAC until LFTs improve (not until APAP level is 0)\n[12]\n[13]\nBe aware NAC treatment may affect PT. May see a dose-dependent increase in PT following NAC in patients without hepatotoxicity.\n[14]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "Pediatric_N-Acetylcysteine_Dosing": {
+      "text": "For children there is a diluent added to the\nNAC\nso that there is no electrolyte and volume complications.",
+      "subsections": {
+        "PO_2": {
+          "text": "140 mg/kg body weight, orally, once as a loading dose\nMaintenance Dose: 70 mg/kg body weight, orally, 4 hours after the loading dose and every 4 hours for 17 total doses, unless repeated acetaminophen assays reveal nontoxic levels\n100 to 109 kg:\nLoading dose: 15 g (75 mL)\nin 225 mL diluent;\ntotal volume: 300 mL\nMaintenance Dose: 7.5 g (37 mL)\nin 113 mL diluent;\ntotal volume: 150 mL\n90 to 99 kg:\nLoading dose: 14 g (70 mL)\nin 210 mL diluent;\ntotal volume: 280 mL\nMaintenance Dose: 7 g (35 mL)\nin 105 mL diluent;\ntotal volume: 140 mL\n80 to 89 kg\nLoading dose: 13 g (65 mL)\nin 195 mL diluent\n; total volume: 260 mL\nMaintenance Dose: 6.5 g (33 mL)\nin 97 mL diluent\n; total volume: 130 mL\n70 to 79 kg\nLoading dose: 11 g (55 mL) in\n165 mL in diluent\n; total volume: 220 mL\nMaintenance Dose: 5.5 g (28 mL) in\n82 mL diluent\n; total volume: 110 mL\n60 to 69 kg\nLoading dose: 10 g (50 mL)\nin 150 mL diluent\n; total volume: 200 mL\nMaintenance Dose: 5 g (25 mL)\nin 75 mL diluent\n; total volume: 100 mL\n50 to 59 kg\nLoading dose: 8 g (40 mL) in\n120 mL diluent\n; total volume: 160 mL\nMaintenance Dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\n40 to 49 kg\nLoading dose: 7 g (35 mL)\nin 105 mL diluent\n; total volume: 140 mL\nMaintenance Dose: 3.5 g (18 mL)\nin 52 mL diluent\n; total volume: 70 mL\n30 to 39 kg\nLoading dose: 6 g (30 mL)\nin 90 mL diluent\n; total volume: 120 mL\nMaintenance Dose: 3 g (15 mL)\nin 45 mL diluent\n; total volume: 60 mL\n20 to 29 kg\nLoading dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\nMaintenance Dose: 2 g (10 mL)\nin 30 mL diluent\n; total volume: 40 mL\nLess than 20 kg\nAdd 3 mL of diluent to each 1 mL (200 mg) of 20% acetylcysteine solution\nLoading dose: 140 g/kg\nMaintenance Dose: 70 g/kg",
+          "tables": []
+        },
+        "IV_2": {
+          "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "NAC",
+          "url": "https://wikem.org/wiki/NAC"
+        }
+      ]
+    },
+    "PO_2": {
+      "text": "140 mg/kg body weight, orally, once as a loading dose\nMaintenance Dose: 70 mg/kg body weight, orally, 4 hours after the loading dose and every 4 hours for 17 total doses, unless repeated acetaminophen assays reveal nontoxic levels\n100 to 109 kg:\nLoading dose: 15 g (75 mL)\nin 225 mL diluent;\ntotal volume: 300 mL\nMaintenance Dose: 7.5 g (37 mL)\nin 113 mL diluent;\ntotal volume: 150 mL\n90 to 99 kg:\nLoading dose: 14 g (70 mL)\nin 210 mL diluent;\ntotal volume: 280 mL\nMaintenance Dose: 7 g (35 mL)\nin 105 mL diluent;\ntotal volume: 140 mL\n80 to 89 kg\nLoading dose: 13 g (65 mL)\nin 195 mL diluent\n; total volume: 260 mL\nMaintenance Dose: 6.5 g (33 mL)\nin 97 mL diluent\n; total volume: 130 mL\n70 to 79 kg\nLoading dose: 11 g (55 mL) in\n165 mL in diluent\n; total volume: 220 mL\nMaintenance Dose: 5.5 g (28 mL) in\n82 mL diluent\n; total volume: 110 mL\n60 to 69 kg\nLoading dose: 10 g (50 mL)\nin 150 mL diluent\n; total volume: 200 mL\nMaintenance Dose: 5 g (25 mL)\nin 75 mL diluent\n; total volume: 100 mL\n50 to 59 kg\nLoading dose: 8 g (40 mL) in\n120 mL diluent\n; total volume: 160 mL\nMaintenance Dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\n40 to 49 kg\nLoading dose: 7 g (35 mL)\nin 105 mL diluent\n; total volume: 140 mL\nMaintenance Dose: 3.5 g (18 mL)\nin 52 mL diluent\n; total volume: 70 mL\n30 to 39 kg\nLoading dose: 6 g (30 mL)\nin 90 mL diluent\n; total volume: 120 mL\nMaintenance Dose: 3 g (15 mL)\nin 45 mL diluent\n; total volume: 60 mL\n20 to 29 kg\nLoading dose: 4 g (20 mL)\nin 60 mL diluent\n; total volume: 80 mL\nMaintenance Dose: 2 g (10 mL)\nin 30 mL diluent\n; total volume: 40 mL\nLess than 20 kg\nAdd 3 mL of diluent to each 1 mL (200 mg) of 20% acetylcysteine solution\nLoading dose: 140 g/kg\nMaintenance Dose: 70 g/kg",
+      "subsections": {
+        "IV_2": {
+          "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "IV_2": {
+      "text": "for pediatrics (0-18) the addition of a dilution of NAC should be followed to avoid electrolyte and fluid problems\n5 to 20 kg:\nLoading Dose: 150 mg/kg\nin 3 mL/kg diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 7 mL/kg diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 14 mL/kg diluent\n, infused over 16 hours\n21 to 40 kg:\nLoading Dose: 150 mg/kg\nin 100 mL diluent\n, infused over 1 hour\nSecond Dose: 50 mg/kg\nin 250 mL diluent\n, infused over 4 hours\nThird Dose: 100 mg/kg\nin 500 mL diluent\n, infused over 16 hours\nOver 100 kg:\nLoading Dose: 15,000 mg\nin 200 mL diluent\n, infused over 1 hour\nSecond Dose: 5,000 mg\nin 500 mL diluent\n, infused over 4 hours\nThird Dose: 10,000 mg\nin 1,000 mL diluent\n, infused over 16 hours",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Consider discharge for asymptomatic patients who do not require NAC\nAdmission if requiring NAC or other ingestions, injuries\nTransfer to transplant center based on above criteria\nPsych consult if patient has suicidal ideation\nIn subacute toxicity, AST/ALT ratio of < 0.4 has sen of 99% for resolving hepatic injury\n[15]",
+      "subsections": {
+        "King's_College_Criteria": {
+          "text": "Criteria for predicting fulminant hepatic failure, and thus referral to transplant center\n[16]\nPPV 70-90% and sensitivity 69%\nIncludes:\npH<7.3 or lactate>3 at 12hrs after full fluid resuscitation,\nOR\nall of the following:\nCr>3.4\nINR>6.5\ngrade 3 or 4\nHepatic Encephalopathy\nOther predictors of APAP-induced hepatic failure include:\nlactate >3.5 4hrs after fluid resusciation\nphos >3.8 at 48hrs,\nOR\nAPACHE II >15",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        }
+      ]
+    },
+    "King's_College_Criteria": {
+      "text": "Criteria for predicting fulminant hepatic failure, and thus referral to transplant center\n[16]\nPPV 70-90% and sensitivity 69%\nIncludes:\npH<7.3 or lactate>3 at 12hrs after full fluid resuscitation,\nOR\nall of the following:\nCr>3.4\nINR>6.5\ngrade 3 or 4\nHepatic Encephalopathy\nOther predictors of APAP-induced hepatic failure include:\nlactate >3.5 4hrs after fluid resusciation\nphos >3.8 at 48hrs,\nOR\nAPACHE II >15",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "MDCalc - Acetaminophen Overdose & NAC Dosing\nMDCalc - King's College Criteria for Acetaminophen Toxicity\nMerk Manual: Acetaminophen Poisoning\nManagement of Acetaminophen Poisoning in the US and Canada: A Consensus Statement (2023)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

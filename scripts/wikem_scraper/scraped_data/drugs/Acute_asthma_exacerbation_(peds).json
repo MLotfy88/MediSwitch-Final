@@ -1,0 +1,1040 @@
+{
+  "drug_name": "Acute_asthma_exacerbation_(peds)",
+  "url": "https://wikem.org/wiki/Acute_asthma_exacerbation_(peds)",
+  "scraped_at": "2026-01-10T07:46:46.378107",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nasthma\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "An estimated 6 million children in the US have asthma\nIn 2007, asthma lead to >700,000 ED visits\nAsthma is part of the atopy triad (asthma, allergies, eczema)\nA history of eczema or allergies maybe helpful in making a new diagnosis of asthma\nWheezing in an infant is more often\nbronchiolitis\nthan asthma\nViral\nURI\nassociated with copious rhinorrhea, allergen exposure, and respiratory irritants (i.e. smoke) are common precipitants for pediatric asthma exacerbations",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Wheezing\nCough\nAccessory muscle use\nDyspnea\nProlonged expiration\nSeverity of retractions occurs in caudal to cephalad direction\nScalene muscle contractions more severe than subcostal and intercostal retractions\nSign of impending ventilatory failure\nParadoxical respiration\nChest deflation and abdominal protrusion during inspiration\nAltered mental status\n\"Silent chest\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wheezing",
+          "url": "https://wikem.org/wiki/Wheezing"
+        },
+        {
+          "text": "Cough",
+          "url": "https://wikem.org/wiki/Cough"
+        },
+        {
+          "text": "Dyspnea",
+          "url": "https://wikem.org/wiki/Dyspnea"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pediatric_Wheezing": {
+          "text": "Upper Airway diseases\nAllergic rhinitis\nand\nsinusitis\nLarge Airway Obstruction\nForeign body\naspiration\nVascular ring\nor laryngeal webs\nLaryngo\ntracheomalacia\nEnlarged lymph node or tumor\nVocal cord dysfunction\nSmall Airway Obstruction\nAsthma\nViral\nbronchiolitis\nCystic Fibrosis\nBronchopulmonary dysplasia\nCongenital heart disease\nor other cardiac disease\nOther causes\nGERD\nAnaphylaxis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic rhinitis",
+          "url": "https://wikem.org/wiki/Allergic_rhinitis"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Cystic Fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_Fibrosis"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Pediatric_Wheezing": {
+      "text": "Upper Airway diseases\nAllergic rhinitis\nand\nsinusitis\nLarge Airway Obstruction\nForeign body\naspiration\nVascular ring\nor laryngeal webs\nLaryngo\ntracheomalacia\nEnlarged lymph node or tumor\nVocal cord dysfunction\nSmall Airway Obstruction\nAsthma\nViral\nbronchiolitis\nCystic Fibrosis\nBronchopulmonary dysplasia\nCongenital heart disease\nor other cardiac disease\nOther causes\nGERD\nAnaphylaxis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allergic rhinitis",
+          "url": "https://wikem.org/wiki/Allergic_rhinitis"
+        },
+        {
+          "text": "sinusitis",
+          "url": "https://wikem.org/wiki/Sinusitis"
+        },
+        {
+          "text": "Foreign body",
+          "url": "https://wikem.org/wiki/Foreign_body"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "Cystic Fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_Fibrosis"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "GERD",
+          "url": "https://wikem.org/wiki/GERD"
+        },
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis\nCan consider a blood gas if there are fears that the patient is getting tired (sleepy baby vs\nelevated CO2\n?)\nA CO2 >45 is abnormal in a patient hyperventilating and warrants close monitoring",
+      "subsections": {
+        "Consider_CXR": {
+          "text": "Asymmetric lung auscultation findings, after treatment with albuterol\nPoor response to medications/treatment, if history and exam are not consistent with\nbronchiolitis\nWorsening symptoms\nFever not explained by apparent viral illness\nObtaining a\nCXR\nin pediatric patients presenting with their first episode of wheezing was previously common,\n[1]\nhowever is no longer considered standard practice.\n[2]",
+          "tables": []
+        },
+        "Clinical_Scores": {
+          "text": "Diagnosis and treatment can be guided by clinical scores\nModified Pulmonary Index Score (MPIS - Utilized at CCMC)\nPediatric Asthma Score (PAS)\nPulmonary Score (PS)\nPediatric Respiratory Assessment Measure (PRAM)",
+          "tables": []
+        },
+        "Modified_Pulmonary_Index_Score_(MPIS)": {
+          "text": "MPIS <7 - Mild exacerbation\nMPIS 7-10 - Moderate exacerbation\nMPIS ≥10 - Severe exacerbation",
+          "tables": [
+            [
+              {
+                "Age <3 Years": "Points"
+              },
+              {
+                "Age <3 Years": "0"
+              },
+              {
+                "Age <3 Years": "1"
+              },
+              {
+                "Age <3 Years": "2"
+              },
+              {
+                "Age <3 Years": "3"
+              }
+            ],
+            [
+              {
+                "Age 3-6 Years": "Points"
+              },
+              {
+                "Age 3-6 Years": "0"
+              },
+              {
+                "Age 3-6 Years": "1"
+              },
+              {
+                "Age 3-6 Years": "2"
+              },
+              {
+                "Age 3-6 Years": "3"
+              }
+            ],
+            [
+              {
+                "Age ≥6 Years": "Points"
+              },
+              {
+                "Age ≥6 Years": "0"
+              },
+              {
+                "Age ≥6 Years": "1"
+              },
+              {
+                "Age ≥6 Years": "2"
+              },
+              {
+                "Age ≥6 Years": "3"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated CO2",
+          "url": "https://wikem.org/wiki/Hypercapnia"
+        },
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Consider_CXR": {
+      "text": "Asymmetric lung auscultation findings, after treatment with albuterol\nPoor response to medications/treatment, if history and exam are not consistent with\nbronchiolitis\nWorsening symptoms\nFever not explained by apparent viral illness\nObtaining a\nCXR\nin pediatric patients presenting with their first episode of wheezing was previously common,\n[1]\nhowever is no longer considered standard practice.\n[2]",
+      "subsections": {
+        "Clinical_Scores": {
+          "text": "Diagnosis and treatment can be guided by clinical scores\nModified Pulmonary Index Score (MPIS - Utilized at CCMC)\nPediatric Asthma Score (PAS)\nPulmonary Score (PS)\nPediatric Respiratory Assessment Measure (PRAM)",
+          "tables": []
+        },
+        "Modified_Pulmonary_Index_Score_(MPIS)": {
+          "text": "MPIS <7 - Mild exacerbation\nMPIS 7-10 - Moderate exacerbation\nMPIS ≥10 - Severe exacerbation",
+          "tables": [
+            [
+              {
+                "Age <3 Years": "Points"
+              },
+              {
+                "Age <3 Years": "0"
+              },
+              {
+                "Age <3 Years": "1"
+              },
+              {
+                "Age <3 Years": "2"
+              },
+              {
+                "Age <3 Years": "3"
+              }
+            ],
+            [
+              {
+                "Age 3-6 Years": "Points"
+              },
+              {
+                "Age 3-6 Years": "0"
+              },
+              {
+                "Age 3-6 Years": "1"
+              },
+              {
+                "Age 3-6 Years": "2"
+              },
+              {
+                "Age 3-6 Years": "3"
+              }
+            ],
+            [
+              {
+                "Age ≥6 Years": "Points"
+              },
+              {
+                "Age ≥6 Years": "0"
+              },
+              {
+                "Age ≥6 Years": "1"
+              },
+              {
+                "Age ≥6 Years": "2"
+              },
+              {
+                "Age ≥6 Years": "3"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "bronchiolitis",
+          "url": "https://wikem.org/wiki/Bronchiolitis"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Clinical_Scores": {
+      "text": "Diagnosis and treatment can be guided by clinical scores\nModified Pulmonary Index Score (MPIS - Utilized at CCMC)\nPediatric Asthma Score (PAS)\nPulmonary Score (PS)\nPediatric Respiratory Assessment Measure (PRAM)",
+      "subsections": {
+        "Modified_Pulmonary_Index_Score_(MPIS)": {
+          "text": "MPIS <7 - Mild exacerbation\nMPIS 7-10 - Moderate exacerbation\nMPIS ≥10 - Severe exacerbation",
+          "tables": [
+            [
+              {
+                "Age <3 Years": "Points"
+              },
+              {
+                "Age <3 Years": "0"
+              },
+              {
+                "Age <3 Years": "1"
+              },
+              {
+                "Age <3 Years": "2"
+              },
+              {
+                "Age <3 Years": "3"
+              }
+            ],
+            [
+              {
+                "Age 3-6 Years": "Points"
+              },
+              {
+                "Age 3-6 Years": "0"
+              },
+              {
+                "Age 3-6 Years": "1"
+              },
+              {
+                "Age 3-6 Years": "2"
+              },
+              {
+                "Age 3-6 Years": "3"
+              }
+            ],
+            [
+              {
+                "Age ≥6 Years": "Points"
+              },
+              {
+                "Age ≥6 Years": "0"
+              },
+              {
+                "Age ≥6 Years": "1"
+              },
+              {
+                "Age ≥6 Years": "2"
+              },
+              {
+                "Age ≥6 Years": "3"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Albuterol": {
+          "text": "Favor continuous nebulization to decrease the chance of admission when compared to intermittent dosing\n[3]\nNebulizer\nIntermittent: 2.5-5mg q20min, three doses are traditionally given back to back, then repeat as needed.\nContinuous: 0.5mg/kg/hr (max 15mg/hr)\n[4]\nMDI\n4-8 puffs q20min given in first hour, then q1-4hr as needed",
+          "tables": []
+        },
+        "Ipratropium": {
+          "text": "0.25-0.5mg q20min, given with the first three doses of albuterol, it is shown to reduce admission.",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be given in the first hour with effects to reduce admission\n[5]\nDexamethasone\n0.6 mg/kg PO or IV (max 16 mg); consider 2nd dose 24-36hrs later.\n[6]\n[7]\n[8]\nPO and IV have equal efficacy. Giving the IV form by mouth is typically better tolerated by young children (same dosing)\nBoth 1 and 2 dose regimens as effective as\nprednisone\nor\nprednisolone\nin children\n[9]\n[10]\nPrednisone\n1-2mg/kg/day (60mg max) in one or two divided doses for 3-5 days\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[11]",
+          "tables": []
+        },
+        "Magnesium": {
+          "text": "Dose: 50mg/kg IV, max 2-4 g over 20 mins with close blood pressure monitoring\nSmooth muscle relaxant\nDuration of action approximately 20 min\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[5]",
+          "tables": []
+        },
+        "Beta-agonist": {
+          "text": "Epinephrine\n1:1000 0.01mg/kg (max 0.3mg) IM, repeat as needed\nTerbutaline\nGiven SQ, usual dose 0.01mg/kg up to 0.3mg.\nLonger-acting beta2-agonist promoting bronchodilation",
+          "tables": []
+        },
+        "Assisted_Ventilation": {
+          "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Albuterol": {
+      "text": "Favor continuous nebulization to decrease the chance of admission when compared to intermittent dosing\n[3]\nNebulizer\nIntermittent: 2.5-5mg q20min, three doses are traditionally given back to back, then repeat as needed.\nContinuous: 0.5mg/kg/hr (max 15mg/hr)\n[4]\nMDI\n4-8 puffs q20min given in first hour, then q1-4hr as needed",
+      "subsections": {
+        "Ipratropium": {
+          "text": "0.25-0.5mg q20min, given with the first three doses of albuterol, it is shown to reduce admission.",
+          "tables": []
+        },
+        "Steroids": {
+          "text": "Should be given in the first hour with effects to reduce admission\n[5]\nDexamethasone\n0.6 mg/kg PO or IV (max 16 mg); consider 2nd dose 24-36hrs later.\n[6]\n[7]\n[8]\nPO and IV have equal efficacy. Giving the IV form by mouth is typically better tolerated by young children (same dosing)\nBoth 1 and 2 dose regimens as effective as\nprednisone\nor\nprednisolone\nin children\n[9]\n[10]\nPrednisone\n1-2mg/kg/day (60mg max) in one or two divided doses for 3-5 days\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[11]",
+          "tables": []
+        },
+        "Magnesium": {
+          "text": "Dose: 50mg/kg IV, max 2-4 g over 20 mins with close blood pressure monitoring\nSmooth muscle relaxant\nDuration of action approximately 20 min\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[5]",
+          "tables": []
+        },
+        "Beta-agonist": {
+          "text": "Epinephrine\n1:1000 0.01mg/kg (max 0.3mg) IM, repeat as needed\nTerbutaline\nGiven SQ, usual dose 0.01mg/kg up to 0.3mg.\nLonger-acting beta2-agonist promoting bronchodilation",
+          "tables": []
+        },
+        "Assisted_Ventilation": {
+          "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Ipratropium": {
+      "text": "0.25-0.5mg q20min, given with the first three doses of albuterol, it is shown to reduce admission.",
+      "subsections": {
+        "Steroids": {
+          "text": "Should be given in the first hour with effects to reduce admission\n[5]\nDexamethasone\n0.6 mg/kg PO or IV (max 16 mg); consider 2nd dose 24-36hrs later.\n[6]\n[7]\n[8]\nPO and IV have equal efficacy. Giving the IV form by mouth is typically better tolerated by young children (same dosing)\nBoth 1 and 2 dose regimens as effective as\nprednisone\nor\nprednisolone\nin children\n[9]\n[10]\nPrednisone\n1-2mg/kg/day (60mg max) in one or two divided doses for 3-5 days\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[11]",
+          "tables": []
+        },
+        "Magnesium": {
+          "text": "Dose: 50mg/kg IV, max 2-4 g over 20 mins with close blood pressure monitoring\nSmooth muscle relaxant\nDuration of action approximately 20 min\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[5]",
+          "tables": []
+        },
+        "Beta-agonist": {
+          "text": "Epinephrine\n1:1000 0.01mg/kg (max 0.3mg) IM, repeat as needed\nTerbutaline\nGiven SQ, usual dose 0.01mg/kg up to 0.3mg.\nLonger-acting beta2-agonist promoting bronchodilation",
+          "tables": []
+        },
+        "Assisted_Ventilation": {
+          "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Steroids": {
+      "text": "Should be given in the first hour with effects to reduce admission\n[5]\nDexamethasone\n0.6 mg/kg PO or IV (max 16 mg); consider 2nd dose 24-36hrs later.\n[6]\n[7]\n[8]\nPO and IV have equal efficacy. Giving the IV form by mouth is typically better tolerated by young children (same dosing)\nBoth 1 and 2 dose regimens as effective as\nprednisone\nor\nprednisolone\nin children\n[9]\n[10]\nPrednisone\n1-2mg/kg/day (60mg max) in one or two divided doses for 3-5 days\nMethylprednisolone\n1mg/kg IV q 4–6hr\nOnly use IV if cannot tolerate PO since equal effectiveness between dosing routes\n[11]",
+      "subsections": {
+        "Magnesium": {
+          "text": "Dose: 50mg/kg IV, max 2-4 g over 20 mins with close blood pressure monitoring\nSmooth muscle relaxant\nDuration of action approximately 20 min\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[5]",
+          "tables": []
+        },
+        "Beta-agonist": {
+          "text": "Epinephrine\n1:1000 0.01mg/kg (max 0.3mg) IM, repeat as needed\nTerbutaline\nGiven SQ, usual dose 0.01mg/kg up to 0.3mg.\nLonger-acting beta2-agonist promoting bronchodilation",
+          "tables": []
+        },
+        "Assisted_Ventilation": {
+          "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dexamethasone",
+          "url": "https://wikem.org/wiki/Dexamethasone"
+        },
+        {
+          "text": "prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "prednisolone",
+          "url": "https://wikem.org/wiki/Prednisolone"
+        },
+        {
+          "text": "Prednisone",
+          "url": "https://wikem.org/wiki/Prednisone"
+        },
+        {
+          "text": "Methylprednisolone",
+          "url": "https://wikem.org/wiki/Methylprednisolone"
+        },
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Magnesium": {
+      "text": "Dose: 50mg/kg IV, max 2-4 g over 20 mins with close blood pressure monitoring\nSmooth muscle relaxant\nDuration of action approximately 20 min\nIn patients with moderate to severe asthma there is a decreased rate of admission with an NNT of 2\n[5]",
+      "subsections": {
+        "Beta-agonist": {
+          "text": "Epinephrine\n1:1000 0.01mg/kg (max 0.3mg) IM, repeat as needed\nTerbutaline\nGiven SQ, usual dose 0.01mg/kg up to 0.3mg.\nLonger-acting beta2-agonist promoting bronchodilation",
+          "tables": []
+        },
+        "Assisted_Ventilation": {
+          "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Beta-agonist": {
+      "text": "Epinephrine\n1:1000 0.01mg/kg (max 0.3mg) IM, repeat as needed\nTerbutaline\nGiven SQ, usual dose 0.01mg/kg up to 0.3mg.\nLonger-acting beta2-agonist promoting bronchodilation",
+      "subsections": {
+        "Assisted_Ventilation": {
+          "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+          "tables": []
+        },
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Epinephrine",
+          "url": "https://wikem.org/wiki/Epinephrine"
+        },
+        {
+          "text": "Terbutaline",
+          "url": "https://wikem.org/wiki/Terbutaline"
+        },
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Assisted_Ventilation": {
+      "text": "Non-invasive ventilation\nConsider as alternative to intubation\nAlleviates muscle fatigue which leads to larger tidal volumes\nMaximize inspiratory support\nDelta pressure 10\nPEEP >4\nMay benefit from\nketamine\nor\ndexmedetomidine\nto mildly sedate and allow the interface",
+      "subsections": {
+        "Intubation": {
+          "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Non-invasive ventilation",
+          "url": "https://wikem.org/wiki/Non-invasive_ventilation"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "dexmedetomidine",
+          "url": "https://wikem.org/wiki/Dexmedetomidine"
+        },
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Intubation": {
+      "text": "Push pull (bolus)\nfluids\nprior to intubation to maximize the patient's preload and ideally decrease the chance of the patient arresting\nConsider induction with\nketamine\nProvides bronchodilation and sedation however it does promote secretions\nKetamine is the preferred induction agent for intubation in an asthmatic.\nDosing 1-2 mg/kg\nVentilation of asthmatic patients requires deep sedation\nBenzos\n,\nketamine\n(1 mg/kg/hr)\nVentilation settings\nAssist-control ventilation\nResp rate\nStart slow to avoid air-trapping and allow for longer expiration time\nConsider I:E ratio of 1:2 or 1:3\nPlateau pressure ideally <30\nMay require \"permissive hypoventilation\" and permissive hypercarbia and acidosis\nLow peak pressure/avoidance of breath stacking more important than correcting CO2\n[12]\nTidal volume 6-8cc/kg ideal wt\nPEEP >4\nFlow rate 80-100L/min\nKeep FiO2 minimum to achieve SpO2 > 90%\nUse bronchodilators even when intubated\nMany patients require a continuous\nparalytic\ninfusion for the first 24+ hrs of intubation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "fluids",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Benzos",
+          "url": "https://wikem.org/wiki/Benzos"
+        },
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "paralytic",
+          "url": "https://wikem.org/wiki/Neuromuscular_blocking_agents"
+        }
+      ]
+    },
+    "Outpatient_Treatment": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Severity": "Mild intermittent, > 80% peak flow",
+            "Day Sx": "< 2/wk",
+            "Night Sx": "< 2/mo",
+            "Treatment (WHO 2008 Formulary)[13]": "AlbuterolMDI 100-200 mcg PRN QID"
+          },
+          {
+            "Severity": "Mild persistent, > 80% peak flow",
+            "Day Sx": ">2/wk",
+            "Night Sx": ">2/mo",
+            "Treatment (WHO 2008 Formulary)[13]": "AlbuterolMDI 100-200 mcg PRN QIDANDBeclometasone100-250 mcg BID"
+          },
+          {
+            "Severity": "Moderate persistent, 60-80% peak flow",
+            "Day Sx": "Daily with exacerbations weekly",
+            "Night Sx": "> 1/wk",
+            "Treatment (WHO 2008 Formulary)[13]": "AlbuterolMDI 100-200 mcg PRN QIDANDBeclometasone100-500 mcg BIDANDSalmeterolinhaled 50 mcg BID"
+          },
+          {
+            "Severity": "Severe persistent, < 60% peak flow",
+            "Day Sx": "Continuous daily",
+            "Night Sx": "Frequent",
+            "Treatment (WHO 2008 Formulary)[13]": "AlbuterolMDI 100-200 mcg PRN QIDANDBeclometasone1mg BID (high dose)ANDSalmeterolinhaled 50 mcg BIDANDTheophylline, leukotriene antagonist, or POprednisolonewith taper"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Discharge\nOften, patients will still have mild wheezing, but should have complete resolution of tachypnea, hypoxia, and improved work of breathing\nA short course of glucocorticoids decreases chance of relapse\n[14]\n)\nPatient should generally continue albuterol at home q6hrs for at least the first 24hrs after discharge\nA spacer should be prescribed to be used with the MDI to improve medication delivery to the lungs\nAdmit\nIf symptoms do not significantly improve or for severe exacerbations\nPeak flow measurements maybe helpful when deciding disposition\nPredicted = (30 x age (yrs)) + 30\nPEF >70% predicted → high likelihood of successful discharge\nPEF <40% predicted → should be admitted",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Asthma\nModified pulmonary index score\nVentilation settings\nDeterioration after intubation\nShortness of breath",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Asthma",
+          "url": "https://wikem.org/wiki/Asthma"
+        },
+        {
+          "text": "Modified pulmonary index score",
+          "url": "https://wikem.org/wiki/Modified_pulmonary_index_score"
+        },
+        {
+          "text": "Ventilation settings",
+          "url": "https://wikem.org/wiki/Ventilation_settings"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "EMCrit Podcast - The Severe Asthmatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "drug_name": "Achalasia/es",
+  "url": "https://wikem.org/wiki/Achalasia/es",
+  "scraped_at": "2026-01-10T07:46:41.802934",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "Incapacidad del LES para relajarse y pérdida de la peristalsis normal\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "Disfagia\nRegurgitación\nDolor en el pecho\nEl espasmo esofágico puede sentirse como un dolor retroesternal apretado y aplastante similar al SCA (Síndrome Coronario Agudo)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "Cuerpo extraño ingerido\nCarcinoma esofágico -\ndisfagia predominantemente para alimentos sólidos durante las etapas iniciales\nEsofagitis por reflujo\nesofagitis\n-\ndisfagia resulta de la inflamación o una estenosis fibrotica\nPseudoacalasia -\nneoplasia subyacente que imita a la acalasia\nTrastornos del tejido conectivo\n-\np. ej.\nesclerodermia sistémica\nEspasmo esofágico -\ndolor en el pecho es una característica predominante",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluación": {
+      "text": "Tracto gastrointestinal superior\nDilatación esofágica\nSeñal de pico de pájaro\nManometría esofágica",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Manejo": {
+      "text": "Ensayo de antiespasmódico para espasmo esofágico\nNifedipina\nIntervención quirúrgica\nDilatación con balón\nInyección de toxina botulínica\n[2]\nMiomectomía\nConsiderar gastrostomía para pacientes frágiles y mayores\nLos pacientes necesitan comer en posición vertical en todo momento.\nEl tratamiento puede mejorar la disfagia, pero no hay cura y la deglución nunca se normaliza completamente",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ver_también": {
+      "text": "Cuerpo extraño ingerido",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,1901 @@
+{
+  "drug_name": "Acute_cystitis",
+  "url": "https://wikem.org/wiki/Acute_cystitis",
+  "scraped_at": "2026-01-10T07:46:55.304111",
+  "sections": {
+    "Intro": {
+      "text": "This page is for adult patients; see\nurinary tract infection (peds)\nfor pediatric patients.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "",
+      "subsections": {
+        "Genitourinary_infection": {
+          "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+          "tables": []
+        },
+        "Definitions": {
+          "text": "Relapse\nRecurrence of symptoms within month despite treatment\nCaused by same organism and represents treatment failure\nReinfection\nDevelopment of symptoms 1-6mo after treatment\nUsually due to a different organism\nIf patient has >3 recurrences in 1 yr consider tumor, calculi,\ndiabetes\nFor menopausal or postmenopausal women with recurrent infection consider empiric treatment for\ngenitourinary syndrome of menopause\n(GSM)\n[1]",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Anatomic abnormality of urinary tract or external drainage system\nIndwelling urinary catheter, stent\nNephrolithiasis\n, neurogenic bladder, polycystic renal disease, recent instrumentation\nRecurrent acute cystitis\nAdvanced age in men (BPH, recent instrumentation, recent prostatic biopsy)\nNursing home residency\nNeonatal\nComorbidities (\nDM\n,\nsickle cell disease\n)\nPregnancy\nImmunosuppression (\nAIDS\n, immunosuppressive drugs)\nAdvanced neurologic disease (\nCVA\nwith disability,\nSpinal Cord Injuries\n)",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Most common pathogen is\nE. coli\nAnaerobic\norganisms are rarely pathogenic (do not grow well in urine)\nComplicated acute cystitis is more likely to be caused by\npseudomonas\nor\nenterococcus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "genitourinary syndrome of menopause",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Spinal Cord Injuries",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Injuries"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        }
+      ]
+    },
+    "Genitourinary_infection": {
+      "text": "\"UTI\" frequently refers specifically to\nacute cystitis\n, but may also be used as a general term for all urinary infections; use location-specific diagnosis.\nRenal/perirenal\nPyelonephritis\nEmphysematous pyelonephritis\nRenal abscess\nPerinephric abscess\nUreteral\nInfected\nurolithiasis\nBladder\nAcute cystitis\n(\"UTI\")\nChronic cystitis\nUrethra/periurethra\nUrethritis\nProstatitis",
+      "subsections": {
+        "Definitions": {
+          "text": "Relapse\nRecurrence of symptoms within month despite treatment\nCaused by same organism and represents treatment failure\nReinfection\nDevelopment of symptoms 1-6mo after treatment\nUsually due to a different organism\nIf patient has >3 recurrences in 1 yr consider tumor, calculi,\ndiabetes\nFor menopausal or postmenopausal women with recurrent infection consider empiric treatment for\ngenitourinary syndrome of menopause\n(GSM)\n[1]",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Anatomic abnormality of urinary tract or external drainage system\nIndwelling urinary catheter, stent\nNephrolithiasis\n, neurogenic bladder, polycystic renal disease, recent instrumentation\nRecurrent acute cystitis\nAdvanced age in men (BPH, recent instrumentation, recent prostatic biopsy)\nNursing home residency\nNeonatal\nComorbidities (\nDM\n,\nsickle cell disease\n)\nPregnancy\nImmunosuppression (\nAIDS\n, immunosuppressive drugs)\nAdvanced neurologic disease (\nCVA\nwith disability,\nSpinal Cord Injuries\n)",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Most common pathogen is\nE. coli\nAnaerobic\norganisms are rarely pathogenic (do not grow well in urine)\nComplicated acute cystitis is more likely to be caused by\npseudomonas\nor\nenterococcus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "Perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "genitourinary syndrome of menopause",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Spinal Cord Injuries",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Injuries"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        }
+      ]
+    },
+    "Definitions": {
+      "text": "Relapse\nRecurrence of symptoms within month despite treatment\nCaused by same organism and represents treatment failure\nReinfection\nDevelopment of symptoms 1-6mo after treatment\nUsually due to a different organism\nIf patient has >3 recurrences in 1 yr consider tumor, calculi,\ndiabetes\nFor menopausal or postmenopausal women with recurrent infection consider empiric treatment for\ngenitourinary syndrome of menopause\n(GSM)\n[1]",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Anatomic abnormality of urinary tract or external drainage system\nIndwelling urinary catheter, stent\nNephrolithiasis\n, neurogenic bladder, polycystic renal disease, recent instrumentation\nRecurrent acute cystitis\nAdvanced age in men (BPH, recent instrumentation, recent prostatic biopsy)\nNursing home residency\nNeonatal\nComorbidities (\nDM\n,\nsickle cell disease\n)\nPregnancy\nImmunosuppression (\nAIDS\n, immunosuppressive drugs)\nAdvanced neurologic disease (\nCVA\nwith disability,\nSpinal Cord Injuries\n)",
+          "tables": []
+        },
+        "Microbiology": {
+          "text": "Most common pathogen is\nE. coli\nAnaerobic\norganisms are rarely pathogenic (do not grow well in urine)\nComplicated acute cystitis is more likely to be caused by\npseudomonas\nor\nenterococcus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "diabetes",
+          "url": "https://wikem.org/wiki/Diabetes"
+        },
+        {
+          "text": "genitourinary syndrome of menopause",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Spinal Cord Injuries",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Injuries"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        }
+      ]
+    },
+    "Risk_Factors": {
+      "text": "Anatomic abnormality of urinary tract or external drainage system\nIndwelling urinary catheter, stent\nNephrolithiasis\n, neurogenic bladder, polycystic renal disease, recent instrumentation\nRecurrent acute cystitis\nAdvanced age in men (BPH, recent instrumentation, recent prostatic biopsy)\nNursing home residency\nNeonatal\nComorbidities (\nDM\n,\nsickle cell disease\n)\nPregnancy\nImmunosuppression (\nAIDS\n, immunosuppressive drugs)\nAdvanced neurologic disease (\nCVA\nwith disability,\nSpinal Cord Injuries\n)",
+      "subsections": {
+        "Microbiology": {
+          "text": "Most common pathogen is\nE. coli\nAnaerobic\norganisms are rarely pathogenic (do not grow well in urine)\nComplicated acute cystitis is more likely to be caused by\npseudomonas\nor\nenterococcus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "DM",
+          "url": "https://wikem.org/wiki/DM"
+        },
+        {
+          "text": "sickle cell disease",
+          "url": "https://wikem.org/wiki/Sickle_cell_disease"
+        },
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "Spinal Cord Injuries",
+          "url": "https://wikem.org/wiki/Spinal_Cord_Injuries"
+        },
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        }
+      ]
+    },
+    "Microbiology": {
+      "text": "Most common pathogen is\nE. coli\nAnaerobic\norganisms are rarely pathogenic (do not grow well in urine)\nComplicated acute cystitis is more likely to be caused by\npseudomonas\nor\nenterococcus",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "E. coli",
+          "url": "https://wikem.org/wiki/E._coli"
+        },
+        {
+          "text": "Anaerobic",
+          "url": "https://wikem.org/wiki/Anaerobic"
+        },
+        {
+          "text": "pseudomonas",
+          "url": "https://wikem.org/wiki/Pseudomonas"
+        },
+        {
+          "text": "enterococcus",
+          "url": "https://wikem.org/wiki/Enterococcus"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Uncomplicated": {
+          "text": "Dysuria\nhematuria\nFrequency\nUrgency\nSuprapubic pain",
+          "tables": []
+        },
+        "Complicated": {
+          "text": "Suspect\npyelonephritis\n, infected kidney stone, or other disease process in patients who have inadequate or atypical response to treatment\nMay not have classic symptoms\nWeakness\nFever\nAbdominal pain\nAltered mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Uncomplicated": {
+      "text": "Dysuria\nhematuria\nFrequency\nUrgency\nSuprapubic pain",
+      "subsections": {
+        "Complicated": {
+          "text": "Suspect\npyelonephritis\n, infected kidney stone, or other disease process in patients who have inadequate or atypical response to treatment\nMay not have classic symptoms\nWeakness\nFever\nAbdominal pain\nAltered mental status",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysuria",
+          "url": "https://wikem.org/wiki/Dysuria"
+        },
+        {
+          "text": "hematuria",
+          "url": "https://wikem.org/wiki/Hematuria"
+        },
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Complicated": {
+      "text": "Suspect\npyelonephritis\n, infected kidney stone, or other disease process in patients who have inadequate or atypical response to treatment\nMay not have classic symptoms\nWeakness\nFever\nAbdominal pain\nAltered mental status",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Weakness",
+          "url": "https://wikem.org/wiki/Weakness"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "Abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Major": {
+          "text": "Pyelonephritis\nInfected\nkidney stone",
+          "tables": []
+        },
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[2]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Major": {
+      "text": "Pyelonephritis\nInfected\nkidney stone",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[2]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Acute_Pelvic_Pain": {
+      "text": "",
+      "subsections": {
+        "Gynecologic/Obstetric": {
+          "text": "Normal variants may be noted on exam but generally do not cause pain or other symptoms\nNabothian cysts: Epithelial cells within mucous glans that appear as yellow inclusions on the cervix\nCervical Ectropion: Edothelial cells on the exterior of the cervix\nParous cervix: The is no longer round but may have multiple shapes after birth\nPregnancy-related\nEctopic pregnancy\nSpontaneous abortion\n, threatened or incomplete\nSeptic abortion\nPelvic organ prolapse\nAcute Infections\nHerpes\nCervicitis\nEndometritis\nBartholin gland abscess\nPelvic inflammatory disease\n(PID)\nTubo-ovarian abscess\nVulvovaginitis\nBacterial Vaginosis\nCandida Vaginitis\nTrichomonas\nContact Vulvovaginitis\nAtrophic vaginitis\nAdnexal Disorders\nHemorrhage/rupture of\novarian cyst\nOvarian torsion\nTwisted paraovarian cyst\nOther\nMyoma (degenerating)\nGenitourinary trauma\nOvarian hyperstimulation syndrome\nSexual assault\nRecurrent\nMittelschmerz\nPrimary/Secondary Dysmenorrhea\nPelvic Congestion Syndrome\nEndometriosis",
+          "tables": []
+        },
+        "Genitourinary": {
+          "text": "Cystitis\nPyelonephritis\nUrethritis\n(e.g.\nN. gonorrhoeae\n/\nChlamydia\n)\n[2]\nUrolithiasis",
+          "tables": []
+        },
+        "Gastrointestinal": {
+          "text": "Gastroenteritis\nAppendicitis\nBowel obstruction\nPerirectal abscess\nDiverticulitis\nInflammatory bowel disease\nIrritable bowel syndrome\nMesenteric adenitis",
+          "tables": []
+        },
+        "Musculoskeletal": {
+          "text": "Abdominal wall hematoma\nPsoas hematoma,\npsoas abscess\nHernia",
+          "tables": []
+        },
+        "Vascular": {
+          "text": "Pelvic\nthrombophlebitis\nAbdominal aortic aneurysm\nIschemic bowel (\nMesenteric Ischemia\n)",
+          "tables": []
+        },
+        "Dysuria": {
+          "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "Spontaneous abortion",
+          "url": "https://wikem.org/wiki/Spontaneous_abortion"
+        },
+        {
+          "text": "Septic abortion",
+          "url": "https://wikem.org/wiki/Septic_abortion"
+        },
+        {
+          "text": "Herpes",
+          "url": "https://wikem.org/wiki/Herpes"
+        },
+        {
+          "text": "Cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "Endometritis",
+          "url": "https://wikem.org/wiki/Endometritis"
+        },
+        {
+          "text": "Bartholin gland abscess",
+          "url": "https://wikem.org/wiki/Bartholin_gland_abscess"
+        },
+        {
+          "text": "Pelvic inflammatory disease",
+          "url": "https://wikem.org/wiki/Pelvic_inflammatory_disease"
+        },
+        {
+          "text": "Tubo-ovarian abscess",
+          "url": "https://wikem.org/wiki/Tubo-ovarian_abscess"
+        },
+        {
+          "text": "Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Vulvovaginitis"
+        },
+        {
+          "text": "Bacterial Vaginosis",
+          "url": "https://wikem.org/wiki/Bacterial_Vaginosis"
+        },
+        {
+          "text": "Candida Vaginitis",
+          "url": "https://wikem.org/wiki/Candida_Vaginitis"
+        },
+        {
+          "text": "Trichomonas",
+          "url": "https://wikem.org/wiki/Trichomonas"
+        },
+        {
+          "text": "Contact Vulvovaginitis",
+          "url": "https://wikem.org/wiki/Contact_Vulvovaginitis"
+        },
+        {
+          "text": "Atrophic vaginitis",
+          "url": "https://wikem.org/wiki/Atrophic_vaginitis"
+        },
+        {
+          "text": "ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "Genitourinary trauma",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "Ovarian hyperstimulation syndrome",
+          "url": "https://wikem.org/wiki/Ovarian_hyperstimulation_syndrome"
+        },
+        {
+          "text": "Sexual assault",
+          "url": "https://wikem.org/wiki/Sexual_assault"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Cystitis",
+          "url": "https://wikem.org/wiki/Cystitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "N. gonorrhoeae",
+          "url": "https://wikem.org/wiki/N._gonorrhoeae"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Gastroenteritis",
+          "url": "https://wikem.org/wiki/Gastroenteritis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Bowel obstruction",
+          "url": "https://wikem.org/wiki/Bowel_Obstruction"
+        },
+        {
+          "text": "Perirectal abscess",
+          "url": "https://wikem.org/wiki/Anorectal_Abscess"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Mesenteric adenitis",
+          "url": "https://wikem.org/wiki/Mesenteric_adenitis"
+        },
+        {
+          "text": "psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Hernia",
+          "url": "https://wikem.org/wiki/Hernia"
+        },
+        {
+          "text": "thrombophlebitis",
+          "url": "https://wikem.org/wiki/Thrombophlebitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Mesenteric Ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_Ischemia"
+        },
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Dysuria": {
+      "text": "Genitourinary infection\nAcute cystitis\n(\"UTI\")\nPyelonephritis\nUrethritis\nChronic cystitis\nInfected\nnephrolithiasis\nProstatitis\nEpididymitis\nRenal abscess\n/\nperinephric abscess\nEmphysematous pyelonephritis\nNephrolithiasis\nUrethral issue\nUrethritis\nUrolithiasis\nUrethral foreign body\nUrethral diverticulum\nAllergic reaction\n(contact dermatitis)\nChemical irritation\nUrethral stricture\nor obstruction\nTrauma to vagina, urethra, or bladder\nGynecologic\nVaginitis/\ncervicitis\nPID\nGenital herpes\nPelvic organ prolapse\nFistula\nCystocele\nOther\nDiverticulitis\nInterstitial cystitis\nBehavioral symptom without detectable pathology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Genitourinary infection",
+          "url": "https://wikem.org/wiki/Genitourinary_infection"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "Epididymitis",
+          "url": "https://wikem.org/wiki/Epididymitis"
+        },
+        {
+          "text": "Renal abscess",
+          "url": "https://wikem.org/wiki/Renal_abscess"
+        },
+        {
+          "text": "perinephric abscess",
+          "url": "https://wikem.org/wiki/Perinephric_abscess"
+        },
+        {
+          "text": "Emphysematous pyelonephritis",
+          "url": "https://wikem.org/wiki/Emphysematous_pyelonephritis"
+        },
+        {
+          "text": "Nephrolithiasis",
+          "url": "https://wikem.org/wiki/Nephrolithiasis"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Urolithiasis",
+          "url": "https://wikem.org/wiki/Urolithiasis"
+        },
+        {
+          "text": "Allergic reaction",
+          "url": "https://wikem.org/wiki/Allergic_reaction"
+        },
+        {
+          "text": "Urethral stricture",
+          "url": "https://wikem.org/wiki/Urethral_stricture"
+        },
+        {
+          "text": "Trauma to vagina, urethra, or bladder",
+          "url": "https://wikem.org/wiki/Genitourinary_trauma"
+        },
+        {
+          "text": "cervicitis",
+          "url": "https://wikem.org/wiki/Cervicitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Genital herpes",
+          "url": "https://wikem.org/wiki/Genital_herpes"
+        },
+        {
+          "text": "Pelvic organ prolapse",
+          "url": "https://wikem.org/wiki/Pelvic_organ_prolapse"
+        },
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Interstitial cystitis",
+          "url": "https://wikem.org/wiki/Interstitial_cystitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "WBC_count": {
+          "text": "WBC >5 in patient with appropriate symptoms is diagnostic\nLower degrees of pyuria may still be clinically significant in presence of symptoms\nFalse negative may be due to: dilute urine, systemic leukopenia, obstruction, recent antibiotic use with incomplete treatment\nWBC 1-2 with bacteriuria can be significant in men\nMore likely represents\nurethritis\nor\nprostatitis\nfrom\nSTI\nHigh WBCs w/o bacteria, consider TB,\nChlamydia\n,\nAppendicitis",
+          "tables": []
+        },
+        "Leukocyte_Esterase": {
+          "text": "Found in PMNs\nHigh sensitivity\nLow specificity",
+          "tables": []
+        },
+        "Nitrite": {
+          "text": "Very high specificity (>90%) in confirming diagnosis\nLow sensitivity (enterococcus, pseudomonas, acinetobacter are not detected)",
+          "tables": []
+        },
+        "Urine_Culture": {
+          "text": "Indicated for:\nComplicated acute cystitis\nPyelonephritis\nPregnant women\nChildren\nAdult males\nRelapse/reinfection",
+          "tables": []
+        },
+        "Blood_Culture": {
+          "text": "Not indicated\nOrganisms in\nblood cultures\nmatched those in\nurine cultures\n97% of time",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "prostatitis",
+          "url": "https://wikem.org/wiki/Prostatitis"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        },
+        {
+          "text": "Chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "urine cultures",
+          "url": "https://wikem.org/wiki/Urine_cultures"
+        }
+      ]
+    },
+    "Urine_Culture": {
+      "text": "Indicated for:\nComplicated acute cystitis\nPyelonephritis\nPregnant women\nChildren\nAdult males\nRelapse/reinfection",
+      "subsections": {
+        "Blood_Culture": {
+          "text": "Not indicated\nOrganisms in\nblood cultures\nmatched those in\nurine cultures\n97% of time",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "urine cultures",
+          "url": "https://wikem.org/wiki/Urine_cultures"
+        }
+      ]
+    },
+    "Blood_Culture": {
+      "text": "Not indicated\nOrganisms in\nblood cultures\nmatched those in\nurine cultures\n97% of time",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "blood cultures",
+          "url": "https://wikem.org/wiki/Blood_cultures"
+        },
+        {
+          "text": "urine cultures",
+          "url": "https://wikem.org/wiki/Urine_cultures"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Consider local resistance patterns (if >10-20% use a different agent)\nAvoid use of fluoroquinolones for uncomplicated cystitis if possible\nConsider\nphenazopyridine\nfor dysuria symptoms\n100-200mg TID after meals x 2 days for pain control (bladder analgesic)\nWarn of discoloration of urine and tears. Don’t wear contact lens due to risk of staining.\n[3]\nComplicated if\nSymptoms >7days\nDiabetes mellitus\nUrinary tract infection in previous 4wk\nMen\n>65 years old\nWomen who use spermicides or diaphragm\nRelapse\nPregnancy",
+      "subsections": {
+        "Outpatient": {
+          "text": "Women, Uncomplicated\nNitrofurantoin\nER 100mg BID x 5d, OR\nTMP/SMX\nDS (160/800mg) 1 tab BID x 3d (Females) x7days (Males), OR\nCephalexin\n250mg QID x 5d, OR\nCiprofloxacin\n250mg BID x3d\nAvoid using fluoroquinolone for the first-line treatment of uncomplicated urinary tract infections (UTIs) in women.\n[4]\nFosfomycin\n3 g PO once\nLower clinical and microbiologic success compared to nitrofurantoin TID for 5 days\n[5]\nWomen, Complicated\nCiprofloxacin\n500mg BID x10-14d, OR\nCefpodoxime\n200 mg BID x10-14d\nWomen, Concern for\nUrethritis\nCeftriaxone\n250mg IM x1 AND\nazithromycin\n1gm PO x1 AND\nnitrofurantoin\nER 100mg BID x5d, OR\nLevofloxacin\n500mg QD x 14d (covers urinary pathogens,\nGC\n, and\nchlamydia\n)\nGC\nresistance to fluoroquinolones is increasing\nMen\nCiprofloxacin\n500mg BID x10-14d, OR\nCefpodoxime\n200 mg BID x10-14d",
+          "tables": []
+        },
+        "Inpatient_Options": {
+          "text": "Ciprofloxacin\n400mg IV q12hr, OR\nCeftriaxone\n1gm IV QD, OR\nCefotaxime\n1-2gm IV q8hr, OR\nGentamicin\n3mg/kg/day divided q8hr +/- ampicillin 1–2 gm q4hr, OR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr, OR\nCefepime\n2gm IV q8hr, OR\nImipenem\n500mg IV q8hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "phenazopyridine",
+          "url": "https://wikem.org/wiki/Phenazopyridine"
+        },
+        {
+          "text": "Diabetes mellitus",
+          "url": "https://wikem.org/wiki/Diabetes_mellitus"
+        },
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Fosfomycin",
+          "url": "https://wikem.org/wiki/Fosfomycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Outpatient": {
+      "text": "Women, Uncomplicated\nNitrofurantoin\nER 100mg BID x 5d, OR\nTMP/SMX\nDS (160/800mg) 1 tab BID x 3d (Females) x7days (Males), OR\nCephalexin\n250mg QID x 5d, OR\nCiprofloxacin\n250mg BID x3d\nAvoid using fluoroquinolone for the first-line treatment of uncomplicated urinary tract infections (UTIs) in women.\n[4]\nFosfomycin\n3 g PO once\nLower clinical and microbiologic success compared to nitrofurantoin TID for 5 days\n[5]\nWomen, Complicated\nCiprofloxacin\n500mg BID x10-14d, OR\nCefpodoxime\n200 mg BID x10-14d\nWomen, Concern for\nUrethritis\nCeftriaxone\n250mg IM x1 AND\nazithromycin\n1gm PO x1 AND\nnitrofurantoin\nER 100mg BID x5d, OR\nLevofloxacin\n500mg QD x 14d (covers urinary pathogens,\nGC\n, and\nchlamydia\n)\nGC\nresistance to fluoroquinolones is increasing\nMen\nCiprofloxacin\n500mg BID x10-14d, OR\nCefpodoxime\n200 mg BID x10-14d",
+      "subsections": {
+        "Inpatient_Options": {
+          "text": "Ciprofloxacin\n400mg IV q12hr, OR\nCeftriaxone\n1gm IV QD, OR\nCefotaxime\n1-2gm IV q8hr, OR\nGentamicin\n3mg/kg/day divided q8hr +/- ampicillin 1–2 gm q4hr, OR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr, OR\nCefepime\n2gm IV q8hr, OR\nImipenem\n500mg IV q8hr",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "TMP/SMX",
+          "url": "https://wikem.org/wiki/TMP/SMX"
+        },
+        {
+          "text": "Cephalexin",
+          "url": "https://wikem.org/wiki/Cephalexin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Fosfomycin",
+          "url": "https://wikem.org/wiki/Fosfomycin"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Urethritis",
+          "url": "https://wikem.org/wiki/Urethritis"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "azithromycin",
+          "url": "https://wikem.org/wiki/Azithromycin"
+        },
+        {
+          "text": "nitrofurantoin",
+          "url": "https://wikem.org/wiki/Nitrofurantoin"
+        },
+        {
+          "text": "Levofloxacin",
+          "url": "https://wikem.org/wiki/Levofloxacin"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "chlamydia",
+          "url": "https://wikem.org/wiki/Chlamydia"
+        },
+        {
+          "text": "GC",
+          "url": "https://wikem.org/wiki/GC"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Cefpodoxime",
+          "url": "https://wikem.org/wiki/Cefpodoxime"
+        },
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Inpatient_Options": {
+      "text": "Ciprofloxacin\n400mg IV q12hr, OR\nCeftriaxone\n1gm IV QD, OR\nCefotaxime\n1-2gm IV q8hr, OR\nGentamicin\n3mg/kg/day divided q8hr +/- ampicillin 1–2 gm q4hr, OR\nPiperacillin/Tazobactam\n3.375 gm IV q6hr, OR\nCefepime\n2gm IV q8hr, OR\nImipenem\n500mg IV q8hr",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ciprofloxacin",
+          "url": "https://wikem.org/wiki/Ciprofloxacin"
+        },
+        {
+          "text": "Ceftriaxone",
+          "url": "https://wikem.org/wiki/Ceftriaxone"
+        },
+        {
+          "text": "Cefotaxime",
+          "url": "https://wikem.org/wiki/Cefotaxime"
+        },
+        {
+          "text": "Gentamicin",
+          "url": "https://wikem.org/wiki/Gentamicin"
+        },
+        {
+          "text": "Piperacillin/Tazobactam",
+          "url": "https://wikem.org/wiki/Piperacillin/Tazobactam"
+        },
+        {
+          "text": "Cefepime",
+          "url": "https://wikem.org/wiki/Cefepime"
+        },
+        {
+          "text": "Imipenem",
+          "url": "https://wikem.org/wiki/Imipenem"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "",
+      "subsections": {
+        "Uncomplicated_2": {
+          "text": "Admit for inability to tolerate PO",
+          "tables": []
+        },
+        "Complicated_2": {
+          "text": "Consider admission for period of observation and/or culture results",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Uncomplicated_2": {
+      "text": "Admit for inability to tolerate PO",
+      "subsections": {
+        "Complicated_2": {
+          "text": "Consider admission for period of observation and/or culture results",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complicated_2": {
+      "text": "Consider admission for period of observation and/or culture results",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "AIDS": {
+          "text": "TMP-SMX\nresistance is increased due to its use in\nPCP pneumonia\nprophylaxis\nFluoroquinolones\nshould be initial antibiotic of choice\nMost acute cystitis is caused by typical pathogens or common\nSTI\norganisms",
+          "tables": []
+        },
+        "Pregnant_Women": {
+          "text": "New ACOG guidelines: If asymptomatic, get a culture and only treat if >100k CFUs\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "AIDS": {
+      "text": "TMP-SMX\nresistance is increased due to its use in\nPCP pneumonia\nprophylaxis\nFluoroquinolones\nshould be initial antibiotic of choice\nMost acute cystitis is caused by typical pathogens or common\nSTI\norganisms",
+      "subsections": {
+        "Pregnant_Women": {
+          "text": "New ACOG guidelines: If asymptomatic, get a culture and only treat if >100k CFUs\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "TMP-SMX",
+          "url": "https://wikem.org/wiki/TMP-SMX"
+        },
+        {
+          "text": "PCP pneumonia",
+          "url": "https://wikem.org/wiki/PCP_pneumonia"
+        },
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        },
+        {
+          "text": "STI",
+          "url": "https://wikem.org/wiki/STI"
+        }
+      ]
+    },
+    "Pregnant_Women": {
+      "text": "New ACOG guidelines: If asymptomatic, get a culture and only treat if >100k CFUs\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Urinary tract infections\nUTI (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Urinary tract infections",
+          "url": "https://wikem.org/wiki/Urinary_tract_infections"
+        },
+        {
+          "text": "UTI (Peds)",
+          "url": "https://wikem.org/wiki/UTI_(Peds)"
+        }
+      ]
+    }
+  }
+}

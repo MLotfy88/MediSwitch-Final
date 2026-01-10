@@ -1,0 +1,49 @@
+{
+  "drug_name": "Achalasia/en",
+  "url": "https://wikem.org/wiki/Achalasia/en",
+  "scraped_at": "2026-01-10T07:46:40.743398",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Inability of LES to relax and loss of normal peristalsis\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Dysphagia\nRegurgitation\nChest pain\nEsophageal spasm can feel like tight, crushing retrosternal pain similar to ACS",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Ingested foreign body\nEsophageal carcinoma -\ndysphagia predominantly for solid foods during initial stages\nReflux\nesophagitis\n-\ndysphagia results from inflammatory swelling or a fibrotic stricture\nPseudoachalasia -\nunderlying malignancy mimics achalasia\nConnective tissue disorders\n-\ne.g.\nsystemic sclerosis\nEsophageal spasm -\nchest pain a predominant feature",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "Upper GI\nEsophageal dilatation\nBirds beak sign\nEsophageal Manometry",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Trial of antispasmodic for esophageal spasm\nNifedipine\nSurgical intervention\nBalloon dilatation\nBotulinum toxin injection\n[2]\nMyomectomy\nConsider gastrostomy for frail and older patients\nPatients need to eat upright at all times.\nTreatment may improve dysphagia, but there is no cure and swallowing never completely normalizes",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Ingested foreign body",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

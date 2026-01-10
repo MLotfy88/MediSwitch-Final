@@ -1,0 +1,185 @@
+{
+  "drug_name": "Achilles_tendon_rupture",
+  "url": "https://wikem.org/wiki/Achilles_tendon_rupture",
+  "scraped_at": "2026-01-10T07:46:41.009135",
+  "sections": {
+    "Background": {
+      "text": "Most frequently ruptures 2-6cm above calcaneus (where blood supply is weakest)\nTypical patient is 30-50yr old man who participates in strenuous activities on occasional basis\nQuinolone\n-associated rupture occurs in only 12 per 100,000 treatment episodes, and risk may be equivalent to oral steroids or non-quinolone antibiotics\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Quinolone",
+          "url": "https://wikem.org/wiki/Quinolone"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Sudden, severe pain typically with rapid acceleration or pivoting\nMay hear a \"pop\"\nInability to run, stand on toes, or climb stairs\nPalpable defect in Achilles tendon 2-6cm proximal to calcaneus (SN 73% and SP 89% for partial tear)\n20-30% of ruptures will have some amount of active plantar flexion or be able to walk",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Calf_pain": {
+          "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Calf_pain": {
+      "text": "Achilles tendon rupture\nCalcaneal bursitis\nCellulitis\nCompartment syndrome\nDeep venous thrombosis\n(DVT)\nDistal leg fractures\nGastrocnemius strain\nRuptured popliteal cyst\n(Bakers cyst)\nSuperficial thrombophlebitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Calcaneal bursitis",
+          "url": "https://wikem.org/wiki/Calcaneal_bursitis"
+        },
+        {
+          "text": "Cellulitis",
+          "url": "https://wikem.org/wiki/Cellulitis"
+        },
+        {
+          "text": "Compartment syndrome",
+          "url": "https://wikem.org/wiki/Compartment_syndrome"
+        },
+        {
+          "text": "Deep venous thrombosis",
+          "url": "https://wikem.org/wiki/Deep_venous_thrombosis"
+        },
+        {
+          "text": "Distal leg fractures",
+          "url": "https://wikem.org/wiki/Distal_leg_fractures"
+        },
+        {
+          "text": "Gastrocnemius strain",
+          "url": "https://wikem.org/wiki/Gastrocnemius_strain"
+        },
+        {
+          "text": "Ruptured popliteal cyst",
+          "url": "https://wikem.org/wiki/Popliteal_cyst"
+        },
+        {
+          "text": "Superficial thrombophlebitis",
+          "url": "https://wikem.org/wiki/Superficial_thrombophlebitis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Consider x-rays to rule out fracture\nConsider\nultrasound in equivocal cases\nComparing to normal ankle can reveal smaller defects or tears",
+          "tables": []
+        },
+        "Thompson_test": {
+          "text": "(SN 96% and SP 93%)\nLay patient prone with knee bent at 90°\nIn normal patient, squeezing calf results in plantar-flexion",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis (via positive Thompson test)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound in equivocal cases",
+          "url": "https://wikem.org/wiki/Ultrasound:_Tendons"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "Consider x-rays to rule out fracture\nConsider\nultrasound in equivocal cases\nComparing to normal ankle can reveal smaller defects or tears",
+      "subsections": {
+        "Thompson_test": {
+          "text": "(SN 96% and SP 93%)\nLay patient prone with knee bent at 90°\nIn normal patient, squeezing calf results in plantar-flexion",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis (via positive Thompson test)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ultrasound in equivocal cases",
+          "url": "https://wikem.org/wiki/Ultrasound:_Tendons"
+        }
+      ]
+    },
+    "Thompson_test": {
+      "text": "(SN 96% and SP 93%)\nLay patient prone with knee bent at 90°\nIn normal patient, squeezing calf results in plantar-flexion",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis (via positive Thompson test)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis (via positive Thompson test)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Rest, ice, elevation\nNon-weightbearing\nShort leg posterior splint\nwith ankle slightly plantar-flexed\nWalking boot can be used as well\n[3]\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Short leg posterior splint",
+          "url": "https://wikem.org/wiki/Short_leg_posterior_splint"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient with ortho referral",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

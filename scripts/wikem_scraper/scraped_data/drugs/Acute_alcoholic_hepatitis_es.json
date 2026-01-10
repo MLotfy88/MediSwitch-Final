@@ -1,0 +1,356 @@
+{
+  "drug_name": "Acute_alcoholic_hepatitis/es",
+  "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis/es",
+  "scraped_at": "2026-01-10T07:46:50.819821",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antecedentes": {
+      "text": "La hepatitis alcohólica aguda es una enfermedad inflamatoria del hígado secundaria al consumo de alcohol.\nEspectro que va desde la esteatosis hepática hasta la hepatitis alcohólica y la\ncirrosis\nHistoria de (generalmente crónico)\nabuso de alcohol\n(~80 gramos de etanol al día durante 5 años)\nVa desde casos subclínicos hasta disfunción multisistémica grave",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Características_clínicas": {
+      "text": "",
+      "subsections": {
+        "Síntomas": {
+          "text": "Dolor abdominal\nNáuseas y vómitos\nPérdida de peso / fatiga / anorexia",
+          "tables": []
+        },
+        "Signos": {
+          "text": "Sensibilidad en el cuadrante superior derecho\nIctericia\nFiebre\nHepatomegalia\nAscites\nEncefalopatía\nAngioma en araña\nHemorragia gastrointestinal\n/varices\nDesnutrición\nSíntomas de\nabstinencia alcohólica\nLa\ncirrosis\nse encuentra en el 50-60% de los casos de hepatitis alcohólica\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Síntomas": {
+      "text": "Dolor abdominal\nNáuseas y vómitos\nPérdida de peso / fatiga / anorexia",
+      "subsections": {
+        "Signos": {
+          "text": "Sensibilidad en el cuadrante superior derecho\nIctericia\nFiebre\nHepatomegalia\nAscites\nEncefalopatía\nAngioma en araña\nHemorragia gastrointestinal\n/varices\nDesnutrición\nSíntomas de\nabstinencia alcohólica\nLa\ncirrosis\nse encuentra en el 50-60% de los casos de hepatitis alcohólica\n[1]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Signos": {
+      "text": "Sensibilidad en el cuadrante superior derecho\nIctericia\nFiebre\nHepatomegalia\nAscites\nEncefalopatía\nAngioma en araña\nHemorragia gastrointestinal\n/varices\nDesnutrición\nSíntomas de\nabstinencia alcohólica\nLa\ncirrosis\nse encuentra en el 50-60% de los casos de hepatitis alcohólica\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Diagnóstico_diferencial": {
+      "text": "Pancreatitis\nalcohólica\nCálculos biliares\nSíndrome de Budd-Chiari\nHepatitis viral\nHepatitis inducida por fármacos",
+      "subsections": {
+        "Causes_of_acute_hepatitis": {
+          "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[2]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Causes_of_acute_hepatitis": {
+      "text": "Acetaminophen toxicity\n(most common cause of acute liver failure in the US\n[2]\n)\nViral hepatitis\nHepatitis A\nHepatitis B\nHepatitis C\nHepatitis D\nHepatitis E\nHSV\nEpstein-Barr virus\nVaricella zoster virus\nToxoplasmosis\nAcute alcoholic hepatitis\nToxins\nMushroom toxicity\nCrotinarius mushrooms\nGyromitra mushrooms\nAmanita mushrooms\nIschemic hepatitis\nAutoimmune hepatitis\nWilson's disease",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Acetaminophen toxicity",
+          "url": "https://wikem.org/wiki/Acetaminophen_toxicity"
+        },
+        {
+          "text": "Viral hepatitis",
+          "url": "https://wikem.org/wiki/Viral_hepatitis"
+        },
+        {
+          "text": "Hepatitis A",
+          "url": "https://wikem.org/wiki/Hepatitis_A"
+        },
+        {
+          "text": "Hepatitis B",
+          "url": "https://wikem.org/wiki/Hepatitis_B"
+        },
+        {
+          "text": "Hepatitis C",
+          "url": "https://wikem.org/wiki/Hepatitis_C"
+        },
+        {
+          "text": "Hepatitis D",
+          "url": "https://wikem.org/wiki/Hepatitis_D"
+        },
+        {
+          "text": "Hepatitis E",
+          "url": "https://wikem.org/wiki/Hepatitis_E"
+        },
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Epstein-Barr virus",
+          "url": "https://wikem.org/wiki/Epstein-Barr_virus"
+        },
+        {
+          "text": "Varicella zoster virus",
+          "url": "https://wikem.org/wiki/Varicella_zoster_virus"
+        },
+        {
+          "text": "Toxoplasmosis",
+          "url": "https://wikem.org/wiki/Toxoplasmosis"
+        },
+        {
+          "text": "Acute alcoholic hepatitis",
+          "url": "https://wikem.org/wiki/Acute_alcoholic_hepatitis"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "Mushroom toxicity",
+          "url": "https://wikem.org/wiki/Mushroom_toxicity"
+        },
+        {
+          "text": "Crotinarius mushrooms",
+          "url": "https://wikem.org/wiki/Crotinarius_mushrooms"
+        },
+        {
+          "text": "Gyromitra mushrooms",
+          "url": "https://wikem.org/wiki/Gyromitra_mushrooms"
+        },
+        {
+          "text": "Amanita mushrooms",
+          "url": "https://wikem.org/wiki/Amanita_mushrooms"
+        },
+        {
+          "text": "Ischemic hepatitis",
+          "url": "https://wikem.org/wiki/Ischemic_hepatitis"
+        },
+        {
+          "text": "Autoimmune hepatitis",
+          "url": "https://wikem.org/wiki/Autoimmune_hepatitis"
+        },
+        {
+          "text": "Wilson's disease",
+          "url": "https://wikem.org/wiki/Wilson%27s_disease"
+        }
+      ]
+    },
+    "Evaluación": {
+      "text": "",
+      "subsections": {
+        "Análisis_de_laboratorio": {
+          "text": "Hemograma\nLeucocitosis\ncon ANC elevado\nQuímica sanguínea, incluyendo magnesio y fosfato\nPruebas de función hepática\nElevaciones muy altas posiblemente más sugestivas de hepatitis viral o inducida por fármacos\nAST/ALT elevados (característicamente >2:1 y < 500 UI/L)\nGGT solo es menos confiable (baja sensibilidad y especificidad)\n[3]\nFactores de coagulación\nPT/INR elevados\nLipasa si se sospecha\npancreatitis\nConsiderar panel de\nhepatitis viral",
+          "tables": []
+        },
+        "Imágenes": {
+          "text": "Considerar\necografía transabdominal\nsi hay preocupación por:\nEnfermedad biliar obstructiva\nSíndrome de Budd-Chiari\nNeoplasias hepáticas o biliares",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ecografía transabdominal",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Evaluación_2": {
+      "text": "",
+      "subsections": {
+        "Análisis_de_laboratorio": {
+          "text": "Hemograma\nLeucocitosis\ncon ANC elevado\nQuímica sanguínea, incluyendo magnesio y fosfato\nPruebas de función hepática\nElevaciones muy altas posiblemente más sugestivas de hepatitis viral o inducida por fármacos\nAST/ALT elevados (característicamente >2:1 y < 500 UI/L)\nGGT solo es menos confiable (baja sensibilidad y especificidad)\n[3]\nFactores de coagulación\nPT/INR elevados\nLipasa si se sospecha\npancreatitis\nConsiderar panel de\nhepatitis viral",
+          "tables": []
+        },
+        "Imágenes": {
+          "text": "Considerar\necografía transabdominal\nsi hay preocupación por:\nEnfermedad biliar obstructiva\nSíndrome de Budd-Chiari\nNeoplasias hepáticas o biliares",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ecografía transabdominal",
+          "url": "https://wikem.org/wiki/Ultrasound:_Abdomen"
+        }
+      ]
+    },
+    "Evaluación_3": {
+      "text": "El diagnóstico es difícil y depende de una buena historia\n[4]\nHistoria de ingesta significativa de alcohol\nEvidencia clínica de enfermedad hepática\nAnomalías de laboratorio de apoyo\nPuede ser no diagnóstico en pacientes con enfermedad leve o cirrosis temprana\nTambién puede tener anomalías electrolíticas debido a la desnutrición o la\ncetoacidosis alcohólica",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Manejo": {
+      "text": "Control de los síntomas de abstinencia\nApoyo nutricional para la desnutrición: especialmente\ntiamina\n,\nfolato\n,\npiridoxina\n,\nmagnesio\n,\nfosfato\n,\nglucosa\ny proteínas",
+      "subsections": {
+        "Hepatitis_Alcohólica_Severa": {
+          "text": "Definida como\npuntuación de Maddrey's DF ≥32\n[5]\nConfiere una mortalidad del 20-50% en 30 días\nTerapia de primera línea:\nPrednisolona\n40mg VO cada día durante 4 semanas\n[5]\nDeben evaluar la respuesta al tratamiento a los 7 días con la puntuación de Lille\nSi la\npuntuación de Lille >0,45\n, se considera como no respondedor y se debe suspender la prednisolona\n[5]\nPentoxifilina\n- la evidencia no respalda su uso\n[6]\nSuspender los bloqueadores beta no selectivos (por ejemplo, propranolol) para reducir la incidencia de lesión renal aguda\n[7]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatitis_Alcohólica_Severa": {
+      "text": "Definida como\npuntuación de Maddrey's DF ≥32\n[5]\nConfiere una mortalidad del 20-50% en 30 días\nTerapia de primera línea:\nPrednisolona\n40mg VO cada día durante 4 semanas\n[5]\nDeben evaluar la respuesta al tratamiento a los 7 días con la puntuación de Lille\nSi la\npuntuación de Lille >0,45\n, se considera como no respondedor y se debe suspender la prednisolona\n[5]\nPentoxifilina\n- la evidencia no respalda su uso\n[6]\nSuspender los bloqueadores beta no selectivos (por ejemplo, propranolol) para reducir la incidencia de lesión renal aguda\n[7]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Destino": {
+      "text": "",
+      "subsections": {
+        "Alta": {
+          "text": "Enfermedad leve/riesgo bajo\nEvaluación y intervención nutricional\nDiscutir el consumo de\nalcohol\ny recomendar la abstinencia estricta",
+          "tables": []
+        },
+        "Ingresar": {
+          "text": "Alto riesgo definido como MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\nSe debe considerar la admisión para los anteriormente mencionados, así como para cualquiera de las siguientes complicaciones:\nEvidencia de infección activa\nInsuficiencia renal\nCoagulopatía severa y/o insuficiencia hepática\nAbstinencia alcohólica/delirium tremens",
+          "tables": []
+        },
+        "Prónostico": {
+          "text": "Puntuación de la Función Discriminante de Maddrey (\nMDF\n)\nPuntuación del Modelo para la Enfermedad Hepática en Etapa Terminal (\nMELD\n)\nAlto riesgo: MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Alta": {
+      "text": "Enfermedad leve/riesgo bajo\nEvaluación y intervención nutricional\nDiscutir el consumo de\nalcohol\ny recomendar la abstinencia estricta",
+      "subsections": {
+        "Ingresar": {
+          "text": "Alto riesgo definido como MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\nSe debe considerar la admisión para los anteriormente mencionados, así como para cualquiera de las siguientes complicaciones:\nEvidencia de infección activa\nInsuficiencia renal\nCoagulopatía severa y/o insuficiencia hepática\nAbstinencia alcohólica/delirium tremens",
+          "tables": []
+        },
+        "Prónostico": {
+          "text": "Puntuación de la Función Discriminante de Maddrey (\nMDF\n)\nPuntuación del Modelo para la Enfermedad Hepática en Etapa Terminal (\nMELD\n)\nAlto riesgo: MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Ingresar": {
+      "text": "Alto riesgo definido como MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\nSe debe considerar la admisión para los anteriormente mencionados, así como para cualquiera de las siguientes complicaciones:\nEvidencia de infección activa\nInsuficiencia renal\nCoagulopatía severa y/o insuficiencia hepática\nAbstinencia alcohólica/delirium tremens",
+      "subsections": {
+        "Prónostico": {
+          "text": "Puntuación de la Función Discriminante de Maddrey (\nMDF\n)\nPuntuación del Modelo para la Enfermedad Hepática en Etapa Terminal (\nMELD\n)\nAlto riesgo: MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\n[8]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prónostico": {
+      "text": "Puntuación de la Función Discriminante de Maddrey (\nMDF\n)\nPuntuación del Modelo para la Enfermedad Hepática en Etapa Terminal (\nMELD\n)\nAlto riesgo: MDF ≥ 32, MELD ≥ 18, o presencia de\nencefalopatía hepática\n[8]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ver_también": {
+      "text": "Hepatitis aguda\nAlcohol",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Enlaces_Externos": {
+      "text": "http://www.aasld.org/sites/default/files/guideline_documents/AlcoholicLiverDisease1-2010.pdf",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

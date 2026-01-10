@@ -1,0 +1,514 @@
+{
+  "drug_name": "Acute_dyspnea_(peds)",
+  "url": "https://wikem.org/wiki/Acute_dyspnea_(peds)",
+  "scraped_at": "2026-01-10T07:46:56.918056",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nacute dyspnea\n.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Breathing complaints common in pediatrics\nInfants/children have higher predisposition to respiratory failure relative to adults\nHigher resting metabolic rate requires more oxygen\nAnatomical differences (e.g. smaller diameter airways) predispose to respiratory failure\nVast majority of pediatric cardiac arrests are secondary to respiratory problem\nIncluded here are other respiratory chief complaints, such as tachypnea, irregular breathing, abnormal respiratory sounds or appearance, cyanosis, which parents may have noticed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_diagnosis": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "Pediatric_Shortness_of_Breath": {
+      "text": "",
+      "subsections": {
+        "Pulmonary/airway": {
+          "text": "Airway obstruction\nAnaphylaxis\nAngioedema\nAspirated foreign body\nAsthma exacerbation\nStructural\nBronchopulmonary dysplasia\nChoanal atresia\nNeoplasm\nSubglottic stenosis\nTracheoesophageal fistula\nTracheomalacia\nSpontaneous pneumothorax\nInfectious\nBacterial tracheitis\nBronchiolitis (peds)\n,\nURI\nCroup\nEpiglottitis\nPertussis\nPneumonia\nCystic fibrosis\nexacerbation\nTrauma\nRib fractures\nFlail chest\nTraumatic pneumothorax\nPulmonary contusion\nOther\nInhalation exposure\nMeconium aspiration syndrome\nPulmonary edema\nPulmonary hypertension\n,\ncor pulmonale\nRespiratory distress syndrome",
+          "tables": []
+        },
+        "Cardiac": {
+          "text": "Congenital heart disease\nVascular ring\nCardiac tamponade\nCongestive Heart Failure (peds)\nMyocarditis (peds)",
+          "tables": []
+        },
+        "Other_diseases_with_abnormal_respiration": {
+          "text": "Normal neonatal periodic breathing (misinterpreted by caregivers as abnormal)\nBrief resolved unexplained event\nAnemia\nAbdominal distension (e.g.\nSBO\n,\nliver failure\nNeonatal abstinence syndrome\nDecreased perfusion states\nPediatric shock\nSepsis (peds)\nDehydration (peds)\nMetabolic acidosis\nDiabetic ketoacidosis (peds)\nInborn errors of metabolism\nSalicylate toxicity\nCO Poisoning\nDiaphragm injury\nRenal Failure\nElectrolyte abnormalities\nOrganophosphate toxicity\nTick paralysis\nFever (Peds)\nPanic attack\nPorphyria",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "Angioedema",
+          "url": "https://wikem.org/wiki/Angioedema"
+        },
+        {
+          "text": "Aspirated foreign body",
+          "url": "https://wikem.org/wiki/Aspirated_foreign_body"
+        },
+        {
+          "text": "Asthma exacerbation",
+          "url": "https://wikem.org/wiki/Asthma_(peds)"
+        },
+        {
+          "text": "Bronchopulmonary dysplasia",
+          "url": "https://wikem.org/wiki/Bronchopulmonary_dysplasia"
+        },
+        {
+          "text": "Choanal atresia",
+          "url": "https://wikem.org/wiki/Choanal_atresia"
+        },
+        {
+          "text": "Subglottic stenosis",
+          "url": "https://wikem.org/wiki/Subglottic_stenosis"
+        },
+        {
+          "text": "Tracheomalacia",
+          "url": "https://wikem.org/wiki/Tracheomalacia"
+        },
+        {
+          "text": "Spontaneous pneumothorax",
+          "url": "https://wikem.org/wiki/Spontaneous_pneumothorax"
+        },
+        {
+          "text": "Bacterial tracheitis",
+          "url": "https://wikem.org/wiki/Bacterial_tracheitis"
+        },
+        {
+          "text": "Bronchiolitis (peds)",
+          "url": "https://wikem.org/wiki/Bronchiolitis_(peds)"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "Croup",
+          "url": "https://wikem.org/wiki/Croup"
+        },
+        {
+          "text": "Epiglottitis",
+          "url": "https://wikem.org/wiki/Epiglottitis"
+        },
+        {
+          "text": "Pertussis",
+          "url": "https://wikem.org/wiki/Pertussis"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia_(peds)"
+        },
+        {
+          "text": "Cystic fibrosis",
+          "url": "https://wikem.org/wiki/Cystic_fibrosis"
+        },
+        {
+          "text": "Trauma",
+          "url": "https://wikem.org/wiki/Trauma"
+        },
+        {
+          "text": "Rib fractures",
+          "url": "https://wikem.org/wiki/Rib_fractures"
+        },
+        {
+          "text": "Flail chest",
+          "url": "https://wikem.org/wiki/Flail_chest"
+        },
+        {
+          "text": "Traumatic pneumothorax",
+          "url": "https://wikem.org/wiki/Traumatic_pneumothorax"
+        },
+        {
+          "text": "Pulmonary contusion",
+          "url": "https://wikem.org/wiki/Pulmonary_contusion"
+        },
+        {
+          "text": "Inhalation exposure",
+          "url": "https://wikem.org/wiki/Inhalation_exposure"
+        },
+        {
+          "text": "Meconium aspiration syndrome",
+          "url": "https://wikem.org/wiki/Meconium_aspiration_syndrome"
+        },
+        {
+          "text": "Pulmonary edema",
+          "url": "https://wikem.org/wiki/Pulmonary_edema"
+        },
+        {
+          "text": "Pulmonary hypertension",
+          "url": "https://wikem.org/wiki/Pulmonary_hypertension"
+        },
+        {
+          "text": "cor pulmonale",
+          "url": "https://wikem.org/wiki/Cor_pulmonale"
+        },
+        {
+          "text": "Respiratory distress syndrome",
+          "url": "https://wikem.org/wiki/Respiratory_distress_syndrome"
+        },
+        {
+          "text": "Congenital heart disease",
+          "url": "https://wikem.org/wiki/Congenital_heart_disease"
+        },
+        {
+          "text": "Vascular ring",
+          "url": "https://wikem.org/wiki/Vascular_ring"
+        },
+        {
+          "text": "Cardiac tamponade",
+          "url": "https://wikem.org/wiki/Pericardial_effusion_and_tamponade"
+        },
+        {
+          "text": "Congestive Heart Failure (peds)",
+          "url": "https://wikem.org/wiki/Congestive_Heart_Failure_(peds)"
+        },
+        {
+          "text": "Myocarditis (peds)",
+          "url": "https://wikem.org/wiki/Myocarditis_(peds)"
+        },
+        {
+          "text": "Brief resolved unexplained event",
+          "url": "https://wikem.org/wiki/Brief_resolved_unexplained_event"
+        },
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "SBO",
+          "url": "https://wikem.org/wiki/SBO"
+        },
+        {
+          "text": "liver failure",
+          "url": "https://wikem.org/wiki/Liver_failure"
+        },
+        {
+          "text": "Neonatal abstinence syndrome",
+          "url": "https://wikem.org/wiki/Neonatal_abstinence_syndrome"
+        },
+        {
+          "text": "Pediatric shock",
+          "url": "https://wikem.org/wiki/Pediatric_shock"
+        },
+        {
+          "text": "Sepsis (peds)",
+          "url": "https://wikem.org/wiki/Sepsis_(peds)"
+        },
+        {
+          "text": "Dehydration (peds)",
+          "url": "https://wikem.org/wiki/Dehydration_(peds)"
+        },
+        {
+          "text": "Metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Diabetic ketoacidosis (peds)",
+          "url": "https://wikem.org/wiki/Diabetic_ketoacidosis_(peds)"
+        },
+        {
+          "text": "Inborn errors of metabolism",
+          "url": "https://wikem.org/wiki/Inborn_errors_of_metabolism"
+        },
+        {
+          "text": "Salicylate toxicity",
+          "url": "https://wikem.org/wiki/Salicylate_toxicity"
+        },
+        {
+          "text": "CO Poisoning",
+          "url": "https://wikem.org/wiki/Carbon_monoxide_toxicity"
+        },
+        {
+          "text": "Diaphragm injury",
+          "url": "https://wikem.org/wiki/Diaphragm_injury"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Acute_kidney_injury"
+        },
+        {
+          "text": "Electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        },
+        {
+          "text": "Organophosphate toxicity",
+          "url": "https://wikem.org/wiki/Organophosphate_toxicity"
+        },
+        {
+          "text": "Tick paralysis",
+          "url": "https://wikem.org/wiki/Tick_paralysis"
+        },
+        {
+          "text": "Fever (Peds)",
+          "url": "https://wikem.org/wiki/Fever_(Peds)"
+        },
+        {
+          "text": "Panic attack",
+          "url": "https://wikem.org/wiki/Panic_attack"
+        },
+        {
+          "text": "Porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "SOB\nIntubation (peds)\nNeonatal RSI\nPALS",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SOB",
+          "url": "https://wikem.org/wiki/SOB"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Neonatal RSI",
+          "url": "https://wikem.org/wiki/Neonatal_RSI"
+        },
+        {
+          "text": "PALS",
+          "url": "https://wikem.org/wiki/PALS"
+        }
+      ]
+    }
+  }
+}

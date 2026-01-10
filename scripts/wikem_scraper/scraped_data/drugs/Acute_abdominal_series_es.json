@@ -1,0 +1,105 @@
+{
+  "drug_name": "Acute_abdominal_series/es",
+  "url": "https://wikem.org/wiki/Acute_abdominal_series/es",
+  "scraped_at": "2026-01-10T07:46:50.984410",
+  "sections": {
+    "Intro": {
+      "text": "English\nespañol\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Técnica": {
+      "text": "3 Películas:\nPelícula de tórax de pie\nDescartar aire libre\nPelícula abdominal de pie\nBuscar niveles líquido-aire\nPelícula abdominal supina (\nKUB = solo película supina\n)\nAnchura de las asas intestinales más visible (estimación de la cantidad de distensión)\nSi el paciente no tolera la posición de pie, la película abdominal decúbito lateral izquierdo puede sustituir",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Interpretación": {
+      "text": "Normal\nObstrucción del intestino delgado\nObstrucción del intestino grueso (Vólvulo cecal\nvolvulus\n; flechas negras).\nAire libre intraabdominal debajo del diafragma.\nEmpaquetamiento con múltiples cuerpos extraños (\"bolas\" de hachís).\nBatería de botón en estómago.\nCálculos biliares\n(no sensibles)\nMegacolon tóxico\nCuerpo extraño rectal",
+      "subsections": {
+        "Diferenciación_entre_intestino_grueso_y_delgado": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Ubicación": "Intestino delgado",
+                "Tamaño": "3 cm",
+                "Líneas": "A lo largo de todo el intestino (plica circulares)"
+              },
+              {
+                "Ubicación": "Colon",
+                "Tamaño": "6 cm",
+                "Líneas": "Solo hasta la mitad del intestino (haustra)"
+              },
+              {
+                "Ubicación": "Ciego",
+                "Tamaño": "9 cm",
+                "Líneas": ""
+              }
+            ]
+          ]
+        },
+        "Obstrucción_del_intestino_delgado": {
+          "text": "Aire en colon o recto hace que la obstrucción completa sea menos probable (esp si los síntomas >24hr)\nLa radiografía abdominal tiene una baja sensibilidad (Sn) y especificidad (Sp) para\nSBO\nSi está preocupado, se necesita una TC (Tomografía Computarizada)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diferenciación_entre_intestino_grueso_y_delgado": {
+      "text": "",
+      "subsections": {
+        "Obstrucción_del_intestino_delgado": {
+          "text": "Aire en colon o recto hace que la obstrucción completa sea menos probable (esp si los síntomas >24hr)\nLa radiografía abdominal tiene una baja sensibilidad (Sn) y especificidad (Sp) para\nSBO\nSi está preocupado, se necesita una TC (Tomografía Computarizada)",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Ubicación": "Intestino delgado",
+            "Tamaño": "3 cm",
+            "Líneas": "A lo largo de todo el intestino (plica circulares)"
+          },
+          {
+            "Ubicación": "Colon",
+            "Tamaño": "6 cm",
+            "Líneas": "Solo hasta la mitad del intestino (haustra)"
+          },
+          {
+            "Ubicación": "Ciego",
+            "Tamaño": "9 cm",
+            "Líneas": ""
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Obstrucción_del_intestino_delgado": {
+      "text": "Aire en colon o recto hace que la obstrucción completa sea menos probable (esp si los síntomas >24hr)\nLa radiografía abdominal tiene una baja sensibilidad (Sn) y especificidad (Sp) para\nSBO\nSi está preocupado, se necesita una TC (Tomografía Computarizada)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Indicaciones": {
+      "text": "Descartar aire libre bajo el diafragma (p. ej. úlcera perforada)\nDescartar cuerpo extraño abdominal radio-opaco (p. ej. batería ingerida)\nConfirmar obstrucción intestinal (es decir, para evitar la necesidad de una TC subsiguiente)\nNo utilice como el único estudio para descartar obstrucción intestinal (baja sensibilidad)\nNo utilice para descartar peritonitis generalizada (casi ninguna sensibilidad para diagnósticos como\napendicitis\n)\nNo utilice para diagnosticar estreñimiento (muchos pacientes con abdomen agudo tendrán \"heces copiosas\")",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Hallazgos_incidentales": {
+      "text": "Cálculos biliares\n(no siempre radiodensos)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Ver_también": {
+      "text": "Dolor abdominal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
