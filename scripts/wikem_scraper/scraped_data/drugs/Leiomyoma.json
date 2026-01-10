@@ -1,0 +1,239 @@
+{
+  "drug_name": "Leiomyoma",
+  "url": "https://wikem.org/wiki/Leiomyoma",
+  "scraped_at": "2026-01-10T07:56:23.395416",
+  "sections": {
+    "Background": {
+      "text": "Leiomyomas, also called fibroids, are the most common benign tumor in women\nBy age 50, incidence of up to 70% of white women and 80% of black women\n[1]\nArises most commonly in women of reproductive age, with decreasing rates in postmenopausal women\nFibroids may be located in different layers of the uterus: subserosal, intramural, or submucosal\nPathogenesis: Primarily an estrogen-dependent myometrial proliferation, with varying fibrous connective tissue\nConsider leiomyosarcomas in postmenopausal women, as they can present similarly",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Any condition that increases cumulative estrogen exposure\nEarly menarche\nNulliparity\nEstrogen-containing OCP use\nObesity",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Any condition that increases cumulative estrogen exposure\nEarly menarche\nNulliparity\nEstrogen-containing OCP use\nObesity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vaginal bleeding\nPelvic pain\n, including dyspareunia\nUrinary incontinence/retention\nConstipation/diarrhea\nSymptomatic\nanemia\nInfertility\nAlternatively, may be asymptomatic and show as incidental finding on imaging",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Vaginal bleeding",
+          "url": "https://wikem.org/wiki/Vaginal_bleeding"
+        },
+        {
+          "text": "Pelvic pain",
+          "url": "https://wikem.org/wiki/Pelvic_pain"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Nonpregnant_Vaginal_Bleeding": {
+          "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+          "tables": []
+        },
+        "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+          "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Nonpregnant_Vaginal_Bleeding": {
+      "text": "Systemic Causes\nCirrhosis\nCoagulopathy\n(\nVon Willebrand disease\n,\nITP\n)\nGroup A strep\nvaginitis (prepubertal girls)\nHormone replacement therapy\nAnticoagulants\nSelective Serotonin Reuptake Inhibitors (SSRIs)\nHypothyroidism\nPolycystic Ovary Syndrome\nSecondary anovulation\nReproductive Tract Causes\nAdenomyosis\nAtrophic endometrium\nDysfunctional uterine bleeding\nEndometriosis\nLeiomyoma\n(Fibroid)\nForeign Body\nInfection (\nvaginitis\n,\nPID\n)\nIUD\nNeoplasia (especially in women >45 years old or in younger women with other risk factors)\nVaginal Trauma",
+      "subsections": {
+        "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+          "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "Von Willebrand disease",
+          "url": "https://wikem.org/wiki/Von_Willebrand_disease"
+        },
+        {
+          "text": "ITP",
+          "url": "https://wikem.org/wiki/ITP"
+        },
+        {
+          "text": "Group A strep",
+          "url": "https://wikem.org/wiki/Group_A_strep"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "Adenomyosis",
+          "url": "https://wikem.org/wiki/Adenomyosis"
+        },
+        {
+          "text": "Dysfunctional uterine bleeding",
+          "url": "https://wikem.org/wiki/Dysfunctional_uterine_bleeding"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Foreign Body",
+          "url": "https://wikem.org/wiki/Foreign_Body"
+        },
+        {
+          "text": "vaginitis",
+          "url": "https://wikem.org/wiki/Vaginitis"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Vaginal Trauma",
+          "url": "https://wikem.org/wiki/Vaginal_Trauma"
+        },
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "PALM-COEIN_Classification_of_Vaginal_Bleeding": {
+      "text": "PALM\n: structural causes\nP\nolyp (AUB-P)\nA\ndenomyosis (AUB-A)\nL\neiomyoma (AUB-L)\nM\nalignancy and hyperplasia (AUB-M)\nCOEIN\n: nonstructural causes\nC\noagulopathy\n(AUB-C)\nO\nvulatory dysfunction (AUB-O)\nE\nndometrial (AUB-E)\nI\natrogenic (AUB-I)\nN\not yet classified (AUB-N)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Evaluate with speculum and bimanual exam",
+      "subsections": {
+        "Workup": {
+          "text": "bHCG/urine pregnancy\nCBC\nTransvaginal ultrasound is the preferred modality for diagnosis\nShows as well-circumscribed, hypoechoic masses with varying calcification and shadowing\nCT has less utility compared to pelvic ultrasound, but MRI may be performed for surgical planning in specific cases",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "bHCG/urine pregnancy\nCBC\nTransvaginal ultrasound is the preferred modality for diagnosis\nShows as well-circumscribed, hypoechoic masses with varying calcification and shadowing\nCT has less utility compared to pelvic ultrasound, but MRI may be performed for surgical planning in specific cases",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "NSAID\nFluids and blood products, if indicated\nHormonal agents such as OCPs or GnRH agonists may be initiated with consultation with OB/GYN\nExpectant management, if asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "NSAID",
+          "url": "https://wikem.org/wiki/NSAID"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Depends on severity of symptoms and hemodynamic stability\nRefer to OB/GYN for further medical management such as hormonal agents\n[3]\nAlso for surgical management including myomectomy vs hysterectomy vs IR-guided uterine artery embolization\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Nonpregnant vaginal bleeding",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nonpregnant vaginal bleeding",
+          "url": "https://wikem.org/wiki/Nonpregnant_vaginal_bleeding"
+        }
+      ]
+    }
+  }
+}

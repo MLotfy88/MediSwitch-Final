@@ -1,0 +1,112 @@
+{
+  "drug_name": "Leucovorin",
+  "url": "https://wikem.org/wiki/Leucovorin",
+  "scraped_at": "2026-01-10T07:56:23.085302",
+  "sections": {
+    "Administration": {
+      "text": "Type: Antidote; Chemotherapy Modulating Agent; Rescue Agent (Chemotherapy)\nDosage Forms: 5,10,15,25\nRoutes of Administration: IV, IM\nCommon Trade Names: Lederle Leucovorin",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Fluorouracil adjuvant treatment, adv. colorectal CA\nhigh dose: 200mg/m^2 IV QD x5 days\nlow dose: 20mg/m^2 IV QD x5 days\nLeucovorin rescue, high-dose\nmethotrexate\nnormal methotrexate elimination: 15mg PO/IM/IV q6h x10 doses\ndelayed late methotrexate elimination: 15mg PO/IM/IV q6h; Max: 25mg/dose PO, May give higher doses IM/IV\nDelayed early methotrexate elimination and/or acute renal injury: 150mg IV q3h until methotrexate level <1 micromolar, then 15mg IV q3h\nLeucovorin rescue, methotrexate overdose: 10mg/m^2 PO/IM/IV q6h\nFolate antagonist overdose\npemetrexed: 50mg/m^2 IV q6h x8 days; Start: 100mg/m^2 IV x1\npyrimethamine, trimethoprim: 5-15mg PO/IM/IV QD until hematopoiesis restored\nMegaloblastic anemia, folate-deficient: <1mg IM/IV QD\nMax: 1mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Leucovorin rescue, high-dose methotrexate\nnormal methotrexate elimination: 10mg/m^2 PO/IM/IV q6h x10 doses; Start: 24h after methotrexate start; Max: 25mg/dose PO\ndelayed late methotrexate elimination: 10mg/m^2 PO/IM/IV q6h; Max: 25mg/dose PO\ndelayed early methotrexate elimination and/or acute renal injury: 100mg/m^2 IV q3h until methotrexate level <1 micromolar, then 10mg/m^2 IV q3\nLeucovorin rescue, methotrexate overdose: 10mg/m^2 PO/IM/IV q6h\nFolate antagonist overdose: 5-15mg PO/IM/IV QD until hematopoiesis restored\nMegaloblastic anemia, folate-deficient: <1mg IM/IV QD\nMax: 1mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Risk Factor: C\nBreast Feeding: Leucovorin is a form of folic acid and is present in breast milk which may be beneficial to the newborn.",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Not defined",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Not defined",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Not defined",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nintrathecal administration\ncaution if pernicious anemia\ncaution if megaloblastic anemia, vitamin B12 deficient\ncaution if vitamin B-12 deficiency",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "anaphylactoid reaction\nseizures\nsyncope",
+          "tables": []
+        },
+        "Common": {
+          "text": "urticaria\nnausea/vomiting (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "anaphylactoid reaction\nseizures\nsyncope",
+      "subsections": {
+        "Common": {
+          "text": "urticaria\nnausea/vomiting (IV use)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "urticaria\nnausea/vomiting (IV use)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6hr\nMetabolism: liver, GI, CYP450\nExcretion: Urine",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "<Epocrates, UpToDate>",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

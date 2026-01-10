@@ -1,0 +1,96 @@
+{
+  "drug_name": "Left_anterior_fascicular_block",
+  "url": "https://wikem.org/wiki/Left_anterior_fascicular_block",
+  "scraped_at": "2026-01-10T07:56:15.704406",
+  "sections": {
+    "Criteria": {
+      "text": "Diagnostic criteria include\n[1]\n:\nLeft axis deviation (-45 or more)\nQRS 80-110ms\nrS in II, III, and aVF\nqR in I and aVL\nIncreased QRS voltage in the limb leads",
+      "subsections": {
+        "LAFB_vs_LPFB": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "": "Axis",
+                "LAFB": "Left axis deviation",
+                "LPFB": "Right axis deviation"
+              },
+              {
+                "": "I and aVL",
+                "LAFB": "Upright QRS",
+                "LPFB": "Downgoing QRS"
+              },
+              {
+                "": "III",
+                "LAFB": "Downgoing QRS",
+                "LPFB": "Upright QRS"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "LAFB_vs_LPFB": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "": "Axis",
+            "LAFB": "Left axis deviation",
+            "LPFB": "Right axis deviation"
+          },
+          {
+            "": "I and aVL",
+            "LAFB": "Upright QRS",
+            "LPFB": "Downgoing QRS"
+          },
+          {
+            "": "III",
+            "LAFB": "Downgoing QRS",
+            "LPFB": "Upright QRS"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Significance": {
+      "text": "Considered benign finding\nLAFB may increase risk of\nafib\n,\nCHF\n, and death\n[3]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "afib",
+          "url": "https://wikem.org/wiki/Afib"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)\nLeft posterior fascicular block",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        },
+        {
+          "text": "Left posterior fascicular block",
+          "url": "https://wikem.org/wiki/Left_posterior_fascicular_block"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "DDxOf: ECG Guide\nCanadiEM - The Boring Guide to ECG's: Fascicular blocks",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

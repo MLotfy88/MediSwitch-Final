@@ -1,0 +1,617 @@
+{
+  "drug_name": "Left_ventricular_aneurysm",
+  "url": "https://wikem.org/wiki/Left_ventricular_aneurysm",
+  "scraped_at": "2026-01-10T07:56:20.139001",
+  "sections": {
+    "Background": {
+      "text": "Thin or fibrotic ventricular wall\nMuscle may be absent or necrotic\nAkinetic or dyskinetic wall (paradoxical ballooning)",
+      "subsections": {
+        "Causes": {
+          "text": "Majority\nHealed transmural\nMI\n(anterior or inferior most common)\nRare\nHOCM\nChagas",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Majority\nHealed transmural\nMI\n(anterior or inferior most common)\nRare\nHOCM\nChagas",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "HOCM",
+          "url": "https://wikem.org/wiki/HOCM"
+        },
+        {
+          "text": "Chagas",
+          "url": "https://wikem.org/wiki/Chagas"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "May be asymptomatic\nHistory of\nmyocardial infarction\nAngina\nShortness of breath\nor dyspnea on exertion\nCHF\nsymptoms\nMitral regurgitation\nmurmur\nS3/S4 heart sounds\nMore common in women than men",
+      "subsections": {
+        "Complications": {
+          "text": "Heart failure\n(LV aneurysm steals cardiac output)\nAngina\n(increased O2 demand)\nVentricular dysrhythmias\n(LV stretch/scarring)\nLV thrombus (50% of time), arterial embolism (stroke)\nLV rupture\n(rarely occurs in mature LVA because of dense fibrosis)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "murmur",
+          "url": "https://wikem.org/wiki/Murmur"
+        },
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "LV rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Heart failure\n(LV aneurysm steals cardiac output)\nAngina\n(increased O2 demand)\nVentricular dysrhythmias\n(LV stretch/scarring)\nLV thrombus (50% of time), arterial embolism (stroke)\nLV rupture\n(rarely occurs in mature LVA because of dense fibrosis)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Heart failure",
+          "url": "https://wikem.org/wiki/Heart_failure"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Ventricular dysrhythmias",
+          "url": "https://wikem.org/wiki/Ventricular_dysrhythmias"
+        },
+        {
+          "text": "LV rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "ST_Elevation": {
+          "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "ST_Elevation": {
+      "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "ECG\nPersistent characteristic ST elevation after MI\nNon-specific ST segment changes\nQ or QS waves\nT waves small relative to QRS\nNo reciprocal changes\nCXR\nProminent left heart border\nCalcified aneurysm\nMay have mass-like appearance\nTTE\nLV angiography\nCardiac MRI",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Differentiate left ventricular aneurysm from\nSTEMI\nand other causes of\nST-elevation\nStrongly suspect\nSTEMI\nif:\nSymptomatic\nNo\nq waves\npresent (LV aneurysm typically produces significant q waves)\nEvolving changes on serial ECG\nReciprocal changes\nConsider two rules to differentiate\n[1]\nRule 1\nIf (Sum of T-wave amplitudes in V1-V4) divided by (Sum of QRS amplitudes in V1-V4) > 0.22\nSuggestive of STEMI, with ~87% accuracy\nRule 2\nIf any lead in V1-V4 has T-wave amplitude to QRS amplitude ratio > 0.35\nSuggestive of STEMI, with ~89% accuracy",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "ST-elevation",
+          "url": "https://wikem.org/wiki/ST-elevation"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "q waves",
+          "url": "https://wikem.org/wiki/Q_waves"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "ECG\nPersistent characteristic ST elevation after MI\nNon-specific ST segment changes\nQ or QS waves\nT waves small relative to QRS\nNo reciprocal changes\nCXR\nProminent left heart border\nCalcified aneurysm\nMay have mass-like appearance\nTTE\nLV angiography\nCardiac MRI",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Differentiate left ventricular aneurysm from\nSTEMI\nand other causes of\nST-elevation\nStrongly suspect\nSTEMI\nif:\nSymptomatic\nNo\nq waves\npresent (LV aneurysm typically produces significant q waves)\nEvolving changes on serial ECG\nReciprocal changes\nConsider two rules to differentiate\n[1]\nRule 1\nIf (Sum of T-wave amplitudes in V1-V4) divided by (Sum of QRS amplitudes in V1-V4) > 0.22\nSuggestive of STEMI, with ~87% accuracy\nRule 2\nIf any lead in V1-V4 has T-wave amplitude to QRS amplitude ratio > 0.35\nSuggestive of STEMI, with ~89% accuracy",
+          "tables": []
+        },
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "TTE",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "ST-elevation",
+          "url": "https://wikem.org/wiki/ST-elevation"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "q waves",
+          "url": "https://wikem.org/wiki/Q_waves"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Differentiate left ventricular aneurysm from\nSTEMI\nand other causes of\nST-elevation\nStrongly suspect\nSTEMI\nif:\nSymptomatic\nNo\nq waves\npresent (LV aneurysm typically produces significant q waves)\nEvolving changes on serial ECG\nReciprocal changes\nConsider two rules to differentiate\n[1]\nRule 1\nIf (Sum of T-wave amplitudes in V1-V4) divided by (Sum of QRS amplitudes in V1-V4) > 0.22\nSuggestive of STEMI, with ~87% accuracy\nRule 2\nIf any lead in V1-V4 has T-wave amplitude to QRS amplitude ratio > 0.35\nSuggestive of STEMI, with ~89% accuracy",
+      "subsections": {
+        "STEMI_Stages_of_Development": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "Stage": "1",
+                "Duration": "",
+                "Timing": "30min - hours",
+                "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+                "ECG": "Normalizes in days, weeks, or months"
+              },
+              {
+                "Stage": "2",
+                "Duration": "",
+                "Timing": "Minutes - hours",
+                "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+                "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+              },
+              {
+                "Stage": "3",
+                "Duration": "",
+                "Timing": "Within 1hr; completed within 8-12hr",
+                "Finding": "Q waves",
+                "ECG": "Persist indefinitely in 70% of cases"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "ST-elevation",
+          "url": "https://wikem.org/wiki/ST-elevation"
+        },
+        {
+          "text": "STEMI",
+          "url": "https://wikem.org/wiki/STEMI"
+        },
+        {
+          "text": "q waves",
+          "url": "https://wikem.org/wiki/Q_waves"
+        }
+      ]
+    },
+    "STEMI_Stages_of_Development": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Stage": "1",
+            "Duration": "",
+            "Timing": "30min - hours",
+            "Finding": "Hyperacute T waves>6mm limb leads>10mm precordial leads",
+            "ECG": "Normalizes in days, weeks, or months"
+          },
+          {
+            "Stage": "2",
+            "Duration": "",
+            "Timing": "Minutes - hours",
+            "Finding": "ST segment elevation0.1mV in two or more contiguous leads",
+            "ECG": "ST segment resolution occurs over 72hrs; completely resolves within 2-3wks"
+          },
+          {
+            "Stage": "3",
+            "Duration": "",
+            "Timing": "Within 1hr; completed within 8-12hr",
+            "Finding": "Q waves",
+            "ECG": "Persist indefinitely in 70% of cases"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Management": {
+      "text": "Be sure to rule out acute or subacute coronary syndrome",
+      "subsections": {
+        "Medical_Therapy_(first_line)": {
+          "text": "Afterload reduction (\nACEI\n)\nAntianginal (\nNitro\n)\nAnticoagulation\n(if LV thrombus)",
+          "tables": []
+        },
+        "Surgical_Therapy": {
+          "text": "Aneurysmectomy and CABG (and possible valve repair) if ventricular arrhythmias and/or HF refractory to medical therapy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ACEI",
+          "url": "https://wikem.org/wiki/ACEI"
+        },
+        {
+          "text": "Nitro",
+          "url": "https://wikem.org/wiki/Nitro"
+        },
+        {
+          "text": "Anticoagulation",
+          "url": "https://wikem.org/wiki/Anticoagulation"
+        }
+      ]
+    },
+    "Surgical_Therapy": {
+      "text": "Aneurysmectomy and CABG (and possible valve repair) if ventricular arrhythmias and/or HF refractory to medical therapy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Cardiothoracic surgery consultation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Myocardial Infarction Complications\nLeft ventricular pseudoaneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myocardial Infarction Complications",
+          "url": "https://wikem.org/wiki/Myocardial_Infarction_Complications"
+        },
+        {
+          "text": "Left ventricular pseudoaneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm"
+        }
+      ]
+    }
+  }
+}

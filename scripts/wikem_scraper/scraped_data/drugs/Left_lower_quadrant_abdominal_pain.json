@@ -1,0 +1,325 @@
+{
+  "drug_name": "Left_lower_quadrant_abdominal_pain",
+  "url": "https://wikem.org/wiki/Left_lower_quadrant_abdominal_pain",
+  "scraped_at": "2026-01-10T07:56:17.484016",
+  "sections": {
+    "Background": {
+      "text": "This page describes the general approach to LLQ pain in adults",
+      "subsections": {
+        "Classification_by_Abdominal_pain_location": {
+          "text": "",
+          "tables": [
+            [
+              {
+                "RUQ pain": "Flank pain",
+                "Epigastric pain": "Diffuse abdominal pain",
+                "LUQ pain": "Flank pain"
+              },
+              {
+                "RUQ pain": "RLQ pain",
+                "Epigastric pain": "Pelvic pain",
+                "LUQ pain": "LLQ pain"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification_by_Abdominal_pain_location": {
+      "text": "",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "RUQ pain": "Flank pain",
+            "Epigastric pain": "Diffuse abdominal pain",
+            "LUQ pain": "Flank pain"
+          },
+          {
+            "RUQ pain": "RLQ pain",
+            "Epigastric pain": "Pelvic pain",
+            "LUQ pain": "LLQ pain"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Left lower quadrant abdominal pain",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "LLQ_Pain": {
+          "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "LLQ_Pain": {
+      "text": "Diverticulitis\nKidney stone\nUTI\nPyelonephritis\nEctopic pregnancy\nInfectious\ncolitis\nInflammatory bowel disease\n(\nCrohn's Disease\n,\nUlcerative Colitis\n)\nInguinal hernia\nMesenteric ischemia\nEpiploic appendagitis\nMittelschmerz\nOvarian cyst\nOvarian torsion\nPID\nPsoas abscess\nTesticular torsion\nAppendicitis\nAbdominal aortic aneurysm\nHerpes zoster\nEndometriosis\nColon cancer\nIrritable bowel syndrome\nSmall bowel obstruction",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diverticulitis",
+          "url": "https://wikem.org/wiki/Diverticulitis"
+        },
+        {
+          "text": "Kidney stone",
+          "url": "https://wikem.org/wiki/Kidney_stone"
+        },
+        {
+          "text": "UTI",
+          "url": "https://wikem.org/wiki/UTI"
+        },
+        {
+          "text": "Pyelonephritis",
+          "url": "https://wikem.org/wiki/Pyelonephritis"
+        },
+        {
+          "text": "Ectopic pregnancy",
+          "url": "https://wikem.org/wiki/Ectopic_pregnancy"
+        },
+        {
+          "text": "colitis",
+          "url": "https://wikem.org/wiki/Colitis"
+        },
+        {
+          "text": "Inflammatory bowel disease",
+          "url": "https://wikem.org/wiki/Inflammatory_bowel_disease"
+        },
+        {
+          "text": "Crohn's Disease",
+          "url": "https://wikem.org/wiki/Crohn%27s_Disease"
+        },
+        {
+          "text": "Ulcerative Colitis",
+          "url": "https://wikem.org/wiki/Ulcerative_Colitis"
+        },
+        {
+          "text": "Inguinal hernia",
+          "url": "https://wikem.org/wiki/Inguinal_hernia"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Epiploic appendagitis",
+          "url": "https://wikem.org/wiki/Epiploic_appendagitis"
+        },
+        {
+          "text": "Mittelschmerz",
+          "url": "https://wikem.org/wiki/Mittelschmerz"
+        },
+        {
+          "text": "Ovarian cyst",
+          "url": "https://wikem.org/wiki/Ovarian_cyst"
+        },
+        {
+          "text": "Ovarian torsion",
+          "url": "https://wikem.org/wiki/Ovarian_torsion"
+        },
+        {
+          "text": "PID",
+          "url": "https://wikem.org/wiki/PID"
+        },
+        {
+          "text": "Psoas abscess",
+          "url": "https://wikem.org/wiki/Psoas_abscess"
+        },
+        {
+          "text": "Testicular torsion",
+          "url": "https://wikem.org/wiki/Testicular_torsion"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Abdominal aortic aneurysm",
+          "url": "https://wikem.org/wiki/Abdominal_aortic_aneurysm"
+        },
+        {
+          "text": "Herpes zoster",
+          "url": "https://wikem.org/wiki/Herpes_zoster"
+        },
+        {
+          "text": "Endometriosis",
+          "url": "https://wikem.org/wiki/Endometriosis"
+        },
+        {
+          "text": "Colon cancer",
+          "url": "https://wikem.org/wiki/Colon_cancer"
+        },
+        {
+          "text": "Irritable bowel syndrome",
+          "url": "https://wikem.org/wiki/Irritable_bowel_syndrome"
+        },
+        {
+          "text": "Small bowel obstruction",
+          "url": "https://wikem.org/wiki/Small_bowel_obstruction"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Male": {
+          "text": "CBC\nChem\nUrinalysis\n?CT abd/pelvis (rule out\ndiverticulitis\n)\nTesticular exam",
+          "tables": []
+        },
+        "Female": {
+          "text": "CBC\nChem\nUrinalysis\nUrine pregnancy\n?Pelvic\nultrasound\n(rule out\novarian torsion\n) and/or CT abd/pelvis (rule out\ndiverticulitis\n)\nPelvic exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Male": {
+      "text": "CBC\nChem\nUrinalysis\n?CT abd/pelvis (rule out\ndiverticulitis\n)\nTesticular exam",
+      "subsections": {
+        "Female": {
+          "text": "CBC\nChem\nUrinalysis\nUrine pregnancy\n?Pelvic\nultrasound\n(rule out\novarian torsion\n) and/or CT abd/pelvis (rule out\ndiverticulitis\n)\nPelvic exam",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Female": {
+      "text": "CBC\nChem\nUrinalysis\nUrine pregnancy\n?Pelvic\nultrasound\n(rule out\novarian torsion\n) and/or CT abd/pelvis (rule out\ndiverticulitis\n)\nPelvic exam",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Treat underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Per underlying disease process",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Abdominal Pain\nAbdominal Pain (Peds)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

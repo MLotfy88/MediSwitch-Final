@@ -1,0 +1,150 @@
+{
+  "drug_name": "Leprosy",
+  "url": "https://wikem.org/wiki/Leprosy",
+  "scraped_at": "2026-01-10T07:56:20.047513",
+  "sections": {
+    "Background": {
+      "text": "Also known as Hansen's Disease\nInfectious disease caused by Mycobacterium leprae\nMost new cases found in developing countries\nLevel 3 Countries with higher numbers of cases include: India, Brazil, Indonesia, Bangladesh, Nigeria\nMeans of transmission not fully understood - likely respiratory.\nHas variety of clinical and histopathologic manifestations due to broad range of cellular immune response",
+      "subsections": {
+        "Classification": {
+          "text": "Disease spectrum ranges from strong immune reaction and few organisms (tuberculoid) to weak immune reaction and numerous organisms (lepromatous)\nCategories\nTuberculoid (TT)\nBorderline tuberculoid (BT)\nMid-borderline (BB)\nBorderline lepromatous (BL)\nLepromatous (LL)\nIndeterminate (I)",
+          "tables": []
+        },
+        "Risk_Factors": {
+          "text": "Close contact with infected person\nType of leprosy in the contact (lepromatous may be more contagious than tuberculoid)\nArmadillo exposure\nIncreased age\nGenetic influences",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Classification": {
+      "text": "Disease spectrum ranges from strong immune reaction and few organisms (tuberculoid) to weak immune reaction and numerous organisms (lepromatous)\nCategories\nTuberculoid (TT)\nBorderline tuberculoid (BT)\nMid-borderline (BB)\nBorderline lepromatous (BL)\nLepromatous (LL)\nIndeterminate (I)",
+      "subsections": {
+        "Risk_Factors": {
+          "text": "Close contact with infected person\nType of leprosy in the contact (lepromatous may be more contagious than tuberculoid)\nArmadillo exposure\nIncreased age\nGenetic influences",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Risk_Factors": {
+      "text": "Close contact with infected person\nType of leprosy in the contact (lepromatous may be more contagious than tuberculoid)\nArmadillo exposure\nIncreased age\nGenetic influences",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Hypopigmented or red\npatches\nof skin\nDiminished sensation or lost sensation within patches\nParesthesias\nPainless wounds on hands or feet\nLumps on earlobes or face\nTender, enlarged peripheral nerves\nConsider leprosy in patients who have skin lesions that do not respond to conventional treatments or when there are associated sensory disturbances",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "patches",
+          "url": "https://wikem.org/wiki/Rash"
+        },
+        {
+          "text": "Paresthesias",
+          "url": "https://wikem.org/wiki/Paresthesias"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "SLE\nSarcoidosis\nSyphilis\nErythema nodosum\nErythema multiforme\nCutaneous\ntuberculosis\nVitiligo\nScleroderma\nTinea versicolor\nMycosis fungoides\nDiffuse cutaneous\nleishmaniasis\nNeuropathy\nof other etiology",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Erythema nodosum",
+          "url": "https://wikem.org/wiki/Erythema_nodosum"
+        },
+        {
+          "text": "Erythema multiforme",
+          "url": "https://wikem.org/wiki/Erythema_multiforme"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Vitiligo",
+          "url": "https://wikem.org/wiki/Vitiligo"
+        },
+        {
+          "text": "Scleroderma",
+          "url": "https://wikem.org/wiki/Scleroderma"
+        },
+        {
+          "text": "Tinea versicolor",
+          "url": "https://wikem.org/wiki/Tinea_versicolor"
+        },
+        {
+          "text": "leishmaniasis",
+          "url": "https://wikem.org/wiki/Leishmaniasis"
+        },
+        {
+          "text": "Neuropathy",
+          "url": "https://wikem.org/wiki/Neuropathy"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis made by skin biopsy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Tuberculoid: TT and BT\nTreat for twelve months with both:\nDapsone\n100mg daily +\nRifampin\n600mg daily\nLepromatous: LL, BL, BB\nTreat for twenty-four months with all three:\nDapsone\n100mg daily +\nRifampin\n600mg daily +\nClofazimine\n50mg daily\nRefer patient: National Hansen’s Disease Programs 1-800-642-2477\nHttp://www.hrsa.gov/hansensdisease/",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Dapsone",
+          "url": "https://wikem.org/wiki/Dapsone"
+        },
+        {
+          "text": "Rifampin",
+          "url": "https://wikem.org/wiki/Rifampin"
+        },
+        {
+          "text": "Clofazimine",
+          "url": "https://wikem.org/wiki/Clofazimine"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Immunologic reaction that can occur before or during treatment. Presentation can include: fatigue, malaise, fever, neuritis, arthritis, iritis, nasopharyngeal symptoms",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "National Hansen's Disease Program",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

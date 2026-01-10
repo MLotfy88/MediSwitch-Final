@@ -1,0 +1,375 @@
+{
+  "drug_name": "Lichen_planus",
+  "url": "https://wikem.org/wiki/Lichen_planus",
+  "scraped_at": "2026-01-10T07:56:27.509753",
+  "sections": {
+    "Background": {
+      "text": "Uncommon disorder of unknown cause, likely T-cell mediated autoimmunity against basal kertinocytes\nMost common in patients aged 30 to 60 years\nHCV association is controversial\nDrug exposure can resemble idiopathic lichen planus",
+      "subsections": {
+        "Affected_areas": {
+          "text": "Skin (cutaneous lichen planus)\nOral cavity (oral lichen planus)\nGenitalia (penile or vulvar lichen planus)\nScalp (lichen planopilaris)\nNails\nEsophagus",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Affected_areas": {
+      "text": "Skin (cutaneous lichen planus)\nOral cavity (oral lichen planus)\nGenitalia (penile or vulvar lichen planus)\nScalp (lichen planopilaris)\nNails\nEsophagus",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Cutaneous_Lichen_Planus": {
+          "text": "Predominantly on ankles and volar surface of wrists\nFour “P’s”\nPruritic\nPurple\nPolygonal\nPapules or plaques\nWickham’s striae: Fine white lines visible on surface of papules or plaques\nKoebner reaction: Lesions develop in areas of trauma (e.g., scratching)",
+          "tables": []
+        },
+        "Hypertrophic_lichen_planus": {
+          "text": "Intensely pruritic, flat-topped plaques\nCommon sites are extensor surfaces of lower extremities",
+          "tables": []
+        },
+        "Atrophic_lichen_planus": {
+          "text": "Violaceous, round or oval, atrophic plaques\nCommon sites are legs\nOften resolution of annular or hypertrophic lesions",
+          "tables": []
+        },
+        "Annular_lichen_planus": {
+          "text": "Violaceous plaques with central clearing\nCommon sites are penis, scrotum, and intertriginous areas",
+          "tables": []
+        },
+        "Bullous_lichen_planus": {
+          "text": "Vesicles or bullae within existing lesions\nCommon sites are legs",
+          "tables": []
+        },
+        "Actinic_lichen_planus_(lichen_planus_tropicus)": {
+          "text": "Photodistributed eruption of hyperpigmented macules, annular papules, or plaques\nMost common in Africa, Middle East, and India",
+          "tables": []
+        },
+        "Lichen_planus_pigmentosus": {
+          "text": "Gray-brown or dark brown macules or patches\nSun-exposed or flexural areas\nPruritus minimal or absent",
+          "tables": []
+        },
+        "Inverse_lichen_planus": {
+          "text": "Erythematous to violaceous papules and plaques\nIntertriginous sites (e.g., axillae, inguinal creases, inframammary area, limb flexures)\nHyperpigmentation is common\nScales and erosions may be present",
+          "tables": []
+        },
+        "Overlap_syndromes": {
+          "text": "Lichen planus pemphigoides\nLichen planus-lupus erythematosus overlap syndrome",
+          "tables": []
+        },
+        "Other_forms_of_lichen_planus": {
+          "text": "Nail lichen planus\nVaries from minor atrophy to total nail loss\nLichen planopilaris (follicular lichen planus)\nKeratotic papules that may coalesce into plaques\nClassic site is the scalp\nMay be in other body sites (e.g., Graham-Little-Piccardi-Lasseur syndrome)\nUntreated, can result in scarring and permanent alopecia\nOral lichen planus\nPainful, frequent loss of appetite\nMay lead to secondary candida infection\nGenital lichen planus\nInvolves glans of penis or epithelium of vulva, vestibule, vagina, and mouth\nOften resistant to treatment\nEsophageal lichen planus\nAssociated dysphagia or odynophagia\nConcomitant oral, genital, or cutaneous lichen planus\nOtic lichen planus\nErythema, induration, and stenosis of external auditory canal\nThickening of TM\nOtorrhea\nHearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Cutaneous_Lichen_Planus": {
+      "text": "Predominantly on ankles and volar surface of wrists\nFour “P’s”\nPruritic\nPurple\nPolygonal\nPapules or plaques\nWickham’s striae: Fine white lines visible on surface of papules or plaques\nKoebner reaction: Lesions develop in areas of trauma (e.g., scratching)",
+      "subsections": {
+        "Hypertrophic_lichen_planus": {
+          "text": "Intensely pruritic, flat-topped plaques\nCommon sites are extensor surfaces of lower extremities",
+          "tables": []
+        },
+        "Atrophic_lichen_planus": {
+          "text": "Violaceous, round or oval, atrophic plaques\nCommon sites are legs\nOften resolution of annular or hypertrophic lesions",
+          "tables": []
+        },
+        "Annular_lichen_planus": {
+          "text": "Violaceous plaques with central clearing\nCommon sites are penis, scrotum, and intertriginous areas",
+          "tables": []
+        },
+        "Bullous_lichen_planus": {
+          "text": "Vesicles or bullae within existing lesions\nCommon sites are legs",
+          "tables": []
+        },
+        "Actinic_lichen_planus_(lichen_planus_tropicus)": {
+          "text": "Photodistributed eruption of hyperpigmented macules, annular papules, or plaques\nMost common in Africa, Middle East, and India",
+          "tables": []
+        },
+        "Lichen_planus_pigmentosus": {
+          "text": "Gray-brown or dark brown macules or patches\nSun-exposed or flexural areas\nPruritus minimal or absent",
+          "tables": []
+        },
+        "Inverse_lichen_planus": {
+          "text": "Erythematous to violaceous papules and plaques\nIntertriginous sites (e.g., axillae, inguinal creases, inframammary area, limb flexures)\nHyperpigmentation is common\nScales and erosions may be present",
+          "tables": []
+        },
+        "Overlap_syndromes": {
+          "text": "Lichen planus pemphigoides\nLichen planus-lupus erythematosus overlap syndrome",
+          "tables": []
+        },
+        "Other_forms_of_lichen_planus": {
+          "text": "Nail lichen planus\nVaries from minor atrophy to total nail loss\nLichen planopilaris (follicular lichen planus)\nKeratotic papules that may coalesce into plaques\nClassic site is the scalp\nMay be in other body sites (e.g., Graham-Little-Piccardi-Lasseur syndrome)\nUntreated, can result in scarring and permanent alopecia\nOral lichen planus\nPainful, frequent loss of appetite\nMay lead to secondary candida infection\nGenital lichen planus\nInvolves glans of penis or epithelium of vulva, vestibule, vagina, and mouth\nOften resistant to treatment\nEsophageal lichen planus\nAssociated dysphagia or odynophagia\nConcomitant oral, genital, or cutaneous lichen planus\nOtic lichen planus\nErythema, induration, and stenosis of external auditory canal\nThickening of TM\nOtorrhea\nHearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pruritic",
+          "url": "https://wikem.org/wiki/Pruritus"
+        }
+      ]
+    },
+    "Cutaneous_variants": {
+      "text": "",
+      "subsections": {
+        "Hypertrophic_lichen_planus": {
+          "text": "Intensely pruritic, flat-topped plaques\nCommon sites are extensor surfaces of lower extremities",
+          "tables": []
+        },
+        "Atrophic_lichen_planus": {
+          "text": "Violaceous, round or oval, atrophic plaques\nCommon sites are legs\nOften resolution of annular or hypertrophic lesions",
+          "tables": []
+        },
+        "Annular_lichen_planus": {
+          "text": "Violaceous plaques with central clearing\nCommon sites are penis, scrotum, and intertriginous areas",
+          "tables": []
+        },
+        "Bullous_lichen_planus": {
+          "text": "Vesicles or bullae within existing lesions\nCommon sites are legs",
+          "tables": []
+        },
+        "Actinic_lichen_planus_(lichen_planus_tropicus)": {
+          "text": "Photodistributed eruption of hyperpigmented macules, annular papules, or plaques\nMost common in Africa, Middle East, and India",
+          "tables": []
+        },
+        "Lichen_planus_pigmentosus": {
+          "text": "Gray-brown or dark brown macules or patches\nSun-exposed or flexural areas\nPruritus minimal or absent",
+          "tables": []
+        },
+        "Inverse_lichen_planus": {
+          "text": "Erythematous to violaceous papules and plaques\nIntertriginous sites (e.g., axillae, inguinal creases, inframammary area, limb flexures)\nHyperpigmentation is common\nScales and erosions may be present",
+          "tables": []
+        },
+        "Overlap_syndromes": {
+          "text": "Lichen planus pemphigoides\nLichen planus-lupus erythematosus overlap syndrome",
+          "tables": []
+        },
+        "Other_forms_of_lichen_planus": {
+          "text": "Nail lichen planus\nVaries from minor atrophy to total nail loss\nLichen planopilaris (follicular lichen planus)\nKeratotic papules that may coalesce into plaques\nClassic site is the scalp\nMay be in other body sites (e.g., Graham-Little-Piccardi-Lasseur syndrome)\nUntreated, can result in scarring and permanent alopecia\nOral lichen planus\nPainful, frequent loss of appetite\nMay lead to secondary candida infection\nGenital lichen planus\nInvolves glans of penis or epithelium of vulva, vestibule, vagina, and mouth\nOften resistant to treatment\nEsophageal lichen planus\nAssociated dysphagia or odynophagia\nConcomitant oral, genital, or cutaneous lichen planus\nOtic lichen planus\nErythema, induration, and stenosis of external auditory canal\nThickening of TM\nOtorrhea\nHearing loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Differential_diagnosis": {
+      "text": "The differential diagnosis for lichen planus includes:\nChronic\ngraft-versus-host disease\nPsoriasis\nAtopic dermatitis\nLichen simplex chronicus\nSubacute cutaneous or discoid\nlupus erythematosus\nPityriasis rosea\nSecondary\nsyphilis\nPrurigo nodularis\nParaneoplastic\npemphigus/paraneoplastic autoimmune multiorgan syndrome (PAMS)\nOral leukoplakia\nOral\ncandidiasis\nPemphigus vulgaris\n, benign mucous membrane pemphigoid\nLichenoid\ndrug eruption\nAntimicrobials: aminosalicylate sodium, ethambutol, griseofulvin, ketoconazole, streptomycin, tetracycline, trovafloxacin, isoniazid\nAntihistamines: ranitidine, roxatidine\nAntihypertensives/antiarrhythmics: ACE-inhibitors, doxazosin, beta blockers, methyldopa, prazosin, nifedipine, quinidine\nAntimalarial drugs: chloroquine, hydroxychloroquine, quinine\nAntidepressants/anxiolytics/antipsychotics/AEDs: amitriptyline, carbamazepine, chlorpromazine, levomepromazine, methoprazine, imipramine, lorazepam, phenytoin\nDiuretics: thiazide diuretics, furosemide, spironolactone\nAntidiabetics: sulfonylureas\nMetals: gold salts, arsenic, bismuth, mercury, palladium, lithium\nNSAIDs\nProton pump inhibitors: omeprazole, lansoprazole, pantoprazole\nLipid lowering drugs: pravastatin, simvastatin, gemfibrozil\nTNF-alpha antagonists: infliximab, adalimumab, etanercept, lenercept\nVaria: allopurinol, bleomycin, cinnarizine, cyanamide, dapsone, hydroxyurea, hepatitis B-vaccine, imatinib, immunoglobulins, interferon alfa, l-thyroxin, levamisole, mesalamine, methycran, penicillamine, procainamide, pyrimethamine, pyrithioxine, quinacrine, sildenafil, sulfasalazine, terbinafine, trihexyphenidyl, ursodeoxycholic acid",
+      "subsections": {
+        "Plaques": {
+          "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "graft-versus-host disease",
+          "url": "https://wikem.org/wiki/Graft-versus-host_disease"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Atopic dermatitis",
+          "url": "https://wikem.org/wiki/Atopic_dermatitis"
+        },
+        {
+          "text": "lupus erythematosus",
+          "url": "https://wikem.org/wiki/Lupus_erythematosus"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "syphilis",
+          "url": "https://wikem.org/wiki/Syphilis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "candidiasis",
+          "url": "https://wikem.org/wiki/Candidiasis"
+        },
+        {
+          "text": "Pemphigus vulgaris",
+          "url": "https://wikem.org/wiki/Pemphigus_vulgaris"
+        },
+        {
+          "text": "drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Plaques": {
+      "text": "Psoriasis\nBowen disease\nDiscoid lupus erythematosus\nDrug eruption\nErythema annulare centrifugum\nLichen planus\nLichen simplex chronicus\nNummular dermatitis (nummular eczema)\nParapsoriasis\nPityriasis rosea\nSeborrheic dermatitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Psoriasis",
+          "url": "https://wikem.org/wiki/Psoriasis"
+        },
+        {
+          "text": "Drug eruption",
+          "url": "https://wikem.org/wiki/Drug_eruption"
+        },
+        {
+          "text": "Pityriasis rosea",
+          "url": "https://wikem.org/wiki/Pityriasis_rosea"
+        },
+        {
+          "text": "Seborrheic dermatitis",
+          "url": "https://wikem.org/wiki/Seborrheic_dermatitis"
+        }
+      ]
+    },
+    "Diagnosis": {
+      "text": "Clinical diagnosis\nWorkup outside of ED may include:\nPunch biopsy or shave biopsy\nImmunofluorescence studies if bullous lesions present\nRoutine HCV testing controversial",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Cutaneous": {
+          "text": "Self-limiting disease, usually resolves within 8-12 months\nFirst-line\nTopical corticosteroid\nHigh potency (e.g., trunk, extremities)\n0.05%\nbetamethasone\ndipropionate cream/ointment BID\n0.05% diflorasone diacetate cream/ointment BID\nMid- or low-potency (e.g., intertriginous areas, facial skin)\nIntralesional corticosteroids (hypertrophic lichen planus)\n2.5 to 10 mg/ml\ntriamcinolone acetonide\nq4-6 weeks\nSecond-line therapy\nFor generalized disease or local corticosteroid-refractory disease\nOral\nglucocorticoids\nOptimal dose/duration unknown\n30 to 60 mg qd 4-6 weeks followed by 4-6 week taper\nPhototherapy (e.g, Ultraviolet B, psoralen plus Ultraviolet A)\nOral acitretin",
+          "tables": []
+        },
+        "Genital": {
+          "text": "Topical corticosteroids or topical calcineurin inhibitors",
+          "tables": []
+        },
+        "Lichen_planopilaris": {
+          "text": "Topical corticosteroids or intralesional corticosteroids",
+          "tables": []
+        },
+        "Oral": {
+          "text": "Topical corticosteroids",
+          "tables": []
+        },
+        "Nail": {
+          "text": "Systemic or intralesional corticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical corticosteroid",
+          "url": "https://wikem.org/wiki/Topical_corticosteroid"
+        },
+        {
+          "text": "betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        }
+      ]
+    },
+    "Cutaneous": {
+      "text": "Self-limiting disease, usually resolves within 8-12 months\nFirst-line\nTopical corticosteroid\nHigh potency (e.g., trunk, extremities)\n0.05%\nbetamethasone\ndipropionate cream/ointment BID\n0.05% diflorasone diacetate cream/ointment BID\nMid- or low-potency (e.g., intertriginous areas, facial skin)\nIntralesional corticosteroids (hypertrophic lichen planus)\n2.5 to 10 mg/ml\ntriamcinolone acetonide\nq4-6 weeks\nSecond-line therapy\nFor generalized disease or local corticosteroid-refractory disease\nOral\nglucocorticoids\nOptimal dose/duration unknown\n30 to 60 mg qd 4-6 weeks followed by 4-6 week taper\nPhototherapy (e.g, Ultraviolet B, psoralen plus Ultraviolet A)\nOral acitretin",
+      "subsections": {
+        "Genital": {
+          "text": "Topical corticosteroids or topical calcineurin inhibitors",
+          "tables": []
+        },
+        "Lichen_planopilaris": {
+          "text": "Topical corticosteroids or intralesional corticosteroids",
+          "tables": []
+        },
+        "Oral": {
+          "text": "Topical corticosteroids",
+          "tables": []
+        },
+        "Nail": {
+          "text": "Systemic or intralesional corticosteroids",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Topical corticosteroid",
+          "url": "https://wikem.org/wiki/Topical_corticosteroid"
+        },
+        {
+          "text": "betamethasone",
+          "url": "https://wikem.org/wiki/Betamethasone"
+        },
+        {
+          "text": "triamcinolone acetonide",
+          "url": "https://wikem.org/wiki/Triamcinolone_acetonide"
+        },
+        {
+          "text": "glucocorticoids",
+          "url": "https://wikem.org/wiki/Glucocorticoids"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Outpatient treatment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Prognosis": {
+      "text": "",
+      "subsections": {
+        "Cutaneous_lichen_planus_2": {
+          "text": "Remits within 1 to 2 years",
+          "tables": []
+        },
+        "Oral,_genital,_scalp,_and_nail_lichen_planus": {
+          "text": "More persistent and resistant to therapy\nSquamous cell carcinoma risk is unclear (highest risk with erythematous or erosive oral and genital lichen planus)\nMonitor for medication adverse effects",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Goldstein, BG, Goldstein, AO, Mostow, E. Lichen planus. In: UpToDate, Dellavalle, RP, Callen, J (Ed), UpToDate, Waltham, MA, 2017.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

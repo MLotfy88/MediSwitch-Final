@@ -1,0 +1,572 @@
+{
+  "drug_name": "Limbic_encephalitis",
+  "url": "https://wikem.org/wiki/Limbic_encephalitis",
+  "scraped_at": "2026-01-10T07:56:29.612137",
+  "sections": {
+    "Background": {
+      "text": "Autoimmune\nencephalitis\ncaused by autoantibodies against intracellular neuronal proteins\nTypically not limited to limbic system\nMajority of cases are\nparaneoplastic\n, particularly associated with small cell lung cancer, germ-cell testicular tumors, teratomas",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Mimics\nHSV\nencephalitis\nSubacute presentation over days to weeks\nShort-term memory deficits\nHeadache\nIrritability, sleep disturbance,\nagitation\nDelusions,\nhallucinations\n,\npsychosis\nSeizure",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "HSV",
+          "url": "https://wikem.org/wiki/HSV"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "agitation",
+          "url": "https://wikem.org/wiki/Agitation"
+        },
+        {
+          "text": "hallucinations",
+          "url": "https://wikem.org/wiki/Hallucinations"
+        },
+        {
+          "text": "psychosis",
+          "url": "https://wikem.org/wiki/Psychosis"
+        },
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Diffuse_brain_dysfunction": {
+          "text": "Hypoxic\nencephalopathy\nAcute toxic-metabolic encephalopathy (Delirium)\nHypoglycemia\nHyperosmolar state (e.g.,\nhyperglycemia\n)\nElectrolyte Abnormalities\n(\nhypernatremia\nor\nhyponatremia\n,\nhypercalcemia\n)\nOrgan system failure\nHepatic Encephalopathy\nUremia\n/\nRenal Failure\nEndocrine (\nAddison's disease\n,\nCushing syndrome\n,\nhypothyroidism\n,\nmyxedema coma\n,\nthyroid storm\n)\nHypoxia\nCO2 narcosis\nHypertensive Encephalopathy\nToxins\nTTP\n/\nThrombotic thrombocytopenic purpura\nAlcohol withdrawal\nDrug reactions (\nNMS\n,\nSerotonin Syndrome\n)\nEnvironmental causes\nHypothermia\nHyperthermia\nDeficiency state\nWernicke encephalopathy\nSubacute Combined Degeneration of Spinal Cord (\nB12 deficiency\n)\nVitamin D Deficiency\nZinc Deficiency\nSepsis\nOsmotic demyelination syndrome\n(central pontine myelinolysis)\nLimbic encephalitis",
+          "tables": []
+        },
+        "Primary_CNS_disease_or_trauma": {
+          "text": "Direct CNS trauma\nDiffuse axonal injury\nSubdural\n/\nepidural hematoma\nVascular disease\nIntraparenchymal hemorrhage\nSAH\nStroke\nHemispheric, brainstem\nCNS infections\nEncephalitis\nAnti-NMDA receptor encephalitis\nMeningitis\nNeoplasms\nParaneoplastic\nLimbic encephalitis\nMalignant Meningitis\nPancreatic\nInsulinoma\nSeizures\nNonconvulsive\nstatus epilepticus\nPostictal state\nDementia\nAlzheimer's\nLewy Body Dementia\nFrontotemporal Dementia",
+          "tables": []
+        },
+        "Psychiatric": {
+          "text": "Acute psychosis\nCatatonia\nExcited delirium\nMalingering\nSteroid induced psychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute toxic-metabolic encephalopathy (Delirium)",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO2 narcosis",
+          "url": "https://wikem.org/wiki/CO2_narcosis"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Encephalopathy"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Vitamin D Deficiency",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Osmotic demyelination syndrome",
+          "url": "https://wikem.org/wiki/Osmotic_demyelination_syndrome"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Intraparenchymal hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Frontotemporal Dementia",
+          "url": "https://wikem.org/wiki/Frontotemporal_Dementia"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Catatonia",
+          "url": "https://wikem.org/wiki/Catatonia"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Steroid induced psychosis",
+          "url": "https://wikem.org/wiki/Steroid_induced_psychosis"
+        }
+      ]
+    },
+    "Altered_mental_status": {
+      "text": "",
+      "subsections": {
+        "Diffuse_brain_dysfunction": {
+          "text": "Hypoxic\nencephalopathy\nAcute toxic-metabolic encephalopathy (Delirium)\nHypoglycemia\nHyperosmolar state (e.g.,\nhyperglycemia\n)\nElectrolyte Abnormalities\n(\nhypernatremia\nor\nhyponatremia\n,\nhypercalcemia\n)\nOrgan system failure\nHepatic Encephalopathy\nUremia\n/\nRenal Failure\nEndocrine (\nAddison's disease\n,\nCushing syndrome\n,\nhypothyroidism\n,\nmyxedema coma\n,\nthyroid storm\n)\nHypoxia\nCO2 narcosis\nHypertensive Encephalopathy\nToxins\nTTP\n/\nThrombotic thrombocytopenic purpura\nAlcohol withdrawal\nDrug reactions (\nNMS\n,\nSerotonin Syndrome\n)\nEnvironmental causes\nHypothermia\nHyperthermia\nDeficiency state\nWernicke encephalopathy\nSubacute Combined Degeneration of Spinal Cord (\nB12 deficiency\n)\nVitamin D Deficiency\nZinc Deficiency\nSepsis\nOsmotic demyelination syndrome\n(central pontine myelinolysis)\nLimbic encephalitis",
+          "tables": []
+        },
+        "Primary_CNS_disease_or_trauma": {
+          "text": "Direct CNS trauma\nDiffuse axonal injury\nSubdural\n/\nepidural hematoma\nVascular disease\nIntraparenchymal hemorrhage\nSAH\nStroke\nHemispheric, brainstem\nCNS infections\nEncephalitis\nAnti-NMDA receptor encephalitis\nMeningitis\nNeoplasms\nParaneoplastic\nLimbic encephalitis\nMalignant Meningitis\nPancreatic\nInsulinoma\nSeizures\nNonconvulsive\nstatus epilepticus\nPostictal state\nDementia\nAlzheimer's\nLewy Body Dementia\nFrontotemporal Dementia",
+          "tables": []
+        },
+        "Psychiatric": {
+          "text": "Acute psychosis\nCatatonia\nExcited delirium\nMalingering\nSteroid induced psychosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypoxic",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "Acute toxic-metabolic encephalopathy (Delirium)",
+          "url": "https://wikem.org/wiki/Delirium"
+        },
+        {
+          "text": "Hypoglycemia",
+          "url": "https://wikem.org/wiki/Hypoglycemia"
+        },
+        {
+          "text": "hyperglycemia",
+          "url": "https://wikem.org/wiki/Hyperglycemia"
+        },
+        {
+          "text": "Electrolyte Abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_Abnormalities"
+        },
+        {
+          "text": "hypernatremia",
+          "url": "https://wikem.org/wiki/Hypernatremia"
+        },
+        {
+          "text": "hyponatremia",
+          "url": "https://wikem.org/wiki/Hyponatremia"
+        },
+        {
+          "text": "hypercalcemia",
+          "url": "https://wikem.org/wiki/Hypercalcemia"
+        },
+        {
+          "text": "Hepatic Encephalopathy",
+          "url": "https://wikem.org/wiki/Hepatic_Encephalopathy"
+        },
+        {
+          "text": "Uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Renal Failure",
+          "url": "https://wikem.org/wiki/Renal_Failure"
+        },
+        {
+          "text": "Addison's disease",
+          "url": "https://wikem.org/wiki/Addison%27s_disease"
+        },
+        {
+          "text": "Cushing syndrome",
+          "url": "https://wikem.org/wiki/Cushing_syndrome"
+        },
+        {
+          "text": "hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "myxedema coma",
+          "url": "https://wikem.org/wiki/Myxedema_coma"
+        },
+        {
+          "text": "thyroid storm",
+          "url": "https://wikem.org/wiki/Thyroid_storm"
+        },
+        {
+          "text": "Hypoxia",
+          "url": "https://wikem.org/wiki/Hypoxia"
+        },
+        {
+          "text": "CO2 narcosis",
+          "url": "https://wikem.org/wiki/CO2_narcosis"
+        },
+        {
+          "text": "Hypertensive Encephalopathy",
+          "url": "https://wikem.org/wiki/Hypertensive_Encephalopathy"
+        },
+        {
+          "text": "Toxins",
+          "url": "https://wikem.org/wiki/Toxins"
+        },
+        {
+          "text": "TTP",
+          "url": "https://wikem.org/wiki/TTP"
+        },
+        {
+          "text": "Thrombotic thrombocytopenic purpura",
+          "url": "https://wikem.org/wiki/Thrombotic_thrombocytopenic_purpura"
+        },
+        {
+          "text": "Alcohol withdrawal",
+          "url": "https://wikem.org/wiki/Alcohol_withdrawal"
+        },
+        {
+          "text": "NMS",
+          "url": "https://wikem.org/wiki/NMS"
+        },
+        {
+          "text": "Serotonin Syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_Syndrome"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "Wernicke encephalopathy",
+          "url": "https://wikem.org/wiki/Wernicke_encephalopathy"
+        },
+        {
+          "text": "B12 deficiency",
+          "url": "https://wikem.org/wiki/Vitamin_B12_deficiency"
+        },
+        {
+          "text": "Vitamin D Deficiency",
+          "url": "https://wikem.org/wiki/Rickets"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "Osmotic demyelination syndrome",
+          "url": "https://wikem.org/wiki/Osmotic_demyelination_syndrome"
+        },
+        {
+          "text": "Subdural",
+          "url": "https://wikem.org/wiki/Subdural_hemorrhage"
+        },
+        {
+          "text": "epidural hematoma",
+          "url": "https://wikem.org/wiki/Epidural_hematoma"
+        },
+        {
+          "text": "Intraparenchymal hemorrhage",
+          "url": "https://wikem.org/wiki/ICH"
+        },
+        {
+          "text": "SAH",
+          "url": "https://wikem.org/wiki/SAH"
+        },
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        },
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Anti-NMDA receptor encephalitis",
+          "url": "https://wikem.org/wiki/Anti-NMDA_receptor_encephalitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        },
+        {
+          "text": "Insulinoma",
+          "url": "https://wikem.org/wiki/Insulinoma"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "status epilepticus",
+          "url": "https://wikem.org/wiki/Status_epilepticus"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        },
+        {
+          "text": "Alzheimer's",
+          "url": "https://wikem.org/wiki/Alzheimer%27s"
+        },
+        {
+          "text": "Lewy Body Dementia",
+          "url": "https://wikem.org/wiki/Lewy_Body_Dementia"
+        },
+        {
+          "text": "Frontotemporal Dementia",
+          "url": "https://wikem.org/wiki/Frontotemporal_Dementia"
+        },
+        {
+          "text": "Acute psychosis",
+          "url": "https://wikem.org/wiki/Acute_psychosis"
+        },
+        {
+          "text": "Catatonia",
+          "url": "https://wikem.org/wiki/Catatonia"
+        },
+        {
+          "text": "Excited delirium",
+          "url": "https://wikem.org/wiki/Excited_delirium"
+        },
+        {
+          "text": "Steroid induced psychosis",
+          "url": "https://wikem.org/wiki/Steroid_induced_psychosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Diagnosis unlikely to be made in the ED\nEvaluate for alternative diagnoses\nMRI Brain\n- usually increased T2 signal involving one or both temporal lobes.\n[1]\nLP\n- CSF w/lymphocytosis (though usually <100), elevated protein, normal glucose, elevated IgG index, oligoclonal bands\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MRI Brain",
+          "url": "https://wikem.org/wiki/MRI_Brain"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Management": {
+      "text": "No randomized trials but may include\nIVIG\n,\nplasmapheresis\n,\ncorticosteroids\n,\ncyclophosphamide\nand/or\nrituximab\n.\n[3]\nTreat underlying malignancy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "IVIG",
+          "url": "https://wikem.org/wiki/IVIG"
+        },
+        {
+          "text": "plasmapheresis",
+          "url": "https://wikem.org/wiki/Plasmapheresis"
+        },
+        {
+          "text": "corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "cyclophosphamide",
+          "url": "https://wikem.org/wiki/Cyclophosphamide"
+        },
+        {
+          "text": "rituximab",
+          "url": "https://wikem.org/wiki/Rituximab"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Encephalitis\nParaneoplastic syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Encephalitis",
+          "url": "https://wikem.org/wiki/Encephalitis"
+        },
+        {
+          "text": "Paraneoplastic syndromes",
+          "url": "https://wikem.org/wiki/Paraneoplastic_syndromes"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "drug_name": "Left_ventricular_assist_device_complications",
+  "url": "https://wikem.org/wiki/Left_ventricular_assist_device_complications",
+  "scraped_at": "2026-01-10T07:56:21.179417",
+  "sections": {
+    "Background": {
+      "text": "Commonly referred to as an LVAD\nDeveloped in 1960s as bridge to cardiac transplant\nLVAD (left ventricle), RVAD (right ventricle), BiVAD (both venticles via separate pumps)\n[1]\nAlso used as destination therapy\nVADs have 3 major variables:\nSpeed\nFlow\nPower\nOther parameters:\nBattery level - typically powered by two batteries, with power base unit that can be plugged into wall\nPulsatility index:\nDecreased index, may indicate low preload or decreased native LV contractility\nIncreased index, may indicate volume overload or increased native LV contractility\nPump speed and pulsatility index are inversely related",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Applications": {
+      "text": "Modern applications have expanded beyond original purpose:\nBridge to cardiac transplant\nTemporizing measure for cardiomyopathies that are expected to resolve\nDestination therapy for patients who will not undergo cardiac transplant\nIndication is New York Heart Association class 4 heart failure, ejection fraction <25%, VO2 max less than 15 among other criteria\n[2]\nGoal of a VAD is to assist the ventricle and augment cardiac output",
+      "subsections": {
+        "Components": {
+          "text": "Pump\n= Internal pump (usually placed in preperitoneal space), takes blood from a cannula in the apex of the left ventricle and pumps it into the aorta\nDriveline\n= Percutaneous cable that exits the abdominal wall, connects pump to external components (controller, battery)\nController\n= External \"box\" containing computer for the device that monitors pump performance, has a display screen and controls for settings/alarms/diagnostics, and will display will show pump speed in RPM and pump output in L/min\nPower Supply\n= Controller can be connected to batteries for patient mobility, or to a \"power base station\" that plugs into the wall for home use",
+          "tables": []
+        },
+        "HeartMate_I_or_XVE": {
+          "text": "Use:\nDestination Therapy\nFlow Type:\nPulsatile\nBackup Method:\nHand Pump\nBattery:\n12volt MiMH - 10hrs\nDefib/Cardioversion:\nUse hand pump during defib/cardioversion",
+          "tables": []
+        },
+        "HeartMate_II": {
+          "text": "(\nMost common type in use today\n)\nUse:\nBridge to transplant or destination therapy\nFlow type:\nContinuous\nBackup Method:\nNo external method\nBattery:\n14V Li-Ion - 10 hrs\nDefib/Cardioversion:\nNo precautions\nTarget INR:\n1.8 to 2.5",
+          "tables": []
+        },
+        "Thoratec_VAD_(HeartMate_III)": {
+          "text": "Use:\nBridge to Transplant\nFlow Type:\nPulsatile\nBackup Method:\nNo external method\nBattery:\n12V lead acid gel battery - 7.2 Ah - up to 3 hrs\nDefib/Cardioversion:\nNo precautions",
+          "tables": []
+        },
+        "HeartWare_HVAD": {
+          "text": "Use:\nBridge to Transplant\nAnatomy:\nDesigned to be implanted completely in pericardial space, no need for pump pocket formation\nFlow Type:\nCentrifugal pump\nTarget INR:\n2.0-3.0",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Components": {
+      "text": "Pump\n= Internal pump (usually placed in preperitoneal space), takes blood from a cannula in the apex of the left ventricle and pumps it into the aorta\nDriveline\n= Percutaneous cable that exits the abdominal wall, connects pump to external components (controller, battery)\nController\n= External \"box\" containing computer for the device that monitors pump performance, has a display screen and controls for settings/alarms/diagnostics, and will display will show pump speed in RPM and pump output in L/min\nPower Supply\n= Controller can be connected to batteries for patient mobility, or to a \"power base station\" that plugs into the wall for home use",
+      "subsections": {
+        "HeartMate_I_or_XVE": {
+          "text": "Use:\nDestination Therapy\nFlow Type:\nPulsatile\nBackup Method:\nHand Pump\nBattery:\n12volt MiMH - 10hrs\nDefib/Cardioversion:\nUse hand pump during defib/cardioversion",
+          "tables": []
+        },
+        "HeartMate_II": {
+          "text": "(\nMost common type in use today\n)\nUse:\nBridge to transplant or destination therapy\nFlow type:\nContinuous\nBackup Method:\nNo external method\nBattery:\n14V Li-Ion - 10 hrs\nDefib/Cardioversion:\nNo precautions\nTarget INR:\n1.8 to 2.5",
+          "tables": []
+        },
+        "Thoratec_VAD_(HeartMate_III)": {
+          "text": "Use:\nBridge to Transplant\nFlow Type:\nPulsatile\nBackup Method:\nNo external method\nBattery:\n12V lead acid gel battery - 7.2 Ah - up to 3 hrs\nDefib/Cardioversion:\nNo precautions",
+          "tables": []
+        },
+        "HeartWare_HVAD": {
+          "text": "Use:\nBridge to Transplant\nAnatomy:\nDesigned to be implanted completely in pericardial space, no need for pump pocket formation\nFlow Type:\nCentrifugal pump\nTarget INR:\n2.0-3.0",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Devices_Overview": {
+      "text": "",
+      "subsections": {
+        "HeartMate_I_or_XVE": {
+          "text": "Use:\nDestination Therapy\nFlow Type:\nPulsatile\nBackup Method:\nHand Pump\nBattery:\n12volt MiMH - 10hrs\nDefib/Cardioversion:\nUse hand pump during defib/cardioversion",
+          "tables": []
+        },
+        "HeartMate_II": {
+          "text": "(\nMost common type in use today\n)\nUse:\nBridge to transplant or destination therapy\nFlow type:\nContinuous\nBackup Method:\nNo external method\nBattery:\n14V Li-Ion - 10 hrs\nDefib/Cardioversion:\nNo precautions\nTarget INR:\n1.8 to 2.5",
+          "tables": []
+        },
+        "Thoratec_VAD_(HeartMate_III)": {
+          "text": "Use:\nBridge to Transplant\nFlow Type:\nPulsatile\nBackup Method:\nNo external method\nBattery:\n12V lead acid gel battery - 7.2 Ah - up to 3 hrs\nDefib/Cardioversion:\nNo precautions",
+          "tables": []
+        },
+        "HeartWare_HVAD": {
+          "text": "Use:\nBridge to Transplant\nAnatomy:\nDesigned to be implanted completely in pericardial space, no need for pump pocket formation\nFlow Type:\nCentrifugal pump\nTarget INR:\n2.0-3.0",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Complications/Differential_Diagnosis": {
+      "text": "Bleeding - most common reason for ED visit, most common in first month after implant (frequency 42%\n[4]\n)\nGI bleeding\nis the most common source (15%-30%) followed by\nepistaxis\n.\n[5]\nMechanisms:\nAcquired\nVon Willebrand Disease (vWD)\nfrom pump shear forces\n[6]\nsupratherapeutic anticoagulation\nLack of pulsatile flow → AV malformations in GI tract\nPassive hepatic congestion secondary to biventricular failure, predisoposing to bleeding\nShear forces from device itself can lead to hemolytic anemia\n[7]\nImmediately consult VAD team/coordinator\nTreatment -\nanticoagulant\nreversal based on specific agents used\nIn life-threatening bleeds, consider\nTXA\n,\nPCC\n,\nDesmopressin\n,\nFFP\nWarfarin reversal\ncarries low risk for acute thrombosis\n[8]\nInfection - driveline and pocket are most common sites\n[4]\nUsually\ngram positive bacteria\n, but also need to cover for\nfungal infection\nPump Thrombosis, estimated at 2-13%, average first thrombosis ~1 year after implant depending on device\n[9]\nLow output state with falsely elevated pump flow estimates on controller\nDiagnose with echo or cardiac CTA\nTreatment with\nheparin\nand\nantiplatelet\ntherapy\nConsider\ntPA\nin life-threatening situations\nCauses:\nMechanical - post-surgical ventricular debris, cardiac emboli, inflow cannula malposition\nInadequate anticoagulation and/or antiplatelet treatment\nAs optimal dosing and monitoring not well defined due to lack of clinical trials\nWill occur despite rigid regimen and compliance of anticoagulation/antiplatelet\nProsthetic material inflammatory reaction with blood\nIntrinsic endothelial activation in response to continuous flow-VAD\nArrhythmia\n- very common\nGet labs to evaluate electrolytes and troponin\nTreat\natrial fibrillation\nas in any other patient\nTreat ventricular arrhythmias with volume replacement and pharmacological or electrical cardioversion\nPlace pads anterior/posterior if going to cardiovert/defibrillate\n\"Suction event\"\nPump pulls from an LV that hasn't filled\nCauses:\nCannula malposition\nIncreased peripheral vascular resistance (hypertensive emergency)\nTamponade",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "GI bleeding",
+          "url": "https://wikem.org/wiki/GI_bleeding"
+        },
+        {
+          "text": "epistaxis",
+          "url": "https://wikem.org/wiki/Epistaxis"
+        },
+        {
+          "text": "Von Willebrand Disease (vWD)",
+          "url": "https://wikem.org/wiki/Von_Willebrand_Disease_(vWD)"
+        },
+        {
+          "text": "supratherapeutic anticoagulation",
+          "url": "https://wikem.org/wiki/Coagulopathy_(main)"
+        },
+        {
+          "text": "anticoagulant",
+          "url": "https://wikem.org/wiki/Anticoagulant"
+        },
+        {
+          "text": "TXA",
+          "url": "https://wikem.org/wiki/TXA"
+        },
+        {
+          "text": "PCC",
+          "url": "https://wikem.org/wiki/PCC"
+        },
+        {
+          "text": "Desmopressin",
+          "url": "https://wikem.org/wiki/Desmopressin"
+        },
+        {
+          "text": "FFP",
+          "url": "https://wikem.org/wiki/FFP"
+        },
+        {
+          "text": "Warfarin reversal",
+          "url": "https://wikem.org/wiki/Warfarin_reversal"
+        },
+        {
+          "text": "gram positive bacteria",
+          "url": "https://wikem.org/wiki/Gram_positive_bacteria"
+        },
+        {
+          "text": "fungal infection",
+          "url": "https://wikem.org/wiki/Fungal_infection"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "antiplatelet",
+          "url": "https://wikem.org/wiki/Antiplatelet"
+        },
+        {
+          "text": "tPA",
+          "url": "https://wikem.org/wiki/TPA"
+        },
+        {
+          "text": "Arrhythmia",
+          "url": "https://wikem.org/wiki/Arrhythmia"
+        },
+        {
+          "text": "atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess perfusion and general state (mental status, skin temp/color, capillary refill, etc)\nLVADs are preload dependant - if symptoms of hypoperfusion, give fluid blous\nHR measured via ECG or auscultation (may be difficult secondary to pump noise). A hum or whir should be present to indicate the pump is functioning.\nGet 12-lead\nECG\non all LVAD patients\nDemonstrates primary cardiac disease\n[10]\nGenerally, VAD does not influence underlying cardiac rhythm\nImaging:\nBedside\necho\nif able,\nformal echo\nif available, with the following suggestive of thrombosis:\nCannula flow velocity > 2 m/s\nMore frequent opening of aortic valve than at baseline\nIncreasing LV internal dimension in diastole without manual speed changes\nCT with contrast to look for thrombus, discuss with radiologist to protocol\nBlood pressure measured with manual BP cuff and Doppler ultrasound - MAP is identified when constant flow is heard\nMAP should be 65-80 mmHg\n[11]\nCan also monitor with\narterial line\nBasic lab should be obtained on all LVAD patients\nCardiac labs -\nBNP\n,\ntroponin\nInclude thrombolysis,\ncoagulopathy\nlabs\nCBC\nCMP, indirect bilirubin\nPT/INT/PTT\nLDH\nHaptoglobin\nFibrinogen\nUA\nfor hematuria\nQuantitative plasma free hemoglobin\nConsider\nTEG\nLDH elevation over 1,150 IU/L suggestive of pump thrombosis\n[12]\nApproximate sensitivity of ~80% and specificity of 90%\nHemolysis within thrombosed pump releases LDH\nAssess LVAD status\nAuscultate for pump noise\nDevice parameters (found on controller)\nPump speed\n- varies by device - 2,000-10,000 RPM\nPower\n- normal 4-6 Watts\nFlow\n- normal 4-6 L/min\nPulsatility Index (PI)\n- normal 1-10\nMeasures magnitude of pulsatile flow provided by native cardiac contractions\nHigher PI = less LVAD support\nClinical status more important than LVAD parameters\nIf hypotension, consider VAD flows\nLow VAD flow\nLow JVP - bleeding, hypovolemia\nHigh JVP - RV dysfunction, inadequate unloading, PE, PTX, tamponade\nHigh VAD flows - vasodilatation (sepsis, vasoactive medications)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "echo",
+          "url": "https://wikem.org/wiki/Echocardiography"
+        },
+        {
+          "text": "formal echo",
+          "url": "https://wikem.org/wiki/Formal_echocardiography"
+        },
+        {
+          "text": "arterial line",
+          "url": "https://wikem.org/wiki/Arterial_line"
+        },
+        {
+          "text": "BNP",
+          "url": "https://wikem.org/wiki/BNP"
+        },
+        {
+          "text": "troponin",
+          "url": "https://wikem.org/wiki/Troponin"
+        },
+        {
+          "text": "coagulopathy",
+          "url": "https://wikem.org/wiki/Coagulopathy"
+        },
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "TEG",
+          "url": "https://wikem.org/wiki/TEG"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Immediately contact hospital or patient's LVAD coordinator to help coordinate care\nCheck controller to ensure power light is on\nEnsure humming sound of pump is auscultated over chest/abdomen\nIf pump not working, replace with patient's backup controller\nCheck all connections to power source, driveline, and controller are intact\nDisconnect all connections after checking, and reconnect immediately\nInspect driveline for damages/defects\nAssess battery, replace with backup battery\nPatient should be positioned flat on stretcher before replacing battery\nOR connect to hospital's power base unit or patient's power base unit if available\nIF NONE OF ABOVE, contact VAD coordinator to find local LVAD patient in vicinity willing to transport extra batteries to ED\nTake note that if battery is critically low, many devices will automatically lower speed, which can cause syncope or lightheadedness\nHemodynamic, supportive care\n[13]\nMany LVAD patients fluid restrict too much due to their history, and LVADs are preload dependent\nIVF\ncrystalloid fluid bolus when indicated (low-flow indicator alarm)\nMAP goal 70-90 mmHg\nLVAD patients afterload sensitive\nAddress high BP emergently if thought to contribute to increased work of pump, which leads to thrombus and stroke\nBeware of suction event complication, which requires IVF bolus and allowing the controller to sense this, slow pump speed and slowly bring up to fixed speed to allow for adequate ventricular filling\nTake special care to not twist, bend, cut, or otherwise damage the driveline\nFirst generation LVADs had pulsatile flow\nSubsequent designs use continuous flow - patient will not have a palpable pulse\nPatient will be on anticoagulation and antiplatelet therapy secondary to high risk of pump thrombus, CVA, and other thromboembolic events\nVADs are ECG independant, unlike ICD (many patients with a VAD will also have an ICD in place)\nICD discharges are common, and frequently inappropriate (possibly secondary to LVAD interference)\n[10]\nEnsure that patient or family bring in any additional batteries and charging elements as these will not be available in most hospital settings\nThrombosis,\ntPA\nin emergencies\nBreadth of literature supporting is overall small\nWhen patient not responding to continuous anticoagulation (\nheparin\n,\nargatroban\ndrip)\nAND when going directly to LVAD exchange or catheter-directed thrombolysis are not possibilities\nConsider tPA if not contraindicated for survival and avoidance of needing LVAD exhange\n[14]\n5 mg IV bolus\ntPA\n3 mg/hr infusion in NS for 10 hours\n1 mg/hr for up to 48 hours, never exceeding 100 mg max total dosage\nIn single center study cited above, there was:\n70% that had hemolysis resolve and no need for LVAD exchange at 30 days\n95% survival at 30 days\n10% hemorrhagic stroke with no difference between tPA and control group\nAlternative dosing, while plus/minus continuing heparin drip\n[15]\nInitial dosing of 10 mg IV bolus\nFollowed by 1 mg/min for 20 min\nThen 1 mg/hr for 24 hours\nMonitor LDH levels and discontinue heparin drip when LDH acceptably lowered",
+      "subsections": {
+        "Cardiac_Arrest": {
+          "text": "Unconscious, apneic, no evidence of LVAD function (auscultate for mechanical noise)\nImmediately evaluate LVAD components and attach to reliable power source\nSome first-generation LVADs have external hand pumps that can be used to provide circulation\nBegin CPR if patient is unresponsive with MAP less than 50mmHg, end tidal carbon dioxide level less than 20mmHg, or LVAD cannot be restarted.\n[16]\nUnstable patients with shockable dysrhythmias should be cardioverted.\n[17]\nOptimal placement of pads is in the anterior-posterior fashion & not over the drive line.\nPatient can be intubated, given IV fluids and ACLS drugs, etc\nNew Paradigm shift with since AHA officially endorsed the use of chest compressions in 6/2017.\n[18]\nSome studies available\n[19]\n[20]\nindicate that CPR may not be as harmful as previously thought, or that abdominal compressions are an alternative\n[21]\nbut further investigation needed",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "IVF",
+          "url": "https://wikem.org/wiki/IVF"
+        },
+        {
+          "text": "tPA",
+          "url": "https://wikem.org/wiki/TPA"
+        },
+        {
+          "text": "heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "argatroban",
+          "url": "https://wikem.org/wiki/Argatroban"
+        },
+        {
+          "text": "tPA",
+          "url": "https://wikem.org/wiki/TPA"
+        }
+      ]
+    },
+    "Cardiac_Arrest": {
+      "text": "Unconscious, apneic, no evidence of LVAD function (auscultate for mechanical noise)\nImmediately evaluate LVAD components and attach to reliable power source\nSome first-generation LVADs have external hand pumps that can be used to provide circulation\nBegin CPR if patient is unresponsive with MAP less than 50mmHg, end tidal carbon dioxide level less than 20mmHg, or LVAD cannot be restarted.\n[16]\nUnstable patients with shockable dysrhythmias should be cardioverted.\n[17]\nOptimal placement of pads is in the anterior-posterior fashion & not over the drive line.\nPatient can be intubated, given IV fluids and ACLS drugs, etc\nNew Paradigm shift with since AHA officially endorsed the use of chest compressions in 6/2017.\n[18]\nSome studies available\n[19]\n[20]\nindicate that CPR may not be as harmful as previously thought, or that abdominal compressions are an alternative\n[21]\nbut further investigation needed",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Immediately contact the patient's VAD coordinator\nAlmost all LVAD patient presenting to the ED will require admission or transfer to a site of expertise",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Medical device complications\nACLS (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Medical device complications",
+          "url": "https://wikem.org/wiki/Medical_device_complications"
+        },
+        {
+          "text": "ACLS (Main)",
+          "url": "https://wikem.org/wiki/ACLS_(Main)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "VAD Review\nEMCrit LVAD Management\nMyLVAD\nOR\nMechanical Circulatory Support Organization EMS Guide\nCriticalCareNow: Simplified Algorithm for ACLS in LVAD Patients",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

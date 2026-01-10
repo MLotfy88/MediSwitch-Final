@@ -1,0 +1,81 @@
+{
+  "drug_name": "Lateral_medullary_syndrome",
+  "url": "https://wikem.org/wiki/Lateral_medullary_syndrome",
+  "scraped_at": "2026-01-10T07:56:15.490359",
+  "sections": {
+    "Background": {
+      "text": "Also known as Wallenberg syndrome, PICA syndrome\nCaused by occlusion of the posterior inferior cerebellar artery (PICA)\nCan also be caused by occlusion of the vertebral artery at the origin of PICA",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Contralateral loss of pain and temperature sensation to body\nIpsilateral loss of pain and temperature sensation to face\nDysphagia\n, soft palate paralysis, hoarseness, diminished gag reflex\nIpsilateral\nHorner syndrome\nNausea\n,\ndiplopia\n, patient that is falling to the ipsilateral side,\nnystagmus\n,\nvertigo\nAtaxia\nto the ipsilateral side",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Dysphagia",
+          "url": "https://wikem.org/wiki/Dysphagia"
+        },
+        {
+          "text": "Horner syndrome",
+          "url": "https://wikem.org/wiki/Horner_syndrome"
+        },
+        {
+          "text": "Nausea",
+          "url": "https://wikem.org/wiki/Nausea"
+        },
+        {
+          "text": "diplopia",
+          "url": "https://wikem.org/wiki/Diplopia"
+        },
+        {
+          "text": "nystagmus",
+          "url": "https://wikem.org/wiki/Nystagmus"
+        },
+        {
+          "text": "vertigo",
+          "url": "https://wikem.org/wiki/Vertigo"
+        },
+        {
+          "text": "Ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "See\nStroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "Management": {
+      "text": "See\nStroke",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke",
+          "url": "https://wikem.org/wiki/Stroke"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Stroke syndromes",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Stroke syndromes",
+          "url": "https://wikem.org/wiki/Stroke_syndromes"
+        }
+      ]
+    }
+  }
+}

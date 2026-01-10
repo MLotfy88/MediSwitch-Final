@@ -1,0 +1,455 @@
+{
+  "drug_name": "Linezolid",
+  "url": "https://wikem.org/wiki/Linezolid",
+  "scraped_at": "2026-01-10T07:56:29.862772",
+  "sections": {
+    "General": {
+      "text": "Type: Oxazolidinone\nantibiotic\nDosage Forms: PO/IV\nCommon Trade Names: Zyvox\nBacteriostatic, so prefer another agent in bacteremia, such as\nceftaroline\nin\nvancomycin\nresistant MRSA",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "antibiotic",
+          "url": "https://wikem.org/wiki/Antibiotic"
+        },
+        {
+          "text": "ceftaroline",
+          "url": "https://wikem.org/wiki/Ceftaroline"
+        },
+        {
+          "text": "vancomycin",
+          "url": "https://wikem.org/wiki/Vancomycin"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "VRE\ninfections:\n600 mg PO/IV Q12H x 14-28 days\nPneumonia\n, community-acquired:\n600 mg PO/IV Q12H x 5 days\nPneumonia\n, hospital-acquired or ventilator-associated:\n600 mg PO/IV Q12H x 5 days\nUncomplicated\nskin infections\n:\n400 mg PO Q12H x 10-14 days\nComplicated\nskin infections\n:\n600 mg PO/IV Q12H x 10-14 days\nEndocarditis\n600 mg PO/IV Q12H x 6 weeks",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "VRE",
+          "url": "https://wikem.org/wiki/VRE"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "Pneumonia",
+          "url": "https://wikem.org/wiki/Pneumonia"
+        },
+        {
+          "text": "skin infections",
+          "url": "https://wikem.org/wiki/Skin_infections"
+        },
+        {
+          "text": "skin infections",
+          "url": "https://wikem.org/wiki/Skin_infections"
+        },
+        {
+          "text": "Endocarditis",
+          "url": "https://wikem.org/wiki/Endocarditis"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": ">12 years old: 600mg IV/PO q12h\n<12 years: 10mg/kg IV/PO q8-12h",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Infant risk cannot be ruled out\nRenal Dosing\nRenal impairment: no adjustment\nHemodialysis: give dose after HD\nHepatic dosing: no adjustment for mild-moderate impairment (Child-Pugh Class A or B)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nUse of MAOIs, concomitantly or within past 14 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Serotonin syndrome\ncan be caused with concomitant use with an SSRI or MAOI\nMyelosuppression can occur after two weeks of use\nThrombocytopenia\n[1]\nPeripheral and optic neuropathy\nLactic acidosis\nClostridium difficile diarrhea\nLiver injury\nSeizure",
+          "tables": []
+        },
+        "Common": {
+          "text": "GI upset\nHeadache\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Serotonin syndrome\ncan be caused with concomitant use with an SSRI or MAOI\nMyelosuppression can occur after two weeks of use\nThrombocytopenia\n[1]\nPeripheral and optic neuropathy\nLactic acidosis\nClostridium difficile diarrhea\nLiver injury\nSeizure",
+      "subsections": {
+        "Common": {
+          "text": "GI upset\nHeadache\nFever",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Serotonin syndrome",
+          "url": "https://wikem.org/wiki/Serotonin_syndrome"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "Lactic acidosis",
+          "url": "https://wikem.org/wiki/Lactic_acidosis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "GI upset\nHeadache\nFever",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: adults- 4.7-5.1h, pediatrics- 1.5-4.1\nMetabolism:\nExcretion:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "X2"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}

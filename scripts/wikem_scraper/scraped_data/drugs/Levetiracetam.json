@@ -1,0 +1,138 @@
+{
+  "drug_name": "Levetiracetam",
+  "url": "https://wikem.org/wiki/Levetiracetam",
+  "scraped_at": "2026-01-10T07:56:25.264736",
+  "sections": {
+    "General": {
+      "text": "Type:\nAnticonvulsants\nDosage Forms: PO 250mg, 500mg, 750mg, 1000mg; 500mg ER, 750mg ER; IV 100mg/mL\nCommon Trade Names: Keppra",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Status Epilepticus\n20-40mg/kg IV loading dose\nPartial\nseizures\n, adjunct\n500-1500mg PO/IV q12h.\nStart 500 q12 or 1000 QD, inc by 1000mg/day q2wk\nMax 3000mg/day\nGeneralized tonic clonic\nseizures\n, adjunct\n1500mg PO/IV q12h or\nStart 500 q12, inc by 1000mg/day q2wk\nMax 3000mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Status Epilepticus",
+          "url": "https://wikem.org/wiki/Status_Epilepticus"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "Partial seizures, adjunct\n4-15 yo\n60mg/kg/day PO divided bid\nStart 20mg/kg/day PO divided bid, inc by 20mg/kg/day q2wk\nMax 3000mg/day\n>16 yo\n500-1500mg PO/IV q12h.\nStart 500 q12 or 1000 QD, inc by 1000mg/day q2wk\nMax 3000mg/day\nGeneralized tonic clonic seizures, adjunct\n6-15 yo\n60mg/kg/day PO divided bid\nStart 20mg/kg/day PO divided bid, inc by 20mg/kg/day q2wk\nMax 3000mg/day\n>16 yo\n1500mg PO/IV q12h\nStart 500 q12, inc by 1000mg/day q2wk\nMax 3000mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: probably safe\nRenal Dosing\nAdult\nCrCl 50-80: 500-1000mg q12h IR; 1000-2000mg QD ER\nCrCl 30-50: 250-750mg q12h IR; 500-1500mg QD ER\nCrCl <30: 250-500mg q12h; 500-1000mg QD ER\nHD: 500-1000mg q24h IR, do not use ER\nPediatric\nCrCl <50, IR: decrease dose 50%\nCrCl 50-80: 1000-2000mg QD ER\nCrCl 30-50: 500-1500mg QD ER\nCrCl <30: 500-1000mg QD ER\nHepatic Dosing: no adjustment",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Depression\nHostility\nAggressive behavior\nPsychosis\nSuicidality\nLeukopenia\nNeutropenia\nDrug rash with eosinophilia and systemic sx\nStevens-Johnson\nToxic epidermal necrolysis\nErythema multiforme\nwithdrawal seizures if abrupt discharge",
+          "tables": []
+        },
+        "Common": {
+          "text": "Somnolence\nAsthenia\nVomiting\nHeadache\nURI sx\nAnorexia\nInfection\nHostility\nFatigue\nNervousness\nDizziness\nDiarrhea\nBehavioral changes\nIrritability\nPain\nAgitation\nEmotional lability\nDepression\nNausea\nVertigo\nAtaxia\nLeukopenia\nNeutropenia\nAnxiety\nConfusion\nAmnesia\nAlopecia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Depression\nHostility\nAggressive behavior\nPsychosis\nSuicidality\nLeukopenia\nNeutropenia\nDrug rash with eosinophilia and systemic sx\nStevens-Johnson\nToxic epidermal necrolysis\nErythema multiforme\nwithdrawal seizures if abrupt discharge",
+      "subsections": {
+        "Common": {
+          "text": "Somnolence\nAsthenia\nVomiting\nHeadache\nURI sx\nAnorexia\nInfection\nHostility\nFatigue\nNervousness\nDizziness\nDiarrhea\nBehavioral changes\nIrritability\nPain\nAgitation\nEmotional lability\nDepression\nNausea\nVertigo\nAtaxia\nLeukopenia\nNeutropenia\nAnxiety\nConfusion\nAmnesia\nAlopecia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Somnolence\nAsthenia\nVomiting\nHeadache\nURI sx\nAnorexia\nInfection\nHostility\nFatigue\nNervousness\nDizziness\nDiarrhea\nBehavioral changes\nIrritability\nPain\nAgitation\nEmotional lability\nDepression\nNausea\nVertigo\nAtaxia\nLeukopenia\nNeutropenia\nAnxiety\nConfusion\nAmnesia\nAlopecia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6-8h\nMetabolism: hydrolysis minimally\nExcretion: urine\nMechanism of Action: exact mechanism unknown",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Seizure\nAnticonvulsants\nAnticonvulsant levels and reloading",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "Anticonvulsants",
+          "url": "https://wikem.org/wiki/Anticonvulsants"
+        },
+        {
+          "text": "Anticonvulsant levels and reloading",
+          "url": "https://wikem.org/wiki/Anticonvulsant_levels_and_reloading"
+        }
+      ]
+    },
+    "References": {
+      "text": "epocrates",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

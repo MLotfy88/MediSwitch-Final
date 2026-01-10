@@ -1,0 +1,442 @@
+{
+  "drug_name": "Laryngospasm",
+  "url": "https://wikem.org/wiki/Laryngospasm",
+  "scraped_at": "2026-01-10T07:56:17.114168",
+  "sections": {
+    "Background": {
+      "text": "An uncontrolled or involuntary muscular contraction of the vocal folds.\nReflex is normally triggered when the vocal cords or the area of the trachea below the vocal folds detects the entry of water, mucus, blood, or other substance.\nAssociated with\nketamine\n(0.3%)\nUsually associated with large doses or rapid IV push",
+      "subsections": {
+        "Causes": {
+          "text": "Ammonia toxicity\nMedications\nKetamine\nDoxapram\nHypocalcemia\nHyperparathyroidism\nAcute tetanus\nLudwig's angina\nAcute laryngospasm\nSubmersion injury\nPulmonary chemical agents\nPepper spray\nSmoke inhalation injury\nCaustic cocktail",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Doxapram",
+          "url": "https://wikem.org/wiki/Doxapram"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Submersion injury",
+          "url": "https://wikem.org/wiki/Submersion_injury"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Ammonia toxicity\nMedications\nKetamine\nDoxapram\nHypocalcemia\nHyperparathyroidism\nAcute tetanus\nLudwig's angina\nAcute laryngospasm\nSubmersion injury\nPulmonary chemical agents\nPepper spray\nSmoke inhalation injury\nCaustic cocktail",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Ammonia toxicity",
+          "url": "https://wikem.org/wiki/Ammonia_toxicity"
+        },
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Doxapram",
+          "url": "https://wikem.org/wiki/Doxapram"
+        },
+        {
+          "text": "Hypocalcemia",
+          "url": "https://wikem.org/wiki/Hypocalcemia"
+        },
+        {
+          "text": "Hyperparathyroidism",
+          "url": "https://wikem.org/wiki/Hyperparathyroidism"
+        },
+        {
+          "text": "Acute tetanus",
+          "url": "https://wikem.org/wiki/Acute_tetanus"
+        },
+        {
+          "text": "Ludwig's angina",
+          "url": "https://wikem.org/wiki/Ludwig%27s_angina"
+        },
+        {
+          "text": "Submersion injury",
+          "url": "https://wikem.org/wiki/Submersion_injury"
+        },
+        {
+          "text": "Pulmonary chemical agents",
+          "url": "https://wikem.org/wiki/Pulmonary_chemical_agents"
+        },
+        {
+          "text": "Pepper spray",
+          "url": "https://wikem.org/wiki/Pepper_spray"
+        },
+        {
+          "text": "Smoke inhalation injury",
+          "url": "https://wikem.org/wiki/Smoke_inhalation_injury"
+        },
+        {
+          "text": "Caustic cocktail",
+          "url": "https://wikem.org/wiki/Caustic_cocktail"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Apnea may be the only sign in complete closure\nPartial closure can manifest as\nstridor\n, guttural noises, and paradoxical chest movement",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "stridor",
+          "url": "https://wikem.org/wiki/Stridor"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Oversedation\nFailure of respiratory drive",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "Typically not indicated",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "Typically not indicated",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Typically a clinical diagnosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Typically a clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Jaw thrust\nPlace pressure on Larson's notch\nIf jaw thrust and pressure are not sufficient,\nbag valve mask\nwith PEEP\nIf above do not resolve laryngospasm, sedate more deeply (\npropofol\nis the traditional choice, 0.5mg/kg)\nIf deeper sedation does not resolve laryngospasm, paralyze and intubate\nIn pediatric patients, consider gentle chest compressions",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "bag valve mask",
+          "url": "https://wikem.org/wiki/Bag_valve_mask"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Observation for 2-3 hours after resolution for development of post-obstructive pulmonary edema, bradycardia (consider\natropine\n), or aspiration",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "atropine",
+          "url": "https://wikem.org/wiki/Atropine"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Ketamine\nProcedural Sedation",
+      "subsections": {
+        "Airway_Pages": {
+          "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ketamine",
+          "url": "https://wikem.org/wiki/Ketamine"
+        },
+        {
+          "text": "Procedural Sedation",
+          "url": "https://wikem.org/wiki/Procedural_Sedation"
+        },
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "Airway_Pages": {
+      "text": "Pre-intubation\nPredicting the difficult airway\nBag valve mask ventilation\nOropharyngeal airway\nSupraglottic airway\nApneic oxygenation\nEBQ:ED Preoxygenation\nInduction\nCritical care quick reference\nRapid sequence intubation\nDelayed sequence intubation\nIntubation\nIntubation (peds)\nDirect laryngoscopy\nVideo Laryngoscopy\nBougie\nThe difficult airway\nAdvanced airway adjuncts\nSupraglottic airway\nNon-traditional intubation\nAwake intubation\nNasal intubation\nBlind digital intubation\nSurgical airways\nSurgical cricothyrotomy\nNeedle cricothyrotomy\nPediatric jet ventilation\nPost-intubation\nMechanical ventilation (main)\nDeterioration after intubation\n(DOPE)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Predicting the difficult airway",
+          "url": "https://wikem.org/wiki/Predicting_the_difficult_airway"
+        },
+        {
+          "text": "Bag valve mask ventilation",
+          "url": "https://wikem.org/wiki/Bag_valve_mask_ventilation"
+        },
+        {
+          "text": "Oropharyngeal airway",
+          "url": "https://wikem.org/wiki/Oropharyngeal_airway"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Apneic oxygenation",
+          "url": "https://wikem.org/wiki/Apneic_oxygenation"
+        },
+        {
+          "text": "EBQ:ED Preoxygenation",
+          "url": "https://wikem.org/wiki/EBQ:ED_Preoxygenation"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        },
+        {
+          "text": "Rapid sequence intubation",
+          "url": "https://wikem.org/wiki/Rapid_sequence_intubation"
+        },
+        {
+          "text": "Delayed sequence intubation",
+          "url": "https://wikem.org/wiki/Delayed_sequence_intubation"
+        },
+        {
+          "text": "Intubation",
+          "url": "https://wikem.org/wiki/Intubation"
+        },
+        {
+          "text": "Intubation (peds)",
+          "url": "https://wikem.org/wiki/Intubation_(peds)"
+        },
+        {
+          "text": "Direct laryngoscopy",
+          "url": "https://wikem.org/wiki/Direct_laryngoscopy"
+        },
+        {
+          "text": "Video Laryngoscopy",
+          "url": "https://wikem.org/wiki/Video_Laryngoscopy"
+        },
+        {
+          "text": "Bougie",
+          "url": "https://wikem.org/wiki/Bougie"
+        },
+        {
+          "text": "The difficult airway",
+          "url": "https://wikem.org/wiki/The_difficult_airway"
+        },
+        {
+          "text": "Advanced airway adjuncts",
+          "url": "https://wikem.org/wiki/Advanced_airway_adjuncts"
+        },
+        {
+          "text": "Supraglottic airway",
+          "url": "https://wikem.org/wiki/Supraglottic_airway"
+        },
+        {
+          "text": "Awake intubation",
+          "url": "https://wikem.org/wiki/Awake_intubation"
+        },
+        {
+          "text": "Nasal intubation",
+          "url": "https://wikem.org/wiki/Nasal_intubation"
+        },
+        {
+          "text": "Blind digital intubation",
+          "url": "https://wikem.org/wiki/Blind_digital_intubation"
+        },
+        {
+          "text": "Surgical airways",
+          "url": "https://wikem.org/wiki/Surgical_airways"
+        },
+        {
+          "text": "Surgical cricothyrotomy",
+          "url": "https://wikem.org/wiki/Surgical_cricothyrotomy"
+        },
+        {
+          "text": "Needle cricothyrotomy",
+          "url": "https://wikem.org/wiki/Needle_cricothyrotomy"
+        },
+        {
+          "text": "Pediatric jet ventilation",
+          "url": "https://wikem.org/wiki/Pediatric_jet_ventilation"
+        },
+        {
+          "text": "Mechanical ventilation (main)",
+          "url": "https://wikem.org/wiki/Mechanical_ventilation_(main)"
+        },
+        {
+          "text": "Deterioration after intubation",
+          "url": "https://wikem.org/wiki/Deterioration_after_intubation"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "5minuteairway: Beating Laryngospasm\nemDOCs: Laryngospasm\nFirst10EM: Managing Laryngospasm",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

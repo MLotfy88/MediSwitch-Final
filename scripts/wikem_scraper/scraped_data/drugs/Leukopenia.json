@@ -1,0 +1,188 @@
+{
+  "drug_name": "Leukopenia",
+  "url": "https://wikem.org/wiki/Leukopenia",
+  "scraped_at": "2026-01-10T07:56:24.724678",
+  "sections": {
+    "Background": {
+      "text": "Low or absent white blood cell count\nNeutropenia\nis a subset",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Immunosuppression--> increase risk of infection, including opportunistic pathogens\n+/- signs/symptoms of underlying disease",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Malignancy (infiltration in\nleukemia\n,\nmyeloproliferative disorders\nor bony metastases)\nB12\nor\nfolate deficiency\nAplastic anemia\nInfection\nSepsis\nAcute viral infection (e.g.\nURI\n,\ninfluenza\n,\nHIV\n)\nHIV\n/\nAIDS\nTyphoid\n,\ndengue\n,\nmalaria\n,\nrickettsia\n,\nlyme\nAutoimmune disorders (e.g.\nSLE\n,\nCrohn's\n,\nRA\n)\nDrugs/tox\nChemotherapeutics (antineoplastics,\nhydroxyurea\n,\nmethotrexate\n)\nRadiation exposure\nClozapine\n,\nchlorpromazine\nPhenytoin\nSulfonamides\n,\npenicillin\n,\ncephalosporins\n, antiretrovirals\nCimetidine\nHypersplenism/splenic sequestration\nMiscellaneous\nCongenital, cyclic, \"chronic benign neutropenia\"",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        },
+        {
+          "text": "myeloproliferative disorders",
+          "url": "https://wikem.org/wiki/Myeloproliferative_disorders"
+        },
+        {
+          "text": "B12",
+          "url": "https://wikem.org/wiki/B12_deficiency"
+        },
+        {
+          "text": "folate deficiency",
+          "url": "https://wikem.org/wiki/Folate_deficiency"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "URI",
+          "url": "https://wikem.org/wiki/URI"
+        },
+        {
+          "text": "influenza",
+          "url": "https://wikem.org/wiki/Influenza"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "AIDS",
+          "url": "https://wikem.org/wiki/AIDS"
+        },
+        {
+          "text": "Typhoid",
+          "url": "https://wikem.org/wiki/Typhoid"
+        },
+        {
+          "text": "dengue",
+          "url": "https://wikem.org/wiki/Dengue"
+        },
+        {
+          "text": "malaria",
+          "url": "https://wikem.org/wiki/Malaria"
+        },
+        {
+          "text": "rickettsia",
+          "url": "https://wikem.org/wiki/Rickettsia"
+        },
+        {
+          "text": "lyme",
+          "url": "https://wikem.org/wiki/Lyme"
+        },
+        {
+          "text": "SLE",
+          "url": "https://wikem.org/wiki/SLE"
+        },
+        {
+          "text": "Crohn's",
+          "url": "https://wikem.org/wiki/Crohn%27s"
+        },
+        {
+          "text": "RA",
+          "url": "https://wikem.org/wiki/RA"
+        },
+        {
+          "text": "hydroxyurea",
+          "url": "https://wikem.org/wiki/Hydroxyurea"
+        },
+        {
+          "text": "methotrexate",
+          "url": "https://wikem.org/wiki/Methotrexate"
+        },
+        {
+          "text": "Radiation exposure",
+          "url": "https://wikem.org/wiki/Radiation_exposure"
+        },
+        {
+          "text": "Clozapine",
+          "url": "https://wikem.org/wiki/Clozapine"
+        },
+        {
+          "text": "chlorpromazine",
+          "url": "https://wikem.org/wiki/Chlorpromazine"
+        },
+        {
+          "text": "Phenytoin",
+          "url": "https://wikem.org/wiki/Phenytoin"
+        },
+        {
+          "text": "Sulfonamides",
+          "url": "https://wikem.org/wiki/Sulfonamides"
+        },
+        {
+          "text": "penicillin",
+          "url": "https://wikem.org/wiki/Penicillin"
+        },
+        {
+          "text": "cephalosporins",
+          "url": "https://wikem.org/wiki/Cephalosporins"
+        },
+        {
+          "text": "Cimetidine",
+          "url": "https://wikem.org/wiki/Cimetidine"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Assess for infection\nFurther evaluation dependant on presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Low threshold for empiric antimicrobials if any concern for infection\nMay need only outpatient specialist referral if otherwise asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Dependant on presentation",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Pancytopenia\nNeutropenia\nImmunocompromised antibiotics\nAplastic anemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pancytopenia",
+          "url": "https://wikem.org/wiki/Pancytopenia"
+        },
+        {
+          "text": "Neutropenia",
+          "url": "https://wikem.org/wiki/Neutropenia"
+        },
+        {
+          "text": "Immunocompromised antibiotics",
+          "url": "https://wikem.org/wiki/Immunocompromised_antibiotics"
+        },
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        }
+      ]
+    }
+  }
+}

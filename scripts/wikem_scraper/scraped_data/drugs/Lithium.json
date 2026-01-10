@@ -1,0 +1,142 @@
+{
+  "drug_name": "Lithium",
+  "url": "https://wikem.org/wiki/Lithium",
+  "scraped_at": "2026-01-10T07:56:31.824211",
+  "sections": {
+    "Administration": {
+      "text": "Type: Anti\nmanic\nagent\nDosage Forms:\nRoutes of Administration: oral\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "manic",
+          "url": "https://wikem.org/wiki/Bipolar_disorder"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Maintenance: 300mg PO 3 to 4 times daily; desired serum lithium level 0.6 to 1.2 mEq/L\nAcute manic episode: 600mg PO 3 times daily; desired serum lithium level 1 to 1.5 mEq/L",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Safety/efficacy not established in children <12yo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation risk\n: infant risk cannot be ruled out",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult: Contraindicated if renal function unstable\n[1]",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        },
+        {
+          "text": "Lactation risk",
+          "url": "https://wikem.org/wiki/Lactation_risk_categories"
+        }
+      ]
+    },
+    "Renal_Dosing": {
+      "text": "Adult: Contraindicated if renal function unstable\n[1]",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Not established",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Not established",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nUnstable renal function\nSevere dehydration\nSodium depletion\nSevere debilitation\nConcurrent diuretics\nSevere cardiovascular disease\n1st trimester pregnancy",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Toxicity (see\nLithium toxicity\n)\nSeizure, ataxia, raised ICP\nAngioedema\nErythema multiforme",
+          "tables": []
+        },
+        "Common": {
+          "text": "Hypothyroidism, weight gain\nNephrotoxicity\nFine tremor, hyperreflexia\nLeukocytosis\nNausea, gastritis\nAcne",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Toxicity (see\nLithium toxicity\n)\nSeizure, ataxia, raised ICP\nAngioedema\nErythema multiforme",
+      "subsections": {
+        "Common": {
+          "text": "Hypothyroidism, weight gain\nNephrotoxicity\nFine tremor, hyperreflexia\nLeukocytosis\nNausea, gastritis\nAcne",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Hypothyroidism, weight gain\nNephrotoxicity\nFine tremor, hyperreflexia\nLeukocytosis\nNausea, gastritis\nAcne",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 14-50hr\nMetabolism: Renal\nExcretion: Renal",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "Exact mechanism unclear; inhibits postsynaptic D2 receptor supersensitivity, alters cation transport in nerve cells, influences serotonin/norepinephrine reuptake, inhibits phosphatidylinositol cycle second messenger systems\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Lithium toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        }
+      ]
+    }
+  }
+}

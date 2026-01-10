@@ -1,0 +1,111 @@
+{
+  "drug_name": "Leukemoid_Reaction",
+  "url": "https://wikem.org/wiki/Leukemoid_Reaction",
+  "scraped_at": "2026-01-10T07:56:22.649431",
+  "sections": {
+    "Background": {
+      "text": "Markedly\nelevated leukocyte\n(particularly neutrophil) count without hematologic malignancy\nCutoff is variable, 25-50k\n[1]",
+      "subsections": {
+        "Retrospective_review_of_135_patients_with_WBC_>25k_": {
+          "text": "48% infection\n15% malignancy\n9% hemorrhage\n12% glucocorticoid or granulocyte colony stimulating therapy",
+          "tables": []
+        },
+        "Retrospective_review_of_173_patients_with_WBC_>30k_": {
+          "text": "48% infection (7% C. difficile)\n28% tissue ischemia\n7% obstetric process (vaginal or cesarean delivery)\n5% malignancy",
+          "tables": []
+        },
+        "Observational_study_of_54_patients_with_WBC_>25k_": {
+          "text": "Consecutive patients presenting to the emergency department\nCompared to age-matched controls with moderate leukocytosis (12-24k)\nPatients with leukemoid reaction were more likely to have an infection, be hospitalized and die.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "elevated leukocyte",
+          "url": "https://wikem.org/wiki/Leukocytosis"
+        }
+      ]
+    },
+    "Literature_Review": {
+      "text": "",
+      "subsections": {
+        "Retrospective_review_of_135_patients_with_WBC_>25k_": {
+          "text": "48% infection\n15% malignancy\n9% hemorrhage\n12% glucocorticoid or granulocyte colony stimulating therapy",
+          "tables": []
+        },
+        "Retrospective_review_of_173_patients_with_WBC_>30k_": {
+          "text": "48% infection (7% C. difficile)\n28% tissue ischemia\n7% obstetric process (vaginal or cesarean delivery)\n5% malignancy",
+          "tables": []
+        },
+        "Observational_study_of_54_patients_with_WBC_>25k_": {
+          "text": "Consecutive patients presenting to the emergency department\nCompared to age-matched controls with moderate leukocytosis (12-24k)\nPatients with leukemoid reaction were more likely to have an infection, be hospitalized and die.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Signs/symptoms of underlying pathology or asymptomatic",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "Infection\nAny severe infection\nParticularly\nc. diff\n,\nTB\n,\nshigella\nDrugs/tox\nCorticosteroids\nG-CSF\nEthylene glycol\nTissue ischemia\nMyocardial infarction\nMesenteric ischemia\nGangrene\nMalignancy,\nparaneoplastic",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "c. diff",
+          "url": "https://wikem.org/wiki/C._diff"
+        },
+        {
+          "text": "TB",
+          "url": "https://wikem.org/wiki/TB"
+        },
+        {
+          "text": "shigella",
+          "url": "https://wikem.org/wiki/Shigella"
+        },
+        {
+          "text": "Corticosteroids",
+          "url": "https://wikem.org/wiki/Corticosteroids"
+        },
+        {
+          "text": "Ethylene glycol",
+          "url": "https://wikem.org/wiki/Ethylene_glycol"
+        },
+        {
+          "text": "Myocardial infarction",
+          "url": "https://wikem.org/wiki/Myocardial_infarction"
+        },
+        {
+          "text": "Mesenteric ischemia",
+          "url": "https://wikem.org/wiki/Mesenteric_ischemia"
+        },
+        {
+          "text": "Gangrene",
+          "url": "https://wikem.org/wiki/Gangrene"
+        },
+        {
+          "text": "paraneoplastic",
+          "url": "https://wikem.org/wiki/Paraneoplastic"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Treat underlying condition",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "External_Links": {
+      "text": "Leukemoid Reaction on ddxof",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

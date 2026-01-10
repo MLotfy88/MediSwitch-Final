@@ -1,0 +1,556 @@
+{
+  "drug_name": "Lead_toxicity",
+  "url": "https://wikem.org/wiki/Lead_toxicity",
+  "scraped_at": "2026-01-10T07:56:19.097811",
+  "sections": {
+    "Background": {
+      "text": "Stable metallic element (no. 82)\nIncredible environmental burden secondary to inclusion in paints, fuels, and industrial uses\nAverage blood levels in US have fallen from 12.8 mcg/dL in the late 1970's to 2mcg/dL mostly due to banning lead in gasoline",
+      "subsections": {
+        "MOA": {
+          "text": "Interferes with the action of divalent cations and sulfhydryl groups\nParticularly toxic to Zinc containing enzymes\nBinds to calcium activated enzymes with 10,000x great affinity that calcium\nDirectly toxic to renal tubules",
+          "tables": []
+        },
+        "Toxicokinetics": {
+          "text": "Rapidly and completely absorbed from lungs\nMinimal absorption through intact skin\nVariable GI absorption\nChildren absorb more than adults (70% vs. 20%)\nAffected by nutritional status, calcium stores and iron stores\nLarge Vd\nDistributes to bone, muscles, brain, and blood\nAfter weeks mostly in the bones and teeth\nIn adults 94% of total body lead is in the bones and teeth\nSome lead can leave the bones and re-enter blood under certain circumstances\nPregnancy\n, periods of breast feeding, fractures, advanced age\nNo metabolism as toxin is elemental\nExcreted in urine and stool\nAmount excreted varies with age\nChildren retain about 70% while adults only retain about 1%",
+          "tables": []
+        },
+        "Sources": {
+          "text": "Lead paint\nOccupational\nSoil contamination\nLead dust\nWater (old pipes, especially when the water is \"soft\" or acidic)\nbatteries (especially car), weights, ammunition\nFood (leafy green vegetables grown in lead-containing soil)\nMoonshine (made in stills that contain lead-soldered parts)\nAlternative/herbal medications\nPoorly monitored imported products\nEg. Toys imported from China which were coated in lead paints\nEg. plates brought by immigrants from Mexico/South America\nOld gasoline (phased out of gasoline in the 1980s and banned in 1996)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "MOA": {
+      "text": "Interferes with the action of divalent cations and sulfhydryl groups\nParticularly toxic to Zinc containing enzymes\nBinds to calcium activated enzymes with 10,000x great affinity that calcium\nDirectly toxic to renal tubules",
+      "subsections": {
+        "Toxicokinetics": {
+          "text": "Rapidly and completely absorbed from lungs\nMinimal absorption through intact skin\nVariable GI absorption\nChildren absorb more than adults (70% vs. 20%)\nAffected by nutritional status, calcium stores and iron stores\nLarge Vd\nDistributes to bone, muscles, brain, and blood\nAfter weeks mostly in the bones and teeth\nIn adults 94% of total body lead is in the bones and teeth\nSome lead can leave the bones and re-enter blood under certain circumstances\nPregnancy\n, periods of breast feeding, fractures, advanced age\nNo metabolism as toxin is elemental\nExcreted in urine and stool\nAmount excreted varies with age\nChildren retain about 70% while adults only retain about 1%",
+          "tables": []
+        },
+        "Sources": {
+          "text": "Lead paint\nOccupational\nSoil contamination\nLead dust\nWater (old pipes, especially when the water is \"soft\" or acidic)\nbatteries (especially car), weights, ammunition\nFood (leafy green vegetables grown in lead-containing soil)\nMoonshine (made in stills that contain lead-soldered parts)\nAlternative/herbal medications\nPoorly monitored imported products\nEg. Toys imported from China which were coated in lead paints\nEg. plates brought by immigrants from Mexico/South America\nOld gasoline (phased out of gasoline in the 1980s and banned in 1996)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Toxicokinetics": {
+      "text": "Rapidly and completely absorbed from lungs\nMinimal absorption through intact skin\nVariable GI absorption\nChildren absorb more than adults (70% vs. 20%)\nAffected by nutritional status, calcium stores and iron stores\nLarge Vd\nDistributes to bone, muscles, brain, and blood\nAfter weeks mostly in the bones and teeth\nIn adults 94% of total body lead is in the bones and teeth\nSome lead can leave the bones and re-enter blood under certain circumstances\nPregnancy\n, periods of breast feeding, fractures, advanced age\nNo metabolism as toxin is elemental\nExcreted in urine and stool\nAmount excreted varies with age\nChildren retain about 70% while adults only retain about 1%",
+      "subsections": {
+        "Sources": {
+          "text": "Lead paint\nOccupational\nSoil contamination\nLead dust\nWater (old pipes, especially when the water is \"soft\" or acidic)\nbatteries (especially car), weights, ammunition\nFood (leafy green vegetables grown in lead-containing soil)\nMoonshine (made in stills that contain lead-soldered parts)\nAlternative/herbal medications\nPoorly monitored imported products\nEg. Toys imported from China which were coated in lead paints\nEg. plates brought by immigrants from Mexico/South America\nOld gasoline (phased out of gasoline in the 1980s and banned in 1996)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy",
+          "url": "https://wikem.org/wiki/Pregnancy"
+        }
+      ]
+    },
+    "Sources": {
+      "text": "Lead paint\nOccupational\nSoil contamination\nLead dust\nWater (old pipes, especially when the water is \"soft\" or acidic)\nbatteries (especially car), weights, ammunition\nFood (leafy green vegetables grown in lead-containing soil)\nMoonshine (made in stills that contain lead-soldered parts)\nAlternative/herbal medications\nPoorly monitored imported products\nEg. Toys imported from China which were coated in lead paints\nEg. plates brought by immigrants from Mexico/South America\nOld gasoline (phased out of gasoline in the 1980s and banned in 1996)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Vastly different presentations between children and adults",
+      "subsections": {
+        "Adults": {
+          "text": "CNS symptoms predominate\nLethargy\n, fatigue,\nheadache\n, irritability, memory loss,\ntremor\nSevere symptoms:\naltered mental status\n,\ncoma\n,\nseizures\n, cerebral edema\nPNS toxicity\nCauses segmental demyelination\nPeripheral neuropathy\nUpper >> Lower extremities\nExtensors >> Flexors\nHighest body levels found in proximal tubules after acute exposure\nResults in\nproteinuria\n, particularly β 2-microglobulin and N-acetylglucosidase.\nassociated with slightly decreased GFRs\nBasophilic stippling\nFrom precipitation of nuclear contents\nInhibitor of heme synthesis\nCan lead to either a normochromic or hypochromic\nanemia\nCan cross placenta\nBecause lead is stored in bones and there is higher bone turnover during pregnancy, women with previous lead toxicity can have lead intoxicated children despite mother being asymptomatic.\nHigher rate of stillbirths and spontaneous abortion\nMay cause preterm labor and low birth weights\nMay slow mental development and cause lower intelligence later in childhood\nDecreased sperm counts\nchanges in T4 and TSH (generally with PbB > 40-60ug/dl)\naltered levels of testosterone, leutonizing hormone, FSH at PbB > 30-40ug/dl\nMay also have GI upset,\nvomiting\n,\nconstipation\n, elevated\nLFTs\nMyalgias\nassociated with increased mortality due to cardiovascular disease\nassociated with increased blood pressure\nMay see thin, blue/black line along gingiva, known as Burton's line (more common in chronic poisoning)",
+          "tables": []
+        },
+        "Children": {
+          "text": "Encephalopathy\nappears at lower levels\nSymptoms: Irritability, apathy, fatigue,\nobtundation\nSevere symptoms: Cerebral edema,\nSeizures\nCan lead to permanent changes in brain architecture\nInhibits enzymes that mediate arborization of synapses and neuronal cellular adhesion molecules\nHippcampus thought to be primary sight of action secondary to high zinc levels\nDisturbs blood brain barrier permeability which can be chronic\nLong term sequelae\nCognitive disturbances (from slight learning disability to profound intellectual disability)\nLoss of 5 IQ points per 10μg/dL elevation\nHyperactivity, aggression and antisocial behaviors\nPeripheral neuropathy\nsimilar in adults and children\n[1]\nImpaired\nvitamin D\nactivation\nSimilar to adults\nDisturbs bone development\nAccelerates skeletal maturation which may predispose to osteoporosis later\nLead lines on radiographs\nGenerally correlate with levels above 50μg/dL\nAssociated with development of\ndental caries\nand periodontal bone loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "obtundation",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "vitamin D",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "dental caries",
+          "url": "https://wikem.org/wiki/Dental_caries"
+        }
+      ]
+    },
+    "Adults": {
+      "text": "CNS symptoms predominate\nLethargy\n, fatigue,\nheadache\n, irritability, memory loss,\ntremor\nSevere symptoms:\naltered mental status\n,\ncoma\n,\nseizures\n, cerebral edema\nPNS toxicity\nCauses segmental demyelination\nPeripheral neuropathy\nUpper >> Lower extremities\nExtensors >> Flexors\nHighest body levels found in proximal tubules after acute exposure\nResults in\nproteinuria\n, particularly β 2-microglobulin and N-acetylglucosidase.\nassociated with slightly decreased GFRs\nBasophilic stippling\nFrom precipitation of nuclear contents\nInhibitor of heme synthesis\nCan lead to either a normochromic or hypochromic\nanemia\nCan cross placenta\nBecause lead is stored in bones and there is higher bone turnover during pregnancy, women with previous lead toxicity can have lead intoxicated children despite mother being asymptomatic.\nHigher rate of stillbirths and spontaneous abortion\nMay cause preterm labor and low birth weights\nMay slow mental development and cause lower intelligence later in childhood\nDecreased sperm counts\nchanges in T4 and TSH (generally with PbB > 40-60ug/dl)\naltered levels of testosterone, leutonizing hormone, FSH at PbB > 30-40ug/dl\nMay also have GI upset,\nvomiting\n,\nconstipation\n, elevated\nLFTs\nMyalgias\nassociated with increased mortality due to cardiovascular disease\nassociated with increased blood pressure\nMay see thin, blue/black line along gingiva, known as Burton's line (more common in chronic poisoning)",
+      "subsections": {
+        "Children": {
+          "text": "Encephalopathy\nappears at lower levels\nSymptoms: Irritability, apathy, fatigue,\nobtundation\nSevere symptoms: Cerebral edema,\nSeizures\nCan lead to permanent changes in brain architecture\nInhibits enzymes that mediate arborization of synapses and neuronal cellular adhesion molecules\nHippcampus thought to be primary sight of action secondary to high zinc levels\nDisturbs blood brain barrier permeability which can be chronic\nLong term sequelae\nCognitive disturbances (from slight learning disability to profound intellectual disability)\nLoss of 5 IQ points per 10μg/dL elevation\nHyperactivity, aggression and antisocial behaviors\nPeripheral neuropathy\nsimilar in adults and children\n[1]\nImpaired\nvitamin D\nactivation\nSimilar to adults\nDisturbs bone development\nAccelerates skeletal maturation which may predispose to osteoporosis later\nLead lines on radiographs\nGenerally correlate with levels above 50μg/dL\nAssociated with development of\ndental caries\nand periodontal bone loss",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lethargy",
+          "url": "https://wikem.org/wiki/Lethargy"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "proteinuria",
+          "url": "https://wikem.org/wiki/Proteinuria"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "Myalgias",
+          "url": "https://wikem.org/wiki/Myalgia"
+        },
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "obtundation",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "vitamin D",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "dental caries",
+          "url": "https://wikem.org/wiki/Dental_caries"
+        }
+      ]
+    },
+    "Children": {
+      "text": "Encephalopathy\nappears at lower levels\nSymptoms: Irritability, apathy, fatigue,\nobtundation\nSevere symptoms: Cerebral edema,\nSeizures\nCan lead to permanent changes in brain architecture\nInhibits enzymes that mediate arborization of synapses and neuronal cellular adhesion molecules\nHippcampus thought to be primary sight of action secondary to high zinc levels\nDisturbs blood brain barrier permeability which can be chronic\nLong term sequelae\nCognitive disturbances (from slight learning disability to profound intellectual disability)\nLoss of 5 IQ points per 10μg/dL elevation\nHyperactivity, aggression and antisocial behaviors\nPeripheral neuropathy\nsimilar in adults and children\n[1]\nImpaired\nvitamin D\nactivation\nSimilar to adults\nDisturbs bone development\nAccelerates skeletal maturation which may predispose to osteoporosis later\nLead lines on radiographs\nGenerally correlate with levels above 50μg/dL\nAssociated with development of\ndental caries\nand periodontal bone loss",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Encephalopathy",
+          "url": "https://wikem.org/wiki/Encephalopathy"
+        },
+        {
+          "text": "obtundation",
+          "url": "https://wikem.org/wiki/Altered_mental_status_(peds)"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "vitamin D",
+          "url": "https://wikem.org/wiki/Vitamin_D_deficiency"
+        },
+        {
+          "text": "dental caries",
+          "url": "https://wikem.org/wiki/Dental_caries"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lithium toxicity",
+          "url": "https://wikem.org/wiki/Lithium_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "",
+      "subsections": {
+        "Work-Up": {
+          "text": "Lead level\nUA\nCBC with smear\nChem 7 and divalents\nLFTs\nDO NOT\nLP\nCerebral edema may lead to herniation",
+          "tables": []
+        },
+        "CDC_Recommendations_for_Lead_Testing": {
+          "text": "at age 1 and 2 years\nat ages 3-6 if never tested for lead\nif they received services from public assistance programs for the poor such as Medicaid or WIC\nif they live in a building or frequently visit a house built before 1978 that has recently been remodeled\nif they have a brother/sister or playmate who has had lead poisoning",
+          "tables": []
+        },
+        "Diagnosis_2": {
+          "text": "Based on lead level",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Work-Up": {
+      "text": "Lead level\nUA\nCBC with smear\nChem 7 and divalents\nLFTs\nDO NOT\nLP\nCerebral edema may lead to herniation",
+      "subsections": {
+        "CDC_Recommendations_for_Lead_Testing": {
+          "text": "at age 1 and 2 years\nat ages 3-6 if never tested for lead\nif they received services from public assistance programs for the poor such as Medicaid or WIC\nif they live in a building or frequently visit a house built before 1978 that has recently been remodeled\nif they have a brother/sister or playmate who has had lead poisoning",
+          "tables": []
+        },
+        "Diagnosis_2": {
+          "text": "Based on lead level",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "UA",
+          "url": "https://wikem.org/wiki/UA"
+        },
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "LP",
+          "url": "https://wikem.org/wiki/LP"
+        }
+      ]
+    },
+    "Diagnosis_2": {
+      "text": "Based on lead level",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management_2": {
+      "text": "Environmental Investigations\ngovernment programs provide intervention for lead levels > 10ug/dl\nChelation:\nTreat children with acute blood Lead levels >45ug/dL or chronic >70ug/dL\n[2]\nConsider treating symptomatic adults with Lead >50ug/dL or asymptomatic >70ug/dL\nPenicillamine\nand\nSuccimer\nOral medications\nOnly used in children\n[3]\nSuccimer has not been studied for Lead levels >60ug/dL\nSuccimer 10mg/kg TID x 5d THEN 10mg/kg BID x 14d\nPenicillamine: second or third-line agent, requires B6 supplementation, contraindicated in patients allergic to penicillin, not approved during pregnancy, more toxic than Succimer\nPenicillamine dose: 20-40 mg/kg/day PO divided q8hr\nPenicillamine reported adverse effects include: rash, fever, anorexia, leukopenia, thrombocytopenia, hemolytic anemia, SJS, nephrotoxicity, proteinuria\nIM BAL (\ndimercaprol\n)\nFirst line agent if encephalopathy present\nConsider giving first before EDTA, regardless of encephalopathy\nAs EDTA, if given first, may chelate lead and cross blood brain barrier\nOnet of action 30 minutes\nIncreases fetal excretion of lead as chelated lead is excreted primarily in bile after 4-6 hours\nAlso increases urinary excretion of chelated lead\nAgent of choice in renal failure\nDosage of 50-75mg/m^2 every 4 hours, full course is 3-5 days\nContraindications: liver failure, G6PD (develop hemolysis), peanut oil allergy, pregnancy\nIV/IM\nEDTA\n(edetate calcium disodium)\nDo not use as sole agent if encephalopathy present (does not cross blood-brain barrier)\nMust have given BAL for at least 4h if Lead >100ug/dL or encephalopathy present\nIncreases renal excretion of lead 20-50 times\nChildren: 1-1.5gm/m^2/24hrs given in up to 6 divided daily doses\nAdults: 1.5gm/24hrs in 2 divided doses\nFull course of treatment is 5 days, may be repeated if patient still symptomatic or PbB > 50ug/dl",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Penicillamine",
+          "url": "https://wikem.org/wiki/Penicillamine"
+        },
+        {
+          "text": "Succimer",
+          "url": "https://wikem.org/wiki/Succimer"
+        },
+        {
+          "text": "EDTA",
+          "url": "https://wikem.org/wiki/EDTA"
+        }
+      ]
+    },
+    "See_Also_2": {
+      "text": "Toxicology (main)\nHeavy Metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (main)",
+          "url": "https://wikem.org/wiki/Toxicology_(main)"
+        },
+        {
+          "text": "Heavy Metals",
+          "url": "https://wikem.org/wiki/Heavy_Metals"
+        }
+      ]
+    },
+    "References": {
+      "text": "Haddad and Winchester's Clinical Management of Poisoning and Overdose\nhttp://www.cdc.gov/nceh/lead/\nhttp://www.nytimes.com/2007/06/19/business/worldbusiness/19toys.html?pagewanted=all&_r=0",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

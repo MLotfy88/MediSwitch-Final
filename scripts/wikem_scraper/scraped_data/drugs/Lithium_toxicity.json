@@ -1,0 +1,717 @@
+{
+  "drug_name": "Lithium_toxicity",
+  "url": "https://wikem.org/wiki/Lithium_toxicity",
+  "scraped_at": "2026-01-10T07:56:32.196796",
+  "sections": {
+    "Background": {
+      "text": "Mechanism of action is poorly understood.\nDespite availability of newer drugs,\nLithium\nremains most effective treatment for bipolar disorder, and it is still in use\nLithium initially distributes in extracellular fluid, then gradually redistributes to other areas including the brain (takes up to 24 hours after absorption)\n95% renal excretion\nNSAIDs\n,\ndiuretics\n,\nACE-inhibitors\n→ ↑ Lithium serum concentration by ↓ lithium excretion\nLithium toxicity rarely fatal (only 11 deaths out of 6815 reported toxic exposures in 2012)\n[1]",
+      "subsections": {
+        "Common_Precipitants": {
+          "text": "Overdose\nRenal failure\nVolume depletion\nDiuretic\nuse,\nvomiting\n,\ndiarrhea\n, diaphoresis, decreased oral intake\nHyperthermia\nInfection\nCHF\nSurgery\nCirrhosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "NSAIDs",
+          "url": "https://wikem.org/wiki/NSAIDs"
+        },
+        {
+          "text": "diuretics",
+          "url": "https://wikem.org/wiki/Diuretics"
+        },
+        {
+          "text": "ACE-inhibitors",
+          "url": "https://wikem.org/wiki/ACE-inhibitors"
+        },
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Overdose"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Common_Precipitants": {
+      "text": "Overdose\nRenal failure\nVolume depletion\nDiuretic\nuse,\nvomiting\n,\ndiarrhea\n, diaphoresis, decreased oral intake\nHyperthermia\nInfection\nCHF\nSurgery\nCirrhosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Overdose",
+          "url": "https://wikem.org/wiki/Overdose"
+        },
+        {
+          "text": "Renal failure",
+          "url": "https://wikem.org/wiki/Renal_failure"
+        },
+        {
+          "text": "Diuretic",
+          "url": "https://wikem.org/wiki/Diuretic"
+        },
+        {
+          "text": "vomiting",
+          "url": "https://wikem.org/wiki/Vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "Hyperthermia",
+          "url": "https://wikem.org/wiki/Hyperthermia"
+        },
+        {
+          "text": "CHF",
+          "url": "https://wikem.org/wiki/CHF"
+        },
+        {
+          "text": "Cirrhosis",
+          "url": "https://wikem.org/wiki/Cirrhosis"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "Three recognized patterns of Lithium toxicity - \"Acute\", \"Acute-on-chronic\", and \"Chronic\".\n[2]",
+      "subsections": {
+        "Acute": {
+          "text": "Occurs in patients not previously receiving lithium (i.e. with no current body stores)\nSerum concentrations can fall rapidly as lithium redistributes to tissues, and serum level does not correlate with degree of toxicity. GI symptoms predominate.\nGI -\nnausea/vomiting\n,\ndiarrhea\n,\nabdominal pain\nEarliest and most common symptoms\nCardiac effects -\nbradycardia\n,\nQT prolongation\n, T-wave flattening or inversion\n[3]\nCan also cause\nBrugada\n-like ECG pattern\nCNS Depression - late finding (takes time for lithium to distribute to CNS), indicates progression of toxicity",
+          "tables": []
+        },
+        "Acute-on-Chronic": {
+          "text": "Also called \"Acute-on-therapeutic\", occurs in patients currently taking lithium due to acute ingestion of supra-therapeutic doses.\nSymptoms are a mix of both acute and chronic - includes both GI and CNS effects",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Occurs insidiously in patients on chronic lithium therapy. Toxicity is secondary to increased absorption or decreased elimination. CNS symptoms predominate.\nChronic lithium therapy is associated with nephrogenic diabetes insipidus, which → hypernatremia, fluid loss → ↑ lithium levels (can precipitate toxicity)\nNeurotoxicity is major finding, and is generally more profound than that seen in acute toxicity\nMild symptoms include\ntremor\n, drowsiness\nProgressive symptoms include hyperreflexia,\nconfusion\n,\nataxia\n,\nseizures\n,\nextrapyramidal symptoms\n,\ncoma\nHypothyroidism\n(lithium inhibits thyroid hormone release)",
+          "tables": []
+        },
+        "Syndrome_of_Irreversible_Lithium-Effectuated_Neurotoxicity_(SILENT)": {
+          "text": "Persistent sequelae of lithium toxicity\nDefined as neurologic dysfunction persisting > 2 months after cessation of lithium therapy\nExact mechanism unknown (possibly related to CNS demyelination).\nSymptoms\nCerebellar dysfunction (\ndysarthria\n,\nataxia\n,\ntremor\n, gait instability)\nPeripheral neuropathy\nExtrapyramidal symptoms\nBrainstem dysfunction\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada",
+          "url": "https://wikem.org/wiki/Brugada"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    },
+    "Acute": {
+      "text": "Occurs in patients not previously receiving lithium (i.e. with no current body stores)\nSerum concentrations can fall rapidly as lithium redistributes to tissues, and serum level does not correlate with degree of toxicity. GI symptoms predominate.\nGI -\nnausea/vomiting\n,\ndiarrhea\n,\nabdominal pain\nEarliest and most common symptoms\nCardiac effects -\nbradycardia\n,\nQT prolongation\n, T-wave flattening or inversion\n[3]\nCan also cause\nBrugada\n-like ECG pattern\nCNS Depression - late finding (takes time for lithium to distribute to CNS), indicates progression of toxicity",
+      "subsections": {
+        "Acute-on-Chronic": {
+          "text": "Also called \"Acute-on-therapeutic\", occurs in patients currently taking lithium due to acute ingestion of supra-therapeutic doses.\nSymptoms are a mix of both acute and chronic - includes both GI and CNS effects",
+          "tables": []
+        },
+        "Chronic": {
+          "text": "Occurs insidiously in patients on chronic lithium therapy. Toxicity is secondary to increased absorption or decreased elimination. CNS symptoms predominate.\nChronic lithium therapy is associated with nephrogenic diabetes insipidus, which → hypernatremia, fluid loss → ↑ lithium levels (can precipitate toxicity)\nNeurotoxicity is major finding, and is generally more profound than that seen in acute toxicity\nMild symptoms include\ntremor\n, drowsiness\nProgressive symptoms include hyperreflexia,\nconfusion\n,\nataxia\n,\nseizures\n,\nextrapyramidal symptoms\n,\ncoma\nHypothyroidism\n(lithium inhibits thyroid hormone release)",
+          "tables": []
+        },
+        "Syndrome_of_Irreversible_Lithium-Effectuated_Neurotoxicity_(SILENT)": {
+          "text": "Persistent sequelae of lithium toxicity\nDefined as neurologic dysfunction persisting > 2 months after cessation of lithium therapy\nExact mechanism unknown (possibly related to CNS demyelination).\nSymptoms\nCerebellar dysfunction (\ndysarthria\n,\nataxia\n,\ntremor\n, gait instability)\nPeripheral neuropathy\nExtrapyramidal symptoms\nBrainstem dysfunction\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "bradycardia",
+          "url": "https://wikem.org/wiki/Bradycardia"
+        },
+        {
+          "text": "QT prolongation",
+          "url": "https://wikem.org/wiki/QT_prolongation"
+        },
+        {
+          "text": "Brugada",
+          "url": "https://wikem.org/wiki/Brugada"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    },
+    "Acute-on-Chronic": {
+      "text": "Also called \"Acute-on-therapeutic\", occurs in patients currently taking lithium due to acute ingestion of supra-therapeutic doses.\nSymptoms are a mix of both acute and chronic - includes both GI and CNS effects",
+      "subsections": {
+        "Chronic": {
+          "text": "Occurs insidiously in patients on chronic lithium therapy. Toxicity is secondary to increased absorption or decreased elimination. CNS symptoms predominate.\nChronic lithium therapy is associated with nephrogenic diabetes insipidus, which → hypernatremia, fluid loss → ↑ lithium levels (can precipitate toxicity)\nNeurotoxicity is major finding, and is generally more profound than that seen in acute toxicity\nMild symptoms include\ntremor\n, drowsiness\nProgressive symptoms include hyperreflexia,\nconfusion\n,\nataxia\n,\nseizures\n,\nextrapyramidal symptoms\n,\ncoma\nHypothyroidism\n(lithium inhibits thyroid hormone release)",
+          "tables": []
+        },
+        "Syndrome_of_Irreversible_Lithium-Effectuated_Neurotoxicity_(SILENT)": {
+          "text": "Persistent sequelae of lithium toxicity\nDefined as neurologic dysfunction persisting > 2 months after cessation of lithium therapy\nExact mechanism unknown (possibly related to CNS demyelination).\nSymptoms\nCerebellar dysfunction (\ndysarthria\n,\nataxia\n,\ntremor\n, gait instability)\nPeripheral neuropathy\nExtrapyramidal symptoms\nBrainstem dysfunction\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    },
+    "Chronic": {
+      "text": "Occurs insidiously in patients on chronic lithium therapy. Toxicity is secondary to increased absorption or decreased elimination. CNS symptoms predominate.\nChronic lithium therapy is associated with nephrogenic diabetes insipidus, which → hypernatremia, fluid loss → ↑ lithium levels (can precipitate toxicity)\nNeurotoxicity is major finding, and is generally more profound than that seen in acute toxicity\nMild symptoms include\ntremor\n, drowsiness\nProgressive symptoms include hyperreflexia,\nconfusion\n,\nataxia\n,\nseizures\n,\nextrapyramidal symptoms\n,\ncoma\nHypothyroidism\n(lithium inhibits thyroid hormone release)",
+      "subsections": {
+        "Syndrome_of_Irreversible_Lithium-Effectuated_Neurotoxicity_(SILENT)": {
+          "text": "Persistent sequelae of lithium toxicity\nDefined as neurologic dysfunction persisting > 2 months after cessation of lithium therapy\nExact mechanism unknown (possibly related to CNS demyelination).\nSymptoms\nCerebellar dysfunction (\ndysarthria\n,\nataxia\n,\ntremor\n, gait instability)\nPeripheral neuropathy\nExtrapyramidal symptoms\nBrainstem dysfunction\nDementia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "confusion",
+          "url": "https://wikem.org/wiki/Confusion"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "coma",
+          "url": "https://wikem.org/wiki/Coma"
+        },
+        {
+          "text": "Hypothyroidism",
+          "url": "https://wikem.org/wiki/Hypothyroidism"
+        },
+        {
+          "text": "dysarthria",
+          "url": "https://wikem.org/wiki/Dysarthria"
+        },
+        {
+          "text": "ataxia",
+          "url": "https://wikem.org/wiki/Ataxia"
+        },
+        {
+          "text": "tremor",
+          "url": "https://wikem.org/wiki/Tremor"
+        },
+        {
+          "text": "Extrapyramidal symptoms",
+          "url": "https://wikem.org/wiki/Extrapyramidal_symptoms"
+        },
+        {
+          "text": "Dementia",
+          "url": "https://wikem.org/wiki/Dementia"
+        }
+      ]
+    },
+    "Background_2": {
+      "text": "Heavy metal toxicity results from exposure to metals like lead, mercury, arsenic, or cadmium, which interfere with cellular function. Exposure may occur occupationally, environmentally, through ingestion, or from alternative medicines. Chronic toxicity can present insidiously, while acute toxicity may mimic sepsis or encephalopathy. Diagnosis is often delayed due to nonspecific symptoms.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features_2": {
+      "text": "Symptoms depend on the metal and exposure duration but may include:\nNeurologic: Peripheral neuropathy, confusion, tremor, encephalopathy\nGI: Abdominal pain, nausea, vomiting, diarrhea, anorexia\nHeme: Anemia (especially microcytic or hemolytic), basophilic stippling (lead)\nRenal: Tubular dysfunction, proteinuria, Fanconi syndrome\nDermatologic: Mees’ lines (arsenic), hyperpigmentation, hair loss\nOthers: Fatigue, weight loss, hypertension (cadmium), immunosuppression",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis_2": {
+      "text": "Sepsis\nor systemic inflammatory response\nDrug toxicity or overdose\nMetabolic disorders (e.g.,\nporphyria\n,\nuremia\n)\nPsychiatric illness (if symptoms are vague or bizarre)\nNeurologic diseases (e.g.,\nGuillain-Barré\n,\nMS\n,\nParkinson’s\n)\nVitamin deficiencies\n(e.g., B12, thiamine)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis_(main)"
+        },
+        {
+          "text": "porphyria",
+          "url": "https://wikem.org/wiki/Porphyria"
+        },
+        {
+          "text": "uremia",
+          "url": "https://wikem.org/wiki/Uremia"
+        },
+        {
+          "text": "Guillain-Barré",
+          "url": "https://wikem.org/wiki/Guillain-Barre_syndrome"
+        },
+        {
+          "text": "MS",
+          "url": "https://wikem.org/wiki/Multiple_sclerosis"
+        },
+        {
+          "text": "Parkinson’s",
+          "url": "https://wikem.org/wiki/Parkinson%27s_disease"
+        },
+        {
+          "text": "Vitamin deficiencies",
+          "url": "https://wikem.org/wiki/Vitamin_deficiencies"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+          "tables": []
+        },
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Workup": {
+      "text": "History: Occupational exposures, home remedies, hobbies (e.g., jewelry making, battery recycling), diet, water source, imported goods\nLabs:\nCBC, CMP, urinalysis\nBlood lead level, serum/urine arsenic, mercury, or cadmium (based on suspicion)\nUrine heavy metal screen (note: spot testing may require creatinine correction)\nImaging: Abdominal X-ray (radiopaque material in GI tract, especially with lead)\nEKG: Evaluate for QT prolongation or arrhythmias in severe cases",
+      "subsections": {
+        "Diagnosis": {
+          "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Diagnosis": {
+      "text": "Confirmed by elevated blood or urine levels of the specific metal in the context of clinical findings. Hair and nail testing are unreliable for acute toxicity. Interpret results with toxicologist input if possible.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Remove the source of exposure (e.g., occupational control, GI decontamination if recent ingestion)\nSupportive care: IV fluids, seizure control, electrolyte repletion\nChelation therapy (in consultation with toxicology or Poison Control):\nLead: EDTA, dimercaprol (BAL), succimer\nMercury/arsenic: Dimercaprol or DMSA\nCadmium: No effective chelation—focus on supportive care\nNotify local public health authorities if exposure source is environmental or occupational",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Admit if symptomatic, unstable, or requiring chelation\nDischarge may be appropriate for asymptomatic patients with low-level exposure and outpatient follow-up\nArrange toxicology or environmental medicine follow-up for source control and serial testing",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Aluminum toxicity\nAntimony toxicity\nArsenic toxicity\nBarium toxicity\nBismuth toxicity\nCadmium toxicity\nChromium toxicity\nCobalt toxicity\nCopper toxicity\nGold toxicity\nIron toxicity\nLead toxicity\nLithium toxicity\nManganese toxicity\nMercury toxicity\nNickel toxicity\nPhosphorus toxicity\nPlatinum toxicity\nSelenium toxicity\nSilver toxicity\nThallium toxicity\nTin toxicity\nZinc toxicity",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aluminum toxicity",
+          "url": "https://wikem.org/wiki/Aluminum_toxicity"
+        },
+        {
+          "text": "Antimony toxicity",
+          "url": "https://wikem.org/wiki/Antimony_toxicity"
+        },
+        {
+          "text": "Arsenic toxicity",
+          "url": "https://wikem.org/wiki/Arsenic_toxicity"
+        },
+        {
+          "text": "Barium toxicity",
+          "url": "https://wikem.org/wiki/Barium_toxicity"
+        },
+        {
+          "text": "Bismuth toxicity",
+          "url": "https://wikem.org/wiki/Bismuth_toxicity"
+        },
+        {
+          "text": "Cadmium toxicity",
+          "url": "https://wikem.org/wiki/Cadmium_toxicity"
+        },
+        {
+          "text": "Chromium toxicity",
+          "url": "https://wikem.org/wiki/Chromium_toxicity"
+        },
+        {
+          "text": "Cobalt toxicity",
+          "url": "https://wikem.org/wiki/Cobalt_toxicity"
+        },
+        {
+          "text": "Copper toxicity",
+          "url": "https://wikem.org/wiki/Copper_toxicity"
+        },
+        {
+          "text": "Gold toxicity",
+          "url": "https://wikem.org/wiki/Gold_toxicity"
+        },
+        {
+          "text": "Iron toxicity",
+          "url": "https://wikem.org/wiki/Iron_toxicity"
+        },
+        {
+          "text": "Lead toxicity",
+          "url": "https://wikem.org/wiki/Lead_toxicity"
+        },
+        {
+          "text": "Manganese toxicity",
+          "url": "https://wikem.org/wiki/Manganese_toxicity"
+        },
+        {
+          "text": "Mercury toxicity",
+          "url": "https://wikem.org/wiki/Mercury_toxicity"
+        },
+        {
+          "text": "Nickel toxicity",
+          "url": "https://wikem.org/wiki/Nickel_toxicity"
+        },
+        {
+          "text": "Phosphorus toxicity",
+          "url": "https://wikem.org/wiki/Phosphorus_toxicity"
+        },
+        {
+          "text": "Platinum toxicity",
+          "url": "https://wikem.org/wiki/Platinum_toxicity"
+        },
+        {
+          "text": "Selenium toxicity",
+          "url": "https://wikem.org/wiki/Selenium_toxicity"
+        },
+        {
+          "text": "Silver toxicity",
+          "url": "https://wikem.org/wiki/Silver_toxicity"
+        },
+        {
+          "text": "Thallium toxicity",
+          "url": "https://wikem.org/wiki/Thallium_toxicity"
+        },
+        {
+          "text": "Tin toxicity",
+          "url": "https://wikem.org/wiki/Tin_toxicity"
+        },
+        {
+          "text": "Zinc toxicity",
+          "url": "https://wikem.org/wiki/Zinc_toxicity"
+        }
+      ]
+    },
+    "Evaluation_2": {
+      "text": "Lithium level\nTherapeutic level = 0.6-1.2 meq/L\nSerum level may be falsely elevated if placed in a green top tube due to the heparin lithium interaction\nSerum levels do not predict CNS levels and only roughly correlate with clinical symptoms\nMetabolic Panel\nTSH\nECG\nAcetaminophen and Salicylate Levels (possible coingestants)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        }
+      ]
+    },
+    "Management_2": {
+      "text": "",
+      "subsections": {
+        "GI_decontamination": {
+          "text": "Whole bowel irrigation\n(only for extended release tablets)\nGastric lavage\nand\nactivated charcoal\nnot effective and potentially harmful",
+          "tables": []
+        },
+        "Fluid_resuscitation": {
+          "text": "Average patient has Na/volume deficit; giving fluid helps reestablish normal renal Lithium excretion\nGive 2L NS bolus, then start 200mL/hr or 2x maintenance rate",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Most effective method of removal. Must follow serial lithium levels - levels will likely rise after HD due to redistribution from tissues; additional HD may be required.\nIndications:\nKidney function is impaired and the [Li+] >4.0 mEq/L (1D recommendation)\n[5]\nClinical deterioration\nIn the presence of a decreased level of consciousness, seizures, or life-threatening dysrhythmias irrespective of [Li+] (1D)\n[5]\n[Li+].>5.0 mEq/L (2D suggestion)\nIf the expected time to obtain a [Li+]<1.0 mEq/L with optimal management is >36 h (2D suggestion)\n[5]\nBaseline renal failure\nContraindication to aggressive fluid resuscitation (CHF, etc)\nMake final decision after consulting toxicologist and/or nephrologist since it's a complex decision\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Whole bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole_bowel_irrigation"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "GI_decontamination": {
+      "text": "Whole bowel irrigation\n(only for extended release tablets)\nGastric lavage\nand\nactivated charcoal\nnot effective and potentially harmful",
+      "subsections": {
+        "Fluid_resuscitation": {
+          "text": "Average patient has Na/volume deficit; giving fluid helps reestablish normal renal Lithium excretion\nGive 2L NS bolus, then start 200mL/hr or 2x maintenance rate",
+          "tables": []
+        },
+        "Hemodialysis": {
+          "text": "Most effective method of removal. Must follow serial lithium levels - levels will likely rise after HD due to redistribution from tissues; additional HD may be required.\nIndications:\nKidney function is impaired and the [Li+] >4.0 mEq/L (1D recommendation)\n[5]\nClinical deterioration\nIn the presence of a decreased level of consciousness, seizures, or life-threatening dysrhythmias irrespective of [Li+] (1D)\n[5]\n[Li+].>5.0 mEq/L (2D suggestion)\nIf the expected time to obtain a [Li+]<1.0 mEq/L with optimal management is >36 h (2D suggestion)\n[5]\nBaseline renal failure\nContraindication to aggressive fluid resuscitation (CHF, etc)\nMake final decision after consulting toxicologist and/or nephrologist since it's a complex decision\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Whole bowel irrigation",
+          "url": "https://wikem.org/wiki/Whole_bowel_irrigation"
+        },
+        {
+          "text": "Gastric lavage",
+          "url": "https://wikem.org/wiki/Gastric_lavage"
+        },
+        {
+          "text": "activated charcoal",
+          "url": "https://wikem.org/wiki/Activated_charcoal"
+        }
+      ]
+    },
+    "Fluid_resuscitation": {
+      "text": "Average patient has Na/volume deficit; giving fluid helps reestablish normal renal Lithium excretion\nGive 2L NS bolus, then start 200mL/hr or 2x maintenance rate",
+      "subsections": {
+        "Hemodialysis": {
+          "text": "Most effective method of removal. Must follow serial lithium levels - levels will likely rise after HD due to redistribution from tissues; additional HD may be required.\nIndications:\nKidney function is impaired and the [Li+] >4.0 mEq/L (1D recommendation)\n[5]\nClinical deterioration\nIn the presence of a decreased level of consciousness, seizures, or life-threatening dysrhythmias irrespective of [Li+] (1D)\n[5]\n[Li+].>5.0 mEq/L (2D suggestion)\nIf the expected time to obtain a [Li+]<1.0 mEq/L with optimal management is >36 h (2D suggestion)\n[5]\nBaseline renal failure\nContraindication to aggressive fluid resuscitation (CHF, etc)\nMake final decision after consulting toxicologist and/or nephrologist since it's a complex decision\n[6]",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hemodialysis": {
+      "text": "Most effective method of removal. Must follow serial lithium levels - levels will likely rise after HD due to redistribution from tissues; additional HD may be required.\nIndications:\nKidney function is impaired and the [Li+] >4.0 mEq/L (1D recommendation)\n[5]\nClinical deterioration\nIn the presence of a decreased level of consciousness, seizures, or life-threatening dysrhythmias irrespective of [Li+] (1D)\n[5]\n[Li+].>5.0 mEq/L (2D suggestion)\nIf the expected time to obtain a [Li+]<1.0 mEq/L with optimal management is >36 h (2D suggestion)\n[5]\nBaseline renal failure\nContraindication to aggressive fluid resuscitation (CHF, etc)\nMake final decision after consulting toxicologist and/or nephrologist since it's a complex decision\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition_2": {
+      "text": "Consider discharge for patients who are asymptomatic after 4-6hr obs, 2 downtrending lithium levels, and no worsening of renal function\nAdmit all patients with Li level >1.5\nAdmit all patients with ingestion of sustained-release preparation (regardless of Li level)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also_2": {
+      "text": "Toxicology (Main)\nLithium\nHeavy metals",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Toxicology (Main)",
+          "url": "https://wikem.org/wiki/Toxicology_(Main)"
+        },
+        {
+          "text": "Lithium",
+          "url": "https://wikem.org/wiki/Lithium"
+        },
+        {
+          "text": "Heavy metals",
+          "url": "https://wikem.org/wiki/Heavy_metals"
+        }
+      ]
+    }
+  }
+}

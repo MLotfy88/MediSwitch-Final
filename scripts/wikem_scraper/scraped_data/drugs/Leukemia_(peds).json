@@ -1,0 +1,710 @@
+{
+  "drug_name": "Leukemia_(peds)",
+  "url": "https://wikem.org/wiki/Leukemia_(peds)",
+  "scraped_at": "2026-01-10T07:56:23.457001",
+  "sections": {
+    "Intro": {
+      "text": "This page is for\npediatric\npatients. For adult patients, see:\nleukemia\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Background": {
+      "text": "Most common cancer in children (33% of all malignancies)\nMost without cause but increased incidence with paternal age, maternal fetal loss, higher birthweight, familial clusters, and some genetic syndromes (Down syndrome)",
+      "subsections": {
+        "ALL": {
+          "text": "3/4 of pediatric leukemias\n5-year survival 75%-80%\nPeak incidence 2-5yr old\nUsually B lineage",
+          "tables": []
+        },
+        "AML": {
+          "text": "1/5 of pediatric leukemias\nWorse prognosis\nMore complications (more intense chemo treatment required)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "ALL": {
+      "text": "3/4 of pediatric leukemias\n5-year survival 75%-80%\nPeak incidence 2-5yr old\nUsually B lineage",
+      "subsections": {
+        "AML": {
+          "text": "1/5 of pediatric leukemias\nWorse prognosis\nMore complications (more intense chemo treatment required)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "AML": {
+      "text": "1/5 of pediatric leukemias\nWorse prognosis\nMore complications (more intense chemo treatment required)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Presentation": {
+          "text": "Hepatomegaly and/or splenomegaly with weight loss, abdominal distension or abdominal pain\nLymphadenopathy\nFever\nBleeding (petechiae, purpura), low platelet count, anemia\nMSK pain, limp, refusal to bear weight\nLarger anterior mediastinal mass could cause SVC syndrome",
+          "tables": []
+        },
+        "Bone_marrow_infiltration_and_failure": {
+          "text": "Pallor,\nfatigue\n, easy bleeding,\nfever\n, infection\nBone pain/\narthralgia\nHepatomegaly\nor splenomegaly",
+          "tables": []
+        },
+        "Hyperleukocytosis": {
+          "text": "Clinically significant when WBC > 200K in AML, >300K in ALL\nCerebral circulation:\nheadache\n,\naltered mental status\n,\nvisual disturbances\n,\nseizure\n,\nCVA\nPulmonary circulation:\nshortness of breath\n,\nhypoxemia",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Tumor lysis syndrome\nNeutropenic fever\n,\nSepsis\n, overall increased risk of\ninfection\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism\nTreatment-related complications\nChemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        }
+      ]
+    },
+    "Presentation": {
+      "text": "Hepatomegaly and/or splenomegaly with weight loss, abdominal distension or abdominal pain\nLymphadenopathy\nFever\nBleeding (petechiae, purpura), low platelet count, anemia\nMSK pain, limp, refusal to bear weight\nLarger anterior mediastinal mass could cause SVC syndrome",
+      "subsections": {
+        "Bone_marrow_infiltration_and_failure": {
+          "text": "Pallor,\nfatigue\n, easy bleeding,\nfever\n, infection\nBone pain/\narthralgia\nHepatomegaly\nor splenomegaly",
+          "tables": []
+        },
+        "Hyperleukocytosis": {
+          "text": "Clinically significant when WBC > 200K in AML, >300K in ALL\nCerebral circulation:\nheadache\n,\naltered mental status\n,\nvisual disturbances\n,\nseizure\n,\nCVA\nPulmonary circulation:\nshortness of breath\n,\nhypoxemia",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Tumor lysis syndrome\nNeutropenic fever\n,\nSepsis\n, overall increased risk of\ninfection\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism\nTreatment-related complications\nChemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        }
+      ]
+    },
+    "Bone_marrow_infiltration_and_failure": {
+      "text": "Pallor,\nfatigue\n, easy bleeding,\nfever\n, infection\nBone pain/\narthralgia\nHepatomegaly\nor splenomegaly",
+      "subsections": {
+        "Hyperleukocytosis": {
+          "text": "Clinically significant when WBC > 200K in AML, >300K in ALL\nCerebral circulation:\nheadache\n,\naltered mental status\n,\nvisual disturbances\n,\nseizure\n,\nCVA\nPulmonary circulation:\nshortness of breath\n,\nhypoxemia",
+          "tables": []
+        },
+        "Complications": {
+          "text": "Tumor lysis syndrome\nNeutropenic fever\n,\nSepsis\n, overall increased risk of\ninfection\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism\nTreatment-related complications\nChemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "fatigue",
+          "url": "https://wikem.org/wiki/Fatigue"
+        },
+        {
+          "text": "fever",
+          "url": "https://wikem.org/wiki/Fever"
+        },
+        {
+          "text": "arthralgia",
+          "url": "https://wikem.org/wiki/Arthralgia"
+        },
+        {
+          "text": "Hepatomegaly",
+          "url": "https://wikem.org/wiki/Hepatomegaly"
+        },
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        }
+      ]
+    },
+    "Hyperleukocytosis": {
+      "text": "Clinically significant when WBC > 200K in AML, >300K in ALL\nCerebral circulation:\nheadache\n,\naltered mental status\n,\nvisual disturbances\n,\nseizure\n,\nCVA\nPulmonary circulation:\nshortness of breath\n,\nhypoxemia",
+      "subsections": {
+        "Complications": {
+          "text": "Tumor lysis syndrome\nNeutropenic fever\n,\nSepsis\n, overall increased risk of\ninfection\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism\nTreatment-related complications\nChemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "altered mental status",
+          "url": "https://wikem.org/wiki/Altered_mental_status"
+        },
+        {
+          "text": "visual disturbances",
+          "url": "https://wikem.org/wiki/Visual_disturbances"
+        },
+        {
+          "text": "seizure",
+          "url": "https://wikem.org/wiki/Seizure"
+        },
+        {
+          "text": "CVA",
+          "url": "https://wikem.org/wiki/CVA"
+        },
+        {
+          "text": "shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        },
+        {
+          "text": "hypoxemia",
+          "url": "https://wikem.org/wiki/Hypoxemia"
+        },
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        }
+      ]
+    },
+    "Complications": {
+      "text": "Tumor lysis syndrome\nNeutropenic fever\n,\nSepsis\n, overall increased risk of\ninfection\nNeutropenic enterocolitis (typhlitis)\nLeukostasis and hyperleukocytosis\nHyperviscosity syndrome\nThromboembolism\nTreatment-related complications\nChemotherapy-induced\nnausea and vomiting\nCytokine release syndrome\nChemotherapeutic drug extravasation\nDifferentiation syndrome\n(\nretinoic acid syndrome\n) in APML\nStem cell transplant complications\nCatheter-related complications\nTunnel infection\nExit site infection\nCVC obstruction (intraluminal or catheter tip thrombosis)\nCatheter-related venous thrombosis\nFracture of catheter lumen",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Tumor lysis syndrome",
+          "url": "https://wikem.org/wiki/Tumor_lysis_syndrome"
+        },
+        {
+          "text": "Neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        },
+        {
+          "text": "Sepsis",
+          "url": "https://wikem.org/wiki/Sepsis"
+        },
+        {
+          "text": "infection",
+          "url": "https://wikem.org/wiki/Infection"
+        },
+        {
+          "text": "Neutropenic enterocolitis (typhlitis)",
+          "url": "https://wikem.org/wiki/Neutropenic_enterocolitis_(typhlitis)"
+        },
+        {
+          "text": "Leukostasis and hyperleukocytosis",
+          "url": "https://wikem.org/wiki/Leukostasis_and_hyperleukocytosis"
+        },
+        {
+          "text": "Hyperviscosity syndrome",
+          "url": "https://wikem.org/wiki/Hyperviscosity_syndrome"
+        },
+        {
+          "text": "Thromboembolism",
+          "url": "https://wikem.org/wiki/Thromboembolism"
+        },
+        {
+          "text": "nausea and vomiting",
+          "url": "https://wikem.org/wiki/Nausea_and_vomiting"
+        },
+        {
+          "text": "Cytokine release syndrome",
+          "url": "https://wikem.org/wiki/Cytokine_release_syndrome"
+        },
+        {
+          "text": "Differentiation syndrome",
+          "url": "https://wikem.org/wiki/Differentiation_syndrome"
+        },
+        {
+          "text": "retinoic acid syndrome",
+          "url": "https://wikem.org/wiki/Retinoic_acid_syndrome"
+        },
+        {
+          "text": "Stem cell transplant complications",
+          "url": "https://wikem.org/wiki/Stem_cell_transplant_complications"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Leukemias will often involve >1 cell line; other conditions restricted to single line\nAplastic anemia\nIron deficiency\nanemia\nViral infection (\nEBV\n,\nCMV\n,\nParvo\n),\nHIV\nImmune\nthrombocytopenia\nRheumatologic diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Aplastic anemia",
+          "url": "https://wikem.org/wiki/Aplastic_anemia"
+        },
+        {
+          "text": "anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "EBV",
+          "url": "https://wikem.org/wiki/EBV"
+        },
+        {
+          "text": "CMV",
+          "url": "https://wikem.org/wiki/CMV"
+        },
+        {
+          "text": "Parvo",
+          "url": "https://wikem.org/wiki/Parvovirus_B19"
+        },
+        {
+          "text": "HIV",
+          "url": "https://wikem.org/wiki/HIV"
+        },
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC with manual differential\nIf suggestive of leukemia also order:\nReview of peripheral smear\nChemistry, Ca, Phos, Mg, Uric acid,\nLFTs\n, LDH, coags, T+S, UCG (if applicable)\nViral titers cytomegalovirus, EBV, HIV, HBV, varicella zoster\nCXRto\nlook for mediastinal mass\nConsider\nDIC\nlabs, coag studies",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LFTs",
+          "url": "https://wikem.org/wiki/LFTs"
+        },
+        {
+          "text": "CXRto",
+          "url": "https://wikem.org/wiki/CXR"
+        },
+        {
+          "text": "DIC",
+          "url": "https://wikem.org/wiki/DIC"
+        }
+      ]
+    },
+    "Management": {
+      "text": "",
+      "subsections": {
+        "Transfusion": {
+          "text": "Options\nIrradiated: for very immunosuppressed (to prevent graft vs host)\nLeukocyte-reduced: for patients likely to receive multiple RBC or platelets in future\nCMV seronegative: for <1yr old, if might need bone marrow transplant in future\nAnemia\n10 cc/kg of\npRBCs\nraises hemoglobin by 3 gm/dL\nRaise hemoglobin to >8\nThrombocytopenia\n0.1 unit/kg\nplatelets\nresults in 30-50K increase in platelet count\nRisk of spontaneous ICH is extremely low until platelets <5K\nTransfuse if:\nAsymptomatic with platelets <10K\nInvasive procedures require platelets >50K",
+          "tables": []
+        },
+        "Leukostasis_and_Hyperleukocytosis": {
+          "text": "Aggressive IV hydration\nUrinary alkalinization (pH 7-7.5)\nAllopurinol\n(for\nTumor Lysis Syndrome (TLS)\n)\nAvoid diuretics and pRBC transfusion (platelets ok)\nGive platelets if <20K\nLeukapheresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Tumor Lysis Syndrome (TLS)",
+          "url": "https://wikem.org/wiki/Tumor_Lysis_Syndrome_(TLS)"
+        }
+      ]
+    },
+    "Transfusion": {
+      "text": "Options\nIrradiated: for very immunosuppressed (to prevent graft vs host)\nLeukocyte-reduced: for patients likely to receive multiple RBC or platelets in future\nCMV seronegative: for <1yr old, if might need bone marrow transplant in future\nAnemia\n10 cc/kg of\npRBCs\nraises hemoglobin by 3 gm/dL\nRaise hemoglobin to >8\nThrombocytopenia\n0.1 unit/kg\nplatelets\nresults in 30-50K increase in platelet count\nRisk of spontaneous ICH is extremely low until platelets <5K\nTransfuse if:\nAsymptomatic with platelets <10K\nInvasive procedures require platelets >50K",
+      "subsections": {
+        "Leukostasis_and_Hyperleukocytosis": {
+          "text": "Aggressive IV hydration\nUrinary alkalinization (pH 7-7.5)\nAllopurinol\n(for\nTumor Lysis Syndrome (TLS)\n)\nAvoid diuretics and pRBC transfusion (platelets ok)\nGive platelets if <20K\nLeukapheresis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anemia",
+          "url": "https://wikem.org/wiki/Anemia"
+        },
+        {
+          "text": "pRBCs",
+          "url": "https://wikem.org/wiki/PRBCs"
+        },
+        {
+          "text": "Thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "platelets",
+          "url": "https://wikem.org/wiki/Platelets"
+        },
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Tumor Lysis Syndrome (TLS)",
+          "url": "https://wikem.org/wiki/Tumor_Lysis_Syndrome_(TLS)"
+        }
+      ]
+    },
+    "Leukostasis_and_Hyperleukocytosis": {
+      "text": "Aggressive IV hydration\nUrinary alkalinization (pH 7-7.5)\nAllopurinol\n(for\nTumor Lysis Syndrome (TLS)\n)\nAvoid diuretics and pRBC transfusion (platelets ok)\nGive platelets if <20K\nLeukapheresis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Allopurinol",
+          "url": "https://wikem.org/wiki/Allopurinol"
+        },
+        {
+          "text": "Tumor Lysis Syndrome (TLS)",
+          "url": "https://wikem.org/wiki/Tumor_Lysis_Syndrome_(TLS)"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admit for further workup including bone marrow biopsy and LP",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Oncologic emergencies\nLeukemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Oncologic emergencies",
+          "url": "https://wikem.org/wiki/Oncologic_emergencies"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "drug_name": "Limp_(peds)",
+  "url": "https://wikem.org/wiki/Limp_(peds)",
+  "scraped_at": "2026-01-10T07:56:31.659563",
+  "sections": {
+    "Background": {
+      "text": "It can be difficult to differentiate hip from knee pain in children\nKnee pain can be referred pain from the hip",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Pediatric patient with a reported limp with ambulation\nMay additionally have leg,\nhip\n, and/or knee tenderness to palpation",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "hip",
+          "url": "https://wikem.org/wiki/Hip_pain_(peds)"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        }
+      ]
+    },
+    "Pediatric_limp": {
+      "text": "",
+      "subsections": {
+        "Hip_Related": {
+          "text": "Acute rheumatic fever\nDevelopmental dysplasia of hip\nFemur fracture\nJuvenile idiopathic arthritis\nLegg-Calve-Perthes disease\nSeptic arthritis of the hip (peds)\nLyme disease\narthritis\nSlipped capital femoral epiphysis\nTransient (toxic) synovitis\nOsteosarcoma",
+          "tables": []
+        },
+        "Other_Causes_of_Limping": {
+          "text": "Developmental dysplasia\nFracture\nToddler's fracture\nTillaux fracture\n, adolescent\nNeoplasm:\nLeukemia\nEwings\nOsteogenic sarcoma\nMetastatic\nneuroblastoma\nOsteomyelitis\nMyositis\nOther:\nAppendicitis\nMeningitis\nEpidural abscess (spinal)",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Acute rheumatic fever",
+          "url": "https://wikem.org/wiki/Acute_rheumatic_fever"
+        },
+        {
+          "text": "Developmental dysplasia of hip",
+          "url": "https://wikem.org/wiki/Developmental_dysplasia_of_hip"
+        },
+        {
+          "text": "Femur fracture",
+          "url": "https://wikem.org/wiki/Femur_fracture_(peds)"
+        },
+        {
+          "text": "Juvenile idiopathic arthritis",
+          "url": "https://wikem.org/wiki/Juvenile_idiopathic_arthritis"
+        },
+        {
+          "text": "Legg-Calve-Perthes disease",
+          "url": "https://wikem.org/wiki/Legg-Calve-Perthes_disease"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        },
+        {
+          "text": "Lyme disease",
+          "url": "https://wikem.org/wiki/Lyme_disease"
+        },
+        {
+          "text": "Slipped capital femoral epiphysis",
+          "url": "https://wikem.org/wiki/Slipped_capital_femoral_epiphysis"
+        },
+        {
+          "text": "Transient (toxic) synovitis",
+          "url": "https://wikem.org/wiki/Transient_(toxic)_synovitis"
+        },
+        {
+          "text": "Fracture",
+          "url": "https://wikem.org/wiki/Fracture"
+        },
+        {
+          "text": "Toddler's fracture",
+          "url": "https://wikem.org/wiki/Toddler%27s_fracture"
+        },
+        {
+          "text": "Tillaux fracture",
+          "url": "https://wikem.org/wiki/Tillaux_fracture"
+        },
+        {
+          "text": "Leukemia",
+          "url": "https://wikem.org/wiki/Leukemia_(peds)"
+        },
+        {
+          "text": "neuroblastoma",
+          "url": "https://wikem.org/wiki/Neuroblastoma_(peds)"
+        },
+        {
+          "text": "Osteomyelitis",
+          "url": "https://wikem.org/wiki/Osteomyelitis"
+        },
+        {
+          "text": "Myositis",
+          "url": "https://wikem.org/wiki/Myositis"
+        },
+        {
+          "text": "Appendicitis",
+          "url": "https://wikem.org/wiki/Appendicitis"
+        },
+        {
+          "text": "Meningitis",
+          "url": "https://wikem.org/wiki/Meningitis"
+        },
+        {
+          "text": "Epidural abscess (spinal)",
+          "url": "https://wikem.org/wiki/Epidural_abscess_(spinal)"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "",
+      "subsections": {
+        "Workup": {
+          "text": "X-ray hip (AP & bilateral frog-leg view), femur, knee\nConsider CBC, ESR, CRP, total CK\nBlood culture if febrile.\n[1]\nConsider:\nUltrasound\nto evaluate for effusion\nCT to evaluate for abscess",
+          "tables": []
+        },
+        "Kocher_Criteria_for_septic_arthritis_of_the_hip": {
+          "text": "ESR > 40 mm/hr\nWBC > 12,000/microliter\nRefusal or inability to weight bear on affected joint\nFever\n38.5° C or greater",
+          "tables": [
+            [
+              {
+                "Number of Kocher Criteria": "1",
+                "Chance of Septic Joint": "3%"
+              },
+              {
+                "Number of Kocher Criteria": "2",
+                "Chance of Septic Joint": "40%"
+              },
+              {
+                "Number of Kocher Criteria": "3",
+                "Chance of Septic Joint": "93%"
+              },
+              {
+                "Number of Kocher Criteria": "4",
+                "Chance of Septic Joint": "99%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Workup": {
+      "text": "X-ray hip (AP & bilateral frog-leg view), femur, knee\nConsider CBC, ESR, CRP, total CK\nBlood culture if febrile.\n[1]\nConsider:\nUltrasound\nto evaluate for effusion\nCT to evaluate for abscess",
+      "subsections": {
+        "Kocher_Criteria_for_septic_arthritis_of_the_hip": {
+          "text": "ESR > 40 mm/hr\nWBC > 12,000/microliter\nRefusal or inability to weight bear on affected joint\nFever\n38.5° C or greater",
+          "tables": [
+            [
+              {
+                "Number of Kocher Criteria": "1",
+                "Chance of Septic Joint": "3%"
+              },
+              {
+                "Number of Kocher Criteria": "2",
+                "Chance of Septic Joint": "40%"
+              },
+              {
+                "Number of Kocher Criteria": "3",
+                "Chance of Septic Joint": "93%"
+              },
+              {
+                "Number of Kocher Criteria": "4",
+                "Chance of Septic Joint": "99%"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Ultrasound",
+          "url": "https://wikem.org/wiki/Ultrasound"
+        },
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "Kocher_Criteria_for_septic_arthritis_of_the_hip": {
+      "text": "ESR > 40 mm/hr\nWBC > 12,000/microliter\nRefusal or inability to weight bear on affected joint\nFever\n38.5° C or greater",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "Number of Kocher Criteria": "1",
+            "Chance of Septic Joint": "3%"
+          },
+          {
+            "Number of Kocher Criteria": "2",
+            "Chance of Septic Joint": "40%"
+          },
+          {
+            "Number of Kocher Criteria": "3",
+            "Chance of Septic Joint": "93%"
+          },
+          {
+            "Number of Kocher Criteria": "4",
+            "Chance of Septic Joint": "99%"
+          }
+        ]
+      ],
+      "links": [
+        {
+          "text": "Fever",
+          "url": "https://wikem.org/wiki/Fever"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Pediatric hip pain\nSeptic arthritis of the hip (peds)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pediatric hip pain",
+          "url": "https://wikem.org/wiki/Pediatric_hip_pain"
+        },
+        {
+          "text": "Septic arthritis of the hip (peds)",
+          "url": "https://wikem.org/wiki/Septic_arthritis_of_the_hip_(peds)"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "Pediatric Emergency Playbook Podcast: Please Just STOP LIMPING",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

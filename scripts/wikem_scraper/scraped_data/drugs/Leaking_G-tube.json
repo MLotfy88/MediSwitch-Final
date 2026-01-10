@@ -1,0 +1,86 @@
+{
+  "drug_name": "Leaking_G-tube",
+  "url": "https://wikem.org/wiki/Leaking_G-tube",
+  "scraped_at": "2026-01-10T07:56:15.571497",
+  "sections": {
+    "Background": {
+      "text": "The percutaneous gastrostomy tube (PEG) is commonly indicated in:\npatients with impaired ability to tolerate PO for caloric supplementation, hydration, frequent enteral medication dosing\noropharyngeal or esophageal obstruction\nmajor facial trauma\npassive gastric decompression\nmechanical apposition of the stomach to the abdominal wall to prevent hiatal herniation.\nMost PEGs are 18F to 28F and may be used for 12-24mo",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Drainage from the stoma is common\nFrequently due to a foreign body reaction to the tube\nSimple foreign body reactions should be differentiated from\ncellulitis\nand\nnecrotizing fasciitis\nLeakage of gastric fluid into the peritoneal cavity may result in chemical and bacterial\nperitonitis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "G-tube_complications": {
+          "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Clogged G-tube",
+          "url": "https://wikem.org/wiki/Clogged_G-tube"
+        },
+        {
+          "text": "Displaced G-tube",
+          "url": "https://wikem.org/wiki/Displaced_G-tube"
+        },
+        {
+          "text": "Infected G-tube",
+          "url": "https://wikem.org/wiki/Infected_G-tube"
+        }
+      ]
+    },
+    "G-tube_complications": {
+      "text": "Clogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Clogged G-tube",
+          "url": "https://wikem.org/wiki/Clogged_G-tube"
+        },
+        {
+          "text": "Displaced G-tube",
+          "url": "https://wikem.org/wiki/Displaced_G-tube"
+        },
+        {
+          "text": "Infected G-tube",
+          "url": "https://wikem.org/wiki/Infected_G-tube"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "Clinical diagnosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Simple foreign body reactions can be managed with local skin care (cleaning with hydrogen peroxide and warm water)\nLeakage of gastric contents around the tube indicates that the percutaneous tract is too large for the tube; management should include the physician or service responsible for placing the tube, and may include:\nRemoval for 24-48hrs (with the optional placement of a guidewire) to promote shrinking of the percutaneous tract\nComplete removal of the PEG with the intent of tract closure and subsequent placement of a new PEG at an alternate location\nLeakage of gastric fluid into the peritoneal cavity results in chemical and bacterial peritonitis; management may include:\nDiscontinuing tube feeds\nStarting empiric\nantibiotics\ninitiated\nObtain imaging and surgical consult",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Disposition": {
+      "text": "Simple foreign body reaction: home with skin care teaching\nOther management in conjunction with consultant",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "G-tube complications\nClogged G-tube\nDisplaced G-tube\nInfected G-tube\nLeaking G-tube",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

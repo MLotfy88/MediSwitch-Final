@@ -1,0 +1,105 @@
+{
+  "drug_name": "Lisinopril",
+  "url": "https://wikem.org/wiki/Lisinopril",
+  "scraped_at": "2026-01-10T07:56:31.995486",
+  "sections": {
+    "General": {
+      "text": "Type:\nACE inhibitor\nDosage Forms: 2.5mg, 5mg, 10mg, 20mg, 30mg, 40mg\nCommon Trade Names: Prinivil, Zestril\nGeneral information:\nDoses > 40mg/day rarely more effective\nDecreased efficacy as mono therapy in Black patients\nObtain Chem 10 if starting in ED to assess renal function",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "Hypertension: 10 - 40mg PO Qday, max 80mg/day\nOccasionally outpatient will prescribe BID dosing of lisinopril for potential continuous BP control (or\nlosartan\n)\n2020 large scale Kaiser study concluded no increased efficacy\nThere is potential for risk for AKI and hyperkalemia with lisinopril, but not losartan -- hypotension was not investigated\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "losartan",
+          "url": "https://wikem.org/wiki/Losartan"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "6-16 year old: 0.07mg/kg PO qday, max 40mg/day",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: D\nLactation: Safety unknown\nRenal Dosing\nAdult: CrCl < 30, start 2.5mg qday, max 40mg q/day\nPediatric creatinine Cl 30-50: decrease dose 50%, CrCl < 30, avoid use\nHepatic Dosing\nAdult: Not defined\nPediatric: Not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nhistory of angioedema\npregnancy\ncaution if renal artery stenosis\ncaution if severe CHF\ncaution if renal impairment",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "angioedema\nhypotension\nhyperkalemia\nrenal impairment\nhepatotoxicity\nneutropenia\npancreatitis\nsteven johnson syndrome\nfetal/neonatal harm\ncongenital malformations",
+          "tables": []
+        },
+        "Common": {
+          "text": "dizziness\nelevated Cr\nheadache\ndiarrhea\nhypotension\nabdominal pain\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "angioedema\nhypotension\nhyperkalemia\nrenal impairment\nhepatotoxicity\nneutropenia\npancreatitis\nsteven johnson syndrome\nfetal/neonatal harm\ncongenital malformations",
+      "subsections": {
+        "Common": {
+          "text": "dizziness\nelevated Cr\nheadache\ndiarrhea\nhypotension\nabdominal pain\nhyperkalemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "dizziness\nelevated Cr\nheadache\ndiarrhea\nhypotension\nabdominal pain\nhyperkalemia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 12 hours\nMetabolism: none\nExcretion: urine\nMechanism of Action: inhibits angiotensin converting enzyme, interferes with conversion of angiotensin 1 to angiotensin 2",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Hypertension\nACE inhibitor",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension",
+          "url": "https://wikem.org/wiki/Hypertension"
+        },
+        {
+          "text": "ACE inhibitor",
+          "url": "https://wikem.org/wiki/ACE_inhibitor"
+        }
+      ]
+    }
+  }
+}

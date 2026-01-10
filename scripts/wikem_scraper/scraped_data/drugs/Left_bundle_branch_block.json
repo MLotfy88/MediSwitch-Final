@@ -1,0 +1,268 @@
+{
+  "drug_name": "Left_bundle_branch_block",
+  "url": "https://wikem.org/wiki/Left_bundle_branch_block",
+  "scraped_at": "2026-01-10T07:56:19.169521",
+  "sections": {
+    "Evaluation": {
+      "text": "ST Depression\nand T wave inversion are common\nQRS > 0.12 in limb leads\nLeads\nLarge and wide R waves — leads I, aVL, V5, and V6\nSmall R wave followed by deep S wave —leads II, III, aVF, V1–V3",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST Depression",
+          "url": "https://wikem.org/wiki/ST_Depression"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Wide-complex_tachycardia": {
+          "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "Wide-complex_tachycardia": {
+      "text": "Assume any wide-complex tachycardia is\nventricular tachycardia\nuntil proven otherwise (it is safer to incorrectly assume a ventricular dysrhythmia than supraventricular tachycardia with abberancy)\nRegular\nMonomorphic\nventricular tachycardia\nPSVT\nwith aberrant conduction:\nPSVT\nwith\nbundle branch block\n^\nPSVT\nwith accessory pathway\nAtrial flutter\nwith\nbundle branch block\n^\nSinus tachycardia\nwith\nbundle branch block\n^\nAccelerated idioventricular rhythm\n(consider if less than or ~120 bpm)\nMetabolic\nHyperkalemia\nDigoxin toxicity\nSevere\nmetabolic acidosis\nIrregular\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND\nbundle branch block\n^\nAtrial fibrillation\n/\natrial flutter\nwith variable AV conduction AND accessory pathway (e.g.\nWPW\n)\nAtrial fibrillation\n+\nhyperkalemia\nPolymorphic ventricular tachycardia\nTorsades de pointes\nNonsustained ventricular tachycardia\n^Fixed or rate-related",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Ventricular_tachycardia"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "PSVT",
+          "url": "https://wikem.org/wiki/PSVT"
+        },
+        {
+          "text": "Atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Sinus tachycardia",
+          "url": "https://wikem.org/wiki/Sinus_tachycardia"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Accelerated idioventricular rhythm",
+          "url": "https://wikem.org/wiki/Accelerated_idioventricular_rhythm"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Digoxin toxicity",
+          "url": "https://wikem.org/wiki/Digoxin_toxicity"
+        },
+        {
+          "text": "metabolic acidosis",
+          "url": "https://wikem.org/wiki/Metabolic_acidosis"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "bundle branch block",
+          "url": "https://wikem.org/wiki/Bundle_branch_block"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "atrial flutter",
+          "url": "https://wikem.org/wiki/Atrial_flutter"
+        },
+        {
+          "text": "WPW",
+          "url": "https://wikem.org/wiki/WPW"
+        },
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation_(main)"
+        },
+        {
+          "text": "hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Polymorphic ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Polymorphic_ventricular_tachycardia"
+        },
+        {
+          "text": "Torsades de pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_pointes"
+        },
+        {
+          "text": "Nonsustained ventricular tachycardia",
+          "url": "https://wikem.org/wiki/Nonsustained_ventricular_tachycardia"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)\nSgarbossa's Criteria\nSTEMI equivalents",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        },
+        {
+          "text": "Sgarbossa's Criteria",
+          "url": "https://wikem.org/wiki/Sgarbossa%27s_Criteria"
+        },
+        {
+          "text": "STEMI equivalents",
+          "url": "https://wikem.org/wiki/STEMI_equivalents"
+        }
+      ]
+    },
+    "External_Links": {
+      "text": "emDocs - Left Bundle Branch Block in Myocardial Infarction: An Update",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "References": {
+      "text": "Journal of Electrocardiology. Vol 43 (2010). 40-42.",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "drug_name": "Left_ventricular_hypertrophy",
+  "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy",
+  "scraped_at": "2026-01-10T07:56:19.345717",
+  "sections": {
+    "ECG_Findings": {
+      "text": "Common to have TWI in I and aVL but should be in both\nIf only aVL, very likely reciprocal change at the start of inf MI",
+      "subsections": {
+        "Sokolow-Lyon_criterium": {
+          "text": "Most commonly used criteria\nR in V5 or V6 + S in V1 >35 mm.",
+          "tables": []
+        },
+        "Cornell_Criteria": {
+          "text": "R in aVL and S in V3 >28 mm in men\nR in aVL and S in V3 >20 mm in women",
+          "tables": []
+        },
+        "Other_Voltage_Based_Criteria": {
+          "text": "Lead I: R wave > 14 mm\nLead aVR: S wave > 15 mm\nLead aVL: R wave > 12 mm\nLead aVF: R wave > 21 mm\nLead V\n5\n: R wave > 26 mm\nLead V\n6\n: R wave > 20 mm\nV4-V6 precordial leads may show ST depression & T wave inversions known as the\nLV Strain pattern",
+          "tables": []
+        },
+        "Romhilt-Estes_Criteria": {
+          "text": "Diagnostic  ≥ 5 points and probable ≥ 4 points)",
+          "tables": [
+            [
+              {
+                "ECG Criteria": "Voltage Criteria (any of):R or S in limb leads ≥20 mmS in V1or V2≥30 mmR in V5or V6≥30 mm",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "ST-T Abnormalities:ST-T vector opposite to QRS without digitalisST-T vector opposite to QRS with digitalis",
+                "Points": "31"
+              },
+              {
+                "ECG Criteria": "Negative terminal P mode in V11 mm in depth and 0.04 sec in duration (indicates left atrial enlargement)",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "Left axis deviation (QRS of -30° or more)",
+                "Points": "2"
+              },
+              {
+                "ECG Criteria": "QRS duration ≥0.09 sec",
+                "Points": "1"
+              },
+              {
+                "ECG Criteria": "Delayed intrinsicoid deflection in V5or V6(>0.05 sec)",
+                "Points": "1"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Sokolow-Lyon_criterium": {
+      "text": "Most commonly used criteria\nR in V5 or V6 + S in V1 >35 mm.",
+      "subsections": {
+        "Cornell_Criteria": {
+          "text": "R in aVL and S in V3 >28 mm in men\nR in aVL and S in V3 >20 mm in women",
+          "tables": []
+        },
+        "Other_Voltage_Based_Criteria": {
+          "text": "Lead I: R wave > 14 mm\nLead aVR: S wave > 15 mm\nLead aVL: R wave > 12 mm\nLead aVF: R wave > 21 mm\nLead V\n5\n: R wave > 26 mm\nLead V\n6\n: R wave > 20 mm\nV4-V6 precordial leads may show ST depression & T wave inversions known as the\nLV Strain pattern",
+          "tables": []
+        },
+        "Romhilt-Estes_Criteria": {
+          "text": "Diagnostic  ≥ 5 points and probable ≥ 4 points)",
+          "tables": [
+            [
+              {
+                "ECG Criteria": "Voltage Criteria (any of):R or S in limb leads ≥20 mmS in V1or V2≥30 mmR in V5or V6≥30 mm",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "ST-T Abnormalities:ST-T vector opposite to QRS without digitalisST-T vector opposite to QRS with digitalis",
+                "Points": "31"
+              },
+              {
+                "ECG Criteria": "Negative terminal P mode in V11 mm in depth and 0.04 sec in duration (indicates left atrial enlargement)",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "Left axis deviation (QRS of -30° or more)",
+                "Points": "2"
+              },
+              {
+                "ECG Criteria": "QRS duration ≥0.09 sec",
+                "Points": "1"
+              },
+              {
+                "ECG Criteria": "Delayed intrinsicoid deflection in V5or V6(>0.05 sec)",
+                "Points": "1"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Cornell_Criteria": {
+      "text": "R in aVL and S in V3 >28 mm in men\nR in aVL and S in V3 >20 mm in women",
+      "subsections": {
+        "Other_Voltage_Based_Criteria": {
+          "text": "Lead I: R wave > 14 mm\nLead aVR: S wave > 15 mm\nLead aVL: R wave > 12 mm\nLead aVF: R wave > 21 mm\nLead V\n5\n: R wave > 26 mm\nLead V\n6\n: R wave > 20 mm\nV4-V6 precordial leads may show ST depression & T wave inversions known as the\nLV Strain pattern",
+          "tables": []
+        },
+        "Romhilt-Estes_Criteria": {
+          "text": "Diagnostic  ≥ 5 points and probable ≥ 4 points)",
+          "tables": [
+            [
+              {
+                "ECG Criteria": "Voltage Criteria (any of):R or S in limb leads ≥20 mmS in V1or V2≥30 mmR in V5or V6≥30 mm",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "ST-T Abnormalities:ST-T vector opposite to QRS without digitalisST-T vector opposite to QRS with digitalis",
+                "Points": "31"
+              },
+              {
+                "ECG Criteria": "Negative terminal P mode in V11 mm in depth and 0.04 sec in duration (indicates left atrial enlargement)",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "Left axis deviation (QRS of -30° or more)",
+                "Points": "2"
+              },
+              {
+                "ECG Criteria": "QRS duration ≥0.09 sec",
+                "Points": "1"
+              },
+              {
+                "ECG Criteria": "Delayed intrinsicoid deflection in V5or V6(>0.05 sec)",
+                "Points": "1"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Other_Voltage_Based_Criteria": {
+      "text": "Lead I: R wave > 14 mm\nLead aVR: S wave > 15 mm\nLead aVL: R wave > 12 mm\nLead aVF: R wave > 21 mm\nLead V\n5\n: R wave > 26 mm\nLead V\n6\n: R wave > 20 mm\nV4-V6 precordial leads may show ST depression & T wave inversions known as the\nLV Strain pattern",
+      "subsections": {
+        "Romhilt-Estes_Criteria": {
+          "text": "Diagnostic  ≥ 5 points and probable ≥ 4 points)",
+          "tables": [
+            [
+              {
+                "ECG Criteria": "Voltage Criteria (any of):R or S in limb leads ≥20 mmS in V1or V2≥30 mmR in V5or V6≥30 mm",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "ST-T Abnormalities:ST-T vector opposite to QRS without digitalisST-T vector opposite to QRS with digitalis",
+                "Points": "31"
+              },
+              {
+                "ECG Criteria": "Negative terminal P mode in V11 mm in depth and 0.04 sec in duration (indicates left atrial enlargement)",
+                "Points": "3"
+              },
+              {
+                "ECG Criteria": "Left axis deviation (QRS of -30° or more)",
+                "Points": "2"
+              },
+              {
+                "ECG Criteria": "QRS duration ≥0.09 sec",
+                "Points": "1"
+              },
+              {
+                "ECG Criteria": "Delayed intrinsicoid deflection in V5or V6(>0.05 sec)",
+                "Points": "1"
+              }
+            ]
+          ]
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Romhilt-Estes_Criteria": {
+      "text": "Diagnostic  ≥ 5 points and probable ≥ 4 points)",
+      "subsections": {},
+      "tables": [
+        [
+          {
+            "ECG Criteria": "Voltage Criteria (any of):R or S in limb leads ≥20 mmS in V1or V2≥30 mmR in V5or V6≥30 mm",
+            "Points": "3"
+          },
+          {
+            "ECG Criteria": "ST-T Abnormalities:ST-T vector opposite to QRS without digitalisST-T vector opposite to QRS with digitalis",
+            "Points": "31"
+          },
+          {
+            "ECG Criteria": "Negative terminal P mode in V11 mm in depth and 0.04 sec in duration (indicates left atrial enlargement)",
+            "Points": "3"
+          },
+          {
+            "ECG Criteria": "Left axis deviation (QRS of -30° or more)",
+            "Points": "2"
+          },
+          {
+            "ECG Criteria": "QRS duration ≥0.09 sec",
+            "Points": "1"
+          },
+          {
+            "ECG Criteria": "Delayed intrinsicoid deflection in V5or V6(>0.05 sec)",
+            "Points": "1"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Common_Causes": {
+      "text": "Hypertension (Main)\nAortic Stenosis\nAortic Regurgitation\nCoarctation of the Aorta\nHypertrophic Cardiomyopathy\nMitral Regurgitation\nInfiltrative Cardiac Processes\nAmyloidosis\nSarcoidosis\nHemochromatosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Hypertension (Main)",
+          "url": "https://wikem.org/wiki/Hypertension_(Main)"
+        },
+        {
+          "text": "Aortic Stenosis",
+          "url": "https://wikem.org/wiki/Aortic_Stenosis"
+        },
+        {
+          "text": "Aortic Regurgitation",
+          "url": "https://wikem.org/wiki/Aortic_Regurgitation"
+        },
+        {
+          "text": "Coarctation of the Aorta",
+          "url": "https://wikem.org/wiki/Coarctation_of_the_Aorta"
+        },
+        {
+          "text": "Hypertrophic Cardiomyopathy",
+          "url": "https://wikem.org/wiki/Hypertrophic_Cardiomyopathy"
+        },
+        {
+          "text": "Mitral Regurgitation",
+          "url": "https://wikem.org/wiki/Mitral_Regurgitation"
+        },
+        {
+          "text": "Amyloidosis",
+          "url": "https://wikem.org/wiki/Amyloidosis"
+        },
+        {
+          "text": "Sarcoidosis",
+          "url": "https://wikem.org/wiki/Sarcoidosis"
+        },
+        {
+          "text": "Hemochromatosis",
+          "url": "https://wikem.org/wiki/Hemochromatosis"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Cardiac_Hypertrophy_and_Enlargement": {
+          "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        }
+      ]
+    },
+    "Cardiac_Hypertrophy_and_Enlargement": {
+      "text": "Right atrial enlargement\nLeft atrial enlargement\nLeft ventricular hypertrophy\nRight ventricular hypertrophy",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Right atrial enlargement",
+          "url": "https://wikem.org/wiki/Right_atrial_enlargement"
+        },
+        {
+          "text": "Left atrial enlargement",
+          "url": "https://wikem.org/wiki/Left_atrial_enlargement"
+        },
+        {
+          "text": "Left ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Right ventricular hypertrophy",
+          "url": "https://wikem.org/wiki/Right_ventricular_hypertrophy"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "ECG (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG (Main)",
+          "url": "https://wikem.org/wiki/ECG_(Main)"
+        }
+      ]
+    }
+  }
+}

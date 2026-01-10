@@ -1,0 +1,166 @@
+{
+  "drug_name": "Lindane",
+  "url": "https://wikem.org/wiki/Lindane",
+  "scraped_at": "2026-01-10T07:56:30.529060",
+  "sections": {
+    "Administration": {
+      "text": "Type: Pediculicide\nDosage Forms:\nRoutes of Administration: topical\nCommon Trade Names:",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adult_Dosing": {
+      "text": "Second line therapy only for patients who have failed other agents\nScabies: apply thin layer and massage on entire body except face, remove after 8-12h\nHead lice: apply 1-2 oz of shampoo on dry hair, leave on for 4min, lather/rinse and remove nits with fine comb",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "Second line therapy only for patients who have failed other agents\nCaution if patient weighs <50kg\nScabies: apply thin layer and massage on entire body except face, remove after 8-12h\nHead lice: apply 1-2 oz of shampoo on dry hair, leave on for 4min, lather/rinse and remove nits with fine comb",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "Pregnancy Category C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Do not breastfeed for 24h after application",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution\nPediatric: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pregnancy_Rating": {
+      "text": "Pregnancy Category C",
+      "subsections": {
+        "Lactation_risk": {
+          "text": "Do not breastfeed for 24h after application",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution\nPediatric: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Lactation_risk": {
+      "text": "Do not breastfeed for 24h after application",
+      "subsections": {
+        "Renal_Dosing": {
+          "text": "Adult:\nPediatric:",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution\nPediatric: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Renal_Dosing": {
+      "text": "Adult:\nPediatric:",
+      "subsections": {
+        "Hepatic_Dosing": {
+          "text": "Adult: Use caution\nPediatric: Use caution",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Hepatic_Dosing": {
+      "text": "Adult: Use caution\nPediatric: Use caution",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nPremature neonates (<28 do) (increased absorption)\nUncontrolled seizure disorder\nNorwegian (crusted) scabies\nSkin conditions that may increase systemic absorption (weeping surface, inflamed skin etc)\nCaution with:\nHIV infection\nPrior seizure\nPrior head trauma\nCNS tumor\nSevere hepatic cirrhosis\nExcess alcohol use or abrupt withdrawal from alcohol or benzos\nConcomitant use of meds that lower seizure threshold\nWeight <50kg",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Neurotoxicity (seizures), ataxia\nArrhythmia\nPulmonary edema\nAplastic anemia",
+          "tables": []
+        },
+        "Common": {
+          "text": "Skin irritation, contact dermatitis, alopecia, urticaria\nDizziness\nRestlessness\nHematuria\nParesthesia\nNausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Serious": {
+      "text": "Neurotoxicity (seizures), ataxia\nArrhythmia\nPulmonary edema\nAplastic anemia",
+      "subsections": {
+        "Common": {
+          "text": "Skin irritation, contact dermatitis, alopecia, urticaria\nDizziness\nRestlessness\nHematuria\nParesthesia\nNausea/vomiting",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Common": {
+      "text": "Skin irritation, contact dermatitis, alopecia, urticaria\nDizziness\nRestlessness\nHematuria\nParesthesia\nNausea/vomiting",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pharmacology": {
+      "text": "Half-life: 17-22h\nMetabolism: liver\nExcretion: urine and feces",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Mechanism_of_Action": {
+      "text": "\"Following absorption through the chitinous exoskeleton of arthropods, cyclic chlorinated hydrocarbons like lindane presumably stimulate the nervous system, resulting in seizures & death of parasite\"\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Black box for neurotoxicity, banned in several countries and California due to neurotoxicity",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Permethrin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Permethrin",
+          "url": "https://wikem.org/wiki/Permethrin"
+        }
+      ]
+    }
+  }
+}

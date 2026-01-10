@@ -1,0 +1,274 @@
+{
+  "drug_name": "Leishmaniasis",
+  "url": "https://wikem.org/wiki/Leishmaniasis",
+  "scraped_at": "2026-01-10T07:56:22.773515",
+  "sections": {
+    "Background": {
+      "text": "Vector: sandfly\nOccurs sporadically in rural Africa, Asia, Mediterranean, Central/South America\nWide variety of symptoms given numerous species of protozoa\n500,000 new cases and 60,000 deaths each year",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "",
+      "subsections": {
+        "Cutaneous": {
+          "text": "Single to diffuse nodules/plagues with central clearing/eschar/fibrinous exudate",
+          "tables": []
+        },
+        "Mucocutaneous": {
+          "text": "Mucosal destruction, deformity nasal blockage, bleeding, increased secretions, sloughing of dead tissue, dysphonia, odynophagia, respiratory distress",
+          "tables": []
+        },
+        "Visceral_(Kala-azar)": {
+          "text": "Darkening of skin, malaise, fever, weight lost, splenomegaly with advanced disease causing hepatic dysfunction, jaundice, ascites, thrombocytopenia, and hemorrhagic complications\nAnemia, neutropenia,\nthrombocytopenia\n,\nhypoalbuminemia\n, hyperbilirubinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Cutaneous": {
+      "text": "Single to diffuse nodules/plagues with central clearing/eschar/fibrinous exudate",
+      "subsections": {
+        "Mucocutaneous": {
+          "text": "Mucosal destruction, deformity nasal blockage, bleeding, increased secretions, sloughing of dead tissue, dysphonia, odynophagia, respiratory distress",
+          "tables": []
+        },
+        "Visceral_(Kala-azar)": {
+          "text": "Darkening of skin, malaise, fever, weight lost, splenomegaly with advanced disease causing hepatic dysfunction, jaundice, ascites, thrombocytopenia, and hemorrhagic complications\nAnemia, neutropenia,\nthrombocytopenia\n,\nhypoalbuminemia\n, hyperbilirubinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Mucocutaneous": {
+      "text": "Mucosal destruction, deformity nasal blockage, bleeding, increased secretions, sloughing of dead tissue, dysphonia, odynophagia, respiratory distress",
+      "subsections": {
+        "Visceral_(Kala-azar)": {
+          "text": "Darkening of skin, malaise, fever, weight lost, splenomegaly with advanced disease causing hepatic dysfunction, jaundice, ascites, thrombocytopenia, and hemorrhagic complications\nAnemia, neutropenia,\nthrombocytopenia\n,\nhypoalbuminemia\n, hyperbilirubinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "thrombocytopenia",
+          "url": "https://wikem.org/wiki/Thrombocytopenia"
+        },
+        {
+          "text": "hypoalbuminemia",
+          "url": "https://wikem.org/wiki/Hypoalbuminemia"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "Cutaneous/Mucocutaneous-bacterial skin infection\nMalignancy\nSarcoidosis\nSpider bite\nTropical ulcer\nYaws\nCutaneous\nanthrax\nNocardia and actinomycosis\nCutaneous\ntuberculosis",
+      "subsections": {
+        "Travel-related_skin_conditions": {
+          "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "anthrax",
+          "url": "https://wikem.org/wiki/Anthrax"
+        },
+        {
+          "text": "tuberculosis",
+          "url": "https://wikem.org/wiki/Tuberculosis"
+        },
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Travel-related_skin_conditions": {
+      "text": "Papules\nInsect bites\nScabies\nSeabather's eruption\nCercarial dermatitis\n(Swimmer's Itch)\nMacular\nChikungunya\nSub Q Swelling and Nodules\nMyiasis\nTungiasis\nLoa loa\nAfrican Trypanosomiasis\nOnchocerciasis\nUlcers\nTropical pyoderma\nLeishmaniasis\nMycobacterium marinum\nBuruli ulcer\nDracunculiasis\n(Guinea Worm disease)\nLinear and Migratory Lesions\nCutaneous larvae migrans\nPhotodermatitis\nSee also domestic U.S.\nectoparasites",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Scabies",
+          "url": "https://wikem.org/wiki/Scabies"
+        },
+        {
+          "text": "Seabather's eruption",
+          "url": "https://wikem.org/wiki/Seabather%27s_eruption"
+        },
+        {
+          "text": "Cercarial dermatitis",
+          "url": "https://wikem.org/wiki/Cercarial_dermatitis"
+        },
+        {
+          "text": "Chikungunya",
+          "url": "https://wikem.org/wiki/Chikungunya"
+        },
+        {
+          "text": "Myiasis",
+          "url": "https://wikem.org/wiki/Myiasis"
+        },
+        {
+          "text": "Tungiasis",
+          "url": "https://wikem.org/wiki/Tungiasis"
+        },
+        {
+          "text": "Loa loa",
+          "url": "https://wikem.org/wiki/Loa_loa"
+        },
+        {
+          "text": "African Trypanosomiasis",
+          "url": "https://wikem.org/wiki/African_Trypanosomiasis"
+        },
+        {
+          "text": "Onchocerciasis",
+          "url": "https://wikem.org/wiki/Onchocerciasis"
+        },
+        {
+          "text": "Mycobacterium marinum",
+          "url": "https://wikem.org/wiki/Mycobacterium_marinum"
+        },
+        {
+          "text": "Buruli ulcer",
+          "url": "https://wikem.org/wiki/Buruli_ulcer"
+        },
+        {
+          "text": "Dracunculiasis",
+          "url": "https://wikem.org/wiki/Dracunculiasis"
+        },
+        {
+          "text": "Cutaneous larvae migrans",
+          "url": "https://wikem.org/wiki/Cutaneous_larvae_migrans"
+        },
+        {
+          "text": "ectoparasites",
+          "url": "https://wikem.org/wiki/Ectoparasites"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC\nChem\nHistology\nCulture\nBone marrow or spleen biopsy (for visceral form)\nPCR",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Uncomplicated cutaneous leishmaniasis\nTopical\nParomomycin\nLocal injection of Stibogluconate or Meglumine antimoniate\nDebridement of necrotic tissue\nComplicated cutaneous leishmaniasis\nPO\nFluconazole\nor Miltefosine.\nIV Stibogluconate, Meglumine,\nAmphotericin B\n, or Pentamidine\nVisceral leishmaniasis\nAmphotericin B\n, Stibogluconate",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Paromomycin",
+          "url": "https://wikem.org/wiki/Paromomycin"
+        },
+        {
+          "text": "Fluconazole",
+          "url": "https://wikem.org/wiki/Fluconazole"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        },
+        {
+          "text": "Amphotericin B",
+          "url": "https://wikem.org/wiki/Amphotericin_B"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Discharge with infectious disease followup",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Travel Skin Conditions\nParasitic Diseases",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Travel Skin Conditions",
+          "url": "https://wikem.org/wiki/Travel_Skin_Conditions"
+        },
+        {
+          "text": "Parasitic Diseases",
+          "url": "https://wikem.org/wiki/Parasitic_Diseases"
+        }
+      ]
+    }
+  }
+}

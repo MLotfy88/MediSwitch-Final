@@ -1,0 +1,140 @@
+{
+  "drug_name": "Levamisole_toxicity",
+  "url": "https://wikem.org/wiki/Levamisole_toxicity",
+  "scraped_at": "2026-01-10T07:56:27.983187",
+  "sections": {
+    "Background": {
+      "text": "An antihelminthic and immunomodulator that has been withdrawn from the U.S. and Canadian markets, due to the risk of serious side effects\nIncreasingly used as a cutting agent in cocaine sold around the globe\n69% of DEA seized cocaine contained levamisole (2009)\n[1]\nResults in Levamisole induced necrosis syndrome\n[2]",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Clinical_Features": {
+      "text": "Agranulocytosis/Thrombocytopenia\nTypically neutropenia\nTends to reverse spontaneously when discontinued\nLevamisole induced necrosis syndrome\nNecrotic patches anywhere on skin (especially ears and legs)\nLeukoencephalopathy\nSeen when used as a pharmaceutical in past\nNo cases described when associated with cocaine adulteration",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "Necrotizing_rashes": {
+          "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Warfarin-induced skin necrosis",
+          "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis"
+        }
+      ]
+    },
+    "Necrotizing_rashes": {
+      "text": "Necrotizing soft tissue infections\nNecrotizing fasciitis\nNecrotizing myositis\nNecrotizing cellulitis\nPurpura fulminans\nDrug rash\nLevamisole toxicity\nHeparin\n-induced skin necrosis\nWarfarin-induced skin necrosis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Necrotizing soft tissue infections",
+          "url": "https://wikem.org/wiki/Necrotizing_soft_tissue_infections"
+        },
+        {
+          "text": "Necrotizing fasciitis",
+          "url": "https://wikem.org/wiki/Necrotizing_fasciitis"
+        },
+        {
+          "text": "Necrotizing myositis",
+          "url": "https://wikem.org/wiki/Necrotizing_myositis"
+        },
+        {
+          "text": "Necrotizing cellulitis",
+          "url": "https://wikem.org/wiki/Necrotizing_cellulitis"
+        },
+        {
+          "text": "Purpura fulminans",
+          "url": "https://wikem.org/wiki/Purpura_fulminans"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        },
+        {
+          "text": "Heparin",
+          "url": "https://wikem.org/wiki/Heparin"
+        },
+        {
+          "text": "Warfarin-induced skin necrosis",
+          "url": "https://wikem.org/wiki/Warfarin-induced_skin_necrosis"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "CBC",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Management": {
+      "text": "Neutropenia\nConsider neupogen\nObservation for\nneutropenic fever\nNecrosis\nAggressive supportive care\nBurn care if significant necrosis\nAvoid cocaine re-exposure\n27% of patients had symptom recurrence with cocaine re-exposure\n[4]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "neutropenic fever",
+          "url": "https://wikem.org/wiki/Neutropenic_fever"
+        }
+      ]
+    },
+    "Disposition": {
+      "text": "Admission",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Cocaine\nDrug rash",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Cocaine",
+          "url": "https://wikem.org/wiki/Cocaine"
+        },
+        {
+          "text": "Drug rash",
+          "url": "https://wikem.org/wiki/Drug_rash"
+        }
+      ]
+    }
+  }
+}

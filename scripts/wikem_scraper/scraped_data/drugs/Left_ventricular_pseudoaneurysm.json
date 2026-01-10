@@ -1,0 +1,327 @@
+{
+  "drug_name": "Left_ventricular_pseudoaneurysm",
+  "url": "https://wikem.org/wiki/Left_ventricular_pseudoaneurysm",
+  "scraped_at": "2026-01-10T07:56:16.968053",
+  "sections": {
+    "Background": {
+      "text": "Acute\nMI\nor surgical mishap causes ventricular free wall rupture\n[1]\nContained by pericardial adhesions\nMortality rate high secondary to rupture of pseudoaneurysm",
+      "subsections": {
+        "Causes": {
+          "text": "Transmural\nMI\n(anterior or inferior most common)\nSurgical mishap",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Causes": {
+      "text": "Transmural\nMI\n(anterior or inferior most common)\nSurgical mishap",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        }
+      ]
+    },
+    "Clinical_Features": {
+      "text": "10% are asymptomatic\n[2]\nHistory of\nMI\nor cardiac surgery\nSymptoms similar to\ncongestive heart failure\nAngina\nShortness of breath\nNew cardiac murmur (70%)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "MI",
+          "url": "https://wikem.org/wiki/MI"
+        },
+        {
+          "text": "congestive heart failure",
+          "url": "https://wikem.org/wiki/Congestive_heart_failure"
+        },
+        {
+          "text": "Angina",
+          "url": "https://wikem.org/wiki/Angina"
+        },
+        {
+          "text": "Shortness of breath",
+          "url": "https://wikem.org/wiki/Shortness_of_breath"
+        }
+      ]
+    },
+    "Differential_Diagnosis": {
+      "text": "",
+      "subsections": {
+        "ST_Elevation": {
+          "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "ST_Elevation": {
+      "text": "Cardiac\nST-segment elevation myocardial infarction\n(STEMI)\nPost-MI (ventricular aneurysm pattern)\nPrevious MI with recurrent ischemia in same area\nWellens' syndrome\nCoronary artery vasospasm\n(eg, Prinzmetal's angina)\nCoronary artery dissection\nPericarditis\nMyocarditis\nAortic dissection\nin to coronary\nLeft ventricular aneurysm\nLeft ventricular pseudoaneurysm\nEarly repolarization\nLeft bundle branch block\nLeft ventricular hypertrophy (LVH)\nMyocardial tumor\nMyocardial trauma\nRV pacing (appears as\nLeft bundle branch block\n)\nBrugada syndrome\nTakotsubo cardiomyopathy\nAVR ST elevation\nOther thoracic\nPneumomediastinum\nPneumothorax\nPulmonary embolism\nMetabolic\nDrugs of abuse\n(eg, cocaine, crack, meth)\nCocaine chest pain\nHyperkalemia\n(only leads V1 and V2)\nHypothermia\n(\"Osborn J waves\")\nMedications\nTricyclic (TCA) toxicity\nDigoxin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ST-segment elevation myocardial infarction",
+          "url": "https://wikem.org/wiki/ST-segment_elevation_myocardial_infarction"
+        },
+        {
+          "text": "Wellens' syndrome",
+          "url": "https://wikem.org/wiki/Wellens%27_syndrome"
+        },
+        {
+          "text": "Coronary artery vasospasm",
+          "url": "https://wikem.org/wiki/Coronary_artery_vasospasm"
+        },
+        {
+          "text": "Coronary artery dissection",
+          "url": "https://wikem.org/wiki/Coronary_artery_dissection"
+        },
+        {
+          "text": "Pericarditis",
+          "url": "https://wikem.org/wiki/Pericarditis"
+        },
+        {
+          "text": "Myocarditis",
+          "url": "https://wikem.org/wiki/Myocarditis"
+        },
+        {
+          "text": "Aortic dissection",
+          "url": "https://wikem.org/wiki/Aortic_dissection"
+        },
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        },
+        {
+          "text": "Early repolarization",
+          "url": "https://wikem.org/wiki/Early_repolarization"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Left ventricular hypertrophy (LVH)",
+          "url": "https://wikem.org/wiki/Left_ventricular_hypertrophy_(LVH)"
+        },
+        {
+          "text": "Myocardial trauma",
+          "url": "https://wikem.org/wiki/Myocardial_trauma"
+        },
+        {
+          "text": "Left bundle branch block",
+          "url": "https://wikem.org/wiki/Left_bundle_branch_block"
+        },
+        {
+          "text": "Brugada syndrome",
+          "url": "https://wikem.org/wiki/Brugada_syndrome"
+        },
+        {
+          "text": "Takotsubo cardiomyopathy",
+          "url": "https://wikem.org/wiki/Takotsubo_cardiomyopathy"
+        },
+        {
+          "text": "AVR ST elevation",
+          "url": "https://wikem.org/wiki/AVR_ST_elevation"
+        },
+        {
+          "text": "Pneumomediastinum",
+          "url": "https://wikem.org/wiki/Pneumomediastinum"
+        },
+        {
+          "text": "Pneumothorax",
+          "url": "https://wikem.org/wiki/Pneumothorax"
+        },
+        {
+          "text": "Pulmonary embolism",
+          "url": "https://wikem.org/wiki/Pulmonary_embolism"
+        },
+        {
+          "text": "Drugs of abuse",
+          "url": "https://wikem.org/wiki/Drugs_of_abuse"
+        },
+        {
+          "text": "Cocaine chest pain",
+          "url": "https://wikem.org/wiki/Cocaine_chest_pain"
+        },
+        {
+          "text": "Hyperkalemia",
+          "url": "https://wikem.org/wiki/Hyperkalemia"
+        },
+        {
+          "text": "Hypothermia",
+          "url": "https://wikem.org/wiki/Hypothermia"
+        },
+        {
+          "text": "Tricyclic (TCA) toxicity",
+          "url": "https://wikem.org/wiki/Tricyclic_(TCA)_toxicity"
+        },
+        {
+          "text": "Digoxin",
+          "url": "https://wikem.org/wiki/Digoxin"
+        }
+      ]
+    },
+    "Evaluation": {
+      "text": "ECG\nNon-specific ST changes\nST elevation\n(20%)\nCXR\nMass-like appearance\nLV angiography",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "ECG",
+          "url": "https://wikem.org/wiki/ECG"
+        },
+        {
+          "text": "ST elevation",
+          "url": "https://wikem.org/wiki/ST_elevation"
+        },
+        {
+          "text": "CXR",
+          "url": "https://wikem.org/wiki/CXR"
+        }
+      ]
+    },
+    "Management": {
+      "text": "Surgical repair = 10% 5 yr mortality\nMedical therapy = 50% 5 yr mortality",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Complications": {
+      "text": "Angina (increased O2 demand)\nComplete\nLV rupture",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "LV rupture",
+          "url": "https://wikem.org/wiki/Cardiac_rupture"
+        }
+      ]
+    },
+    "See_Also": {
+      "text": "Left ventricular aneurysm",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Left ventricular aneurysm",
+          "url": "https://wikem.org/wiki/Left_ventricular_aneurysm"
+        }
+      ]
+    }
+  }
+}

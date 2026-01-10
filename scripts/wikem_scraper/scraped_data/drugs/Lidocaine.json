@@ -1,0 +1,242 @@
+{
+  "drug_name": "Lidocaine",
+  "url": "https://wikem.org/wiki/Lidocaine",
+  "scraped_at": "2026-01-10T07:56:27.101576",
+  "sections": {
+    "Intro": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.\n",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "General": {
+      "text": "Also known internationally as lignocaine\nType:\nLocal anesthetics\n;\nAntiarrhythmics\nDosage Forms: Local injection, transdermal, intravenous, inhaled, viscous\nCommon Trade Names: Xylocaine, P-Care, ReadySharp Lidocaine, Xylocard\n[1]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Local anesthetics",
+          "url": "https://wikem.org/wiki/Local_anesthetics"
+        },
+        {
+          "text": "Antiarrhythmics",
+          "url": "https://wikem.org/wiki/Antiarrhythmics"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Local_Anesthetic": {
+          "text": "Maximum without epinephrine: 5mg/kg (max 300mg)\nMaximum with epinepherine: 7mg/kg (max 500mg)",
+          "tables": []
+        },
+        "Antiarrhythmic": {
+          "text": "Loading dose = 2% 1-1.5mg/kg\nAdditional boluses of 0.5-0.75mg/kg q5-10min up to max of 3mg/kg\nIf effective start infusion of 2mg/min\nIndications\nTreatment of ventricular arrhythmias and ectopy\nConsidered 2nd-line to\namiodarone\nfor treatment of\nV-fib\nand\npulseless v-tach",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "V-fib",
+          "url": "https://wikem.org/wiki/V-fib"
+        },
+        {
+          "text": "pulseless v-tach",
+          "url": "https://wikem.org/wiki/Pulseless_v-tach"
+        }
+      ]
+    },
+    "Local_Anesthetic": {
+      "text": "Maximum without epinephrine: 5mg/kg (max 300mg)\nMaximum with epinepherine: 7mg/kg (max 500mg)",
+      "subsections": {
+        "Antiarrhythmic": {
+          "text": "Loading dose = 2% 1-1.5mg/kg\nAdditional boluses of 0.5-0.75mg/kg q5-10min up to max of 3mg/kg\nIf effective start infusion of 2mg/min\nIndications\nTreatment of ventricular arrhythmias and ectopy\nConsidered 2nd-line to\namiodarone\nfor treatment of\nV-fib\nand\npulseless v-tach",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "V-fib",
+          "url": "https://wikem.org/wiki/V-fib"
+        },
+        {
+          "text": "pulseless v-tach",
+          "url": "https://wikem.org/wiki/Pulseless_v-tach"
+        }
+      ]
+    },
+    "Antiarrhythmic": {
+      "text": "Loading dose = 2% 1-1.5mg/kg\nAdditional boluses of 0.5-0.75mg/kg q5-10min up to max of 3mg/kg\nIf effective start infusion of 2mg/min\nIndications\nTreatment of ventricular arrhythmias and ectopy\nConsidered 2nd-line to\namiodarone\nfor treatment of\nV-fib\nand\npulseless v-tach",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "amiodarone",
+          "url": "https://wikem.org/wiki/Amiodarone"
+        },
+        {
+          "text": "V-fib",
+          "url": "https://wikem.org/wiki/V-fib"
+        },
+        {
+          "text": "pulseless v-tach",
+          "url": "https://wikem.org/wiki/Pulseless_v-tach"
+        }
+      ]
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Local_Anesthetic_2": {
+          "text": "Without epinepherine: 5mg/kg (max 300mg)\nWith epinepherine: 7mg/kg (max 500mg)",
+          "tables": []
+        },
+        "Antiarrhythmic_2": {
+          "text": "See\ncritical care quick reference\nfor drug doses by weight.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Local_Anesthetic_2": {
+      "text": "Without epinepherine: 5mg/kg (max 300mg)\nWith epinepherine: 7mg/kg (max 500mg)",
+      "subsections": {
+        "Antiarrhythmic_2": {
+          "text": "See\ncritical care quick reference\nfor drug doses by weight.",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Antiarrhythmic_2": {
+      "text": "See\ncritical care quick reference\nfor drug doses by weight.",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: American B, Australia A\nLactation: Not expected to cause any adverse effect\n[2]\nRenal Dosing\nAdult: No adjustment provided in manufacturer's labelling but accumulation of metabolites may be increased in renal dysfunction\n[3]\nPediatric: No adjustment provided in manufacturer's labelling\n[4]\nHepatic Dosing\nAdult: Reduce maintenance infusion when used IV (0.75 mg/minute). Monitor concentration.\n[5]\nPediatric: Use with caution. Reduce dose.\n[6]",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to amide anesthetics\nNote that these allergies are rare and are often caused by preservative, so a preservative-free formulation may be appropriate\nNote that allergy to amide anesthetics does not suggest allergy to ester anesthetics\nHigh SA or AV block (without pacemaker)\nConcurrent treatment with Class I anti-dysrhythmic agents\nWolff-Parkinson-White syndrome",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Wolff-Parkinson-White syndrome",
+          "url": "https://wikem.org/wiki/Wolff-Parkinson-White_syndrome"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Local": {
+          "text": "Dermatologic\nItching or irritation\nDepigmentation\nRash/urticaria\nEdema\nVenous inflammation",
+          "tables": []
+        },
+        "Serious": {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)\nRare during infiltration of local anesthetic\nCNS toxicity\nMetallic taste\nTinnitus\nTingling of lips\nDizziness\nAnxiety\nConfusion\nLethargy\nLoss of consciousness\nSeizures\nNausea/vomiting\nCardiovascular toxicity\nBradycardia\nDecreased myocardial contractility\nAtrioventricular block\nVasodilation\nVentricular arrhythmias\nCardiac arrest\nBronchospasm\nRespiratory depression or arrest\nMethemoglobinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)",
+          "url": "https://wikem.org/wiki/Local_Anesthetic_Systemic_Toxicity_(LAST)"
+        }
+      ]
+    },
+    "Local": {
+      "text": "Dermatologic\nItching or irritation\nDepigmentation\nRash/urticaria\nEdema\nVenous inflammation",
+      "subsections": {
+        "Serious": {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)\nRare during infiltration of local anesthetic\nCNS toxicity\nMetallic taste\nTinnitus\nTingling of lips\nDizziness\nAnxiety\nConfusion\nLethargy\nLoss of consciousness\nSeizures\nNausea/vomiting\nCardiovascular toxicity\nBradycardia\nDecreased myocardial contractility\nAtrioventricular block\nVasodilation\nVentricular arrhythmias\nCardiac arrest\nBronchospasm\nRespiratory depression or arrest\nMethemoglobinemia",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)",
+          "url": "https://wikem.org/wiki/Local_Anesthetic_Systemic_Toxicity_(LAST)"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Local Anesthetic Systemic Toxicity (LAST)\nRare during infiltration of local anesthetic\nCNS toxicity\nMetallic taste\nTinnitus\nTingling of lips\nDizziness\nAnxiety\nConfusion\nLethargy\nLoss of consciousness\nSeizures\nNausea/vomiting\nCardiovascular toxicity\nBradycardia\nDecreased myocardial contractility\nAtrioventricular block\nVasodilation\nVentricular arrhythmias\nCardiac arrest\nBronchospasm\nRespiratory depression or arrest\nMethemoglobinemia",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Local Anesthetic Systemic Toxicity (LAST)",
+          "url": "https://wikem.org/wiki/Local_Anesthetic_Systemic_Toxicity_(LAST)"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Pharmacokinetics\nOnset of action = 45-90s\nDuration of action = 10-20min (antiarrythmic IV); 30-90 min (subcutaneous)\nHalf-life 90 - 120 minutes\nProlonged in hepatic impairment or congestive heart failure\nMetabolism\nPrimarily hepatic\nExcretion\nUrine\nMechanism of Action\nClass Ib antiarrythmic\nBinds to fast Na channels in inactive state thereby raising the depolarization threshold\nActs preferentially on ischemic tissue\nElevates V-fib threshold\nSuppresses ventricular ectopy\nLittle effect on vascular tone, contractility, or cardiac output",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "Mix lidocaine 1%/epinephrine with sodium bicarbonate 8.4% in 3:1 ratio results in significantly less painful injections.\n[7]\n[8]\nShorter shelf-life due to decreased stability (use within 2 hours in the Vent A study)\nWarming local anesthetics also decreases pain of injection\n[9]\nInject through wound edges whenever possible\nAvoid injecting through intact skin when possible",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Local anesthetic systemic toxicity\nCritical care quick reference",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Local anesthetic systemic toxicity",
+          "url": "https://wikem.org/wiki/Local_anesthetic_systemic_toxicity"
+        },
+        {
+          "text": "Critical care quick reference",
+          "url": "https://wikem.org/wiki/Critical_care_quick_reference"
+        }
+      ]
+    }
+  }
+}

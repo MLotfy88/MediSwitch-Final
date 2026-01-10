@@ -1,0 +1,656 @@
+{
+  "drug_name": "Levofloxacin",
+  "url": "https://wikem.org/wiki/Levofloxacin",
+  "scraped_at": "2026-01-10T07:56:25.208835",
+  "sections": {
+    "General": {
+      "text": "Type: 3rd generation\nFluoroquinolones\nDosage Forms: PO, IV, Inhaled\nCommon Trade Names: Levaquin",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Fluoroquinolones",
+          "url": "https://wikem.org/wiki/Fluoroquinolones"
+        }
+      ]
+    },
+    "Adult_Dosing": {
+      "text": "",
+      "subsections": {
+        "Pneumonia": {
+          "text": "Community acquired\n750mg PO/IV q24h x 5 days\nNosocomial\n750 gm PO/IV q24h x 7-14 days",
+          "tables": []
+        },
+        "Prostatitis": {
+          "text": "500 MG PO/IV q24h x 28 days",
+          "tables": []
+        },
+        "Pyelonephritis": {
+          "text": "750mg PO/IV q24h x 5 days",
+          "tables": []
+        },
+        "Skin_infection": {
+          "text": "Uncomplicated\n500mg PO/IV q24h x 7-10 days\nComplicated\n750mg PO/IV q24h x 7-14 days",
+          "tables": []
+        },
+        "UTI": {
+          "text": "Uncomplicated\n250mg PO/IV q24h x 3days\nComplicated\n750mg PO/IV q24h x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pneumonia": {
+      "text": "Community acquired\n750mg PO/IV q24h x 5 days\nNosocomial\n750 gm PO/IV q24h x 7-14 days",
+      "subsections": {
+        "Prostatitis": {
+          "text": "500 MG PO/IV q24h x 28 days",
+          "tables": []
+        },
+        "Pyelonephritis": {
+          "text": "750mg PO/IV q24h x 5 days",
+          "tables": []
+        },
+        "Skin_infection": {
+          "text": "Uncomplicated\n500mg PO/IV q24h x 7-10 days\nComplicated\n750mg PO/IV q24h x 7-14 days",
+          "tables": []
+        },
+        "UTI": {
+          "text": "Uncomplicated\n250mg PO/IV q24h x 3days\nComplicated\n750mg PO/IV q24h x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Prostatitis": {
+      "text": "500 MG PO/IV q24h x 28 days",
+      "subsections": {
+        "Pyelonephritis": {
+          "text": "750mg PO/IV q24h x 5 days",
+          "tables": []
+        },
+        "Skin_infection": {
+          "text": "Uncomplicated\n500mg PO/IV q24h x 7-10 days\nComplicated\n750mg PO/IV q24h x 7-14 days",
+          "tables": []
+        },
+        "UTI": {
+          "text": "Uncomplicated\n250mg PO/IV q24h x 3days\nComplicated\n750mg PO/IV q24h x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Pyelonephritis": {
+      "text": "750mg PO/IV q24h x 5 days",
+      "subsections": {
+        "Skin_infection": {
+          "text": "Uncomplicated\n500mg PO/IV q24h x 7-10 days\nComplicated\n750mg PO/IV q24h x 7-14 days",
+          "tables": []
+        },
+        "UTI": {
+          "text": "Uncomplicated\n250mg PO/IV q24h x 3days\nComplicated\n750mg PO/IV q24h x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Skin_infection": {
+      "text": "Uncomplicated\n500mg PO/IV q24h x 7-10 days\nComplicated\n750mg PO/IV q24h x 7-14 days",
+      "subsections": {
+        "UTI": {
+          "text": "Uncomplicated\n250mg PO/IV q24h x 3days\nComplicated\n750mg PO/IV q24h x 5 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "UTI": {
+      "text": "Uncomplicated\n250mg PO/IV q24h x 3days\nComplicated\n750mg PO/IV q24h x 5 days",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Pediatric_Dosing": {
+      "text": "",
+      "subsections": {
+        "Pneumonia_(Community_acquired)": {
+          "text": "6 months - 4 years old\n16-20mg/kg/day IV or PO, divided q12h x 10 days\n5-16 years old\n8-10mg/kg/day IV or PO, divided q12h x 10 days",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "Pregnancy Rating\n: C\nLactation: Probably Safe\nRenal Dosing\nAdult\nIf usual dose is 750mg qd\nCrCl 20-49: 750mg q48h\nCrCl 10-19: 750mg x1 then 500mg q48h\nCrCl <10:   Not defined\nHD/PD: No supplement\nIf usual dose is 500mg qd\nCrCl 20-49: 500mg x1, then 250mg q24h\nCrCl 10-19: 500mg x1, then 250mg q48h\nCrCl <10:   Not defined\nHD/PD: No supplement\nIf usual dose is 250mg qd\nCrCl 10-19: 250mg q48h\nCrCl <10:   Not defined\nHD/PD: No supplement\nPediatric\nCrCl 10-29: Give q24h\nCrCl <10: Give q48h\nHD/PD: No supplement\nHepatic Dosing: not defined",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Pregnancy Rating",
+          "url": "https://wikem.org/wiki/Drug_Ratings_in_Pregnancy"
+        }
+      ]
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nMyasthenia gravis\nLong QT\nUncorrected\nelectrolyte abnormalities",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Myasthenia gravis",
+          "url": "https://wikem.org/wiki/Myasthenia_gravis"
+        },
+        {
+          "text": "Long QT",
+          "url": "https://wikem.org/wiki/Long_QT"
+        },
+        {
+          "text": "electrolyte abnormalities",
+          "url": "https://wikem.org/wiki/Electrolyte_abnormalities"
+        }
+      ]
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Anaphylaxis\n, hypersensitivity\nPhototoxicity\nC. difficile\ndiarrhea\nSeizures\nDepression\n/ suicidal ideation\nTorsades de Pointes\nVasculitis\nRenal toxicity\nHepatic toxicity\nTendon rupture/tendinitis (black box warning, inc aged 60+/immunosuppressed/corticosteroid use)\nMyasthenia exacerbation\nSevere Hypoglycemia\n[1]",
+          "tables": []
+        },
+        "Common": {
+          "text": "Nausea/vomiting\n,\ndiarrhea\n,\nconstipation\n,\nabdominal pain\nHeadache\nInsomnia\nDizziness\nTendinitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Torsades de Pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_Pointes"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Tendinitis",
+          "url": "https://wikem.org/wiki/Tendinitis"
+        }
+      ]
+    },
+    "Serious": {
+      "text": "Anaphylaxis\n, hypersensitivity\nPhototoxicity\nC. difficile\ndiarrhea\nSeizures\nDepression\n/ suicidal ideation\nTorsades de Pointes\nVasculitis\nRenal toxicity\nHepatic toxicity\nTendon rupture/tendinitis (black box warning, inc aged 60+/immunosuppressed/corticosteroid use)\nMyasthenia exacerbation\nSevere Hypoglycemia\n[1]",
+      "subsections": {
+        "Common": {
+          "text": "Nausea/vomiting\n,\ndiarrhea\n,\nconstipation\n,\nabdominal pain\nHeadache\nInsomnia\nDizziness\nTendinitis",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Anaphylaxis",
+          "url": "https://wikem.org/wiki/Anaphylaxis"
+        },
+        {
+          "text": "C. difficile",
+          "url": "https://wikem.org/wiki/C._difficile"
+        },
+        {
+          "text": "Seizures",
+          "url": "https://wikem.org/wiki/Seizures"
+        },
+        {
+          "text": "Depression",
+          "url": "https://wikem.org/wiki/Depression"
+        },
+        {
+          "text": "Torsades de Pointes",
+          "url": "https://wikem.org/wiki/Torsades_de_Pointes"
+        },
+        {
+          "text": "Vasculitis",
+          "url": "https://wikem.org/wiki/Vasculitis"
+        },
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Tendinitis",
+          "url": "https://wikem.org/wiki/Tendinitis"
+        }
+      ]
+    },
+    "Common": {
+      "text": "Nausea/vomiting\n,\ndiarrhea\n,\nconstipation\n,\nabdominal pain\nHeadache\nInsomnia\nDizziness\nTendinitis",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Nausea/vomiting",
+          "url": "https://wikem.org/wiki/Nausea/vomiting"
+        },
+        {
+          "text": "diarrhea",
+          "url": "https://wikem.org/wiki/Diarrhea"
+        },
+        {
+          "text": "constipation",
+          "url": "https://wikem.org/wiki/Constipation"
+        },
+        {
+          "text": "abdominal pain",
+          "url": "https://wikem.org/wiki/Abdominal_pain"
+        },
+        {
+          "text": "Headache",
+          "url": "https://wikem.org/wiki/Headache"
+        },
+        {
+          "text": "Insomnia",
+          "url": "https://wikem.org/wiki/Insomnia"
+        },
+        {
+          "text": "Dizziness",
+          "url": "https://wikem.org/wiki/Dizziness"
+        },
+        {
+          "text": "Tendinitis",
+          "url": "https://wikem.org/wiki/Tendinitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Half-life: 6-8 h\nMetabolism: CYP450\nExcretion: Urine\nMechanism of Action: Bactericidal, inhibits DNA gyrase / Topoisomerase IV",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Antibiotic_Sensitivities": {
+      "text": "",
+      "subsections": {
+        "Key": {
+          "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+          "tables": []
+        }
+      },
+      "tables": [
+        [
+          {
+            "Group": "Gram Positive",
+            "Organism": "Strep. Group A, B, C, G",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. Pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Viridans strep",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Strep. anginosus gp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterococcus faecium",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "MSSA",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "MRSA",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "CA-MRSA",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Staph. Epidermidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "C. jeikeium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "L. monocytogenes",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "Gram Negatives",
+            "Organism": "N. gonorrhoeae",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "N. meningitidis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Moraxella catarrhalis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "H. influenzae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Klebsiellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E. coli/Klebsiella ESBL+",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "E coli/Klebsiella KPC+",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC neg",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Enterobactersp, AmpC pos",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratiasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Serratia marcescens",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Salmonellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Shigellasp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus mirabilis",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Proteus vulgaris",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Providencia sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Morganella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter freundii",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter diversus",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Citrobacter sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Aeromonas sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Acinetobacter sp.",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Pseudomonas aeruginosa",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Burkholderia cepacia",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Stenotrophomonas maltophilia",
+            "Sensitivity": "I"
+          },
+          {
+            "Group": "",
+            "Organism": "Yersinia enterocolitica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Francisella tularensis",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Brucella sp.",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Legionella sp.",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Pasteurella multocida",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Haemophilus ducreyi",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Vibrio vulnificus",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Misc",
+            "Organism": "Chlamydophila sp",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycoplasm pneumoniae",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Rickettsia sp",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Mycobacterium avium",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "Anaerobes",
+            "Organism": "Actinomyces",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Bacteroides fragilis",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Prevotella melaninogenica",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium difficile",
+            "Sensitivity": "R"
+          },
+          {
+            "Group": "",
+            "Organism": "Clostridium (not difficile)",
+            "Sensitivity": "S"
+          },
+          {
+            "Group": "",
+            "Organism": "Fusobacterium necrophorum",
+            "Sensitivity": "X1"
+          },
+          {
+            "Group": "",
+            "Organism": "Peptostreptococcus sp.",
+            "Sensitivity": "S"
+          }
+        ]
+      ],
+      "links": []
+    },
+    "Key": {
+      "text": "S\nsusceptible/sensitive (usually)\nI\nintermediate (variably susceptible/resistant)\nR\nresistant (or not effective clinically)\nS+\nsynergistic with cell wall antibiotics\nU\nsensitive for UTI only (non systemic infection)\nX1\nno data\nX2\nactive in vitro, but not used clinically\nX3\nactive in vitro, but not clinically effective for Group A strep pharyngitis or infections due to E. faecalis\nX4\nactive in vitro, but not clinically effective for strep pneumonia",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "See_Also": {
+      "text": "Antibiotics (Main)",
+      "subsections": {},
+      "tables": [],
+      "links": [
+        {
+          "text": "Antibiotics (Main)",
+          "url": "https://wikem.org/wiki/Antibiotics_(Main)"
+        }
+      ]
+    }
+  }
+}
