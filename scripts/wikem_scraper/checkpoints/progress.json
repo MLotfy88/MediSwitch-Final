@@ -159,10 +159,14 @@
     "Chlorpromazine",
     "Ciclesonide",
     "Cilostazol",
-    "Cimetidine"
+    "Cimetidine",
+    "Ciprofloxacin",
+    "Cisatricurium",
+    "Clarithromycin",
+    "Clevidipine"
   ],
   "failed_drugs": [],
-  "last_updated": "2026-01-10T03:09:08.302411",
-  "total_scraped": 160,
+  "last_updated": "2026-01-10T03:09:30.290627",
+  "total_scraped": 164,
   "total_failed": 0
 }

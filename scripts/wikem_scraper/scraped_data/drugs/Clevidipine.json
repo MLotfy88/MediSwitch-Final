@@ -1,0 +1,86 @@
+{
+  "drug_name": "Clevidipine",
+  "url": "https://wikem.org/wiki/Clevidipine",
+  "scraped_at": "2026-01-10T03:09:30.283510",
+  "sections": {
+    "Adult_Dosing": {
+      "text": "Hypertension\n1-2 mg IV per hour\nTitration: Double dose at 90 second intervals toward blood pressure goal.\nFor every 1-2 mg/hour increase should see 2-4 mm Hg reduction",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Special_Populations": {
+      "text": "",
+      "subsections": {
+        "Pregnancy_Rating": {
+          "text": "C",
+          "tables": []
+        },
+        "Lactation_risk": {
+          "text": "Unknown",
+          "tables": []
+        },
+        "Renal_Dosing": {
+          "text": "None",
+          "tables": []
+        },
+        "Hepatic_Dosing": {
+          "text": "None",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": []
+    },
+    "Contraindications": {
+      "text": "Allergy to class/drug\nAllergy to soybeans, soy products, eggs, egg products\nSevere aortic stenosis",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Adverse_Reactions": {
+      "text": "",
+      "subsections": {
+        "Serious": {
+          "text": "Atrial fibrillation\nRenal failure\nMI (<1%)\nIntestinal obstruction (<1%)\nHypertriglyceridemia\n- similar to\npropofol\n, formulated with 20% fat emulsion, risk of developing\npancreatitis",
+          "tables": []
+        },
+        "Common": {
+          "text": "Insomnia\nNausea\nFever\nHeadache",
+          "tables": []
+        }
+      },
+      "tables": [],
+      "links": [
+        {
+          "text": "Atrial fibrillation",
+          "url": "https://wikem.org/wiki/Atrial_fibrillation"
+        },
+        {
+          "text": "Hypertriglyceridemia",
+          "url": "https://wikem.org/wiki/Hypertriglyceridemia"
+        },
+        {
+          "text": "propofol",
+          "url": "https://wikem.org/wiki/Propofol"
+        },
+        {
+          "text": "pancreatitis",
+          "url": "https://wikem.org/wiki/Pancreatitis"
+        }
+      ]
+    },
+    "Pharmacology": {
+      "text": "Onset: 2-4 minutes\nHalf-life: 1 minute\nMetabolism: hydrolysis by esterases in blood\nExcretion: Urine (63-74%); feces (7 to 22%)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    },
+    "Comments": {
+      "text": "$1.67 per mL (25 mg/50mL or 50 mg/100 mL)",
+      "subsections": {},
+      "tables": [],
+      "links": []
+    }
+  }
+}
